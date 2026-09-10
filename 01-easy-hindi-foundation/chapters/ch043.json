@@ -1,0 +1,1453 @@
+{
+  "chapter_id": "ch043",
+  "status": "drafted",
+  "title_target": "खोई चीज़ और रिपोर्ट",
+  "title_bangla_pronunciation": "খোই চীজ অউর রিপোর্ট",
+  "title_word_pronunciations": [
+    {
+      "target": "खोई",
+      "bangla_pronunciation": "খোই",
+      "separator_after": " "
+    },
+    {
+      "target": "चीज़",
+      "bangla_pronunciation": "চীজ",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "रिपोर्ट",
+      "bangla_pronunciation": "রিপোর্ট",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "হারানো জিনিস ও রিপোর্ট",
+  "goal_bengali_md": "ফোন, ব্যাগ বা কাগজ হারালে কোথায় হারিয়েছে, কেমন দেখতে, যোগাযোগ নম্বর ও অভিযোগ জানানোর মৌলিক হিন্দি বলা।",
+  "sentences": [
+    {
+      "id": "s01",
+      "target": "मेरा फोन खो गया है।",
+      "romanization": "mera phon kho gaya hai।",
+      "bangla_pronunciation": "মেরা ফোন খো গয়া হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "फोन",
+          "bangla_pronunciation": "ফোন",
+          "separator_after": " "
+        },
+        {
+          "target": "खो",
+          "bangla_pronunciation": "খো",
+          "separator_after": " "
+        },
+        {
+          "target": "गया",
+          "bangla_pronunciation": "গয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার ফোন হারিয়ে গেছে।"
+    },
+    {
+      "id": "s02",
+      "target": "मैंने फोन बस में देखा था।",
+      "romanization": "mainne phon bas men dekha tha।",
+      "bangla_pronunciation": "ম্যায়নে ফোন বস মেঁ দেখা থা",
+      "word_pronunciations": [
+        {
+          "target": "मैंने",
+          "bangla_pronunciation": "ম্যায়নে",
+          "separator_after": " "
+        },
+        {
+          "target": "फोन",
+          "bangla_pronunciation": "ফোন",
+          "separator_after": " "
+        },
+        {
+          "target": "बस",
+          "bangla_pronunciation": "বস",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "देखा",
+          "bangla_pronunciation": "দেখা",
+          "separator_after": " "
+        },
+        {
+          "target": "था।",
+          "bangla_pronunciation": "থা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি ফোনটি বাসে দেখেছিলাম।"
+    },
+    {
+      "id": "s03",
+      "target": "मेरा बैग भी नहीं मिल रहा।",
+      "romanization": "mera baig bhii nahiin mil raha।",
+      "bangla_pronunciation": "মেরা ব্যাগ ভি নহীঁ মিল রহা",
+      "word_pronunciations": [
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "बैग",
+          "bangla_pronunciation": "ব্যাগ",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভি",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "मिल",
+          "bangla_pronunciation": "মিল",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा।",
+          "bangla_pronunciation": "রহা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার ব্যাগটিও পাওয়া যাচ্ছে না।"
+    },
+    {
+      "id": "s04",
+      "target": "बैग काले रंग का है।",
+      "romanization": "baig kaale rang ka hai।",
+      "bangla_pronunciation": "ব্যাগ কালে রং কা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "बैग",
+          "bangla_pronunciation": "ব্যাগ",
+          "separator_after": " "
+        },
+        {
+          "target": "काले",
+          "bangla_pronunciation": "কালে",
+          "separator_after": " "
+        },
+        {
+          "target": "रंग",
+          "bangla_pronunciation": "রং",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাগটি কালো রঙের।"
+    },
+    {
+      "id": "s05",
+      "target": "उसमें मेरे कागज़ हैं।",
+      "romanization": "usamen mere kaagaj hain।",
+      "bangla_pronunciation": "উসমেঁ মেরে কাগজ হ্যায়ঁ",
+      "word_pronunciations": [
+        {
+          "target": "उसमें",
+          "bangla_pronunciation": "উসমেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "कागज़",
+          "bangla_pronunciation": "কাগজ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যায়ঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তার মধ্যে আমার কাগজপত্র আছে।"
+    },
+    {
+      "id": "s06",
+      "target": "क्या आपने यह बैग देखा?",
+      "romanization": "kya aapane yah baig dekha?",
+      "bangla_pronunciation": "ক্যা আপনে ইয়হ ব্যাগ দেখা",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आपने",
+          "bangla_pronunciation": "আপনে",
+          "separator_after": " "
+        },
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "separator_after": " "
+        },
+        {
+          "target": "बैग",
+          "bangla_pronunciation": "ব্যাগ",
+          "separator_after": " "
+        },
+        {
+          "target": "देखा?",
+          "bangla_pronunciation": "দেখা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপনি কি এই ব্যাগটি দেখেছেন?"
+    },
+    {
+      "id": "s07",
+      "target": "मैं कहाँ रिपोर्ट करूँ?",
+      "romanization": "main kahaan riport karuun?",
+      "bangla_pronunciation": "ম্যাঁয় কহাঁ রিপোর্ট করুঁ",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁয়",
+          "separator_after": " "
+        },
+        {
+          "target": "कहाँ",
+          "bangla_pronunciation": "কহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "रिपोर्ट",
+          "bangla_pronunciation": "রিপোর্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "करूँ?",
+          "bangla_pronunciation": "করুঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি কোথায় রিপোর্ট করব?"
+    },
+    {
+      "id": "s08",
+      "target": "कृपया मेरी शिकायत लिखिए।",
+      "romanization": "kripaya merii shikaayat likhie।",
+      "bangla_pronunciation": "কৃপয়া মেরি শিকায়ত লিখিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरी",
+          "bangla_pronunciation": "মেরি",
+          "separator_after": " "
+        },
+        {
+          "target": "शिकायत",
+          "bangla_pronunciation": "শিকায়ত",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দয়া করে আমার অভিযোগটি লিখুন।"
+    },
+    {
+      "id": "s09",
+      "target": "घटना शाम पाँच बजे हुई।",
+      "romanization": "ghatana shaam paanch baje huii।",
+      "bangla_pronunciation": "ঘটনা শাম পাঁচ বজে হুই",
+      "word_pronunciations": [
+        {
+          "target": "घटना",
+          "bangla_pronunciation": "ঘটনা",
+          "separator_after": " "
+        },
+        {
+          "target": "शाम",
+          "bangla_pronunciation": "শাম",
+          "separator_after": " "
+        },
+        {
+          "target": "पाँच",
+          "bangla_pronunciation": "পাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "बजे",
+          "bangla_pronunciation": "বজে",
+          "separator_after": " "
+        },
+        {
+          "target": "हुई।",
+          "bangla_pronunciation": "হুই",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঘটনাটি সন্ধ্যা পাঁচটায় ঘটেছে।"
+    },
+    {
+      "id": "s10",
+      "target": "मैं स्टेशन के पास था।",
+      "romanization": "main steshan ke paas tha।",
+      "bangla_pronunciation": "ম্যাঁয় স্টেশন কে পাস থা",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁয়",
+          "separator_after": " "
+        },
+        {
+          "target": "स्टेशन",
+          "bangla_pronunciation": "স্টেশন",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "था।",
+          "bangla_pronunciation": "থা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি স্টেশনের কাছে ছিলাম।"
+    },
+    {
+      "id": "s11",
+      "target": "मेरे दस्तावेज़ बहुत जरूरी हैं।",
+      "romanization": "mere dastaavej bahut jaruurii hain।",
+      "bangla_pronunciation": "মেরে দস্তাবেজ বহুত জরুরি হ্যায়ঁ",
+      "word_pronunciations": [
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "दस्तावेज़",
+          "bangla_pronunciation": "দস্তাবেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরুরি",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যায়ঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার নথিপত্র খুব জরুরি।"
+    },
+    {
+      "id": "s12",
+      "target": "यह मेरा संपर्क नंबर है।",
+      "romanization": "yah mera sanpark nanbar hai।",
+      "bangla_pronunciation": "ইয়হ মেরা সম্পর্ক নম্বর হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "संपर्क",
+          "bangla_pronunciation": "সম্পর্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "नंबर",
+          "bangla_pronunciation": "নম্বর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এটি আমার যোগাযোগ নম্বর।"
+    },
+    {
+      "id": "s13",
+      "target": "मुझे एक रसीद दीजिए।",
+      "romanization": "mujhe ek rasiid diijie।",
+      "bangla_pronunciation": "মুঝে এক রসিদ দিজিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসিদ",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমাকে একটি রসিদ দিন।"
+    },
+    {
+      "id": "s14",
+      "target": "क्या कोई खबर मिली?",
+      "romanization": "kya koii khabar milii?",
+      "bangla_pronunciation": "ক্যা কোই খবর মিলি",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "कोई",
+          "bangla_pronunciation": "কোই",
+          "separator_after": " "
+        },
+        {
+          "target": "खबर",
+          "bangla_pronunciation": "খবর",
+          "separator_after": " "
+        },
+        {
+          "target": "मिली?",
+          "bangla_pronunciation": "মিলি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কোনো খবর পাওয়া গেছে?"
+    },
+    {
+      "id": "s15",
+      "target": "अभी कोई खबर नहीं है।",
+      "romanization": "abhii koii khabar nahiin hai।",
+      "bangla_pronunciation": "অভি কোই খবর নহীঁ হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "अभी",
+          "bangla_pronunciation": "অভি",
+          "separator_after": " "
+        },
+        {
+          "target": "कोई",
+          "bangla_pronunciation": "কোই",
+          "separator_after": " "
+        },
+        {
+          "target": "खबर",
+          "bangla_pronunciation": "খবর",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এখনও কোনো খবর নেই।"
+    },
+    {
+      "id": "s16",
+      "target": "हम आपको फोन करेंगे।",
+      "romanization": "ham aapako phon karenge।",
+      "bangla_pronunciation": "হাম আপকো ফোন করেঙ্গে",
+      "word_pronunciations": [
+        {
+          "target": "हम",
+          "bangla_pronunciation": "হাম",
+          "separator_after": " "
+        },
+        {
+          "target": "आपको",
+          "bangla_pronunciation": "আপকো",
+          "separator_after": " "
+        },
+        {
+          "target": "फोन",
+          "bangla_pronunciation": "ফোন",
+          "separator_after": " "
+        },
+        {
+          "target": "करेंगे।",
+          "bangla_pronunciation": "করেঙ্গে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমরা আপনাকে ফোন করব।"
+    },
+    {
+      "id": "s17",
+      "target": "बैग मिल गया है।",
+      "romanization": "baig mil gaya hai।",
+      "bangla_pronunciation": "ব্যাগ মিল গয়া হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "बैग",
+          "bangla_pronunciation": "ব্যাগ",
+          "separator_after": " "
+        },
+        {
+          "target": "मिल",
+          "bangla_pronunciation": "মিল",
+          "separator_after": " "
+        },
+        {
+          "target": "गया",
+          "bangla_pronunciation": "গয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাগটি পাওয়া গেছে।"
+    },
+    {
+      "id": "s18",
+      "target": "सभी कागज़ सुरक्षित हैं।",
+      "romanization": "sabhii kaagaj surakshit hain।",
+      "bangla_pronunciation": "সভি কাগজ সুরক্ষিত হ্যায়ঁ",
+      "word_pronunciations": [
+        {
+          "target": "सभी",
+          "bangla_pronunciation": "সভি",
+          "separator_after": " "
+        },
+        {
+          "target": "कागज़",
+          "bangla_pronunciation": "কাগজ",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षित",
+          "bangla_pronunciation": "সুরক্ষিত",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যায়ঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সব কাগজ নিরাপদ আছে।"
+    },
+    {
+      "id": "s19",
+      "target": "आपकी मदद के लिए धन्यवाद।",
+      "romanization": "aapakii madad ke lie dhanyavaad।",
+      "bangla_pronunciation": "আপকি মদদ কে লিয়ে ধন্যবাদ",
+      "word_pronunciations": [
+        {
+          "target": "आपकी",
+          "bangla_pronunciation": "আপকি",
+          "separator_after": " "
+        },
+        {
+          "target": "मदद",
+          "bangla_pronunciation": "মদদ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "धन्यवाद।",
+          "bangla_pronunciation": "ধন্যবাদ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপনার সাহায্যের জন্য ধন্যবাদ।"
+    },
+    {
+      "id": "s20",
+      "target": "अब मुझे बहुत राहत है।",
+      "romanization": "ab mujhe bahut raahat hai।",
+      "bangla_pronunciation": "অব মুঝে বহুত রাহত হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "अब",
+          "bangla_pronunciation": "অব",
+          "separator_after": " "
+        },
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "राहत",
+          "bangla_pronunciation": "রাহত",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এখন আমি অনেক স্বস্তি বোধ করছি।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v01",
+      "target": "खो",
+      "type": "ক্রিয়া",
+      "romanization": "kho",
+      "bangla_pronunciation": "খো",
+      "word_pronunciations": [
+        {
+          "target": "खो",
+          "bangla_pronunciation": "খো",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "হারিয়ে যাওয়া; এখানে সম্পূর্ণ ক্রিয়া-গঠনের অংশ।",
+      "source_sentence_id": "s01",
+      "source_form": "खो"
+    },
+    {
+      "id": "v02",
+      "target": "बैग",
+      "type": "বিশেষ্য",
+      "romanization": "baig",
+      "bangla_pronunciation": "ব্যাগ",
+      "word_pronunciations": [
+        {
+          "target": "बैग",
+          "bangla_pronunciation": "ব্যাগ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাগ।",
+      "source_sentence_id": "s03",
+      "source_form": "बैग"
+    },
+    {
+      "id": "v03",
+      "target": "कागज़",
+      "type": "বিশেষ্য",
+      "romanization": "kaagaj",
+      "bangla_pronunciation": "কাগজ",
+      "word_pronunciations": [
+        {
+          "target": "कागज़",
+          "bangla_pronunciation": "কাগজ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কাগজপত্র।",
+      "source_sentence_id": "s05",
+      "source_form": "कागज़"
+    },
+    {
+      "id": "v04",
+      "target": "रिपोर्ट",
+      "type": "বিশেষ্য/ক্রিয়া",
+      "romanization": "riport",
+      "bangla_pronunciation": "রিপোর্ট",
+      "word_pronunciations": [
+        {
+          "target": "रिपोर्ट",
+          "bangla_pronunciation": "রিপোর্ট",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রিপোর্ট বা আনুষ্ঠানিকভাবে জানানো।",
+      "source_sentence_id": "s07",
+      "source_form": "रिपोर्ट"
+    },
+    {
+      "id": "v05",
+      "target": "शिकायत",
+      "type": "বিশেষ্য",
+      "romanization": "shikaayat",
+      "bangla_pronunciation": "শিকায়ত",
+      "word_pronunciations": [
+        {
+          "target": "शिकायत",
+          "bangla_pronunciation": "শিকায়ত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অভিযোগ।",
+      "source_sentence_id": "s08",
+      "source_form": "शिकायत"
+    },
+    {
+      "id": "v06",
+      "target": "घटना",
+      "type": "বিশেষ্য",
+      "romanization": "ghatana",
+      "bangla_pronunciation": "ঘটনা",
+      "word_pronunciations": [
+        {
+          "target": "घटना",
+          "bangla_pronunciation": "ঘটনা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঘটনা।",
+      "source_sentence_id": "s09",
+      "source_form": "घटना"
+    },
+    {
+      "id": "v07",
+      "target": "दस्तावेज़",
+      "type": "বিশেষ্য",
+      "romanization": "dastaavej",
+      "bangla_pronunciation": "দস্তাবেজ",
+      "word_pronunciations": [
+        {
+          "target": "दस्तावेज़",
+          "bangla_pronunciation": "দস্তাবেজ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নথি বা ডকুমেন্ট।",
+      "source_sentence_id": "s11",
+      "source_form": "दस्तावेज़"
+    },
+    {
+      "id": "v08",
+      "target": "संपर्क",
+      "type": "বিশেষ্য",
+      "romanization": "sanpark",
+      "bangla_pronunciation": "সম্পর্ক",
+      "word_pronunciations": [
+        {
+          "target": "संपर्क",
+          "bangla_pronunciation": "সম্পর্ক",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "যোগাযোগ; ‘যোগাযোগ নম্বর’ ধরনের ব্যবহারে আসে।",
+      "source_sentence_id": "s12",
+      "source_form": "संपर्क"
+    },
+    {
+      "id": "v09",
+      "target": "रसीद",
+      "type": "বিশেষ্য",
+      "romanization": "rasiid",
+      "bangla_pronunciation": "রসিদ",
+      "word_pronunciations": [
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসিদ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রসিদ বা গ্রহণপত্র।",
+      "source_sentence_id": "s13",
+      "source_form": "रसीद"
+    },
+    {
+      "id": "v10",
+      "target": "राहत",
+      "type": "বিশেষ্য",
+      "romanization": "raahat",
+      "bangla_pronunciation": "রাহত",
+      "word_pronunciations": [
+        {
+          "target": "राहत",
+          "bangla_pronunciation": "রাহত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্বস্তি বা রেহাই।",
+      "source_sentence_id": "s20",
+      "source_form": "राहत"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "বাস কাউন্টারে হারানো ফোন",
+    "scene_summary": "একজন বাংলাদেশি ভ্রমণকারী বাস কাউন্টারে হারানো ফোন ও ব্যাগের বিষয়ে শান্তভাবে রিপোর্ট করছেন।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "ঢাকা থেকে দিল্লি ভ্রমণে নাবিল বাস থেকে নামার পর বুঝল ফোন নেই। সে কাউন্টারে গিয়ে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "मेरा फोन खो गया है।",
+        "bangla_pronunciation": "মেরা ফোন খো গয়া হ্যায়",
+        "word_pronunciations": [
+          {
+            "target": "मेरा",
+            "bangla_pronunciation": "মেরা",
+            "separator_after": " "
+          },
+          {
+            "target": "फोन",
+            "bangla_pronunciation": "ফোন",
+            "separator_after": " "
+          },
+          {
+            "target": "खो",
+            "bangla_pronunciation": "খো",
+            "separator_after": " "
+          },
+          {
+            "target": "गया",
+            "bangla_pronunciation": "গয়া",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " কর্মী সময় জানতে চাইলে নাবিল বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "घटना शाम पाँच बजे हुई।",
+        "bangla_pronunciation": "ঘটনা শাম পাঁচ বজে হুই",
+        "word_pronunciations": [
+          {
+            "target": "घटना",
+            "bangla_pronunciation": "ঘটনা",
+            "separator_after": " "
+          },
+          {
+            "target": "शाम",
+            "bangla_pronunciation": "শাম",
+            "separator_after": " "
+          },
+          {
+            "target": "पाँच",
+            "bangla_pronunciation": "পাঁচ",
+            "separator_after": " "
+          },
+          {
+            "target": "बजे",
+            "bangla_pronunciation": "বজে",
+            "separator_after": " "
+          },
+          {
+            "target": "हुई।",
+            "bangla_pronunciation": "হুই",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " ব্যাগের কথাও জানিয়ে সে অনুরোধ করল, "
+      },
+      {
+        "kind": "target",
+        "target": "कृपया मेरी शिकायत लिखिए।",
+        "bangla_pronunciation": "কৃপয়া মেরি শিকায়ত লিখিয়ে",
+        "word_pronunciations": [
+          {
+            "target": "कृपया",
+            "bangla_pronunciation": "কৃপয়া",
+            "separator_after": " "
+          },
+          {
+            "target": "मेरी",
+            "bangla_pronunciation": "মেরি",
+            "separator_after": " "
+          },
+          {
+            "target": "शिकायत",
+            "bangla_pronunciation": "শিকায়ত",
+            "separator_after": " "
+          },
+          {
+            "target": "लिखिए।",
+            "bangla_pronunciation": "লিখিয়ে",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " কিছুক্ষণ পরে ব্যাগের খবর এলে সে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "आपकी मदद के लिए धन्यवाद।",
+        "bangla_pronunciation": "আপকি মদদ কে লিয়ে ধন্যবাদ",
+        "word_pronunciations": [
+          {
+            "target": "आपकी",
+            "bangla_pronunciation": "আপকি",
+            "separator_after": " "
+          },
+          {
+            "target": "मदद",
+            "bangla_pronunciation": "মদদ",
+            "separator_after": " "
+          },
+          {
+            "target": "के",
+            "bangla_pronunciation": "কে",
+            "separator_after": " "
+          },
+          {
+            "target": "लिए",
+            "bangla_pronunciation": "লিয়ে",
+            "separator_after": " "
+          },
+          {
+            "target": "धन्यवाद।",
+            "bangla_pronunciation": "ধন্যবাদ",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "ঢাকা থেকে দিল্লি ভ্রমণে নাবিল বাস থেকে নামার পর বুঝল ফোন নেই। সে কাউন্টারে গিয়ে বলল, **मेरा** (মেরা) **फोन** (ফোন) **खो** (খো) **गया** (গয়া) **है।** (হ্যায়) কর্মী সময় জানতে চাইলে নাবিল বলল, **घटना** (ঘটনা) **शाम** (শাম) **पाँच** (পাঁচ) **बजे** (বজে) **हुई।** (হুই) ব্যাগের কথাও জানিয়ে সে অনুরোধ করল, **कृपया** (কৃপয়া) **मेरी** (মেরি) **शिकायत** (শিকায়ত) **लिखिए।** (লিখিয়ে) কিছুক্ষণ পরে ব্যাগের খবর এলে সে বলল, **आपकी** (আপকি) **मदद** (মদদ) **के** (কে) **लिए** (লিয়ে) **धन्यवाद।** (ধন্যবাদ)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "সীমার হারানো ব্যাগ",
+    "scene_summary": "সীমা কালো ব্যাগ হারিয়ে রিপোর্ট করে এবং সন্ধ্যায় ব্যাগ ফিরে পেয়ে স্বস্তি পায়।",
+    "lines": [
+      {
+        "target": "सीमा का बैग खो गया।",
+        "bangla_pronunciation": "সিমা কা ব্যাগ খো গয়া",
+        "word_pronunciations": [
+          {
+            "target": "सीमा",
+            "bangla_pronunciation": "সিমা",
+            "separator_after": " "
+          },
+          {
+            "target": "का",
+            "bangla_pronunciation": "কা",
+            "separator_after": " "
+          },
+          {
+            "target": "बैग",
+            "bangla_pronunciation": "ব্যাগ",
+            "separator_after": " "
+          },
+          {
+            "target": "खो",
+            "bangla_pronunciation": "খো",
+            "separator_after": " "
+          },
+          {
+            "target": "गया।",
+            "bangla_pronunciation": "গয়া",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "बैग काले रंग का था।",
+        "bangla_pronunciation": "ব্যাগ কালে রং কা থা",
+        "word_pronunciations": [
+          {
+            "target": "बैग",
+            "bangla_pronunciation": "ব্যাগ",
+            "separator_after": " "
+          },
+          {
+            "target": "काले",
+            "bangla_pronunciation": "কালে",
+            "separator_after": " "
+          },
+          {
+            "target": "रंग",
+            "bangla_pronunciation": "রং",
+            "separator_after": " "
+          },
+          {
+            "target": "का",
+            "bangla_pronunciation": "কা",
+            "separator_after": " "
+          },
+          {
+            "target": "था।",
+            "bangla_pronunciation": "থা",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "उसमें जरूरी कागज़ थे।",
+        "bangla_pronunciation": "উসমেঁ জরুরি কাগজ থে",
+        "word_pronunciations": [
+          {
+            "target": "उसमें",
+            "bangla_pronunciation": "উসমেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "जरूरी",
+            "bangla_pronunciation": "জরুরি",
+            "separator_after": " "
+          },
+          {
+            "target": "कागज़",
+            "bangla_pronunciation": "কাগজ",
+            "separator_after": " "
+          },
+          {
+            "target": "थे।",
+            "bangla_pronunciation": "থে",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "सीमा ने रिपोर्ट लिखी।",
+        "bangla_pronunciation": "সিমা নে রিপোর্ট লিখি",
+        "word_pronunciations": [
+          {
+            "target": "सीमा",
+            "bangla_pronunciation": "সিমা",
+            "separator_after": " "
+          },
+          {
+            "target": "ने",
+            "bangla_pronunciation": "নে",
+            "separator_after": " "
+          },
+          {
+            "target": "रिपोर्ट",
+            "bangla_pronunciation": "রিপোর্ট",
+            "separator_after": " "
+          },
+          {
+            "target": "लिखी।",
+            "bangla_pronunciation": "লিখি",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "शाम को बैग मिला।",
+        "bangla_pronunciation": "শাম কো ব্যাগ মিলা",
+        "word_pronunciations": [
+          {
+            "target": "शाम",
+            "bangla_pronunciation": "শাম",
+            "separator_after": " "
+          },
+          {
+            "target": "को",
+            "bangla_pronunciation": "কো",
+            "separator_after": " "
+          },
+          {
+            "target": "बैग",
+            "bangla_pronunciation": "ব্যাগ",
+            "separator_after": " "
+          },
+          {
+            "target": "मिला।",
+            "bangla_pronunciation": "মিলা",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "सीमा को राहत मिली।",
+        "bangla_pronunciation": "সিমা কো রাহত মিলি",
+        "word_pronunciations": [
+          {
+            "target": "सीमा",
+            "bangla_pronunciation": "সিমা",
+            "separator_after": " "
+          },
+          {
+            "target": "को",
+            "bangla_pronunciation": "কো",
+            "separator_after": " "
+          },
+          {
+            "target": "राहत",
+            "bangla_pronunciation": "রাহত",
+            "separator_after": " "
+          },
+          {
+            "target": "मिली।",
+            "bangla_pronunciation": "মিলি",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "সিমা কা ব্যাগ খো গয়া। ব্যাগ কালে রং কা থা। উসমেঁ জরুরি কাগজ থে। সিমা নে রিপোর্ট লিখি। শাম কো ব্যাগ মিলা। সিমা কো রাহত মিলি।",
+    "meaning_bengali_md": "সীমার ব্যাগ হারিয়ে গিয়েছিল। ব্যাগটি কালো ছিল। তাতে জরুরি কাগজ ছিল। সীমা রিপোর্ট লিখেছিল। সন্ধ্যায় ব্যাগটি পাওয়া গেল। সীমা স্বস্তি পেল।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_kta",
+      "mode": "review",
+      "target": "क्त",
+      "bangla_pronunciation": "ক্ত",
+      "explanation_bengali_md": "এই দেবনাগরী রূপটি আগে শেখা ধ্বনি ও বানান দ্রুত চিনে নেওয়ার অনুশীলন।",
+      "practice_bengali_md": "রূপটি তিনবার দেখে উচ্চারণ করুন, তারপর ঢেকে রেখে একবার লিখে মিলিয়ে নিন।"
+    },
+    {
+      "item_id": "dev_ccha",
+      "mode": "review",
+      "target": "च्छ",
+      "bangla_pronunciation": "চ্ছ",
+      "explanation_bengali_md": "এই দেবনাগরী রূপটি আগে শেখা ধ্বনি ও বানান দ্রুত চিনে নেওয়ার অনুশীলন।",
+      "practice_bengali_md": "রূপটি তিনবার দেখে উচ্চারণ করুন, তারপর ঢেকে রেখে একবার লিখে মিলিয়ে নিন।"
+    },
+    {
+      "item_id": "dev_mbha",
+      "mode": "review",
+      "target": "म्भ",
+      "bangla_pronunciation": "ম্ভ",
+      "explanation_bengali_md": "এই দেবনাগরী রূপটি আগে শেখা ধ্বনি ও বানান দ্রুত চিনে নেওয়ার অনুশীলন।",
+      "practice_bengali_md": "রূপটি তিনবার দেখে উচ্চারণ করুন, তারপর ঢেকে রেখে একবার লিখে মিলিয়ে নিন।"
+    },
+    {
+      "item_id": "dev_dya",
+      "mode": "review",
+      "target": "द्य",
+      "bangla_pronunciation": "দ্য",
+      "explanation_bengali_md": "এই দেবনাগরী রূপটি আগে শেখা ধ্বনি ও বানান দ্রুত চিনে নেওয়ার অনুশীলন।",
+      "practice_bengali_md": "রূপটি তিনবার দেখে উচ্চারণ করুন, তারপর ঢেকে রেখে একবার লিখে মিলিয়ে নিন।"
+    },
+    {
+      "item_id": "dev_sva",
+      "mode": "review",
+      "target": "स्व",
+      "bangla_pronunciation": "স্ব",
+      "explanation_bengali_md": "এই দেবনাগরী রূপটি আগে শেখা ধ্বনি ও বানান দ্রুত চিনে নেওয়ার অনুশীলন।",
+      "practice_bengali_md": "রূপটি তিনবার দেখে উচ্চারণ করুন, তারপর ঢেকে রেখে একবার লিখে মিলিয়ে নিন।"
+    }
+  ],
+  "number_practice": [
+    {
+      "display": "43 / ४३",
+      "target": "तैंतालीस",
+      "bangla_pronunciation": "তৈঁতালিস",
+      "word_pronunciations": [
+        {
+          "target": "तैंतालीस",
+          "bangla_pronunciation": "তৈঁতালিস",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তেতাল্লিশ।",
+      "system": "international + Devanagari"
+    },
+    {
+      "display": "100 / १००",
+      "target": "एक सौ",
+      "bangla_pronunciation": "এক সৌ",
+      "word_pronunciations": [
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "सौ",
+          "bangla_pronunciation": "সৌ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "একশ।",
+      "system": "international + Devanagari"
+    }
+  ],
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "ফোন হারিয়েছে বলুন।",
+      "model_target": "मेरा फोन खो गया है।",
+      "model_bangla_pronunciation": "মেরা ফোন খো গয়া হ্যায়",
+      "model_word_pronunciations": [
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "फोन",
+          "bangla_pronunciation": "ফোন",
+          "separator_after": " "
+        },
+        {
+          "target": "खो",
+          "bangla_pronunciation": "খো",
+          "separator_after": " "
+        },
+        {
+          "target": "गया",
+          "bangla_pronunciation": "গয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার ফোন হারিয়ে গেছে।"
+    },
+    {
+      "prompt_bengali_md": "ব্যাগ কালো রঙের বলুন।",
+      "model_target": "बैग काले रंग का है।",
+      "model_bangla_pronunciation": "ব্যাগ কালে রং কা হ্যায়",
+      "model_word_pronunciations": [
+        {
+          "target": "बैग",
+          "bangla_pronunciation": "ব্যাগ",
+          "separator_after": " "
+        },
+        {
+          "target": "काले",
+          "bangla_pronunciation": "কালে",
+          "separator_after": " "
+        },
+        {
+          "target": "रंग",
+          "bangla_pronunciation": "রং",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ব্যাগটি কালো রঙের।"
+    },
+    {
+      "prompt_bengali_md": "কোথায় রিপোর্ট করবেন জিজ্ঞেস করুন।",
+      "model_target": "मैं कहाँ रिपोर्ट करूँ?",
+      "model_bangla_pronunciation": "ম্যাঁয় কহাঁ রিপোর্ট করুঁ",
+      "model_word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁয়",
+          "separator_after": " "
+        },
+        {
+          "target": "कहाँ",
+          "bangla_pronunciation": "কহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "रिपोर्ट",
+          "bangla_pronunciation": "রিপোর্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "करूँ?",
+          "bangla_pronunciation": "করুঁ",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমি কোথায় রিপোর্ট করব?"
+    },
+    {
+      "prompt_bengali_md": "অভিযোগ লিখতে অনুরোধ করুন।",
+      "model_target": "कृपया मेरी शिकायत लिखिए।",
+      "model_bangla_pronunciation": "কৃপয়া মেরি শিকায়ত লিখিয়ে",
+      "model_word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरी",
+          "bangla_pronunciation": "মেরি",
+          "separator_after": " "
+        },
+        {
+          "target": "शिकायत",
+          "bangla_pronunciation": "শিকায়ত",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "দয়া করে আমার অভিযোগ লিখুন।"
+    },
+    {
+      "prompt_bengali_md": "কোনো খবর পাওয়া গেছে কি না জিজ্ঞেস করুন।",
+      "model_target": "क्या कोई खबर मिली?",
+      "model_bangla_pronunciation": "ক্যা কোই খবর মিলি",
+      "model_word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "कोई",
+          "bangla_pronunciation": "কোই",
+          "separator_after": " "
+        },
+        {
+          "target": "खबर",
+          "bangla_pronunciation": "খবর",
+          "separator_after": " "
+        },
+        {
+          "target": "मिली?",
+          "bangla_pronunciation": "মিলি",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "কোনো খবর পাওয়া গেছে?"
+    },
+    {
+      "prompt_bengali_md": "সাহায্যের জন্য ধন্যবাদ দিন।",
+      "model_target": "आपकी मदद के लिए धन्यवाद।",
+      "model_bangla_pronunciation": "আপকি মদদ কে লিয়ে ধন্যবাদ",
+      "model_word_pronunciations": [
+        {
+          "target": "आपकी",
+          "bangla_pronunciation": "আপকি",
+          "separator_after": " "
+        },
+        {
+          "target": "मदद",
+          "bangla_pronunciation": "মদদ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "धन्यवाद।",
+          "bangla_pronunciation": "ধন্যবাদ",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আপনার সাহায্যের জন্য ধন্যবাদ।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch043_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "Busy but orderly intercity bus terminal service counter in South Asia: a young adult traveler calmly describing a lost phone and black bag to a helpful staff member, another worker checking a lost-and-found shelf, clear focal interaction, bright indoor light. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered scene, friendly realistic South Asian setting, soft daylight, clear focal action, clean composition."
+    },
+    {
+      "key": "ch043_target_reading_01",
+      "reading": "target_reading",
+      "subject": "Adult woman at a simple lost-and-found desk receiving her recovered black bag, checking important papers inside and visibly relieved, evening light through windows, uncluttered composition, clear focal point on the returned bag. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered scene, friendly realistic South Asian setting, soft daylight, clear focal action, clean composition."
+    }
+  ],
+  "additional_practice": []
+}
