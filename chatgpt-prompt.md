@@ -3,7 +3,7 @@ Copy one prompt below into ChatGPT with access to this private GitHub repository
 # Book 1 — Easy Hindi Foundation
 
 ```text
-Please analyze this book, read all its instructions, and complete the entire book manuscript.
+Please analyze this book, read all its instructions, complete the entire book manuscript, then git commit and push the book changes to this language repository’s main branch.
 
 Exact book URL:
 https://github.com/polodev/language-ebook-standalone-hindi/tree/main/01-easy-hindi-foundation
@@ -31,13 +31,15 @@ python3 scripts/manage.py assemble --book 01-easy-hindi-foundation
 
 Fix reported structural issues and review the language, translations, script progression and distinct readings. Structural validation is not independent bilingual approval. Do not mark the book published or claim that images, PDFs or EPUBs were generated; production belongs to the manager after content review.
 
+Git delivery is required and authorized: work on the main branch of this language repository, commit the authored book changes, and push them to origin/main. Before editing, verify the repository and branch and pull the latest main without discarding existing work. After validation, stage only this book’s intended source changes, run git commit, and run git push origin main. Use a human-readable local date/time and staged-diff counts in the commit message, for example: Thu Sep 10, 5:11pm — 4 files modified, 2 files added, 1 file deleted. Do not commit secrets or generated outputs, and do not force-push. The requested Git delivery is directly to main; do not substitute a pull request or another branch. Verify the remote main contains the pushed commit and report its SHA and GitHub commit URL. This instruction authorizes the commit and push; do not ask for confirmation again. If GitHub write access is unavailable or a push is rejected, report the actual blocker and preserve/return the completed files; never claim a push succeeded without verification.
+
 Work through the whole requested book. At the end, report completed chapter IDs, actual counts, changed file paths, checks actually run and any remaining editorial work. If a session limit prevents finishing, save only complete chapter payloads, report exactly what remains and the next chapter to resume; never claim the full book is complete. If GitHub writing is unavailable, return the complete files with exact destination paths for the manager to import, and do not claim a commit or upload occurred.
 ```
 
 # Book 2 — Easy Hindi Intermediate
 
 ```text
-Please analyze this book, read all its instructions, and complete the entire book manuscript.
+Please analyze this book, read all its instructions, complete the entire book manuscript, then git commit and push the book changes to this language repository’s main branch.
 
 Exact book URL:
 https://github.com/polodev/language-ebook-standalone-hindi/tree/main/02-easy-hindi-intermediate
@@ -65,13 +67,15 @@ python3 scripts/manage.py assemble --book 02-easy-hindi-intermediate
 
 Fix reported structural issues and review the language, translations, script progression and distinct readings. Structural validation is not independent bilingual approval. Do not mark the book published or claim that images, PDFs or EPUBs were generated; production belongs to the manager after content review.
 
+Git delivery is required and authorized: work on the main branch of this language repository, commit the authored book changes, and push them to origin/main. Before editing, verify the repository and branch and pull the latest main without discarding existing work. After validation, stage only this book’s intended source changes, run git commit, and run git push origin main. Use a human-readable local date/time and staged-diff counts in the commit message, for example: Thu Sep 10, 5:11pm — 4 files modified, 2 files added, 1 file deleted. Do not commit secrets or generated outputs, and do not force-push. The requested Git delivery is directly to main; do not substitute a pull request or another branch. Verify the remote main contains the pushed commit and report its SHA and GitHub commit URL. This instruction authorizes the commit and push; do not ask for confirmation again. If GitHub write access is unavailable or a push is rejected, report the actual blocker and preserve/return the completed files; never claim a push succeeded without verification.
+
 Work through the whole requested book. At the end, report completed chapter IDs, actual counts, changed file paths, checks actually run and any remaining editorial work. If a session limit prevents finishing, save only complete chapter payloads, report exactly what remains and the next chapter to resume; never claim the full book is complete. If GitHub writing is unavailable, return the complete files with exact destination paths for the manager to import, and do not claim a commit or upload occurred.
 ```
 
 # Book 3 — Easy Hindi Advanced
 
 ```text
-Please analyze this book, read all its instructions, and complete the entire book manuscript.
+Please analyze this book, read all its instructions, complete the entire book manuscript, then git commit and push the book changes to this language repository’s main branch.
 
 Exact book URL:
 https://github.com/polodev/language-ebook-standalone-hindi/tree/main/03-easy-hindi-advanced
@@ -99,13 +103,15 @@ python3 scripts/manage.py assemble --book 03-easy-hindi-advanced
 
 Fix reported structural issues and review the language, translations, script progression and distinct readings. Structural validation is not independent bilingual approval. Do not mark the book published or claim that images, PDFs or EPUBs were generated; production belongs to the manager after content review.
 
+Git delivery is required and authorized: work on the main branch of this language repository, commit the authored book changes, and push them to origin/main. Before editing, verify the repository and branch and pull the latest main without discarding existing work. After validation, stage only this book’s intended source changes, run git commit, and run git push origin main. Use a human-readable local date/time and staged-diff counts in the commit message, for example: Thu Sep 10, 5:11pm — 4 files modified, 2 files added, 1 file deleted. Do not commit secrets or generated outputs, and do not force-push. The requested Git delivery is directly to main; do not substitute a pull request or another branch. Verify the remote main contains the pushed commit and report its SHA and GitHub commit URL. This instruction authorizes the commit and push; do not ask for confirmation again. If GitHub write access is unavailable or a push is rejected, report the actual blocker and preserve/return the completed files; never claim a push succeeded without verification.
+
 Work through the whole requested book. At the end, report completed chapter IDs, actual counts, changed file paths, checks actually run and any remaining editorial work. If a session limit prevents finishing, save only complete chapter payloads, report exactly what remains and the next chapter to resume; never claim the full book is complete. If GitHub writing is unavailable, return the complete files with exact destination paths for the manager to import, and do not claim a commit or upload occurred.
 ```
 
 # Book 4 — Easy Hindi Vocabulary: 7000+ Words & Phrases
 
 ```text
-Please analyze this book, read all its instructions, and complete the entire book manuscript.
+Please analyze this book, read all its instructions, complete the entire book manuscript, then git commit and push the book changes to this language repository’s main branch.
 
 Exact book URL:
 https://github.com/polodev/language-ebook-standalone-hindi/tree/main/04-easy-hindi-vocabulary-7000-words
@@ -132,6 +138,8 @@ python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words --
 python3 scripts/manage.py assemble --book 04-easy-hindi-vocabulary-7000-words
 
 Fix reported structural issues and review the language, translations, script progression and distinct readings. Structural validation is not independent bilingual approval. Do not mark the book published or claim that images, PDFs or EPUBs were generated; production belongs to the manager after content review.
+
+Git delivery is required and authorized: work on the main branch of this language repository, commit the authored book changes, and push them to origin/main. Before editing, verify the repository and branch and pull the latest main without discarding existing work. After validation, stage only this book’s intended source changes, run git commit, and run git push origin main. Use a human-readable local date/time and staged-diff counts in the commit message, for example: Thu Sep 10, 5:11pm — 4 files modified, 2 files added, 1 file deleted. Do not commit secrets or generated outputs, and do not force-push. The requested Git delivery is directly to main; do not substitute a pull request or another branch. Verify the remote main contains the pushed commit and report its SHA and GitHub commit URL. This instruction authorizes the commit and push; do not ask for confirmation again. If GitHub write access is unavailable or a push is rejected, report the actual blocker and preserve/return the completed files; never claim a push succeeded without verification.
 
 Work through the whole requested book. At the end, report completed chapter IDs, actual counts, changed file paths, checks actually run and any remaining editorial work. If a session limit prevents finishing, save only complete chapter payloads, report exactly what remains and the next chapter to resume; never claim the full book is complete. If GitHub writing is unavailable, return the complete files with exact destination paths for the manager to import, and do not claim a commit or upload occurred.
 ```
