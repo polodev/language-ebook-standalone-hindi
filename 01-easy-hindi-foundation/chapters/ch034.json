@@ -1,0 +1,1502 @@
+{
+  "chapter_id": "ch034",
+  "status": "drafted",
+  "title_target": "मीटिंग और काम की जानकारी",
+  "title_bangla_pronunciation": "মিটিং ঔর কাম কি জানকারি",
+  "title_word_pronunciations": [
+    {
+      "target": "मीटिंग",
+      "bangla_pronunciation": "মিটিং",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "ঔর",
+      "separator_after": " "
+    },
+    {
+      "target": "काम",
+      "bangla_pronunciation": "কাম",
+      "separator_after": " "
+    },
+    {
+      "target": "की",
+      "bangla_pronunciation": "কি",
+      "separator_after": " "
+    },
+    {
+      "target": "जानकारी",
+      "bangla_pronunciation": "জানকারি",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "মিটিং ও কাজের আপডেট",
+  "goal_bengali_md": "মিটিং শুরু, আলোচ্যসূচি, হালনাগাদ অবস্থা, শেষ/বাকি কাজ, পরবর্তী পদক্ষেপ ও সংক্ষিপ্ত অবস্থা স্বাভাবিক হিন্দিতে বলা।",
+  "sentences": [
+    {
+      "id": "ch034_s01",
+      "target": "मीटिंग दस बजे शुरू होगी।",
+      "romanization": "meeting das baje shuruu hogi",
+      "bangla_pronunciation": "মিটিং দস বজে শুরু হোগি",
+      "word_pronunciations": [
+        {
+          "target": "मीटिंग",
+          "bangla_pronunciation": "মিটিং",
+          "separator_after": " "
+        },
+        {
+          "target": "दस",
+          "bangla_pronunciation": "দস",
+          "separator_after": " "
+        },
+        {
+          "target": "बजे",
+          "bangla_pronunciation": "বজে",
+          "separator_after": " "
+        },
+        {
+          "target": "शुरू",
+          "bangla_pronunciation": "শুরু",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी।",
+          "bangla_pronunciation": "হোগি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মিটিং দশটায় শুরু হবে।"
+    },
+    {
+      "id": "ch034_s02",
+      "target": "आज का एजेंडा छोटा है।",
+      "romanization": "aaj ka agenda chhota hai",
+      "bangla_pronunciation": "আজ কা এজেন্ডা ছোটা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "एजेंडा",
+          "bangla_pronunciation": "এজেন্ডা",
+          "separator_after": " "
+        },
+        {
+          "target": "छोटा",
+          "bangla_pronunciation": "ছোটা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আজকের আলোচ্যসূচি ছোট।"
+    },
+    {
+      "id": "ch034_s03",
+      "target": "पहले मेरा अपडेट सुनिए।",
+      "romanization": "pahale mera update suniye",
+      "bangla_pronunciation": "পহলে মেরা আপডেট সুনিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "अपडेट",
+          "bangla_pronunciation": "আপডেট",
+          "separator_after": " "
+        },
+        {
+          "target": "सुनिए।",
+          "bangla_pronunciation": "সুনিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রথমে আমার হালনাগাদ তথ্য শুনুন।"
+    },
+    {
+      "id": "ch034_s04",
+      "target": "यह काम पूरा हो गया।",
+      "romanization": "yah kaam puura ho gaya",
+      "bangla_pronunciation": "ইয়হ কাম পুরা হো গয়া",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "पूरा",
+          "bangla_pronunciation": "পুরা",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "गया।",
+          "bangla_pronunciation": "গয়া",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই কাজটি শেষ হয়েছে।"
+    },
+    {
+      "id": "ch034_s05",
+      "target": "यह काम अभी बाकी है।",
+      "romanization": "yah kaam abhi baakii hai",
+      "bangla_pronunciation": "ইয়হ কাম অভি বাকি হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "अभी",
+          "bangla_pronunciation": "অভি",
+          "separator_after": " "
+        },
+        {
+          "target": "बाकी",
+          "bangla_pronunciation": "বাকি",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই কাজটি এখনো বাকি।"
+    },
+    {
+      "id": "ch034_s06",
+      "target": "रिपोर्ट लगभग तैयार है।",
+      "romanization": "report lagabhag taiyaar hai",
+      "bangla_pronunciation": "রিপোর্ট লগভগ তৈয়ার হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "रिपोर्ट",
+          "bangla_pronunciation": "রিপোর্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "लगभग",
+          "bangla_pronunciation": "লগভগ",
+          "separator_after": " "
+        },
+        {
+          "target": "तैयार",
+          "bangla_pronunciation": "তৈয়ার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রিপোর্ট প্রায় প্রস্তুত।"
+    },
+    {
+      "id": "ch034_s07",
+      "target": "एक समस्या अभी बाकी है।",
+      "romanization": "ek samasya abhi baakii hai",
+      "bangla_pronunciation": "এক সমস্যা অভি বাকি হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "समस्या",
+          "bangla_pronunciation": "সমস্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "अभी",
+          "bangla_pronunciation": "অভি",
+          "separator_after": " "
+        },
+        {
+          "target": "बाकी",
+          "bangla_pronunciation": "বাকি",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "একটি সমস্যা এখনো বাকি।"
+    },
+    {
+      "id": "ch034_s08",
+      "target": "अगला कदम क्या है?",
+      "romanization": "agala kadam kya hai",
+      "bangla_pronunciation": "অগলা কদম ক্যা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "अगला",
+          "bangla_pronunciation": "অগলা",
+          "separator_after": " "
+        },
+        {
+          "target": "कदम",
+          "bangla_pronunciation": "কদম",
+          "separator_after": " "
+        },
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরবর্তী পদক্ষেপ কী?"
+    },
+    {
+      "id": "ch034_s09",
+      "target": "आज इसे पूरा करना है।",
+      "romanization": "aaj ise puura karna hai",
+      "bangla_pronunciation": "আজ ইসে পুরা করনা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "इसे",
+          "bangla_pronunciation": "ইসে",
+          "separator_after": " "
+        },
+        {
+          "target": "पूरा",
+          "bangla_pronunciation": "পুরা",
+          "separator_after": " "
+        },
+        {
+          "target": "करना",
+          "bangla_pronunciation": "করনা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আজ এটি শেষ করতে হবে।"
+    },
+    {
+      "id": "ch034_s10",
+      "target": "हमें कल फिर मिलना है।",
+      "romanization": "hamein kal phir milna hai",
+      "bangla_pronunciation": "হমেঁ কল ফির মিলনা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "हमें",
+          "bangla_pronunciation": "হমেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "कल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलना",
+          "bangla_pronunciation": "মিলনা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমাদের আগামীকাল আবার দেখা করতে হবে।"
+    },
+    {
+      "id": "ch034_s11",
+      "target": "क्या सब तैयार हैं?",
+      "romanization": "kya sab taiyaar hain",
+      "bangla_pronunciation": "ক্যা সব তৈয়ার হ্যায়ঁ",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "सब",
+          "bangla_pronunciation": "সব",
+          "separator_after": " "
+        },
+        {
+          "target": "तैयार",
+          "bangla_pronunciation": "তৈয়ার",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं?",
+          "bangla_pronunciation": "হ্যায়ঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সবাই কি প্রস্তুত?"
+    },
+    {
+      "id": "ch034_s12",
+      "target": "हाँ, हम तैयार हैं।",
+      "romanization": "haan ham taiyaar hain",
+      "bangla_pronunciation": "হাঁ হম তৈয়ার হ্যায়ঁ",
+      "word_pronunciations": [
+        {
+          "target": "हाँ,",
+          "bangla_pronunciation": "হাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "हम",
+          "bangla_pronunciation": "হম",
+          "separator_after": " "
+        },
+        {
+          "target": "तैयार",
+          "bangla_pronunciation": "তৈয়ার",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যায়ঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "হ্যাঁ, আমরা প্রস্তুত।"
+    },
+    {
+      "id": "ch034_s13",
+      "target": "कृपया समय पर आइए।",
+      "romanization": "kripya samay par aaiye",
+      "bangla_pronunciation": "কৃপয়া সময় পর আইয়ে",
+      "word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "आइए।",
+          "bangla_pronunciation": "আইয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনুগ্রহ করে সময়মতো আসুন।"
+    },
+    {
+      "id": "ch034_s14",
+      "target": "मीटिंग पाँच मिनट देर से शुरू होगी।",
+      "romanization": "meeting paanch minat der se shuruu hogi",
+      "bangla_pronunciation": "মিটিং পাঁচ মিনট দের সে শুরু হোগি",
+      "word_pronunciations": [
+        {
+          "target": "मीटिंग",
+          "bangla_pronunciation": "মিটিং",
+          "separator_after": " "
+        },
+        {
+          "target": "पाँच",
+          "bangla_pronunciation": "পাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "मिनट",
+          "bangla_pronunciation": "মিনট",
+          "separator_after": " "
+        },
+        {
+          "target": "देर",
+          "bangla_pronunciation": "দের",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "शुरू",
+          "bangla_pronunciation": "শুরু",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी।",
+          "bangla_pronunciation": "হোগি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মিটিং পাঁচ মিনিট দেরিতে শুরু হবে।"
+    },
+    {
+      "id": "ch034_s15",
+      "target": "इस बिंदु पर बाद में बात करेंगे।",
+      "romanization": "is bindu par baad mein baat karenge",
+      "bangla_pronunciation": "ইস বিন্দু পর বাদ মেঁ বাত করেঙ্গে",
+      "word_pronunciations": [
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "बिंदु",
+          "bangla_pronunciation": "বিন্দু",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "बाद",
+          "bangla_pronunciation": "বাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "बात",
+          "bangla_pronunciation": "বাত",
+          "separator_after": " "
+        },
+        {
+          "target": "करेंगे।",
+          "bangla_pronunciation": "করেঙ্গে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই বিষয়টি নিয়ে পরে কথা বলব।"
+    },
+    {
+      "id": "ch034_s16",
+      "target": "अभी यह निर्णय पक्का नहीं है।",
+      "romanization": "abhi yah nirnay pakka nahin hai",
+      "bangla_pronunciation": "অভি ইয়হ নির্ণয় পক্কা নহিঁ হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "अभी",
+          "bangla_pronunciation": "অভি",
+          "separator_after": " "
+        },
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "separator_after": " "
+        },
+        {
+          "target": "निर्णय",
+          "bangla_pronunciation": "নির্ণয়",
+          "separator_after": " "
+        },
+        {
+          "target": "पक्का",
+          "bangla_pronunciation": "পক্কা",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই সিদ্ধান্ত এখনো চূড়ান্ত নয়।"
+    },
+    {
+      "id": "ch034_s17",
+      "target": "मुझे आपकी राय चाहिए।",
+      "romanization": "mujhe aapki raay chahiye",
+      "bangla_pronunciation": "মুঝে আপকি রায় চাহিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "आपकी",
+          "bangla_pronunciation": "আপকি",
+          "separator_after": " "
+        },
+        {
+          "target": "राय",
+          "bangla_pronunciation": "রায়",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার আপনার মতামত দরকার।"
+    },
+    {
+      "id": "ch034_s18",
+      "target": "कृपया छोटा अपडेट दीजिए।",
+      "romanization": "kripya chhota update dijiye",
+      "bangla_pronunciation": "কৃপয়া ছোটা আপডেট দিজিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "छोटा",
+          "bangla_pronunciation": "ছোটা",
+          "separator_after": " "
+        },
+        {
+          "target": "अपडेट",
+          "bangla_pronunciation": "আপডেট",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনুগ্রহ করে সংক্ষিপ্ত হালনাগাদ তথ্য দিন।"
+    },
+    {
+      "id": "ch034_s19",
+      "target": "अगली मीटिंग सोमवार को है।",
+      "romanization": "agalii meeting somavaar ko hai",
+      "bangla_pronunciation": "অগলি মিটিং সোমবার কো হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "अगली",
+          "bangla_pronunciation": "অগলি",
+          "separator_after": " "
+        },
+        {
+          "target": "मीटिंग",
+          "bangla_pronunciation": "মিটিং",
+          "separator_after": " "
+        },
+        {
+          "target": "सोमवार",
+          "bangla_pronunciation": "সোমবার",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরের মিটিং সোমবার।"
+    },
+    {
+      "id": "ch034_s20",
+      "target": "आज की मीटिंग समाप्त है।",
+      "romanization": "aaj kii meeting samaapt hai",
+      "bangla_pronunciation": "আজ কি মিটিং সমাপ্ত হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কি",
+          "separator_after": " "
+        },
+        {
+          "target": "मीटिंग",
+          "bangla_pronunciation": "মিটিং",
+          "separator_after": " "
+        },
+        {
+          "target": "समाप्त",
+          "bangla_pronunciation": "সমাপ্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আজকের মিটিং শেষ।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "ch034_v01",
+      "target": "मीटिंग",
+      "type": "বিশেষ্য",
+      "romanization": "meeting",
+      "bangla_pronunciation": "মিটিং",
+      "word_pronunciations": [
+        {
+          "target": "मीटिंग",
+          "bangla_pronunciation": "মিটিং",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মিটিং/সভা।",
+      "source_sentence_id": "ch034_s01",
+      "source_form": "मीटिंग"
+    },
+    {
+      "id": "ch034_v02",
+      "target": "एजेंडा",
+      "type": "বিশেষ্য",
+      "romanization": "agenda",
+      "bangla_pronunciation": "এজেন্ডা",
+      "word_pronunciations": [
+        {
+          "target": "एजेंडा",
+          "bangla_pronunciation": "এজেন্ডা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আলোচ্যসূচি; আলোচ্য বিষয়ের তালিকা।",
+      "source_sentence_id": "ch034_s02",
+      "source_form": "एजेंडा"
+    },
+    {
+      "id": "ch034_v03",
+      "target": "अपडेट",
+      "type": "বিশেষ্য",
+      "romanization": "update",
+      "bangla_pronunciation": "আপডেট",
+      "word_pronunciations": [
+        {
+          "target": "अपडेट",
+          "bangla_pronunciation": "আপডেট",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কাজের সর্বশেষ অবস্থা।",
+      "source_sentence_id": "ch034_s03",
+      "source_form": "अपडेट"
+    },
+    {
+      "id": "ch034_v04",
+      "target": "बाकी",
+      "type": "বিশেষণ",
+      "romanization": "baakii",
+      "bangla_pronunciation": "বাকি",
+      "word_pronunciations": [
+        {
+          "target": "बाकी",
+          "bangla_pronunciation": "বাকি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাকি/অসম্পূর্ণ।",
+      "source_sentence_id": "ch034_s05",
+      "source_form": "बाकी"
+    },
+    {
+      "id": "ch034_v05",
+      "target": "लगभग",
+      "type": "ক্রিয়াবিশেষণ",
+      "romanization": "lagabhag",
+      "bangla_pronunciation": "লগভগ",
+      "word_pronunciations": [
+        {
+          "target": "लगभग",
+          "bangla_pronunciation": "লগভগ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রায়।",
+      "source_sentence_id": "ch034_s06",
+      "source_form": "लगभग"
+    },
+    {
+      "id": "ch034_v06",
+      "target": "अगला कदम",
+      "type": "বিশেষ্য পদবন্ধ",
+      "romanization": "agala kadam",
+      "bangla_pronunciation": "অগলা কদম",
+      "word_pronunciations": [
+        {
+          "target": "अगला",
+          "bangla_pronunciation": "অগলা",
+          "separator_after": " "
+        },
+        {
+          "target": "कदम",
+          "bangla_pronunciation": "কদম",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরবর্তী পদক্ষেপ।",
+      "source_sentence_id": "ch034_s08",
+      "source_form": "अगला कदम"
+    },
+    {
+      "id": "ch034_v07",
+      "target": "बिंदु",
+      "type": "বিশেষ্য",
+      "romanization": "bindu",
+      "bangla_pronunciation": "বিন্দু",
+      "word_pronunciations": [
+        {
+          "target": "बिंदु",
+          "bangla_pronunciation": "বিন্দু",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পয়েন্ট বা আলোচ্য বিষয়।",
+      "source_sentence_id": "ch034_s15",
+      "source_form": "बिंदु"
+    },
+    {
+      "id": "ch034_v08",
+      "target": "निर्णय",
+      "type": "বিশেষ্য",
+      "romanization": "nirnay",
+      "bangla_pronunciation": "নির্ণয়",
+      "word_pronunciations": [
+        {
+          "target": "निर्णय",
+          "bangla_pronunciation": "নির্ণয়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সিদ্ধান্ত।",
+      "source_sentence_id": "ch034_s16",
+      "source_form": "निर्णय"
+    },
+    {
+      "id": "ch034_v09",
+      "target": "राय",
+      "type": "বিশেষ্য",
+      "romanization": "raay",
+      "bangla_pronunciation": "রায়",
+      "word_pronunciations": [
+        {
+          "target": "राय",
+          "bangla_pronunciation": "রায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মতামত।",
+      "source_sentence_id": "ch034_s17",
+      "source_form": "राय"
+    },
+    {
+      "id": "ch034_v10",
+      "target": "समाप्त",
+      "type": "বিশেষণ",
+      "romanization": "samaapt",
+      "bangla_pronunciation": "সমাপ্ত",
+      "word_pronunciations": [
+        {
+          "target": "समाप्त",
+          "bangla_pronunciation": "সমাপ্ত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শেষ/সমাপ্ত।",
+      "source_sentence_id": "ch034_s20",
+      "source_form": "समाप्त"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "দশটার সংক্ষিপ্ত মিটিং",
+    "scene_summary": "একটি ছোট টিম সকালে সংক্ষিপ্ত মিটিং করছে—শেষ কাজ, বাকি কাজ ও পরবর্তী পদক্ষেপ নিয়ে কথা হচ্ছে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "সকাল দশটার আগে সবাই ছোট মিটিং কক্ষে এল। টিম লিড বললেন, "
+      },
+      {
+        "kind": "target",
+        "target": "मीटिंग दस बजे शुरू होगी।",
+        "bangla_pronunciation": "মিটিং দস বজে শুরু হোগি",
+        "word_pronunciations": [
+          {
+            "target": "मीटिंग",
+            "bangla_pronunciation": "মিটিং",
+            "separator_after": " "
+          },
+          {
+            "target": "दस",
+            "bangla_pronunciation": "দস",
+            "separator_after": " "
+          },
+          {
+            "target": "बजे",
+            "bangla_pronunciation": "বজে",
+            "separator_after": " "
+          },
+          {
+            "target": "शुरू",
+            "bangla_pronunciation": "শুরু",
+            "separator_after": " "
+          },
+          {
+            "target": "होगी।",
+            "bangla_pronunciation": "হোগি",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " এরপর তিনি বললেন, "
+      },
+      {
+        "kind": "target",
+        "target": "पहले मेरा अपडेट सुनिए।",
+        "bangla_pronunciation": "পহলে মেরা আপডেট সুনিয়ে",
+        "word_pronunciations": [
+          {
+            "target": "पहले",
+            "bangla_pronunciation": "পহলে",
+            "separator_after": " "
+          },
+          {
+            "target": "मेरा",
+            "bangla_pronunciation": "মেরা",
+            "separator_after": " "
+          },
+          {
+            "target": "अपडेट",
+            "bangla_pronunciation": "আপডেট",
+            "separator_after": " "
+          },
+          {
+            "target": "सुनिए।",
+            "bangla_pronunciation": "সুনিয়ে",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " একটি কাজ নিয়ে সহকর্মী জানাল, "
+      },
+      {
+        "kind": "target",
+        "target": "यह काम पूरा हो गया।",
+        "bangla_pronunciation": "ইয়হ কাম পুরা হো গয়া",
+        "word_pronunciations": [
+          {
+            "target": "यह",
+            "bangla_pronunciation": "ইয়হ",
+            "separator_after": " "
+          },
+          {
+            "target": "काम",
+            "bangla_pronunciation": "কাম",
+            "separator_after": " "
+          },
+          {
+            "target": "पूरा",
+            "bangla_pronunciation": "পুরা",
+            "separator_after": " "
+          },
+          {
+            "target": "हो",
+            "bangla_pronunciation": "হো",
+            "separator_after": " "
+          },
+          {
+            "target": "गया।",
+            "bangla_pronunciation": "গয়া",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " আরেকটি বিষয়ে সে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "यह काम अभी बाकी है।",
+        "bangla_pronunciation": "ইয়হ কাম অভি বাকি হ্যায়",
+        "word_pronunciations": [
+          {
+            "target": "यह",
+            "bangla_pronunciation": "ইয়হ",
+            "separator_after": " "
+          },
+          {
+            "target": "काम",
+            "bangla_pronunciation": "কাম",
+            "separator_after": " "
+          },
+          {
+            "target": "अभी",
+            "bangla_pronunciation": "অভি",
+            "separator_after": " "
+          },
+          {
+            "target": "बाकी",
+            "bangla_pronunciation": "বাকি",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " আলোচনা শেষে টিম লিড জিজ্ঞেস করলেন, "
+      },
+      {
+        "kind": "target",
+        "target": "अगला कदम क्या है?",
+        "bangla_pronunciation": "অগলা কদম ক্যা হ্যায়",
+        "word_pronunciations": [
+          {
+            "target": "अगला",
+            "bangla_pronunciation": "অগলা",
+            "separator_after": " "
+          },
+          {
+            "target": "कदम",
+            "bangla_pronunciation": "কদম",
+            "separator_after": " "
+          },
+          {
+            "target": "क्या",
+            "bangla_pronunciation": "ক্যা",
+            "separator_after": " "
+          },
+          {
+            "target": "है?",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "সকাল দশটার আগে সবাই ছোট মিটিং কক্ষে এল। টিম লিড বললেন, **मीटिंग** (মিটিং) **दस** (দস) **बजे** (বজে) **शुरू** (শুরু) **होगी।** (হোগি) এরপর তিনি বললেন, **पहले** (পহলে) **मेरा** (মেরা) **अपडेट** (আপডেট) **सुनिए।** (সুনিয়ে) একটি কাজ নিয়ে সহকর্মী জানাল, **यह** (ইয়হ) **काम** (কাম) **पूरा** (পুরা) **हो** (হো) **गया।** (গয়া) আরেকটি বিষয়ে সে বলল, **यह** (ইয়হ) **काम** (কাম) **अभी** (অভি) **बाकी** (বাকি) **है।** (হ্যায়) আলোচনা শেষে টিম লিড জিজ্ঞেস করলেন, **अगला** (অগলা) **कदम** (কদম) **क्या** (ক্যা) **है?** (হ্যায়)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "মিটিং শেষের সারাংশ",
+    "scene_summary": "অন্য একটি টিম মিটিং শেষে পরের কাজ ও পরবর্তী মিটিং নিশ্চিত করছে।",
+    "lines": [
+      {
+        "target": "रिपोर्ट लगभग तैयार है।",
+        "bangla_pronunciation": "রিপোর্ট লগভগ তৈয়ার হ্যায়",
+        "word_pronunciations": [
+          {
+            "target": "रिपोर्ट",
+            "bangla_pronunciation": "রিপোর্ট",
+            "separator_after": " "
+          },
+          {
+            "target": "लगभग",
+            "bangla_pronunciation": "লগভগ",
+            "separator_after": " "
+          },
+          {
+            "target": "तैयार",
+            "bangla_pronunciation": "তৈয়ার",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "एक समस्या बाकी है।",
+        "bangla_pronunciation": "এক সমস্যা বাকি হ্যায়",
+        "word_pronunciations": [
+          {
+            "target": "एक",
+            "bangla_pronunciation": "এক",
+            "separator_after": " "
+          },
+          {
+            "target": "समस्या",
+            "bangla_pronunciation": "সমস্যা",
+            "separator_after": " "
+          },
+          {
+            "target": "बाकी",
+            "bangla_pronunciation": "বাকি",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "आज इसे पूरा करना है।",
+        "bangla_pronunciation": "আজ ইসে পুরা করনা হ্যায়",
+        "word_pronunciations": [
+          {
+            "target": "आज",
+            "bangla_pronunciation": "আজ",
+            "separator_after": " "
+          },
+          {
+            "target": "इसे",
+            "bangla_pronunciation": "ইসে",
+            "separator_after": " "
+          },
+          {
+            "target": "पूरा",
+            "bangla_pronunciation": "পুরা",
+            "separator_after": " "
+          },
+          {
+            "target": "करना",
+            "bangla_pronunciation": "করনা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "अगली मीटिंग सोमवार को है।",
+        "bangla_pronunciation": "অগলি মিটিং সোমবার কো হ্যায়",
+        "word_pronunciations": [
+          {
+            "target": "अगली",
+            "bangla_pronunciation": "অগলি",
+            "separator_after": " "
+          },
+          {
+            "target": "मीटिंग",
+            "bangla_pronunciation": "মিটিং",
+            "separator_after": " "
+          },
+          {
+            "target": "सोमवार",
+            "bangla_pronunciation": "সোমবার",
+            "separator_after": " "
+          },
+          {
+            "target": "को",
+            "bangla_pronunciation": "কো",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "आज की मीटिंग समाप्त है।",
+        "bangla_pronunciation": "আজ কি মিটিং সমাপ্ত হ্যায়",
+        "word_pronunciations": [
+          {
+            "target": "आज",
+            "bangla_pronunciation": "আজ",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কি",
+            "separator_after": " "
+          },
+          {
+            "target": "मीटिंग",
+            "bangla_pronunciation": "মিটিং",
+            "separator_after": " "
+          },
+          {
+            "target": "समाप्त",
+            "bangla_pronunciation": "সমাপ্ত",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "রিপোর্ট লগভগ তৈয়ার হ্যায়। এক সমস্যা বাকি হ্যায়। আজ ইসে পুরা করনা হ্যায়। অগলি মিটিং সোমবার কো হ্যায়। আজ কি মিটিং সমাপ্ত হ্যায়",
+    "meaning_bengali_md": "রিপোর্ট প্রায় প্রস্তুত। একটি সমস্যা বাকি। আজ এটি শেষ করতে হবে। পরের মিটিং সোমবার। আজকের মিটিং শেষ।"
+  },
+  "script_practice": [
+    {
+      "item_id": "deva_conj_dya",
+      "mode": "application",
+      "target": "द्य",
+      "bangla_pronunciation": "দ্য",
+      "explanation_bengali_md": "এটি এই অধ্যায়ের প্রচলিত যুক্তরূপ ও শব্দ-পাঠ অনুশীলনের একটি দরকারি রূপ; উচ্চারণ কাছাকাছি “দ্য”।",
+      "practice_bengali_md": "যুক্তরূপটি এক নজরে চিনে “দ্য” উচ্চারণ করুন; মাঝখানে অপ্রয়োজনীয় স্বর যোগ করবেন না।"
+    },
+    {
+      "item_id": "deva_conj_dhya",
+      "mode": "application",
+      "target": "ध्य",
+      "bangla_pronunciation": "ধ্য",
+      "explanation_bengali_md": "এটি এই অধ্যায়ের প্রচলিত যুক্তরূপ ও শব্দ-পাঠ অনুশীলনের একটি দরকারি রূপ; উচ্চারণ কাছাকাছি “ধ্য”।",
+      "practice_bengali_md": "যুক্তরূপটি এক নজরে চিনে “ধ্য” উচ্চারণ করুন; মাঝখানে অপ্রয়োজনীয় স্বর যোগ করবেন না।"
+    },
+    {
+      "item_id": "deva_conj_tya",
+      "mode": "review",
+      "target": "त्य",
+      "bangla_pronunciation": "ত্য",
+      "explanation_bengali_md": "এটি এই অধ্যায়ের প্রচলিত যুক্তরূপ ও শব্দ-পাঠ অনুশীলনের একটি দরকারি রূপ; উচ্চারণ কাছাকাছি “ত্য”।",
+      "practice_bengali_md": "যুক্তরূপটি এক নজরে চিনে “ত্য” উচ্চারণ করুন; মাঝখানে অপ্রয়োজনীয় স্বর যোগ করবেন না।"
+    },
+    {
+      "item_id": "deva_conj_stha",
+      "mode": "application",
+      "target": "स्थ",
+      "bangla_pronunciation": "স্থ",
+      "explanation_bengali_md": "এটি এই অধ্যায়ের প্রচলিত যুক্তরূপ ও শব্দ-পাঠ অনুশীলনের একটি দরকারি রূপ; উচ্চারণ কাছাকাছি “স্থ”।",
+      "practice_bengali_md": "যুক্তরূপটি এক নজরে চিনে “স্থ” উচ্চারণ করুন; মাঝখানে অপ্রয়োজনীয় স্বর যোগ করবেন না।"
+    },
+    {
+      "item_id": "deva_conj_kta",
+      "mode": "review",
+      "target": "क्त",
+      "bangla_pronunciation": "ক্ত",
+      "explanation_bengali_md": "এটি এই অধ্যায়ের প্রচলিত যুক্তরূপ ও শব্দ-পাঠ অনুশীলনের একটি দরকারি রূপ; উচ্চারণ কাছাকাছি “ক্ত”।",
+      "practice_bengali_md": "যুক্তরূপটি এক নজরে চিনে “ক্ত” উচ্চারণ করুন; মাঝখানে অপ্রয়োজনীয় স্বর যোগ করবেন না।"
+    }
+  ],
+  "number_practice": [
+    {
+      "display": "10 / १०",
+      "target": "दस",
+      "bangla_pronunciation": "দস",
+      "word_pronunciations": [
+        {
+          "target": "दस",
+          "bangla_pronunciation": "দস",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দশ",
+      "system": "International + Devanagari"
+    },
+    {
+      "display": "15 / १५",
+      "target": "पंद्रह",
+      "bangla_pronunciation": "পংদ্রহ",
+      "word_pronunciations": [
+        {
+          "target": "पंद्रह",
+          "bangla_pronunciation": "পংদ্রহ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পনেরো",
+      "system": "International + Devanagari"
+    },
+    {
+      "display": "30 / ३०",
+      "target": "तीस",
+      "bangla_pronunciation": "তীস",
+      "word_pronunciations": [
+        {
+          "target": "तीस",
+          "bangla_pronunciation": "তীস",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ত্রিশ",
+      "system": "International + Devanagari"
+    }
+  ],
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "মিটিং কখন শুরু হবে বলুন।",
+      "model_target": "मीटिंग दस बजे शुरू होगी।",
+      "model_bangla_pronunciation": "মিটিং দস বজে শুরু হোগি",
+      "model_word_pronunciations": [
+        {
+          "target": "मीटिंग",
+          "bangla_pronunciation": "মিটিং",
+          "separator_after": " "
+        },
+        {
+          "target": "दस",
+          "bangla_pronunciation": "দস",
+          "separator_after": " "
+        },
+        {
+          "target": "बजे",
+          "bangla_pronunciation": "বজে",
+          "separator_after": " "
+        },
+        {
+          "target": "शुरू",
+          "bangla_pronunciation": "শুরু",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी।",
+          "bangla_pronunciation": "হোগি",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "মিটিং দশটায় শুরু হবে।"
+    },
+    {
+      "prompt_bengali_md": "কাজ শেষ হয়েছে বলুন।",
+      "model_target": "यह काम पूरा हो गया।",
+      "model_bangla_pronunciation": "ইয়হ কাম পুরা হো গয়া",
+      "model_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "पूरा",
+          "bangla_pronunciation": "পুরা",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "गया।",
+          "bangla_pronunciation": "গয়া",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এই কাজটি শেষ হয়েছে।"
+    },
+    {
+      "prompt_bengali_md": "কাজ এখনো বাকি বলুন।",
+      "model_target": "यह काम अभी बाकी है।",
+      "model_bangla_pronunciation": "ইয়হ কাম অভি বাকি হ্যায়",
+      "model_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "अभी",
+          "bangla_pronunciation": "অভি",
+          "separator_after": " "
+        },
+        {
+          "target": "बाकी",
+          "bangla_pronunciation": "বাকি",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এই কাজটি এখনো বাকি।"
+    },
+    {
+      "prompt_bengali_md": "পরবর্তী পদক্ষেপ জিজ্ঞেস করুন।",
+      "model_target": "अगला कदम क्या है?",
+      "model_bangla_pronunciation": "অগলা কদম ক্যা হ্যায়",
+      "model_word_pronunciations": [
+        {
+          "target": "अगला",
+          "bangla_pronunciation": "অগলা",
+          "separator_after": " "
+        },
+        {
+          "target": "कदम",
+          "bangla_pronunciation": "কদম",
+          "separator_after": " "
+        },
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "পরবর্তী পদক্ষেপ কী?"
+    },
+    {
+      "prompt_bengali_md": "কারও মতামত চাইুন।",
+      "model_target": "मुझे आपकी राय चाहिए।",
+      "model_bangla_pronunciation": "মুঝে আপকি রায় চাহিয়ে",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "आपकी",
+          "bangla_pronunciation": "আপকি",
+          "separator_after": " "
+        },
+        {
+          "target": "राय",
+          "bangla_pronunciation": "রায়",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার আপনার মতামত দরকার।"
+    },
+    {
+      "prompt_bengali_md": "মিটিং শেষ হয়েছে ঘোষণা করুন।",
+      "model_target": "आज की मीटिंग समाप्त है।",
+      "model_bangla_pronunciation": "আজ কি মিটিং সমাপ্ত হ্যায়",
+      "model_word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কি",
+          "separator_after": " "
+        },
+        {
+          "target": "मीटिंग",
+          "bangla_pronunciation": "মিটিং",
+          "separator_after": " "
+        },
+        {
+          "target": "समाप्त",
+          "bangla_pronunciation": "সমাপ্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আজকের মিটিং শেষ।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch034_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A bright small meeting room with four South Asian adult colleagues around a simple table, one person giving a concise project update while another points to blank sticky shapes on a board, wide clean framing, morning daylight, focal point on the speaker. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes, clean contemporary shapes, soft daylight, friendly realistic proportions, 1536x1024."
+    },
+    {
+      "key": "ch034_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A different post-meeting scene: two adult coworkers standing beside a closed laptop and plain folder, calmly confirming the next step after others have left, medium side view, soft afternoon light, uncluttered focal point on the summary conversation. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes, clean contemporary shapes, soft daylight, friendly realistic proportions, 1536x1024."
+    }
+  ],
+  "additional_practice": []
+}

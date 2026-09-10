@@ -1,0 +1,1388 @@
+{
+  "chapter_id": "ch033",
+  "status": "drafted",
+  "title_target": "ईमेल और सरल अनुरोध",
+  "title_bangla_pronunciation": "ইমেল ঔর সরল অনুরোধ",
+  "title_word_pronunciations": [
+    {
+      "target": "ईमेल",
+      "bangla_pronunciation": "ইমেল",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "ঔর",
+      "separator_after": " "
+    },
+    {
+      "target": "सरल",
+      "bangla_pronunciation": "সরল",
+      "separator_after": " "
+    },
+    {
+      "target": "अनुरोध",
+      "bangla_pronunciation": "অনুরোধ",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "ইমেল ও সহজ অনুরোধ",
+  "goal_bengali_md": "কাজের ইমেলের বিষয়, ফাইল, সংযুক্তি, নিশ্চিতকরণ, পরবর্তী যোগাযোগ ও ছোট অনুরোধের দরকারি হিন্দি ব্যবহার করা।",
+  "sentences": [
+    {
+      "id": "ch033_s01",
+      "target": "कृपया मुझे ईमेल भेजिए।",
+      "romanization": "kripya mujhe email bhejiye",
+      "bangla_pronunciation": "কৃপয়া মুঝে ইমেল ভেজিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "ईमेल",
+          "bangla_pronunciation": "ইমেল",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजिए।",
+          "bangla_pronunciation": "ভেজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনুগ্রহ করে আমাকে ইমেল পাঠান।"
+    },
+    {
+      "id": "ch033_s02",
+      "target": "ईमेल का विषय लिखिए।",
+      "romanization": "email ka vishay likhiye",
+      "bangla_pronunciation": "ইমেল কা বিশয় লিখিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "ईमेल",
+          "bangla_pronunciation": "ইমেল",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "विषय",
+          "bangla_pronunciation": "বিশয়",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ইমেলের বিষয় লিখুন।"
+    },
+    {
+      "id": "ch033_s03",
+      "target": "फ़ाइल साथ में भेजिए।",
+      "romanization": "file saath mein bhejiye",
+      "bangla_pronunciation": "ফাইল সাথ মেঁ ভেজিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "फ़ाइल",
+          "bangla_pronunciation": "ফাইল",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजिए।",
+          "bangla_pronunciation": "ভেজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফাইলটি সঙ্গে পাঠান।"
+    },
+    {
+      "id": "ch033_s04",
+      "target": "मैंने फ़ाइल भेज दी है।",
+      "romanization": "mainne file bhej dii hai",
+      "bangla_pronunciation": "ম্যায়ঁনে ফাইল ভেজ দি হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "मैंने",
+          "bangla_pronunciation": "ম্যায়ঁনে",
+          "separator_after": " "
+        },
+        {
+          "target": "फ़ाइल",
+          "bangla_pronunciation": "ফাইল",
+          "separator_after": " "
+        },
+        {
+          "target": "भेज",
+          "bangla_pronunciation": "ভেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "दी",
+          "bangla_pronunciation": "দি",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি ফাইল পাঠিয়ে দিয়েছি।"
+    },
+    {
+      "id": "ch033_s05",
+      "target": "क्या आपको ईमेल मिला?",
+      "romanization": "kya aapko email mila",
+      "bangla_pronunciation": "ক্যা আপকো ইমেল মিলা",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आपको",
+          "bangla_pronunciation": "আপকো",
+          "separator_after": " "
+        },
+        {
+          "target": "ईमेल",
+          "bangla_pronunciation": "ইমেল",
+          "separator_after": " "
+        },
+        {
+          "target": "मिला?",
+          "bangla_pronunciation": "মিলা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপনি কি ইমেল পেয়েছেন?"
+    },
+    {
+      "id": "ch033_s06",
+      "target": "मुझे ईमेल नहीं मिला।",
+      "romanization": "mujhe email nahin mila",
+      "bangla_pronunciation": "মুঝে ইমেল নহিঁ মিলা",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "ईमेल",
+          "bangla_pronunciation": "ইমেল",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "मिला।",
+          "bangla_pronunciation": "মিলা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি ইমেল পাইনি।"
+    },
+    {
+      "id": "ch033_s07",
+      "target": "कृपया फिर से भेजिए।",
+      "romanization": "kripya phir se bhejiye",
+      "bangla_pronunciation": "কৃপয়া ফির সে ভেজিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजिए।",
+          "bangla_pronunciation": "ভেজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনুগ্রহ করে আবার পাঠান।"
+    },
+    {
+      "id": "ch033_s08",
+      "target": "अटैचमेंट खुल नहीं रहा है।",
+      "romanization": "attachment khul nahin raha hai",
+      "bangla_pronunciation": "অ্যাটাচমেন্ট খুল নহিঁ রহা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "अटैचमेंट",
+          "bangla_pronunciation": "অ্যাটাচমেন্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "खुल",
+          "bangla_pronunciation": "খুল",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा",
+          "bangla_pronunciation": "রহা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অ্যাটাচমেন্ট খুলছে না।"
+    },
+    {
+      "id": "ch033_s09",
+      "target": "सही फ़ाइल भेज दीजिए।",
+      "romanization": "sahii file bhej dijiye",
+      "bangla_pronunciation": "সহি ফাইল ভেজ দিজিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "सही",
+          "bangla_pronunciation": "সহি",
+          "separator_after": " "
+        },
+        {
+          "target": "फ़ाइल",
+          "bangla_pronunciation": "ফাইল",
+          "separator_after": " "
+        },
+        {
+          "target": "भेज",
+          "bangla_pronunciation": "ভেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সঠিক ফাইলটি পাঠিয়ে দিন।"
+    },
+    {
+      "id": "ch033_s10",
+      "target": "जवाब आज भेज दीजिए।",
+      "romanization": "javaab aaj bhej dijiye",
+      "bangla_pronunciation": "জবাব আজ ভেজ দিজিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "जवाब",
+          "bangla_pronunciation": "জবাব",
+          "separator_after": " "
+        },
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "भेज",
+          "bangla_pronunciation": "ভেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আজই উত্তর পাঠিয়ে দিন।"
+    },
+    {
+      "id": "ch033_s11",
+      "target": "कृपया पुष्टि कर दीजिए।",
+      "romanization": "kripya pushti kar dijiye",
+      "bangla_pronunciation": "কৃপয়া পুষ্টি কর দিজিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "पुष्टि",
+          "bangla_pronunciation": "পুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "कर",
+          "bangla_pronunciation": "কর",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনুগ্রহ করে নিশ্চিত করে জানান।"
+    },
+    {
+      "id": "ch033_s12",
+      "target": "मुझे एक अपडेट चाहिए।",
+      "romanization": "mujhe ek update chahiye",
+      "bangla_pronunciation": "মুঝে এক আপডেট চাহিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "अपडेट",
+          "bangla_pronunciation": "আপডেট",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার একটি আপডেট দরকার।"
+    },
+    {
+      "id": "ch033_s13",
+      "target": "यह ईमेल छोटा रखिए।",
+      "romanization": "yah email chhota rakhiye",
+      "bangla_pronunciation": "ইয়হ ইমেল ছোটা রখিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "separator_after": " "
+        },
+        {
+          "target": "ईमेल",
+          "bangla_pronunciation": "ইমেল",
+          "separator_after": " "
+        },
+        {
+          "target": "छोटा",
+          "bangla_pronunciation": "ছোটা",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই ইমেলটি ছোট রাখুন।"
+    },
+    {
+      "id": "ch033_s14",
+      "target": "कृपया नाम सही लिखिए।",
+      "romanization": "kripya naam sahii likhiye",
+      "bangla_pronunciation": "কৃপয়া নাম সহি লিখিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "नाम",
+          "bangla_pronunciation": "নাম",
+          "separator_after": " "
+        },
+        {
+          "target": "सही",
+          "bangla_pronunciation": "সহি",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনুগ্রহ করে নামটি ঠিক লিখুন।"
+    },
+    {
+      "id": "ch033_s15",
+      "target": "आख़िरी तारीख़ कल है।",
+      "romanization": "aakhirii taarikh kal hai",
+      "bangla_pronunciation": "আখিরি তারিখ কল হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "आख़िरी",
+          "bangla_pronunciation": "আখিরি",
+          "separator_after": " "
+        },
+        {
+          "target": "तारीख़",
+          "bangla_pronunciation": "তারিখ",
+          "separator_after": " "
+        },
+        {
+          "target": "कल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শেষ তারিখ আগামীকাল।"
+    },
+    {
+      "id": "ch033_s16",
+      "target": "यह फ़ॉलो-अप ईमेल है।",
+      "romanization": "yah follow-up email hai",
+      "bangla_pronunciation": "ইয়হ ফলো-আপ ইমেল হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "separator_after": " "
+        },
+        {
+          "target": "फ़ॉलो-अप",
+          "bangla_pronunciation": "ফলো-আপ",
+          "separator_after": " "
+        },
+        {
+          "target": "ईमेल",
+          "bangla_pronunciation": "ইমেল",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এটি একটি ফলো-আপ ইমেল।"
+    },
+    {
+      "id": "ch033_s17",
+      "target": "आपके जवाब का इंतज़ार है।",
+      "romanization": "aapke javaab ka intezaar hai",
+      "bangla_pronunciation": "আপকে জবাব কা ইন্তেজার হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "आपके",
+          "bangla_pronunciation": "আপকে",
+          "separator_after": " "
+        },
+        {
+          "target": "जवाब",
+          "bangla_pronunciation": "জবাব",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "इंतज़ार",
+          "bangla_pronunciation": "ইন্তেজার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপনার উত্তরের অপেক্ষায় আছি।"
+    },
+    {
+      "id": "ch033_s18",
+      "target": "धन्यवाद, ईमेल मिल गया।",
+      "romanization": "dhanyavaad email mil gaya",
+      "bangla_pronunciation": "ধন্যবাদ ইমেল মিল গয়া",
+      "word_pronunciations": [
+        {
+          "target": "धन्यवाद,",
+          "bangla_pronunciation": "ধন্যবাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "ईमेल",
+          "bangla_pronunciation": "ইমেল",
+          "separator_after": " "
+        },
+        {
+          "target": "मिल",
+          "bangla_pronunciation": "মিল",
+          "separator_after": " "
+        },
+        {
+          "target": "गया।",
+          "bangla_pronunciation": "গয়া",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ধন্যবাদ, ইমেল পেয়েছি।"
+    },
+    {
+      "id": "ch033_s19",
+      "target": "कॉपी मुझे भी भेजिए।",
+      "romanization": "copy mujhe bhi bhejiye",
+      "bangla_pronunciation": "কপি মুঝে ভি ভেজিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "कॉपी",
+          "bangla_pronunciation": "কপি",
+          "separator_after": " "
+        },
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভি",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजिए।",
+          "bangla_pronunciation": "ভেজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমাকেও একটি কপি পাঠান।"
+    },
+    {
+      "id": "ch033_s20",
+      "target": "कोई सवाल हो तो लिखिए।",
+      "romanization": "koii sawaal ho to likhiye",
+      "bangla_pronunciation": "কোই সওয়াল হো তো লিখিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "कोई",
+          "bangla_pronunciation": "কোই",
+          "separator_after": " "
+        },
+        {
+          "target": "सवाल",
+          "bangla_pronunciation": "সওয়াল",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কোনো প্রশ্ন থাকলে লিখুন।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "ch033_v01",
+      "target": "ईमेल",
+      "type": "বিশেষ্য",
+      "romanization": "email",
+      "bangla_pronunciation": "ইমেল",
+      "word_pronunciations": [
+        {
+          "target": "ईमेल",
+          "bangla_pronunciation": "ইমেল",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ইমেল।",
+      "source_sentence_id": "ch033_s01",
+      "source_form": "ईमेल"
+    },
+    {
+      "id": "ch033_v02",
+      "target": "विषय",
+      "type": "বিশেষ্য",
+      "romanization": "vishay",
+      "bangla_pronunciation": "বিশয়",
+      "word_pronunciations": [
+        {
+          "target": "विषय",
+          "bangla_pronunciation": "বিশয়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিষয়; ইমেলের বিষয়ের ঘর বোঝাতে ব্যবহৃত।",
+      "source_sentence_id": "ch033_s02",
+      "source_form": "विषय"
+    },
+    {
+      "id": "ch033_v03",
+      "target": "फ़ाइल",
+      "type": "বিশেষ্য",
+      "romanization": "file",
+      "bangla_pronunciation": "ফাইল",
+      "word_pronunciations": [
+        {
+          "target": "फ़ाइल",
+          "bangla_pronunciation": "ফাইল",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফাইল।",
+      "source_sentence_id": "ch033_s03",
+      "source_form": "फ़ाइल"
+    },
+    {
+      "id": "ch033_v04",
+      "target": "अटैचमेंट",
+      "type": "বিশেষ্য",
+      "romanization": "attachment",
+      "bangla_pronunciation": "অ্যাটাচমেন্ট",
+      "word_pronunciations": [
+        {
+          "target": "अटैचमेंट",
+          "bangla_pronunciation": "অ্যাটাচমেন্ট",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অ্যাটাচমেন্ট; ইমেলের সঙ্গে যুক্ত ফাইল।",
+      "source_sentence_id": "ch033_s08",
+      "source_form": "अटैचमेंट"
+    },
+    {
+      "id": "ch033_v05",
+      "target": "जवाब",
+      "type": "বিশেষ্য",
+      "romanization": "javaab",
+      "bangla_pronunciation": "জবাব",
+      "word_pronunciations": [
+        {
+          "target": "जवाब",
+          "bangla_pronunciation": "জবাব",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "উত্তর বা জবাব।",
+      "source_sentence_id": "ch033_s10",
+      "source_form": "जवाब"
+    },
+    {
+      "id": "ch033_v06",
+      "target": "पुष्टि",
+      "type": "বিশেষ্য",
+      "romanization": "pushti",
+      "bangla_pronunciation": "পুষ্টি",
+      "word_pronunciations": [
+        {
+          "target": "पुष्टि",
+          "bangla_pronunciation": "পুষ্টি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিশ্চিতকরণ; ভদ্রভাবে কোনো বিষয় নিশ্চিত করতে বলতে ব্যবহৃত।",
+      "source_sentence_id": "ch033_s11",
+      "source_form": "पुष्टि"
+    },
+    {
+      "id": "ch033_v07",
+      "target": "अपडेट",
+      "type": "বিশেষ্য",
+      "romanization": "update",
+      "bangla_pronunciation": "আপডেট",
+      "word_pronunciations": [
+        {
+          "target": "अपडेट",
+          "bangla_pronunciation": "আপডেট",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপডেট/সর্বশেষ অবস্থা।",
+      "source_sentence_id": "ch033_s12",
+      "source_form": "अपडेट"
+    },
+    {
+      "id": "ch033_v08",
+      "target": "आख़िरी तारीख़",
+      "type": "বিশেষ্য পদবন্ধ",
+      "romanization": "aakhirii taarikh",
+      "bangla_pronunciation": "আখিরি তারিখ",
+      "word_pronunciations": [
+        {
+          "target": "आख़िरी",
+          "bangla_pronunciation": "আখিরি",
+          "separator_after": " "
+        },
+        {
+          "target": "तारीख़",
+          "bangla_pronunciation": "তারিখ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শেষ তারিখ বা সময়সীমা।",
+      "source_sentence_id": "ch033_s15",
+      "source_form": "आख़िरी तारीख़"
+    },
+    {
+      "id": "ch033_v09",
+      "target": "फ़ॉलो-अप",
+      "type": "বিশেষণধর্মী ঋণশব্দ",
+      "romanization": "follow-up",
+      "bangla_pronunciation": "ফলো-আপ",
+      "word_pronunciations": [
+        {
+          "target": "फ़ॉलो-अप",
+          "bangla_pronunciation": "ফলো-আপ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফলো-আপ; আগের যোগাযোগের পর আবার যোগাযোগ।",
+      "source_sentence_id": "ch033_s16",
+      "source_form": "फ़ॉलो-अप"
+    },
+    {
+      "id": "ch033_v10",
+      "target": "इंतज़ार",
+      "type": "বিশেষ্য",
+      "romanization": "intezaar",
+      "bangla_pronunciation": "ইন্তেজার",
+      "word_pronunciations": [
+        {
+          "target": "इंतज़ार",
+          "bangla_pronunciation": "ইন্তেজার",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অপেক্ষা; কোনো উত্তর বা ঘটনার জন্য অপেক্ষা বোঝাতে ব্যবহৃত।",
+      "source_sentence_id": "ch033_s17",
+      "source_form": "इंतज़ार"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "ভুল অ্যাটাচমেন্টের ছোট সমস্যা",
+    "scene_summary": "একজন সহকর্মী ইমেল পেয়েছে, কিন্তু অ্যাটাচমেন্ট খুলছে না; সে ভদ্রভাবে সঠিক ফাইল চাইছে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "সুমি একটি কাজের ইমেল পেল, কিন্তু ফাইল খুলল না। সে লিখল, "
+      },
+      {
+        "kind": "target",
+        "target": "अटैचमेंट खुल नहीं रहा है।",
+        "bangla_pronunciation": "অ্যাটাচমেন্ট খুল নহিঁ রহা হ্যায়",
+        "word_pronunciations": [
+          {
+            "target": "अटैचमेंट",
+            "bangla_pronunciation": "অ্যাটাচমেন্ট",
+            "separator_after": " "
+          },
+          {
+            "target": "खुल",
+            "bangla_pronunciation": "খুল",
+            "separator_after": " "
+          },
+          {
+            "target": "नहीं",
+            "bangla_pronunciation": "নহিঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "रहा",
+            "bangla_pronunciation": "রহা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " তারপর অনুরোধ করল, "
+      },
+      {
+        "kind": "target",
+        "target": "सही फ़ाइल भेज दीजिए।",
+        "bangla_pronunciation": "সহি ফাইল ভেজ দিজিয়ে",
+        "word_pronunciations": [
+          {
+            "target": "सही",
+            "bangla_pronunciation": "সহি",
+            "separator_after": " "
+          },
+          {
+            "target": "फ़ाइल",
+            "bangla_pronunciation": "ফাইল",
+            "separator_after": " "
+          },
+          {
+            "target": "भेज",
+            "bangla_pronunciation": "ভেজ",
+            "separator_after": " "
+          },
+          {
+            "target": "दीजिए।",
+            "bangla_pronunciation": "দিজিয়ে",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " সহকর্মী নতুন ফাইল পাঠালে সুমি বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "धन्यवाद, ईमेल मिल गया।",
+        "bangla_pronunciation": "ধন্যবাদ ইমেল মিল গয়া",
+        "word_pronunciations": [
+          {
+            "target": "धन्यवाद,",
+            "bangla_pronunciation": "ধন্যবাদ",
+            "separator_after": " "
+          },
+          {
+            "target": "ईमेल",
+            "bangla_pronunciation": "ইমেল",
+            "separator_after": " "
+          },
+          {
+            "target": "मिल",
+            "bangla_pronunciation": "মিল",
+            "separator_after": " "
+          },
+          {
+            "target": "गया।",
+            "bangla_pronunciation": "গয়া",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " কাজটি সময়মতো শেষ করতে তার আরেকটি তথ্য দরকার ছিল, তাই সে লিখল, "
+      },
+      {
+        "kind": "target",
+        "target": "मुझे एक अपडेट चाहिए।",
+        "bangla_pronunciation": "মুঝে এক আপডেট চাহিয়ে",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "एक",
+            "bangla_pronunciation": "এক",
+            "separator_after": " "
+          },
+          {
+            "target": "अपडेट",
+            "bangla_pronunciation": "আপডেট",
+            "separator_after": " "
+          },
+          {
+            "target": "चाहिए।",
+            "bangla_pronunciation": "চাহিয়ে",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " শেষে সে যোগ করল, "
+      },
+      {
+        "kind": "target",
+        "target": "आपके जवाब का इंतज़ार है।",
+        "bangla_pronunciation": "আপকে জবাব কা ইন্তেজার হ্যায়",
+        "word_pronunciations": [
+          {
+            "target": "आपके",
+            "bangla_pronunciation": "আপকে",
+            "separator_after": " "
+          },
+          {
+            "target": "जवाब",
+            "bangla_pronunciation": "জবাব",
+            "separator_after": " "
+          },
+          {
+            "target": "का",
+            "bangla_pronunciation": "কা",
+            "separator_after": " "
+          },
+          {
+            "target": "इंतज़ार",
+            "bangla_pronunciation": "ইন্তেজার",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "সুমি একটি কাজের ইমেল পেল, কিন্তু ফাইল খুলল না। সে লিখল, **अटैचमेंट** (অ্যাটাচমেন্ট) **खुल** (খুল) **नहीं** (নহিঁ) **रहा** (রহা) **है।** (হ্যায়) তারপর অনুরোধ করল, **सही** (সহি) **फ़ाइल** (ফাইল) **भेज** (ভেজ) **दीजिए।** (দিজিয়ে) সহকর্মী নতুন ফাইল পাঠালে সুমি বলল, **धन्यवाद,** (ধন্যবাদ) **ईमेल** (ইমেল) **मिल** (মিল) **गया।** (গয়া) কাজটি সময়মতো শেষ করতে তার আরেকটি তথ্য দরকার ছিল, তাই সে লিখল, **मुझे** (মুঝে) **एक** (এক) **अपडेट** (আপডেট) **चाहिए।** (চাহিয়ে) শেষে সে যোগ করল, **आपके** (আপকে) **जवाब** (জবাব) **का** (কা) **इंतज़ार** (ইন্তেজার) **है।** (হ্যায়)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "সংক্ষিপ্ত ইমেল পাঠানো",
+    "scene_summary": "একজন কর্মী আলাদা একটি প্রকল্পের ছোট ইমেল প্রস্তুত করে ফাইল পাঠায় এবং নিশ্চিতকরণ চায়।",
+    "lines": [
+      {
+        "target": "ईमेल का विषय साफ़ है।",
+        "bangla_pronunciation": "ইমেল কা বিশয় সাফ হ্যায়",
+        "word_pronunciations": [
+          {
+            "target": "ईमेल",
+            "bangla_pronunciation": "ইমেল",
+            "separator_after": " "
+          },
+          {
+            "target": "का",
+            "bangla_pronunciation": "কা",
+            "separator_after": " "
+          },
+          {
+            "target": "विषय",
+            "bangla_pronunciation": "বিশয়",
+            "separator_after": " "
+          },
+          {
+            "target": "साफ़",
+            "bangla_pronunciation": "সাফ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "फ़ाइल साथ में है।",
+        "bangla_pronunciation": "ফাইল সাথ মেঁ হ্যায়",
+        "word_pronunciations": [
+          {
+            "target": "फ़ाइल",
+            "bangla_pronunciation": "ফাইল",
+            "separator_after": " "
+          },
+          {
+            "target": "साथ",
+            "bangla_pronunciation": "সাথ",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मैंने ईमेल भेज दिया।",
+        "bangla_pronunciation": "ম্যায়ঁনে ইমেল ভেজ দিযা",
+        "word_pronunciations": [
+          {
+            "target": "मैंने",
+            "bangla_pronunciation": "ম্যায়ঁনে",
+            "separator_after": " "
+          },
+          {
+            "target": "ईमेल",
+            "bangla_pronunciation": "ইমেল",
+            "separator_after": " "
+          },
+          {
+            "target": "भेज",
+            "bangla_pronunciation": "ভেজ",
+            "separator_after": " "
+          },
+          {
+            "target": "दिया।",
+            "bangla_pronunciation": "দিযা",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "कृपया पुष्टि कर दीजिए।",
+        "bangla_pronunciation": "কৃপয়া পুষ্টি কর দিজিয়ে",
+        "word_pronunciations": [
+          {
+            "target": "कृपया",
+            "bangla_pronunciation": "কৃপয়া",
+            "separator_after": " "
+          },
+          {
+            "target": "पुष्टि",
+            "bangla_pronunciation": "পুষ্টি",
+            "separator_after": " "
+          },
+          {
+            "target": "कर",
+            "bangla_pronunciation": "কর",
+            "separator_after": " "
+          },
+          {
+            "target": "दीजिए।",
+            "bangla_pronunciation": "দিজিয়ে",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "जवाब आज चाहिए।",
+        "bangla_pronunciation": "জবাব আজ চাহিয়ে",
+        "word_pronunciations": [
+          {
+            "target": "जवाब",
+            "bangla_pronunciation": "জবাব",
+            "separator_after": " "
+          },
+          {
+            "target": "आज",
+            "bangla_pronunciation": "আজ",
+            "separator_after": " "
+          },
+          {
+            "target": "चाहिए।",
+            "bangla_pronunciation": "চাহিয়ে",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "ইমেল কা বিশয় সাফ হ্যায়। ফাইল সাথ মেঁ হ্যায়। ম্যায়ঁনে ইমেল ভেজ দিযা। কৃপয়া পুষ্টি কর দিজিয়ে। জবাব আজ চাহিয়ে",
+    "meaning_bengali_md": "ইমেলের বিষয় পরিষ্কার। ফাইল সঙ্গে আছে। আমি ইমেল পাঠিয়ে দিয়েছি। অনুগ্রহ করে নিশ্চিত করে জানান। আজ উত্তর দরকার।"
+  },
+  "script_practice": [
+    {
+      "item_id": "deva_conj_kta",
+      "mode": "application",
+      "target": "क्त",
+      "bangla_pronunciation": "ক্ত",
+      "explanation_bengali_md": "এটি এই অধ্যায়ের প্রচলিত যুক্তরূপ ও শব্দ-পাঠ অনুশীলনের একটি দরকারি রূপ; উচ্চারণ কাছাকাছি “ক্ত”।",
+      "practice_bengali_md": "যুক্তরূপটি এক নজরে চিনে “ক্ত” উচ্চারণ করুন; মাঝখানে অপ্রয়োজনীয় স্বর যোগ করবেন না।"
+    },
+    {
+      "item_id": "deva_conj_pta",
+      "mode": "application",
+      "target": "प्त",
+      "bangla_pronunciation": "প্ত",
+      "explanation_bengali_md": "এটি এই অধ্যায়ের প্রচলিত যুক্তরূপ ও শব্দ-পাঠ অনুশীলনের একটি দরকারি রূপ; উচ্চারণ কাছাকাছি “প্ত”।",
+      "practice_bengali_md": "যুক্তরূপটি এক নজরে চিনে “প্ত” উচ্চারণ করুন; মাঝখানে অপ্রয়োজনীয় স্বর যোগ করবেন না।"
+    },
+    {
+      "item_id": "deva_conj_dva",
+      "mode": "review",
+      "target": "द्व",
+      "bangla_pronunciation": "দ্ব",
+      "explanation_bengali_md": "এটি এই অধ্যায়ের প্রচলিত যুক্তরূপ ও শব্দ-পাঠ অনুশীলনের একটি দরকারি রূপ; উচ্চারণ কাছাকাছি “দ্ব”।",
+      "practice_bengali_md": "যুক্তরূপটি এক নজরে চিনে “দ্ব” উচ্চারণ করুন; মাঝখানে অপ্রয়োজনীয় স্বর যোগ করবেন না।"
+    },
+    {
+      "item_id": "deva_conj_tva",
+      "mode": "application",
+      "target": "त्व",
+      "bangla_pronunciation": "ত্ব",
+      "explanation_bengali_md": "এটি এই অধ্যায়ের প্রচলিত যুক্তরূপ ও শব্দ-পাঠ অনুশীলনের একটি দরকারি রূপ; উচ্চারণ কাছাকাছি “ত্ব”।",
+      "practice_bengali_md": "যুক্তরূপটি এক নজরে চিনে “ত্ব” উচ্চারণ করুন; মাঝখানে অপ্রয়োজনীয় স্বর যোগ করবেন না।"
+    },
+    {
+      "item_id": "deva_conj_nta",
+      "mode": "review",
+      "target": "न्त",
+      "bangla_pronunciation": "ন্ত",
+      "explanation_bengali_md": "এটি এই অধ্যায়ের প্রচলিত যুক্তরূপ ও শব্দ-পাঠ অনুশীলনের একটি দরকারি রূপ; উচ্চারণ কাছাকাছি “ন্ত”।",
+      "practice_bengali_md": "যুক্তরূপটি এক নজরে চিনে “ন্ত” উচ্চারণ করুন; মাঝখানে অপ্রয়োজনীয় স্বর যোগ করবেন না।"
+    }
+  ],
+  "number_practice": [
+    {
+      "display": "1 / १",
+      "target": "एक",
+      "bangla_pronunciation": "এক",
+      "word_pronunciations": [
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এক",
+      "system": "International + Devanagari"
+    },
+    {
+      "display": "2 / २",
+      "target": "दो",
+      "bangla_pronunciation": "দো",
+      "word_pronunciations": [
+        {
+          "target": "दो",
+          "bangla_pronunciation": "দো",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুই",
+      "system": "International + Devanagari"
+    }
+  ],
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "কাউকে ইমেল পাঠাতে বলুন।",
+      "model_target": "कृपया मुझे ईमेल भेजिए।",
+      "model_bangla_pronunciation": "কৃপয়া মুঝে ইমেল ভেজিয়ে",
+      "model_word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "ईमेल",
+          "bangla_pronunciation": "ইমেল",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजिए।",
+          "bangla_pronunciation": "ভেজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "অনুগ্রহ করে আমাকে ইমেল পাঠান।"
+    },
+    {
+      "prompt_bengali_md": "অ্যাটাচমেন্ট খুলছে না—বলুন।",
+      "model_target": "अटैचमेंट खुल नहीं रहा है।",
+      "model_bangla_pronunciation": "অ্যাটাচমেন্ট খুল নহিঁ রহা হ্যায়",
+      "model_word_pronunciations": [
+        {
+          "target": "अटैचमेंट",
+          "bangla_pronunciation": "অ্যাটাচমেন্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "खुल",
+          "bangla_pronunciation": "খুল",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा",
+          "bangla_pronunciation": "রহা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "অ্যাটাচমেন্ট খুলছে না।"
+    },
+    {
+      "prompt_bengali_md": "সঠিক ফাইল পাঠাতে বলুন।",
+      "model_target": "सही फ़ाइल भेज दीजिए।",
+      "model_bangla_pronunciation": "সহি ফাইল ভেজ দিজিয়ে",
+      "model_word_pronunciations": [
+        {
+          "target": "सही",
+          "bangla_pronunciation": "সহি",
+          "separator_after": " "
+        },
+        {
+          "target": "फ़ाइल",
+          "bangla_pronunciation": "ফাইল",
+          "separator_after": " "
+        },
+        {
+          "target": "भेज",
+          "bangla_pronunciation": "ভেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "সঠিক ফাইলটি পাঠিয়ে দিন।"
+    },
+    {
+      "prompt_bengali_md": "নিশ্চিতকরণ চাইুন।",
+      "model_target": "कृपया पुष्टि कर दीजिए।",
+      "model_bangla_pronunciation": "কৃপয়া পুষ্টি কর দিজিয়ে",
+      "model_word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "पुष्टि",
+          "bangla_pronunciation": "পুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "कर",
+          "bangla_pronunciation": "কর",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "অনুগ্রহ করে নিশ্চিত করে জানান।"
+    },
+    {
+      "prompt_bengali_md": "একটি হালনাগাদ তথ্য দরকার—বলুন।",
+      "model_target": "मुझे एक अपडेट चाहिए।",
+      "model_bangla_pronunciation": "মুঝে এক আপডেট চাহিয়ে",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "अपडेट",
+          "bangla_pronunciation": "আপডেট",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার একটি আপডেট দরকার।"
+    },
+    {
+      "prompt_bengali_md": "উত্তরের অপেক্ষায় আছেন—বলুন।",
+      "model_target": "आपके जवाब का इंतज़ार है।",
+      "model_bangla_pronunciation": "আপকে জবাব কা ইন্তেজার হ্যায়",
+      "model_word_pronunciations": [
+        {
+          "target": "आपके",
+          "bangla_pronunciation": "আপকে",
+          "separator_after": " "
+        },
+        {
+          "target": "जवाब",
+          "bangla_pronunciation": "জবাব",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "इंतज़ार",
+          "bangla_pronunciation": "ইন্তেজার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আপনার উত্তরের অপেক্ষায় আছি।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch033_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A bright office desk scene with an adult worker looking at a laptop showing abstract blank interface shapes while a coworker points to a file icon-like shape with no text; medium close framing, daylight, focal point on solving an attachment problem. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes, clean contemporary shapes, soft daylight, friendly realistic proportions, 1536x1024."
+    },
+    {
+      "key": "ch033_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A different quiet workspace: an adult professional calmly sending a short email on a laptop beside one plain document folder, over-the-shoulder composition with screen details intentionally unreadable, warm natural light, clean focal point on the act of sending. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes, clean contemporary shapes, soft daylight, friendly realistic proportions, 1536x1024."
+    }
+  ],
+  "additional_practice": []
+}
