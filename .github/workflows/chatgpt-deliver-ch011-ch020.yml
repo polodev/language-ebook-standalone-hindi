@@ -1,0 +1,84 @@
+name: Deliver Hindi chapters 11-20
+
+on:
+  push:
+    branches:
+      - chatgpt-transfer-ch011-ch020-20260911
+    paths:
+      - '.github/transfer/ch11-20-READY'
+
+permissions:
+  contents: write
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout transfer branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reconstruct transfer archive
+        shell: bash
+        run: |
+          mkdir -p /tmp/payload
+          cat .github/transfer/ch11-20.part-* | base64 -d | xz -d > /tmp/ch11-20.tar
+          tar -xf /tmp/ch11-20.tar -C /tmp/payload
+          tar -tf /tmp/ch11-20.tar
+
+      - name: Preserve current main and validate
+        shell: bash
+        run: |
+          git fetch origin main
+          git checkout -B delivery origin/main
+          for n in {11..20}; do
+            f=$(printf '01-easy-hindi-foundation/chapters/ch%03d.json' "$n")
+            src="/tmp/payload/$f"
+            test -s "$src"
+            if test -e "$f" && ! cmp -s "$src" "$f"; then
+              echo "Refusing to overwrite differing existing file: $f" >&2
+              exit 1
+            fi
+          done
+          p='01-easy-hindi-foundation/authoring-progress.json'
+          test -s "/tmp/payload/$p"
+          if test -e "$p" && ! cmp -s "/tmp/payload/$p" "$p"; then
+            echo "Refusing to overwrite differing existing progress file: $p" >&2
+            exit 1
+          fi
+          cp -a /tmp/payload/01-easy-hindi-foundation/authoring-progress.json 01-easy-hindi-foundation/authoring-progress.json
+          cp -a /tmp/payload/01-easy-hindi-foundation/chapters/ch0{11..20}.json 01-easy-hindi-foundation/chapters/
+          python3 scripts/manage.py validate --book 01-easy-hindi-foundation
+
+      - name: Commit and push main
+        shell: bash
+        run: |
+          git config user.name "polodev"
+          git config user.email "polodev10@gmail.com"
+          git add \
+            01-easy-hindi-foundation/chapters/ch011.json \
+            01-easy-hindi-foundation/chapters/ch012.json \
+            01-easy-hindi-foundation/chapters/ch013.json \
+            01-easy-hindi-foundation/chapters/ch014.json \
+            01-easy-hindi-foundation/chapters/ch015.json \
+            01-easy-hindi-foundation/chapters/ch016.json \
+            01-easy-hindi-foundation/chapters/ch017.json \
+            01-easy-hindi-foundation/chapters/ch018.json \
+            01-easy-hindi-foundation/chapters/ch019.json \
+            01-easy-hindi-foundation/chapters/ch020.json \
+            01-easy-hindi-foundation/authoring-progress.json
+          test "$(git diff --cached --name-only | wc -l)" -gt 0
+          A=$(git diff --cached --diff-filter=A --name-only | wc -l | tr -d ' ')
+          M=$(git diff --cached --diff-filter=M --name-only | wc -l | tr -d ' ')
+          D=$(git diff --cached --diff-filter=D --name-only | wc -l | tr -d ' ')
+          export TZ=Asia/Dhaka
+          STAMP=$(date '+%a %b %-d, %-I:%M%P')
+          PARTS=()
+          test "$M" -eq 0 || PARTS+=("$M files modified")
+          test "$A" -eq 0 || PARTS+=("$A files added")
+          test "$D" -eq 0 || PARTS+=("$D files deleted")
+          COUNTS=$(IFS=', '; echo "${PARTS[*]}")
+          git diff --cached --name-status
+          git commit -m "$STAMP — $COUNTS"
+          git push origin HEAD:main
