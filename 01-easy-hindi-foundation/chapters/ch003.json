@@ -1,0 +1,1314 @@
+{
+  "chapter_id": "ch003",
+  "status": "drafted",
+  "title_target": "परिवार और अपने लोग",
+  "title_bangla_pronunciation": "পরিবার অউর অপনে লোগ",
+  "title_word_pronunciations": [
+    {
+      "target": "परिवार",
+      "bangla_pronunciation": "পরিবার",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "अपने",
+      "bangla_pronunciation": "অপনে",
+      "separator_after": " "
+    },
+    {
+      "target": "लोग",
+      "bangla_pronunciation": "লোগ",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "পরিবার ও আশপাশের মানুষ",
+  "goal_bengali_md": "পরিবারের সদস্য, বন্ধু, প্রতিবেশী এবং মানুষ সম্পর্কে সহজ ও সম্মানজনক বর্ণনা দেওয়া।",
+  "sentences": [
+    {
+      "id": "ch003_s01",
+      "target": "यह मेरा परिवार है।",
+      "romanization": "yah mera parivaar hai.",
+      "bangla_pronunciation": "যহ মেরা পরিবার হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "परिवार",
+          "bangla_pronunciation": "পরিবার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এটি আমার পরিবার।"
+    },
+    {
+      "id": "ch003_s02",
+      "target": "ये मेरे पिता हैं।",
+      "romanization": "ye mere pita hain.",
+      "bangla_pronunciation": "য়ে মেরে পিতা হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "ये",
+          "bangla_pronunciation": "য়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "पिता",
+          "bangla_pronunciation": "পিতা",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ইনি আমার বাবা।"
+    },
+    {
+      "id": "ch003_s03",
+      "target": "ये मेरी माँ हैं।",
+      "romanization": "ye meri maan hain.",
+      "bangla_pronunciation": "য়ে মেরি মা হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "ये",
+          "bangla_pronunciation": "য়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरी",
+          "bangla_pronunciation": "মেরি",
+          "separator_after": " "
+        },
+        {
+          "target": "माँ",
+          "bangla_pronunciation": "মা",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ইনি আমার মা।"
+    },
+    {
+      "id": "ch003_s04",
+      "target": "यह मेरा भाई है।",
+      "romanization": "yah mera bhai hai.",
+      "bangla_pronunciation": "যহ মেরা ভাই হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "भाई",
+          "bangla_pronunciation": "ভাই",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এ আমার ভাই।"
+    },
+    {
+      "id": "ch003_s05",
+      "target": "यह मेरी बहन है।",
+      "romanization": "yah meri bahan hai.",
+      "bangla_pronunciation": "যহ মেরি বহন হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरी",
+          "bangla_pronunciation": "মেরি",
+          "separator_after": " "
+        },
+        {
+          "target": "बहन",
+          "bangla_pronunciation": "বহন",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এ আমার বোন।"
+    },
+    {
+      "id": "ch003_s06",
+      "target": "वह मेरा दोस्त है।",
+      "romanization": "vah mera dost hai.",
+      "bangla_pronunciation": "বহ মেরা দোস্ত হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "वह",
+          "bangla_pronunciation": "বহ",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "दोस्त",
+          "bangla_pronunciation": "দোস্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সে আমার বন্ধু। পুরুষ বন্ধুর জন্য।"
+    },
+    {
+      "id": "ch003_s07",
+      "target": "वह मेरी दोस्त है।",
+      "romanization": "vah meri dost hai.",
+      "bangla_pronunciation": "বহ মেরি দোস্ত হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "वह",
+          "bangla_pronunciation": "বহ",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरी",
+          "bangla_pronunciation": "মেরি",
+          "separator_after": " "
+        },
+        {
+          "target": "दोस्त",
+          "bangla_pronunciation": "দোস্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সে আমার বন্ধু। নারী বন্ধুর জন্য।"
+    },
+    {
+      "id": "ch003_s08",
+      "target": "ये मेरे पड़ोसी हैं।",
+      "romanization": "ye mere padosi hain.",
+      "bangla_pronunciation": "য়ে মেরে পড়োসি হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "ये",
+          "bangla_pronunciation": "য়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "पड़ोसी",
+          "bangla_pronunciation": "পড়োসি",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এরা আমার প্রতিবেশী।"
+    },
+    {
+      "id": "ch003_s09",
+      "target": "मेरे दो बच्चे हैं।",
+      "romanization": "mere do bachche hain.",
+      "bangla_pronunciation": "মেরে দো বচ্চে হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "दो",
+          "bangla_pronunciation": "দো",
+          "separator_after": " "
+        },
+        {
+          "target": "बच्चे",
+          "bangla_pronunciation": "বচ্চে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার দুই সন্তান আছে।"
+    },
+    {
+      "id": "ch003_s10",
+      "target": "मेरी एक बेटी है।",
+      "romanization": "meri ek beti hai.",
+      "bangla_pronunciation": "মেরি এক বেটি হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मेरी",
+          "bangla_pronunciation": "মেরি",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "बेटी",
+          "bangla_pronunciation": "বেটি",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার একটি মেয়ে আছে।"
+    },
+    {
+      "id": "ch003_s11",
+      "target": "मेरा एक बेटा है।",
+      "romanization": "mera ek beta hai.",
+      "bangla_pronunciation": "মেরা এক বেটা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "बेटा",
+          "bangla_pronunciation": "বেটা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার একটি ছেলে আছে।"
+    },
+    {
+      "id": "ch003_s12",
+      "target": "दादा घर पर हैं।",
+      "romanization": "daada ghar par hain.",
+      "bangla_pronunciation": "দাদা ঘর পর হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "दादा",
+          "bangla_pronunciation": "দাদা",
+          "separator_after": " "
+        },
+        {
+          "target": "घर",
+          "bangla_pronunciation": "ঘর",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দাদা বাড়িতে আছেন।"
+    },
+    {
+      "id": "ch003_s13",
+      "target": "दादी घर पर हैं।",
+      "romanization": "daadi ghar par hain.",
+      "bangla_pronunciation": "দাদি ঘর পর হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "दादी",
+          "bangla_pronunciation": "দাদি",
+          "separator_after": " "
+        },
+        {
+          "target": "घर",
+          "bangla_pronunciation": "ঘর",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দাদি বাড়িতে আছেন।"
+    },
+    {
+      "id": "ch003_s14",
+      "target": "मेरे पति यहाँ हैं।",
+      "romanization": "mere pati yahaan hain.",
+      "bangla_pronunciation": "মেরে পতি যহাঁ হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "पति",
+          "bangla_pronunciation": "পতি",
+          "separator_after": " "
+        },
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার স্বামী এখানে আছেন।"
+    },
+    {
+      "id": "ch003_s15",
+      "target": "मेरी पत्नी यहाँ है।",
+      "romanization": "meri patni yahaan hai.",
+      "bangla_pronunciation": "মেরি পত্নি যহাঁ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मेरी",
+          "bangla_pronunciation": "মেরি",
+          "separator_after": " "
+        },
+        {
+          "target": "पत्नी",
+          "bangla_pronunciation": "পত্নি",
+          "separator_after": " "
+        },
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার স্ত্রী এখানে আছেন।"
+    },
+    {
+      "id": "ch003_s16",
+      "target": "वह बहुत दयालु हैं।",
+      "romanization": "vah bahut dayaalu hain.",
+      "bangla_pronunciation": "বহ বহুত দয়ালু হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "वह",
+          "bangla_pronunciation": "বহ",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "दयालु",
+          "bangla_pronunciation": "দয়ালু",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তিনি খুব দয়ালু।"
+    },
+    {
+      "id": "ch003_s17",
+      "target": "वह बहुत अच्छे हैं।",
+      "romanization": "vah bahut achchhe hain.",
+      "bangla_pronunciation": "বহ বহুত অচ্ছে হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "वह",
+          "bangla_pronunciation": "বহ",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छे",
+          "bangla_pronunciation": "অচ্ছে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তিনি খুব ভালো। পুরুষের জন্য সম্মানসূচক রূপ।"
+    },
+    {
+      "id": "ch003_s18",
+      "target": "वह बहुत अच्छी हैं।",
+      "romanization": "vah bahut achchhi hain.",
+      "bangla_pronunciation": "বহ বহুত অচ্ছি হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "वह",
+          "bangla_pronunciation": "বহ",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छी",
+          "bangla_pronunciation": "অচ্ছি",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তিনি খুব ভালো। নারীর জন্য সম্মানসূচক রূপ।"
+    },
+    {
+      "id": "ch003_s19",
+      "target": "हम सब साथ हैं।",
+      "romanization": "ham sab saath hain.",
+      "bangla_pronunciation": "হম সব সাথ হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "हम",
+          "bangla_pronunciation": "হম",
+          "separator_after": " "
+        },
+        {
+          "target": "सब",
+          "bangla_pronunciation": "সব",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমরা সবাই একসঙ্গে আছি।"
+    },
+    {
+      "id": "ch003_s20",
+      "target": "आपका परिवार कैसा है?",
+      "romanization": "aapka parivaar kaisa hai?",
+      "bangla_pronunciation": "আপকা পরিবার ক্যাসা হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "आपका",
+          "bangla_pronunciation": "আপকা",
+          "separator_after": " "
+        },
+        {
+          "target": "परिवार",
+          "bangla_pronunciation": "পরিবার",
+          "separator_after": " "
+        },
+        {
+          "target": "कैसा",
+          "bangla_pronunciation": "ক্যাসা",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপনার পরিবার কেমন?"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "ch003_v01",
+      "target": "परिवार",
+      "type": "noun",
+      "romanization": "parivaar",
+      "bangla_pronunciation": "পরিবার",
+      "word_pronunciations": [
+        {
+          "target": "परिवार",
+          "bangla_pronunciation": "পরিবার",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিবার।",
+      "source_sentence_id": "ch003_s01",
+      "source_form": "परिवार"
+    },
+    {
+      "id": "ch003_v02",
+      "target": "पिता",
+      "type": "noun",
+      "romanization": "pita",
+      "bangla_pronunciation": "পিতা",
+      "word_pronunciations": [
+        {
+          "target": "पिता",
+          "bangla_pronunciation": "পিতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাবা; তুলনামূলকভাবে আনুষ্ঠানিক বা সম্মানজনক শব্দ।",
+      "source_sentence_id": "ch003_s02",
+      "source_form": "पिता"
+    },
+    {
+      "id": "ch003_v03",
+      "target": "माँ",
+      "type": "noun",
+      "romanization": "maan",
+      "bangla_pronunciation": "মা",
+      "word_pronunciations": [
+        {
+          "target": "माँ",
+          "bangla_pronunciation": "মা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মা।",
+      "source_sentence_id": "ch003_s03",
+      "source_form": "माँ"
+    },
+    {
+      "id": "ch003_v04",
+      "target": "भाई",
+      "type": "noun",
+      "romanization": "bhai",
+      "bangla_pronunciation": "ভাই",
+      "word_pronunciations": [
+        {
+          "target": "भाई",
+          "bangla_pronunciation": "ভাই",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভাই।",
+      "source_sentence_id": "ch003_s04",
+      "source_form": "भाई"
+    },
+    {
+      "id": "ch003_v05",
+      "target": "बहन",
+      "type": "noun",
+      "romanization": "bahan",
+      "bangla_pronunciation": "বহন",
+      "word_pronunciations": [
+        {
+          "target": "बहन",
+          "bangla_pronunciation": "বহন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বোন।",
+      "source_sentence_id": "ch003_s05",
+      "source_form": "बहन"
+    },
+    {
+      "id": "ch003_v06",
+      "target": "दोस्त",
+      "type": "noun",
+      "romanization": "dost",
+      "bangla_pronunciation": "দোস্ত",
+      "word_pronunciations": [
+        {
+          "target": "दोस्त",
+          "bangla_pronunciation": "দোস্ত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বন্ধু; নারী-পুরুষ উভয়ের ক্ষেত্রেই ব্যবহৃত হতে পারে।",
+      "source_sentence_id": "ch003_s06",
+      "source_form": "दोस्त"
+    },
+    {
+      "id": "ch003_v07",
+      "target": "पड़ोसी",
+      "type": "noun",
+      "romanization": "padosi",
+      "bangla_pronunciation": "পড়োসি",
+      "word_pronunciations": [
+        {
+          "target": "पड़ोसी",
+          "bangla_pronunciation": "পড়োসি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রতিবেশী।",
+      "source_sentence_id": "ch003_s08",
+      "source_form": "पड़ोसी"
+    },
+    {
+      "id": "ch003_v08",
+      "target": "बच्चे",
+      "type": "noun_form",
+      "romanization": "bachche",
+      "bangla_pronunciation": "বচ্চে",
+      "word_pronunciations": [
+        {
+          "target": "बच्चे",
+          "bangla_pronunciation": "বচ্চে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সন্তান বা বাচ্চারা; এখানে বহুবচন রূপ।",
+      "source_sentence_id": "ch003_s09",
+      "source_form": "बच्चे"
+    },
+    {
+      "id": "ch003_v09",
+      "target": "दयालु",
+      "type": "adjective",
+      "romanization": "dayaalu",
+      "bangla_pronunciation": "দয়ালু",
+      "word_pronunciations": [
+        {
+          "target": "दयालु",
+          "bangla_pronunciation": "দয়ালু",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দয়ালু।",
+      "source_sentence_id": "ch003_s16",
+      "source_form": "दयालु"
+    },
+    {
+      "id": "ch003_v10",
+      "target": "साथ",
+      "type": "adverb",
+      "romanization": "saath",
+      "bangla_pronunciation": "সাথ",
+      "word_pronunciations": [
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "একসঙ্গে বা সঙ্গে।",
+      "source_sentence_id": "ch003_s19",
+      "source_form": "साथ"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "নতুন প্রতিবেশীর সঙ্গে পরিচয়",
+    "scene_summary": "নতুন বাসায় একজন প্রাপ্তবয়স্ক নিজের পরিবারের ছবি দেখিয়ে প্রতিবেশীর সঙ্গে পরিচয় করিয়ে দিচ্ছেন।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "মিতুল নতুন বাসায় উঠেছে। পাশের ফ্ল্যাটের এক প্রতিবেশী তার পরিবারের ছবি দেখে জানতে চাইল। মিতুল বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "यह मेरा परिवार है।",
+        "bangla_pronunciation": "যহ মেরা পরিবার হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "यह",
+            "bangla_pronunciation": "যহ",
+            "separator_after": " "
+          },
+          {
+            "target": "मेरा",
+            "bangla_pronunciation": "মেরা",
+            "separator_after": " "
+          },
+          {
+            "target": "परिवार",
+            "bangla_pronunciation": "পরিবার",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " ছবিতে বাবাকে দেখিয়ে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "ये मेरे पिता हैं।",
+        "bangla_pronunciation": "য়ে মেরে পিতা হ্যাঁয়।",
+        "word_pronunciations": [
+          {
+            "target": "ये",
+            "bangla_pronunciation": "য়ে",
+            "separator_after": " "
+          },
+          {
+            "target": "मेरे",
+            "bangla_pronunciation": "মেরে",
+            "separator_after": " "
+          },
+          {
+            "target": "पिता",
+            "bangla_pronunciation": "পিতা",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যাঁয়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " মাকে দেখিয়ে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "ये मेरी माँ हैं।",
+        "bangla_pronunciation": "য়ে মেরি মা হ্যাঁয়।",
+        "word_pronunciations": [
+          {
+            "target": "ये",
+            "bangla_pronunciation": "য়ে",
+            "separator_after": " "
+          },
+          {
+            "target": "मेरी",
+            "bangla_pronunciation": "মেরি",
+            "separator_after": " "
+          },
+          {
+            "target": "माँ",
+            "bangla_pronunciation": "মা",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যাঁয়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " পরে পাশের বাসার মানুষদের পরিচয় করিয়ে দিয়ে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "ये मेरे पड़ोसी हैं।",
+        "bangla_pronunciation": "য়ে মেরে পড়োসি হ্যাঁয়।",
+        "word_pronunciations": [
+          {
+            "target": "ये",
+            "bangla_pronunciation": "য়ে",
+            "separator_after": " "
+          },
+          {
+            "target": "मेरे",
+            "bangla_pronunciation": "মেরে",
+            "separator_after": " "
+          },
+          {
+            "target": "पड़ोसी",
+            "bangla_pronunciation": "পড়োসি",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যাঁয়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " শেষে সে হাসতে হাসতে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "हम सब साथ हैं।",
+        "bangla_pronunciation": "হম সব সাথ হ্যাঁয়।",
+        "word_pronunciations": [
+          {
+            "target": "हम",
+            "bangla_pronunciation": "হম",
+            "separator_after": " "
+          },
+          {
+            "target": "सब",
+            "bangla_pronunciation": "সব",
+            "separator_after": " "
+          },
+          {
+            "target": "साथ",
+            "bangla_pronunciation": "সাথ",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যাঁয়।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "মিতুল নতুন বাসায় উঠেছে। পাশের ফ্ল্যাটের এক প্রতিবেশী তার পরিবারের ছবি দেখে জানতে চাইল। মিতুল বলল, **यह** (যহ) **मेरा** (মেরা) **परिवार** (পরিবার) **है।** (হ্যায়।) ছবিতে বাবাকে দেখিয়ে বলল, **ये** (য়ে) **मेरे** (মেরে) **पिता** (পিতা) **हैं।** (হ্যাঁয়।) মাকে দেখিয়ে বলল, **ये** (য়ে) **मेरी** (মেরি) **माँ** (মা) **हैं।** (হ্যাঁয়।) পরে পাশের বাসার মানুষদের পরিচয় করিয়ে দিয়ে বলল, **ये** (য়ে) **मेरे** (মেরে) **पड़ोसी** (পড়োসি) **हैं।** (হ্যাঁয়।) শেষে সে হাসতে হাসতে বলল, **हम** (হম) **सब** (সব) **साथ** (সাথ) **हैं।** (হ্যাঁয়।)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "একটি পরিবারের কথা",
+    "scene_summary": "একজন ব্যক্তি ভাই, বোন ও সন্তানদের নিয়ে ছোট করে কথা বলে এবং অন্যজনের পরিবার সম্পর্কে জানতে চায়।",
+    "lines": [
+      {
+        "target": "यह मेरा भाई है।",
+        "bangla_pronunciation": "যহ মেরা ভাই হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "यह",
+            "bangla_pronunciation": "যহ",
+            "separator_after": " "
+          },
+          {
+            "target": "मेरा",
+            "bangla_pronunciation": "মেরা",
+            "separator_after": " "
+          },
+          {
+            "target": "भाई",
+            "bangla_pronunciation": "ভাই",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "यह मेरी बहन है।",
+        "bangla_pronunciation": "যহ মেরি বহন হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "यह",
+            "bangla_pronunciation": "যহ",
+            "separator_after": " "
+          },
+          {
+            "target": "मेरी",
+            "bangla_pronunciation": "মেরি",
+            "separator_after": " "
+          },
+          {
+            "target": "बहन",
+            "bangla_pronunciation": "বহন",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मेरे दो बच्चे हैं।",
+        "bangla_pronunciation": "মেরে দো বচ্চে হ্যাঁয়।",
+        "word_pronunciations": [
+          {
+            "target": "मेरे",
+            "bangla_pronunciation": "মেরে",
+            "separator_after": " "
+          },
+          {
+            "target": "दो",
+            "bangla_pronunciation": "দো",
+            "separator_after": " "
+          },
+          {
+            "target": "बच्चे",
+            "bangla_pronunciation": "বচ্চে",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যাঁয়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मेरी एक बेटी है।",
+        "bangla_pronunciation": "মেরি এক বেটি হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "मेरी",
+            "bangla_pronunciation": "মেরি",
+            "separator_after": " "
+          },
+          {
+            "target": "एक",
+            "bangla_pronunciation": "এক",
+            "separator_after": " "
+          },
+          {
+            "target": "बेटी",
+            "bangla_pronunciation": "বেটি",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "आपका परिवार कैसा है?",
+        "bangla_pronunciation": "আপকা পরিবার ক্যাসা হ্যায়?",
+        "word_pronunciations": [
+          {
+            "target": "आपका",
+            "bangla_pronunciation": "আপকা",
+            "separator_after": " "
+          },
+          {
+            "target": "परिवार",
+            "bangla_pronunciation": "পরিবার",
+            "separator_after": " "
+          },
+          {
+            "target": "कैसा",
+            "bangla_pronunciation": "ক্যাসা",
+            "separator_after": " "
+          },
+          {
+            "target": "है?",
+            "bangla_pronunciation": "হ্যায়?",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "যহ মেরা ভাই হ্যায়। যহ মেরি বহন হ্যায়। মেরে দো বচ্চে হ্যাঁয়। মেরি এক বেটি হ্যায়। আপকা পরিবার ক্যাসা হ্যায়?",
+    "meaning_bengali_md": "এ আমার ভাই। এ আমার বোন। আমার দুই সন্তান আছে। আমার একটি মেয়ে আছে। আপনার পরিবার কেমন?"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_consonant_k",
+      "mode": "new",
+      "target": "क",
+      "bangla_pronunciation": "ক",
+      "explanation_bengali_md": "কণ্ঠের কাছাকাছি ‘ক’ ধ্বনি; অক্ষরের নিজস্ব অন্তর্নিহিত স্বর থাকতে পারে।",
+      "practice_bengali_md": "‘ক’ ধ্বনি বলুন এবং অক্ষরটি লিখুন।"
+    },
+    {
+      "item_id": "dev_consonant_kh",
+      "mode": "new",
+      "target": "ख",
+      "bangla_pronunciation": "খ",
+      "explanation_bengali_md": "শ্বাসযুক্ত ‘খ’ ধ্বনি।",
+      "practice_bengali_md": "হালকা বায়ু ছেড়ে ‘খ’ বলুন।"
+    },
+    {
+      "item_id": "dev_consonant_g",
+      "mode": "new",
+      "target": "ग",
+      "bangla_pronunciation": "গ",
+      "explanation_bengali_md": "‘গ’ ধ্বনি।",
+      "practice_bengali_md": "অক্ষরটি দেখে ‘গ’ বলুন এবং লিখুন।"
+    },
+    {
+      "item_id": "dev_consonant_gh",
+      "mode": "new",
+      "target": "घ",
+      "bangla_pronunciation": "ঘ",
+      "explanation_bengali_md": "শ্বাসযুক্ত ‘ঘ’ ধ্বনি।",
+      "practice_bengali_md": "‘ঘ’ ধ্বনি ধীরে বলুন।"
+    },
+    {
+      "item_id": "dev_consonant_ng",
+      "mode": "new",
+      "target": "ङ",
+      "bangla_pronunciation": "ঙ",
+      "explanation_bengali_md": "নাসিক্য ‘ঙ’ ধ্বনি; স্বাধীনভাবে কম দেখা যায়।",
+      "practice_bengali_md": "ধ্বনিটি চিনুন; শব্দের ভেতর নাসিক্য ধ্বনি হিসেবে মনে রাখুন।"
+    }
+  ],
+  "number_practice": null,
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "নিজের পরিবার দেখিয়ে পরিচয় দিন।",
+      "model_target": "यह मेरा परिवार है।",
+      "model_bangla_pronunciation": "যহ মেরা পরিবার হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "परिवार",
+          "bangla_pronunciation": "পরিবার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এটি আমার পরিবার।"
+    },
+    {
+      "prompt_bengali_md": "বাবাকে পরিচয় করিয়ে দিন।",
+      "model_target": "ये मेरे पिता हैं।",
+      "model_bangla_pronunciation": "য়ে মেরে পিতা হ্যাঁয়।",
+      "model_word_pronunciations": [
+        {
+          "target": "ये",
+          "bangla_pronunciation": "য়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "पिता",
+          "bangla_pronunciation": "পিতা",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ইনি আমার বাবা।"
+    },
+    {
+      "prompt_bengali_md": "একজন বন্ধুকে পরিচয় করিয়ে দিন।",
+      "model_target": "वह मेरा दोस्त है।",
+      "model_bangla_pronunciation": "বহ মেরা দোস্ত হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "वह",
+          "bangla_pronunciation": "বহ",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "दोस्त",
+          "bangla_pronunciation": "দোস্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "সে আমার বন্ধু। পুরুষ বন্ধুর জন্য।"
+    },
+    {
+      "prompt_bengali_md": "প্রতিবেশীদের পরিচয় দিন।",
+      "model_target": "ये मेरे पड़ोसी हैं।",
+      "model_bangla_pronunciation": "য়ে মেরে পড়োসি হ্যাঁয়।",
+      "model_word_pronunciations": [
+        {
+          "target": "ये",
+          "bangla_pronunciation": "য়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "पड़ोसी",
+          "bangla_pronunciation": "পড়োসি",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এরা আমার প্রতিবেশী।"
+    },
+    {
+      "prompt_bengali_md": "বলুন সবাই একসঙ্গে আছেন।",
+      "model_target": "हम सब साथ हैं।",
+      "model_bangla_pronunciation": "হম সব সাথ হ্যাঁয়।",
+      "model_word_pronunciations": [
+        {
+          "target": "हम",
+          "bangla_pronunciation": "হম",
+          "separator_after": " "
+        },
+        {
+          "target": "सब",
+          "bangla_pronunciation": "সব",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমরা সবাই একসঙ্গে আছি।"
+    },
+    {
+      "prompt_bengali_md": "অন্যজনের পরিবার কেমন জিজ্ঞেস করুন।",
+      "model_target": "आपका परिवार कैसा है?",
+      "model_bangla_pronunciation": "আপকা পরিবার ক্যাসা হ্যায়?",
+      "model_word_pronunciations": [
+        {
+          "target": "आपका",
+          "bangla_pronunciation": "আপকা",
+          "separator_after": " "
+        },
+        {
+          "target": "परिवार",
+          "bangla_pronunciation": "পরিবার",
+          "separator_after": " "
+        },
+        {
+          "target": "कैसा",
+          "bangla_pronunciation": "ক্যাসা",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আপনার পরিবার কেমন?"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch003_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A bright apartment living room in a contemporary South Asian city; a Bangladeshi adult shows a small family photo album to a friendly new neighbor, pointing to parents in the pictures while they chat; warm daylight, simple furniture, welcoming expressions. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    },
+    {
+      "key": "ch003_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A sunny family courtyard gathering; an adult stands with a brother, sister, and two children while speaking warmly to a visiting friend; natural multigenerational South Asian family atmosphere, uncluttered background, cheerful candid body language. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    }
+  ],
+  "additional_practice": []
+}

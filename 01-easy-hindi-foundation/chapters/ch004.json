@@ -1,0 +1,1238 @@
+{
+  "chapter_id": "ch004",
+  "status": "drafted",
+  "title_target": "घर और रोज़मर्रा की चीज़ें",
+  "title_bangla_pronunciation": "ঘর অউর রোজমর্‌রা কি চীজেঁ",
+  "title_word_pronunciations": [
+    {
+      "target": "घर",
+      "bangla_pronunciation": "ঘর",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "रोज़मर्रा",
+      "bangla_pronunciation": "রোজমর্‌রা",
+      "separator_after": " "
+    },
+    {
+      "target": "की",
+      "bangla_pronunciation": "কি",
+      "separator_after": " "
+    },
+    {
+      "target": "चीज़ें",
+      "bangla_pronunciation": "চীজেঁ",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "ঘর, রুম ও দৈনন্দিন জিনিস",
+  "goal_bengali_md": "রুম, বিছানা, টেবিল, ফোন, ব্যাগ, চাবি, দরজা, আলো, পানি এবং সহজ অবস্থান বলা ও জিজ্ঞেস করা।",
+  "sentences": [
+    {
+      "id": "ch004_s01",
+      "target": "यह मेरा कमरा है।",
+      "romanization": "yah mera kamra hai.",
+      "bangla_pronunciation": "যহ মেরা কমরা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "कमरा",
+          "bangla_pronunciation": "কমরা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এটি আমার ঘর।"
+    },
+    {
+      "id": "ch004_s02",
+      "target": "कमरा छोटा है।",
+      "romanization": "kamra chhota hai.",
+      "bangla_pronunciation": "কমরা ছোটা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "कमरा",
+          "bangla_pronunciation": "কমরা",
+          "separator_after": " "
+        },
+        {
+          "target": "छोटा",
+          "bangla_pronunciation": "ছোটা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঘরটি ছোট।"
+    },
+    {
+      "id": "ch004_s03",
+      "target": "बिस्तर यहाँ है।",
+      "romanization": "bistar yahaan hai.",
+      "bangla_pronunciation": "বিস্তার যহাঁ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "बिस्तर",
+          "bangla_pronunciation": "বিস্তার",
+          "separator_after": " "
+        },
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিছানা এখানে।"
+    },
+    {
+      "id": "ch004_s04",
+      "target": "मेज़ वहाँ है।",
+      "romanization": "mez vahaan hai.",
+      "bangla_pronunciation": "মেজ বহাঁ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मेज़",
+          "bangla_pronunciation": "মেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "वहाँ",
+          "bangla_pronunciation": "বহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "টেবিল সেখানে।"
+    },
+    {
+      "id": "ch004_s05",
+      "target": "फ़ोन मेज़ पर है।",
+      "romanization": "fon mez par hai.",
+      "bangla_pronunciation": "ফোন মেজ পর হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "फ़ोन",
+          "bangla_pronunciation": "ফোন",
+          "separator_after": " "
+        },
+        {
+          "target": "मेज़",
+          "bangla_pronunciation": "মেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফোন টেবিলের ওপর।"
+    },
+    {
+      "id": "ch004_s06",
+      "target": "बैग कुर्सी पर है।",
+      "romanization": "bag kursi par hai.",
+      "bangla_pronunciation": "ব্যাগ কুর্সি পর হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "बैग",
+          "bangla_pronunciation": "ব্যাগ",
+          "separator_after": " "
+        },
+        {
+          "target": "कुर्सी",
+          "bangla_pronunciation": "কুর্সি",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাগ চেয়ারের ওপর।"
+    },
+    {
+      "id": "ch004_s07",
+      "target": "चाबी बैग में है।",
+      "romanization": "chaabi bag mein hai.",
+      "bangla_pronunciation": "চাবি ব্যাগ মেঁ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "चाबी",
+          "bangla_pronunciation": "চাবি",
+          "separator_after": " "
+        },
+        {
+          "target": "बैग",
+          "bangla_pronunciation": "ব্যাগ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "চাবি ব্যাগের ভেতরে।"
+    },
+    {
+      "id": "ch004_s08",
+      "target": "दरवाज़ा खुला है।",
+      "romanization": "darvaaza khula hai.",
+      "bangla_pronunciation": "দরওয়াজা খুলা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "दरवाज़ा",
+          "bangla_pronunciation": "দরওয়াজা",
+          "separator_after": " "
+        },
+        {
+          "target": "खुला",
+          "bangla_pronunciation": "খুলা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দরজা খোলা।"
+    },
+    {
+      "id": "ch004_s09",
+      "target": "दरवाज़ा बंद है।",
+      "romanization": "darvaaza band hai.",
+      "bangla_pronunciation": "দরওয়াজা বন্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "दरवाज़ा",
+          "bangla_pronunciation": "দরওয়াজা",
+          "separator_after": " "
+        },
+        {
+          "target": "बंद",
+          "bangla_pronunciation": "বন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দরজা বন্ধ।"
+    },
+    {
+      "id": "ch004_s10",
+      "target": "बत्ती चालू है।",
+      "romanization": "batti chaalu hai.",
+      "bangla_pronunciation": "বত্তি চালু হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "बत्ती",
+          "bangla_pronunciation": "বত্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "चालू",
+          "bangla_pronunciation": "চালু",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাতি জ্বালানো আছে।"
+    },
+    {
+      "id": "ch004_s11",
+      "target": "बत्ती बंद है।",
+      "romanization": "batti band hai.",
+      "bangla_pronunciation": "বত্তি বন্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "बत्ती",
+          "bangla_pronunciation": "বত্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "बंद",
+          "bangla_pronunciation": "বন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাতি বন্ধ আছে।"
+    },
+    {
+      "id": "ch004_s12",
+      "target": "पानी यहाँ है।",
+      "romanization": "paani yahaan hai.",
+      "bangla_pronunciation": "পানি যহাঁ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানি",
+          "separator_after": " "
+        },
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পানি এখানে।"
+    },
+    {
+      "id": "ch004_s13",
+      "target": "गिलास कहाँ है?",
+      "romanization": "gilaas kahaan hai?",
+      "bangla_pronunciation": "গিলাস কহাঁ হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "गिलास",
+          "bangla_pronunciation": "গিলাস",
+          "separator_after": " "
+        },
+        {
+          "target": "कहाँ",
+          "bangla_pronunciation": "কহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গ্লাস কোথায়?"
+    },
+    {
+      "id": "ch004_s14",
+      "target": "किताब मेज़ पर है।",
+      "romanization": "kitaab mez par hai.",
+      "bangla_pronunciation": "কিতাব মেজ পর হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "किताब",
+          "bangla_pronunciation": "কিতাব",
+          "separator_after": " "
+        },
+        {
+          "target": "मेज़",
+          "bangla_pronunciation": "মেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বই টেবিলের ওপর।"
+    },
+    {
+      "id": "ch004_s15",
+      "target": "जूते पास में हैं।",
+      "romanization": "joote paas mein hain.",
+      "bangla_pronunciation": "জুতে পাস মেঁ হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "जूते",
+          "bangla_pronunciation": "জুতে",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "জুতাগুলো কাছেই আছে।"
+    },
+    {
+      "id": "ch004_s16",
+      "target": "मेरा फ़ोन कहाँ है?",
+      "romanization": "mera fon kahaan hai?",
+      "bangla_pronunciation": "মেরা ফোন কহাঁ হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "फ़ोन",
+          "bangla_pronunciation": "ফোন",
+          "separator_after": " "
+        },
+        {
+          "target": "कहाँ",
+          "bangla_pronunciation": "কহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার ফোন কোথায়?"
+    },
+    {
+      "id": "ch004_s17",
+      "target": "चाबी कहाँ है?",
+      "romanization": "chaabi kahaan hai?",
+      "bangla_pronunciation": "চাবি কহাঁ হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "चाबी",
+          "bangla_pronunciation": "চাবি",
+          "separator_after": " "
+        },
+        {
+          "target": "कहाँ",
+          "bangla_pronunciation": "কহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "চাবি কোথায়?"
+    },
+    {
+      "id": "ch004_s18",
+      "target": "खिड़की खुली है।",
+      "romanization": "khidki khuli hai.",
+      "bangla_pronunciation": "খিড়কি খুলি হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "खिड़की",
+          "bangla_pronunciation": "খিড়কি",
+          "separator_after": " "
+        },
+        {
+          "target": "खुली",
+          "bangla_pronunciation": "খুলি",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "জানালা খোলা।"
+    },
+    {
+      "id": "ch004_s19",
+      "target": "कमरा साफ़ है।",
+      "romanization": "kamra saaf hai.",
+      "bangla_pronunciation": "কমরা সাফ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "कमरा",
+          "bangla_pronunciation": "কমরা",
+          "separator_after": " "
+        },
+        {
+          "target": "साफ़",
+          "bangla_pronunciation": "সাফ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঘর পরিষ্কার।"
+    },
+    {
+      "id": "ch004_s20",
+      "target": "पानी ठंडा है।",
+      "romanization": "paani thanda hai.",
+      "bangla_pronunciation": "পানি ঠান্ডা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানি",
+          "separator_after": " "
+        },
+        {
+          "target": "ठंडा",
+          "bangla_pronunciation": "ঠান্ডা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পানি ঠান্ডা।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "ch004_v01",
+      "target": "कमरा",
+      "type": "noun",
+      "romanization": "kamra",
+      "bangla_pronunciation": "কমরা",
+      "word_pronunciations": [
+        {
+          "target": "कमरा",
+          "bangla_pronunciation": "কমরা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঘর বা কক্ষ।",
+      "source_sentence_id": "ch004_s01",
+      "source_form": "कमरा"
+    },
+    {
+      "id": "ch004_v02",
+      "target": "बिस्तर",
+      "type": "noun",
+      "romanization": "bistar",
+      "bangla_pronunciation": "বিস্তার",
+      "word_pronunciations": [
+        {
+          "target": "बिस्तर",
+          "bangla_pronunciation": "বিস্তার",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিছানা।",
+      "source_sentence_id": "ch004_s03",
+      "source_form": "बिस्तर"
+    },
+    {
+      "id": "ch004_v03",
+      "target": "मेज़",
+      "type": "noun",
+      "romanization": "mez",
+      "bangla_pronunciation": "মেজ",
+      "word_pronunciations": [
+        {
+          "target": "मेज़",
+          "bangla_pronunciation": "মেজ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "টেবিল।",
+      "source_sentence_id": "ch004_s04",
+      "source_form": "मेज़"
+    },
+    {
+      "id": "ch004_v04",
+      "target": "बैग",
+      "type": "noun",
+      "romanization": "bag",
+      "bangla_pronunciation": "ব্যাগ",
+      "word_pronunciations": [
+        {
+          "target": "बैग",
+          "bangla_pronunciation": "ব্যাগ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাগ।",
+      "source_sentence_id": "ch004_s06",
+      "source_form": "बैग"
+    },
+    {
+      "id": "ch004_v05",
+      "target": "चाबी",
+      "type": "noun",
+      "romanization": "chaabi",
+      "bangla_pronunciation": "চাবি",
+      "word_pronunciations": [
+        {
+          "target": "चाबी",
+          "bangla_pronunciation": "চাবি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "চাবি।",
+      "source_sentence_id": "ch004_s07",
+      "source_form": "चाबी"
+    },
+    {
+      "id": "ch004_v06",
+      "target": "दरवाज़ा",
+      "type": "noun",
+      "romanization": "darvaaza",
+      "bangla_pronunciation": "দরওয়াজা",
+      "word_pronunciations": [
+        {
+          "target": "दरवाज़ा",
+          "bangla_pronunciation": "দরওয়াজা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দরজা।",
+      "source_sentence_id": "ch004_s08",
+      "source_form": "दरवाज़ा"
+    },
+    {
+      "id": "ch004_v07",
+      "target": "बत्ती",
+      "type": "noun",
+      "romanization": "batti",
+      "bangla_pronunciation": "বত্তি",
+      "word_pronunciations": [
+        {
+          "target": "बत्ती",
+          "bangla_pronunciation": "বত্তি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাতি বা আলো; কথ্য ব্যবহারে সাধারণ।",
+      "source_sentence_id": "ch004_s10",
+      "source_form": "बत्ती"
+    },
+    {
+      "id": "ch004_v08",
+      "target": "पानी",
+      "type": "noun",
+      "romanization": "paani",
+      "bangla_pronunciation": "পানি",
+      "word_pronunciations": [
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পানি।",
+      "source_sentence_id": "ch004_s12",
+      "source_form": "पानी"
+    },
+    {
+      "id": "ch004_v09",
+      "target": "कहाँ",
+      "type": "question_word",
+      "romanization": "kahaan",
+      "bangla_pronunciation": "কহাঁ",
+      "word_pronunciations": [
+        {
+          "target": "कहाँ",
+          "bangla_pronunciation": "কহাঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কোথায়।",
+      "source_sentence_id": "ch004_s13",
+      "source_form": "कहाँ"
+    },
+    {
+      "id": "ch004_v10",
+      "target": "खिड़की",
+      "type": "noun",
+      "romanization": "khidki",
+      "bangla_pronunciation": "খিড়কি",
+      "word_pronunciations": [
+        {
+          "target": "खिड़की",
+          "bangla_pronunciation": "খিড়কি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "জানালা।",
+      "source_sentence_id": "ch004_s18",
+      "source_form": "खिड़की"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "হোটেলের ঘরে জিনিস খোঁজা",
+    "scene_summary": "একজন বাংলাদেশি ভ্রমণকারী হোটেল কক্ষে ফোন, ব্যাগ, চাবি ও গ্লাসের অবস্থান খুঁজে দেখছেন।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "হোটেলের ঘরে ঢুকে নাদিয়া জিনিসগুলো গুছিয়ে রাখল। সে সঙ্গীকে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "फ़ोन मेज़ पर है।",
+        "bangla_pronunciation": "ফোন মেজ পর হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "फ़ोन",
+            "bangla_pronunciation": "ফোন",
+            "separator_after": " "
+          },
+          {
+            "target": "मेज़",
+            "bangla_pronunciation": "মেজ",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " ব্যাগের দিকে ইশারা করে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "चाबी बैग में है।",
+        "bangla_pronunciation": "চাবি ব্যাগ মেঁ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "चाबी",
+            "bangla_pronunciation": "চাবি",
+            "separator_after": " "
+          },
+          {
+            "target": "बैग",
+            "bangla_pronunciation": "ব্যাগ",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " দরজা দেখে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "दरवाज़ा खुला है।",
+        "bangla_pronunciation": "দরওয়াজা খুলা হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "दरवाज़ा",
+            "bangla_pronunciation": "দরওয়াজা",
+            "separator_after": " "
+          },
+          {
+            "target": "खुला",
+            "bangla_pronunciation": "খুলা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " কিন্তু গ্লাস খুঁজে না পেয়ে জিজ্ঞেস করল, "
+      },
+      {
+        "kind": "target",
+        "target": "गिलास कहाँ है?",
+        "bangla_pronunciation": "গিলাস কহাঁ হ্যায়?",
+        "word_pronunciations": [
+          {
+            "target": "गिलास",
+            "bangla_pronunciation": "গিলাস",
+            "separator_after": " "
+          },
+          {
+            "target": "कहाँ",
+            "bangla_pronunciation": "কহাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "है?",
+            "bangla_pronunciation": "হ্যায়?",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " শেষে ঠান্ডা পানি পেয়ে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "पानी ठंडा है।",
+        "bangla_pronunciation": "পানি ঠান্ডা হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "पानी",
+            "bangla_pronunciation": "পানি",
+            "separator_after": " "
+          },
+          {
+            "target": "ठंडा",
+            "bangla_pronunciation": "ঠান্ডা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "হোটেলের ঘরে ঢুকে নাদিয়া জিনিসগুলো গুছিয়ে রাখল। সে সঙ্গীকে বলল, **फ़ोन** (ফোন) **मेज़** (মেজ) **पर** (পর) **है।** (হ্যায়।) ব্যাগের দিকে ইশারা করে বলল, **चाबी** (চাবি) **बैग** (ব্যাগ) **में** (মেঁ) **है।** (হ্যায়।) দরজা দেখে বলল, **दरवाज़ा** (দরওয়াজা) **खुला** (খুলা) **है।** (হ্যায়।) কিন্তু গ্লাস খুঁজে না পেয়ে জিজ্ঞেস করল, **गिलास** (গিলাস) **कहाँ** (কহাঁ) **है?** (হ্যায়?) শেষে ঠান্ডা পানি পেয়ে বলল, **पानी** (পানি) **ठंडा** (ঠান্ডা) **है।** (হ্যায়।)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "একটি ছোট ঘর",
+    "scene_summary": "একজন ব্যক্তি নতুন ঘরের বিছানা, টেবিল, পানি ও জানালার অবস্থান ছোট বাক্যে বর্ণনা করছেন।",
+    "lines": [
+      {
+        "target": "यह मेरा कमरा है।",
+        "bangla_pronunciation": "যহ মেরা কমরা হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "यह",
+            "bangla_pronunciation": "যহ",
+            "separator_after": " "
+          },
+          {
+            "target": "मेरा",
+            "bangla_pronunciation": "মেরা",
+            "separator_after": " "
+          },
+          {
+            "target": "कमरा",
+            "bangla_pronunciation": "কমরা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "बिस्तर यहाँ है।",
+        "bangla_pronunciation": "বিস্তার যহাঁ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "बिस्तर",
+            "bangla_pronunciation": "বিস্তার",
+            "separator_after": " "
+          },
+          {
+            "target": "यहाँ",
+            "bangla_pronunciation": "যহাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मेज़ वहाँ है।",
+        "bangla_pronunciation": "মেজ বহাঁ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "मेज़",
+            "bangla_pronunciation": "মেজ",
+            "separator_after": " "
+          },
+          {
+            "target": "वहाँ",
+            "bangla_pronunciation": "বহাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "पानी यहाँ है।",
+        "bangla_pronunciation": "পানি যহাঁ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "पानी",
+            "bangla_pronunciation": "পানি",
+            "separator_after": " "
+          },
+          {
+            "target": "यहाँ",
+            "bangla_pronunciation": "যহাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "खिड़की खुली है।",
+        "bangla_pronunciation": "খিড়কি খুলি হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "खिड़की",
+            "bangla_pronunciation": "খিড়কি",
+            "separator_after": " "
+          },
+          {
+            "target": "खुली",
+            "bangla_pronunciation": "খুলি",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "যহ মেরা কমরা হ্যায়। বিস্তার যহাঁ হ্যায়। মেজ বহাঁ হ্যায়। পানি যহাঁ হ্যায়। খিড়কি খুলি হ্যায়।",
+    "meaning_bengali_md": "এটি আমার ঘর। বিছানা এখানে। টেবিল সেখানে। পানি এখানে। জানালা খোলা।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_consonant_ch",
+      "mode": "new",
+      "target": "च",
+      "bangla_pronunciation": "চ",
+      "explanation_bengali_md": "বাংলা ‘চ’-এর কাছাকাছি ধ্বনি।",
+      "practice_bengali_md": "অক্ষরটি দেখে ‘চ’ বলুন।"
+    },
+    {
+      "item_id": "dev_consonant_chh",
+      "mode": "new",
+      "target": "छ",
+      "bangla_pronunciation": "ছ",
+      "explanation_bengali_md": "শ্বাসযুক্ত ‘ছ’ ধ্বনি।",
+      "practice_bengali_md": "বায়ু ছেড়ে ধ্বনিটি বলুন।"
+    },
+    {
+      "item_id": "dev_consonant_j",
+      "mode": "new",
+      "target": "ज",
+      "bangla_pronunciation": "জ",
+      "explanation_bengali_md": "‘জ’ ধ্বনি।",
+      "practice_bengali_md": "অক্ষরটি দেখে ‘জ’ বলুন এবং লিখুন।"
+    },
+    {
+      "item_id": "dev_consonant_jh",
+      "mode": "new",
+      "target": "झ",
+      "bangla_pronunciation": "ঝ",
+      "explanation_bengali_md": "শ্বাসযুক্ত ‘ঝ’ ধ্বনি।",
+      "practice_bengali_md": "ধ্বনিটি ধীরে বলুন।"
+    },
+    {
+      "item_id": "dev_consonant_ny",
+      "mode": "new",
+      "target": "ञ",
+      "bangla_pronunciation": "ঞ",
+      "explanation_bengali_md": "তালব্য নাসিক্য ধ্বনি; স্বতন্ত্রভাবে কম ব্যবহৃত।",
+      "practice_bengali_md": "অক্ষরটি চিনুন এবং নাসিক্য ধ্বনি অনুশীলন করুন।"
+    }
+  ],
+  "number_practice": [
+    {
+      "display": "5 / ५",
+      "target": "पाँच",
+      "bangla_pronunciation": "পাঁচ",
+      "word_pronunciations": [
+        {
+          "target": "पाँच",
+          "bangla_pronunciation": "পাঁচ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পাঁচ",
+      "system": "International + Devanagari"
+    },
+    {
+      "display": "6 / ६",
+      "target": "छह",
+      "bangla_pronunciation": "ছহ",
+      "word_pronunciations": [
+        {
+          "target": "छह",
+          "bangla_pronunciation": "ছহ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ছয়",
+      "system": "International + Devanagari"
+    }
+  ],
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "নিজের রুম দেখিয়ে বলুন।",
+      "model_target": "यह मेरा कमरा है।",
+      "model_bangla_pronunciation": "যহ মেরা কমরা হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "कमरा",
+          "bangla_pronunciation": "কমরা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এটি আমার ঘর।"
+    },
+    {
+      "prompt_bengali_md": "ফোন কোথায় আছে বলুন।",
+      "model_target": "फ़ोन मेज़ पर है।",
+      "model_bangla_pronunciation": "ফোন মেজ পর হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "फ़ोन",
+          "bangla_pronunciation": "ফোন",
+          "separator_after": " "
+        },
+        {
+          "target": "मेज़",
+          "bangla_pronunciation": "মেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ফোন টেবিলের ওপর।"
+    },
+    {
+      "prompt_bengali_md": "চাবির অবস্থান বলুন।",
+      "model_target": "चाबी बैग में है।",
+      "model_bangla_pronunciation": "চাবি ব্যাগ মেঁ হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "चाबी",
+          "bangla_pronunciation": "চাবি",
+          "separator_after": " "
+        },
+        {
+          "target": "बैग",
+          "bangla_pronunciation": "ব্যাগ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "চাবি ব্যাগের ভেতরে।"
+    },
+    {
+      "prompt_bengali_md": "গ্লাস কোথায় জিজ্ঞেস করুন।",
+      "model_target": "गिलास कहाँ है?",
+      "model_bangla_pronunciation": "গিলাস কহাঁ হ্যায়?",
+      "model_word_pronunciations": [
+        {
+          "target": "गिलास",
+          "bangla_pronunciation": "গিলাস",
+          "separator_after": " "
+        },
+        {
+          "target": "कहाँ",
+          "bangla_pronunciation": "কহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "গ্লাস কোথায়?"
+    },
+    {
+      "prompt_bengali_md": "নিজের ফোন কোথায় জিজ্ঞেস করুন।",
+      "model_target": "मेरा फ़ोन कहाँ है?",
+      "model_bangla_pronunciation": "মেরা ফোন কহাঁ হ্যায়?",
+      "model_word_pronunciations": [
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "फ़ोन",
+          "bangla_pronunciation": "ফোন",
+          "separator_after": " "
+        },
+        {
+          "target": "कहाँ",
+          "bangla_pronunciation": "কহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার ফোন কোথায়?"
+    },
+    {
+      "prompt_bengali_md": "জানালা খোলা বলুন।",
+      "model_target": "खिड़की खुली है।",
+      "model_bangla_pronunciation": "খিড়কি খুলি হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "खिड़की",
+          "bangla_pronunciation": "খিড়কি",
+          "separator_after": " "
+        },
+        {
+          "target": "खुली",
+          "bangla_pronunciation": "খুলি",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "জানালা খোলা।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch004_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A bright tidy hotel room in India; a Bangladeshi adult traveler checks a phone on a table, a key inside an open bag, and looks around for a drinking glass; open door, simple bed, clean uncluttered room, daylight from window, objects clearly arranged. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    },
+    {
+      "key": "ch004_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A small peaceful guest room in soft afternoon light; one adult stands near an open window while pointing out the bed, table, and a water jug; minimal furniture, clean geometry, calm domestic atmosphere, wide composition. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    }
+  ],
+  "additional_practice": []
+}
