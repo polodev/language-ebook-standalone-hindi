@@ -1,0 +1,96 @@
+name: Deliver Hindi chapters 31-40
+
+on:
+  push:
+    branches:
+      - chatgpt-transfer-ch031-ch040-20260911
+    paths:
+      - '.github/transfer/READY'
+
+permissions:
+  contents: write
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout transfer branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reconstruct transfer archive
+        shell: bash
+        run: |
+          cat .github/transfer/ch31-40.part-* | base64 -d | xz -d > /tmp/ch31-40.tar
+          tar -tf /tmp/ch31-40.tar
+
+      - name: Verify base, extract, merge progress, and validate
+        shell: bash
+        env:
+          EXPECTED_MAIN: ecc9a368348de603630bb4f387f56c2bbcddc2ab
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          test "$(git rev-parse origin/main)" = "$EXPECTED_MAIN"
+          git checkout -B delivery origin/main
+          tar -xf /tmp/ch31-40.tar
+          for n in {31..40}; do
+            f=$(printf '01-easy-hindi-foundation/chapters/ch%03d.json' "$n")
+            test -s "$f"
+          done
+          test -s .github/transfer/ch31-40-progress.json
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          base = "ecc9a368348de603630bb4f387f56c2bbcddc2ab"
+          dest = Path("01-easy-hindi-foundation/authoring-progress.json")
+          incoming = Path(".github/transfer/ch31-40-progress.json")
+          prior = json.loads(dest.read_text(encoding="utf-8")) if dest.exists() else None
+          current = json.loads(incoming.read_text(encoding="utf-8"))
+          current["branch"] = "main"
+          current["base_commit"] = base
+          if prior is not None:
+              current["preserved_prior_progress_checkpoint"] = prior
+          current["git_delivery"] = {
+              "status": "delivery_commit_pending_at_validation",
+              "target_branch": "main",
+              "base_main_sha": base,
+              "method": "GitHub Actions byte-exact transport from a temporary branch, followed by a normal fast-forward push.",
+              "force_push": False
+          }
+          dest.write_text(json.dumps(current, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          PY
+          rm -rf .github/transfer
+          python3 scripts/manage.py validate --book 01-easy-hindi-foundation
+
+      - name: Commit and push main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "polodev"
+          git config user.email "polodev10@gmail.com"
+          git add \
+            01-easy-hindi-foundation/chapters/ch031.json \
+            01-easy-hindi-foundation/chapters/ch032.json \
+            01-easy-hindi-foundation/chapters/ch033.json \
+            01-easy-hindi-foundation/chapters/ch034.json \
+            01-easy-hindi-foundation/chapters/ch035.json \
+            01-easy-hindi-foundation/chapters/ch036.json \
+            01-easy-hindi-foundation/chapters/ch037.json \
+            01-easy-hindi-foundation/chapters/ch038.json \
+            01-easy-hindi-foundation/chapters/ch039.json \
+            01-easy-hindi-foundation/chapters/ch040.json \
+            01-easy-hindi-foundation/authoring-progress.json
+          git diff --cached --name-status
+          test "$(git diff --cached --name-only | wc -l)" -eq 11
+          test "$(git diff --cached --diff-filter=A --name-only | wc -l)" -eq 10
+          test "$(git diff --cached --diff-filter=M --name-only | wc -l)" -eq 1
+          test -z "$(git diff --cached --diff-filter=DR --name-only)"
+          ts=$(TZ=Asia/Dhaka date '+%a %b %-d, %-I:%M%P')
+          git commit -m "$ts — 1 file modified, 10 files added"
+          commit_sha=$(git rev-parse HEAD)
+          git push origin HEAD:main
+          git fetch origin main
+          test "$(git rev-parse origin/main)" = "$commit_sha"
+          git push origin --delete chatgpt-transfer-ch031-ch040-20260911 || true
