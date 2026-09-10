@@ -24,7 +24,7 @@ jobs:
         run: |
           mkdir -p /tmp/payload
           cat .github/transfer/ch11-20.part-* | base64 -d | xz -d > /tmp/ch11-20.tar
-          test "$(sha256sum /tmp/ch11-20.tar | awk '{print $1}')" = "57639dbb108ca0bafcfb3c453e32ebdfe4956cb0bc9b710cd42f2901cb1342cd"
+          test "$(sha256sum /tmp/ch11-20.tar | awk '{print $1}')" = "ffddb1b3da0cbd267fdfc90cbce5bb1bb48f399888adec03e21de8be22c422fd"
           tar -xf /tmp/ch11-20.tar -C /tmp/payload
           tar -tf /tmp/ch11-20.tar
 
