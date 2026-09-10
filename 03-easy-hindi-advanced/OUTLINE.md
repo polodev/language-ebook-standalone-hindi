@@ -1,9 +1,7 @@
 # Easy Hindi Advanced
 
-Status: planned, no authored chapters. 60 chapters. Audience and script rules: ../language.json. Approximate level target: B2–C1; optional C2-style stretch. This outline overrides inherited English builder exemptions.
+Read [INSTRUCTIONS.md](INSTRUCTIONS.md): it is this book's single authoring instruction file.
 
-Every chapter: five script items; two number cards on every third chapter; 15 sentences; 10 vocabulary entries; a Bangla-supported reading and a DIFFERENT target-language reading with full Bangla meaning; six speaking tasks; two matching image prompts. Review/builder chapters retain all sections. Foundation length ceilings are in book.json.
+[book.json](book.json) contains all 60 ordered chapter plans, stable IDs, source paths and exact output filenames. [chapter-template.json](chapter-template.json) is the empty source structure; [supplementary.json](supplementary.json) contains publication design data.
 
-Read ../docs/AUTHORING.md, ../docs/CONTENT-CONTRACT.md and ../docs/IMAGE-GUIDELINE.md. book.json contains the ordered topic plans, content paths and script stages. chapter-template.json is intentionally empty. Source lessons go in chapters/chNNN.json. Global image subjects remain for the author to fill after the book's visual direction is known. Vocabulary target selection, if applicable, is separate from lesson writing and must use target-language evidence.
-
-Expected final outputs: 8; exact filenames in book.json. Content and artwork are not generated in this setup. Production layout adaptation, target fonts, proofreading and rendered QA remain explicit tasks in ../docs/BUILD-PLAYBOOK.md.
+Current state: scaffolded; chapter plans are not authored lessons or publication approval.

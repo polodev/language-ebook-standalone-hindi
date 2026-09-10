@@ -1,12 +1,14 @@
 {
   "date": "2026-09-10",
+  "content_schema_version": "2.0",
   "planned_books": 4,
   "planned_chapters": 414,
   "authored_chapters": 0,
   "plan_validation": "passed",
-  "synthetic_structural_tests_passed": 12,
-  "authoring_packet": "generated_and_checked",
-  "complete_manuscript_gate": "correctly_rejects_missing_content",
+  "synthetic_structural_tests_passed": 32,
+  "authoring_packets": "all_four_books_verified_against_current_sole_INSTRUCTIONS.md",
+  "completion_regression": "60 complete synthetic chapters pass; missing chapter 37 is rejected in complete mode",
   "pdf_epub_rendering": "not_run_no_content_or_layout_adapter",
-  "linguistic_review": "not_run_no_content"
+  "linguistic_review": "not_run_no_content",
+  "mixed_reading_markdown": "exact bold/word-cue mirror enforced; real Markdown rendering regression passed for French apostrophes"
 }

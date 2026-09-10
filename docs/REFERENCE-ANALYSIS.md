@@ -1,5 +1,7 @@
 # Reference analysis — 2026-09-10
 
+> Historical reference only. These notes describe the original English sources and initial scaffold, not current authoring rules. Each book’s INSTRUCTIONS.md is the sole current authority.
+
 Reference repository: language-ebooks. Frozen committed reference: ca94e5735e954dae6e566e91f09c025385ac13b4. Local uncommitted work was observed and excluded from the scaffold provenance; the original checkout was not edited.
 
 Recent commits inspected:
@@ -13,4 +15,4 @@ Book 9: Foundation, 60 chapters, A1–A2–early B1 intent, 20 sentences in norm
 
 What transfers: original-topic planning, one JSON payload per chapter, Bangla scaffolding, two distinct readings, stable image keys, editable design JSON, eight base outputs and four extra compact vocabulary PDFs. What does not transfer: English grammar assumptions, English-only pronunciation policy, builder exemptions, English vocabulary rosters, unverified status labels or monorepo absolute paths.
 
-New editorial decisions: Foundation 60 chapters targeting zero–A2 with an early-B1 bridge; Intermediate 60 targeting B1–B2; Advanced 60 targeting B2–C1 with optional C2-style stretch. These labels are planning goals, not assessed equivalences across languages. Vocabulary: 234 chapters, 7,020 language-specific targets to be selected later. Every chapter now includes five script items, two number items on scheduled chapters, full core sections and two illustrations. No learner lessons or target vocabulary rosters were authored by the manager.
+Initial scaffold decisions (superseded): Foundation 60 chapters targeting zero–A2 with an early-B1 bridge; Intermediate 60 targeting B1–B2; Advanced 60 targeting B2–C1 with optional C2-style stretch. These labels are planning goals, not assessed equivalences across languages. Vocabulary: 234 chapters, 7,020 language-specific targets to be selected later. At initial scaffolding, every chapter included five script items, two number items on scheduled chapters, full core sections and two illustrations. No learner lessons or target vocabulary rosters were authored by the manager.

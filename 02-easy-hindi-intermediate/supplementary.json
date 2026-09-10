@@ -90,7 +90,33 @@
     "tracker_page_mm": [
       210,
       297
-    ]
+    ],
+    "reading_layout": {
+      "section_order": [
+        "sentences",
+        "vocabulary",
+        "bridge_reading",
+        "target_reading",
+        "script_and_numbers",
+        "speaking_practice"
+      ],
+      "target_word_pronunciation": {
+        "position": "immediately_after_each_word",
+        "format": "target (Bangla pronunciation)",
+        "keep_word_and_cue_together": true,
+        "enabled_for_all_levels": true
+      },
+      "bridge_target_highlight": "bold_native_target_spans",
+      "target_reading_order": [
+        "annotated_target_lines",
+        "complete_bangla_pronunciation",
+        "meaning_bengali_md"
+      ],
+      "optional_number_cards": "Omit the number subsection when number_practice is null; otherwise show 2 or 3 cards.",
+      "image_placement": "Place each chapter reading image beside or immediately above its matching reading; keep captions as real font text.",
+      "mobile_flow": "Single column with readable inline pronunciation; allow complete word-and-cue groups to wrap without clipping.",
+      "bridge_markdown_field": "bridge_reading.text_md"
+    }
   },
   "outputs": [
     "01-easy-hindi-intermediate-bn-day-tracker-a4.pdf",

@@ -1,1 +1,1 @@
-Select language-specific targets before each chapter. Keep reserved IDs/order from book.json. Store chNNN.json as an object with status (proposed or reviewed) and items. Each item has id, target, category, type, level_rationale and sources. Review cross-chapter normalized duplicates, variants, usefulness and sense-level difficulty. No roster has been authored yet.
+Roster data files belong here. Read ../INSTRUCTIONS.md for the sole roster and authoring rules; reserved IDs are in ../book.json.

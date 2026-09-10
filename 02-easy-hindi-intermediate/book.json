@@ -11,7 +11,6 @@
   "level_target": "B1–B2",
   "chapter_count": 60,
   "sentences_per_chapter": 20,
-  "vocabulary_per_chapter": 10,
   "output_prefix": "easy-hindi-intermediate-bn",
   "expected_output_files": [
     "01-easy-hindi-intermediate-bn-day-tracker-a4.pdf",
@@ -33,13 +32,17 @@
       "level_target": "B1–B2",
       "content_brief": "Restart from clear B1 speech, reduce hesitation, and connect ideas with simple structure. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch001_bridge_reading_01",
         "ch001_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -51,13 +54,17 @@
       "level_target": "B1–B2",
       "content_brief": "Priorities, progress, blockers, deadlines, and useful daily office updates. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch002_bridge_reading_01",
         "ch002_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -69,13 +76,17 @@
       "level_target": "B1–B2",
       "content_brief": "What happened, impact, what was tried, what help is needed, and calm tone. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch003_bridge_reading_01",
         "ch003_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -87,13 +98,17 @@
       "level_target": "B1–B2",
       "content_brief": "Because, as a result, if, unless, and simple cause-effect chains. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch004_bridge_reading_01",
         "ch004_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -105,13 +120,17 @@
       "level_target": "B1–B2",
       "content_brief": "Study history, career target, skill gap, language study, and future plan. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch005_bridge_reading_01",
         "ch005_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -123,13 +142,17 @@
       "level_target": "B1–B2",
       "content_brief": "Customer confusion, apology, clarification, next step, refund, and service recovery. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch006_bridge_reading_01",
         "ch006_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -141,13 +164,17 @@
       "level_target": "B1–B2",
       "content_brief": "Join discussion, interrupt politely, agree, half-agree, clarify, and summarize. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch007_bridge_reading_01",
         "ch007_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -159,13 +186,17 @@
       "level_target": "B1–B2",
       "content_brief": "Introduce topic, give main point, evidence, example, risk, and closing. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch008_bridge_reading_01",
         "ch008_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -177,13 +208,17 @@
       "level_target": "B1–B2",
       "content_brief": "Request, reminder, attachment, apology, follow-up, and professional warmth. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch009_bridge_reading_01",
         "ch009_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -193,15 +228,19 @@
       "content_status": "needs_content",
       "content_file": "chapters/ch010.json",
       "level_target": "B1–B2",
-      "content_brief": "Grow issue statements into calm explanations with impact and requested action. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "content_brief": "Grow issue statements into calm explanations with impact and requested action. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch010_bridge_reading_01",
         "ch010_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -213,13 +252,17 @@
       "level_target": "B1–B2",
       "content_brief": "Deadline, budget, scope, trade-off, extension, priority, and compromise. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch011_bridge_reading_01",
         "ch011_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -231,13 +274,17 @@
       "level_target": "B1–B2",
       "content_brief": "Increase, decrease, stable, compare, percentage, chart, and cautious claims. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch012_bridge_reading_01",
         "ch012_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -249,13 +296,17 @@
       "level_target": "B1–B2",
       "content_brief": "Situation, task, action, result, weakness, strength, and concrete job stories. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch013_bridge_reading_01",
         "ch013_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -267,13 +318,17 @@
       "level_target": "B1–B2",
       "content_brief": "Receive feedback, give feedback, admit mistakes, improvement plan, and professional humility. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch014_bridge_reading_01",
         "ch014_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -283,15 +338,19 @@
       "content_status": "needs_content",
       "content_file": "chapters/ch015.json",
       "level_target": "B1–B2",
-      "content_brief": "Build stronger workplace requests and follow-ups from direct to polished. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "content_brief": "Build stronger workplace requests and follow-ups from direct to polished. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch015_bridge_reading_01",
         "ch015_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -303,13 +362,17 @@
       "level_target": "B1–B2",
       "content_brief": "Client call, milestone, revision, scope, payment, timezone, and professional trust. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch016_bridge_reading_01",
         "ch016_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -321,13 +384,17 @@
       "level_target": "B1–B2",
       "content_brief": "Plan, task owner, dependency, risk, delay, deadline, and next step. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch017_bridge_reading_01",
         "ch017_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -339,13 +406,17 @@
       "level_target": "B1–B2",
       "content_brief": "First, next, after that, finally, check, repeat, and process clarity. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch018_bridge_reading_01",
         "ch018_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -357,13 +428,17 @@
       "level_target": "B1–B2",
       "content_brief": "Delay, cancellation, booking change, missing document, route change, and practical solution. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch019_bridge_reading_01",
         "ch019_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -373,15 +448,19 @@
       "content_status": "needs_content",
       "content_file": "chapters/ch020.json",
       "level_target": "B1–B2",
-      "content_brief": "Build cause-effect and contrast sentences with although, however, so, and therefore. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "content_brief": "Build cause-effect and contrast sentences with although, however, so, and therefore. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch020_bridge_reading_01",
         "ch020_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -393,13 +472,17 @@
       "level_target": "B1–B2",
       "content_brief": "Appointment, symptoms, sick leave, medical note, work update, and privacy. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch021_bridge_reading_01",
         "ch021_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -411,13 +494,17 @@
       "level_target": "B1–B2",
       "content_brief": "Payment proof, statement, transaction, document, verification, and formal request. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch022_bridge_reading_01",
         "ch022_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -429,13 +516,17 @@
       "level_target": "B1–B2",
       "content_brief": "Complaint timeline, evidence, refund request, escalation, and fair tone. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch023_bridge_reading_01",
         "ch023_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -447,13 +538,17 @@
       "level_target": "B1–B2",
       "content_brief": "Event introduction, follow-up, common interest, professional small talk, and contact exchange. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch024_bridge_reading_01",
         "ch024_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -463,15 +558,19 @@
       "content_status": "needs_content",
       "content_file": "chapters/ch025.json",
       "level_target": "B1–B2",
-      "content_brief": "Move from opinion to reason, evidence, example, and balanced conclusion. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "content_brief": "Move from opinion to reason, evidence, example, and balanced conclusion. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch025_bridge_reading_01",
         "ch025_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -483,13 +582,17 @@
       "level_target": "B1–B2",
       "content_brief": "Discuss news, source, claim, evidence, fake news, and careful disagreement. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch026_bridge_reading_01",
         "ch026_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -501,13 +604,17 @@
       "level_target": "B1–B2",
       "content_brief": "Traffic, waste, water, local service, community help, complaint, and responsibility. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch027_bridge_reading_01",
         "ch027_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -519,13 +626,17 @@
       "level_target": "B1–B2",
       "content_brief": "Flood, heat, pollution, preparation, warning, relief, and public safety messages. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch028_bridge_reading_01",
         "ch028_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -537,13 +648,17 @@
       "level_target": "B1–B2",
       "content_brief": "App settings, OTP, privacy, scam, account security, and reporting a problem. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch029_bridge_reading_01",
         "ch029_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -553,15 +668,19 @@
       "content_status": "needs_content",
       "content_file": "chapters/ch030.json",
       "level_target": "B1–B2",
-      "content_brief": "Build if/unless/as long as sentences for choices, risks, and backup plans. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "content_brief": "Build if/unless/as long as sentences for choices, risks, and backup plans. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch030_bridge_reading_01",
         "ch030_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -573,13 +692,17 @@
       "level_target": "B1–B2",
       "content_brief": "Tell experience with timeline, background, turning point, result, and lesson learned. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch031_bridge_reading_01",
         "ch031_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -591,13 +714,17 @@
       "level_target": "B1–B2",
       "content_brief": "Goal, risk, backup plan, condition, timeline, and realistic planning language. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch032_bridge_reading_01",
         "ch032_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -609,13 +736,17 @@
       "level_target": "B1–B2",
       "content_brief": "Compare price, value, quality, reliability, risk, and recommendation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch033_bridge_reading_01",
         "ch033_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -627,13 +758,17 @@
       "level_target": "B1–B2",
       "content_brief": "Suggest, recommend, explain benefit, respect choice, and close softly. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch034_bridge_reading_01",
         "ch034_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -643,15 +778,19 @@
       "content_status": "needs_content",
       "content_file": "chapters/ch035.json",
       "level_target": "B1–B2",
-      "content_brief": "Build reported speech and update chains for office and service contexts. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "content_brief": "Build reported speech and update chains for office and service contexts. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch035_bridge_reading_01",
         "ch035_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -663,13 +802,17 @@
       "level_target": "B1–B2",
       "content_brief": "Direct vs indirect tone, polite disagreement, personal space, and cross-cultural repair. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch036_bridge_reading_01",
         "ch036_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -681,13 +824,17 @@
       "level_target": "B1–B2",
       "content_brief": "Conflict, misunderstanding, blame-free explanation, apology, boundary, and solution. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch037_bridge_reading_01",
         "ch037_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -699,13 +846,17 @@
       "level_target": "B1–B2",
       "content_brief": "Give instructions, train a junior, hand over task, confirm understanding, and check completion. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch038_bridge_reading_01",
         "ch038_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -717,13 +868,17 @@
       "level_target": "B1–B2",
       "content_brief": "Ask academic questions, refer to readings, disagree respectfully, and summarize a point. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch039_bridge_reading_01",
         "ch039_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -733,15 +888,19 @@
       "content_status": "needs_content",
       "content_file": "chapters/ch040.json",
       "level_target": "B1–B2",
-      "content_brief": "Link longer ideas with sequence, contrast, evidence, and conclusion. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "content_brief": "Link longer ideas with sequence, contrast, evidence, and conclusion. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch040_bridge_reading_01",
         "ch040_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -753,13 +912,17 @@
       "level_target": "B1–B2",
       "content_brief": "Difficult customer, pressure, repeated explanation, boundaries, and service promise. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch041_bridge_reading_01",
         "ch041_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -771,13 +934,17 @@
       "level_target": "B1–B2",
       "content_brief": "Rules, policy, overtime, leave, harassment boundary, and respectful escalation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch042_bridge_reading_01",
         "ch042_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -789,13 +956,17 @@
       "level_target": "B1–B2",
       "content_brief": "Motivation, background, goal, fit, evidence, and concise personal statement language. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch043_bridge_reading_01",
         "ch043_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -807,13 +978,17 @@
       "level_target": "B1–B2",
       "content_brief": "Move from personal answer to abstract answer with examples and clear structure. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch044_bridge_reading_01",
         "ch044_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -823,15 +998,19 @@
       "content_status": "needs_content",
       "content_file": "chapters/ch045.json",
       "level_target": "B1–B2",
-      "content_brief": "Build softer, more accurate claims using seems, may, tends to, and from my perspective. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "content_brief": "Build softer, more accurate claims using seems, may, tends to, and from my perspective. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch045_bridge_reading_01",
         "ch045_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -843,13 +1022,17 @@
       "level_target": "B1–B2",
       "content_brief": "Find main idea, key detail, author's purpose, and summarize in plain Hindi. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch046_bridge_reading_01",
         "ch046_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -861,13 +1044,17 @@
       "level_target": "B1–B2",
       "content_brief": "Problem, finding, option, recommendation, risk, and action items. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch047_bridge_reading_01",
         "ch047_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -879,13 +1066,17 @@
       "level_target": "B1–B2",
       "content_brief": "Trend, comparison, peak, drop, percentage, overall message, and cautious interpretation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch048_bridge_reading_01",
         "ch048_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -897,13 +1088,17 @@
       "level_target": "B1–B2",
       "content_brief": "Two-sided argument, benefit, drawback, evidence, concession, and final position. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch049_bridge_reading_01",
         "ch049_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -913,15 +1108,19 @@
       "content_status": "needs_content",
       "content_file": "chapters/ch050.json",
       "level_target": "B1–B2",
-      "content_brief": "Convert stiff formal Hindi into natural professional Hindi. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "content_brief": "Convert stiff formal Hindi into natural professional Hindi. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch050_bridge_reading_01",
         "ch050_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -933,13 +1132,17 @@
       "level_target": "B1–B2",
       "content_brief": "Leadership examples, responsibility, accountability, trust-building, and fair decisions. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch051_bridge_reading_01",
         "ch051_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -951,13 +1154,17 @@
       "level_target": "B1–B2",
       "content_brief": "Budget, obligation, family pressure, career choice, risk, and respectful explanation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch052_bridge_reading_01",
         "ch052_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -969,13 +1176,17 @@
       "level_target": "B1–B2",
       "content_brief": "Visa, culture shock, study plan, adaptation, homesickness, and support network. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch053_bridge_reading_01",
         "ch053_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -987,13 +1198,17 @@
       "level_target": "B1–B2",
       "content_brief": "Urgency, clarity, safety instruction, update, empathy, and avoiding panic. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch054_bridge_reading_01",
         "ch054_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -1003,15 +1218,19 @@
       "content_status": "needs_content",
       "content_file": "chapters/ch055.json",
       "level_target": "B1–B2",
-      "content_brief": "Build complex but clear questions for interviews, meetings, and analysis. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "content_brief": "Build complex but clear questions for interviews, meetings, and analysis. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch055_bridge_reading_01",
         "ch055_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -1023,13 +1242,17 @@
       "level_target": "B1–B2",
       "content_brief": "Simulate a full professional day with updates, calls, meetings, and follow-ups. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch056_bridge_reading_01",
         "ch056_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -1041,13 +1264,17 @@
       "level_target": "B1–B2",
       "content_brief": "Combine interview answers, STAR stories, evidence, and short presentation language. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch057_bridge_reading_01",
         "ch057_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -1059,13 +1286,17 @@
       "level_target": "B1–B2",
       "content_brief": "Handle difficult customer/service cases, complaints, refunds, and negotiation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch058_bridge_reading_01",
         "ch058_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -1077,13 +1308,17 @@
       "level_target": "B1–B2",
       "content_brief": "Discuss an article, summarize, evaluate evidence, and give a balanced opinion. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 0,
-      "number_focus": null,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch059_bridge_reading_01",
         "ch059_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     },
     {
@@ -1095,14 +1330,42 @@
       "level_target": "B1–B2",
       "content_brief": "Capstone task: explain a real problem, give context, evaluate options, and propose a solution. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
       "script_items": 5,
-      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
-      "number_items": 2,
+      "script_focus": "Guided script recognition, sound mapping and decoding with full pronunciation support; select a varied stage-appropriate mix without assuming independent script literacy.",
       "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
       "sentence_max_units": null,
       "required_image_keys": [
         "ch060_bridge_reading_01",
         "ch060_target_reading_01"
+      ],
+      "number_items_allowed": [
+        0,
+        2,
+        3
       ]
     }
-  ]
+  ],
+  "vocabulary_min_items": 1,
+  "content_schema_version": "2.0",
+  "instruction_file": "INSTRUCTIONS.md",
+  "section_order": [
+    "sentences",
+    "vocabulary",
+    "bridge_reading",
+    "target_reading",
+    "script_and_numbers",
+    "speaking_practice"
+  ],
+  "pure_reading_line_count": {
+    "min": 4,
+    "max": 8
+  },
+  "pure_reading_max_units": 8,
+  "pure_reading_difficulty": "simple",
+  "pronunciation_policy": {
+    "every_target_word": true,
+    "whole_line": true,
+    "whole_article": true,
+    "taper": false
+  },
+  "script_selection_policy": "varied_stage_appropriate_saved_in_chapter_json"
 }

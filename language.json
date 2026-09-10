@@ -38,5 +38,14 @@
   "number_policy": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
   "target_font_family": "Noto Sans Devanagari",
   "font_status": "target_font_acquisition_and_glyph_QA_required",
-  "audience": "Bangladeshi Bangla-speaking adults; English alphabet familiarity; no target-language knowledge"
+  "audience": "Bangladeshi Bangla-speaking adults; English alphabet familiarity; no target-language knowledge",
+  "pronunciation_policy": {
+    "scope": "All four books, every chapter and every target-language occurrence, including repeated words and advanced material.",
+    "word_cues": "Place Bangla pronunciation immediately after every target-language word or language-aware lexical unit; preserve native spelling and punctuation.",
+    "line_cues": "Also provide complete sentence or line pronunciation and complete target article/story pronunciation.",
+    "taper": false,
+    "accuracy": "Bangla cues approximate pronunciation; retain language-specific tone, stress, reading and romanization guidance where required."
+  },
+  "script_literacy_assumed": false,
+  "progression_policy": "Communicative difficulty may increase, but no book assumes independent target-script reading; word-by-word Bangla pronunciation support remains throughout."
 }

@@ -1,1 +1,1 @@
-Author complete chNNN.json files here using book.json and ../chapter-template.json. This folder intentionally has no lesson prose yet. Empty template fields are not valid authored content.
+Chapter data files belong here. Read ../INSTRUCTIONS.md for the sole authoring rules and ../book.json for planned paths and IDs.
