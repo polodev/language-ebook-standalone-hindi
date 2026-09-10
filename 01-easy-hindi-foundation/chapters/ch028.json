@@ -1,0 +1,1428 @@
+{
+  "chapter_id": "ch028",
+  "status": "drafted",
+  "title_target": "छोटी समस्याएँ और आसान समाधान",
+  "title_bangla_pronunciation": "ছোটি সমস্যায়েঁ ঔর আসান সমাধান",
+  "title_word_pronunciations": [
+    {
+      "target": "छोटी",
+      "bangla_pronunciation": "ছোটি",
+      "separator_after": " "
+    },
+    {
+      "target": "समस्याएँ",
+      "bangla_pronunciation": "সমস্যায়েঁ",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "ঔর",
+      "separator_after": " "
+    },
+    {
+      "target": "आसान",
+      "bangla_pronunciation": "আসান",
+      "separator_after": " "
+    },
+    {
+      "target": "समाधान",
+      "bangla_pronunciation": "সমাধান",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "ছোট সমস্যা ও সহজ সমাধান",
+  "goal_bengali_md": "ফোন, ইন্টারনেট, ফাইল, লিংক, লাইট ও চার্জারের সাধারণ সমস্যা হিন্দিতে বোঝানো, সাহায্য চাওয়া এবং সমস্যা ঠিক হয়েছে কি না জানানো শিখবেন।",
+  "sentences": [
+    {
+      "id": "s01",
+      "target": "मेरा फोन चालू नहीं हो रहा।",
+      "romanization": "meraa phon caaluu nahin ho raha",
+      "bangla_pronunciation": "মেরা ফোন চালু নহিঁ হো রহা।",
+      "word_pronunciations": [
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "फोन",
+          "bangla_pronunciation": "ফোন",
+          "separator_after": " "
+        },
+        {
+          "target": "चालू",
+          "bangla_pronunciation": "চালু",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा।",
+          "bangla_pronunciation": "রহা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার ফোন চালু হচ্ছে না।"
+    },
+    {
+      "id": "s02",
+      "target": "इंटरनेट काम नहीं कर रहा।",
+      "romanization": "iNttrnett kaam nahin kar raha",
+      "bangla_pronunciation": "ইন্টারনেট কাম নহিঁ কর রহা।",
+      "word_pronunciations": [
+        {
+          "target": "इंटरनेट",
+          "bangla_pronunciation": "ইন্টারনেট",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "कर",
+          "bangla_pronunciation": "কর",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा।",
+          "bangla_pronunciation": "রহা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ইন্টারনেট কাজ করছে না।"
+    },
+    {
+      "id": "s03",
+      "target": "वाई-फाई बहुत धीमा है।",
+      "romanization": "vaaii-phaaii bhut dhiimaa hai",
+      "bangla_pronunciation": "ওয়াই-ফাই বহুত ধীমা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "वाई-फाई",
+          "bangla_pronunciation": "ওয়াই-ফাই",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "धीमा",
+          "bangla_pronunciation": "ধীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ওয়াই-ফাই খুব ধীর।"
+    },
+    {
+      "id": "s04",
+      "target": "यह फाइल नहीं मिल रही।",
+      "romanization": "yh phaail nahin mil rahi",
+      "bangla_pronunciation": "ইয়হ ফাইল নহিঁ মিল রহি।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "separator_after": " "
+        },
+        {
+          "target": "फाइल",
+          "bangla_pronunciation": "ফাইল",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "मिल",
+          "bangla_pronunciation": "মিল",
+          "separator_after": " "
+        },
+        {
+          "target": "रही।",
+          "bangla_pronunciation": "রহি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই ফাইলটি পাওয়া যাচ্ছে না।"
+    },
+    {
+      "id": "s05",
+      "target": "यह लिंक नहीं खुल रहा।",
+      "romanization": "yh liNk nahin khul raha",
+      "bangla_pronunciation": "ইয়হ লিঙ্ক নহিঁ খুল রহা।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "separator_after": " "
+        },
+        {
+          "target": "लिंक",
+          "bangla_pronunciation": "লিঙ্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "खुल",
+          "bangla_pronunciation": "খুল",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा।",
+          "bangla_pronunciation": "রহা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই লিংকটি খুলছে না।"
+    },
+    {
+      "id": "s06",
+      "target": "कमरे की लाइट खराब है।",
+      "romanization": "kmre kii laaitt khraab hai",
+      "bangla_pronunciation": "কমরে কি লাইট খরাব হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "कमरे",
+          "bangla_pronunciation": "কমরে",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কি",
+          "separator_after": " "
+        },
+        {
+          "target": "लाइट",
+          "bangla_pronunciation": "লাইট",
+          "separator_after": " "
+        },
+        {
+          "target": "खराब",
+          "bangla_pronunciation": "খরাব",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঘরের লাইট নষ্ট।"
+    },
+    {
+      "id": "s07",
+      "target": "पंखा नहीं चल रहा।",
+      "romanization": "pNkhaa nahin cl raha",
+      "bangla_pronunciation": "পঙ্খা নহিঁ চল রহা।",
+      "word_pronunciations": [
+        {
+          "target": "पंखा",
+          "bangla_pronunciation": "পঙ্খা",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "चल",
+          "bangla_pronunciation": "চল",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा।",
+          "bangla_pronunciation": "রহা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পাখা চলছে না।"
+    },
+    {
+      "id": "s08",
+      "target": "चार्जर काम नहीं कर रहा।",
+      "romanization": "caarjr kaam nahin kar raha",
+      "bangla_pronunciation": "চার্জর কাম নহিঁ কর রহা।",
+      "word_pronunciations": [
+        {
+          "target": "चार्जर",
+          "bangla_pronunciation": "চার্জর",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "कर",
+          "bangla_pronunciation": "কর",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा।",
+          "bangla_pronunciation": "রহা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "চার্জার কাজ করছে না।"
+    },
+    {
+      "id": "s09",
+      "target": "कृपया इसे देखिए।",
+      "romanization": "kRpyaa ise dekhie",
+      "bangla_pronunciation": "কৃপয়া ইসে দেখিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "इसे",
+          "bangla_pronunciation": "ইসে",
+          "separator_after": " "
+        },
+        {
+          "target": "देखिए।",
+          "bangla_pronunciation": "দেখিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনুগ্রহ করে এটি দেখুন।"
+    },
+    {
+      "id": "s10",
+      "target": "क्या आप इसे ठीक कर सकते हैं?",
+      "romanization": "kya aap ise tthiik kar skte hain?",
+      "bangla_pronunciation": "ক্যা আপ ইসে ঠিক কর সকতে হ্যাঁয়?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आप",
+          "bangla_pronunciation": "আপ",
+          "separator_after": " "
+        },
+        {
+          "target": "इसे",
+          "bangla_pronunciation": "ইসে",
+          "separator_after": " "
+        },
+        {
+          "target": "ठीक",
+          "bangla_pronunciation": "ঠিক",
+          "separator_after": " "
+        },
+        {
+          "target": "कर",
+          "bangla_pronunciation": "কর",
+          "separator_after": " "
+        },
+        {
+          "target": "सकते",
+          "bangla_pronunciation": "সকতে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं?",
+          "bangla_pronunciation": "হ্যাঁয়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপনি কি এটি ঠিক করতে পারেন?"
+    },
+    {
+      "id": "s11",
+      "target": "फोन फिर से चालू कीजिए।",
+      "romanization": "phon phir se caaluu kiijie",
+      "bangla_pronunciation": "ফোন ফির সে চালু কিজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "फोन",
+          "bangla_pronunciation": "ফোন",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "चालू",
+          "bangla_pronunciation": "চালু",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কিজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফোনটি আবার চালু করুন।"
+    },
+    {
+      "id": "s12",
+      "target": "वाई-फाई बंद करके चालू कीजिए।",
+      "romanization": "vaaii-phaaii bNd karke caaluu kiijie",
+      "bangla_pronunciation": "ওয়াই-ফাই বন্দ করকে চালু কিজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "वाई-फाई",
+          "bangla_pronunciation": "ওয়াই-ফাই",
+          "separator_after": " "
+        },
+        {
+          "target": "बंद",
+          "bangla_pronunciation": "বন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "करके",
+          "bangla_pronunciation": "করকে",
+          "separator_after": " "
+        },
+        {
+          "target": "चालू",
+          "bangla_pronunciation": "চালু",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কিজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ওয়াই-ফাই বন্ধ করে আবার চালু করুন।"
+    },
+    {
+      "id": "s13",
+      "target": "केबल फिर लगाइए।",
+      "romanization": "kebl phir lgaaie",
+      "bangla_pronunciation": "কেবল ফির লগাইয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "केबल",
+          "bangla_pronunciation": "কেবল",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "लगाइए।",
+          "bangla_pronunciation": "লগাইয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কেবলটি আবার লাগান।"
+    },
+    {
+      "id": "s14",
+      "target": "यह फाइल यहाँ है।",
+      "romanization": "yh phaail yhaaN hai",
+      "bangla_pronunciation": "ইয়হ ফাইল ইয়াহাঁ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "separator_after": " "
+        },
+        {
+          "target": "फाइल",
+          "bangla_pronunciation": "ফাইল",
+          "separator_after": " "
+        },
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "ইয়াহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই ফাইলটি এখানে আছে।"
+    },
+    {
+      "id": "s15",
+      "target": "नया लिंक भेज दीजिए।",
+      "romanization": "nyaa liNk bhej diijie",
+      "bangla_pronunciation": "নয়া লিঙ্ক ভেজ দিজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "नया",
+          "bangla_pronunciation": "নয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "लिंक",
+          "bangla_pronunciation": "লিঙ্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "भेज",
+          "bangla_pronunciation": "ভেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নতুন লিংক পাঠিয়ে দিন।"
+    },
+    {
+      "id": "s16",
+      "target": "अब इंटरनेट चल रहा है।",
+      "romanization": "ab iNttrnett cl raha hai",
+      "bangla_pronunciation": "অব ইন্টারনেট চল রহা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "अब",
+          "bangla_pronunciation": "অব",
+          "separator_after": " "
+        },
+        {
+          "target": "इंटरनेट",
+          "bangla_pronunciation": "ইন্টারনেট",
+          "separator_after": " "
+        },
+        {
+          "target": "चल",
+          "bangla_pronunciation": "চল",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा",
+          "bangla_pronunciation": "রহা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এখন ইন্টারনেট চলছে।"
+    },
+    {
+      "id": "s17",
+      "target": "लाइट अब ठीक है।",
+      "romanization": "laaitt ab tthiik hai",
+      "bangla_pronunciation": "লাইট অব ঠিক হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "लाइट",
+          "bangla_pronunciation": "লাইট",
+          "separator_after": " "
+        },
+        {
+          "target": "अब",
+          "bangla_pronunciation": "অব",
+          "separator_after": " "
+        },
+        {
+          "target": "ठीक",
+          "bangla_pronunciation": "ঠিক",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লাইট এখন ঠিক আছে।"
+    },
+    {
+      "id": "s18",
+      "target": "समस्या अभी भी है।",
+      "romanization": "smsyaa abhii bhii hai",
+      "bangla_pronunciation": "সমস্যা অভি ভি হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "समस्या",
+          "bangla_pronunciation": "সমস্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "अभी",
+          "bangla_pronunciation": "অভি",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভি",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সমস্যা এখনও আছে।"
+    },
+    {
+      "id": "s19",
+      "target": "मुझे तकनीकी मदद चाहिए।",
+      "romanization": "mujhe tkniikii mdd caahie",
+      "bangla_pronunciation": "মুঝে তকনিকি মদদ চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "तकनीकी",
+          "bangla_pronunciation": "তকনিকি",
+          "separator_after": " "
+        },
+        {
+          "target": "मदद",
+          "bangla_pronunciation": "মদদ",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার প্রযুক্তিগত সাহায্য দরকার।"
+    },
+    {
+      "id": "s20",
+      "target": "धन्यवाद, अब सब ठीक है।",
+      "romanization": "dhnyvaad, ab sb tthiik hai",
+      "bangla_pronunciation": "ধন্যবাদ অব সব ঠিক হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "धन्यवाद,",
+          "bangla_pronunciation": "ধন্যবাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "अब",
+          "bangla_pronunciation": "অব",
+          "separator_after": " "
+        },
+        {
+          "target": "सब",
+          "bangla_pronunciation": "সব",
+          "separator_after": " "
+        },
+        {
+          "target": "ठीक",
+          "bangla_pronunciation": "ঠিক",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ধন্যবাদ, এখন সব ঠিক আছে।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v01",
+      "target": "चालू",
+      "type": "বিশেষণ/ব্যবহারিক রূপ",
+      "romanization": "caaluu",
+      "bangla_pronunciation": "চালু",
+      "word_pronunciations": [
+        {
+          "target": "चालू",
+          "bangla_pronunciation": "চালু",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "চালু বা অন।",
+      "source_sentence_id": "s01",
+      "source_form": "चालू"
+    },
+    {
+      "id": "v02",
+      "target": "इंटरनेट",
+      "type": "বিশেষ্য",
+      "romanization": "iNttrnett",
+      "bangla_pronunciation": "ইন্টারনেট",
+      "word_pronunciations": [
+        {
+          "target": "इंटरनेट",
+          "bangla_pronunciation": "ইন্টারনেট",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ইন্টারনেট।",
+      "source_sentence_id": "s02",
+      "source_form": "इंटरनेट"
+    },
+    {
+      "id": "v03",
+      "target": "धीमा",
+      "type": "বিশেষণ",
+      "romanization": "dhiimaa",
+      "bangla_pronunciation": "ধীমা",
+      "word_pronunciations": [
+        {
+          "target": "धीमा",
+          "bangla_pronunciation": "ধীমা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ধীর।",
+      "source_sentence_id": "s03",
+      "source_form": "धीमा"
+    },
+    {
+      "id": "v04",
+      "target": "फाइल",
+      "type": "বিশেষ্য",
+      "romanization": "phaail",
+      "bangla_pronunciation": "ফাইল",
+      "word_pronunciations": [
+        {
+          "target": "फाइल",
+          "bangla_pronunciation": "ফাইল",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফাইল।",
+      "source_sentence_id": "s04",
+      "source_form": "फाइल"
+    },
+    {
+      "id": "v05",
+      "target": "लिंक",
+      "type": "বিশেষ্য",
+      "romanization": "liNk",
+      "bangla_pronunciation": "লিঙ্ক",
+      "word_pronunciations": [
+        {
+          "target": "लिंक",
+          "bangla_pronunciation": "লিঙ্ক",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লিংক।",
+      "source_sentence_id": "s05",
+      "source_form": "लिंक"
+    },
+    {
+      "id": "v06",
+      "target": "खराब",
+      "type": "বিশেষণ",
+      "romanization": "khraab",
+      "bangla_pronunciation": "খরাব",
+      "word_pronunciations": [
+        {
+          "target": "खराब",
+          "bangla_pronunciation": "খরাব",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নষ্ট বা খারাপ।",
+      "source_sentence_id": "s06",
+      "source_form": "खराब"
+    },
+    {
+      "id": "v07",
+      "target": "ठीक",
+      "type": "বিশেষণ",
+      "romanization": "tthiik",
+      "bangla_pronunciation": "ঠিক",
+      "word_pronunciations": [
+        {
+          "target": "ठीक",
+          "bangla_pronunciation": "ঠিক",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঠিক বা ঠিক করা—প্রসঙ্গ অনুযায়ী।",
+      "source_sentence_id": "s10",
+      "source_form": "ठीक"
+    },
+    {
+      "id": "v08",
+      "target": "बंद",
+      "type": "বিশেষণ",
+      "romanization": "bNd",
+      "bangla_pronunciation": "বন্দ",
+      "word_pronunciations": [
+        {
+          "target": "बंद",
+          "bangla_pronunciation": "বন্দ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বন্ধ।",
+      "source_sentence_id": "s12",
+      "source_form": "बंद"
+    },
+    {
+      "id": "v09",
+      "target": "समस्या",
+      "type": "বিশেষ্য",
+      "romanization": "smsyaa",
+      "bangla_pronunciation": "সমস্যা",
+      "word_pronunciations": [
+        {
+          "target": "समस्या",
+          "bangla_pronunciation": "সমস্যা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সমস্যা।",
+      "source_sentence_id": "s18",
+      "source_form": "समस्या"
+    },
+    {
+      "id": "v10",
+      "target": "तकनीकी मदद",
+      "type": "বাক্যাংশ",
+      "romanization": "tkniikii mdd",
+      "bangla_pronunciation": "তকনিকি মদদ",
+      "word_pronunciations": [
+        {
+          "target": "तकनीकी",
+          "bangla_pronunciation": "তকনিকি",
+          "separator_after": " "
+        },
+        {
+          "target": "मदद",
+          "bangla_pronunciation": "মদদ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রযুক্তিগত সাহায্য।",
+      "source_sentence_id": "s19",
+      "source_form": "तकनीकी मदद"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "অফিসের ইন্টারনেট সমস্যা",
+    "scene_summary": "একজন কর্মী অফিসের ধীর ওয়াই-ফাই ও না-খোলা লিংক নিয়ে সহকর্মীর সাহায্য চাইছেন এবং পরে সমস্যা ঠিক হয়েছে জানাচ্ছেন।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "অনলাইন মিটিংয়ের আগে রুবেল দেখল নেট চলছে না। সে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "इंटरनेट काम नहीं कर रहा।",
+        "bangla_pronunciation": "ইন্টারনেট কাম নহিঁ কর রহা।",
+        "word_pronunciations": [
+          {
+            "target": "इंटरनेट",
+            "bangla_pronunciation": "ইন্টারনেট",
+            "separator_after": " "
+          },
+          {
+            "target": "काम",
+            "bangla_pronunciation": "কাম",
+            "separator_after": " "
+          },
+          {
+            "target": "नहीं",
+            "bangla_pronunciation": "নহিঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "कर",
+            "bangla_pronunciation": "কর",
+            "separator_after": " "
+          },
+          {
+            "target": "रहा।",
+            "bangla_pronunciation": "রহা",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " একটি প্রয়োজনীয় লিংকও খুলছিল না, তাই বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "यह लिंक नहीं खुल रहा।",
+        "bangla_pronunciation": "ইয়হ লিঙ্ক নহিঁ খুল রহা।",
+        "word_pronunciations": [
+          {
+            "target": "यह",
+            "bangla_pronunciation": "ইয়হ",
+            "separator_after": " "
+          },
+          {
+            "target": "लिंक",
+            "bangla_pronunciation": "লিঙ্ক",
+            "separator_after": " "
+          },
+          {
+            "target": "नहीं",
+            "bangla_pronunciation": "নহিঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "खुल",
+            "bangla_pronunciation": "খুল",
+            "separator_after": " "
+          },
+          {
+            "target": "रहा।",
+            "bangla_pronunciation": "রহা",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " সহকর্মীর কাছে সাহায্য চেয়ে সে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "क्या आप इसे ठीक कर सकते हैं?",
+        "bangla_pronunciation": "ক্যা আপ ইসে ঠিক কর সকতে হ্যাঁয়?",
+        "word_pronunciations": [
+          {
+            "target": "क्या",
+            "bangla_pronunciation": "ক্যা",
+            "separator_after": " "
+          },
+          {
+            "target": "आप",
+            "bangla_pronunciation": "আপ",
+            "separator_after": " "
+          },
+          {
+            "target": "इसे",
+            "bangla_pronunciation": "ইসে",
+            "separator_after": " "
+          },
+          {
+            "target": "ठीक",
+            "bangla_pronunciation": "ঠিক",
+            "separator_after": " "
+          },
+          {
+            "target": "कर",
+            "bangla_pronunciation": "কর",
+            "separator_after": " "
+          },
+          {
+            "target": "सकते",
+            "bangla_pronunciation": "সকতে",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं?",
+            "bangla_pronunciation": "হ্যাঁয়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " সংযোগ ফিরে এলে স্বস্তি নিয়ে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "अब इंटरनेट चल रहा है।",
+        "bangla_pronunciation": "অব ইন্টারনেট চল রহা হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "अब",
+            "bangla_pronunciation": "অব",
+            "separator_after": " "
+          },
+          {
+            "target": "इंटरनेट",
+            "bangla_pronunciation": "ইন্টারনেট",
+            "separator_after": " "
+          },
+          {
+            "target": "चल",
+            "bangla_pronunciation": "চল",
+            "separator_after": " "
+          },
+          {
+            "target": "रहा",
+            "bangla_pronunciation": "রহা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "অনলাইন মিটিংয়ের আগে রুবেল দেখল নেট চলছে না। সে বলল, **इंटरनेट** (ইন্টারনেট) **काम** (কাম) **नहीं** (নহিঁ) **कर** (কর) **रहा।** (রহা) একটি প্রয়োজনীয় লিংকও খুলছিল না, তাই বলল, **यह** (ইয়হ) **लिंक** (লিঙ্ক) **नहीं** (নহিঁ) **खुल** (খুল) **रहा।** (রহা) সহকর্মীর কাছে সাহায্য চেয়ে সে বলল, **क्या** (ক্যা) **आप** (আপ) **इसे** (ইসে) **ठीक** (ঠিক) **कर** (কর) **सकते** (সকতে) **हैं?** (হ্যাঁয়) সংযোগ ফিরে এলে স্বস্তি নিয়ে বলল, **अब** (অব) **इंटरनेट** (ইন্টারনেট) **चल** (চল) **रहा** (রহা) **है।** (হ্যায়)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "হোটেল কক্ষের ছোট সমস্যা",
+    "scene_summary": "অন্য একজন ভ্রমণকারী হোটেল কক্ষে লাইট ও চার্জারের সমস্যা দেখে সাহায্য চান।",
+    "lines": [
+      {
+        "target": "कमरे की लाइट खराब है।",
+        "bangla_pronunciation": "কমরে কি লাইট খরাব হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "कमरे",
+            "bangla_pronunciation": "কমরে",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কি",
+            "separator_after": " "
+          },
+          {
+            "target": "लाइट",
+            "bangla_pronunciation": "লাইট",
+            "separator_after": " "
+          },
+          {
+            "target": "खराब",
+            "bangla_pronunciation": "খরাব",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "चार्जर काम नहीं कर रहा।",
+        "bangla_pronunciation": "চার্জর কাম নহিঁ কর রহা।",
+        "word_pronunciations": [
+          {
+            "target": "चार्जर",
+            "bangla_pronunciation": "চার্জর",
+            "separator_after": " "
+          },
+          {
+            "target": "काम",
+            "bangla_pronunciation": "কাম",
+            "separator_after": " "
+          },
+          {
+            "target": "नहीं",
+            "bangla_pronunciation": "নহিঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "कर",
+            "bangla_pronunciation": "কর",
+            "separator_after": " "
+          },
+          {
+            "target": "रहा।",
+            "bangla_pronunciation": "রহা",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "कृपया इसे देखिए।",
+        "bangla_pronunciation": "কৃপয়া ইসে দেখিয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "कृपया",
+            "bangla_pronunciation": "কৃপয়া",
+            "separator_after": " "
+          },
+          {
+            "target": "इसे",
+            "bangla_pronunciation": "ইসে",
+            "separator_after": " "
+          },
+          {
+            "target": "देखिए।",
+            "bangla_pronunciation": "দেখিয়ে",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "लाइट अब ठीक है।",
+        "bangla_pronunciation": "লাইট অব ঠিক হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "लाइट",
+            "bangla_pronunciation": "লাইট",
+            "separator_after": " "
+          },
+          {
+            "target": "अब",
+            "bangla_pronunciation": "অব",
+            "separator_after": " "
+          },
+          {
+            "target": "ठीक",
+            "bangla_pronunciation": "ঠিক",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "धन्यवाद, अब सब ठीक है।",
+        "bangla_pronunciation": "ধন্যবাদ অব সব ঠিক হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "धन्यवाद,",
+            "bangla_pronunciation": "ধন্যবাদ",
+            "separator_after": " "
+          },
+          {
+            "target": "अब",
+            "bangla_pronunciation": "অব",
+            "separator_after": " "
+          },
+          {
+            "target": "सब",
+            "bangla_pronunciation": "সব",
+            "separator_after": " "
+          },
+          {
+            "target": "ठीक",
+            "bangla_pronunciation": "ঠিক",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "কমরে কি লাইট খরাব হ্যায়। চার্জর কাম নহিঁ কর রহা। কৃপয়া ইসে দেখিয়ে। লাইট অব ঠিক হ্যায়। ধন্যবাদ অব সব ঠিক হ্যায়।",
+    "meaning_bengali_md": "ঘরের লাইট নষ্ট। চার্জার কাজ করছে না। অনুগ্রহ করে এটি দেখুন। লাইট এখন ঠিক আছে। ধন্যবাদ, এখন সব ঠিক আছে।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_combo_ca_aa",
+      "mode": "review",
+      "target": "चा",
+      "bangla_pronunciation": "চা",
+      "explanation_bengali_md": "চ ব্যঞ্জনের সঙ্গে দীর্ঘ আ-ধ্বনি চিনুন।",
+      "practice_bengali_md": "দেখে ও না দেখে উচ্চারণ করুন।"
+    },
+    {
+      "item_id": "dev_combo_ca_ii",
+      "mode": "review",
+      "target": "ची",
+      "bangla_pronunciation": "চী",
+      "explanation_bengali_md": "চ ব্যঞ্জনের সঙ্গে দীর্ঘ ঈ-ধ্বনি চিনুন।",
+      "practice_bengali_md": "আ ও ঈ-ধ্বনির ইউনিট তুলনা করুন।"
+    },
+    {
+      "item_id": "dev_combo_ja_aa",
+      "mode": "review",
+      "target": "जा",
+      "bangla_pronunciation": "জা",
+      "explanation_bengali_md": "জ ব্যঞ্জনের সঙ্গে দীর্ঘ আ-ধ্বনি চিনুন।",
+      "practice_bengali_md": "দুইবার স্বাভাবিক গতিতে বলুন।"
+    },
+    {
+      "item_id": "dev_combo_ja_ii",
+      "mode": "review",
+      "target": "जी",
+      "bangla_pronunciation": "জী",
+      "explanation_bengali_md": "জ ব্যঞ্জনের সঙ্গে দীর্ঘ ঈ-ধ্বনি চিনুন।",
+      "practice_bengali_md": "দৈনন্দিন ভদ্র সম্বোধনে শোনা ধ্বনির সঙ্গে মিলিয়ে নিন।"
+    },
+    {
+      "item_id": "dev_combo_fa_aa",
+      "mode": "review",
+      "target": "फा",
+      "bangla_pronunciation": "ফা",
+      "explanation_bengali_md": "ফ-ধ্বনির সঙ্গে দীর্ঘ আ-ধ্বনি চিনুন।",
+      "practice_bengali_md": "শব্দের শুরুতে ফ-ধ্বনি স্পষ্ট রেখে পড়ুন।"
+    }
+  ],
+  "number_practice": null,
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "ফোন চালু হচ্ছে না বলুন।",
+      "model_target": "मेरा फोन चालू नहीं हो रहा।",
+      "model_bangla_pronunciation": "মেরা ফোন চালু নহিঁ হো রহা।",
+      "model_word_pronunciations": [
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "फोन",
+          "bangla_pronunciation": "ফোন",
+          "separator_after": " "
+        },
+        {
+          "target": "चालू",
+          "bangla_pronunciation": "চালু",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा।",
+          "bangla_pronunciation": "রহা",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার ফোন চালু হচ্ছে না।"
+    },
+    {
+      "prompt_bengali_md": "ইন্টারনেট কাজ করছে না বলুন।",
+      "model_target": "इंटरनेट काम नहीं कर रहा।",
+      "model_bangla_pronunciation": "ইন্টারনেট কাম নহিঁ কর রহা।",
+      "model_word_pronunciations": [
+        {
+          "target": "इंटरनेट",
+          "bangla_pronunciation": "ইন্টারনেট",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "कर",
+          "bangla_pronunciation": "কর",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा।",
+          "bangla_pronunciation": "রহা",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ইন্টারনেট কাজ করছে না।"
+    },
+    {
+      "prompt_bengali_md": "কেউ এটি ঠিক করতে পারবেন কি না জিজ্ঞেস করুন।",
+      "model_target": "क्या आप इसे ठीक कर सकते हैं?",
+      "model_bangla_pronunciation": "ক্যা আপ ইসে ঠিক কর সকতে হ্যাঁয়?",
+      "model_word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आप",
+          "bangla_pronunciation": "আপ",
+          "separator_after": " "
+        },
+        {
+          "target": "इसे",
+          "bangla_pronunciation": "ইসে",
+          "separator_after": " "
+        },
+        {
+          "target": "ठीक",
+          "bangla_pronunciation": "ঠিক",
+          "separator_after": " "
+        },
+        {
+          "target": "कर",
+          "bangla_pronunciation": "কর",
+          "separator_after": " "
+        },
+        {
+          "target": "सकते",
+          "bangla_pronunciation": "সকতে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं?",
+          "bangla_pronunciation": "হ্যাঁয়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আপনি কি এটি ঠিক করতে পারেন?"
+    },
+    {
+      "prompt_bengali_md": "নতুন লিংক পাঠাতে বলুন।",
+      "model_target": "नया लिंक भेज दीजिए।",
+      "model_bangla_pronunciation": "নয়া লিঙ্ক ভেজ দিজিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "नया",
+          "bangla_pronunciation": "নয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "लिंक",
+          "bangla_pronunciation": "লিঙ্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "भेज",
+          "bangla_pronunciation": "ভেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "নতুন লিংক পাঠিয়ে দিন।"
+    },
+    {
+      "prompt_bengali_md": "সমস্যা এখনও আছে বলুন।",
+      "model_target": "समस्या अभी भी है।",
+      "model_bangla_pronunciation": "সমস্যা অভি ভি হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "समस्या",
+          "bangla_pronunciation": "সমস্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "अभी",
+          "bangla_pronunciation": "অভি",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভি",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "সমস্যা এখনও আছে।"
+    },
+    {
+      "prompt_bengali_md": "এখন সব ঠিক আছে বলুন।",
+      "model_target": "धन्यवाद, अब सब ठीक है।",
+      "model_bangla_pronunciation": "ধন্যবাদ অব সব ঠিক হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "धन्यवाद,",
+          "bangla_pronunciation": "ধন্যবাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "अब",
+          "bangla_pronunciation": "অব",
+          "separator_after": " "
+        },
+        {
+          "target": "सब",
+          "bangla_pronunciation": "সব",
+          "separator_after": " "
+        },
+        {
+          "target": "ठीक",
+          "bangla_pronunciation": "ঠিক",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ধন্যবাদ, এখন সব ঠিক আছে।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch028_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A bright shared office desk; a Bangladeshi male employee looks at a laptop with an abstract disconnected-network icon while a coworker helps reset a small Wi-Fi router, smartphone nearby with screen dark, collaborative problem-solving, medium-wide shot, clean contemporary workspace. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright, clean contemporary educational illustration with warm natural light, realistic South Asian details, uncluttered composition, friendly adult learners, clear single focal action, 1536x1024 landscape."
+    },
+    {
+      "key": "ch028_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A tidy hotel room; a South Asian traveler points to a nonworking bedside lamp and an unplugged charger while a staff member checks the lamp connection, later-success mood implied by another working warm lamp, uncluttered medium composition. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright, clean contemporary educational illustration with warm natural light, realistic South Asian details, uncluttered composition, friendly adult learners, clear single focal action, 1536x1024 landscape."
+    }
+  ],
+  "additional_practice": []
+}

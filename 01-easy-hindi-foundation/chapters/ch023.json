@@ -1,0 +1,1342 @@
+{
+  "chapter_id": "ch023",
+  "status": "drafted",
+  "title_target": "पैसे, भुगतान और रसीद",
+  "title_bangla_pronunciation": "পয়সে ভুগতান ঔর রসিদ",
+  "title_word_pronunciations": [
+    {
+      "target": "पैसे,",
+      "bangla_pronunciation": "পয়সে",
+      "separator_after": " "
+    },
+    {
+      "target": "भुगतान",
+      "bangla_pronunciation": "ভুগতান",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "ঔর",
+      "separator_after": " "
+    },
+    {
+      "target": "रसीद",
+      "bangla_pronunciation": "রসিদ",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "টাকা, পেমেন্ট ও রসিদ",
+  "goal_bengali_md": "নগদ, কার্ড ও মোবাইল পেমেন্ট নিয়ে কথা বলা, ব্যর্থ পেমেন্ট বোঝানো, খুচরা ও রসিদ চাওয়া এবং ফি বা ফেরত টাকা সম্পর্কে জিজ্ঞেস করা শিখবেন।",
+  "sentences": [
+    {
+      "id": "s01",
+      "target": "मैं नकद भुगतान करूँगा।",
+      "romanization": "main nkd bhugtaan karuuNgaa",
+      "bangla_pronunciation": "ম্যাঁয় নকদ ভুগতান করুঙ্গা।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁয়",
+          "separator_after": " "
+        },
+        {
+          "target": "नकद",
+          "bangla_pronunciation": "নকদ",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "करूँगा।",
+          "bangla_pronunciation": "করুঙ্গা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি নগদে পরিশোধ করব। পুরুষ বক্তার রূপ।"
+    },
+    {
+      "id": "s02",
+      "target": "मैं कार्ड से भुगतान करूँगा।",
+      "romanization": "main kaardd se bhugtaan karuuNgaa",
+      "bangla_pronunciation": "ম্যাঁয় কার্ড সে ভুগতান করুঙ্গা।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁয়",
+          "separator_after": " "
+        },
+        {
+          "target": "कार्ड",
+          "bangla_pronunciation": "কার্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "करूँगा।",
+          "bangla_pronunciation": "করুঙ্গা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি কার্ডে পরিশোধ করব। পুরুষ বক্তার রূপ।"
+    },
+    {
+      "id": "s03",
+      "target": "क्या मैं मोबाइल से भुगतान कर सकता हूँ?",
+      "romanization": "kya main mobaail se bhugtaan kar sktaa hoon?",
+      "bangla_pronunciation": "ক্যা ম্যাঁয় মোবাইল সে ভুগতান কর সকতা হুঁ?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁয়",
+          "separator_after": " "
+        },
+        {
+          "target": "मोबाइल",
+          "bangla_pronunciation": "মোবাইল",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "कर",
+          "bangla_pronunciation": "কর",
+          "separator_after": " "
+        },
+        {
+          "target": "सकता",
+          "bangla_pronunciation": "সকতা",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ?",
+          "bangla_pronunciation": "হুঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি কি মোবাইল দিয়ে পরিশোধ করতে পারি? পুরুষ বক্তার রূপ।"
+    },
+    {
+      "id": "s04",
+      "target": "क्या यहाँ बिकाश चलता है?",
+      "romanization": "kya yhaaN bikaash cltaa hai?",
+      "bangla_pronunciation": "ক্যা ইয়াহাঁ বিকাশ চলতা হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "ইয়াহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "बिकाश",
+          "bangla_pronunciation": "বিকাশ",
+          "separator_after": " "
+        },
+        {
+          "target": "चलता",
+          "bangla_pronunciation": "চলতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এখানে কি বিকাশ চলে?"
+    },
+    {
+      "id": "s05",
+      "target": "क्या नगद ऐप चलेगा?",
+      "romanization": "kya ngd aip clegaa?",
+      "bangla_pronunciation": "ক্যা নগদ অ্যাপ চলেগা?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "नगद",
+          "bangla_pronunciation": "নগদ",
+          "separator_after": " "
+        },
+        {
+          "target": "ऐप",
+          "bangla_pronunciation": "অ্যাপ",
+          "separator_after": " "
+        },
+        {
+          "target": "चलेगा?",
+          "bangla_pronunciation": "চলেগা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নগদ অ্যাপ কি চলবে?"
+    },
+    {
+      "id": "s06",
+      "target": "भुगतान हो गया है।",
+      "romanization": "bhugtaan ho gaya hai",
+      "bangla_pronunciation": "ভুগতান হো গয়া হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "गया",
+          "bangla_pronunciation": "গয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্ট হয়ে গেছে।"
+    },
+    {
+      "id": "s07",
+      "target": "भुगतान नहीं हुआ।",
+      "romanization": "bhugtaan nahin huaa",
+      "bangla_pronunciation": "ভুগতান নহিঁ হুয়া।",
+      "word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "हुआ।",
+          "bangla_pronunciation": "হুয়া",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্ট হয়নি।"
+    },
+    {
+      "id": "s08",
+      "target": "भुगतान फिर से कीजिए।",
+      "romanization": "bhugtaan phir se kiijie",
+      "bangla_pronunciation": "ভুগতান ফির সে কিজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কিজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্ট আবার করুন।"
+    },
+    {
+      "id": "s09",
+      "target": "यह बिल कितना है?",
+      "romanization": "yh bil kitnaa hai?",
+      "bangla_pronunciation": "ইয়হ বিল কিতনা হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "separator_after": " "
+        },
+        {
+          "target": "बिल",
+          "bangla_pronunciation": "বিল",
+          "separator_after": " "
+        },
+        {
+          "target": "कितना",
+          "bangla_pronunciation": "কিতনা",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই বিল কত?"
+    },
+    {
+      "id": "s10",
+      "target": "कुल पाँच सौ रुपये हैं।",
+      "romanization": "kul paaNc sau rupye hain",
+      "bangla_pronunciation": "কুল পাঁচ সও রুপয়ে হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "कुल",
+          "bangla_pronunciation": "কুল",
+          "separator_after": " "
+        },
+        {
+          "target": "पाँच",
+          "bangla_pronunciation": "পাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "सौ",
+          "bangla_pronunciation": "সও",
+          "separator_after": " "
+        },
+        {
+          "target": "रुपये",
+          "bangla_pronunciation": "রুপয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মোট পাঁচশ রুপি।"
+    },
+    {
+      "id": "s11",
+      "target": "मेरे पास छुट्टे नहीं हैं।",
+      "romanization": "mere paas chutttte nahin hain",
+      "bangla_pronunciation": "মেরে পাস ছুট্টে নহিঁ হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "छुट्टे",
+          "bangla_pronunciation": "ছুট্টে",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার কাছে খুচরা নেই।"
+    },
+    {
+      "id": "s12",
+      "target": "क्या आपके पास छुट्टे हैं?",
+      "romanization": "kya aapke paas chutttte hain?",
+      "bangla_pronunciation": "ক্যা আপকে পাস ছুট্টে হ্যাঁয়?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आपके",
+          "bangla_pronunciation": "আপকে",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "छुट्टे",
+          "bangla_pronunciation": "ছুট্টে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं?",
+          "bangla_pronunciation": "হ্যাঁয়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপনার কাছে কি খুচরা আছে?"
+    },
+    {
+      "id": "s13",
+      "target": "मुझे रसीद चाहिए।",
+      "romanization": "mujhe rsiid caahie",
+      "bangla_pronunciation": "মুঝে রসিদ চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসিদ",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার রসিদ দরকার।"
+    },
+    {
+      "id": "s14",
+      "target": "कृपया रसीद दीजिए।",
+      "romanization": "kRpyaa rsiid diijie",
+      "bangla_pronunciation": "কৃপয়া রসিদ দিজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসিদ",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনুগ্রহ করে রসিদ দিন।"
+    },
+    {
+      "id": "s15",
+      "target": "क्या कार्ड पर शुल्क है?",
+      "romanization": "kya kaardd pr shulk hai?",
+      "bangla_pronunciation": "ক্যা কার্ড পর শুল্ক হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "कार्ड",
+          "bangla_pronunciation": "কার্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "शुल्क",
+          "bangla_pronunciation": "শুল্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কার্ডে কি অতিরিক্ত ফি আছে?"
+    },
+    {
+      "id": "s16",
+      "target": "पैसे वापस आएँगे?",
+      "romanization": "paise vaaps aaeNge?",
+      "bangla_pronunciation": "পয়সে ওয়াপস আয়েঙ্গে?",
+      "word_pronunciations": [
+        {
+          "target": "पैसे",
+          "bangla_pronunciation": "পয়সে",
+          "separator_after": " "
+        },
+        {
+          "target": "वापस",
+          "bangla_pronunciation": "ওয়াপস",
+          "separator_after": " "
+        },
+        {
+          "target": "आएँगे?",
+          "bangla_pronunciation": "আয়েঙ্গে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "টাকা কি ফেরত আসবে?"
+    },
+    {
+      "id": "s17",
+      "target": "मुझे बाकी पैसे दीजिए।",
+      "romanization": "mujhe baakii paise diijie",
+      "bangla_pronunciation": "মুঝে বাকি পয়সে দিজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "बाकी",
+          "bangla_pronunciation": "বাকি",
+          "separator_after": " "
+        },
+        {
+          "target": "पैसे",
+          "bangla_pronunciation": "পয়সে",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমাকে বাকি টাকা দিন।"
+    },
+    {
+      "id": "s18",
+      "target": "मैंने दो बार भुगतान किया।",
+      "romanization": "mainne do baar bhugtaan kiyaa",
+      "bangla_pronunciation": "ম্যাঁয়নে দো বার ভুগতান কিয়া।",
+      "word_pronunciations": [
+        {
+          "target": "मैंने",
+          "bangla_pronunciation": "ম্যাঁয়নে",
+          "separator_after": " "
+        },
+        {
+          "target": "दो",
+          "bangla_pronunciation": "দো",
+          "separator_after": " "
+        },
+        {
+          "target": "बार",
+          "bangla_pronunciation": "বার",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "किया।",
+          "bangla_pronunciation": "কিয়া",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি দুইবার পেমেন্ট করেছি।"
+    },
+    {
+      "id": "s19",
+      "target": "यह लेनदेन असफल हुआ।",
+      "romanization": "yh lenden asphl huaa",
+      "bangla_pronunciation": "ইয়হ লেনদেন অসফল হুয়া।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "separator_after": " "
+        },
+        {
+          "target": "लेनदेन",
+          "bangla_pronunciation": "লেনদেন",
+          "separator_after": " "
+        },
+        {
+          "target": "असफल",
+          "bangla_pronunciation": "অসফল",
+          "separator_after": " "
+        },
+        {
+          "target": "हुआ।",
+          "bangla_pronunciation": "হুয়া",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই লেনদেন ব্যর্থ হয়েছে।"
+    },
+    {
+      "id": "s20",
+      "target": "अब भुगतान पूरा है।",
+      "romanization": "ab bhugtaan puuraa hai",
+      "bangla_pronunciation": "অব ভুগতান পুরা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "अब",
+          "bangla_pronunciation": "অব",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "पूरा",
+          "bangla_pronunciation": "পুরা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এখন পেমেন্ট সম্পূর্ণ।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v01",
+      "target": "नकद",
+      "type": "বিশেষ্য",
+      "romanization": "nkd",
+      "bangla_pronunciation": "নকদ",
+      "word_pronunciations": [
+        {
+          "target": "नकद",
+          "bangla_pronunciation": "নকদ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নগদ টাকা।",
+      "source_sentence_id": "s01",
+      "source_form": "नकद"
+    },
+    {
+      "id": "v02",
+      "target": "भुगतान",
+      "type": "বিশেষ্য",
+      "romanization": "bhugtaan",
+      "bangla_pronunciation": "ভুগতান",
+      "word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিশোধ বা পেমেন্ট।",
+      "source_sentence_id": "s01",
+      "source_form": "भुगतान"
+    },
+    {
+      "id": "v03",
+      "target": "कार्ड",
+      "type": "বিশেষ্য",
+      "romanization": "kaardd",
+      "bangla_pronunciation": "কার্ড",
+      "word_pronunciations": [
+        {
+          "target": "कार्ड",
+          "bangla_pronunciation": "কার্ড",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কার্ড।",
+      "source_sentence_id": "s02",
+      "source_form": "कार्ड"
+    },
+    {
+      "id": "v04",
+      "target": "बिकाश",
+      "type": "নাম",
+      "romanization": "bikaash",
+      "bangla_pronunciation": "বিকাশ",
+      "word_pronunciations": [
+        {
+          "target": "बिकाश",
+          "bangla_pronunciation": "বিকাশ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিকাশ মোবাইল পেমেন্ট সেবার নামের হিন্দি লিপ্যন্তর।",
+      "source_sentence_id": "s04",
+      "source_form": "बिकाश"
+    },
+    {
+      "id": "v05",
+      "target": "बिल",
+      "type": "বিশেষ্য",
+      "romanization": "bil",
+      "bangla_pronunciation": "বিল",
+      "word_pronunciations": [
+        {
+          "target": "बिल",
+          "bangla_pronunciation": "বিল",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিল।",
+      "source_sentence_id": "s09",
+      "source_form": "बिल"
+    },
+    {
+      "id": "v06",
+      "target": "छुट्टे",
+      "type": "বিশেষ্য",
+      "romanization": "chutttte",
+      "bangla_pronunciation": "ছুট্টে",
+      "word_pronunciations": [
+        {
+          "target": "छुट्टे",
+          "bangla_pronunciation": "ছুট্টে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খুচরা টাকা।",
+      "source_sentence_id": "s11",
+      "source_form": "छुट्टे"
+    },
+    {
+      "id": "v07",
+      "target": "रसीद",
+      "type": "বিশেষ্য",
+      "romanization": "rsiid",
+      "bangla_pronunciation": "রসিদ",
+      "word_pronunciations": [
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসিদ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রসিদ।",
+      "source_sentence_id": "s13",
+      "source_form": "रसीद"
+    },
+    {
+      "id": "v08",
+      "target": "शुल्क",
+      "type": "বিশেষ্য",
+      "romanization": "shulk",
+      "bangla_pronunciation": "শুল্ক",
+      "word_pronunciations": [
+        {
+          "target": "शुल्क",
+          "bangla_pronunciation": "শুল্ক",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফি বা চার্জ।",
+      "source_sentence_id": "s15",
+      "source_form": "शुल्क"
+    },
+    {
+      "id": "v09",
+      "target": "वापस",
+      "type": "ক্রিয়া-বিশেষণ",
+      "romanization": "vaaps",
+      "bangla_pronunciation": "ওয়াপস",
+      "word_pronunciations": [
+        {
+          "target": "वापस",
+          "bangla_pronunciation": "ওয়াপস",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফিরে বা ফেরত।",
+      "source_sentence_id": "s16",
+      "source_form": "वापस"
+    },
+    {
+      "id": "v10",
+      "target": "लेनदेन",
+      "type": "বিশেষ্য",
+      "romanization": "lenden",
+      "bangla_pronunciation": "লেনদেন",
+      "word_pronunciations": [
+        {
+          "target": "लेनदेन",
+          "bangla_pronunciation": "লেনদেন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লেনদেন।",
+      "source_sentence_id": "s19",
+      "source_form": "लेनदेन"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "ক্যাফেতে পেমেন্ট",
+    "scene_summary": "একজন বাংলাদেশি ভ্রমণকারী ক্যাফেতে বিল মেটাতে মোবাইল পেমেন্ট চেষ্টা করছেন এবং ব্যর্থ লেনদেনের পর রসিদ চাইছেন।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "খাবার শেষে আরমান ক্যাশ কাউন্টারে গিয়ে জিজ্ঞেস করল, "
+      },
+      {
+        "kind": "target",
+        "target": "यह बिल कितना है?",
+        "bangla_pronunciation": "ইয়হ বিল কিতনা হ্যায়?",
+        "word_pronunciations": [
+          {
+            "target": "यह",
+            "bangla_pronunciation": "ইয়হ",
+            "separator_after": " "
+          },
+          {
+            "target": "बिल",
+            "bangla_pronunciation": "বিল",
+            "separator_after": " "
+          },
+          {
+            "target": "कितना",
+            "bangla_pronunciation": "কিতনা",
+            "separator_after": " "
+          },
+          {
+            "target": "है?",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " সে মোবাইল বের করে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "क्या यहाँ बिकाश चलता है?",
+        "bangla_pronunciation": "ক্যা ইয়াহাঁ বিকাশ চলতা হ্যায়?",
+        "word_pronunciations": [
+          {
+            "target": "क्या",
+            "bangla_pronunciation": "ক্যা",
+            "separator_after": " "
+          },
+          {
+            "target": "यहाँ",
+            "bangla_pronunciation": "ইয়াহাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "बिकाश",
+            "bangla_pronunciation": "বিকাশ",
+            "separator_after": " "
+          },
+          {
+            "target": "चलता",
+            "bangla_pronunciation": "চলতা",
+            "separator_after": " "
+          },
+          {
+            "target": "है?",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " প্রথম চেষ্টা কাজ না করায় সে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "भुगतान नहीं हुआ।",
+        "bangla_pronunciation": "ভুগতান নহিঁ হুয়া।",
+        "word_pronunciations": [
+          {
+            "target": "भुगतान",
+            "bangla_pronunciation": "ভুগতান",
+            "separator_after": " "
+          },
+          {
+            "target": "नहीं",
+            "bangla_pronunciation": "নহিঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "हुआ।",
+            "bangla_pronunciation": "হুয়া",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " দ্বিতীয়বার সফল হওয়ার পর সে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "कृपया रसीद दीजिए।",
+        "bangla_pronunciation": "কৃপয়া রসিদ দিজিয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "कृपया",
+            "bangla_pronunciation": "কৃপয়া",
+            "separator_after": " "
+          },
+          {
+            "target": "रसीद",
+            "bangla_pronunciation": "রসিদ",
+            "separator_after": " "
+          },
+          {
+            "target": "दीजिए।",
+            "bangla_pronunciation": "দিজিয়ে",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "খাবার শেষে আরমান ক্যাশ কাউন্টারে গিয়ে জিজ্ঞেস করল, **यह** (ইয়হ) **बिल** (বিল) **कितना** (কিতনা) **है?** (হ্যায়) সে মোবাইল বের করে বলল, **क्या** (ক্যা) **यहाँ** (ইয়াহাঁ) **बिकाश** (বিকাশ) **चलता** (চলতা) **है?** (হ্যায়) প্রথম চেষ্টা কাজ না করায় সে বলল, **भुगतान** (ভুগতান) **नहीं** (নহিঁ) **हुआ।** (হুয়া) দ্বিতীয়বার সফল হওয়ার পর সে বলল, **कृपया** (কৃপয়া) **रसीद** (রসিদ) **दीजिए।** (দিজিয়ে)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "দোকানে খুচরা টাকা",
+    "scene_summary": "অন্য একজন ক্রেতা ছোট দোকানে নগদ টাকা দিয়ে খুচরা ও রসিদ নিয়ে কথা বলছেন।",
+    "lines": [
+      {
+        "target": "मैं नकद भुगतान करूँगा।",
+        "bangla_pronunciation": "ম্যাঁয় নকদ ভুগতান করুঙ্গা।",
+        "word_pronunciations": [
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যাঁয়",
+            "separator_after": " "
+          },
+          {
+            "target": "नकद",
+            "bangla_pronunciation": "নকদ",
+            "separator_after": " "
+          },
+          {
+            "target": "भुगतान",
+            "bangla_pronunciation": "ভুগতান",
+            "separator_after": " "
+          },
+          {
+            "target": "करूँगा।",
+            "bangla_pronunciation": "করুঙ্গা",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मेरे पास छुट्टे नहीं हैं।",
+        "bangla_pronunciation": "মেরে পাস ছুট্টে নহিঁ হ্যাঁয়।",
+        "word_pronunciations": [
+          {
+            "target": "मेरे",
+            "bangla_pronunciation": "মেরে",
+            "separator_after": " "
+          },
+          {
+            "target": "पास",
+            "bangla_pronunciation": "পাস",
+            "separator_after": " "
+          },
+          {
+            "target": "छुट्टे",
+            "bangla_pronunciation": "ছুট্টে",
+            "separator_after": " "
+          },
+          {
+            "target": "नहीं",
+            "bangla_pronunciation": "নহিঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যাঁয়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "क्या आपके पास छुट्टे हैं?",
+        "bangla_pronunciation": "ক্যা আপকে পাস ছুট্টে হ্যাঁয়?",
+        "word_pronunciations": [
+          {
+            "target": "क्या",
+            "bangla_pronunciation": "ক্যা",
+            "separator_after": " "
+          },
+          {
+            "target": "आपके",
+            "bangla_pronunciation": "আপকে",
+            "separator_after": " "
+          },
+          {
+            "target": "पास",
+            "bangla_pronunciation": "পাস",
+            "separator_after": " "
+          },
+          {
+            "target": "छुट्टे",
+            "bangla_pronunciation": "ছুট্টে",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं?",
+            "bangla_pronunciation": "হ্যাঁয়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मुझे बाकी पैसे दीजिए।",
+        "bangla_pronunciation": "মুঝে বাকি পয়সে দিজিয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "बाकी",
+            "bangla_pronunciation": "বাকি",
+            "separator_after": " "
+          },
+          {
+            "target": "पैसे",
+            "bangla_pronunciation": "পয়সে",
+            "separator_after": " "
+          },
+          {
+            "target": "दीजिए।",
+            "bangla_pronunciation": "দিজিয়ে",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मुझे रसीद चाहिए।",
+        "bangla_pronunciation": "মুঝে রসিদ চাহিয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "रसीद",
+            "bangla_pronunciation": "রসিদ",
+            "separator_after": " "
+          },
+          {
+            "target": "चाहिए।",
+            "bangla_pronunciation": "চাহিয়ে",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "ম্যাঁয় নকদ ভুগতান করুঙ্গা। মেরে পাস ছুট্টে নহিঁ হ্যাঁয়। ক্যা আপকে পাস ছুট্টে হ্যাঁয়? মুঝে বাকি পয়সে দিজিয়ে। মুঝে রসিদ চাহিয়ে।",
+    "meaning_bengali_md": "আমি নগদে পরিশোধ করব। আমার কাছে খুচরা নেই। আপনার কাছে কি খুচরা আছে? আমাকে বাকি টাকা দিন। আমার রসিদ দরকার।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_combo_ta_aa",
+      "mode": "review",
+      "target": "ता",
+      "bangla_pronunciation": "তা",
+      "explanation_bengali_md": "ত ব্যঞ্জনের সঙ্গে দীর্ঘ আ-ধ্বনির মাত্রা চিনুন।",
+      "practice_bengali_md": "দুইবার উচ্চারণ করে আকারটি মনে রাখুন।"
+    },
+    {
+      "item_id": "dev_combo_ta_e",
+      "mode": "review",
+      "target": "ते",
+      "bangla_pronunciation": "তে",
+      "explanation_bengali_md": "ত ব্যঞ্জনের সঙ্গে এ-ধ্বনির মাত্রা চিনুন।",
+      "practice_bengali_md": "আগের ইউনিটের সঙ্গে ধ্বনি তুলনা করুন।"
+    },
+    {
+      "item_id": "dev_combo_ta_ii",
+      "mode": "review",
+      "target": "ती",
+      "bangla_pronunciation": "তী",
+      "explanation_bengali_md": "ত ব্যঞ্জনের সঙ্গে দীর্ঘ ঈ-ধ্বনি চিনুন।",
+      "practice_bengali_md": "ছোট ও দীর্ঘ স্বরের পার্থক্য স্পষ্ট করে বলুন।"
+    },
+    {
+      "item_id": "dev_combo_pa_aa",
+      "mode": "review",
+      "target": "पा",
+      "bangla_pronunciation": "পা",
+      "explanation_bengali_md": "প ব্যঞ্জনের সঙ্গে দীর্ঘ আ-ধ্বনি চিনুন।",
+      "practice_bengali_md": "একবার দেখে, একবার মনে করে উচ্চারণ করুন।"
+    },
+    {
+      "item_id": "dev_combo_pa_ii",
+      "mode": "review",
+      "target": "पी",
+      "bangla_pronunciation": "পী",
+      "explanation_bengali_md": "প ব্যঞ্জনের সঙ্গে দীর্ঘ ঈ-ধ্বনি চিনুন।",
+      "practice_bengali_md": "আকার দেখে দ্রুত ধ্বনি মনে করার অনুশীলন করুন।"
+    }
+  ],
+  "number_practice": [
+    {
+      "display": "5 / ५",
+      "target": "पाँच",
+      "bangla_pronunciation": "পাঁচ",
+      "word_pronunciations": [
+        {
+          "target": "पाँच",
+          "bangla_pronunciation": "পাঁচ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পাঁচ।",
+      "system": "আন্তর্জাতিক ও দেবনাগরী অঙ্ক"
+    },
+    {
+      "display": "500 / ५००",
+      "target": "पाँच सौ",
+      "bangla_pronunciation": "পাঁচ সও",
+      "word_pronunciations": [
+        {
+          "target": "पाँच",
+          "bangla_pronunciation": "পাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "सौ",
+          "bangla_pronunciation": "সও",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পাঁচশ।",
+      "system": "আন্তর্জাতিক ও দেবনাগরী অঙ্ক"
+    }
+  ],
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "নগদে পেমেন্ট করবেন বলুন।",
+      "model_target": "मैं नकद भुगतान करूँगा।",
+      "model_bangla_pronunciation": "ম্যাঁয় নকদ ভুগতান করুঙ্গা।",
+      "model_word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁয়",
+          "separator_after": " "
+        },
+        {
+          "target": "नकद",
+          "bangla_pronunciation": "নকদ",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "करूँगा।",
+          "bangla_pronunciation": "করুঙ্গা",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমি নগদে পরিশোধ করব।"
+    },
+    {
+      "prompt_bengali_md": "বিল কত জিজ্ঞেস করুন।",
+      "model_target": "यह बिल कितना है?",
+      "model_bangla_pronunciation": "ইয়হ বিল কিতনা হ্যায়?",
+      "model_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "separator_after": " "
+        },
+        {
+          "target": "बिल",
+          "bangla_pronunciation": "বিল",
+          "separator_after": " "
+        },
+        {
+          "target": "कितना",
+          "bangla_pronunciation": "কিতনা",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এই বিল কত?"
+    },
+    {
+      "prompt_bengali_md": "পেমেন্ট হয়নি বলুন।",
+      "model_target": "भुगतान नहीं हुआ।",
+      "model_bangla_pronunciation": "ভুগতান নহিঁ হুয়া।",
+      "model_word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "हुआ।",
+          "bangla_pronunciation": "হুয়া",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "পেমেন্ট হয়নি।"
+    },
+    {
+      "prompt_bengali_md": "খুচরা আছে কি না জিজ্ঞেস করুন।",
+      "model_target": "क्या आपके पास छुट्टे हैं?",
+      "model_bangla_pronunciation": "ক্যা আপকে পাস ছুট্টে হ্যাঁয়?",
+      "model_word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आपके",
+          "bangla_pronunciation": "আপকে",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "छुट्टे",
+          "bangla_pronunciation": "ছুট্টে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं?",
+          "bangla_pronunciation": "হ্যাঁয়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আপনার কাছে কি খুচরা আছে?"
+    },
+    {
+      "prompt_bengali_md": "রসিদ চান।",
+      "model_target": "मुझे रसीद चाहिए।",
+      "model_bangla_pronunciation": "মুঝে রসিদ চাহিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসিদ",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার রসিদ দরকার।"
+    },
+    {
+      "prompt_bengali_md": "টাকা ফেরত আসবে কি না জিজ্ঞেস করুন।",
+      "model_target": "पैसे वापस आएँगे?",
+      "model_bangla_pronunciation": "পয়সে ওয়াপস আয়েঙ্গে?",
+      "model_word_pronunciations": [
+        {
+          "target": "पैसे",
+          "bangla_pronunciation": "পয়সে",
+          "separator_after": " "
+        },
+        {
+          "target": "वापस",
+          "bangla_pronunciation": "ওয়াপস",
+          "separator_after": " "
+        },
+        {
+          "target": "आएँगे?",
+          "bangla_pronunciation": "আয়েঙ্গে",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "টাকা কি ফেরত আসবে?"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch023_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A bright modern cafe cashier counter; a Bangladeshi male traveler holds a smartphone toward a small payment terminal after a failed mobile payment attempt, cashier patiently assisting, a plain receipt roll nearby, all screens turned away or abstract, medium-wide framing, lively but uncluttered. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright, clean contemporary educational illustration with warm natural light, realistic South Asian details, uncluttered composition, friendly adult learners, clear single focal action, 1536x1024 landscape."
+    },
+    {
+      "key": "ch023_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A small neighborhood shop in daylight; a South Asian customer pays with cash and gestures politely about change while the shopkeeper counts coins and prepares a plain receipt, close focus on hands and friendly exchange, shelves softly blurred. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright, clean contemporary educational illustration with warm natural light, realistic South Asian details, uncluttered composition, friendly adult learners, clear single focal action, 1536x1024 landscape."
+    }
+  ],
+  "additional_practice": []
+}

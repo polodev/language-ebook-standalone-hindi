@@ -1,0 +1,1503 @@
+{
+  "chapter_id": "ch026",
+  "status": "drafted",
+  "title_target": "पसंद, नापसंद और चुनाव",
+  "title_bangla_pronunciation": "পসন্দ নাপসন্দ ঔর চুনাও",
+  "title_word_pronunciations": [
+    {
+      "target": "पसंद,",
+      "bangla_pronunciation": "পসন্দ",
+      "separator_after": " "
+    },
+    {
+      "target": "नापसंद",
+      "bangla_pronunciation": "নাপসন্দ",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "ঔর",
+      "separator_after": " "
+    },
+    {
+      "target": "चुनाव",
+      "bangla_pronunciation": "চুনাও",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "পছন্দ, অপছন্দ ও নির্বাচন",
+  "goal_bengali_md": "খাবার, পানীয়, শখ, কাজ, ভ্রমণ ও রঙের পছন্দ-অপছন্দ বলা, প্রিয় জিনিস জানানো এবং বিকল্প বেছে নেওয়ার সহজ হিন্দি শিখবেন।",
+  "sentences": [
+    {
+      "id": "s01",
+      "target": "मुझे चाय पसंद है।",
+      "romanization": "mujhe caay pasand hai",
+      "bangla_pronunciation": "মুঝে চায় পসন্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "चाय",
+          "bangla_pronunciation": "চায়",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার চা পছন্দ।"
+    },
+    {
+      "id": "s02",
+      "target": "मुझे कॉफी पसंद नहीं है।",
+      "romanization": "mujhe koNphii pasand nahin hai",
+      "bangla_pronunciation": "মুঝে কফি পসন্দ নহিঁ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "कॉफी",
+          "bangla_pronunciation": "কফি",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার কফি পছন্দ নয়।"
+    },
+    {
+      "id": "s03",
+      "target": "मुझे मसालेदार खाना पसंद है।",
+      "romanization": "mujhe msaaledaar khaanaa pasand hai",
+      "bangla_pronunciation": "মুঝে মসালেদার খানা পসন্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "मसालेदार",
+          "bangla_pronunciation": "মসালেদার",
+          "separator_after": " "
+        },
+        {
+          "target": "खाना",
+          "bangla_pronunciation": "খানা",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার মসলাদার খাবার পছন্দ।"
+    },
+    {
+      "id": "s04",
+      "target": "मुझे मीठा कम पसंद है।",
+      "romanization": "mujhe miitthaa km pasand hai",
+      "bangla_pronunciation": "মুঝে মিঠা কম পসন্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "मीठा",
+          "bangla_pronunciation": "মিঠা",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার মিষ্টি কম পছন্দ।"
+    },
+    {
+      "id": "s05",
+      "target": "मुझे किताबें पढ़ना पसंद है।",
+      "romanization": "mujhe kitaabeN pddh'naa pasand hai",
+      "bangla_pronunciation": "মুঝে কিতাবেঁ পঢ়না পসন্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "किताबें",
+          "bangla_pronunciation": "কিতাবেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़ना",
+          "bangla_pronunciation": "পঢ়না",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার বই পড়তে ভালো লাগে।"
+    },
+    {
+      "id": "s06",
+      "target": "मुझे संगीत सुनना पसंद है।",
+      "romanization": "mujhe sNgiit sunnaa pasand hai",
+      "bangla_pronunciation": "মুঝে সঙ্গীত সুননা পসন্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "संगीत",
+          "bangla_pronunciation": "সঙ্গীত",
+          "separator_after": " "
+        },
+        {
+          "target": "सुनना",
+          "bangla_pronunciation": "সুননা",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার গান বা সঙ্গীত শুনতে ভালো লাগে।"
+    },
+    {
+      "id": "s07",
+      "target": "मुझे क्रिकेट देखना पसंद है।",
+      "romanization": "mujhe karikett dekhnaa pasand hai",
+      "bangla_pronunciation": "মুঝে ক্রিকেট দেখনা পসন্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "क्रिकेट",
+          "bangla_pronunciation": "ক্রিকেট",
+          "separator_after": " "
+        },
+        {
+          "target": "देखना",
+          "bangla_pronunciation": "দেখনা",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার ক্রিকেট দেখতে ভালো লাগে।"
+    },
+    {
+      "id": "s08",
+      "target": "मुझे सुबह काम करना पसंद है।",
+      "romanization": "mujhe subh kaam karnaa pasand hai",
+      "bangla_pronunciation": "মুঝে সুবহ কাম করনা পসন্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "सुबह",
+          "bangla_pronunciation": "সুবহ",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "करना",
+          "bangla_pronunciation": "করনা",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার সকালে কাজ করতে ভালো লাগে।"
+    },
+    {
+      "id": "s09",
+      "target": "मुझे रात में पढ़ना पसंद है।",
+      "romanization": "mujhe raat meN pddh'naa pasand hai",
+      "bangla_pronunciation": "মুঝে রাত মেঁ পঢ়না পসন্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "रात",
+          "bangla_pronunciation": "রাত",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़ना",
+          "bangla_pronunciation": "পঢ়না",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার রাতে পড়তে ভালো লাগে।"
+    },
+    {
+      "id": "s10",
+      "target": "मेरा पसंदीदा रंग नीला है।",
+      "romanization": "meraa pasandiidaa rNg niilaa hai",
+      "bangla_pronunciation": "মেরা পসন্দিদা রং নীলা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंदीदा",
+          "bangla_pronunciation": "পসন্দিদা",
+          "separator_after": " "
+        },
+        {
+          "target": "रंग",
+          "bangla_pronunciation": "রং",
+          "separator_after": " "
+        },
+        {
+          "target": "नीला",
+          "bangla_pronunciation": "নীলা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার প্রিয় রং নীল।"
+    },
+    {
+      "id": "s11",
+      "target": "मेरा पसंदीदा खाना बिरयानी है।",
+      "romanization": "meraa pasandiidaa khaanaa biryaanii hai",
+      "bangla_pronunciation": "মেরা পসন্দিদা খানা বিরিয়ানি হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंदीदा",
+          "bangla_pronunciation": "পসন্দিদা",
+          "separator_after": " "
+        },
+        {
+          "target": "खाना",
+          "bangla_pronunciation": "খানা",
+          "separator_after": " "
+        },
+        {
+          "target": "बिरयानी",
+          "bangla_pronunciation": "বিরিয়ানি",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার প্রিয় খাবার বিরিয়ানি।"
+    },
+    {
+      "id": "s12",
+      "target": "मुझे बस से जाना अच्छा लगता है।",
+      "romanization": "mujhe bs se jaanaa acchaa lgtaa hai",
+      "bangla_pronunciation": "মুঝে বাস সে জানা অচ্ছা লগতা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "बस",
+          "bangla_pronunciation": "বাস",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जाना",
+          "bangla_pronunciation": "জানা",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "separator_after": " "
+        },
+        {
+          "target": "लगता",
+          "bangla_pronunciation": "লগতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার বাসে যেতে ভালো লাগে।"
+    },
+    {
+      "id": "s13",
+      "target": "मुझे ट्रेन से जाना ज्यादा पसंद है।",
+      "romanization": "mujhe ttren se jaanaa jyadaa pasand hai",
+      "bangla_pronunciation": "মুঝে ট্রেন সে জানা জ্যাদা পসন্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "ट्रेन",
+          "bangla_pronunciation": "ট্রেন",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जाना",
+          "bangla_pronunciation": "জানা",
+          "separator_after": " "
+        },
+        {
+          "target": "ज्यादा",
+          "bangla_pronunciation": "জ্যাদা",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার ট্রেনে যেতে বেশি পছন্দ।"
+    },
+    {
+      "id": "s14",
+      "target": "मुझे भीड़ पसंद नहीं है।",
+      "romanization": "mujhe bhiidd' pasand nahin hai",
+      "bangla_pronunciation": "মুঝে ভীড় পসন্দ নহিঁ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "भीड़",
+          "bangla_pronunciation": "ভীড়",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার ভিড় পছন্দ নয়।"
+    },
+    {
+      "id": "s15",
+      "target": "मुझे शांत जगह पसंद है।",
+      "romanization": "mujhe shaaNt jgh pasand hai",
+      "bangla_pronunciation": "মুঝে শান্ত জগহ পসন্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "शांत",
+          "bangla_pronunciation": "শান্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "जगह",
+          "bangla_pronunciation": "জগহ",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার শান্ত জায়গা পছন্দ।"
+    },
+    {
+      "id": "s16",
+      "target": "मुझे यह विकल्प बेहतर लगता है।",
+      "romanization": "mujhe yh viklp behtr lgtaa hai",
+      "bangla_pronunciation": "মুঝে ইয়হ বিকল্প বেহতর লগতা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "separator_after": " "
+        },
+        {
+          "target": "विकल्प",
+          "bangla_pronunciation": "বিকল্প",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "separator_after": " "
+        },
+        {
+          "target": "लगता",
+          "bangla_pronunciation": "লগতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার এই বিকল্পটি ভালো মনে হয়।"
+    },
+    {
+      "id": "s17",
+      "target": "आप क्या पसंद करते हैं?",
+      "romanization": "aap kya pasand karte hain?",
+      "bangla_pronunciation": "আপ ক্যা পসন্দ করতে হ্যাঁয়?",
+      "word_pronunciations": [
+        {
+          "target": "आप",
+          "bangla_pronunciation": "আপ",
+          "separator_after": " "
+        },
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "करते",
+          "bangla_pronunciation": "করতে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं?",
+          "bangla_pronunciation": "হ্যাঁয়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপনি কী পছন্দ করেন?"
+    },
+    {
+      "id": "s18",
+      "target": "आपको कौन सा रंग पसंद है?",
+      "romanization": "aapko kaun saa rNg pasand hai?",
+      "bangla_pronunciation": "আপকো কৌন সা রং পসন্দ হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "आपको",
+          "bangla_pronunciation": "আপকো",
+          "separator_after": " "
+        },
+        {
+          "target": "कौन",
+          "bangla_pronunciation": "কৌন",
+          "separator_after": " "
+        },
+        {
+          "target": "सा",
+          "bangla_pronunciation": "সা",
+          "separator_after": " "
+        },
+        {
+          "target": "रंग",
+          "bangla_pronunciation": "রং",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপনার কোন রং পছন্দ?"
+    },
+    {
+      "id": "s19",
+      "target": "मुझे इसमें दिलचस्पी नहीं है।",
+      "romanization": "mujhe ismeN dilcspii nahin hai",
+      "bangla_pronunciation": "মুঝে ইসমেঁ দিলচস্পি নহিঁ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "इसमें",
+          "bangla_pronunciation": "ইসমেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "दिलचस्पी",
+          "bangla_pronunciation": "দিলচস্পি",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এতে আমার আগ্রহ নেই।"
+    },
+    {
+      "id": "s20",
+      "target": "मैं दूसरा विकल्प चुनूँगा।",
+      "romanization": "main duusraa viklp cunuuNgaa",
+      "bangla_pronunciation": "ম্যাঁয় দুসরা বিকল্প চুনুঙ্গা।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁয়",
+          "separator_after": " "
+        },
+        {
+          "target": "दूसरा",
+          "bangla_pronunciation": "দুসরা",
+          "separator_after": " "
+        },
+        {
+          "target": "विकल्प",
+          "bangla_pronunciation": "বিকল্প",
+          "separator_after": " "
+        },
+        {
+          "target": "चुनूँगा।",
+          "bangla_pronunciation": "চুনুঙ্গা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি অন্য বিকল্পটি বেছে নেব। পুরুষ বক্তার রূপ।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v01",
+      "target": "पसंद",
+      "type": "বিশেষ্য/ব্যবহারিক রূপ",
+      "romanization": "pasand",
+      "bangla_pronunciation": "পসন্দ",
+      "word_pronunciations": [
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পছন্দ।",
+      "source_sentence_id": "s01",
+      "source_form": "पसंद"
+    },
+    {
+      "id": "v02",
+      "target": "मसालेदार",
+      "type": "বিশেষণ",
+      "romanization": "msaaledaar",
+      "bangla_pronunciation": "মসালেদার",
+      "word_pronunciations": [
+        {
+          "target": "मसालेदार",
+          "bangla_pronunciation": "মসালেদার",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মসলাদার।",
+      "source_sentence_id": "s03",
+      "source_form": "मसालेदार"
+    },
+    {
+      "id": "v03",
+      "target": "मीठा",
+      "type": "বিশেষণ",
+      "romanization": "miitthaa",
+      "bangla_pronunciation": "মিঠা",
+      "word_pronunciations": [
+        {
+          "target": "मीठा",
+          "bangla_pronunciation": "মিঠা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মিষ্টি।",
+      "source_sentence_id": "s04",
+      "source_form": "मीठा"
+    },
+    {
+      "id": "v04",
+      "target": "पढ़ना",
+      "type": "ক্রিয়ার মূল রূপ",
+      "romanization": "pddh'naa",
+      "bangla_pronunciation": "পঢ়না",
+      "word_pronunciations": [
+        {
+          "target": "पढ़ना",
+          "bangla_pronunciation": "পঢ়না",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পড়া।",
+      "source_sentence_id": "s05",
+      "source_form": "पढ़ना"
+    },
+    {
+      "id": "v05",
+      "target": "सुनना",
+      "type": "ক্রিয়ার মূল রূপ",
+      "romanization": "sunnaa",
+      "bangla_pronunciation": "সুননা",
+      "word_pronunciations": [
+        {
+          "target": "सुनना",
+          "bangla_pronunciation": "সুননা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শোনা।",
+      "source_sentence_id": "s06",
+      "source_form": "सुनना"
+    },
+    {
+      "id": "v06",
+      "target": "पसंदीदा",
+      "type": "বিশেষণ",
+      "romanization": "pasandiidaa",
+      "bangla_pronunciation": "পসন্দিদা",
+      "word_pronunciations": [
+        {
+          "target": "पसंदीदा",
+          "bangla_pronunciation": "পসন্দিদা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রিয় বা সবচেয়ে পছন্দের।",
+      "source_sentence_id": "s10",
+      "source_form": "पसंदीदा"
+    },
+    {
+      "id": "v07",
+      "target": "ज्यादा",
+      "type": "পরিমাণসূচক শব্দ",
+      "romanization": "jyadaa",
+      "bangla_pronunciation": "জ্যাদা",
+      "word_pronunciations": [
+        {
+          "target": "ज्यादा",
+          "bangla_pronunciation": "জ্যাদা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বেশি।",
+      "source_sentence_id": "s13",
+      "source_form": "ज्यादा"
+    },
+    {
+      "id": "v08",
+      "target": "भीड़",
+      "type": "বিশেষ্য",
+      "romanization": "bhiidd'",
+      "bangla_pronunciation": "ভীড়",
+      "word_pronunciations": [
+        {
+          "target": "भीड़",
+          "bangla_pronunciation": "ভীড়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভিড়।",
+      "source_sentence_id": "s14",
+      "source_form": "भीड़"
+    },
+    {
+      "id": "v09",
+      "target": "विकल्प",
+      "type": "বিশেষ্য",
+      "romanization": "viklp",
+      "bangla_pronunciation": "বিকল্প",
+      "word_pronunciations": [
+        {
+          "target": "विकल्प",
+          "bangla_pronunciation": "বিকল্প",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিকল্প বা অপশন।",
+      "source_sentence_id": "s16",
+      "source_form": "विकल्प"
+    },
+    {
+      "id": "v10",
+      "target": "दिलचस्पी",
+      "type": "বিশেষ্য",
+      "romanization": "dilcspii",
+      "bangla_pronunciation": "দিলচস্পি",
+      "word_pronunciations": [
+        {
+          "target": "दिलचस्पी",
+          "bangla_pronunciation": "দিলচস্পি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আগ্রহ।",
+      "source_sentence_id": "s19",
+      "source_form": "दिलचस्पी"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "ক্যাফেতে পছন্দের কথা",
+    "scene_summary": "দুই বাংলাদেশি বন্ধু দিল্লির একটি ক্যাফেতে পানীয়, খাবার ও ভ্রমণের পছন্দ নিয়ে সহজ হিন্দিতে কথা বলছে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "তানিয়া মেনু দেখে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "मुझे चाय पसंद है।",
+        "bangla_pronunciation": "মুঝে চায় পসন্দ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "चाय",
+            "bangla_pronunciation": "চায়",
+            "separator_after": " "
+          },
+          {
+            "target": "पसंद",
+            "bangla_pronunciation": "পসন্দ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " তার বন্ধু কফির কথা বলতেই সে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "मुझे कॉफी पसंद नहीं है।",
+        "bangla_pronunciation": "মুঝে কফি পসন্দ নহিঁ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "कॉफी",
+            "bangla_pronunciation": "কফি",
+            "separator_after": " "
+          },
+          {
+            "target": "पसंद",
+            "bangla_pronunciation": "পসন্দ",
+            "separator_after": " "
+          },
+          {
+            "target": "नहीं",
+            "bangla_pronunciation": "নহিঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " ভ্রমণের কথা উঠলে তানিয়া বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "मुझे ट्रेन से जाना ज्यादा पसंद है।",
+        "bangla_pronunciation": "মুঝে ট্রেন সে জানা জ্যাদা পসন্দ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "ट्रेन",
+            "bangla_pronunciation": "ট্রেন",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "separator_after": " "
+          },
+          {
+            "target": "जाना",
+            "bangla_pronunciation": "জানা",
+            "separator_after": " "
+          },
+          {
+            "target": "ज्यादा",
+            "bangla_pronunciation": "জ্যাদা",
+            "separator_after": " "
+          },
+          {
+            "target": "पसंद",
+            "bangla_pronunciation": "পসন্দ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " শেষে বন্ধু তার পছন্দ জানতে চাইলে প্রশ্ন করল, "
+      },
+      {
+        "kind": "target",
+        "target": "आपको कौन सा रंग पसंद है?",
+        "bangla_pronunciation": "আপকো কৌন সা রং পসন্দ হ্যায়?",
+        "word_pronunciations": [
+          {
+            "target": "आपको",
+            "bangla_pronunciation": "আপকো",
+            "separator_after": " "
+          },
+          {
+            "target": "कौन",
+            "bangla_pronunciation": "কৌন",
+            "separator_after": " "
+          },
+          {
+            "target": "सा",
+            "bangla_pronunciation": "সা",
+            "separator_after": " "
+          },
+          {
+            "target": "रंग",
+            "bangla_pronunciation": "রং",
+            "separator_after": " "
+          },
+          {
+            "target": "पसंद",
+            "bangla_pronunciation": "পসন্দ",
+            "separator_after": " "
+          },
+          {
+            "target": "है?",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "তানিয়া মেনু দেখে বলল, **मुझे** (মুঝে) **चाय** (চায়) **पसंद** (পসন্দ) **है।** (হ্যায়) তার বন্ধু কফির কথা বলতেই সে বলল, **मुझे** (মুঝে) **कॉफी** (কফি) **पसंद** (পসন্দ) **नहीं** (নহিঁ) **है।** (হ্যায়) ভ্রমণের কথা উঠলে তানিয়া বলল, **मुझे** (মুঝে) **ट्रेन** (ট্রেন) **से** (সে) **जाना** (জানা) **ज्यादा** (জ্যাদা) **पसंद** (পসন্দ) **है।** (হ্যায়) শেষে বন্ধু তার পছন্দ জানতে চাইলে প্রশ্ন করল, **आपको** (আপকো) **कौन** (কৌন) **सा** (সা) **रंग** (রং) **पसंद** (পসন্দ) **है?** (হ্যায়)"
+  },
+  "target_reading": {
+    "mode": "article",
+    "title_bengali": "শান্ত সন্ধ্যার পছন্দ",
+    "scene_summary": "অন্য একজন শিক্ষার্থী নিজের অবসর, পড়া ও পরিবেশের পছন্দ ছোট বাক্যে বলছে।",
+    "lines": [
+      {
+        "target": "मुझे किताबें पढ़ना पसंद है।",
+        "bangla_pronunciation": "মুঝে কিতাবেঁ পঢ়না পসন্দ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "किताबें",
+            "bangla_pronunciation": "কিতাবেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "पढ़ना",
+            "bangla_pronunciation": "পঢ়না",
+            "separator_after": " "
+          },
+          {
+            "target": "पसंद",
+            "bangla_pronunciation": "পসন্দ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मुझे संगीत सुनना पसंद है।",
+        "bangla_pronunciation": "মুঝে সঙ্গীত সুননা পসন্দ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "संगीत",
+            "bangla_pronunciation": "সঙ্গীত",
+            "separator_after": " "
+          },
+          {
+            "target": "सुनना",
+            "bangla_pronunciation": "সুননা",
+            "separator_after": " "
+          },
+          {
+            "target": "पसंद",
+            "bangla_pronunciation": "পসন্দ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मुझे भीड़ पसंद नहीं है।",
+        "bangla_pronunciation": "মুঝে ভীড় পসন্দ নহিঁ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "भीड़",
+            "bangla_pronunciation": "ভীড়",
+            "separator_after": " "
+          },
+          {
+            "target": "पसंद",
+            "bangla_pronunciation": "পসন্দ",
+            "separator_after": " "
+          },
+          {
+            "target": "नहीं",
+            "bangla_pronunciation": "নহিঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मुझे शांत जगह पसंद है।",
+        "bangla_pronunciation": "মুঝে শান্ত জগহ পসন্দ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "शांत",
+            "bangla_pronunciation": "শান্ত",
+            "separator_after": " "
+          },
+          {
+            "target": "जगह",
+            "bangla_pronunciation": "জগহ",
+            "separator_after": " "
+          },
+          {
+            "target": "पसंद",
+            "bangla_pronunciation": "পসন্দ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मेरा पसंदीदा रंग नीला है।",
+        "bangla_pronunciation": "মেরা পসন্দিদা রং নীলা হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "मेरा",
+            "bangla_pronunciation": "মেরা",
+            "separator_after": " "
+          },
+          {
+            "target": "पसंदीदा",
+            "bangla_pronunciation": "পসন্দিদা",
+            "separator_after": " "
+          },
+          {
+            "target": "रंग",
+            "bangla_pronunciation": "রং",
+            "separator_after": " "
+          },
+          {
+            "target": "नीला",
+            "bangla_pronunciation": "নীলা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "মুঝে কিতাবেঁ পঢ়না পসন্দ হ্যায়। মুঝে সঙ্গীত সুননা পসন্দ হ্যায়। মুঝে ভীড় পসন্দ নহিঁ হ্যায়। মুঝে শান্ত জগহ পসন্দ হ্যায়। মেরা পসন্দিদা রং নীলা হ্যায়।",
+    "meaning_bengali_md": "আমার বই পড়তে ভালো লাগে। আমার সঙ্গীত শুনতে ভালো লাগে। আমার ভিড় পছন্দ নয়। আমার শান্ত জায়গা পছন্দ। আমার প্রিয় রং নীল।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_combo_sa_aa",
+      "mode": "review",
+      "target": "सा",
+      "bangla_pronunciation": "সা",
+      "explanation_bengali_md": "স ব্যঞ্জনের সঙ্গে দীর্ঘ আ-ধ্বনি চিনুন।",
+      "practice_bengali_md": "ধীরে উচ্চারণ করে আকার মনে রাখুন।"
+    },
+    {
+      "item_id": "dev_combo_sa_ii",
+      "mode": "review",
+      "target": "सी",
+      "bangla_pronunciation": "সী",
+      "explanation_bengali_md": "স ব্যঞ্জনের সঙ্গে দীর্ঘ ঈ-ধ্বনি চিনুন।",
+      "practice_bengali_md": "আ ও ঈ-ধ্বনির ইউনিট পাশাপাশি মনে করুন।"
+    },
+    {
+      "item_id": "dev_combo_sa_e",
+      "mode": "review",
+      "target": "से",
+      "bangla_pronunciation": "সে",
+      "explanation_bengali_md": "স ব্যঞ্জনের সঙ্গে এ-ধ্বনি চিনুন।",
+      "practice_bengali_md": "একবার দেখে, একবার না দেখে বলুন।"
+    },
+    {
+      "item_id": "dev_combo_la_aa",
+      "mode": "review",
+      "target": "ला",
+      "bangla_pronunciation": "লা",
+      "explanation_bengali_md": "ল ব্যঞ্জনের সঙ্গে দীর্ঘ আ-ধ্বনি চিনুন।",
+      "practice_bengali_md": "স্বাভাবিক গতিতে দুইবার উচ্চারণ করুন।"
+    },
+    {
+      "item_id": "dev_combo_la_ii",
+      "mode": "review",
+      "target": "ली",
+      "bangla_pronunciation": "লী",
+      "explanation_bengali_md": "ল ব্যঞ্জনের সঙ্গে দীর্ঘ ঈ-ধ্বনি চিনুন।",
+      "practice_bengali_md": "চিহ্ন দেখেই ধ্বনি বলার অনুশীলন করুন।"
+    }
+  ],
+  "number_practice": null,
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "চা পছন্দ বলুন।",
+      "model_target": "मुझे चाय पसंद है।",
+      "model_bangla_pronunciation": "মুঝে চায় পসন্দ হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "चाय",
+          "bangla_pronunciation": "চায়",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার চা পছন্দ।"
+    },
+    {
+      "prompt_bengali_md": "কফি পছন্দ নয় বলুন।",
+      "model_target": "मुझे कॉफी पसंद नहीं है।",
+      "model_bangla_pronunciation": "মুঝে কফি পসন্দ নহিঁ হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "कॉफी",
+          "bangla_pronunciation": "কফি",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার কফি পছন্দ নয়।"
+    },
+    {
+      "prompt_bengali_md": "প্রিয় রং নীল বলুন।",
+      "model_target": "मेरा पसंदीदा रंग नीला है।",
+      "model_bangla_pronunciation": "মেরা পসন্দিদা রং নীলা হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंदीदा",
+          "bangla_pronunciation": "পসন্দিদা",
+          "separator_after": " "
+        },
+        {
+          "target": "रंग",
+          "bangla_pronunciation": "রং",
+          "separator_after": " "
+        },
+        {
+          "target": "नीला",
+          "bangla_pronunciation": "নীলা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার প্রিয় রং নীল।"
+    },
+    {
+      "prompt_bengali_md": "ট্রেনে যেতে বেশি পছন্দ বলুন।",
+      "model_target": "मुझे ट्रेन से जाना ज्यादा पसंद है।",
+      "model_bangla_pronunciation": "মুঝে ট্রেন সে জানা জ্যাদা পসন্দ হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "ट्रेन",
+          "bangla_pronunciation": "ট্রেন",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जाना",
+          "bangla_pronunciation": "জানা",
+          "separator_after": " "
+        },
+        {
+          "target": "ज्यादा",
+          "bangla_pronunciation": "জ্যাদা",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার ট্রেনে যেতে বেশি পছন্দ।"
+    },
+    {
+      "prompt_bengali_md": "অন্যজন কী পছন্দ করেন জিজ্ঞেস করুন।",
+      "model_target": "आप क्या पसंद करते हैं?",
+      "model_bangla_pronunciation": "আপ ক্যা পসন্দ করতে হ্যাঁয়?",
+      "model_word_pronunciations": [
+        {
+          "target": "आप",
+          "bangla_pronunciation": "আপ",
+          "separator_after": " "
+        },
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "करते",
+          "bangla_pronunciation": "করতে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं?",
+          "bangla_pronunciation": "হ্যাঁয়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আপনি কী পছন্দ করেন?"
+    },
+    {
+      "prompt_bengali_md": "কোনো বিষয়ে আগ্রহ নেই বলুন।",
+      "model_target": "मुझे इसमें दिलचस्पी नहीं है।",
+      "model_bangla_pronunciation": "মুঝে ইসমেঁ দিলচস্পি নহিঁ হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "इसमें",
+          "bangla_pronunciation": "ইসমেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "दिलचस्पी",
+          "bangla_pronunciation": "দিলচস্পি",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এতে আমার আগ্রহ নেই।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch026_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A cheerful Delhi cafe with two Bangladeshi adult friends at a small table choosing between tea and coffee, one pointing happily to tea while discussing travel preferences, a train-shaped souvenir blurred in the background, warm daylight, expressive but natural faces, medium shot. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright, clean contemporary educational illustration with warm natural light, realistic South Asian details, uncluttered composition, friendly adult learners, clear single focal action, 1536x1024 landscape."
+    },
+    {
+      "key": "ch026_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A peaceful evening reading corner; a South Asian adult sits with an open book and headphones nearby in a quiet uncluttered room, blue cushion as a subtle favorite-color cue, calm relaxed mood, soft natural window light, intimate medium-wide framing. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright, clean contemporary educational illustration with warm natural light, realistic South Asian details, uncluttered composition, friendly adult learners, clear single focal action, 1536x1024 landscape."
+    }
+  ],
+  "additional_practice": []
+}

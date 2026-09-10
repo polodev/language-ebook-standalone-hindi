@@ -1,0 +1,1343 @@
+{
+  "chapter_id": "ch021",
+  "status": "drafted",
+  "title_target": "स्वास्थ्य और सरल लक्षण",
+  "title_bangla_pronunciation": "স্বাস্থ্য ঔর সরল লক্ষণ",
+  "title_word_pronunciations": [
+    {
+      "target": "स्वास्थ्य",
+      "bangla_pronunciation": "স্বাস্থ্য",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "ঔর",
+      "separator_after": " "
+    },
+    {
+      "target": "सरल",
+      "bangla_pronunciation": "সরল",
+      "separator_after": " "
+    },
+    {
+      "target": "लक्षण",
+      "bangla_pronunciation": "লক্ষণ",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "স্বাস্থ্য ও সহজ উপসর্গ",
+  "goal_bengali_md": "মাথাব্যথা, জ্বর, কাশি, ব্যথার জায়গা, ক্লান্তি ও সময়কাল সহজ হিন্দিতে বলা এবং ডাক্তারের কাছে প্রয়োজনীয় ছোট প্রশ্ন করা শিখবেন।",
+  "sentences": [
+    {
+      "id": "s01",
+      "target": "मुझे सिरदर्द है।",
+      "romanization": "mujhe sirdrd hai",
+      "bangla_pronunciation": "মুঝে সিরদর্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "सिरदर्द",
+          "bangla_pronunciation": "সিরদর্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার মাথাব্যথা আছে।"
+    },
+    {
+      "id": "s02",
+      "target": "मुझे बुखार है।",
+      "romanization": "mujhe bukhaar hai",
+      "bangla_pronunciation": "মুঝে বুখার হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "बुखार",
+          "bangla_pronunciation": "বুখার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার জ্বর আছে।"
+    },
+    {
+      "id": "s03",
+      "target": "मुझे खाँसी है।",
+      "romanization": "mujhe kahaansii hai",
+      "bangla_pronunciation": "মুঝে খাঁসি হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "खाँसी",
+          "bangla_pronunciation": "খাঁসি",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার কাশি আছে।"
+    },
+    {
+      "id": "s04",
+      "target": "मेरे गले में दर्द है।",
+      "romanization": "mere gle meN drd hai",
+      "bangla_pronunciation": "মেরে গলে মেঁ দর্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "गले",
+          "bangla_pronunciation": "গলে",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "दर्द",
+          "bangla_pronunciation": "দর্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার গলায় ব্যথা আছে।"
+    },
+    {
+      "id": "s05",
+      "target": "मेरे पेट में दर्द है।",
+      "romanization": "mere pett meN drd hai",
+      "bangla_pronunciation": "মেরে পেট মেঁ দর্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "पेट",
+          "bangla_pronunciation": "পেট",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "दर्द",
+          "bangla_pronunciation": "দর্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার পেটে ব্যথা আছে।"
+    },
+    {
+      "id": "s06",
+      "target": "मेरी पीठ में दर्द है।",
+      "romanization": "merii piitth meN drd hai",
+      "bangla_pronunciation": "মেরি পীঠ মেঁ দর্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मेरी",
+          "bangla_pronunciation": "মেরি",
+          "separator_after": " "
+        },
+        {
+          "target": "पीठ",
+          "bangla_pronunciation": "পীঠ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "दर्द",
+          "bangla_pronunciation": "দর্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার পিঠে ব্যথা আছে।"
+    },
+    {
+      "id": "s07",
+      "target": "मैं बहुत थका हूँ।",
+      "romanization": "main bhut thkaa hoon",
+      "bangla_pronunciation": "ম্যাঁয় বহুত থকা হুঁ।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁয়",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "थका",
+          "bangla_pronunciation": "থকা",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি খুব ক্লান্ত। পুরুষ বক্তার রূপ।"
+    },
+    {
+      "id": "s08",
+      "target": "मैं बहुत थकी हूँ।",
+      "romanization": "main bhut thkii hoon",
+      "bangla_pronunciation": "ম্যাঁয় বহুত থকি হুঁ।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁয়",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "थकी",
+          "bangla_pronunciation": "থকি",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি খুব ক্লান্ত। নারী বক্তার রূপ।"
+    },
+    {
+      "id": "s09",
+      "target": "मुझे चक्कर आ रहा है।",
+      "romanization": "mujhe ckkar aa raha hai",
+      "bangla_pronunciation": "মুঝে চক্কর আ রহা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "चक्कर",
+          "bangla_pronunciation": "চক্কর",
+          "separator_after": " "
+        },
+        {
+          "target": "आ",
+          "bangla_pronunciation": "আ",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा",
+          "bangla_pronunciation": "রহা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার মাথা ঘুরছে।"
+    },
+    {
+      "id": "s10",
+      "target": "मुझे कमजोरी लग रही है।",
+      "romanization": "mujhe kmjorii lg rahi hai",
+      "bangla_pronunciation": "মুঝে কমজোরি লগ রহি হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "कमजोरी",
+          "bangla_pronunciation": "কমজোরি",
+          "separator_after": " "
+        },
+        {
+          "target": "लग",
+          "bangla_pronunciation": "লগ",
+          "separator_after": " "
+        },
+        {
+          "target": "रही",
+          "bangla_pronunciation": "রহি",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার দুর্বল লাগছে।"
+    },
+    {
+      "id": "s11",
+      "target": "मुझे कल से बुखार है।",
+      "romanization": "mujhe kl se bukhaar hai",
+      "bangla_pronunciation": "মুঝে কল সে বুখার হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "कल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "बुखार",
+          "bangla_pronunciation": "বুখার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গতকাল থেকে আমার জ্বর।"
+    },
+    {
+      "id": "s12",
+      "target": "खाँसी कब से है?",
+      "romanization": "kahaansii kb se hai?",
+      "bangla_pronunciation": "খাঁসি কব সে হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "खाँसी",
+          "bangla_pronunciation": "খাঁসি",
+          "separator_after": " "
+        },
+        {
+          "target": "कब",
+          "bangla_pronunciation": "কব",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কাশি কবে থেকে?"
+    },
+    {
+      "id": "s13",
+      "target": "दर्द कहाँ है?",
+      "romanization": "drd kahaan hai?",
+      "bangla_pronunciation": "দর্দ কহাঁ হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "दर्द",
+          "bangla_pronunciation": "দর্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "कहाँ",
+          "bangla_pronunciation": "কহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যথা কোথায়?"
+    },
+    {
+      "id": "s14",
+      "target": "क्या आपको बुखार है?",
+      "romanization": "kya aapko bukhaar hai?",
+      "bangla_pronunciation": "ক্যা আপকো বুখার হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आपको",
+          "bangla_pronunciation": "আপকো",
+          "separator_after": " "
+        },
+        {
+          "target": "बुखार",
+          "bangla_pronunciation": "বুখার",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপনার কি জ্বর আছে?"
+    },
+    {
+      "id": "s15",
+      "target": "मेरा तापमान बढ़ा हुआ है।",
+      "romanization": "meraa taapmaan bddh'aa huaa hai",
+      "bangla_pronunciation": "মেরা তাপমান বঢ়া হুয়া হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "तापमान",
+          "bangla_pronunciation": "তাপমান",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़ा",
+          "bangla_pronunciation": "বঢ়া",
+          "separator_after": " "
+        },
+        {
+          "target": "हुआ",
+          "bangla_pronunciation": "হুয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার শরীরের তাপমাত্রা বেড়েছে।"
+    },
+    {
+      "id": "s16",
+      "target": "मुझे साँस लेने में दिक्कत है।",
+      "romanization": "mujhe saaNs lene meN dikkt hai",
+      "bangla_pronunciation": "মুঝে সাঁস লেনে মেঁ দিক্কত হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "साँस",
+          "bangla_pronunciation": "সাঁস",
+          "separator_after": " "
+        },
+        {
+          "target": "लेने",
+          "bangla_pronunciation": "লেনে",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "दिक्कत",
+          "bangla_pronunciation": "দিক্কত",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার শ্বাস নিতে অসুবিধা হচ্ছে।"
+    },
+    {
+      "id": "s17",
+      "target": "मुझे डॉक्टर से मिलना है।",
+      "romanization": "mujhe ddoNkttr se milnaa hai",
+      "bangla_pronunciation": "মুঝে ডক্টর সে মিলনা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "डॉक्टर",
+          "bangla_pronunciation": "ডক্টর",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलना",
+          "bangla_pronunciation": "মিলনা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার ডাক্তারের সঙ্গে দেখা করতে হবে।"
+    },
+    {
+      "id": "s18",
+      "target": "कृपया मेरी जाँच कीजिए।",
+      "romanization": "kRpyaa merii jaaNc kiijie",
+      "bangla_pronunciation": "কৃপয়া মেরি জাঁচ কিজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरी",
+          "bangla_pronunciation": "মেরি",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँच",
+          "bangla_pronunciation": "জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কিজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনুগ্রহ করে আমাকে পরীক্ষা করুন।"
+    },
+    {
+      "id": "s19",
+      "target": "मुझे आराम चाहिए।",
+      "romanization": "mujhe aaraam caahie",
+      "bangla_pronunciation": "মুঝে আরাম চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "आराम",
+          "bangla_pronunciation": "আরাম",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার বিশ্রাম দরকার।"
+    },
+    {
+      "id": "s20",
+      "target": "अब थोड़ा बेहतर लग रहा है।",
+      "romanization": "ab thodd'aa behtr lg raha hai",
+      "bangla_pronunciation": "অব থোড়া বেহতর লগ রহা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "अब",
+          "bangla_pronunciation": "অব",
+          "separator_after": " "
+        },
+        {
+          "target": "थोड़ा",
+          "bangla_pronunciation": "থোড়া",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "separator_after": " "
+        },
+        {
+          "target": "लग",
+          "bangla_pronunciation": "লগ",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा",
+          "bangla_pronunciation": "রহা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এখন একটু ভালো লাগছে।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v01",
+      "target": "सिरदर्द",
+      "type": "বিশেষ্য",
+      "romanization": "sirdrd",
+      "bangla_pronunciation": "সিরদর্দ",
+      "word_pronunciations": [
+        {
+          "target": "सिरदर्द",
+          "bangla_pronunciation": "সিরদর্দ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মাথাব্যথা।",
+      "source_sentence_id": "s01",
+      "source_form": "सिरदर्द"
+    },
+    {
+      "id": "v02",
+      "target": "बुखार",
+      "type": "বিশেষ্য",
+      "romanization": "bukhaar",
+      "bangla_pronunciation": "বুখার",
+      "word_pronunciations": [
+        {
+          "target": "बुखार",
+          "bangla_pronunciation": "বুখার",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "জ্বর।",
+      "source_sentence_id": "s02",
+      "source_form": "बुखार"
+    },
+    {
+      "id": "v03",
+      "target": "खाँसी",
+      "type": "বিশেষ্য",
+      "romanization": "kahaansii",
+      "bangla_pronunciation": "খাঁসি",
+      "word_pronunciations": [
+        {
+          "target": "खाँसी",
+          "bangla_pronunciation": "খাঁসি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কাশি।",
+      "source_sentence_id": "s03",
+      "source_form": "खाँसी"
+    },
+    {
+      "id": "v04",
+      "target": "दर्द",
+      "type": "বিশেষ্য",
+      "romanization": "drd",
+      "bangla_pronunciation": "দর্দ",
+      "word_pronunciations": [
+        {
+          "target": "दर्द",
+          "bangla_pronunciation": "দর্দ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যথা।",
+      "source_sentence_id": "s04",
+      "source_form": "दर्द"
+    },
+    {
+      "id": "v05",
+      "target": "थका",
+      "type": "বিশেষণ",
+      "romanization": "thkaa",
+      "bangla_pronunciation": "থকা",
+      "word_pronunciations": [
+        {
+          "target": "थका",
+          "bangla_pronunciation": "থকা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ক্লান্ত—পুরুষ বক্তার রূপ।",
+      "source_sentence_id": "s07",
+      "source_form": "थका"
+    },
+    {
+      "id": "v06",
+      "target": "कमजोरी",
+      "type": "বিশেষ্য",
+      "romanization": "kmjorii",
+      "bangla_pronunciation": "কমজোরি",
+      "word_pronunciations": [
+        {
+          "target": "कमजोरी",
+          "bangla_pronunciation": "কমজোরি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুর্বলতা বা দুর্বল লাগা।",
+      "source_sentence_id": "s10",
+      "source_form": "कमजोरी"
+    },
+    {
+      "id": "v07",
+      "target": "कल से",
+      "type": "সময়-বাক্যাংশ",
+      "romanization": "kl se",
+      "bangla_pronunciation": "কল সে",
+      "word_pronunciations": [
+        {
+          "target": "कल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গতকাল থেকে। সময়ের শুরু বোঝাতে ব্যবহৃত বাক্যাংশ।",
+      "source_sentence_id": "s11",
+      "source_form": "कल से"
+    },
+    {
+      "id": "v08",
+      "target": "कहाँ",
+      "type": "প্রশ্নবোধক শব্দ",
+      "romanization": "kahaan",
+      "bangla_pronunciation": "কহাঁ",
+      "word_pronunciations": [
+        {
+          "target": "कहाँ",
+          "bangla_pronunciation": "কহাঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কোথায়।",
+      "source_sentence_id": "s13",
+      "source_form": "कहाँ"
+    },
+    {
+      "id": "v09",
+      "target": "दिक्कत",
+      "type": "বিশেষ্য",
+      "romanization": "dikkt",
+      "bangla_pronunciation": "দিক্কত",
+      "word_pronunciations": [
+        {
+          "target": "दिक्कत",
+          "bangla_pronunciation": "দিক্কত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অসুবিধা বা সমস্যা।",
+      "source_sentence_id": "s16",
+      "source_form": "दिक्कत"
+    },
+    {
+      "id": "v10",
+      "target": "आराम",
+      "type": "বিশেষ্য",
+      "romanization": "aaraam",
+      "bangla_pronunciation": "আরাম",
+      "word_pronunciations": [
+        {
+          "target": "आराम",
+          "bangla_pronunciation": "আরাম",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিশ্রাম।",
+      "source_sentence_id": "s19",
+      "source_form": "आराम"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "ক্লিনিকের অপেক্ষাকক্ষে",
+    "scene_summary": "একজন বাংলাদেশি ভ্রমণকারী দিল্লির ছোট একটি ক্লিনিকে নিজের উপসর্গ সহজ হিন্দিতে বলছেন।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "রাফি সকালে ক্লিনিকে গেল। নার্স জিজ্ঞেস করতেই সে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "मुझे सिरदर्द है।",
+        "bangla_pronunciation": "মুঝে সিরদর্দ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "सिरदर्द",
+            "bangla_pronunciation": "সিরদর্দ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " তারপর সে যোগ করল, "
+      },
+      {
+        "kind": "target",
+        "target": "मुझे कल से बुखार है।",
+        "bangla_pronunciation": "মুঝে কল সে বুখার হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "कल",
+            "bangla_pronunciation": "কল",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "separator_after": " "
+          },
+          {
+            "target": "बुखार",
+            "bangla_pronunciation": "বুখার",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " ডাক্তার ব্যথার জায়গা জানতে চাইলে রাফি বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "मेरे गले में दर्द है।",
+        "bangla_pronunciation": "মেরে গলে মেঁ দর্দ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "मेरे",
+            "bangla_pronunciation": "মেরে",
+            "separator_after": " "
+          },
+          {
+            "target": "गले",
+            "bangla_pronunciation": "গলে",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "दर्द",
+            "bangla_pronunciation": "দর্দ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " পরীক্ষা শেষে সে শান্তভাবে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "मुझे आराम चाहिए।",
+        "bangla_pronunciation": "মুঝে আরাম চাহিয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "आराम",
+            "bangla_pronunciation": "আরাম",
+            "separator_after": " "
+          },
+          {
+            "target": "चाहिए।",
+            "bangla_pronunciation": "চাহিয়ে",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "রাফি সকালে ক্লিনিকে গেল। নার্স জিজ্ঞেস করতেই সে বলল, **मुझे** (মুঝে) **सिरदर्द** (সিরদর্দ) **है।** (হ্যায়) তারপর সে যোগ করল, **मुझे** (মুঝে) **कल** (কল) **से** (সে) **बुखार** (বুখার) **है।** (হ্যায়) ডাক্তার ব্যথার জায়গা জানতে চাইলে রাফি বলল, **मेरे** (মেরে) **गले** (গলে) **में** (মেঁ) **दर्द** (দর্দ) **है।** (হ্যায়) পরীক্ষা শেষে সে শান্তভাবে বলল, **मुझे** (মুঝে) **आराम** (আরাম) **चाहिए।** (চাহিয়ে)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "ঘরে বিশ্রাম",
+    "scene_summary": "অন্য এক ব্যক্তি চিকিৎসকের পরামর্শের পর বাসায় বিশ্রাম নিচ্ছেন এবং নিজের অবস্থা ছোট বাক্যে বলছেন।",
+    "lines": [
+      {
+        "target": "मुझे खाँसी है।",
+        "bangla_pronunciation": "মুঝে খাঁসি হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "खाँसी",
+            "bangla_pronunciation": "খাঁসি",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मैं बहुत थका हूँ।",
+        "bangla_pronunciation": "ম্যাঁয় বহুত থকা হুঁ।",
+        "word_pronunciations": [
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যাঁয়",
+            "separator_after": " "
+          },
+          {
+            "target": "बहुत",
+            "bangla_pronunciation": "বহুত",
+            "separator_after": " "
+          },
+          {
+            "target": "थका",
+            "bangla_pronunciation": "থকা",
+            "separator_after": " "
+          },
+          {
+            "target": "हूँ।",
+            "bangla_pronunciation": "হুঁ",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मुझे आराम चाहिए।",
+        "bangla_pronunciation": "মুঝে আরাম চাহিয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "आराम",
+            "bangla_pronunciation": "আরাম",
+            "separator_after": " "
+          },
+          {
+            "target": "चाहिए।",
+            "bangla_pronunciation": "চাহিয়ে",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "अब थोड़ा बेहतर लग रहा है।",
+        "bangla_pronunciation": "অব থোড়া বেহতর লগ রহা হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "अब",
+            "bangla_pronunciation": "অব",
+            "separator_after": " "
+          },
+          {
+            "target": "थोड़ा",
+            "bangla_pronunciation": "থোড়া",
+            "separator_after": " "
+          },
+          {
+            "target": "बेहतर",
+            "bangla_pronunciation": "বেহতর",
+            "separator_after": " "
+          },
+          {
+            "target": "लग",
+            "bangla_pronunciation": "লগ",
+            "separator_after": " "
+          },
+          {
+            "target": "रहा",
+            "bangla_pronunciation": "রহা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मुझे डॉक्टर से मिलना है।",
+        "bangla_pronunciation": "মুঝে ডক্টর সে মিলনা হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "डॉक्टर",
+            "bangla_pronunciation": "ডক্টর",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "separator_after": " "
+          },
+          {
+            "target": "मिलना",
+            "bangla_pronunciation": "মিলনা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "মুঝে খাঁসি হ্যায়। ম্যাঁয় বহুত থকা হুঁ। মুঝে আরাম চাহিয়ে। অব থোড়া বেহতর লগ রহা হ্যায়। মুঝে ডক্টর সে মিলনা হ্যায়।",
+    "meaning_bengali_md": "আমার কাশি আছে। আমি খুব ক্লান্ত। আমার বিশ্রাম দরকার। এখন একটু ভালো লাগছে। আমার ডাক্তারের সঙ্গে দেখা করতে হবে।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_combo_ka_aa",
+      "mode": "review",
+      "target": "का",
+      "bangla_pronunciation": "কা",
+      "explanation_bengali_md": "ক ব্যঞ্জনের সঙ্গে দীর্ঘ আ-ধ্বনির মাত্রা চিনুন।",
+      "practice_bengali_md": "একবার দেখে উচ্চারণ করুন, তারপর চোখ সরিয়ে মনে করার চেষ্টা করুন।"
+    },
+    {
+      "item_id": "dev_combo_ka_i",
+      "mode": "review",
+      "target": "कि",
+      "bangla_pronunciation": "কি",
+      "explanation_bengali_md": "ক ব্যঞ্জনের সঙ্গে ছোট ই-ধ্বনির মাত্রা চিনুন; চিহ্নটি বাম পাশে দেখা গেলেও ধ্বনি ব্যঞ্জনের পরে আসে।",
+      "practice_bengali_md": "তিনবার ধীরে উচ্চারণ করুন এবং আকারটি মনে রাখুন।"
+    },
+    {
+      "item_id": "dev_combo_ka_ii",
+      "mode": "review",
+      "target": "की",
+      "bangla_pronunciation": "কী",
+      "explanation_bengali_md": "ক ব্যঞ্জনের সঙ্গে দীর্ঘ ঈ-ধ্বনির মাত্রা চিনুন।",
+      "practice_bengali_md": "ছোট ই ও দীর্ঘ ঈ-ধ্বনির পার্থক্য মুখে বলে অনুশীলন করুন।"
+    },
+    {
+      "item_id": "dev_combo_ka_u",
+      "mode": "review",
+      "target": "कु",
+      "bangla_pronunciation": "কু",
+      "explanation_bengali_md": "ক ব্যঞ্জনের সঙ্গে ছোট উ-ধ্বনির মাত্রা চিনুন।",
+      "practice_bengali_md": "ধ্বনিটি একবার টেনে না বলে ছোট করে উচ্চারণ করুন।"
+    },
+    {
+      "item_id": "dev_combo_ka_e",
+      "mode": "review",
+      "target": "के",
+      "bangla_pronunciation": "কে",
+      "explanation_bengali_md": "ক ব্যঞ্জনের সঙ্গে এ-ধ্বনির মাত্রা চিনুন।",
+      "practice_bengali_md": "দুইবার দেখে এবং একবার না দেখে উচ্চারণ করুন।"
+    }
+  ],
+  "number_practice": null,
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "নিজের মাথাব্যথা আছে বলুন।",
+      "model_target": "मुझे सिरदर्द है।",
+      "model_bangla_pronunciation": "মুঝে সিরদর্দ হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "सिरदर्द",
+          "bangla_pronunciation": "সিরদর্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার মাথাব্যথা আছে।"
+    },
+    {
+      "prompt_bengali_md": "জ্বর কবে থেকে—এই প্রশ্নটি করুন।",
+      "model_target": "बुखार कब से है?",
+      "model_bangla_pronunciation": "বুখার কব সে হ্যায়?",
+      "model_word_pronunciations": [
+        {
+          "target": "बुखार",
+          "bangla_pronunciation": "বুখার",
+          "separator_after": " "
+        },
+        {
+          "target": "कब",
+          "bangla_pronunciation": "কব",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "জ্বর কবে থেকে?"
+    },
+    {
+      "prompt_bengali_md": "ব্যথা কোথায় জিজ্ঞেস করুন।",
+      "model_target": "दर्द कहाँ है?",
+      "model_bangla_pronunciation": "দর্দ কহাঁ হ্যায়?",
+      "model_word_pronunciations": [
+        {
+          "target": "दर्द",
+          "bangla_pronunciation": "দর্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "कहाँ",
+          "bangla_pronunciation": "কহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ব্যথা কোথায়?"
+    },
+    {
+      "prompt_bengali_md": "শ্বাস নিতে অসুবিধা হচ্ছে বলুন।",
+      "model_target": "मुझे साँस लेने में दिक्कत है।",
+      "model_bangla_pronunciation": "মুঝে সাঁস লেনে মেঁ দিক্কত হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "साँस",
+          "bangla_pronunciation": "সাঁস",
+          "separator_after": " "
+        },
+        {
+          "target": "लेने",
+          "bangla_pronunciation": "লেনে",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "दिक्कत",
+          "bangla_pronunciation": "দিক্কত",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার শ্বাস নিতে অসুবিধা হচ্ছে।"
+    },
+    {
+      "prompt_bengali_md": "ডাক্তারের সঙ্গে দেখা করতে হবে বলুন।",
+      "model_target": "मुझे डॉक्टर से मिलना है।",
+      "model_bangla_pronunciation": "মুঝে ডক্টর সে মিলনা হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "डॉक्टर",
+          "bangla_pronunciation": "ডক্টর",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलना",
+          "bangla_pronunciation": "মিলনা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার ডাক্তারের সঙ্গে দেখা করতে হবে।"
+    },
+    {
+      "prompt_bengali_md": "এখন একটু ভালো লাগছে বলুন।",
+      "model_target": "अब थोड़ा बेहतर लग रहा है।",
+      "model_bangla_pronunciation": "অব থোড়া বেহতর লগ রহা হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "अब",
+          "bangla_pronunciation": "অব",
+          "separator_after": " "
+        },
+        {
+          "target": "थोड़ा",
+          "bangla_pronunciation": "থোড়া",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "separator_after": " "
+        },
+        {
+          "target": "लग",
+          "bangla_pronunciation": "লগ",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा",
+          "bangla_pronunciation": "রহা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এখন একটু ভালো লাগছে।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch021_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A bright small outpatient clinic waiting area in Delhi; a Bangladeshi adult traveler seated across from a female nurse, calmly indicating his throat and forehead while explaining symptoms, doctor visible in soft background, reassuring everyday healthcare atmosphere, medium-wide framing, clear focus on the conversation. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright, clean contemporary educational illustration with warm natural light, realistic South Asian details, uncluttered composition, friendly adult learners, clear single focal action, 1536x1024 landscape."
+    },
+    {
+      "key": "ch021_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A modest guest-room interior in daylight; a tired South Asian man resting on a bed with a glass of water nearby, sitting up and looking noticeably better while preparing to visit a doctor, quiet recovery mood, clean composition, medium shot. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright, clean contemporary educational illustration with warm natural light, realistic South Asian details, uncluttered composition, friendly adult learners, clear single focal action, 1536x1024 landscape."
+    }
+  ],
+  "additional_practice": []
+}
