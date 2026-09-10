@@ -36,7 +36,7 @@ jobs:
       - name: Apply to exact current main and validate
         shell: bash
         env:
-          EXPECTED_MAIN: a7261ca9d68267c7b19e8973b5001aea82ae35f3
+          EXPECTED_MAIN: 85c944e296cf7741677b7179e728bba7d859ced6
         run: |
           set -euo pipefail
           git fetch origin main
@@ -54,19 +54,19 @@ jobs:
           done
 
           python3 - <<'PY'
-          import json
+          import json, os
           from pathlib import Path
-
+          base = os.environ['EXPECTED_MAIN']
           progress = json.loads(Path('/tmp/ch31-40-payload/.github/transfer/ch31-40-progress.json').read_text(encoding='utf-8'))
           prior = Path('/tmp/prior-authoring-progress.json')
           if prior.exists():
               progress['preserved_prior_progress_checkpoint'] = json.loads(prior.read_text(encoding='utf-8'))
           progress['branch'] = 'main'
-          progress['base_commit'] = 'a7261ca9d68267c7b19e8973b5001aea82ae35f3'
+          progress['base_commit'] = base
           progress['git_delivery'] = {
               'status': 'delivery_commit_pending_at_validation',
               'target_branch': 'main',
-              'base_main_sha': 'a7261ca9d68267c7b19e8973b5001aea82ae35f3',
+              'base_main_sha': base,
               'method': 'GitHub Actions byte-exact transport from a temporary branch, followed by a normal fast-forward push.',
               'force_push': False
           }
@@ -93,7 +93,7 @@ jobs:
       - name: Commit and fast-forward push main
         shell: bash
         env:
-          EXPECTED_MAIN: a7261ca9d68267c7b19e8973b5001aea82ae35f3
+          EXPECTED_MAIN: 85c944e296cf7741677b7179e728bba7d859ced6
         run: |
           set -euo pipefail
           git config user.name 'polodev'
