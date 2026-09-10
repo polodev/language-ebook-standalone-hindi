@@ -4,9 +4,9 @@ This is the **single authoritative instruction file for this book**. `book.json`
 
 Target language: **Hindi** (hi-IN). Variety: Standard Hindi, Devanagari. Audience: Bangladeshi Bangla-speaking adults who know English letter shapes but may not recognize any target-language letters or words. Pronunciation support is mandatory throughout this book, including review, builder and later chapters. Never assume that a familiar-looking Latin letter has its English sound.
 
-## 1. One complete book, one continuous task
+## 1. Complete the assigned chapter range continuously
 
-Complete **all 60 chapters**, from `ch001` through `ch060`. First inspect all plans and existing content. Continue chapter by chapter or in manageable batches until the manuscript, checks, Git commit and push are finished. Do not end the task after an outline, sample or batch, or ask the user to say “continue” between batches. Record actual progress in this book’s `authoring-progress.json`; batches are checkpoints, not completion.
+The full book contains **60 chapters**. When the task specifies a range, complete only that range continuously, checkpointing each finished chapter; do not begin the next range. Preserve correct existing chapters and use earlier chapters for continuity. Only an explicit whole-book task requires all 60 chapters in one assignment. Never replace lessons with outlines or placeholders. Record actual requested/completed/unfinished IDs and checks in this book’s `authoring-progress.json`. A finished batch is not a finished book.
 
 Advanced develops the communicative goals in its chapter plans while keeping full script and pronunciation help. Its pure-language readings use moderate intermediate-level language, not dense advanced articles.
 
@@ -64,21 +64,23 @@ Use original, plausible examples for Bangladeshi adults, including destination-l
 
 Write one visual prompt for each finished reading, based on its topic and exact scene/article idea. Describe setting, characters/actions or objects, framing, lighting and a clear focal point. Make the two images meaningfully different. Follow the bright, coherent style in `supplementary.json`; avoid clutter, dark generic scenes and stereotypes.
 
-Every image subject must include **“No readable text, no labels, no signage, no watermark.”** Generated art never teaches letter shapes, digits, pronunciation or titles. The layout uses real embedded fonts for those. Chapter images are `1536x1024`; cover is `1024x1536` with the upper third calm; banner is `1536x1024` with the left third calm. Complete the cover/banner subjects in `global-images.json` too. Project generation policy is `gpt-image-2`, quality `low`; both dimensions divide by 8. Prompt writing is the authoring task; no paid image calls or invented generation records.
+Every image subject must include **“No readable text, no labels, no signage, no watermark.”** Generated art never teaches letter shapes, digits, pronunciation or titles. The layout uses real embedded fonts for those. Chapter images are `1536x1024`; cover is `1024x1536` with the upper third calm; banner is `1536x1024` with the left third calm. Complete the cover/banner subjects in `global-images.json` during the final chapter batch or a whole-book assignment; preserve valid existing subjects. Project generation policy is `gpt-image-2`, quality `low`; both dimensions divide by 8. Prompt writing is the authoring task; no paid image calls or invented generation records.
 
 Keep each native word beside its pronunciation, including after mobile reflow. Follow the six-section order above. The pure reading appears as its 4–8 annotated lines, then full Bangla pronunciation, then full Bangla meaning. Use the mixed reading’s checked `text_md` representation with every native word wrapped in Markdown `**bold**`; do not highlight Bangla narration as though it were target text. For Arabic, isolate RTL native words and LTR Bangla cues; never reverse strings. Native combining marks and word units must remain intact. Publisher text is `Published by Englishing.app`, typeset by the layout.
 
 ## 7. Continuous checks and honest completion
 
-After each complete chapter or batch, run partial validation and correct failures before continuing:
+Check each assigned chapter using any available tools. Verify every requested file exists and satisfies the chapter plan and these instructions. When command execution is available, run partial validation and correct failures before continuing:
 
 ```bash
 python3 scripts/manage.py validate --book 03-easy-hindi-advanced
 ```
 
+Partial validation permits missing future chapters, so separately confirm every chapter in the assigned range is present and complete. If no terminal is available, inspect with available tools and report automated validation as not run. A batch can be delivered without full-book assembly or missing future chapters. The commands and full-book totals below apply only to full-book completion; the manager can run these checks later.
+
 Before claiming the full book complete, verify all 60 planned files exist with contiguous IDs, complete required fields, no duplicate/unindexed chapters and no placeholders. Compute actual inventory: **1,200 essential sentences, 300 script items, 60 mixed readings, 60 pure readings of 4–8 lines each, 360 practice tasks and 120 reading prompts**, plus cover/banner. Report the actual vocabulary total and verify every source-sentence reference; do not invent a fixed vocabulary quota. Report the actual number-card total; it is not a fixed quota. Audit immediate word pronunciation everywhere, valid vocabulary sources, bold mixed spans, full article pronunciation and meaning, and the requested simple/moderate reading difficulty.
 
-Run from the language repository root:
+For whole-book verification with command execution, run from the language repository root:
 
 ```bash
 python3 -m unittest discover -s tests
@@ -90,8 +92,8 @@ Fix failures and rerun affected checks. Do not weaken validation, change require
 
 ## 8. Commit and push to main
 
-Git delivery is required and authorized. Work on this language repository’s `main` branch. Before editing, verify the repository/branch and obtain current `main` without discarding existing work. After checks, stage this book’s intended source changes and truthful progress records, run **`git commit`**, then **`git push origin main`**. Use a readable local date/time without seconds and staged-diff counts, for example `Thu Sep 10, 5:11pm — 4 files modified, 2 files added, 1 file deleted`. Verify the pushed remote commit and report its SHA and GitHub URL. Do not ask for confirmation again or substitute another branch/PR for this requested delivery. Never force-push, commit secrets, or commit `generated/` and `output/`.
+Git delivery is required and authorized. Use available GitHub write tools or Git; connector access does not necessarily include write or shell capabilities. If unavailable, return complete chapter JSON files with exact destination paths and honestly report undelivered Git changes.  Work on this language repository’s `main` branch. Before editing, verify the repository/branch and obtain current `main` without discarding existing work. After checks, stage this book’s intended source changes and truthful progress records, run **`git commit`**, then **`git push origin main`**. Use a readable local date/time without seconds and staged-diff counts, for example `Thu Sep 10, 5:11pm — 4 files modified, 2 files added, 1 file deleted`. Verify the pushed remote commit and report its SHA and GitHub URL. Do not ask for confirmation again or substitute another branch/PR for this requested delivery. Never force-push, commit secrets, or commit `generated/` and `output/`.
 
-The final report must state **60/60 complete chapters** only when supported by the actual files and checks. Report counts, commands/results, remaining editorial review and verified Git delivery. A content draft is not a published PDF/EPUB. The manager handles typography, artwork and publication later.
+For a batch, report the actual assigned-range completion, checks performed, unfinished IDs and Git delivery. Do not require a full-book completion claim. The full-book final report must state **60/60 complete chapters** only when supported by the actual files and checks. Report counts, commands/results, remaining editorial review and verified Git delivery. A content draft is not a published PDF/EPUB. The manager handles typography, artwork and publication later.
 
 If an actual platform/tool limit or external blocker prevents continuing, preserve complete chapter files and an exact checkpoint, identify remaining chapter IDs, and mark the task unfinished. Do not claim background continuation, tests or pushes that did not happen. If GitHub write access is unavailable, return complete files with exact destination paths and state that Git delivery remains incomplete.

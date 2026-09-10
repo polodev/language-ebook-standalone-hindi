@@ -6,14 +6,14 @@ Language: Standard Hindi, Devanagari. Locale: hi; language tag: hi-IN. Publisher
 
 ## Start authoring
 
-Open the appropriate prompt file, select all, copy and paste into ChatGPT with access to this repository:
+Open the appropriate JSON prompt file and use the string for the desired chapter range in ChatGPT with access to this repository:
 
-- [Easy Hindi Foundation](01-chatgpt-prompt.md) — 60 chapter plans; [single instruction file](01-easy-hindi-foundation/INSTRUCTIONS.md).
-- [Easy Hindi Intermediate](02-chatgpt-prompt.md) — 60 chapter plans; [single instruction file](02-easy-hindi-intermediate/INSTRUCTIONS.md).
-- [Easy Hindi Advanced](03-chatgpt-prompt.md) — 60 chapter plans; [single instruction file](03-easy-hindi-advanced/INSTRUCTIONS.md).
-- [Easy Hindi Vocabulary: 7000+ Words & Phrases](04-chatgpt-prompt.md) — 234 chapter plans; [single instruction file](04-easy-hindi-vocabulary-7000-words/INSTRUCTIONS.md).
+- [Easy Hindi Foundation](01-chatgpt-prompt.json) — 60 chapter plans; [single instruction file](01-easy-hindi-foundation/INSTRUCTIONS.md).
+- [Easy Hindi Intermediate](02-chatgpt-prompt.json) — 60 chapter plans; [single instruction file](02-easy-hindi-intermediate/INSTRUCTIONS.md).
+- [Easy Hindi Advanced](03-chatgpt-prompt.json) — 60 chapter plans; [single instruction file](03-easy-hindi-advanced/INSTRUCTIONS.md).
+- [Easy Hindi Vocabulary: 7000+ Words & Phrases](04-chatgpt-prompt.json) — 234 chapter plans; [single instruction file](04-easy-hindi-vocabulary-7000-words/INSTRUCTIONS.md).
 
-Each book's INSTRUCTIONS.md is its sole authoring instruction file. Read book.json for all chapter plans and chapter-template.json for the data shape. There is no separate shared authoring guide to reconcile. The prompt requests continuous completion, validation, git commit and push to main. If the connection cannot write, it must return complete files with exact destinations and report that Git delivery is incomplete.
+Each book's INSTRUCTIONS.md is its sole authoring instruction file. Read book.json for all chapter plans and chapter-template.json for the data shape. There is no separate shared authoring guide to reconcile. Each JSON value requests continuous completion of its chapter range, checks using available tools, and git commit/push to main. Each 60-chapter book has six 10-chapter prompts; the 234-chapter vocabulary book has 24 prompts, ending at 231–234. Copy the decoded string value for the desired range as the ChatGPT request. Author chapter JSON and matching image-prompt text; the manager generates images and builds publications. If the connection cannot write, it must return complete files with exact destinations and report that Git delivery is incomplete.
 
 ## Manager tools
 
