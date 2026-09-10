@@ -1,0 +1,17 @@
+# Python dependencies for the language-ebooks build system.
+#   python3 -m venv venv && source venv/bin/activate
+#   pip install -r requirements.txt
+#
+# Note: PDF rendering does NOT use a Python PDF library. It shells out to
+# headless Google Chrome (--print-to-pdf), same as the reference project.
+# Chrome or Chromium must be installed on the machine. EPUBs are built with
+# the standard-library `zipfile` module, so no EPUB dependency either.
+
+# Markdown -> HTML for every `*_md` content field. See docs/JSON-CONTENT-GUIDE.md.
+Markdown==3.10.2
+
+# Reads OPENAI_API_KEY from the root .env file.
+python-dotenv==1.0.1
+
+# OpenAI image generation (gpt-image) for course illustrations and covers.
+openai==1.59.6

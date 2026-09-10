@@ -1,0 +1,1108 @@
+{
+  "slug": "easy-hindi-foundation",
+  "kind": "foundation",
+  "title": "Easy Hindi Foundation",
+  "title_bengali": "ইজি হিন্দি ফাউন্ডেশন",
+  "content_status": "planned",
+  "editorial_status": "not_started",
+  "build_status": "scaffolded",
+  "content_locale": "bn",
+  "target_locale": "hi-IN",
+  "level_target": "Zero–A2; early B1 bridge",
+  "chapter_count": 60,
+  "sentences_per_chapter": 20,
+  "vocabulary_per_chapter": 10,
+  "output_prefix": "easy-hindi-foundation-bn",
+  "expected_output_files": [
+    "01-easy-hindi-foundation-bn-day-tracker-a4.pdf",
+    "02-easy-hindi-foundation-bn-day-tracker-a4-color.pdf",
+    "03-easy-hindi-foundation-bn-sample-2-lessons-desktop.pdf",
+    "04-easy-hindi-foundation-bn-sample-2-lessons-mobile.pdf",
+    "05-easy-hindi-foundation-bn-desktop.pdf",
+    "06-easy-hindi-foundation-bn-mobile.pdf",
+    "07-easy-hindi-foundation-bn-desktop.epub",
+    "08-easy-hindi-foundation-bn-mobile.epub"
+  ],
+  "chapters": [
+    {
+      "chapter_id": "ch001",
+      "chapter_number": 1,
+      "title_planning": "Greetings and First Sentences",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch001.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Start with hello, goodbye, thank you, sorry, yes/no, please repeat, and I do not understand. Keep sentences very short. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Vowels and useful consonants",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 4,
+      "required_image_keys": [
+        "ch001_bridge_reading_01",
+        "ch001_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch002",
+      "chapter_number": 2,
+      "title_planning": "Introducing Yourself Simply",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch002.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Name, country, city, study/work, age, and one friendly follow-up question. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Vowels and useful consonants",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 4,
+      "required_image_keys": [
+        "ch002_bridge_reading_01",
+        "ch002_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch003",
+      "chapter_number": 3,
+      "title_planning": "Family and People Around Me",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch003.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Family members, friends, neighbours, simple descriptions, and respectful wording. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Vowels and useful consonants",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 4,
+      "required_image_keys": [
+        "ch003_bridge_reading_01",
+        "ch003_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch004",
+      "chapter_number": 4,
+      "title_planning": "Home, Room, and Everyday Things",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch004.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Room, bed, table, phone, bag, key, door, light, water, and simple location chunks. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Vowels and useful consonants",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 4,
+      "required_image_keys": [
+        "ch004_bridge_reading_01",
+        "ch004_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch005",
+      "chapter_number": 5,
+      "title_planning": "Food, Tea, and Simple Orders",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch005.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Tea stall, restaurant, home meal, asking for water, choosing food, and saying enough. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Vowels and useful consonants",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 4,
+      "required_image_keys": [
+        "ch005_bridge_reading_01",
+        "ch005_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch006",
+      "chapter_number": 6,
+      "title_planning": "Numbers, Prices, and Phone Details",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch006.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Numbers in prices, phone numbers, quantities, age, room number, and confirmation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Vowels and useful consonants",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 4,
+      "required_image_keys": [
+        "ch006_bridge_reading_01",
+        "ch006_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch007",
+      "chapter_number": 7,
+      "title_planning": "Daily Routine from Morning to Night",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch007.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Wake up, pray, eat, go, study/work, return, rest, and sleep. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Vowels and useful consonants",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 4,
+      "required_image_keys": [
+        "ch007_bridge_reading_01",
+        "ch007_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch008",
+      "chapter_number": 8,
+      "title_planning": "Time, Days, and Simple Plans",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch008.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Today, tomorrow, yesterday, morning/evening, meeting time, and short plan lines. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Vowels and useful consonants",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 4,
+      "required_image_keys": [
+        "ch008_bridge_reading_01",
+        "ch008_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch009",
+      "chapter_number": 9,
+      "title_planning": "Shopping at a Local Market",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch009.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Bazar, clothing shop, price, size, colour, bargain politely, pay, and receipt. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Vowels and useful consonants",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 4,
+      "required_image_keys": [
+        "ch009_bridge_reading_01",
+        "ch009_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch010",
+      "chapter_number": 10,
+      "title_planning": "Sentence Builder: Belongings, Needs and Help",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch010.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Grow short help/request lines into clear everyday requests. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Vowels and useful consonants",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 4,
+      "required_image_keys": [
+        "ch010_bridge_reading_01",
+        "ch010_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch011",
+      "chapter_number": 11,
+      "title_planning": "Directions and Places in Town",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch011.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Road, market, hospital, school, mosque, office, near/far, left/right, and asking where. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "More consonants and vowel signs",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 6,
+      "required_image_keys": [
+        "ch011_bridge_reading_01",
+        "ch011_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch012",
+      "chapter_number": 12,
+      "title_planning": "Transport by Bus, Rickshaw, and CNG",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch012.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Local transport, destination, fare, traffic, delay, getting down, and asking the route. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "More consonants and vowel signs",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 6,
+      "required_image_keys": [
+        "ch012_bridge_reading_01",
+        "ch012_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch013",
+      "chapter_number": 13,
+      "title_planning": "Weather, Clothes, and Feeling Comfortable",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch013.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Rain, heat, cold, shirt, shoes, umbrella, comfort, and simple weather plans. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "More consonants and vowel signs",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 6,
+      "required_image_keys": [
+        "ch013_bridge_reading_01",
+        "ch013_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch014",
+      "chapter_number": 14,
+      "title_planning": "Friends, Hobbies, and Invitations",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch014.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Meeting friends, hobbies, invitation, accepting, refusing politely, and suggesting a time. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "More consonants and vowel signs",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 6,
+      "required_image_keys": [
+        "ch014_bridge_reading_01",
+        "ch014_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch015",
+      "chapter_number": 15,
+      "title_planning": "Sentence Builder: Place, Wants and Ability",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch015.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Build existence, want, and ability sentences from simple to useful. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "More consonants and vowel signs",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 6,
+      "required_image_keys": [
+        "ch015_bridge_reading_01",
+        "ch015_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch016",
+      "chapter_number": 16,
+      "title_planning": "Study, Class, and Homework",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch016.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Classroom, teacher, exam, homework, understanding, asking for explanation, and deadlines. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "More consonants and vowel signs",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 6,
+      "required_image_keys": [
+        "ch016_bridge_reading_01",
+        "ch016_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch017",
+      "chapter_number": 17,
+      "title_planning": "Work Basics and Simple Duties",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch017.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Office, shop, garments, duty, task, manager, colleague, start time, and simple update. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "More consonants and vowel signs",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 6,
+      "required_image_keys": [
+        "ch017_bridge_reading_01",
+        "ch017_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch018",
+      "chapter_number": 18,
+      "title_planning": "Phone Calls and Short Messages",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch018.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Opening a call, wrong number, bad line, call later, SMS, WhatsApp, and short replies. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "More consonants and vowel signs",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 6,
+      "required_image_keys": [
+        "ch018_bridge_reading_01",
+        "ch018_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch019",
+      "chapter_number": 19,
+      "title_planning": "Asking for Help and Clarification",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch019.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "I need help, please explain, speak slowly, one more time, what does this mean. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "More consonants and vowel signs",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 6,
+      "required_image_keys": [
+        "ch019_bridge_reading_01",
+        "ch019_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch020",
+      "chapter_number": 20,
+      "title_planning": "Sentence Builder: Simple Polite Requests",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch020.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Move from direct requests to polite requests with can/could/would. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "More consonants and vowel signs",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 6,
+      "required_image_keys": [
+        "ch020_bridge_reading_01",
+        "ch020_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch021",
+      "chapter_number": 21,
+      "title_planning": "Health, Body, and Simple Symptoms",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch021.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Headache, fever, cough, pain, tired, since yesterday, and simple doctor lines. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Consonant-vowel combinations and nasal marks",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch021_bridge_reading_01",
+        "ch021_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch022",
+      "chapter_number": 22,
+      "title_planning": "Pharmacy, Medicine, and Advice",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch022.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Medicine, dose, after food, before sleep, allergy, advice, and asking safely. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Consonant-vowel combinations and nasal marks",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch022_bridge_reading_01",
+        "ch022_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch023",
+      "chapter_number": 23,
+      "title_planning": "Money, Payment, and Receipts",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch023.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Cash, card, bKash/Nagad, payment failed, change, bill, and receipt. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Consonant-vowel combinations and nasal marks",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch023_bridge_reading_01",
+        "ch023_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch024",
+      "chapter_number": 24,
+      "title_planning": "Describing People and Objects",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch024.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Size, colour, quality, age, shape, personality, and simple descriptive sentences. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Consonant-vowel combinations and nasal marks",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch024_bridge_reading_01",
+        "ch024_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch025",
+      "chapter_number": 25,
+      "title_planning": "Sentence Builder: Now, Before and Later",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch025.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Build the same idea in past, present, and future forms. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Consonant-vowel combinations and nasal marks",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch025_bridge_reading_01",
+        "ch025_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch026",
+      "chapter_number": 26,
+      "title_planning": "Likes, Dislikes, and Preferences",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch026.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Like, prefer, favourite, not interested, choice, food, study, work, and hobbies. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Consonant-vowel combinations and nasal marks",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch026_bridge_reading_01",
+        "ch026_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch027",
+      "chapter_number": 27,
+      "title_planning": "Apology, Thanks, and Polite Refusal",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch027.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Sorry, thank you, no thanks, I cannot, maybe later, and polite tone. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Consonant-vowel combinations and nasal marks",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch027_bridge_reading_01",
+        "ch027_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch028",
+      "chapter_number": 28,
+      "title_planning": "Simple Problems and Quick Fixes",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch028.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Phone issue, internet problem, missing file, broken light, asking someone to fix it. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Consonant-vowel combinations and nasal marks",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch028_bridge_reading_01",
+        "ch028_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch029",
+      "chapter_number": 29,
+      "title_planning": "Travel Plans and Booking Basics",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch029.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Ticket, seat, date, time, hotel, booking, delay, and simple travel plan. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Consonant-vowel combinations and nasal marks",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch029_bridge_reading_01",
+        "ch029_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch030",
+      "chapter_number": 30,
+      "title_planning": "Sentence Builder: Asking Clearly and Politely",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch030.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Turn direct questions into polite, natural questions. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Consonant-vowel combinations and nasal marks",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch030_bridge_reading_01",
+        "ch030_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch031",
+      "chapter_number": 31,
+      "title_planning": "Bank, Forms, and Basic Services",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch031.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Bank account, form, ID, signature, queue, service desk, and asking what is needed. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Common conjuncts and word decoding",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch031_bridge_reading_01",
+        "ch031_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch032",
+      "chapter_number": 32,
+      "title_planning": "Office Greetings and Small Talk",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch032.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Good morning, weekend, traffic, tea break, casual but professional tone. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Common conjuncts and word decoding",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch032_bridge_reading_01",
+        "ch032_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch033",
+      "chapter_number": 33,
+      "title_planning": "Email Basics and Simple Requests",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch033.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Subject, attachment, please send, follow-up, thank you, and short email request lines. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Common conjuncts and word decoding",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch033_bridge_reading_01",
+        "ch033_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch034",
+      "chapter_number": 34,
+      "title_planning": "Meeting Time and Simple Updates",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch034.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Meeting start, agenda, update, finished, pending, next step, and short status lines. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Common conjuncts and word decoding",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch034_bridge_reading_01",
+        "ch034_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch035",
+      "chapter_number": 35,
+      "title_planning": "Sentence Builder: Simple Reasons and Contrasts",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch035.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Connect short ideas with because, so, and but. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Common conjuncts and word decoding",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch035_bridge_reading_01",
+        "ch035_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch036",
+      "chapter_number": 36,
+      "title_planning": "Describing Yesterday and Last Week",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch036.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Past events, yesterday, last week, what happened, and simple personal storytelling. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Common conjuncts and word decoding",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch036_bridge_reading_01",
+        "ch036_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch037",
+      "chapter_number": 37,
+      "title_planning": "Making Future Plans",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch037.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Plans, goals, tomorrow, next month, going to, will, and backup plan. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Common conjuncts and word decoding",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch037_bridge_reading_01",
+        "ch037_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch038",
+      "chapter_number": 38,
+      "title_planning": "Comparing Two Choices",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch038.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Better, cheaper, faster, easier, more useful, choosing between two options. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Common conjuncts and word decoding",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch038_bridge_reading_01",
+        "ch038_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch039",
+      "chapter_number": 39,
+      "title_planning": "Giving Simple Reasons and Opinions",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch039.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "I think, in my opinion, one reason, for example, and short personal views. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Common conjuncts and word decoding",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch039_bridge_reading_01",
+        "ch039_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch040",
+      "chapter_number": 40,
+      "title_planning": "Sentence Builder: Needs, Duties and Wants",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch040.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Build duty, need, and desire sentences with useful details. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Common conjuncts and word decoding",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 8,
+      "required_image_keys": [
+        "ch040_bridge_reading_01",
+        "ch040_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch041",
+      "chapter_number": 41,
+      "title_planning": "Neighbours, Community, and Local Events",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch041.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Neighbour help, building notice, local event, mosque/community, and polite discussion. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Spelling and reading retrieval",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch041_bridge_reading_01",
+        "ch041_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch042",
+      "chapter_number": 42,
+      "title_planning": "Safety, Rules, and Warnings",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch042.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Be careful, do not enter, safety rule, warning sign, emergency but non-complex. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Spelling and reading retrieval",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch042_bridge_reading_01",
+        "ch042_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch043",
+      "chapter_number": 43,
+      "title_planning": "Lost Items and Reporting a Problem",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch043.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Lost phone/bag/document, where it happened, description, contact number, and report. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Spelling and reading retrieval",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch043_bridge_reading_01",
+        "ch043_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch044",
+      "chapter_number": 44,
+      "title_planning": "Online Shopping and Delivery",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch044.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Order, delivery, address, wrong item, return, refund, and customer support. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Spelling and reading retrieval",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch044_bridge_reading_01",
+        "ch044_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch045",
+      "chapter_number": 45,
+      "title_planning": "Sentence Builder: Requests with Details",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch045.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Add time, place, reason, and urgency to everyday requests. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Spelling and reading retrieval",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch045_bridge_reading_01",
+        "ch045_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch046",
+      "chapter_number": 46,
+      "title_planning": "Job Search and Interview Basics",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch046.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Job ad, CV, interview time, tell me about yourself, strengths, and availability. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Spelling and reading retrieval",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch046_bridge_reading_01",
+        "ch046_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch047",
+      "chapter_number": 47,
+      "title_planning": "Talking About Skills and Experience",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch047.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Can do, learned, worked as, experience with, good at, and needs improvement. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Spelling and reading retrieval",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch047_bridge_reading_01",
+        "ch047_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch048",
+      "chapter_number": 48,
+      "title_planning": "Customer Service and Complaints",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch048.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Problem, apology, solution, wait time, refund, complaint, and polite escalation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Spelling and reading retrieval",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch048_bridge_reading_01",
+        "ch048_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch049",
+      "chapter_number": 49,
+      "title_planning": "Simple Stories About Personal Experience",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch049.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Tell a short experience with beginning, problem, action, result, and feeling. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Spelling and reading retrieval",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch049_bridge_reading_01",
+        "ch049_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch050",
+      "chapter_number": 50,
+      "title_planning": "Sentence Builder: Linked Everyday Speech",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch050.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Build longer but still clear daily-life sentences. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Spelling and reading retrieval",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch050_bridge_reading_01",
+        "ch050_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch051",
+      "chapter_number": 51,
+      "title_planning": "News, Notices, and Public Announcements",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch051.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Read and explain simple notices, schedule changes, traffic news, and public messages. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Fluent recognition and consolidation",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch051_bridge_reading_01",
+        "ch051_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch052",
+      "chapter_number": 52,
+      "title_planning": "Explaining a Mistake",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch052.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Own a mistake, explain what happened, say sorry, and offer a simple fix. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Fluent recognition and consolidation",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch052_bridge_reading_01",
+        "ch052_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch053",
+      "chapter_number": 53,
+      "title_planning": "Asking Follow-up Questions",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch053.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Ask for more detail, reason, time, example, next step, and confirmation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Fluent recognition and consolidation",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch053_bridge_reading_01",
+        "ch053_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch054",
+      "chapter_number": 54,
+      "title_planning": "Telling a Short Personal Story",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch054.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Tell a one-minute story about a real day, problem, success, or lesson. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Fluent recognition and consolidation",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch054_bridge_reading_01",
+        "ch054_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch055",
+      "chapter_number": 55,
+      "title_planning": "Sentence Builder: Polite Workplace Lines",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch055.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Build polite office lines for help, update, delay, request, and follow-up. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Fluent recognition and consolidation",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch055_bridge_reading_01",
+        "ch055_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch056",
+      "chapter_number": 56,
+      "title_planning": "Review: A Full Day in Hindi",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch056.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Review a full day from home to study/work to evening conversation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Fluent recognition and consolidation",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch056_bridge_reading_01",
+        "ch056_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch057",
+      "chapter_number": 57,
+      "title_planning": "Review: Market, Transport, and Service",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch057.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Review shopping, local transport, payment, delivery, and service desk language. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Fluent recognition and consolidation",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch057_bridge_reading_01",
+        "ch057_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch058",
+      "chapter_number": 58,
+      "title_planning": "Review: Health, Work, and Family",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch058.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Review health symptoms, simple work/study duties, and family communication. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Fluent recognition and consolidation",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch058_bridge_reading_01",
+        "ch058_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch059",
+      "chapter_number": 59,
+      "title_planning": "Review: Plans, Opinions, and Problems",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch059.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "Review future plans, choices, reasons, opinions, problems, and fixes. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Fluent recognition and consolidation",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch059_bridge_reading_01",
+        "ch059_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch060",
+      "chapter_number": 60,
+      "title_planning": "Final Speaking Challenge: My Week in Hindi",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch060.json",
+      "level_target": "Zero–A2; early B1 bridge",
+      "content_brief": "A capstone chapter where the learner speaks about one full week using the whole book. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Fluent recognition and consolidation",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": 10,
+      "required_image_keys": [
+        "ch060_bridge_reading_01",
+        "ch060_target_reading_01"
+      ]
+    }
+  ]
+}

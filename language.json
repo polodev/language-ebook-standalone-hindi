@@ -1,0 +1,42 @@
+{
+  "name": "Hindi",
+  "directory_language": "hindi",
+  "locale": "hi",
+  "language_tag": "hi-IN",
+  "content_locale": "bn-BD",
+  "script": "Deva",
+  "target_direction": "ltr",
+  "word_count_mode": "space",
+  "variety": "Standard Hindi, Devanagari",
+  "script_policy": "Begin with independent vowels and high-utility consonants; then dependent vowel signs, combinations, nasal signs and common conjuncts. Compare with familiar Bangla only when accurate. Do not equate Devanagari shape recognition with Bangla literacy. Teach inherent-vowel behaviour and schwa deletion in encountered words.",
+  "foundation_script_stages": [
+    {
+      "chapters": "1-10",
+      "focus": "Vowels and useful consonants"
+    },
+    {
+      "chapters": "11-20",
+      "focus": "More consonants and vowel signs"
+    },
+    {
+      "chapters": "21-30",
+      "focus": "Consonant-vowel combinations and nasal marks"
+    },
+    {
+      "chapters": "31-40",
+      "focus": "Common conjuncts and word decoding"
+    },
+    {
+      "chapters": "41-50",
+      "focus": "Spelling and reading retrieval"
+    },
+    {
+      "chapters": "51-60",
+      "focus": "Fluent recognition and consolidation"
+    }
+  ],
+  "number_policy": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+  "target_font_family": "Noto Sans Devanagari",
+  "font_status": "target_font_acquisition_and_glyph_QA_required",
+  "audience": "Bangladeshi Bangla-speaking adults; English alphabet familiarity; no target-language knowledge"
+}

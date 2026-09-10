@@ -1,0 +1,106 @@
+{
+  "copy": {
+    "title": "Easy Hindi Advanced",
+    "title_bengali": "ইজি হিন্দি অ্যাডভান্সড",
+    "publisher": "Published by Englishing.app"
+  },
+  "design": {
+    "status": "planned_requires_visual_QA",
+    "art_style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes",
+    "palette_rotation_every_items": 5,
+    "palettes": [
+      {
+        "ink": "#175B72",
+        "background": "#EAF5FA"
+      },
+      {
+        "ink": "#6A4388",
+        "background": "#F4EEFA"
+      },
+      {
+        "ink": "#277657",
+        "background": "#EDF8F0"
+      },
+      {
+        "ink": "#97552A",
+        "background": "#FFF3E8"
+      },
+      {
+        "ink": "#994868",
+        "background": "#FFF0F5"
+      },
+      {
+        "ink": "#3E5D9B",
+        "background": "#EFF3FF"
+      },
+      {
+        "ink": "#367776",
+        "background": "#EBF9F7"
+      },
+      {
+        "ink": "#75589D",
+        "background": "#F5F0FD"
+      },
+      {
+        "ink": "#8A6521",
+        "background": "#FFF8DF"
+      },
+      {
+        "ink": "#465E42",
+        "background": "#F1F6E9"
+      },
+      {
+        "ink": "#A14F3D",
+        "background": "#FFF0EA"
+      },
+      {
+        "ink": "#5E538D",
+        "background": "#F0EFFB"
+      },
+      {
+        "ink": "#2B6B86",
+        "background": "#E9F7FC"
+      },
+      {
+        "ink": "#915374",
+        "background": "#FCF0F8"
+      },
+      {
+        "ink": "#496F63",
+        "background": "#EDF7F2"
+      }
+    ],
+    "font_stack": [
+      "Miriam Libre",
+      "Noto Serif Bengali",
+      "Noto Sans Devanagari"
+    ],
+    "target_font": "Noto Sans Devanagari",
+    "target_direction": "ltr",
+    "mobile_single_column": true,
+    "keep_target_pronunciation_meaning_together": true,
+    "desktop_page_mm": [
+      297,
+      210
+    ],
+    "mobile_page_mm": [
+      120,
+      150
+    ],
+    "tracker_page_mm": [
+      210,
+      297
+    ]
+  },
+  "outputs": [
+    "01-easy-hindi-advanced-bn-day-tracker-a4.pdf",
+    "02-easy-hindi-advanced-bn-day-tracker-a4-color.pdf",
+    "03-easy-hindi-advanced-bn-sample-2-lessons-desktop.pdf",
+    "04-easy-hindi-advanced-bn-sample-2-lessons-mobile.pdf",
+    "05-easy-hindi-advanced-bn-desktop.pdf",
+    "06-easy-hindi-advanced-bn-mobile.pdf",
+    "07-easy-hindi-advanced-bn-desktop.epub",
+    "08-easy-hindi-advanced-bn-mobile.epub"
+  ],
+  "compact_fields": []
+}

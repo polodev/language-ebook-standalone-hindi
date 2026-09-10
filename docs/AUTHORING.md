@@ -1,0 +1,35 @@
+# Authoring instructions for ChatGPT
+
+Read AGENTS.md, language.json, this guide, CONTENT-CONTRACT.md, the selected book's OUTLINE.md and book.json, then its chapter-template.json. Work in the current language repository only. These are Bangla-supported books for Bangladeshi adults who know English letter shapes but have ZERO target-language background at Foundation entry. English familiarity is not a prerequisite for understanding explanations.
+
+The manager prepares plans, validates content, produces artwork and builds books. You author original target-language lessons and natural Bangla support when asked. Do not copy English lessons or simply translate their grammar. Topic plans are adapted from the English series; target-language grammar, politeness, sounds and writing systems control actual teaching.
+
+## Every chapter, including review and sentence builders
+
+1. Five small script-learning items: new letters/signs initially, later review, combinations, decoding and spelling. Never invent new letters to fill a quota. Mark each item new/review/application and preserve stable item IDs. Use the plan's language-specific stage. Revisit difficult items after roughly 1, 3 and 7 chapters; record coverage in the chapter data. Finite alphabets end; useful practice continues through Intermediate, Advanced and the vocabulary companion. Add exactly TWO number cards where number_items is 2; these are extra, not substitutes for the five script items.
+2. The prescribed essential sentences, with target script, romanization, Bangla pronunciation and Bangla meaning adjacent. Romanization may equal native text for Latin-script languages; do not fake an extra pronunciation system. Bangla pronunciation is an approximation: supply small, practical sound cues for distinctions it cannot represent.
+3. Contextual vocabulary. Ladder books derive it from sentence IDs. Do not force English phrasal verbs or idioms into languages where those categories do not apply. Give noun gender, article, counters, register or aspect only when useful and linguistically appropriate.
+4. A complete Bangla-supported story OR article with embedded target expressions. This is a bridge reading, not English Banglish renamed. For early Foundation, use a tiny familiar scene with 3–6 short learned utterances and no unseen grammatical load.
+5. A DIFFERENT target-language story OR article under the same topic, with full Bangla meaning. Change the character, situation, problem or viewpoint; do not translate reading 1 twice. Early chapters can use 4–6 very short sentences; later chapters gradually increase connected text. Every target line in the opening readings follows the same complexity ceiling as essential sentences. Add pronunciation support to early reading segments if needed; do not let readings become harder than the chapter.
+6. Six usable speaking/recall tasks with model responses and Bangla support. Static books must contain visible answers; do not depend on click-to-reveal controls.
+7. Two image prompts, one for each reading, based on the actual finished text and topic. See IMAGE-GUIDELINE.md. Additional builder exercises may supplement this core; never replace readings or script practice.
+
+## Foundation progression
+
+Chapters 1–10: normally 2–4 words or comparable short learning units, one speaking action. Natural one-word greetings are allowed. No padding to reach a quota and no fragments masquerading as grammatical sentences. Chapters 11–20: 3–6 units. Chapters 21–40: 4–8 units. Chapters 41–60: 5–10 units, familiar clauses linked gradually. These are editorial ceilings, not official CEFR measures. Japanese, Chinese and Korean use explicit learning_units with language-aware editorial review; never count characters or whitespace as English words. A count alone cannot validate grammar or naturalness.
+
+Do not introduce long formal/travel/emergency procedures in opening chapters. Start with greeting, self, family, home, food, belongings and ordinary daily life. Later difficulty grows through communicative goals, vocabulary and linked turns, not long tangled sentences. Intermediate presumes Foundation; Advanced presumes Intermediate. Keep five short script/spelling items in each without resetting the whole alphabet. CEFR bands are approximate editorial targets, not certification or promised outcomes.
+
+## Vocabulary companion
+
+234 chapters × 30 unique targets = 7,020 targets. Each chapter interleaves 25 words and five natural expressions at positions 6, 12, 18, 24 and 30. Use reserved stable IDs in book.json. The roster is intentionally NOT an English list translated wholesale. Before writing a vocabulary chapter, propose its target-language roster in rosters/chNNN.json with id, target, category, type, level rationale and source/review notes; verify against all earlier rosters, then freeze those IDs. Frequency, usefulness and sense-level difficulty control selection. Maintain an editorial audit of spelling variants, inflections, duplicate senses and sources. Approval is editorial review, not a made-up status.
+
+Do not pad counts with inflections or near-duplicates. The same lemma's senses normally share an entry. Cross-book overlap is welcome retrieval practice; duplicates within the 7,020 inventory are not. Use brief original meanings and examples, true contextual synonyms or an empty synonym list with an explanation. Compact editions contain synonyms, not antonyms. The vocabulary book also retains five script items, periodic two number cards, ten short context sentences, two readings, six recall tasks and two reading images per chapter. This is an intentional expansion of English book 12's roster-only contract.
+
+## Delivery and integrity
+
+Author only the requested chapter or batch. Save complete UTF-8 JSON to the planned chapters/chNNN.json file. Copy the template structure, replace every empty field, and set status to drafted only when every required section exists. Do not modify unrelated chapters, slugs, reserved IDs or output names. If a plan needs a language-specific correction, update its brief explicitly and explain it; do not silently substitute a new book.
+
+Update the book's content status truthfully and run python3 scripts/manage.py validate --book BOOK. For chapter N, read prior chapter content or generate its authoring packet to avoid introducing already-taught script items as new. Do not write placeholder chapter files. Store missing work in planning records instead. All *_md fields are Markdown; all other strings are literal. No raw HTML. No lesson prose, titles, colours, URLs or image subjects embedded in Python.
+
+Use natural Bangladeshi Bangla, original everyday examples and plausible adults. Destination-country settings are appropriate when relevant, not a reason to erase the learner's home context. Use consistent language variety, register and romanization. Fictional examples stay fictional; do not invent factual findings or professional guidance. Do not mark a draft reviewed, a prompt generated, or a book published merely because JSON parses. No paid image jobs or final publication during a content-only request.

@@ -1,0 +1,1108 @@
+{
+  "slug": "easy-hindi-intermediate",
+  "kind": "intermediate",
+  "title": "Easy Hindi Intermediate",
+  "title_bengali": "ইজি হিন্দি ইন্টারমিডিয়েট",
+  "content_status": "planned",
+  "editorial_status": "not_started",
+  "build_status": "scaffolded",
+  "content_locale": "bn",
+  "target_locale": "hi-IN",
+  "level_target": "B1–B2",
+  "chapter_count": 60,
+  "sentences_per_chapter": 20,
+  "vocabulary_per_chapter": 10,
+  "output_prefix": "easy-hindi-intermediate-bn",
+  "expected_output_files": [
+    "01-easy-hindi-intermediate-bn-day-tracker-a4.pdf",
+    "02-easy-hindi-intermediate-bn-day-tracker-a4-color.pdf",
+    "03-easy-hindi-intermediate-bn-sample-2-lessons-desktop.pdf",
+    "04-easy-hindi-intermediate-bn-sample-2-lessons-mobile.pdf",
+    "05-easy-hindi-intermediate-bn-desktop.pdf",
+    "06-easy-hindi-intermediate-bn-mobile.pdf",
+    "07-easy-hindi-intermediate-bn-desktop.epub",
+    "08-easy-hindi-intermediate-bn-mobile.epub"
+  ],
+  "chapters": [
+    {
+      "chapter_id": "ch001",
+      "chapter_number": 1,
+      "title_planning": "Rebuilding B1 Fluency with Clear Sentences",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch001.json",
+      "level_target": "B1–B2",
+      "content_brief": "Restart from clear B1 speech, reduce hesitation, and connect ideas with simple structure. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch001_bridge_reading_01",
+        "ch001_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch002",
+      "chapter_number": 2,
+      "title_planning": "Workday Updates and Priorities",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch002.json",
+      "level_target": "B1–B2",
+      "content_brief": "Priorities, progress, blockers, deadlines, and useful daily office updates. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch002_bridge_reading_01",
+        "ch002_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch003",
+      "chapter_number": 3,
+      "title_planning": "Explaining Problems Without Panic",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch003.json",
+      "level_target": "B1–B2",
+      "content_brief": "What happened, impact, what was tried, what help is needed, and calm tone. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch003_bridge_reading_01",
+        "ch003_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch004",
+      "chapter_number": 4,
+      "title_planning": "Giving Reasons, Results, and Conditions",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch004.json",
+      "level_target": "B1–B2",
+      "content_brief": "Because, as a result, if, unless, and simple cause-effect chains. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch004_bridge_reading_01",
+        "ch004_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch005",
+      "chapter_number": 5,
+      "title_planning": "Talking About Education and Career Goals",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch005.json",
+      "level_target": "B1–B2",
+      "content_brief": "Study history, career target, skill gap, language study, and future plan. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch005_bridge_reading_01",
+        "ch005_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch006",
+      "chapter_number": 6,
+      "title_planning": "Customer Conversations and Service Recovery",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch006.json",
+      "level_target": "B1–B2",
+      "content_brief": "Customer confusion, apology, clarification, next step, refund, and service recovery. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch006_bridge_reading_01",
+        "ch006_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch007",
+      "chapter_number": 7,
+      "title_planning": "Meetings: Joining, Agreeing, and Clarifying",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch007.json",
+      "level_target": "B1–B2",
+      "content_brief": "Join discussion, interrupt politely, agree, half-agree, clarify, and summarize. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch007_bridge_reading_01",
+        "ch007_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch008",
+      "chapter_number": 8,
+      "title_planning": "Short Presentations with Evidence",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch008.json",
+      "level_target": "B1–B2",
+      "content_brief": "Introduce topic, give main point, evidence, example, risk, and closing. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch008_bridge_reading_01",
+        "ch008_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch009",
+      "chapter_number": 9,
+      "title_planning": "Email Tone: Friendly, Clear, Professional",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch009.json",
+      "level_target": "B1–B2",
+      "content_brief": "Request, reminder, attachment, apology, follow-up, and professional warmth. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch009_bridge_reading_01",
+        "ch009_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch010",
+      "chapter_number": 10,
+      "title_planning": "Sentence Builder: Issue to Explanation",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch010.json",
+      "level_target": "B1–B2",
+      "content_brief": "Grow issue statements into calm explanations with impact and requested action. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch010_bridge_reading_01",
+        "ch010_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch011",
+      "chapter_number": 11,
+      "title_planning": "Negotiating Time, Cost, and Scope",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch011.json",
+      "level_target": "B1–B2",
+      "content_brief": "Deadline, budget, scope, trade-off, extension, priority, and compromise. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch011_bridge_reading_01",
+        "ch011_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch012",
+      "chapter_number": 12,
+      "title_planning": "Describing Data, Trends, and Changes",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch012.json",
+      "level_target": "B1–B2",
+      "content_brief": "Increase, decrease, stable, compare, percentage, chart, and cautious claims. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch012_bridge_reading_01",
+        "ch012_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch013",
+      "chapter_number": 13,
+      "title_planning": "Job Interview Stories with STAR",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch013.json",
+      "level_target": "B1–B2",
+      "content_brief": "Situation, task, action, result, weakness, strength, and concrete job stories. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch013_bridge_reading_01",
+        "ch013_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch014",
+      "chapter_number": 14,
+      "title_planning": "Feedback, Mistakes, and Improvement",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch014.json",
+      "level_target": "B1–B2",
+      "content_brief": "Receive feedback, give feedback, admit mistakes, improvement plan, and professional humility. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch014_bridge_reading_01",
+        "ch014_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch015",
+      "chapter_number": 15,
+      "title_planning": "Sentence Builder: Polite Requests and Follow-ups",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch015.json",
+      "level_target": "B1–B2",
+      "content_brief": "Build stronger workplace requests and follow-ups from direct to polished. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch015_bridge_reading_01",
+        "ch015_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch016",
+      "chapter_number": 16,
+      "title_planning": "Remote Work, Freelancing, and Clients",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch016.json",
+      "level_target": "B1–B2",
+      "content_brief": "Client call, milestone, revision, scope, payment, timezone, and professional trust. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch016_bridge_reading_01",
+        "ch016_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch017",
+      "chapter_number": 17,
+      "title_planning": "Project Planning and Deadlines",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch017.json",
+      "level_target": "B1–B2",
+      "content_brief": "Plan, task owner, dependency, risk, delay, deadline, and next step. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch017_bridge_reading_01",
+        "ch017_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch018",
+      "chapter_number": 18,
+      "title_planning": "Explaining Process Step by Step",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch018.json",
+      "level_target": "B1–B2",
+      "content_brief": "First, next, after that, finally, check, repeat, and process clarity. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch018_bridge_reading_01",
+        "ch018_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch019",
+      "chapter_number": 19,
+      "title_planning": "Travel Disruption and Practical Solutions",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch019.json",
+      "level_target": "B1–B2",
+      "content_brief": "Delay, cancellation, booking change, missing document, route change, and practical solution. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch019_bridge_reading_01",
+        "ch019_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch020",
+      "chapter_number": 20,
+      "title_planning": "Sentence Builder: Cause, Effect, Contrast",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch020.json",
+      "level_target": "B1–B2",
+      "content_brief": "Build cause-effect and contrast sentences with although, however, so, and therefore. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch020_bridge_reading_01",
+        "ch020_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch021",
+      "chapter_number": 21,
+      "title_planning": "Health Appointments and Workplace Sick Leave",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch021.json",
+      "level_target": "B1–B2",
+      "content_brief": "Appointment, symptoms, sick leave, medical note, work update, and privacy. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch021_bridge_reading_01",
+        "ch021_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch022",
+      "chapter_number": 22,
+      "title_planning": "Banking, Payments, and Documentation",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch022.json",
+      "level_target": "B1–B2",
+      "content_brief": "Payment proof, statement, transaction, document, verification, and formal request. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch022_bridge_reading_01",
+        "ch022_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch023",
+      "chapter_number": 23,
+      "title_planning": "Complaints, Refunds, and Written Evidence",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch023.json",
+      "level_target": "B1–B2",
+      "content_brief": "Complaint timeline, evidence, refund request, escalation, and fair tone. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch023_bridge_reading_01",
+        "ch023_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch024",
+      "chapter_number": 24,
+      "title_planning": "Social Events and Professional Networking",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch024.json",
+      "level_target": "B1–B2",
+      "content_brief": "Event introduction, follow-up, common interest, professional small talk, and contact exchange. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch024_bridge_reading_01",
+        "ch024_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch025",
+      "chapter_number": 25,
+      "title_planning": "Sentence Builder: Opinions with Evidence",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch025.json",
+      "level_target": "B1–B2",
+      "content_brief": "Move from opinion to reason, evidence, example, and balanced conclusion. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch025_bridge_reading_01",
+        "ch025_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch026",
+      "chapter_number": 26,
+      "title_planning": "News Discussion and Media Literacy",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch026.json",
+      "level_target": "B1–B2",
+      "content_brief": "Discuss news, source, claim, evidence, fake news, and careful disagreement. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch026_bridge_reading_01",
+        "ch026_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch027",
+      "chapter_number": 27,
+      "title_planning": "Community Problems and Civic Responsibility",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch027.json",
+      "level_target": "B1–B2",
+      "content_brief": "Traffic, waste, water, local service, community help, complaint, and responsibility. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch027_bridge_reading_01",
+        "ch027_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch028",
+      "chapter_number": 28,
+      "title_planning": "Environment, Floods, and Public Safety",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch028.json",
+      "level_target": "B1–B2",
+      "content_brief": "Flood, heat, pollution, preparation, warning, relief, and public safety messages. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch028_bridge_reading_01",
+        "ch028_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch029",
+      "chapter_number": 29,
+      "title_planning": "Technology, Apps, and Online Privacy",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch029.json",
+      "level_target": "B1–B2",
+      "content_brief": "App settings, OTP, privacy, scam, account security, and reporting a problem. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch029_bridge_reading_01",
+        "ch029_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch030",
+      "chapter_number": 30,
+      "title_planning": "Sentence Builder: Conditional Choices",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch030.json",
+      "level_target": "B1–B2",
+      "content_brief": "Build if/unless/as long as sentences for choices, risks, and backup plans. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch030_bridge_reading_01",
+        "ch030_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch031",
+      "chapter_number": 31,
+      "title_planning": "Describing Past Experiences in Detail",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch031.json",
+      "level_target": "B1–B2",
+      "content_brief": "Tell experience with timeline, background, turning point, result, and lesson learned. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch031_bridge_reading_01",
+        "ch031_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch032",
+      "chapter_number": 32,
+      "title_planning": "Future Plans, Risks, and Backup Options",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch032.json",
+      "level_target": "B1–B2",
+      "content_brief": "Goal, risk, backup plan, condition, timeline, and realistic planning language. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch032_bridge_reading_01",
+        "ch032_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch033",
+      "chapter_number": 33,
+      "title_planning": "Comparing Products, Services, and Ideas",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch033.json",
+      "level_target": "B1–B2",
+      "content_brief": "Compare price, value, quality, reliability, risk, and recommendation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch033_bridge_reading_01",
+        "ch033_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch034",
+      "chapter_number": 34,
+      "title_planning": "Persuading Without Sounding Pushy",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch034.json",
+      "level_target": "B1–B2",
+      "content_brief": "Suggest, recommend, explain benefit, respect choice, and close softly. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch034_bridge_reading_01",
+        "ch034_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch035",
+      "chapter_number": 35,
+      "title_planning": "Sentence Builder: Reporting Speech and Updates",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch035.json",
+      "level_target": "B1–B2",
+      "content_brief": "Build reported speech and update chains for office and service contexts. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch035_bridge_reading_01",
+        "ch035_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch036",
+      "chapter_number": 36,
+      "title_planning": "Cultural Differences and Politeness",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch036.json",
+      "level_target": "B1–B2",
+      "content_brief": "Direct vs indirect tone, polite disagreement, personal space, and cross-cultural repair. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch036_bridge_reading_01",
+        "ch036_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch037",
+      "chapter_number": 37,
+      "title_planning": "Team Conflict and Calm Repair",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch037.json",
+      "level_target": "B1–B2",
+      "content_brief": "Conflict, misunderstanding, blame-free explanation, apology, boundary, and solution. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch037_bridge_reading_01",
+        "ch037_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch038",
+      "chapter_number": 38,
+      "title_planning": "Instructions, Training, and Handovers",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch038.json",
+      "level_target": "B1–B2",
+      "content_brief": "Give instructions, train a junior, hand over task, confirm understanding, and check completion. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch038_bridge_reading_01",
+        "ch038_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch039",
+      "chapter_number": 39,
+      "title_planning": "Academic Discussion and Classroom Participation",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch039.json",
+      "level_target": "B1–B2",
+      "content_brief": "Ask academic questions, refer to readings, disagree respectfully, and summarize a point. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch039_bridge_reading_01",
+        "ch039_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch040",
+      "chapter_number": 40,
+      "title_planning": "Sentence Builder: Linking Longer Ideas",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch040.json",
+      "level_target": "B1–B2",
+      "content_brief": "Link longer ideas with sequence, contrast, evidence, and conclusion. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch040_bridge_reading_01",
+        "ch040_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch041",
+      "chapter_number": 41,
+      "title_planning": "Business Calls and Difficult Customers",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch041.json",
+      "level_target": "B1–B2",
+      "content_brief": "Difficult customer, pressure, repeated explanation, boundaries, and service promise. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch041_bridge_reading_01",
+        "ch041_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch042",
+      "chapter_number": 42,
+      "title_planning": "Workplace Rights, Rules, and Boundaries",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch042.json",
+      "level_target": "B1–B2",
+      "content_brief": "Rules, policy, overtime, leave, harassment boundary, and respectful escalation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch042_bridge_reading_01",
+        "ch042_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch043",
+      "chapter_number": 43,
+      "title_planning": "Application Essays and Personal Statements",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch043.json",
+      "level_target": "B1–B2",
+      "content_brief": "Motivation, background, goal, fit, evidence, and concise personal statement language. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch043_bridge_reading_01",
+        "ch043_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch044",
+      "chapter_number": 44,
+      "title_planning": "Speaking Practice: Personal and Abstract Topics",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch044.json",
+      "level_target": "B1–B2",
+      "content_brief": "Move from personal answer to abstract answer with examples and clear structure. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch044_bridge_reading_01",
+        "ch044_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch045",
+      "chapter_number": 45,
+      "title_planning": "Sentence Builder: Hedging and Softening",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch045.json",
+      "level_target": "B1–B2",
+      "content_brief": "Build softer, more accurate claims using seems, may, tends to, and from my perspective. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch045_bridge_reading_01",
+        "ch045_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch046",
+      "chapter_number": 46,
+      "title_planning": "Reading Articles and Summarizing Main Ideas",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch046.json",
+      "level_target": "B1–B2",
+      "content_brief": "Find main idea, key detail, author's purpose, and summarize in plain Hindi. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch046_bridge_reading_01",
+        "ch046_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch047",
+      "chapter_number": 47,
+      "title_planning": "Writing Short Reports and Recommendations",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch047.json",
+      "level_target": "B1–B2",
+      "content_brief": "Problem, finding, option, recommendation, risk, and action items. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch047_bridge_reading_01",
+        "ch047_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch048",
+      "chapter_number": 48,
+      "title_planning": "Explaining Charts in Simple Hindi",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch048.json",
+      "level_target": "B1–B2",
+      "content_brief": "Trend, comparison, peak, drop, percentage, overall message, and cautious interpretation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch048_bridge_reading_01",
+        "ch048_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch049",
+      "chapter_number": 49,
+      "title_planning": "Debating Pros and Cons",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch049.json",
+      "level_target": "B1–B2",
+      "content_brief": "Two-sided argument, benefit, drawback, evidence, concession, and final position. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch049_bridge_reading_01",
+        "ch049_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch050",
+      "chapter_number": 50,
+      "title_planning": "Sentence Builder: Formal to Natural Hindi",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch050.json",
+      "level_target": "B1–B2",
+      "content_brief": "Convert stiff formal Hindi into natural professional Hindi. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch050_bridge_reading_01",
+        "ch050_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch051",
+      "chapter_number": 51,
+      "title_planning": "Leadership, Responsibility, and Trust",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch051.json",
+      "level_target": "B1–B2",
+      "content_brief": "Leadership examples, responsibility, accountability, trust-building, and fair decisions. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch051_bridge_reading_01",
+        "ch051_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch052",
+      "chapter_number": 52,
+      "title_planning": "Money Decisions and Family Pressure",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch052.json",
+      "level_target": "B1–B2",
+      "content_brief": "Budget, obligation, family pressure, career choice, risk, and respectful explanation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch052_bridge_reading_01",
+        "ch052_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch053",
+      "chapter_number": 53,
+      "title_planning": "Migration, Study Abroad, and Adaptation",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch053.json",
+      "level_target": "B1–B2",
+      "content_brief": "Visa, culture shock, study plan, adaptation, homesickness, and support network. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch053_bridge_reading_01",
+        "ch053_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch054",
+      "chapter_number": 54,
+      "title_planning": "Crisis Communication and Public Messages",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch054.json",
+      "level_target": "B1–B2",
+      "content_brief": "Urgency, clarity, safety instruction, update, empathy, and avoiding panic. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch054_bridge_reading_01",
+        "ch054_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch055",
+      "chapter_number": 55,
+      "title_planning": "Sentence Builder: Complex Questions",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch055.json",
+      "level_target": "B1–B2",
+      "content_brief": "Build complex but clear questions for interviews, meetings, and analysis. No Bangla pronunciation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch055_bridge_reading_01",
+        "ch055_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch056",
+      "chapter_number": 56,
+      "title_planning": "Review: Professional Day Simulation",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch056.json",
+      "level_target": "B1–B2",
+      "content_brief": "Simulate a full professional day with updates, calls, meetings, and follow-ups. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch056_bridge_reading_01",
+        "ch056_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch057",
+      "chapter_number": 57,
+      "title_planning": "Review: Interview and Presentation Simulation",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch057.json",
+      "level_target": "B1–B2",
+      "content_brief": "Combine interview answers, STAR stories, evidence, and short presentation language. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch057_bridge_reading_01",
+        "ch057_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch058",
+      "chapter_number": 58,
+      "title_planning": "Review: Service, Complaint, and Negotiation",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch058.json",
+      "level_target": "B1–B2",
+      "content_brief": "Handle difficult customer/service cases, complaints, refunds, and negotiation. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch058_bridge_reading_01",
+        "ch058_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch059",
+      "chapter_number": 59,
+      "title_planning": "Review: Article Discussion and Opinion",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch059.json",
+      "level_target": "B1–B2",
+      "content_brief": "Discuss an article, summarize, evaluate evidence, and give a balanced opinion. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 0,
+      "number_focus": null,
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch059_bridge_reading_01",
+        "ch059_target_reading_01"
+      ]
+    },
+    {
+      "chapter_id": "ch060",
+      "chapter_number": 60,
+      "title_planning": "Capstone: Explain a Real Problem and Solution",
+      "content_status": "needs_content",
+      "content_file": "chapters/ch060.json",
+      "level_target": "B1–B2",
+      "content_brief": "Capstone task: explain a real problem, give context, evaluate options, and propose a solution. Adapt grammar and usage to Hindi; do not translate an English construction mechanically. Full core sections remain mandatory.",
+      "script_items": 5,
+      "script_focus": "Review/apply known script; spelling, decoding and orthographic patterns suited to this level. Vocabulary starts with beginner script support and advances with its bands.",
+      "number_items": 2,
+      "number_focus": "Show international digits and introduce Devanagari digits gradually, with Hindi number words.",
+      "sentence_max_units": null,
+      "required_image_keys": [
+        "ch060_bridge_reading_01",
+        "ch060_target_reading_01"
+      ]
+    }
+  ]
+}

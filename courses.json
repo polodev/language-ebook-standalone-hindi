@@ -1,0 +1,43 @@
+{
+  "publisher": "Englishing.app",
+  "target_locale": "hi-IN",
+  "content_locale": "bn-BD",
+  "courses": [
+    {
+      "build_order": 1,
+      "directory": "01-easy-hindi-foundation",
+      "slug": "easy-hindi-foundation",
+      "title": "Easy Hindi Foundation",
+      "kind": "foundation",
+      "chapter_count": 60,
+      "build_status": "scaffolded"
+    },
+    {
+      "build_order": 2,
+      "directory": "02-easy-hindi-intermediate",
+      "slug": "easy-hindi-intermediate",
+      "title": "Easy Hindi Intermediate",
+      "kind": "intermediate",
+      "chapter_count": 60,
+      "build_status": "scaffolded"
+    },
+    {
+      "build_order": 3,
+      "directory": "03-easy-hindi-advanced",
+      "slug": "easy-hindi-advanced",
+      "title": "Easy Hindi Advanced",
+      "kind": "advanced",
+      "chapter_count": 60,
+      "build_status": "scaffolded"
+    },
+    {
+      "build_order": 4,
+      "directory": "04-easy-hindi-vocabulary-7000-words",
+      "slug": "easy-hindi-vocabulary-7000-words",
+      "title": "Easy Hindi Vocabulary: 7000+ Words & Phrases",
+      "kind": "vocabulary",
+      "chapter_count": 234,
+      "build_status": "scaffolded"
+    }
+  ]
+}

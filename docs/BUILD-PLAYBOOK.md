@@ -1,0 +1,26 @@
+# Manager production playbook
+
+This checkout is an authoring-ready scaffold. Content, artwork, language-specific font binaries and final publication files are intentionally not generated yet. The reusable PDF/EPUB and image primitives are vendored under shared/englishing_kit. They are NOT a finished renderer for the new chapter schema; adapting the course layout is a named first production task, not something to claim is already validated.
+
+## Current executable workflow
+
+python3 scripts/manage.py status
+python3 scripts/manage.py validate
+python3 scripts/manage.py packet --book BOOK --chapter 1
+python3 scripts/manage.py validate --book BOOK --complete
+python3 scripts/manage.py assemble --book BOOK
+
+The first validation accepts missing planned chapters but validates every authored file it encounters. --complete and assemble reject any missing chapter. Packets are written under BOOK/generated/ and combine the exact plan, language policy, blank template, instructions and prior script/vocabulary ledger. ChatGPT may read the same tracked files directly. Assembly never authors or rewrites chapter content.
+
+## When content arrives
+
+1. Inspect Git history/diff; run partial validation. Confirm chapter IDs, script progression, two readings, number schedule and content status. Request author corrections for language defects; the manager does not silently write new lesson prose.
+2. Complete independent target-language + Bangla editorial review and Foundation first-ten-lines beginner test. Record results in qa/review.json with reviewer, date, chapter IDs, actual findings and corrections. Require five correct script cards, sound support, controlled sentence lengths, distinct readings, complete Bangla meaning and prompt alignment. Native review handles segmentation and register.
+3. Acquire redistributable target-language fonts named in language.json, bundle exact binaries and licences under assets/fonts, record source and SHA256. Existing Miriam Libre/Bengali faces cover the scaffold's inherited renderer only. Confirm complete target-script glyph coverage; do not silently rely on installed system fonts. See docs/SCRIPT-SOURCES.md for writing-system references. Adapt fonts.py through JSON-configured faces instead of language names hard-coded in Python.
+4. Implement BOOK/generate_pdfs.py using assembled chapters plus supplementary.json. Reuse shared/englishing_kit/render.py for Chrome PDF and EPUB packaging, markdown_render.py for inline/block text, and the font embedding safeguards. Use a book-specific layout adapter: script/number cards, sentence triples, vocabulary, bridge reading, target reading, practice and extra builders. Keep every field; no renderer-generated teaching content. Adapt per-language RTL/line breaking/romanization. EPUB metadata is Bangla with target-language blocks marked using language.json; set Arabic paragraph direction explicitly. Renderer assertions must fail on missing art, missing fonts, unknown image keys or incomplete required fields.
+5. Create image specs from assembled declarations, preview prompts, then generate requested completed batches. The vendored image pipeline supports batch and sync modes; set course_dir to the book directory. Do not blindly use old course-directory wrappers or legacy German/Japanese schemas. Update wrappers for this repo-local path layout. Store actual asset manifests. Do not make API calls just to test the scaffold.
+6. Render the first two chapters in desktop and mobile editions, then visually inspect early/middle/late pages, mixed scripts, font embedding, line breaks, colour rotation and all required section types. Use pdffonts and pdftoppm; record real checks in qa/review.json. A file existing or a validator passing is not layout QA.
+7. Render every filename in book.json expected_output_files: six PDFs + two EPUBs; vocabulary adds four compact PDFs. Build trackers from source chapter titles. Compact vocabulary desktop uses multiple columns, mobile continuous whole cards; synonyms only, no antonyms. Package target fonts and all referenced images in EPUB, check XML and run EPUBCheck. Make banners/screenshots in a separate output subfolder so the publication contract's file count remains unambiguous.
+8. Record output hashes, page counts, font checks, actual image inventory and review decisions in qa/release.json. Rebuild from tracked JSON and assets without the original monorepo or an API key. Content status, editorial status, image status, build status and publication status are separate. Only set published after all required outputs and editorial/visual gates pass and distribution is requested.
+
+One course per production session unless the user requests otherwise. Never commit .env, generated/, output/, caches, temporary packets or real learner/customer data. These private repos contain plans and original future lessons, not copied English manuscripts. No GitHub automation or scheduled job runs by default.
