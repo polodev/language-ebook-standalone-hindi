@@ -1,0 +1,1008 @@
+{
+  "chapter_id": "ch001",
+  "status": "drafted",
+  "title_target": "अभिवादन और पहली बातें",
+  "title_bangla_pronunciation": "অভিবাদন অউর পহলি বাতেঁ",
+  "title_word_pronunciations": [
+    {
+      "target": "अभिवादन",
+      "bangla_pronunciation": "অভিবাদন",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "पहली",
+      "bangla_pronunciation": "পহলি",
+      "separator_after": " "
+    },
+    {
+      "target": "बातें",
+      "bangla_pronunciation": "বাতেঁ",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "অভিবাদন ও প্রথম কথাবার্তা",
+  "goal_bengali_md": "অভিবাদন, ধন্যবাদ, ক্ষমা চাওয়া, হ্যাঁ-না বলা এবং না বুঝলে আবার বলতে অনুরোধ করা।",
+  "sentences": [
+    {
+      "id": "ch001_s01",
+      "target": "नमस्ते!",
+      "romanization": "namaste!",
+      "bangla_pronunciation": "নমস্তে!",
+      "word_pronunciations": [
+        {
+          "target": "नमस्ते!",
+          "bangla_pronunciation": "নমস্তে!",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নমস্কার!"
+    },
+    {
+      "id": "ch001_s02",
+      "target": "नमस्कार!",
+      "romanization": "namaskaar!",
+      "bangla_pronunciation": "নমস্কার!",
+      "word_pronunciations": [
+        {
+          "target": "नमस्कार!",
+          "bangla_pronunciation": "নমস্কার!",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নমস্কার!"
+    },
+    {
+      "id": "ch001_s03",
+      "target": "शुभ प्रभात!",
+      "romanization": "shubh prabhaat!",
+      "bangla_pronunciation": "শুভ প্রভাত!",
+      "word_pronunciations": [
+        {
+          "target": "शुभ",
+          "bangla_pronunciation": "শুভ",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रभात!",
+          "bangla_pronunciation": "প্রভাত!",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সুপ্রভাত!"
+    },
+    {
+      "id": "ch001_s04",
+      "target": "शुभ रात्रि!",
+      "romanization": "shubh raatri!",
+      "bangla_pronunciation": "শুভ রাত্রি!",
+      "word_pronunciations": [
+        {
+          "target": "शुभ",
+          "bangla_pronunciation": "শুভ",
+          "separator_after": " "
+        },
+        {
+          "target": "रात्रि!",
+          "bangla_pronunciation": "রাত্রি!",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শুভরাত্রি!"
+    },
+    {
+      "id": "ch001_s05",
+      "target": "धन्यवाद!",
+      "romanization": "dhanyavaad!",
+      "bangla_pronunciation": "ধন্যবাদ!",
+      "word_pronunciations": [
+        {
+          "target": "धन्यवाद!",
+          "bangla_pronunciation": "ধন্যবাদ!",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ধন্যবাদ!"
+    },
+    {
+      "id": "ch001_s06",
+      "target": "बहुत धन्यवाद!",
+      "romanization": "bahut dhanyavaad!",
+      "bangla_pronunciation": "বহুত ধন্যবাদ!",
+      "word_pronunciations": [
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "धन्यवाद!",
+          "bangla_pronunciation": "ধন্যবাদ!",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনেক ধন্যবাদ!"
+    },
+    {
+      "id": "ch001_s07",
+      "target": "माफ़ कीजिए।",
+      "romanization": "maaf keejiye.",
+      "bangla_pronunciation": "মাফ কীজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "माफ़",
+          "bangla_pronunciation": "মাফ",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মাফ করবেন।"
+    },
+    {
+      "id": "ch001_s08",
+      "target": "कोई बात नहीं।",
+      "romanization": "koi baat nahin.",
+      "bangla_pronunciation": "কোই বাত নহীঁ।",
+      "word_pronunciations": [
+        {
+          "target": "कोई",
+          "bangla_pronunciation": "কোই",
+          "separator_after": " "
+        },
+        {
+          "target": "बात",
+          "bangla_pronunciation": "বাত",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं।",
+          "bangla_pronunciation": "নহীঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কোনো সমস্যা নেই।"
+    },
+    {
+      "id": "ch001_s09",
+      "target": "हाँ।",
+      "romanization": "haan.",
+      "bangla_pronunciation": "হাঁ।",
+      "word_pronunciations": [
+        {
+          "target": "हाँ।",
+          "bangla_pronunciation": "হাঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "হ্যাঁ।"
+    },
+    {
+      "id": "ch001_s10",
+      "target": "नहीं।",
+      "romanization": "nahin.",
+      "bangla_pronunciation": "নহীঁ।",
+      "word_pronunciations": [
+        {
+          "target": "नहीं।",
+          "bangla_pronunciation": "নহীঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "না।"
+    },
+    {
+      "id": "ch001_s11",
+      "target": "कृपया फिर कहिए।",
+      "romanization": "kripaya phir kahiye.",
+      "bangla_pronunciation": "কৃপয়া ফির কহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "कहिए।",
+          "bangla_pronunciation": "কহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দয়া করে আবার বলুন।"
+    },
+    {
+      "id": "ch001_s12",
+      "target": "धीरे बोलिए, कृपया।",
+      "romanization": "dheere boliye, kripaya.",
+      "bangla_pronunciation": "ধীরে বোলিয়ে, কৃপয়া।",
+      "word_pronunciations": [
+        {
+          "target": "धीरे",
+          "bangla_pronunciation": "ধীরে",
+          "separator_after": " "
+        },
+        {
+          "target": "बोलिए,",
+          "bangla_pronunciation": "বোলিয়ে,",
+          "separator_after": " "
+        },
+        {
+          "target": "कृपया।",
+          "bangla_pronunciation": "কৃপয়া।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দয়া করে ধীরে বলুন।"
+    },
+    {
+      "id": "ch001_s13",
+      "target": "मैं समझता हूँ।",
+      "romanization": "main samajhta hoon.",
+      "bangla_pronunciation": "ম্যাঁ সমঝতা হুঁ।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "समझता",
+          "bangla_pronunciation": "সমঝতা",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি বুঝি। পুরুষ বক্তার রূপ।"
+    },
+    {
+      "id": "ch001_s14",
+      "target": "मैं समझती हूँ।",
+      "romanization": "main samajhti hoon.",
+      "bangla_pronunciation": "ম্যাঁ সমঝতি হুঁ।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "समझती",
+          "bangla_pronunciation": "সমঝতি",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি বুঝি। নারী বক্তার রূপ।"
+    },
+    {
+      "id": "ch001_s15",
+      "target": "मैं नहीं समझता।",
+      "romanization": "main nahin samajhta.",
+      "bangla_pronunciation": "ম্যাঁ নহীঁ সমঝতা।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "समझता।",
+          "bangla_pronunciation": "সমঝতা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি বুঝি না। পুরুষ বক্তার রূপ।"
+    },
+    {
+      "id": "ch001_s16",
+      "target": "मैं नहीं समझती।",
+      "romanization": "main nahin samajhti.",
+      "bangla_pronunciation": "ম্যাঁ নহীঁ সমঝতি।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "समझती।",
+          "bangla_pronunciation": "সমঝতি।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি বুঝি না। নারী বক্তার রূপ।"
+    },
+    {
+      "id": "ch001_s17",
+      "target": "फिर मिलेंगे।",
+      "romanization": "phir milenge.",
+      "bangla_pronunciation": "ফির মিলেঙ্গে।",
+      "word_pronunciations": [
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलेंगे।",
+          "bangla_pronunciation": "মিলেঙ্গে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আবার দেখা হবে।"
+    },
+    {
+      "id": "ch001_s18",
+      "target": "अलविदा!",
+      "romanization": "alvida!",
+      "bangla_pronunciation": "আলবিদা!",
+      "word_pronunciations": [
+        {
+          "target": "अलविदा!",
+          "bangla_pronunciation": "আলবিদা!",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিদায়!"
+    },
+    {
+      "id": "ch001_s19",
+      "target": "आप ठीक हैं?",
+      "romanization": "aap theek hain?",
+      "bangla_pronunciation": "আপ ঠিক হ্যাঁয়?",
+      "word_pronunciations": [
+        {
+          "target": "आप",
+          "bangla_pronunciation": "আপ",
+          "separator_after": " "
+        },
+        {
+          "target": "ठीक",
+          "bangla_pronunciation": "ঠিক",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं?",
+          "bangla_pronunciation": "হ্যাঁয়?",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপনি ভালো আছেন?"
+    },
+    {
+      "id": "ch001_s20",
+      "target": "मैं ठीक हूँ।",
+      "romanization": "main theek hoon.",
+      "bangla_pronunciation": "ম্যাঁ ঠিক হুঁ।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "ठीक",
+          "bangla_pronunciation": "ঠিক",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি ভালো আছি।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "ch001_v01",
+      "target": "नमस्ते",
+      "type": "greeting",
+      "romanization": "namaste",
+      "bangla_pronunciation": "নমস্তে",
+      "word_pronunciations": [
+        {
+          "target": "नमस्ते",
+          "bangla_pronunciation": "নমস্তে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সাধারণ ও ভদ্র অভিবাদন।",
+      "source_sentence_id": "ch001_s01",
+      "source_form": "नमस्ते"
+    },
+    {
+      "id": "ch001_v02",
+      "target": "धन्यवाद",
+      "type": "expression",
+      "romanization": "dhanyavaad",
+      "bangla_pronunciation": "ধন্যবাদ",
+      "word_pronunciations": [
+        {
+          "target": "धन्यवाद",
+          "bangla_pronunciation": "ধন্যবাদ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কাউকে ধন্যবাদ জানাতে বলা হয়।",
+      "source_sentence_id": "ch001_s05",
+      "source_form": "धन्यवाद"
+    },
+    {
+      "id": "ch001_v03",
+      "target": "माफ़ कीजिए",
+      "type": "expression",
+      "romanization": "maaf keejiye",
+      "bangla_pronunciation": "মাফ কীজিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "माफ़",
+          "bangla_pronunciation": "মাফ",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए",
+          "bangla_pronunciation": "কীজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভদ্রভাবে ক্ষমা চাইতে বা মনোযোগ আকর্ষণ করতে বলা হয়।",
+      "source_sentence_id": "ch001_s07",
+      "source_form": "माफ़ कीजिए"
+    },
+    {
+      "id": "ch001_v04",
+      "target": "कृपया",
+      "type": "politeness",
+      "romanization": "kripaya",
+      "bangla_pronunciation": "কৃপয়া",
+      "word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনুরোধকে ভদ্র করতে ব্যবহৃত হয়।",
+      "source_sentence_id": "ch001_s11",
+      "source_form": "कृपया"
+    },
+    {
+      "id": "ch001_v05",
+      "target": "फिर",
+      "type": "adverb",
+      "romanization": "phir",
+      "bangla_pronunciation": "ফির",
+      "word_pronunciations": [
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আবার বা পুনরায়।",
+      "source_sentence_id": "ch001_s11",
+      "source_form": "फिर"
+    },
+    {
+      "id": "ch001_v06",
+      "target": "धीरे",
+      "type": "adverb",
+      "romanization": "dheere",
+      "bangla_pronunciation": "ধীরে",
+      "word_pronunciations": [
+        {
+          "target": "धीरे",
+          "bangla_pronunciation": "ধীরে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ধীরে, আস্তে।",
+      "source_sentence_id": "ch001_s12",
+      "source_form": "धीरे"
+    },
+    {
+      "id": "ch001_v07",
+      "target": "समझता",
+      "type": "verb_form",
+      "romanization": "samajhta",
+      "bangla_pronunciation": "সমঝতা",
+      "word_pronunciations": [
+        {
+          "target": "समझता",
+          "bangla_pronunciation": "সমঝতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পুরুষ বক্তার ‘বুঝি/বোঝে’ রূপ; বাক্যে সহায়ক ক্রিয়ার সঙ্গে আসে।",
+      "source_sentence_id": "ch001_s13",
+      "source_form": "समझता"
+    },
+    {
+      "id": "ch001_v08",
+      "target": "ठीक",
+      "type": "adjective",
+      "romanization": "theek",
+      "bangla_pronunciation": "ঠিক",
+      "word_pronunciations": [
+        {
+          "target": "ठीक",
+          "bangla_pronunciation": "ঠিক",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভালো, ঠিক বা সুস্থ—প্রসঙ্গভেদে।",
+      "source_sentence_id": "ch001_s19",
+      "source_form": "ठीक"
+    },
+    {
+      "id": "ch001_v09",
+      "target": "मिलेंगे",
+      "type": "verb_form",
+      "romanization": "milenge",
+      "bangla_pronunciation": "মিলেঙ্গে",
+      "word_pronunciations": [
+        {
+          "target": "मिलेंगे",
+          "bangla_pronunciation": "মিলেঙ্গে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আবার দেখা হবে বা দেখা করব—ভবিষ্যৎ ভাব।",
+      "source_sentence_id": "ch001_s17",
+      "source_form": "मिलेंगे"
+    },
+    {
+      "id": "ch001_v10",
+      "target": "अलविदा",
+      "type": "farewell",
+      "romanization": "alvida",
+      "bangla_pronunciation": "আলবিদা",
+      "word_pronunciations": [
+        {
+          "target": "अलविदा",
+          "bangla_pronunciation": "আলবিদা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিদায় জানানোর শব্দ।",
+      "source_sentence_id": "ch001_s18",
+      "source_form": "अलविदा"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "প্রথম দেখা",
+    "scene_summary": "নতুন শহরে একজন বাংলাদেশি ভ্রমণকারীর সঙ্গে তার হোস্টের প্রথম পরিচয় ও ভদ্র কথোপকথন।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "ঢাকা থেকে দিল্লি পৌঁছে রাফি তার হোস্টকে প্রথমবার দেখল। সে হাসিমুখে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "नमस्ते!",
+        "bangla_pronunciation": "নমস্তে!",
+        "word_pronunciations": [
+          {
+            "target": "नमस्ते!",
+            "bangla_pronunciation": "নমস্তে!",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " হোস্টও হাসলেন। রাফি জিজ্ঞেস করল, "
+      },
+      {
+        "kind": "target",
+        "target": "आप ठीक हैं?",
+        "bangla_pronunciation": "আপ ঠিক হ্যাঁয়?",
+        "word_pronunciations": [
+          {
+            "target": "आप",
+            "bangla_pronunciation": "আপ",
+            "separator_after": " "
+          },
+          {
+            "target": "ठीक",
+            "bangla_pronunciation": "ঠিক",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं?",
+            "bangla_pronunciation": "হ্যাঁয়?",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " তারপর নিজের অবস্থা জানাল, "
+      },
+      {
+        "kind": "target",
+        "target": "मैं ठीक हूँ।",
+        "bangla_pronunciation": "ম্যাঁ ঠিক হুঁ।",
+        "word_pronunciations": [
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "ठीक",
+            "bangla_pronunciation": "ঠিক",
+            "separator_after": " "
+          },
+          {
+            "target": "हूँ।",
+            "bangla_pronunciation": "হুঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " কথার একটি অংশ না বুঝে সে ভদ্রভাবে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "कृपया फिर कहिए।",
+        "bangla_pronunciation": "কৃপয়া ফির কহিয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "कृपया",
+            "bangla_pronunciation": "কৃপয়া",
+            "separator_after": " "
+          },
+          {
+            "target": "फिर",
+            "bangla_pronunciation": "ফির",
+            "separator_after": " "
+          },
+          {
+            "target": "कहिए।",
+            "bangla_pronunciation": "কহিয়ে।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " শেষে রাফি বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "धन्यवाद!",
+        "bangla_pronunciation": "ধন্যবাদ!",
+        "word_pronunciations": [
+          {
+            "target": "धन्यवाद!",
+            "bangla_pronunciation": "ধন্যবাদ!",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "ঢাকা থেকে দিল্লি পৌঁছে রাফি তার হোস্টকে প্রথমবার দেখল। সে হাসিমুখে বলল, **नमस्ते\\!** (নমস্তে\\!) হোস্টও হাসলেন। রাফি জিজ্ঞেস করল, **आप** (আপ) **ठीक** (ঠিক) **हैं?** (হ্যাঁয়?) তারপর নিজের অবস্থা জানাল, **मैं** (ম্যাঁ) **ठीक** (ঠিক) **हूँ।** (হুঁ।) কথার একটি অংশ না বুঝে সে ভদ্রভাবে বলল, **कृपया** (কৃপয়া) **फिर** (ফির) **कहिए।** (কহিয়ে।) শেষে রাফি বলল, **धन्यवाद\\!** (ধন্যবাদ\\!)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "সকালের ছোট কথোপকথন",
+    "scene_summary": "সকালে দুই পরিচিত মানুষ দেখা করে শুভেচ্ছা বিনিময় করে এবং পরে আবার দেখা করার কথা বলে।",
+    "lines": [
+      {
+        "target": "शुभ प्रभात!",
+        "bangla_pronunciation": "শুভ প্রভাত!",
+        "word_pronunciations": [
+          {
+            "target": "शुभ",
+            "bangla_pronunciation": "শুভ",
+            "separator_after": " "
+          },
+          {
+            "target": "प्रभात!",
+            "bangla_pronunciation": "প্রভাত!",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "नमस्ते!",
+        "bangla_pronunciation": "নমস্তে!",
+        "word_pronunciations": [
+          {
+            "target": "नमस्ते!",
+            "bangla_pronunciation": "নমস্তে!",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मैं ठीक हूँ।",
+        "bangla_pronunciation": "ম্যাঁ ঠিক হুঁ।",
+        "word_pronunciations": [
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "ठीक",
+            "bangla_pronunciation": "ঠিক",
+            "separator_after": " "
+          },
+          {
+            "target": "हूँ।",
+            "bangla_pronunciation": "হুঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "बहुत धन्यवाद!",
+        "bangla_pronunciation": "বহুত ধন্যবাদ!",
+        "word_pronunciations": [
+          {
+            "target": "बहुत",
+            "bangla_pronunciation": "বহুত",
+            "separator_after": " "
+          },
+          {
+            "target": "धन्यवाद!",
+            "bangla_pronunciation": "ধন্যবাদ!",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "फिर मिलेंगे।",
+        "bangla_pronunciation": "ফির মিলেঙ্গে।",
+        "word_pronunciations": [
+          {
+            "target": "फिर",
+            "bangla_pronunciation": "ফির",
+            "separator_after": " "
+          },
+          {
+            "target": "मिलेंगे।",
+            "bangla_pronunciation": "মিলেঙ্গে।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "শুভ প্রভাত! নমস্তে! ম্যাঁ ঠিক হুঁ। বহুত ধন্যবাদ! ফির মিলেঙ্গে।",
+    "meaning_bengali_md": "সুপ্রভাত! নমস্কার! আমি ভালো আছি। অনেক ধন্যবাদ! আবার দেখা হবে।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_vowel_a",
+      "mode": "new",
+      "target": "अ",
+      "bangla_pronunciation": "অ",
+      "explanation_bengali_md": "স্বতন্ত্র স্বর ‘অ’-এর কাছাকাছি ধ্বনি। বাংলা অক্ষরের সঙ্গে আকৃতি মিল ধরে নেবেন না।",
+      "practice_bengali_md": "অক্ষরটি দেখে ধ্বনিটি বলুন এবং তিনবার লিখুন।"
+    },
+    {
+      "item_id": "dev_vowel_aa",
+      "mode": "new",
+      "target": "आ",
+      "bangla_pronunciation": "আ",
+      "explanation_bengali_md": "স্বতন্ত্র দীর্ঘ ‘আ’ স্বর।",
+      "practice_bengali_md": "ধ্বনিটি বলে অক্ষরটি তিনবার লিখুন।"
+    },
+    {
+      "item_id": "dev_vowel_i",
+      "mode": "new",
+      "target": "इ",
+      "bangla_pronunciation": "ই",
+      "explanation_bengali_md": "স্বতন্ত্র ছোট ‘ই’ স্বর।",
+      "practice_bengali_md": "অক্ষরটি দেখে ছোট ‘ই’ ধ্বনি বলুন।"
+    },
+    {
+      "item_id": "dev_vowel_ii",
+      "mode": "new",
+      "target": "ई",
+      "bangla_pronunciation": "ঈ/ই",
+      "explanation_bengali_md": "স্বতন্ত্র দীর্ঘ ‘ঈ/ই’ স্বর।",
+      "practice_bengali_md": "অক্ষরটি দেখে দীর্ঘ ধ্বনি বলুন এবং লিখুন।"
+    },
+    {
+      "item_id": "dev_vowel_u",
+      "mode": "new",
+      "target": "उ",
+      "bangla_pronunciation": "উ",
+      "explanation_bengali_md": "স্বতন্ত্র ছোট ‘উ’ স্বর।",
+      "practice_bengali_md": "অক্ষরটি দেখে ‘উ’ বলুন এবং তিনবার লিখুন।"
+    }
+  ],
+  "number_practice": [
+    {
+      "display": "1 / १",
+      "target": "एक",
+      "bangla_pronunciation": "এক",
+      "word_pronunciations": [
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এক",
+      "system": "International + Devanagari"
+    },
+    {
+      "display": "2 / २",
+      "target": "दो",
+      "bangla_pronunciation": "দো",
+      "word_pronunciations": [
+        {
+          "target": "दो",
+          "bangla_pronunciation": "দো",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুই",
+      "system": "International + Devanagari"
+    }
+  ],
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "কাউকে নমস্কার বলুন।",
+      "model_target": "नमस्ते!",
+      "model_bangla_pronunciation": "নমস্তে!",
+      "model_word_pronunciations": [
+        {
+          "target": "नमस्ते!",
+          "bangla_pronunciation": "নমস্তে!",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "নমস্কার!"
+    },
+    {
+      "prompt_bengali_md": "ধন্যবাদ জানান।",
+      "model_target": "धन्यवाद!",
+      "model_bangla_pronunciation": "ধন্যবাদ!",
+      "model_word_pronunciations": [
+        {
+          "target": "धन्यवाद!",
+          "bangla_pronunciation": "ধন্যবাদ!",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ধন্যবাদ!"
+    },
+    {
+      "prompt_bengali_md": "ক্ষমা চান।",
+      "model_target": "माफ़ कीजिए।",
+      "model_bangla_pronunciation": "মাফ কীজিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "माफ़",
+          "bangla_pronunciation": "মাফ",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "মাফ করবেন।"
+    },
+    {
+      "prompt_bengali_md": "আবার বলতে অনুরোধ করুন।",
+      "model_target": "कृपया फिर कहिए।",
+      "model_bangla_pronunciation": "কৃপয়া ফির কহিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "कहिए।",
+          "bangla_pronunciation": "কহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "দয়া করে আবার বলুন।"
+    },
+    {
+      "prompt_bengali_md": "বলুন যে আপনি বুঝছেন না।",
+      "model_target": "मैं नहीं समझता।",
+      "model_bangla_pronunciation": "ম্যাঁ নহীঁ সমঝতা।",
+      "model_word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "समझता।",
+          "bangla_pronunciation": "সমঝতা।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমি বুঝি না। পুরুষ বক্তার রূপ।"
+    },
+    {
+      "prompt_bengali_md": "বিদায়ের আগে আবার দেখা হবে বলুন।",
+      "model_target": "फिर मिलेंगे।",
+      "model_bangla_pronunciation": "ফির মিলেঙ্গে।",
+      "model_word_pronunciations": [
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलेंगे।",
+          "bangla_pronunciation": "মিলেঙ্গে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আবার দেখা হবে।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch001_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A bright airport arrival hall in India; a Bangladeshi adult traveler meets a welcoming local host, both smiling and greeting politely, with luggage nearby and a calm arrival area in the background; medium-wide framing, soft morning light, greeting gesture as the focal point. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    },
+    {
+      "key": "ch001_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A quiet residential courtyard in warm early-morning light; two adult neighbors exchange a cheerful morning greeting, one holding a small tea cup, then wave goodbye as they part; clean composition, friendly body language, soft sunrise glow. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    }
+  ],
+  "additional_practice": []
+}
