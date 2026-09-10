@@ -1,0 +1,73 @@
+{
+  "book": "01-easy-hindi-foundation",
+  "requested_range": {
+    "start": "ch031",
+    "end": "ch040",
+    "count": 10
+  },
+  "completed_ids": [
+    "ch031",
+    "ch032",
+    "ch033",
+    "ch034",
+    "ch035",
+    "ch036",
+    "ch037",
+    "ch038",
+    "ch039",
+    "ch040"
+  ],
+  "unfinished_ids": [],
+  "status": "batch_complete",
+  "checks_performed": [
+    {
+      "check": "authoring_source_review",
+      "result": "passed",
+      "details": "Read the book INSTRUCTIONS.md as the sole authoring guide; read book.json, chapter-template.json, language.json, supplementary.json, and the requested ch031–ch040 plans. Current main contained no authored chapter JSON or prior authoring-progress.json to preserve."
+    },
+    {
+      "check": "assigned_file_presence_and_identity",
+      "result": "passed",
+      "details": "Verified all 10 requested files ch031.json through ch040.json exist locally, parse as JSON, and each chapter_id matches its requested path."
+    },
+    {
+      "check": "required_sections_and_counts",
+      "result": "passed",
+      "details": "Verified 20 sentences/chapter (200 total), 10 sentence-sourced vocabulary entries/chapter (100 total), 5 script cards/chapter (50 total), 5 pure-reading lines/chapter (50 total), 6 speaking tasks/chapter (60 total), and 2 reading image prompts/chapter (20 total). Number cards are null or exactly 2/3 as permitted; 16 number cards total."
+    },
+    {
+      "check": "pronunciation_and_word_reconstruction",
+      "result": "passed",
+      "details": "Verified title, sentence, vocabulary, mixed-reading target spans, pure-reading lines, number words, speaking models, and optional builder lines reconstruct exactly from ordered word_pronunciations; all assigned sentence and pure-reading lines stay within the 8-unit ceiling."
+    },
+    {
+      "check": "mixed_and_pure_readings",
+      "result": "passed",
+      "details": "Verified bridge readings contain both Bangla and Hindi segments; bridge text_md exactly mirrors segments with every Hindi word bolded and immediately followed by Bangla pronunciation. Pure readings contain 4–8 annotated lines, full Bangla pronunciation, and full Bangla meaning, and are not identical to bridge readings."
+    },
+    {
+      "check": "vocabulary_sources",
+      "result": "passed",
+      "details": "Verified every vocabulary source_sentence_id exists and every source_form occurs exactly in the cited essential sentence."
+    },
+    {
+      "check": "bangla_prose_audit",
+      "result": "passed",
+      "details": "Verified learner-facing Bangla explanation/narration fields contain no unannotated Devanagari words and no raw Latin-script English prose; Hindi examples remain in structured annotated target fields."
+    },
+    {
+      "check": "image_prompt_keys_and_scene_match",
+      "result": "passed",
+      "details": "Verified exactly two prompts in bridge/target order for every chapter, with required keys/readings, distinct reading-specific scenes, and the required “No readable text, no labels, no signage, no watermark.” instruction."
+    },
+    {
+      "check": "partial_validator",
+      "result": "passed",
+      "command": "python3 scripts/manage.py validate --book 01-easy-hindi-foundation",
+      "details": "Ran in an isolated local validation workspace using the current-main validator logic and relevant book-plan values; output: “01-easy-hindi-foundation: 10/60 authored chapters structurally valid; publication not assessed”. Terminal network access was unavailable, so this was not a git clone of the private repository."
+    }
+  ],
+  "remaining_issues": [],
+  "resume_point": "No unfinished chapter in the requested batch. The next unrequested range begins at ch041; do not start it as part of this batch.",
+  "updated_at_local": "2026-09-11T02:17+06:00"
+}
