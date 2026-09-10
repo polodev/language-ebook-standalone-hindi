@@ -1,0 +1,64 @@
+name: Deliver Hindi chapters 41-50
+
+on:
+  push:
+    branches:
+      - chatgpt-transfer-ch041-ch050-20260911
+    paths:
+      - '.github/transfer/READY'
+
+permissions:
+  contents: write
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout transfer branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reconstruct transfer archive
+        shell: bash
+        run: |
+          cat .github/transfer/ch41-50.part-* | base64 -d | xz -d > /tmp/ch41-50.tar
+          tar -tf /tmp/ch41-50.tar
+
+      - name: Verify base, extract, and validate
+        shell: bash
+        run: |
+          git fetch origin main
+          test "$(git rev-parse origin/main)" = "09acb9269d68afe0fa9620c6bee53d9a44fc4e3f"
+          git checkout -B delivery origin/main
+          tar -xf /tmp/ch41-50.tar
+          for n in {41..50}; do
+            f=$(printf '01-easy-hindi-foundation/chapters/ch%03d.json' "$n")
+            test -s "$f"
+          done
+          test -s 01-easy-hindi-foundation/authoring-progress.json
+          python3 scripts/manage.py validate --book 01-easy-hindi-foundation
+
+      - name: Commit and push main
+        shell: bash
+        run: |
+          git config user.name "polodev"
+          git config user.email "polodev10@gmail.com"
+          git add \
+            01-easy-hindi-foundation/chapters/ch041.json \
+            01-easy-hindi-foundation/chapters/ch042.json \
+            01-easy-hindi-foundation/chapters/ch043.json \
+            01-easy-hindi-foundation/chapters/ch044.json \
+            01-easy-hindi-foundation/chapters/ch045.json \
+            01-easy-hindi-foundation/chapters/ch046.json \
+            01-easy-hindi-foundation/chapters/ch047.json \
+            01-easy-hindi-foundation/chapters/ch048.json \
+            01-easy-hindi-foundation/chapters/ch049.json \
+            01-easy-hindi-foundation/chapters/ch050.json \
+            01-easy-hindi-foundation/authoring-progress.json
+          git diff --cached --name-status
+          test "$(git diff --cached --name-only | wc -l)" -eq 11
+          test "$(git diff --cached --diff-filter=A --name-only | wc -l)" -eq 11
+          test -z "$(git diff --cached --diff-filter=MDR --name-only)"
+          git commit -m "Fri Sep 11, 2:37am — 11 files added"
+          git push origin HEAD:main
