@@ -1,0 +1,1372 @@
+{
+  "chapter_id": "ch014",
+  "status": "drafted",
+  "title_target": "दोस्त, पसंद और निमंत्रण",
+  "title_bangla_pronunciation": "দোস্ত, পসন্দ অউর নিমন্ত্রণ",
+  "title_word_pronunciations": [
+    {
+      "target": "दोस्त,",
+      "bangla_pronunciation": "দোস্ত,",
+      "separator_after": " "
+    },
+    {
+      "target": "पसंद",
+      "bangla_pronunciation": "পসন্দ",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "निमंत्रण",
+      "bangla_pronunciation": "নিমন্ত্রণ",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "বন্ধু, পছন্দ ও আমন্ত্রণ",
+  "goal_bengali_md": "পছন্দের কাজ বলা, বন্ধুদের আমন্ত্রণ করা, সময় প্রস্তাব করা এবং ভদ্রভাবে গ্রহণ বা না বলা।",
+  "sentences": [
+    {
+      "id": "ch014_s01",
+      "target": "आपको क्या पसंद है?",
+      "bangla_pronunciation": "আপকো ক্যা পসন্দ হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "आपको",
+          "bangla_pronunciation": "আপকো",
+          "separator_after": " "
+        },
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "aapko kya pasand hai?",
+      "meaning_bengali_md": "আপনার কী পছন্দ?"
+    },
+    {
+      "id": "ch014_s02",
+      "target": "मुझे किताबें पसंद हैं।",
+      "bangla_pronunciation": "মুঝে কিতাবেঁ পসন্দ হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "किताबें",
+          "bangla_pronunciation": "কিতাবেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "mujhe kitaaben pasand hain.",
+      "meaning_bengali_md": "আমার বই পছন্দ।"
+    },
+    {
+      "id": "ch014_s03",
+      "target": "मुझे क्रिकेट पसंद है।",
+      "bangla_pronunciation": "মুঝে ক্রিকেট পসন্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "क्रिकेट",
+          "bangla_pronunciation": "ক্রিকেট",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "mujhe cricket pasand hai.",
+      "meaning_bengali_md": "আমার ক্রিকেট পছন্দ।"
+    },
+    {
+      "id": "ch014_s04",
+      "target": "मुझे संगीत सुनना पसंद है।",
+      "bangla_pronunciation": "মুঝে সঙ্গীত সুননা পসন্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "संगीत",
+          "bangla_pronunciation": "সঙ্গীত",
+          "separator_after": " "
+        },
+        {
+          "target": "सुनना",
+          "bangla_pronunciation": "সুননা",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "mujhe sangeet sunna pasand hai.",
+      "meaning_bengali_md": "আমার গান/সঙ্গীত শোনা পছন্দ।"
+    },
+    {
+      "id": "ch014_s05",
+      "target": "चलो चाय पीते हैं।",
+      "bangla_pronunciation": "চলো চায় পীতে হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "चलो",
+          "bangla_pronunciation": "চলো",
+          "separator_after": " "
+        },
+        {
+          "target": "चाय",
+          "bangla_pronunciation": "চায়",
+          "separator_after": " "
+        },
+        {
+          "target": "पीते",
+          "bangla_pronunciation": "পীতে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "chalo chaay peete hain.",
+      "meaning_bengali_md": "চলো চা খাই।"
+    },
+    {
+      "id": "ch014_s06",
+      "target": "क्या आप आज खाली हैं?",
+      "bangla_pronunciation": "ক্যা আপ আজ খালি হ্যাঁয়?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आप",
+          "bangla_pronunciation": "আপ",
+          "separator_after": " "
+        },
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "खाली",
+          "bangla_pronunciation": "খালি",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं?",
+          "bangla_pronunciation": "হ্যাঁয়?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "kya aap aaj khaali hain?",
+      "meaning_bengali_md": "আপনি কি আজ ফাঁকা আছেন?"
+    },
+    {
+      "id": "ch014_s07",
+      "target": "क्या आप कल आएँगे?",
+      "bangla_pronunciation": "ক্যা আপ কল আয়েঙ্গে?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आप",
+          "bangla_pronunciation": "আপ",
+          "separator_after": " "
+        },
+        {
+          "target": "कल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "आएँगे?",
+          "bangla_pronunciation": "আয়েঙ্গে?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "kya aap kal aayenge?",
+      "meaning_bengali_md": "আপনি কি কাল আসবেন?"
+    },
+    {
+      "id": "ch014_s08",
+      "target": "हाँ, मैं आऊँगा।",
+      "bangla_pronunciation": "হাঁ, ম্যাঁ আউঙ্গা।",
+      "word_pronunciations": [
+        {
+          "target": "हाँ,",
+          "bangla_pronunciation": "হাঁ,",
+          "separator_after": " "
+        },
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "आऊँगा।",
+          "bangla_pronunciation": "আউঙ্গা।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "haan, main aaunga.",
+      "meaning_bengali_md": "হ্যাঁ, আমি আসব।"
+    },
+    {
+      "id": "ch014_s09",
+      "target": "माफ़ कीजिए, मैं नहीं आ पाऊँगा।",
+      "bangla_pronunciation": "মাফ কিজিয়ে, ম্যাঁ নহিঁ আ পাউঙ্গা।",
+      "word_pronunciations": [
+        {
+          "target": "माफ़",
+          "bangla_pronunciation": "মাফ",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए,",
+          "bangla_pronunciation": "কিজিয়ে,",
+          "separator_after": " "
+        },
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "आ",
+          "bangla_pronunciation": "আ",
+          "separator_after": " "
+        },
+        {
+          "target": "पाऊँगा।",
+          "bangla_pronunciation": "পাউঙ্গা।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "maaf kijiye, main nahin aa paaunga.",
+      "meaning_bengali_md": "দুঃখিত, আমি আসতে পারব না।"
+    },
+    {
+      "id": "ch014_s10",
+      "target": "हम शाम को मिलें?",
+      "bangla_pronunciation": "হম শাম কো মিলেঁ?",
+      "word_pronunciations": [
+        {
+          "target": "हम",
+          "bangla_pronunciation": "হম",
+          "separator_after": " "
+        },
+        {
+          "target": "शाम",
+          "bangla_pronunciation": "শাম",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलें?",
+          "bangla_pronunciation": "মিলেঁ?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "ham shaam ko milen?",
+      "meaning_bengali_md": "আমরা কি সন্ধ্যায় দেখা করি?"
+    },
+    {
+      "id": "ch014_s11",
+      "target": "छह बजे ठीक है।",
+      "bangla_pronunciation": "ছহ বজে ঠিক হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "छह",
+          "bangla_pronunciation": "ছহ",
+          "separator_after": " "
+        },
+        {
+          "target": "बजे",
+          "bangla_pronunciation": "বজে",
+          "separator_after": " "
+        },
+        {
+          "target": "ठीक",
+          "bangla_pronunciation": "ঠিক",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "chhah baje theek hai.",
+      "meaning_bengali_md": "ছয়টা ঠিক আছে।"
+    },
+    {
+      "id": "ch014_s12",
+      "target": "मेरे दोस्त भी आएँगे।",
+      "bangla_pronunciation": "মেরে দোস্ত ভি আয়েঙ্গে।",
+      "word_pronunciations": [
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "दोस्त",
+          "bangla_pronunciation": "দোস্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভি",
+          "separator_after": " "
+        },
+        {
+          "target": "आएँगे।",
+          "bangla_pronunciation": "আয়েঙ্গে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "mere dost bhi aayenge.",
+      "meaning_bengali_md": "আমার বন্ধুরাও আসবে।"
+    },
+    {
+      "id": "ch014_s13",
+      "target": "हम पार्क में बैठेंगे।",
+      "bangla_pronunciation": "হম পার্ক মেঁ বৈঠেঙ্গে।",
+      "word_pronunciations": [
+        {
+          "target": "हम",
+          "bangla_pronunciation": "হম",
+          "separator_after": " "
+        },
+        {
+          "target": "पार्क",
+          "bangla_pronunciation": "পার্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "बैठेंगे।",
+          "bangla_pronunciation": "বৈঠেঙ্গে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "ham park mein baithenge.",
+      "meaning_bengali_md": "আমরা পার্কে বসব।"
+    },
+    {
+      "id": "ch014_s14",
+      "target": "क्या आपको फ़िल्में पसंद हैं?",
+      "bangla_pronunciation": "ক্যা আপকো ফিল্মেঁ পসন্দ হ্যাঁয়?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आपको",
+          "bangla_pronunciation": "আপকো",
+          "separator_after": " "
+        },
+        {
+          "target": "फ़िल्में",
+          "bangla_pronunciation": "ফিল্মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं?",
+          "bangla_pronunciation": "হ্যাঁয়?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "kya aapko filmen pasand hain?",
+      "meaning_bengali_md": "আপনার কি সিনেমা পছন্দ?"
+    },
+    {
+      "id": "ch014_s15",
+      "target": "मुझे पढ़ना पसंद है।",
+      "bangla_pronunciation": "মুঝে পঢ়না পসন্দ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़ना",
+          "bangla_pronunciation": "পঢ়না",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "mujhe padhna pasand hai.",
+      "meaning_bengali_md": "আমার পড়তে ভালো লাগে।"
+    },
+    {
+      "id": "ch014_s16",
+      "target": "आज मेरे पास समय है।",
+      "bangla_pronunciation": "আজ মেরে পাস সময় হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "aaj mere paas samay hai.",
+      "meaning_bengali_md": "আজ আমার সময় আছে।"
+    },
+    {
+      "id": "ch014_s17",
+      "target": "कल मैं व्यस्त हूँ।",
+      "bangla_pronunciation": "কল ম্যাঁ ব্যস্ত হুঁ।",
+      "word_pronunciations": [
+        {
+          "target": "कल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "व्यस्त",
+          "bangla_pronunciation": "ব্যস্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "kal main vyast hoon.",
+      "meaning_bengali_md": "কাল আমি ব্যস্ত।"
+    },
+    {
+      "id": "ch014_s18",
+      "target": "फिर रविवार को मिलते हैं।",
+      "bangla_pronunciation": "ফির রবিবার কো মিলতে হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "रविवार",
+          "bangla_pronunciation": "রবিবার",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलते",
+          "bangla_pronunciation": "মিলতে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "phir ravivaar ko milte hain.",
+      "meaning_bengali_md": "তাহলে রবিবার দেখা করি।"
+    },
+    {
+      "id": "ch014_s19",
+      "target": "ज़रूर, अच्छा विचार है।",
+      "bangla_pronunciation": "জরুর, অচ্ছা বিচার হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "ज़रूर,",
+          "bangla_pronunciation": "জরুর,",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "separator_after": " "
+        },
+        {
+          "target": "विचार",
+          "bangla_pronunciation": "বিচার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "zaroor, achchha vichaar hai.",
+      "meaning_bengali_md": "অবশ্যই, ভালো ভাবনা।"
+    },
+    {
+      "id": "ch014_s20",
+      "target": "आप भी आइए।",
+      "bangla_pronunciation": "আপ ভি আইয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "आप",
+          "bangla_pronunciation": "আপ",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভি",
+          "separator_after": " "
+        },
+        {
+          "target": "आइए।",
+          "bangla_pronunciation": "আইয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "aap bhi aaiye.",
+      "meaning_bengali_md": "আপনিও আসুন।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "ch014_v01",
+      "target": "पसंद",
+      "bangla_pronunciation": "পসন্দ",
+      "word_pronunciations": [
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য/প্রকাশ",
+      "romanization": "pasand",
+      "meaning_bengali_md": "পছন্দ",
+      "source_sentence_id": "ch014_s01",
+      "source_form": "पसंद"
+    },
+    {
+      "id": "ch014_v02",
+      "target": "किताबें",
+      "bangla_pronunciation": "কিতাবেঁ",
+      "word_pronunciations": [
+        {
+          "target": "किताबें",
+          "bangla_pronunciation": "কিতাবেঁ",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "kitaaben",
+      "meaning_bengali_md": "বইগুলো/বই",
+      "source_sentence_id": "ch014_s02",
+      "source_form": "किताबें"
+    },
+    {
+      "id": "ch014_v03",
+      "target": "संगीत",
+      "bangla_pronunciation": "সঙ্গীত",
+      "word_pronunciations": [
+        {
+          "target": "संगीत",
+          "bangla_pronunciation": "সঙ্গীত",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "sangeet",
+      "meaning_bengali_md": "সঙ্গীত",
+      "source_sentence_id": "ch014_s04",
+      "source_form": "संगीत"
+    },
+    {
+      "id": "ch014_v04",
+      "target": "खाली",
+      "bangla_pronunciation": "খালি",
+      "word_pronunciations": [
+        {
+          "target": "खाली",
+          "bangla_pronunciation": "খালি",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষণ",
+      "romanization": "khaali",
+      "meaning_bengali_md": "ফাঁকা/অবসর আছে",
+      "source_sentence_id": "ch014_s06",
+      "source_form": "खाली"
+    },
+    {
+      "id": "ch014_v05",
+      "target": "शाम",
+      "bangla_pronunciation": "শাম",
+      "word_pronunciations": [
+        {
+          "target": "शाम",
+          "bangla_pronunciation": "শাম",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "shaam",
+      "meaning_bengali_md": "সন্ধ্যা",
+      "source_sentence_id": "ch014_s10",
+      "source_form": "शाम"
+    },
+    {
+      "id": "ch014_v06",
+      "target": "दोस्त",
+      "bangla_pronunciation": "দোস্ত",
+      "word_pronunciations": [
+        {
+          "target": "दोस्त",
+          "bangla_pronunciation": "দোস্ত",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "dost",
+      "meaning_bengali_md": "বন্ধু",
+      "source_sentence_id": "ch014_s12",
+      "source_form": "दोस्त"
+    },
+    {
+      "id": "ch014_v07",
+      "target": "समय",
+      "bangla_pronunciation": "সময়",
+      "word_pronunciations": [
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "samay",
+      "meaning_bengali_md": "সময়",
+      "source_sentence_id": "ch014_s16",
+      "source_form": "समय"
+    },
+    {
+      "id": "ch014_v08",
+      "target": "व्यस्त",
+      "bangla_pronunciation": "ব্যস্ত",
+      "word_pronunciations": [
+        {
+          "target": "व्यस्त",
+          "bangla_pronunciation": "ব্যস্ত",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষণ",
+      "romanization": "vyast",
+      "meaning_bengali_md": "ব্যস্ত",
+      "source_sentence_id": "ch014_s17",
+      "source_form": "व्यस्त"
+    },
+    {
+      "id": "ch014_v09",
+      "target": "रविवार",
+      "bangla_pronunciation": "রবিবার",
+      "word_pronunciations": [
+        {
+          "target": "रविवार",
+          "bangla_pronunciation": "রবিবার",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "ravivaar",
+      "meaning_bengali_md": "রবিবার",
+      "source_sentence_id": "ch014_s18",
+      "source_form": "रविवार"
+    },
+    {
+      "id": "ch014_v10",
+      "target": "आइए",
+      "bangla_pronunciation": "আইয়ে",
+      "word_pronunciations": [
+        {
+          "target": "आइए",
+          "bangla_pronunciation": "আইয়ে",
+          "separator_after": ""
+        }
+      ],
+      "type": "ক্রিয়া",
+      "romanization": "aaiye",
+      "meaning_bengali_md": "আসুন—সম্মানসূচক",
+      "source_sentence_id": "ch014_s20",
+      "source_form": "आइए"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "চায়ের আমন্ত্রণ",
+    "scene_summary": "দুই প্রাপ্তবয়স্ক বন্ধু ফোনে বা সামনাসামনি চায়ের জন্য সময় ঠিক করছে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "সাদিয়া নতুন এক বন্ধুকে চায়ের আমন্ত্রণ দিল। সে জিজ্ঞেস করল, "
+      },
+      {
+        "kind": "target",
+        "target": "क्या आप आज खाली हैं?",
+        "bangla_pronunciation": "ক্যা আপ আজ খালি হ্যাঁয়?",
+        "word_pronunciations": [
+          {
+            "target": "क्या",
+            "bangla_pronunciation": "ক্যা",
+            "separator_after": " "
+          },
+          {
+            "target": "आप",
+            "bangla_pronunciation": "আপ",
+            "separator_after": " "
+          },
+          {
+            "target": "आज",
+            "bangla_pronunciation": "আজ",
+            "separator_after": " "
+          },
+          {
+            "target": "खाली",
+            "bangla_pronunciation": "খালি",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं?",
+            "bangla_pronunciation": "হ্যাঁয়?",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " বন্ধু আজ ব্যস্ত বলে জানাল। সাদিয়া প্রস্তাব দিল, "
+      },
+      {
+        "kind": "target",
+        "target": "हम शाम को मिलें?",
+        "bangla_pronunciation": "হম শাম কো মিলেঁ?",
+        "word_pronunciations": [
+          {
+            "target": "हम",
+            "bangla_pronunciation": "হম",
+            "separator_after": " "
+          },
+          {
+            "target": "शाम",
+            "bangla_pronunciation": "শাম",
+            "separator_after": " "
+          },
+          {
+            "target": "को",
+            "bangla_pronunciation": "কো",
+            "separator_after": " "
+          },
+          {
+            "target": "मिलें?",
+            "bangla_pronunciation": "মিলেঁ?",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " সময় ঠিক করে বন্ধু বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "छह बजे ठीक है।",
+        "bangla_pronunciation": "ছহ বজে ঠিক হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "छह",
+            "bangla_pronunciation": "ছহ",
+            "separator_after": " "
+          },
+          {
+            "target": "बजे",
+            "bangla_pronunciation": "বজে",
+            "separator_after": " "
+          },
+          {
+            "target": "ठीक",
+            "bangla_pronunciation": "ঠিক",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " সাদিয়া শেষে হাসিমুখে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "आप भी आइए।",
+        "bangla_pronunciation": "আপ ভি আইয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "आप",
+            "bangla_pronunciation": "আপ",
+            "separator_after": " "
+          },
+          {
+            "target": "भी",
+            "bangla_pronunciation": "ভি",
+            "separator_after": " "
+          },
+          {
+            "target": "आइए।",
+            "bangla_pronunciation": "আইয়ে।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "সাদিয়া নতুন এক বন্ধুকে চায়ের আমন্ত্রণ দিল। সে জিজ্ঞেস করল, **क्या** (ক্যা) **आप** (আপ) **आज** (আজ) **खाली** (খালি) **हैं?** (হ্যাঁয়?) বন্ধু আজ ব্যস্ত বলে জানাল। সাদিয়া প্রস্তাব দিল, **हम** (হম) **शाम** (শাম) **को** (কো) **मिलें?** (মিলেঁ?) সময় ঠিক করে বন্ধু বলল, **छह** (ছহ) **बजे** (বজে) **ठीक** (ঠিক) **है।** (হ্যায়।) সাদিয়া শেষে হাসিমুখে বলল, **आप** (আপ) **भी** (ভি) **आइए।** (আইয়ে।)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "বন্ধুর সঙ্গে অবসর",
+    "scene_summary": "দুই বন্ধু পার্কে দেখা করে বই, ক্রিকেট ও চা নিয়ে সময় কাটাচ্ছে।",
+    "lines": [
+      {
+        "target": "मुझे किताबें पसंद हैं।",
+        "bangla_pronunciation": "মুঝে কিতাবেঁ পসন্দ হ্যাঁয়।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "किताबें",
+            "bangla_pronunciation": "কিতাবেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "पसंद",
+            "bangla_pronunciation": "পসন্দ",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যাঁয়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मेरे दोस्त को क्रिकेट पसंद है।",
+        "bangla_pronunciation": "মেরে দোস্ত কো ক্রিকেট পসন্দ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "मेरे",
+            "bangla_pronunciation": "মেরে",
+            "separator_after": " "
+          },
+          {
+            "target": "दोस्त",
+            "bangla_pronunciation": "দোস্ত",
+            "separator_after": " "
+          },
+          {
+            "target": "को",
+            "bangla_pronunciation": "কো",
+            "separator_after": " "
+          },
+          {
+            "target": "क्रिकेट",
+            "bangla_pronunciation": "ক্রিকেট",
+            "separator_after": " "
+          },
+          {
+            "target": "पसंद",
+            "bangla_pronunciation": "পসন্দ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "हम पार्क में मिलते हैं।",
+        "bangla_pronunciation": "হম পার্ক মেঁ মিলতে হ্যাঁয়।",
+        "word_pronunciations": [
+          {
+            "target": "हम",
+            "bangla_pronunciation": "হম",
+            "separator_after": " "
+          },
+          {
+            "target": "पार्क",
+            "bangla_pronunciation": "পার্ক",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "मिलते",
+            "bangla_pronunciation": "মিলতে",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যাঁয়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "हम शाम को बैठते हैं।",
+        "bangla_pronunciation": "হম শাম কো বৈঠতে হ্যাঁয়।",
+        "word_pronunciations": [
+          {
+            "target": "हम",
+            "bangla_pronunciation": "হম",
+            "separator_after": " "
+          },
+          {
+            "target": "शाम",
+            "bangla_pronunciation": "শাম",
+            "separator_after": " "
+          },
+          {
+            "target": "को",
+            "bangla_pronunciation": "কো",
+            "separator_after": " "
+          },
+          {
+            "target": "बैठते",
+            "bangla_pronunciation": "বৈঠতে",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যাঁয়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "फिर हम चाय पीते हैं।",
+        "bangla_pronunciation": "ফির হম চায় পীতে হ্যাঁয়।",
+        "word_pronunciations": [
+          {
+            "target": "फिर",
+            "bangla_pronunciation": "ফির",
+            "separator_after": " "
+          },
+          {
+            "target": "हम",
+            "bangla_pronunciation": "হম",
+            "separator_after": " "
+          },
+          {
+            "target": "चाय",
+            "bangla_pronunciation": "চায়",
+            "separator_after": " "
+          },
+          {
+            "target": "पीते",
+            "bangla_pronunciation": "পীতে",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যাঁয়।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "মুঝে কিতাবেঁ পসন্দ হ্যাঁয়। মেরে দোস্ত কো ক্রিকেট পসন্দ হ্যায়। হম পার্ক মেঁ মিলতে হ্যাঁয়। হম শাম কো বৈঠতে হ্যাঁয়। ফির হম চায় পীতে হ্যাঁয়।",
+    "meaning_bengali_md": "আমার বই পছন্দ। আমার বন্ধুর ক্রিকেট পছন্দ। আমরা পার্কে দেখা করি। আমরা সন্ধ্যায় বসি। তারপর আমরা চা খাই।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_consonant_sh",
+      "mode": "application",
+      "target": "श",
+      "bangla_pronunciation": "শ",
+      "explanation_bengali_md": "এটি সাধারণত বাংলা ‘শ’-এর কাছাকাছি ধ্বনি।",
+      "practice_bengali_md": "ধ্বনিটি বলুন এবং অক্ষরটি তিনবার লিখুন।"
+    },
+    {
+      "item_id": "dev_consonant_ss",
+      "mode": "application",
+      "target": "ष",
+      "bangla_pronunciation": "ষ/শ",
+      "explanation_bengali_md": "এটি ঐতিহাসিকভাবে মূর্ধন্য ‘ষ’; আধুনিক হিন্দিতে অনেক ক্ষেত্রে ‘শ’-এর কাছাকাছি শোনা যায়।",
+      "practice_bengali_md": "অক্ষরটির আকার আলাদা করে চিনুন।"
+    },
+    {
+      "item_id": "dev_consonant_s",
+      "mode": "review",
+      "target": "स",
+      "bangla_pronunciation": "স",
+      "explanation_bengali_md": "এটি বাংলা ‘স’-এর কাছাকাছি ধ্বনি।",
+      "practice_bengali_md": "শ ও স-এর আকৃতি গুলিয়ে না ফেলে দুবার দেখে নিন।"
+    },
+    {
+      "item_id": "dev_consonant_h",
+      "mode": "review",
+      "target": "ह",
+      "bangla_pronunciation": "হ",
+      "explanation_bengali_md": "এটি ‘হ’ ধ্বনি নির্দেশ করে।",
+      "practice_bengali_md": "হালকা শ্বাসসহ ধ্বনিটি বলুন।"
+    },
+    {
+      "item_id": "dev_conjunct_ksh",
+      "mode": "application",
+      "target": "क्ष",
+      "bangla_pronunciation": "ক্ষ/ক্ষ্য",
+      "explanation_bengali_md": "এটি একটি প্রচলিত যুক্তরূপ; শব্দভেদে উচ্চারণে সামান্য পার্থক্য হতে পারে।",
+      "practice_bengali_md": "আকৃতিটি একক চিহ্নের মতো চিনে নিন, কিন্তু এটি যুক্ত ব্যঞ্জন মনে রাখুন।"
+    }
+  ],
+  "number_practice": [
+    {
+      "display": "6 / ६",
+      "target": "छह",
+      "bangla_pronunciation": "ছহ",
+      "word_pronunciations": [
+        {
+          "target": "छह",
+          "bangla_pronunciation": "ছহ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ছয়",
+      "system": "International + Devanagari"
+    },
+    {
+      "display": "7 / ७",
+      "target": "सात",
+      "bangla_pronunciation": "সাত",
+      "word_pronunciations": [
+        {
+          "target": "सात",
+          "bangla_pronunciation": "সাত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সাত",
+      "system": "International + Devanagari"
+    }
+  ],
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "কাউকে তার পছন্দ জিজ্ঞেস করুন।",
+      "model_target": "आपको क्या पसंद है?",
+      "model_bangla_pronunciation": "আপকো ক্যা পসন্দ হ্যায়?",
+      "model_word_pronunciations": [
+        {
+          "target": "आपको",
+          "bangla_pronunciation": "আপকো",
+          "separator_after": " "
+        },
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসন্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আপনার কী পছন্দ?"
+    },
+    {
+      "prompt_bengali_md": "চা খাওয়ার প্রস্তাব দিন।",
+      "model_target": "चलो चाय पीते हैं।",
+      "model_bangla_pronunciation": "চলো চায় পীতে হ্যাঁয়।",
+      "model_word_pronunciations": [
+        {
+          "target": "चलो",
+          "bangla_pronunciation": "চলো",
+          "separator_after": " "
+        },
+        {
+          "target": "चाय",
+          "bangla_pronunciation": "চায়",
+          "separator_after": " "
+        },
+        {
+          "target": "पीते",
+          "bangla_pronunciation": "পীতে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "চলো চা খাই।"
+    },
+    {
+      "prompt_bengali_md": "আজ ফাঁকা আছেন কি না জিজ্ঞেস করুন।",
+      "model_target": "क्या आप आज खाली हैं?",
+      "model_bangla_pronunciation": "ক্যা আপ আজ খালি হ্যাঁয়?",
+      "model_word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आप",
+          "bangla_pronunciation": "আপ",
+          "separator_after": " "
+        },
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "खाली",
+          "bangla_pronunciation": "খালি",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं?",
+          "bangla_pronunciation": "হ্যাঁয়?",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আপনি কি আজ ফাঁকা আছেন?"
+    },
+    {
+      "prompt_bengali_md": "সন্ধ্যায় দেখা করার প্রস্তাব দিন।",
+      "model_target": "हम शाम को मिलें?",
+      "model_bangla_pronunciation": "হম শাম কো মিলেঁ?",
+      "model_word_pronunciations": [
+        {
+          "target": "हम",
+          "bangla_pronunciation": "হম",
+          "separator_after": " "
+        },
+        {
+          "target": "शाम",
+          "bangla_pronunciation": "শাম",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलें?",
+          "bangla_pronunciation": "মিলেঁ?",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমরা কি সন্ধ্যায় দেখা করি?"
+    },
+    {
+      "prompt_bengali_md": "ভদ্রভাবে আসতে না পারার কথা বলুন।",
+      "model_target": "माफ़ कीजिए, मैं नहीं आ पाऊँगा।",
+      "model_bangla_pronunciation": "মাফ কিজিয়ে, ম্যাঁ নহিঁ আ পাউঙ্গা।",
+      "model_word_pronunciations": [
+        {
+          "target": "माफ़",
+          "bangla_pronunciation": "মাফ",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए,",
+          "bangla_pronunciation": "কিজিয়ে,",
+          "separator_after": " "
+        },
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "आ",
+          "bangla_pronunciation": "আ",
+          "separator_after": " "
+        },
+        {
+          "target": "पाऊँगा।",
+          "bangla_pronunciation": "পাউঙ্গা।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "দুঃখিত, আমি আসতে পারব না।"
+    },
+    {
+      "prompt_bengali_md": "কাউকে সঙ্গে আসতে বলুন।",
+      "model_target": "आप भी आइए।",
+      "model_bangla_pronunciation": "আপ ভি আইয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "आप",
+          "bangla_pronunciation": "আপ",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভি",
+          "separator_after": " "
+        },
+        {
+          "target": "आइए।",
+          "bangla_pronunciation": "আইয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আপনিও আসুন।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch014_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "Friendly contemporary café or home tea setting in South Asia; two adult friends smile while checking their schedules and agreeing on an evening meeting, cups of tea nearby, natural gestures, bright uncluttered composition. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    },
+    {
+      "key": "ch014_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A different green neighborhood park at sunset; two adult friends sit on a bench with a book and a cricket ball nearby, chatting casually before sharing tea, warm social atmosphere and clear focal pair. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    }
+  ],
+  "additional_practice": []
+}

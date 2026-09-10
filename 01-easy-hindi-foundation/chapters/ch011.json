@@ -1,0 +1,1213 @@
+{
+  "chapter_id": "ch011",
+  "status": "drafted",
+  "title_target": "शहर में रास्ते और जगहें",
+  "title_bangla_pronunciation": "শহর মেঁ রাস্‌তে অউর জগহেঁ",
+  "title_word_pronunciations": [
+    {
+      "target": "शहर",
+      "bangla_pronunciation": "শহর",
+      "separator_after": " "
+    },
+    {
+      "target": "में",
+      "bangla_pronunciation": "মেঁ",
+      "separator_after": " "
+    },
+    {
+      "target": "रास्ते",
+      "bangla_pronunciation": "রাস্‌তে",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "जगहें",
+      "bangla_pronunciation": "জগহেঁ",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "শহরে রাস্তা ও জায়গা",
+  "goal_bengali_md": "শহরের গুরুত্বপূর্ণ জায়গা চেনা, কোথায় জিজ্ঞেস করা এবং সহজ দিকনির্দেশ দেওয়া ও বোঝা।",
+  "sentences": [
+    {
+      "id": "ch011_s01",
+      "target": "बाज़ार कहाँ है?",
+      "bangla_pronunciation": "বাজার কহাঁ হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "बाज़ार",
+          "bangla_pronunciation": "বাজার",
+          "separator_after": " "
+        },
+        {
+          "target": "कहाँ",
+          "bangla_pronunciation": "কহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "baazaar kahaan hai?",
+      "meaning_bengali_md": "বাজার কোথায়?"
+    },
+    {
+      "id": "ch011_s02",
+      "target": "अस्पताल कहाँ है?",
+      "bangla_pronunciation": "অসপতাল কহাঁ হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "अस्पताल",
+          "bangla_pronunciation": "অসপতাল",
+          "separator_after": " "
+        },
+        {
+          "target": "कहाँ",
+          "bangla_pronunciation": "কহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "aspataal kahaan hai?",
+      "meaning_bengali_md": "হাসপাতাল কোথায়?"
+    },
+    {
+      "id": "ch011_s03",
+      "target": "स्कूल यहाँ से दूर है।",
+      "bangla_pronunciation": "স্কুল যহাঁ সে দূর হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "स्कूल",
+          "bangla_pronunciation": "স্কুল",
+          "separator_after": " "
+        },
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "दूर",
+          "bangla_pronunciation": "দূর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "school yahaan se door hai.",
+      "meaning_bengali_md": "স্কুল এখান থেকে দূরে।"
+    },
+    {
+      "id": "ch011_s04",
+      "target": "मस्जिद पास में है।",
+      "bangla_pronunciation": "মসজিদ পাস মেঁ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मस्जिद",
+          "bangla_pronunciation": "মসজিদ",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "masjid paas mein hai.",
+      "meaning_bengali_md": "মসজিদ কাছেই আছে।"
+    },
+    {
+      "id": "ch011_s05",
+      "target": "मेरा दफ़्तर सामने है।",
+      "bangla_pronunciation": "মেরা দফ्तर সামনে হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "separator_after": " "
+        },
+        {
+          "target": "दफ़्तर",
+          "bangla_pronunciation": "দফ्तर",
+          "separator_after": " "
+        },
+        {
+          "target": "सामने",
+          "bangla_pronunciation": "সামনে",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "mera daftar saamne hai.",
+      "meaning_bengali_md": "আমার অফিস সামনে।"
+    },
+    {
+      "id": "ch011_s06",
+      "target": "यह सड़क सीधी है।",
+      "bangla_pronunciation": "যহ সড়ক সীধি হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "सड़क",
+          "bangla_pronunciation": "সড়ক",
+          "separator_after": " "
+        },
+        {
+          "target": "सीधी",
+          "bangla_pronunciation": "সীধি",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "yah sadak seedhi hai.",
+      "meaning_bengali_md": "এই রাস্তা সোজা।"
+    },
+    {
+      "id": "ch011_s07",
+      "target": "बाएँ मुड़िए।",
+      "bangla_pronunciation": "বায়েঁ মুড়িয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "बाएँ",
+          "bangla_pronunciation": "বায়েঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "मुड़िए।",
+          "bangla_pronunciation": "মুড়িয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "baaen mudiye.",
+      "meaning_bengali_md": "বাঁ দিকে ঘুরুন।"
+    },
+    {
+      "id": "ch011_s08",
+      "target": "दाएँ मुड़िए।",
+      "bangla_pronunciation": "দায়েঁ মুড়িয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "दाएँ",
+          "bangla_pronunciation": "দায়েঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "मुड़िए।",
+          "bangla_pronunciation": "মুড়িয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "daaen mudiye.",
+      "meaning_bengali_md": "ডান দিকে ঘুরুন।"
+    },
+    {
+      "id": "ch011_s09",
+      "target": "सीधे जाइए।",
+      "bangla_pronunciation": "সীধে জাইয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "सीधे",
+          "bangla_pronunciation": "সীধে",
+          "separator_after": " "
+        },
+        {
+          "target": "जाइए।",
+          "bangla_pronunciation": "জাইয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "seedhe jaiye.",
+      "meaning_bengali_md": "সোজা যান।"
+    },
+    {
+      "id": "ch011_s10",
+      "target": "यहाँ रुकिए।",
+      "bangla_pronunciation": "যহাঁ রুকিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "रुकिए।",
+          "bangla_pronunciation": "রুকিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "yahaan rukiye.",
+      "meaning_bengali_md": "এখানে থামুন।"
+    },
+    {
+      "id": "ch011_s11",
+      "target": "उस रास्ते से जाइए।",
+      "bangla_pronunciation": "উস রাস্‌তে সে জাইয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "उस",
+          "bangla_pronunciation": "উস",
+          "separator_after": " "
+        },
+        {
+          "target": "रास्ते",
+          "bangla_pronunciation": "রাস্‌তে",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जाइए।",
+          "bangla_pronunciation": "জাইয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "us raaste se jaiye.",
+      "meaning_bengali_md": "ওই রাস্তা দিয়ে যান।"
+    },
+    {
+      "id": "ch011_s12",
+      "target": "स्टेशन कितना दूर है?",
+      "bangla_pronunciation": "স্টেশন কিতনা দূর হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "स्टेशन",
+          "bangla_pronunciation": "স্টেশন",
+          "separator_after": " "
+        },
+        {
+          "target": "कितना",
+          "bangla_pronunciation": "কিতনা",
+          "separator_after": " "
+        },
+        {
+          "target": "दूर",
+          "bangla_pronunciation": "দূর",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "station kitna door hai?",
+      "meaning_bengali_md": "স্টেশন কত দূরে?"
+    },
+    {
+      "id": "ch011_s13",
+      "target": "क्या बाज़ार पास है?",
+      "bangla_pronunciation": "ক্যা বাজার পাস হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "बाज़ार",
+          "bangla_pronunciation": "বাজার",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "kya baazaar paas hai?",
+      "meaning_bengali_md": "বাজার কি কাছে?"
+    },
+    {
+      "id": "ch011_s14",
+      "target": "मुझे रास्ता बताइए।",
+      "bangla_pronunciation": "মুঝে রাস্‌তা বতাইয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "रास्ता",
+          "bangla_pronunciation": "রাস্‌তা",
+          "separator_after": " "
+        },
+        {
+          "target": "बताइए।",
+          "bangla_pronunciation": "বতাইয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "mujhe raasta bataiye.",
+      "meaning_bengali_md": "আমাকে পথটা বলুন।"
+    },
+    {
+      "id": "ch011_s15",
+      "target": "यह जगह कहाँ है?",
+      "bangla_pronunciation": "যহ জগহ কহাঁ হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "जगह",
+          "bangla_pronunciation": "জগহ",
+          "separator_after": " "
+        },
+        {
+          "target": "कहाँ",
+          "bangla_pronunciation": "কহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "yah jagah kahaan hai?",
+      "meaning_bengali_md": "এই জায়গাটি কোথায়?"
+    },
+    {
+      "id": "ch011_s16",
+      "target": "पुल के बाद मुड़िए।",
+      "bangla_pronunciation": "পুল কে বাদ মুড়িয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "पुल",
+          "bangla_pronunciation": "পুল",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "बाद",
+          "bangla_pronunciation": "বাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "मुड़िए।",
+          "bangla_pronunciation": "মুড়িয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "pul ke baad mudiye.",
+      "meaning_bengali_md": "সেতুর পরে ঘুরুন।"
+    },
+    {
+      "id": "ch011_s17",
+      "target": "दुकान के सामने रुकिए।",
+      "bangla_pronunciation": "দুকান কে সামনে রুকিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "दुकान",
+          "bangla_pronunciation": "দুকান",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "सामने",
+          "bangla_pronunciation": "সামনে",
+          "separator_after": " "
+        },
+        {
+          "target": "रुकिए।",
+          "bangla_pronunciation": "রুকিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "dukaan ke saamne rukiye.",
+      "meaning_bengali_md": "দোকানের সামনে থামুন।"
+    },
+    {
+      "id": "ch011_s18",
+      "target": "बैंक स्कूल के पास है।",
+      "bangla_pronunciation": "ব্যাঙ্ক স্কুল কে পাস হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "बैंक",
+          "bangla_pronunciation": "ব্যাঙ্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "स्कूल",
+          "bangla_pronunciation": "স্কুল",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "bank school ke paas hai.",
+      "meaning_bengali_md": "ব্যাংক স্কুলের কাছে।"
+    },
+    {
+      "id": "ch011_s19",
+      "target": "मैं रास्ता भूल गया।",
+      "bangla_pronunciation": "ম্যাঁ রাস্‌তা ভূল গয়া।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "रास्ता",
+          "bangla_pronunciation": "রাস্‌তা",
+          "separator_after": " "
+        },
+        {
+          "target": "भूल",
+          "bangla_pronunciation": "ভূল",
+          "separator_after": " "
+        },
+        {
+          "target": "गया।",
+          "bangla_pronunciation": "গয়া।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "main raasta bhool gaya.",
+      "meaning_bengali_md": "আমি পথ ভুলে গেছি।"
+    },
+    {
+      "id": "ch011_s20",
+      "target": "धन्यवाद, मुझे मिल गया।",
+      "bangla_pronunciation": "ধন্যবাদ, মুঝে মিল গয়া।",
+      "word_pronunciations": [
+        {
+          "target": "धन्यवाद,",
+          "bangla_pronunciation": "ধন্যবাদ,",
+          "separator_after": " "
+        },
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "मिल",
+          "bangla_pronunciation": "মিল",
+          "separator_after": " "
+        },
+        {
+          "target": "गया।",
+          "bangla_pronunciation": "গয়া।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "dhanyavaad, mujhe mil gaya.",
+      "meaning_bengali_md": "ধন্যবাদ, আমি পেয়ে গেছি।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "ch011_v01",
+      "target": "बाज़ार",
+      "bangla_pronunciation": "বাজার",
+      "word_pronunciations": [
+        {
+          "target": "बाज़ार",
+          "bangla_pronunciation": "বাজার",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "baazaar",
+      "meaning_bengali_md": "বাজার",
+      "source_sentence_id": "ch011_s01",
+      "source_form": "बाज़ार"
+    },
+    {
+      "id": "ch011_v02",
+      "target": "अस्पताल",
+      "bangla_pronunciation": "অসপতাল",
+      "word_pronunciations": [
+        {
+          "target": "अस्पताल",
+          "bangla_pronunciation": "অসপতাল",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "aspataal",
+      "meaning_bengali_md": "হাসপাতাল",
+      "source_sentence_id": "ch011_s02",
+      "source_form": "अस्पताल"
+    },
+    {
+      "id": "ch011_v03",
+      "target": "दूर",
+      "bangla_pronunciation": "দূর",
+      "word_pronunciations": [
+        {
+          "target": "दूर",
+          "bangla_pronunciation": "দূর",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষণ/ক্রিয়াবিশেষণ",
+      "romanization": "door",
+      "meaning_bengali_md": "দূরে",
+      "source_sentence_id": "ch011_s03",
+      "source_form": "दूर"
+    },
+    {
+      "id": "ch011_v04",
+      "target": "पास",
+      "bangla_pronunciation": "পাস",
+      "word_pronunciations": [
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": ""
+        }
+      ],
+      "type": "ক্রিয়াবিশেষণ",
+      "romanization": "paas",
+      "meaning_bengali_md": "কাছে",
+      "source_sentence_id": "ch011_s04",
+      "source_form": "पास"
+    },
+    {
+      "id": "ch011_v05",
+      "target": "सामने",
+      "bangla_pronunciation": "সামনে",
+      "word_pronunciations": [
+        {
+          "target": "सामने",
+          "bangla_pronunciation": "সামনে",
+          "separator_after": ""
+        }
+      ],
+      "type": "ক্রিয়াবিশেষণ",
+      "romanization": "saamne",
+      "meaning_bengali_md": "সামনে",
+      "source_sentence_id": "ch011_s05",
+      "source_form": "सामने"
+    },
+    {
+      "id": "ch011_v06",
+      "target": "बाएँ",
+      "bangla_pronunciation": "বায়েঁ",
+      "word_pronunciations": [
+        {
+          "target": "बाएँ",
+          "bangla_pronunciation": "বায়েঁ",
+          "separator_after": ""
+        }
+      ],
+      "type": "দিক নির্দেশ",
+      "romanization": "baaen",
+      "meaning_bengali_md": "বাঁ দিকে",
+      "source_sentence_id": "ch011_s07",
+      "source_form": "बाएँ"
+    },
+    {
+      "id": "ch011_v07",
+      "target": "दाएँ",
+      "bangla_pronunciation": "দায়েঁ",
+      "word_pronunciations": [
+        {
+          "target": "दाएँ",
+          "bangla_pronunciation": "দায়েঁ",
+          "separator_after": ""
+        }
+      ],
+      "type": "দিক নির্দেশ",
+      "romanization": "daaen",
+      "meaning_bengali_md": "ডান দিকে",
+      "source_sentence_id": "ch011_s08",
+      "source_form": "दाएँ"
+    },
+    {
+      "id": "ch011_v08",
+      "target": "सीधे",
+      "bangla_pronunciation": "সীধে",
+      "word_pronunciations": [
+        {
+          "target": "सीधे",
+          "bangla_pronunciation": "সীধে",
+          "separator_after": ""
+        }
+      ],
+      "type": "ক্রিয়াবিশেষণ",
+      "romanization": "seedhe",
+      "meaning_bengali_md": "সোজা",
+      "source_sentence_id": "ch011_s09",
+      "source_form": "सीधे"
+    },
+    {
+      "id": "ch011_v09",
+      "target": "रास्ता",
+      "bangla_pronunciation": "রাস্‌তা",
+      "word_pronunciations": [
+        {
+          "target": "रास्ता",
+          "bangla_pronunciation": "রাস্‌তা",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "raasta",
+      "meaning_bengali_md": "রাস্তা/পথ",
+      "source_sentence_id": "ch011_s14",
+      "source_form": "रास्ता"
+    },
+    {
+      "id": "ch011_v10",
+      "target": "बताइए",
+      "bangla_pronunciation": "বতাইয়ে",
+      "word_pronunciations": [
+        {
+          "target": "बताइए",
+          "bangla_pronunciation": "বতাইয়ে",
+          "separator_after": ""
+        }
+      ],
+      "type": "ক্রিয়া",
+      "romanization": "bataiye",
+      "meaning_bengali_md": "বলুন/জানান—সম্মানসূচক অনুরোধ",
+      "source_sentence_id": "ch011_s14",
+      "source_form": "बताइए"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "নতুন শহরে পথ খোঁজা",
+    "scene_summary": "একজন বাংলাদেশি ভ্রমণকারী শহরের রাস্তায় একজন স্থানীয়ের কাছে হাসপাতালের দিক জিজ্ঞেস করছে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "নতুন শহরে নাবিল একটি হাসপাতাল খুঁজছিল। সে একজন পথচারীকে জিজ্ঞেস করল, "
+      },
+      {
+        "kind": "target",
+        "target": "अस्पताल कहाँ है?",
+        "bangla_pronunciation": "অসপতাল কহাঁ হ্যায়?",
+        "word_pronunciations": [
+          {
+            "target": "अस्पताल",
+            "bangla_pronunciation": "অসপতাল",
+            "separator_after": " "
+          },
+          {
+            "target": "कहाँ",
+            "bangla_pronunciation": "কহাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "है?",
+            "bangla_pronunciation": "হ্যায়?",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " পথচারী হাসিমুখে বললেন, "
+      },
+      {
+        "kind": "target",
+        "target": "सीधे जाइए।",
+        "bangla_pronunciation": "সীধে জাইয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "सीधे",
+            "bangla_pronunciation": "সীধে",
+            "separator_after": " "
+          },
+          {
+            "target": "जाइए।",
+            "bangla_pronunciation": "জাইয়ে।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " তারপর মোড়ে গিয়ে "
+      },
+      {
+        "kind": "target",
+        "target": "बाएँ मुड़िए।",
+        "bangla_pronunciation": "বায়েঁ মুড়িয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "बाएँ",
+            "bangla_pronunciation": "বায়েঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "मुड़िए।",
+            "bangla_pronunciation": "মুড়িয়ে।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " তিনি আরও বললেন, "
+      },
+      {
+        "kind": "target",
+        "target": "अस्पताल पास में है।",
+        "bangla_pronunciation": "অসপতাল পাস মেঁ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "अस्पताल",
+            "bangla_pronunciation": "অসপতাল",
+            "separator_after": " "
+          },
+          {
+            "target": "पास",
+            "bangla_pronunciation": "পাস",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " নাবিল জায়গাটি দেখে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "धन्यवाद।",
+        "bangla_pronunciation": "ধন্যবাদ।",
+        "word_pronunciations": [
+          {
+            "target": "धन्यवाद।",
+            "bangla_pronunciation": "ধন্যবাদ।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "নতুন শহরে নাবিল একটি হাসপাতাল খুঁজছিল। সে একজন পথচারীকে জিজ্ঞেস করল, **अस्पताल** (অসপতাল) **कहाँ** (কহাঁ) **है?** (হ্যায়?) পথচারী হাসিমুখে বললেন, **सीधे** (সীধে) **जाइए।** (জাইয়ে।) তারপর মোড়ে গিয়ে **बाएँ** (বায়েঁ) **मुड़िए।** (মুড়িয়ে।) তিনি আরও বললেন, **अस्पताल** (অসপতাল) **पास** (পাস) **में** (মেঁ) **है।** (হ্যায়।) নাবিল জায়গাটি দেখে বলল, **धन्यवाद।** (ধন্যবাদ।)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "বাজারের পথে",
+    "scene_summary": "একজন ব্যক্তি কাছের বাজারে যাওয়ার সহজ পথ অনুসরণ করছে।",
+    "lines": [
+      {
+        "target": "बाज़ार पास है।",
+        "bangla_pronunciation": "বাজার পাস হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "बाज़ार",
+            "bangla_pronunciation": "বাজার",
+            "separator_after": " "
+          },
+          {
+            "target": "पास",
+            "bangla_pronunciation": "পাস",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मैं सीधे जाता हूँ।",
+        "bangla_pronunciation": "ম্যাঁ সীধে জাতা হুঁ।",
+        "word_pronunciations": [
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "सीधे",
+            "bangla_pronunciation": "সীধে",
+            "separator_after": " "
+          },
+          {
+            "target": "जाता",
+            "bangla_pronunciation": "জাতা",
+            "separator_after": " "
+          },
+          {
+            "target": "हूँ।",
+            "bangla_pronunciation": "হুঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "फिर दाएँ मुड़ता हूँ।",
+        "bangla_pronunciation": "ফির দায়েঁ মুড়তা হুঁ।",
+        "word_pronunciations": [
+          {
+            "target": "फिर",
+            "bangla_pronunciation": "ফির",
+            "separator_after": " "
+          },
+          {
+            "target": "दाएँ",
+            "bangla_pronunciation": "দায়েঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "मुड़ता",
+            "bangla_pronunciation": "মুড়তা",
+            "separator_after": " "
+          },
+          {
+            "target": "हूँ।",
+            "bangla_pronunciation": "হুঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "दुकान सामने है।",
+        "bangla_pronunciation": "দুকান সামনে হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "दुकान",
+            "bangla_pronunciation": "দুকান",
+            "separator_after": " "
+          },
+          {
+            "target": "सामने",
+            "bangla_pronunciation": "সামনে",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मुझे बाज़ार मिल गया।",
+        "bangla_pronunciation": "মুঝে বাজার মিল গয়া।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "बाज़ार",
+            "bangla_pronunciation": "বাজার",
+            "separator_after": " "
+          },
+          {
+            "target": "मिल",
+            "bangla_pronunciation": "মিল",
+            "separator_after": " "
+          },
+          {
+            "target": "गया।",
+            "bangla_pronunciation": "গয়া।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "বাজার পাস হ্যায়। ম্যাঁ সীধে জাতা হুঁ। ফির দায়েঁ মুড়তা হুঁ। দুকান সামনে হ্যায়। মুঝে বাজার মিল গয়া।",
+    "meaning_bengali_md": "বাজার কাছে। আমি সোজা যাই। তারপর ডান দিকে ঘুরি। দোকান সামনে। আমি বাজারটি পেয়ে গেলাম।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_sign_e",
+      "mode": "application",
+      "target": "े",
+      "bangla_pronunciation": "এ",
+      "explanation_bengali_md": "এই মাত্রাটি ব্যঞ্জনের সঙ্গে ‘এ’ ধ্বনি যোগ করে।",
+      "practice_bengali_md": "মাত্রাটি দেখে ধ্বনিটি বলুন এবং তিনবার লিখুন।"
+    },
+    {
+      "item_id": "dev_sign_ii",
+      "mode": "application",
+      "target": "ी",
+      "bangla_pronunciation": "ঈ/ই",
+      "explanation_bengali_md": "এই মাত্রাটি সাধারণত দীর্ঘ ‘ঈ/ই’ ধ্বনি নির্দেশ করে।",
+      "practice_bengali_md": "চিহ্নটি চিনে উচ্চারণ বলুন এবং তিনবার লিখুন।"
+    },
+    {
+      "item_id": "dev_sign_u",
+      "mode": "application",
+      "target": "ु",
+      "bangla_pronunciation": "উ",
+      "explanation_bengali_md": "এই মাত্রাটি ব্যঞ্জনের নিচে বসে ছোট ‘উ’ ধ্বনি দেয়।",
+      "practice_bengali_md": "আকৃতিটি লক্ষ্য করে ধ্বনিটি বলুন।"
+    },
+    {
+      "item_id": "dev_sign_o",
+      "mode": "application",
+      "target": "ो",
+      "bangla_pronunciation": "ও",
+      "explanation_bengali_md": "এই মাত্রাটি সাধারণত ‘ও’ ধ্বনি তৈরি করে।",
+      "practice_bengali_md": "চিহ্নটি আলাদা করে চিনুন এবং তিনবার লিখুন।"
+    },
+    {
+      "item_id": "dev_consonant_ddh",
+      "mode": "review",
+      "target": "ढ",
+      "bangla_pronunciation": "ঢ",
+      "explanation_bengali_md": "এটি মূর্ধন্য উচ্চারণের একটি ব্যঞ্জন; বাংলা ‘ঢ’-এর কাছাকাছি।",
+      "practice_bengali_md": "জিহ্বা একটু পেছনে রেখে ধ্বনিটি ধীরে বলুন।"
+    }
+  ],
+  "number_practice": [
+    {
+      "display": "20 / २०",
+      "target": "बीस",
+      "bangla_pronunciation": "বীস",
+      "word_pronunciations": [
+        {
+          "target": "बीस",
+          "bangla_pronunciation": "বীস",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিশ",
+      "system": "International + Devanagari"
+    },
+    {
+      "display": "50 / ५०",
+      "target": "पचास",
+      "bangla_pronunciation": "পচাস",
+      "word_pronunciations": [
+        {
+          "target": "पचास",
+          "bangla_pronunciation": "পচাস",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পঞ্চাশ",
+      "system": "International + Devanagari"
+    }
+  ],
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "বাজার কোথায়—এটি জিজ্ঞেস করুন।",
+      "model_target": "बाज़ार कहाँ है?",
+      "model_bangla_pronunciation": "বাজার কহাঁ হ্যায়?",
+      "model_word_pronunciations": [
+        {
+          "target": "बाज़ार",
+          "bangla_pronunciation": "বাজার",
+          "separator_after": " "
+        },
+        {
+          "target": "कहाँ",
+          "bangla_pronunciation": "কহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "বাজার কোথায়?"
+    },
+    {
+      "prompt_bengali_md": "কাউকে সোজা যেতে বলুন।",
+      "model_target": "सीधे जाइए।",
+      "model_bangla_pronunciation": "সীধে জাইয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "सीधे",
+          "bangla_pronunciation": "সীধে",
+          "separator_after": " "
+        },
+        {
+          "target": "जाइए।",
+          "bangla_pronunciation": "জাইয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "সোজা যান।"
+    },
+    {
+      "prompt_bengali_md": "বাঁ দিকে ঘুরতে বলুন।",
+      "model_target": "बाएँ मुड़िए।",
+      "model_bangla_pronunciation": "বায়েঁ মুড়িয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "बाएँ",
+          "bangla_pronunciation": "বায়েঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "मुड़िए।",
+          "bangla_pronunciation": "মুড়িয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "বাঁ দিকে ঘুরুন।"
+    },
+    {
+      "prompt_bengali_md": "কোনো জায়গা কাছে কি না জিজ্ঞেস করুন।",
+      "model_target": "क्या बाज़ार पास है?",
+      "model_bangla_pronunciation": "ক্যা বাজার পাস হ্যায়?",
+      "model_word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "बाज़ार",
+          "bangla_pronunciation": "বাজার",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "বাজার কি কাছে?"
+    },
+    {
+      "prompt_bengali_md": "পথ দেখাতে অনুরোধ করুন।",
+      "model_target": "मुझे रास्ता बताइए।",
+      "model_bangla_pronunciation": "মুঝে রাস্‌তা বতাইয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "रास्ता",
+          "bangla_pronunciation": "রাস্‌তা",
+          "separator_after": " "
+        },
+        {
+          "target": "बताइए।",
+          "bangla_pronunciation": "বতাইয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমাকে পথটা বলুন।"
+    },
+    {
+      "prompt_bengali_md": "এখানে থামতে বলুন।",
+      "model_target": "यहाँ रुकिए।",
+      "model_bangla_pronunciation": "যহাঁ রুকিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "रुकिए।",
+          "bangla_pronunciation": "রুকিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এখানে থামুন।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch011_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A lively but uncluttered Indian neighborhood street in daylight; a Bangladeshi adult traveler politely asks a local pedestrian for directions while pointing toward a nearby hospital entrance visible in the distance, with a clear road junction as the focal point. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    },
+    {
+      "key": "ch011_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A different quiet market approach in warm morning light; one adult walks straight toward a small local market, turns right near a shopfront, and looks relieved after finding the destination; clear directional body language, simple street geometry. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    }
+  ],
+  "additional_practice": []
+}

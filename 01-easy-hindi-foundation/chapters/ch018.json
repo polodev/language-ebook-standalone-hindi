@@ -1,0 +1,1343 @@
+{
+  "chapter_id": "ch018",
+  "status": "drafted",
+  "title_target": "फोन कॉल और छोटे संदेश",
+  "title_bangla_pronunciation": "ফোন কল অউর ছোটে সন্দেশ",
+  "title_word_pronunciations": [
+    {
+      "target": "फोन",
+      "bangla_pronunciation": "ফোন",
+      "separator_after": " "
+    },
+    {
+      "target": "कॉल",
+      "bangla_pronunciation": "কল",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "छोटे",
+      "bangla_pronunciation": "ছোটে",
+      "separator_after": " "
+    },
+    {
+      "target": "संदेश",
+      "bangla_pronunciation": "সন্দেশ",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "ফোন কল ও ছোট বার্তা",
+  "goal_bengali_md": "ফোন শুরু করা, ভুল নম্বর, খারাপ লাইন, পরে কল করা, বার্তা পাঠানো ও ছোট উত্তর দেওয়া।",
+  "sentences": [
+    {
+      "id": "ch018_s01",
+      "target": "हैलो, कौन बोल रहा है?",
+      "bangla_pronunciation": "হ্যালো, কৌন বোল রহা হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "हैलो,",
+          "bangla_pronunciation": "হ্যালো,",
+          "separator_after": " "
+        },
+        {
+          "target": "कौन",
+          "bangla_pronunciation": "কৌন",
+          "separator_after": " "
+        },
+        {
+          "target": "बोल",
+          "bangla_pronunciation": "বোল",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा",
+          "bangla_pronunciation": "রহা",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "hello, kaun bol raha hai?",
+      "meaning_bengali_md": "হ্যালো, কে কথা বলছেন?"
+    },
+    {
+      "id": "ch018_s02",
+      "target": "मैं नाबिल बोल रहा हूँ।",
+      "bangla_pronunciation": "ম্যাঁ নাবিল বোল রহা হুঁ।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "नाबिल",
+          "bangla_pronunciation": "নাবিল",
+          "separator_after": " "
+        },
+        {
+          "target": "बोल",
+          "bangla_pronunciation": "বোল",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा",
+          "bangla_pronunciation": "রহা",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "main Nabil bol raha hoon.",
+      "meaning_bengali_md": "আমি নাবিল বলছি। (পুরুষ বক্তা)"
+    },
+    {
+      "id": "ch018_s03",
+      "target": "क्या रीमा वहाँ हैं?",
+      "bangla_pronunciation": "ক্যা রীমা বহাঁ হ্যাঁয়?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "रीमा",
+          "bangla_pronunciation": "রীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "वहाँ",
+          "bangla_pronunciation": "বহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं?",
+          "bangla_pronunciation": "হ্যাঁয়?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "kya Reema vahaan hain?",
+      "meaning_bengali_md": "রিমা কি সেখানে আছেন?"
+    },
+    {
+      "id": "ch018_s04",
+      "target": "यह गलत नंबर है।",
+      "bangla_pronunciation": "যহ গলত নম্বর হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "गलत",
+          "bangla_pronunciation": "গলত",
+          "separator_after": " "
+        },
+        {
+          "target": "नंबर",
+          "bangla_pronunciation": "নম্বর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "yah galat number hai.",
+      "meaning_bengali_md": "এটি ভুল নম্বর।"
+    },
+    {
+      "id": "ch018_s05",
+      "target": "आवाज़ साफ़ नहीं है।",
+      "bangla_pronunciation": "আওয়াজ সাফ নহিঁ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "आवाज़",
+          "bangla_pronunciation": "আওয়াজ",
+          "separator_after": " "
+        },
+        {
+          "target": "साफ़",
+          "bangla_pronunciation": "সাফ",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "aawaaz saaf nahin hai.",
+      "meaning_bengali_md": "শব্দ পরিষ্কার নয়।"
+    },
+    {
+      "id": "ch018_s06",
+      "target": "कृपया फिर बोलिए।",
+      "bangla_pronunciation": "কৃপয়া ফির বোলিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "बोलिए।",
+          "bangla_pronunciation": "বোলিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "kripaya phir boliye.",
+      "meaning_bengali_md": "অনুগ্রহ করে আবার বলুন।"
+    },
+    {
+      "id": "ch018_s07",
+      "target": "मैं बाद में कॉल करूँगा।",
+      "bangla_pronunciation": "ম্যাঁ বাদ মেঁ কল করুঙ্গা।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "बाद",
+          "bangla_pronunciation": "বাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "कॉल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "करूँगा।",
+          "bangla_pronunciation": "করুঙ্গা।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "main baad mein call karunga.",
+      "meaning_bengali_md": "আমি পরে ফোন করব। (পুরুষ বক্তা)"
+    },
+    {
+      "id": "ch018_s08",
+      "target": "आप मुझे कॉल कीजिए।",
+      "bangla_pronunciation": "আপ মুঝে কল কিজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "आप",
+          "bangla_pronunciation": "আপ",
+          "separator_after": " "
+        },
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "कॉल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কিজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "aap mujhe call kijiye.",
+      "meaning_bengali_md": "আপনি আমাকে ফোন করুন।"
+    },
+    {
+      "id": "ch018_s09",
+      "target": "मैं अभी व्यस्त हूँ।",
+      "bangla_pronunciation": "ম্যাঁ অভি ব্যস্ত হুঁ।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "अभी",
+          "bangla_pronunciation": "অভি",
+          "separator_after": " "
+        },
+        {
+          "target": "व्यस्त",
+          "bangla_pronunciation": "ব্যস্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "main abhi vyast hoon.",
+      "meaning_bengali_md": "আমি এখন ব্যস্ত।"
+    },
+    {
+      "id": "ch018_s10",
+      "target": "संदेश भेज दीजिए।",
+      "bangla_pronunciation": "সন্দেশ ভেজ দিজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "संदेश",
+          "bangla_pronunciation": "সন্দেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "भेज",
+          "bangla_pronunciation": "ভেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "sandesh bhej dijiye.",
+      "meaning_bengali_md": "বার্তা পাঠিয়ে দিন।"
+    },
+    {
+      "id": "ch018_s11",
+      "target": "मैं व्हाट्सऐप पर लिखूँगा।",
+      "bangla_pronunciation": "ম্যাঁ হোয়াটসঅ্যাপ পর লিখুঙ্গা।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "व्हाट्सऐप",
+          "bangla_pronunciation": "হোয়াটসঅ্যাপ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखूँगा।",
+          "bangla_pronunciation": "লিখুঙ্গা।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "main WhatsApp par likhunga.",
+      "meaning_bengali_md": "আমি হোয়াটসঅ্যাপে লিখব। (পুরুষ বক্তা)"
+    },
+    {
+      "id": "ch018_s12",
+      "target": "क्या आपको संदेश मिला?",
+      "bangla_pronunciation": "ক্যা আপকো সন্দেশ মিলা?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आपको",
+          "bangla_pronunciation": "আপকো",
+          "separator_after": " "
+        },
+        {
+          "target": "संदेश",
+          "bangla_pronunciation": "সন্দেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "मिला?",
+          "bangla_pronunciation": "মিলা?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "kya aapko sandesh mila?",
+      "meaning_bengali_md": "আপনি কি বার্তাটি পেয়েছেন?"
+    },
+    {
+      "id": "ch018_s13",
+      "target": "हाँ, संदेश मिल गया।",
+      "bangla_pronunciation": "হাঁ, সন্দেশ মিল গয়া।",
+      "word_pronunciations": [
+        {
+          "target": "हाँ,",
+          "bangla_pronunciation": "হাঁ,",
+          "separator_after": " "
+        },
+        {
+          "target": "संदेश",
+          "bangla_pronunciation": "সন্দেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "मिल",
+          "bangla_pronunciation": "মিল",
+          "separator_after": " "
+        },
+        {
+          "target": "गया।",
+          "bangla_pronunciation": "গয়া।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "haan, sandesh mil gaya.",
+      "meaning_bengali_md": "হ্যাঁ, বার্তাটি পেয়েছি।"
+    },
+    {
+      "id": "ch018_s14",
+      "target": "मैंने जवाब भेज दिया।",
+      "bangla_pronunciation": "ম্যাঁনে জওয়াব ভেজ দিয়া।",
+      "word_pronunciations": [
+        {
+          "target": "मैंने",
+          "bangla_pronunciation": "ম্যাঁনে",
+          "separator_after": " "
+        },
+        {
+          "target": "जवाब",
+          "bangla_pronunciation": "জওয়াব",
+          "separator_after": " "
+        },
+        {
+          "target": "भेज",
+          "bangla_pronunciation": "ভেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "दिया।",
+          "bangla_pronunciation": "দিয়া।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "maine jawaab bhej diya.",
+      "meaning_bengali_md": "আমি উত্তর পাঠিয়েছি।"
+    },
+    {
+      "id": "ch018_s15",
+      "target": "नेटवर्क बहुत कमजोर है।",
+      "bangla_pronunciation": "নেটওয়ার্ক বহুত কমজোর হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "नेटवर्क",
+          "bangla_pronunciation": "নেটওয়ার্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "कमजोर",
+          "bangla_pronunciation": "কমজোর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "network bahut kamzor hai.",
+      "meaning_bengali_md": "নেটওয়ার্ক খুব দুর্বল।"
+    },
+    {
+      "id": "ch018_s16",
+      "target": "कॉल कट गई।",
+      "bangla_pronunciation": "কল কট গয়ি।",
+      "word_pronunciations": [
+        {
+          "target": "कॉल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "कट",
+          "bangla_pronunciation": "কট",
+          "separator_after": " "
+        },
+        {
+          "target": "गई।",
+          "bangla_pronunciation": "গয়ি।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "call kat gayi.",
+      "meaning_bengali_md": "কল কেটে গেছে।"
+    },
+    {
+      "id": "ch018_s17",
+      "target": "मैं पाँच मिनट बाद कॉल करूँगा।",
+      "bangla_pronunciation": "ম্যাঁ পাঁচ মিনট বাদ কল করুঙ্গা।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "पाँच",
+          "bangla_pronunciation": "পাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "मिनट",
+          "bangla_pronunciation": "মিনট",
+          "separator_after": " "
+        },
+        {
+          "target": "बाद",
+          "bangla_pronunciation": "বাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "कॉल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "करूँगा।",
+          "bangla_pronunciation": "করুঙ্গা।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "main paanch minute baad call karunga.",
+      "meaning_bengali_md": "আমি পাঁচ মিনিট পরে ফোন করব।"
+    },
+    {
+      "id": "ch018_s18",
+      "target": "ठीक है, बाद में बात करेंगे।",
+      "bangla_pronunciation": "ঠিক হ্যায়, বাদ মেঁ বাত করেঙ্গে।",
+      "word_pronunciations": [
+        {
+          "target": "ठीक",
+          "bangla_pronunciation": "ঠিক",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হ্যায়,",
+          "separator_after": " "
+        },
+        {
+          "target": "बाद",
+          "bangla_pronunciation": "বাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "बात",
+          "bangla_pronunciation": "বাত",
+          "separator_after": " "
+        },
+        {
+          "target": "करेंगे।",
+          "bangla_pronunciation": "করেঙ্গে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "theek hai, baad mein baat karenge.",
+      "meaning_bengali_md": "ঠিক আছে, পরে কথা বলব।"
+    },
+    {
+      "id": "ch018_s19",
+      "target": "कृपया अपना नाम बताइए।",
+      "bangla_pronunciation": "কৃপয়া অপনা নাম বতাইয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "अपना",
+          "bangla_pronunciation": "অপনা",
+          "separator_after": " "
+        },
+        {
+          "target": "नाम",
+          "bangla_pronunciation": "নাম",
+          "separator_after": " "
+        },
+        {
+          "target": "बताइए।",
+          "bangla_pronunciation": "বতাইয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "kripaya apna naam bataiye.",
+      "meaning_bengali_md": "অনুগ্রহ করে আপনার নাম বলুন।"
+    },
+    {
+      "id": "ch018_s20",
+      "target": "धन्यवाद, मैं समझ गया।",
+      "bangla_pronunciation": "ধন্যবাদ, ম্যাঁ সমঝ গয়া।",
+      "word_pronunciations": [
+        {
+          "target": "धन्यवाद,",
+          "bangla_pronunciation": "ধন্যবাদ,",
+          "separator_after": " "
+        },
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "समझ",
+          "bangla_pronunciation": "সমঝ",
+          "separator_after": " "
+        },
+        {
+          "target": "गया।",
+          "bangla_pronunciation": "গয়া।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "dhanyavaad, main samajh gaya.",
+      "meaning_bengali_md": "ধন্যবাদ, আমি বুঝেছি। (পুরুষ বক্তা)"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "ch018_v01",
+      "target": "गलत",
+      "bangla_pronunciation": "গলত",
+      "word_pronunciations": [
+        {
+          "target": "गलत",
+          "bangla_pronunciation": "গলত",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষণ",
+      "romanization": "galat",
+      "meaning_bengali_md": "ভুল",
+      "source_sentence_id": "ch018_s04",
+      "source_form": "गलत"
+    },
+    {
+      "id": "ch018_v02",
+      "target": "आवाज़",
+      "bangla_pronunciation": "আওয়াজ",
+      "word_pronunciations": [
+        {
+          "target": "आवाज़",
+          "bangla_pronunciation": "আওয়াজ",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "aawaaz",
+      "meaning_bengali_md": "শব্দ/কণ্ঠস্বর",
+      "source_sentence_id": "ch018_s05",
+      "source_form": "आवाज़"
+    },
+    {
+      "id": "ch018_v03",
+      "target": "साफ़",
+      "bangla_pronunciation": "সাফ",
+      "word_pronunciations": [
+        {
+          "target": "साफ़",
+          "bangla_pronunciation": "সাফ",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষণ",
+      "romanization": "saaf",
+      "meaning_bengali_md": "পরিষ্কার",
+      "source_sentence_id": "ch018_s05",
+      "source_form": "साफ़"
+    },
+    {
+      "id": "ch018_v04",
+      "target": "कॉल",
+      "bangla_pronunciation": "কল",
+      "word_pronunciations": [
+        {
+          "target": "कॉल",
+          "bangla_pronunciation": "কল",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য/ক্রিয়া",
+      "romanization": "call",
+      "meaning_bengali_md": "ফোন কল",
+      "source_sentence_id": "ch018_s07",
+      "source_form": "कॉल"
+    },
+    {
+      "id": "ch018_v05",
+      "target": "व्यस्त",
+      "bangla_pronunciation": "ব্যস্ত",
+      "word_pronunciations": [
+        {
+          "target": "व्यस्त",
+          "bangla_pronunciation": "ব্যস্ত",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষণ",
+      "romanization": "vyast",
+      "meaning_bengali_md": "ব্যস্ত",
+      "source_sentence_id": "ch018_s09",
+      "source_form": "व्यस्त"
+    },
+    {
+      "id": "ch018_v06",
+      "target": "संदेश",
+      "bangla_pronunciation": "সন্দেশ",
+      "word_pronunciations": [
+        {
+          "target": "संदेश",
+          "bangla_pronunciation": "সন্দেশ",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "sandesh",
+      "meaning_bengali_md": "বার্তা",
+      "source_sentence_id": "ch018_s10",
+      "source_form": "संदेश"
+    },
+    {
+      "id": "ch018_v07",
+      "target": "भेज",
+      "bangla_pronunciation": "ভেজ",
+      "word_pronunciations": [
+        {
+          "target": "भेज",
+          "bangla_pronunciation": "ভেজ",
+          "separator_after": ""
+        }
+      ],
+      "type": "ক্রিয়া",
+      "romanization": "bhej",
+      "meaning_bengali_md": "পাঠান/পাঠানো—ক্রিয়ামূল",
+      "source_sentence_id": "ch018_s10",
+      "source_form": "भेज"
+    },
+    {
+      "id": "ch018_v08",
+      "target": "जवाब",
+      "bangla_pronunciation": "জওয়াব",
+      "word_pronunciations": [
+        {
+          "target": "जवाब",
+          "bangla_pronunciation": "জওয়াব",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "jawaab",
+      "meaning_bengali_md": "উত্তর",
+      "source_sentence_id": "ch018_s14",
+      "source_form": "जवाब"
+    },
+    {
+      "id": "ch018_v09",
+      "target": "नेटवर्क",
+      "bangla_pronunciation": "নেটওয়ার্ক",
+      "word_pronunciations": [
+        {
+          "target": "नेटवर्क",
+          "bangla_pronunciation": "নেটওয়ার্ক",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "network",
+      "meaning_bengali_md": "নেটওয়ার্ক",
+      "source_sentence_id": "ch018_s15",
+      "source_form": "नेटवर्क"
+    },
+    {
+      "id": "ch018_v10",
+      "target": "कमजोर",
+      "bangla_pronunciation": "কমজোর",
+      "word_pronunciations": [
+        {
+          "target": "कमजोर",
+          "bangla_pronunciation": "কমজোর",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষণ",
+      "romanization": "kamzor",
+      "meaning_bengali_md": "দুর্বল",
+      "source_sentence_id": "ch018_s15",
+      "source_form": "कमजोर"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "লাইন পরিষ্কার নয়",
+    "scene_summary": "একজন প্রাপ্তবয়স্ক ফোনে দুর্বল নেটওয়ার্কের কারণে বারবার কথা বুঝতে না পেরে পরে কল ও বার্তার ব্যবস্থা করছে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "রাকিব ফোন করতেই ওপাশের শব্দ ভেঙে ভেঙে আসছিল। সে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "आवाज़ साफ़ नहीं है।",
+        "bangla_pronunciation": "আওয়াজ সাফ নহিঁ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "आवाज़",
+            "bangla_pronunciation": "আওয়াজ",
+            "separator_after": " "
+          },
+          {
+            "target": "साफ़",
+            "bangla_pronunciation": "সাফ",
+            "separator_after": " "
+          },
+          {
+            "target": "नहीं",
+            "bangla_pronunciation": "নহিঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " তারপর অনুরোধ করল, "
+      },
+      {
+        "kind": "target",
+        "target": "कृपया फिर बोलिए।",
+        "bangla_pronunciation": "কৃপয়া ফির বোলিয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "कृपया",
+            "bangla_pronunciation": "কৃপয়া",
+            "separator_after": " "
+          },
+          {
+            "target": "फिर",
+            "bangla_pronunciation": "ফির",
+            "separator_after": " "
+          },
+          {
+            "target": "बोलिए।",
+            "bangla_pronunciation": "বোলিয়ে।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " নেটওয়ার্ক আরও খারাপ হলে সে জানাল, "
+      },
+      {
+        "kind": "target",
+        "target": "मैं बाद में कॉल करूँगा।",
+        "bangla_pronunciation": "ম্যাঁ বাদ মেঁ কল করুঙ্গা।",
+        "word_pronunciations": [
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "बाद",
+            "bangla_pronunciation": "বাদ",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "कॉल",
+            "bangla_pronunciation": "কল",
+            "separator_after": " "
+          },
+          {
+            "target": "करूँगा।",
+            "bangla_pronunciation": "করুঙ্গা।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " শেষে বলে দিল, "
+      },
+      {
+        "kind": "target",
+        "target": "संदेश भेज दीजिए।",
+        "bangla_pronunciation": "সন্দেশ ভেজ দিজিয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "संदेश",
+            "bangla_pronunciation": "সন্দেশ",
+            "separator_after": " "
+          },
+          {
+            "target": "भेज",
+            "bangla_pronunciation": "ভেজ",
+            "separator_after": " "
+          },
+          {
+            "target": "दीजिए।",
+            "bangla_pronunciation": "দিজিয়ে।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "রাকিব ফোন করতেই ওপাশের শব্দ ভেঙে ভেঙে আসছিল। সে বলল, **आवाज़** (আওয়াজ) **साफ़** (সাফ) **नहीं** (নহিঁ) **है।** (হ্যায়।) তারপর অনুরোধ করল, **कृपया** (কৃপয়া) **फिर** (ফির) **बोलिए।** (বোলিয়ে।) নেটওয়ার্ক আরও খারাপ হলে সে জানাল, **मैं** (ম্যাঁ) **बाद** (বাদ) **में** (মেঁ) **कॉल** (কল) **करूँगा।** (করুঙ্গা।) শেষে বলে দিল, **संदेश** (সন্দেশ) **भेज** (ভেজ) **दीजिए।** (দিজিয়ে।)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengালি": "ছোট বার্তায় উত্তর",
+    "scene_summary": "ব্যস্ত একজন ব্যক্তি ফোন ধরতে না পেরে বার্তা পায়, উত্তর পাঠায় এবং পরে কথা বলার সিদ্ধান্ত নেয়।",
+    "lines": [
+      {
+        "target": "मैं अभी व्यस्त हूँ।",
+        "bangla_pronunciation": "ম্যাঁ অভি ব্যস্ত হুঁ।",
+        "word_pronunciations": [
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "अभी",
+            "bangla_pronunciation": "অভি",
+            "separator_after": " "
+          },
+          {
+            "target": "व्यस्त",
+            "bangla_pronunciation": "ব্যস্ত",
+            "separator_after": " "
+          },
+          {
+            "target": "हूँ।",
+            "bangla_pronunciation": "হুঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "आप संदेश भेज दीजिए।",
+        "bangla_pronunciation": "আপ সন্দেশ ভেজ দিজিয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "आप",
+            "bangla_pronunciation": "আপ",
+            "separator_after": " "
+          },
+          {
+            "target": "संदेश",
+            "bangla_pronunciation": "সন্দেশ",
+            "separator_after": " "
+          },
+          {
+            "target": "भेज",
+            "bangla_pronunciation": "ভেজ",
+            "separator_after": " "
+          },
+          {
+            "target": "दीजिए।",
+            "bangla_pronunciation": "দিজিয়ে।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मुझे संदेश मिल गया।",
+        "bangla_pronunciation": "মুঝে সন্দেশ মিল গয়া।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "संदेश",
+            "bangla_pronunciation": "সন্দেশ",
+            "separator_after": " "
+          },
+          {
+            "target": "मिल",
+            "bangla_pronunciation": "মিল",
+            "separator_after": " "
+          },
+          {
+            "target": "गया।",
+            "bangla_pronunciation": "গয়া।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मैंने जवाब भेज दिया।",
+        "bangla_pronunciation": "ম্যাঁনে জওয়াব ভেজ দিয়া।",
+        "word_pronunciations": [
+          {
+            "target": "मैंने",
+            "bangla_pronunciation": "ম্যাঁনে",
+            "separator_after": " "
+          },
+          {
+            "target": "जवाब",
+            "bangla_pronunciation": "জওয়াব",
+            "separator_after": " "
+          },
+          {
+            "target": "भेज",
+            "bangla_pronunciation": "ভেজ",
+            "separator_after": " "
+          },
+          {
+            "target": "दिया।",
+            "bangla_pronunciation": "দিয়া।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "हम बाद में बात करेंगे।",
+        "bangla_pronunciation": "হম বাদ মেঁ বাত করেঙ্গে।",
+        "word_pronunciations": [
+          {
+            "target": "हम",
+            "bangla_pronunciation": "হম",
+            "separator_after": " "
+          },
+          {
+            "target": "बाद",
+            "bangla_pronunciation": "বাদ",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "बात",
+            "bangla_pronunciation": "বাত",
+            "separator_after": " "
+          },
+          {
+            "target": "करेंगे।",
+            "bangla_pronunciation": "করেঙ্গে।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "ম্যাঁ অভি ব্যস্ত হুঁ। আপ সন্দেশ ভেজ দিজিয়ে। মুঝে সন্দেশ মিল গয়া। ম্যাঁনে জওয়াব ভেজ দিয়া। হম বাদ মেঁ বাত করেঙ্গে।",
+    "meaning_bengali_md": "আমি এখন ব্যস্ত। আপনি বার্তা পাঠিয়ে দিন। আমি বার্তাটি পেয়েছি। আমি উত্তর পাঠিয়েছি। আমরা পরে কথা বলব।",
+    "title_bengali": "ছোট বার্তায় উত্তর"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_sign_o_phone",
+      "mode": "application",
+      "target": "ॉ",
+      "bangla_pronunciation": "অ/অ’",
+      "explanation_bengali_md": "এই ধার-করা স্বরচিহ্নটি অনেক বিদেশি শব্দে ছোট ‘অ/অ’-জাত ধ্বনি বোঝাতে ব্যবহৃত হয়।",
+      "practice_bengali_md": "চিহ্নটি আলাদা করে চিনুন; শব্দ শুনে সঠিক ধ্বনি নিন।"
+    },
+    {
+      "item_id": "dev_sign_ai",
+      "mode": "review",
+      "target": "ै",
+      "bangla_pronunciation": "অ্যায়/ঐ",
+      "explanation_bengali_md": "এই মাত্রাটি ‘অ্যায়/ঐ’-জাত ধ্বনি দেয় এবং পরিচিত কথ্য শব্দে দেখা যায়।",
+      "practice_bengali_md": "চিহ্নটি দেখে ধ্বনি বলুন।"
+    },
+    {
+      "item_id": "dev_chandrabindu",
+      "mode": "review",
+      "target": "ँ",
+      "bangla_pronunciation": "ঁ",
+      "explanation_bengali_md": "এই চিহ্ন স্বরধ্বনিকে নাসাল করে।",
+      "practice_bengali_md": "নাক দিয়ে হালকা বাতাস রেখে অনুশীলন করুন।"
+    },
+    {
+      "item_id": "dev_nukta",
+      "mode": "review",
+      "target": "़",
+      "bangla_pronunciation": "নুকতা",
+      "explanation_bengali_md": "নুকতা কিছু ব্যঞ্জনের ধ্বনি বদলে দেয়।",
+      "practice_bengali_md": "ব্যঞ্জনের নিচে ছোট বিন্দুটি খুঁজে দেখুন।"
+    },
+    {
+      "item_id": "dev_halant",
+      "mode": "review",
+      "target": "्",
+      "bangla_pronunciation": "হলন্ত",
+      "explanation_bengali_md": "হলন্ত ব্যঞ্জনের অন্তর্নিহিত স্বর থামাতে সাহায্য করে।",
+      "practice_bengali_md": "যুক্তরূপে চিহ্নটির ভূমিকা মনে করুন।"
+    }
+  ],
+  "number_practice": [
+    {
+      "display": "5 / ५",
+      "target": "पाँच",
+      "bangla_pronunciation": "পাঁচ",
+      "word_pronunciations": [
+        {
+          "target": "पाँच",
+          "bangla_pronunciation": "পাঁচ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পাঁচ",
+      "system": "International + Devanagari"
+    },
+    {
+      "display": "15 / १५",
+      "target": "पंद्रह",
+      "bangla_pronunciation": "পন্দ্রহ",
+      "word_pronunciations": [
+        {
+          "target": "पंद्रह",
+          "bangla_pronunciation": "পন্দ্রহ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পনেরো",
+      "system": "International + Devanagari"
+    }
+  ],
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "ফোনে কে কথা বলছেন জিজ্ঞেস করুন।",
+      "model_target": "हैलो, कौन बोल रहा है?",
+      "model_bangla_pronunciation": "হ্যালো, কৌন বোল রহা হ্যায়?",
+      "model_word_pronunciations": [
+        {
+          "target": "हैलो,",
+          "bangla_pronunciation": "হ্যালো,",
+          "separator_after": " "
+        },
+        {
+          "target": "कौन",
+          "bangla_pronunciation": "কৌন",
+          "separator_after": " "
+        },
+        {
+          "target": "बोल",
+          "bangla_pronunciation": "বোল",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा",
+          "bangla_pronunciation": "রহা",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "হ্যালো, কে কথা বলছেন?"
+    },
+    {
+      "prompt_bengali_md": "এটি ভুল নম্বর বলুন।",
+      "model_target": "यह गलत नंबर है।",
+      "model_bangla_pronunciation": "যহ গলত নম্বর হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "गलत",
+          "bangla_pronunciation": "গলত",
+          "separator_after": " "
+        },
+        {
+          "target": "नंबर",
+          "bangla_pronunciation": "নম্বর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এটি ভুল নম্বর।"
+    },
+    {
+      "prompt_bengali_md": "শব্দ পরিষ্কার নয় বলুন।",
+      "model_target": "आवाज़ साफ़ नहीं है।",
+      "model_bangla_pronunciation": "আওয়াজ সাফ নহিঁ হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "आवाज़",
+          "bangla_pronunciation": "আওয়াজ",
+          "separator_after": " "
+        },
+        {
+          "target": "साफ़",
+          "bangla_pronunciation": "সাফ",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "শব্দ পরিষ্কার নয়।"
+    },
+    {
+      "prompt_bengali_md": "আবার বলতে অনুরোধ করুন।",
+      "model_target": "कृपया फिर बोलिए।",
+      "model_bangla_pronunciation": "কৃপয়া ফির বোলিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "बोलिए।",
+          "bangla_pronunciation": "বোলিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "অনুগ্রহ করে আবার বলুন।"
+    },
+    {
+      "prompt_bengali_md": "বার্তা পাঠাতে বলুন।",
+      "model_target": "संदेश भेज दीजिए।",
+      "model_bangla_pronunciation": "সন্দেশ ভেজ দিজিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "संदेश",
+          "bangla_pronunciation": "সন্দেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "भेज",
+          "bangla_pronunciation": "ভেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "বার্তা পাঠিয়ে দিন।"
+    },
+    {
+      "prompt_bengali_md": "পরে কথা বলবেন বলুন।",
+      "model_target": "ठीक है, बाद में बात करेंगे।",
+      "model_bangla_pronunciation": "ঠিক হ্যায়, বাদ মেঁ বাত করেঙ্গে।",
+      "model_word_pronunciations": [
+        {
+          "target": "ठीक",
+          "bangla_pronunciation": "ঠিক",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হ্যায়,",
+          "separator_after": " "
+        },
+        {
+          "target": "बाद",
+          "bangla_pronunciation": "বাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "बात",
+          "bangla_pronunciation": "বাত",
+          "separator_after": " "
+        },
+        {
+          "target": "करेंगे।",
+          "bangla_pronunciation": "করেঙ্গে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ঠিক আছে, পরে কথা বলব।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch018_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "Contemporary indoor phone-call scene in South Asia; an adult holds a smartphone near a window, strains to hear because of weak reception, then gestures that they will call later, natural expression and uncluttered room. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    },
+    {
+      "key": "ch018_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A different workday messaging scene; a busy adult at a desk sees a phone notification without any visible readable screen content, sends a quick reply, and returns to work, calm practical mood and clean composition. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    }
+  ],
+  "additional_practice": []
+}

@@ -1,0 +1,1338 @@
+{
+  "chapter_id": "ch015",
+  "status": "drafted",
+  "title_target": "जगह, ज़रूरत और क्षमता",
+  "title_bangla_pronunciation": "জগহ, জরুরত অউর ক্ষমতা",
+  "title_word_pronunciations": [
+    {
+      "target": "जगह,",
+      "bangla_pronunciation": "জগহ,",
+      "separator_after": " "
+    },
+    {
+      "target": "ज़रूरत",
+      "bangla_pronunciation": "জরুরত",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "क्षमता",
+      "bangla_pronunciation": "ক্ষমতা",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "জায়গা, প্রয়োজন ও সক্ষমতা",
+  "goal_bengali_md": "কোথাও কিছু আছে কি না বলা, কী চাই তা জানানো এবং কী করা যায় বা যায় না—এই তিন ধরনের বাক্য গড়া।",
+  "sentences": [
+    {
+      "id": "ch015_s01",
+      "target": "यहाँ पानी है।",
+      "bangla_pronunciation": "যহাঁ পানি হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানি",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "yahaan paani hai.",
+      "meaning_bengali_md": "এখানে পানি আছে।"
+    },
+    {
+      "id": "ch015_s02",
+      "target": "यहाँ कुर्सी नहीं है।",
+      "bangla_pronunciation": "যহাঁ কুর্সি নহিঁ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "कुर्सी",
+          "bangla_pronunciation": "কুর্সি",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "yahaan kursi nahin hai.",
+      "meaning_bengali_md": "এখানে চেয়ার নেই।"
+    },
+    {
+      "id": "ch015_s03",
+      "target": "मुझे चाय चाहिए।",
+      "bangla_pronunciation": "মুঝে চায় চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "चाय",
+          "bangla_pronunciation": "চায়",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "mujhe chaay chaahiye.",
+      "meaning_bengali_md": "আমার চা চাই।"
+    },
+    {
+      "id": "ch015_s04",
+      "target": "मुझे एक कमरा चाहिए।",
+      "bangla_pronunciation": "মুঝে এক কমরা চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "कमरा",
+          "bangla_pronunciation": "কমরা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "mujhe ek kamra chaahiye.",
+      "meaning_bengali_md": "আমার একটি কক্ষ চাই।"
+    },
+    {
+      "id": "ch015_s05",
+      "target": "मैं हिंदी बोल सकता हूँ।",
+      "bangla_pronunciation": "ম্যাঁ হিন্দি বোল সকতা হুঁ।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "हिंदी",
+          "bangla_pronunciation": "হিন্দি",
+          "separator_after": " "
+        },
+        {
+          "target": "बोल",
+          "bangla_pronunciation": "বোল",
+          "separator_after": " "
+        },
+        {
+          "target": "सकता",
+          "bangla_pronunciation": "সকতা",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "main hindi bol sakta hoon.",
+      "meaning_bengali_md": "আমি হিন্দি বলতে পারি। (পুরুষ বক্তা)"
+    },
+    {
+      "id": "ch015_s06",
+      "target": "मैं हिंदी बोल सकती हूँ।",
+      "bangla_pronunciation": "ম্যাঁ হিন্দি বোল সকতি হুঁ।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "हिंदी",
+          "bangla_pronunciation": "হিন্দি",
+          "separator_after": " "
+        },
+        {
+          "target": "बोल",
+          "bangla_pronunciation": "বোল",
+          "separator_after": " "
+        },
+        {
+          "target": "सकती",
+          "bangla_pronunciation": "সকতি",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "main hindi bol sakti hoon.",
+      "meaning_bengali_md": "আমি হিন্দি বলতে পারি। (নারী বক্তা)"
+    },
+    {
+      "id": "ch015_s07",
+      "target": "क्या आप मदद कर सकते हैं?",
+      "bangla_pronunciation": "ক্যা আপ মদদ কর সকতে হ্যাঁয়?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आप",
+          "bangla_pronunciation": "আপ",
+          "separator_after": " "
+        },
+        {
+          "target": "मदद",
+          "bangla_pronunciation": "মদদ",
+          "separator_after": " "
+        },
+        {
+          "target": "कर",
+          "bangla_pronunciation": "কর",
+          "separator_after": " "
+        },
+        {
+          "target": "सकते",
+          "bangla_pronunciation": "সকতে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं?",
+          "bangla_pronunciation": "হ্যাঁয়?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "kya aap madad kar sakte hain?",
+      "meaning_bengali_md": "আপনি কি সাহায্য করতে পারেন?"
+    },
+    {
+      "id": "ch015_s08",
+      "target": "मैं यह कर सकता हूँ।",
+      "bangla_pronunciation": "ম্যাঁ যহ কর সকতা হুঁ।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "कर",
+          "bangla_pronunciation": "কর",
+          "separator_after": " "
+        },
+        {
+          "target": "सकता",
+          "bangla_pronunciation": "সকতা",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "main yah kar sakta hoon.",
+      "meaning_bengali_md": "আমি এটা করতে পারি। (পুরুষ বক্তা)"
+    },
+    {
+      "id": "ch015_s09",
+      "target": "मैं यह नहीं कर सकता।",
+      "bangla_pronunciation": "ম্যাঁ যহ নহিঁ কর সকতা।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "कर",
+          "bangla_pronunciation": "কর",
+          "separator_after": " "
+        },
+        {
+          "target": "सकता।",
+          "bangla_pronunciation": "সকতা।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "main yah nahin kar sakta.",
+      "meaning_bengali_md": "আমি এটা করতে পারি না। (পুরুষ বক্তা)"
+    },
+    {
+      "id": "ch015_s10",
+      "target": "आप यहाँ बैठ सकते हैं।",
+      "bangla_pronunciation": "আপ যহাঁ বৈঠ সকতে হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "आप",
+          "bangla_pronunciation": "আপ",
+          "separator_after": " "
+        },
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "बैठ",
+          "bangla_pronunciation": "বৈঠ",
+          "separator_after": " "
+        },
+        {
+          "target": "सकते",
+          "bangla_pronunciation": "সকতে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "aap yahaan baith sakte hain.",
+      "meaning_bengali_md": "আপনি এখানে বসতে পারেন।"
+    },
+    {
+      "id": "ch015_s11",
+      "target": "हम अभी जा सकते हैं।",
+      "bangla_pronunciation": "হম অভি জা সকতে হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "हम",
+          "bangla_pronunciation": "হম",
+          "separator_after": " "
+        },
+        {
+          "target": "अभी",
+          "bangla_pronunciation": "অভি",
+          "separator_after": " "
+        },
+        {
+          "target": "जा",
+          "bangla_pronunciation": "জা",
+          "separator_after": " "
+        },
+        {
+          "target": "सकते",
+          "bangla_pronunciation": "সকতে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "ham abhi ja sakte hain.",
+      "meaning_bengali_md": "আমরা এখন যেতে পারি।"
+    },
+    {
+      "id": "ch015_s12",
+      "target": "क्या यहाँ बैंक है?",
+      "bangla_pronunciation": "ক্যা যহাঁ ব্যাঙ্ক হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "बैंक",
+          "bangla_pronunciation": "ব্যাঙ্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "kya yahaan bank hai?",
+      "meaning_bengali_md": "এখানে কি ব্যাংক আছে?"
+    },
+    {
+      "id": "ch015_s13",
+      "target": "क्या आपको पानी चाहिए?",
+      "bangla_pronunciation": "ক্যা আপকো পানি চাহিয়ে?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आपको",
+          "bangla_pronunciation": "আপকো",
+          "separator_after": " "
+        },
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানি",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए?",
+          "bangla_pronunciation": "চাহিয়ে?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "kya aapko paani chaahiye?",
+      "meaning_bengali_md": "আপনার কি পানি চাই?"
+    },
+    {
+      "id": "ch015_s14",
+      "target": "मुझे थोड़ा समय चाहिए।",
+      "bangla_pronunciation": "মুঝে থোড়া সময় চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "थोड़ा",
+          "bangla_pronunciation": "থোড়া",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "mujhe thoda samay chaahiye.",
+      "meaning_bengali_md": "আমার একটু সময় দরকার।"
+    },
+    {
+      "id": "ch015_s15",
+      "target": "मुझे यह चाहिए।",
+      "bangla_pronunciation": "মুঝে যহ চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "mujhe yah chaahiye.",
+      "meaning_bengali_md": "আমার এটা চাই।"
+    },
+    {
+      "id": "ch015_s16",
+      "target": "मैं चल सकता हूँ।",
+      "bangla_pronunciation": "ম্যাঁ চল সকতা হুঁ।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "चल",
+          "bangla_pronunciation": "চল",
+          "separator_after": " "
+        },
+        {
+          "target": "सकता",
+          "bangla_pronunciation": "সকতা",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "main chal sakta hoon.",
+      "meaning_bengali_md": "আমি হাঁটতে/চলতে পারি। (পুরুষ বক্তা)"
+    },
+    {
+      "id": "ch015_s17",
+      "target": "वह नहीं आ सकता।",
+      "bangla_pronunciation": "বহ নহিঁ আ সকতা।",
+      "word_pronunciations": [
+        {
+          "target": "वह",
+          "bangla_pronunciation": "বহ",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "आ",
+          "bangla_pronunciation": "আ",
+          "separator_after": " "
+        },
+        {
+          "target": "सकता।",
+          "bangla_pronunciation": "সকতা।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "vah nahin aa sakta.",
+      "meaning_bengali_md": "সে আসতে পারে না।"
+    },
+    {
+      "id": "ch015_s18",
+      "target": "यहाँ जगह है।",
+      "bangla_pronunciation": "যহাঁ জগহ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "जगह",
+          "bangla_pronunciation": "জগহ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "yahaan jagah hai.",
+      "meaning_bengali_md": "এখানে জায়গা আছে।"
+    },
+    {
+      "id": "ch015_s19",
+      "target": "मेरे पास टिकट है।",
+      "bangla_pronunciation": "মেরে পাস টিকট হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "टिकट",
+          "bangla_pronunciation": "টিকট",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "mere paas ticket hai.",
+      "meaning_bengali_md": "আমার কাছে টিকিট আছে।"
+    },
+    {
+      "id": "ch015_s20",
+      "target": "मेरे पास पैसे नहीं हैं।",
+      "bangla_pronunciation": "মেরে পাস পয়সে নহিঁ হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "पैसे",
+          "bangla_pronunciation": "পয়সে",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "mere paas paise nahin hain.",
+      "meaning_bengali_md": "আমার কাছে টাকা নেই।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "ch015_v01",
+      "target": "चाहिए",
+      "bangla_pronunciation": "চাহিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "चाहिए",
+          "bangla_pronunciation": "চাহিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "type": "প্রকাশ",
+      "romanization": "chaahiye",
+      "meaning_bengali_md": "চাই/দরকার",
+      "source_sentence_id": "ch015_s03",
+      "source_form": "चाहिए"
+    },
+    {
+      "id": "ch015_v02",
+      "target": "कमरा",
+      "bangla_pronunciation": "কমরা",
+      "word_pronunciations": [
+        {
+          "target": "कमरा",
+          "bangla_pronunciation": "কমরা",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "kamra",
+      "meaning_bengali_md": "ঘর/কক্ষ",
+      "source_sentence_id": "ch015_s04",
+      "source_form": "कमरा"
+    },
+    {
+      "id": "ch015_v03",
+      "target": "सकता",
+      "bangla_pronunciation": "সকতা",
+      "word_pronunciations": [
+        {
+          "target": "सकता",
+          "bangla_pronunciation": "সকতা",
+          "separator_after": ""
+        }
+      ],
+      "type": "ক্রিয়া-রূপ",
+      "romanization": "sakta",
+      "meaning_bengali_md": "পারি/পারে—পুংলিঙ্গ রূপে সক্ষমতা",
+      "source_sentence_id": "ch015_s05",
+      "source_form": "सकता"
+    },
+    {
+      "id": "ch015_v04",
+      "target": "सकती",
+      "bangla_pronunciation": "সকতি",
+      "word_pronunciations": [
+        {
+          "target": "सकती",
+          "bangla_pronunciation": "সকতি",
+          "separator_after": ""
+        }
+      ],
+      "type": "ক্রিয়া-রূপ",
+      "romanization": "sakti",
+      "meaning_bengali_md": "পারি/পারে—স্ত্রীলিঙ্গ রূপে সক্ষমতা",
+      "source_sentence_id": "ch015_s06",
+      "source_form": "सकती"
+    },
+    {
+      "id": "ch015_v05",
+      "target": "मदद",
+      "bangla_pronunciation": "মদদ",
+      "word_pronunciations": [
+        {
+          "target": "मदद",
+          "bangla_pronunciation": "মদদ",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "madad",
+      "meaning_bengali_md": "সাহায্য",
+      "source_sentence_id": "ch015_s07",
+      "source_form": "मदद"
+    },
+    {
+      "id": "ch015_v06",
+      "target": "बैठ",
+      "bangla_pronunciation": "বৈঠ",
+      "word_pronunciations": [
+        {
+          "target": "बैठ",
+          "bangla_pronunciation": "বৈঠ",
+          "separator_after": ""
+        }
+      ],
+      "type": "ক্রিয়া",
+      "romanization": "baith",
+      "meaning_bengali_md": "বসা—ক্রিয়ামূল",
+      "source_sentence_id": "ch015_s10",
+      "source_form": "बैठ"
+    },
+    {
+      "id": "ch015_v07",
+      "target": "थोड़ा",
+      "bangla_pronunciation": "থোড়া",
+      "word_pronunciations": [
+        {
+          "target": "थोड़ा",
+          "bangla_pronunciation": "থোড়া",
+          "separator_after": ""
+        }
+      ],
+      "type": "পরিমাণ",
+      "romanization": "thoda",
+      "meaning_bengali_md": "একটু/সামান্য",
+      "source_sentence_id": "ch015_s14",
+      "source_form": "थोड़ा"
+    },
+    {
+      "id": "ch015_v08",
+      "target": "जगह",
+      "bangla_pronunciation": "জগহ",
+      "word_pronunciations": [
+        {
+          "target": "जगह",
+          "bangla_pronunciation": "জগহ",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "jagah",
+      "meaning_bengali_md": "জায়গা",
+      "source_sentence_id": "ch015_s18",
+      "source_form": "जगह"
+    },
+    {
+      "id": "ch015_v09",
+      "target": "टिकट",
+      "bangla_pronunciation": "টিকট",
+      "word_pronunciations": [
+        {
+          "target": "टिकट",
+          "bangla_pronunciation": "টিকট",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "ticket",
+      "meaning_bengali_md": "টিকিট",
+      "source_sentence_id": "ch015_s19",
+      "source_form": "टिकट"
+    },
+    {
+      "id": "ch015_v10",
+      "target": "पैसे",
+      "bangla_pronunciation": "পয়সে",
+      "word_pronunciations": [
+        {
+          "target": "पैसे",
+          "bangla_pronunciation": "পয়সে",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "paise",
+      "meaning_bengali_md": "টাকা/পয়সা",
+      "source_sentence_id": "ch015_s20",
+      "source_form": "पैसे"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "একটু জায়গা ও সাহায্য",
+    "scene_summary": "একজন যাত্রী অপেক্ষাকক্ষে কক্ষ, বসার জায়গা, সাহায্য ও পানি নিয়ে কথা বলছে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "একটি অপেক্ষাকক্ষে কামাল বসার জায়গা খুঁজছিল। সে কর্মীকে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "मुझे एक कमरा चाहिए।",
+        "bangla_pronunciation": "মুঝে এক কমরা চাহিয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "एक",
+            "bangla_pronunciation": "এক",
+            "separator_after": " "
+          },
+          {
+            "target": "कमरा",
+            "bangla_pronunciation": "কমরা",
+            "separator_after": " "
+          },
+          {
+            "target": "चाहिए।",
+            "bangla_pronunciation": "চাহিয়ে।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " কর্মী জানালেন অন্য কক্ষে জায়গা আছে এবং বললেন, "
+      },
+      {
+        "kind": "target",
+        "target": "आप यहाँ बैठ सकते हैं।",
+        "bangla_pronunciation": "আপ যহাঁ বৈঠ সকতে হ্যাঁয়।",
+        "word_pronunciations": [
+          {
+            "target": "आप",
+            "bangla_pronunciation": "আপ",
+            "separator_after": " "
+          },
+          {
+            "target": "यहाँ",
+            "bangla_pronunciation": "যহাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "बैठ",
+            "bangla_pronunciation": "বৈঠ",
+            "separator_after": " "
+          },
+          {
+            "target": "सकते",
+            "bangla_pronunciation": "সকতে",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যাঁয়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " কামাল তারপর জিজ্ঞেস করল, "
+      },
+      {
+        "kind": "target",
+        "target": "क्या आप मदद कर सकते हैं?",
+        "bangla_pronunciation": "ক্যা আপ মদদ কর সকতে হ্যাঁয়?",
+        "word_pronunciations": [
+          {
+            "target": "क्या",
+            "bangla_pronunciation": "ক্যা",
+            "separator_after": " "
+          },
+          {
+            "target": "आप",
+            "bangla_pronunciation": "আপ",
+            "separator_after": " "
+          },
+          {
+            "target": "मदद",
+            "bangla_pronunciation": "মদদ",
+            "separator_after": " "
+          },
+          {
+            "target": "कर",
+            "bangla_pronunciation": "কর",
+            "separator_after": " "
+          },
+          {
+            "target": "सकते",
+            "bangla_pronunciation": "সকতে",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं?",
+            "bangla_pronunciation": "হ্যাঁয়?",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " শেষে পানি দেখে কর্মী জানতে চাইলেন, "
+      },
+      {
+        "kind": "target",
+        "target": "क्या आपको पानी चाहिए?",
+        "bangla_pronunciation": "ক্যা আপকো পানি চাহিয়ে?",
+        "word_pronunciations": [
+          {
+            "target": "क्या",
+            "bangla_pronunciation": "ক্যা",
+            "separator_after": " "
+          },
+          {
+            "target": "आपको",
+            "bangla_pronunciation": "আপকো",
+            "separator_after": " "
+          },
+          {
+            "target": "पानी",
+            "bangla_pronunciation": "পানি",
+            "separator_after": " "
+          },
+          {
+            "target": "चाहिए?",
+            "bangla_pronunciation": "চাহিয়ে?",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "একটি অপেক্ষাকক্ষে কামাল বসার জায়গা খুঁজছিল। সে কর্মীকে বলল, **मुझे** (মুঝে) **एक** (এক) **कमरा** (কমরা) **चाहिए।** (চাহিয়ে।) কর্মী জানালেন অন্য কক্ষে জায়গা আছে এবং বললেন, **आप** (আপ) **यहाँ** (যহাঁ) **बैठ** (বৈঠ) **सकते** (সকতে) **हैं।** (হ্যাঁয়।) কামাল তারপর জিজ্ঞেস করল, **क्या** (ক্যা) **आप** (আপ) **मदद** (মদদ) **कर** (কর) **सकते** (সকতে) **हैं?** (হ্যাঁয়?) শেষে পানি দেখে কর্মী জানতে চাইলেন, **क्या** (ক্যা) **आपको** (আপকো) **पानी** (পানি) **चाहिए?** (চাহিয়ে?)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "অফিসের অপেক্ষা",
+    "scene_summary": "একজন দর্শনার্থী টিকিট/পাস নিয়ে অফিসের অপেক্ষার জায়গায় বসে সময় নিচ্ছে, পরে বের হচ্ছে।",
+    "lines": [
+      {
+        "target": "यहाँ जगह है।",
+        "bangla_pronunciation": "যহাঁ জগহ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "यहाँ",
+            "bangla_pronunciation": "যহাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "जगह",
+            "bangla_pronunciation": "জগহ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मेरे पास टिकट है।",
+        "bangla_pronunciation": "মেরে পাস টিকট হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "मेरे",
+            "bangla_pronunciation": "মেরে",
+            "separator_after": " "
+          },
+          {
+            "target": "पास",
+            "bangla_pronunciation": "পাস",
+            "separator_after": " "
+          },
+          {
+            "target": "टिकट",
+            "bangla_pronunciation": "টিকট",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मैं यहाँ बैठ सकता हूँ।",
+        "bangla_pronunciation": "ম্যাঁ যহাঁ বৈঠ সকতা হুঁ।",
+        "word_pronunciations": [
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "यहाँ",
+            "bangla_pronunciation": "যহাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "बैठ",
+            "bangla_pronunciation": "বৈঠ",
+            "separator_after": " "
+          },
+          {
+            "target": "सकता",
+            "bangla_pronunciation": "সকতা",
+            "separator_after": " "
+          },
+          {
+            "target": "हूँ।",
+            "bangla_pronunciation": "হুঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मुझे थोड़ा समय चाहिए।",
+        "bangla_pronunciation": "মুঝে থোড়া সময় চাহিয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "थोड़ा",
+            "bangla_pronunciation": "থোড়া",
+            "separator_after": " "
+          },
+          {
+            "target": "समय",
+            "bangla_pronunciation": "সময়",
+            "separator_after": " "
+          },
+          {
+            "target": "चाहिए।",
+            "bangla_pronunciation": "চাহিয়ে।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "हम अभी जा सकते हैं।",
+        "bangla_pronunciation": "হম অভি জা সকতে হ্যাঁয়।",
+        "word_pronunciations": [
+          {
+            "target": "हम",
+            "bangla_pronunciation": "হম",
+            "separator_after": " "
+          },
+          {
+            "target": "अभी",
+            "bangla_pronunciation": "অভি",
+            "separator_after": " "
+          },
+          {
+            "target": "जा",
+            "bangla_pronunciation": "জা",
+            "separator_after": " "
+          },
+          {
+            "target": "सकते",
+            "bangla_pronunciation": "সকতে",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যাঁয়।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "যহাঁ জগহ হ্যায়। মেরে পাস টিকট হ্যায়। ম্যাঁ যহাঁ বৈঠ সকতা হুঁ। মুঝে থোড়া সময় চাহিয়ে। হম অভি জা সকতে হ্যাঁয়।",
+    "meaning_bengali_md": "এখানে জায়গা আছে। আমার কাছে টিকিট আছে। আমি এখানে বসতে পারি। আমার একটু সময় দরকার। আমরা এখন যেতে পারি।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_halant",
+      "mode": "application",
+      "target": "्",
+      "bangla_pronunciation": "হলন্ত",
+      "explanation_bengali_md": "এই চিহ্নটি ব্যঞ্জনের অন্তর্নিহিত ‘অ’ ধ্বনি থামায় এবং যুক্তব্যঞ্জন গঠনে ব্যবহৃত হয়।",
+      "practice_bengali_md": "চিহ্নটির অবস্থান লক্ষ্য করুন এবং এটিকে আলাদা স্বরধ্বনি হিসেবে পড়বেন না।"
+    },
+    {
+      "item_id": "dev_sign_r_vocalic",
+      "mode": "application",
+      "target": "ृ",
+      "bangla_pronunciation": "ৃ/রি",
+      "explanation_bengali_md": "এই মাত্রাটি সংস্কৃতমূল অনেক শব্দে ঋ-জাত ধ্বনি দেয়; আধুনিক হিন্দিতে প্রায়ই ‘রি’-এর কাছাকাছি শোনা যায়।",
+      "practice_bengali_md": "চিহ্নটি ব্যঞ্জনের নিচে চিনে নিন।"
+    },
+    {
+      "item_id": "dev_conjunct_tr",
+      "mode": "application",
+      "target": "त्र",
+      "bangla_pronunciation": "ত্র",
+      "explanation_bengali_md": "এটি ত্ + র-এর একটি প্রচলিত যুক্তরূপ।",
+      "practice_bengali_md": "আকৃতিটি একসঙ্গে চিনুন এবং ধীরে ‘ত্র’ বলুন।"
+    },
+    {
+      "item_id": "dev_conjunct_gya",
+      "mode": "application",
+      "target": "ज्ञ",
+      "bangla_pronunciation": "জ্ঞ/গ্য",
+      "explanation_bengali_md": "এই যুক্তরূপের উচ্চারণ শব্দভেদে ‘জ্ঞ’, ‘গ্য’ বা কাছাকাছি শোনা যেতে পারে।",
+      "practice_bengali_md": "আকৃতিটি চিনে নিন; শব্দ শুনে প্রকৃত উচ্চারণ শিখুন।"
+    },
+    {
+      "item_id": "dev_conjunct_shr",
+      "mode": "application",
+      "target": "श्र",
+      "bangla_pronunciation": "শ্র",
+      "explanation_bengali_md": "এটি শ্ + র-এর প্রচলিত যুক্তরূপ।",
+      "practice_bengali_md": "একবার দেখে ‘শ্র’ ধ্বনি বলুন এবং তিনবার লিখুন।"
+    }
+  ],
+  "number_practice": null,
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "পানি আছে বলুন।",
+      "model_target": "यहाँ पानी है।",
+      "model_bangla_pronunciation": "যহাঁ পানি হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানি",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এখানে পানি আছে।"
+    },
+    {
+      "prompt_bengali_md": "একটি কক্ষ দরকার বলুন।",
+      "model_target": "मुझे एक कमरा चाहिए।",
+      "model_bangla_pronunciation": "মুঝে এক কমরা চাহিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "कमरा",
+          "bangla_pronunciation": "কমরা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার একটি কক্ষ চাই।"
+    },
+    {
+      "prompt_bengali_md": "সাহায্য করতে পারবেন কি না জিজ্ঞেস করুন।",
+      "model_target": "क्या आप मदद कर सकते हैं?",
+      "model_bangla_pronunciation": "ক্যা আপ মদদ কর সকতে হ্যাঁয়?",
+      "model_word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आप",
+          "bangla_pronunciation": "আপ",
+          "separator_after": " "
+        },
+        {
+          "target": "मदद",
+          "bangla_pronunciation": "মদদ",
+          "separator_after": " "
+        },
+        {
+          "target": "कर",
+          "bangla_pronunciation": "কর",
+          "separator_after": " "
+        },
+        {
+          "target": "सकते",
+          "bangla_pronunciation": "সকতে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं?",
+          "bangla_pronunciation": "হ্যাঁয়?",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আপনি কি সাহায্য করতে পারেন?"
+    },
+    {
+      "prompt_bengali_md": "কাউকে এখানে বসতে পারেন বলুন।",
+      "model_target": "आप यहाँ बैठ सकते हैं।",
+      "model_bangla_pronunciation": "আপ যহাঁ বৈঠ সকতে হ্যাঁয়।",
+      "model_word_pronunciations": [
+        {
+          "target": "आप",
+          "bangla_pronunciation": "আপ",
+          "separator_after": " "
+        },
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "बैठ",
+          "bangla_pronunciation": "বৈঠ",
+          "separator_after": " "
+        },
+        {
+          "target": "सकते",
+          "bangla_pronunciation": "সকতে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আপনি এখানে বসতে পারেন।"
+    },
+    {
+      "prompt_bengali_md": "একটু সময় দরকার বলুন।",
+      "model_target": "मुझे थोड़ा समय चाहिए।",
+      "model_bangla_pronunciation": "মুঝে থোড়া সময় চাহিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "थोड़ा",
+          "bangla_pronunciation": "থোড়া",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার একটু সময় দরকার।"
+    },
+    {
+      "prompt_bengali_md": "আপনার কাছে টিকিট আছে বলুন।",
+      "model_target": "मेरे पास टिकट है।",
+      "model_bangla_pronunciation": "মেরে পাস টিকট হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "टिकट",
+          "bangla_pronunciation": "টিকট",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার কাছে টিকিট আছে।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch015_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "Bright waiting-room scene in a contemporary South Asian travel or service building; an adult Bangladeshi traveler politely asks a staff member for a room or place to sit, with a chair, water glass, and helpful gesture as visual cues, uncluttered. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    },
+    {
+      "key": "ch015_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A different simple office lobby in daylight; an adult visitor holds a small ticket card, sits calmly for a moment, checks the time, then prepares to leave with a companion, clear sense of availability and ability. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    }
+  ],
+  "additional_practice": []
+}

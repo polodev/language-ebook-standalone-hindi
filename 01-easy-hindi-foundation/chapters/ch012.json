@@ -1,0 +1,1237 @@
+{
+  "chapter_id": "ch012",
+  "status": "drafted",
+  "title_target": "बस और रिक्शा से यात्रा",
+  "title_bangla_pronunciation": "বস অউর রিকশা সে যাত্রা",
+  "title_word_pronunciations": [
+    {
+      "target": "बस",
+      "bangla_pronunciation": "বস",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "रिक्शा",
+      "bangla_pronunciation": "রিকশা",
+      "separator_after": " "
+    },
+    {
+      "target": "से",
+      "bangla_pronunciation": "সে",
+      "separator_after": " "
+    },
+    {
+      "target": "यात्रा",
+      "bangla_pronunciation": "যাত্রা",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "বাস ও রিকশায় যাত্রা",
+  "goal_bengali_md": "বাস, রিকশা ও সিএনজিতে গন্তব্য, ভাড়া, যানজট, নামা ও থামার সাধারণ কথা বলা।",
+  "sentences": [
+    {
+      "id": "ch012_s01",
+      "target": "बस कहाँ जाएगी?",
+      "bangla_pronunciation": "বস কহাঁ জায়েগি?",
+      "word_pronunciations": [
+        {
+          "target": "बस",
+          "bangla_pronunciation": "বস",
+          "separator_after": " "
+        },
+        {
+          "target": "कहाँ",
+          "bangla_pronunciation": "কহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "जाएगी?",
+          "bangla_pronunciation": "জায়েগি?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "bas kahaan jaayegi?",
+      "meaning_bengali_md": "বাস কোথায় যাবে?"
+    },
+    {
+      "id": "ch012_s02",
+      "target": "यह बस स्टेशन जाएगी।",
+      "bangla_pronunciation": "যহ বস স্টেশন জায়েগি।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "बस",
+          "bangla_pronunciation": "বস",
+          "separator_after": " "
+        },
+        {
+          "target": "स्टेशन",
+          "bangla_pronunciation": "স্টেশন",
+          "separator_after": " "
+        },
+        {
+          "target": "जाएगी।",
+          "bangla_pronunciation": "জায়েগি।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "yah bas station jaayegi.",
+      "meaning_bengali_md": "এই বাস স্টেশনে যাবে।"
+    },
+    {
+      "id": "ch012_s03",
+      "target": "मुझे स्टेशन जाना है।",
+      "bangla_pronunciation": "মুঝে স্টেশন জানা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "स्टेशन",
+          "bangla_pronunciation": "স্টেশন",
+          "separator_after": " "
+        },
+        {
+          "target": "जाना",
+          "bangla_pronunciation": "জানা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "mujhe station jaana hai.",
+      "meaning_bengali_md": "আমাকে স্টেশনে যেতে হবে।"
+    },
+    {
+      "id": "ch012_s04",
+      "target": "किराया कितना है?",
+      "bangla_pronunciation": "কিরায়া কিতনা হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "किराया",
+          "bangla_pronunciation": "কিরায়া",
+          "separator_after": " "
+        },
+        {
+          "target": "कितना",
+          "bangla_pronunciation": "কিতনা",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "kiraaya kitna hai?",
+      "meaning_bengali_md": "ভাড়া কত?"
+    },
+    {
+      "id": "ch012_s05",
+      "target": "दस रुपये दीजिए।",
+      "bangla_pronunciation": "দস রুপয়ে দিজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "दस",
+          "bangla_pronunciation": "দস",
+          "separator_after": " "
+        },
+        {
+          "target": "रुपये",
+          "bangla_pronunciation": "রুপয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "das rupaye dijiye.",
+      "meaning_bengali_md": "দশ রুপি দিন।"
+    },
+    {
+      "id": "ch012_s06",
+      "target": "ट्रैफिक बहुत है।",
+      "bangla_pronunciation": "ট্র্যাফিক বহুত হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "ट्रैफिक",
+          "bangla_pronunciation": "ট্র্যাফিক",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "traffic bahut hai.",
+      "meaning_bengali_md": "ট্রাফিক খুব বেশি।"
+    },
+    {
+      "id": "ch012_s07",
+      "target": "हम देर से पहुँचेंगे।",
+      "bangla_pronunciation": "হম দের সে পহুঁচেঙ্গে।",
+      "word_pronunciations": [
+        {
+          "target": "हम",
+          "bangla_pronunciation": "হম",
+          "separator_after": " "
+        },
+        {
+          "target": "देर",
+          "bangla_pronunciation": "দের",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहुँचेंगे।",
+          "bangla_pronunciation": "পহুঁচেঙ্গে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "ham der se pahunchenge.",
+      "meaning_bengali_md": "আমরা দেরিতে পৌঁছাব।"
+    },
+    {
+      "id": "ch012_s08",
+      "target": "यह रास्ता सही है?",
+      "bangla_pronunciation": "যহ রাস্‌তা সহি হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "रास्ता",
+          "bangla_pronunciation": "রাস্‌তা",
+          "separator_after": " "
+        },
+        {
+          "target": "सही",
+          "bangla_pronunciation": "সহি",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "yah raasta sahi hai?",
+      "meaning_bengali_md": "এই পথ কি ঠিক?"
+    },
+    {
+      "id": "ch012_s09",
+      "target": "अगले मोड़ पर रुकिए।",
+      "bangla_pronunciation": "আগলে মোড় পর রুকিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "अगले",
+          "bangla_pronunciation": "আগলে",
+          "separator_after": " "
+        },
+        {
+          "target": "मोड़",
+          "bangla_pronunciation": "মোড়",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "रुकिए।",
+          "bangla_pronunciation": "রুকিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "agle mod par rukiye.",
+      "meaning_bengali_md": "পরের মোড়ে থামুন।"
+    },
+    {
+      "id": "ch012_s10",
+      "target": "मुझे यहाँ उतारिए।",
+      "bangla_pronunciation": "মুঝে যহাঁ উতারিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "उतारिए।",
+          "bangla_pronunciation": "উতারিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "mujhe yahaan utaariye.",
+      "meaning_bengali_md": "আমাকে এখানে নামিয়ে দিন।"
+    },
+    {
+      "id": "ch012_s11",
+      "target": "क्या यह रिक्शा खाली है?",
+      "bangla_pronunciation": "ক্যা যহ রিকশা খালি হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "रिक्शा",
+          "bangla_pronunciation": "রিকশা",
+          "separator_after": " "
+        },
+        {
+          "target": "खाली",
+          "bangla_pronunciation": "খালি",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "kya yah riksha khaali hai?",
+      "meaning_bengali_md": "এই রিকশাটি কি খালি?"
+    },
+    {
+      "id": "ch012_s12",
+      "target": "सीएनजी वहाँ खड़ी है।",
+      "bangla_pronunciation": "সিএনজি বহাঁ খড়ি হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "सीएनजी",
+          "bangla_pronunciation": "সিএনজি",
+          "separator_after": " "
+        },
+        {
+          "target": "वहाँ",
+          "bangla_pronunciation": "বহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "खड़ी",
+          "bangla_pronunciation": "খড়ি",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "CNG vahaan khadi hai.",
+      "meaning_bengali_md": "সিএনজি ওখানে দাঁড়িয়ে আছে।"
+    },
+    {
+      "id": "ch012_s13",
+      "target": "बस अभी आएगी।",
+      "bangla_pronunciation": "বস অভি আয়েগি।",
+      "word_pronunciations": [
+        {
+          "target": "बस",
+          "bangla_pronunciation": "বস",
+          "separator_after": " "
+        },
+        {
+          "target": "अभी",
+          "bangla_pronunciation": "অভি",
+          "separator_after": " "
+        },
+        {
+          "target": "आएगी।",
+          "bangla_pronunciation": "আয়েগি।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "bas abhi aayegi.",
+      "meaning_bengali_md": "বাস এখনই আসবে।"
+    },
+    {
+      "id": "ch012_s14",
+      "target": "हम रिक्शा लेंगे।",
+      "bangla_pronunciation": "হম রিকশা লেঙ্গে।",
+      "word_pronunciations": [
+        {
+          "target": "हम",
+          "bangla_pronunciation": "হম",
+          "separator_after": " "
+        },
+        {
+          "target": "रिक्शा",
+          "bangla_pronunciation": "রিকশা",
+          "separator_after": " "
+        },
+        {
+          "target": "लेंगे।",
+          "bangla_pronunciation": "লেঙ্গে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "ham riksha lenge.",
+      "meaning_bengali_md": "আমরা রিকশা নেব।"
+    },
+    {
+      "id": "ch012_s15",
+      "target": "स्टेशन तक कितना किराया है?",
+      "bangla_pronunciation": "স্টেশন তক কিতনা কিরায়া হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "स्टेशन",
+          "bangla_pronunciation": "স্টেশন",
+          "separator_after": " "
+        },
+        {
+          "target": "तक",
+          "bangla_pronunciation": "তক",
+          "separator_after": " "
+        },
+        {
+          "target": "कितना",
+          "bangla_pronunciation": "কিতনা",
+          "separator_after": " "
+        },
+        {
+          "target": "किराया",
+          "bangla_pronunciation": "কিরায়া",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "station tak kitna kiraaya hai?",
+      "meaning_bengali_md": "স্টেশন পর্যন্ত ভাড়া কত?"
+    },
+    {
+      "id": "ch012_s16",
+      "target": "कृपया धीरे चलाइए।",
+      "bangla_pronunciation": "কৃপয়া ধীরে চলাইয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "धीरे",
+          "bangla_pronunciation": "ধীরে",
+          "separator_after": " "
+        },
+        {
+          "target": "चलाइए।",
+          "bangla_pronunciation": "চলাইয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "kripaya dheere chalaiye.",
+      "meaning_bengali_md": "অনুগ্রহ করে ধীরে চালান।"
+    },
+    {
+      "id": "ch012_s17",
+      "target": "यहाँ बहुत जाम है।",
+      "bangla_pronunciation": "যহাঁ বহুত জাম হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "जाम",
+          "bangla_pronunciation": "জাম",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "yahaan bahut jaam hai.",
+      "meaning_bengali_md": "এখানে অনেক যানজট।"
+    },
+    {
+      "id": "ch012_s18",
+      "target": "कितनी देर लगेगी?",
+      "bangla_pronunciation": "কিতনি দের লাগেগি?",
+      "word_pronunciations": [
+        {
+          "target": "कितनी",
+          "bangla_pronunciation": "কিতনি",
+          "separator_after": " "
+        },
+        {
+          "target": "देर",
+          "bangla_pronunciation": "দের",
+          "separator_after": " "
+        },
+        {
+          "target": "लगेगी?",
+          "bangla_pronunciation": "লাগেগি?",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "kitni der lagegi?",
+      "meaning_bengali_md": "কতক্ষণ লাগবে?"
+    },
+    {
+      "id": "ch012_s19",
+      "target": "मुझे जल्दी पहुँचना है।",
+      "bangla_pronunciation": "মুঝে জলদি পহুঁচনা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "जल्दी",
+          "bangla_pronunciation": "জলদি",
+          "separator_after": " "
+        },
+        {
+          "target": "पहुँचना",
+          "bangla_pronunciation": "পহুঁচনা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "mujhe jaldi pahunchna hai.",
+      "meaning_bengali_md": "আমাকে দ্রুত পৌঁছাতে হবে।"
+    },
+    {
+      "id": "ch012_s20",
+      "target": "यहीं रोक दीजिए।",
+      "bangla_pronunciation": "যহিঁ রোক দিজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "यहीं",
+          "bangla_pronunciation": "যহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "रोक",
+          "bangla_pronunciation": "রোক",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "romanization": "yahin rok dijiye.",
+      "meaning_bengali_md": "এখানেই থামিয়ে দিন।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "ch012_v01",
+      "target": "बस",
+      "bangla_pronunciation": "বস",
+      "word_pronunciations": [
+        {
+          "target": "बस",
+          "bangla_pronunciation": "বস",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "bas",
+      "meaning_bengali_md": "বাস",
+      "source_sentence_id": "ch012_s01",
+      "source_form": "बस"
+    },
+    {
+      "id": "ch012_v02",
+      "target": "स्टेशन",
+      "bangla_pronunciation": "স্টেশন",
+      "word_pronunciations": [
+        {
+          "target": "स्टेशन",
+          "bangla_pronunciation": "স্টেশন",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "station",
+      "meaning_bengali_md": "স্টেশন",
+      "source_sentence_id": "ch012_s02",
+      "source_form": "स्टेशन"
+    },
+    {
+      "id": "ch012_v03",
+      "target": "किराया",
+      "bangla_pronunciation": "কিরায়া",
+      "word_pronunciations": [
+        {
+          "target": "किराया",
+          "bangla_pronunciation": "কিরায়া",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "kiraaya",
+      "meaning_bengali_md": "ভাড়া",
+      "source_sentence_id": "ch012_s04",
+      "source_form": "किराया"
+    },
+    {
+      "id": "ch012_v04",
+      "target": "देर",
+      "bangla_pronunciation": "দের",
+      "word_pronunciations": [
+        {
+          "target": "देर",
+          "bangla_pronunciation": "দের",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য/ক্রিয়াবিশেষণ",
+      "romanization": "der",
+      "meaning_bengali_md": "দেরি",
+      "source_sentence_id": "ch012_s07",
+      "source_form": "देर"
+    },
+    {
+      "id": "ch012_v05",
+      "target": "मोड़",
+      "bangla_pronunciation": "মোড়",
+      "word_pronunciations": [
+        {
+          "target": "मोड़",
+          "bangla_pronunciation": "মোড়",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "mod",
+      "meaning_bengali_md": "মোড়",
+      "source_sentence_id": "ch012_s09",
+      "source_form": "मोड़"
+    },
+    {
+      "id": "ch012_v06",
+      "target": "उतारिए",
+      "bangla_pronunciation": "উতারিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "उतारिए",
+          "bangla_pronunciation": "উতারিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "type": "ক্রিয়া",
+      "romanization": "utaariye",
+      "meaning_bengali_md": "নামিয়ে দিন—সম্মানসূচক",
+      "source_sentence_id": "ch012_s10",
+      "source_form": "उतारिए"
+    },
+    {
+      "id": "ch012_v07",
+      "target": "रिक्शा",
+      "bangla_pronunciation": "রিকশা",
+      "word_pronunciations": [
+        {
+          "target": "रिक्शा",
+          "bangla_pronunciation": "রিকশা",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "riksha",
+      "meaning_bengali_md": "রিকশা",
+      "source_sentence_id": "ch012_s11",
+      "source_form": "रिक्शा"
+    },
+    {
+      "id": "ch012_v08",
+      "target": "धीरे",
+      "bangla_pronunciation": "ধীরে",
+      "word_pronunciations": [
+        {
+          "target": "धीरे",
+          "bangla_pronunciation": "ধীরে",
+          "separator_after": ""
+        }
+      ],
+      "type": "ক্রিয়াবিশেষণ",
+      "romanization": "dheere",
+      "meaning_bengali_md": "ধীরে",
+      "source_sentence_id": "ch012_s16",
+      "source_form": "धीरे"
+    },
+    {
+      "id": "ch012_v09",
+      "target": "जाम",
+      "bangla_pronunciation": "জাম",
+      "word_pronunciations": [
+        {
+          "target": "जाम",
+          "bangla_pronunciation": "জাম",
+          "separator_after": ""
+        }
+      ],
+      "type": "বিশেষ্য",
+      "romanization": "jaam",
+      "meaning_bengali_md": "যানজট",
+      "source_sentence_id": "ch012_s17",
+      "source_form": "जाम"
+    },
+    {
+      "id": "ch012_v10",
+      "target": "जल्दी",
+      "bangla_pronunciation": "জলদি",
+      "word_pronunciations": [
+        {
+          "target": "जल्दी",
+          "bangla_pronunciation": "জলদি",
+          "separator_after": ""
+        }
+      ],
+      "type": "ক্রিয়াবিশেষণ",
+      "romanization": "jaldi",
+      "meaning_bengali_md": "দ্রুত/তাড়াতাড়ি",
+      "source_sentence_id": "ch012_s19",
+      "source_form": "जल्दी"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "রিকশায় স্টেশনের পথে",
+    "scene_summary": "একজন বাংলাদেশি যাত্রী রিকশায় স্টেশনে যাওয়ার সময় ভাড়া, যানজট ও থামার কথা বলছে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "আরিফ স্টেশনে যাওয়ার জন্য একটি রিকশা থামাল। সে জিজ্ঞেস করল, "
+      },
+      {
+        "kind": "target",
+        "target": "स्टेशन तक कितना किराया है?",
+        "bangla_pronunciation": "স্টেশন তক কিতনা কিরায়া হ্যায়?",
+        "word_pronunciations": [
+          {
+            "target": "स्टेशन",
+            "bangla_pronunciation": "স্টেশন",
+            "separator_after": " "
+          },
+          {
+            "target": "तक",
+            "bangla_pronunciation": "তক",
+            "separator_after": " "
+          },
+          {
+            "target": "कितना",
+            "bangla_pronunciation": "কিতনা",
+            "separator_after": " "
+          },
+          {
+            "target": "किराया",
+            "bangla_pronunciation": "কিরায়া",
+            "separator_after": " "
+          },
+          {
+            "target": "है?",
+            "bangla_pronunciation": "হ্যায়?",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " চালক ভাড়া বলার পর আরিফ উঠল। রাস্তায় যানজট দেখে সে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "यहाँ बहुत जाम है।",
+        "bangla_pronunciation": "যহাঁ বহুত জাম হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "यहाँ",
+            "bangla_pronunciation": "যহাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "बहुत",
+            "bangla_pronunciation": "বহুত",
+            "separator_after": " "
+          },
+          {
+            "target": "जाम",
+            "bangla_pronunciation": "জাম",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " তারপর অনুরোধ করল, "
+      },
+      {
+        "kind": "target",
+        "target": "कृपया धीरे चलाइए।",
+        "bangla_pronunciation": "কৃপয়া ধীরে চলাইয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "कृपया",
+            "bangla_pronunciation": "কৃপয়া",
+            "separator_after": " "
+          },
+          {
+            "target": "धीरे",
+            "bangla_pronunciation": "ধীরে",
+            "separator_after": " "
+          },
+          {
+            "target": "चलाइए।",
+            "bangla_pronunciation": "চলাইয়ে।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " গন্তব্যের কাছে এসে সে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "यहीं रोक दीजिए।",
+        "bangla_pronunciation": "যহিঁ রোক দিজিয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "यहीं",
+            "bangla_pronunciation": "যহিঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "रोक",
+            "bangla_pronunciation": "রোক",
+            "separator_after": " "
+          },
+          {
+            "target": "दीजिए।",
+            "bangla_pronunciation": "দিজিয়ে।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "আরিফ স্টেশনে যাওয়ার জন্য একটি রিকশা থামাল। সে জিজ্ঞেস করল, **स्टेशन** (স্টেশন) **तक** (তক) **कितना** (কিতনা) **किराया** (কিরায়া) **है?** (হ্যায়?) চালক ভাড়া বলার পর আরিফ উঠল। রাস্তায় যানজট দেখে সে বলল, **यहाँ** (যহাঁ) **बहुत** (বহুত) **जाम** (জাম) **है।** (হ্যায়।) তারপর অনুরোধ করল, **कृपया** (কৃপয়া) **धीरे** (ধীরে) **चलाइए।** (চলাইয়ে।) গন্তব্যের কাছে এসে সে বলল, **यहीं** (যহিঁ) **रोक** (রোক) **दीजिए।** (দিজিয়ে।)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "বাসে ছোট যাত্রা",
+    "scene_summary": "একজন যাত্রী বাসে স্টেশনে যাচ্ছে এবং যানজটের কারণে দেরি হচ্ছে।",
+    "lines": [
+      {
+        "target": "बस अभी आएगी।",
+        "bangla_pronunciation": "বস অভি আয়েগি।",
+        "word_pronunciations": [
+          {
+            "target": "बस",
+            "bangla_pronunciation": "বস",
+            "separator_after": " "
+          },
+          {
+            "target": "अभी",
+            "bangla_pronunciation": "অভি",
+            "separator_after": " "
+          },
+          {
+            "target": "आएगी।",
+            "bangla_pronunciation": "আয়েগি।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मैं स्टेशन जाऊँगा।",
+        "bangla_pronunciation": "ম্যাঁ স্টেশন জাউঙ্গা।",
+        "word_pronunciations": [
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "स्टेशन",
+            "bangla_pronunciation": "স্টেশন",
+            "separator_after": " "
+          },
+          {
+            "target": "जाऊँगा।",
+            "bangla_pronunciation": "জাউঙ্গা।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "ट्रैफिक बहुत है।",
+        "bangla_pronunciation": "ট্র্যাফিক বহুত হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "ट्रैफिक",
+            "bangla_pronunciation": "ট্র্যাফিক",
+            "separator_after": " "
+          },
+          {
+            "target": "बहुत",
+            "bangla_pronunciation": "বহুত",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "बस धीरे चलती है।",
+        "bangla_pronunciation": "বস ধীরে চলতি হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "बस",
+            "bangla_pronunciation": "বস",
+            "separator_after": " "
+          },
+          {
+            "target": "धीरे",
+            "bangla_pronunciation": "ধীরে",
+            "separator_after": " "
+          },
+          {
+            "target": "चलती",
+            "bangla_pronunciation": "চলতি",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "हम देर से पहुँचेंगे।",
+        "bangla_pronunciation": "হম দের সে পহুঁচেঙ্গে।",
+        "word_pronunciations": [
+          {
+            "target": "हम",
+            "bangla_pronunciation": "হম",
+            "separator_after": " "
+          },
+          {
+            "target": "देर",
+            "bangla_pronunciation": "দের",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "separator_after": " "
+          },
+          {
+            "target": "पहुँचेंगे।",
+            "bangla_pronunciation": "পহুঁচেঙ্গে।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "বস অভি আয়েগি। ম্যাঁ স্টেশন জাউঙ্গা। ট্র্যাফিক বহুত হ্যায়। বস ধীরে চলতি হ্যায়। হম দের সে পহুঁচেঙ্গে।",
+    "meaning_bengali_md": "বাস এখনই আসবে। আমি স্টেশনে যাব। ট্রাফিক অনেক। বাস ধীরে চলে। আমরা দেরিতে পৌঁছাব।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_consonant_bh",
+      "mode": "application",
+      "target": "भ",
+      "bangla_pronunciation": "ভ",
+      "explanation_bengali_md": "এটি উচ্চশ্বাসযুক্ত ‘ভ/ভ্‌হ’-এর কাছাকাছি ধ্বনি; বাংলা ‘ভ’-এর সঙ্গে মিল আছে।",
+      "practice_bengali_md": "ধ্বনিটি ধীরে বলুন এবং অক্ষরটি তিনবার লিখুন।"
+    },
+    {
+      "item_id": "dev_consonant_ph",
+      "mode": "application",
+      "target": "फ",
+      "bangla_pronunciation": "ফ",
+      "explanation_bengali_md": "এটি উচ্চশ্বাসযুক্ত ‘ফ’ ধ্বনি; অনেক হিন্দি শব্দে পরিষ্কার বাতাসের ঝাপটা শোনা যায়।",
+      "practice_bengali_md": "হাত মুখের সামনে রেখে ধ্বনি বলার সময় বাতাস অনুভব করুন।"
+    },
+    {
+      "item_id": "dev_consonant_th",
+      "mode": "review",
+      "target": "थ",
+      "bangla_pronunciation": "থ",
+      "explanation_bengali_md": "এটি দন্ত্য উচ্চশ্বাসযুক্ত ‘থ’ ধ্বনি।",
+      "practice_bengali_md": "জিহ্বা ওপরের দাঁতের কাছে রেখে ধ্বনিটি বলুন।"
+    },
+    {
+      "item_id": "dev_consonant_dh",
+      "mode": "review",
+      "target": "ध",
+      "bangla_pronunciation": "ধ",
+      "explanation_bengali_md": "এটি দন্ত্য উচ্চশ্বাসযুক্ত ‘ধ’ ধ্বনি।",
+      "practice_bengali_md": "বাংলা ‘ধ’-এর কাছাকাছি উচ্চারণ করে তিনবার লিখুন।"
+    },
+    {
+      "item_id": "dev_sign_au",
+      "mode": "application",
+      "target": "ौ",
+      "bangla_pronunciation": "ঔ/অউ",
+      "explanation_bengali_md": "এই মাত্রাটি সাধারণত ‘ঔ/অউ’ ধরনের ধ্বনি যোগ করে।",
+      "practice_bengali_md": "চিহ্নটি দেখে ধ্বনি বলুন এবং একটি পরিচিত ব্যঞ্জনের সঙ্গে মানসিকভাবে মিলিয়ে নিন।"
+    }
+  ],
+  "number_practice": [
+    {
+      "display": "10 / १०",
+      "target": "दस",
+      "bangla_pronunciation": "দস",
+      "word_pronunciations": [
+        {
+          "target": "दस",
+          "bangla_pronunciation": "দস",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দশ",
+      "system": "International + Devanagari"
+    },
+    {
+      "display": "30 / ३०",
+      "target": "तीस",
+      "bangla_pronunciation": "তীস",
+      "word_pronunciations": [
+        {
+          "target": "तीस",
+          "bangla_pronunciation": "তীস",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ত্রিশ",
+      "system": "International + Devanagari"
+    }
+  ],
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "ভাড়া কত জিজ্ঞেস করুন।",
+      "model_target": "किराया कितना है?",
+      "model_bangla_pronunciation": "কিরায়া কিতনা হ্যায়?",
+      "model_word_pronunciations": [
+        {
+          "target": "किराया",
+          "bangla_pronunciation": "কিরায়া",
+          "separator_after": " "
+        },
+        {
+          "target": "कितना",
+          "bangla_pronunciation": "কিতনা",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ভাড়া কত?"
+    },
+    {
+      "prompt_bengali_md": "স্টেশন পর্যন্ত ভাড়া জিজ্ঞেস করুন।",
+      "model_target": "स्टेशन तक कितना किराया है?",
+      "model_bangla_pronunciation": "স্টেশন তক কিতনা কিরায়া হ্যায়?",
+      "model_word_pronunciations": [
+        {
+          "target": "स्टेशन",
+          "bangla_pronunciation": "স্টেশন",
+          "separator_after": " "
+        },
+        {
+          "target": "तक",
+          "bangla_pronunciation": "তক",
+          "separator_after": " "
+        },
+        {
+          "target": "कितना",
+          "bangla_pronunciation": "কিতনা",
+          "separator_after": " "
+        },
+        {
+          "target": "किराया",
+          "bangla_pronunciation": "কিরায়া",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "স্টেশন পর্যন্ত ভাড়া কত?"
+    },
+    {
+      "prompt_bengali_md": "এখানে নামিয়ে দিতে বলুন।",
+      "model_target": "मुझे यहाँ उतारिए।",
+      "model_bangla_pronunciation": "মুঝে যহাঁ উতারিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "उतारिए।",
+          "bangla_pronunciation": "উতারিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমাকে এখানে নামিয়ে দিন।"
+    },
+    {
+      "prompt_bengali_md": "ধীরে চালাতে অনুরোধ করুন।",
+      "model_target": "कृपया धीरे चलाइए।",
+      "model_bangla_pronunciation": "কৃপয়া ধীরে চলাইয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "धीरे",
+          "bangla_pronunciation": "ধীরে",
+          "separator_after": " "
+        },
+        {
+          "target": "चलाइए।",
+          "bangla_pronunciation": "চলাইয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "অনুগ্রহ করে ধীরে চালান।"
+    },
+    {
+      "prompt_bengali_md": "কতক্ষণ লাগবে জিজ্ঞেস করুন।",
+      "model_target": "कितनी देर लगेगी?",
+      "model_bangla_pronunciation": "কিতনি দের লাগেগি?",
+      "model_word_pronunciations": [
+        {
+          "target": "कितनी",
+          "bangla_pronunciation": "কিতনি",
+          "separator_after": " "
+        },
+        {
+          "target": "देर",
+          "bangla_pronunciation": "দের",
+          "separator_after": " "
+        },
+        {
+          "target": "लगेगी?",
+          "bangla_pronunciation": "লাগেগি?",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "কতক্ষণ লাগবে?"
+    },
+    {
+      "prompt_bengali_md": "এখানেই থামাতে বলুন।",
+      "model_target": "यहीं रोक दीजिए।",
+      "model_bangla_pronunciation": "যহিঁ রোক দিজিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "यहीं",
+          "bangla_pronunciation": "যহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "रोक",
+          "bangla_pronunciation": "রোক",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এখানেই থামিয়ে দিন।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch012_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "Daytime urban South Asian street with a Bangladeshi adult passenger seated in a cycle rickshaw speaking politely with the driver, moderate traffic around them, station area implied in the distance, clean uncluttered composition and expressive gestures. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    },
+    {
+      "key": "ch012_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A separate city-bus scene in soft late-afternoon light; an adult passenger waits beside a bus, then rides through slow traffic toward a station, with the bus and congested road as the visual focus, calm realistic atmosphere. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    }
+  ],
+  "additional_practice": []
+}
