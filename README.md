@@ -15,6 +15,17 @@ Open the appropriate JSON prompt file and use the string for the desired chapter
 
 Each book's INSTRUCTIONS.md is its sole authoring instruction file. Read book.json for all chapter plans and chapter-template.json for the data shape. There is no separate shared authoring guide to reconcile. Each JSON value requests continuous completion of its chapter range, checks using available tools, and one pull request to main per chapter batch for the user to review and merge. Each 60-chapter book has six 10-chapter prompts; the 234-chapter vocabulary book has 24 prompts, ending at 231–234. Copy the decoded string value for the desired range as the ChatGPT request. Author chapter JSON and matching image-prompt text; the manager generates images and builds publications. If the connection cannot write, it must return complete files with exact destinations and report that Git delivery is incomplete.
 
+## Foundation artwork
+
+Generate or resume all 122 Foundation images (120 reading illustrations, cover and banner):
+
+```bash
+python3 01-easy-hindi-foundation/generate_images.py --dry-run --workers 10
+python3 01-easy-hindi-foundation/generate_images.py --workers 10
+```
+
+The script validates and assembles the manuscript, saves the image declaration JSON, and calls the existing OpenAI image pipeline with at most ten concurrent requests. Model is `gpt-image-2`, quality is explicitly `low`; sizes come from the declaration. Completed image files are reused on rerun. Configure `OPENAI_API_KEY` privately in the ignored repository `.env`; never commit credentials. Generated artwork and its actual prompt manifest live under the book’s `assets/` folder. Artwork generation does not mark the book published.
+
 ## Manager tools
 
 Python 3.10+; authoring management uses the standard library.
