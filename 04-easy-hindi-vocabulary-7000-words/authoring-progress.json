@@ -1,0 +1,108 @@
+{
+  "book": "04-easy-hindi-vocabulary-7000-words",
+  "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+  "requested_range": {
+    "start": "ch001",
+    "end": "ch010",
+    "count": 10,
+    "requested_ids": [
+      "ch001",
+      "ch002",
+      "ch003",
+      "ch004",
+      "ch005",
+      "ch006",
+      "ch007",
+      "ch008",
+      "ch009",
+      "ch010"
+    ]
+  },
+  "completed_ids": [
+    "ch001",
+    "ch002",
+    "ch003",
+    "ch004",
+    "ch005",
+    "ch006",
+    "ch007",
+    "ch008",
+    "ch009",
+    "ch010"
+  ],
+  "unfinished_ids": [],
+  "status": "batch_complete",
+  "inventory": {
+    "chapters": 10,
+    "reviewed_rosters": 10,
+    "unique_vocabulary_targets": 300,
+    "essential_sentences": 200,
+    "bridge_readings": 10,
+    "target_readings": 10,
+    "target_reading_lines": 50,
+    "script_practice_items": 50,
+    "number_cards": 20,
+    "speaking_practice_tasks": 60,
+    "reading_image_prompts": 20
+  },
+  "checks_performed": [
+    {
+      "check": "authoring_source_review",
+      "result": "passed",
+      "details": "Read this book INSTRUCTIONS.md as the sole authoring guide, plus book.json plans, chapter-template.json, supplementary.json, current validator logic, and the current main contents for the assigned book. Current main had no authored ch001-ch010 chapter or roster JSON to overwrite."
+    },
+    {
+      "check": "assigned_file_presence_and_identity",
+      "result": "passed",
+      "details": "Verified all requested chapter and roster files ch001 through ch010 are present, parse as JSON, and use the planned chapter IDs and frozen vocabulary ID ranges."
+    },
+    {
+      "check": "reviewed_rosters_and_unique_targets",
+      "result": "passed",
+      "details": "Verified 10 reviewed rosters, exactly 30 items each, frozen IDs v00001-v00300 in order, 25 word plus 5 expression placement per chapter, and 300 unique normalized targets across the assigned range."
+    },
+    {
+      "check": "required_sections_and_counts",
+      "result": "passed",
+      "details": "Verified 20 sentences, 30 vocabulary entries, five script cards, six speaking tasks, and two image prompts per chapter; target readings have five lines each; number practice has two cards per chapter."
+    },
+    {
+      "check": "sentence_limits_and_vocabulary_sources",
+      "result": "passed",
+      "details": "Verified every essential sentence in ch001-ch010 is at most four annotated learning units, every source_sentence_id exists, and every source_form occurs in its cited sentence."
+    },
+    {
+      "check": "pronunciation_and_word_reconstruction",
+      "result": "passed",
+      "details": "Verified annotated target strings reconstruct exactly from ordered word_pronunciations for titles, sentences, vocabulary, examples, mixed target spans, pure-reading lines, number words and speaking models."
+    },
+    {
+      "check": "mixed_and_pure_readings",
+      "result": "passed",
+      "details": "Verified every bridge reading contains Bangla and Hindi segments and text_md is the exact escaped bold-word/pronunciation mirror; every pure reading has five short annotated lines plus complete Bangla pronunciation and meaning."
+    },
+    {
+      "check": "script_and_number_progression",
+      "result": "passed",
+      "details": "Verified five distinct stage-appropriate script cards per chapter with no repeated new item IDs in the assigned range, and two valid annotated number cards per chapter."
+    },
+    {
+      "check": "image_prompt_keys_and_scene_match",
+      "result": "passed",
+      "details": "Verified exactly two reading-specific prompts per chapter in bridge/target order, exact planned keys, distinct scenes, and the required no-readable-text/no-labels/no-signage/no-watermark instruction."
+    },
+    {
+      "check": "repository_partial_validator",
+      "result": "passed",
+      "command": "python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words",
+      "details": "Ran successfully in the repository checkout after generating the assigned range; future missing chapters are permitted by partial validation and publication was not assessed."
+    }
+  ],
+  "remaining_issues": [
+    "Chapter status remains drafted; no independent native-language reviewer approval is claimed.",
+    "This is only the requested ch001-ch010 batch; full-book validation, assembly, artwork generation, PDF/EPUB output, and later chapters were not attempted."
+  ],
+  "resume_point": "Requested batch is complete. Do not continue automatically; the next unrequested range begins at ch011.",
+  "book_complete": false,
+  "updated_at_local": "2026-09-12T02:38+06:00"
+}
