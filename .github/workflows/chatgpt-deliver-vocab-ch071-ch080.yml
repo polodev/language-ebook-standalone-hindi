@@ -1,0 +1,86 @@
+name: Deliver Hindi vocabulary chapters 71-80
+
+on:
+  push:
+    branches:
+      - chatgpt-transfer-vocab-ch071-ch080-20260912
+    paths:
+      - '.github/transfer/READY'
+
+permissions:
+  contents: write
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout transfer branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reconstruct transfer archive
+        shell: bash
+        run: |
+          cat .github/transfer/ch71-80.part-* | base64 -d | xz -d > /tmp/ch71-80.tar
+          tar -tf /tmp/ch71-80.tar
+
+      - name: Verify base, extract, preserve progress, and validate
+        shell: bash
+        env:
+          EXPECTED_MAIN: d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6
+          TARGET_BRANCH: content/04-easy-hindi-vocabulary-7000-words/ch071-ch080
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          test "$(git rev-parse origin/main)" = "$EXPECTED_MAIN"
+          git checkout -B delivery origin/main
+          tar -xf /tmp/ch71-80.tar
+          for n in {71..80}; do
+            c=$(printf '04-easy-hindi-vocabulary-7000-words/chapters/ch%03d.json' "$n")
+            r=$(printf '04-easy-hindi-vocabulary-7000-words/rosters/ch%03d.json' "$n")
+            test -s "$c"
+            test -s "$r"
+          done
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          dest = Path("04-easy-hindi-vocabulary-7000-words/authoring-progress.json")
+          incoming = json.loads(dest.read_text(encoding="utf-8"))
+          incoming["branch"] = "content/04-easy-hindi-vocabulary-7000-words/ch071-ch080"
+          incoming["base_commit"] = "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6"
+          incoming["git_delivery"] = {
+              "status": "delivery_commit_pending_at_validation",
+              "target_branch": "content/04-easy-hindi-vocabulary-7000-words/ch071-ch080",
+              "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+              "method": "GitHub Actions byte-exact transport to a separate review branch.",
+              "force_push": False
+          }
+          dest.write_text(json.dumps(incoming, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          PY
+          python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words
+
+      - name: Commit and push review branch
+        shell: bash
+        env:
+          TARGET_BRANCH: content/04-easy-hindi-vocabulary-7000-words/ch071-ch080
+        run: |
+          set -euo pipefail
+          git config user.name "polodev"
+          git config user.email "polodev10@gmail.com"
+          git add 04-easy-hindi-vocabulary-7000-words/chapters/ch0{71,72,73,74,75,76,77,78,79,80}.json
+          git add 04-easy-hindi-vocabulary-7000-words/rosters/ch0{71,72,73,74,75,76,77,78,79,80}.json
+          git add 04-easy-hindi-vocabulary-7000-words/authoring-progress.json
+          test "$(git diff --cached --name-only | wc -l)" -eq 21
+          test "$(git diff --cached --diff-filter=A --name-only | wc -l)" -eq 21
+          test -z "$(git diff --cached --diff-filter=DMR --name-only)"
+          files=$(git diff --cached --name-only | wc -l | tr -d ' ')
+          adds=$(git diff --cached --numstat | awk '{a+=$1} END {print a+0}')
+          dels=$(git diff --cached --numstat | awk '{d+=$2} END {print d+0}')
+          ts=$(TZ=Asia/Dhaka date '+%Y-%m-%d %H:%M %z')
+          git commit -m "Author Hindi vocab ch071-ch080 — $ts — $files files, +$adds/-$dels"
+          commit_sha=$(git rev-parse HEAD)
+          git push origin HEAD:"$TARGET_BRANCH"
+          git fetch origin "$TARGET_BRANCH"
+          test "$(git rev-parse FETCH_HEAD)" = "$commit_sha"
+          git push origin --delete chatgpt-transfer-vocab-ch071-ch080-20260912 || true
