@@ -1,0 +1,82 @@
+name: Deliver Easy Hindi Intermediate chapters 11-20
+
+on:
+  push:
+    branches:
+      - transport/02-easy-hindi-intermediate/ch011-ch020-20260912
+    paths:
+      - '.github/transfer-int-ch011-ch020/READY'
+
+permissions:
+  contents: write
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout transfer branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reconstruct and verify archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .github/transfer-int-ch011-ch020/part-* | base64 -d > /tmp/int-ch011-ch020.tar.xz
+          echo '6cf9155c1929deb95e520b02b8b7ba0ac273e156ed05d7ff3031c96e3d5c66b0  /tmp/int-ch011-ch020.tar.xz' | sha256sum -c -
+          xz -dc /tmp/int-ch011-ch020.tar.xz > /tmp/int-ch011-ch020.tar
+          echo '746e2e2847625d8d3e39cfb1b762c11af92e4f3b9e122a147181a21fc6108848  /tmp/int-ch011-ch020.tar' | sha256sum -c -
+          tar -tf /tmp/int-ch011-ch020.tar
+
+      - name: Verify latest main, extract, and validate
+        shell: bash
+        env:
+          EXPECTED_MAIN: d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6
+          DELIVERY_BRANCH: content/02-easy-hindi-intermediate/ch011-ch020
+        run: |
+          set -euo pipefail
+          git fetch origin main "$DELIVERY_BRANCH"
+          test "$(git rev-parse origin/main)" = "$EXPECTED_MAIN"
+          test "$(git rev-parse origin/$DELIVERY_BRANCH)" = "$EXPECTED_MAIN"
+          git checkout -B delivery origin/main
+          tar -xf /tmp/int-ch011-ch020.tar
+          for n in {11..20}; do
+            f=$(printf '02-easy-hindi-intermediate/chapters/ch%03d.json' "$n")
+            test -s "$f"
+          done
+          test -s 02-easy-hindi-intermediate/authoring-progress.json
+          python3 scripts/manage.py validate --book 02-easy-hindi-intermediate
+
+      - name: Commit actual source batch and push review branch
+        shell: bash
+        env:
+          DELIVERY_BRANCH: content/02-easy-hindi-intermediate/ch011-ch020
+          TRANSFER_BRANCH: transport/02-easy-hindi-intermediate/ch011-ch020-20260912
+        run: |
+          set -euo pipefail
+          git config user.name "polodev"
+          git config user.email "polodev10@gmail.com"
+          git add \
+            02-easy-hindi-intermediate/chapters/ch011.json \
+            02-easy-hindi-intermediate/chapters/ch012.json \
+            02-easy-hindi-intermediate/chapters/ch013.json \
+            02-easy-hindi-intermediate/chapters/ch014.json \
+            02-easy-hindi-intermediate/chapters/ch015.json \
+            02-easy-hindi-intermediate/chapters/ch016.json \
+            02-easy-hindi-intermediate/chapters/ch017.json \
+            02-easy-hindi-intermediate/chapters/ch018.json \
+            02-easy-hindi-intermediate/chapters/ch019.json \
+            02-easy-hindi-intermediate/chapters/ch020.json \
+            02-easy-hindi-intermediate/authoring-progress.json
+          git diff --cached --name-status
+          test "$(git diff --cached --name-only | wc -l)" -eq 11
+          test "$(git diff --cached --diff-filter=A --name-only | wc -l)" -eq 11
+          test -z "$(git diff --cached --diff-filter=MDR --name-only)"
+          ts=$(TZ=Asia/Dhaka date '+%a %b %-d, %-I:%M%P')
+          git commit -m "$ts — 11 files added"
+          commit_sha=$(git rev-parse HEAD)
+          git push origin HEAD:"$DELIVERY_BRANCH"
+          git fetch origin "$DELIVERY_BRANCH"
+          test "$(git rev-parse origin/$DELIVERY_BRANCH)" = "$commit_sha"
+          git push origin --delete "$TRANSFER_BRANCH" || true
