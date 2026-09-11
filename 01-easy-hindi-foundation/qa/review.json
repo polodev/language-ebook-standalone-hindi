@@ -6,17 +6,15 @@
   "inspected_pages": {
     "sample_desktop": [
       1,
-      3,
-      6,
-      8
+      3
     ],
     "sample_mobile": [
       1,
       3
     ],
     "full_desktop": [
-      294,
-      587
+      216,
+      431
     ],
     "full_mobile": [
       749,
@@ -31,7 +29,8 @@
     "Mixed-story native words are bold; artwork and palette rotation display correctly.",
     "Trackers adjusted to two A4 pages each.",
     "No text blocks outside physical page bounds across the six PDFs.",
-    "Some readings continue on the next page; practice cards stay together."
+    "Some readings continue on the next page; practice cards stay together.",
+    "Desktop full and sample PDFs rebuilt in A4 portrait (210 × 297 mm); all pages checked for dimensions and text boundaries, with cover, early, middle and final pages visually inspected."
   ],
   "limits": [
     "This is sampled visual inspection, not a read-through of all pages.",

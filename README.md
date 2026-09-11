@@ -54,4 +54,4 @@ python3 -m unittest discover -s tests -q
 python3 scripts/check_epub.py 01-easy-hindi-foundation/output/07-easy-hindi-foundation-bn-desktop.epub
 ```
 
-The build creates six PDFs and two EPUBs under the ignored book `output/` folder. Use `--only OUTPUT_FILENAME` to rebuild one edition. Fonts and illustrations are local; rebuilding requires no API key. These are review editions; independent Hindi/Bangla editorial review remains pending. See the book’s `qa/release.json` for artifact checks.
+Desktop PDFs use A4 portrait (210 × 297 mm). The build creates six PDFs and two EPUBs under the ignored book `output/` folder. Use `--only OUTPUT_FILENAME` to rebuild one edition. Fonts and illustrations are local; rebuilding requires no API key. These are review editions; independent Hindi/Bangla editorial review remains pending. See the book’s `qa/release.json` for artifact checks.
