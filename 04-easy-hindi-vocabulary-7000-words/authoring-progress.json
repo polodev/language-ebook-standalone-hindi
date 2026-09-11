@@ -1,0 +1,50 @@
+{
+  "book": "04-easy-hindi-vocabulary-7000-words",
+  "requested_chapters": [
+    "ch021",
+    "ch022",
+    "ch023",
+    "ch024",
+    "ch025",
+    "ch026",
+    "ch027",
+    "ch028",
+    "ch029",
+    "ch030"
+  ],
+  "completed_chapters": [
+    "ch021",
+    "ch022",
+    "ch023",
+    "ch024",
+    "ch025",
+    "ch026",
+    "ch027",
+    "ch028",
+    "ch029",
+    "ch030"
+  ],
+  "unfinished_chapters": [],
+  "delivery_scope": "batch_only_not_full_book",
+  "checks": {
+    "assigned_files_present": "passed",
+    "chapter_structure_local_equivalent_validator": "passed_all_10",
+    "word_pronunciation_reconstruction": "passed",
+    "vocabulary_roster_match": "passed",
+    "cross_batch_target_uniqueness": "passed_300_unique_targets",
+    "sentence_and_pure_reading_unit_limits": "passed",
+    "mixed_reading_markdown_mirror": "passed",
+    "image_prompt_contract": "passed_20_prompts",
+    "manual_editorial_pass": "passed_with_native_speaker_QA_still_recommended",
+    "official_repository_manage_py": "not_run_no_executable_authenticated_repository_checkout"
+  },
+  "editorial_notes": [
+    "Rosters marked reviewed after batch-level usefulness/uniqueness review against the latest main, which contains no earlier vocabulary rosters yet.",
+    "Pronunciation cues are practical Bangla approximations and remain suitable for later native-speaker editorial QA."
+  ],
+  "updated_at": "2026-09-12 02:30 +0600",
+  "delivery_status": "incomplete_platform_transfer_blocker",
+  "delivery_branch": "content/04-easy-hindi-vocabulary-7000-words/ch021-ch030",
+  "delivery_blocker": "GitHub connector write actions accept inline text but no local-file parameter; the execution container cannot authenticate/resolve a normal git push, so the ~1 MB finished source batch could not be transferred to GitHub in this session.",
+  "pr_status": "not_opened_incomplete_source_delivery"
+}
