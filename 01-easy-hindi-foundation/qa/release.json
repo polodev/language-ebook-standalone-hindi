@@ -19,15 +19,15 @@
       "errors": 0,
       "warnings": 0
     },
-    "epub_entry_order": {
-      "editions": 2,
-      "entries_checked_each": 1780,
-      "result": "passed"
-    },
     "epub_reading_order": {
       "editions": 2,
       "passages_checked_each": 60,
       "result": "passed"
+    },
+    "native_display": {
+      "editions": 2,
+      "chapters_each": 60,
+      "result": "native spans only in word-cue or annotated script-symbol; full reading uses Bangla script with shared Indic punctuation"
     }
   },
   "artifacts": [
@@ -49,8 +49,8 @@
     },
     {
       "file": "03-easy-hindi-foundation-bn-sample-2-lessons-desktop.pdf",
-      "bytes": 1038172,
-      "sha256": "f07f5701c3d3067a3f43153561e4a31b80cee2be60a4902ca62562cf62d2a491",
+      "bytes": 1037009,
+      "sha256": "92672efd186ae82dc8e1d2b28e67af95670fcb949a2610c81600c6b532c0d75a",
       "pages": 17,
       "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+MiriamLibre-Regular           CID TrueType      Identity-H       yes yes yes      4  0\nBAAAAA+NotoSerifBengali-Bold         CID TrueType      Identity-H       yes yes yes      7  0\nCAAAAA+MiriamLibre-Bold              CID TrueType      Identity-H       yes yes yes      8  0\nDAAAAA+NotoSerifBengali-Regular      CID TrueType      Identity-H       yes yes yes      9  0\nEAAAAA+NotoSansDevanagari-Bold       CID TrueType      Identity-H       yes yes yes     16  0\n",
       "text_outside_page": [],
@@ -61,18 +61,18 @@
     },
     {
       "file": "04-easy-hindi-foundation-bn-sample-2-lessons-mobile.pdf",
-      "bytes": 1168951,
-      "sha256": "36ddb6f99e99eec046a756d6495125e3d0dc9d2d62f7e942f4b8f53e587e9c63",
+      "bytes": 1167327,
+      "sha256": "d54e8801c8889f47dde61805cebabe23147b9400f70bb2e8d3b047b06cbbf7d1",
       "pages": 55,
       "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+MiriamLibre-Regular           CID TrueType      Identity-H       yes yes yes      4  0\nBAAAAA+NotoSerifBengali-Bold         CID TrueType      Identity-H       yes yes yes      7  0\nCAAAAA+MiriamLibre-Bold              CID TrueType      Identity-H       yes yes yes      8  0\nDAAAAA+NotoSerifBengali-Regular      CID TrueType      Identity-H       yes yes yes      9  0\nEAAAAA+NotoSansDevanagari-Bold       CID TrueType      Identity-H       yes yes yes     16  0\n",
       "text_outside_page": []
     },
     {
       "file": "05-easy-hindi-foundation-bn-desktop.pdf",
-      "bytes": 21340492,
-      "sha256": "7ce115481a4a11d008d6aba27c6380337f95459b8f9ecabfce73072bda0e5730",
-      "pages": 514,
-      "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+MiriamLibre-Regular           CID TrueType      Identity-H       yes yes yes      4  0\nBAAAAA+NotoSerifBengali-Bold         CID TrueType      Identity-H       yes yes yes      7  0\nCAAAAA+MiriamLibre-Bold              CID TrueType      Identity-H       yes yes yes      8  0\nDAAAAA+NotoSerifBengali-Regular      CID TrueType      Identity-H       yes yes yes      9  0\nEAAAAA+NotoSansDevanagari-Bold       CID TrueType      Identity-H       yes yes yes     74  0\nFAAAAA+NotoSansDevanagari-Regular    CID TrueType      Identity-H       yes yes yes    207  0\n",
+      "bytes": 21236067,
+      "sha256": "6f2420914f71520f14a1c16ce08922835f5541e5712c8c16da1194c7c3275ed8",
+      "pages": 461,
+      "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+MiriamLibre-Regular           CID TrueType      Identity-H       yes yes yes      4  0\nBAAAAA+NotoSerifBengali-Bold         CID TrueType      Identity-H       yes yes yes      7  0\nCAAAAA+MiriamLibre-Bold              CID TrueType      Identity-H       yes yes yes      8  0\nDAAAAA+NotoSerifBengali-Regular      CID TrueType      Identity-H       yes yes yes      9  0\nEAAAAA+NotoSansDevanagari-Bold       CID TrueType      Identity-H       yes yes yes     74  0\nFAAAAA+NotoSansDevanagari-Regular    CID TrueType      Identity-H       yes yes yes    203  0\n",
       "text_outside_page": [],
       "page_size_mm": [
         210,
@@ -81,21 +81,21 @@
     },
     {
       "file": "06-easy-hindi-foundation-bn-mobile.pdf",
-      "bytes": 25233058,
-      "sha256": "b1f8e5dc1115b30a79070ea28fb98b2752c09bd59067f803b566075bfd67bfdc",
-      "pages": 1661,
+      "bytes": 25141706,
+      "sha256": "256ed55e5f6b35d10b751f9cdf2badc9e34e7adaca2446c1130f451d8469e796",
+      "pages": 1638,
       "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+MiriamLibre-Regular           CID TrueType      Identity-H       yes yes yes      4  0\nBAAAAA+NotoSerifBengali-Bold         CID TrueType      Identity-H       yes yes yes      7  0\nCAAAAA+MiriamLibre-Bold              CID TrueType      Identity-H       yes yes yes      8  0\nDAAAAA+NotoSerifBengali-Regular      CID TrueType      Identity-H       yes yes yes      9  0\nEAAAAA+NotoSansDevanagari-Bold       CID TrueType      Identity-H       yes yes yes     80  0\nFAAAAA+NotoSansDevanagari-Regular    CID TrueType      Identity-H       yes yes yes    509  0\n",
       "text_outside_page": []
     },
     {
       "file": "07-easy-hindi-foundation-bn-desktop.epub",
-      "bytes": 18077324,
-      "sha256": "27ec0bd68ffebdd6681e3e262d8622dbcb24d0f59bd4cdcfec21941537fdf13a"
+      "bytes": 18053585,
+      "sha256": "0579ea4e2ee0d5e867daf55478ee66acf1743c7b4f944394894e5f8d62e2a9fb"
     },
     {
       "file": "08-easy-hindi-foundation-bn-mobile.epub",
-      "bytes": 18077422,
-      "sha256": "575f0f72d8634dc154177fd5617f3f3457dcfc99bb6b0a7e94bf5ee9774f1e70"
+      "bytes": 18053683,
+      "sha256": "76427d3f02e77b0eb6848bc7001853a0db9437dd8afc2566bb152a5fda73eab2"
     }
   ],
   "epub_inventory_each": {

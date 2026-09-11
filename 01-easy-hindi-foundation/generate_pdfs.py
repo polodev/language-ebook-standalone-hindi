@@ -67,7 +67,6 @@ class BookRenderer:
 
     def ordered_entry(self, item):
         return (self.row('meaning', item['meaning_bengali_md'], True)
-                + '<div class="native" lang="'+esc(self.pub['target_language'])+'">'+esc(item['target'])+'</div>'
                 + self.row('pronunciation', item['bangla_pronunciation'])
                 + self.row('romanization', item['romanization'])
                 + '<div class="label">'+esc(self.copy['word_breakdown'])+'</div>'
@@ -106,7 +105,7 @@ class BookRenderer:
                     for field in ['synonyms', 'collocations']:
                         if item.get(field):
                             target += '<div class="label">'+esc(self.copy[field])+'</div>'+''.join(self.annotated(x)+self.row('pronunciation',x['bangla_pronunciation']) for x in item[field])
-                    hindi = '<div class="native" lang="'+esc(self.pub['target_language'])+'">'+esc(item['target'])+'</div>'+self.row('pronunciation', item['bangla_pronunciation'])+self.row('romanization', item['romanization'])
+                    hindi = self.row('pronunciation', item['bangla_pronunciation'])+self.row('romanization', item['romanization'])
                     parts.append('<tr style="'+self.palette((number*20+i)//self.design['palette_rotation_every_items'])+'"><td>'+str(i+1).zfill(2)+'</td><td>'+render_inline(item['meaning_bengali_md'])+'</td><td>'+hindi+'</td><td>'+target+'</td></tr>')
                 parts.append('</tbody></table>')
             elif section=='sentences':
@@ -133,7 +132,7 @@ class BookRenderer:
                     prose=''.join(esc(s['text']) if s['kind']=='bangla' else self.words(s['word_pronunciations']) for s in r['segments'])
                     parts.append('<div class="bridge prose">'+prose+'</div>')
                 else:
-                    parts.append('<h3>'+esc(self.copy['complete_target_reading'])+'</h3><div class="complete-target-reading" lang="'+esc(self.pub['target_language'])+'">'+''.join('<p class="native">'+esc(line['target'])+'</p>' for line in r['lines'])+'</div><h3>'+esc(self.copy['reading_breakdown'])+'</h3>')
+                    parts.append('<h3>'+esc(self.copy['complete_target_reading'])+'</h3><div class="complete-target-reading" lang="bn">'+''.join('<p class="reading-line">'+esc(line['bangla_pronunciation'])+'</p>' for line in r['lines'])+'</div><h3>'+esc(self.copy['reading_breakdown'])+'</h3>')
                     parts.append('<div class="pure-reading">'+''.join('<div class="reading-line">'+self.annotated(line)+self.row('pronunciation',line['bangla_pronunciation'])+'</div>' for line in r['lines'])+'</div>')
                     parts.append('<h3>'+esc(self.copy['reading_pronunciation'])+'</h3><p>'+esc(r['bangla_pronunciation'])+'</p><h3>'+esc(self.copy['reading_meaning'])+'</h3>'+render_block(r['meaning_bengali_md']))
             elif section=='script_and_numbers':

@@ -45,17 +45,17 @@
     "sentence_table_columns": [
       "নং",
       "বাংলা অর্থ",
-      "হিন্দি বাক্য",
+      "পূর্ণ উচ্চারণ (বাংলা হরফে)",
       "শব্দে শব্দে হিন্দি ও উচ্চারণ"
     ],
     "vocabulary_table_columns": [
       "নং",
       "বাংলা অর্থ",
-      "হিন্দি শব্দ",
+      "পূর্ণ উচ্চারণ (বাংলা হরফে)",
       "হিন্দি ও উচ্চারণ"
     ],
     "word_breakdown": "শব্দে শব্দে হিন্দি ও উচ্চারণ",
-    "complete_target_reading": "সম্পূর্ণ পাঠ",
+    "complete_target_reading": "সম্পূর্ণ পাঠের উচ্চারণ (বাংলা হরফে)",
     "reading_breakdown": "শব্দে শব্দে পাঠ ও উচ্চারণ"
   },
   "design": {
@@ -162,7 +162,7 @@
       },
       "bridge_target_highlight": "bold_native_target_spans",
       "target_reading_order": [
-        "complete_target_lines",
+        "complete_bangla_pronunciation_lines",
         "annotated_target_lines",
         "complete_bangla_pronunciation",
         "meaning_bengali_md"
@@ -178,11 +178,10 @@
         ],
         "order": [
           "meaning_bengali_md",
-          "target",
+          "bangla_pronunciation",
           "word_pronunciations"
         ],
         "target_support": [
-          "bangla_pronunciation",
           "romanization"
         ],
         "desktop_pdf": "table",
@@ -190,7 +189,8 @@
         "desktop_epub": "stacked_cards",
         "mobile_epub": "stacked_cards",
         "keep_breakdown_with_entry": true
-      }
+      },
+      "native_script_display": "only_with_adjacent_word_level_bangla_pronunciation"
     },
     "ui": {
       "text": "#243442",
