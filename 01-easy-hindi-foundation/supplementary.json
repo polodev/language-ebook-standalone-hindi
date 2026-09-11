@@ -53,7 +53,8 @@
       "বাংলা অর্থ",
       "হিন্দি শব্দ",
       "হিন্দি ও উচ্চারণ"
-    ]
+    ],
+    "word_breakdown": "শব্দে শব্দে হিন্দি ও উচ্চারণ"
   },
   "design": {
     "status": "planned_requires_visual_QA",
@@ -166,7 +167,27 @@
       "optional_number_cards": "Omit the number subsection when number_practice is null; otherwise show 2 or 3 cards.",
       "image_placement": "Place each chapter reading image beside or immediately above its matching reading; keep captions as real font text.",
       "mobile_flow": "Single column with readable inline pronunciation; allow complete word-and-cue groups to wrap without clipping.",
-      "bridge_markdown_field": "bridge_reading.text_md"
+      "bridge_markdown_field": "bridge_reading.text_md",
+      "entry_layout": {
+        "sections": [
+          "sentences",
+          "vocabulary"
+        ],
+        "order": [
+          "meaning_bengali_md",
+          "target",
+          "word_pronunciations"
+        ],
+        "target_support": [
+          "bangla_pronunciation",
+          "romanization"
+        ],
+        "desktop_pdf": "table",
+        "mobile_pdf": "stacked_cards",
+        "desktop_epub": "stacked_cards",
+        "mobile_epub": "stacked_cards",
+        "keep_breakdown_with_entry": true
+      }
     },
     "ui": {
       "text": "#243442",

@@ -65,6 +65,14 @@ class BookRenderer:
         prefix = "model_" if model else ""
         return '<div class="annotated">'+self.words(item[prefix+"word_pronunciations"])+"</div>"
 
+    def ordered_entry(self, item):
+        return (self.row('meaning', item['meaning_bengali_md'], True)
+                + '<div class="native" lang="'+esc(self.pub['target_language'])+'">'+esc(item['target'])+'</div>'
+                + self.row('pronunciation', item['bangla_pronunciation'])
+                + self.row('romanization', item['romanization'])
+                + '<div class="label">'+esc(self.copy['word_breakdown'])+'</div>'
+                + self.annotated(item))
+
     def row(self, label, value, markdown=False):
         return '<div class="detail"><span class="label">'+esc(self.copy[label])+': </span>'+(render_inline(value) if markdown else esc(value))+'</div>'
 
@@ -104,13 +112,13 @@ class BookRenderer:
             elif section=='sentences':
                 cards=[]
                 for i,s in enumerate(c['sentences']):
-                    body='<div class="item-number">'+str(i+1).zfill(2)+'</div>'+self.annotated(s)+self.row('pronunciation',s['bangla_pronunciation'])+self.row('romanization',s['romanization'])+self.row('meaning',s['meaning_bengali_md'],True)
+                    body='<div class="item-number">'+str(i+1).zfill(2)+'</div>'+self.ordered_entry(s)
                     cards.append(self.card(body,(number*20+i)//self.design['palette_rotation_every_items']))
                 parts.append('<div class="cards">'+''.join(cards)+'</div>')
             elif section=='vocabulary':
                 cards=[]
                 for i,v in enumerate(c['vocabulary']):
-                    body=self.annotated(v)+self.row('romanization',v['romanization'])+self.row('pronunciation',v['bangla_pronunciation'])+self.row('meaning',v['meaning_bengali_md'],True)
+                    body=self.ordered_entry(v)
                     for field in ['synonyms','collocations']:
                         if v.get(field):
                             body+='<div class="label">'+esc(self.copy[field])+'</div>'+''.join(self.annotated(x)+self.row('pronunciation',x['bangla_pronunciation']) for x in v[field])
