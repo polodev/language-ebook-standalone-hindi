@@ -1,0 +1,51 @@
+{
+  "book": "02-easy-hindi-intermediate",
+  "batches": [
+    {
+      "requested_chapter_ids": [
+        "ch021",
+        "ch022",
+        "ch023",
+        "ch024",
+        "ch025",
+        "ch026",
+        "ch027",
+        "ch028",
+        "ch029",
+        "ch030"
+      ],
+      "completed_chapter_ids": [
+        "ch021",
+        "ch022",
+        "ch023",
+        "ch024",
+        "ch025",
+        "ch026",
+        "ch027",
+        "ch028",
+        "ch029",
+        "ch030"
+      ],
+      "unfinished_chapter_ids": [],
+      "status": "batch_complete",
+      "checks": [
+        {
+          "name": "batch_structural_validation",
+          "status": "passed",
+          "detail": "Checked all ten chapter JSON files against the current scripts/manage.py structural rules: exact sentence counts, unique IDs/targets, exact word-pronunciation reconstruction, vocabulary source references, mixed-reading Markdown mirrors, pure-reading line/unit limits, script/number/speaking counts, image keys, and required no-text image-prompt wording."
+        },
+        {
+          "name": "batch_inventory",
+          "status": "passed",
+          "detail": "10 chapters, 200 essential sentences, 50 script-practice cards, 60 speaking-practice tasks, 20 reading image prompts; every chapter has two number cards."
+        },
+        {
+          "name": "repository_manage_py_cli",
+          "status": "not_run",
+          "detail": "The execution container has no network route to the private GitHub repository and the connector does not mount a working tree, so python3 scripts/manage.py validate --book 02-easy-hindi-intermediate could not be run against a checkout. Structural validation was performed locally using the current validator constraints read from main."
+        }
+      ],
+      "updated_at": "2026-09-12 02:26 +06:00"
+    }
+  ]
+}
