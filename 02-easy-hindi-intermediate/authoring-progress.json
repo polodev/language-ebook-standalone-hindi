@@ -1,0 +1,101 @@
+{
+  "book": "02-easy-hindi-intermediate",
+  "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+  "requested_range": {
+    "start": "ch031",
+    "end": "ch040",
+    "count": 10,
+    "requested_ids": [
+      "ch031",
+      "ch032",
+      "ch033",
+      "ch034",
+      "ch035",
+      "ch036",
+      "ch037",
+      "ch038",
+      "ch039",
+      "ch040"
+    ]
+  },
+  "completed_ids": [
+    "ch031",
+    "ch032",
+    "ch033",
+    "ch034",
+    "ch035",
+    "ch036",
+    "ch037",
+    "ch038",
+    "ch039",
+    "ch040"
+  ],
+  "unfinished_ids": [],
+  "status": "batch_complete",
+  "inventory": {
+    "chapters": 10,
+    "essential_sentences": 200,
+    "vocabulary_entries": 120,
+    "script_practice_items": 50,
+    "number_cards": 14,
+    "bridge_readings": 10,
+    "target_reading_lines": 50,
+    "speaking_practice_tasks": 60,
+    "image_prompts": 20
+  },
+  "checks_performed": [
+    {
+      "check": "authoring_source_review",
+      "result": "passed",
+      "details": "Read 02-easy-hindi-intermediate/INSTRUCTIONS.md as the sole authoring guide; read chapter-template.json, supplementary.json, current-main book plans for ch031-ch040, the neighboring plan context, and the current-main chapters directory. Main contained no authored Intermediate chapter JSON or prior Intermediate authoring-progress.json."
+    },
+    {
+      "check": "assigned_file_presence_and_identity",
+      "result": "passed",
+      "details": "Verified ch031.json through ch040.json are all present in the isolated batch workspace, parse as JSON, use matching chapter_id values, and are marked drafted rather than independently reviewed."
+    },
+    {
+      "check": "required_sections_and_counts",
+      "result": "passed",
+      "details": "Verified 20 unique sentences/chapter (200 total), 120 sentence-sourced vocabulary entries total, 5 script cards/chapter (50 total), 14 optional number cards total with only null/2-card chapter values, 5 pure-reading lines/chapter (50 total), 6 speaking tasks/chapter (60 total), and 2 image prompts/chapter (20 total)."
+    },
+    {
+      "check": "pronunciation_and_word_reconstruction",
+      "result": "passed",
+      "details": "Verified title, sentence, vocabulary, mixed-reading target spans, pure-reading lines, number words, speaking models, and sentence-builder lines reconstruct exactly from ordered word_pronunciations; all pure-reading lines remain at or below the 8-unit ceiling."
+    },
+    {
+      "check": "mixed_and_pure_readings",
+      "result": "passed",
+      "details": "Verified every bridge reading contains both Bangla and Hindi segments; bridge text_md is generated with the same Markdown escaping rule as current-main mixed_reading_markdown(), with every Hindi word bolded and immediately followed by Bangla pronunciation. Pure readings contain five annotated single-line sentences plus complete Bangla pronunciation and meaning and differ from their bridge readings."
+    },
+    {
+      "check": "vocabulary_sources",
+      "result": "passed",
+      "details": "Verified every vocabulary source_sentence_id exists and every source_form occurs in the cited essential sentence."
+    },
+    {
+      "check": "bangla_prose_and_taught_reading_audit",
+      "result": "passed",
+      "details": "Verified learner-facing Bangla prose has no unannotated Devanagari letters after excluding shared danda punctuation; every bridge Hindi target span and every pure-reading line is drawn from the chapter essential-sentence set."
+    },
+    {
+      "check": "image_prompt_keys_and_scene_match",
+      "result": "passed",
+      "details": "Verified exactly two prompts in bridge/target order for each chapter, with required chNNN_bridge_reading_01 and chNNN_target_reading_01 keys, distinct reading-specific scenes, and the exact “No readable text, no labels, no signage, no watermark.” instruction."
+    },
+    {
+      "check": "partial_validator",
+      "result": "passed",
+      "command": "python3 scripts/manage.py validate --book 02-easy-hindi-intermediate",
+      "details": "Ran in an isolated local validation workspace using the current-main manage.py validation logic fetched through the GitHub connector because terminal network/DNS access could not clone the repository. Output: “02-easy-hindi-intermediate: 10/60 authored chapters structurally valid; publication not assessed”."
+    }
+  ],
+  "remaining_issues": [
+    "No known structural issue remains in ch031-ch040.",
+    "Chapter status remains drafted; no independent native-language reviewer approval is claimed.",
+    "Full-book validation/assembly, image generation, and chapters outside ch031-ch040 were not attempted."
+  ],
+  "resume_point": "Requested ch031-ch040 batch is complete. The next unrequested range begins at ch041; do not continue it as part of this batch.",
+  "updated_at_local": "2026-09-12T02:13+06:00"
+}
