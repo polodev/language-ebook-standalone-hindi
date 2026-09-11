@@ -85,12 +85,13 @@
   "repository_validator": {
     "command": "python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words",
     "run": true,
-    "result": "passed on GitHub Actions repository checkout before commit"
+    "result": "passed on GitHub Actions repository checkout before delivery commit"
   },
   "git_delivery": {
-    "status": "validated; delivery commit pending",
+    "status": "delivered",
     "target_branch": "content/04-easy-hindi-vocabulary-7000-words/ch091-ch100",
     "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+    "delivery_content_commit_sha": "a2b7a1f98378bc6b97be2cfd043bcdc66f37ce5a",
     "method": "GitHub Actions byte-exact transport from a temporary branch to the authorized content branch.",
     "force_push": false
   }
