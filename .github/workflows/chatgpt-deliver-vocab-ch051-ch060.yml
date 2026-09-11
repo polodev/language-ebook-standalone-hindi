@@ -1,0 +1,105 @@
+name: Deliver Hindi vocabulary chapters 51-60
+
+on:
+  push:
+    branches:
+      - chatgpt-transfer-vocab-ch051-ch060-20260912
+    paths:
+      - '.github/transfer-vocab51-60/READY'
+
+permissions:
+  contents: write
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout transfer branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reconstruct and verify transfer archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .github/transfer-vocab51-60/vocab51-60.part-* | base64 -d > /tmp/vocab51-60.tar.xz
+          echo '8dbd69994fe0a4e599cdb7fac35484e1c3f427b5d2048989df8df56c23330598  /tmp/vocab51-60.tar.xz' | sha256sum -c -
+          xz -d -c /tmp/vocab51-60.tar.xz > /tmp/vocab51-60.tar
+          tar -tf /tmp/vocab51-60.tar
+
+      - name: Extract onto review branch and validate
+        shell: bash
+        env:
+          EXPECTED_MAIN: d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6
+          TARGET_BRANCH: content/04-easy-hindi-vocabulary-7000-words/ch051-ch060
+        run: |
+          set -euo pipefail
+          git fetch origin main "$TARGET_BRANCH"
+          test "$(git rev-parse origin/main)" = "$EXPECTED_MAIN"
+          test "$(git rev-parse "origin/$TARGET_BRANCH")" = "$EXPECTED_MAIN"
+          git checkout -B delivery "origin/$TARGET_BRANCH"
+          tar -xf /tmp/vocab51-60.tar
+          for n in {51..60}; do
+            ch=$(printf '04-easy-hindi-vocabulary-7000-words/chapters/ch%03d.json' "$n")
+            ro=$(printf '04-easy-hindi-vocabulary-7000-words/rosters/ch%03d.json' "$n")
+            test -s "$ch"
+            test -s "$ro"
+          done
+          test -s 04-easy-hindi-vocabulary-7000-words/authoring-progress.json
+          python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words
+
+      - name: Record exact validator result
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from datetime import datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          p = Path('04-easy-hindi-vocabulary-7000-words/authoring-progress.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          for check in data.get('checks_performed', []):
+              if check.get('check') == 'repository_partial_validator':
+                  check['result'] = 'passed'
+                  check['details'] = 'Ran successfully in the GitHub Actions repository checkout: python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words.'
+          data['remaining_issues'] = [
+              x for x in data.get('remaining_issues', [])
+              if 'scripts/manage.py partial validator was not run' not in x
+          ]
+          data['git_delivery'] = {
+              'status': 'validated_and_committing',
+              'target_branch': 'content/04-easy-hindi-vocabulary-7000-words/ch051-ch060',
+              'base_main_sha': 'd79a0fb7cd84c4adfe9f4036038ac9404c05fcb6',
+              'method': 'GitHub Actions byte-exact transport from a temporary branch to the requested review branch; the final PR contains only source/progress files.',
+              'force_push': False
+          }
+          data['updated_at_local'] = datetime.now(ZoneInfo('Asia/Dhaka')).isoformat(timespec='minutes')
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+
+      - name: Commit and push review branch
+        shell: bash
+        env:
+          TARGET_BRANCH: content/04-easy-hindi-vocabulary-7000-words/ch051-ch060
+          TRANSFER_BRANCH: chatgpt-transfer-vocab-ch051-ch060-20260912
+        run: |
+          set -euo pipefail
+          git config user.name "polodev"
+          git config user.email "polodev10@gmail.com"
+          git add 04-easy-hindi-vocabulary-7000-words/chapters/ch0{51..60}.json
+          git add 04-easy-hindi-vocabulary-7000-words/rosters/ch0{51..60}.json
+          git add 04-easy-hindi-vocabulary-7000-words/authoring-progress.json
+          git diff --cached --name-status
+          test "$(git diff --cached --name-only | wc -l)" -eq 21
+          test "$(git diff --cached --diff-filter=A --name-only | wc -l)" -eq 21
+          test -z "$(git diff --cached --diff-filter=MDR --name-only)"
+          ts=$(TZ=Asia/Dhaka date '+%a %b %-d, %-I:%M%P')
+          git commit -m "$ts — 21 files added"
+          commit_sha=$(git rev-parse HEAD)
+          git push origin "HEAD:$TARGET_BRANCH"
+          git fetch origin "$TARGET_BRANCH"
+          test "$(git rev-parse "origin/$TARGET_BRANCH")" = "$commit_sha"
+          git push origin --delete "$TRANSFER_BRANCH" || true
