@@ -2,7 +2,7 @@
 
 This file is for the production manager. Each book's INSTRUCTIONS.md is its sole authoring instruction source; book.json and chapter-template.json supply data. Do not require authors to read this production playbook.
 
-This checkout is an authoring-ready scaffold. Content, artwork, language-specific font binaries and final publication files are intentionally not generated yet. The reusable PDF/EPUB and image primitives are vendored under shared/englishing_kit. They are NOT a finished renderer for the new chapter schema; adapting the course layout is a named first production task, not something to claim is already validated.
+Hindi Foundation now has a local PDF/EPUB renderer, bundled target fonts and complete artwork. Build its review editions with `python3 01-easy-hindi-foundation/generate_pdfs.py`. Other courses remain authoring scaffolds. Structural and layout checks do not replace independent editorial approval.
 
 ## Current executable workflow
 

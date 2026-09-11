@@ -18,7 +18,10 @@ import subprocess
 import zipfile
 from dataclasses import dataclass
 from pathlib import Path
-from uuid import uuid4
+from datetime import datetime, timezone
+from hashlib import sha256
+from pathlib import PurePosixPath
+from xml.etree import ElementTree as ET
 
 from . import fonts
 from .markdown_render import escape
@@ -202,102 +205,136 @@ def write_epub(
     title: str,
     author: str,
     language: str,
-    chapters: list[tuple[str, str, str]],   # (filename, chapter_title, xhtml_body)
+    chapters: list[tuple[str, str, str]],
     stylesheet: str,
     cover_xhtml: str | None = None,
     cover_image: Path | None = None,
     extra_images: list[Path] | None = None,
     embed_fonts: bool = True,
     extra_fonts: list[Path] | None = None,
+    identifier: str | None = None,
+    modified: str | None = None,
 ) -> None:
-    """Write a valid EPUB 3.
+    """Package EPUB 3, failing on missing assets and ambiguous archive paths.
 
-    `chapters` is a list of (filename, title, body-xhtml). The body must be
-    XHTML-clean — which it will be, because markdown_render emits xhtml output.
+    Pass an identifier and UTC modified timestamp from publication JSON for
+    reproducible releases. With identical inputs these produce identical bytes.
+    XHTML documents are complete documents, not body fragments.
     """
-    epub_path.parent.mkdir(parents=True, exist_ok=True)
-    book_id = f"urn:uuid:{uuid4()}"
-
+    if not chapters:
+        raise ValueError("An EPUB requires at least one chapter")
+    if not language.strip():
+        raise ValueError("An EPUB requires a language")
+    timestamp = modified or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    date = datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
+    if date.strftime("%Y-%m-%dT%H:%M:%SZ") != timestamp:
+        raise ValueError("modified must use YYYY-MM-DDTHH:MM:SSZ")
+    if not 1980 <= date.year <= 2107:
+        raise ValueError("modified year must fit ZIP timestamps (1980–2107)")
+    book_id = identifier or "urn:sha256:" + sha256(
+        json.dumps([title, author, language, chapters], ensure_ascii=False).encode("utf-8")
+    ).hexdigest()
+    files: dict[str, bytes] = {}
     manifest, spine = [], []
+
+    def add(name: str, data: bytes | str) -> None:
+        path = PurePosixPath(name)
+        if (path.is_absolute() or ".." in path.parts or "\\" in name or
+                str(path) != name or name in files):
+            raise ValueError(f"Unsafe or duplicate EPUB path: {name}")
+        files[name] = data.encode("utf-8") if isinstance(data, str) else data
+
+    def item(item_id: str, name: str, media: str, properties: str = "") -> None:
+        extra = f' properties="{escape(properties)}"' if properties else ""
+        manifest.append(f'<item id="{item_id}" href="{escape(name)}" media-type="{media}"{extra}/>')
+
+    def xhtml(name: str, document: str) -> None:
+        root = ET.fromstring(document)
+        if root.tag != "{http://www.w3.org/1999/xhtml}html":
+            raise ValueError(f"{name}: expected XHTML html root")
+        if not root.get("lang") and not root.get("{http://www.w3.org/XML/1998/namespace}lang"):
+            raise ValueError(f"{name}: language is missing")
+        add("OEBPS/" + name, document)
+
     if cover_xhtml:
-        manifest.append('<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>')
+        xhtml("cover.xhtml", cover_xhtml)
+        item("cover", "cover.xhtml", "application/xhtml+xml")
         spine.append('<itemref idref="cover"/>')
-    if cover_image and cover_image.is_file():
-        media = "image/png" if cover_image.suffix.lower() == ".png" else "image/jpeg"
-        manifest.append(f'<item id="cover-image" href="images/{cover_image.name}" media-type="{media}" properties="cover-image"/>')
-
-    epub_images: list[Path] = []
-    seen_image_paths: set[Path] = set()
-    if cover_image and cover_image.is_file():
-        seen_image_paths.add(cover_image.resolve())
-    for image in extra_images or []:
+    seen: set[Path] = set()
+    image_media = {".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".svg": "image/svg+xml", ".gif": "image/gif"}
+    image_files = ([cover_image] if cover_image is not None else []) + list(extra_images or [])
+    for index, image in enumerate(image_files):
+        image = Path(image)
         if not image.is_file():
+            raise FileNotFoundError(f"Missing EPUB image: {image}")
+        if image.resolve() in seen:
             continue
-        resolved = image.resolve()
-        if resolved in seen_image_paths:
+        seen.add(image.resolve())
+        if image.suffix.lower() not in image_media:
+            raise ValueError(f"Unsupported EPUB image: {image}")
+        name = "images/" + image.name
+        add("OEBPS/" + name, image.read_bytes())
+        is_cover = cover_image is not None and image.resolve() == Path(cover_image).resolve()
+        item("cover-image" if is_cover else f"image{index}", name,
+             image_media[image.suffix.lower()], "cover-image" if is_cover else "")
+
+    for index, (filename, _title, body) in enumerate(chapters):
+        if PurePosixPath(filename).parent != PurePosixPath(".") or not filename.endswith(".xhtml"):
+            raise ValueError(f"Chapter filename must be a plain .xhtml name: {filename}")
+        xhtml(filename, body)
+        item(f"ch{index}", filename, "application/xhtml+xml")
+        spine.append(f'<itemref idref="ch{index}"/>')
+
+    font_files = list(fonts.epub_font_files()) if embed_fonts else []
+    font_files.extend(extra_fonts or [])
+    seen_fonts: set[Path] = set()
+    font_media = {".ttf": "font/ttf", ".otf": "font/otf", ".woff": "font/woff", ".woff2": "font/woff2"}
+    for index, font in enumerate(font_files):
+        font = Path(font)
+        if not font.is_file():
+            raise FileNotFoundError(f"Missing EPUB font: {font}")
+        if font.resolve() in seen_fonts:
             continue
-        seen_image_paths.add(resolved)
-        epub_images.append(image)
-    for i, image in enumerate(epub_images):
-        media = "image/png" if image.suffix.lower() == ".png" else "image/jpeg"
-        manifest.append(f'<item id="image{i}" href="images/{escape(image.name)}" media-type="{media}"/>')
+        seen_fonts.add(font.resolve())
+        if font.suffix.lower() not in font_media:
+            raise ValueError(f"Unsupported EPUB font: {font}")
+        name = "fonts/" + font.name
+        add("OEBPS/" + name, font.read_bytes())
+        item(f"font{index}", name, font_media[font.suffix.lower()])
 
-    for i, (filename, _title, _body) in enumerate(chapters):
-        manifest.append(f'<item id="ch{i}" href="{filename}" media-type="application/xhtml+xml"/>')
-        spine.append(f'<itemref idref="ch{i}"/>')
-
-    manifest.append('<item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>')
-    manifest.append('<item id="style" href="style.css" media-type="text/css"/>')
-
-    font_files = fonts.epub_font_files() if embed_fonts else []
-    for font in extra_fonts or []:
-        if font.is_file() and font not in font_files:
-            font_files.append(font)
-    for i, font in enumerate(font_files):
-        manifest.append(f'<item id="font{i}" href="fonts/{font.name}" media-type="font/ttf"/>')
-
-    opf = f"""<?xml version="1.0" encoding="UTF-8"?>
+    item("nav", "nav.xhtml", "application/xhtml+xml", "nav")
+    item("style", "style.css", "text/css")
+    opf = f'''<?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="book-id">
-  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <dc:identifier id="book-id">{book_id}</dc:identifier>
-    <dc:title>{escape(title)}</dc:title>
-    <dc:creator>{escape(author)}</dc:creator>
-    <dc:language>{escape(language)}</dc:language>
-    <meta property="dcterms:modified">2026-07-12T00:00:00Z</meta>
-  </metadata>
-  <manifest>{"".join(manifest)}</manifest>
-  <spine>{"".join(spine)}</spine>
-</package>"""
-
-    nav_items = "".join(
-        f'<li><a href="{filename}">{escape(chapter_title)}</a></li>'
-        for filename, chapter_title, _ in chapters
-    )
-    nav = f"""<?xml version="1.0" encoding="UTF-8"?>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="{escape(language)}">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:identifier id="book-id">{escape(book_id)}</dc:identifier>
+<dc:title>{escape(title)}</dc:title><dc:creator>{escape(author)}</dc:creator>
+<dc:language>{escape(language)}</dc:language>
+<meta property="dcterms:modified">{timestamp}</meta>
+</metadata><manifest>{"".join(manifest)}</manifest><spine>{"".join(spine)}</spine></package>'''
+    nav_items = "".join(f'<li><a href="{escape(name)}">{escape(label)}</a></li>' for name, label, _ in chapters)
+    nav = f'''<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="{escape(language)}" xml:lang="{escape(language)}">
 <head><title>{escape(title)}</title><link rel="stylesheet" href="style.css"/></head>
-<body><nav epub:type="toc" id="toc"><h1>{escape(title)}</h1><ol>{nav_items}</ol></nav></body>
-</html>"""
-
-    with zipfile.ZipFile(epub_path, "w") as epub:
-        # `mimetype` must be first and STORED, uncompressed. This is a hard spec
-        # requirement; a deflated mimetype produces an EPUB that readers reject.
-        epub.writestr("mimetype", "application/epub+zip", compress_type=zipfile.ZIP_STORED)
-        epub.writestr("META-INF/container.xml", _CONTAINER_XML)
-        epub.writestr("OEBPS/content.opf", opf)
-        epub.writestr("OEBPS/nav.xhtml", nav)
-        epub.writestr("OEBPS/style.css", stylesheet)
-        if cover_xhtml:
-            epub.writestr("OEBPS/cover.xhtml", cover_xhtml)
-        if cover_image and cover_image.is_file():
-            epub.write(cover_image, f"OEBPS/images/{cover_image.name}")
-        for image in epub_images:
-            epub.write(image, f"OEBPS/images/{image.name}")
-        for filename, _title, body in chapters:
-            epub.writestr(f"OEBPS/{filename}", body)
-        for font in font_files:
-            if font.is_file():
-                epub.write(font, f"OEBPS/fonts/{font.name}")
+<body><nav epub:type="toc" id="toc"><h1>{escape(title)}</h1><ol>{nav_items}</ol></nav></body></html>'''
+    add("mimetype", "application/epub+zip")
+    add("META-INF/container.xml", _CONTAINER_XML)
+    add("OEBPS/content.opf", opf)
+    xhtml("nav.xhtml", nav)
+    add("OEBPS/style.css", stylesheet)
+    epub_path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = epub_path.with_suffix(epub_path.suffix + ".tmp")
+    try:
+        with zipfile.ZipFile(temporary, "w") as epub:
+            for name in ["mimetype"] + sorted(n for n in files if n != "mimetype"):
+                info = zipfile.ZipInfo(name, date.timetuple()[:6])
+                info.compress_type = zipfile.ZIP_STORED if name == "mimetype" else zipfile.ZIP_DEFLATED
+                info.create_system = 3
+                info.external_attr = 0o100644 << 16
+                epub.writestr(info, files[name])
+        temporary.replace(epub_path)
+    finally:
+        temporary.unlink(missing_ok=True)
 
 
 def xhtml_page(title: str, body: str, language: str = "bn") -> str:

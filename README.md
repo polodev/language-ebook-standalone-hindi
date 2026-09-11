@@ -42,3 +42,16 @@ python3 -m unittest discover -s tests
 Partial validation allows planned missing chapters; complete validation and assembly fail until every required chapter exists. Passing structural checks is not independent language approval. Generated packets and assembly output are ignored by Git. Install requirements.txt only for later render/image work; secrets belong in .env.
 
 [The production playbook](docs/BUILD-PLAYBOOK.md) is for the manager. Final publication requires the new layout adapter, target fonts/licences, artwork and visual verification of PDF/EPUB outputs. Vendored primitives are reusable infrastructure, not a finished publication renderer. This repository works independently and can also be checked out as a submodule of the management repository.
+
+## Hindi Foundation review build
+
+All 60 chapters and 122 original illustrations are available on this content branch. Install `requirements.txt`, Google Chrome/Chromium and Poppler, then run:
+
+```bash
+python3 01-easy-hindi-foundation/generate_pdfs.py
+python3 01-easy-hindi-foundation/make_previews.py
+python3 -m unittest discover -s tests -q
+python3 scripts/check_epub.py 01-easy-hindi-foundation/output/07-easy-hindi-foundation-bn-desktop.epub
+```
+
+The build creates six PDFs and two EPUBs under the ignored book `output/` folder. Use `--only OUTPUT_FILENAME` to rebuild one edition. Fonts and illustrations are local; rebuilding requires no API key. These are review editions; independent Hindi/Bangla editorial review remains pending. See the book’s `qa/release.json` for artifact checks.

@@ -1,0 +1,40 @@
+{
+  "reviewer": "Codex visual/technical inspection",
+  "date": "2026-09-11",
+  "editorial_status": "pending_independent_Hindi_and_Bangla_review",
+  "visual_status": "sampled_pages_checked",
+  "inspected_pages": {
+    "sample_desktop": [
+      1,
+      3,
+      6,
+      8
+    ],
+    "sample_mobile": [
+      1,
+      3
+    ],
+    "full_desktop": [
+      294,
+      587
+    ],
+    "full_mobile": [
+      749,
+      1494
+    ],
+    "tracker": [
+      1
+    ]
+  },
+  "findings": [
+    "Hindi and Bangla scripts visibly render; pronunciation cues follow native words.",
+    "Mixed-story native words are bold; artwork and palette rotation display correctly.",
+    "Trackers adjusted to two A4 pages each.",
+    "No text blocks outside physical page bounds across the six PDFs.",
+    "Some readings continue on the next page; practice cards stay together."
+  ],
+  "limits": [
+    "This is sampled visual inspection, not a read-through of all pages.",
+    "Independent pronunciation, grammar, translation and beginner-difficulty review has not been completed."
+  ]
+}
