@@ -1,0 +1,92 @@
+{
+  "book": "02-easy-hindi-intermediate",
+  "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+  "requested_range": {
+    "start": "ch051",
+    "end": "ch060",
+    "count": 10
+  },
+  "completed_ids": [
+    "ch051",
+    "ch052",
+    "ch053",
+    "ch054",
+    "ch055",
+    "ch056",
+    "ch057",
+    "ch058",
+    "ch059",
+    "ch060"
+  ],
+  "unfinished_ids": [],
+  "status": "batch_complete",
+  "inventory": {
+    "chapters": 10,
+    "essential_sentences": 200,
+    "vocabulary_entries": 80,
+    "script_practice_items": 50,
+    "number_cards": 10,
+    "bridge_readings": 10,
+    "target_readings": 10,
+    "target_reading_lines": 50,
+    "speaking_practice_tasks": 60,
+    "chapter_reading_image_prompts": 20,
+    "global_image_prompts_authored": 2
+  },
+  "checks_performed": [
+    {
+      "check": "authoring_source_review",
+      "result": "passed",
+      "details": "Read the current main INSTRUCTIONS.md as the sole authoring guide, the ch051-ch060 plans in book.json, chapter-template.json, supplementary.json, current global-images.json, current main chapter directory, and current-main validator logic."
+    },
+    {
+      "check": "existing_main_and_duplicate_pr",
+      "result": "passed",
+      "details": "Current main contained no authored Intermediate chapter JSON files and no authoring-progress.json; checked for an open PR matching the same ch051-ch060 batch and found none."
+    },
+    {
+      "check": "assigned_file_presence_identity_and_counts",
+      "result": "passed",
+      "details": "Verified all 10 requested JSON files exist in the local workspace, parse as JSON, match their chapter IDs, and contain exactly 20 sentences, 5 script cards, 6 speaking tasks, and 2 image prompts each."
+    },
+    {
+      "check": "pronunciation_and_word_reconstruction",
+      "result": "passed",
+      "details": "Verified title, sentence, vocabulary, mixed-reading target spans, pure-reading lines, number words, and speaking models reconstruct exactly from ordered word_pronunciations; all pure-reading lines are within the 8-unit limit."
+    },
+    {
+      "check": "mixed_and_pure_readings",
+      "result": "passed",
+      "details": "Verified every mixed reading contains both Bangla and Hindi segments and text_md exactly mirrors the segments with bold native words plus immediate Bangla cues; every pure reading has 5 annotated lines, complete Bangla pronunciation, and complete Bangla meaning."
+    },
+    {
+      "check": "vocabulary_sources",
+      "result": "passed",
+      "details": "Verified all 80 vocabulary source_sentence_id values exist and every source_form occurs exactly in its cited essential sentence."
+    },
+    {
+      "check": "image_prompts",
+      "result": "passed",
+      "details": "Verified all 20 chapter prompts have the required bridge/target keys in order, distinct scene intent, and the exact no-readable-text prohibition; authored the final-batch cover and banner subjects with required calm typography areas and the same prohibition."
+    },
+    {
+      "check": "partial_validator",
+      "result": "passed",
+      "command": "python3 scripts/manage.py validate --book 02-easy-hindi-intermediate",
+      "details": "Ran in an isolated local validation workspace mirroring the current-main validator contract; output: “02-easy-hindi-intermediate: 10/60 authored chapters structurally valid; publication not assessed”. The GitHub connector is not exposed as a shell-backed private-repository checkout, so this was not a git clone."
+    },
+    {
+      "check": "editorial_review",
+      "result": "passed",
+      "details": "Manually reviewed the requested range for topic alignment, natural professional/daily Hindi intent, Bangla meanings, simple 4–8-line pure readings, and scene-specific image prompt alignment. Chapter status remains drafted rather than independently reviewed."
+    }
+  ],
+  "remaining_issues": [
+    "No known structural issue remains in ch051-ch060.",
+    "Chapter status is drafted, not independently reviewed.",
+    "This is a requested 10-chapter batch, not a full-book completion claim; chapters 1-50 were not authored or validated in this branch.",
+    "Artwork generation, full-book assembly, PDF and EPUB production were not attempted."
+  ],
+  "resume_point": "Requested ch051-ch060 batch is complete. Do not continue outside this range as part of this assignment.",
+  "updated_at_local": "2026-09-12T02:14+06:00"
+}
