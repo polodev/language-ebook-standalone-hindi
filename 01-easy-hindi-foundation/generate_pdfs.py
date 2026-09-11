@@ -133,6 +133,7 @@ class BookRenderer:
                     prose=''.join(esc(s['text']) if s['kind']=='bangla' else self.words(s['word_pronunciations']) for s in r['segments'])
                     parts.append('<div class="bridge prose">'+prose+'</div>')
                 else:
+                    parts.append('<h3>'+esc(self.copy['complete_target_reading'])+'</h3><div class="complete-target-reading" lang="'+esc(self.pub['target_language'])+'">'+''.join('<p class="native">'+esc(line['target'])+'</p>' for line in r['lines'])+'</div><h3>'+esc(self.copy['reading_breakdown'])+'</h3>')
                     parts.append('<div class="pure-reading">'+''.join('<div class="reading-line">'+self.annotated(line)+self.row('pronunciation',line['bangla_pronunciation'])+'</div>' for line in r['lines'])+'</div>')
                     parts.append('<h3>'+esc(self.copy['reading_pronunciation'])+'</h3><p>'+esc(r['bangla_pronunciation'])+'</p><h3>'+esc(self.copy['reading_meaning'])+'</h3>'+render_block(r['meaning_bengali_md']))
             elif section=='script_and_numbers':

@@ -54,7 +54,9 @@
       "হিন্দি শব্দ",
       "হিন্দি ও উচ্চারণ"
     ],
-    "word_breakdown": "শব্দে শব্দে হিন্দি ও উচ্চারণ"
+    "word_breakdown": "শব্দে শব্দে হিন্দি ও উচ্চারণ",
+    "complete_target_reading": "সম্পূর্ণ পাঠ",
+    "reading_breakdown": "শব্দে শব্দে পাঠ ও উচ্চারণ"
   },
   "design": {
     "status": "planned_requires_visual_QA",
@@ -160,6 +162,7 @@
       },
       "bridge_target_highlight": "bold_native_target_spans",
       "target_reading_order": [
+        "complete_target_lines",
         "annotated_target_lines",
         "complete_bangla_pronunciation",
         "meaning_bengali_md"

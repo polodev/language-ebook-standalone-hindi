@@ -28,3 +28,5 @@ The first validation accepts missing planned chapters but validates every author
 One course per production session unless the user requests otherwise. Never commit .env, generated/, output/, caches, temporary packets or real learner/customer data. These private repos contain plans and original future lessons, not copied English manuscripts. No GitHub automation or scheduled job runs by default.
 
 Sentence/vocabulary presentation is defined by each book’s `INSTRUCTIONS.md` and `supplementary.json` → `design.reading_layout.entry_layout`. Apply it to desktop, mobile, sample and EPUB outputs, and inspect all editions after a change. Desktop PDFs are A4 portrait.
+
+Tiny target-language readings must show the complete native passage first, followed by the annotated word-by-word breakdown, full Bangla pronunciation and Bangla meaning. Follow `design.reading_layout.target_reading_order` in every PDF and EPUB edition.

@@ -5,18 +5,11 @@
   "visual_status": "sampled_pages_checked",
   "inspected_pages": {
     "sample_desktop": [
-      3,
-      5
+      14
     ],
     "sample_mobile": [
-      4,
-      15
-    ],
-    "full_desktop": [
-      476
-    ],
-    "full_mobile": [
-      1606
+      47,
+      48
     ],
     "tracker": [
       1
@@ -31,7 +24,8 @@
     "Desktop full and sample PDFs rebuilt in A4 portrait (210 × 297 mm); all pages checked for dimensions and text boundaries, with cover, early, middle and final pages visually inspected.",
     "Desktop sentences and vocabulary now use four-column tables with repeating headers and unsplit rows. Inspected both sample tables and chapter 60 long sentences; page-boundary checks pass across both rebuilt PDFs.",
     "Reordered every desktop sentence and vocabulary table: Bangla meaning, complete Hindi with whole pronunciation/romanization, then Hindi word-by-word Bangla pronunciation. Sample sentences, vocabulary and a late-chapter table visually inspected; all rebuilt PDF page dimensions and text boundaries pass.",
-    "Mobile and both EPUBs now show Bangla meaning, complete Hindi, then Hindi word-by-word pronunciation. All 1,780 sentence/vocabulary entries in each EPUB checked for order; EPUBCheck reports zero errors/warnings. Mobile sample sentences/vocabulary and a chapter 60 sentence visually checked; PDF boundaries pass."
+    "Mobile and both EPUBs now show Bangla meaning, complete Hindi, then Hindi word-by-word pronunciation. All 1,780 sentence/vocabulary entries in each EPUB checked for order; EPUBCheck reports zero errors/warnings. Mobile sample sentences/vocabulary and a chapter 60 sentence visually checked; PDF boundaries pass.",
+    "Latest rebuild: complete native passage precedes annotated breakdown in every tiny reading. Inspected chapter 2 passage in desktop sample page 14 and mobile sample pages 47–48; whole passage can continue over a mobile page boundary. EPUB structural order checked for all 60 chapters per edition."
   ],
   "limits": [
     "This is sampled visual inspection, not a read-through of all pages.",

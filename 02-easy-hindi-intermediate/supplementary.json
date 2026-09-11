@@ -2,7 +2,9 @@
   "copy": {
     "title": "Easy Hindi Intermediate",
     "title_bengali": "ইজি হিন্দি ইন্টারমিডিয়েট",
-    "publisher": "Published by Englishing.app"
+    "publisher": "Published by Englishing.app",
+    "complete_target_reading": "সম্পূর্ণ পাঠ",
+    "reading_breakdown": "শব্দে শব্দে পাঠ ও উচ্চারণ"
   },
   "design": {
     "status": "planned_requires_visual_QA",
@@ -108,6 +110,7 @@
       },
       "bridge_target_highlight": "bold_native_target_spans",
       "target_reading_order": [
+        "complete_target_lines",
         "annotated_target_lines",
         "complete_bangla_pronunciation",
         "meaning_bengali_md"
