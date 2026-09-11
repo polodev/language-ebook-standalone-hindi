@@ -1,0 +1,130 @@
+name: Deliver Hindi vocabulary chapters 81-90
+
+on:
+  push:
+    branches:
+      - chatgpt-transfer-vocab-ch081-ch090-20260912
+    paths:
+      - '.github/transfer-vocab-ch081-ch090/READY'
+
+permissions:
+  contents: write
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout transfer branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reconstruct and verify transfer archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .github/transfer-vocab-ch081-ch090/part-* | base64 -d > /tmp/vocab-81-90.tar.xz
+          echo '7b499e2315e679a6eb38d7950c50dd5118aee3df8c4c2941ac690f4cb5d215cb  /tmp/vocab-81-90.tar.xz' | sha256sum -c -
+          xz -dc /tmp/vocab-81-90.tar.xz > /tmp/vocab-81-90.tar
+          tar -tf /tmp/vocab-81-90.tar
+
+      - name: Verify base, extract, and validate
+        shell: bash
+        env:
+          EXPECTED_MAIN: d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6
+          TARGET_BRANCH: content/04-easy-hindi-vocabulary-7000-words/ch081-ch090
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          test "$(git rev-parse origin/main)" = "$EXPECTED_MAIN"
+          target_sha=$(git ls-remote --heads origin "$TARGET_BRANCH" | awk '{print $1}')
+          test "$target_sha" = "$EXPECTED_MAIN"
+          git checkout -B delivery origin/main
+          tar -xf /tmp/vocab-81-90.tar
+          for n in {81..90}; do
+            c=$(printf '04-easy-hindi-vocabulary-7000-words/chapters/ch%03d.json' "$n")
+            r=$(printf '04-easy-hindi-vocabulary-7000-words/rosters/ch%03d.json' "$n")
+            test -s "$c"
+            test -s "$r"
+          done
+          test -s 04-easy-hindi-vocabulary-7000-words/authoring-progress.json
+          python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('04-easy-hindi-vocabulary-7000-words/authoring-progress.json')
+          d = json.loads(p.read_text(encoding='utf-8'))
+          for item in d.get('checks_performed', []):
+              if item.get('check') == 'python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words':
+                  item['result'] = 'passed'
+                  item['details'] = 'Ran successfully in the GitHub Actions repository checkout after reconstructing the byte-verified batch archive.'
+          d['git_delivery'] = {
+              'status': 'validated_for_content_branch_commit',
+              'target_branch': 'content/04-easy-hindi-vocabulary-7000-words/ch081-ch090',
+              'base_main_sha': 'd79a0fb7cd84c4adfe9f4036038ac9404c05fcb6',
+              'method': 'GitHub Actions byte-exact transport from a temporary branch, followed by a normal fast-forward push to the content branch.',
+              'force_push': False
+          }
+          p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('04-easy-hindi-vocabulary-7000-words')
+          expected_ids = [f'ch{n:03d}' for n in range(81, 91)]
+          ids=[]; vocab_ids=[]; targets=[]
+          for cid in expected_ids:
+              c=json.loads((root/'chapters'/f'{cid}.json').read_text(encoding='utf-8'))
+              r=json.loads((root/'rosters'/f'{cid}.json').read_text(encoding='utf-8'))
+              assert c['chapter_id']==cid and len(c['sentences'])==20 and len(c['vocabulary'])==30
+              assert len(c['script_practice'])==5 and len(c['speaking_practice'])==6 and len(c['image_prompts'])==2
+              assert len(r['items'])==30 and r['status']=='reviewed'
+              assert [x['id'] for x in c['vocabulary']] == [x['id'] for x in r['items']]
+              assert [x['target'] for x in c['vocabulary']] == [x['target'] for x in r['items']]
+              ids.append(cid); vocab_ids.extend(x['id'] for x in r['items']); targets.extend(x['target'] for x in r['items'])
+          assert ids==expected_ids
+          assert vocab_ids == [f'v{i:05d}' for i in range(2401,2701)]
+          assert len(set(targets))==300
+          print('Requested-range audit passed:', ', '.join(ids))
+          PY
+
+      - name: Commit and push content branch
+        shell: bash
+        env:
+          TARGET_BRANCH: content/04-easy-hindi-vocabulary-7000-words/ch081-ch090
+          TRANSFER_BRANCH: chatgpt-transfer-vocab-ch081-ch090-20260912
+        run: |
+          set -euo pipefail
+          git config user.name "polodev"
+          git config user.email "polodev10@gmail.com"
+          git add \
+            04-easy-hindi-vocabulary-7000-words/chapters/ch081.json \
+            04-easy-hindi-vocabulary-7000-words/chapters/ch082.json \
+            04-easy-hindi-vocabulary-7000-words/chapters/ch083.json \
+            04-easy-hindi-vocabulary-7000-words/chapters/ch084.json \
+            04-easy-hindi-vocabulary-7000-words/chapters/ch085.json \
+            04-easy-hindi-vocabulary-7000-words/chapters/ch086.json \
+            04-easy-hindi-vocabulary-7000-words/chapters/ch087.json \
+            04-easy-hindi-vocabulary-7000-words/chapters/ch088.json \
+            04-easy-hindi-vocabulary-7000-words/chapters/ch089.json \
+            04-easy-hindi-vocabulary-7000-words/chapters/ch090.json \
+            04-easy-hindi-vocabulary-7000-words/rosters/ch081.json \
+            04-easy-hindi-vocabulary-7000-words/rosters/ch082.json \
+            04-easy-hindi-vocabulary-7000-words/rosters/ch083.json \
+            04-easy-hindi-vocabulary-7000-words/rosters/ch084.json \
+            04-easy-hindi-vocabulary-7000-words/rosters/ch085.json \
+            04-easy-hindi-vocabulary-7000-words/rosters/ch086.json \
+            04-easy-hindi-vocabulary-7000-words/rosters/ch087.json \
+            04-easy-hindi-vocabulary-7000-words/rosters/ch088.json \
+            04-easy-hindi-vocabulary-7000-words/rosters/ch089.json \
+            04-easy-hindi-vocabulary-7000-words/rosters/ch090.json \
+            04-easy-hindi-vocabulary-7000-words/authoring-progress.json
+          test "$(git diff --cached --name-only | wc -l)" -eq 21
+          test "$(git diff --cached --diff-filter=A --name-only | wc -l)" -eq 21
+          test -z "$(git diff --cached --diff-filter=DMR --name-only)"
+          git commit -m "Add Hindi vocabulary chapters 81-90"
+          commit_sha=$(git rev-parse HEAD)
+          git push origin HEAD:"refs/heads/$TARGET_BRANCH"
+          git fetch origin "$TARGET_BRANCH"
+          test "$(git rev-parse FETCH_HEAD)" = "$commit_sha"
+          git push origin --delete "$TRANSFER_BRANCH" || true
