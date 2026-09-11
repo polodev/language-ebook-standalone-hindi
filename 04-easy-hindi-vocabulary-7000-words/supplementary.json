@@ -4,7 +4,7 @@
     "title_bengali": "ইজি হিন্দি ভোকাবুলারি: ৭০০০+ ওয়ার্ডস অ্যান্ড ফ্রেজেস",
     "publisher": "Published by Englishing.app",
     "complete_target_reading": "সম্পূর্ণ পাঠের উচ্চারণ (বাংলা হরফে)",
-    "reading_breakdown": "শব্দে শব্দে পাঠ ও উচ্চারণ"
+    "reading_breakdown": "শব্দে শব্দে পাঠ"
   },
   "design": {
     "status": "planned_requires_visual_QA",
@@ -110,10 +110,9 @@
       },
       "bridge_target_highlight": "bold_native_target_spans",
       "target_reading_order": [
-        "complete_bangla_pronunciation_lines",
-        "annotated_target_lines",
         "complete_bangla_pronunciation",
-        "meaning_bengali_md"
+        "meaning_bengali_md",
+        "annotated_target_lines"
       ],
       "optional_number_cards": "Omit the number subsection when number_practice is null; otherwise show 2 or 3 cards.",
       "image_placement": "Place each chapter reading image beside or immediately above its matching reading; keep captions as real font text.",
@@ -138,7 +137,8 @@
         "mobile_epub": "stacked_cards",
         "keep_breakdown_with_entry": true
       },
-      "native_script_display": "only_with_adjacent_word_level_bangla_pronunciation"
+      "native_script_display": "only_with_adjacent_word_level_bangla_pronunciation",
+      "target_reading_pronunciation_labels": false
     }
   },
   "outputs": [

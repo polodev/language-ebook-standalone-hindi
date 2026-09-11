@@ -29,4 +29,4 @@ One course per production session unless the user requests otherwise. Never comm
 
 Sentence/vocabulary presentation is defined by each book’s `INSTRUCTIONS.md` and `supplementary.json` → `design.reading_layout.entry_layout`. Apply it to desktop, mobile, sample and EPUB outputs, and inspect all editions after a change. Desktop PDFs are A4 portrait.
 
-Tiny target-language readings first show complete pronunciation lines in Bangla script, then native word-by-word breakdowns with adjacent Bangla pronunciation, full Bangla pronunciation and meaning. Follow `design.reading_layout.target_reading_order` in every PDF and EPUB edition.
+Tiny target-language readings show existing full Bangla-script pronunciation, then Bangla meaning, then native annotated breakdown. Do not rewrite text, duplicate full passages or add pronunciation labels. Follow `design.reading_layout.target_reading_order` in every PDF and EPUB edition.

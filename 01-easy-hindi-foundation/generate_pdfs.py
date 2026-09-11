@@ -132,9 +132,9 @@ class BookRenderer:
                     prose=''.join(esc(s['text']) if s['kind']=='bangla' else self.words(s['word_pronunciations']) for s in r['segments'])
                     parts.append('<div class="bridge prose">'+prose+'</div>')
                 else:
-                    parts.append('<h3>'+esc(self.copy['complete_target_reading'])+'</h3><div class="complete-target-reading" lang="bn">'+''.join('<p class="reading-line">'+esc(line['bangla_pronunciation'])+'</p>' for line in r['lines'])+'</div><h3>'+esc(self.copy['reading_breakdown'])+'</h3>')
-                    parts.append('<div class="pure-reading">'+''.join('<div class="reading-line">'+self.annotated(line)+self.row('pronunciation',line['bangla_pronunciation'])+'</div>' for line in r['lines'])+'</div>')
-                    parts.append('<h3>'+esc(self.copy['reading_pronunciation'])+'</h3><p>'+esc(r['bangla_pronunciation'])+'</p><h3>'+esc(self.copy['reading_meaning'])+'</h3>'+render_block(r['meaning_bengali_md']))
+                    parts.append('<div class="complete-target-reading" lang="bn"><p>'+esc(r['bangla_pronunciation'])+'</p></div>')
+                    parts.append('<div class="reading-meaning"><h3>'+esc(self.copy['reading_meaning'])+'</h3>'+render_block(r['meaning_bengali_md'])+'</div>')
+                    parts.append('<h3>'+esc(self.copy['reading_breakdown'])+'</h3><div class="pure-reading">'+''.join('<div class="reading-line">'+self.annotated(line)+'<div class="detail">'+esc(line['bangla_pronunciation'])+'</div></div>' for line in r['lines'])+'</div>')
             elif section=='script_and_numbers':
                 parts.append('<h3>'+esc(self.copy['script'])+'</h3><div class="cards">')
                 for s in c['script_practice']:
