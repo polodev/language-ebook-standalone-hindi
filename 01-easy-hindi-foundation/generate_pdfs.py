@@ -85,12 +85,23 @@ class BookRenderer:
         items=''.join('<li><a href="'+('chapter-'+c['chapter_id']+'.xhtml' if epub else '#'+c['chapter_id'])+'">'+esc(c['title_bengali'])+'</a></li>' for c in chapters)
         return '<section class="contents"><h1>'+esc(self.copy['contents'])+'</h1><p>'+esc(self.copy['review_note'])+'</p><ol>'+items+'</ol></section>'
 
-    def chapter(self, chapter, number, epub=False):
+    def chapter(self, chapter, number, epub=False, mode="mobile"):
         c=chapter
         parts=['<article class="chapter" id="'+esc(c['chapter_id'])+'" style="'+self.palette(number)+'">', '<header class="chapter-head"><div class="eyebrow">'+esc(self.copy['chapter_label'])+' '+str(number+1).zfill(2)+'</div><h1>'+esc(c['title_bengali'])+'</h1><div class="chapter-native">'+self.words(c['title_word_pronunciations'])+'</div>'+self.row('pronunciation',c['title_bangla_pronunciation'])+render_block(c['goal_bengali_md'])+'</header>']
         for section in self.design['reading_layout']['section_order']:
             parts.append('<section class="lesson-section"><h2>'+esc(self.copy[section])+'</h2>')
-            if section=='sentences':
+            if section in ('sentences', 'vocabulary') and mode == 'desktop' and not epub:
+                headings = self.copy['sentence_table_columns' if section == 'sentences' else 'vocabulary_table_columns']
+                parts.append('<table class="learning-table"><colgroup><col class="index-col"/><col class="target-col"/><col class="pron-col"/><col class="meaning-col"/></colgroup><thead><tr>'+''.join('<th scope="col">'+esc(h)+'</th>' for h in headings)+'</tr></thead><tbody>')
+                for i, item in enumerate(c[section]):
+                    target = self.annotated(item)
+                    for field in ['synonyms', 'collocations']:
+                        if item.get(field):
+                            target += '<div class="label">'+esc(self.copy[field])+'</div>'+''.join(self.annotated(x)+self.row('pronunciation',x['bangla_pronunciation']) for x in item[field])
+                    pronunciation = esc(item['bangla_pronunciation'])+self.row('romanization', item['romanization'])
+                    parts.append('<tr style="'+self.palette((number*20+i)//self.design['palette_rotation_every_items'])+'"><td>'+str(i+1).zfill(2)+'</td><td>'+target+'</td><td>'+pronunciation+'</td><td>'+render_inline(item['meaning_bengali_md'])+'</td></tr>')
+                parts.append('</tbody></table>')
+            elif section=='sentences':
                 cards=[]
                 for i,s in enumerate(c['sentences']):
                     body='<div class="item-number">'+str(i+1).zfill(2)+'</div>'+self.annotated(s)+self.row('pronunciation',s['bangla_pronunciation'])+self.row('romanization',s['romanization'])+self.row('meaning',s['meaning_bengali_md'],True)
@@ -159,6 +170,8 @@ class BookRenderer:
         css=face+page+f'''
         *{{box-sizing:border-box}}html,body{{margin:0;padding:0}}body{{font-family:{fonts.STACK};font-size:{pt}pt;line-height:1.55;color:{ui['text']};background:{ui['paper']};font-synthesis:none}}a{{color:inherit;text-decoration:none}}h1,h2,h3,p{{margin:0 0 3mm}}h1{{font-size:22pt;line-height:1.4}}h2{{font-size:17pt;color:var(--accent,{ui['cover_ink']});border-bottom:1px solid {ui['rule']};padding-bottom:2mm;margin-top:5mm;break-after:avoid}}h3{{font-size:13pt;margin-top:4mm;break-after:avoid}}p{{orphans:2;widows:2}}.native{{font-family:'{self.design['target_font']}',{fonts.STACK};font-weight:700;font-size:1.16em}}.cue{{color:{ui['muted']};font-size:.85em;font-weight:400}}.word-cue{{display:inline-block;white-space:nowrap;max-width:100%}}.annotated{{line-height:1.9;margin-bottom:2mm}}.detail{{font-size:.93em;margin:1mm 0;overflow-wrap:anywhere}}.label{{font-size:.82em;color:{ui['muted']};font-weight:700}}.item-number{{font-family:'Miriam Libre';font-size:10pt;color:var(--accent);font-weight:700;margin-bottom:1mm}}.cards{{display:grid;grid-template-columns:1fr 1fr;gap:3mm;align-items:start}}.card{{break-inside:avoid;border-left:1mm solid var(--accent);border-radius:{ui['card_radius_mm']}mm;background:var(--tint);padding:3mm 4mm;min-width:0}}.card p{{margin:1mm 0}}.chapter{{break-before:page}}.chapter-head{{break-inside:avoid;border-top:2mm solid var(--accent);padding-top:5mm;margin-bottom:4mm}}.eyebrow{{font-size:10pt;font-weight:700;letter-spacing:.05em;color:{ui['muted']};margin-bottom:3mm}}.chapter-native{{font-size:13pt;margin:2mm 0}}.reading-image{{display:block;width:100%;height:auto;max-height:92mm;object-fit:contain;margin:3mm auto 5mm;break-inside:avoid}}.prose{{line-height:2.05;margin:2mm 0 6mm}}.bridge .native{{font-weight:700}}.reading-line{{padding:2mm 0;border-bottom:1px solid {ui['rule']};break-inside:avoid}}.script-symbol{{font-size:22pt;line-height:1.7}}.number-symbol{{font-size:20pt;font-weight:700}}.cover{{position:relative;break-after:page;height:{size[1]-2*margin-2}mm;overflow:hidden;background:var(--tint,{ui['paper']})}}.cover>.reading-image{{position:absolute;right:0;top:0;width:54%;height:100%;max-height:none;object-fit:contain;margin:0}}.cover-copy{{position:absolute;top:22%;left:2%;width:43%;color:{ui['cover_ink']}}}.cover h1{{font-size:37pt;line-height:1.12;margin:4mm 0}}.cover h2{{border:0;font-size:23pt;margin:4mm 0}}.cover .publisher{{margin-top:10mm;font-size:10pt}}.contents{{break-after:page}}.contents ol{{column-count:2;column-gap:10mm;margin:4mm 0;padding-left:8mm}}.contents li{{break-inside:avoid;margin-bottom:2mm;padding-left:1mm}}.tracker{{break-after:page}}.tracker:last-child{{break-after:auto}}table{{border-collapse:collapse;width:100%;font-size:10pt}}th{{text-align:left;padding:2mm;border-bottom:1px solid {ui['rule']}}}td{{padding:1.5mm 2mm;border-bottom:1px solid {ui['rule']};background:var(--tint,{ui['paper']})}}td:first-child{{width:13mm}}td:nth-child(n+3){{text-align:center;width:20mm}}tr{{break-inside:avoid}}.check-box{{display:inline-block;width:3mm;height:3mm;border:1px solid {ui['muted']}}}
         '''
+        if mode == 'desktop' and not epub:
+            css+=f""".learning-table{{table-layout:fixed;font-size:10pt;margin:3mm 0 5mm}}.learning-table .index-col{{width:6%}}.learning-table .target-col{{width:44%}}.learning-table .pron-col{{width:25%}}.learning-table .meaning-col{{width:25%}}.learning-table th{{background:{ui['rule']};font-size:9pt;padding:2mm;vertical-align:top}}.learning-table td{{width:auto;text-align:left;vertical-align:top;padding:2.5mm 2mm;border:1px solid {ui['rule']};overflow-wrap:anywhere}}.learning-table td:first-child{{font-family:'Miriam Libre';font-size:9pt;color:var(--accent)}}.learning-table thead{{display:table-header-group}}.learning-table .annotated{{margin:0;line-height:1.8}}.learning-table tr{{break-inside:avoid}}"""
         if mode == 'desktop' and size[0] < size[1] and not epub:
             css+='''.cover>.reading-image{width:100%;height:100%;object-fit:cover}.cover-copy{left:5%;top:3%;width:90%}.cover h1{font-size:32pt}.cover h2{font-size:24pt;margin:2mm 0}.cover .publisher{margin-top:3mm}.cover .eyebrow{margin-bottom:2mm}'''
         if tracker:
@@ -181,7 +194,7 @@ class BookRenderer:
                 if 'tracker' in filename:
                     mode='tracker_color' if 'color' in filename else 'tracker';body=self.tracker('color' in filename);required=['MiriamLibre','NotoSerifBengali']
                 else:
-                    body=self.cover(mode)+self.contents(chapters)+''.join(self.chapter(c,i) for i,c in enumerate(chapters));required=['MiriamLibre','NotoSerifBengali','NotoSansDevanagari']
+                    body=self.cover(mode)+self.contents(chapters)+''.join(self.chapter(c,i,mode=mode) for i,c in enumerate(chapters));required=['MiriamLibre','NotoSerifBengali','NotoSansDevanagari']
                 html=generated/(path.stem+'.html');html.write_text('<!doctype html><html lang="bn"><head><meta charset="utf-8"/><title>'+esc(self.copy['title'])+'</title><style>'+self.css(mode)+'</style></head><body>'+body+'</body></html>')
                 render.assert_no_clipping(chrome,html,selector='.cover')
                 render.render_pdf(chrome,html,path,require_fonts=required)

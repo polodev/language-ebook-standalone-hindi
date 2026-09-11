@@ -5,8 +5,8 @@
   "visual_status": "sampled_pages_checked",
   "inspected_pages": {
     "sample_desktop": [
-      1,
-      3
+      3,
+      5
     ],
     "sample_mobile": [
       1,
@@ -14,7 +14,8 @@
     ],
     "full_desktop": [
       216,
-      431
+      423,
+      430
     ],
     "full_mobile": [
       749,
@@ -30,7 +31,8 @@
     "Trackers adjusted to two A4 pages each.",
     "No text blocks outside physical page bounds across the six PDFs.",
     "Some readings continue on the next page; practice cards stay together.",
-    "Desktop full and sample PDFs rebuilt in A4 portrait (210 × 297 mm); all pages checked for dimensions and text boundaries, with cover, early, middle and final pages visually inspected."
+    "Desktop full and sample PDFs rebuilt in A4 portrait (210 × 297 mm); all pages checked for dimensions and text boundaries, with cover, early, middle and final pages visually inspected.",
+    "Desktop sentences and vocabulary now use four-column tables with repeating headers and unsplit rows. Inspected both sample tables and chapter 60 long sentences; page-boundary checks pass across both rebuilt PDFs."
   ],
   "limits": [
     "This is sampled visual inspection, not a read-through of all pages.",
