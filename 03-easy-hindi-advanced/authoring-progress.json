@@ -1,0 +1,73 @@
+{
+  "book": "03-easy-hindi-advanced",
+  "updated_at_local": "2026-09-12 15:32 +0600",
+  "batch": "ch051-ch060",
+  "requested_ids": [
+    "ch051",
+    "ch052",
+    "ch053",
+    "ch054",
+    "ch055",
+    "ch056",
+    "ch057",
+    "ch058",
+    "ch059",
+    "ch060"
+  ],
+  "completed_ids": [
+    "ch051",
+    "ch052",
+    "ch053",
+    "ch054",
+    "ch055",
+    "ch056",
+    "ch057",
+    "ch058",
+    "ch059",
+    "ch060"
+  ],
+  "unfinished_ids": [],
+  "status": "batch_drafted",
+  "inventory": {
+    "chapters": 10,
+    "essential_sentences": 200,
+    "vocabulary_entries": 80,
+    "script_items": 50,
+    "mixed_readings": 10,
+    "pure_readings": 10,
+    "pure_reading_lines": 50,
+    "speaking_tasks": 60,
+    "reading_image_prompts": 20,
+    "number_cards": 0
+  },
+  "checks": [
+    {
+      "name": "UTF-8 JSON parse/reload",
+      "status": "passed",
+      "detail": "All ten chapter files serialize with ensure_ascii=False, indent=2 and reload successfully."
+    },
+    {
+      "name": "chapter structural validation mirror",
+      "status": "passed",
+      "detail": "Checked the same chapter-level invariants used by scripts/manage.py: exact word reconstruction, 20 unique sentences, vocabulary source links, mixed-reading Markdown mirror, 4-8 pure-reading lines within 12 units, five script cards, six speaking tasks, and two image prompts."
+    },
+    {
+      "name": "batch editorial consistency audit",
+      "status": "passed",
+      "detail": "Verified bridge target segments reuse lesson sentences, vocabulary source forms are exact source tokens, no duplicate essential sentences across this batch, and Bangla prose fields contain no hidden Devanagari learner examples."
+    },
+    {
+      "name": "python3 scripts/manage.py validate --book 03-easy-hindi-advanced",
+      "status": "passed",
+      "detail": "Passed on the submitted GitHub branch against the verified latest main base."
+    }
+  ],
+  "editorial_note": "All chapters are marked drafted, not reviewed; no independent native-speaker review is claimed.",
+  "git_delivery": {
+    "status": "validated_on_branch",
+    "branch": "content/03-easy-hindi-advanced/ch051-ch060",
+    "target_branch": "main",
+    "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+    "force_push": false
+  }
+}
