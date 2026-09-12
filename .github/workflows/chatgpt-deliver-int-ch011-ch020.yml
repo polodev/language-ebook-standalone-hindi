@@ -29,66 +29,27 @@ jobs:
           echo '3fdacdcb5d4131bb683a48284eadec8b7f4d0bdef9ee6c69e1fd73aa99494f63  /tmp/int-ch011-ch020.tar' | sha256sum -c -
           tar -tf /tmp/int-ch011-ch020.tar
 
-      - name: Trace extraction and validation
+      - name: Extract and validate exact source batch
         shell: bash
         env:
-          EXPECTED_MAIN: d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6
-        run: |
-          set +e
-          : > /tmp/debug.txt
-          rm -f /tmp/delivery_failed
-          echo 'checkpoint: begin' >> /tmp/debug.txt
-          git status --short --branch >> /tmp/debug.txt 2>&1
-          git checkout -B delivery "$EXPECTED_MAIN" >> /tmp/debug.txt 2>&1
-          rc=$?
-          echo "checkout_rc=$rc" >> /tmp/debug.txt
-          if [ "$rc" -ne 0 ]; then touch /tmp/delivery_failed; exit 0; fi
-          echo 'checkpoint: checkout_ok' >> /tmp/debug.txt
-          tar -xf /tmp/int-ch011-ch020.tar >> /tmp/debug.txt 2>&1
-          rc=$?
-          echo "extract_rc=$rc" >> /tmp/debug.txt
-          if [ "$rc" -ne 0 ]; then touch /tmp/delivery_failed; exit 0; fi
-          echo 'checkpoint: extract_ok' >> /tmp/debug.txt
-          missing=0
-          for n in {11..20}; do
-            f=$(printf '02-easy-hindi-intermediate/chapters/ch%03d.json' "$n")
-            if [ -s "$f" ]; then echo "present: $f" >> /tmp/debug.txt; else echo "missing: $f" >> /tmp/debug.txt; missing=1; fi
-          done
-          if [ -s 02-easy-hindi-intermediate/authoring-progress.json ]; then echo 'present: authoring-progress.json' >> /tmp/debug.txt; else echo 'missing: authoring-progress.json' >> /tmp/debug.txt; missing=1; fi
-          if [ "$missing" -ne 0 ]; then touch /tmp/delivery_failed; exit 0; fi
-          echo 'checkpoint: files_ok' >> /tmp/debug.txt
-          python3 scripts/manage.py validate --book 02-easy-hindi-intermediate >> /tmp/debug.txt 2>&1
-          rc=$?
-          echo "validator_rc=$rc" >> /tmp/debug.txt
-          if [ "$rc" -ne 0 ]; then touch /tmp/delivery_failed; exit 0; fi
-          echo 'checkpoint: validator_ok' >> /tmp/debug.txt
-          exit 0
-
-      - name: Upload diagnostic trace
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: intermediate-ch011-ch020-debug
-          path: /tmp/debug.txt
-          if-no-files-found: error
-
-      - name: Stop if trace found a failure
-        shell: bash
-        run: |
-          test ! -f /tmp/delivery_failed
-
-      - name: Commit actual source batch and push review branch
-        shell: bash
-        env:
-          DELIVERY_BRANCH: content/02-easy-hindi-intermediate/ch011-ch020
-          TRANSFER_BRANCH: transport/02-easy-hindi-intermediate/ch011-ch020-20260912
           EXPECTED_MAIN: d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6
         run: |
           set -euo pipefail
-          main_remote=$(git ls-remote origin refs/heads/main | cut -f1)
-          delivery_remote=$(git ls-remote origin "refs/heads/$DELIVERY_BRANCH" | cut -f1)
-          test "$main_remote" = "$EXPECTED_MAIN"
-          test "$delivery_remote" = "$EXPECTED_MAIN"
+          git checkout -B delivery "$EXPECTED_MAIN"
+          tar -xf /tmp/int-ch011-ch020.tar
+          for n in {11..20}; do
+            f=$(printf '02-easy-hindi-intermediate/chapters/ch%03d.json' "$n")
+            test -s "$f"
+          done
+          test -s 02-easy-hindi-intermediate/authoring-progress.json
+          python3 scripts/manage.py validate --book 02-easy-hindi-intermediate
+
+      - name: Commit exact 11-file batch and push review branch
+        shell: bash
+        env:
+          DELIVERY_BRANCH: content/02-easy-hindi-intermediate/ch011-ch020
+        run: |
+          set -euo pipefail
           git config user.name "polodev"
           git config user.email "polodev10@gmail.com"
           git add \
@@ -109,8 +70,4 @@ jobs:
           test -z "$(git diff --cached --diff-filter=MDR --name-only)"
           ts=$(TZ=Asia/Dhaka date '+%a %b %-d, %-I:%M%P')
           git commit -m "$ts — 11 files added"
-          commit_sha=$(git rev-parse HEAD)
           git push origin HEAD:"$DELIVERY_BRANCH"
-          remote_sha=$(git ls-remote origin "refs/heads/$DELIVERY_BRANCH" | cut -f1)
-          test "$remote_sha" = "$commit_sha"
-          git push origin --delete "$TRANSFER_BRANCH" || true
