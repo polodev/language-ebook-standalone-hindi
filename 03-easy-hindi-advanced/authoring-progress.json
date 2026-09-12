@@ -1,0 +1,55 @@
+{
+  "book": "03-easy-hindi-advanced",
+  "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+  "requested_range": {
+    "start": "ch001",
+    "end": "ch010",
+    "count": 10
+  },
+  "completed_ids": [
+    "ch001",
+    "ch002",
+    "ch003",
+    "ch004",
+    "ch005",
+    "ch006",
+    "ch007",
+    "ch008",
+    "ch009",
+    "ch010"
+  ],
+  "unfinished_ids": [],
+  "status": "batch_complete",
+  "inventory": {
+    "chapters": 10,
+    "essential_sentences": 200,
+    "vocabulary_entries": 80,
+    "script_practice_items": 50,
+    "number_cards": 0,
+    "bridge_readings": 10,
+    "target_readings": 10,
+    "target_reading_lines": 50,
+    "speaking_practice_tasks": 60,
+    "image_prompts": 20,
+    "additional_practice_items": 1
+  },
+  "checks_performed": [
+    {
+      "check": "repository_validator",
+      "result": "passed",
+      "command": "python3 scripts/manage.py validate --book 03-easy-hindi-advanced",
+      "details": "Run by the temporary authoring workflow on the repository branch before final commit."
+    },
+    {
+      "check": "batch_audit",
+      "result": "passed",
+      "details": "Verified the assigned files, identities, counts, vocabulary source forms, exact word reconstruction, bridge Markdown mirrors, pure-reading line limits, speaking tasks and image prompt keys."
+    }
+  ],
+  "remaining_issues": [
+    "Chapter status is drafted; no independent native-language reviewer approval is claimed.",
+    "Full-book validation, assembly, artwork generation, PDF/EPUB generation, and chapters outside ch001-ch010 were not attempted."
+  ],
+  "resume_point": "Requested ch001-ch010 batch is complete. Do not continue to ch011 unless separately assigned.",
+  "updated_at_local": "2026-09-12T15:20+06:00"
+}
