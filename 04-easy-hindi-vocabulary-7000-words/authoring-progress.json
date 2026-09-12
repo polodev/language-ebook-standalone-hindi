@@ -1,0 +1,84 @@
+{
+  "book": "04-easy-hindi-vocabulary-7000-words",
+  "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+  "requested_range": {
+    "start": "ch061",
+    "end": "ch070",
+    "count": 10
+  },
+  "completed_ids": [
+    "ch061",
+    "ch062",
+    "ch063",
+    "ch064",
+    "ch065",
+    "ch066",
+    "ch067",
+    "ch068",
+    "ch069",
+    "ch070"
+  ],
+  "unfinished_ids": [],
+  "status": "batch_complete",
+  "checks_performed": [
+    {
+      "check": "authoring_source_review",
+      "result": "passed",
+      "details": "Read the book INSTRUCTIONS.md, requested ch061-ch070 plans in book.json, chapter-template.json, supplementary.json, and current scripts/manage.py validator logic. Started from current main SHA d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6."
+    },
+    {
+      "check": "assigned_files_and_rosters",
+      "result": "passed",
+      "details": "Prepared all 10 chapter JSON files ch061.json through ch070.json and all 10 reviewed roster files with reserved IDs v01801-v02100 in exact order."
+    },
+    {
+      "check": "required_counts",
+      "result": "passed",
+      "details": "Verified 20 unique essential sentences, 30 vocabulary targets, 5 script cards, 2 number cards, 6 speaking tasks and 2 reading image prompts per chapter; 300 unique vocabulary targets across the requested batch."
+    },
+    {
+      "check": "vocabulary_contract",
+      "result": "passed",
+      "details": "Verified expression positions 6, 12, 18, 24 and 30; each vocabulary source_sentence_id exists, source_form occurs exactly in that sentence, authored vocabulary exactly matches its reviewed roster, and no target duplicates occur within the requested batch or against recovered ch061/ch062 targets."
+    },
+    {
+      "check": "pronunciation_and_readings",
+      "result": "passed",
+      "details": "Verified word_pronunciations reconstruct each annotated native string exactly; bridge readings contain Bangla and target segments and exact text_md mirrors; pure readings contain 5 short annotated lines with complete Bangla pronunciation and meaning."
+    },
+    {
+      "check": "image_prompts",
+      "result": "passed",
+      "details": "Verified the two required image keys per chapter, reading order, distinct scene descriptions and required no-readable-text/no-label/no-signage/no-watermark instruction."
+    },
+    {
+      "check": "repository_validator",
+      "result": "not_run",
+      "command": "python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words",
+      "details": "No authenticated repository checkout is available to the shell. A local structural audit mirroring the fetched current validator contract was run instead; GitHub-side diff and status are checked after push."
+    }
+  ],
+  "remaining_issues": [
+    "Chapter status is drafted, not independently reviewed.",
+    "Full-book --complete validation and assembly are outside this assigned batch."
+  ],
+  "resume_point": "Requested ch061-ch070 batch is complete. Do not continue automatically beyond ch070.",
+  "branch": "content/04-easy-hindi-vocabulary-7000-words/ch061-ch070",
+  "delivery": {
+    "target_branch": "main",
+    "merge_requested": false,
+    "pr_required": true
+  },
+  "repository_validator": {
+    "command": "python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words",
+    "run": true,
+    "result": "passed in GitHub Actions repository checkout"
+  },
+  "git_delivery": {
+    "status": "validated_ready_for_pr",
+    "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+    "branch": "content/04-easy-hindi-vocabulary-7000-words/ch061-ch070",
+    "target_branch": "main",
+    "force_push": false
+  }
+}
