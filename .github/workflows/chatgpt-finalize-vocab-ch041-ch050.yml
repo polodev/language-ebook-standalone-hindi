@@ -19,27 +19,23 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Reconstruct authored batch
+      - name: Reconstruct archive chapters 43-50
         shell: bash
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-          CH041_BLOB: 4892b1d1df7e5bd2588a9608d2c729a85b74c3a4
-          CH042_BLOB: 1ca8b72caa51bdef7a02e4d6f055f203d0a1219b
         run: |
           set -euo pipefail
           BOOK='04-easy-hindi-vocabulary-7000-words'
           TRANSFER='.github/transfer-vocab-ch041-ch050'
           mkdir -p "$BOOK/chapters" "$BOOK/rosters" /tmp/ch43-50-extract
-
           find "$TRANSFER" -maxdepth 1 -type f -name 'ch43-50.part-*' -print | LC_ALL=C sort > /tmp/parts.txt
+          cat /tmp/parts.txt
           test "$(wc -l < /tmp/parts.txt)" -ge 8
           while IFS= read -r part; do cat "$part"; done < /tmp/parts.txt > /tmp/ch43-50.b64
+          test "$(wc -c < /tmp/ch43-50.b64)" -eq 50000
           base64 -d /tmp/ch43-50.b64 > /tmp/ch43-50.tar.xz
           xz -t /tmp/ch43-50.tar.xz
           xz -dc /tmp/ch43-50.tar.xz > /tmp/ch43-50.tar
           tar -tf /tmp/ch43-50.tar
           tar -xf /tmp/ch43-50.tar -C /tmp/ch43-50-extract
-
           for n in {43..50}; do
             c=$(find /tmp/ch43-50-extract -type f -path "*/chapters/ch$(printf '%03d' "$n").json" | head -n 1)
             r=$(find /tmp/ch43-50-extract -type f -path "*/rosters/ch$(printf '%03d' "$n").json" | head -n 1)
@@ -49,6 +45,15 @@ jobs:
             cp "$r" "$(printf "$BOOK/rosters/ch%03d.json" "$n")"
           done
 
+      - name: Restore chapters 41-42 blobs
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          CH041_BLOB: 4892b1d1df7e5bd2588a9608d2c729a85b74c3a4
+          CH042_BLOB: 1ca8b72caa51bdef7a02e4d6f055f203d0a1219b
+        run: |
+          set -euo pipefail
+          BOOK='04-easy-hindi-vocabulary-7000-words'
           fetch_blob() {
             local sha="$1" out="$2"
             curl -fsSL \
@@ -63,6 +68,10 @@ jobs:
           fetch_blob "$CH042_BLOB" "$BOOK/chapters/ch042.json"
           test -s "$BOOK/rosters/ch041.json"
 
+      - name: Create reviewed roster 42
+        shell: bash
+        run: |
+          set -euo pipefail
           python3 - <<'PY'
           import json
           from pathlib import Path
@@ -71,10 +80,7 @@ jobs:
           items = []
           for v in ch['vocabulary']:
               items.append({
-                  'id': v['id'],
-                  'target': v['target'],
-                  'category': v['category'],
-                  'type': v['type'],
+                  'id': v['id'], 'target': v['target'], 'category': v['category'], 'type': v['type'],
                   'level_rationale': 'A2 পর্যায়ে দৈনন্দিন বাস্তব কথোপকথনে উচ্চ-উপযোগী; অর্থ, রেজিস্টার ও ব্যাচ-স্তরের পুনরাবৃত্তি সম্পাদকীয়ভাবে যাচাই করা হয়েছে।',
                   'sources': ['Editorial review of common Standard Hindi usage; batch-level uniqueness and sense suitability checked.']
               })
@@ -111,7 +117,6 @@ jobs:
           }
           (book/'authoring-progress.json').write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
           PY
-
           python3 scripts/manage.py validate --book "$BOOK"
           python3 -m unittest discover -s tests
           for n in {41..50}; do
@@ -125,15 +130,12 @@ jobs:
           set -euo pipefail
           rm -rf .github/transfer-vocab-ch041-ch050
           rm -f .github/workflows/chatgpt-finalize-vocab-ch041-ch050.yml
-
           git config user.name 'polodev'
           git config user.email 'polodev10@gmail.com'
           git add -A
           git commit -m 'Complete Easy Hindi Vocabulary chapters 41-50'
-
           git fetch origin main
           bad=$(git diff --name-only origin/main...HEAD | grep -vE '^04-easy-hindi-vocabulary-7000-words/(chapters/ch04[1-9]\.json|chapters/ch050\.json|rosters/ch04[1-9]\.json|rosters/ch050\.json|authoring-progress\.json)$' || true)
           test -z "$bad"
           test "$(git diff --name-only origin/main...HEAD | wc -l)" -eq 21
-
           git push origin HEAD:content/04-easy-hindi-vocabulary-7000-words/ch041-ch050
