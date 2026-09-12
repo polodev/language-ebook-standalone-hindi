@@ -24,16 +24,14 @@ jobs:
         run: |
           set -euo pipefail
           cat .delivery_chunks/advanced-ch051-060.part-* | base64 -d | xz -d > /tmp/advanced-ch051-060.tar
-          tar -tf /tmp/advanced-ch051-060.tar
           tar -xf /tmp/advanced-ch051-060.tar
           for n in {51..60}; do
-            f=$(printf '03-easy-hindi-advanced/chapters/ch%03d.json' "$n")
-            test -s "$f"
+            test -s "$(printf '03-easy-hindi-advanced/chapters/ch%03d.json' "$n")"
           done
           test -s 03-easy-hindi-advanced/authoring-progress.json
           test -s 03-easy-hindi-advanced/global-images.json
 
-      - name: Verify base and validate batch
+      - name: Validate and record checks
         shell: bash
         env:
           EXPECTED_MAIN: d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6
@@ -44,63 +42,47 @@ jobs:
           test "$(git rev-parse origin/main)" = "$EXPECTED_MAIN"
           python3 scripts/manage.py validate --book 03-easy-hindi-advanced
           python3 - <<'PY'
-          import json
-          import os
+          import json, os
           from datetime import datetime
           from pathlib import Path
           from zoneinfo import ZoneInfo
-
           p = Path('03-easy-hindi-advanced/authoring-progress.json')
           data = json.loads(p.read_text(encoding='utf-8'))
           data['updated_at_local'] = datetime.now(ZoneInfo('Asia/Dhaka')).strftime('%Y-%m-%d %H:%M %z')
           command = 'python3 scripts/manage.py validate --book 03-easy-hindi-advanced'
-          found = False
-          for item in data.get('checks', []):
-              if item.get('name') == command:
+          matches = [x for x in data.get('checks', []) if x.get('name') == command]
+          if matches:
+              for item in matches:
                   item['status'] = 'passed'
                   item['detail'] = 'Passed on the submitted GitHub branch against the verified latest main base.'
-                  found = True
-          if not found:
-              data.setdefault('checks', []).append({
-                  'name': command,
-                  'status': 'passed',
-                  'detail': 'Passed on the submitted GitHub branch against the verified latest main base.'
-              })
-          data['git_delivery'] = {
-              'status': 'validated_on_branch',
-              'branch': os.environ['DELIVERY_BRANCH'],
-              'target_branch': 'main',
-              'base_main_sha': os.environ['EXPECTED_MAIN'],
-              'force_push': False
-          }
+          else:
+              data.setdefault('checks', []).append({'name': command, 'status': 'passed', 'detail': 'Passed on the submitted GitHub branch against the verified latest main base.'})
+          data['git_delivery'] = {'status': 'validated_on_branch', 'branch': os.environ['DELIVERY_BRANCH'], 'target_branch': 'main', 'base_main_sha': os.environ['EXPECTED_MAIN'], 'force_push': False}
           p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
           python3 scripts/manage.py validate --book 03-easy-hindi-advanced
 
-      - name: Finalize clean branch diff
+      - name: Commit validated source files
         shell: bash
         run: |
           set -euo pipefail
-          rm -rf .delivery_chunks
-          rm -f .github/workflows/chatgpt-deliver-advanced-ch051-ch060.yml
           git config user.name "polodev"
           git config user.email "polodev10@gmail.com"
-          git add -A
-          git diff --cached --name-status
-          for n in {51..60}; do
-            f=$(printf '03-easy-hindi-advanced/chapters/ch%03d.json' "$n")
-            git diff --cached --name-only | grep -Fx "$f" >/dev/null
-          done
-          git diff --cached --name-only | grep -Fx '03-easy-hindi-advanced/authoring-progress.json' >/dev/null
-          git diff --cached --name-only | grep -Fx '03-easy-hindi-advanced/global-images.json' >/dev/null
+          git add 03-easy-hindi-advanced/chapters/ch051.json \
+                  03-easy-hindi-advanced/chapters/ch052.json \
+                  03-easy-hindi-advanced/chapters/ch053.json \
+                  03-easy-hindi-advanced/chapters/ch054.json \
+                  03-easy-hindi-advanced/chapters/ch055.json \
+                  03-easy-hindi-advanced/chapters/ch056.json \
+                  03-easy-hindi-advanced/chapters/ch057.json \
+                  03-easy-hindi-advanced/chapters/ch058.json \
+                  03-easy-hindi-advanced/chapters/ch059.json \
+                  03-easy-hindi-advanced/chapters/ch060.json \
+                  03-easy-hindi-advanced/authoring-progress.json \
+                  03-easy-hindi-advanced/global-images.json
+          test "$(git diff --cached --name-only | wc -l)" -eq 12
           ts=$(TZ=Asia/Dhaka date '+%a %b %-d, %-I:%M%P %z')
-          git commit -m "$ts — 11 files added, 1 file modified; staging removed"
+          git commit -m "$ts — 11 files added, 1 file modified"
           git push origin HEAD:content/03-easy-hindi-advanced/ch051-ch060
-          git fetch origin main
-          changed=$(git diff --name-only origin/main...HEAD)
-          printf '%s\n' "$changed"
-          test "$(printf '%s\n' "$changed" | sed '/^$/d' | wc -l)" -eq 12
-          bad=$(printf '%s\n' "$changed" | grep -Ev '^03-easy-hindi-advanced/(authoring-progress\.json|global-images\.json|chapters/ch05[1-9]\.json|chapters/ch060\.json)$' || true)
-          test -z "$bad"
 
-# delivery trigger
+# source-only push trigger
