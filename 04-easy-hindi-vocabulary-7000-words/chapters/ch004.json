@@ -1,0 +1,2161 @@
+{
+  "chapter_id": "ch004",
+  "status": "drafted",
+  "title_target": "खाना और पेय",
+  "title_bangla_pronunciation": "খানা অউর পেয",
+  "title_word_pronunciations": [
+    {
+      "target": "खाना",
+      "bangla_pronunciation": "খানা",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "पेय",
+      "bangla_pronunciation": "পেয",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "খাবার ও পানীয়",
+  "goal_bengali_md": "খাবার, পানীয়, স্বাদ, ক্ষুধা-পিপাসা এবং রেস্তোরাঁয় দরকারি ছোট অনুরোধ শেখুন।",
+  "sentences": [
+    {
+      "id": "ch004_s01",
+      "target": "खाना गरम है।",
+      "romanization": "khaana garam hai।",
+      "bangla_pronunciation": "খানা গরম হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "खाना",
+          "bangla_pronunciation": "খানা",
+          "separator_after": " "
+        },
+        {
+          "target": "गरम",
+          "bangla_pronunciation": "গরম",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খাবার গরম।"
+    },
+    {
+      "id": "ch004_s02",
+      "target": "पानी ठंडा है।",
+      "romanization": "paanee thanda hai।",
+      "bangla_pronunciation": "পানী ঠংডা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানী",
+          "separator_after": " "
+        },
+        {
+          "target": "ठंडा",
+          "bangla_pronunciation": "ঠংডা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পানি ঠান্ডা।"
+    },
+    {
+      "id": "ch004_s03",
+      "target": "दूध मीठा है।",
+      "romanization": "duudh meetha hai।",
+      "bangla_pronunciation": "দূধ মীঠা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "दूध",
+          "bangla_pronunciation": "দূধ",
+          "separator_after": " "
+        },
+        {
+          "target": "मीठा",
+          "bangla_pronunciation": "মীঠা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুধ মিষ্টি।"
+    },
+    {
+      "id": "ch004_s04",
+      "target": "कॉफ़ी गरम है।",
+      "romanization": "kofee garam hai।",
+      "bangla_pronunciation": "কোফী গরম হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "कॉफ़ी",
+          "bangla_pronunciation": "কোফী",
+          "separator_after": " "
+        },
+        {
+          "target": "गरम",
+          "bangla_pronunciation": "গরম",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কফি গরম।"
+    },
+    {
+      "id": "ch004_s05",
+      "target": "चाय अच्छी है।",
+      "romanization": "chaay achchhee hai।",
+      "bangla_pronunciation": "চায অচ্ছী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "चाय",
+          "bangla_pronunciation": "চায",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छी",
+          "bangla_pronunciation": "অচ্ছী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "চা ভালো।"
+    },
+    {
+      "id": "ch004_s06",
+      "target": "रोटी और चावल।",
+      "romanization": "rotee aur chaaval।",
+      "bangla_pronunciation": "রোটী অউর চাবল।",
+      "word_pronunciations": [
+        {
+          "target": "रोटी",
+          "bangla_pronunciation": "রোটী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "चावल।",
+          "bangla_pronunciation": "চাবল।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রুটি ও ভাত।"
+    },
+    {
+      "id": "ch004_s07",
+      "target": "दाल और सब्ज़ी।",
+      "romanization": "daal aur sabzee।",
+      "bangla_pronunciation": "দাল অউর সব্জী।",
+      "word_pronunciations": [
+        {
+          "target": "दाल",
+          "bangla_pronunciation": "দাল",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "सब्ज़ी।",
+          "bangla_pronunciation": "সব্জী।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডাল ও সবজি।"
+    },
+    {
+      "id": "ch004_s08",
+      "target": "फल ताज़ा है।",
+      "romanization": "phal taaza hai।",
+      "bangla_pronunciation": "ফল তাজা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "फल",
+          "bangla_pronunciation": "ফল",
+          "separator_after": " "
+        },
+        {
+          "target": "ताज़ा",
+          "bangla_pronunciation": "তাজা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফল তাজা।"
+    },
+    {
+      "id": "ch004_s09",
+      "target": "खाना नमकीन है।",
+      "romanization": "khaana namakeen hai।",
+      "bangla_pronunciation": "খানা নমকীন হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "खाना",
+          "bangla_pronunciation": "খানা",
+          "separator_after": " "
+        },
+        {
+          "target": "नमकीन",
+          "bangla_pronunciation": "নমকীন",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খাবার নোনতা।"
+    },
+    {
+      "id": "ch004_s10",
+      "target": "भूख ज़्यादा है।",
+      "romanization": "bhuukh zyaada hai।",
+      "bangla_pronunciation": "ভূখ জ্যাদা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "भूख",
+          "bangla_pronunciation": "ভূখ",
+          "separator_after": " "
+        },
+        {
+          "target": "ज़्यादा",
+          "bangla_pronunciation": "জ্যাদা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ক্ষুধা বেশি।"
+    },
+    {
+      "id": "ch004_s11",
+      "target": "प्यास बहुत है।",
+      "romanization": "pyaas bahut hai।",
+      "bangla_pronunciation": "প্যাস বহুত হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "प्यास",
+          "bangla_pronunciation": "প্যাস",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খুব তৃষ্ণা পেয়েছে।"
+    },
+    {
+      "id": "ch004_s12",
+      "target": "नाश्ता तैयार है।",
+      "romanization": "naashta taiyaar hai।",
+      "bangla_pronunciation": "নাশ্তা তৈযার হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "नाश्ता",
+          "bangla_pronunciation": "নাশ্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "तैयार",
+          "bangla_pronunciation": "তৈযার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নাশতা প্রস্তুত।"
+    },
+    {
+      "id": "ch004_s13",
+      "target": "अंडा और मछली।",
+      "romanization": "anda aur machhalee।",
+      "bangla_pronunciation": "অংডা অউর মছলী।",
+      "word_pronunciations": [
+        {
+          "target": "अंडा",
+          "bangla_pronunciation": "অংডা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "मछली।",
+          "bangla_pronunciation": "মছলী।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডিম ও মাছ।"
+    },
+    {
+      "id": "ch004_s14",
+      "target": "चिकन थोड़ा है।",
+      "romanization": "chikan thora hai।",
+      "bangla_pronunciation": "চিকন থোড়া হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "चिकन",
+          "bangla_pronunciation": "চিকন",
+          "separator_after": " "
+        },
+        {
+          "target": "थोड़ा",
+          "bangla_pronunciation": "থোড়া",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "চিকন অল্প আছে।"
+    },
+    {
+      "id": "ch004_s15",
+      "target": "स्वाद अच्छा है।",
+      "romanization": "svaad achchha hai।",
+      "bangla_pronunciation": "স্বাদ অচ্ছা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "स्वाद",
+          "bangla_pronunciation": "স্বাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্বাদ ভালো।"
+    },
+    {
+      "id": "ch004_s16",
+      "target": "मुझे पानी चाहिए।",
+      "romanization": "mujhe paanee chaahie।",
+      "bangla_pronunciation": "মুঝে পানী চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার পানি চাই।"
+    },
+    {
+      "id": "ch004_s17",
+      "target": "खाना बहुत अच्छा है।",
+      "romanization": "khaana bahut achchha hai।",
+      "bangla_pronunciation": "খানা বহুত অচ্ছা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "खाना",
+          "bangla_pronunciation": "খানা",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খাবার খুব ভালো।"
+    },
+    {
+      "id": "ch004_s18",
+      "target": "मुझे भूख लगी है।",
+      "romanization": "mujhe bhuukh lagee hai।",
+      "bangla_pronunciation": "মুঝে ভূখ লগী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "भूख",
+          "bangla_pronunciation": "ভূখ",
+          "separator_after": " "
+        },
+        {
+          "target": "लगी",
+          "bangla_pronunciation": "লগী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার ক্ষুধা লেগেছে।"
+    },
+    {
+      "id": "ch004_s19",
+      "target": "थोड़ा और दीजिए।",
+      "romanization": "thora aur deejie।",
+      "bangla_pronunciation": "থোড়া অউর দিজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "थोड़ा",
+          "bangla_pronunciation": "থোড়া",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আর একটু দিন।"
+    },
+    {
+      "id": "ch004_s20",
+      "target": "बिल दीजिए।",
+      "romanization": "bil deejie।",
+      "bangla_pronunciation": "বিল দিজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "बिल",
+          "bangla_pronunciation": "বিল",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিল দিন।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v00091",
+      "target": "खाना",
+      "category": "word",
+      "type": "noun",
+      "romanization": "khaana",
+      "bangla_pronunciation": "খানা",
+      "word_pronunciations": [
+        {
+          "target": "खाना",
+          "bangla_pronunciation": "খানা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খাবার",
+      "source_sentence_id": "ch004_s01",
+      "source_form": "खाना",
+      "example_target": "खाना गरम है।",
+      "example_bangla_pronunciation": "খানা গরম হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "खाना",
+          "bangla_pronunciation": "খানা",
+          "separator_after": " "
+        },
+        {
+          "target": "गरम",
+          "bangla_pronunciation": "গরম",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "খাবার গরম।",
+      "synonyms": []
+    },
+    {
+      "id": "v00092",
+      "target": "पानी",
+      "category": "word",
+      "type": "noun",
+      "romanization": "paanee",
+      "bangla_pronunciation": "পানী",
+      "word_pronunciations": [
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পানি",
+      "source_sentence_id": "ch004_s02",
+      "source_form": "पानी",
+      "example_target": "पानी ठंडा है।",
+      "example_bangla_pronunciation": "পানী ঠংডা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানী",
+          "separator_after": " "
+        },
+        {
+          "target": "ठंडा",
+          "bangla_pronunciation": "ঠংডা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পানি ঠান্ডা।",
+      "synonyms": []
+    },
+    {
+      "id": "v00093",
+      "target": "चाय",
+      "category": "word",
+      "type": "noun",
+      "romanization": "chaay",
+      "bangla_pronunciation": "চায",
+      "word_pronunciations": [
+        {
+          "target": "चाय",
+          "bangla_pronunciation": "চায",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "চা",
+      "source_sentence_id": "ch004_s05",
+      "source_form": "चाय",
+      "example_target": "चाय अच्छी है।",
+      "example_bangla_pronunciation": "চায অচ্ছী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "चाय",
+          "bangla_pronunciation": "চায",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छी",
+          "bangla_pronunciation": "অচ্ছী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "চা ভালো।",
+      "synonyms": []
+    },
+    {
+      "id": "v00094",
+      "target": "कॉफ़ी",
+      "category": "word",
+      "type": "noun",
+      "romanization": "kofee",
+      "bangla_pronunciation": "কোফী",
+      "word_pronunciations": [
+        {
+          "target": "कॉफ़ी",
+          "bangla_pronunciation": "কোফী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কফি",
+      "source_sentence_id": "ch004_s04",
+      "source_form": "कॉफ़ी",
+      "example_target": "कॉफ़ी गरम है।",
+      "example_bangla_pronunciation": "কোফী গরম হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "कॉफ़ी",
+          "bangla_pronunciation": "কোফী",
+          "separator_after": " "
+        },
+        {
+          "target": "गरम",
+          "bangla_pronunciation": "গরম",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "কফি গরম।",
+      "synonyms": []
+    },
+    {
+      "id": "v00095",
+      "target": "दूध",
+      "category": "word",
+      "type": "noun",
+      "romanization": "duudh",
+      "bangla_pronunciation": "দূধ",
+      "word_pronunciations": [
+        {
+          "target": "दूध",
+          "bangla_pronunciation": "দূধ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুধ",
+      "source_sentence_id": "ch004_s03",
+      "source_form": "दूध",
+      "example_target": "दूध मीठा है।",
+      "example_bangla_pronunciation": "দূধ মীঠা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "दूध",
+          "bangla_pronunciation": "দূধ",
+          "separator_after": " "
+        },
+        {
+          "target": "मीठा",
+          "bangla_pronunciation": "মীঠা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দুধ মিষ্টি।",
+      "synonyms": []
+    },
+    {
+      "id": "v00096",
+      "target": "मुझे पानी चाहिए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "mujhe paanee chaahie",
+      "bangla_pronunciation": "মুঝে পানী চাহিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए",
+          "bangla_pronunciation": "চাহিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার পানি চাই",
+      "source_sentence_id": "ch004_s16",
+      "source_form": "मुझे पानी चाहिए",
+      "example_target": "मुझे पानी चाहिए।",
+      "example_bangla_pronunciation": "মুঝে পানী চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমার পানি চাই।",
+      "synonyms": []
+    },
+    {
+      "id": "v00097",
+      "target": "रोटी",
+      "category": "word",
+      "type": "noun",
+      "romanization": "rotee",
+      "bangla_pronunciation": "রোটী",
+      "word_pronunciations": [
+        {
+          "target": "रोटी",
+          "bangla_pronunciation": "রোটী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রুটি",
+      "source_sentence_id": "ch004_s06",
+      "source_form": "रोटी",
+      "example_target": "रोटी और चावल।",
+      "example_bangla_pronunciation": "রোটী অউর চাবল।",
+      "example_word_pronunciations": [
+        {
+          "target": "रोटी",
+          "bangla_pronunciation": "রোটী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "चावल।",
+          "bangla_pronunciation": "চাবল।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "রুটি ও ভাত।",
+      "synonyms": []
+    },
+    {
+      "id": "v00098",
+      "target": "चावल",
+      "category": "word",
+      "type": "noun",
+      "romanization": "chaaval",
+      "bangla_pronunciation": "চাবল",
+      "word_pronunciations": [
+        {
+          "target": "चावल",
+          "bangla_pronunciation": "চাবল",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভাত / চাল",
+      "source_sentence_id": "ch004_s06",
+      "source_form": "चावल",
+      "example_target": "रोटी और चावल।",
+      "example_bangla_pronunciation": "রোটী অউর চাবল।",
+      "example_word_pronunciations": [
+        {
+          "target": "रोटी",
+          "bangla_pronunciation": "রোটী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "चावल।",
+          "bangla_pronunciation": "চাবল।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "রুটি ও ভাত।",
+      "synonyms": []
+    },
+    {
+      "id": "v00099",
+      "target": "दाल",
+      "category": "word",
+      "type": "noun",
+      "romanization": "daal",
+      "bangla_pronunciation": "দাল",
+      "word_pronunciations": [
+        {
+          "target": "दाल",
+          "bangla_pronunciation": "দাল",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডাল",
+      "source_sentence_id": "ch004_s07",
+      "source_form": "दाल",
+      "example_target": "दाल और सब्ज़ी।",
+      "example_bangla_pronunciation": "দাল অউর সব্জী।",
+      "example_word_pronunciations": [
+        {
+          "target": "दाल",
+          "bangla_pronunciation": "দাল",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "सब्ज़ी।",
+          "bangla_pronunciation": "সব্জী।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ডাল ও সবজি।",
+      "synonyms": []
+    },
+    {
+      "id": "v00100",
+      "target": "सब्ज़ी",
+      "category": "word",
+      "type": "noun",
+      "romanization": "sabzee",
+      "bangla_pronunciation": "সব্জী",
+      "word_pronunciations": [
+        {
+          "target": "सब्ज़ी",
+          "bangla_pronunciation": "সব্জী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সবজি",
+      "source_sentence_id": "ch004_s07",
+      "source_form": "सब्ज़ी",
+      "example_target": "दाल और सब्ज़ी।",
+      "example_bangla_pronunciation": "দাল অউর সব্জী।",
+      "example_word_pronunciations": [
+        {
+          "target": "दाल",
+          "bangla_pronunciation": "দাল",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "सब्ज़ी।",
+          "bangla_pronunciation": "সব্জী।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ডাল ও সবজি।",
+      "synonyms": []
+    },
+    {
+      "id": "v00101",
+      "target": "फल",
+      "category": "word",
+      "type": "noun",
+      "romanization": "phal",
+      "bangla_pronunciation": "ফল",
+      "word_pronunciations": [
+        {
+          "target": "फल",
+          "bangla_pronunciation": "ফল",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফল",
+      "source_sentence_id": "ch004_s08",
+      "source_form": "फल",
+      "example_target": "फल ताज़ा है।",
+      "example_bangla_pronunciation": "ফল তাজা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "फल",
+          "bangla_pronunciation": "ফল",
+          "separator_after": " "
+        },
+        {
+          "target": "ताज़ा",
+          "bangla_pronunciation": "তাজা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ফল তাজা।",
+      "synonyms": []
+    },
+    {
+      "id": "v00102",
+      "target": "खाना बहुत अच्छा है",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "khaana bahut achchha hai",
+      "bangla_pronunciation": "খানা বহুত অচ্ছা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "खाना",
+          "bangla_pronunciation": "খানা",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খাবার খুব ভালো",
+      "source_sentence_id": "ch004_s17",
+      "source_form": "खाना बहुत अच्छा है",
+      "example_target": "खाना बहुत अच्छा है।",
+      "example_bangla_pronunciation": "খানা বহুত অচ্ছা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "खाना",
+          "bangla_pronunciation": "খানা",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "খাবার খুব ভালো।",
+      "synonyms": []
+    },
+    {
+      "id": "v00103",
+      "target": "मीठा",
+      "category": "word",
+      "type": "adjective",
+      "romanization": "meetha",
+      "bangla_pronunciation": "মীঠা",
+      "word_pronunciations": [
+        {
+          "target": "मीठा",
+          "bangla_pronunciation": "মীঠা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মিষ্টি",
+      "source_sentence_id": "ch004_s03",
+      "source_form": "मीठा",
+      "example_target": "दूध मीठा है।",
+      "example_bangla_pronunciation": "দূধ মীঠা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "दूध",
+          "bangla_pronunciation": "দূধ",
+          "separator_after": " "
+        },
+        {
+          "target": "मीठा",
+          "bangla_pronunciation": "মীঠা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দুধ মিষ্টি।",
+      "synonyms": []
+    },
+    {
+      "id": "v00104",
+      "target": "नमकीन",
+      "category": "word",
+      "type": "adjective",
+      "romanization": "namakeen",
+      "bangla_pronunciation": "নমকীন",
+      "word_pronunciations": [
+        {
+          "target": "नमकीन",
+          "bangla_pronunciation": "নমকীন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নোনতা",
+      "source_sentence_id": "ch004_s09",
+      "source_form": "नमकीन",
+      "example_target": "खाना नमकीन है।",
+      "example_bangla_pronunciation": "খানা নমকীন হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "खाना",
+          "bangla_pronunciation": "খানা",
+          "separator_after": " "
+        },
+        {
+          "target": "नमकीन",
+          "bangla_pronunciation": "নমকীন",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "খাবার নোনতা।",
+      "synonyms": []
+    },
+    {
+      "id": "v00105",
+      "target": "गरम",
+      "category": "word",
+      "type": "adjective",
+      "romanization": "garam",
+      "bangla_pronunciation": "গরম",
+      "word_pronunciations": [
+        {
+          "target": "गरम",
+          "bangla_pronunciation": "গরম",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গরম",
+      "source_sentence_id": "ch004_s01",
+      "source_form": "गरम",
+      "example_target": "खाना गरम है।",
+      "example_bangla_pronunciation": "খানা গরম হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "खाना",
+          "bangla_pronunciation": "খানা",
+          "separator_after": " "
+        },
+        {
+          "target": "गरम",
+          "bangla_pronunciation": "গরম",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "খাবার গরম।",
+      "synonyms": []
+    },
+    {
+      "id": "v00106",
+      "target": "ठंडा",
+      "category": "word",
+      "type": "adjective",
+      "romanization": "thanda",
+      "bangla_pronunciation": "ঠংডা",
+      "word_pronunciations": [
+        {
+          "target": "ठंडा",
+          "bangla_pronunciation": "ঠংডা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঠান্ডা",
+      "source_sentence_id": "ch004_s02",
+      "source_form": "ठंडा",
+      "example_target": "पानी ठंडा है।",
+      "example_bangla_pronunciation": "পানী ঠংডা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানী",
+          "separator_after": " "
+        },
+        {
+          "target": "ठंडा",
+          "bangla_pronunciation": "ঠংডা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পানি ঠান্ডা।",
+      "synonyms": []
+    },
+    {
+      "id": "v00107",
+      "target": "भूख",
+      "category": "word",
+      "type": "noun",
+      "romanization": "bhuukh",
+      "bangla_pronunciation": "ভূখ",
+      "word_pronunciations": [
+        {
+          "target": "भूख",
+          "bangla_pronunciation": "ভূখ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ক্ষুধা",
+      "source_sentence_id": "ch004_s10",
+      "source_form": "भूख",
+      "example_target": "भूख ज़्यादा है।",
+      "example_bangla_pronunciation": "ভূখ জ্যাদা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "भूख",
+          "bangla_pronunciation": "ভূখ",
+          "separator_after": " "
+        },
+        {
+          "target": "ज़्यादा",
+          "bangla_pronunciation": "জ্যাদা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ক্ষুধা বেশি।",
+      "synonyms": []
+    },
+    {
+      "id": "v00108",
+      "target": "मुझे भूख लगी है",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "mujhe bhuukh lagee hai",
+      "bangla_pronunciation": "মুঝে ভূখ লগী হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "भूख",
+          "bangla_pronunciation": "ভূখ",
+          "separator_after": " "
+        },
+        {
+          "target": "लगी",
+          "bangla_pronunciation": "লগী",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার ক্ষুধা লেগেছে",
+      "source_sentence_id": "ch004_s18",
+      "source_form": "मुझे भूख लगी है",
+      "example_target": "मुझे भूख लगी है।",
+      "example_bangla_pronunciation": "মুঝে ভূখ লগী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "भूख",
+          "bangla_pronunciation": "ভূখ",
+          "separator_after": " "
+        },
+        {
+          "target": "लगी",
+          "bangla_pronunciation": "লগী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমার ক্ষুধা লেগেছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00109",
+      "target": "प्यास",
+      "category": "word",
+      "type": "noun",
+      "romanization": "pyaas",
+      "bangla_pronunciation": "প্যাস",
+      "word_pronunciations": [
+        {
+          "target": "प्यास",
+          "bangla_pronunciation": "প্যাস",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তৃষ্ণা",
+      "source_sentence_id": "ch004_s11",
+      "source_form": "प्यास",
+      "example_target": "प्यास बहुत है।",
+      "example_bangla_pronunciation": "প্যাস বহুত হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "प्यास",
+          "bangla_pronunciation": "প্যাস",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "খুব তৃষ্ণা পেয়েছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00110",
+      "target": "नाश्ता",
+      "category": "word",
+      "type": "noun",
+      "romanization": "naashta",
+      "bangla_pronunciation": "নাশ্তা",
+      "word_pronunciations": [
+        {
+          "target": "नाश्ता",
+          "bangla_pronunciation": "নাশ্তা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নাশতা",
+      "source_sentence_id": "ch004_s12",
+      "source_form": "नाश्ता",
+      "example_target": "नाश्ता तैयार है।",
+      "example_bangla_pronunciation": "নাশ্তা তৈযার হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "नाश्ता",
+          "bangla_pronunciation": "নাশ্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "तैयार",
+          "bangla_pronunciation": "তৈযার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নাশতা প্রস্তুত।",
+      "synonyms": []
+    },
+    {
+      "id": "v00111",
+      "target": "अंडा",
+      "category": "word",
+      "type": "noun",
+      "romanization": "anda",
+      "bangla_pronunciation": "অংডা",
+      "word_pronunciations": [
+        {
+          "target": "अंडा",
+          "bangla_pronunciation": "অংডা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডিম",
+      "source_sentence_id": "ch004_s13",
+      "source_form": "अंडा",
+      "example_target": "अंडा और मछली।",
+      "example_bangla_pronunciation": "অংডা অউর মছলী।",
+      "example_word_pronunciations": [
+        {
+          "target": "अंडा",
+          "bangla_pronunciation": "অংডা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "मछली।",
+          "bangla_pronunciation": "মছলী।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ডিম ও মাছ।",
+      "synonyms": []
+    },
+    {
+      "id": "v00112",
+      "target": "मछली",
+      "category": "word",
+      "type": "noun",
+      "romanization": "machhalee",
+      "bangla_pronunciation": "মছলী",
+      "word_pronunciations": [
+        {
+          "target": "मछली",
+          "bangla_pronunciation": "মছলী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মাছ",
+      "source_sentence_id": "ch004_s13",
+      "source_form": "मछली",
+      "example_target": "अंडा और मछली।",
+      "example_bangla_pronunciation": "অংডা অউর মছলী।",
+      "example_word_pronunciations": [
+        {
+          "target": "अंडा",
+          "bangla_pronunciation": "অংডা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "मछली।",
+          "bangla_pronunciation": "মছলী।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ডিম ও মাছ।",
+      "synonyms": []
+    },
+    {
+      "id": "v00113",
+      "target": "चिकन",
+      "category": "word",
+      "type": "noun",
+      "romanization": "chikan",
+      "bangla_pronunciation": "চিকন",
+      "word_pronunciations": [
+        {
+          "target": "चिकन",
+          "bangla_pronunciation": "চিকন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মুরগির মাংস",
+      "source_sentence_id": "ch004_s14",
+      "source_form": "चिकन",
+      "example_target": "चिकन थोड़ा है।",
+      "example_bangla_pronunciation": "চিকন থোড়া হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "चिकन",
+          "bangla_pronunciation": "চিকন",
+          "separator_after": " "
+        },
+        {
+          "target": "थोड़ा",
+          "bangla_pronunciation": "থোড়া",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "চিকন অল্প আছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00114",
+      "target": "थोड़ा और दीजिए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "thora aur deejie",
+      "bangla_pronunciation": "থোড়া অউর দিজিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "थोड़ा",
+          "bangla_pronunciation": "থোড়া",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए",
+          "bangla_pronunciation": "দিজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আর একটু দিন",
+      "source_sentence_id": "ch004_s19",
+      "source_form": "थोड़ा और दीजिए",
+      "example_target": "थोड़ा और दीजिए।",
+      "example_bangla_pronunciation": "থোড়া অউর দিজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "थोड़ा",
+          "bangla_pronunciation": "থোড়া",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আর একটু দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v00115",
+      "target": "स्वाद",
+      "category": "word",
+      "type": "noun",
+      "romanization": "svaad",
+      "bangla_pronunciation": "স্বাদ",
+      "word_pronunciations": [
+        {
+          "target": "स्वाद",
+          "bangla_pronunciation": "স্বাদ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্বাদ",
+      "source_sentence_id": "ch004_s15",
+      "source_form": "स्वाद",
+      "example_target": "स्वाद अच्छा है।",
+      "example_bangla_pronunciation": "স্বাদ অচ্ছা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "स्वाद",
+          "bangla_pronunciation": "স্বাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "স্বাদ ভালো।",
+      "synonyms": []
+    },
+    {
+      "id": "v00116",
+      "target": "ताज़ा",
+      "category": "word",
+      "type": "adjective",
+      "romanization": "taaza",
+      "bangla_pronunciation": "তাজা",
+      "word_pronunciations": [
+        {
+          "target": "ताज़ा",
+          "bangla_pronunciation": "তাজা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তাজা",
+      "source_sentence_id": "ch004_s08",
+      "source_form": "ताज़ा",
+      "example_target": "फल ताज़ा है।",
+      "example_bangla_pronunciation": "ফল তাজা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "फल",
+          "bangla_pronunciation": "ফল",
+          "separator_after": " "
+        },
+        {
+          "target": "ताज़ा",
+          "bangla_pronunciation": "তাজা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ফল তাজা।",
+      "synonyms": []
+    },
+    {
+      "id": "v00117",
+      "target": "थोड़ा",
+      "category": "word",
+      "type": "adverb",
+      "romanization": "thora",
+      "bangla_pronunciation": "থোড়া",
+      "word_pronunciations": [
+        {
+          "target": "थोड़ा",
+          "bangla_pronunciation": "থোড়া",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অল্প",
+      "source_sentence_id": "ch004_s14",
+      "source_form": "थोड़ा",
+      "example_target": "चिकन थोड़ा है।",
+      "example_bangla_pronunciation": "চিকন থোড়া হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "चिकन",
+          "bangla_pronunciation": "চিকন",
+          "separator_after": " "
+        },
+        {
+          "target": "थोड़ा",
+          "bangla_pronunciation": "থোড়া",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "চিকন অল্প আছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00118",
+      "target": "ज़्यादा",
+      "category": "word",
+      "type": "adverb",
+      "romanization": "zyaada",
+      "bangla_pronunciation": "জ্যাদা",
+      "word_pronunciations": [
+        {
+          "target": "ज़्यादा",
+          "bangla_pronunciation": "জ্যাদা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বেশি",
+      "source_sentence_id": "ch004_s10",
+      "source_form": "ज़्यादा",
+      "example_target": "भूख ज़्यादा है।",
+      "example_bangla_pronunciation": "ভূখ জ্যাদা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "भूख",
+          "bangla_pronunciation": "ভূখ",
+          "separator_after": " "
+        },
+        {
+          "target": "ज़्यादा",
+          "bangla_pronunciation": "জ্যাদা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ক্ষুধা বেশি।",
+      "synonyms": []
+    },
+    {
+      "id": "v00119",
+      "target": "बिल",
+      "category": "word",
+      "type": "noun",
+      "romanization": "bil",
+      "bangla_pronunciation": "বিল",
+      "word_pronunciations": [
+        {
+          "target": "बिल",
+          "bangla_pronunciation": "বিল",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিল",
+      "source_sentence_id": "ch004_s20",
+      "source_form": "बिल",
+      "example_target": "बिल दीजिए।",
+      "example_bangla_pronunciation": "বিল দিজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "बिल",
+          "bangla_pronunciation": "বিল",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বিল দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v00120",
+      "target": "बिल दीजिए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "bil deejie",
+      "bangla_pronunciation": "বিল দিজিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "बिल",
+          "bangla_pronunciation": "বিল",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए",
+          "bangla_pronunciation": "দিজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিল দিন",
+      "source_sentence_id": "ch004_s20",
+      "source_form": "बिल दीजिए",
+      "example_target": "बिल दीजिए।",
+      "example_bangla_pronunciation": "বিল দিজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "बिल",
+          "bangla_pronunciation": "বিল",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বিল দিন।",
+      "synonyms": []
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "খাবার ও রেস্তোরাঁ: ছোট গল্প",
+    "scene_summary": "উজ্জ্বল সাধারণ রেস্তোরাঁয় একজন বাংলাদেশি প্রাপ্তবয়স্ক ভ্রমণকারী পানি ও খাবার চাইছেন; টেবিলে রুটি, ভাত, ডাল ও সবজি আছে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "একটি ছোট রেস্তোরাঁয় মাহিন খাবার অর্ডার করল। বসেই সে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "मुझे पानी चाहिए।",
+        "bangla_pronunciation": "মুঝে পানী চাহিয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "पानी",
+            "bangla_pronunciation": "পানী",
+            "separator_after": " "
+          },
+          {
+            "target": "चाहिए।",
+            "bangla_pronunciation": "চাহিয়ে।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " খাবার আসার পর সে হাসিমুখে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "खाना बहुत अच्छा है।",
+        "bangla_pronunciation": "খানা বহুত অচ্ছা হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "खाना",
+            "bangla_pronunciation": "খানা",
+            "separator_after": " "
+          },
+          {
+            "target": "बहुत",
+            "bangla_pronunciation": "বহুত",
+            "separator_after": " "
+          },
+          {
+            "target": "अच्छा",
+            "bangla_pronunciation": "অচ্ছা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " শেষে ওয়েটারকে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "बिल दीजिए।",
+        "bangla_pronunciation": "বিল দিজিয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "बिल",
+            "bangla_pronunciation": "বিল",
+            "separator_after": " "
+          },
+          {
+            "target": "दीजिए।",
+            "bangla_pronunciation": "দিজিয়ে।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "একটি ছোট রেস্তোরাঁয় মাহিন খাবার অর্ডার করল। বসেই সে বলল, **मुझे** (মুঝে) **पानी** (পানী) **चाहिए।** (চাহিয়ে।) খাবার আসার পর সে হাসিমুখে বলল, **खाना** (খানা) **बहुत** (বহুত) **अच्छा** (অচ্ছা) **है।** (হ্যায়।) শেষে ওয়েটারকে বলল, **बिल** (বিল) **दीजिए।** (দিজিয়ে।)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "খাবার ও রেস্তোরাঁ: ছোট হিন্দি পাঠ",
+    "scene_summary": "সকালের খাবারের টেবিলে তাজা ফল, গরম খাবার, ঠান্ডা পানি, ডিম ও মাছ সুন্দরভাবে সাজানো।",
+    "lines": [
+      {
+        "target": "खाना गरम है।",
+        "bangla_pronunciation": "খানা গরম হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "खाना",
+            "bangla_pronunciation": "খানা",
+            "separator_after": " "
+          },
+          {
+            "target": "गरम",
+            "bangla_pronunciation": "গরম",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "पानी ठंडा है।",
+        "bangla_pronunciation": "পানী ঠংডা হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "पानी",
+            "bangla_pronunciation": "পানী",
+            "separator_after": " "
+          },
+          {
+            "target": "ठंडा",
+            "bangla_pronunciation": "ঠংডা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "फल ताज़ा है।",
+        "bangla_pronunciation": "ফল তাজা হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "फल",
+            "bangla_pronunciation": "ফল",
+            "separator_after": " "
+          },
+          {
+            "target": "ताज़ा",
+            "bangla_pronunciation": "তাজা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "अंडा और मछली।",
+        "bangla_pronunciation": "অংডা অউর মছলী।",
+        "word_pronunciations": [
+          {
+            "target": "अंडा",
+            "bangla_pronunciation": "অংডা",
+            "separator_after": " "
+          },
+          {
+            "target": "और",
+            "bangla_pronunciation": "অউর",
+            "separator_after": " "
+          },
+          {
+            "target": "मछली।",
+            "bangla_pronunciation": "মছলী।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "स्वाद अच्छा है।",
+        "bangla_pronunciation": "স্বাদ অচ্ছা হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "स्वाद",
+            "bangla_pronunciation": "স্বাদ",
+            "separator_after": " "
+          },
+          {
+            "target": "अच्छा",
+            "bangla_pronunciation": "অচ্ছা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "খানা গরম হ্যায়। পানী ঠংডা হ্যায়। ফল তাজা হ্যায়। অংডা অউর মছলী। স্বাদ অচ্ছা হ্যায়।",
+    "meaning_bengali_md": "খাবার গরম। পানি ঠান্ডা। ফল তাজা। ডিম ও মাছ। স্বাদ ভালো।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_cons_ca",
+      "mode": "new",
+      "target": "च",
+      "bangla_pronunciation": "চ",
+      "explanation_bengali_md": "‘চ’ ধ্বনির ব্যঞ্জন।",
+      "practice_bengali_md": "চিহ্নটি দেখে ধ্বনিটি বলুন, তারপর আঙুল বা কলম দিয়ে তিনবার লিখে চিনে নিন।"
+    },
+    {
+      "item_id": "dev_cons_cha",
+      "mode": "new",
+      "target": "छ",
+      "bangla_pronunciation": "ছ",
+      "explanation_bengali_md": "‘ছ’ ধ্বনির ব্যঞ্জন।",
+      "practice_bengali_md": "চিহ্নটি দেখে ধ্বনিটি বলুন, তারপর আঙুল বা কলম দিয়ে তিনবার লিখে চিনে নিন।"
+    },
+    {
+      "item_id": "dev_cons_ja",
+      "mode": "new",
+      "target": "ज",
+      "bangla_pronunciation": "জ",
+      "explanation_bengali_md": "‘জ’ ধ্বনির ব্যঞ্জন।",
+      "practice_bengali_md": "চিহ্নটি দেখে ধ্বনিটি বলুন, তারপর আঙুল বা কলম দিয়ে তিনবার লিখে চিনে নিন।"
+    },
+    {
+      "item_id": "dev_cons_jha",
+      "mode": "new",
+      "target": "झ",
+      "bangla_pronunciation": "ঝ",
+      "explanation_bengali_md": "‘ঝ’ ধ্বনির ব্যঞ্জন।",
+      "practice_bengali_md": "চিহ্নটি দেখে ধ্বনিটি বলুন, তারপর আঙুল বা কলম দিয়ে তিনবার লিখে চিনে নিন।"
+    },
+    {
+      "item_id": "dev_cons_nya",
+      "mode": "new",
+      "target": "ञ",
+      "bangla_pronunciation": "ঞ",
+      "explanation_bengali_md": "নাসিক্য ‘ঞ’ ধ্বনি; যুক্তরূপে বেশি দেখা যায়।",
+      "practice_bengali_md": "চিহ্নটি দেখে ধ্বনিটি বলুন, তারপর আঙুল বা কলম দিয়ে তিনবার লিখে চিনে নিন।"
+    }
+  ],
+  "number_practice": [
+    {
+      "display": "7 / ७",
+      "target": "सात",
+      "bangla_pronunciation": "সাত",
+      "word_pronunciations": [
+        {
+          "target": "सात",
+          "bangla_pronunciation": "সাত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সাত",
+      "system": "international-and-devanagari"
+    },
+    {
+      "display": "8 / ८",
+      "target": "आठ",
+      "bangla_pronunciation": "আঠ",
+      "word_pronunciations": [
+        {
+          "target": "आठ",
+          "bangla_pronunciation": "আঠ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আট",
+      "system": "international-and-devanagari"
+    }
+  ],
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "খাবার ও রেস্তোরাঁ প্রসঙ্গে প্রথম মডেলটি স্পষ্ট করে বলুন।",
+      "model_target": "खाना गरम है।",
+      "model_bangla_pronunciation": "খানা গরম হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "खाना",
+          "bangla_pronunciation": "খানা",
+          "separator_after": " "
+        },
+        {
+          "target": "गरम",
+          "bangla_pronunciation": "গরম",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "খাবার গরম।"
+    },
+    {
+      "prompt_bengali_md": "দ্বিতীয় মডেলটি দেখে একই তথ্য নিজের মতো করে বলার চেষ্টা করুন।",
+      "model_target": "पानी ठंडा है।",
+      "model_bangla_pronunciation": "পানী ঠংডা হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানী",
+          "separator_after": " "
+        },
+        {
+          "target": "ठंडा",
+          "bangla_pronunciation": "ঠংডা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "পানি ঠান্ডা।"
+    },
+    {
+      "prompt_bengali_md": "শব্দগুলো মনে করে ছোট মডেল বাক্যটি উচ্চস্বরে বলুন।",
+      "model_target": "रोटी और चावल।",
+      "model_bangla_pronunciation": "রোটী অউর চাবল।",
+      "model_word_pronunciations": [
+        {
+          "target": "रोटी",
+          "bangla_pronunciation": "রোটী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "चावल।",
+          "bangla_pronunciation": "চাবল।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "রুটি ও ভাত।"
+    },
+    {
+      "prompt_bengali_md": "সঙ্গীর সঙ্গে কথোপকথন কল্পনা করে ভদ্র মডেলটি বলুন।",
+      "model_target": "मुझे पानी चाहिए।",
+      "model_bangla_pronunciation": "মুঝে পানী চাহিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার পানি চাই।"
+    },
+    {
+      "prompt_bengali_md": "দৃশ্য কল্পনা করে মডেল বাক্যটি না দেখে একবার বলুন।",
+      "model_target": "थोड़ा और दीजिए।",
+      "model_bangla_pronunciation": "থোড়া অউর দিজিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "थोड़ा",
+          "bangla_pronunciation": "থোড়া",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আর একটু দিন।"
+    },
+    {
+      "prompt_bengali_md": "শেষ মডেলটি বলুন এবং বাংলা অর্থটি মিলিয়ে নিন।",
+      "model_target": "बिल दीजिए।",
+      "model_bangla_pronunciation": "বিল দিজিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "बिल",
+          "bangla_pronunciation": "বিল",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "বিল দিন।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch004_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "উজ্জ্বল সাধারণ রেস্তোরাঁয় একজন বাংলাদেশি প্রাপ্তবয়স্ক ভ্রমণকারী পানি ও খাবার চাইছেন; টেবিলে রুটি, ভাত, ডাল ও সবজি আছে। Focus on the interpersonal action and the main everyday objects; medium-wide framing, soft natural daylight, clear focal point. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, soft daylight, clean composition, friendly realistic proportions, uncluttered scene."
+    },
+    {
+      "key": "ch004_target_reading_01",
+      "reading": "target_reading",
+      "subject": "সকালের খাবারের টেবিলে তাজা ফল, গরম খাবার, ঠান্ডা পানি, ডিম ও মাছ সুন্দরভাবে সাজানো। Use a distinctly different composition from the first image, with a calm visual rhythm and one clear focal area. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, soft daylight, clean composition, friendly realistic proportions, uncluttered scene."
+    }
+  ],
+  "additional_practice": []
+}
