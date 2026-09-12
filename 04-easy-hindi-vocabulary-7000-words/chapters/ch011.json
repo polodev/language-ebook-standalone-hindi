@@ -1,0 +1,2459 @@
+{
+  "chapter_id": "ch011",
+  "status": "drafted",
+  "title_target": "बाज़ार में खरीदारी",
+  "title_bangla_pronunciation": "বাজার মেঁ খরীদারী",
+  "title_word_pronunciations": [
+    {
+      "target": "बाज़ार",
+      "bangla_pronunciation": "বাজার",
+      "separator_after": " "
+    },
+    {
+      "target": "में",
+      "bangla_pronunciation": "মেঁ",
+      "separator_after": " "
+    },
+    {
+      "target": "खरीदारी",
+      "bangla_pronunciation": "খরীদারী",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "বাজারে কেনাকাটা",
+  "goal_bengali_md": "বাজারে দাম জিজ্ঞেস করা, দরদাম করা, পরিমাণ বলা এবং সহজ কেনাকাটা সম্পন্ন করা।",
+  "sentences": [
+    {
+      "id": "ch011_s01",
+      "target": "बाज़ार आज खुला है।",
+      "romanization": "baazाr aaj khula hai.",
+      "bangla_pronunciation": "বাজার আজ খুলা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "बाज़ार",
+          "bangla_pronunciation": "বাজার",
+          "separator_after": " "
+        },
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "खुला",
+          "bangla_pronunciation": "খুলা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাজার আজ খোলা।"
+    },
+    {
+      "id": "ch011_s02",
+      "target": "ग्राहक दुकानदार से बात करता है।",
+      "romanization": "graahak dukaanadaar se baat karata hai.",
+      "bangla_pronunciation": "গ্রাহক দুকানদার সে বাত করতা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "दुकानदार",
+          "bangla_pronunciation": "দুকানদার",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "बात",
+          "bangla_pronunciation": "বাত",
+          "separator_after": " "
+        },
+        {
+          "target": "करता",
+          "bangla_pronunciation": "করতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ক্রেতা দোকানদারের সঙ্গে কথা বলে।"
+    },
+    {
+      "id": "ch011_s03",
+      "target": "यह सामान कितने का है?",
+      "romanization": "yah saamaan kitane ka hai?",
+      "bangla_pronunciation": "যহ সামান কিতনে কা হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "सामान",
+          "bangla_pronunciation": "সামান",
+          "separator_after": " "
+        },
+        {
+          "target": "कितने",
+          "bangla_pronunciation": "কিতনে",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই জিনিসটির দাম কত?"
+    },
+    {
+      "id": "ch011_s04",
+      "target": "कीमत सौ रुपये है।",
+      "romanization": "keemat sau rupaye hai.",
+      "bangla_pronunciation": "কীমত সৌ রুপয়ে হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "कीमत",
+          "bangla_pronunciation": "কীমত",
+          "separator_after": " "
+        },
+        {
+          "target": "सौ",
+          "bangla_pronunciation": "সৌ",
+          "separator_after": " "
+        },
+        {
+          "target": "रुपये",
+          "bangla_pronunciation": "রুপয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দাম একশ রুপি।"
+    },
+    {
+      "id": "ch011_s05",
+      "target": "यह सस्ता है।",
+      "romanization": "yah sasta hai.",
+      "bangla_pronunciation": "যহ সস্তা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "सस्ता",
+          "bangla_pronunciation": "সস্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এটি সস্তা।"
+    },
+    {
+      "id": "ch011_s06",
+      "target": "वह बहुत महँगा है।",
+      "romanization": "vah bahut mahanga hai.",
+      "bangla_pronunciation": "বহ বহুত মহঁগা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "वह",
+          "bangla_pronunciation": "বহ",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "महँगा",
+          "bangla_pronunciation": "মহঁগা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ওটি খুব দামি।"
+    },
+    {
+      "id": "ch011_s07",
+      "target": "थोड़ा कम कीजिए।",
+      "romanization": "thorा kam keejiye.",
+      "bangla_pronunciation": "থোড়া কম কিজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "थोड़ा",
+          "bangla_pronunciation": "থোড়া",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কিজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "একটু কম করুন।"
+    },
+    {
+      "id": "ch011_s08",
+      "target": "मुझे फल खरीदना है।",
+      "romanization": "mujhe phal khareedana hai.",
+      "bangla_pronunciation": "মুঝে ফল খরীদনা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "फल",
+          "bangla_pronunciation": "ফল",
+          "separator_after": " "
+        },
+        {
+          "target": "खरीदना",
+          "bangla_pronunciation": "খরীদনা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমাকে ফল কিনতে হবে।"
+    },
+    {
+      "id": "ch011_s09",
+      "target": "दुकानदार सब्ज़ियाँ बेचना चाहता है।",
+      "romanization": "dukaanadaar sabzिyaan bechana chaahata hai.",
+      "bangla_pronunciation": "দুকানদার সব্জিযাঁ বেচনা চাহতা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "दुकानदार",
+          "bangla_pronunciation": "দুকানদার",
+          "separator_after": " "
+        },
+        {
+          "target": "सब्ज़ियाँ",
+          "bangla_pronunciation": "সব্জিযাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "बेचना",
+          "bangla_pronunciation": "বেচনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहता",
+          "bangla_pronunciation": "চাহতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দোকানদার সবজি বিক্রি করতে চান।"
+    },
+    {
+      "id": "ch011_s10",
+      "target": "मुझे दो किलो चाहिए।",
+      "romanization": "mujhe do kilo chaahiye.",
+      "bangla_pronunciation": "মুঝে দো কিলো চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "दो",
+          "bangla_pronunciation": "দো",
+          "separator_after": " "
+        },
+        {
+          "target": "किलो",
+          "bangla_pronunciation": "কিলো",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার দুই কিলো চাই।"
+    },
+    {
+      "id": "ch011_s11",
+      "target": "आधा किलो देना।",
+      "romanization": "aadha kilo dena.",
+      "bangla_pronunciation": "আধা কিলো দেনা।",
+      "word_pronunciations": [
+        {
+          "target": "आधा",
+          "bangla_pronunciation": "আধা",
+          "separator_after": " "
+        },
+        {
+          "target": "किलो",
+          "bangla_pronunciation": "কিলো",
+          "separator_after": " "
+        },
+        {
+          "target": "देना।",
+          "bangla_pronunciation": "দেনা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অর্ধ কিলো দিন।"
+    },
+    {
+      "id": "ch011_s12",
+      "target": "मैं यह लेना चाहता हूँ।",
+      "romanization": "main yah lena chaahata hoon.",
+      "bangla_pronunciation": "ম্যাঁ যহ লেনা চাহতা হুঁ।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "लेना",
+          "bangla_pronunciation": "লেনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहता",
+          "bangla_pronunciation": "চাহতা",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি এটি নিতে চাই।"
+    },
+    {
+      "id": "ch011_s13",
+      "target": "यह अच्छा है।",
+      "romanization": "yah achchha hai.",
+      "bangla_pronunciation": "যহ অচ্ছা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এটি ভালো।"
+    },
+    {
+      "id": "ch011_s14",
+      "target": "फल बहुत ताज़ा है।",
+      "romanization": "phal bahut taazा hai.",
+      "bangla_pronunciation": "ফল বহুত তাজা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "फल",
+          "bangla_pronunciation": "ফল",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "ताज़ा",
+          "bangla_pronunciation": "তাজা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফল খুব তাজা।"
+    },
+    {
+      "id": "ch011_s15",
+      "target": "और कुछ चाहिए?",
+      "romanization": "aur kuchh chaahiye?",
+      "bangla_pronunciation": "অউর কুছ চাহিয়ে?",
+      "word_pronunciations": [
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "कुछ",
+          "bangla_pronunciation": "কুছ",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए?",
+          "bangla_pronunciation": "চাহিয়ে?",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আর কিছু লাগবে?"
+    },
+    {
+      "id": "ch011_s16",
+      "target": "मुझे एक थैला चाहिए।",
+      "romanization": "mujhe ek thaila chaahiye.",
+      "bangla_pronunciation": "মুঝে এক থৈলা চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "थैला",
+          "bangla_pronunciation": "থৈলা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার একটি থলে দরকার।"
+    },
+    {
+      "id": "ch011_s17",
+      "target": "क्या आपके पास छुट्टा पैसा है?",
+      "romanization": "kya aapake paas chhutta paisa hai?",
+      "bangla_pronunciation": "ক্যা আপকে পাস ছুট্টা পৈসা হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आपके",
+          "bangla_pronunciation": "আপকে",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "छुट्टा",
+          "bangla_pronunciation": "ছুট্টা",
+          "separator_after": " "
+        },
+        {
+          "target": "पैसा",
+          "bangla_pronunciation": "পৈসা",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপনার কাছে খুচরা টাকা আছে?"
+    },
+    {
+      "id": "ch011_s18",
+      "target": "कृपया बिल देना।",
+      "romanization": "kripaya bil dena.",
+      "bangla_pronunciation": "কৃপয়া বিল দেনা।",
+      "word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "बिल",
+          "bangla_pronunciation": "বিল",
+          "separator_after": " "
+        },
+        {
+          "target": "देना।",
+          "bangla_pronunciation": "দেনা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দয়া করে বিল দিন।"
+    },
+    {
+      "id": "ch011_s19",
+      "target": "दुकान अब बंद है।",
+      "romanization": "dukaan ab band hai.",
+      "bangla_pronunciation": "দুকান অব বংদ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "दुकान",
+          "bangla_pronunciation": "দুকান",
+          "separator_after": " "
+        },
+        {
+          "target": "अब",
+          "bangla_pronunciation": "অব",
+          "separator_after": " "
+        },
+        {
+          "target": "बंद",
+          "bangla_pronunciation": "বংদ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দোকান এখন বন্ধ।"
+    },
+    {
+      "id": "ch011_s20",
+      "target": "मैं यह लूँगा।",
+      "romanization": "main yah loonga.",
+      "bangla_pronunciation": "ম্যাঁ যহ লূঁগা।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "लूँगा।",
+          "bangla_pronunciation": "লূঁগা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি এটি নেব।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v00301",
+      "target": "बाज़ार",
+      "category": "word",
+      "type": "word",
+      "romanization": "baazाr",
+      "bangla_pronunciation": "বাজার",
+      "word_pronunciations": [
+        {
+          "target": "बाज़ार",
+          "bangla_pronunciation": "বাজার",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাজার",
+      "source_sentence_id": "ch011_s01",
+      "source_form": "बाज़ार",
+      "example_target": "बाज़ार आज खुला है।",
+      "example_bangla_pronunciation": "বাজার আজ খুলা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "बाज़ार",
+          "bangla_pronunciation": "বাজার",
+          "separator_after": " "
+        },
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "खुला",
+          "bangla_pronunciation": "খুলা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বাজার আজ খোলা।",
+      "synonyms": []
+    },
+    {
+      "id": "v00302",
+      "target": "दुकान",
+      "category": "word",
+      "type": "word",
+      "romanization": "dukaan",
+      "bangla_pronunciation": "দুকান",
+      "word_pronunciations": [
+        {
+          "target": "दुकान",
+          "bangla_pronunciation": "দুকান",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দোকান",
+      "source_sentence_id": "ch011_s19",
+      "source_form": "दुकान",
+      "example_target": "दुकान अब बंद है।",
+      "example_bangla_pronunciation": "দুকান অব বংদ হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "दुकान",
+          "bangla_pronunciation": "দুকান",
+          "separator_after": " "
+        },
+        {
+          "target": "अब",
+          "bangla_pronunciation": "অব",
+          "separator_after": " "
+        },
+        {
+          "target": "बंद",
+          "bangla_pronunciation": "বংদ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দোকান এখন বন্ধ।",
+      "synonyms": []
+    },
+    {
+      "id": "v00303",
+      "target": "ग्राहक",
+      "category": "word",
+      "type": "word",
+      "romanization": "graahak",
+      "bangla_pronunciation": "গ্রাহক",
+      "word_pronunciations": [
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ক্রেতা",
+      "source_sentence_id": "ch011_s02",
+      "source_form": "ग्राहक",
+      "example_target": "ग्राहक दुकानदार से बात करता है।",
+      "example_bangla_pronunciation": "গ্রাহক দুকানদার সে বাত করতা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "दुकानदार",
+          "bangla_pronunciation": "দুকানদার",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "बात",
+          "bangla_pronunciation": "বাত",
+          "separator_after": " "
+        },
+        {
+          "target": "करता",
+          "bangla_pronunciation": "করতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ক্রেতা দোকানদারের সঙ্গে কথা বলে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00304",
+      "target": "दुकानदार",
+      "category": "word",
+      "type": "word",
+      "romanization": "dukaanadaar",
+      "bangla_pronunciation": "দুকানদার",
+      "word_pronunciations": [
+        {
+          "target": "दुकानदार",
+          "bangla_pronunciation": "দুকানদার",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দোকানদার",
+      "source_sentence_id": "ch011_s02",
+      "source_form": "दुकानदार",
+      "example_target": "ग्राहक दुकानदार से बात करता है।",
+      "example_bangla_pronunciation": "গ্রাহক দুকানদার সে বাত করতা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "दुकानदार",
+          "bangla_pronunciation": "দুকানদার",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "बात",
+          "bangla_pronunciation": "বাত",
+          "separator_after": " "
+        },
+        {
+          "target": "करता",
+          "bangla_pronunciation": "করতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ক্রেতা দোকানদারের সঙ্গে কথা বলে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00305",
+      "target": "सामान",
+      "category": "word",
+      "type": "word",
+      "romanization": "saamaan",
+      "bangla_pronunciation": "সামান",
+      "word_pronunciations": [
+        {
+          "target": "सामान",
+          "bangla_pronunciation": "সামান",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পণ্য/জিনিস",
+      "source_sentence_id": "ch011_s03",
+      "source_form": "सामान",
+      "example_target": "यह सामान कितने का है?",
+      "example_bangla_pronunciation": "যহ সামান কিতনে কা হ্যায়?",
+      "example_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "सामान",
+          "bangla_pronunciation": "সামান",
+          "separator_after": " "
+        },
+        {
+          "target": "कितने",
+          "bangla_pronunciation": "কিতনে",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এই জিনিসটির দাম কত?",
+      "synonyms": []
+    },
+    {
+      "id": "v00306",
+      "target": "कितने का है",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "kitane ka hai",
+      "bangla_pronunciation": "কিতনে কা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "कितने",
+          "bangla_pronunciation": "কিতনে",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এটার দাম কত",
+      "source_sentence_id": "ch011_s03",
+      "source_form": "कितने का है",
+      "example_target": "यह सामान कितने का है?",
+      "example_bangla_pronunciation": "যহ সামান কিতনে কা হ্যায়?",
+      "example_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "सामान",
+          "bangla_pronunciation": "সামান",
+          "separator_after": " "
+        },
+        {
+          "target": "कितने",
+          "bangla_pronunciation": "কিতনে",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এই জিনিসটির দাম কত?",
+      "synonyms": []
+    },
+    {
+      "id": "v00307",
+      "target": "कीमत",
+      "category": "word",
+      "type": "word",
+      "romanization": "keemat",
+      "bangla_pronunciation": "কীমত",
+      "word_pronunciations": [
+        {
+          "target": "कीमत",
+          "bangla_pronunciation": "কীমত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দাম",
+      "source_sentence_id": "ch011_s04",
+      "source_form": "कीमत",
+      "example_target": "कीमत सौ रुपये है।",
+      "example_bangla_pronunciation": "কীমত সৌ রুপয়ে হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "कीमत",
+          "bangla_pronunciation": "কীমত",
+          "separator_after": " "
+        },
+        {
+          "target": "सौ",
+          "bangla_pronunciation": "সৌ",
+          "separator_after": " "
+        },
+        {
+          "target": "रुपये",
+          "bangla_pronunciation": "রুপয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দাম একশ রুপি।",
+      "synonyms": []
+    },
+    {
+      "id": "v00308",
+      "target": "सस्ता",
+      "category": "word",
+      "type": "word",
+      "romanization": "sasta",
+      "bangla_pronunciation": "সস্তা",
+      "word_pronunciations": [
+        {
+          "target": "सस्ता",
+          "bangla_pronunciation": "সস্তা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সস্তা",
+      "source_sentence_id": "ch011_s05",
+      "source_form": "सस्ता",
+      "example_target": "यह सस्ता है।",
+      "example_bangla_pronunciation": "যহ সস্তা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "सस्ता",
+          "bangla_pronunciation": "সস্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এটি সস্তা।",
+      "synonyms": []
+    },
+    {
+      "id": "v00309",
+      "target": "महँगा",
+      "category": "word",
+      "type": "word",
+      "romanization": "mahanga",
+      "bangla_pronunciation": "মহঁগা",
+      "word_pronunciations": [
+        {
+          "target": "महँगा",
+          "bangla_pronunciation": "মহঁগা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দামি",
+      "source_sentence_id": "ch011_s06",
+      "source_form": "महँगा",
+      "example_target": "वह बहुत महँगा है।",
+      "example_bangla_pronunciation": "বহ বহুত মহঁগা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "वह",
+          "bangla_pronunciation": "বহ",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "महँगा",
+          "bangla_pronunciation": "মহঁগা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ওটি খুব দামি।",
+      "synonyms": []
+    },
+    {
+      "id": "v00310",
+      "target": "पैसा",
+      "category": "word",
+      "type": "word",
+      "romanization": "paisa",
+      "bangla_pronunciation": "পৈসা",
+      "word_pronunciations": [
+        {
+          "target": "पैसा",
+          "bangla_pronunciation": "পৈসা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "টাকা",
+      "source_sentence_id": "ch011_s17",
+      "source_form": "पैसा",
+      "example_target": "क्या आपके पास छुट्टा पैसा है?",
+      "example_bangla_pronunciation": "ক্যা আপকে পাস ছুট্টা পৈসা হ্যায়?",
+      "example_word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आपके",
+          "bangla_pronunciation": "আপকে",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "छुट्टा",
+          "bangla_pronunciation": "ছুট্টা",
+          "separator_after": " "
+        },
+        {
+          "target": "पैसा",
+          "bangla_pronunciation": "পৈসা",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আপনার কাছে খুচরা টাকা আছে?",
+      "synonyms": []
+    },
+    {
+      "id": "v00311",
+      "target": "रुपये",
+      "category": "word",
+      "type": "word",
+      "romanization": "rupaye",
+      "bangla_pronunciation": "রুপয়ে",
+      "word_pronunciations": [
+        {
+          "target": "रुपये",
+          "bangla_pronunciation": "রুপয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রুপি",
+      "source_sentence_id": "ch011_s04",
+      "source_form": "रुपये",
+      "example_target": "कीमत सौ रुपये है।",
+      "example_bangla_pronunciation": "কীমত সৌ রুপয়ে হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "कीमत",
+          "bangla_pronunciation": "কীমত",
+          "separator_after": " "
+        },
+        {
+          "target": "सौ",
+          "bangla_pronunciation": "সৌ",
+          "separator_after": " "
+        },
+        {
+          "target": "रुपये",
+          "bangla_pronunciation": "রুপয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দাম একশ রুপি।",
+      "synonyms": []
+    },
+    {
+      "id": "v00312",
+      "target": "थोड़ा कम कीजिए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "thorा kam keejiye",
+      "bangla_pronunciation": "থোড়া কম কিজিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "थोड़ा",
+          "bangla_pronunciation": "থোড়া",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए",
+          "bangla_pronunciation": "কিজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "একটু কম করুন",
+      "source_sentence_id": "ch011_s07",
+      "source_form": "थोड़ा कम कीजिए",
+      "example_target": "थोड़ा कम कीजिए।",
+      "example_bangla_pronunciation": "থোড়া কম কিজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "थोड़ा",
+          "bangla_pronunciation": "থোড়া",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কিজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "একটু কম করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v00313",
+      "target": "खरीदना",
+      "category": "word",
+      "type": "word",
+      "romanization": "khareedana",
+      "bangla_pronunciation": "খরীদনা",
+      "word_pronunciations": [
+        {
+          "target": "खरीदना",
+          "bangla_pronunciation": "খরীদনা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কেনা",
+      "source_sentence_id": "ch011_s08",
+      "source_form": "खरीदना",
+      "example_target": "मुझे फल खरीदना है।",
+      "example_bangla_pronunciation": "মুঝে ফল খরীদনা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "फल",
+          "bangla_pronunciation": "ফল",
+          "separator_after": " "
+        },
+        {
+          "target": "खरीदना",
+          "bangla_pronunciation": "খরীদনা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমাকে ফল কিনতে হবে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00314",
+      "target": "बेचना",
+      "category": "word",
+      "type": "word",
+      "romanization": "bechana",
+      "bangla_pronunciation": "বেচনা",
+      "word_pronunciations": [
+        {
+          "target": "बेचना",
+          "bangla_pronunciation": "বেচনা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিক্রি করা",
+      "source_sentence_id": "ch011_s09",
+      "source_form": "बेचना",
+      "example_target": "दुकानदार सब्ज़ियाँ बेचना चाहता है।",
+      "example_bangla_pronunciation": "দুকানদার সব্জিযাঁ বেচনা চাহতা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "दुकानदार",
+          "bangla_pronunciation": "দুকানদার",
+          "separator_after": " "
+        },
+        {
+          "target": "सब्ज़ियाँ",
+          "bangla_pronunciation": "সব্জিযাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "बेचना",
+          "bangla_pronunciation": "বেচনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहता",
+          "bangla_pronunciation": "চাহতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দোকানদার সবজি বিক্রি করতে চান।",
+      "synonyms": []
+    },
+    {
+      "id": "v00315",
+      "target": "चाहिए",
+      "category": "word",
+      "type": "word",
+      "romanization": "chaahiye",
+      "bangla_pronunciation": "চাহিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "चाहिए",
+          "bangla_pronunciation": "চাহিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "চাই/প্রয়োজন",
+      "source_sentence_id": "ch011_s10",
+      "source_form": "चाहिए",
+      "example_target": "मुझे दो किलो चाहिए।",
+      "example_bangla_pronunciation": "মুঝে দো কিলো চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "दो",
+          "bangla_pronunciation": "দো",
+          "separator_after": " "
+        },
+        {
+          "target": "किलो",
+          "bangla_pronunciation": "কিলো",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমার দুই কিলো চাই।",
+      "synonyms": []
+    },
+    {
+      "id": "v00316",
+      "target": "देना",
+      "category": "word",
+      "type": "word",
+      "romanization": "dena",
+      "bangla_pronunciation": "দেনা",
+      "word_pronunciations": [
+        {
+          "target": "देना",
+          "bangla_pronunciation": "দেনা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দেওয়া",
+      "source_sentence_id": "ch011_s11",
+      "source_form": "देना",
+      "example_target": "आधा किलो देना।",
+      "example_bangla_pronunciation": "আধা কিলো দেনা।",
+      "example_word_pronunciations": [
+        {
+          "target": "आधा",
+          "bangla_pronunciation": "আধা",
+          "separator_after": " "
+        },
+        {
+          "target": "किलो",
+          "bangla_pronunciation": "কিলো",
+          "separator_after": " "
+        },
+        {
+          "target": "देना।",
+          "bangla_pronunciation": "দেনা।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "অর্ধ কিলো দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v00317",
+      "target": "लेना",
+      "category": "word",
+      "type": "word",
+      "romanization": "lena",
+      "bangla_pronunciation": "লেনা",
+      "word_pronunciations": [
+        {
+          "target": "लेना",
+          "bangla_pronunciation": "লেনা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নেওয়া",
+      "source_sentence_id": "ch011_s12",
+      "source_form": "लेना",
+      "example_target": "मैं यह लेना चाहता हूँ।",
+      "example_bangla_pronunciation": "ম্যাঁ যহ লেনা চাহতা হুঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "लेना",
+          "bangla_pronunciation": "লেনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहता",
+          "bangla_pronunciation": "চাহতা",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমি এটি নিতে চাই।",
+      "synonyms": []
+    },
+    {
+      "id": "v00318",
+      "target": "यह अच्छा है",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "yah achchha hai",
+      "bangla_pronunciation": "যহ অচ্ছা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এটি ভালো",
+      "source_sentence_id": "ch011_s13",
+      "source_form": "यह अच्छा है",
+      "example_target": "यह अच्छा है।",
+      "example_bangla_pronunciation": "যহ অচ্ছা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এটি ভালো।",
+      "synonyms": []
+    },
+    {
+      "id": "v00319",
+      "target": "ताज़ा",
+      "category": "word",
+      "type": "word",
+      "romanization": "taazा",
+      "bangla_pronunciation": "তাজা",
+      "word_pronunciations": [
+        {
+          "target": "ताज़ा",
+          "bangla_pronunciation": "তাজা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তাজা",
+      "source_sentence_id": "ch011_s14",
+      "source_form": "ताज़ा",
+      "example_target": "फल बहुत ताज़ा है।",
+      "example_bangla_pronunciation": "ফল বহুত তাজা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "फल",
+          "bangla_pronunciation": "ফল",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "ताज़ा",
+          "bangla_pronunciation": "তাজা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ফল খুব তাজা।",
+      "synonyms": []
+    },
+    {
+      "id": "v00320",
+      "target": "किलो",
+      "category": "word",
+      "type": "word",
+      "romanization": "kilo",
+      "bangla_pronunciation": "কিলো",
+      "word_pronunciations": [
+        {
+          "target": "किलो",
+          "bangla_pronunciation": "কিলো",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কিলো",
+      "source_sentence_id": "ch011_s10",
+      "source_form": "किलो",
+      "example_target": "मुझे दो किलो चाहिए।",
+      "example_bangla_pronunciation": "মুঝে দো কিলো চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "दो",
+          "bangla_pronunciation": "দো",
+          "separator_after": " "
+        },
+        {
+          "target": "किलो",
+          "bangla_pronunciation": "কিলো",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমার দুই কিলো চাই।",
+      "synonyms": []
+    },
+    {
+      "id": "v00321",
+      "target": "आधा",
+      "category": "word",
+      "type": "word",
+      "romanization": "aadha",
+      "bangla_pronunciation": "আধা",
+      "word_pronunciations": [
+        {
+          "target": "आधा",
+          "bangla_pronunciation": "আধা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অর্ধেক",
+      "source_sentence_id": "ch011_s11",
+      "source_form": "आधा",
+      "example_target": "आधा किलो देना।",
+      "example_bangla_pronunciation": "আধা কিলো দেনা।",
+      "example_word_pronunciations": [
+        {
+          "target": "आधा",
+          "bangla_pronunciation": "আধা",
+          "separator_after": " "
+        },
+        {
+          "target": "किलो",
+          "bangla_pronunciation": "কিলো",
+          "separator_after": " "
+        },
+        {
+          "target": "देना।",
+          "bangla_pronunciation": "দেনা।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "অর্ধ কিলো দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v00322",
+      "target": "फल",
+      "category": "word",
+      "type": "word",
+      "romanization": "phal",
+      "bangla_pronunciation": "ফল",
+      "word_pronunciations": [
+        {
+          "target": "फल",
+          "bangla_pronunciation": "ফল",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফল",
+      "source_sentence_id": "ch011_s08",
+      "source_form": "फल",
+      "example_target": "मुझे फल खरीदना है।",
+      "example_bangla_pronunciation": "মুঝে ফল খরীদনা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "फल",
+          "bangla_pronunciation": "ফল",
+          "separator_after": " "
+        },
+        {
+          "target": "खरीदना",
+          "bangla_pronunciation": "খরীদনা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমাকে ফল কিনতে হবে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00323",
+      "target": "सब्ज़ियाँ",
+      "category": "word",
+      "type": "word",
+      "romanization": "sabzिyaan",
+      "bangla_pronunciation": "সব্জিযাঁ",
+      "word_pronunciations": [
+        {
+          "target": "सब्ज़ियाँ",
+          "bangla_pronunciation": "সব্জিযাঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সবজি",
+      "source_sentence_id": "ch011_s09",
+      "source_form": "सब्ज़ियाँ",
+      "example_target": "दुकानदार सब्ज़ियाँ बेचना चाहता है।",
+      "example_bangla_pronunciation": "দুকানদার সব্জিযাঁ বেচনা চাহতা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "दुकानदार",
+          "bangla_pronunciation": "দুকানদার",
+          "separator_after": " "
+        },
+        {
+          "target": "सब्ज़ियाँ",
+          "bangla_pronunciation": "সব্জিযাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "बेचना",
+          "bangla_pronunciation": "বেচনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहता",
+          "bangla_pronunciation": "চাহতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দোকানদার সবজি বিক্রি করতে চান।",
+      "synonyms": []
+    },
+    {
+      "id": "v00324",
+      "target": "और कुछ चाहिए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "aur kuchh chaahiye",
+      "bangla_pronunciation": "অউর কুছ চাহিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "कुछ",
+          "bangla_pronunciation": "কুছ",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए",
+          "bangla_pronunciation": "চাহিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আর কিছু লাগবে",
+      "source_sentence_id": "ch011_s15",
+      "source_form": "और कुछ चाहिए",
+      "example_target": "और कुछ चाहिए?",
+      "example_bangla_pronunciation": "অউর কুছ চাহিয়ে?",
+      "example_word_pronunciations": [
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "कुछ",
+          "bangla_pronunciation": "কুছ",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए?",
+          "bangla_pronunciation": "চাহিয়ে?",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আর কিছু লাগবে?",
+      "synonyms": []
+    },
+    {
+      "id": "v00325",
+      "target": "थैला",
+      "category": "word",
+      "type": "word",
+      "romanization": "thaila",
+      "bangla_pronunciation": "থৈলা",
+      "word_pronunciations": [
+        {
+          "target": "थैला",
+          "bangla_pronunciation": "থৈলা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাগ/থলে",
+      "source_sentence_id": "ch011_s16",
+      "source_form": "थैला",
+      "example_target": "मुझे एक थैला चाहिए।",
+      "example_bangla_pronunciation": "মুঝে এক থৈলা চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "थैला",
+          "bangla_pronunciation": "থৈলা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমার একটি থলে দরকার।",
+      "synonyms": []
+    },
+    {
+      "id": "v00326",
+      "target": "छुट्टा",
+      "category": "word",
+      "type": "word",
+      "romanization": "chhutta",
+      "bangla_pronunciation": "ছুট্টা",
+      "word_pronunciations": [
+        {
+          "target": "छुट्टा",
+          "bangla_pronunciation": "ছুট্টা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খুচরা টাকা",
+      "source_sentence_id": "ch011_s17",
+      "source_form": "छुट्टा",
+      "example_target": "क्या आपके पास छुट्टा पैसा है?",
+      "example_bangla_pronunciation": "ক্যা আপকে পাস ছুট্টা পৈসা হ্যায়?",
+      "example_word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आपके",
+          "bangla_pronunciation": "আপকে",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "छुट्टा",
+          "bangla_pronunciation": "ছুট্টা",
+          "separator_after": " "
+        },
+        {
+          "target": "पैसा",
+          "bangla_pronunciation": "পৈসা",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আপনার কাছে খুচরা টাকা আছে?",
+      "synonyms": []
+    },
+    {
+      "id": "v00327",
+      "target": "बिल",
+      "category": "word",
+      "type": "word",
+      "romanization": "bil",
+      "bangla_pronunciation": "বিল",
+      "word_pronunciations": [
+        {
+          "target": "बिल",
+          "bangla_pronunciation": "বিল",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিল",
+      "source_sentence_id": "ch011_s18",
+      "source_form": "बिल",
+      "example_target": "कृपया बिल देना।",
+      "example_bangla_pronunciation": "কৃপয়া বিল দেনা।",
+      "example_word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "बिल",
+          "bangla_pronunciation": "বিল",
+          "separator_after": " "
+        },
+        {
+          "target": "देना।",
+          "bangla_pronunciation": "দেনা।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দয়া করে বিল দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v00328",
+      "target": "खुला",
+      "category": "word",
+      "type": "word",
+      "romanization": "khula",
+      "bangla_pronunciation": "খুলা",
+      "word_pronunciations": [
+        {
+          "target": "खुला",
+          "bangla_pronunciation": "খুলা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খোলা",
+      "source_sentence_id": "ch011_s01",
+      "source_form": "खुला",
+      "example_target": "बाज़ार आज खुला है।",
+      "example_bangla_pronunciation": "বাজার আজ খুলা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "बाज़ार",
+          "bangla_pronunciation": "বাজার",
+          "separator_after": " "
+        },
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "खुला",
+          "bangla_pronunciation": "খুলা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বাজার আজ খোলা।",
+      "synonyms": []
+    },
+    {
+      "id": "v00329",
+      "target": "बंद",
+      "category": "word",
+      "type": "word",
+      "romanization": "band",
+      "bangla_pronunciation": "বংদ",
+      "word_pronunciations": [
+        {
+          "target": "बंद",
+          "bangla_pronunciation": "বংদ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বন্ধ",
+      "source_sentence_id": "ch011_s19",
+      "source_form": "बंद",
+      "example_target": "दुकान अब बंद है।",
+      "example_bangla_pronunciation": "দুকান অব বংদ হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "दुकान",
+          "bangla_pronunciation": "দুকান",
+          "separator_after": " "
+        },
+        {
+          "target": "अब",
+          "bangla_pronunciation": "অব",
+          "separator_after": " "
+        },
+        {
+          "target": "बंद",
+          "bangla_pronunciation": "বংদ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দোকান এখন বন্ধ।",
+      "synonyms": []
+    },
+    {
+      "id": "v00330",
+      "target": "मैं यह लूँगा",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "main yah loonga",
+      "bangla_pronunciation": "ম্যাঁ যহ লূঁগা",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "लूँगा",
+          "bangla_pronunciation": "লূঁগা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি এটি নেব",
+      "source_sentence_id": "ch011_s20",
+      "source_form": "मैं यह लूँगा",
+      "example_target": "मैं यह लूँगा।",
+      "example_bangla_pronunciation": "ম্যাঁ যহ লূঁগা।",
+      "example_word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "लूँगा।",
+          "bangla_pronunciation": "লূঁগা।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমি এটি নেব।",
+      "synonyms": []
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "বাজারে কেনাকাটা: ছোট দৃশ্য",
+    "scene_summary": "বাজারে কেনাকাটা প্রসঙ্গে দুইটি ছোট হিন্দি উক্তি ও বাংলা বর্ণনা।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "বাজারে কেনাকাটা নিয়ে একটি ছোট বাস্তব দৃশ্য। রাহিম প্রথমে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "ग्राहक दुकानदार से बात करता है।",
+        "bangla_pronunciation": "গ্রাহক দুকানদার সে বাত করতা হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "ग्राहक",
+            "bangla_pronunciation": "গ্রাহক",
+            "separator_after": " "
+          },
+          {
+            "target": "दुकानदार",
+            "bangla_pronunciation": "দুকানদার",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "separator_after": " "
+          },
+          {
+            "target": "बात",
+            "bangla_pronunciation": "বাত",
+            "separator_after": " "
+          },
+          {
+            "target": "करता",
+            "bangla_pronunciation": "করতা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " এরপর পরিস্থিতি দেখে সে আরও বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "थोड़ा कम कीजिए।",
+        "bangla_pronunciation": "থোড়া কম কিজিয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "थोड़ा",
+            "bangla_pronunciation": "থোড়া",
+            "separator_after": " "
+          },
+          {
+            "target": "कम",
+            "bangla_pronunciation": "কম",
+            "separator_after": " "
+          },
+          {
+            "target": "कीजिए।",
+            "bangla_pronunciation": "কিজিয়ে।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " এভাবে পরিচিত শব্দগুলো ছোট কথোপকথনে ব্যবহার করা যায়।"
+      }
+    ],
+    "text_md": "বাজারে কেনাকাটা নিয়ে একটি ছোট বাস্তব দৃশ্য। রাহিম প্রথমে বলল, **ग्राहक** (গ্রাহক) **दुकानदार** (দুকানদার) **से** (সে) **बात** (বাত) **करता** (করতা) **है।** (হ্যায়।) এরপর পরিস্থিতি দেখে সে আরও বলল, **थोड़ा** (থোড়া) **कम** (কম) **कीजिए।** (কিজিয়ে।) এভাবে পরিচিত শব্দগুলো ছোট কথোপকথনে ব্যবহার করা যায়।"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "বাজারে কেনাকাটা: হিন্দি পাঠ",
+    "scene_summary": "বাজারে কেনাকাটা প্রসঙ্গে পাঁচটি ছোট, পরিচিত বাক্য।",
+    "lines": [
+      {
+        "target": "बाज़ार आज खुला है।",
+        "bangla_pronunciation": "বাজার আজ খুলা হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "बाज़ार",
+            "bangla_pronunciation": "বাজার",
+            "separator_after": " "
+          },
+          {
+            "target": "आज",
+            "bangla_pronunciation": "আজ",
+            "separator_after": " "
+          },
+          {
+            "target": "खुला",
+            "bangla_pronunciation": "খুলা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "यह सस्ता है।",
+        "bangla_pronunciation": "যহ সস্তা হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "यह",
+            "bangla_pronunciation": "যহ",
+            "separator_after": " "
+          },
+          {
+            "target": "सस्ता",
+            "bangla_pronunciation": "সস্তা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मुझे दो किलो चाहिए।",
+        "bangla_pronunciation": "মুঝে দো কিলো চাহিয়ে।",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "separator_after": " "
+          },
+          {
+            "target": "दो",
+            "bangla_pronunciation": "দো",
+            "separator_after": " "
+          },
+          {
+            "target": "किलो",
+            "bangla_pronunciation": "কিলো",
+            "separator_after": " "
+          },
+          {
+            "target": "चाहिए।",
+            "bangla_pronunciation": "চাহিয়ে।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "और कुछ चाहिए?",
+        "bangla_pronunciation": "অউর কুছ চাহিয়ে?",
+        "word_pronunciations": [
+          {
+            "target": "और",
+            "bangla_pronunciation": "অউর",
+            "separator_after": " "
+          },
+          {
+            "target": "कुछ",
+            "bangla_pronunciation": "কুছ",
+            "separator_after": " "
+          },
+          {
+            "target": "चाहिए?",
+            "bangla_pronunciation": "চাহিয়ে?",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मैं यह लूँगा।",
+        "bangla_pronunciation": "ম্যাঁ যহ লূঁগা।",
+        "word_pronunciations": [
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "यह",
+            "bangla_pronunciation": "যহ",
+            "separator_after": " "
+          },
+          {
+            "target": "लूँगा।",
+            "bangla_pronunciation": "লূঁগা।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "বাজার আজ খুলা হ্যায়। যহ সস্তা হ্যায়। মুঝে দো কিলো চাহিয়ে। অউর কুছ চাহিয়ে? ম্যাঁ যহ লূঁগা।",
+    "meaning_bengali_md": "বাজার আজ খোলা। এটি সস্তা। আমার দুই কিলো চাই। আর কিছু লাগবে? আমি এটি নেব।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_k",
+      "mode": "review",
+      "target": "क",
+      "bangla_pronunciation": "ক",
+      "explanation_bengali_md": "হিন্দি লিপির এই চিহ্নটি চিনে সংশ্লিষ্ট ধ্বনি আলাদা করে অনুশীলন করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে ধ্বনি বলুন, তারপর খাতায় তিনবার লিখুন।"
+    },
+    {
+      "item_id": "dev_kh",
+      "mode": "review",
+      "target": "ख",
+      "bangla_pronunciation": "খ",
+      "explanation_bengali_md": "হিন্দি লিপির এই চিহ্নটি চিনে সংশ্লিষ্ট ধ্বনি আলাদা করে অনুশীলন করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে ধ্বনি বলুন, তারপর খাতায় তিনবার লিখুন।"
+    },
+    {
+      "item_id": "dev_g",
+      "mode": "review",
+      "target": "ग",
+      "bangla_pronunciation": "গ",
+      "explanation_bengali_md": "হিন্দি লিপির এই চিহ্নটি চিনে সংশ্লিষ্ট ধ্বনি আলাদা করে অনুশীলন করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে ধ্বনি বলুন, তারপর খাতায় তিনবার লিখুন।"
+    },
+    {
+      "item_id": "dev_gh",
+      "mode": "review",
+      "target": "घ",
+      "bangla_pronunciation": "ঘ",
+      "explanation_bengali_md": "হিন্দি লিপির এই চিহ্নটি চিনে সংশ্লিষ্ট ধ্বনি আলাদা করে অনুশীলন করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে ধ্বনি বলুন, তারপর খাতায় তিনবার লিখুন।"
+    },
+    {
+      "item_id": "dev_ng",
+      "mode": "review",
+      "target": "ङ",
+      "bangla_pronunciation": "ঙ",
+      "explanation_bengali_md": "হিন্দি লিপির এই চিহ্নটি চিনে সংশ্লিষ্ট ধ্বনি আলাদা করে অনুশীলন করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে ধ্বনি বলুন, তারপর খাতায় তিনবার লিখুন।"
+    }
+  ],
+  "number_practice": [
+    {
+      "display": "21 / २१",
+      "target": "इक्कीस",
+      "bangla_pronunciation": "ইক্কীস",
+      "word_pronunciations": [
+        {
+          "target": "इक्कीस",
+          "bangla_pronunciation": "ইক্কীস",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "একুশ",
+      "system": "International + Devanagari"
+    },
+    {
+      "display": "22 / २२",
+      "target": "बाईस",
+      "bangla_pronunciation": "বাঈস",
+      "word_pronunciations": [
+        {
+          "target": "बाईस",
+          "bangla_pronunciation": "বাঈস",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাইশ",
+      "system": "International + Devanagari"
+    }
+  ],
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "পরিস্থিতিটি কল্পনা করে মডেল বাক্যটি বলুন।",
+      "model_target": "यह सामान कितने का है?",
+      "model_bangla_pronunciation": "যহ সামান কিতনে কা হ্যায়?",
+      "model_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "सामान",
+          "bangla_pronunciation": "সামান",
+          "separator_after": " "
+        },
+        {
+          "target": "कितने",
+          "bangla_pronunciation": "কিতনে",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এই জিনিসটির দাম কত?"
+    },
+    {
+      "prompt_bengali_md": "সঙ্গীর সঙ্গে প্রশ্ন-উত্তরে এই বাক্যটি ব্যবহার করুন।",
+      "model_target": "कीमत सौ रुपये है।",
+      "model_bangla_pronunciation": "কীমত সৌ রুপয়ে হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "कीमत",
+          "bangla_pronunciation": "কীমত",
+          "separator_after": " "
+        },
+        {
+          "target": "सौ",
+          "bangla_pronunciation": "সৌ",
+          "separator_after": " "
+        },
+        {
+          "target": "रुपये",
+          "bangla_pronunciation": "রুপয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "দাম একশ রুপি।"
+    },
+    {
+      "prompt_bengali_md": "শব্দগুলো মনে করে না দেখে বাক্যটি বলুন।",
+      "model_target": "मुझे फल खरीदना है।",
+      "model_bangla_pronunciation": "মুঝে ফল খরীদনা হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "फल",
+          "bangla_pronunciation": "ফল",
+          "separator_after": " "
+        },
+        {
+          "target": "खरीदना",
+          "bangla_pronunciation": "খরীদনা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমাকে ফল কিনতে হবে।"
+    },
+    {
+      "prompt_bengali_md": "নিজের তথ্য বসিয়ে একই ধরনে বলুন।",
+      "model_target": "आधा किलो देना।",
+      "model_bangla_pronunciation": "আধা কিলো দেনা।",
+      "model_word_pronunciations": [
+        {
+          "target": "आधा",
+          "bangla_pronunciation": "আধা",
+          "separator_after": " "
+        },
+        {
+          "target": "किलो",
+          "bangla_pronunciation": "কিলো",
+          "separator_after": " "
+        },
+        {
+          "target": "देना।",
+          "bangla_pronunciation": "দেনা।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "অর্ধ কিলো দিন।"
+    },
+    {
+      "prompt_bengali_md": "ধীরে বলুন, তারপর স্বাভাবিক গতিতে বলুন।",
+      "model_target": "मुझे एक थैला चाहिए।",
+      "model_bangla_pronunciation": "মুঝে এক থৈলা চাহিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "थैला",
+          "bangla_pronunciation": "থৈলা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার একটি থলে দরকার।"
+    },
+    {
+      "prompt_bengali_md": "বাংলা অর্থ দেখে হিন্দি বাক্যটি বলুন।",
+      "model_target": "मैं यह लूँगा।",
+      "model_bangla_pronunciation": "ম্যাঁ যহ লূঁগা।",
+      "model_word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "लूँगा।",
+          "bangla_pronunciation": "লূঁগা।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমি এটি নেব।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch011_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A bright contemporary South Asian everyday scene illustrating বাজারে কেনাকাটা through natural adult interaction, medium-wide framing, clear objects and gestures relevant to the lesson, warm daylight, uncluttered composition, one strong focal action. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    },
+    {
+      "key": "ch011_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A different calm everyday scene for the same বাজারে কেনাকাটা topic, one or two adults using the setting naturally, wider environmental framing than the first image, soft daylight, simple recognizable objects, clean editorial composition. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    }
+  ],
+  "additional_practice": []
+}
