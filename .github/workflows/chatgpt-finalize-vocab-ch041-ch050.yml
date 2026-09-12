@@ -22,26 +22,33 @@ jobs:
       - name: Reconstruct authored batch
         shell: bash
         env:
+          GITHUB_TOKEN: ${{ github.token }}
           CH041_BLOB: 4892b1d1df7e5bd2588a9608d2c729a85b74c3a4
           CH042_BLOB: 1ca8b72caa51bdef7a02e4d6f055f203d0a1219b
         run: |
           set -euo pipefail
           BOOK='04-easy-hindi-vocabulary-7000-words'
           TRANSFER='.github/transfer-vocab-ch041-ch050'
-          mkdir -p "$BOOK/chapters" "$BOOK/rosters"
+          mkdir -p "$BOOK/chapters" "$BOOK/rosters" /tmp/ch43-50-extract
 
-          # Reconstruct chapters/rosters 43-50 from the staged byte-exact archive.
           find "$TRANSFER" -maxdepth 1 -type f -name 'ch43-50.part-*' -print | LC_ALL=C sort > /tmp/parts.txt
           test "$(wc -l < /tmp/parts.txt)" -ge 8
-          while IFS= read -r part; do cat "$part"; done < /tmp/parts.txt | base64 -d | xz -d > /tmp/ch43-50.tar
+          while IFS= read -r part; do cat "$part"; done < /tmp/parts.txt > /tmp/ch43-50.b64
+          base64 -d /tmp/ch43-50.b64 > /tmp/ch43-50.tar.xz
+          xz -t /tmp/ch43-50.tar.xz
+          xz -dc /tmp/ch43-50.tar.xz > /tmp/ch43-50.tar
           tar -tf /tmp/ch43-50.tar
-          tar -xf /tmp/ch43-50.tar
+          tar -xf /tmp/ch43-50.tar -C /tmp/ch43-50-extract
+
           for n in {43..50}; do
-            test -s "$(printf "$BOOK/chapters/ch%03d.json" "$n")"
-            test -s "$(printf "$BOOK/rosters/ch%03d.json" "$n")"
+            c=$(find /tmp/ch43-50-extract -type f -path "*/chapters/ch$(printf '%03d' "$n").json" | head -n 1)
+            r=$(find /tmp/ch43-50-extract -type f -path "*/rosters/ch$(printf '%03d' "$n").json" | head -n 1)
+            test -n "$c" && test -s "$c"
+            test -n "$r" && test -s "$r"
+            cp "$c" "$(printf "$BOOK/chapters/ch%03d.json" "$n")"
+            cp "$r" "$(printf "$BOOK/rosters/ch%03d.json" "$n")"
           done
 
-          # Restore the already verified chapter 41-42 lesson blobs directly from GitHub.
           fetch_blob() {
             local sha="$1" out="$2"
             curl -fsSL \
@@ -56,7 +63,6 @@ jobs:
           fetch_blob "$CH042_BLOB" "$BOOK/chapters/ch042.json"
           test -s "$BOOK/rosters/ch041.json"
 
-          # Derive the missing reviewed roster 42 from the frozen authored vocabulary.
           python3 - <<'PY'
           import json
           from pathlib import Path
@@ -92,6 +98,7 @@ jobs:
               'status': 'batch_complete_draft',
               'checks': {
                   'partial_validation_command': 'python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words',
+                  'unit_tests_command': 'python3 -m unittest discover -s tests',
                   'assigned_range_present': True,
                   'reviewed_rosters_present': True,
                   'image_prompts_per_chapter': 2
@@ -107,7 +114,6 @@ jobs:
 
           python3 scripts/manage.py validate --book "$BOOK"
           python3 -m unittest discover -s tests
-
           for n in {41..50}; do
             test -s "$(printf "$BOOK/chapters/ch%03d.json" "$n")"
             test -s "$(printf "$BOOK/rosters/ch%03d.json" "$n")"
@@ -117,17 +123,17 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          BOOK='04-easy-hindi-vocabulary-7000-words'
           rm -rf .github/transfer-vocab-ch041-ch050
           rm -f .github/workflows/chatgpt-finalize-vocab-ch041-ch050.yml
 
           git config user.name 'polodev'
           git config user.email 'polodev10@gmail.com'
           git add -A
-
-          # Final PR tree must contain only source/progress changes for this book.
-          bad=$(git diff --cached --name-only | grep -vE '^04-easy-hindi-vocabulary-7000-words/(chapters/ch04[1-9]\.json|chapters/ch050\.json|rosters/ch04[1-9]\.json|rosters/ch050\.json|authoring-progress\.json)$' || true)
-          test -z "$bad"
-
           git commit -m 'Complete Easy Hindi Vocabulary chapters 41-50'
+
+          git fetch origin main
+          bad=$(git diff --name-only origin/main...HEAD | grep -vE '^04-easy-hindi-vocabulary-7000-words/(chapters/ch04[1-9]\.json|chapters/ch050\.json|rosters/ch04[1-9]\.json|rosters/ch050\.json|authoring-progress\.json)$' || true)
+          test -z "$bad"
+          test "$(git diff --name-only origin/main...HEAD | wc -l)" -eq 21
+
           git push origin HEAD:content/04-easy-hindi-vocabulary-7000-words/ch041-ch050
