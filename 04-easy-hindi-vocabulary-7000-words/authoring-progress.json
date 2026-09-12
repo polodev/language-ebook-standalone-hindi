@@ -1,0 +1,40 @@
+{
+  "requested_chapters": [
+    "ch041",
+    "ch042",
+    "ch043",
+    "ch044",
+    "ch045",
+    "ch046",
+    "ch047",
+    "ch048",
+    "ch049",
+    "ch050"
+  ],
+  "completed_chapters": [
+    "ch041",
+    "ch042",
+    "ch043",
+    "ch044",
+    "ch045",
+    "ch046",
+    "ch047",
+    "ch048",
+    "ch049",
+    "ch050"
+  ],
+  "unfinished_chapters": [],
+  "status": "batch_complete_draft",
+  "checks": {
+    "partial_validation_command": "python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words",
+    "unit_tests_command": "python3 -m unittest discover -s tests",
+    "assigned_range_present": true,
+    "reviewed_rosters_present": true,
+    "image_prompts_per_chapter": 2
+  },
+  "delivery": {
+    "target_branch": "main",
+    "feature_branch": "content/04-easy-hindi-vocabulary-7000-words/ch041-ch050",
+    "merge_requested": false
+  }
+}
