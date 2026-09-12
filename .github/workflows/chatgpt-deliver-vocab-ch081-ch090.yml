@@ -34,7 +34,7 @@ jobs:
           print(f'recovered_tar_bytes={len(out)} eof={dec.eof}')
           PY
 
-      - name: Restore chapters on latest main and verify exact blobs
+      - name: Restore chapters on latest main and verify exact authored blobs
         shell: bash
         run: |
           set -euo pipefail
@@ -111,6 +111,27 @@ jobs:
             assert got == want, (p, got, want)
           PY
 
+      - name: Regenerate canonical mixed-reading mirrors
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts.manage import mixed_reading_markdown
+          book = Path('04-easy-hindi-vocabulary-7000-words')
+          changed=[]
+          for n in range(81,91):
+            p = book/'chapters'/f'ch{n:03d}.json'
+            ch = json.loads(p.read_text(encoding='utf-8'))
+            canonical = mixed_reading_markdown(ch['bridge_reading']['segments'])
+            if ch['bridge_reading'].get('text_md') != canonical:
+              ch['bridge_reading']['text_md'] = canonical
+              p.write_text(json.dumps(ch, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+              changed.append(p.name)
+          print('regenerated:', ', '.join(changed) if changed else 'none')
+          PY
+
       - name: Run repository validator
         shell: bash
         run: |
@@ -146,13 +167,13 @@ jobs:
               {'check':'assigned_file_presence_and_identity','result':'passed','details':'Verified ch081-ch090 chapter JSON and matching reviewed roster files at planned paths.'},
               {'check':'roster_and_reserved_ids','result':'passed','details':'30 reviewed roster items per chapter; 25 words plus expressions at positions 6, 12, 18, 24 and 30; contiguous unique IDs v02401-v02700.'},
               {'check':'required_sections_and_counts','result':'passed','details':'Exactly 20 essential sentences, 30 vocabulary entries, 5 script cards, 4-8 pure-reading lines, 6 speaking tasks and 2 image prompts per chapter; 18 number cards total.'},
-              {'check':'pronunciation_and_word_reconstruction','result':'passed','details':'Local audit verified annotated target strings reconstruct exactly from ordered word_pronunciations.'},
-              {'check':'vocabulary_sources','result':'passed','details':'Local audit verified every vocabulary source_sentence_id exists and source_form occurs in its cited sentence.'},
-              {'check':'mixed_and_pure_readings','result':'passed','details':'Local audit verified bridge text_md mirrors segments and pure readings have annotated lines plus full Bangla pronunciation and meaning.'},
+              {'check':'pronunciation_and_word_reconstruction','result':'passed','details':'Repository validator and local audit verified annotated target strings reconstruct exactly from ordered word_pronunciations.'},
+              {'check':'vocabulary_sources','result':'passed','details':'Verified every vocabulary source_sentence_id exists and source_form occurs in its cited sentence.'},
+              {'check':'mixed_and_pure_readings','result':'passed','details':'Regenerated bridge text_md with scripts.manage.mixed_reading_markdown from canonical segments; validator verified mirrors. Pure readings have annotated lines plus full Bangla pronunciation and meaning.'},
               {'check':'bangla_prose_audit','result':'passed','details':'Local audit found no unannotated Devanagari examples in learner-facing Bangla prose fields.'},
               {'check':'image_prompt_keys_and_scene_match','result':'passed','details':'Two required reading-specific prompts per chapter; all subjects contain the required no-readable-text prohibition.'},
               {'check':'manual_language_review','result':'passed','details':'Reviewed B1 usefulness, Standard Hindi naturalness, Bengali meanings, pronunciation cues, source fit and reading coherence. Chapter status remains drafted, not independently reviewed.'},
-              {'check':'python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words','result':'passed','details':'Ran on a GitHub Actions checkout of repository main after restoring the exact authored chapter blobs and reviewed rosters; validator passed.'}
+              {'check':'python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words','result':'passed','details':'Ran successfully in GitHub Actions on a checkout of current main after restoring the authored chapters, reviewed rosters, and canonical bridge mirrors.'}
             ],
             'remaining_issues':['No known structural issue remains in ch081-ch090.','Chapter status is drafted, not independently reviewed.','Full-book validation, assembly, generated images, PDF/EPUB output and chapters outside ch081-ch090 were not attempted.'],
             'resume_point':'Requested ch081-ch090 batch is complete. Do not continue into ch091 or later chapters without a separate assignment.',
