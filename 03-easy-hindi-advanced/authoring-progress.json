@@ -1,0 +1,80 @@
+{
+  "book": "03-easy-hindi-advanced",
+  "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+  "requested_range": {
+    "start": "ch021",
+    "end": "ch030",
+    "count": 10
+  },
+  "completed_ids": [
+    "ch021",
+    "ch022",
+    "ch023",
+    "ch024",
+    "ch025",
+    "ch026",
+    "ch027",
+    "ch028",
+    "ch029",
+    "ch030"
+  ],
+  "unfinished_ids": [],
+  "status": "batch_complete",
+  "inventory": {
+    "chapters": 10,
+    "essential_sentences": 200,
+    "vocabulary_entries": 63,
+    "bridge_readings": 10,
+    "pure_readings": 10,
+    "script_practice_items": 50,
+    "number_cards": 20,
+    "speaking_practice_tasks": 60,
+    "reading_image_prompts": 20
+  },
+  "checks_performed": [
+    {
+      "check": "authoring_source_review",
+      "result": "passed",
+      "details": "Read 03-easy-hindi-advanced/INSTRUCTIONS.md as the sole authoring guide and reviewed book.json plans for ch021-ch030, chapter-template.json, supplementary.json, and the current main revision."
+    },
+    {
+      "check": "requested_range_presence",
+      "result": "passed",
+      "details": "Verified branch-vs-main comparison contains ch021.json through ch030.json continuously and no chapter outside the requested range."
+    },
+    {
+      "check": "required_sections_and_counts",
+      "result": "passed",
+      "details": "The batch contains 20 essential sentences per chapter, five script cards per chapter, six speaking tasks per chapter, and two reading image prompts per chapter. Vocabulary remains sentence-sourced and flexible by instruction."
+    },
+    {
+      "check": "pronunciation_and_word_reconstruction",
+      "result": "passed",
+      "details": "Schema-equivalent structural checks were run while authoring for exact word_pronunciations reconstruction, vocabulary source_sentence_id/source_form links, mixed-reading target annotation, pure-reading line cardinality and the Advanced 12-unit ceiling, number-card cardinality, speaking models, and image keys. Chapters 28-30 were rechecked after continuation edits."
+    },
+    {
+      "check": "mixed_reading_markdown",
+      "result": "passed",
+      "details": "Bridge readings include both Bangla and Hindi target segments and text_md mirrors target words with immediate Bangla pronunciation cues."
+    },
+    {
+      "check": "image_prompt_policy",
+      "result": "passed",
+      "details": "Each chapter has exactly two reading-specific image prompts and every subject includes the required no-readable-text/no-labels/no-signage/no-watermark instruction."
+    },
+    {
+      "check": "repository_validator",
+      "result": "not_run",
+      "command": "python3 scripts/manage.py validate --book 03-easy-hindi-advanced",
+      "details": "This session has GitHub connector write access but no authenticated shell checkout of the private repository; terminal network resolution to github.com is unavailable. No claim is made that the repository command itself ran."
+    }
+  ],
+  "remaining_issues": [
+    "Chapter status is drafted, not independently reviewed.",
+    "Full-book validation, assembly, generated artwork, PDF/EPUB outputs, and chapters outside ch021-ch030 were not attempted."
+  ],
+  "resume_point": "Requested ch021-ch030 batch is complete. Do not continue beyond ch030 without a separate assignment.",
+  "branch": "content/03-easy-hindi-advanced/ch021-ch030",
+  "target_branch": "main",
+  "updated_at_local": "2026-09-12T15:44+06:00"
+}
