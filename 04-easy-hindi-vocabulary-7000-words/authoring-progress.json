@@ -1,0 +1,71 @@
+{
+  "book": "04-easy-hindi-vocabulary-7000-words",
+  "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+  "requested_range": {
+    "start": "ch011",
+    "end": "ch020",
+    "count": 10
+  },
+  "completed_ids": [
+    "ch011",
+    "ch012",
+    "ch013",
+    "ch014",
+    "ch015",
+    "ch016",
+    "ch017",
+    "ch018",
+    "ch019",
+    "ch020"
+  ],
+  "unfinished_ids": [],
+  "status": "batch_complete",
+  "inventory": {
+    "chapters": 10,
+    "essential_sentences": 200,
+    "vocabulary_entries": 300,
+    "reviewed_rosters": 10,
+    "script_practice_items": 50,
+    "number_cards": 20,
+    "bridge_readings": 10,
+    "target_reading_lines": 50,
+    "speaking_practice_tasks": 60,
+    "image_prompts": 20
+  },
+  "checks_performed": [
+    {
+      "check": "authoring_source_review",
+      "result": "passed",
+      "details": "Read the vocabulary book INSTRUCTIONS.md as the sole authoring guide; read the requested ch011–ch020 plans, chapter-template.json, supplementary.json, current main state, and current validator logic."
+    },
+    {
+      "check": "required_sections_and_counts",
+      "result": "passed",
+      "details": "Generated exactly 10 requested chapters and 10 reviewed rosters with the required section counts."
+    },
+    {
+      "check": "vocabulary_rosters",
+      "result": "passed",
+      "details": "300 unique targets; frozen IDs v00301–v00600; 25 words plus 5 expressions at positions 6/12/18/24/30 per chapter; authored vocabulary matches reviewed rosters."
+    },
+    {
+      "check": "repository_validator",
+      "result": "passed",
+      "details": "Passed on GitHub Actions against the repository current-main validator before the delivery commit.",
+      "command": "python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words"
+    }
+  ],
+  "remaining_issues": [
+    "Chapter status is drafted, not independently reviewed. Full-book validation/assembly and unrequested chapters were not attempted."
+  ],
+  "resume_point": "Requested ch011–ch020 batch is complete. Do not continue beyond ch020 in this batch.",
+  "branch": "content/04-easy-hindi-vocabulary-7000-words/ch011-ch020",
+  "updated_at_local": "2026-09-12T15:22+06:00",
+  "git_delivery": {
+    "status": "committed_to_batch_branch",
+    "target_branch": "main",
+    "source_branch": "content/04-easy-hindi-vocabulary-7000-words/ch011-ch020",
+    "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+    "force_push": false
+  }
+}
