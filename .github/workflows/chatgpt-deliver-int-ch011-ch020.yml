@@ -1,4 +1,4 @@
-name: Deliver Easy Hindi Intermediate chapters 11-20
+name: Verify Easy Hindi Intermediate chapters 11-20 review branch
 
 on:
   push:
@@ -8,66 +8,31 @@ on:
       - '.github/transfer-int-ch011-ch020/READY'
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  deliver:
+  verify:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout transfer branch
+      - name: Checkout transport branch
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Reconstruct and verify archive
-        shell: bash
-        run: |
-          set -euo pipefail
-          cat .github/transfer-int-ch011-ch020/part-* | base64 -d > /tmp/int-ch011-ch020.tar.xz
-          echo '6bee982595c7a98ef81b3b3ae9567cb55f699fddfad659a2cfeb5b66f0a66556  /tmp/int-ch011-ch020.tar.xz' | sha256sum -c -
-          xz -dc /tmp/int-ch011-ch020.tar.xz > /tmp/int-ch011-ch020.tar
-          echo '3fdacdcb5d4131bb683a48284eadec8b7f4d0bdef9ee6c69e1fd73aa99494f63  /tmp/int-ch011-ch020.tar' | sha256sum -c -
-          tar -tf /tmp/int-ch011-ch020.tar
-
-      - name: Extract and validate exact source batch
-        shell: bash
-        env:
-          EXPECTED_MAIN: d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6
-        run: |
-          set -euo pipefail
-          git checkout -B delivery "$EXPECTED_MAIN"
-          tar -xf /tmp/int-ch011-ch020.tar
-          for n in {11..20}; do
-            f=$(printf '02-easy-hindi-intermediate/chapters/ch%03d.json' "$n")
-            test -s "$f"
-          done
-          test -s 02-easy-hindi-intermediate/authoring-progress.json
-          python3 scripts/manage.py validate --book 02-easy-hindi-intermediate
-
-      - name: Commit exact 11-file batch and push review branch
+      - name: Fetch and validate merged review branch
         shell: bash
         env:
           DELIVERY_BRANCH: content/02-easy-hindi-intermediate/ch011-ch020
         run: |
           set -euo pipefail
-          git config user.name "polodev"
-          git config user.email "polodev10@gmail.com"
-          git add \
-            02-easy-hindi-intermediate/chapters/ch011.json \
-            02-easy-hindi-intermediate/chapters/ch012.json \
-            02-easy-hindi-intermediate/chapters/ch013.json \
-            02-easy-hindi-intermediate/chapters/ch014.json \
-            02-easy-hindi-intermediate/chapters/ch015.json \
-            02-easy-hindi-intermediate/chapters/ch016.json \
-            02-easy-hindi-intermediate/chapters/ch017.json \
-            02-easy-hindi-intermediate/chapters/ch018.json \
-            02-easy-hindi-intermediate/chapters/ch019.json \
-            02-easy-hindi-intermediate/chapters/ch020.json \
-            02-easy-hindi-intermediate/authoring-progress.json
-          git diff --cached --name-status
-          test "$(git diff --cached --name-only | wc -l)" -eq 11
-          test "$(git diff --cached --diff-filter=A --name-only | wc -l)" -eq 11
-          test -z "$(git diff --cached --diff-filter=MDR --name-only)"
-          ts=$(TZ=Asia/Dhaka date '+%a %b %-d, %-I:%M%P')
-          git commit -m "$ts — 11 files added"
-          git push origin HEAD:"$DELIVERY_BRANCH"
+          git fetch origin "refs/heads/$DELIVERY_BRANCH:refs/remotes/origin/review"
+          git checkout --detach refs/remotes/origin/review
+          python3 scripts/manage.py validate --book 02-easy-hindi-intermediate | tee /tmp/validation.txt
+          grep -F '02-easy-hindi-intermediate: 20/60 authored chapters structurally valid; publication not assessed' /tmp/validation.txt
+
+      - name: Upload validator result
+        uses: actions/upload-artifact@v4
+        with:
+          name: intermediate-ch011-ch020-merged-validation
+          path: /tmp/validation.txt
+          if-no-files-found: error
