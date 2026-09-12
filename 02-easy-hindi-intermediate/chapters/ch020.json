@@ -1,0 +1,1978 @@
+{
+  "chapter_id": "ch020",
+  "status": "drafted",
+  "title_target": "कारण, परिणाम और विरोध बनाना",
+  "title_bangla_pronunciation": "কারণ, পরিণাম অউর ভিরোধ বনানা",
+  "title_word_pronunciations": [
+    {
+      "target": "कारण,",
+      "bangla_pronunciation": "কারণ,",
+      "separator_after": " "
+    },
+    {
+      "target": "परिणाम",
+      "bangla_pronunciation": "পরিণাম",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "विरोध",
+      "bangla_pronunciation": "ভিরোধ",
+      "separator_after": " "
+    },
+    {
+      "target": "बनाना",
+      "bangla_pronunciation": "বনানা",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "কারণ, ফলাফল ও বৈপরীত্য তৈরি",
+  "goal_bengali_md": "কারণ, ফল, বিপরীত অবস্থা ও ছাড় দেওয়া অর্থ প্রকাশ করে বাক্যকে আরও পরিণত করা।",
+  "sentences": [
+    {
+      "id": "ch020_s01",
+      "target": "बारिश हुई, इसलिए यातायात धीमा हो गया।",
+      "romanization": "baarish huii, islie yaataayaat dhiimaa ho gyaa.",
+      "bangla_pronunciation": "বারিশ হুই, ইসলিএ যাতায়াত ধীমা হো গয়া।",
+      "word_pronunciations": [
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "हुई,",
+          "bangla_pronunciation": "হুই,",
+          "separator_after": " "
+        },
+        {
+          "target": "इसलिए",
+          "bangla_pronunciation": "ইসলিএ",
+          "separator_after": " "
+        },
+        {
+          "target": "यातायात",
+          "bangla_pronunciation": "যাতায়াত",
+          "separator_after": " "
+        },
+        {
+          "target": "धीमा",
+          "bangla_pronunciation": "ধীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "गया।",
+          "bangla_pronunciation": "গয়া।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বৃষ্টি হয়েছে, তাই যান চলাচল ধীর হয়ে গেছে।"
+    },
+    {
+      "id": "ch020_s02",
+      "target": "सर्वर बंद था, इसलिए काम रुक गया।",
+      "romanization": "srvr bnd thaa, islie kaam ruk gyaa.",
+      "bangla_pronunciation": "সার্ভার বংদ থা, ইসলিএ কাম রুক গয়া।",
+      "word_pronunciations": [
+        {
+          "target": "सर्वर",
+          "bangla_pronunciation": "সার্ভার",
+          "separator_after": " "
+        },
+        {
+          "target": "बंद",
+          "bangla_pronunciation": "বংদ",
+          "separator_after": " "
+        },
+        {
+          "target": "था,",
+          "bangla_pronunciation": "থা,",
+          "separator_after": " "
+        },
+        {
+          "target": "इसलिए",
+          "bangla_pronunciation": "ইসলিএ",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "रुक",
+          "bangla_pronunciation": "রুক",
+          "separator_after": " "
+        },
+        {
+          "target": "गया।",
+          "bangla_pronunciation": "গয়া।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সার্ভার বন্ধ ছিল, তাই কাজ থেমে গেছে।"
+    },
+    {
+      "id": "ch020_s03",
+      "target": "समय कम था, इसलिए हमने दायरा घटाया।",
+      "romanization": "smy km thaa, islie hmne daayraa ghtaayaa.",
+      "bangla_pronunciation": "সময় কম থা, ইসলিএ হমনে দায়রা ঘটায়া।",
+      "word_pronunciations": [
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "separator_after": " "
+        },
+        {
+          "target": "था,",
+          "bangla_pronunciation": "থা,",
+          "separator_after": " "
+        },
+        {
+          "target": "इसलिए",
+          "bangla_pronunciation": "ইসলিএ",
+          "separator_after": " "
+        },
+        {
+          "target": "हमने",
+          "bangla_pronunciation": "হমনে",
+          "separator_after": " "
+        },
+        {
+          "target": "दायरा",
+          "bangla_pronunciation": "দায়রা",
+          "separator_after": " "
+        },
+        {
+          "target": "घटाया।",
+          "bangla_pronunciation": "ঘটায়া।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সময় কম ছিল, তাই আমরা কাজের পরিধি কমিয়েছি।"
+    },
+    {
+      "id": "ch020_s04",
+      "target": "ग्राहक ने बदलाव माँगा, इसलिए योजना बदली।",
+      "romanization": "graahk ne bdlaav maangaa, islie yojnaa bdlii.",
+      "bangla_pronunciation": "গ্রাহক নে বদলাভ মাঁগা, ইসলিএ যোজনা বদলী।",
+      "word_pronunciations": [
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "ने",
+          "bangla_pronunciation": "নে",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलाव",
+          "bangla_pronunciation": "বদলাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "माँगा,",
+          "bangla_pronunciation": "মাঁগা,",
+          "separator_after": " "
+        },
+        {
+          "target": "इसलिए",
+          "bangla_pronunciation": "ইসলিএ",
+          "separator_after": " "
+        },
+        {
+          "target": "योजना",
+          "bangla_pronunciation": "যোজনা",
+          "separator_after": " "
+        },
+        {
+          "target": "बदली।",
+          "bangla_pronunciation": "বদলী।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ক্লায়েন্ট পরিবর্তন চেয়েছেন, তাই পরিকল্পনা বদলেছে।"
+    },
+    {
+      "id": "ch020_s05",
+      "target": "क्योंकि डेटा अधूरा था, हम निर्णय नहीं ले सके।",
+      "romanization": "kyonki detaa adhuuraa thaa, hm niry nhiin le ske.",
+      "bangla_pronunciation": "ক্য়োংকি ডেটা অধূরা থা, হম নির্ণয় নহীঁ লে সকে।",
+      "word_pronunciations": [
+        {
+          "target": "क्योंकि",
+          "bangla_pronunciation": "ক্য়োংকি",
+          "separator_after": " "
+        },
+        {
+          "target": "डेटा",
+          "bangla_pronunciation": "ডেটা",
+          "separator_after": " "
+        },
+        {
+          "target": "अधूरा",
+          "bangla_pronunciation": "অধূরা",
+          "separator_after": " "
+        },
+        {
+          "target": "था,",
+          "bangla_pronunciation": "থা,",
+          "separator_after": " "
+        },
+        {
+          "target": "हम",
+          "bangla_pronunciation": "হম",
+          "separator_after": " "
+        },
+        {
+          "target": "निर्णय",
+          "bangla_pronunciation": "নির্ণয়",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "ले",
+          "bangla_pronunciation": "লে",
+          "separator_after": " "
+        },
+        {
+          "target": "सके।",
+          "bangla_pronunciation": "সকে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডেটা অসম্পূর্ণ ছিল বলে আমরা সিদ্ধান্ত নিতে পারিনি।"
+    },
+    {
+      "id": "ch020_s06",
+      "target": "क्योंकि कीमत बढ़ी है, बजट पर दबाव है।",
+      "romanization": "kyonki kiimt bdhii hai, bjt pr dbaav hai.",
+      "bangla_pronunciation": "ক্য়োংকি কীমত বঢ়ী হ্যায়, বাজেট পর দবাভ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "क्योंकि",
+          "bangla_pronunciation": "ক্য়োংকি",
+          "separator_after": " "
+        },
+        {
+          "target": "कीमत",
+          "bangla_pronunciation": "কীমত",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़ी",
+          "bangla_pronunciation": "বঢ়ী",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হ্যায়,",
+          "separator_after": " "
+        },
+        {
+          "target": "बजट",
+          "bangla_pronunciation": "বাজেট",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "दबाव",
+          "bangla_pronunciation": "দবাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দাম বেড়েছে বলে বাজেটের ওপর চাপ আছে।"
+    },
+    {
+      "id": "ch020_s07",
+      "target": "हालाँकि समय कम था, हमने काम पूरा किया।",
+      "romanization": "haalaanki smy km thaa, hmne kaam puuraa kiyaa.",
+      "bangla_pronunciation": "হালাঁকি সময় কম থা, হমনে কাম পূরা কিয়া।",
+      "word_pronunciations": [
+        {
+          "target": "हालाँकि",
+          "bangla_pronunciation": "হালাঁকি",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "separator_after": " "
+        },
+        {
+          "target": "था,",
+          "bangla_pronunciation": "থা,",
+          "separator_after": " "
+        },
+        {
+          "target": "हमने",
+          "bangla_pronunciation": "হমনে",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "पूरा",
+          "bangla_pronunciation": "পূরা",
+          "separator_after": " "
+        },
+        {
+          "target": "किया।",
+          "bangla_pronunciation": "কিয়া।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "যদিও সময় কম ছিল, আমরা কাজ শেষ করেছি।"
+    },
+    {
+      "id": "ch020_s08",
+      "target": "हालाँकि योजना अच्छी थी, कुछ जोखिम बाकी थे।",
+      "romanization": "haalaanki yojnaa achchhii thii, kuchh jokhim baakii the.",
+      "bangla_pronunciation": "হালাঁকি যোজনা অচ্ছী থী, কুছ জোখিম বাকী থে।",
+      "word_pronunciations": [
+        {
+          "target": "हालाँकि",
+          "bangla_pronunciation": "হালাঁকি",
+          "separator_after": " "
+        },
+        {
+          "target": "योजना",
+          "bangla_pronunciation": "যোজনা",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छी",
+          "bangla_pronunciation": "অচ্ছী",
+          "separator_after": " "
+        },
+        {
+          "target": "थी,",
+          "bangla_pronunciation": "থী,",
+          "separator_after": " "
+        },
+        {
+          "target": "कुछ",
+          "bangla_pronunciation": "কুছ",
+          "separator_after": " "
+        },
+        {
+          "target": "जोखिम",
+          "bangla_pronunciation": "জোখিম",
+          "separator_after": " "
+        },
+        {
+          "target": "बाकी",
+          "bangla_pronunciation": "বাকী",
+          "separator_after": " "
+        },
+        {
+          "target": "थे।",
+          "bangla_pronunciation": "থে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "যদিও পরিকল্পনা ভালো ছিল, কিছু ঝুঁকি বাকি ছিল।"
+    },
+    {
+      "id": "ch020_s09",
+      "target": "टीम छोटी है, फिर भी काम तेज़ चल रहा है।",
+      "romanization": "tiim chhotii hai, phir bhii kaam tej chl rhaa hai.",
+      "bangla_pronunciation": "টীম ছোটী হ্যায়, ফির ভী কাম তেজ চল রহা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "टीम",
+          "bangla_pronunciation": "টীম",
+          "separator_after": " "
+        },
+        {
+          "target": "छोटी",
+          "bangla_pronunciation": "ছোটী",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হ্যায়,",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "चल",
+          "bangla_pronunciation": "চল",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा",
+          "bangla_pronunciation": "রহা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দল ছোট, তবুও কাজ দ্রুত চলছে।"
+    },
+    {
+      "id": "ch020_s10",
+      "target": "लागत बढ़ी है, लेकिन गुणवत्ता भी बेहतर हुई है।",
+      "romanization": "laagt bdhii hai, lekin guvttaa bhii behtr huii hai.",
+      "bangla_pronunciation": "লাগত বঢ়ী হ্যায়, লেকিন গুণবত্তা ভী বেহতর হুই হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "लागत",
+          "bangla_pronunciation": "লাগত",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़ी",
+          "bangla_pronunciation": "বঢ়ী",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হ্যায়,",
+          "separator_after": " "
+        },
+        {
+          "target": "लेकिन",
+          "bangla_pronunciation": "লেকিন",
+          "separator_after": " "
+        },
+        {
+          "target": "गुणवत्ता",
+          "bangla_pronunciation": "গুণবত্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "separator_after": " "
+        },
+        {
+          "target": "हुई",
+          "bangla_pronunciation": "হুই",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খরচ বেড়েছে, কিন্তু মানও উন্নত হয়েছে।"
+    },
+    {
+      "id": "ch020_s11",
+      "target": "मुझे विचार पसंद है, लेकिन अभी सही समय नहीं है।",
+      "romanization": "mujhe vichaar psnd hai, lekin abhii shii smy nhiin hai.",
+      "bangla_pronunciation": "মুঝে ভিচার পসংদ হ্যায়, লেকিন অভী সহী সময় নহীঁ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "separator_after": " "
+        },
+        {
+          "target": "विचार",
+          "bangla_pronunciation": "ভিচার",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসংদ",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হ্যায়,",
+          "separator_after": " "
+        },
+        {
+          "target": "लेकिन",
+          "bangla_pronunciation": "লেকিন",
+          "separator_after": " "
+        },
+        {
+          "target": "अभी",
+          "bangla_pronunciation": "অভী",
+          "separator_after": " "
+        },
+        {
+          "target": "सही",
+          "bangla_pronunciation": "সহী",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভাবনাটি আমার পছন্দ, কিন্তু এখন সঠিক সময় নয়।"
+    },
+    {
+      "id": "ch020_s12",
+      "target": "समस्या बड़ी थी, फिर भी टीम शांत रही।",
+      "romanization": "smsyaa bdii thii, phir bhii tiim shaant rhii.",
+      "bangla_pronunciation": "সমস্যা বড়ী থী, ফির ভী টীম শাংত রহী।",
+      "word_pronunciations": [
+        {
+          "target": "समस्या",
+          "bangla_pronunciation": "সমস্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "बड़ी",
+          "bangla_pronunciation": "বড়ী",
+          "separator_after": " "
+        },
+        {
+          "target": "थी,",
+          "bangla_pronunciation": "থী,",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "टीम",
+          "bangla_pronunciation": "টীম",
+          "separator_after": " "
+        },
+        {
+          "target": "शांत",
+          "bangla_pronunciation": "শাংত",
+          "separator_after": " "
+        },
+        {
+          "target": "रही।",
+          "bangla_pronunciation": "রহী।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সমস্যা বড় ছিল, তবুও দল শান্ত ছিল।"
+    },
+    {
+      "id": "ch020_s13",
+      "target": "वह देर से पहुँचा, इसलिए बैठक देर से शुरू हुई।",
+      "romanization": "vh der se phunchaa, islie baithk der se shuruu huii.",
+      "bangla_pronunciation": "বহ দের সে পহুঁচা, ইসলিএ বৈঠক দের সে শুরূ হুই।",
+      "word_pronunciations": [
+        {
+          "target": "वह",
+          "bangla_pronunciation": "বহ",
+          "separator_after": " "
+        },
+        {
+          "target": "देर",
+          "bangla_pronunciation": "দের",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहुँचा,",
+          "bangla_pronunciation": "পহুঁচা,",
+          "separator_after": " "
+        },
+        {
+          "target": "इसलिए",
+          "bangla_pronunciation": "ইসলিএ",
+          "separator_after": " "
+        },
+        {
+          "target": "बैठक",
+          "bangla_pronunciation": "বৈঠক",
+          "separator_after": " "
+        },
+        {
+          "target": "देर",
+          "bangla_pronunciation": "দের",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "शुरू",
+          "bangla_pronunciation": "শুরূ",
+          "separator_after": " "
+        },
+        {
+          "target": "हुई।",
+          "bangla_pronunciation": "হুই।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সে দেরিতে পৌঁছেছিল, তাই মিটিং দেরিতে শুরু হয়েছে।"
+    },
+    {
+      "id": "ch020_s14",
+      "target": "बारिश के बावजूद कार्यक्रम जारी रहा।",
+      "romanization": "baarish ke baavjuud kaarykrm jaarii rhaa.",
+      "bangla_pronunciation": "বারিশ কে বাভজূদ কার্য়ক্রম জারী রহা।",
+      "word_pronunciations": [
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "बावजूद",
+          "bangla_pronunciation": "বাভজূদ",
+          "separator_after": " "
+        },
+        {
+          "target": "कार्यक्रम",
+          "bangla_pronunciation": "কার্য়ক্রম",
+          "separator_after": " "
+        },
+        {
+          "target": "जारी",
+          "bangla_pronunciation": "জারী",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा।",
+          "bangla_pronunciation": "রহা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বৃষ্টি সত্ত্বেও অনুষ্ঠান চলেছে।"
+    },
+    {
+      "id": "ch020_s15",
+      "target": "बजट सीमित है, इसलिए हमें प्राथमिकता तय करनी होगी।",
+      "romanization": "bjt siimit hai, islie hmen praathmiktaa ty krnii hogii.",
+      "bangla_pronunciation": "বাজেট সীমিত হ্যায়, ইসলিএ হমেঁ প্রাথমিকতা তয় করনী হোগী।",
+      "word_pronunciations": [
+        {
+          "target": "बजट",
+          "bangla_pronunciation": "বাজেট",
+          "separator_after": " "
+        },
+        {
+          "target": "सीमित",
+          "bangla_pronunciation": "সীমিত",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হ্যায়,",
+          "separator_after": " "
+        },
+        {
+          "target": "इसलिए",
+          "bangla_pronunciation": "ইসলিএ",
+          "separator_after": " "
+        },
+        {
+          "target": "हमें",
+          "bangla_pronunciation": "হমেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "प्राथमिकता",
+          "bangla_pronunciation": "প্রাথমিকতা",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয়",
+          "separator_after": " "
+        },
+        {
+          "target": "करनी",
+          "bangla_pronunciation": "করনী",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी।",
+          "bangla_pronunciation": "হোগী।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাজেট সীমিত, তাই আমাদের অগ্রাধিকার ঠিক করতে হবে।"
+    },
+    {
+      "id": "ch020_s16",
+      "target": "डेटा सकारात्मक है, फिर भी हमें सावधानी रखनी चाहिए।",
+      "romanization": "detaa skaaraatmk hai, phir bhii hmen saavdhaanii rkhnii chaahie.",
+      "bangla_pronunciation": "ডেটা সকারাত্মক হ্যায়, ফির ভী হমেঁ সাভধানী রখনী চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "डेटा",
+          "bangla_pronunciation": "ডেটা",
+          "separator_after": " "
+        },
+        {
+          "target": "सकारात्मक",
+          "bangla_pronunciation": "সকারাত্মক",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হ্যায়,",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "हमें",
+          "bangla_pronunciation": "হমেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "सावधानी",
+          "bangla_pronunciation": "সাভধানী",
+          "separator_after": " "
+        },
+        {
+          "target": "रखनी",
+          "bangla_pronunciation": "রখনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডেটা ইতিবাচক, তবুও আমাদের সতর্ক থাকা উচিত।"
+    },
+    {
+      "id": "ch020_s17",
+      "target": "रास्ता लंबा था, लेकिन यात्रा आरामदायक रही।",
+      "romanization": "raastaa lnbaa thaa, lekin yaatraa aaraamdaayk rhii.",
+      "bangla_pronunciation": "রাস্তা লংবা থা, লেকিন য়াত্রা আরামদায়ক রহী।",
+      "word_pronunciations": [
+        {
+          "target": "रास्ता",
+          "bangla_pronunciation": "রাস্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "लंबा",
+          "bangla_pronunciation": "লংবা",
+          "separator_after": " "
+        },
+        {
+          "target": "था,",
+          "bangla_pronunciation": "থা,",
+          "separator_after": " "
+        },
+        {
+          "target": "लेकिन",
+          "bangla_pronunciation": "লেকিন",
+          "separator_after": " "
+        },
+        {
+          "target": "यात्रा",
+          "bangla_pronunciation": "য়াত্রা",
+          "separator_after": " "
+        },
+        {
+          "target": "आरामदायक",
+          "bangla_pronunciation": "আরামদায়ক",
+          "separator_after": " "
+        },
+        {
+          "target": "रही।",
+          "bangla_pronunciation": "রহী।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পথ দীর্ঘ ছিল, কিন্তু যাত্রা আরামদায়ক ছিল।"
+    },
+    {
+      "id": "ch020_s18",
+      "target": "हमने पहले परीक्षण किया, इसलिए गलती जल्दी मिल गई।",
+      "romanization": "hmne phle priiksh kiyaa, islie gltii jldii mil gii.",
+      "bangla_pronunciation": "হমনে পহলে পরীক্ষণ কিয়া, ইসলিএ গলতী জল্দী মিল গঈ।",
+      "word_pronunciations": [
+        {
+          "target": "हमने",
+          "bangla_pronunciation": "হমনে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "परीक्षण",
+          "bangla_pronunciation": "পরীক্ষণ",
+          "separator_after": " "
+        },
+        {
+          "target": "किया,",
+          "bangla_pronunciation": "কিয়া,",
+          "separator_after": " "
+        },
+        {
+          "target": "इसलिए",
+          "bangla_pronunciation": "ইসলিএ",
+          "separator_after": " "
+        },
+        {
+          "target": "गलती",
+          "bangla_pronunciation": "গলতী",
+          "separator_after": " "
+        },
+        {
+          "target": "जल्दी",
+          "bangla_pronunciation": "জল্দী",
+          "separator_after": " "
+        },
+        {
+          "target": "मिल",
+          "bangla_pronunciation": "মিল",
+          "separator_after": " "
+        },
+        {
+          "target": "गई।",
+          "bangla_pronunciation": "গঈ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমরা আগে পরীক্ষা করেছি, তাই ভুল দ্রুত ধরা পড়েছে।"
+    },
+    {
+      "id": "ch020_s19",
+      "target": "कारण स्पष्ट है, इसलिए अगला कदम तय करना आसान है।",
+      "romanization": "kaar spsht hai, islie aglaa kdm ty krnaa aasaan hai.",
+      "bangla_pronunciation": "কারণ স্পষ্ট হ্যায়, ইসলিএ অগলা কদম তয় করনা আসান হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "कारण",
+          "bangla_pronunciation": "কারণ",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হ্যায়,",
+          "separator_after": " "
+        },
+        {
+          "target": "इसलिए",
+          "bangla_pronunciation": "ইসলিএ",
+          "separator_after": " "
+        },
+        {
+          "target": "अगला",
+          "bangla_pronunciation": "অগলা",
+          "separator_after": " "
+        },
+        {
+          "target": "कदम",
+          "bangla_pronunciation": "কদম",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয়",
+          "separator_after": " "
+        },
+        {
+          "target": "करना",
+          "bangla_pronunciation": "করনা",
+          "separator_after": " "
+        },
+        {
+          "target": "आसान",
+          "bangla_pronunciation": "আসান",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কারণ স্পষ্ট, তাই পরের পদক্ষেপ ঠিক করা সহজ।"
+    },
+    {
+      "id": "ch020_s20",
+      "target": "दोनों विकल्प अच्छे हैं, लेकिन उनका असर अलग है।",
+      "romanization": "donon viklp achchhe hain, lekin unkaa asr alg hai.",
+      "bangla_pronunciation": "দোনোং বিকল্প অচ্ছে হ্যায়, লেকিন উনকা অসর অলগ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "दोनों",
+          "bangla_pronunciation": "দোনোং",
+          "separator_after": " "
+        },
+        {
+          "target": "विकल्प",
+          "bangla_pronunciation": "বিকল্প",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छे",
+          "bangla_pronunciation": "অচ্ছে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं,",
+          "bangla_pronunciation": "হ্যায়,",
+          "separator_after": " "
+        },
+        {
+          "target": "लेकिन",
+          "bangla_pronunciation": "লেকিন",
+          "separator_after": " "
+        },
+        {
+          "target": "उनका",
+          "bangla_pronunciation": "উনকা",
+          "separator_after": " "
+        },
+        {
+          "target": "असर",
+          "bangla_pronunciation": "অসর",
+          "separator_after": " "
+        },
+        {
+          "target": "अलग",
+          "bangla_pronunciation": "অলগ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুই বিকল্পই ভালো, কিন্তু তাদের প্রভাব আলাদা।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "ch020_v01",
+      "target": "इसलिए",
+      "type": "সংযোজক",
+      "romanization": "islie",
+      "bangla_pronunciation": "ইসলিএ",
+      "word_pronunciations": [
+        {
+          "target": "इसलिए",
+          "bangla_pronunciation": "ইসলিএ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তাই বা সেই কারণে",
+      "source_sentence_id": "ch020_s01",
+      "source_form": "इसलिए"
+    },
+    {
+      "id": "ch020_v02",
+      "target": "क्योंकि",
+      "type": "সংযোজক",
+      "romanization": "kyonki",
+      "bangla_pronunciation": "ক্য়োংকি",
+      "word_pronunciations": [
+        {
+          "target": "क्योंकि",
+          "bangla_pronunciation": "ক্য়োংকি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কারণ",
+      "source_sentence_id": "ch020_s05",
+      "source_form": "क्योंकि"
+    },
+    {
+      "id": "ch020_v03",
+      "target": "अधूरा",
+      "type": "বিশেষণ",
+      "romanization": "adhuuraa",
+      "bangla_pronunciation": "অধূরা",
+      "word_pronunciations": [
+        {
+          "target": "अधूरा",
+          "bangla_pronunciation": "অধূরা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অসম্পূর্ণ",
+      "source_sentence_id": "ch020_s05",
+      "source_form": "अधूरा"
+    },
+    {
+      "id": "ch020_v04",
+      "target": "हालाँकि",
+      "type": "সংযোজক",
+      "romanization": "haalaanki",
+      "bangla_pronunciation": "হালাঁকি",
+      "word_pronunciations": [
+        {
+          "target": "हालाँकि",
+          "bangla_pronunciation": "হালাঁকি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "যদিও",
+      "source_sentence_id": "ch020_s07",
+      "source_form": "हालाँकि"
+    },
+    {
+      "id": "ch020_v05",
+      "target": "फिर भी",
+      "type": "বাক্যাংশ",
+      "romanization": "phir bhii",
+      "bangla_pronunciation": "ফির ভী",
+      "word_pronunciations": [
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তবুও",
+      "source_sentence_id": "ch020_s09",
+      "source_form": "फिर भी"
+    },
+    {
+      "id": "ch020_v06",
+      "target": "लेकिन",
+      "type": "সংযোজক",
+      "romanization": "lekin",
+      "bangla_pronunciation": "লেকিন",
+      "word_pronunciations": [
+        {
+          "target": "लेकिन",
+          "bangla_pronunciation": "লেকিন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কিন্তু",
+      "source_sentence_id": "ch020_s10",
+      "source_form": "लेकिन"
+    },
+    {
+      "id": "ch020_v07",
+      "target": "बावजूद",
+      "type": "বাক্যাংশ",
+      "romanization": "baavjuud",
+      "bangla_pronunciation": "বাভজূদ",
+      "word_pronunciations": [
+        {
+          "target": "बावजूद",
+          "bangla_pronunciation": "বাভজূদ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সত্ত্বেও",
+      "source_sentence_id": "ch020_s14",
+      "source_form": "बावजूद"
+    },
+    {
+      "id": "ch020_v08",
+      "target": "सीमित",
+      "type": "বিশেষণ",
+      "romanization": "siimit",
+      "bangla_pronunciation": "সীমিত",
+      "word_pronunciations": [
+        {
+          "target": "सीमित",
+          "bangla_pronunciation": "সীমিত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সীমিত",
+      "source_sentence_id": "ch020_s15",
+      "source_form": "सीमित"
+    },
+    {
+      "id": "ch020_v09",
+      "target": "सकारात्मक",
+      "type": "বিশেষণ",
+      "romanization": "skaaraatmk",
+      "bangla_pronunciation": "সকারাত্মক",
+      "word_pronunciations": [
+        {
+          "target": "सकारात्मक",
+          "bangla_pronunciation": "সকারাত্মক",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ইতিবাচক",
+      "source_sentence_id": "ch020_s16",
+      "source_form": "सकारात्मक"
+    },
+    {
+      "id": "ch020_v10",
+      "target": "असर",
+      "type": "বিশেষ্য",
+      "romanization": "asr",
+      "bangla_pronunciation": "অসর",
+      "word_pronunciations": [
+        {
+          "target": "असर",
+          "bangla_pronunciation": "অসর",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রভাব",
+      "source_sentence_id": "ch020_s20",
+      "source_form": "असर"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "article",
+    "title_bengali": "কারণ ও ফল পরিষ্কার করা",
+    "scene_summary": "এক দল কাজ থেমে যাওয়ার কারণ, ফলাফল ও সীমাবদ্ধতা যুক্ত করে ব্যাখ্যা করছে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "কাজের আপডেটে প্রথমে কারণ ও ফল বলা হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "बारिश हुई, इसलिए यातायात धीमा हो गया।",
+        "bangla_pronunciation": "বারিশ হুই, ইসলিএ যাতায়াত ধীমা হো গয়া।",
+        "word_pronunciations": [
+          {
+            "target": "बारिश",
+            "bangla_pronunciation": "বারিশ",
+            "separator_after": " "
+          },
+          {
+            "target": "हुई,",
+            "bangla_pronunciation": "হুই,",
+            "separator_after": " "
+          },
+          {
+            "target": "इसलिए",
+            "bangla_pronunciation": "ইসলিএ",
+            "separator_after": " "
+          },
+          {
+            "target": "यातायात",
+            "bangla_pronunciation": "যাতায়াত",
+            "separator_after": " "
+          },
+          {
+            "target": "धीमा",
+            "bangla_pronunciation": "ধীমা",
+            "separator_after": " "
+          },
+          {
+            "target": "हो",
+            "bangla_pronunciation": "হো",
+            "separator_after": " "
+          },
+          {
+            "target": "गया।",
+            "bangla_pronunciation": "গয়া।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " আরেকটি প্রযুক্তিগত কারণ ছিল: "
+      },
+      {
+        "kind": "target",
+        "target": "सर्वर बंद था, इसलिए काम रुक गया।",
+        "bangla_pronunciation": "সার্ভার বংদ থা, ইসলিএ কাম রুক গয়া।",
+        "word_pronunciations": [
+          {
+            "target": "सर्वर",
+            "bangla_pronunciation": "সার্ভার",
+            "separator_after": " "
+          },
+          {
+            "target": "बंद",
+            "bangla_pronunciation": "বংদ",
+            "separator_after": " "
+          },
+          {
+            "target": "था,",
+            "bangla_pronunciation": "থা,",
+            "separator_after": " "
+          },
+          {
+            "target": "इसलिए",
+            "bangla_pronunciation": "ইসলিএ",
+            "separator_after": " "
+          },
+          {
+            "target": "काम",
+            "bangla_pronunciation": "কাম",
+            "separator_after": " "
+          },
+          {
+            "target": "रुक",
+            "bangla_pronunciation": "রুক",
+            "separator_after": " "
+          },
+          {
+            "target": "गया।",
+            "bangla_pronunciation": "গয়া।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " সময়ের সীমাবদ্ধতায় সিদ্ধান্ত হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "समय कम था, इसलिए हमने दायरा घटाया।",
+        "bangla_pronunciation": "সময় কম থা, ইসলিএ হমনে দায়রা ঘটায়া।",
+        "word_pronunciations": [
+          {
+            "target": "समय",
+            "bangla_pronunciation": "সময়",
+            "separator_after": " "
+          },
+          {
+            "target": "कम",
+            "bangla_pronunciation": "কম",
+            "separator_after": " "
+          },
+          {
+            "target": "था,",
+            "bangla_pronunciation": "থা,",
+            "separator_after": " "
+          },
+          {
+            "target": "इसलिए",
+            "bangla_pronunciation": "ইসলিএ",
+            "separator_after": " "
+          },
+          {
+            "target": "हमने",
+            "bangla_pronunciation": "হমনে",
+            "separator_after": " "
+          },
+          {
+            "target": "दायरा",
+            "bangla_pronunciation": "দায়রা",
+            "separator_after": " "
+          },
+          {
+            "target": "घटाया।",
+            "bangla_pronunciation": "ঘটায়া।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " ক্লায়েন্টের পরিবর্তনের ফলও বলা হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "ग्राहक ने बदलाव माँगा, इसलिए योजना बदली।",
+        "bangla_pronunciation": "গ্রাহক নে বদলাভ মাঁগা, ইসলিএ যোজনা বদলী।",
+        "word_pronunciations": [
+          {
+            "target": "ग्राहक",
+            "bangla_pronunciation": "গ্রাহক",
+            "separator_after": " "
+          },
+          {
+            "target": "ने",
+            "bangla_pronunciation": "নে",
+            "separator_after": " "
+          },
+          {
+            "target": "बदलाव",
+            "bangla_pronunciation": "বদলাভ",
+            "separator_after": " "
+          },
+          {
+            "target": "माँगा,",
+            "bangla_pronunciation": "মাঁগা,",
+            "separator_after": " "
+          },
+          {
+            "target": "इसलिए",
+            "bangla_pronunciation": "ইসলিএ",
+            "separator_after": " "
+          },
+          {
+            "target": "योजना",
+            "bangla_pronunciation": "যোজনা",
+            "separator_after": " "
+          },
+          {
+            "target": "बदली।",
+            "bangla_pronunciation": "বদলী।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "কাজের আপডেটে প্রথমে কারণ ও ফল বলা হলো: **बारिश** (বারিশ) **हुई,** (হুই,) **इसलिए** (ইসলিএ) **यातायात** (যাতায়াত) **धीमा** (ধীমা) **हो** (হো) **गया।** (গয়া।) আরেকটি প্রযুক্তিগত কারণ ছিল: **सर्वर** (সার্ভার) **बंद** (বংদ) **था,** (থা,) **इसलिए** (ইসলিএ) **काम** (কাম) **रुक** (রুক) **गया।** (গয়া।) সময়ের সীমাবদ্ধতায় সিদ্ধান্ত হলো: **समय** (সময়) **कम** (কম) **था,** (থা,) **इसलिए** (ইসলিএ) **हमने** (হমনে) **दायरा** (দায়রা) **घटाया।** (ঘটায়া।) ক্লায়েন্টের পরিবর্তনের ফলও বলা হলো: **ग्राहक** (গ্রাহক) **ने** (নে) **बदलाव** (বদলাভ) **माँगा,** (মাঁগা,) **इसलिए** (ইসলিএ) **योजना** (যোজনা) **बदली।** (বদলী।)"
+  },
+  "target_reading": {
+    "mode": "article",
+    "title_bengali": "পরিকল্পনা ভালো, তবুও সতর্কতা",
+    "scene_summary": "এক দল ইতিবাচক ফলের পাশাপাশি ঝুঁকি ও ভিন্ন প্রভাবও বিবেচনা করছে।",
+    "lines": [
+      {
+        "target": "बारिश हुई, इसलिए यातायात धीमा हो गया।",
+        "bangla_pronunciation": "বারিশ হুই, ইসলিএ যাতায়াত ধীমা হো গয়া।",
+        "word_pronunciations": [
+          {
+            "target": "बारिश",
+            "bangla_pronunciation": "বারিশ",
+            "separator_after": " "
+          },
+          {
+            "target": "हुई,",
+            "bangla_pronunciation": "হুই,",
+            "separator_after": " "
+          },
+          {
+            "target": "इसलिए",
+            "bangla_pronunciation": "ইসলিএ",
+            "separator_after": " "
+          },
+          {
+            "target": "यातायात",
+            "bangla_pronunciation": "যাতায়াত",
+            "separator_after": " "
+          },
+          {
+            "target": "धीमा",
+            "bangla_pronunciation": "ধীমা",
+            "separator_after": " "
+          },
+          {
+            "target": "हो",
+            "bangla_pronunciation": "হো",
+            "separator_after": " "
+          },
+          {
+            "target": "गया।",
+            "bangla_pronunciation": "গয়া।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "क्योंकि कीमत बढ़ी है, बजट पर दबाव है।",
+        "bangla_pronunciation": "ক্য়োংকি কীমত বঢ়ী হ্যায়, বাজেট পর দবাভ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "क्योंकि",
+            "bangla_pronunciation": "ক্য়োংকি",
+            "separator_after": " "
+          },
+          {
+            "target": "कीमत",
+            "bangla_pronunciation": "কীমত",
+            "separator_after": " "
+          },
+          {
+            "target": "बढ़ी",
+            "bangla_pronunciation": "বঢ়ী",
+            "separator_after": " "
+          },
+          {
+            "target": "है,",
+            "bangla_pronunciation": "হ্যায়,",
+            "separator_after": " "
+          },
+          {
+            "target": "बजट",
+            "bangla_pronunciation": "বাজেট",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "separator_after": " "
+          },
+          {
+            "target": "दबाव",
+            "bangla_pronunciation": "দবাভ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "हालाँकि योजना अच्छी थी, कुछ जोखिम बाकी थे।",
+        "bangla_pronunciation": "হালাঁকি যোজনা অচ্ছী থী, কুছ জোখিম বাকী থে।",
+        "word_pronunciations": [
+          {
+            "target": "हालाँकि",
+            "bangla_pronunciation": "হালাঁকি",
+            "separator_after": " "
+          },
+          {
+            "target": "योजना",
+            "bangla_pronunciation": "যোজনা",
+            "separator_after": " "
+          },
+          {
+            "target": "अच्छी",
+            "bangla_pronunciation": "অচ্ছী",
+            "separator_after": " "
+          },
+          {
+            "target": "थी,",
+            "bangla_pronunciation": "থী,",
+            "separator_after": " "
+          },
+          {
+            "target": "कुछ",
+            "bangla_pronunciation": "কুছ",
+            "separator_after": " "
+          },
+          {
+            "target": "जोखिम",
+            "bangla_pronunciation": "জোখিম",
+            "separator_after": " "
+          },
+          {
+            "target": "बाकी",
+            "bangla_pronunciation": "বাকী",
+            "separator_after": " "
+          },
+          {
+            "target": "थे।",
+            "bangla_pronunciation": "থে।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "बारिश के बावजूद कार्यक्रम जारी रहा।",
+        "bangla_pronunciation": "বারিশ কে বাভজূদ কার্য়ক্রম জারী রহা।",
+        "word_pronunciations": [
+          {
+            "target": "बारिश",
+            "bangla_pronunciation": "বারিশ",
+            "separator_after": " "
+          },
+          {
+            "target": "के",
+            "bangla_pronunciation": "কে",
+            "separator_after": " "
+          },
+          {
+            "target": "बावजूद",
+            "bangla_pronunciation": "বাভজূদ",
+            "separator_after": " "
+          },
+          {
+            "target": "कार्यक्रम",
+            "bangla_pronunciation": "কার্য়ক্রম",
+            "separator_after": " "
+          },
+          {
+            "target": "जारी",
+            "bangla_pronunciation": "জারী",
+            "separator_after": " "
+          },
+          {
+            "target": "रहा।",
+            "bangla_pronunciation": "রহা।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "रास्ता लंबा था, लेकिन यात्रा आरामदायक रही।",
+        "bangla_pronunciation": "রাস্তা লংবা থা, লেকিন য়াত্রা আরামদায়ক রহী।",
+        "word_pronunciations": [
+          {
+            "target": "रास्ता",
+            "bangla_pronunciation": "রাস্তা",
+            "separator_after": " "
+          },
+          {
+            "target": "लंबा",
+            "bangla_pronunciation": "লংবা",
+            "separator_after": " "
+          },
+          {
+            "target": "था,",
+            "bangla_pronunciation": "থা,",
+            "separator_after": " "
+          },
+          {
+            "target": "लेकिन",
+            "bangla_pronunciation": "লেকিন",
+            "separator_after": " "
+          },
+          {
+            "target": "यात्रा",
+            "bangla_pronunciation": "য়াত্রা",
+            "separator_after": " "
+          },
+          {
+            "target": "आरामदायक",
+            "bangla_pronunciation": "আরামদায়ক",
+            "separator_after": " "
+          },
+          {
+            "target": "रही।",
+            "bangla_pronunciation": "রহী।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "বারিশ হুই, ইসলিএ যাতায়াত ধীমা হো গয়া। ক্য়োংকি কীমত বঢ়ী হ্যায়, বাজেট পর দবাভ হ্যায়। হালাঁকি যোজনা অচ্ছী থী, কুছ জোখিম বাকী থে। বারিশ কে বাভজূদ কার্য়ক্রম জারী রহা। রাস্তা লংবা থা, লেকিন য়াত্রা আরামদায়ক রহী।",
+    "meaning_bengali_md": "বৃষ্টি হয়েছে, তাই যান চলাচল ধীর হয়ে গেছে। দাম বেড়েছে বলে বাজেটের ওপর চাপ আছে। যদিও পরিকল্পনা ভালো ছিল, কিছু ঝুঁকি বাকি ছিল। বৃষ্টি সত্ত্বেও অনুষ্ঠান চলেছে। পথ দীর্ঘ ছিল, কিন্তু যাত্রা আরামদায়ক ছিল।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev-gya",
+      "mode": "review",
+      "target": "ज्ञ",
+      "bangla_pronunciation": "জ্ঞ/গ্য",
+      "explanation_bengali_md": "এই লিপি-এককটি চিনে এর ধ্বনি মনে করুন; শব্দে দেখলে আশপাশের চিহ্নসহ পড়ুন।",
+      "practice_bengali_md": "আকৃতিটি দেখে ধ্বনিটি তিনবার বলুন, তারপর পাঠের উদাহরণে একই একক খুঁজে নিন।"
+    },
+    {
+      "item_id": "dev-shra",
+      "mode": "review",
+      "target": "श्र",
+      "bangla_pronunciation": "শ্র",
+      "explanation_bengali_md": "এই লিপি-এককটি চিনে এর ধ্বনি মনে করুন; শব্দে দেখলে আশপাশের চিহ্নসহ পড়ুন।",
+      "practice_bengali_md": "আকৃতিটি দেখে ধ্বনিটি তিনবার বলুন, তারপর পাঠের উদাহরণে একই একক খুঁজে নিন।"
+    },
+    {
+      "item_id": "dev-kra",
+      "mode": "review",
+      "target": "क्र",
+      "bangla_pronunciation": "ক্র",
+      "explanation_bengali_md": "এই লিপি-এককটি চিনে এর ধ্বনি মনে করুন; শব্দে দেখলে আশপাশের চিহ্নসহ পড়ুন।",
+      "practice_bengali_md": "আকৃতিটি দেখে ধ্বনিটি তিনবার বলুন, তারপর পাঠের উদাহরণে একই একক খুঁজে নিন।"
+    },
+    {
+      "item_id": "dev-pra",
+      "mode": "review",
+      "target": "प्र",
+      "bangla_pronunciation": "প্র",
+      "explanation_bengali_md": "এই লিপি-এককটি চিনে এর ধ্বনি মনে করুন; শব্দে দেখলে আশপাশের চিহ্নসহ পড়ুন।",
+      "practice_bengali_md": "আকৃতিটি দেখে ধ্বনিটি তিনবার বলুন, তারপর পাঠের উদাহরণে একই একক খুঁজে নিন।"
+    },
+    {
+      "item_id": "dev-gra",
+      "mode": "review",
+      "target": "ग्र",
+      "bangla_pronunciation": "গ্র",
+      "explanation_bengali_md": "এই লিপি-এককটি চিনে এর ধ্বনি মনে করুন; শব্দে দেখলে আশপাশের চিহ্নসহ পড়ুন।",
+      "practice_bengali_md": "আকৃতিটি দেখে ধ্বনিটি তিনবার বলুন, তারপর পাঠের উদাহরণে একই একক খুঁজে নিন।"
+    }
+  ],
+  "number_practice": null,
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের পরিস্থিতিতে 1 নম্বর ভাবটি নিজের কণ্ঠে বলুন।",
+      "model_target": "बारिश हुई, इसलिए यातायात धीमा हो गया।",
+      "model_bangla_pronunciation": "বারিশ হুই, ইসলিএ যাতায়াত ধীমা হো গয়া।",
+      "model_word_pronunciations": [
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "हुई,",
+          "bangla_pronunciation": "হুই,",
+          "separator_after": " "
+        },
+        {
+          "target": "इसलिए",
+          "bangla_pronunciation": "ইসলিএ",
+          "separator_after": " "
+        },
+        {
+          "target": "यातायात",
+          "bangla_pronunciation": "যাতায়াত",
+          "separator_after": " "
+        },
+        {
+          "target": "धीमा",
+          "bangla_pronunciation": "ধীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "गया।",
+          "bangla_pronunciation": "গয়া।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "বৃষ্টি হয়েছে, তাই যান চলাচল ধীর হয়ে গেছে।"
+    },
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের পরিস্থিতিতে 4 নম্বর ভাবটি নিজের কণ্ঠে বলুন।",
+      "model_target": "ग्राहक ने बदलाव माँगा, इसलिए योजना बदली।",
+      "model_bangla_pronunciation": "গ্রাহক নে বদলাভ মাঁগা, ইসলিএ যোজনা বদলী।",
+      "model_word_pronunciations": [
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "ने",
+          "bangla_pronunciation": "নে",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलाव",
+          "bangla_pronunciation": "বদলাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "माँगा,",
+          "bangla_pronunciation": "মাঁগা,",
+          "separator_after": " "
+        },
+        {
+          "target": "इसलिए",
+          "bangla_pronunciation": "ইসলিএ",
+          "separator_after": " "
+        },
+        {
+          "target": "योजना",
+          "bangla_pronunciation": "যোজনা",
+          "separator_after": " "
+        },
+        {
+          "target": "बदली।",
+          "bangla_pronunciation": "বদলী।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ক্লায়েন্ট পরিবর্তন চেয়েছেন, তাই পরিকল্পনা বদলেছে।"
+    },
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের পরিস্থিতিতে 7 নম্বর ভাবটি নিজের কণ্ঠে বলুন।",
+      "model_target": "हालाँकि समय कम था, हमने काम पूरा किया।",
+      "model_bangla_pronunciation": "হালাঁকি সময় কম থা, হমনে কাম পূরা কিয়া।",
+      "model_word_pronunciations": [
+        {
+          "target": "हालाँकि",
+          "bangla_pronunciation": "হালাঁকি",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "separator_after": " "
+        },
+        {
+          "target": "था,",
+          "bangla_pronunciation": "থা,",
+          "separator_after": " "
+        },
+        {
+          "target": "हमने",
+          "bangla_pronunciation": "হমনে",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "पूरा",
+          "bangla_pronunciation": "পূরা",
+          "separator_after": " "
+        },
+        {
+          "target": "किया।",
+          "bangla_pronunciation": "কিয়া।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "যদিও সময় কম ছিল, আমরা কাজ শেষ করেছি।"
+    },
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের পরিস্থিতিতে 10 নম্বর ভাবটি নিজের কণ্ঠে বলুন।",
+      "model_target": "लागत बढ़ी है, लेकिन गुणवत्ता भी बेहतर हुई है।",
+      "model_bangla_pronunciation": "লাগত বঢ়ী হ্যায়, লেকিন গুণবত্তা ভী বেহতর হুই হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "लागत",
+          "bangla_pronunciation": "লাগত",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़ी",
+          "bangla_pronunciation": "বঢ়ী",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হ্যায়,",
+          "separator_after": " "
+        },
+        {
+          "target": "लेकिन",
+          "bangla_pronunciation": "লেকিন",
+          "separator_after": " "
+        },
+        {
+          "target": "गुणवत्ता",
+          "bangla_pronunciation": "গুণবত্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "separator_after": " "
+        },
+        {
+          "target": "हुई",
+          "bangla_pronunciation": "হুই",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "খরচ বেড়েছে, কিন্তু মানও উন্নত হয়েছে।"
+    },
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের পরিস্থিতিতে 14 নম্বর ভাবটি নিজের কণ্ঠে বলুন।",
+      "model_target": "बारिश के बावजूद कार्यक्रम जारी रहा।",
+      "model_bangla_pronunciation": "বারিশ কে বাভজূদ কার্য়ক্রম জারী রহা।",
+      "model_word_pronunciations": [
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "बावजूद",
+          "bangla_pronunciation": "বাভজূদ",
+          "separator_after": " "
+        },
+        {
+          "target": "कार्यक्रम",
+          "bangla_pronunciation": "কার্য়ক্রম",
+          "separator_after": " "
+        },
+        {
+          "target": "जारी",
+          "bangla_pronunciation": "জারী",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा।",
+          "bangla_pronunciation": "রহা।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "বৃষ্টি সত্ত্বেও অনুষ্ঠান চলেছে।"
+    },
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের পরিস্থিতিতে 20 নম্বর ভাবটি নিজের কণ্ঠে বলুন।",
+      "model_target": "दोनों विकल्प अच्छे हैं, लेकिन उनका असर अलग है।",
+      "model_bangla_pronunciation": "দোনোং বিকল্প অচ্ছে হ্যায়, লেকিন উনকা অসর অলগ হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "दोनों",
+          "bangla_pronunciation": "দোনোং",
+          "separator_after": " "
+        },
+        {
+          "target": "विकल्प",
+          "bangla_pronunciation": "বিকল্প",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छे",
+          "bangla_pronunciation": "অচ্ছে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं,",
+          "bangla_pronunciation": "হ্যায়,",
+          "separator_after": " "
+        },
+        {
+          "target": "लेकिन",
+          "bangla_pronunciation": "লেকিন",
+          "separator_after": " "
+        },
+        {
+          "target": "उनका",
+          "bangla_pronunciation": "উনকা",
+          "separator_after": " "
+        },
+        {
+          "target": "असर",
+          "bangla_pronunciation": "অসর",
+          "separator_after": " "
+        },
+        {
+          "target": "अलग",
+          "bangla_pronunciation": "অলগ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "দুই বিকল্পই ভালো, কিন্তু তাদের প্রভাব আলাদা।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch020_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A project team in a bright office explaining cause and effect around a stalled task, abstract flow arrows and status shapes on a blank board, calm discussion. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes, soft daylight, clean modern composition, realistic South Asian context, 3:2 landscape."
+    },
+    {
+      "key": "ch020_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A different team comparing two good options with contrasting abstract paths and risk markers, thoughtful discussion, balanced daylight. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes, soft daylight, clean modern composition, realistic South Asian context, 3:2 landscape."
+    }
+  ],
+  "additional_practice": []
+}
