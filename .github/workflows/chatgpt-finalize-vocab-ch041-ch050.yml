@@ -19,21 +19,39 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Reconstruct archive chapters 43-50
+      - name: Concatenate archive pieces
+        shell: bash
+        run: |
+          set -euo pipefail
+          TRANSFER='.github/transfer-vocab-ch041-ch050'
+          find "$TRANSFER" -maxdepth 1 -type f -name 'ch43-50.part-*' -print | LC_ALL=C sort > /tmp/parts.txt
+          cat /tmp/parts.txt
+          while IFS= read -r part; do cat "$part"; done < /tmp/parts.txt > /tmp/ch43-50.b64
+          echo "parts=$(wc -l < /tmp/parts.txt) bytes=$(wc -c < /tmp/ch43-50.b64)"
+          test "$(wc -l < /tmp/parts.txt)" -eq 14
+          test "$(wc -c < /tmp/ch43-50.b64)" -eq 47608
+
+      - name: Decode archive base64
+        shell: bash
+        run: |
+          set -euo pipefail
+          base64 -d /tmp/ch43-50.b64 > /tmp/ch43-50.tar.xz
+          test -s /tmp/ch43-50.tar.xz
+
+      - name: Test xz archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          xz -t /tmp/ch43-50.tar.xz
+          xz -dc /tmp/ch43-50.tar.xz > /tmp/ch43-50.tar
+          test -s /tmp/ch43-50.tar
+
+      - name: Extract archive chapters 43-50
         shell: bash
         run: |
           set -euo pipefail
           BOOK='04-easy-hindi-vocabulary-7000-words'
-          TRANSFER='.github/transfer-vocab-ch041-ch050'
           mkdir -p "$BOOK/chapters" "$BOOK/rosters" /tmp/ch43-50-extract
-          find "$TRANSFER" -maxdepth 1 -type f -name 'ch43-50.part-*' -print | LC_ALL=C sort > /tmp/parts.txt
-          cat /tmp/parts.txt
-          test "$(wc -l < /tmp/parts.txt)" -ge 8
-          while IFS= read -r part; do cat "$part"; done < /tmp/parts.txt > /tmp/ch43-50.b64
-          test "$(wc -c < /tmp/ch43-50.b64)" -eq 47608
-          base64 -d /tmp/ch43-50.b64 > /tmp/ch43-50.tar.xz
-          xz -t /tmp/ch43-50.tar.xz
-          xz -dc /tmp/ch43-50.tar.xz > /tmp/ch43-50.tar
           tar -tf /tmp/ch43-50.tar
           tar -xf /tmp/ch43-50.tar -C /tmp/ch43-50-extract
           for n in {43..50}; do
@@ -56,12 +74,7 @@ jobs:
           BOOK='04-easy-hindi-vocabulary-7000-words'
           fetch_blob() {
             local sha="$1" out="$2"
-            curl -fsSL \
-              -H "Authorization: Bearer $GITHUB_TOKEN" \
-              -H 'Accept: application/vnd.github+json' \
-              -H 'X-GitHub-Api-Version: 2022-11-28' \
-              "https://api.github.com/repos/${GITHUB_REPOSITORY}/git/blobs/${sha}" \
-              | jq -r '.content' | tr -d '\n' | base64 -d > "$out"
+            curl -fsSL -H "Authorization: Bearer $GITHUB_TOKEN" -H 'Accept: application/vnd.github+json' -H 'X-GitHub-Api-Version: 2022-11-28' "https://api.github.com/repos/${GITHUB_REPOSITORY}/git/blobs/${sha}" | jq -r '.content' | tr -d '\n' | base64 -d > "$out"
             test -s "$out"
           }
           fetch_blob "$CH041_BLOB" "$BOOK/chapters/ch041.json"
@@ -77,54 +90,39 @@ jobs:
           from pathlib import Path
           book = Path('04-easy-hindi-vocabulary-7000-words')
           ch = json.loads((book/'chapters/ch042.json').read_text(encoding='utf-8'))
-          items = []
-          for v in ch['vocabulary']:
-              items.append({
-                  'id': v['id'], 'target': v['target'], 'category': v['category'], 'type': v['type'],
-                  'level_rationale': 'A2 পর্যায়ে দৈনন্দিন বাস্তব কথোপকথনে উচ্চ-উপযোগী; অর্থ, রেজিস্টার ও ব্যাচ-স্তরের পুনরাবৃত্তি সম্পাদকীয়ভাবে যাচাই করা হয়েছে।',
-                  'sources': ['Editorial review of common Standard Hindi usage; batch-level uniqueness and sense suitability checked.']
-              })
+          items = [{'id':v['id'],'target':v['target'],'category':v['category'],'type':v['type'],'level_rationale':'A2 পর্যায়ে দৈনন্দিন বাস্তব কথোপকথনে উচ্চ-উপযোগী; অর্থ, রেজিস্টার ও ব্যাচ-স্তরের পুনরাবৃত্তি সম্পাদকীয়ভাবে যাচাই করা হয়েছে।','sources':['Editorial review of common Standard Hindi usage; batch-level uniqueness and sense suitability checked.']} for v in ch['vocabulary']]
           (book/'rosters/ch042.json').write_text(json.dumps({'status':'reviewed','items':items}, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
           PY
 
-      - name: Record progress and validate
+      - name: Record progress
         shell: bash
         run: |
           set -euo pipefail
-          BOOK='04-easy-hindi-vocabulary-7000-words'
           python3 - <<'PY'
           import json
           from pathlib import Path
           book = Path('04-easy-hindi-vocabulary-7000-words')
-          completed = [f'ch{i:03d}' for i in range(41, 51)]
-          data = {
-              'requested_chapters': completed,
-              'completed_chapters': completed,
-              'unfinished_chapters': [],
-              'status': 'batch_complete_draft',
-              'checks': {
-                  'partial_validation_command': 'python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words',
-                  'unit_tests_command': 'python3 -m unittest discover -s tests',
-                  'assigned_range_present': True,
-                  'reviewed_rosters_present': True,
-                  'image_prompts_per_chapter': 2
-              },
-              'delivery': {
-                  'target_branch': 'main',
-                  'feature_branch': 'content/04-easy-hindi-vocabulary-7000-words/ch041-ch050',
-                  'merge_requested': False
-              }
-          }
+          completed=[f'ch{i:03d}' for i in range(41,51)]
+          data={'requested_chapters':completed,'completed_chapters':completed,'unfinished_chapters':[],'status':'batch_complete_draft','checks':{'partial_validation_command':'python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words','unit_tests_command':'python3 -m unittest discover -s tests','assigned_range_present':True,'reviewed_rosters_present':True,'image_prompts_per_chapter':2},'delivery':{'target_branch':'main','feature_branch':'content/04-easy-hindi-vocabulary-7000-words/ch041-ch050','merge_requested':False}}
           (book/'authoring-progress.json').write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
           PY
+
+      - name: Validate book batch
+        shell: bash
+        run: |
+          set -euo pipefail
+          BOOK='04-easy-hindi-vocabulary-7000-words'
           python3 scripts/manage.py validate --book "$BOOK"
-          python3 -m unittest discover -s tests
           for n in {41..50}; do
             test -s "$(printf "$BOOK/chapters/ch%03d.json" "$n")"
             test -s "$(printf "$BOOK/rosters/ch%03d.json" "$n")"
           done
 
-      - name: Remove transfer artifacts and commit clean batch
+      - name: Run unit tests
+        shell: bash
+        run: python3 -m unittest discover -s tests
+
+      - name: Commit clean batch
         shell: bash
         run: |
           set -euo pipefail
