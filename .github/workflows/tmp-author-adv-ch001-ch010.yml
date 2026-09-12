@@ -26,6 +26,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add 03-easy-hindi-advanced/chapters/ch001.json 03-easy-hindi-advanced/chapters/ch002.json 03-easy-hindi-advanced/chapters/ch003.json 03-easy-hindi-advanced/chapters/ch004.json 03-easy-hindi-advanced/chapters/ch005.json 03-easy-hindi-advanced/chapters/ch006.json 03-easy-hindi-advanced/chapters/ch007.json 03-easy-hindi-advanced/chapters/ch008.json 03-easy-hindi-advanced/chapters/ch009.json 03-easy-hindi-advanced/chapters/ch010.json 03-easy-hindi-advanced/authoring-progress.json
-          git rm .authoring_tmp/core.py .authoring_tmp/data1.py .authoring_tmp/data2.py .authoring_tmp/data3.py .authoring_tmp/data4.py .github/workflows/tmp-author-adv-ch001-ch010.yml
+          git rm -f .authoring_tmp/core.py .authoring_tmp/data1.py .authoring_tmp/data2.py .authoring_tmp/data3.py .authoring_tmp/data4.py .github/workflows/tmp-author-adv-ch001-ch010.yml
           git commit -m "Author Easy Hindi Advanced ch001-ch010 — 2026-09-12 15:20 +06"
           git push origin HEAD:tmp/author-adv-ch001-ch010
