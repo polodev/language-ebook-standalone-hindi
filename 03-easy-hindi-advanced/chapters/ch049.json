@@ -1,0 +1,1992 @@
+{
+  "chapter_id": "ch049",
+  "status": "drafted",
+  "title_target": "शब्द नहीं, विचार का अनुवाद",
+  "title_bangla_pronunciation": "শব্দ নহিঁ বিচার কা অনুভাদ",
+  "title_word_pronunciations": [
+    {
+      "target": "शब्द",
+      "bangla_pronunciation": "শব্দ",
+      "separator_after": " "
+    },
+    {
+      "target": "नहीं,",
+      "bangla_pronunciation": "নহিঁ",
+      "separator_after": " "
+    },
+    {
+      "target": "विचार",
+      "bangla_pronunciation": "বিচার",
+      "separator_after": " "
+    },
+    {
+      "target": "का",
+      "bangla_pronunciation": "কা",
+      "separator_after": " "
+    },
+    {
+      "target": "अनुवाद",
+      "bangla_pronunciation": "অনুভাদ",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "শব্দ নয়, ভাবের অনুবাদ",
+  "goal_bengali_md": "শব্দে-শব্দে অনুবাদ এড়িয়ে অর্থ, প্রসঙ্গ, রেজিস্টার ও স্বাভাবিক হিন্দি প্রকাশ ধরে ভাব অনুবাদ করা।",
+  "sentences": [
+    {
+      "id": "s01",
+      "target": "अच्छा अनुवाद शब्दों से पहले अर्थ को पकड़ता है।",
+      "romanization": "acchā anuvāda śabdoṃ se pahale artha ko pakaḍatā hai",
+      "bangla_pronunciation": "অচ্ছা অনুভাদ শব্দোং সে পহলে অর্থ কো পকডতা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुवाद",
+          "bangla_pronunciation": "অনুভাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "शब्दों",
+          "bangla_pronunciation": "শব্দোং",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "अर्थ",
+          "bangla_pronunciation": "অর্থ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "पकड़ता",
+          "bangla_pronunciation": "পকডতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভালো অনুবাদ শব্দের আগে অর্থ ধরে।"
+    },
+    {
+      "id": "s02",
+      "target": "हर शब्द का एक स्थायी अनुवाद नहीं होता।",
+      "romanization": "hara śabda kā eka sthāyī anuvāda nahīṃ hotā",
+      "bangla_pronunciation": "হর শব্দ কা এক স্থাযী অনুভাদ নহিঁ হোতা",
+      "word_pronunciations": [
+        {
+          "target": "हर",
+          "bangla_pronunciation": "হর",
+          "separator_after": " "
+        },
+        {
+          "target": "शब्द",
+          "bangla_pronunciation": "শব্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थायी",
+          "bangla_pronunciation": "স্থাযী",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुवाद",
+          "bangla_pronunciation": "অনুভাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "होता।",
+          "bangla_pronunciation": "হোতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রতিটি শব্দের একটিমাত্র স্থায়ী অনুবাদ নেই।"
+    },
+    {
+      "id": "s03",
+      "target": "संदर्भ बदलते ही सही शब्द भी बदल सकता है।",
+      "romanization": "saṃdarbha badalate hī sahī śabda bhī badala sakatā hai",
+      "bangla_pronunciation": "সন্দর্ভ বদলতে হি সহি শব্দ ভি বদল সকতা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সন্দর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलते",
+          "bangla_pronunciation": "বদলতে",
+          "separator_after": " "
+        },
+        {
+          "target": "ही",
+          "bangla_pronunciation": "হি",
+          "separator_after": " "
+        },
+        {
+          "target": "सही",
+          "bangla_pronunciation": "সহি",
+          "separator_after": " "
+        },
+        {
+          "target": "शब्द",
+          "bangla_pronunciation": "শব্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভি",
+          "separator_after": " "
+        },
+        {
+          "target": "बदल",
+          "bangla_pronunciation": "বদল",
+          "separator_after": " "
+        },
+        {
+          "target": "सकता",
+          "bangla_pronunciation": "সকতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রসঙ্গ বদলালে সঠিক শব্দও বদলে যেতে পারে।"
+    },
+    {
+      "id": "s04",
+      "target": "पहले पूरे वाक्य का उद्देश्य समझिए।",
+      "romanization": "pahale pūre vākya kā uddeśya samajhie",
+      "bangla_pronunciation": "পহলে পূরে ভাক্য কা উদ্দেশ্য সমঝিএ",
+      "word_pronunciations": [
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "पूरे",
+          "bangla_pronunciation": "পূরে",
+          "separator_after": " "
+        },
+        {
+          "target": "वाक्य",
+          "bangla_pronunciation": "ভাক্য",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "उद्देश्य",
+          "bangla_pronunciation": "উদ্দেশ্য",
+          "separator_after": " "
+        },
+        {
+          "target": "समझिए।",
+          "bangla_pronunciation": "সমঝিএ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রথমে পুরো বাক্যের উদ্দেশ্য বুঝুন।"
+    },
+    {
+      "id": "s05",
+      "target": "फिर स्वाभाविक हिंदी अभिव्यक्ति चुनिए।",
+      "romanization": "phira svābhāvika hiṃdī abhivyakti cunie",
+      "bangla_pronunciation": "ফির স্ভাভাভিক হিন্দি অভিব্যক্তি চুনিএ",
+      "word_pronunciations": [
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "स्वाभाविक",
+          "bangla_pronunciation": "স্ভাভাভিক",
+          "separator_after": " "
+        },
+        {
+          "target": "हिंदी",
+          "bangla_pronunciation": "হিন্দি",
+          "separator_after": " "
+        },
+        {
+          "target": "अभिव्यक्ति",
+          "bangla_pronunciation": "অভিব্যক্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "चुनिए।",
+          "bangla_pronunciation": "চুনিএ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তারপর স্বাভাবিক হিন্দি অভিব্যক্তি বেছে নিন।"
+    },
+    {
+      "id": "s06",
+      "target": "शब्दशः अनुवाद कई बार अटपटा लगता है।",
+      "romanization": "śabdaśaḥ anuvāda kaī bāra aṭapaṭā lagatā hai",
+      "bangla_pronunciation": "শব্দশঃ অনুভাদ কঈ বার অটপটা লগতা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "शब्दशः",
+          "bangla_pronunciation": "শব্দশঃ",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुवाद",
+          "bangla_pronunciation": "অনুভাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "कई",
+          "bangla_pronunciation": "কঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "बार",
+          "bangla_pronunciation": "বার",
+          "separator_after": " "
+        },
+        {
+          "target": "अटपटा",
+          "bangla_pronunciation": "অটপটা",
+          "separator_after": " "
+        },
+        {
+          "target": "लगता",
+          "bangla_pronunciation": "লগতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শব্দে-শব্দে অনুবাদ অনেক সময় অস্বাভাবিক লাগে।"
+    },
+    {
+      "id": "s07",
+      "target": "मुहावरे का अर्थ अक्सर उसके शब्दों से अलग होता है।",
+      "romanization": "muhāvare kā artha aksara usake śabdoṃ se alaga hotā hai",
+      "bangla_pronunciation": "মুহাভরে কা অর্থ অক্সর উসকে শব্দোং সে অলগ হোতা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "मुहावरे",
+          "bangla_pronunciation": "মুহাভরে",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "अर्थ",
+          "bangla_pronunciation": "অর্থ",
+          "separator_after": " "
+        },
+        {
+          "target": "अक्सर",
+          "bangla_pronunciation": "অক্সর",
+          "separator_after": " "
+        },
+        {
+          "target": "उसके",
+          "bangla_pronunciation": "উসকে",
+          "separator_after": " "
+        },
+        {
+          "target": "शब्दों",
+          "bangla_pronunciation": "শব্দোং",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "अलग",
+          "bangla_pronunciation": "অলগ",
+          "separator_after": " "
+        },
+        {
+          "target": "होता",
+          "bangla_pronunciation": "হোতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাগধারার অর্থ প্রায়ই তার আলাদা শব্দগুলোর অর্থ থেকে ভিন্ন।"
+    },
+    {
+      "id": "s08",
+      "target": "औपचारिक ईमेल और दोस्ताना संदेश की भाषा अलग होगी।",
+      "romanization": "aupacārika īmela aura dostānā saṃdeśa kī bhāṣā alaga hogī",
+      "bangla_pronunciation": "অউপচারিক ঈমেল অউর দোস্তানা সংদেশ কি ভাষা অলগ হোগি",
+      "word_pronunciations": [
+        {
+          "target": "औपचारिक",
+          "bangla_pronunciation": "অউপচারিক",
+          "separator_after": " "
+        },
+        {
+          "target": "ईमेल",
+          "bangla_pronunciation": "ঈমেল",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "दोस्ताना",
+          "bangla_pronunciation": "দোস্তানা",
+          "separator_after": " "
+        },
+        {
+          "target": "संदेश",
+          "bangla_pronunciation": "সংদেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কি",
+          "separator_after": " "
+        },
+        {
+          "target": "भाषा",
+          "bangla_pronunciation": "ভাষা",
+          "separator_after": " "
+        },
+        {
+          "target": "अलग",
+          "bangla_pronunciation": "অলগ",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी।",
+          "bangla_pronunciation": "হোগি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আনুষ্ঠানিক ইমেইল ও বন্ধুসুলভ বার্তার ভাষা আলাদা হবে।"
+    },
+    {
+      "id": "s09",
+      "target": "अनुवाद में संबोधन का स्तर भी महत्वपूर्ण है।",
+      "romanization": "anuvāda meṃ saṃbodhana kā stara bhī mahatvapūrṇa hai",
+      "bangla_pronunciation": "অনুভাদ মেঁ সংবোধন কা স্তর ভি মহত্ভপূর্ণ হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "अनुवाद",
+          "bangla_pronunciation": "অনুভাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "संबोधन",
+          "bangla_pronunciation": "সংবোধন",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "स्तर",
+          "bangla_pronunciation": "স্তর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভি",
+          "separator_after": " "
+        },
+        {
+          "target": "महत्वपूर्ण",
+          "bangla_pronunciation": "মহত্ভপূর্ণ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনুবাদে সম্বোধনের স্তরও গুরুত্বপূর্ণ।"
+    },
+    {
+      "id": "s10",
+      "target": "मूल वाक्य लंबा हो तो हिंदी में दो वाक्य बेहतर हो सकते हैं।",
+      "romanization": "mūla vākya laṃbā ho to hiṃdī meṃ do vākya behatara ho sakate haiṃ",
+      "bangla_pronunciation": "মূল ভাক্য লংবা হো তো হিন্দি মেঁ দো ভাক্য বেহতর হো সকতে হ্যায়ঁ",
+      "word_pronunciations": [
+        {
+          "target": "मूल",
+          "bangla_pronunciation": "মূল",
+          "separator_after": " "
+        },
+        {
+          "target": "वाक्य",
+          "bangla_pronunciation": "ভাক্য",
+          "separator_after": " "
+        },
+        {
+          "target": "लंबा",
+          "bangla_pronunciation": "লংবা",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "हिंदी",
+          "bangla_pronunciation": "হিন্দি",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "दो",
+          "bangla_pronunciation": "দো",
+          "separator_after": " "
+        },
+        {
+          "target": "वाक्य",
+          "bangla_pronunciation": "ভাক্য",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "सकते",
+          "bangla_pronunciation": "সকতে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যায়ঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মূল বাক্য দীর্ঘ হলে হিন্দিতে দুই বাক্য ভালো হতে পারে।"
+    },
+    {
+      "id": "s11",
+      "target": "कभी-कभी क्रम बदलने से अर्थ अधिक स्पष्ट होता है।",
+      "romanization": "kabhī-kabhī krama badalane se artha adhika spaṣṭa hotā hai",
+      "bangla_pronunciation": "কভী-কভী ক্রম বদলনে সে অর্থ অধিক স্পষ্ট হোতা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "कभी-कभी",
+          "bangla_pronunciation": "কভী-কভী",
+          "separator_after": " "
+        },
+        {
+          "target": "क्रम",
+          "bangla_pronunciation": "ক্রম",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलने",
+          "bangla_pronunciation": "বদলনে",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "अर्थ",
+          "bangla_pronunciation": "অর্থ",
+          "separator_after": " "
+        },
+        {
+          "target": "अधिक",
+          "bangla_pronunciation": "অধিক",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "होता",
+          "bangla_pronunciation": "হোতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কখনো ক্রম বদলালে অর্থ আরও পরিষ্কার হয়।"
+    },
+    {
+      "id": "s12",
+      "target": "अनुवाद का लक्ष्य मूल प्रभाव को बचाना है।",
+      "romanization": "anuvāda kā lakṣya mūla prabhāva ko bacānā hai",
+      "bangla_pronunciation": "অনুভাদ কা লক্ষ্য মূল প্রভাভ কো বচানা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "अनुवाद",
+          "bangla_pronunciation": "অনুভাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "लक्ष्य",
+          "bangla_pronunciation": "লক্ষ্য",
+          "separator_after": " "
+        },
+        {
+          "target": "मूल",
+          "bangla_pronunciation": "মূল",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रभाव",
+          "bangla_pronunciation": "প্রভাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "बचाना",
+          "bangla_pronunciation": "বচানা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনুবাদের লক্ষ্য মূল প্রভাব বজায় রাখা।"
+    },
+    {
+      "id": "s13",
+      "target": "सांस्कृतिक संदर्भ को बिना सोचे नहीं हटाना चाहिए।",
+      "romanization": "sāṃskṛtika saṃdarbha ko binā soce nahīṃ haṭānā cāhie",
+      "bangla_pronunciation": "সাংস্কৃতিক সন্দর্ভ কো বিনা সোচে নহিঁ হটানা চাহিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "सांस्कृतिक",
+          "bangla_pronunciation": "সাংস্কৃতিক",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সন্দর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "बिना",
+          "bangla_pronunciation": "বিনা",
+          "separator_after": " "
+        },
+        {
+          "target": "सोचे",
+          "bangla_pronunciation": "সোচে",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "हटाना",
+          "bangla_pronunciation": "হটানা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সাংস্কৃতিক প্রসঙ্গ না ভেবে বাদ দেওয়া উচিত নয়।"
+    },
+    {
+      "id": "s14",
+      "target": "जरूरत हो तो छोटा स्पष्टीकरण जोड़ा जा सकता है।",
+      "romanization": "jarūrata ho to choṭā spaṣṭīkaraṇa joḍā jā sakatā hai",
+      "bangla_pronunciation": "জরূরত হো তো ছোটা স্পষ্টীকরণ জোডা জা সকতা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "जरूरत",
+          "bangla_pronunciation": "জরূরত",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "छोटा",
+          "bangla_pronunciation": "ছোটা",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्टीकरण",
+          "bangla_pronunciation": "স্পষ্টীকরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "जोड़ा",
+          "bangla_pronunciation": "জোডা",
+          "separator_after": " "
+        },
+        {
+          "target": "जा",
+          "bangla_pronunciation": "জা",
+          "separator_after": " "
+        },
+        {
+          "target": "सकता",
+          "bangla_pronunciation": "সকতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রয়োজনে ছোট ব্যাখ্যা যোগ করা যেতে পারে।"
+    },
+    {
+      "id": "s15",
+      "target": "एक अच्छा अनुवाद पढ़कर अनुवाद जैसा नहीं लगता।",
+      "romanization": "eka acchā anuvāda paḍhakara anuvāda jaisā nahīṃ lagatā",
+      "bangla_pronunciation": "এক অচ্ছা অনুভাদ পঢকর অনুভাদ জৈসা নহিঁ লগতা",
+      "word_pronunciations": [
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुवाद",
+          "bangla_pronunciation": "অনুভাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़कर",
+          "bangla_pronunciation": "পঢকর",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुवाद",
+          "bangla_pronunciation": "অনুভাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "जैसा",
+          "bangla_pronunciation": "জৈসা",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "लगता।",
+          "bangla_pronunciation": "লগতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভালো অনুবাদ পড়লে অনুবাদ বলে মনে হয় না।"
+    },
+    {
+      "id": "s16",
+      "target": "तकनीकी शब्दों में निरंतरता बनाए रखना जरूरी है।",
+      "romanization": "takanīkī śabdoṃ meṃ niraṃtaratā banāe rakhanā jarūrī hai",
+      "bangla_pronunciation": "তকনীকী শব্দোং মেঁ নিরংতরতা বনাএ রখনা জরুরি হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "तकनीकी",
+          "bangla_pronunciation": "তকনীকী",
+          "separator_after": " "
+        },
+        {
+          "target": "शब्दों",
+          "bangla_pronunciation": "শব্দোং",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "निरंतरता",
+          "bangla_pronunciation": "নিরংতরতা",
+          "separator_after": " "
+        },
+        {
+          "target": "बनाए",
+          "bangla_pronunciation": "বনাএ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखना",
+          "bangla_pronunciation": "রখনা",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরুরি",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রযুক্তিগত শব্দে ধারাবাহিকতা বজায় রাখা জরুরি।"
+    },
+    {
+      "id": "s17",
+      "target": "एक ही शब्द अलग क्षेत्रों में अलग अर्थ दे सकता है।",
+      "romanization": "eka hī śabda alaga kṣetroṃ meṃ alaga artha de sakatā hai",
+      "bangla_pronunciation": "এক হি শব্দ অলগ ক্ষেত্রোং মেঁ অলগ অর্থ দে সকতা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "ही",
+          "bangla_pronunciation": "হি",
+          "separator_after": " "
+        },
+        {
+          "target": "शब्द",
+          "bangla_pronunciation": "শব্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "अलग",
+          "bangla_pronunciation": "অলগ",
+          "separator_after": " "
+        },
+        {
+          "target": "क्षेत्रों",
+          "bangla_pronunciation": "ক্ষেত্রোং",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "अलग",
+          "bangla_pronunciation": "অলগ",
+          "separator_after": " "
+        },
+        {
+          "target": "अर्थ",
+          "bangla_pronunciation": "অর্থ",
+          "separator_after": " "
+        },
+        {
+          "target": "दे",
+          "bangla_pronunciation": "দে",
+          "separator_after": " "
+        },
+        {
+          "target": "सकता",
+          "bangla_pronunciation": "সকতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "একই শব্দ ভিন্ন ক্ষেত্রে ভিন্ন অর্থ দিতে পারে।"
+    },
+    {
+      "id": "s18",
+      "target": "संदिग्ध अर्थ में अनुमान लगाने के बजाय पूछना बेहतर है।",
+      "romanization": "saṃdigdha artha meṃ anumāna lagāne ke bajāya pūchanā behatara hai",
+      "bangla_pronunciation": "সংদিগ্ধ অর্থ মেঁ অনুমান লগানে কে বজায পূছনা বেহতর হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "संदिग्ध",
+          "bangla_pronunciation": "সংদিগ্ধ",
+          "separator_after": " "
+        },
+        {
+          "target": "अर्थ",
+          "bangla_pronunciation": "অর্থ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुमान",
+          "bangla_pronunciation": "অনুমান",
+          "separator_after": " "
+        },
+        {
+          "target": "लगाने",
+          "bangla_pronunciation": "লগানে",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "बजाय",
+          "bangla_pronunciation": "বজায",
+          "separator_after": " "
+        },
+        {
+          "target": "पूछना",
+          "bangla_pronunciation": "পূছনা",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সন্দেহপূর্ণ অর্থে অনুমান করার বদলে জিজ্ঞেস করা ভালো।"
+    },
+    {
+      "id": "s19",
+      "target": "अंत में अनुवाद को लक्ष्य भाषा की तरह पढ़िए।",
+      "romanization": "aṃta meṃ anuvāda ko lakṣya bhāṣā kī taraha paḍhie",
+      "bangla_pronunciation": "অংত মেঁ অনুভাদ কো লক্ষ্য ভাষা কি তরহ পঢিএ",
+      "word_pronunciations": [
+        {
+          "target": "अंत",
+          "bangla_pronunciation": "অংত",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुवाद",
+          "bangla_pronunciation": "অনুভাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "लक्ष्य",
+          "bangla_pronunciation": "লক্ষ্য",
+          "separator_after": " "
+        },
+        {
+          "target": "भाषा",
+          "bangla_pronunciation": "ভাষা",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কি",
+          "separator_after": " "
+        },
+        {
+          "target": "तरह",
+          "bangla_pronunciation": "তরহ",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़िए।",
+          "bangla_pronunciation": "পঢিএ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শেষে অনুবাদটি লক্ষ্য ভাষার স্বাভাবিক লেখা হিসেবে পড়ুন।"
+    },
+    {
+      "id": "s20",
+      "target": "स्वाभाविकता और सटीकता दोनों जरूरी हैं।",
+      "romanization": "svābhāvikatā aura saṭīkatā donoṃ jarūrī haiṃ",
+      "bangla_pronunciation": "স্ভাভাভিকতা অউর সটীকতা দোনোং জরুরি হ্যায়ঁ",
+      "word_pronunciations": [
+        {
+          "target": "स्वाभाविकता",
+          "bangla_pronunciation": "স্ভাভাভিকতা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "सटीकता",
+          "bangla_pronunciation": "সটীকতা",
+          "separator_after": " "
+        },
+        {
+          "target": "दोनों",
+          "bangla_pronunciation": "দোনোং",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরুরি",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যায়ঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্বাভাবিকতা ও নির্ভুলতা দুটোই জরুরি।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v01",
+      "target": "अर्थ",
+      "type": "word",
+      "romanization": "artha",
+      "bangla_pronunciation": "অর্থ",
+      "word_pronunciations": [
+        {
+          "target": "अर्थ",
+          "bangla_pronunciation": "অর্থ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অর্থ",
+      "source_sentence_id": "s01",
+      "source_form": "अर्थ"
+    },
+    {
+      "id": "v02",
+      "target": "स्थायी",
+      "type": "word",
+      "romanization": "sthāyī",
+      "bangla_pronunciation": "স্থাযী",
+      "word_pronunciations": [
+        {
+          "target": "स्थायी",
+          "bangla_pronunciation": "স্থাযী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্থায়ী",
+      "source_sentence_id": "s02",
+      "source_form": "स्थायी"
+    },
+    {
+      "id": "v03",
+      "target": "अभिव्यक्ति",
+      "type": "word",
+      "romanization": "abhivyakti",
+      "bangla_pronunciation": "অভিব্যক্তি",
+      "word_pronunciations": [
+        {
+          "target": "अभिव्यक्ति",
+          "bangla_pronunciation": "অভিব্যক্তি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অভিব্যক্তি",
+      "source_sentence_id": "s05",
+      "source_form": "अभिव्यक्ति"
+    },
+    {
+      "id": "v04",
+      "target": "शब्दशः",
+      "type": "word",
+      "romanization": "śabdaśaḥ",
+      "bangla_pronunciation": "শব্দশঃ",
+      "word_pronunciations": [
+        {
+          "target": "शब्दशः",
+          "bangla_pronunciation": "শব্দশঃ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শব্দে-শব্দে",
+      "source_sentence_id": "s06",
+      "source_form": "शब्दशः"
+    },
+    {
+      "id": "v05",
+      "target": "संबोधन",
+      "type": "word",
+      "romanization": "saṃbodhana",
+      "bangla_pronunciation": "সংবোধন",
+      "word_pronunciations": [
+        {
+          "target": "संबोधन",
+          "bangla_pronunciation": "সংবোধন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সম্বোধন",
+      "source_sentence_id": "s09",
+      "source_form": "संबोधन"
+    },
+    {
+      "id": "v06",
+      "target": "मूल प्रभाव",
+      "type": "expression",
+      "romanization": "mūla prabhāva",
+      "bangla_pronunciation": "মূল প্রভাভ",
+      "word_pronunciations": [
+        {
+          "target": "मूल",
+          "bangla_pronunciation": "মূল",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रभाव",
+          "bangla_pronunciation": "প্রভাভ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মূল প্রভাব",
+      "source_sentence_id": "s12",
+      "source_form": "मूल प्रभाव"
+    },
+    {
+      "id": "v07",
+      "target": "निरंतरता",
+      "type": "word",
+      "romanization": "niraṃtaratā",
+      "bangla_pronunciation": "নিরংতরতা",
+      "word_pronunciations": [
+        {
+          "target": "निरंतरता",
+          "bangla_pronunciation": "নিরংতরতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ধারাবাহিকতা",
+      "source_sentence_id": "s16",
+      "source_form": "निरंतरता"
+    },
+    {
+      "id": "v08",
+      "target": "सटीकता",
+      "type": "word",
+      "romanization": "saṭīkatā",
+      "bangla_pronunciation": "সটীকতা",
+      "word_pronunciations": [
+        {
+          "target": "सटीकता",
+          "bangla_pronunciation": "সটীকতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নির্ভুলতা",
+      "source_sentence_id": "s20",
+      "source_form": "सटीकता"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "হুবহু নয়, স্বাভাবিক অর্থ",
+    "scene_summary": "একজন অনুবাদক দুই ভাষার খসড়া পাশাপাশি রেখে অর্থ ও স্বাভাবিক প্রকাশ তুলনা করছে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "একজন অনুবাদক ইংরেজি বাক্য হুবহু হিন্দিতে বসিয়ে দেখল, কিন্তু বাক্যটি অস্বাভাবিক শোনাল। সে মনে করল, "
+      },
+      {
+        "kind": "target",
+        "target": "अच्छा अनुवाद शब्दों से पहले अर्थ को पकड़ता है।",
+        "bangla_pronunciation": "অচ্ছা অনুভাদ শব্দোং সে পহলে অর্থ কো পকডতা হ্যায়",
+        "word_pronunciations": [
+          {
+            "target": "अच्छा",
+            "bangla_pronunciation": "অচ্ছা",
+            "separator_after": " "
+          },
+          {
+            "target": "अनुवाद",
+            "bangla_pronunciation": "অনুভাদ",
+            "separator_after": " "
+          },
+          {
+            "target": "शब्दों",
+            "bangla_pronunciation": "শব্দোং",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "separator_after": " "
+          },
+          {
+            "target": "पहले",
+            "bangla_pronunciation": "পহলে",
+            "separator_after": " "
+          },
+          {
+            "target": "अर्थ",
+            "bangla_pronunciation": "অর্থ",
+            "separator_after": " "
+          },
+          {
+            "target": "को",
+            "bangla_pronunciation": "কো",
+            "separator_after": " "
+          },
+          {
+            "target": "पकड़ता",
+            "bangla_pronunciation": "পকডতা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " এরপর সে পুরো উদ্দেশ্য বুঝে নতুনভাবে লিখল, "
+      },
+      {
+        "kind": "target",
+        "target": "फिर स्वाभाविक हिंदी अभिव्यक्ति चुनिए।",
+        "bangla_pronunciation": "ফির স্ভাভাভিক হিন্দি অভিব্যক্তি চুনিএ",
+        "word_pronunciations": [
+          {
+            "target": "फिर",
+            "bangla_pronunciation": "ফির",
+            "separator_after": " "
+          },
+          {
+            "target": "स्वाभाविक",
+            "bangla_pronunciation": "স্ভাভাভিক",
+            "separator_after": " "
+          },
+          {
+            "target": "हिंदी",
+            "bangla_pronunciation": "হিন্দি",
+            "separator_after": " "
+          },
+          {
+            "target": "अभिव्यक्ति",
+            "bangla_pronunciation": "অভিব্যক্তি",
+            "separator_after": " "
+          },
+          {
+            "target": "चुनिए।",
+            "bangla_pronunciation": "চুনিএ",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " তারপর রেজিস্টারও মিলিয়ে নিল। শেষে সে নিজেকে মনে করাল, "
+      },
+      {
+        "kind": "target",
+        "target": "स्वाभाविकता और सटीकता दोनों जरूरी हैं।",
+        "bangla_pronunciation": "স্ভাভাভিকতা অউর সটীকতা দোনোং জরুরি হ্যায়ঁ",
+        "word_pronunciations": [
+          {
+            "target": "स्वाभाविकता",
+            "bangla_pronunciation": "স্ভাভাভিকতা",
+            "separator_after": " "
+          },
+          {
+            "target": "और",
+            "bangla_pronunciation": "অউর",
+            "separator_after": " "
+          },
+          {
+            "target": "सटीकता",
+            "bangla_pronunciation": "সটীকতা",
+            "separator_after": " "
+          },
+          {
+            "target": "दोनों",
+            "bangla_pronunciation": "দোনোং",
+            "separator_after": " "
+          },
+          {
+            "target": "जरूरी",
+            "bangla_pronunciation": "জরুরি",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যায়ঁ",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " ফলে অনুবাদটি বেশি স্বাভাবিক হলো।"
+      }
+    ],
+    "text_md": "একজন অনুবাদক ইংরেজি বাক্য হুবহু হিন্দিতে বসিয়ে দেখল, কিন্তু বাক্যটি অস্বাভাবিক শোনাল। সে মনে করল, **अच्छा** (অচ্ছা) **अनुवाद** (অনুভাদ) **शब्दों** (শব্দোং) **से** (সে) **पहले** (পহলে) **अर्थ** (অর্থ) **को** (কো) **पकड़ता** (পকডতা) **है।** (হ্যায়) এরপর সে পুরো উদ্দেশ্য বুঝে নতুনভাবে লিখল, **फिर** (ফির) **स्वाभाविक** (স্ভাভাভিক) **हिंदी** (হিন্দি) **अभिव्यक्ति** (অভিব্যক্তি) **चुनिए।** (চুনিএ) তারপর রেজিস্টারও মিলিয়ে নিল। শেষে সে নিজেকে মনে করাল, **स्वाभाविकता** (স্ভাভাভিকতা) **और** (অউর) **सटीकता** (সটীকতা) **दोनों** (দোনোং) **जरूरी** (জরুরি) **हैं।** (হ্যায়ঁ) ফলে অনুবাদটি বেশি স্বাভাবিক হলো।"
+  },
+  "target_reading": {
+    "mode": "article",
+    "title_bengali": "প্রসঙ্গ বদলালে শব্দ বদলায়",
+    "scene_summary": "একজন সম্পাদক লক্ষ্য ভাষার অনুবাদটি স্বতন্ত্র লেখা হিসেবে পড়ে চূড়ান্ত সংশোধন করছে।",
+    "lines": [
+      {
+        "target": "संदर्भ बदलते ही सही शब्द भी बदल सकता है।",
+        "bangla_pronunciation": "সন্দর্ভ বদলতে হি সহি শব্দ ভি বদল সকতা হ্যায়",
+        "word_pronunciations": [
+          {
+            "target": "संदर्भ",
+            "bangla_pronunciation": "সন্দর্ভ",
+            "separator_after": " "
+          },
+          {
+            "target": "बदलते",
+            "bangla_pronunciation": "বদলতে",
+            "separator_after": " "
+          },
+          {
+            "target": "ही",
+            "bangla_pronunciation": "হি",
+            "separator_after": " "
+          },
+          {
+            "target": "सही",
+            "bangla_pronunciation": "সহি",
+            "separator_after": " "
+          },
+          {
+            "target": "शब्द",
+            "bangla_pronunciation": "শব্দ",
+            "separator_after": " "
+          },
+          {
+            "target": "भी",
+            "bangla_pronunciation": "ভি",
+            "separator_after": " "
+          },
+          {
+            "target": "बदल",
+            "bangla_pronunciation": "বদল",
+            "separator_after": " "
+          },
+          {
+            "target": "सकता",
+            "bangla_pronunciation": "সকতা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मुहावरे का अर्थ अक्सर उसके शब्दों से अलग होता है।",
+        "bangla_pronunciation": "মুহাভরে কা অর্থ অক্সর উসকে শব্দোং সে অলগ হোতা হ্যায়",
+        "word_pronunciations": [
+          {
+            "target": "मुहावरे",
+            "bangla_pronunciation": "মুহাভরে",
+            "separator_after": " "
+          },
+          {
+            "target": "का",
+            "bangla_pronunciation": "কা",
+            "separator_after": " "
+          },
+          {
+            "target": "अर्थ",
+            "bangla_pronunciation": "অর্থ",
+            "separator_after": " "
+          },
+          {
+            "target": "अक्सर",
+            "bangla_pronunciation": "অক্সর",
+            "separator_after": " "
+          },
+          {
+            "target": "उसके",
+            "bangla_pronunciation": "উসকে",
+            "separator_after": " "
+          },
+          {
+            "target": "शब्दों",
+            "bangla_pronunciation": "শব্দোং",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "separator_after": " "
+          },
+          {
+            "target": "अलग",
+            "bangla_pronunciation": "অলগ",
+            "separator_after": " "
+          },
+          {
+            "target": "होता",
+            "bangla_pronunciation": "হোতা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "कभी-कभी क्रम बदलने से अर्थ अधिक स्पष्ट होता है।",
+        "bangla_pronunciation": "কভী-কভী ক্রম বদলনে সে অর্থ অধিক স্পষ্ট হোতা হ্যায়",
+        "word_pronunciations": [
+          {
+            "target": "कभी-कभी",
+            "bangla_pronunciation": "কভী-কভী",
+            "separator_after": " "
+          },
+          {
+            "target": "क्रम",
+            "bangla_pronunciation": "ক্রম",
+            "separator_after": " "
+          },
+          {
+            "target": "बदलने",
+            "bangla_pronunciation": "বদলনে",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "separator_after": " "
+          },
+          {
+            "target": "अर्थ",
+            "bangla_pronunciation": "অর্থ",
+            "separator_after": " "
+          },
+          {
+            "target": "अधिक",
+            "bangla_pronunciation": "অধিক",
+            "separator_after": " "
+          },
+          {
+            "target": "स्पष्ट",
+            "bangla_pronunciation": "স্পষ্ট",
+            "separator_after": " "
+          },
+          {
+            "target": "होता",
+            "bangla_pronunciation": "হোতা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "जरूरत हो तो छोटा स्पष्टीकरण जोड़ा जा सकता है।",
+        "bangla_pronunciation": "জরূরত হো তো ছোটা স্পষ্টীকরণ জোডা জা সকতা হ্যায়",
+        "word_pronunciations": [
+          {
+            "target": "जरूरत",
+            "bangla_pronunciation": "জরূরত",
+            "separator_after": " "
+          },
+          {
+            "target": "हो",
+            "bangla_pronunciation": "হো",
+            "separator_after": " "
+          },
+          {
+            "target": "तो",
+            "bangla_pronunciation": "তো",
+            "separator_after": " "
+          },
+          {
+            "target": "छोटा",
+            "bangla_pronunciation": "ছোটা",
+            "separator_after": " "
+          },
+          {
+            "target": "स्पष्टीकरण",
+            "bangla_pronunciation": "স্পষ্টীকরণ",
+            "separator_after": " "
+          },
+          {
+            "target": "जोड़ा",
+            "bangla_pronunciation": "জোডা",
+            "separator_after": " "
+          },
+          {
+            "target": "जा",
+            "bangla_pronunciation": "জা",
+            "separator_after": " "
+          },
+          {
+            "target": "सकता",
+            "bangla_pronunciation": "সকতা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "अंत में अनुवाद को लक्ष्य भाषा की तरह पढ़िए।",
+        "bangla_pronunciation": "অংত মেঁ অনুভাদ কো লক্ষ্য ভাষা কি তরহ পঢিএ",
+        "word_pronunciations": [
+          {
+            "target": "अंत",
+            "bangla_pronunciation": "অংত",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "अनुवाद",
+            "bangla_pronunciation": "অনুভাদ",
+            "separator_after": " "
+          },
+          {
+            "target": "को",
+            "bangla_pronunciation": "কো",
+            "separator_after": " "
+          },
+          {
+            "target": "लक्ष्य",
+            "bangla_pronunciation": "লক্ষ্য",
+            "separator_after": " "
+          },
+          {
+            "target": "भाषा",
+            "bangla_pronunciation": "ভাষা",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কি",
+            "separator_after": " "
+          },
+          {
+            "target": "तरह",
+            "bangla_pronunciation": "তরহ",
+            "separator_after": " "
+          },
+          {
+            "target": "पढ़िए।",
+            "bangla_pronunciation": "পঢিএ",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "সন্দর্ভ বদলতে হি সহি শব্দ ভি বদল সকতা হ্যায় মুহাভরে কা অর্থ অক্সর উসকে শব্দোং সে অলগ হোতা হ্যায় কভী-কভী ক্রম বদলনে সে অর্থ অধিক স্পষ্ট হোতা হ্যায় জরূরত হো তো ছোটা স্পষ্টীকরণ জোডা জা সকতা হ্যায় অংত মেঁ অনুভাদ কো লক্ষ্য ভাষা কি তরহ পঢিএ",
+    "meaning_bengali_md": "প্রসঙ্গ বদলালে সঠিক শব্দও বদলে যেতে পারে। বাগধারার অর্থ প্রায়ই তার আলাদা শব্দগুলোর অর্থ থেকে ভিন্ন। কখনো ক্রম বদলালে অর্থ আরও পরিষ্কার হয়। প্রয়োজনে ছোট ব্যাখ্যা যোগ করা যেতে পারে। শেষে অনুবাদটি লক্ষ্য ভাষার স্বাভাবিক লেখা হিসেবে পড়ুন।"
+  },
+  "script_practice": [
+    {
+      "item_id": "script-anusvara",
+      "mode": "review",
+      "target": "ं",
+      "bangla_pronunciation": "ং",
+      "explanation_bengali_md": "অনুস্বার; পরের ধ্বনি অনুযায়ী নাসিক্য উচ্চারণ বদলাতে পারে।",
+      "practice_bengali_md": "অনুস্বারযুক্ত শব্দে নাসিক্য অংশটি আলাদা করে শুনুন।"
+    },
+    {
+      "item_id": "script-chandra",
+      "mode": "review",
+      "target": "ँ",
+      "bangla_pronunciation": "ঁ",
+      "explanation_bengali_md": "চন্দ্রবিন্দু স্বরকে নাসিক্য করে।",
+      "practice_bengali_md": "চন্দ্রবিন্দুযুক্ত শব্দে নাক দিয়ে বাতাস বের হওয়া লক্ষ্য করুন।"
+    },
+    {
+      "item_id": "script-halant",
+      "mode": "review",
+      "target": "्",
+      "bangla_pronunciation": "্",
+      "explanation_bengali_md": "হলন্ত/বিরাম স্বরহীন ব্যঞ্জন বা যুক্তব্যঞ্জন গঠনে ব্যবহৃত হয়।",
+      "practice_bengali_md": "যুক্তব্যঞ্জনে হলন্ত কোথায় কাজ করছে তা চিহ্নিত করুন।"
+    },
+    {
+      "item_id": "script-nukta",
+      "mode": "review",
+      "target": "़",
+      "bangla_pronunciation": "নুকতা",
+      "explanation_bengali_md": "নুকতা কিছু ব্যঞ্জনের আলাদা ধ্বনি বোঝায়।",
+      "practice_bengali_md": "নুকতাযুক্ত অক্ষর ও সাধারণ অক্ষর পাশাপাশি দেখে পার্থক্য করুন।"
+    },
+    {
+      "item_id": "script-ksha",
+      "mode": "review",
+      "target": "क्ष",
+      "bangla_pronunciation": "ক্ষ",
+      "explanation_bengali_md": "যুক্তধ্বনি হিসেবে ক্ষ/ক্‌ষ ধরনের উচ্চারণ চেনার অনুশীলন।",
+      "practice_bengali_md": "এই যুক্তরূপ দেখলে ধীরে ধীরে অংশগুলো শনাক্ত করুন।"
+    }
+  ],
+  "number_practice": null,
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "অনুশীলন 1: প্রসঙ্গ অনুযায়ী মডেল বাক্যটি স্বাভাবিকভাবে বলুন, তারপর নিজের তথ্য দিয়ে একই গঠন ব্যবহার করুন।",
+      "model_target": "एक अच्छा अनुवाद पढ़कर अनुवाद जैसा नहीं लगता।",
+      "model_bangla_pronunciation": "এক অচ্ছা অনুভাদ পঢকর অনুভাদ জৈসা নহিঁ লগতা",
+      "model_word_pronunciations": [
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुवाद",
+          "bangla_pronunciation": "অনুভাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़कर",
+          "bangla_pronunciation": "পঢকর",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुवाद",
+          "bangla_pronunciation": "অনুভাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "जैसा",
+          "bangla_pronunciation": "জৈসা",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহিঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "लगता।",
+          "bangla_pronunciation": "লগতা",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ভালো অনুবাদ পড়লে অনুবাদ বলে মনে হয় না।"
+    },
+    {
+      "prompt_bengali_md": "অনুশীলন 2: প্রসঙ্গ অনুযায়ী মডেল বাক্যটি স্বাভাবিকভাবে বলুন, তারপর নিজের তথ্য দিয়ে একই গঠন ব্যবহার করুন।",
+      "model_target": "तकनीकी शब्दों में निरंतरता बनाए रखना जरूरी है।",
+      "model_bangla_pronunciation": "তকনীকী শব্দোং মেঁ নিরংতরতা বনাএ রখনা জরুরি হ্যায়",
+      "model_word_pronunciations": [
+        {
+          "target": "तकनीकी",
+          "bangla_pronunciation": "তকনীকী",
+          "separator_after": " "
+        },
+        {
+          "target": "शब्दों",
+          "bangla_pronunciation": "শব্দোং",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "निरंतरता",
+          "bangla_pronunciation": "নিরংতরতা",
+          "separator_after": " "
+        },
+        {
+          "target": "बनाए",
+          "bangla_pronunciation": "বনাএ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखना",
+          "bangla_pronunciation": "রখনা",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরুরি",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "প্রযুক্তিগত শব্দে ধারাবাহিকতা বজায় রাখা জরুরি।"
+    },
+    {
+      "prompt_bengali_md": "অনুশীলন 3: প্রসঙ্গ অনুযায়ী মডেল বাক্যটি স্বাভাবিকভাবে বলুন, তারপর নিজের তথ্য দিয়ে একই গঠন ব্যবহার করুন।",
+      "model_target": "एक ही शब्द अलग क्षेत्रों में अलग अर्थ दे सकता है।",
+      "model_bangla_pronunciation": "এক হি শব্দ অলগ ক্ষেত্রোং মেঁ অলগ অর্থ দে সকতা হ্যায়",
+      "model_word_pronunciations": [
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "ही",
+          "bangla_pronunciation": "হি",
+          "separator_after": " "
+        },
+        {
+          "target": "शब्द",
+          "bangla_pronunciation": "শব্দ",
+          "separator_after": " "
+        },
+        {
+          "target": "अलग",
+          "bangla_pronunciation": "অলগ",
+          "separator_after": " "
+        },
+        {
+          "target": "क्षेत्रों",
+          "bangla_pronunciation": "ক্ষেত্রোং",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "अलग",
+          "bangla_pronunciation": "অলগ",
+          "separator_after": " "
+        },
+        {
+          "target": "अर्थ",
+          "bangla_pronunciation": "অর্থ",
+          "separator_after": " "
+        },
+        {
+          "target": "दे",
+          "bangla_pronunciation": "দে",
+          "separator_after": " "
+        },
+        {
+          "target": "सकता",
+          "bangla_pronunciation": "সকতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "একই শব্দ ভিন্ন ক্ষেত্রে ভিন্ন অর্থ দিতে পারে।"
+    },
+    {
+      "prompt_bengali_md": "অনুশীলন 4: প্রসঙ্গ অনুযায়ী মডেল বাক্যটি স্বাভাবিকভাবে বলুন, তারপর নিজের তথ্য দিয়ে একই গঠন ব্যবহার করুন।",
+      "model_target": "संदिग्ध अर्थ में अनुमान लगाने के बजाय पूछना बेहतर है।",
+      "model_bangla_pronunciation": "সংদিগ্ধ অর্থ মেঁ অনুমান লগানে কে বজায পূছনা বেহতর হ্যায়",
+      "model_word_pronunciations": [
+        {
+          "target": "संदिग्ध",
+          "bangla_pronunciation": "সংদিগ্ধ",
+          "separator_after": " "
+        },
+        {
+          "target": "अर्थ",
+          "bangla_pronunciation": "অর্থ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुमान",
+          "bangla_pronunciation": "অনুমান",
+          "separator_after": " "
+        },
+        {
+          "target": "लगाने",
+          "bangla_pronunciation": "লগানে",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "बजाय",
+          "bangla_pronunciation": "বজায",
+          "separator_after": " "
+        },
+        {
+          "target": "पूछना",
+          "bangla_pronunciation": "পূছনা",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "সন্দেহপূর্ণ অর্থে অনুমান করার বদলে জিজ্ঞেস করা ভালো।"
+    },
+    {
+      "prompt_bengali_md": "অনুশীলন 5: প্রসঙ্গ অনুযায়ী মডেল বাক্যটি স্বাভাবিকভাবে বলুন, তারপর নিজের তথ্য দিয়ে একই গঠন ব্যবহার করুন।",
+      "model_target": "अंत में अनुवाद को लक्ष्य भाषा की तरह पढ़िए।",
+      "model_bangla_pronunciation": "অংত মেঁ অনুভাদ কো লক্ষ্য ভাষা কি তরহ পঢিএ",
+      "model_word_pronunciations": [
+        {
+          "target": "अंत",
+          "bangla_pronunciation": "অংত",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुवाद",
+          "bangla_pronunciation": "অনুভাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "लक्ष्य",
+          "bangla_pronunciation": "লক্ষ্য",
+          "separator_after": " "
+        },
+        {
+          "target": "भाषा",
+          "bangla_pronunciation": "ভাষা",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কি",
+          "separator_after": " "
+        },
+        {
+          "target": "तरह",
+          "bangla_pronunciation": "তরহ",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़िए।",
+          "bangla_pronunciation": "পঢিএ",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "শেষে অনুবাদটি লক্ষ্য ভাষার স্বাভাবিক লেখা হিসেবে পড়ুন।"
+    },
+    {
+      "prompt_bengali_md": "অনুশীলন 6: প্রসঙ্গ অনুযায়ী মডেল বাক্যটি স্বাভাবিকভাবে বলুন, তারপর নিজের তথ্য দিয়ে একই গঠন ব্যবহার করুন।",
+      "model_target": "स्वाभाविकता और सटीकता दोनों जरूरी हैं।",
+      "model_bangla_pronunciation": "স্ভাভাভিকতা অউর সটীকতা দোনোং জরুরি হ্যায়ঁ",
+      "model_word_pronunciations": [
+        {
+          "target": "स्वाभाविकता",
+          "bangla_pronunciation": "স্ভাভাভিকতা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "सटीकता",
+          "bangla_pronunciation": "সটীকতা",
+          "separator_after": " "
+        },
+        {
+          "target": "दोनों",
+          "bangla_pronunciation": "দোনোং",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরুরি",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যায়ঁ",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "স্বাভাবিকতা ও নির্ভুলতা দুটোই জরুরি।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch049_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "একজন অনুবাদক দুই ভাষার খসড়া পাশাপাশি রেখে অর্থ ও স্বাভাবিক প্রকাশ তুলনা করছে। Bright, realistic South Asian professional setting, natural gestures, clear focal action, medium-wide composition, soft daylight. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright editorial illustration with realistic proportions, warm daylight, clean contemporary details, coherent South Asian context, uncluttered composition."
+    },
+    {
+      "key": "ch049_target_reading_01",
+      "reading": "target_reading",
+      "subject": "একজন সম্পাদক লক্ষ্য ভাষার অনুবাদটি স্বতন্ত্র লেখা হিসেবে পড়ে চূড়ান্ত সংশোধন করছে। Distinct composition from the first image, focused human action, subtle depth, calm bright lighting. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright editorial illustration with realistic proportions, calm modern palette, soft natural light, clear focal point, uncluttered educational-book composition."
+    }
+  ],
+  "additional_practice": []
+}

@@ -1,39 +1,48 @@
-"""The embedded font stack, as @font-face CSS.
+"""Offline PDF/EPUB fonts declared in assets/fonts/fonts.json.
 
-Font policy, inherited from the reference project and non-negotiable:
-
-    English text   Miriam Libre
-    Bengali text   Noto Serif Bengali
-    IPA text       Noto Serif Bengali
-
-Miriam Libre carries no Bengali glyphs, so it goes FIRST in every font stack.
-Pure-English fragments ("Day 01") render in Miriam Libre; Bengali characters fall
-through to Noto Serif Bengali. That fall-through is the whole trick, and it is why
-mixed Bangla/English sentences render correctly without any markup around them.
-
-Fonts are embedded from assets/fonts/ as file:// URIs. Never link Google Fonts —
-a PDF render must not depend on the network.
+PDF CSS embeds exact bundled binaries as data URIs to prevent asynchronous font
+loading from producing invisible text. EPUB CSS uses archive-relative paths.
 """
 from __future__ import annotations
 
 import base64
+import hashlib
+import json
 from pathlib import Path
 
 from .config import FONT_DIR
 
-FACES = [
-    ("Miriam Libre", "MiriamLibre-Regular.ttf", 400, "normal"),
-    ("Miriam Libre", "MiriamLibre-Bold.ttf", 700, "normal"),
-    ("Noto Serif Bengali", "NotoSerifBengali-Regular.ttf", 400, "normal"),
-    ("Noto Serif Bengali", "NotoSerifBengali-Medium.ttf", 500, "normal"),
-    ("Noto Serif Bengali", "NotoSerifBengali-SemiBold.ttf", 600, "normal"),
-    ("Noto Serif Bengali", "NotoSerifBengali-Bold.ttf", 700, "normal"),
-]
+def load_font_config(font_dir: Path | None = None) -> dict:
+    """Load the bundled font choices; no font family is hard-coded in Python."""
+    directory = font_dir or FONT_DIR
+    config = json.loads((directory / "fonts.json").read_text(encoding="utf-8"))
+    for face in config["faces"]:
+        filename = face["filename"]
+        if Path(filename).name != filename:
+            raise ValueError(f"Font filename must be local: {filename}")
+        path = directory / filename
+        if not path.is_file():
+            raise FileNotFoundError(f"Missing bundled font: {path}")
+        if hashlib.sha256(path.read_bytes()).hexdigest() != face["sha256"]:
+            raise ValueError(f"Bundled font hash mismatch: {path}")
+    return config
 
-# English first, Bengali as fall-through. Use this everywhere.
-STACK = "'Miriam Libre', 'Noto Serif Bengali', sans-serif"
-# For a Bangla-dominant block where Latin fragments are incidental.
-STACK_BN = "'Noto Serif Bengali', 'Miriam Libre', serif"
+
+def _faces(config: dict) -> list[tuple[str, str, int, str]]:
+    return [(f["family"], f["filename"], f["weight"], f["style"])
+            for f in config["faces"]]
+
+
+def _stack(names: list[str]) -> str:
+    generic = {"serif", "sans-serif", "monospace", "cursive", "fantasy", "system-ui"}
+    return ", ".join(name if name in generic else "'" + name + "'" for name in names)
+
+
+_CONFIG = load_font_config()
+FACES = _faces(_CONFIG)
+STACK = _stack(_CONFIG["stacks"]["default"])
+STACK_BN = _stack(_CONFIG["stacks"]["bangla"])
+STACK_TARGET = _stack(_CONFIG["stacks"]["target"])
 
 
 def font_face_css(font_dir: Path | None = None, embed: bool = True) -> str:
@@ -54,12 +63,12 @@ def font_face_css(font_dir: Path | None = None, embed: bool = True) -> str:
     """
     directory = font_dir or FONT_DIR
     rules = []
-    for family, filename, weight, style in FACES:
+    for family, filename, weight, style in _faces(load_font_config(directory)):
         path = directory / filename
         if not path.is_file():
             raise FileNotFoundError(
                 f"Missing font {path}. Fonts live in assets/fonts/ at the repo root; "
-                f"they were copied from the reference project."
+                f"consult the source and license manifest in fonts.json."
             )
         if embed:
             b64 = base64.b64encode(path.read_bytes()).decode("ascii")
@@ -88,4 +97,4 @@ def epub_font_faces() -> str:
 def epub_font_files(font_dir: Path | None = None) -> list[Path]:
     """The .ttf files an EPUB must carry so it renders offline on any e-reader."""
     directory = font_dir or FONT_DIR
-    return [directory / filename for _, filename, _, _ in FACES]
+    return [directory / filename for _, filename, _, _ in _faces(load_font_config(directory))]
