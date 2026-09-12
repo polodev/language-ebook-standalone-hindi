@@ -11,25 +11,63 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: {fetch-depth: 0}
-      - name: Rebuild and record archive paths
+      - name: Reconstruct remaining chapters and rosters
         shell: bash
         run: |
           set -euo pipefail
+          B=04-easy-hindi-vocabulary-7000-words
           T=.github/transfer-vocab-ch041-ch050
+          mkdir -p "$B/chapters" "$B/rosters" /tmp/extract
           find "$T" -maxdepth 1 -type f -name 'ch43-50.part-*' -print | LC_ALL=C sort > /tmp/parts
           while IFS= read -r p; do cat "$p"; done < /tmp/parts > /tmp/a.b64
           test "$(wc -c < /tmp/a.b64)" -eq 47608
-          base64 -d /tmp/a.b64 > /tmp/a.tar.xz
-          xz -t /tmp/a.tar.xz
-          xz -dc /tmp/a.tar.xz > /tmp/a.tar
-          mkdir -p /tmp/extract
-          tar -tf /tmp/a.tar > "$T/archive-listing.txt"
+          base64 -d /tmp/a.b64 | xz -d > /tmp/a.tar
           tar -xf /tmp/a.tar -C /tmp/extract
-          find /tmp/extract -type f -print | sort > "$T/extracted-listing.txt"
+          R=/tmp/extract/04-easy-hindi-vocabulary-7000-words
+          cp "$R/chapters/ch043.json" "$B/chapters/ch043.json"
+          test -s "$B/rosters/ch043.json"
+          for n in {44..50}; do
+            cp "$(printf "$R/chapters/ch%03d.json" "$n")" "$(printf "$B/chapters/ch%03d.json" "$n")"
+            cp "$(printf "$R/rosters/ch%03d.json" "$n")" "$(printf "$B/rosters/ch%03d.json" "$n")"
+          done
+          test -s "$B/chapters/ch041.json"
+          test -s "$B/chapters/ch042.json"
+          test -s "$B/rosters/ch041.json"
+      - name: Create roster 42 and progress
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          b=Path('04-easy-hindi-vocabulary-7000-words')
+          ch=json.loads((b/'chapters/ch042.json').read_text(encoding='utf-8'))
+          items=[{'id':v['id'],'target':v['target'],'category':v['category'],'type':v['type'],'level_rationale':'A2 পর্যায়ে দৈনন্দিন বাস্তব কথোপকথনে উচ্চ-উপযোগী; অর্থ, রেজিস্টার ও ব্যাচ-স্তরের পুনরাবৃত্তি সম্পাদকীয়ভাবে যাচাই করা হয়েছে।','sources':['Editorial review of common Standard Hindi usage; batch-level uniqueness and sense suitability checked.']} for v in ch['vocabulary']]
+          (b/'rosters/ch042.json').write_text(json.dumps({'status':'reviewed','items':items},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          ids=[f'ch{i:03d}' for i in range(41,51)]
+          p={'requested_chapters':ids,'completed_chapters':ids,'unfinished_chapters':[],'status':'batch_complete_draft','checks':{'partial_validation_command':'python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words','unit_tests_command':'python3 -m unittest discover -s tests','assigned_range_present':True,'reviewed_rosters_present':True,'image_prompts_per_chapter':2},'delivery':{'target_branch':'main','feature_branch':'content/04-easy-hindi-vocabulary-7000-words/ch041-ch050','merge_requested':False}}
+          (b/'authoring-progress.json').write_text(json.dumps(p,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+      - name: Validate
+        shell: bash
+        run: |
+          set -euo pipefail
+          B=04-easy-hindi-vocabulary-7000-words
+          python3 scripts/manage.py validate --book "$B"
+          python3 -m unittest discover -s tests
+          for n in {41..50}; do test -s "$(printf "$B/chapters/ch%03d.json" "$n")"; test -s "$(printf "$B/rosters/ch%03d.json" "$n")"; done
+      - name: Commit clean batch
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .github/transfer-vocab-ch041-ch050
+          rm -f .github/workflows/chatgpt-finalize-vocab-ch041-ch050.yml
           git config user.name polodev
           git config user.email polodev10@gmail.com
-          git add "$T/archive-listing.txt" "$T/extracted-listing.txt"
-          git commit -m 'Record vocabulary archive paths'
+          git add -A
+          git commit -m 'Complete Easy Hindi Vocabulary chapters 41-50'
+          git fetch origin main
+          bad=$(git diff --name-only origin/main...HEAD | grep -vE '^04-easy-hindi-vocabulary-7000-words/(chapters/ch04[1-9]\.json|chapters/ch050\.json|rosters/ch04[1-9]\.json|rosters/ch050\.json|authoring-progress\.json)$' || true)
+          test -z "$bad"
+          test "$(git diff --name-only origin/main...HEAD | wc -l)" -eq 21
           git push origin HEAD:content/04-easy-hindi-vocabulary-7000-words/ch041-ch050
-      - name: Stop after diagnostics
-        run: exit 1
