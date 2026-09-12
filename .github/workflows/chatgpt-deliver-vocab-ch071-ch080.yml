@@ -19,12 +19,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Reconstruct transfer archive
+      - name: Reconstruct and verify transfer archive
         shell: bash
         run: |
-          set -o pipefail
-          cat .github/transfer/ch71-80.part-* | base64 -d | xz -dc > /tmp/ch71-80.tar || true
-          test -s /tmp/ch71-80.tar
+          set -euo pipefail
+          cat .github/transfer/ch71-80.part-* | base64 -d | xz -d > /tmp/ch71-80.tar
           tar -tf /tmp/ch71-80.tar
 
       - name: Verify base, extract, preserve progress, and validate
@@ -37,6 +36,12 @@ jobs:
           git fetch origin main
           test "$(git rev-parse origin/main)" = "$EXPECTED_MAIN"
           git checkout -B delivery origin/main
+          for n in {71..80}; do
+            c=$(printf '04-easy-hindi-vocabulary-7000-words/chapters/ch%03d.json' "$n")
+            r=$(printf '04-easy-hindi-vocabulary-7000-words/rosters/ch%03d.json' "$n")
+            test ! -e "$c"
+            test ! -e "$r"
+          done
           tar -xf /tmp/ch71-80.tar
           for n in {71..80}; do
             c=$(printf '04-easy-hindi-vocabulary-7000-words/chapters/ch%03d.json' "$n")
@@ -56,7 +61,7 @@ jobs:
               "status": "delivery_commit_pending_at_validation",
               "target_branch": "content/04-easy-hindi-vocabulary-7000-words/ch071-ch080",
               "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
-              "method": "GitHub Actions byte-exact transport to a separate review branch; truncated xz footer tolerated only after tar payload integrity checks.",
+              "method": "GitHub Actions byte-exact transport to a separate review branch.",
               "force_push": False
           }
           dest.write_text(json.dumps(incoming, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
