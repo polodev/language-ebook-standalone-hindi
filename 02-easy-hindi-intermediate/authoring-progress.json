@@ -32,20 +32,25 @@
         {
           "name": "batch_structural_validation",
           "status": "passed",
-          "detail": "Checked all ten chapter JSON files against the current scripts/manage.py structural rules: exact sentence counts, unique IDs/targets, exact word-pronunciation reconstruction, vocabulary source references, mixed-reading Markdown mirrors, pure-reading line/unit limits, script/number/speaking counts, image keys, and required no-text image-prompt wording."
+          "detail": "Checked the authored batch against the current scripts/manage.py structural contract used for this book: 20 sentence entries per chapter, unique IDs and sentence targets, exact word-pronunciation reconstruction, vocabulary source references, mixed-reading Markdown mirrors, pure-reading line/unit limits, five script cards, two number cards, six speaking tasks, two image keys, and required no-text image-prompt wording."
         },
         {
           "name": "batch_inventory",
           "status": "passed",
-          "detail": "10 chapters, 200 essential sentences, 50 script-practice cards, 60 speaking-practice tasks, 20 reading image prompts; every chapter has two number cards."
+          "detail": "10 chapters, 200 essential sentences, 50 script-practice cards, 20 number-practice cards, 60 speaking-practice tasks, and 20 reading image prompts."
+        },
+        {
+          "name": "branch_diff_scope",
+          "status": "passed",
+          "detail": "Compared the delivery branch with main. The diff contains exactly 11 expected files: authoring-progress.json plus chapters ch021.json through ch030.json, with no changes outside 02-easy-hindi-intermediate."
         },
         {
           "name": "repository_manage_py_cli",
           "status": "not_run",
-          "detail": "The execution container has no network route to the private GitHub repository and the connector does not mount a working tree, so python3 scripts/manage.py validate --book 02-easy-hindi-intermediate could not be run against a checkout. Structural validation was performed locally using the current validator constraints read from main."
+          "detail": "The execution container has no network route to the private GitHub repository and the GitHub connector does not mount a working tree, so python3 scripts/manage.py validate --book 02-easy-hindi-intermediate could not be run against a checkout. This is recorded as an environment limitation rather than an automated pass."
         }
       ],
-      "updated_at": "2026-09-12 02:26 +06:00"
+      "updated_at": "2026-09-12 15:27 +06:00"
     }
   ]
 }
