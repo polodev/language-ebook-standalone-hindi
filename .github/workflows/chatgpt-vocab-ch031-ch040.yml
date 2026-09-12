@@ -1,0 +1,96 @@
+name: Complete Hindi vocabulary ch031-ch040
+
+on:
+  push:
+    branches:
+      - content/04-easy-hindi-vocabulary-7000-words/ch031-ch040
+    paths:
+      - '.github/workflows/chatgpt-vocab-ch031-ch040.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  complete-batch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout batch branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Verify main base is unchanged
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          test "$(git rev-parse origin/main)" = "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6"
+
+      - name: Generate chapters 33-40 and progress
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 .github/vocab-ch031-ch040-generate.py
+          for n in {31..40}; do
+            test -s "04-easy-hindi-vocabulary-7000-words/chapters/$(printf 'ch%03d.json' "$n")"
+            test -s "04-easy-hindi-vocabulary-7000-words/rosters/$(printf 'ch%03d.json' "$n")"
+          done
+          test -s 04-easy-hindi-vocabulary-7000-words/authoring-progress.json
+
+      - name: Run official book validator
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words
+
+      - name: Audit requested batch inventory
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('04-easy-hindi-vocabulary-7000-words')
+          ids = [f'ch{i:03d}' for i in range(31, 41)]
+          vocab_ids = []
+          targets = []
+          for cid in ids:
+              ch = json.loads((root/'chapters'/f'{cid}.json').read_text(encoding='utf-8'))
+              roster = json.loads((root/'rosters'/f'{cid}.json').read_text(encoding='utf-8'))
+              assert ch['chapter_id'] == cid and ch['status'] == 'drafted'
+              assert roster['status'] == 'reviewed'
+              assert len(ch['sentences']) == 20
+              assert len(ch['vocabulary']) == 30
+              assert len(ch['script_practice']) == 5
+              assert ch['number_practice'] is None or len(ch['number_practice']) in (2, 3)
+              assert len(ch['speaking_practice']) == 6
+              assert len(ch['image_prompts']) == 2
+              assert [x['id'] for x in ch['vocabulary']] == [x['id'] for x in roster['items']]
+              assert [x['target'] for x in ch['vocabulary']] == [x['target'] for x in roster['items']]
+              assert [x['category'] for x in ch['vocabulary']] == [('expression' if i % 6 == 0 else 'word') for i in range(1,31)]
+              assert all(len(s['word_pronunciations']) <= 6 for s in ch['sentences'])
+              assert len(ch['target_reading']['lines']) in range(4,9)
+              assert all('No readable text, no labels, no signage, no watermark.' in p['subject'] for p in ch['image_prompts'])
+              vocab_ids += [x['id'] for x in ch['vocabulary']]
+              targets += [x['target'] for x in ch['vocabulary']]
+          assert vocab_ids == [f'v{i:05d}' for i in range(901, 1201)]
+          assert len(set(targets)) == 300
+          print('Batch audit passed: 10 chapters, 200 sentences, 300 unique targets, 60 speaking tasks, 20 image prompts')
+          PY
+
+      - name: Remove temporary execution files and commit source batch
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm .github/vocab-ch031-ch040-generate.py .github/workflows/chatgpt-vocab-ch031-ch040.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A \
+            .github/vocab-ch031-ch040-generate.py \
+            .github/workflows/chatgpt-vocab-ch031-ch040.yml \
+            04-easy-hindi-vocabulary-7000-words/chapters \
+            04-easy-hindi-vocabulary-7000-words/rosters \
+            04-easy-hindi-vocabulary-7000-words/authoring-progress.json
+          git diff --cached --check
+          git commit -m "Complete Hindi vocabulary chapters 31-40"
+          git push origin HEAD:content/04-easy-hindi-vocabulary-7000-words/ch031-ch040
