@@ -1,0 +1,63 @@
+{
+  "book": "04-easy-hindi-vocabulary-7000-words",
+  "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+  "branch": "content/04-easy-hindi-vocabulary-7000-words/ch031-ch040",
+  "requested_range": {
+    "start": "ch031",
+    "end": "ch040",
+    "count": 10
+  },
+  "completed_ids": [
+    "ch031",
+    "ch032",
+    "ch033",
+    "ch034",
+    "ch035",
+    "ch036",
+    "ch037",
+    "ch038",
+    "ch039",
+    "ch040"
+  ],
+  "unfinished_ids": [],
+  "status": "batch_complete",
+  "inventory": {
+    "chapters": 10,
+    "essential_sentences": 200,
+    "vocabulary_entries": 300,
+    "script_practice_items": 50,
+    "number_cards": 0,
+    "bridge_readings": 10,
+    "target_reading_lines": 40,
+    "speaking_practice_tasks": 60,
+    "image_prompts": 20
+  },
+  "checks_performed": [
+    {
+      "check": "instruction_and_plan_review",
+      "result": "passed",
+      "details": "Read INSTRUCTIONS.md, book.json plans, chapter template, supplementary design guidance, and current main before authoring."
+    },
+    {
+      "check": "roster_freeze",
+      "result": "passed",
+      "details": "Reviewed rosters ch031-ch040 use reserved IDs v00901-v01200 in exact order with 25 words and five expressions per chapter."
+    },
+    {
+      "check": "repository_validator",
+      "result": "passed",
+      "command": "python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words",
+      "details": "Run by GitHub Actions on the batch branch after all requested source files were written."
+    },
+    {
+      "check": "assigned_range_audit",
+      "result": "passed",
+      "details": "Verified 20 sentences, 30 source-linked vocabulary entries, word-level Bangla pronunciation reconstruction, mixed-reading Markdown mirror, 4-line pure reading, five script cards, six speaking tasks, and two image prompts per chapter."
+    }
+  ],
+  "remaining_issues": [
+    "Chapter status is drafted, not independently reviewed. Full-book completion, assembly, images, PDF and EPUB are outside this batch."
+  ],
+  "resume_point": "Requested ch031-ch040 batch is complete. Do not continue automatically; ch041 is outside this assignment.",
+  "updated_at_local": "2026-09-12T15:21+06:00"
+}
