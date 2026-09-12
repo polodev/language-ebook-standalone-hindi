@@ -1,0 +1,3531 @@
+{
+  "chapter_id": "ch070",
+  "status": "drafted",
+  "title_target": "मौसम और दैनिक योजना",
+  "title_bangla_pronunciation": "মৌসম ঔর দৈনিক যোজনা",
+  "title_word_pronunciations": [
+    {
+      "target": "मौसम",
+      "bangla_pronunciation": "মৌসম",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "ঔর",
+      "separator_after": " "
+    },
+    {
+      "target": "दैनिक",
+      "bangla_pronunciation": "দৈনিক",
+      "separator_after": " "
+    },
+    {
+      "target": "योजना",
+      "bangla_pronunciation": "যোজনা",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "আবহাওয়া ও দৈনিক পরিকল্পনা",
+  "goal_bengali_md": "আবহাওয়া, দিনের সময়, বাইরে যাওয়ার পরিকল্পনা ও পূর্বাভাস নিয়ে A2 হিন্দি অনুশীলন করা।",
+  "sentences": [
+    {
+      "id": "s01",
+      "target": "आज मौसम साफ़ है और धूप तेज़ है।",
+      "romanization": "aaj mausm saaph hai aur dhuup tej hai.",
+      "bangla_pronunciation": "আজ মৌসম সাফ হৈ ঔর ধূপ তেজ হৈ।",
+      "word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": " "
+        },
+        {
+          "target": "साफ़",
+          "bangla_pronunciation": "সাফ",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হৈ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "धूप",
+          "bangla_pronunciation": "ধূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আজ আবহাওয়া পরিষ্কার এবং রোদ তীব্র।"
+    },
+    {
+      "id": "s02",
+      "target": "आकाश में बादल हैं और बारिश शुरू हो सकती है।",
+      "romanization": "aakaash men baadl hain aur baarish shuruu ho sktii hai.",
+      "bangla_pronunciation": "আকাশ মেং বাদল হৈং ঔর বারিশ শুরূ হো সকতী হৈ।",
+      "word_pronunciations": [
+        {
+          "target": "आकाश",
+          "bangla_pronunciation": "আকাশ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "बादल",
+          "bangla_pronunciation": "বাদল",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं",
+          "bangla_pronunciation": "হৈং",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "शुरू",
+          "bangla_pronunciation": "শুরূ",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "सकती",
+          "bangla_pronunciation": "সকতী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আকাশে মেঘ আছে এবং বৃষ্টি শুরু হতে পারে।"
+    },
+    {
+      "id": "s03",
+      "target": "हवा चल रही है, आज बारिश होगी क्या?",
+      "romanization": "hvaa chl rhii hai, aaj baarish hogii kyaa?",
+      "bangla_pronunciation": "হভা চল রহী হৈ, আজ বারিশ হোগী ক্যা?",
+      "word_pronunciations": [
+        {
+          "target": "हवा",
+          "bangla_pronunciation": "হভা",
+          "separator_after": " "
+        },
+        {
+          "target": "चल",
+          "bangla_pronunciation": "চল",
+          "separator_after": " "
+        },
+        {
+          "target": "रही",
+          "bangla_pronunciation": "রহী",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হৈ,",
+          "separator_after": " "
+        },
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी",
+          "bangla_pronunciation": "হোগী",
+          "separator_after": " "
+        },
+        {
+          "target": "क्या?",
+          "bangla_pronunciation": "ক্যা?",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "হাওয়া বইছে, আজ কি বৃষ্টি হবে?"
+    },
+    {
+      "id": "s04",
+      "target": "दोपहर में गर्मी और नमी ज्यादा है।",
+      "romanization": "dophr men grmii aur nmii jyaadaa hai.",
+      "bangla_pronunciation": "দোপহর মেং গর্মী ঔর নমী জ্যাদা হৈ।",
+      "word_pronunciations": [
+        {
+          "target": "दोपहर",
+          "bangla_pronunciation": "দোপহর",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "गर्मी",
+          "bangla_pronunciation": "গর্মী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "नमी",
+          "bangla_pronunciation": "নমী",
+          "separator_after": " "
+        },
+        {
+          "target": "ज्यादा",
+          "bangla_pronunciation": "জ্যাদা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুপুরে গরম ও আর্দ্রতা বেশি।"
+    },
+    {
+      "id": "s05",
+      "target": "रात में ठंड बढ़ सकती है।",
+      "romanization": "raat men thnd bdh sktii hai.",
+      "bangla_pronunciation": "রাত মেং ঠংড বঢ সকতী হৈ।",
+      "word_pronunciations": [
+        {
+          "target": "रात",
+          "bangla_pronunciation": "রাত",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "ठंड",
+          "bangla_pronunciation": "ঠংড",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़",
+          "bangla_pronunciation": "বঢ",
+          "separator_after": " "
+        },
+        {
+          "target": "सकती",
+          "bangla_pronunciation": "সকতী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রাতে ঠান্ডা বাড়তে পারে।"
+    },
+    {
+      "id": "s06",
+      "target": "पूर्वानुमान देखकर पूछिए, कल मौसम कैसा रहेगा।",
+      "romanization": "puurvaanumaan dekhkr puuchhie, kl mausm kaisaa rhegaa.",
+      "bangla_pronunciation": "পূর্ভানুমান দেখকর পূছিএ, কল মৌসম কৈসা রহেগা।",
+      "word_pronunciations": [
+        {
+          "target": "पूर्वानुमान",
+          "bangla_pronunciation": "পূর্ভানুমান",
+          "separator_after": " "
+        },
+        {
+          "target": "देखकर",
+          "bangla_pronunciation": "দেখকর",
+          "separator_after": " "
+        },
+        {
+          "target": "पूछिए,",
+          "bangla_pronunciation": "পূছিএ,",
+          "separator_after": " "
+        },
+        {
+          "target": "कल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": " "
+        },
+        {
+          "target": "कैसा",
+          "bangla_pronunciation": "কৈসা",
+          "separator_after": " "
+        },
+        {
+          "target": "रहेगा।",
+          "bangla_pronunciation": "রহেগা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পূর্বাভাস দেখে জিজ্ঞেস করুন, কাল আবহাওয়া কেমন থাকবে।"
+    },
+    {
+      "id": "s07",
+      "target": "सुबह सैर होगी, लेकिन दोपहर में काम है।",
+      "romanization": "subh sair hogii, lekin dophr men kaam hai.",
+      "bangla_pronunciation": "সুবহ সৈর হোগী, লেকিন দোপহর মেং কাম হৈ।",
+      "word_pronunciations": [
+        {
+          "target": "सुबह",
+          "bangla_pronunciation": "সুবহ",
+          "separator_after": " "
+        },
+        {
+          "target": "सैर",
+          "bangla_pronunciation": "সৈর",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी,",
+          "bangla_pronunciation": "হোগী,",
+          "separator_after": " "
+        },
+        {
+          "target": "लेकिन",
+          "bangla_pronunciation": "লেকিন",
+          "separator_after": " "
+        },
+        {
+          "target": "दोपहर",
+          "bangla_pronunciation": "দোপহর",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সকালে হাঁটাহাঁটি হবে, কিন্তু দুপুরে কাজ আছে।"
+    },
+    {
+      "id": "s08",
+      "target": "शाम का कार्यक्रम लंबा है और रात देर से खत्म होगी।",
+      "romanization": "shaam kaa kaarykrm lnbaa hai aur raat der se khtm hogii.",
+      "bangla_pronunciation": "শাম কা কার্যক্রম লংবা হৈ ঔর রাত দের সে খত্ম হোগী।",
+      "word_pronunciations": [
+        {
+          "target": "शाम",
+          "bangla_pronunciation": "শাম",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "कार्यक्रम",
+          "bangla_pronunciation": "কার্যক্রম",
+          "separator_after": " "
+        },
+        {
+          "target": "लंबा",
+          "bangla_pronunciation": "লংবা",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হৈ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "रात",
+          "bangla_pronunciation": "রাত",
+          "separator_after": " "
+        },
+        {
+          "target": "देर",
+          "bangla_pronunciation": "দের",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "खत्म",
+          "bangla_pronunciation": "খত্ম",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी।",
+          "bangla_pronunciation": "হোগী।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সন্ধ্যার কর্মসূচি দীর্ঘ, রাত দেরিতে শেষ হবে।"
+    },
+    {
+      "id": "s09",
+      "target": "बारिश हो तो समय बदल दीजिए।",
+      "romanization": "baarish ho to smy bdl diijie.",
+      "bangla_pronunciation": "বারিশ হো তো সময বদল দীজিএ।",
+      "word_pronunciations": [
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময",
+          "separator_after": " "
+        },
+        {
+          "target": "बदल",
+          "bangla_pronunciation": "বদল",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বৃষ্টি হলে সময় বদলে দিন।"
+    },
+    {
+      "id": "s10",
+      "target": "बाहर हवा तेज़ है, अंदर रहना बेहतर है।",
+      "romanization": "baahr hvaa tej hai, andr rhnaa behtr hai.",
+      "bangla_pronunciation": "বাহর হভা তেজ হৈ, অংদর রহনা বেহতর হৈ।",
+      "word_pronunciations": [
+        {
+          "target": "बाहर",
+          "bangla_pronunciation": "বাহর",
+          "separator_after": " "
+        },
+        {
+          "target": "हवा",
+          "bangla_pronunciation": "হভা",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হৈ,",
+          "separator_after": " "
+        },
+        {
+          "target": "अंदर",
+          "bangla_pronunciation": "অংদর",
+          "separator_after": " "
+        },
+        {
+          "target": "रहना",
+          "bangla_pronunciation": "রহনা",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাইরে হাওয়া জোর, ভেতরে থাকা ভালো।"
+    },
+    {
+      "id": "s11",
+      "target": "सप्ताहांत पर लंबी सैर का विचार है।",
+      "romanization": "sptaahaant pr lnbii sair kaa vichaar hai.",
+      "bangla_pronunciation": "সপ্তাহাংত পর লংবী সৈর কা ভিচার হৈ।",
+      "word_pronunciations": [
+        {
+          "target": "सप्ताहांत",
+          "bangla_pronunciation": "সপ্তাহাংত",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "लंबी",
+          "bangla_pronunciation": "লংবী",
+          "separator_after": " "
+        },
+        {
+          "target": "सैर",
+          "bangla_pronunciation": "সৈর",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "विचार",
+          "bangla_pronunciation": "ভিচার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সাপ্তাহিক ছুটিতে দীর্ঘ হাঁটার পরিকল্পনা আছে।"
+    },
+    {
+      "id": "s12",
+      "target": "सूरज तेज़ है, छाता साथ रखिए।",
+      "romanization": "suurj tej hai, chhaataa saath rkhie.",
+      "bangla_pronunciation": "সূরজ তেজ হৈ, ছাতা সাথ রখিএ।",
+      "word_pronunciations": [
+        {
+          "target": "सूरज",
+          "bangla_pronunciation": "সূরজ",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হৈ,",
+          "separator_after": " "
+        },
+        {
+          "target": "छाता",
+          "bangla_pronunciation": "ছাতা",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সূর্য তীব্র, ছাতা সঙ্গে রাখুন।"
+    },
+    {
+      "id": "s13",
+      "target": "तूफ़ान आए तो छाया में मत रुकिए।",
+      "romanization": "tuuphaan aae to chhaayaa men mt rukie.",
+      "bangla_pronunciation": "তূফান আএ তো ছাযা মেং মত রুকিএ।",
+      "word_pronunciations": [
+        {
+          "target": "तूफ़ान",
+          "bangla_pronunciation": "তূফান",
+          "separator_after": " "
+        },
+        {
+          "target": "आए",
+          "bangla_pronunciation": "আএ",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "छाया",
+          "bangla_pronunciation": "ছাযা",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "separator_after": " "
+        },
+        {
+          "target": "रुकिए।",
+          "bangla_pronunciation": "রুকিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঝড় এলে ছায়ার নিচে থামবেন না।"
+    },
+    {
+      "id": "s14",
+      "target": "छतरी पर बारिश की बूंद गिर रही है।",
+      "romanization": "chhtrii pr baarish kii buund gir rhii hai.",
+      "bangla_pronunciation": "ছতরী পর বারিশ কী বূংদ গির রহী হৈ।",
+      "word_pronunciations": [
+        {
+          "target": "छतरी",
+          "bangla_pronunciation": "ছতরী",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "बूंद",
+          "bangla_pronunciation": "বূংদ",
+          "separator_after": " "
+        },
+        {
+          "target": "गिर",
+          "bangla_pronunciation": "গির",
+          "separator_after": " "
+        },
+        {
+          "target": "रही",
+          "bangla_pronunciation": "রহী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ছাতার ওপর বৃষ্টির ফোঁটা পড়ছে।"
+    },
+    {
+      "id": "s15",
+      "target": "मौसम-विभाग ने चेतावनी दी, इसलिए मैं घर पर रहूँगा।",
+      "romanization": "mausm-vibhaag ne chetaavnii dii, islie main ghr pr rhuungaa.",
+      "bangla_pronunciation": "মৌসম-ভিভাগ নে চেতাভনী দী, ইসলিএ মৈং ঘর পর রহূঁগা।",
+      "word_pronunciations": [
+        {
+          "target": "मौसम-विभाग",
+          "bangla_pronunciation": "মৌসম-ভিভাগ",
+          "separator_after": " "
+        },
+        {
+          "target": "ने",
+          "bangla_pronunciation": "নে",
+          "separator_after": " "
+        },
+        {
+          "target": "चेतावनी",
+          "bangla_pronunciation": "চেতাভনী",
+          "separator_after": " "
+        },
+        {
+          "target": "दी,",
+          "bangla_pronunciation": "দী,",
+          "separator_after": " "
+        },
+        {
+          "target": "इसलिए",
+          "bangla_pronunciation": "ইসলিএ",
+          "separator_after": " "
+        },
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "মৈং",
+          "separator_after": " "
+        },
+        {
+          "target": "घर",
+          "bangla_pronunciation": "ঘর",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "रहूँगा।",
+          "bangla_pronunciation": "রহূঁগা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আবহাওয়া বিভাগ সতর্ক করেছে, তাই আমি বাড়িতে থাকব।"
+    },
+    {
+      "id": "s16",
+      "target": "सुबह का मौसम बहुत अच्छा था।",
+      "romanization": "subh kaa mausm bhut achchhaa thaa.",
+      "bangla_pronunciation": "সুবহ কা মৌসম বহুত অচ্ছা থা।",
+      "word_pronunciations": [
+        {
+          "target": "सुबह",
+          "bangla_pronunciation": "সুবহ",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "separator_after": " "
+        },
+        {
+          "target": "था।",
+          "bangla_pronunciation": "থা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সকালের আবহাওয়া খুব ভালো ছিল।"
+    },
+    {
+      "id": "s17",
+      "target": "बादल के पीछे सूरज है।",
+      "romanization": "baadl ke piichhe suurj hai.",
+      "bangla_pronunciation": "বাদল কে পীছে সূরজ হৈ।",
+      "word_pronunciations": [
+        {
+          "target": "बादल",
+          "bangla_pronunciation": "বাদল",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "पीछे",
+          "bangla_pronunciation": "পীছে",
+          "separator_after": " "
+        },
+        {
+          "target": "सूरज",
+          "bangla_pronunciation": "সূরজ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মেঘের পেছনে সূর্য আছে।"
+    },
+    {
+      "id": "s18",
+      "target": "नमी कम होने पर सैर आसान है।",
+      "romanization": "nmii km hone pr sair aasaan hai.",
+      "bangla_pronunciation": "নমী কম হোনে পর সৈর আসান হৈ।",
+      "word_pronunciations": [
+        {
+          "target": "नमी",
+          "bangla_pronunciation": "নমী",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "separator_after": " "
+        },
+        {
+          "target": "होने",
+          "bangla_pronunciation": "হোনে",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "सैर",
+          "bangla_pronunciation": "সৈর",
+          "separator_after": " "
+        },
+        {
+          "target": "आसान",
+          "bangla_pronunciation": "আসান",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আর্দ্রতা কম হলে হাঁটা সহজ।"
+    },
+    {
+      "id": "s19",
+      "target": "शाम को हवा ठंडी हो गई।",
+      "romanization": "shaam ko hvaa thndii ho gii.",
+      "bangla_pronunciation": "শাম কো হভা ঠংডী হো গঈ।",
+      "word_pronunciations": [
+        {
+          "target": "शाम",
+          "bangla_pronunciation": "শাম",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "हवा",
+          "bangla_pronunciation": "হভা",
+          "separator_after": " "
+        },
+        {
+          "target": "ठंडी",
+          "bangla_pronunciation": "ঠংডী",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "गई।",
+          "bangla_pronunciation": "গঈ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সন্ধ্যায় হাওয়া ঠান্ডা হয়েছে।"
+    },
+    {
+      "id": "s20",
+      "target": "पूर्वानुमान रात की बारिश दिखाता है।",
+      "romanization": "puurvaanumaan raat kii baarish dikhaataa hai.",
+      "bangla_pronunciation": "পূর্ভানুমান রাত কী বারিশ দিখাতা হৈ।",
+      "word_pronunciations": [
+        {
+          "target": "पूर्वानुमान",
+          "bangla_pronunciation": "পূর্ভানুমান",
+          "separator_after": " "
+        },
+        {
+          "target": "रात",
+          "bangla_pronunciation": "রাত",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "दिखाता",
+          "bangla_pronunciation": "দিখাতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পূর্বাভাস রাতে বৃষ্টি দেখাচ্ছে।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v02071",
+      "target": "मौसम",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "mausm",
+      "bangla_pronunciation": "মৌসম",
+      "word_pronunciations": [
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আবহাওয়া",
+      "source_sentence_id": "s01",
+      "source_form": "मौसम",
+      "example_target": "आज मौसम साफ़ है और धूप तेज़ है।",
+      "example_bangla_pronunciation": "আজ মৌসম সাফ হৈ ঔর ধূপ তেজ হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": " "
+        },
+        {
+          "target": "साफ़",
+          "bangla_pronunciation": "সাফ",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হৈ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "धूप",
+          "bangla_pronunciation": "ধূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আজ আবহাওয়া পরিষ্কার এবং রোদ তীব্র।",
+      "synonyms": []
+    },
+    {
+      "id": "v02072",
+      "target": "धूप",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "dhuup",
+      "bangla_pronunciation": "ধূপ",
+      "word_pronunciations": [
+        {
+          "target": "धूप",
+          "bangla_pronunciation": "ধূপ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রোদ",
+      "source_sentence_id": "s01",
+      "source_form": "धूप",
+      "example_target": "आज मौसम साफ़ है और धूप तेज़ है।",
+      "example_bangla_pronunciation": "আজ মৌসম সাফ হৈ ঔর ধূপ তেজ হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": " "
+        },
+        {
+          "target": "साफ़",
+          "bangla_pronunciation": "সাফ",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হৈ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "धूप",
+          "bangla_pronunciation": "ধূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আজ আবহাওয়া পরিষ্কার এবং রোদ তীব্র।",
+      "synonyms": []
+    },
+    {
+      "id": "v02073",
+      "target": "बादल",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "baadl",
+      "bangla_pronunciation": "বাদল",
+      "word_pronunciations": [
+        {
+          "target": "बादल",
+          "bangla_pronunciation": "বাদল",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মেঘ",
+      "source_sentence_id": "s02",
+      "source_form": "बादल",
+      "example_target": "आकाश में बादल हैं और बारिश शुरू हो सकती है।",
+      "example_bangla_pronunciation": "আকাশ মেং বাদল হৈং ঔর বারিশ শুরূ হো সকতী হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "आकाश",
+          "bangla_pronunciation": "আকাশ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "बादल",
+          "bangla_pronunciation": "বাদল",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं",
+          "bangla_pronunciation": "হৈং",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "शुरू",
+          "bangla_pronunciation": "শুরূ",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "सकती",
+          "bangla_pronunciation": "সকতী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আকাশে মেঘ আছে এবং বৃষ্টি শুরু হতে পারে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02074",
+      "target": "बारिश",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "baarish",
+      "bangla_pronunciation": "বারিশ",
+      "word_pronunciations": [
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বৃষ্টি",
+      "source_sentence_id": "s02",
+      "source_form": "बारिश",
+      "example_target": "आकाश में बादल हैं और बारिश शुरू हो सकती है।",
+      "example_bangla_pronunciation": "আকাশ মেং বাদল হৈং ঔর বারিশ শুরূ হো সকতী হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "आकाश",
+          "bangla_pronunciation": "আকাশ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "बादल",
+          "bangla_pronunciation": "বাদল",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं",
+          "bangla_pronunciation": "হৈং",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "शुरू",
+          "bangla_pronunciation": "শুরূ",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "सकती",
+          "bangla_pronunciation": "সকতী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আকাশে মেঘ আছে এবং বৃষ্টি শুরু হতে পারে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02075",
+      "target": "हवा",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "hvaa",
+      "bangla_pronunciation": "হভা",
+      "word_pronunciations": [
+        {
+          "target": "हवा",
+          "bangla_pronunciation": "হভা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "হাওয়া",
+      "source_sentence_id": "s03",
+      "source_form": "हवा",
+      "example_target": "हवा चल रही है, आज बारिश होगी क्या?",
+      "example_bangla_pronunciation": "হভা চল রহী হৈ, আজ বারিশ হোগী ক্যা?",
+      "example_word_pronunciations": [
+        {
+          "target": "हवा",
+          "bangla_pronunciation": "হভা",
+          "separator_after": " "
+        },
+        {
+          "target": "चल",
+          "bangla_pronunciation": "চল",
+          "separator_after": " "
+        },
+        {
+          "target": "रही",
+          "bangla_pronunciation": "রহী",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হৈ,",
+          "separator_after": " "
+        },
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी",
+          "bangla_pronunciation": "হোগী",
+          "separator_after": " "
+        },
+        {
+          "target": "क्या?",
+          "bangla_pronunciation": "ক্যা?",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "হাওয়া বইছে, আজ কি বৃষ্টি হবে?",
+      "synonyms": []
+    },
+    {
+      "id": "v02076",
+      "target": "आज बारिश होगी क्या",
+      "category": "expression",
+      "type": "useful_expression",
+      "romanization": "aaj baarish hogii kyaa",
+      "bangla_pronunciation": "আজ বারিশ হোগী ক্যা",
+      "word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी",
+          "bangla_pronunciation": "হোগী",
+          "separator_after": " "
+        },
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আজ কি বৃষ্টি হবে",
+      "source_sentence_id": "s03",
+      "source_form": "आज बारिश होगी क्या",
+      "example_target": "हवा चल रही है, आज बारिश होगी क्या?",
+      "example_bangla_pronunciation": "হভা চল রহী হৈ, আজ বারিশ হোগী ক্যা?",
+      "example_word_pronunciations": [
+        {
+          "target": "हवा",
+          "bangla_pronunciation": "হভা",
+          "separator_after": " "
+        },
+        {
+          "target": "चल",
+          "bangla_pronunciation": "চল",
+          "separator_after": " "
+        },
+        {
+          "target": "रही",
+          "bangla_pronunciation": "রহী",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হৈ,",
+          "separator_after": " "
+        },
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी",
+          "bangla_pronunciation": "হোগী",
+          "separator_after": " "
+        },
+        {
+          "target": "क्या?",
+          "bangla_pronunciation": "ক্যা?",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "হাওয়া বইছে, আজ কি বৃষ্টি হবে?",
+      "synonyms": []
+    },
+    {
+      "id": "v02077",
+      "target": "गर्मी",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "grmii",
+      "bangla_pronunciation": "গর্মী",
+      "word_pronunciations": [
+        {
+          "target": "गर्मी",
+          "bangla_pronunciation": "গর্মী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গরম",
+      "source_sentence_id": "s04",
+      "source_form": "गर्मी",
+      "example_target": "दोपहर में गर्मी और नमी ज्यादा है।",
+      "example_bangla_pronunciation": "দোপহর মেং গর্মী ঔর নমী জ্যাদা হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "दोपहर",
+          "bangla_pronunciation": "দোপহর",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "गर्मी",
+          "bangla_pronunciation": "গর্মী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "नमी",
+          "bangla_pronunciation": "নমী",
+          "separator_after": " "
+        },
+        {
+          "target": "ज्यादा",
+          "bangla_pronunciation": "জ্যাদা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দুপুরে গরম ও আর্দ্রতা বেশি।",
+      "synonyms": []
+    },
+    {
+      "id": "v02078",
+      "target": "ठंड",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "thnd",
+      "bangla_pronunciation": "ঠংড",
+      "word_pronunciations": [
+        {
+          "target": "ठंड",
+          "bangla_pronunciation": "ঠংড",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঠান্ডা",
+      "source_sentence_id": "s05",
+      "source_form": "ठंड",
+      "example_target": "रात में ठंड बढ़ सकती है।",
+      "example_bangla_pronunciation": "রাত মেং ঠংড বঢ সকতী হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "रात",
+          "bangla_pronunciation": "রাত",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "ठंड",
+          "bangla_pronunciation": "ঠংড",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़",
+          "bangla_pronunciation": "বঢ",
+          "separator_after": " "
+        },
+        {
+          "target": "सकती",
+          "bangla_pronunciation": "সকতী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "রাতে ঠান্ডা বাড়তে পারে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02079",
+      "target": "नमी",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "nmii",
+      "bangla_pronunciation": "নমী",
+      "word_pronunciations": [
+        {
+          "target": "नमी",
+          "bangla_pronunciation": "নমী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আর্দ্রতা",
+      "source_sentence_id": "s04",
+      "source_form": "नमी",
+      "example_target": "दोपहर में गर्मी और नमी ज्यादा है।",
+      "example_bangla_pronunciation": "দোপহর মেং গর্মী ঔর নমী জ্যাদা হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "दोपहर",
+          "bangla_pronunciation": "দোপহর",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "गर्मी",
+          "bangla_pronunciation": "গর্মী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "नमी",
+          "bangla_pronunciation": "নমী",
+          "separator_after": " "
+        },
+        {
+          "target": "ज्यादा",
+          "bangla_pronunciation": "জ্যাদা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দুপুরে গরম ও আর্দ্রতা বেশি।",
+      "synonyms": []
+    },
+    {
+      "id": "v02080",
+      "target": "आकाश",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "aakaash",
+      "bangla_pronunciation": "আকাশ",
+      "word_pronunciations": [
+        {
+          "target": "आकाश",
+          "bangla_pronunciation": "আকাশ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আকাশ",
+      "source_sentence_id": "s02",
+      "source_form": "आकाश",
+      "example_target": "आकाश में बादल हैं और बारिश शुरू हो सकती है।",
+      "example_bangla_pronunciation": "আকাশ মেং বাদল হৈং ঔর বারিশ শুরূ হো সকতী হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "आकाश",
+          "bangla_pronunciation": "আকাশ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "बादल",
+          "bangla_pronunciation": "বাদল",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं",
+          "bangla_pronunciation": "হৈং",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "शुरू",
+          "bangla_pronunciation": "শুরূ",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "सकती",
+          "bangla_pronunciation": "সকতী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আকাশে মেঘ আছে এবং বৃষ্টি শুরু হতে পারে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02081",
+      "target": "पूर्वानुमान",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "puurvaanumaan",
+      "bangla_pronunciation": "পূর্ভানুমান",
+      "word_pronunciations": [
+        {
+          "target": "पूर्वानुमान",
+          "bangla_pronunciation": "পূর্ভানুমান",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পূর্বাভাস",
+      "source_sentence_id": "s06",
+      "source_form": "पूर्वानुमान",
+      "example_target": "पूर्वानुमान देखकर पूछिए, कल मौसम कैसा रहेगा।",
+      "example_bangla_pronunciation": "পূর্ভানুমান দেখকর পূছিএ, কল মৌসম কৈসা রহেগা।",
+      "example_word_pronunciations": [
+        {
+          "target": "पूर्वानुमान",
+          "bangla_pronunciation": "পূর্ভানুমান",
+          "separator_after": " "
+        },
+        {
+          "target": "देखकर",
+          "bangla_pronunciation": "দেখকর",
+          "separator_after": " "
+        },
+        {
+          "target": "पूछिए,",
+          "bangla_pronunciation": "পূছিএ,",
+          "separator_after": " "
+        },
+        {
+          "target": "कल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": " "
+        },
+        {
+          "target": "कैसा",
+          "bangla_pronunciation": "কৈসা",
+          "separator_after": " "
+        },
+        {
+          "target": "रहेगा।",
+          "bangla_pronunciation": "রহেগা।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পূর্বাভাস দেখে জিজ্ঞেস করুন, কাল আবহাওয়া কেমন থাকবে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02082",
+      "target": "कल मौसम कैसा रहेगा",
+      "category": "expression",
+      "type": "useful_expression",
+      "romanization": "kl mausm kaisaa rhegaa",
+      "bangla_pronunciation": "কল মৌসম কৈসা রহেগা",
+      "word_pronunciations": [
+        {
+          "target": "कल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": " "
+        },
+        {
+          "target": "कैसा",
+          "bangla_pronunciation": "কৈসা",
+          "separator_after": " "
+        },
+        {
+          "target": "रहेगा",
+          "bangla_pronunciation": "রহেগা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কাল আবহাওয়া কেমন থাকবে",
+      "source_sentence_id": "s06",
+      "source_form": "कल मौसम कैसा रहेगा",
+      "example_target": "पूर्वानुमान देखकर पूछिए, कल मौसम कैसा रहेगा।",
+      "example_bangla_pronunciation": "পূর্ভানুমান দেখকর পূছিএ, কল মৌসম কৈসা রহেগা।",
+      "example_word_pronunciations": [
+        {
+          "target": "पूर्वानुमान",
+          "bangla_pronunciation": "পূর্ভানুমান",
+          "separator_after": " "
+        },
+        {
+          "target": "देखकर",
+          "bangla_pronunciation": "দেখকর",
+          "separator_after": " "
+        },
+        {
+          "target": "पूछिए,",
+          "bangla_pronunciation": "পূছিএ,",
+          "separator_after": " "
+        },
+        {
+          "target": "कल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": " "
+        },
+        {
+          "target": "कैसा",
+          "bangla_pronunciation": "কৈসা",
+          "separator_after": " "
+        },
+        {
+          "target": "रहेगा।",
+          "bangla_pronunciation": "রহেগা।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পূর্বাভাস দেখে জিজ্ঞেস করুন, কাল আবহাওয়া কেমন থাকবে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02083",
+      "target": "सुबह",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "subh",
+      "bangla_pronunciation": "সুবহ",
+      "word_pronunciations": [
+        {
+          "target": "सुबह",
+          "bangla_pronunciation": "সুবহ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সকাল",
+      "source_sentence_id": "s07",
+      "source_form": "सुबह",
+      "example_target": "सुबह सैर होगी, लेकिन दोपहर में काम है।",
+      "example_bangla_pronunciation": "সুবহ সৈর হোগী, লেকিন দোপহর মেং কাম হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "सुबह",
+          "bangla_pronunciation": "সুবহ",
+          "separator_after": " "
+        },
+        {
+          "target": "सैर",
+          "bangla_pronunciation": "সৈর",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी,",
+          "bangla_pronunciation": "হোগী,",
+          "separator_after": " "
+        },
+        {
+          "target": "लेकिन",
+          "bangla_pronunciation": "লেকিন",
+          "separator_after": " "
+        },
+        {
+          "target": "दोपहर",
+          "bangla_pronunciation": "দোপহর",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সকালে হাঁটাহাঁটি হবে, কিন্তু দুপুরে কাজ আছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02084",
+      "target": "दोपहर",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "dophr",
+      "bangla_pronunciation": "দোপহর",
+      "word_pronunciations": [
+        {
+          "target": "दोपहर",
+          "bangla_pronunciation": "দোপহর",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুপুর",
+      "source_sentence_id": "s04",
+      "source_form": "दोपहर",
+      "example_target": "दोपहर में गर्मी और नमी ज्यादा है।",
+      "example_bangla_pronunciation": "দোপহর মেং গর্মী ঔর নমী জ্যাদা হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "दोपहर",
+          "bangla_pronunciation": "দোপহর",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "गर्मी",
+          "bangla_pronunciation": "গর্মী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "नमी",
+          "bangla_pronunciation": "নমী",
+          "separator_after": " "
+        },
+        {
+          "target": "ज्यादा",
+          "bangla_pronunciation": "জ্যাদা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দুপুরে গরম ও আর্দ্রতা বেশি।",
+      "synonyms": []
+    },
+    {
+      "id": "v02085",
+      "target": "शाम",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "shaam",
+      "bangla_pronunciation": "শাম",
+      "word_pronunciations": [
+        {
+          "target": "शाम",
+          "bangla_pronunciation": "শাম",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সন্ধ্যা",
+      "source_sentence_id": "s08",
+      "source_form": "शाम",
+      "example_target": "शाम का कार्यक्रम लंबा है और रात देर से खत्म होगी।",
+      "example_bangla_pronunciation": "শাম কা কার্যক্রম লংবা হৈ ঔর রাত দের সে খত্ম হোগী।",
+      "example_word_pronunciations": [
+        {
+          "target": "शाम",
+          "bangla_pronunciation": "শাম",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "कार्यक्रम",
+          "bangla_pronunciation": "কার্যক্রম",
+          "separator_after": " "
+        },
+        {
+          "target": "लंबा",
+          "bangla_pronunciation": "লংবা",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হৈ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "रात",
+          "bangla_pronunciation": "রাত",
+          "separator_after": " "
+        },
+        {
+          "target": "देर",
+          "bangla_pronunciation": "দের",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "खत्म",
+          "bangla_pronunciation": "খত্ম",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी।",
+          "bangla_pronunciation": "হোগী।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সন্ধ্যার কর্মসূচি দীর্ঘ, রাত দেরিতে শেষ হবে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02086",
+      "target": "रात",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "raat",
+      "bangla_pronunciation": "রাত",
+      "word_pronunciations": [
+        {
+          "target": "रात",
+          "bangla_pronunciation": "রাত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রাত",
+      "source_sentence_id": "s05",
+      "source_form": "रात",
+      "example_target": "रात में ठंड बढ़ सकती है।",
+      "example_bangla_pronunciation": "রাত মেং ঠংড বঢ সকতী হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "रात",
+          "bangla_pronunciation": "রাত",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "ठंड",
+          "bangla_pronunciation": "ঠংড",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़",
+          "bangla_pronunciation": "বঢ",
+          "separator_after": " "
+        },
+        {
+          "target": "सकती",
+          "bangla_pronunciation": "সকতী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "রাতে ঠান্ডা বাড়তে পারে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02087",
+      "target": "कार्यक्रम",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "kaarykrm",
+      "bangla_pronunciation": "কার্যক্রম",
+      "word_pronunciations": [
+        {
+          "target": "कार्यक्रम",
+          "bangla_pronunciation": "কার্যক্রম",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কর্মসূচি",
+      "source_sentence_id": "s08",
+      "source_form": "कार्यक्रम",
+      "example_target": "शाम का कार्यक्रम लंबा है और रात देर से खत्म होगी।",
+      "example_bangla_pronunciation": "শাম কা কার্যক্রম লংবা হৈ ঔর রাত দের সে খত্ম হোগী।",
+      "example_word_pronunciations": [
+        {
+          "target": "शाम",
+          "bangla_pronunciation": "শাম",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "कार्यक्रम",
+          "bangla_pronunciation": "কার্যক্রম",
+          "separator_after": " "
+        },
+        {
+          "target": "लंबा",
+          "bangla_pronunciation": "লংবা",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হৈ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "रात",
+          "bangla_pronunciation": "রাত",
+          "separator_after": " "
+        },
+        {
+          "target": "देर",
+          "bangla_pronunciation": "দের",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "खत्म",
+          "bangla_pronunciation": "খত্ম",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी।",
+          "bangla_pronunciation": "হোগী।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সন্ধ্যার কর্মসূচি দীর্ঘ, রাত দেরিতে শেষ হবে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02088",
+      "target": "समय बदल दीजिए",
+      "category": "expression",
+      "type": "useful_expression",
+      "romanization": "smy bdl diijie",
+      "bangla_pronunciation": "সময বদল দীজিএ",
+      "word_pronunciations": [
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময",
+          "separator_after": " "
+        },
+        {
+          "target": "बदल",
+          "bangla_pronunciation": "বদল",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए",
+          "bangla_pronunciation": "দীজিএ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সময় বদলে দিন",
+      "source_sentence_id": "s09",
+      "source_form": "समय बदल दीजिए",
+      "example_target": "बारिश हो तो समय बदल दीजिए।",
+      "example_bangla_pronunciation": "বারিশ হো তো সময বদল দীজিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময",
+          "separator_after": " "
+        },
+        {
+          "target": "बदल",
+          "bangla_pronunciation": "বদল",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বৃষ্টি হলে সময় বদলে দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v02089",
+      "target": "बाहर",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "baahr",
+      "bangla_pronunciation": "বাহর",
+      "word_pronunciations": [
+        {
+          "target": "बाहर",
+          "bangla_pronunciation": "বাহর",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাইরে",
+      "source_sentence_id": "s10",
+      "source_form": "बाहर",
+      "example_target": "बाहर हवा तेज़ है, अंदर रहना बेहतर है।",
+      "example_bangla_pronunciation": "বাহর হভা তেজ হৈ, অংদর রহনা বেহতর হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "बाहर",
+          "bangla_pronunciation": "বাহর",
+          "separator_after": " "
+        },
+        {
+          "target": "हवा",
+          "bangla_pronunciation": "হভা",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হৈ,",
+          "separator_after": " "
+        },
+        {
+          "target": "अंदर",
+          "bangla_pronunciation": "অংদর",
+          "separator_after": " "
+        },
+        {
+          "target": "रहना",
+          "bangla_pronunciation": "রহনা",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বাইরে হাওয়া জোর, ভেতরে থাকা ভালো।",
+      "synonyms": []
+    },
+    {
+      "id": "v02090",
+      "target": "अंदर",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "andr",
+      "bangla_pronunciation": "অংদর",
+      "word_pronunciations": [
+        {
+          "target": "अंदर",
+          "bangla_pronunciation": "অংদর",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভেতরে",
+      "source_sentence_id": "s10",
+      "source_form": "अंदर",
+      "example_target": "बाहर हवा तेज़ है, अंदर रहना बेहतर है।",
+      "example_bangla_pronunciation": "বাহর হভা তেজ হৈ, অংদর রহনা বেহতর হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "बाहर",
+          "bangla_pronunciation": "বাহর",
+          "separator_after": " "
+        },
+        {
+          "target": "हवा",
+          "bangla_pronunciation": "হভা",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হৈ,",
+          "separator_after": " "
+        },
+        {
+          "target": "अंदर",
+          "bangla_pronunciation": "অংদর",
+          "separator_after": " "
+        },
+        {
+          "target": "रहना",
+          "bangla_pronunciation": "রহনা",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বাইরে হাওয়া জোর, ভেতরে থাকা ভালো।",
+      "synonyms": []
+    },
+    {
+      "id": "v02091",
+      "target": "सैर",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "sair",
+      "bangla_pronunciation": "সৈর",
+      "word_pronunciations": [
+        {
+          "target": "सैर",
+          "bangla_pronunciation": "সৈর",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "হাঁটাহাঁটি",
+      "source_sentence_id": "s07",
+      "source_form": "सैर",
+      "example_target": "सुबह सैर होगी, लेकिन दोपहर में काम है।",
+      "example_bangla_pronunciation": "সুবহ সৈর হোগী, লেকিন দোপহর মেং কাম হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "सुबह",
+          "bangla_pronunciation": "সুবহ",
+          "separator_after": " "
+        },
+        {
+          "target": "सैर",
+          "bangla_pronunciation": "সৈর",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी,",
+          "bangla_pronunciation": "হোগী,",
+          "separator_after": " "
+        },
+        {
+          "target": "लेकिन",
+          "bangla_pronunciation": "লেকিন",
+          "separator_after": " "
+        },
+        {
+          "target": "दोपहर",
+          "bangla_pronunciation": "দোপহর",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সকালে হাঁটাহাঁটি হবে, কিন্তু দুপুরে কাজ আছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02092",
+      "target": "सप्ताहांत",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "sptaahaant",
+      "bangla_pronunciation": "সপ্তাহাংত",
+      "word_pronunciations": [
+        {
+          "target": "सप्ताहांत",
+          "bangla_pronunciation": "সপ্তাহাংত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সাপ্তাহিক ছুটি",
+      "source_sentence_id": "s11",
+      "source_form": "सप्ताहांत",
+      "example_target": "सप्ताहांत पर लंबी सैर का विचार है।",
+      "example_bangla_pronunciation": "সপ্তাহাংত পর লংবী সৈর কা ভিচার হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "सप्ताहांत",
+          "bangla_pronunciation": "সপ্তাহাংত",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "लंबी",
+          "bangla_pronunciation": "লংবী",
+          "separator_after": " "
+        },
+        {
+          "target": "सैर",
+          "bangla_pronunciation": "সৈর",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "विचार",
+          "bangla_pronunciation": "ভিচার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সাপ্তাহিক ছুটিতে দীর্ঘ হাঁটার পরিকল্পনা আছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02093",
+      "target": "सूरज",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "suurj",
+      "bangla_pronunciation": "সূরজ",
+      "word_pronunciations": [
+        {
+          "target": "सूरज",
+          "bangla_pronunciation": "সূরজ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সূর্য",
+      "source_sentence_id": "s12",
+      "source_form": "सूरज",
+      "example_target": "सूरज तेज़ है, छाता साथ रखिए।",
+      "example_bangla_pronunciation": "সূরজ তেজ হৈ, ছাতা সাথ রখিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "सूरज",
+          "bangla_pronunciation": "সূরজ",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হৈ,",
+          "separator_after": " "
+        },
+        {
+          "target": "छाता",
+          "bangla_pronunciation": "ছাতা",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সূর্য তীব্র, ছাতা সঙ্গে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v02094",
+      "target": "छाता साथ रखिए",
+      "category": "expression",
+      "type": "useful_expression",
+      "romanization": "chhaataa saath rkhie",
+      "bangla_pronunciation": "ছাতা সাথ রখিএ",
+      "word_pronunciations": [
+        {
+          "target": "छाता",
+          "bangla_pronunciation": "ছাতা",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए",
+          "bangla_pronunciation": "রখিএ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ছাতা সঙ্গে রাখুন",
+      "source_sentence_id": "s12",
+      "source_form": "छाता साथ रखिए",
+      "example_target": "सूरज तेज़ है, छाता साथ रखिए।",
+      "example_bangla_pronunciation": "সূরজ তেজ হৈ, ছাতা সাথ রখিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "सूरज",
+          "bangla_pronunciation": "সূরজ",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হৈ,",
+          "separator_after": " "
+        },
+        {
+          "target": "छाता",
+          "bangla_pronunciation": "ছাতা",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সূর্য তীব্র, ছাতা সঙ্গে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v02095",
+      "target": "तूफ़ान",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "tuuphaan",
+      "bangla_pronunciation": "তূফান",
+      "word_pronunciations": [
+        {
+          "target": "तूफ़ान",
+          "bangla_pronunciation": "তূফান",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঝড়",
+      "source_sentence_id": "s13",
+      "source_form": "तूफ़ान",
+      "example_target": "तूफ़ान आए तो छाया में मत रुकिए।",
+      "example_bangla_pronunciation": "তূফান আএ তো ছাযা মেং মত রুকিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "तूफ़ान",
+          "bangla_pronunciation": "তূফান",
+          "separator_after": " "
+        },
+        {
+          "target": "आए",
+          "bangla_pronunciation": "আএ",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "छाया",
+          "bangla_pronunciation": "ছাযা",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "separator_after": " "
+        },
+        {
+          "target": "रुकिए।",
+          "bangla_pronunciation": "রুকিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ঝড় এলে ছায়ার নিচে থামবেন না।",
+      "synonyms": []
+    },
+    {
+      "id": "v02096",
+      "target": "छाया",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "chhaayaa",
+      "bangla_pronunciation": "ছাযা",
+      "word_pronunciations": [
+        {
+          "target": "छाया",
+          "bangla_pronunciation": "ছাযা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ছায়া",
+      "source_sentence_id": "s13",
+      "source_form": "छाया",
+      "example_target": "तूफ़ान आए तो छाया में मत रुकिए।",
+      "example_bangla_pronunciation": "তূফান আএ তো ছাযা মেং মত রুকিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "तूफ़ान",
+          "bangla_pronunciation": "তূফান",
+          "separator_after": " "
+        },
+        {
+          "target": "आए",
+          "bangla_pronunciation": "আএ",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "छाया",
+          "bangla_pronunciation": "ছাযা",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "separator_after": " "
+        },
+        {
+          "target": "रुकिए।",
+          "bangla_pronunciation": "রুকিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ঝড় এলে ছায়ার নিচে থামবেন না।",
+      "synonyms": []
+    },
+    {
+      "id": "v02097",
+      "target": "छतरी",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "chhtrii",
+      "bangla_pronunciation": "ছতরী",
+      "word_pronunciations": [
+        {
+          "target": "छतरी",
+          "bangla_pronunciation": "ছতরী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ছাতা",
+      "source_sentence_id": "s14",
+      "source_form": "छतरी",
+      "example_target": "छतरी पर बारिश की बूंद गिर रही है।",
+      "example_bangla_pronunciation": "ছতরী পর বারিশ কী বূংদ গির রহী হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "छतरी",
+          "bangla_pronunciation": "ছতরী",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "बूंद",
+          "bangla_pronunciation": "বূংদ",
+          "separator_after": " "
+        },
+        {
+          "target": "गिर",
+          "bangla_pronunciation": "গির",
+          "separator_after": " "
+        },
+        {
+          "target": "रही",
+          "bangla_pronunciation": "রহী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ছাতার ওপর বৃষ্টির ফোঁটা পড়ছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02098",
+      "target": "बूंद",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "buund",
+      "bangla_pronunciation": "বূংদ",
+      "word_pronunciations": [
+        {
+          "target": "बूंद",
+          "bangla_pronunciation": "বূংদ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফোঁটা",
+      "source_sentence_id": "s14",
+      "source_form": "बूंद",
+      "example_target": "छतरी पर बारिश की बूंद गिर रही है।",
+      "example_bangla_pronunciation": "ছতরী পর বারিশ কী বূংদ গির রহী হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "छतरी",
+          "bangla_pronunciation": "ছতরী",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "बूंद",
+          "bangla_pronunciation": "বূংদ",
+          "separator_after": " "
+        },
+        {
+          "target": "गिर",
+          "bangla_pronunciation": "গির",
+          "separator_after": " "
+        },
+        {
+          "target": "रही",
+          "bangla_pronunciation": "রহী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ছাতার ওপর বৃষ্টির ফোঁটা পড়ছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02099",
+      "target": "मौसम-विभाग",
+      "category": "word",
+      "type": "lexical_word",
+      "romanization": "mausm-vibhaag",
+      "bangla_pronunciation": "মৌসম-ভিভাগ",
+      "word_pronunciations": [
+        {
+          "target": "मौसम-विभाग",
+          "bangla_pronunciation": "মৌসম-ভিভাগ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আবহাওয়া বিভাগ",
+      "source_sentence_id": "s15",
+      "source_form": "मौसम-विभाग",
+      "example_target": "मौसम-विभाग ने चेतावनी दी, इसलिए मैं घर पर रहूँगा।",
+      "example_bangla_pronunciation": "মৌসম-ভিভাগ নে চেতাভনী দী, ইসলিএ মৈং ঘর পর রহূঁগা।",
+      "example_word_pronunciations": [
+        {
+          "target": "मौसम-विभाग",
+          "bangla_pronunciation": "মৌসম-ভিভাগ",
+          "separator_after": " "
+        },
+        {
+          "target": "ने",
+          "bangla_pronunciation": "নে",
+          "separator_after": " "
+        },
+        {
+          "target": "चेतावनी",
+          "bangla_pronunciation": "চেতাভনী",
+          "separator_after": " "
+        },
+        {
+          "target": "दी,",
+          "bangla_pronunciation": "দী,",
+          "separator_after": " "
+        },
+        {
+          "target": "इसलिए",
+          "bangla_pronunciation": "ইসলিএ",
+          "separator_after": " "
+        },
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "মৈং",
+          "separator_after": " "
+        },
+        {
+          "target": "घर",
+          "bangla_pronunciation": "ঘর",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "रहूँगा।",
+          "bangla_pronunciation": "রহূঁগা।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আবহাওয়া বিভাগ সতর্ক করেছে, তাই আমি বাড়িতে থাকব।",
+      "synonyms": []
+    },
+    {
+      "id": "v02100",
+      "target": "मैं घर पर रहूँगा",
+      "category": "expression",
+      "type": "useful_expression",
+      "romanization": "main ghr pr rhuungaa",
+      "bangla_pronunciation": "মৈং ঘর পর রহূঁগা",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "মৈং",
+          "separator_after": " "
+        },
+        {
+          "target": "घर",
+          "bangla_pronunciation": "ঘর",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "रहूँगा",
+          "bangla_pronunciation": "রহূঁগা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি বাড়িতে থাকব",
+      "source_sentence_id": "s15",
+      "source_form": "मैं घर पर रहूँगा",
+      "example_target": "मौसम-विभाग ने चेतावनी दी, इसलिए मैं घर पर रहूँगा।",
+      "example_bangla_pronunciation": "মৌসম-ভিভাগ নে চেতাভনী দী, ইসলিএ মৈং ঘর পর রহূঁগা।",
+      "example_word_pronunciations": [
+        {
+          "target": "मौसम-विभाग",
+          "bangla_pronunciation": "মৌসম-ভিভাগ",
+          "separator_after": " "
+        },
+        {
+          "target": "ने",
+          "bangla_pronunciation": "নে",
+          "separator_after": " "
+        },
+        {
+          "target": "चेतावनी",
+          "bangla_pronunciation": "চেতাভনী",
+          "separator_after": " "
+        },
+        {
+          "target": "दी,",
+          "bangla_pronunciation": "দী,",
+          "separator_after": " "
+        },
+        {
+          "target": "इसलिए",
+          "bangla_pronunciation": "ইসলিএ",
+          "separator_after": " "
+        },
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "মৈং",
+          "separator_after": " "
+        },
+        {
+          "target": "घर",
+          "bangla_pronunciation": "ঘর",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "रहूँगा।",
+          "bangla_pronunciation": "রহূঁগা।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আবহাওয়া বিভাগ সতর্ক করেছে, তাই আমি বাড়িতে থাকব।",
+      "synonyms": []
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "আবহাওয়া ও দৈনিক পরিকল্পনা — বাস্তব দৃশ্য",
+    "scene_summary": "একজন প্রাপ্তবয়স্ক শিক্ষার্থীর দৈনন্দিন বাস্তব পরিস্থিতিতে অধ্যায়ের মূল শব্দ ও বাক্যাংশ ব্যবহার।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "আবহাওয়া ও দৈনিক পরিকল্পনা বিষয়ে বাস্তব পরিস্থিতিতে শিক্ষার্থী প্রথমে "
+      },
+      {
+        "kind": "target",
+        "target": "मौसम",
+        "bangla_pronunciation": "মৌসম",
+        "word_pronunciations": [
+          {
+            "target": "मौसम",
+            "bangla_pronunciation": "মৌসম",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " শব্দটি শুনল। প্রয়োজন হলে সে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "आज बारिश होगी क्या",
+        "bangla_pronunciation": "আজ বারিশ হোগী ক্যা",
+        "word_pronunciations": [
+          {
+            "target": "आज",
+            "bangla_pronunciation": "আজ",
+            "separator_after": " "
+          },
+          {
+            "target": "बारिश",
+            "bangla_pronunciation": "বারিশ",
+            "separator_after": " "
+          },
+          {
+            "target": "होगी",
+            "bangla_pronunciation": "হোগী",
+            "separator_after": " "
+          },
+          {
+            "target": "क्या",
+            "bangla_pronunciation": "ক্যা",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": "। এরপর "
+      },
+      {
+        "kind": "target",
+        "target": "पूर्वानुमान",
+        "bangla_pronunciation": "পূর্ভানুমান",
+        "word_pronunciations": [
+          {
+            "target": "पूर्वानुमान",
+            "bangla_pronunciation": "পূর্ভানুমান",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " সম্পর্কেও জানতে হলো। শেষে "
+      },
+      {
+        "kind": "target",
+        "target": "छाता साथ रखिए",
+        "bangla_pronunciation": "ছাতা সাথ রখিএ",
+        "word_pronunciations": [
+          {
+            "target": "छाता",
+            "bangla_pronunciation": "ছাতা",
+            "separator_after": " "
+          },
+          {
+            "target": "साथ",
+            "bangla_pronunciation": "সাথ",
+            "separator_after": " "
+          },
+          {
+            "target": "रखिए",
+            "bangla_pronunciation": "রখিএ",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " কথাটিও কাজে লাগল।"
+      }
+    ],
+    "text_md": "আবহাওয়া ও দৈনিক পরিকল্পনা বিষয়ে বাস্তব পরিস্থিতিতে শিক্ষার্থী প্রথমে **मौसम** (মৌসম) শব্দটি শুনল। প্রয়োজন হলে সে বলল, **आज** (আজ) **बारिश** (বারিশ) **होगी** (হোগী) **क्या** (ক্যা)। এরপর **पूर्वानुमान** (পূর্ভানুমান) সম্পর্কেও জানতে হলো। শেষে **छाता** (ছাতা) **साथ** (সাথ) **रखिए** (রখিএ) কথাটিও কাজে লাগল।"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "আবহাওয়া ও দৈনিক পরিকল্পনা — ছোট হিন্দি পাঠ",
+    "scene_summary": "একই থিমের আলাদা ছোট পরিস্থিতি, সহজ এক-ক্লজ হিন্দি বাক্যে।",
+    "lines": [
+      {
+        "target": "सुबह धूप बहुत अच्छी थी।",
+        "bangla_pronunciation": "সুবহ ধূপ বহুত অচ্ছী থী।",
+        "word_pronunciations": [
+          {
+            "target": "सुबह",
+            "bangla_pronunciation": "সুবহ",
+            "separator_after": " "
+          },
+          {
+            "target": "धूप",
+            "bangla_pronunciation": "ধূপ",
+            "separator_after": " "
+          },
+          {
+            "target": "बहुत",
+            "bangla_pronunciation": "বহুত",
+            "separator_after": " "
+          },
+          {
+            "target": "अच्छी",
+            "bangla_pronunciation": "অচ্ছী",
+            "separator_after": " "
+          },
+          {
+            "target": "थी।",
+            "bangla_pronunciation": "থী।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "दोपहर में बादल आए।",
+        "bangla_pronunciation": "দোপহর মেং বাদল আএ।",
+        "word_pronunciations": [
+          {
+            "target": "दोपहर",
+            "bangla_pronunciation": "দোপহর",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেং",
+            "separator_after": " "
+          },
+          {
+            "target": "बादल",
+            "bangla_pronunciation": "বাদল",
+            "separator_after": " "
+          },
+          {
+            "target": "आए।",
+            "bangla_pronunciation": "আএ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "शाम को बारिश शुरू हुई।",
+        "bangla_pronunciation": "শাম কো বারিশ শুরূ হুঈ।",
+        "word_pronunciations": [
+          {
+            "target": "शाम",
+            "bangla_pronunciation": "শাম",
+            "separator_after": " "
+          },
+          {
+            "target": "को",
+            "bangla_pronunciation": "কো",
+            "separator_after": " "
+          },
+          {
+            "target": "बारिश",
+            "bangla_pronunciation": "বারিশ",
+            "separator_after": " "
+          },
+          {
+            "target": "शुरू",
+            "bangla_pronunciation": "শুরূ",
+            "separator_after": " "
+          },
+          {
+            "target": "हुई।",
+            "bangla_pronunciation": "হুঈ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मैंने छतरी साथ रखी।",
+        "bangla_pronunciation": "মৈংনে ছতরী সাথ রখী।",
+        "word_pronunciations": [
+          {
+            "target": "मैंने",
+            "bangla_pronunciation": "মৈংনে",
+            "separator_after": " "
+          },
+          {
+            "target": "छतरी",
+            "bangla_pronunciation": "ছতরী",
+            "separator_after": " "
+          },
+          {
+            "target": "साथ",
+            "bangla_pronunciation": "সাথ",
+            "separator_after": " "
+          },
+          {
+            "target": "रखी।",
+            "bangla_pronunciation": "রখী।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "रात में हवा ठंडी थी।",
+        "bangla_pronunciation": "রাত মেং হভা ঠংডী থী।",
+        "word_pronunciations": [
+          {
+            "target": "रात",
+            "bangla_pronunciation": "রাত",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেং",
+            "separator_after": " "
+          },
+          {
+            "target": "हवा",
+            "bangla_pronunciation": "হভা",
+            "separator_after": " "
+          },
+          {
+            "target": "ठंडी",
+            "bangla_pronunciation": "ঠংডী",
+            "separator_after": " "
+          },
+          {
+            "target": "थी।",
+            "bangla_pronunciation": "থী।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "সুবহ ধূপ বহুত অচ্ছী থী। দোপহর মেং বাদল আএ। শাম কো বারিশ শুরূ হুঈ। মৈংনে ছতরী সাথ রখী। রাত মেং হভা ঠংডী থী।",
+    "meaning_bengali_md": "সকালে রোদ খুব ভালো ছিল। দুপুরে মেঘ এল। সন্ধ্যায় বৃষ্টি শুরু হলো। আমি ছাতা সঙ্গে রেখেছিলাম। রাতে হাওয়া ঠান্ডা ছিল।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_tra",
+      "mode": "review",
+      "target": "त्र",
+      "bangla_pronunciation": "ত্র",
+      "explanation_bengali_md": "`त्र` যুক্তাক্ষরটি চিনুন এবং ধীরে `ত্র` উচ্চারণ করুন।",
+      "practice_bengali_md": "চিহ্নটি পাঁচবার দেখে `ত্র` উচ্চারণ করে পড়ুন।"
+    },
+    {
+      "item_id": "dev_ksha",
+      "mode": "review",
+      "target": "क्ष",
+      "bangla_pronunciation": "ক্ষ",
+      "explanation_bengali_md": "`क्ष` যুক্তাক্ষরটি অনেক পরিচিত শব্দে আসে; ধীরে `ক্ষ` উচ্চারণ অনুশীলন করুন।",
+      "practice_bengali_md": "চিহ্নটি পাঁচবার দেখে `ক্ষ` উচ্চারণ করে পড়ুন।"
+    },
+    {
+      "item_id": "dev_nasal",
+      "mode": "review",
+      "target": "ं",
+      "bangla_pronunciation": "ং",
+      "explanation_bengali_md": "অনুস্বারটি নাসিক্য ধ্বনি বোঝাতে ব্যবহৃত হয়।",
+      "practice_bengali_md": "চিহ্নটি দেখে বাংলা `ং`-এর কাছাকাছি নাসিক্য ধ্বনি অনুশীলন করুন।"
+    },
+    {
+      "item_id": "dev_chandra",
+      "mode": "review",
+      "target": "ँ",
+      "bangla_pronunciation": "ঁ",
+      "explanation_bengali_md": "চন্দ্রবিন্দু নাসিক্য স্বর বোঝাতে ব্যবহৃত হয়।",
+      "practice_bengali_md": "চিহ্নটি দেখে বাংলা `ঁ`-এর মতো নাসিক্যতা অনুশীলন করুন।"
+    },
+    {
+      "item_id": "dev_ri_mat",
+      "mode": "review",
+      "target": "ृ",
+      "bangla_pronunciation": "ৃ",
+      "explanation_bengali_md": "`ृ` মাত্রাটি আগের ব্যঞ্জনের সঙ্গে যুক্ত হয়ে ঋ-ধ্বনির কাছাকাছি উচ্চারণ দেয়।",
+      "practice_bengali_md": "চিহ্নটি পাঁচবার দেখে `ৃ`-ধ্বনি মনে রেখে পড়ুন।"
+    }
+  ],
+  "number_practice": [
+    {
+      "display": "70 / ७०",
+      "target": "सत्तर",
+      "bangla_pronunciation": "সত্তর",
+      "word_pronunciations": [
+        {
+          "target": "सत्तर",
+          "bangla_pronunciation": "সত্তর",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "70 সংখ্যাটির হিন্দি উচ্চারণ।",
+      "system": "international + Devanagari digits"
+    },
+    {
+      "display": "170 / १७०",
+      "target": "एक सौ सत्तर",
+      "bangla_pronunciation": "এক সৌ সত্তর",
+      "word_pronunciations": [
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "सौ",
+          "bangla_pronunciation": "সৌ",
+          "separator_after": " "
+        },
+        {
+          "target": "सत्तर",
+          "bangla_pronunciation": "সত্তর",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "170 সংখ্যাটির হিন্দি উচ্চারণ।",
+      "system": "international + Devanagari digits"
+    }
+  ],
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "এই পরিস্থিতিতে একটি উপযুক্ত হিন্দি বাক্য বলুন।",
+      "model_target": "आज मौसम साफ़ है और धूप तेज़ है।",
+      "model_bangla_pronunciation": "আজ মৌসম সাফ হৈ ঔর ধূপ তেজ হৈ।",
+      "model_word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": " "
+        },
+        {
+          "target": "साफ़",
+          "bangla_pronunciation": "সাফ",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হৈ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "धूप",
+          "bangla_pronunciation": "ধূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আজ আবহাওয়া পরিষ্কার এবং রোদ তীব্র।"
+    },
+    {
+      "prompt_bengali_md": "প্রয়োজন বা পছন্দটি হিন্দিতে বলুন।",
+      "model_target": "हवा चल रही है, आज बारिश होगी क्या?",
+      "model_bangla_pronunciation": "হভা চল রহী হৈ, আজ বারিশ হোগী ক্যা?",
+      "model_word_pronunciations": [
+        {
+          "target": "हवा",
+          "bangla_pronunciation": "হভা",
+          "separator_after": " "
+        },
+        {
+          "target": "चल",
+          "bangla_pronunciation": "চল",
+          "separator_after": " "
+        },
+        {
+          "target": "रही",
+          "bangla_pronunciation": "রহী",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হৈ,",
+          "separator_after": " "
+        },
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी",
+          "bangla_pronunciation": "হোগী",
+          "separator_after": " "
+        },
+        {
+          "target": "क्या?",
+          "bangla_pronunciation": "ক্যা?",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "হাওয়া বইছে, আজ কি বৃষ্টি হবে?"
+    },
+    {
+      "prompt_bengali_md": "প্রশ্ন বা অনুরোধটি হিন্দিতে বলুন।",
+      "model_target": "पूर्वानुमान देखकर पूछिए, कल मौसम कैसा रहेगा।",
+      "model_bangla_pronunciation": "পূর্ভানুমান দেখকর পূছিএ, কল মৌসম কৈসা রহেগা।",
+      "model_word_pronunciations": [
+        {
+          "target": "पूर्वानुमान",
+          "bangla_pronunciation": "পূর্ভানুমান",
+          "separator_after": " "
+        },
+        {
+          "target": "देखकर",
+          "bangla_pronunciation": "দেখকর",
+          "separator_after": " "
+        },
+        {
+          "target": "पूछिए,",
+          "bangla_pronunciation": "পূছিএ,",
+          "separator_after": " "
+        },
+        {
+          "target": "कल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": " "
+        },
+        {
+          "target": "कैसा",
+          "bangla_pronunciation": "কৈসা",
+          "separator_after": " "
+        },
+        {
+          "target": "रहेगा।",
+          "bangla_pronunciation": "রহেগা।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "পূর্বাভাস দেখে জিজ্ঞেস করুন, কাল আবহাওয়া কেমন থাকবে।"
+    },
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের শব্দ ব্যবহার করে একটি বাস্তব বাক্য বলুন।",
+      "model_target": "बारिश हो तो समय बदल दीजिए।",
+      "model_bangla_pronunciation": "বারিশ হো তো সময বদল দীজিএ।",
+      "model_word_pronunciations": [
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময",
+          "separator_after": " "
+        },
+        {
+          "target": "बदल",
+          "bangla_pronunciation": "বদল",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিএ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "বৃষ্টি হলে সময় বদলে দিন।"
+    },
+    {
+      "prompt_bengali_md": "ভদ্রভাবে পরিস্থিতিটি সামলাতে হিন্দিতে বলুন।",
+      "model_target": "सूरज तेज़ है, छाता साथ रखिए।",
+      "model_bangla_pronunciation": "সূরজ তেজ হৈ, ছাতা সাথ রখিএ।",
+      "model_word_pronunciations": [
+        {
+          "target": "सूरज",
+          "bangla_pronunciation": "সূরজ",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হৈ,",
+          "separator_after": " "
+        },
+        {
+          "target": "छाता",
+          "bangla_pronunciation": "ছাতা",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "সূর্য তীব্র, ছাতা সঙ্গে রাখুন।"
+    },
+    {
+      "prompt_bengali_md": "শেষবারের মতো একটি পূর্ণ বাক্য স্মরণ করে বলুন।",
+      "model_target": "मौसम-विभाग ने चेतावनी दी, इसलिए मैं घर पर रहूँगा।",
+      "model_bangla_pronunciation": "মৌসম-ভিভাগ নে চেতাভনী দী, ইসলিএ মৈং ঘর পর রহূঁগা।",
+      "model_word_pronunciations": [
+        {
+          "target": "मौसम-विभाग",
+          "bangla_pronunciation": "মৌসম-ভিভাগ",
+          "separator_after": " "
+        },
+        {
+          "target": "ने",
+          "bangla_pronunciation": "নে",
+          "separator_after": " "
+        },
+        {
+          "target": "चेतावनी",
+          "bangla_pronunciation": "চেতাভনী",
+          "separator_after": " "
+        },
+        {
+          "target": "दी,",
+          "bangla_pronunciation": "দী,",
+          "separator_after": " "
+        },
+        {
+          "target": "इसलिए",
+          "bangla_pronunciation": "ইসলিএ",
+          "separator_after": " "
+        },
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "মৈং",
+          "separator_after": " "
+        },
+        {
+          "target": "घर",
+          "bangla_pronunciation": "ঘর",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "रहूँगा।",
+          "bangla_pronunciation": "রহূঁগা।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আবহাওয়া বিভাগ সতর্ক করেছে, তাই আমি বাড়িতে থাকব।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch070_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "An adult checking the sky before leaving home as sunshine mixes with dark clouds, holding an umbrella and considering the day’s plans; bright editorial city setting, clear weather contrast. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes"
+    },
+    {
+      "key": "ch070_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A quiet evening after rain with an adult walking under an umbrella while cool wind moves trees and puddles reflect soft light; calm uncluttered composition. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes"
+    }
+  ],
+  "additional_practice": []
+}
