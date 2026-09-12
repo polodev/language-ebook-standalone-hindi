@@ -2,7 +2,61 @@
   "copy": {
     "title": "Easy Hindi Foundation",
     "title_bengali": "ইজি হিন্দি ফাউন্ডেশন",
-    "publisher": "Published by Englishing.app"
+    "publisher": "Published by Englishing.app",
+    "edition_note": "পর্যালোচনা সংস্করণ",
+    "subtitle": "বাংলাভাষীদের জন্য হিন্দি শেখার প্রথম ধাপ",
+    "chapter_label": "অধ্যায়",
+    "contents": "সূচিপত্র",
+    "sentences": "দরকারি বাক্য",
+    "vocabulary": "বাক্য থেকে শব্দ শেখা",
+    "bridge_reading": "বাংলা ও হিন্দিতে গল্প",
+    "target_reading": "ছোট হিন্দি পাঠ",
+    "script_and_numbers": "অক্ষর ও সংখ্যা",
+    "speaking_practice": "নিজে বলুন ও অনুশীলন করুন",
+    "additional_practice": "আরও অনুশীলন",
+    "pronunciation": "উচ্চারণ",
+    "meaning": "বাংলা অর্থ",
+    "romanization": "রোমান হরফে",
+    "numbers": "সংখ্যা",
+    "script": "অক্ষর চেনা",
+    "answer": "নমুনা উত্তর",
+    "synonyms": "একই অর্থের শব্দ",
+    "collocations": "একসঙ্গে ব্যবহৃত শব্দ",
+    "tracker": "শেখার অগ্রগতি",
+    "tracker_subtitle": "প্রতিটি অধ্যায় পড়ুন, বলুন এবং পুনরায় অনুশীলন করুন।",
+    "tracker_columns": [
+      "অধ্যায়",
+      "বিষয়",
+      "পড়েছি",
+      "বলেছি",
+      "আবার করেছি"
+    ],
+    "reading_pronunciation": "সম্পূর্ণ পাঠের উচ্চারণ",
+    "reading_meaning": "সম্পূর্ণ পাঠের বাংলা অর্থ",
+    "review_note": "এই সংস্করণটি সম্পাদনা ও পাঠযোগ্যতা পর্যালোচনার জন্য।",
+    "base": "শুরু",
+    "expanded": "বিস্তার",
+    "polished": "পরিমার্জিত",
+    "script_modes": {
+      "new": "নতুন অক্ষর",
+      "review": "পুনরায় চর্চা",
+      "application": "ব্যবহার"
+    },
+    "sentence_table_columns": [
+      "নং",
+      "বাংলা অর্থ",
+      "পূর্ণ উচ্চারণ (বাংলা হরফে)",
+      "শব্দে শব্দে হিন্দি ও উচ্চারণ"
+    ],
+    "vocabulary_table_columns": [
+      "নং",
+      "বাংলা অর্থ",
+      "পূর্ণ উচ্চারণ (বাংলা হরফে)",
+      "হিন্দি ও উচ্চারণ"
+    ],
+    "word_breakdown": "শব্দে শব্দে হিন্দি ও উচ্চারণ",
+    "complete_target_reading": "সম্পূর্ণ পাঠের উচ্চারণ (বাংলা হরফে)",
+    "reading_breakdown": "শব্দে শব্দে পাঠ"
   },
   "design": {
     "status": "planned_requires_visual_QA",
@@ -80,8 +134,8 @@
     "mobile_single_column": true,
     "keep_target_pronunciation_meaning_together": true,
     "desktop_page_mm": [
-      297,
-      210
+      210,
+      297
     ],
     "mobile_page_mm": [
       120,
@@ -108,14 +162,51 @@
       },
       "bridge_target_highlight": "bold_native_target_spans",
       "target_reading_order": [
-        "annotated_target_lines",
         "complete_bangla_pronunciation",
-        "meaning_bengali_md"
+        "meaning_bengali_md",
+        "annotated_target_lines"
       ],
       "optional_number_cards": "Omit the number subsection when number_practice is null; otherwise show 2 or 3 cards.",
       "image_placement": "Place each chapter reading image beside or immediately above its matching reading; keep captions as real font text.",
       "mobile_flow": "Single column with readable inline pronunciation; allow complete word-and-cue groups to wrap without clipping.",
-      "bridge_markdown_field": "bridge_reading.text_md"
+      "bridge_markdown_field": "bridge_reading.text_md",
+      "entry_layout": {
+        "sections": [
+          "sentences",
+          "vocabulary"
+        ],
+        "order": [
+          "meaning_bengali_md",
+          "bangla_pronunciation",
+          "word_pronunciations"
+        ],
+        "target_support": [
+          "romanization"
+        ],
+        "desktop_pdf": "table",
+        "mobile_pdf": "stacked_cards",
+        "desktop_epub": "stacked_cards",
+        "mobile_epub": "stacked_cards",
+        "keep_breakdown_with_entry": true
+      },
+      "native_script_display": "only_with_adjacent_word_level_bangla_pronunciation",
+      "target_reading_pronunciation_labels": false
+    },
+    "ui": {
+      "text": "#243442",
+      "muted": "#526573",
+      "paper": "#FFFFFF",
+      "rule": "#D9E3E9",
+      "cover_ink": "#175B72",
+      "card_radius_mm": 2.5,
+      "desktop_font_pt": 11,
+      "mobile_font_pt": 11,
+      "desktop_margin_mm": 12,
+      "mobile_margin_mm": 9,
+      "image_width_px": 1152,
+      "image_jpeg_quality": 84,
+      "tracker_font_pt": 9,
+      "tracker_cell_padding_mm": 1.2
     }
   },
   "outputs": [
@@ -128,5 +219,13 @@
     "07-easy-hindi-foundation-bn-desktop.epub",
     "08-easy-hindi-foundation-bn-mobile.epub"
   ],
-  "compact_fields": []
+  "compact_fields": [],
+  "publication": {
+    "identifier": "urn:englishing:easy-hindi-foundation-bn:review:1",
+    "modified": "2026-09-11T00:00:00Z",
+    "edition_status": "review_build",
+    "publisher_name": "Englishing.app",
+    "language": "bn",
+    "target_language": "hi-IN"
+  }
 }
