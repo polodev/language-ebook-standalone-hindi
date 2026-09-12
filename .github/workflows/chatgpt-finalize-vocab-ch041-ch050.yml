@@ -30,7 +30,7 @@ jobs:
           cat /tmp/parts.txt
           test "$(wc -l < /tmp/parts.txt)" -ge 8
           while IFS= read -r part; do cat "$part"; done < /tmp/parts.txt > /tmp/ch43-50.b64
-          test "$(wc -c < /tmp/ch43-50.b64)" -eq 50000
+          test "$(wc -c < /tmp/ch43-50.b64)" -eq 47608
           base64 -d /tmp/ch43-50.b64 > /tmp/ch43-50.tar.xz
           xz -t /tmp/ch43-50.tar.xz
           xz -dc /tmp/ch43-50.tar.xz > /tmp/ch43-50.tar
