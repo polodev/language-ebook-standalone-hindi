@@ -1,0 +1,1927 @@
+{
+  "chapter_id": "ch016",
+  "status": "drafted",
+  "title_target": "रिमोट काम, फ्रीलांसिंग और ग्राहक",
+  "title_bangla_pronunciation": "রিমোট কাম, ফ্রিল্যান্সিং অউর গ্রাহক",
+  "title_word_pronunciations": [
+    {
+      "target": "रिमोट",
+      "bangla_pronunciation": "রিমোট",
+      "separator_after": " "
+    },
+    {
+      "target": "काम,",
+      "bangla_pronunciation": "কাম,",
+      "separator_after": " "
+    },
+    {
+      "target": "फ्रीलांसिंग",
+      "bangla_pronunciation": "ফ্রিল্যান্সিং",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "ग्राहक",
+      "bangla_pronunciation": "গ্রাহক",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "রিমোট কাজ, ফ্রিল্যান্সিং ও ক্লায়েন্ট",
+  "goal_bengali_md": "ক্লায়েন্ট কল, মাইলস্টোন, রিভিশন, পেমেন্ট, সময় অঞ্চল ও আস্থা নিয়ে পেশাদারভাবে কথা বলা।",
+  "sentences": [
+    {
+      "id": "ch016_s01",
+      "target": "आज की ग्राहक कॉल दस बजे है।",
+      "romanization": "aaj kii graahk kl ds bje hai.",
+      "bangla_pronunciation": "আজ কী গ্রাহক কল দস বজে হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "कॉल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "दस",
+          "bangla_pronunciation": "দস",
+          "separator_after": " "
+        },
+        {
+          "target": "बजे",
+          "bangla_pronunciation": "বজে",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আজকের ক্লায়েন্ট কল দশটায়।"
+    },
+    {
+      "id": "ch016_s02",
+      "target": "हमने पहला माइलस्टोन पूरा कर लिया है।",
+      "romanization": "hmne phlaa maailston puuraa kr liyaa hai.",
+      "bangla_pronunciation": "হমনে পহলা মাইলস্টোন পূরা কর লিয়া হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "हमने",
+          "bangla_pronunciation": "হমনে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहला",
+          "bangla_pronunciation": "পহলা",
+          "separator_after": " "
+        },
+        {
+          "target": "माइलस्टोन",
+          "bangla_pronunciation": "মাইলস্টোন",
+          "separator_after": " "
+        },
+        {
+          "target": "पूरा",
+          "bangla_pronunciation": "পূরা",
+          "separator_after": " "
+        },
+        {
+          "target": "कर",
+          "bangla_pronunciation": "কর",
+          "separator_after": " "
+        },
+        {
+          "target": "लिया",
+          "bangla_pronunciation": "লিয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমরা প্রথম মাইলস্টোন শেষ করেছি।"
+    },
+    {
+      "id": "ch016_s03",
+      "target": "अगला ड्राफ़्ट सोमवार को भेजेंगे।",
+      "romanization": "aglaa draapht somvaar ko bhejenge.",
+      "bangla_pronunciation": "অগলা ড্রাফট সোমবার কো ভেজেংগে।",
+      "word_pronunciations": [
+        {
+          "target": "अगला",
+          "bangla_pronunciation": "অগলা",
+          "separator_after": " "
+        },
+        {
+          "target": "ड्राफ़्ट",
+          "bangla_pronunciation": "ড্রাফট",
+          "separator_after": " "
+        },
+        {
+          "target": "सोमवार",
+          "bangla_pronunciation": "সোমবার",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजेंगे।",
+          "bangla_pronunciation": "ভেজেংগে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরের খসড়া সোমবার পাঠাব।"
+    },
+    {
+      "id": "ch016_s04",
+      "target": "ग्राहक ने दो छोटे बदलाव माँगे हैं।",
+      "romanization": "graahk ne do chhote bdlaav maange hain.",
+      "bangla_pronunciation": "গ্রাহক নে দো ছোটে বদলাভ মাঁগে হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "ने",
+          "bangla_pronunciation": "নে",
+          "separator_after": " "
+        },
+        {
+          "target": "दो",
+          "bangla_pronunciation": "দো",
+          "separator_after": " "
+        },
+        {
+          "target": "छोटे",
+          "bangla_pronunciation": "ছোটে",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलाव",
+          "bangla_pronunciation": "বদলাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "माँगे",
+          "bangla_pronunciation": "মাঁগে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ক্লায়েন্ট দুটি ছোট পরিবর্তন চেয়েছেন।"
+    },
+    {
+      "id": "ch016_s05",
+      "target": "यह बदलाव तय दायरे के अंदर है।",
+      "romanization": "yh bdlaav ty daayre ke andr hai.",
+      "bangla_pronunciation": "যহ বদলাভ তয় দায়রে কে অংদর হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलाव",
+          "bangla_pronunciation": "বদলাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয়",
+          "separator_after": " "
+        },
+        {
+          "target": "दायरे",
+          "bangla_pronunciation": "দায়রে",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "अंदर",
+          "bangla_pronunciation": "অংদর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই পরিবর্তন নির্ধারিত কাজের পরিধির মধ্যে।"
+    },
+    {
+      "id": "ch016_s06",
+      "target": "अतिरिक्त संशोधन पर अलग शुल्क लगेगा।",
+      "romanization": "atirikt snshodhn pr alg shulk lgegaa.",
+      "bangla_pronunciation": "অতিরিক্ত সংশোধন পর অলগ শুল্ক লগেগা।",
+      "word_pronunciations": [
+        {
+          "target": "अतिरिक्त",
+          "bangla_pronunciation": "অতিরিক্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "संशोधन",
+          "bangla_pronunciation": "সংশোধন",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "अलग",
+          "bangla_pronunciation": "অলগ",
+          "separator_after": " "
+        },
+        {
+          "target": "शुल्क",
+          "bangla_pronunciation": "শুল্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "लगेगा।",
+          "bangla_pronunciation": "লগেগা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অতিরিক্ত রিভিশনে আলাদা ফি লাগবে।"
+    },
+    {
+      "id": "ch016_s07",
+      "target": "भुगतान का पहला हिस्सा मिल गया है।",
+      "romanization": "bhugtaan kaa phlaa hissaa mil gyaa hai.",
+      "bangla_pronunciation": "ভুগতান কা পহলা হিস্সা মিল গয়া হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "पहला",
+          "bangla_pronunciation": "পহলা",
+          "separator_after": " "
+        },
+        {
+          "target": "हिस्सा",
+          "bangla_pronunciation": "হিস্সা",
+          "separator_after": " "
+        },
+        {
+          "target": "मिल",
+          "bangla_pronunciation": "মিল",
+          "separator_after": " "
+        },
+        {
+          "target": "गया",
+          "bangla_pronunciation": "গয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্টের প্রথম অংশ পাওয়া গেছে।"
+    },
+    {
+      "id": "ch016_s08",
+      "target": "बाकी भुगतान अंतिम डिलीवरी के बाद होगा।",
+      "romanization": "baakii bhugtaan antim diliivrii ke baad hogaa.",
+      "bangla_pronunciation": "বাকী ভুগতান অংতিম ডেলিভারি কে বাদ হোগা।",
+      "word_pronunciations": [
+        {
+          "target": "बाकी",
+          "bangla_pronunciation": "বাকী",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "अंतिम",
+          "bangla_pronunciation": "অংতিম",
+          "separator_after": " "
+        },
+        {
+          "target": "डिलीवरी",
+          "bangla_pronunciation": "ডেলিভারি",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "बाद",
+          "bangla_pronunciation": "বাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "होगा।",
+          "bangla_pronunciation": "হোগা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাকি পেমেন্ট চূড়ান্ত ডেলিভারির পর হবে।"
+    },
+    {
+      "id": "ch016_s09",
+      "target": "हमारे समय क्षेत्रों में तीन घंटे का अंतर है।",
+      "romanization": "hmaare smy kshetron men tiin ghnte kaa antr hai.",
+      "bangla_pronunciation": "হমারে সময় ক্ষেত্রোং মেঁ তীন ঘংটে কা অংতর হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "हमारे",
+          "bangla_pronunciation": "হমারে",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "क्षेत्रों",
+          "bangla_pronunciation": "ক্ষেত্রোং",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "तीन",
+          "bangla_pronunciation": "তীন",
+          "separator_after": " "
+        },
+        {
+          "target": "घंटे",
+          "bangla_pronunciation": "ঘংটে",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "अंतर",
+          "bangla_pronunciation": "অংতর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমাদের সময় অঞ্চলে তিন ঘণ্টার পার্থক্য আছে।"
+    },
+    {
+      "id": "ch016_s10",
+      "target": "क्या हम आपकी सुबह में कॉल रख सकते हैं?",
+      "romanization": "kyaa hm aapkii subh men kl rkh skte hain?",
+      "bangla_pronunciation": "ক্যা হম আপকী সুবহ মেঁ কল রখ সকতে হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "हम",
+          "bangla_pronunciation": "হম",
+          "separator_after": " "
+        },
+        {
+          "target": "आपकी",
+          "bangla_pronunciation": "আপকী",
+          "separator_after": " "
+        },
+        {
+          "target": "सुबह",
+          "bangla_pronunciation": "সুবহ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "कॉल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "रख",
+          "bangla_pronunciation": "রখ",
+          "separator_after": " "
+        },
+        {
+          "target": "सकते",
+          "bangla_pronunciation": "সকতে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমরা কি আপনার সকালের সময়ে কল রাখতে পারি?"
+    },
+    {
+      "id": "ch016_s11",
+      "target": "मैं हर दो दिन में प्रगति अपडेट भेजूँगा।",
+      "romanization": "main hr do din men prgti apdet bhejuungaa.",
+      "bangla_pronunciation": "ম্যায় হর দো দিন মেঁ প্রগতি আপডেট ভেজূঁগা।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যায়",
+          "separator_after": " "
+        },
+        {
+          "target": "हर",
+          "bangla_pronunciation": "হর",
+          "separator_after": " "
+        },
+        {
+          "target": "दो",
+          "bangla_pronunciation": "দো",
+          "separator_after": " "
+        },
+        {
+          "target": "दिन",
+          "bangla_pronunciation": "দিন",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रगति",
+          "bangla_pronunciation": "প্রগতি",
+          "separator_after": " "
+        },
+        {
+          "target": "अपडेट",
+          "bangla_pronunciation": "আপডেট",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजूँगा।",
+          "bangla_pronunciation": "ভেজূঁগা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি প্রতি দুই দিনে অগ্রগতির আপডেট পাঠাব।"
+    },
+    {
+      "id": "ch016_s12",
+      "target": "कोई रुकावट हो, तो मैं तुरंत बताऊँगा।",
+      "romanization": "koii rukaavt ho, to main turnt btaauungaa.",
+      "bangla_pronunciation": "কোঈ রুকাভট হো, তো ম্যায় তুরংত বতাঊঁগা।",
+      "word_pronunciations": [
+        {
+          "target": "कोई",
+          "bangla_pronunciation": "কোঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "रुकावट",
+          "bangla_pronunciation": "রুকাভট",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যায়",
+          "separator_after": " "
+        },
+        {
+          "target": "तुरंत",
+          "bangla_pronunciation": "তুরংত",
+          "separator_after": " "
+        },
+        {
+          "target": "बताऊँगा।",
+          "bangla_pronunciation": "বতাঊঁগা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কোনো বাধা হলে আমি সঙ্গে সঙ্গে জানাব।"
+    },
+    {
+      "id": "ch016_s13",
+      "target": "कृपया बदलाव एक ही सूची में भेजें।",
+      "romanization": "kpyaa bdlaav ek hii suuchii men bhejen.",
+      "bangla_pronunciation": "কৃপয়া বদলাভ এক হী সূচী মেঁ ভেজেং।",
+      "word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलाव",
+          "bangla_pronunciation": "বদলাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "ही",
+          "bangla_pronunciation": "হী",
+          "separator_after": " "
+        },
+        {
+          "target": "सूची",
+          "bangla_pronunciation": "সূচী",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजें।",
+          "bangla_pronunciation": "ভেজেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনুগ্রহ করে পরিবর্তনগুলো এক তালিকায় পাঠান।"
+    },
+    {
+      "id": "ch016_s14",
+      "target": "इससे संशोधन संभालना आसान होगा।",
+      "romanization": "isse snshodhn snbhaalnaa aasaan hogaa.",
+      "bangla_pronunciation": "ইসসে সংশোধন সংভালনা আসান হোগা।",
+      "word_pronunciations": [
+        {
+          "target": "इससे",
+          "bangla_pronunciation": "ইসসে",
+          "separator_after": " "
+        },
+        {
+          "target": "संशोधन",
+          "bangla_pronunciation": "সংশোধন",
+          "separator_after": " "
+        },
+        {
+          "target": "संभालना",
+          "bangla_pronunciation": "সংভালনা",
+          "separator_after": " "
+        },
+        {
+          "target": "आसान",
+          "bangla_pronunciation": "আসান",
+          "separator_after": " "
+        },
+        {
+          "target": "होगा।",
+          "bangla_pronunciation": "হোগা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এতে রিভিশন সামলানো সহজ হবে।"
+    },
+    {
+      "id": "ch016_s15",
+      "target": "हमने काम की सीमा लिखित रूप में तय की है।",
+      "romanization": "hmne kaam kii siimaa likhit ruup men ty kii hai.",
+      "bangla_pronunciation": "হমনে কাম কী সীমা লিখিত রূপ মেঁ তয় কী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "हमने",
+          "bangla_pronunciation": "হমনে",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "सीमा",
+          "bangla_pronunciation": "সীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखित",
+          "bangla_pronunciation": "লিখিত",
+          "separator_after": " "
+        },
+        {
+          "target": "रूप",
+          "bangla_pronunciation": "রূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয়",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমরা কাজের সীমা লিখিতভাবে ঠিক করেছি।"
+    },
+    {
+      "id": "ch016_s16",
+      "target": "भरोसा बनाए रखने के लिए समय पर जवाब ज़रूरी है।",
+      "romanization": "bhrosaa bnaae rkhne ke lie smy pr jvaab jruurii hai.",
+      "bangla_pronunciation": "ভরোসা বনাএ রখনে কে লিয়ে সময় পর জভাব জরূরী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "भरोसा",
+          "bangla_pronunciation": "ভরোসা",
+          "separator_after": " "
+        },
+        {
+          "target": "बनाए",
+          "bangla_pronunciation": "বনাএ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखने",
+          "bangla_pronunciation": "রখনে",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "जवाब",
+          "bangla_pronunciation": "জভাব",
+          "separator_after": " "
+        },
+        {
+          "target": "ज़रूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আস্থা ধরে রাখতে সময়মতো উত্তর জরুরি।"
+    },
+    {
+      "id": "ch016_s17",
+      "target": "मैं अनुमान बदलने से पहले कारण समझाऊँगा।",
+      "romanization": "main anumaan bdlne se phle kaar smjhaauungaa.",
+      "bangla_pronunciation": "ম্যায় অনুমান বদলনে সে পহলে কারণ সমঝাঊঁগা।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যায়",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुमान",
+          "bangla_pronunciation": "অনুমান",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलने",
+          "bangla_pronunciation": "বদলনে",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "कारण",
+          "bangla_pronunciation": "কারণ",
+          "separator_after": " "
+        },
+        {
+          "target": "समझाऊँगा।",
+          "bangla_pronunciation": "সমঝাঊঁগা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "হিসাব বদলানোর আগে আমি কারণ ব্যাখ্যা করব।"
+    },
+    {
+      "id": "ch016_s18",
+      "target": "ग्राहक की प्राथमिकता इस सप्ताह बदल गई है।",
+      "romanization": "graahk kii praathmiktaa is sptaah bdl gii hai.",
+      "bangla_pronunciation": "গ্রাহক কী প্রাথমিকতা ইস সপ্তাহ বদল গঈ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "प्राथमिकता",
+          "bangla_pronunciation": "প্রাথমিকতা",
+          "separator_after": " "
+        },
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "सप्ताह",
+          "bangla_pronunciation": "সপ্তাহ",
+          "separator_after": " "
+        },
+        {
+          "target": "बदल",
+          "bangla_pronunciation": "বদল",
+          "separator_after": " "
+        },
+        {
+          "target": "गई",
+          "bangla_pronunciation": "গঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ক্লায়েন্টের অগ্রাধিকার এই সপ্তাহে বদলেছে।"
+    },
+    {
+      "id": "ch016_s19",
+      "target": "हम नई प्राथमिकता के अनुसार योजना अपडेट करेंगे।",
+      "romanization": "hm nii praathmiktaa ke anusaar yojnaa apdet krenge.",
+      "bangla_pronunciation": "হম নঈ প্রাথমিকতা কে অনুসার যোজনা আপডেট করেংগে।",
+      "word_pronunciations": [
+        {
+          "target": "हम",
+          "bangla_pronunciation": "হম",
+          "separator_after": " "
+        },
+        {
+          "target": "नई",
+          "bangla_pronunciation": "নঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "प्राथमिकता",
+          "bangla_pronunciation": "প্রাথমিকতা",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुसार",
+          "bangla_pronunciation": "অনুসার",
+          "separator_after": " "
+        },
+        {
+          "target": "योजना",
+          "bangla_pronunciation": "যোজনা",
+          "separator_after": " "
+        },
+        {
+          "target": "अपडेट",
+          "bangla_pronunciation": "আপডেট",
+          "separator_after": " "
+        },
+        {
+          "target": "करेंगे।",
+          "bangla_pronunciation": "করেংগে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমরা নতুন অগ্রাধিকার অনুযায়ী পরিকল্পনা আপডেট করব।"
+    },
+    {
+      "id": "ch016_s20",
+      "target": "स्पष्ट संवाद दूर से काम करने में बहुत मदद करता है।",
+      "romanization": "spsht snvaad duur se kaam krne men bhut mdd krtaa hai.",
+      "bangla_pronunciation": "স্পষ্ট সংভাদ দূর সে কাম করনে মেঁ বহুত মদদ করতা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "संवाद",
+          "bangla_pronunciation": "সংভাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "दूर",
+          "bangla_pronunciation": "দূর",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "करने",
+          "bangla_pronunciation": "করনে",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "मदद",
+          "bangla_pronunciation": "মদদ",
+          "separator_after": " "
+        },
+        {
+          "target": "करता",
+          "bangla_pronunciation": "করতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্পষ্ট যোগাযোগ দূর থেকে কাজ করতে অনেক সাহায্য করে।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "ch016_v01",
+      "target": "ग्राहक",
+      "type": "বিশেষ্য",
+      "romanization": "graahk",
+      "bangla_pronunciation": "গ্রাহক",
+      "word_pronunciations": [
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ক্লায়েন্ট বা গ্রাহক",
+      "source_sentence_id": "ch016_s01",
+      "source_form": "ग्राहक"
+    },
+    {
+      "id": "ch016_v02",
+      "target": "माइलस्टोन",
+      "type": "বিশেষ্য",
+      "romanization": "maailston",
+      "bangla_pronunciation": "মাইলস্টোন",
+      "word_pronunciations": [
+        {
+          "target": "माइलस्टोन",
+          "bangla_pronunciation": "মাইলস্টোন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মাইলস্টোন",
+      "source_sentence_id": "ch016_s02",
+      "source_form": "माइलस्टोन"
+    },
+    {
+      "id": "ch016_v03",
+      "target": "ड्राफ़्ट",
+      "type": "বিশেষ্য",
+      "romanization": "draapht",
+      "bangla_pronunciation": "ড্রাফট",
+      "word_pronunciations": [
+        {
+          "target": "ड्राफ़्ट",
+          "bangla_pronunciation": "ড্রাফট",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খসড়া",
+      "source_sentence_id": "ch016_s03",
+      "source_form": "ड्राफ़्ट"
+    },
+    {
+      "id": "ch016_v04",
+      "target": "दायरे",
+      "type": "বিশেষ্য",
+      "romanization": "daayre",
+      "bangla_pronunciation": "দায়রে",
+      "word_pronunciations": [
+        {
+          "target": "दायरे",
+          "bangla_pronunciation": "দায়রে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কাজের পরিধির",
+      "source_sentence_id": "ch016_s05",
+      "source_form": "दायरे"
+    },
+    {
+      "id": "ch016_v05",
+      "target": "संशोधन",
+      "type": "বিশেষ্য",
+      "romanization": "snshodhn",
+      "bangla_pronunciation": "সংশোধন",
+      "word_pronunciations": [
+        {
+          "target": "संशोधन",
+          "bangla_pronunciation": "সংশোধন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রিভিশন বা সংশোধন",
+      "source_sentence_id": "ch016_s06",
+      "source_form": "संशोधन"
+    },
+    {
+      "id": "ch016_v06",
+      "target": "भुगतान",
+      "type": "বিশেষ্য",
+      "romanization": "bhugtaan",
+      "bangla_pronunciation": "ভুগতান",
+      "word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্ট",
+      "source_sentence_id": "ch016_s07",
+      "source_form": "भुगतान"
+    },
+    {
+      "id": "ch016_v07",
+      "target": "समय क्षेत्रों",
+      "type": "বাক্যাংশ",
+      "romanization": "smy kshetron",
+      "bangla_pronunciation": "সময় ক্ষেত্রোং",
+      "word_pronunciations": [
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "क्षेत्रों",
+          "bangla_pronunciation": "ক্ষেত্রোং",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সময় অঞ্চলগুলো",
+      "source_sentence_id": "ch016_s09",
+      "source_form": "समय क्षेत्रों"
+    },
+    {
+      "id": "ch016_v08",
+      "target": "रुकावट",
+      "type": "বিশেষ্য",
+      "romanization": "rukaavt",
+      "bangla_pronunciation": "রুকাভট",
+      "word_pronunciations": [
+        {
+          "target": "रुकावट",
+          "bangla_pronunciation": "রুকাভট",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাধা",
+      "source_sentence_id": "ch016_s12",
+      "source_form": "रुकावट"
+    },
+    {
+      "id": "ch016_v09",
+      "target": "भरोसा",
+      "type": "বিশেষ্য",
+      "romanization": "bhrosaa",
+      "bangla_pronunciation": "ভরোসা",
+      "word_pronunciations": [
+        {
+          "target": "भरोसा",
+          "bangla_pronunciation": "ভরোসা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আস্থা",
+      "source_sentence_id": "ch016_s16",
+      "source_form": "भरोसा"
+    },
+    {
+      "id": "ch016_v10",
+      "target": "संवाद",
+      "type": "বিশেষ্য",
+      "romanization": "snvaad",
+      "bangla_pronunciation": "সংভাদ",
+      "word_pronunciations": [
+        {
+          "target": "संवाद",
+          "bangla_pronunciation": "সংভাদ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "যোগাযোগ বা সংলাপ",
+      "source_sentence_id": "ch016_s20",
+      "source_form": "संवाद"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "রিমোট ক্লায়েন্টের সঙ্গে কাজ",
+    "scene_summary": "এক ফ্রিল্যান্সার মাইলস্টোন, পরিবর্তন ও পেমেন্ট নিয়ে দূরের ক্লায়েন্টকে আপডেট দিচ্ছে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "ক্লায়েন্ট কলের আগে দল জানাল: "
+      },
+      {
+        "kind": "target",
+        "target": "आज की ग्राहक कॉल दस बजे है।",
+        "bangla_pronunciation": "আজ কী গ্রাহক কল দস বজে হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "आज",
+            "bangla_pronunciation": "আজ",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "separator_after": " "
+          },
+          {
+            "target": "ग्राहक",
+            "bangla_pronunciation": "গ্রাহক",
+            "separator_after": " "
+          },
+          {
+            "target": "कॉल",
+            "bangla_pronunciation": "কল",
+            "separator_after": " "
+          },
+          {
+            "target": "दस",
+            "bangla_pronunciation": "দস",
+            "separator_after": " "
+          },
+          {
+            "target": "बजे",
+            "bangla_pronunciation": "বজে",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " মাইলস্টোনের অবস্থা ছিল: "
+      },
+      {
+        "kind": "target",
+        "target": "हमने पहला माइलस्टोन पूरा कर लिया है।",
+        "bangla_pronunciation": "হমনে পহলা মাইলস্টোন পূরা কর লিয়া হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "हमने",
+            "bangla_pronunciation": "হমনে",
+            "separator_after": " "
+          },
+          {
+            "target": "पहला",
+            "bangla_pronunciation": "পহলা",
+            "separator_after": " "
+          },
+          {
+            "target": "माइलस्टोन",
+            "bangla_pronunciation": "মাইলস্টোন",
+            "separator_after": " "
+          },
+          {
+            "target": "पूरा",
+            "bangla_pronunciation": "পূরা",
+            "separator_after": " "
+          },
+          {
+            "target": "कर",
+            "bangla_pronunciation": "কর",
+            "separator_after": " "
+          },
+          {
+            "target": "लिया",
+            "bangla_pronunciation": "লিয়া",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " পরের ডেলিভারির সময় বলা হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "अगला ड्राफ़्ट सोमवार को भेजेंगे।",
+        "bangla_pronunciation": "অগলা ড্রাফট সোমবার কো ভেজেংগে।",
+        "word_pronunciations": [
+          {
+            "target": "अगला",
+            "bangla_pronunciation": "অগলা",
+            "separator_after": " "
+          },
+          {
+            "target": "ड्राफ़्ट",
+            "bangla_pronunciation": "ড্রাফট",
+            "separator_after": " "
+          },
+          {
+            "target": "सोमवार",
+            "bangla_pronunciation": "সোমবার",
+            "separator_after": " "
+          },
+          {
+            "target": "को",
+            "bangla_pronunciation": "কো",
+            "separator_after": " "
+          },
+          {
+            "target": "भेजेंगे।",
+            "bangla_pronunciation": "ভেজেংগে।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " পরিবর্তন সম্পর্কে বলা হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "ग्राहक ने दो छोटे बदलाव माँगे हैं।",
+        "bangla_pronunciation": "গ্রাহক নে দো ছোটে বদলাভ মাঁগে হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "ग्राहक",
+            "bangla_pronunciation": "গ্রাহক",
+            "separator_after": " "
+          },
+          {
+            "target": "ने",
+            "bangla_pronunciation": "নে",
+            "separator_after": " "
+          },
+          {
+            "target": "दो",
+            "bangla_pronunciation": "দো",
+            "separator_after": " "
+          },
+          {
+            "target": "छोटे",
+            "bangla_pronunciation": "ছোটে",
+            "separator_after": " "
+          },
+          {
+            "target": "बदलाव",
+            "bangla_pronunciation": "বদলাভ",
+            "separator_after": " "
+          },
+          {
+            "target": "माँगे",
+            "bangla_pronunciation": "মাঁগে",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "ক্লায়েন্ট কলের আগে দল জানাল: **आज** (আজ) **की** (কী) **ग्राहक** (গ্রাহক) **कॉल** (কল) **दस** (দস) **बजे** (বজে) **है।** (হ্যায়।) মাইলস্টোনের অবস্থা ছিল: **हमने** (হমনে) **पहला** (পহলা) **माइलस्टोन** (মাইলস্টোন) **पूरा** (পূরা) **कर** (কর) **लिया** (লিয়া) **है।** (হ্যায়।) পরের ডেলিভারির সময় বলা হলো: **अगला** (অগলা) **ड्राफ़्ट** (ড্রাফট) **सोमवार** (সোমবার) **को** (কো) **भेजेंगे।** (ভেজেংগে।) পরিবর্তন সম্পর্কে বলা হলো: **ग्राहक** (গ্রাহক) **ने** (নে) **दो** (দো) **छोटे** (ছোটে) **बदलाव** (বদলাভ) **माँगे** (মাঁগে) **हैं।** (হ্যায়।)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "সময় অঞ্চল পেরিয়ে সহযোগিতা",
+    "scene_summary": "দুই দেশের সহকর্মী সময়ের পার্থক্য মেনে নিয়মিত আপডেট দিচ্ছে।",
+    "lines": [
+      {
+        "target": "आज की ग्राहक कॉल दस बजे है।",
+        "bangla_pronunciation": "আজ কী গ্রাহক কল দস বজে হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "आज",
+            "bangla_pronunciation": "আজ",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "separator_after": " "
+          },
+          {
+            "target": "ग्राहक",
+            "bangla_pronunciation": "গ্রাহক",
+            "separator_after": " "
+          },
+          {
+            "target": "कॉल",
+            "bangla_pronunciation": "কল",
+            "separator_after": " "
+          },
+          {
+            "target": "दस",
+            "bangla_pronunciation": "দস",
+            "separator_after": " "
+          },
+          {
+            "target": "बजे",
+            "bangla_pronunciation": "বজে",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "भुगतान का पहला हिस्सा मिल गया है।",
+        "bangla_pronunciation": "ভুগতান কা পহলা হিস্সা মিল গয়া হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "भुगतान",
+            "bangla_pronunciation": "ভুগতান",
+            "separator_after": " "
+          },
+          {
+            "target": "का",
+            "bangla_pronunciation": "কা",
+            "separator_after": " "
+          },
+          {
+            "target": "पहला",
+            "bangla_pronunciation": "পহলা",
+            "separator_after": " "
+          },
+          {
+            "target": "हिस्सा",
+            "bangla_pronunciation": "হিস্সা",
+            "separator_after": " "
+          },
+          {
+            "target": "मिल",
+            "bangla_pronunciation": "মিল",
+            "separator_after": " "
+          },
+          {
+            "target": "गया",
+            "bangla_pronunciation": "গয়া",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मैं हर दो दिन में प्रगति अपडेट भेजूँगा।",
+        "bangla_pronunciation": "ম্যায় হর দো দিন মেঁ প্রগতি আপডেট ভেজূঁগা।",
+        "word_pronunciations": [
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যায়",
+            "separator_after": " "
+          },
+          {
+            "target": "हर",
+            "bangla_pronunciation": "হর",
+            "separator_after": " "
+          },
+          {
+            "target": "दो",
+            "bangla_pronunciation": "দো",
+            "separator_after": " "
+          },
+          {
+            "target": "दिन",
+            "bangla_pronunciation": "দিন",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "प्रगति",
+            "bangla_pronunciation": "প্রগতি",
+            "separator_after": " "
+          },
+          {
+            "target": "अपडेट",
+            "bangla_pronunciation": "আপডেট",
+            "separator_after": " "
+          },
+          {
+            "target": "भेजूँगा।",
+            "bangla_pronunciation": "ভেজূঁগা।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "कोई रुकावट हो, तो मैं तुरंत बताऊँगा।",
+        "bangla_pronunciation": "কোঈ রুকাভট হো, তো ম্যায় তুরংত বতাঊঁগা।",
+        "word_pronunciations": [
+          {
+            "target": "कोई",
+            "bangla_pronunciation": "কোঈ",
+            "separator_after": " "
+          },
+          {
+            "target": "रुकावट",
+            "bangla_pronunciation": "রুকাভট",
+            "separator_after": " "
+          },
+          {
+            "target": "हो,",
+            "bangla_pronunciation": "হো,",
+            "separator_after": " "
+          },
+          {
+            "target": "तो",
+            "bangla_pronunciation": "তো",
+            "separator_after": " "
+          },
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যায়",
+            "separator_after": " "
+          },
+          {
+            "target": "तुरंत",
+            "bangla_pronunciation": "তুরংত",
+            "separator_after": " "
+          },
+          {
+            "target": "बताऊँगा।",
+            "bangla_pronunciation": "বতাঊঁগা।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "हम नई प्राथमिकता के अनुसार योजना अपडेट करेंगे।",
+        "bangla_pronunciation": "হম নঈ প্রাথমিকতা কে অনুসার যোজনা আপডেট করেংগে।",
+        "word_pronunciations": [
+          {
+            "target": "हम",
+            "bangla_pronunciation": "হম",
+            "separator_after": " "
+          },
+          {
+            "target": "नई",
+            "bangla_pronunciation": "নঈ",
+            "separator_after": " "
+          },
+          {
+            "target": "प्राथमिकता",
+            "bangla_pronunciation": "প্রাথমিকতা",
+            "separator_after": " "
+          },
+          {
+            "target": "के",
+            "bangla_pronunciation": "কে",
+            "separator_after": " "
+          },
+          {
+            "target": "अनुसार",
+            "bangla_pronunciation": "অনুসার",
+            "separator_after": " "
+          },
+          {
+            "target": "योजना",
+            "bangla_pronunciation": "যোজনা",
+            "separator_after": " "
+          },
+          {
+            "target": "अपडेट",
+            "bangla_pronunciation": "আপডেট",
+            "separator_after": " "
+          },
+          {
+            "target": "करेंगे।",
+            "bangla_pronunciation": "করেংগে।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "আজ কী গ্রাহক কল দস বজে হ্যায়। ভুগতান কা পহলা হিস্সা মিল গয়া হ্যায়। ম্যায় হর দো দিন মেঁ প্রগতি আপডেট ভেজূঁগা। কোঈ রুকাভট হো, তো ম্যায় তুরংত বতাঊঁগা। হম নঈ প্রাথমিকতা কে অনুসার যোজনা আপডেট করেংগে।",
+    "meaning_bengali_md": "আজকের ক্লায়েন্ট কল দশটায়। পেমেন্টের প্রথম অংশ পাওয়া গেছে। আমি প্রতি দুই দিনে অগ্রগতির আপডেট পাঠাব। কোনো বাধা হলে আমি সঙ্গে সঙ্গে জানাব। আমরা নতুন অগ্রাধিকার অনুযায়ী পরিকল্পনা আপডেট করব।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev-va",
+      "mode": "review",
+      "target": "व",
+      "bangla_pronunciation": "ভ/ওয়",
+      "explanation_bengali_md": "এই লিপি-এককটি চিনে এর ধ্বনি মনে করুন; শব্দে দেখলে আশপাশের চিহ্নসহ পড়ুন।",
+      "practice_bengali_md": "আকৃতিটি দেখে ধ্বনিটি তিনবার বলুন, তারপর পাঠের উদাহরণে একই একক খুঁজে নিন।"
+    },
+    {
+      "item_id": "dev-sha",
+      "mode": "review",
+      "target": "श",
+      "bangla_pronunciation": "শ",
+      "explanation_bengali_md": "এই লিপি-এককটি চিনে এর ধ্বনি মনে করুন; শব্দে দেখলে আশপাশের চিহ্নসহ পড়ুন।",
+      "practice_bengali_md": "আকৃতিটি দেখে ধ্বনিটি তিনবার বলুন, তারপর পাঠের উদাহরণে একই একক খুঁজে নিন।"
+    },
+    {
+      "item_id": "dev-ssa",
+      "mode": "review",
+      "target": "ष",
+      "bangla_pronunciation": "ষ",
+      "explanation_bengali_md": "এই লিপি-এককটি চিনে এর ধ্বনি মনে করুন; শব্দে দেখলে আশপাশের চিহ্নসহ পড়ুন।",
+      "practice_bengali_md": "আকৃতিটি দেখে ধ্বনিটি তিনবার বলুন, তারপর পাঠের উদাহরণে একই একক খুঁজে নিন।"
+    },
+    {
+      "item_id": "dev-sa",
+      "mode": "review",
+      "target": "स",
+      "bangla_pronunciation": "স",
+      "explanation_bengali_md": "এই লিপি-এককটি চিনে এর ধ্বনি মনে করুন; শব্দে দেখলে আশপাশের চিহ্নসহ পড়ুন।",
+      "practice_bengali_md": "আকৃতিটি দেখে ধ্বনিটি তিনবার বলুন, তারপর পাঠের উদাহরণে একই একক খুঁজে নিন।"
+    },
+    {
+      "item_id": "dev-ha",
+      "mode": "review",
+      "target": "ह",
+      "bangla_pronunciation": "হ",
+      "explanation_bengali_md": "এই লিপি-এককটি চিনে এর ধ্বনি মনে করুন; শব্দে দেখলে আশপাশের চিহ্নসহ পড়ুন।",
+      "practice_bengali_md": "আকৃতিটি দেখে ধ্বনিটি তিনবার বলুন, তারপর পাঠের উদাহরণে একই একক খুঁজে নিন।"
+    }
+  ],
+  "number_practice": [
+    {
+      "display": "2 / २",
+      "target": "दो",
+      "bangla_pronunciation": "দো",
+      "word_pronunciations": [
+        {
+          "target": "दो",
+          "bangla_pronunciation": "দো",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুই",
+      "system": "আন্তর্জাতিক ও দেবনাগরী অঙ্ক"
+    },
+    {
+      "display": "3 / ३",
+      "target": "तीन",
+      "bangla_pronunciation": "তীন",
+      "word_pronunciations": [
+        {
+          "target": "तीन",
+          "bangla_pronunciation": "তীন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তিন",
+      "system": "আন্তর্জাতিক ও দেবনাগরী অঙ্ক"
+    }
+  ],
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের পরিস্থিতিতে 1 নম্বর ভাবটি নিজের কণ্ঠে বলুন।",
+      "model_target": "आज की ग्राहक कॉल दस बजे है।",
+      "model_bangla_pronunciation": "আজ কী গ্রাহক কল দস বজে হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "कॉल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "दस",
+          "bangla_pronunciation": "দস",
+          "separator_after": " "
+        },
+        {
+          "target": "बजे",
+          "bangla_pronunciation": "বজে",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আজকের ক্লায়েন্ট কল দশটায়।"
+    },
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের পরিস্থিতিতে 4 নম্বর ভাবটি নিজের কণ্ঠে বলুন।",
+      "model_target": "ग्राहक ने दो छोटे बदलाव माँगे हैं।",
+      "model_bangla_pronunciation": "গ্রাহক নে দো ছোটে বদলাভ মাঁগে হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "ने",
+          "bangla_pronunciation": "নে",
+          "separator_after": " "
+        },
+        {
+          "target": "दो",
+          "bangla_pronunciation": "দো",
+          "separator_after": " "
+        },
+        {
+          "target": "छोटे",
+          "bangla_pronunciation": "ছোটে",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलाव",
+          "bangla_pronunciation": "বদলাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "माँगे",
+          "bangla_pronunciation": "মাঁগে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ক্লায়েন্ট দুটি ছোট পরিবর্তন চেয়েছেন।"
+    },
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের পরিস্থিতিতে 7 নম্বর ভাবটি নিজের কণ্ঠে বলুন।",
+      "model_target": "भुगतान का पहला हिस्सा मिल गया है।",
+      "model_bangla_pronunciation": "ভুগতান কা পহলা হিস্সা মিল গয়া হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "पहला",
+          "bangla_pronunciation": "পহলা",
+          "separator_after": " "
+        },
+        {
+          "target": "हिस्सा",
+          "bangla_pronunciation": "হিস্সা",
+          "separator_after": " "
+        },
+        {
+          "target": "मिल",
+          "bangla_pronunciation": "মিল",
+          "separator_after": " "
+        },
+        {
+          "target": "गया",
+          "bangla_pronunciation": "গয়া",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "পেমেন্টের প্রথম অংশ পাওয়া গেছে।"
+    },
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের পরিস্থিতিতে 10 নম্বর ভাবটি নিজের কণ্ঠে বলুন।",
+      "model_target": "क्या हम आपकी सुबह में कॉल रख सकते हैं?",
+      "model_bangla_pronunciation": "ক্যা হম আপকী সুবহ মেঁ কল রখ সকতে হ্যায়?",
+      "model_word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "हम",
+          "bangla_pronunciation": "হম",
+          "separator_after": " "
+        },
+        {
+          "target": "आपकी",
+          "bangla_pronunciation": "আপকী",
+          "separator_after": " "
+        },
+        {
+          "target": "सुबह",
+          "bangla_pronunciation": "সুবহ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "कॉल",
+          "bangla_pronunciation": "কল",
+          "separator_after": " "
+        },
+        {
+          "target": "रख",
+          "bangla_pronunciation": "রখ",
+          "separator_after": " "
+        },
+        {
+          "target": "सकते",
+          "bangla_pronunciation": "সকতে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমরা কি আপনার সকালের সময়ে কল রাখতে পারি?"
+    },
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের পরিস্থিতিতে 14 নম্বর ভাবটি নিজের কণ্ঠে বলুন।",
+      "model_target": "इससे संशोधन संभालना आसान होगा।",
+      "model_bangla_pronunciation": "ইসসে সংশোধন সংভালনা আসান হোগা।",
+      "model_word_pronunciations": [
+        {
+          "target": "इससे",
+          "bangla_pronunciation": "ইসসে",
+          "separator_after": " "
+        },
+        {
+          "target": "संशोधन",
+          "bangla_pronunciation": "সংশোধন",
+          "separator_after": " "
+        },
+        {
+          "target": "संभालना",
+          "bangla_pronunciation": "সংভালনা",
+          "separator_after": " "
+        },
+        {
+          "target": "आसान",
+          "bangla_pronunciation": "আসান",
+          "separator_after": " "
+        },
+        {
+          "target": "होगा।",
+          "bangla_pronunciation": "হোগা।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এতে রিভিশন সামলানো সহজ হবে।"
+    },
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের পরিস্থিতিতে 20 নম্বর ভাবটি নিজের কণ্ঠে বলুন।",
+      "model_target": "स्पष्ट संवाद दूर से काम करने में बहुत मदद करता है।",
+      "model_bangla_pronunciation": "স্পষ্ট সংভাদ দূর সে কাম করনে মেঁ বহুত মদদ করতা হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "संवाद",
+          "bangla_pronunciation": "সংভাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "दूर",
+          "bangla_pronunciation": "দূর",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "करने",
+          "bangla_pronunciation": "করনে",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "मदद",
+          "bangla_pronunciation": "মদদ",
+          "separator_after": " "
+        },
+        {
+          "target": "करता",
+          "bangla_pronunciation": "করতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "স্পষ্ট যোগাযোগ দূর থেকে কাজ করতে অনেক সাহায্য করে।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch016_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A South Asian freelancer in a bright home office on a video call with an overseas client, abstract milestone cards, tidy realistic workspace. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes, soft daylight, clean modern composition, realistic South Asian context, 3:2 landscape."
+    },
+    {
+      "key": "ch016_target_reading_01",
+      "reading": "target_reading",
+      "subject": "Two remote professionals in different time zones coordinating a call, one in morning light and one in evening light, clocks without numbers, laptops open. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes, soft daylight, clean modern composition, realistic South Asian context, 3:2 landscape."
+    }
+  ],
+  "additional_practice": []
+}

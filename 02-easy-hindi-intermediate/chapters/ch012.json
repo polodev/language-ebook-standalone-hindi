@@ -1,0 +1,1877 @@
+{
+  "chapter_id": "ch012",
+  "status": "drafted",
+  "title_target": "डेटा, रुझान और बदलाव समझाना",
+  "title_bangla_pronunciation": "ডেটা, রুঝান অউর বদলাভ সমঝানা",
+  "title_word_pronunciations": [
+    {
+      "target": "डेटा,",
+      "bangla_pronunciation": "ডেটা,",
+      "separator_after": " "
+    },
+    {
+      "target": "रुझान",
+      "bangla_pronunciation": "রুঝান",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "बदलाव",
+      "bangla_pronunciation": "বদলাভ",
+      "separator_after": " "
+    },
+    {
+      "target": "समझाना",
+      "bangla_pronunciation": "সমঝানা",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "ডেটা, প্রবণতা ও পরিবর্তন ব্যাখ্যা",
+  "goal_bengali_md": "বৃদ্ধি-হ্রাস, তুলনা, শতাংশ, চার্ট ও সতর্ক সিদ্ধান্তের ভাষা ব্যবহার করা।",
+  "sentences": [
+    {
+      "id": "ch012_s01",
+      "target": "पिछले महीने बिक्री दस प्रतिशत बढ़ी।",
+      "romanization": "pichhle mhiine bikrii ds prtisht bdhii.",
+      "bangla_pronunciation": "পিছলে মহীনে বিক্রী দস প্রতিশত বঢ়ী।",
+      "word_pronunciations": [
+        {
+          "target": "पिछले",
+          "bangla_pronunciation": "পিছলে",
+          "separator_after": " "
+        },
+        {
+          "target": "महीने",
+          "bangla_pronunciation": "মহীনে",
+          "separator_after": " "
+        },
+        {
+          "target": "बिक्री",
+          "bangla_pronunciation": "বিক্রী",
+          "separator_after": " "
+        },
+        {
+          "target": "दस",
+          "bangla_pronunciation": "দস",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रतिशत",
+          "bangla_pronunciation": "প্রতিশত",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़ी।",
+          "bangla_pronunciation": "বঢ়ী।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গত মাসে বিক্রি দশ শতাংশ বেড়েছে।"
+    },
+    {
+      "id": "ch012_s02",
+      "target": "इस सप्ताह ऑर्डर थोड़े कम हुए हैं।",
+      "romanization": "is sptaah rdr thode km hue hain.",
+      "bangla_pronunciation": "ইস সপ্তাহ অর্ডার থোড়ে কম হুএ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "सप्ताह",
+          "bangla_pronunciation": "সপ্তাহ",
+          "separator_after": " "
+        },
+        {
+          "target": "ऑर्डर",
+          "bangla_pronunciation": "অর্ডার",
+          "separator_after": " "
+        },
+        {
+          "target": "थोड़े",
+          "bangla_pronunciation": "থোড়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "separator_after": " "
+        },
+        {
+          "target": "हुए",
+          "bangla_pronunciation": "হুএ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই সপ্তাহে অর্ডার কিছুটা কমেছে।"
+    },
+    {
+      "id": "ch012_s03",
+      "target": "ग्राहकों की शिकायतें लगभग स्थिर हैं।",
+      "romanization": "graahkon kii shikaayten lgbhg sthir hain.",
+      "bangla_pronunciation": "গ্রাহকোং কী শিকায়তেং লগভগ স্থির হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "ग्राहकों",
+          "bangla_pronunciation": "গ্রাহকোং",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "शिकायतें",
+          "bangla_pronunciation": "শিকায়তেং",
+          "separator_after": " "
+        },
+        {
+          "target": "लगभग",
+          "bangla_pronunciation": "লগভগ",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थिर",
+          "bangla_pronunciation": "স্থির",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গ্রাহকদের অভিযোগ প্রায় স্থির আছে।"
+    },
+    {
+      "id": "ch012_s04",
+      "target": "यह चार्ट पिछले छह महीनों का रुझान दिखाता है।",
+      "romanization": "yh chaart pichhle chhh mhiinon kaa rujhaan dikhaataa hai.",
+      "bangla_pronunciation": "যহ চার্ট পিছলে ছহ মহীনোং কা রুঝান দিখাতা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "चार्ट",
+          "bangla_pronunciation": "চার্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "पिछले",
+          "bangla_pronunciation": "পিছলে",
+          "separator_after": " "
+        },
+        {
+          "target": "छह",
+          "bangla_pronunciation": "ছহ",
+          "separator_after": " "
+        },
+        {
+          "target": "महीनों",
+          "bangla_pronunciation": "মহীনোং",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "रुझान",
+          "bangla_pronunciation": "রুঝান",
+          "separator_after": " "
+        },
+        {
+          "target": "दिखाता",
+          "bangla_pronunciation": "দিখাতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই চার্ট গত ছয় মাসের প্রবণতা দেখায়।"
+    },
+    {
+      "id": "ch012_s05",
+      "target": "जनवरी की तुलना में मार्च बेहतर रहा।",
+      "romanization": "jnvrii kii tulnaa men maarch behtr rhaa.",
+      "bangla_pronunciation": "জনবরী কী তুলনা মেঁ মার্চ বেহতর রহা।",
+      "word_pronunciations": [
+        {
+          "target": "जनवरी",
+          "bangla_pronunciation": "জনবরী",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "तुलना",
+          "bangla_pronunciation": "তুলনা",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "मार्च",
+          "bangla_pronunciation": "মার্চ",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा।",
+          "bangla_pronunciation": "রহা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "জানুয়ারির তুলনায় মার্চ ভালো ছিল।"
+    },
+    {
+      "id": "ch012_s06",
+      "target": "सबसे तेज़ बढ़ोतरी ऑनलाइन बिक्री में हुई।",
+      "romanization": "sbse tej bdhotrii nlaain bikrii men huii.",
+      "bangla_pronunciation": "সবসে তেজ বঢ়োতরী অনলাইন বিক্রী মেঁ হুই।",
+      "word_pronunciations": [
+        {
+          "target": "सबसे",
+          "bangla_pronunciation": "সবসে",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़ोतरी",
+          "bangla_pronunciation": "বঢ়োতরী",
+          "separator_after": " "
+        },
+        {
+          "target": "ऑनलाइन",
+          "bangla_pronunciation": "অনলাইন",
+          "separator_after": " "
+        },
+        {
+          "target": "बिक्री",
+          "bangla_pronunciation": "বিক্রী",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "हुई।",
+          "bangla_pronunciation": "হুই।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সবচেয়ে দ্রুত বৃদ্ধি অনলাইন বিক্রিতে হয়েছে।"
+    },
+    {
+      "id": "ch012_s07",
+      "target": "खर्च में मामूली कमी आई है।",
+      "romanization": "khrch men maamuulii kmii aaii hai.",
+      "bangla_pronunciation": "খর্চ মেঁ মামূলী কমী আঈ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "खर्च",
+          "bangla_pronunciation": "খর্চ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "मामूली",
+          "bangla_pronunciation": "মামূলী",
+          "separator_after": " "
+        },
+        {
+          "target": "कमी",
+          "bangla_pronunciation": "কমী",
+          "separator_after": " "
+        },
+        {
+          "target": "आई",
+          "bangla_pronunciation": "আঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খরচে সামান্য কমতি এসেছে।"
+    },
+    {
+      "id": "ch012_s08",
+      "target": "हम अभी निश्चित निष्कर्ष नहीं निकाल सकते।",
+      "romanization": "hm abhii nishchit nishkrsh nhiin nikaal skte.",
+      "bangla_pronunciation": "হম অভী নিশ্চিত নিষ্কর্ষ নহীঁ নিকাল সকতে।",
+      "word_pronunciations": [
+        {
+          "target": "हम",
+          "bangla_pronunciation": "হম",
+          "separator_after": " "
+        },
+        {
+          "target": "अभी",
+          "bangla_pronunciation": "অভী",
+          "separator_after": " "
+        },
+        {
+          "target": "निश्चित",
+          "bangla_pronunciation": "নিশ্চিত",
+          "separator_after": " "
+        },
+        {
+          "target": "निष्कर्ष",
+          "bangla_pronunciation": "নিষ্কর্ষ",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "निकाल",
+          "bangla_pronunciation": "নিকাল",
+          "separator_after": " "
+        },
+        {
+          "target": "सकते।",
+          "bangla_pronunciation": "সকতে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমরা এখনই নিশ্চিত সিদ্ধান্তে যেতে পারি না।"
+    },
+    {
+      "id": "ch012_s09",
+      "target": "डेटा में कुछ अंतर दिखाई दे रहा है।",
+      "romanization": "detaa men kuchh antr dikhaaii de rhaa hai.",
+      "bangla_pronunciation": "ডেটা মেঁ কুছ অংতর দিখাঈ দে রহা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "डेटा",
+          "bangla_pronunciation": "ডেটা",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "कुछ",
+          "bangla_pronunciation": "কুছ",
+          "separator_after": " "
+        },
+        {
+          "target": "अंतर",
+          "bangla_pronunciation": "অংতর",
+          "separator_after": " "
+        },
+        {
+          "target": "दिखाई",
+          "bangla_pronunciation": "দিখাঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "दे",
+          "bangla_pronunciation": "দে",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा",
+          "bangla_pronunciation": "রহা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডেটায় কিছু পার্থক্য দেখা যাচ্ছে।"
+    },
+    {
+      "id": "ch012_s10",
+      "target": "नमूना छोटा है, इसलिए सावधानी ज़रूरी है।",
+      "romanization": "nmuunaa chhotaa hai, islie saavdhaanii jruurii hai.",
+      "bangla_pronunciation": "নমূনা ছোটা হ্যায়, ইসলিএ সাভধানী জরূরী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "नमूना",
+          "bangla_pronunciation": "নমূনা",
+          "separator_after": " "
+        },
+        {
+          "target": "छोटा",
+          "bangla_pronunciation": "ছোটা",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হ্যায়,",
+          "separator_after": " "
+        },
+        {
+          "target": "इसलिए",
+          "bangla_pronunciation": "ইসলিএ",
+          "separator_after": " "
+        },
+        {
+          "target": "सावधानी",
+          "bangla_pronunciation": "সাভধানী",
+          "separator_after": " "
+        },
+        {
+          "target": "ज़रूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নমুনা ছোট, তাই সতর্কতা জরুরি।"
+    },
+    {
+      "id": "ch012_s11",
+      "target": "लगभग आधे ग्राहक मोबाइल से खरीदते हैं।",
+      "romanization": "lgbhg aadhe graahk mobaail se khriidte hain.",
+      "bangla_pronunciation": "লগভগ আধে গ্রাহক মোবাইল সে খরীদতে হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "लगभग",
+          "bangla_pronunciation": "লগভগ",
+          "separator_after": " "
+        },
+        {
+          "target": "आधे",
+          "bangla_pronunciation": "আধে",
+          "separator_after": " "
+        },
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "मोबाइल",
+          "bangla_pronunciation": "মোবাইল",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "खरीदते",
+          "bangla_pronunciation": "খরীদতে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রায় অর্ধেক গ্রাহক মোবাইল থেকে কেনেন।"
+    },
+    {
+      "id": "ch012_s12",
+      "target": "दो क्षेत्रों में प्रदर्शन कमजोर रहा।",
+      "romanization": "do kshetron men prdrshn kmjor rhaa.",
+      "bangla_pronunciation": "দো ক্ষেত্রোং মেঁ প্রদর্শন কমজোর রহা।",
+      "word_pronunciations": [
+        {
+          "target": "दो",
+          "bangla_pronunciation": "দো",
+          "separator_after": " "
+        },
+        {
+          "target": "क्षेत्रों",
+          "bangla_pronunciation": "ক্ষেত্রোং",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रदर्शन",
+          "bangla_pronunciation": "প্রদর্শন",
+          "separator_after": " "
+        },
+        {
+          "target": "कमजोर",
+          "bangla_pronunciation": "কমজোর",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा।",
+          "bangla_pronunciation": "রহা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুই অঞ্চলে পারফরম্যান্স দুর্বল ছিল।"
+    },
+    {
+      "id": "ch012_s13",
+      "target": "औसत ऑर्डर मूल्य थोड़ा बढ़ा है।",
+      "romanization": "aust rdr muuly thodaa bdhaa hai.",
+      "bangla_pronunciation": "ঔসত অর্ডার মূল্য় থোড়া বঢ়া হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "औसत",
+          "bangla_pronunciation": "ঔসত",
+          "separator_after": " "
+        },
+        {
+          "target": "ऑर्डर",
+          "bangla_pronunciation": "অর্ডার",
+          "separator_after": " "
+        },
+        {
+          "target": "मूल्य",
+          "bangla_pronunciation": "মূল্য়",
+          "separator_after": " "
+        },
+        {
+          "target": "थोड़ा",
+          "bangla_pronunciation": "থোড়া",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़ा",
+          "bangla_pronunciation": "বঢ়া",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গড় অর্ডার মূল্য একটু বেড়েছে।"
+    },
+    {
+      "id": "ch012_s14",
+      "target": "पिछले साल के मुकाबले इस साल वृद्धि अधिक है।",
+      "romanization": "pichhle saal ke mukaable is saal vddhi adhik hai.",
+      "bangla_pronunciation": "পিছলে সাল কে মুকাবলে ইস সাল ভৃদ্ধি অধিক হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "पिछले",
+          "bangla_pronunciation": "পিছলে",
+          "separator_after": " "
+        },
+        {
+          "target": "साल",
+          "bangla_pronunciation": "সাল",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "मुकाबले",
+          "bangla_pronunciation": "মুকাবলে",
+          "separator_after": " "
+        },
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "साल",
+          "bangla_pronunciation": "সাল",
+          "separator_after": " "
+        },
+        {
+          "target": "वृद्धि",
+          "bangla_pronunciation": "ভৃদ্ধি",
+          "separator_after": " "
+        },
+        {
+          "target": "अधिक",
+          "bangla_pronunciation": "অধিক",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গত বছরের তুলনায় এ বছর বৃদ্ধি বেশি।"
+    },
+    {
+      "id": "ch012_s15",
+      "target": "यह बदलाव अस्थायी भी हो सकता है।",
+      "romanization": "yh bdlaav asthaayii bhii ho sktaa hai.",
+      "bangla_pronunciation": "যহ বদলাভ অস্থায়ী ভী হো সকতা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलाव",
+          "bangla_pronunciation": "বদলাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "अस्थायी",
+          "bangla_pronunciation": "অস্থায়ী",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "सकता",
+          "bangla_pronunciation": "সকতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই পরিবর্তন সাময়িকও হতে পারে।"
+    },
+    {
+      "id": "ch012_s16",
+      "target": "हमें अगले महीने का डेटा भी देखना चाहिए।",
+      "romanization": "hmen agle mhiine kaa detaa bhii dekhnaa chaahie.",
+      "bangla_pronunciation": "হমেঁ অগলে মহীনে কা ডেটা ভী দেখনা চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "हमें",
+          "bangla_pronunciation": "হমেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "अगले",
+          "bangla_pronunciation": "অগলে",
+          "separator_after": " "
+        },
+        {
+          "target": "महीने",
+          "bangla_pronunciation": "মহীনে",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "डेटा",
+          "bangla_pronunciation": "ডেটা",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "देखना",
+          "bangla_pronunciation": "দেখনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমাদের পরের মাসের ডেটাও দেখা উচিত।"
+    },
+    {
+      "id": "ch012_s17",
+      "target": "प्रतिशत बढ़ा है, लेकिन कुल संख्या छोटी है।",
+      "romanization": "prtisht bdhaa hai, lekin kul snkhyaa chhotii hai.",
+      "bangla_pronunciation": "প্রতিশত বঢ়া হ্যায়, লেকিন কুল সংখ্য়া ছোটী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "प्रतिशत",
+          "bangla_pronunciation": "প্রতিশত",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़ा",
+          "bangla_pronunciation": "বঢ়া",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হ্যায়,",
+          "separator_after": " "
+        },
+        {
+          "target": "लेकिन",
+          "bangla_pronunciation": "লেকিন",
+          "separator_after": " "
+        },
+        {
+          "target": "कुल",
+          "bangla_pronunciation": "কুল",
+          "separator_after": " "
+        },
+        {
+          "target": "संख्या",
+          "bangla_pronunciation": "সংখ্য়া",
+          "separator_after": " "
+        },
+        {
+          "target": "छोटी",
+          "bangla_pronunciation": "ছোটী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শতাংশ বেড়েছে, কিন্তু মোট সংখ্যা ছোট।"
+    },
+    {
+      "id": "ch012_s18",
+      "target": "ग्राफ़ में गिरावट साफ़ दिखाई देती है।",
+      "romanization": "graaph men giraavt saaph dikhaaii detii hai.",
+      "bangla_pronunciation": "গ্রাফ মেঁ গিরাভট সাফ দিখাঈ দেতী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "ग्राफ़",
+          "bangla_pronunciation": "গ্রাফ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "गिरावट",
+          "bangla_pronunciation": "গিরাভট",
+          "separator_after": " "
+        },
+        {
+          "target": "साफ़",
+          "bangla_pronunciation": "সাফ",
+          "separator_after": " "
+        },
+        {
+          "target": "दिखाई",
+          "bangla_pronunciation": "দিখাঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "देती",
+          "bangla_pronunciation": "দেতী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গ্রাফে পতন স্পষ্ট দেখা যায়।"
+    },
+    {
+      "id": "ch012_s19",
+      "target": "क्या आप दोनों अवधियों की तुलना कर सकते हैं?",
+      "romanization": "kyaa aap donon avdhiyon kii tulnaa kr skte hain?",
+      "bangla_pronunciation": "ক্যা আপ দোনোং অভধিয়োং কী তুলনা কর সকতে হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "आप",
+          "bangla_pronunciation": "আপ",
+          "separator_after": " "
+        },
+        {
+          "target": "दोनों",
+          "bangla_pronunciation": "দোনোং",
+          "separator_after": " "
+        },
+        {
+          "target": "अवधियों",
+          "bangla_pronunciation": "অভধিয়োং",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "तुलना",
+          "bangla_pronunciation": "তুলনা",
+          "separator_after": " "
+        },
+        {
+          "target": "कर",
+          "bangla_pronunciation": "কর",
+          "separator_after": " "
+        },
+        {
+          "target": "सकते",
+          "bangla_pronunciation": "সকতে",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं?",
+          "bangla_pronunciation": "হ্যায়?",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপনি কি দুই সময়পর্বের তুলনা করতে পারেন?"
+    },
+    {
+      "id": "ch012_s20",
+      "target": "मैं मुख्य निष्कर्ष संक्षेप में बताता हूँ।",
+      "romanization": "main mukhy nishkrsh snkshep men btaataa huun.",
+      "bangla_pronunciation": "ম্যায় মুখ্য় নিষ্কর্ষ সংক্ষেপ মেঁ বতাতা হূঁ।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যায়",
+          "separator_after": " "
+        },
+        {
+          "target": "मुख्य",
+          "bangla_pronunciation": "মুখ্য়",
+          "separator_after": " "
+        },
+        {
+          "target": "निष्कर्ष",
+          "bangla_pronunciation": "নিষ্কর্ষ",
+          "separator_after": " "
+        },
+        {
+          "target": "संक्षेप",
+          "bangla_pronunciation": "সংক্ষেপ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "बताता",
+          "bangla_pronunciation": "বতাতা",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হূঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি মূল সিদ্ধান্তটি সংক্ষেপে বলছি।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "ch012_v01",
+      "target": "बिक्री",
+      "type": "বিশেষ্য",
+      "romanization": "bikrii",
+      "bangla_pronunciation": "বিক্রী",
+      "word_pronunciations": [
+        {
+          "target": "बिक्री",
+          "bangla_pronunciation": "বিক্রী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিক্রি",
+      "source_sentence_id": "ch012_s01",
+      "source_form": "बिक्री"
+    },
+    {
+      "id": "ch012_v02",
+      "target": "प्रतिशत",
+      "type": "বিশেষ্য",
+      "romanization": "prtisht",
+      "bangla_pronunciation": "প্রতিশত",
+      "word_pronunciations": [
+        {
+          "target": "प्रतिशत",
+          "bangla_pronunciation": "প্রতিশত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শতাংশ",
+      "source_sentence_id": "ch012_s01",
+      "source_form": "प्रतिशत"
+    },
+    {
+      "id": "ch012_v03",
+      "target": "स्थिर",
+      "type": "বিশেষণ",
+      "romanization": "sthir",
+      "bangla_pronunciation": "স্থির",
+      "word_pronunciations": [
+        {
+          "target": "स्थिर",
+          "bangla_pronunciation": "স্থির",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্থিতিশীল",
+      "source_sentence_id": "ch012_s03",
+      "source_form": "स्थिर"
+    },
+    {
+      "id": "ch012_v04",
+      "target": "रुझान",
+      "type": "বিশেষ্য",
+      "romanization": "rujhaan",
+      "bangla_pronunciation": "রুঝান",
+      "word_pronunciations": [
+        {
+          "target": "रुझान",
+          "bangla_pronunciation": "রুঝান",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রবণতা",
+      "source_sentence_id": "ch012_s04",
+      "source_form": "रुझान"
+    },
+    {
+      "id": "ch012_v05",
+      "target": "तुलना",
+      "type": "বিশেষ্য",
+      "romanization": "tulnaa",
+      "bangla_pronunciation": "তুলনা",
+      "word_pronunciations": [
+        {
+          "target": "तुलना",
+          "bangla_pronunciation": "তুলনা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তুলনা",
+      "source_sentence_id": "ch012_s05",
+      "source_form": "तुलना"
+    },
+    {
+      "id": "ch012_v06",
+      "target": "बढ़ोतरी",
+      "type": "বিশেষ্য",
+      "romanization": "bdhotrii",
+      "bangla_pronunciation": "বঢ়োতরী",
+      "word_pronunciations": [
+        {
+          "target": "बढ़ोतरी",
+          "bangla_pronunciation": "বঢ়োতরী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বৃদ্ধি",
+      "source_sentence_id": "ch012_s06",
+      "source_form": "बढ़ोतरी"
+    },
+    {
+      "id": "ch012_v07",
+      "target": "निष्कर्ष",
+      "type": "বিশেষ্য",
+      "romanization": "nishkrsh",
+      "bangla_pronunciation": "নিষ্কর্ষ",
+      "word_pronunciations": [
+        {
+          "target": "निष्कर्ष",
+          "bangla_pronunciation": "নিষ্কর্ষ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "উপসংহার বা সিদ্ধান্ত",
+      "source_sentence_id": "ch012_s08",
+      "source_form": "निष्कर्ष"
+    },
+    {
+      "id": "ch012_v08",
+      "target": "नमूना",
+      "type": "বিশেষ্য",
+      "romanization": "nmuunaa",
+      "bangla_pronunciation": "নমূনা",
+      "word_pronunciations": [
+        {
+          "target": "नमूना",
+          "bangla_pronunciation": "নমূনা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নমুনা",
+      "source_sentence_id": "ch012_s10",
+      "source_form": "नमूना"
+    },
+    {
+      "id": "ch012_v09",
+      "target": "औसत",
+      "type": "বিশেষণ",
+      "romanization": "aust",
+      "bangla_pronunciation": "ঔসত",
+      "word_pronunciations": [
+        {
+          "target": "औसत",
+          "bangla_pronunciation": "ঔসত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গড়",
+      "source_sentence_id": "ch012_s13",
+      "source_form": "औसत"
+    },
+    {
+      "id": "ch012_v10",
+      "target": "गिरावट",
+      "type": "বিশেষ্য",
+      "romanization": "giraavt",
+      "bangla_pronunciation": "গিরাভট",
+      "word_pronunciations": [
+        {
+          "target": "गिरावट",
+          "bangla_pronunciation": "গিরাভট",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পতন বা হ্রাস",
+      "source_sentence_id": "ch012_s18",
+      "source_form": "गिरावट"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "article",
+    "title_bengali": "মাসিক বিক্রির ডেটা দেখা",
+    "scene_summary": "একটি দল বিক্রি, অভিযোগ ও প্রবণতার ডেটা সতর্কভাবে ব্যাখ্যা করছে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "মাসিক পর্যালোচনায় প্রথম তথ্যটি ছিল: "
+      },
+      {
+        "kind": "target",
+        "target": "पिछले महीने बिक्री दस प्रतिशत बढ़ी।",
+        "bangla_pronunciation": "পিছলে মহীনে বিক্রী দস প্রতিশত বঢ়ী।",
+        "word_pronunciations": [
+          {
+            "target": "पिछले",
+            "bangla_pronunciation": "পিছলে",
+            "separator_after": " "
+          },
+          {
+            "target": "महीने",
+            "bangla_pronunciation": "মহীনে",
+            "separator_after": " "
+          },
+          {
+            "target": "बिक्री",
+            "bangla_pronunciation": "বিক্রী",
+            "separator_after": " "
+          },
+          {
+            "target": "दस",
+            "bangla_pronunciation": "দস",
+            "separator_after": " "
+          },
+          {
+            "target": "प्रतिशत",
+            "bangla_pronunciation": "প্রতিশত",
+            "separator_after": " "
+          },
+          {
+            "target": "बढ़ी।",
+            "bangla_pronunciation": "বঢ়ী।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " একই সঙ্গে আরেকটি পরিবর্তন দেখা গেল: "
+      },
+      {
+        "kind": "target",
+        "target": "इस सप्ताह ऑर्डर थोड़े कम हुए हैं।",
+        "bangla_pronunciation": "ইস সপ্তাহ অর্ডার থোড়ে কম হুএ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "इस",
+            "bangla_pronunciation": "ইস",
+            "separator_after": " "
+          },
+          {
+            "target": "सप्ताह",
+            "bangla_pronunciation": "সপ্তাহ",
+            "separator_after": " "
+          },
+          {
+            "target": "ऑर्डर",
+            "bangla_pronunciation": "অর্ডার",
+            "separator_after": " "
+          },
+          {
+            "target": "थोड़े",
+            "bangla_pronunciation": "থোড়ে",
+            "separator_after": " "
+          },
+          {
+            "target": "कम",
+            "bangla_pronunciation": "কম",
+            "separator_after": " "
+          },
+          {
+            "target": "हुए",
+            "bangla_pronunciation": "হুএ",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " অভিযোগের অবস্থাও দেখা হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "ग्राहकों की शिकायतें लगभग स्थिर हैं।",
+        "bangla_pronunciation": "গ্রাহকোং কী শিকায়তেং লগভগ স্থির হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "ग्राहकों",
+            "bangla_pronunciation": "গ্রাহকোং",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "separator_after": " "
+          },
+          {
+            "target": "शिकायतें",
+            "bangla_pronunciation": "শিকায়তেং",
+            "separator_after": " "
+          },
+          {
+            "target": "लगभग",
+            "bangla_pronunciation": "লগভগ",
+            "separator_after": " "
+          },
+          {
+            "target": "स्थिर",
+            "bangla_pronunciation": "স্থির",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " তাই দল সতর্কভাবে সিদ্ধান্ত নিল: "
+      },
+      {
+        "kind": "target",
+        "target": "यह चार्ट पिछले छह महीनों का रुझान दिखाता है।",
+        "bangla_pronunciation": "যহ চার্ট পিছলে ছহ মহীনোং কা রুঝান দিখাতা হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "यह",
+            "bangla_pronunciation": "যহ",
+            "separator_after": " "
+          },
+          {
+            "target": "चार्ट",
+            "bangla_pronunciation": "চার্ট",
+            "separator_after": " "
+          },
+          {
+            "target": "पिछले",
+            "bangla_pronunciation": "পিছলে",
+            "separator_after": " "
+          },
+          {
+            "target": "छह",
+            "bangla_pronunciation": "ছহ",
+            "separator_after": " "
+          },
+          {
+            "target": "महीनों",
+            "bangla_pronunciation": "মহীনোং",
+            "separator_after": " "
+          },
+          {
+            "target": "का",
+            "bangla_pronunciation": "কা",
+            "separator_after": " "
+          },
+          {
+            "target": "रुझान",
+            "bangla_pronunciation": "রুঝান",
+            "separator_after": " "
+          },
+          {
+            "target": "दिखाता",
+            "bangla_pronunciation": "দিখাতা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "মাসিক পর্যালোচনায় প্রথম তথ্যটি ছিল: **पिछले** (পিছলে) **महीने** (মহীনে) **बिक्री** (বিক্রী) **दस** (দস) **प्रतिशत** (প্রতিশত) **बढ़ी।** (বঢ়ী।) একই সঙ্গে আরেকটি পরিবর্তন দেখা গেল: **इस** (ইস) **सप्ताह** (সপ্তাহ) **ऑर्डर** (অর্ডার) **थोड़े** (থোড়ে) **कम** (কম) **हुए** (হুএ) **हैं।** (হ্যায়।) অভিযোগের অবস্থাও দেখা হলো: **ग्राहकों** (গ্রাহকোং) **की** (কী) **शिकायतें** (শিকায়তেং) **लगभग** (লগভগ) **स्थिर** (স্থির) **हैं।** (হ্যায়।) তাই দল সতর্কভাবে সিদ্ধান্ত নিল: **यह** (যহ) **चार्ट** (চার্ট) **पिछले** (পিছলে) **छह** (ছহ) **महीनों** (মহীনোং) **का** (কা) **रुझान** (রুঝান) **दिखाता** (দিখাতা) **है।** (হ্যায়।)"
+  },
+  "target_reading": {
+    "mode": "article",
+    "title_bengali": "দুই সময়পর্বের তুলনা",
+    "scene_summary": "এক বিশ্লেষক দুই সময়পর্বের ফলাফল তুলনা করছে।",
+    "lines": [
+      {
+        "target": "जनवरी की तुलना में मार्च बेहतर रहा।",
+        "bangla_pronunciation": "জনবরী কী তুলনা মেঁ মার্চ বেহতর রহা।",
+        "word_pronunciations": [
+          {
+            "target": "जनवरी",
+            "bangla_pronunciation": "জনবরী",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "separator_after": " "
+          },
+          {
+            "target": "तुलना",
+            "bangla_pronunciation": "তুলনা",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "मार्च",
+            "bangla_pronunciation": "মার্চ",
+            "separator_after": " "
+          },
+          {
+            "target": "बेहतर",
+            "bangla_pronunciation": "বেহতর",
+            "separator_after": " "
+          },
+          {
+            "target": "रहा।",
+            "bangla_pronunciation": "রহা।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "सबसे तेज़ बढ़ोतरी ऑनलाइन बिक्री में हुई।",
+        "bangla_pronunciation": "সবসে তেজ বঢ়োতরী অনলাইন বিক্রী মেঁ হুই।",
+        "word_pronunciations": [
+          {
+            "target": "सबसे",
+            "bangla_pronunciation": "সবসে",
+            "separator_after": " "
+          },
+          {
+            "target": "तेज़",
+            "bangla_pronunciation": "তেজ",
+            "separator_after": " "
+          },
+          {
+            "target": "बढ़ोतरी",
+            "bangla_pronunciation": "বঢ়োতরী",
+            "separator_after": " "
+          },
+          {
+            "target": "ऑनलाइन",
+            "bangla_pronunciation": "অনলাইন",
+            "separator_after": " "
+          },
+          {
+            "target": "बिक्री",
+            "bangla_pronunciation": "বিক্রী",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "हुई।",
+            "bangla_pronunciation": "হুই।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "खर्च में मामूली कमी आई है।",
+        "bangla_pronunciation": "খর্চ মেঁ মামূলী কমী আঈ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "खर्च",
+            "bangla_pronunciation": "খর্চ",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "मामूली",
+            "bangla_pronunciation": "মামূলী",
+            "separator_after": " "
+          },
+          {
+            "target": "कमी",
+            "bangla_pronunciation": "কমী",
+            "separator_after": " "
+          },
+          {
+            "target": "आई",
+            "bangla_pronunciation": "আঈ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "ग्राफ़ में गिरावट साफ़ दिखाई देती है।",
+        "bangla_pronunciation": "গ্রাফ মেঁ গিরাভট সাফ দিখাঈ দেতী হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "ग्राफ़",
+            "bangla_pronunciation": "গ্রাফ",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "गिरावट",
+            "bangla_pronunciation": "গিরাভট",
+            "separator_after": " "
+          },
+          {
+            "target": "साफ़",
+            "bangla_pronunciation": "সাফ",
+            "separator_after": " "
+          },
+          {
+            "target": "दिखाई",
+            "bangla_pronunciation": "দিখাঈ",
+            "separator_after": " "
+          },
+          {
+            "target": "देती",
+            "bangla_pronunciation": "দেতী",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मैं मुख्य निष्कर्ष संक्षेप में बताता हूँ।",
+        "bangla_pronunciation": "ম্যায় মুখ্য় নিষ্কর্ষ সংক্ষেপ মেঁ বতাতা হূঁ।",
+        "word_pronunciations": [
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যায়",
+            "separator_after": " "
+          },
+          {
+            "target": "मुख्य",
+            "bangla_pronunciation": "মুখ্য়",
+            "separator_after": " "
+          },
+          {
+            "target": "निष्कर्ष",
+            "bangla_pronunciation": "নিষ্কর্ষ",
+            "separator_after": " "
+          },
+          {
+            "target": "संक्षेप",
+            "bangla_pronunciation": "সংক্ষেপ",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "बताता",
+            "bangla_pronunciation": "বতাতা",
+            "separator_after": " "
+          },
+          {
+            "target": "हूँ।",
+            "bangla_pronunciation": "হূঁ।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "জনবরী কী তুলনা মেঁ মার্চ বেহতর রহা। সবসে তেজ বঢ়োতরী অনলাইন বিক্রী মেঁ হুই। খর্চ মেঁ মামূলী কমী আঈ হ্যায়। গ্রাফ মেঁ গিরাভট সাফ দিখাঈ দেতী হ্যায়। ম্যায় মুখ্য় নিষ্কর্ষ সংক্ষেপ মেঁ বতাতা হূঁ।",
+    "meaning_bengali_md": "জানুয়ারির তুলনায় মার্চ ভালো ছিল। সবচেয়ে দ্রুত বৃদ্ধি অনলাইন বিক্রিতে হয়েছে। খরচে সামান্য কমতি এসেছে। গ্রাফে পতন স্পষ্ট দেখা যায়। আমি মূল সিদ্ধান্তটি সংক্ষেপে বলছি।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev-chha",
+      "mode": "review",
+      "target": "छ",
+      "bangla_pronunciation": "ছ",
+      "explanation_bengali_md": "এই লিপি-এককটি চিনে এর ধ্বনি মনে করুন; শব্দে দেখলে আশপাশের চিহ্নসহ পড়ুন।",
+      "practice_bengali_md": "আকৃতিটি দেখে ধ্বনিটি তিনবার বলুন, তারপর পাঠের উদাহরণে একই একক খুঁজে নিন।"
+    },
+    {
+      "item_id": "dev-ja",
+      "mode": "review",
+      "target": "ज",
+      "bangla_pronunciation": "জ",
+      "explanation_bengali_md": "এই লিপি-এককটি চিনে এর ধ্বনি মনে করুন; শব্দে দেখলে আশপাশের চিহ্নসহ পড়ুন।",
+      "practice_bengali_md": "আকৃতিটি দেখে ধ্বনিটি তিনবার বলুন, তারপর পাঠের উদাহরণে একই একক খুঁজে নিন।"
+    },
+    {
+      "item_id": "dev-jha",
+      "mode": "review",
+      "target": "झ",
+      "bangla_pronunciation": "ঝ",
+      "explanation_bengali_md": "এই লিপি-এককটি চিনে এর ধ্বনি মনে করুন; শব্দে দেখলে আশপাশের চিহ্নসহ পড়ুন।",
+      "practice_bengali_md": "আকৃতিটি দেখে ধ্বনিটি তিনবার বলুন, তারপর পাঠের উদাহরণে একই একক খুঁজে নিন।"
+    },
+    {
+      "item_id": "dev-tta",
+      "mode": "review",
+      "target": "ट",
+      "bangla_pronunciation": "ট",
+      "explanation_bengali_md": "এই লিপি-এককটি চিনে এর ধ্বনি মনে করুন; শব্দে দেখলে আশপাশের চিহ্নসহ পড়ুন।",
+      "practice_bengali_md": "আকৃতিটি দেখে ধ্বনিটি তিনবার বলুন, তারপর পাঠের উদাহরণে একই একক খুঁজে নিন।"
+    },
+    {
+      "item_id": "dev-ttha",
+      "mode": "review",
+      "target": "ठ",
+      "bangla_pronunciation": "ঠ",
+      "explanation_bengali_md": "এই লিপি-এককটি চিনে এর ধ্বনি মনে করুন; শব্দে দেখলে আশপাশের চিহ্নসহ পড়ুন।",
+      "practice_bengali_md": "আকৃতিটি দেখে ধ্বনিটি তিনবার বলুন, তারপর পাঠের উদাহরণে একই একক খুঁজে নিন।"
+    }
+  ],
+  "number_practice": [
+    {
+      "display": "10% / १०%",
+      "target": "दस प्रतिशत",
+      "bangla_pronunciation": "দস প্রতিশত",
+      "word_pronunciations": [
+        {
+          "target": "दस",
+          "bangla_pronunciation": "দস",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रतिशत",
+          "bangla_pronunciation": "প্রতিশত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দশ শতাংশ",
+      "system": "আন্তর্জাতিক ও দেবনাগরী অঙ্ক"
+    },
+    {
+      "display": "50% / ५०%",
+      "target": "पचास प्रतिशत",
+      "bangla_pronunciation": "পচাস প্রতিশত",
+      "word_pronunciations": [
+        {
+          "target": "पचास",
+          "bangla_pronunciation": "পচাস",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रतिशत",
+          "bangla_pronunciation": "প্রতিশত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পঞ্চাশ শতাংশ",
+      "system": "আন্তর্জাতিক ও দেবনাগরী অঙ্ক"
+    }
+  ],
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের পরিস্থিতিতে 1 নম্বর ভাবটি নিজের কণ্ঠে বলুন।",
+      "model_target": "पिछले महीने बिक्री दस प्रतिशत बढ़ी।",
+      "model_bangla_pronunciation": "পিছলে মহীনে বিক্রী দস প্রতিশত বঢ়ী।",
+      "model_word_pronunciations": [
+        {
+          "target": "पिछले",
+          "bangla_pronunciation": "পিছলে",
+          "separator_after": " "
+        },
+        {
+          "target": "महीने",
+          "bangla_pronunciation": "মহীনে",
+          "separator_after": " "
+        },
+        {
+          "target": "बिक्री",
+          "bangla_pronunciation": "বিক্রী",
+          "separator_after": " "
+        },
+        {
+          "target": "दस",
+          "bangla_pronunciation": "দস",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रतिशत",
+          "bangla_pronunciation": "প্রতিশত",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़ी।",
+          "bangla_pronunciation": "বঢ়ী।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "গত মাসে বিক্রি দশ শতাংশ বেড়েছে।"
+    },
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের পরিস্থিতিতে 4 নম্বর ভাবটি নিজের কণ্ঠে বলুন।",
+      "model_target": "यह चार्ट पिछले छह महीनों का रुझान दिखाता है।",
+      "model_bangla_pronunciation": "যহ চার্ট পিছলে ছহ মহীনোং কা রুঝান দিখাতা হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "separator_after": " "
+        },
+        {
+          "target": "चार्ट",
+          "bangla_pronunciation": "চার্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "पिछले",
+          "bangla_pronunciation": "পিছলে",
+          "separator_after": " "
+        },
+        {
+          "target": "छह",
+          "bangla_pronunciation": "ছহ",
+          "separator_after": " "
+        },
+        {
+          "target": "महीनों",
+          "bangla_pronunciation": "মহীনোং",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "रुझान",
+          "bangla_pronunciation": "রুঝান",
+          "separator_after": " "
+        },
+        {
+          "target": "दिखाता",
+          "bangla_pronunciation": "দিখাতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এই চার্ট গত ছয় মাসের প্রবণতা দেখায়।"
+    },
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের পরিস্থিতিতে 7 নম্বর ভাবটি নিজের কণ্ঠে বলুন।",
+      "model_target": "खर्च में मामूली कमी आई है।",
+      "model_bangla_pronunciation": "খর্চ মেঁ মামূলী কমী আঈ হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "खर्च",
+          "bangla_pronunciation": "খর্চ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "मामूली",
+          "bangla_pronunciation": "মামূলী",
+          "separator_after": " "
+        },
+        {
+          "target": "कमी",
+          "bangla_pronunciation": "কমী",
+          "separator_after": " "
+        },
+        {
+          "target": "आई",
+          "bangla_pronunciation": "আঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "খরচে সামান্য কমতি এসেছে।"
+    },
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের পরিস্থিতিতে 10 নম্বর ভাবটি নিজের কণ্ঠে বলুন।",
+      "model_target": "नमूना छोटा है, इसलिए सावधानी ज़रूरी है।",
+      "model_bangla_pronunciation": "নমূনা ছোটা হ্যায়, ইসলিএ সাভধানী জরূরী হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "नमूना",
+          "bangla_pronunciation": "নমূনা",
+          "separator_after": " "
+        },
+        {
+          "target": "छोटा",
+          "bangla_pronunciation": "ছোটা",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হ্যায়,",
+          "separator_after": " "
+        },
+        {
+          "target": "इसलिए",
+          "bangla_pronunciation": "ইসলিএ",
+          "separator_after": " "
+        },
+        {
+          "target": "सावधानी",
+          "bangla_pronunciation": "সাভধানী",
+          "separator_after": " "
+        },
+        {
+          "target": "ज़रूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "নমুনা ছোট, তাই সতর্কতা জরুরি।"
+    },
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের পরিস্থিতিতে 14 নম্বর ভাবটি নিজের কণ্ঠে বলুন।",
+      "model_target": "पिछले साल के मुकाबले इस साल वृद्धि अधिक है।",
+      "model_bangla_pronunciation": "পিছলে সাল কে মুকাবলে ইস সাল ভৃদ্ধি অধিক হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "पिछले",
+          "bangla_pronunciation": "পিছলে",
+          "separator_after": " "
+        },
+        {
+          "target": "साल",
+          "bangla_pronunciation": "সাল",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "मुकाबले",
+          "bangla_pronunciation": "মুকাবলে",
+          "separator_after": " "
+        },
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "साल",
+          "bangla_pronunciation": "সাল",
+          "separator_after": " "
+        },
+        {
+          "target": "वृद्धि",
+          "bangla_pronunciation": "ভৃদ্ধি",
+          "separator_after": " "
+        },
+        {
+          "target": "अधिक",
+          "bangla_pronunciation": "অধিক",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "গত বছরের তুলনায় এ বছর বৃদ্ধি বেশি।"
+    },
+    {
+      "prompt_bengali_md": "এই অধ্যায়ের পরিস্থিতিতে 20 নম্বর ভাবটি নিজের কণ্ঠে বলুন।",
+      "model_target": "मैं मुख्य निष्कर्ष संक्षेप में बताता हूँ।",
+      "model_bangla_pronunciation": "ম্যায় মুখ্য় নিষ্কর্ষ সংক্ষেপ মেঁ বতাতা হূঁ।",
+      "model_word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যায়",
+          "separator_after": " "
+        },
+        {
+          "target": "मुख्य",
+          "bangla_pronunciation": "মুখ্য়",
+          "separator_after": " "
+        },
+        {
+          "target": "निष्कर्ष",
+          "bangla_pronunciation": "নিষ্কর্ষ",
+          "separator_after": " "
+        },
+        {
+          "target": "संक्षेप",
+          "bangla_pronunciation": "সংক্ষেপ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "बताता",
+          "bangla_pronunciation": "বতাতা",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হূঁ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমি মূল সিদ্ধান্তটি সংক্ষেপে বলছি।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch012_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "Three adult analysts in a bright office reviewing abstract upward and downward chart shapes on a large screen, one explaining cautiously, clean composition. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes, soft daylight, clean modern composition, realistic South Asian context, 3:2 landscape."
+    },
+    {
+      "key": "ch012_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A single analyst comparing two abstract trend panels at a desk, thoughtful expression, notebook and calculator, warm morning light. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes, soft daylight, clean modern composition, realistic South Asian context, 3:2 landscape."
+    }
+  ],
+  "additional_practice": []
+}
