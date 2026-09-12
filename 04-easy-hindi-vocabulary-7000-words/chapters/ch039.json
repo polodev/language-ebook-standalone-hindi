@@ -1,0 +1,2200 @@
+{
+  "chapter_id": "ch039",
+  "status": "drafted",
+  "title_target": "मौसम और प्रकृति",
+  "title_bangla_pronunciation": "মৌসম অউর প্রকৃতি",
+  "title_word_pronunciations": [
+    {
+      "target": "मौसम",
+      "bangla_pronunciation": "মৌসম",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "प्रकृति",
+      "bangla_pronunciation": "প্রকৃতি",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "আবহাওয়া ও প্রকৃতি",
+  "goal_bengali_md": "আবহাওয়া, আকাশ, বৃষ্টি ও প্রকৃতির সাধারণ বর্ণনার শব্দ ও বাক্য অনুশীলন।",
+  "sentences": [
+    {
+      "id": "ch039_s01",
+      "target": "आसमान धूसर है।",
+      "romanization": "aasmaan dhuusr hai",
+      "bangla_pronunciation": "আসমান ধূসর হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "आसमान",
+          "bangla_pronunciation": "আসমান",
+          "separator_after": " "
+        },
+        {
+          "target": "धूसर",
+          "bangla_pronunciation": "ধূসর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আকাশ ধূসর।"
+    },
+    {
+      "id": "ch039_s02",
+      "target": "बादल घना है।",
+      "romanization": "baadl ghnaa hai",
+      "bangla_pronunciation": "বাদল ঘনা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "बादल",
+          "bangla_pronunciation": "বাদল",
+          "separator_after": " "
+        },
+        {
+          "target": "घना",
+          "bangla_pronunciation": "ঘনা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মেঘ ঘন।"
+    },
+    {
+      "id": "ch039_s03",
+      "target": "हवा नम है।",
+      "romanization": "hvaa nm hai",
+      "bangla_pronunciation": "হ঵া নম হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "हवा",
+          "bangla_pronunciation": "হ঵া",
+          "separator_after": " "
+        },
+        {
+          "target": "नम",
+          "bangla_pronunciation": "নম",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "হাওয়া আর্দ্র।"
+    },
+    {
+      "id": "ch039_s04",
+      "target": "बारिश लगातार है।",
+      "romanization": "baarish lgaataar hai",
+      "bangla_pronunciation": "বারিশ লগাতার হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "लगातार",
+          "bangla_pronunciation": "লগাতার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বৃষ্টি একটানা।"
+    },
+    {
+      "id": "ch039_s05",
+      "target": "धूप तीखी है।",
+      "romanization": "dhuup tiikhii hai",
+      "bangla_pronunciation": "ধূপ তীখী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "धूप",
+          "bangla_pronunciation": "ধূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "तीखी",
+          "bangla_pronunciation": "তীখী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রোদ তীব্র।"
+    },
+    {
+      "id": "ch039_s06",
+      "target": "मिट्टी गीली है।",
+      "romanization": "mittii giilii hai",
+      "bangla_pronunciation": "মিট্টী গীলী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मिट्टी",
+          "bangla_pronunciation": "মিট্টী",
+          "separator_after": " "
+        },
+        {
+          "target": "गीली",
+          "bangla_pronunciation": "গীলী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মাটি ভেজা।"
+    },
+    {
+      "id": "ch039_s07",
+      "target": "पेड़ फलदार है।",
+      "romanization": "ped phldaar hai",
+      "bangla_pronunciation": "পেড় ফলদার হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "पेड़",
+          "bangla_pronunciation": "পেড়",
+          "separator_after": " "
+        },
+        {
+          "target": "फलदार",
+          "bangla_pronunciation": "ফলদার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গাছ ফলদায়ক।"
+    },
+    {
+      "id": "ch039_s08",
+      "target": "पत्ता मुरझाया है।",
+      "romanization": "pttaa murjhaayaa hai",
+      "bangla_pronunciation": "পত্তা মুরঝাযা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "पत्ता",
+          "bangla_pronunciation": "পত্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "मुरझाया",
+          "bangla_pronunciation": "মুরঝাযা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পাতা মলিন।"
+    },
+    {
+      "id": "ch039_s09",
+      "target": "नदी स्वच्छ है।",
+      "romanization": "ndii svchchh hai",
+      "bangla_pronunciation": "নদী স্঵চ্ছ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "नदी",
+          "bangla_pronunciation": "নদী",
+          "separator_after": " "
+        },
+        {
+          "target": "स्वच्छ",
+          "bangla_pronunciation": "স্঵চ্ছ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নদী পরিষ্কার।"
+    },
+    {
+      "id": "ch039_s10",
+      "target": "पहाड़ बर्फ़ीला है।",
+      "romanization": "phaad brphiilaa hai",
+      "bangla_pronunciation": "পহাড় বর্ফ়ীলা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "पहाड़",
+          "bangla_pronunciation": "পহাড়",
+          "separator_after": " "
+        },
+        {
+          "target": "बर्फ़ीला",
+          "bangla_pronunciation": "বর্ফ়ীলা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পাহাড় বরফাচ্ছন্ন।"
+    },
+    {
+      "id": "ch039_s11",
+      "target": "मौसम सुहाना है।",
+      "romanization": "mausm suhaanaa hai",
+      "bangla_pronunciation": "মৌসম সুহানা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": " "
+        },
+        {
+          "target": "सुहाना",
+          "bangla_pronunciation": "সুহানা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আবহাওয়া মনোরম।"
+    },
+    {
+      "id": "ch039_s12",
+      "target": "तूफ़ान दूर है।",
+      "romanization": "tuuphaan duur hai",
+      "bangla_pronunciation": "তূফ়ান দূর হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "तूफ़ान",
+          "bangla_pronunciation": "তূফ়ান",
+          "separator_after": " "
+        },
+        {
+          "target": "दूर",
+          "bangla_pronunciation": "দূর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঝড় দূরে।"
+    },
+    {
+      "id": "ch039_s13",
+      "target": "छाया ठंडी है।",
+      "romanization": "chhaayaa thndii hai",
+      "bangla_pronunciation": "ছাযা ঠংডী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "छाया",
+          "bangla_pronunciation": "ছাযা",
+          "separator_after": " "
+        },
+        {
+          "target": "ठंडी",
+          "bangla_pronunciation": "ঠংডী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ছায়া ঠান্ডা।"
+    },
+    {
+      "id": "ch039_s14",
+      "target": "जंगल घना है।",
+      "romanization": "jngl ghnaa hai",
+      "bangla_pronunciation": "জংগল ঘনা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "जंगल",
+          "bangla_pronunciation": "জংগল",
+          "separator_after": " "
+        },
+        {
+          "target": "घना",
+          "bangla_pronunciation": "ঘনা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "জঙ্গল ঘন।"
+    },
+    {
+      "id": "ch039_s15",
+      "target": "किनारा पास है।",
+      "romanization": "kinaaraa paas hai",
+      "bangla_pronunciation": "কিনারা পাস হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "किनारा",
+          "bangla_pronunciation": "কিনারা",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তীর কাছে।"
+    },
+    {
+      "id": "ch039_s16",
+      "target": "बारिश होने वाली है।",
+      "romanization": "baarish hone vaalii hai",
+      "bangla_pronunciation": "বারিশ হোনে ঵ালী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "होने",
+          "bangla_pronunciation": "হোনে",
+          "separator_after": " "
+        },
+        {
+          "target": "वाली",
+          "bangla_pronunciation": "঵ালী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বৃষ্টি হতে যাচ্ছে।"
+    },
+    {
+      "id": "ch039_s17",
+      "target": "छाता साथ रखिए।",
+      "romanization": "chhaataa saath rkhie",
+      "bangla_pronunciation": "ছাতা সাথ রখিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "छाता",
+          "bangla_pronunciation": "ছাতা",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ছাতা সঙ্গে রাখুন।"
+    },
+    {
+      "id": "ch039_s18",
+      "target": "आज हवा चल रही है।",
+      "romanization": "aaj hvaa chl rhii hai",
+      "bangla_pronunciation": "আজ হ঵া চল রহী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "हवा",
+          "bangla_pronunciation": "হ঵া",
+          "separator_after": " "
+        },
+        {
+          "target": "चल",
+          "bangla_pronunciation": "চল",
+          "separator_after": " "
+        },
+        {
+          "target": "रही",
+          "bangla_pronunciation": "রহী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আজ বাতাস বইছে।"
+    },
+    {
+      "id": "ch039_s19",
+      "target": "बाहर बहुत ठंड है।",
+      "romanization": "baahr bhut thnd hai",
+      "bangla_pronunciation": "বাহর বহুত ঠংড হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "बाहर",
+          "bangla_pronunciation": "বাহর",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "ठंड",
+          "bangla_pronunciation": "ঠংড",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাইরে খুব ঠান্ডা।"
+    },
+    {
+      "id": "ch039_s20",
+      "target": "मौसम बदल रहा है।",
+      "romanization": "mausm bdl rhaa hai",
+      "bangla_pronunciation": "মৌসম বদল রহা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": " "
+        },
+        {
+          "target": "बदल",
+          "bangla_pronunciation": "বদল",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा",
+          "bangla_pronunciation": "রহা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আবহাওয়া বদলাচ্ছে।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v01141",
+      "target": "आसमान",
+      "category": "word",
+      "type": "noun",
+      "romanization": "aasmaan",
+      "bangla_pronunciation": "আসমান",
+      "word_pronunciations": [
+        {
+          "target": "आसमान",
+          "bangla_pronunciation": "আসমান",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আকাশ",
+      "source_sentence_id": "ch039_s01",
+      "source_form": "आसमान",
+      "example_target": "आसमान धूसर है।",
+      "example_bangla_pronunciation": "আসমান ধূসর হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "आसमान",
+          "bangla_pronunciation": "আসমান",
+          "separator_after": " "
+        },
+        {
+          "target": "धूसर",
+          "bangla_pronunciation": "ধূসর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আকাশ ধূসর।",
+      "synonyms": []
+    },
+    {
+      "id": "v01142",
+      "target": "धूसर",
+      "category": "word",
+      "type": "adjective",
+      "romanization": "dhuusr",
+      "bangla_pronunciation": "ধূসর",
+      "word_pronunciations": [
+        {
+          "target": "धूसर",
+          "bangla_pronunciation": "ধূসর",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ধূসর",
+      "source_sentence_id": "ch039_s01",
+      "source_form": "धूसर",
+      "example_target": "आसमान धूसर है।",
+      "example_bangla_pronunciation": "আসমান ধূসর হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "आसमान",
+          "bangla_pronunciation": "আসমান",
+          "separator_after": " "
+        },
+        {
+          "target": "धूसर",
+          "bangla_pronunciation": "ধূসর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আকাশ ধূসর।",
+      "synonyms": []
+    },
+    {
+      "id": "v01143",
+      "target": "बादल",
+      "category": "word",
+      "type": "noun",
+      "romanization": "baadl",
+      "bangla_pronunciation": "বাদল",
+      "word_pronunciations": [
+        {
+          "target": "बादल",
+          "bangla_pronunciation": "বাদল",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মেঘ",
+      "source_sentence_id": "ch039_s02",
+      "source_form": "बादल",
+      "example_target": "बादल घना है।",
+      "example_bangla_pronunciation": "বাদল ঘনা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "बादल",
+          "bangla_pronunciation": "বাদল",
+          "separator_after": " "
+        },
+        {
+          "target": "घना",
+          "bangla_pronunciation": "ঘনা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "মেঘ ঘন।",
+      "synonyms": []
+    },
+    {
+      "id": "v01144",
+      "target": "घना",
+      "category": "word",
+      "type": "adjective",
+      "romanization": "ghnaa",
+      "bangla_pronunciation": "ঘনা",
+      "word_pronunciations": [
+        {
+          "target": "घना",
+          "bangla_pronunciation": "ঘনা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঘন",
+      "source_sentence_id": "ch039_s02",
+      "source_form": "घना",
+      "example_target": "बादल घना है।",
+      "example_bangla_pronunciation": "বাদল ঘনা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "बादल",
+          "bangla_pronunciation": "বাদল",
+          "separator_after": " "
+        },
+        {
+          "target": "घना",
+          "bangla_pronunciation": "ঘনা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "মেঘ ঘন।",
+      "synonyms": []
+    },
+    {
+      "id": "v01145",
+      "target": "हवा",
+      "category": "word",
+      "type": "noun",
+      "romanization": "hvaa",
+      "bangla_pronunciation": "হ঵া",
+      "word_pronunciations": [
+        {
+          "target": "हवा",
+          "bangla_pronunciation": "হ঵া",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "হাওয়া",
+      "source_sentence_id": "ch039_s03",
+      "source_form": "हवा",
+      "example_target": "हवा नम है।",
+      "example_bangla_pronunciation": "হ঵া নম হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "हवा",
+          "bangla_pronunciation": "হ঵া",
+          "separator_after": " "
+        },
+        {
+          "target": "नम",
+          "bangla_pronunciation": "নম",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "হাওয়া আর্দ্র।",
+      "synonyms": []
+    },
+    {
+      "id": "v01146",
+      "target": "बारिश होने वाली है",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "baarish hone vaalii hai",
+      "bangla_pronunciation": "বারিশ হোনে ঵ালী হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "होने",
+          "bangla_pronunciation": "হোনে",
+          "separator_after": " "
+        },
+        {
+          "target": "वाली",
+          "bangla_pronunciation": "঵ালী",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বৃষ্টি হতে যাচ্ছে",
+      "source_sentence_id": "ch039_s16",
+      "source_form": "बारिश होने वाली है",
+      "example_target": "बारिश होने वाली है।",
+      "example_bangla_pronunciation": "বারিশ হোনে ঵ালী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "होने",
+          "bangla_pronunciation": "হোনে",
+          "separator_after": " "
+        },
+        {
+          "target": "वाली",
+          "bangla_pronunciation": "঵ালী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বৃষ্টি হতে যাচ্ছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v01147",
+      "target": "नम",
+      "category": "word",
+      "type": "adjective",
+      "romanization": "nm",
+      "bangla_pronunciation": "নম",
+      "word_pronunciations": [
+        {
+          "target": "नम",
+          "bangla_pronunciation": "নম",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আর্দ্র",
+      "source_sentence_id": "ch039_s03",
+      "source_form": "नम",
+      "example_target": "हवा नम है।",
+      "example_bangla_pronunciation": "হ঵া নম হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "हवा",
+          "bangla_pronunciation": "হ঵া",
+          "separator_after": " "
+        },
+        {
+          "target": "नम",
+          "bangla_pronunciation": "নম",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "হাওয়া আর্দ্র।",
+      "synonyms": []
+    },
+    {
+      "id": "v01148",
+      "target": "बारिश",
+      "category": "word",
+      "type": "noun",
+      "romanization": "baarish",
+      "bangla_pronunciation": "বারিশ",
+      "word_pronunciations": [
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বৃষ্টি",
+      "source_sentence_id": "ch039_s04",
+      "source_form": "बारिश",
+      "example_target": "बारिश लगातार है।",
+      "example_bangla_pronunciation": "বারিশ লগাতার হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "लगातार",
+          "bangla_pronunciation": "লগাতার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বৃষ্টি একটানা।",
+      "synonyms": []
+    },
+    {
+      "id": "v01149",
+      "target": "लगातार",
+      "category": "word",
+      "type": "adjective",
+      "romanization": "lgaataar",
+      "bangla_pronunciation": "লগাতার",
+      "word_pronunciations": [
+        {
+          "target": "लगातार",
+          "bangla_pronunciation": "লগাতার",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "একটানা",
+      "source_sentence_id": "ch039_s04",
+      "source_form": "लगातार",
+      "example_target": "बारिश लगातार है।",
+      "example_bangla_pronunciation": "বারিশ লগাতার হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "लगातार",
+          "bangla_pronunciation": "লগাতার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বৃষ্টি একটানা।",
+      "synonyms": []
+    },
+    {
+      "id": "v01150",
+      "target": "धूप",
+      "category": "word",
+      "type": "noun",
+      "romanization": "dhuup",
+      "bangla_pronunciation": "ধূপ",
+      "word_pronunciations": [
+        {
+          "target": "धूप",
+          "bangla_pronunciation": "ধূপ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রোদ",
+      "source_sentence_id": "ch039_s05",
+      "source_form": "धूप",
+      "example_target": "धूप तीखी है।",
+      "example_bangla_pronunciation": "ধূপ তীখী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "धूप",
+          "bangla_pronunciation": "ধূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "तीखी",
+          "bangla_pronunciation": "তীখী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "রোদ তীব্র।",
+      "synonyms": []
+    },
+    {
+      "id": "v01151",
+      "target": "तीखी",
+      "category": "word",
+      "type": "adjective",
+      "romanization": "tiikhii",
+      "bangla_pronunciation": "তীখী",
+      "word_pronunciations": [
+        {
+          "target": "तीखी",
+          "bangla_pronunciation": "তীখী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তীব্র",
+      "source_sentence_id": "ch039_s05",
+      "source_form": "तीखी",
+      "example_target": "धूप तीखी है।",
+      "example_bangla_pronunciation": "ধূপ তীখী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "धूप",
+          "bangla_pronunciation": "ধূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "तीखी",
+          "bangla_pronunciation": "তীখী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "রোদ তীব্র।",
+      "synonyms": []
+    },
+    {
+      "id": "v01152",
+      "target": "छाता साथ रखिए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "chhaataa saath rkhie",
+      "bangla_pronunciation": "ছাতা সাথ রখিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "छाता",
+          "bangla_pronunciation": "ছাতা",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए",
+          "bangla_pronunciation": "রখিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ছাতা সঙ্গে রাখুন",
+      "source_sentence_id": "ch039_s17",
+      "source_form": "छाता साथ रखिए",
+      "example_target": "छाता साथ रखिए।",
+      "example_bangla_pronunciation": "ছাতা সাথ রখিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "छाता",
+          "bangla_pronunciation": "ছাতা",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ছাতা সঙ্গে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v01153",
+      "target": "मिट्टी",
+      "category": "word",
+      "type": "noun",
+      "romanization": "mittii",
+      "bangla_pronunciation": "মিট্টী",
+      "word_pronunciations": [
+        {
+          "target": "मिट्टी",
+          "bangla_pronunciation": "মিট্টী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মাটি",
+      "source_sentence_id": "ch039_s06",
+      "source_form": "मिट्टी",
+      "example_target": "मिट्टी गीली है।",
+      "example_bangla_pronunciation": "মিট্টী গীলী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "मिट्टी",
+          "bangla_pronunciation": "মিট্টী",
+          "separator_after": " "
+        },
+        {
+          "target": "गीली",
+          "bangla_pronunciation": "গীলী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "মাটি ভেজা।",
+      "synonyms": []
+    },
+    {
+      "id": "v01154",
+      "target": "गीली",
+      "category": "word",
+      "type": "adjective",
+      "romanization": "giilii",
+      "bangla_pronunciation": "গীলী",
+      "word_pronunciations": [
+        {
+          "target": "गीली",
+          "bangla_pronunciation": "গীলী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভেজা",
+      "source_sentence_id": "ch039_s06",
+      "source_form": "गीली",
+      "example_target": "मिट्टी गीली है।",
+      "example_bangla_pronunciation": "মিট্টী গীলী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "मिट्टी",
+          "bangla_pronunciation": "মিট্টী",
+          "separator_after": " "
+        },
+        {
+          "target": "गीली",
+          "bangla_pronunciation": "গীলী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "মাটি ভেজা।",
+      "synonyms": []
+    },
+    {
+      "id": "v01155",
+      "target": "पेड़",
+      "category": "word",
+      "type": "noun",
+      "romanization": "ped",
+      "bangla_pronunciation": "পেড়",
+      "word_pronunciations": [
+        {
+          "target": "पेड़",
+          "bangla_pronunciation": "পেড়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গাছ",
+      "source_sentence_id": "ch039_s07",
+      "source_form": "पेड़",
+      "example_target": "पेड़ फलदार है।",
+      "example_bangla_pronunciation": "পেড় ফলদার হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "पेड़",
+          "bangla_pronunciation": "পেড়",
+          "separator_after": " "
+        },
+        {
+          "target": "फलदार",
+          "bangla_pronunciation": "ফলদার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "গাছ ফলদায়ক।",
+      "synonyms": []
+    },
+    {
+      "id": "v01156",
+      "target": "फलदार",
+      "category": "word",
+      "type": "adjective",
+      "romanization": "phldaar",
+      "bangla_pronunciation": "ফলদার",
+      "word_pronunciations": [
+        {
+          "target": "फलदार",
+          "bangla_pronunciation": "ফলদার",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফলদায়ক",
+      "source_sentence_id": "ch039_s07",
+      "source_form": "फलदार",
+      "example_target": "पेड़ फलदार है।",
+      "example_bangla_pronunciation": "পেড় ফলদার হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "पेड़",
+          "bangla_pronunciation": "পেড়",
+          "separator_after": " "
+        },
+        {
+          "target": "फलदार",
+          "bangla_pronunciation": "ফলদার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "গাছ ফলদায়ক।",
+      "synonyms": []
+    },
+    {
+      "id": "v01157",
+      "target": "पत्ता",
+      "category": "word",
+      "type": "noun",
+      "romanization": "pttaa",
+      "bangla_pronunciation": "পত্তা",
+      "word_pronunciations": [
+        {
+          "target": "पत्ता",
+          "bangla_pronunciation": "পত্তা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পাতা",
+      "source_sentence_id": "ch039_s08",
+      "source_form": "पत्ता",
+      "example_target": "पत्ता मुरझाया है।",
+      "example_bangla_pronunciation": "পত্তা মুরঝাযা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "पत्ता",
+          "bangla_pronunciation": "পত্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "मुरझाया",
+          "bangla_pronunciation": "মুরঝাযা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পাতা মলিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v01158",
+      "target": "आज हवा चल रही है",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "aaj hvaa chl rhii hai",
+      "bangla_pronunciation": "আজ হ঵া চল রহী হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "हवा",
+          "bangla_pronunciation": "হ঵া",
+          "separator_after": " "
+        },
+        {
+          "target": "चल",
+          "bangla_pronunciation": "চল",
+          "separator_after": " "
+        },
+        {
+          "target": "रही",
+          "bangla_pronunciation": "রহী",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আজ বাতাস বইছে",
+      "source_sentence_id": "ch039_s18",
+      "source_form": "आज हवा चल रही है",
+      "example_target": "आज हवा चल रही है।",
+      "example_bangla_pronunciation": "আজ হ঵া চল রহী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "हवा",
+          "bangla_pronunciation": "হ঵া",
+          "separator_after": " "
+        },
+        {
+          "target": "चल",
+          "bangla_pronunciation": "চল",
+          "separator_after": " "
+        },
+        {
+          "target": "रही",
+          "bangla_pronunciation": "রহী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আজ বাতাস বইছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v01159",
+      "target": "मुरझाया",
+      "category": "word",
+      "type": "adjective",
+      "romanization": "murjhaayaa",
+      "bangla_pronunciation": "মুরঝাযা",
+      "word_pronunciations": [
+        {
+          "target": "मुरझाया",
+          "bangla_pronunciation": "মুরঝাযা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মলিন",
+      "source_sentence_id": "ch039_s08",
+      "source_form": "मुरझाया",
+      "example_target": "पत्ता मुरझाया है।",
+      "example_bangla_pronunciation": "পত্তা মুরঝাযা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "पत्ता",
+          "bangla_pronunciation": "পত্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "मुरझाया",
+          "bangla_pronunciation": "মুরঝাযা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পাতা মলিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v01160",
+      "target": "नदी",
+      "category": "word",
+      "type": "noun",
+      "romanization": "ndii",
+      "bangla_pronunciation": "নদী",
+      "word_pronunciations": [
+        {
+          "target": "नदी",
+          "bangla_pronunciation": "নদী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নদী",
+      "source_sentence_id": "ch039_s09",
+      "source_form": "नदी",
+      "example_target": "नदी स्वच्छ है।",
+      "example_bangla_pronunciation": "নদী স্঵চ্ছ হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "नदी",
+          "bangla_pronunciation": "নদী",
+          "separator_after": " "
+        },
+        {
+          "target": "स्वच्छ",
+          "bangla_pronunciation": "স্঵চ্ছ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নদী পরিষ্কার।",
+      "synonyms": []
+    },
+    {
+      "id": "v01161",
+      "target": "स्वच्छ",
+      "category": "word",
+      "type": "adjective",
+      "romanization": "svchchh",
+      "bangla_pronunciation": "স্঵চ্ছ",
+      "word_pronunciations": [
+        {
+          "target": "स्वच्छ",
+          "bangla_pronunciation": "স্঵চ্ছ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিষ্কার",
+      "source_sentence_id": "ch039_s09",
+      "source_form": "स्वच्छ",
+      "example_target": "नदी स्वच्छ है।",
+      "example_bangla_pronunciation": "নদী স্঵চ্ছ হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "नदी",
+          "bangla_pronunciation": "নদী",
+          "separator_after": " "
+        },
+        {
+          "target": "स्वच्छ",
+          "bangla_pronunciation": "স্঵চ্ছ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নদী পরিষ্কার।",
+      "synonyms": []
+    },
+    {
+      "id": "v01162",
+      "target": "पहाड़",
+      "category": "word",
+      "type": "noun",
+      "romanization": "phaad",
+      "bangla_pronunciation": "পহাড়",
+      "word_pronunciations": [
+        {
+          "target": "पहाड़",
+          "bangla_pronunciation": "পহাড়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পাহাড়",
+      "source_sentence_id": "ch039_s10",
+      "source_form": "पहाड़",
+      "example_target": "पहाड़ बर्फ़ीला है।",
+      "example_bangla_pronunciation": "পহাড় বর্ফ়ীলা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "पहाड़",
+          "bangla_pronunciation": "পহাড়",
+          "separator_after": " "
+        },
+        {
+          "target": "बर्फ़ीला",
+          "bangla_pronunciation": "বর্ফ়ীলা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পাহাড় বরফাচ্ছন্ন।",
+      "synonyms": []
+    },
+    {
+      "id": "v01163",
+      "target": "बर्फ़ीला",
+      "category": "word",
+      "type": "adjective",
+      "romanization": "brphiilaa",
+      "bangla_pronunciation": "বর্ফ়ীলা",
+      "word_pronunciations": [
+        {
+          "target": "बर्फ़ीला",
+          "bangla_pronunciation": "বর্ফ়ীলা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বরফাচ্ছন্ন",
+      "source_sentence_id": "ch039_s10",
+      "source_form": "बर्फ़ीला",
+      "example_target": "पहाड़ बर्फ़ीला है।",
+      "example_bangla_pronunciation": "পহাড় বর্ফ়ীলা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "पहाड़",
+          "bangla_pronunciation": "পহাড়",
+          "separator_after": " "
+        },
+        {
+          "target": "बर्फ़ीला",
+          "bangla_pronunciation": "বর্ফ়ীলা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পাহাড় বরফাচ্ছন্ন।",
+      "synonyms": []
+    },
+    {
+      "id": "v01164",
+      "target": "बाहर बहुत ठंड है",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "baahr bhut thnd hai",
+      "bangla_pronunciation": "বাহর বহুত ঠংড হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "बाहर",
+          "bangla_pronunciation": "বাহর",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "ठंड",
+          "bangla_pronunciation": "ঠংড",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাইরে খুব ঠান্ডা",
+      "source_sentence_id": "ch039_s19",
+      "source_form": "बाहर बहुत ठंड है",
+      "example_target": "बाहर बहुत ठंड है।",
+      "example_bangla_pronunciation": "বাহর বহুত ঠংড হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "बाहर",
+          "bangla_pronunciation": "বাহর",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "separator_after": " "
+        },
+        {
+          "target": "ठंड",
+          "bangla_pronunciation": "ঠংড",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বাইরে খুব ঠান্ডা।",
+      "synonyms": []
+    },
+    {
+      "id": "v01165",
+      "target": "मौसम",
+      "category": "word",
+      "type": "noun",
+      "romanization": "mausm",
+      "bangla_pronunciation": "মৌসম",
+      "word_pronunciations": [
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আবহাওয়া",
+      "source_sentence_id": "ch039_s11",
+      "source_form": "मौसम",
+      "example_target": "मौसम सुहाना है।",
+      "example_bangla_pronunciation": "মৌসম সুহানা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": " "
+        },
+        {
+          "target": "सुहाना",
+          "bangla_pronunciation": "সুহানা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আবহাওয়া মনোরম।",
+      "synonyms": []
+    },
+    {
+      "id": "v01166",
+      "target": "तूफ़ान",
+      "category": "word",
+      "type": "noun",
+      "romanization": "tuuphaan",
+      "bangla_pronunciation": "তূফ়ান",
+      "word_pronunciations": [
+        {
+          "target": "तूफ़ान",
+          "bangla_pronunciation": "তূফ়ান",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঝড়",
+      "source_sentence_id": "ch039_s12",
+      "source_form": "तूफ़ान",
+      "example_target": "तूफ़ान दूर है।",
+      "example_bangla_pronunciation": "তূফ়ান দূর হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "तूफ़ान",
+          "bangla_pronunciation": "তূফ়ান",
+          "separator_after": " "
+        },
+        {
+          "target": "दूर",
+          "bangla_pronunciation": "দূর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ঝড় দূরে।",
+      "synonyms": []
+    },
+    {
+      "id": "v01167",
+      "target": "छाया",
+      "category": "word",
+      "type": "noun",
+      "romanization": "chhaayaa",
+      "bangla_pronunciation": "ছাযা",
+      "word_pronunciations": [
+        {
+          "target": "छाया",
+          "bangla_pronunciation": "ছাযা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ছায়া",
+      "source_sentence_id": "ch039_s13",
+      "source_form": "छाया",
+      "example_target": "छाया ठंडी है।",
+      "example_bangla_pronunciation": "ছাযা ঠংডী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "छाया",
+          "bangla_pronunciation": "ছাযা",
+          "separator_after": " "
+        },
+        {
+          "target": "ठंडी",
+          "bangla_pronunciation": "ঠংডী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ছায়া ঠান্ডা।",
+      "synonyms": []
+    },
+    {
+      "id": "v01168",
+      "target": "जंगल",
+      "category": "word",
+      "type": "noun",
+      "romanization": "jngl",
+      "bangla_pronunciation": "জংগল",
+      "word_pronunciations": [
+        {
+          "target": "जंगल",
+          "bangla_pronunciation": "জংগল",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "জঙ্গল",
+      "source_sentence_id": "ch039_s14",
+      "source_form": "जंगल",
+      "example_target": "जंगल घना है।",
+      "example_bangla_pronunciation": "জংগল ঘনা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "जंगल",
+          "bangla_pronunciation": "জংগল",
+          "separator_after": " "
+        },
+        {
+          "target": "घना",
+          "bangla_pronunciation": "ঘনা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "জঙ্গল ঘন।",
+      "synonyms": []
+    },
+    {
+      "id": "v01169",
+      "target": "किनारा",
+      "category": "word",
+      "type": "noun",
+      "romanization": "kinaaraa",
+      "bangla_pronunciation": "কিনারা",
+      "word_pronunciations": [
+        {
+          "target": "किनारा",
+          "bangla_pronunciation": "কিনারা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তীর",
+      "source_sentence_id": "ch039_s15",
+      "source_form": "किनारा",
+      "example_target": "किनारा पास है।",
+      "example_bangla_pronunciation": "কিনারা পাস হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "किनारा",
+          "bangla_pronunciation": "কিনারা",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "তীর কাছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v01170",
+      "target": "मौसम बदल रहा है",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "mausm bdl rhaa hai",
+      "bangla_pronunciation": "মৌসম বদল রহা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": " "
+        },
+        {
+          "target": "बदल",
+          "bangla_pronunciation": "বদল",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा",
+          "bangla_pronunciation": "রহা",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হ্যায়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আবহাওয়া বদলাচ্ছে",
+      "source_sentence_id": "ch039_s20",
+      "source_form": "मौसम बदल रहा है",
+      "example_target": "मौसम बदल रहा है।",
+      "example_bangla_pronunciation": "মৌসম বদল রহা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": " "
+        },
+        {
+          "target": "बदल",
+          "bangla_pronunciation": "বদল",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा",
+          "bangla_pronunciation": "রহা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আবহাওয়া বদলাচ্ছে।",
+      "synonyms": []
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "আবহাওয়া ও প্রকৃতি — ছোট দৃশ্য",
+    "scene_summary": "দৈনন্দিন ছোট দৃশ্য।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "একটি দৈনন্দিন পরিস্থিতিতে প্রথমে বলা হলো "
+      },
+      {
+        "kind": "target",
+        "target": "आसमान धूसर है।",
+        "bangla_pronunciation": "আসমান ধূসর হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "आसमान",
+            "bangla_pronunciation": "আসমান",
+            "separator_after": " "
+          },
+          {
+            "target": "धूसर",
+            "bangla_pronunciation": "ধূসর",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " এরপর দরকারি অনুরোধ ছিল "
+      },
+      {
+        "kind": "target",
+        "target": "बारिश होने वाली है।",
+        "bangla_pronunciation": "বারিশ হোনে ঵ালী হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "बारिश",
+            "bangla_pronunciation": "বারিশ",
+            "separator_after": " "
+          },
+          {
+            "target": "होने",
+            "bangla_pronunciation": "হোনে",
+            "separator_after": " "
+          },
+          {
+            "target": "वाली",
+            "bangla_pronunciation": "঵ালী",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " শেষে আরেকটি সহজ বাক্য বলা হলো "
+      },
+      {
+        "kind": "target",
+        "target": "मिट्टी गीली है।",
+        "bangla_pronunciation": "মিট্টী গীলী হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "मिट्टी",
+            "bangla_pronunciation": "মিট্টী",
+            "separator_after": " "
+          },
+          {
+            "target": "गीली",
+            "bangla_pronunciation": "গীলী",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " এভাবে নতুন শব্দগুলো বাস্তব কথায় ব্যবহার করা যায়।"
+      }
+    ],
+    "text_md": "একটি দৈনন্দিন পরিস্থিতিতে প্রথমে বলা হলো **आसमान** (আসমান) **धूसर** (ধূসর) **है।** (হ্যায়।) এরপর দরকারি অনুরোধ ছিল **बारिश** (বারিশ) **होने** (হোনে) **वाली** (঵ালী) **है।** (হ্যায়।) শেষে আরেকটি সহজ বাক্য বলা হলো **मिट्टी** (মিট্টী) **गीली** (গীলী) **है।** (হ্যায়।) এভাবে নতুন শব্দগুলো বাস্তব কথায় ব্যবহার করা যায়।"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "আবহাওয়া ও প্রকৃতি — আরেকটি দৃশ্য",
+    "scene_summary": "একই বিষয়ের ভিন্ন ছোট দৃশ্য।",
+    "lines": [
+      {
+        "target": "बादल घना है।",
+        "bangla_pronunciation": "বাদল ঘনা হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "बादल",
+            "bangla_pronunciation": "বাদল",
+            "separator_after": " "
+          },
+          {
+            "target": "घना",
+            "bangla_pronunciation": "ঘনা",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "हवा नम है।",
+        "bangla_pronunciation": "হ঵া নম হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "हवा",
+            "bangla_pronunciation": "হ঵া",
+            "separator_after": " "
+          },
+          {
+            "target": "नम",
+            "bangla_pronunciation": "নম",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "बारिश लगातार है।",
+        "bangla_pronunciation": "বারিশ লগাতার হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "बारिश",
+            "bangla_pronunciation": "বারিশ",
+            "separator_after": " "
+          },
+          {
+            "target": "लगातार",
+            "bangla_pronunciation": "লগাতার",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "धूप तीखी है।",
+        "bangla_pronunciation": "ধূপ তীখী হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "धूप",
+            "bangla_pronunciation": "ধূপ",
+            "separator_after": " "
+          },
+          {
+            "target": "तीखी",
+            "bangla_pronunciation": "তীখী",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "বাদল ঘনা হ্যায়। হ঵া নম হ্যায়। বারিশ লগাতার হ্যায়। ধূপ তীখী হ্যায়।",
+    "meaning_bengali_md": "মেঘ ঘন। হাওয়া আর্দ্র। বৃষ্টি একটানা। রোদ তীব্র।"
+  },
+  "script_practice": [
+    {
+      "item_id": "ch039_script_01",
+      "mode": "review",
+      "target": "क",
+      "bangla_pronunciation": "ক",
+      "explanation_bengali_md": "চিহ্নটি চিনুন এবং উচ্চারণ মনে রাখুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন।"
+    },
+    {
+      "item_id": "ch039_script_02",
+      "mode": "review",
+      "target": "प",
+      "bangla_pronunciation": "প",
+      "explanation_bengali_md": "চিহ্নটি চিনুন এবং উচ্চারণ মনে রাখুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন।"
+    },
+    {
+      "item_id": "ch039_script_03",
+      "mode": "review",
+      "target": "ट",
+      "bangla_pronunciation": "ট",
+      "explanation_bengali_md": "চিহ্নটি চিনুন এবং উচ্চারণ মনে রাখুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন।"
+    },
+    {
+      "item_id": "ch039_script_04",
+      "mode": "review",
+      "target": "र",
+      "bangla_pronunciation": "র",
+      "explanation_bengali_md": "চিহ্নটি চিনুন এবং উচ্চারণ মনে রাখুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন।"
+    },
+    {
+      "item_id": "ch039_script_05",
+      "mode": "review",
+      "target": "ा",
+      "bangla_pronunciation": "া",
+      "explanation_bengali_md": "চিহ্নটি চিনুন এবং উচ্চারণ মনে রাখুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন।"
+    }
+  ],
+  "number_practice": null,
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "মডেল বাক্যটি বলুন — অনুশীলন 1।",
+      "model_target": "आसमान धूसर है।",
+      "model_bangla_pronunciation": "আসমান ধূসর হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "आसमान",
+          "bangla_pronunciation": "আসমান",
+          "separator_after": " "
+        },
+        {
+          "target": "धूसर",
+          "bangla_pronunciation": "ধূসর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আকাশ ধূসর।"
+    },
+    {
+      "prompt_bengali_md": "মডেল বাক্যটি বলুন — অনুশীলন 2।",
+      "model_target": "मिट्टी गीली है।",
+      "model_bangla_pronunciation": "মিট্টী গীলী হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "मिट्टी",
+          "bangla_pronunciation": "মিট্টী",
+          "separator_after": " "
+        },
+        {
+          "target": "गीली",
+          "bangla_pronunciation": "গীলী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "মাটি ভেজা।"
+    },
+    {
+      "prompt_bengali_md": "মডেল বাক্যটি বলুন — অনুশীলন 3।",
+      "model_target": "मौसम सुहाना है।",
+      "model_bangla_pronunciation": "মৌসম সুহানা হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": " "
+        },
+        {
+          "target": "सुहाना",
+          "bangla_pronunciation": "সুহানা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আবহাওয়া মনোরম।"
+    },
+    {
+      "prompt_bengali_md": "মডেল বাক্যটি বলুন — অনুশীলন 4।",
+      "model_target": "बारिश होने वाली है।",
+      "model_bangla_pronunciation": "বারিশ হোনে ঵ালী হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "separator_after": " "
+        },
+        {
+          "target": "होने",
+          "bangla_pronunciation": "হোনে",
+          "separator_after": " "
+        },
+        {
+          "target": "वाली",
+          "bangla_pronunciation": "঵ালী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "বৃষ্টি হতে যাচ্ছে।"
+    },
+    {
+      "prompt_bengali_md": "মডেল বাক্যটি বলুন — অনুশীলন 5।",
+      "model_target": "छाता साथ रखिए।",
+      "model_bangla_pronunciation": "ছাতা সাথ রখিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "छाता",
+          "bangla_pronunciation": "ছাতা",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ছাতা সঙ্গে রাখুন।"
+    },
+    {
+      "prompt_bengali_md": "মডেল বাক্যটি বলুন — অনুশীলন 6।",
+      "model_target": "मौसम बदल रहा है।",
+      "model_bangla_pronunciation": "মৌসম বদল রহা হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "मौसम",
+          "bangla_pronunciation": "মৌসম",
+          "separator_after": " "
+        },
+        {
+          "target": "बदल",
+          "bangla_pronunciation": "বদল",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा",
+          "bangla_pronunciation": "রহা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আবহাওয়া বদলাচ্ছে।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch039_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "Bright everyday adult scene about আবহাওয়া ও প্রকৃতি, matching the mixed reading with natural people and relevant objects, clear focal point, uncluttered background. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, soft daylight, uncluttered composition."
+    },
+    {
+      "key": "ch039_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A distinct everyday adult scene about আবহাওয়া ও প্রকৃতি, matching the pure reading from a different viewpoint, simple relevant objects, clear focal point, bright natural light. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, soft daylight, uncluttered composition."
+    }
+  ],
+  "additional_practice": []
+}
