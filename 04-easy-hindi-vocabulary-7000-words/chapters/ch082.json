@@ -1,0 +1,3360 @@
+{
+  "chapter_id": "ch082",
+  "status": "drafted",
+  "title_target": "बैंकिंग और रोज़मर्रा का पैसा",
+  "title_bangla_pronunciation": "বৈংকিংগ অউর রোজমর্রা কা পৈসা",
+  "title_word_pronunciations": [
+    {
+      "target": "बैंकिंग",
+      "bangla_pronunciation": "বৈংকিংগ",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "रोज़मर्रा",
+      "bangla_pronunciation": "রোজমর্রা",
+      "separator_after": " "
+    },
+    {
+      "target": "का",
+      "bangla_pronunciation": "কা",
+      "separator_after": " "
+    },
+    {
+      "target": "पैसा",
+      "bangla_pronunciation": "পৈসা",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "দৈনন্দিন ব্যাংকিং",
+  "goal_bengali_md": "অ্যাকাউন্ট, লেনদেন, বাজেট, নিরাপত্তা এবং সময়মতো পেমেন্ট নিয়ে দৈনন্দিন ব্যাংকিং কথোপকথনের দরকারি শব্দ শিখুন।",
+  "sentences": [
+    {
+      "id": "ch082_s01",
+      "target": "मेरे खाते में वेतन जमा हुआ।",
+      "romanization": "mere khaate men vetn jmaa huaa",
+      "bangla_pronunciation": "মেরে খাতে মেঁ বেতন জমা হুয়া।",
+      "word_pronunciations": [
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "खाते",
+          "bangla_pronunciation": "খাতে",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "वेतन",
+          "bangla_pronunciation": "বেতন",
+          "separator_after": " "
+        },
+        {
+          "target": "जमा",
+          "bangla_pronunciation": "জমা",
+          "separator_after": " "
+        },
+        {
+          "target": "हुआ।",
+          "bangla_pronunciation": "হুয়া।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার অ্যাকাউন্টে বেতন জমা হয়েছে।"
+    },
+    {
+      "id": "ch082_s02",
+      "target": "आज नकद निकासी की ज़रूरत नहीं है।",
+      "romanization": "aaj nkd nikaasii kii zruurt nhiin hai",
+      "bangla_pronunciation": "আজ নকদ নিকাসী কী জরূরত নহীঁ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "नकद",
+          "bangla_pronunciation": "নকদ",
+          "separator_after": " "
+        },
+        {
+          "target": "निकासी",
+          "bangla_pronunciation": "নিকাসী",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "ज़रूरत",
+          "bangla_pronunciation": "জরূরত",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আজ নগদ টাকা তোলার দরকার নেই।"
+    },
+    {
+      "id": "ch082_s03",
+      "target": "ऑनलाइन भुगतान की रसीद संभालकर रखें।",
+      "romanization": "onnlaain bhugtaan kii rsiid snbhaalkr rkhen",
+      "bangla_pronunciation": "অনলাইন ভুগতান কী রসীদ সংভালকর রখেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "ऑनलाइन",
+          "bangla_pronunciation": "অনলাইন",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসীদ",
+          "separator_after": " "
+        },
+        {
+          "target": "संभालकर",
+          "bangla_pronunciation": "সংভালকর",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনলাইন পেমেন্টের রসিদ যত্ন করে রাখুন।"
+    },
+    {
+      "id": "ch082_s04",
+      "target": "मैं मोबाइल से पैसे भेजना चाहता हूँ।",
+      "romanization": "main mobaail se paise bhejnaa caahtaa huun",
+      "bangla_pronunciation": "ম্যাঁ মোবাইল সে পৈসে ভেজনা চাহতা হুঁ।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "मोबाइल",
+          "bangla_pronunciation": "মোবাইল",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पैसे",
+          "bangla_pronunciation": "পৈসে",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजना",
+          "bangla_pronunciation": "ভেজনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहता",
+          "bangla_pronunciation": "চাহতা",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি মোবাইল দিয়ে টাকা পাঠাতে চাই।"
+    },
+    {
+      "id": "ch082_s05",
+      "target": "इस शाखा में ग्राहक सेवा तेज़ है।",
+      "romanization": "is shaakhaa men graahk sevaa tez hai",
+      "bangla_pronunciation": "ইস শাখা মেঁ গ্রাহক সেবা তেজ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "शाखा",
+          "bangla_pronunciation": "শাখা",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "सेवा",
+          "bangla_pronunciation": "সেবা",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই শাখায় গ্রাহকসেবা দ্রুত।"
+    },
+    {
+      "id": "ch082_s06",
+      "target": "इस लेन-देन पर छोटा शुल्क लगा।",
+      "romanization": "is len-den pr chottaa shulk lgaa",
+      "bangla_pronunciation": "ইস লেন-দেন পর ছোটা শুল্ক লগা।",
+      "word_pronunciations": [
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "लेन-देन",
+          "bangla_pronunciation": "লেন-দেন",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "छोटा",
+          "bangla_pronunciation": "ছোটা",
+          "separator_after": " "
+        },
+        {
+          "target": "शुल्क",
+          "bangla_pronunciation": "শুল্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "लगा।",
+          "bangla_pronunciation": "লগা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই লেনদেনে সামান্য ফি লেগেছে।"
+    },
+    {
+      "id": "ch082_s07",
+      "target": "बचत खाते पर ब्याज मिलता है।",
+      "romanization": "bct khaate pr byaaj miltaa hai",
+      "bangla_pronunciation": "বচত খাতে পর ব্যাজ মিলতা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "बचत",
+          "bangla_pronunciation": "বচত",
+          "separator_after": " "
+        },
+        {
+          "target": "खाते",
+          "bangla_pronunciation": "খাতে",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ब्याज",
+          "bangla_pronunciation": "ব্যাজ",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलता",
+          "bangla_pronunciation": "মিলতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সঞ্চয়ী অ্যাকাউন্টে সুদ পাওয়া যায়।"
+    },
+    {
+      "id": "ch082_s08",
+      "target": "अगली किस्त के भुगतान की तारीख सोमवार है।",
+      "romanization": "aglii kist ke bhugtaan kii taariikh somvaar hai",
+      "bangla_pronunciation": "অগলী কিস্ত কে ভুগতান কী তারীখ সোমবার হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "अगली",
+          "bangla_pronunciation": "অগলী",
+          "separator_after": " "
+        },
+        {
+          "target": "किस्त",
+          "bangla_pronunciation": "কিস্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "तारीख",
+          "bangla_pronunciation": "তারীখ",
+          "separator_after": " "
+        },
+        {
+          "target": "सोमवार",
+          "bangla_pronunciation": "সোমবার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরের কিস্তির পেমেন্টের তারিখ সোমবার।"
+    },
+    {
+      "id": "ch082_s09",
+      "target": "समय पर भुगतान करने से जुर्माना नहीं लगेगा।",
+      "romanization": "smy pr bhugtaan krne se jurmaanaa nhiin lgegaa",
+      "bangla_pronunciation": "সময় পর ভুগতান করনে সে জুর্মানা নহীঁ লগেগা।",
+      "word_pronunciations": [
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "करने",
+          "bangla_pronunciation": "করনে",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जुर्माना",
+          "bangla_pronunciation": "জুর্মানা",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "लगेगा।",
+          "bangla_pronunciation": "লগেগা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সময়মতো পরিশোধ করলে জরিমানা লাগবে না।"
+    },
+    {
+      "id": "ch082_s10",
+      "target": "महीने का बजट पहले बनाइए।",
+      "romanization": "mhiine kaa bjtt phle bnaaie",
+      "bangla_pronunciation": "মহীনে কা বজট পহলে বনাইএ।",
+      "word_pronunciations": [
+        {
+          "target": "महीने",
+          "bangla_pronunciation": "মহীনে",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "बजट",
+          "bangla_pronunciation": "বজট",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "बनाइए।",
+          "bangla_pronunciation": "বনাইএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মাসের বাজেট আগে তৈরি করুন।"
+    },
+    {
+      "id": "ch082_s11",
+      "target": "खर्च और आय दोनों लिखना उपयोगी है।",
+      "romanization": "khrc aur aay donon likhnaa upyogii hai",
+      "bangla_pronunciation": "খর্চ অউর আয় দোনোং লিখনা উপযোগী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "खर्च",
+          "bangla_pronunciation": "খর্চ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "आय",
+          "bangla_pronunciation": "আয়",
+          "separator_after": " "
+        },
+        {
+          "target": "दोनों",
+          "bangla_pronunciation": "দোনোং",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखना",
+          "bangla_pronunciation": "লিখনা",
+          "separator_after": " "
+        },
+        {
+          "target": "उपयोगी",
+          "bangla_pronunciation": "উপযোগী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খরচ ও আয়—দুটিই লেখা উপকারী।"
+    },
+    {
+      "id": "ch082_s12",
+      "target": "मैं हर सप्ताह हिसाब रखना पसंद करता हूँ।",
+      "romanization": "main hr sptaah hisaab rkhnaa psnd krtaa huun",
+      "bangla_pronunciation": "ম্যাঁ হর সপ্তাহ হিসাব রখনা পসংদ করতা হুঁ।",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "हर",
+          "bangla_pronunciation": "হর",
+          "separator_after": " "
+        },
+        {
+          "target": "सप्ताह",
+          "bangla_pronunciation": "সপ্তাহ",
+          "separator_after": " "
+        },
+        {
+          "target": "हिसाब",
+          "bangla_pronunciation": "হিসাব",
+          "separator_after": " "
+        },
+        {
+          "target": "रखना",
+          "bangla_pronunciation": "রখনা",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসংদ",
+          "separator_after": " "
+        },
+        {
+          "target": "करता",
+          "bangla_pronunciation": "করতা",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি প্রতি সপ্তাহে হিসাব রাখতে পছন্দ করি।"
+    },
+    {
+      "id": "ch082_s13",
+      "target": "कर्ज़ लेने से पहले शर्तें पढ़ें।",
+      "romanization": "krz lene se phle shrten pddh'en",
+      "bangla_pronunciation": "কর্জ লেনে সে পহলে শর্তেং পঢেং।",
+      "word_pronunciations": [
+        {
+          "target": "कर्ज़",
+          "bangla_pronunciation": "কর্জ",
+          "separator_after": " "
+        },
+        {
+          "target": "लेने",
+          "bangla_pronunciation": "লেনে",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "शर्तें",
+          "bangla_pronunciation": "শর্তেং",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़ें।",
+          "bangla_pronunciation": "পঢেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঋণ নেওয়ার আগে শর্তগুলো পড়ুন।"
+    },
+    {
+      "id": "ch082_s14",
+      "target": "ऑनलाइन सुरक्षा के लिए पासवर्ड मज़बूत रखें।",
+      "romanization": "onnlaain surkssaa ke lie paasvrdd mzbuut rkhen",
+      "bangla_pronunciation": "অনলাইন সুরক্ষা কে লিয়ে পাসওয়ার্ড মজবূত রখেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "ऑनलाइन",
+          "bangla_pronunciation": "অনলাইন",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षा",
+          "bangla_pronunciation": "সুরক্ষা",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "पासवर्ड",
+          "bangla_pronunciation": "পাসওয়ার্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "मज़बूत",
+          "bangla_pronunciation": "মজবূত",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনলাইন নিরাপত্তার জন্য পাসওয়ার্ড শক্ত রাখুন।"
+    },
+    {
+      "id": "ch082_s15",
+      "target": "धोखाधड़ी से बचने के लिए सावधानी बरतना ज़रूरी है।",
+      "romanization": "dhokhaadhdd'ii se bcne ke lie saavdhaanii brtnaa zruurii hai",
+      "bangla_pronunciation": "ধোখাধড়ী সে বচনে কে লিয়ে সাবধানী বরতনা জরূরী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "धोखाधड़ी",
+          "bangla_pronunciation": "ধোখাধড়ী",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "बचने",
+          "bangla_pronunciation": "বচনে",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "सावधानी",
+          "bangla_pronunciation": "সাবধানী",
+          "separator_after": " "
+        },
+        {
+          "target": "बरतना",
+          "bangla_pronunciation": "বরতনা",
+          "separator_after": " "
+        },
+        {
+          "target": "ज़रूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রতারণা এড়াতে সতর্কতা অবলম্বন করা জরুরি।"
+    },
+    {
+      "id": "ch082_s16",
+      "target": "हर बड़े भुगतान की पुष्टि करें।",
+      "romanization": "hr bdd'e bhugtaan kii pusstti kren",
+      "bangla_pronunciation": "হর বডে ভুগতান কী পুষ্টি করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "हर",
+          "bangla_pronunciation": "হর",
+          "separator_after": " "
+        },
+        {
+          "target": "बड़े",
+          "bangla_pronunciation": "বডে",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "पुष्टि",
+          "bangla_pronunciation": "পুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রতিটি বড় পেমেন্ট নিশ্চিত করুন।"
+    },
+    {
+      "id": "ch082_s17",
+      "target": "लेन-देन की रकम फिर से जाँचें।",
+      "romanization": "len-den kii rkm phir se jaancen",
+      "bangla_pronunciation": "লেন-দেন কী রকম ফির সে জাঁচেং।",
+      "word_pronunciations": [
+        {
+          "target": "लेन-देन",
+          "bangla_pronunciation": "লেন-দেন",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "रकम",
+          "bangla_pronunciation": "রকম",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লেনদেনের টাকার অঙ্ক আবার পরীক্ষা করুন।"
+    },
+    {
+      "id": "ch082_s18",
+      "target": "कार्ड की हद तय होती है।",
+      "romanization": "kaardd kii hd ty hotii hai",
+      "bangla_pronunciation": "কার্ড কী হদ তয় হোতী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "कार्ड",
+          "bangla_pronunciation": "কার্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "हद",
+          "bangla_pronunciation": "হদ",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয়",
+          "separator_after": " "
+        },
+        {
+          "target": "होती",
+          "bangla_pronunciation": "হোতী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কার্ডের একটি নির্ধারিত সীমা থাকে।"
+    },
+    {
+      "id": "ch082_s19",
+      "target": "कुछ राशि अभी बाकी है।",
+      "romanization": "kuch raashi abhii baakii hai",
+      "bangla_pronunciation": "কুছ রাশি অভী বাকী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "कुछ",
+          "bangla_pronunciation": "কুছ",
+          "separator_after": " "
+        },
+        {
+          "target": "राशि",
+          "bangla_pronunciation": "রাশি",
+          "separator_after": " "
+        },
+        {
+          "target": "अभी",
+          "bangla_pronunciation": "অভী",
+          "separator_after": " "
+        },
+        {
+          "target": "बाकी",
+          "bangla_pronunciation": "বাকী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কিছু অর্থ এখনও বাকি আছে।"
+    },
+    {
+      "id": "ch082_s20",
+      "target": "अंतिम तारीख से पहले तत्काल भुगतान करें।",
+      "romanization": "antim taariikh se phle ttkaal bhugtaan kren",
+      "bangla_pronunciation": "অন্তিম তারীখ সে পহলে তৎকাল ভুগতান করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "अंतिम",
+          "bangla_pronunciation": "অন্তিম",
+          "separator_after": " "
+        },
+        {
+          "target": "तारीख",
+          "bangla_pronunciation": "তারীখ",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "तत्काल",
+          "bangla_pronunciation": "তৎকাল",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শেষ তারিখের আগে দ্রুত পেমেন্ট করুন।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v02431",
+      "target": "खाता",
+      "type": "noun",
+      "category": "word",
+      "romanization": "khaataa",
+      "bangla_pronunciation": "খাতা",
+      "word_pronunciations": [
+        {
+          "target": "खाता",
+          "bangla_pronunciation": "খাতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অ্যাকাউন্ট",
+      "source_sentence_id": "ch082_s01",
+      "source_form": "खाते",
+      "example_target": "मेरे खाते में वेतन जमा हुआ।",
+      "example_bangla_pronunciation": "মেরে খাতে মেঁ বেতন জমা হুয়া।",
+      "example_word_pronunciations": [
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "खाते",
+          "bangla_pronunciation": "খাতে",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "वेतन",
+          "bangla_pronunciation": "বেতন",
+          "separator_after": " "
+        },
+        {
+          "target": "जमा",
+          "bangla_pronunciation": "জমা",
+          "separator_after": " "
+        },
+        {
+          "target": "हुआ।",
+          "bangla_pronunciation": "হুয়া।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমার অ্যাকাউন্টে বেতন জমা হয়েছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02432",
+      "target": "जमा",
+      "type": "noun",
+      "category": "word",
+      "romanization": "jmaa",
+      "bangla_pronunciation": "জমা",
+      "word_pronunciations": [
+        {
+          "target": "जमा",
+          "bangla_pronunciation": "জমা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "জমা",
+      "source_sentence_id": "ch082_s01",
+      "source_form": "जमा",
+      "example_target": "मेरे खाते में वेतन जमा हुआ।",
+      "example_bangla_pronunciation": "মেরে খাতে মেঁ বেতন জমা হুয়া।",
+      "example_word_pronunciations": [
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "खाते",
+          "bangla_pronunciation": "খাতে",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "वेतन",
+          "bangla_pronunciation": "বেতন",
+          "separator_after": " "
+        },
+        {
+          "target": "जमा",
+          "bangla_pronunciation": "জমা",
+          "separator_after": " "
+        },
+        {
+          "target": "हुआ।",
+          "bangla_pronunciation": "হুয়া।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমার অ্যাকাউন্টে বেতন জমা হয়েছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02433",
+      "target": "निकासी",
+      "type": "noun",
+      "category": "word",
+      "romanization": "nikaasii",
+      "bangla_pronunciation": "নিকাসী",
+      "word_pronunciations": [
+        {
+          "target": "निकासी",
+          "bangla_pronunciation": "নিকাসী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "টাকা তোলা",
+      "source_sentence_id": "ch082_s02",
+      "source_form": "निकासी",
+      "example_target": "आज नकद निकासी की ज़रूरत नहीं है।",
+      "example_bangla_pronunciation": "আজ নকদ নিকাসী কী জরূরত নহীঁ হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "नकद",
+          "bangla_pronunciation": "নকদ",
+          "separator_after": " "
+        },
+        {
+          "target": "निकासी",
+          "bangla_pronunciation": "নিকাসী",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "ज़रूरत",
+          "bangla_pronunciation": "জরূরত",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আজ নগদ টাকা তোলার দরকার নেই।",
+      "synonyms": []
+    },
+    {
+      "id": "v02434",
+      "target": "भुगतान",
+      "type": "noun",
+      "category": "word",
+      "romanization": "bhugtaan",
+      "bangla_pronunciation": "ভুগতান",
+      "word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্ট",
+      "source_sentence_id": "ch082_s03",
+      "source_form": "भुगतान",
+      "example_target": "ऑनलाइन भुगतान की रसीद संभालकर रखें।",
+      "example_bangla_pronunciation": "অনলাইন ভুগতান কী রসীদ সংভালকর রখেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "ऑनलाइन",
+          "bangla_pronunciation": "অনলাইন",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসীদ",
+          "separator_after": " "
+        },
+        {
+          "target": "संभालकर",
+          "bangla_pronunciation": "সংভালকর",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "অনলাইন পেমেন্টের রসিদ যত্ন করে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v02435",
+      "target": "रसीद",
+      "type": "noun",
+      "category": "word",
+      "romanization": "rsiid",
+      "bangla_pronunciation": "রসীদ",
+      "word_pronunciations": [
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসীদ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রসিদ",
+      "source_sentence_id": "ch082_s03",
+      "source_form": "रसीद",
+      "example_target": "ऑनलाइन भुगतान की रसीद संभालकर रखें।",
+      "example_bangla_pronunciation": "অনলাইন ভুগতান কী রসীদ সংভালকর রখেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "ऑनलाइन",
+          "bangla_pronunciation": "অনলাইন",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসীদ",
+          "separator_after": " "
+        },
+        {
+          "target": "संभालकर",
+          "bangla_pronunciation": "সংভালকর",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "অনলাইন পেমেন্টের রসিদ যত্ন করে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v02436",
+      "target": "पैसे भेजना",
+      "type": "expression",
+      "category": "expression",
+      "romanization": "paise bhejnaa",
+      "bangla_pronunciation": "পৈসে ভেজনা",
+      "word_pronunciations": [
+        {
+          "target": "पैसे",
+          "bangla_pronunciation": "পৈসে",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजना",
+          "bangla_pronunciation": "ভেজনা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "টাকা পাঠানো",
+      "source_sentence_id": "ch082_s04",
+      "source_form": "पैसे भेजना",
+      "example_target": "मैं मोबाइल से पैसे भेजना चाहता हूँ।",
+      "example_bangla_pronunciation": "ম্যাঁ মোবাইল সে পৈসে ভেজনা চাহতা হুঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "मोबाइल",
+          "bangla_pronunciation": "মোবাইল",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पैसे",
+          "bangla_pronunciation": "পৈসে",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजना",
+          "bangla_pronunciation": "ভেজনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहता",
+          "bangla_pronunciation": "চাহতা",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমি মোবাইল দিয়ে টাকা পাঠাতে চাই।",
+      "synonyms": []
+    },
+    {
+      "id": "v02437",
+      "target": "शाखा",
+      "type": "noun",
+      "category": "word",
+      "romanization": "shaakhaa",
+      "bangla_pronunciation": "শাখা",
+      "word_pronunciations": [
+        {
+          "target": "शाखा",
+          "bangla_pronunciation": "শাখা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শাখা",
+      "source_sentence_id": "ch082_s05",
+      "source_form": "शाखा",
+      "example_target": "इस शाखा में ग्राहक सेवा तेज़ है।",
+      "example_bangla_pronunciation": "ইস শাখা মেঁ গ্রাহক সেবা তেজ হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "शाखा",
+          "bangla_pronunciation": "শাখা",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "सेवा",
+          "bangla_pronunciation": "সেবা",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এই শাখায় গ্রাহকসেবা দ্রুত।",
+      "synonyms": []
+    },
+    {
+      "id": "v02438",
+      "target": "ग्राहक",
+      "type": "noun",
+      "category": "word",
+      "romanization": "graahk",
+      "bangla_pronunciation": "গ্রাহক",
+      "word_pronunciations": [
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গ্রাহক",
+      "source_sentence_id": "ch082_s05",
+      "source_form": "ग्राहक",
+      "example_target": "इस शाखा में ग्राहक सेवा तेज़ है।",
+      "example_bangla_pronunciation": "ইস শাখা মেঁ গ্রাহক সেবা তেজ হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "शाखा",
+          "bangla_pronunciation": "শাখা",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "सेवा",
+          "bangla_pronunciation": "সেবা",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এই শাখায় গ্রাহকসেবা দ্রুত।",
+      "synonyms": []
+    },
+    {
+      "id": "v02439",
+      "target": "शुल्क",
+      "type": "noun",
+      "category": "word",
+      "romanization": "shulk",
+      "bangla_pronunciation": "শুল্ক",
+      "word_pronunciations": [
+        {
+          "target": "शुल्क",
+          "bangla_pronunciation": "শুল্ক",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফি",
+      "source_sentence_id": "ch082_s06",
+      "source_form": "शुल्क",
+      "example_target": "इस लेन-देन पर छोटा शुल्क लगा।",
+      "example_bangla_pronunciation": "ইস লেন-দেন পর ছোটা শুল্ক লগা।",
+      "example_word_pronunciations": [
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "लेन-देन",
+          "bangla_pronunciation": "লেন-দেন",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "छोटा",
+          "bangla_pronunciation": "ছোটা",
+          "separator_after": " "
+        },
+        {
+          "target": "शुल्क",
+          "bangla_pronunciation": "শুল্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "लगा।",
+          "bangla_pronunciation": "লগা।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এই লেনদেনে সামান্য ফি লেগেছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02440",
+      "target": "ब्याज",
+      "type": "noun",
+      "category": "word",
+      "romanization": "byaaj",
+      "bangla_pronunciation": "ব্যাজ",
+      "word_pronunciations": [
+        {
+          "target": "ब्याज",
+          "bangla_pronunciation": "ব্যাজ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সুদ",
+      "source_sentence_id": "ch082_s07",
+      "source_form": "ब्याज",
+      "example_target": "बचत खाते पर ब्याज मिलता है।",
+      "example_bangla_pronunciation": "বচত খাতে পর ব্যাজ মিলতা হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "बचत",
+          "bangla_pronunciation": "বচত",
+          "separator_after": " "
+        },
+        {
+          "target": "खाते",
+          "bangla_pronunciation": "খাতে",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ब्याज",
+          "bangla_pronunciation": "ব্যাজ",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलता",
+          "bangla_pronunciation": "মিলতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সঞ্চয়ী অ্যাকাউন্টে সুদ পাওয়া যায়।",
+      "synonyms": []
+    },
+    {
+      "id": "v02441",
+      "target": "किस्त",
+      "type": "noun",
+      "category": "word",
+      "romanization": "kist",
+      "bangla_pronunciation": "কিস্ত",
+      "word_pronunciations": [
+        {
+          "target": "किस्त",
+          "bangla_pronunciation": "কিস্ত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কিস্তি",
+      "source_sentence_id": "ch082_s08",
+      "source_form": "किस्त",
+      "example_target": "अगली किस्त के भुगतान की तारीख सोमवार है।",
+      "example_bangla_pronunciation": "অগলী কিস্ত কে ভুগতান কী তারীখ সোমবার হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "अगली",
+          "bangla_pronunciation": "অগলী",
+          "separator_after": " "
+        },
+        {
+          "target": "किस्त",
+          "bangla_pronunciation": "কিস্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "तारीख",
+          "bangla_pronunciation": "তারীখ",
+          "separator_after": " "
+        },
+        {
+          "target": "सोमवार",
+          "bangla_pronunciation": "সোমবার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পরের কিস্তির পেমেন্টের তারিখ সোমবার।",
+      "synonyms": []
+    },
+    {
+      "id": "v02442",
+      "target": "समय पर भुगतान",
+      "type": "expression",
+      "category": "expression",
+      "romanization": "smy pr bhugtaan",
+      "bangla_pronunciation": "সময় পর ভুগতান",
+      "word_pronunciations": [
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সময়মতো পেমেন্ট",
+      "source_sentence_id": "ch082_s09",
+      "source_form": "समय पर भुगतान",
+      "example_target": "समय पर भुगतान करने से जुर्माना नहीं लगेगा।",
+      "example_bangla_pronunciation": "সময় পর ভুগতান করনে সে জুর্মানা নহীঁ লগেগা।",
+      "example_word_pronunciations": [
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "करने",
+          "bangla_pronunciation": "করনে",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जुर्माना",
+          "bangla_pronunciation": "জুর্মানা",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "लगेगा।",
+          "bangla_pronunciation": "লগেগা।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সময়মতো পরিশোধ করলে জরিমানা লাগবে না।",
+      "synonyms": []
+    },
+    {
+      "id": "v02443",
+      "target": "बजट",
+      "type": "noun",
+      "category": "word",
+      "romanization": "bjtt",
+      "bangla_pronunciation": "বজট",
+      "word_pronunciations": [
+        {
+          "target": "बजट",
+          "bangla_pronunciation": "বজট",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাজেট",
+      "source_sentence_id": "ch082_s10",
+      "source_form": "बजट",
+      "example_target": "महीने का बजट पहले बनाइए।",
+      "example_bangla_pronunciation": "মহীনে কা বজট পহলে বনাইএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "महीने",
+          "bangla_pronunciation": "মহীনে",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "बजट",
+          "bangla_pronunciation": "বজট",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "बनाइए।",
+          "bangla_pronunciation": "বনাইএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "মাসের বাজেট আগে তৈরি করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v02444",
+      "target": "खर्च",
+      "type": "noun",
+      "category": "word",
+      "romanization": "khrc",
+      "bangla_pronunciation": "খর্চ",
+      "word_pronunciations": [
+        {
+          "target": "खर्च",
+          "bangla_pronunciation": "খর্চ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খরচ",
+      "source_sentence_id": "ch082_s11",
+      "source_form": "खर्च",
+      "example_target": "खर्च और आय दोनों लिखना उपयोगी है।",
+      "example_bangla_pronunciation": "খর্চ অউর আয় দোনোং লিখনা উপযোগী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "खर्च",
+          "bangla_pronunciation": "খর্চ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "आय",
+          "bangla_pronunciation": "আয়",
+          "separator_after": " "
+        },
+        {
+          "target": "दोनों",
+          "bangla_pronunciation": "দোনোং",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखना",
+          "bangla_pronunciation": "লিখনা",
+          "separator_after": " "
+        },
+        {
+          "target": "उपयोगी",
+          "bangla_pronunciation": "উপযোগী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "খরচ ও আয়—দুটিই লেখা উপকারী।",
+      "synonyms": []
+    },
+    {
+      "id": "v02445",
+      "target": "आय",
+      "type": "noun",
+      "category": "word",
+      "romanization": "aay",
+      "bangla_pronunciation": "আয়",
+      "word_pronunciations": [
+        {
+          "target": "आय",
+          "bangla_pronunciation": "আয়",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আয়",
+      "source_sentence_id": "ch082_s11",
+      "source_form": "आय",
+      "example_target": "खर्च और आय दोनों लिखना उपयोगी है।",
+      "example_bangla_pronunciation": "খর্চ অউর আয় দোনোং লিখনা উপযোগী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "खर्च",
+          "bangla_pronunciation": "খর্চ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "आय",
+          "bangla_pronunciation": "আয়",
+          "separator_after": " "
+        },
+        {
+          "target": "दोनों",
+          "bangla_pronunciation": "দোনোং",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखना",
+          "bangla_pronunciation": "লিখনা",
+          "separator_after": " "
+        },
+        {
+          "target": "उपयोगी",
+          "bangla_pronunciation": "উপযোগী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "খরচ ও আয়—দুটিই লেখা উপকারী।",
+      "synonyms": []
+    },
+    {
+      "id": "v02446",
+      "target": "कर्ज़",
+      "type": "noun",
+      "category": "word",
+      "romanization": "krz",
+      "bangla_pronunciation": "কর্জ",
+      "word_pronunciations": [
+        {
+          "target": "कर्ज़",
+          "bangla_pronunciation": "কর্জ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঋণ",
+      "source_sentence_id": "ch082_s13",
+      "source_form": "कर्ज़",
+      "example_target": "कर्ज़ लेने से पहले शर्तें पढ़ें।",
+      "example_bangla_pronunciation": "কর্জ লেনে সে পহলে শর্তেং পঢেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "कर्ज़",
+          "bangla_pronunciation": "কর্জ",
+          "separator_after": " "
+        },
+        {
+          "target": "लेने",
+          "bangla_pronunciation": "লেনে",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "शर्तें",
+          "bangla_pronunciation": "শর্তেং",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़ें।",
+          "bangla_pronunciation": "পঢেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ঋণ নেওয়ার আগে শর্তগুলো পড়ুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v02447",
+      "target": "सुरक्षा",
+      "type": "noun",
+      "category": "word",
+      "romanization": "surkssaa",
+      "bangla_pronunciation": "সুরক্ষা",
+      "word_pronunciations": [
+        {
+          "target": "सुरक्षा",
+          "bangla_pronunciation": "সুরক্ষা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপত্তা",
+      "source_sentence_id": "ch082_s14",
+      "source_form": "सुरक्षा",
+      "example_target": "ऑनलाइन सुरक्षा के लिए पासवर्ड मज़बूत रखें।",
+      "example_bangla_pronunciation": "অনলাইন সুরক্ষা কে লিয়ে পাসওয়ার্ড মজবূত রখেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "ऑनलाइन",
+          "bangla_pronunciation": "অনলাইন",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षा",
+          "bangla_pronunciation": "সুরক্ষা",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "पासवर्ड",
+          "bangla_pronunciation": "পাসওয়ার্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "मज़बूत",
+          "bangla_pronunciation": "মজবূত",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "অনলাইন নিরাপত্তার জন্য পাসওয়ার্ড শক্ত রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v02448",
+      "target": "हिसाब रखना",
+      "type": "expression",
+      "category": "expression",
+      "romanization": "hisaab rkhnaa",
+      "bangla_pronunciation": "হিসাব রখনা",
+      "word_pronunciations": [
+        {
+          "target": "हिसाब",
+          "bangla_pronunciation": "হিসাব",
+          "separator_after": " "
+        },
+        {
+          "target": "रखना",
+          "bangla_pronunciation": "রখনা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "হিসাব রাখা",
+      "source_sentence_id": "ch082_s12",
+      "source_form": "हिसाब रखना",
+      "example_target": "मैं हर सप्ताह हिसाब रखना पसंद करता हूँ।",
+      "example_bangla_pronunciation": "ম্যাঁ হর সপ্তাহ হিসাব রখনা পসংদ করতা হুঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "हर",
+          "bangla_pronunciation": "হর",
+          "separator_after": " "
+        },
+        {
+          "target": "सप्ताह",
+          "bangla_pronunciation": "সপ্তাহ",
+          "separator_after": " "
+        },
+        {
+          "target": "हिसाब",
+          "bangla_pronunciation": "হিসাব",
+          "separator_after": " "
+        },
+        {
+          "target": "रखना",
+          "bangla_pronunciation": "রখনা",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসংদ",
+          "separator_after": " "
+        },
+        {
+          "target": "करता",
+          "bangla_pronunciation": "করতা",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমি প্রতি সপ্তাহে হিসাব রাখতে পছন্দ করি।",
+      "synonyms": []
+    },
+    {
+      "id": "v02449",
+      "target": "पासवर्ड",
+      "type": "noun",
+      "category": "word",
+      "romanization": "paasvrdd",
+      "bangla_pronunciation": "পাসওয়ার্ড",
+      "word_pronunciations": [
+        {
+          "target": "पासवर्ड",
+          "bangla_pronunciation": "পাসওয়ার্ড",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পাসওয়ার্ড",
+      "source_sentence_id": "ch082_s14",
+      "source_form": "पासवर्ड",
+      "example_target": "ऑनलाइन सुरक्षा के लिए पासवर्ड मज़बूत रखें।",
+      "example_bangla_pronunciation": "অনলাইন সুরক্ষা কে লিয়ে পাসওয়ার্ড মজবূত রখেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "ऑनलाइन",
+          "bangla_pronunciation": "অনলাইন",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षा",
+          "bangla_pronunciation": "সুরক্ষা",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "पासवर्ड",
+          "bangla_pronunciation": "পাসওয়ার্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "मज़बूत",
+          "bangla_pronunciation": "মজবূত",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "অনলাইন নিরাপত্তার জন্য পাসওয়ার্ড শক্ত রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v02450",
+      "target": "धोखाधड़ी",
+      "type": "noun",
+      "category": "word",
+      "romanization": "dhokhaadhdd'ii",
+      "bangla_pronunciation": "ধোখাধড়ী",
+      "word_pronunciations": [
+        {
+          "target": "धोखाधड़ी",
+          "bangla_pronunciation": "ধোখাধড়ী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রতারণা",
+      "source_sentence_id": "ch082_s15",
+      "source_form": "धोखाधड़ी",
+      "example_target": "धोखाधड़ी से बचने के लिए सावधानी बरतना ज़रूरी है।",
+      "example_bangla_pronunciation": "ধোখাধড়ী সে বচনে কে লিয়ে সাবধানী বরতনা জরূরী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "धोखाधड़ी",
+          "bangla_pronunciation": "ধোখাধড়ী",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "बचने",
+          "bangla_pronunciation": "বচনে",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "सावधानी",
+          "bangla_pronunciation": "সাবধানী",
+          "separator_after": " "
+        },
+        {
+          "target": "बरतना",
+          "bangla_pronunciation": "বরতনা",
+          "separator_after": " "
+        },
+        {
+          "target": "ज़रूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্রতারণা এড়াতে সতর্কতা অবলম্বন করা জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v02451",
+      "target": "पुष्टि",
+      "type": "noun",
+      "category": "word",
+      "romanization": "pusstti",
+      "bangla_pronunciation": "পুষ্টি",
+      "word_pronunciations": [
+        {
+          "target": "पुष्टि",
+          "bangla_pronunciation": "পুষ্টি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিশ্চিতকরণ",
+      "source_sentence_id": "ch082_s16",
+      "source_form": "पुष्टि",
+      "example_target": "हर बड़े भुगतान की पुष्टि करें।",
+      "example_bangla_pronunciation": "হর বডে ভুগতান কী পুষ্টি করেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "हर",
+          "bangla_pronunciation": "হর",
+          "separator_after": " "
+        },
+        {
+          "target": "बड़े",
+          "bangla_pronunciation": "বডে",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "पुष्टि",
+          "bangla_pronunciation": "পুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্রতিটি বড় পেমেন্ট নিশ্চিত করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v02452",
+      "target": "लेन-देन",
+      "type": "noun",
+      "category": "word",
+      "romanization": "len-den",
+      "bangla_pronunciation": "লেন-দেন",
+      "word_pronunciations": [
+        {
+          "target": "लेन-देन",
+          "bangla_pronunciation": "লেন-দেন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লেনদেন",
+      "source_sentence_id": "ch082_s17",
+      "source_form": "लेन-देन",
+      "example_target": "लेन-देन की रकम फिर से जाँचें।",
+      "example_bangla_pronunciation": "লেন-দেন কী রকম ফির সে জাঁচেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "लेन-देन",
+          "bangla_pronunciation": "লেন-দেন",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "रकम",
+          "bangla_pronunciation": "রকম",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "লেনদেনের টাকার অঙ্ক আবার পরীক্ষা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v02453",
+      "target": "रकम",
+      "type": "noun",
+      "category": "word",
+      "romanization": "rkm",
+      "bangla_pronunciation": "রকম",
+      "word_pronunciations": [
+        {
+          "target": "रकम",
+          "bangla_pronunciation": "রকম",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অর্থের পরিমাণ",
+      "source_sentence_id": "ch082_s17",
+      "source_form": "रकम",
+      "example_target": "लेन-देन की रकम फिर से जाँचें।",
+      "example_bangla_pronunciation": "লেন-দেন কী রকম ফির সে জাঁচেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "लेन-देन",
+          "bangla_pronunciation": "লেন-দেন",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "रकम",
+          "bangla_pronunciation": "রকম",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "লেনদেনের টাকার অঙ্ক আবার পরীক্ষা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v02454",
+      "target": "सावधानी बरतना",
+      "type": "expression",
+      "category": "expression",
+      "romanization": "saavdhaanii brtnaa",
+      "bangla_pronunciation": "সাবধানী বরতনা",
+      "word_pronunciations": [
+        {
+          "target": "सावधानी",
+          "bangla_pronunciation": "সাবধানী",
+          "separator_after": " "
+        },
+        {
+          "target": "बरतना",
+          "bangla_pronunciation": "বরতনা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সতর্কতা অবলম্বন করা",
+      "source_sentence_id": "ch082_s15",
+      "source_form": "सावधानी बरतना",
+      "example_target": "धोखाधड़ी से बचने के लिए सावधानी बरतना ज़रूरी है।",
+      "example_bangla_pronunciation": "ধোখাধড়ী সে বচনে কে লিয়ে সাবধানী বরতনা জরূরী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "धोखाधड़ी",
+          "bangla_pronunciation": "ধোখাধড়ী",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "बचने",
+          "bangla_pronunciation": "বচনে",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "सावधानी",
+          "bangla_pronunciation": "সাবধানী",
+          "separator_after": " "
+        },
+        {
+          "target": "बरतना",
+          "bangla_pronunciation": "বরতনা",
+          "separator_after": " "
+        },
+        {
+          "target": "ज़रूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্রতারণা এড়াতে সতর্কতা অবলম্বন করা জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v02455",
+      "target": "हद",
+      "type": "noun",
+      "category": "word",
+      "romanization": "hd",
+      "bangla_pronunciation": "হদ",
+      "word_pronunciations": [
+        {
+          "target": "हद",
+          "bangla_pronunciation": "হদ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সীমা",
+      "source_sentence_id": "ch082_s18",
+      "source_form": "हद",
+      "example_target": "कार्ड की हद तय होती है।",
+      "example_bangla_pronunciation": "কার্ড কী হদ তয় হোতী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "कार्ड",
+          "bangla_pronunciation": "কার্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "हद",
+          "bangla_pronunciation": "হদ",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয়",
+          "separator_after": " "
+        },
+        {
+          "target": "होती",
+          "bangla_pronunciation": "হোতী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "কার্ডের একটি নির্ধারিত সীমা থাকে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02456",
+      "target": "राशि",
+      "type": "noun",
+      "category": "word",
+      "romanization": "raashi",
+      "bangla_pronunciation": "রাশি",
+      "word_pronunciations": [
+        {
+          "target": "राशि",
+          "bangla_pronunciation": "রাশি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অর্থের পরিমাণ",
+      "source_sentence_id": "ch082_s19",
+      "source_form": "राशि",
+      "example_target": "कुछ राशि अभी बाकी है।",
+      "example_bangla_pronunciation": "কুছ রাশি অভী বাকী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "कुछ",
+          "bangla_pronunciation": "কুছ",
+          "separator_after": " "
+        },
+        {
+          "target": "राशि",
+          "bangla_pronunciation": "রাশি",
+          "separator_after": " "
+        },
+        {
+          "target": "अभी",
+          "bangla_pronunciation": "অভী",
+          "separator_after": " "
+        },
+        {
+          "target": "बाकी",
+          "bangla_pronunciation": "বাকী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "কিছু অর্থ এখনও বাকি আছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02457",
+      "target": "बाकी",
+      "type": "adjective",
+      "category": "word",
+      "romanization": "baakii",
+      "bangla_pronunciation": "বাকী",
+      "word_pronunciations": [
+        {
+          "target": "बाकी",
+          "bangla_pronunciation": "বাকী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাকি",
+      "source_sentence_id": "ch082_s19",
+      "source_form": "बाकी",
+      "example_target": "कुछ राशि अभी बाकी है।",
+      "example_bangla_pronunciation": "কুছ রাশি অভী বাকী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "कुछ",
+          "bangla_pronunciation": "কুছ",
+          "separator_after": " "
+        },
+        {
+          "target": "राशि",
+          "bangla_pronunciation": "রাশি",
+          "separator_after": " "
+        },
+        {
+          "target": "अभी",
+          "bangla_pronunciation": "অভী",
+          "separator_after": " "
+        },
+        {
+          "target": "बाकी",
+          "bangla_pronunciation": "বাকী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "কিছু অর্থ এখনও বাকি আছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v02458",
+      "target": "तत्काल",
+      "type": "adverb",
+      "category": "word",
+      "romanization": "ttkaal",
+      "bangla_pronunciation": "তৎকাল",
+      "word_pronunciations": [
+        {
+          "target": "तत्काल",
+          "bangla_pronunciation": "তৎকাল",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তাৎক্ষণিক",
+      "source_sentence_id": "ch082_s20",
+      "source_form": "तत्काल",
+      "example_target": "अंतिम तारीख से पहले तत्काल भुगतान करें।",
+      "example_bangla_pronunciation": "অন্তিম তারীখ সে পহলে তৎকাল ভুগতান করেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "अंतिम",
+          "bangla_pronunciation": "অন্তিম",
+          "separator_after": " "
+        },
+        {
+          "target": "तारीख",
+          "bangla_pronunciation": "তারীখ",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "तत्काल",
+          "bangla_pronunciation": "তৎকাল",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "শেষ তারিখের আগে দ্রুত পেমেন্ট করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v02459",
+      "target": "तारीख",
+      "type": "noun",
+      "category": "word",
+      "romanization": "taariikh",
+      "bangla_pronunciation": "তারীখ",
+      "word_pronunciations": [
+        {
+          "target": "तारीख",
+          "bangla_pronunciation": "তারীখ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তারিখ",
+      "source_sentence_id": "ch082_s20",
+      "source_form": "तारीख",
+      "example_target": "अंतिम तारीख से पहले तत्काल भुगतान करें।",
+      "example_bangla_pronunciation": "অন্তিম তারীখ সে পহলে তৎকাল ভুগতান করেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "अंतिम",
+          "bangla_pronunciation": "অন্তিম",
+          "separator_after": " "
+        },
+        {
+          "target": "तारीख",
+          "bangla_pronunciation": "তারীখ",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "तत्काल",
+          "bangla_pronunciation": "তৎকাল",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "শেষ তারিখের আগে দ্রুত পেমেন্ট করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v02460",
+      "target": "भुगतान की तारीख",
+      "type": "expression",
+      "category": "expression",
+      "romanization": "bhugtaan kii taariikh",
+      "bangla_pronunciation": "ভুগতান কী তারীখ",
+      "word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "तारीख",
+          "bangla_pronunciation": "তারীখ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্টের তারিখ",
+      "source_sentence_id": "ch082_s08",
+      "source_form": "भुगतान की तारीख",
+      "example_target": "अगली किस्त के भुगतान की तारीख सोमवार है।",
+      "example_bangla_pronunciation": "অগলী কিস্ত কে ভুগতান কী তারীখ সোমবার হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "अगली",
+          "bangla_pronunciation": "অগলী",
+          "separator_after": " "
+        },
+        {
+          "target": "किस्त",
+          "bangla_pronunciation": "কিস্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "तारीख",
+          "bangla_pronunciation": "তারীখ",
+          "separator_after": " "
+        },
+        {
+          "target": "सोमवार",
+          "bangla_pronunciation": "সোমবার",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পরের কিস্তির পেমেন্টের তারিখ সোমবার।",
+      "synonyms": []
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "দৈনন্দিন ব্যাংকিং — ছোট দৃশ্য",
+    "scene_summary": "একটি বাস্তব দৈনন্দিন পরিস্থিতিতে অধ্যায়ের মূল শব্দ ও বাক্যাংশ ব্যবহার করা হয়েছে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "মাসের শুরুতে একজন কর্মজীবী নিজের ব্যাংক হিসাব গুছিয়ে নিচ্ছেন। "
+      },
+      {
+        "kind": "target",
+        "target": "मेरे खाते में वेतन जमा हुआ।",
+        "bangla_pronunciation": "মেরে খাতে মেঁ বেতন জমা হুয়া।",
+        "word_pronunciations": [
+          {
+            "target": "मेरे",
+            "bangla_pronunciation": "মেরে",
+            "separator_after": " "
+          },
+          {
+            "target": "खाते",
+            "bangla_pronunciation": "খাতে",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "वेतन",
+            "bangla_pronunciation": "বেতন",
+            "separator_after": " "
+          },
+          {
+            "target": "जमा",
+            "bangla_pronunciation": "জমা",
+            "separator_after": " "
+          },
+          {
+            "target": "हुआ।",
+            "bangla_pronunciation": "হুয়া।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " তিনি রসিদ মিলিয়ে দেখেন। "
+      },
+      {
+        "kind": "target",
+        "target": "ऑनलाइन भुगतान की रसीद संभालकर रखें।",
+        "bangla_pronunciation": "অনলাইন ভুগতান কী রসীদ সংভালকর রখেঁ।",
+        "word_pronunciations": [
+          {
+            "target": "ऑनलाइन",
+            "bangla_pronunciation": "অনলাইন",
+            "separator_after": " "
+          },
+          {
+            "target": "भुगतान",
+            "bangla_pronunciation": "ভুগতান",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "separator_after": " "
+          },
+          {
+            "target": "रसीद",
+            "bangla_pronunciation": "রসীদ",
+            "separator_after": " "
+          },
+          {
+            "target": "संभालकर",
+            "bangla_pronunciation": "সংভালকর",
+            "separator_after": " "
+          },
+          {
+            "target": "रखें।",
+            "bangla_pronunciation": "রখেঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " শেষে নিরাপত্তা নিয়মও মনে রাখেন।"
+      },
+      {
+        "kind": "target",
+        "target": "धोखाधड़ी से बचने के लिए सावधानी बरतना ज़रूरी है।",
+        "bangla_pronunciation": "ধোখাধড়ী সে বচনে কে লিয়ে সাবধানী বরতনা জরূরী হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "धोखाधड़ी",
+            "bangla_pronunciation": "ধোখাধড়ী",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "separator_after": " "
+          },
+          {
+            "target": "बचने",
+            "bangla_pronunciation": "বচনে",
+            "separator_after": " "
+          },
+          {
+            "target": "के",
+            "bangla_pronunciation": "কে",
+            "separator_after": " "
+          },
+          {
+            "target": "लिए",
+            "bangla_pronunciation": "লিয়ে",
+            "separator_after": " "
+          },
+          {
+            "target": "सावधानी",
+            "bangla_pronunciation": "সাবধানী",
+            "separator_after": " "
+          },
+          {
+            "target": "बरतना",
+            "bangla_pronunciation": "বরতনা",
+            "separator_after": " "
+          },
+          {
+            "target": "ज़रूरी",
+            "bangla_pronunciation": "জরূরী",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "মাসের শুরুতে একজন কর্মজীবী নিজের ব্যাংক হিসাব গুছিয়ে নিচ্ছেন। **मेरे** (মেরে) **खाते** (খাতে) **में** (মেঁ) **वेतन** (বেতন) **जमा** (জমা) **हुआ।** (হুয়া।) তিনি রসিদ মিলিয়ে দেখেন। **ऑनलाइन** (অনলাইন) **भुगतान** (ভুগতান) **की** (কী) **रसीद** (রসীদ) **संभालकर** (সংভালকর) **रखें।** (রখেঁ।) শেষে নিরাপত্তা নিয়মও মনে রাখেন।**धोखाधड़ी** (ধোখাধড়ী) **से** (সে) **बचने** (বচনে) **के** (কে) **लिए** (লিয়ে) **सावधानी** (সাবধানী) **बरतना** (বরতনা) **ज़रूरी** (জরূরী) **है।** (হ্যায়।)"
+  },
+  "target_reading": {
+    "mode": "article",
+    "title_bengali": "দৈনন্দিন ব্যাংকিং — ছোট হিন্দি পাঠ",
+    "scene_summary": "একই বিষয়ের আলাদা একটি সংক্ষিপ্ত অনুশীলন-পাঠ; প্রতিটি লাইন স্বয়ংসম্পূর্ণ ও সহজ।",
+    "lines": [
+      {
+        "target": "महीने का बजट पहले बनाइए।",
+        "bangla_pronunciation": "মহীনে কা বজট পহলে বনাইএ।",
+        "word_pronunciations": [
+          {
+            "target": "महीने",
+            "bangla_pronunciation": "মহীনে",
+            "separator_after": " "
+          },
+          {
+            "target": "का",
+            "bangla_pronunciation": "কা",
+            "separator_after": " "
+          },
+          {
+            "target": "बजट",
+            "bangla_pronunciation": "বজট",
+            "separator_after": " "
+          },
+          {
+            "target": "पहले",
+            "bangla_pronunciation": "পহলে",
+            "separator_after": " "
+          },
+          {
+            "target": "बनाइए।",
+            "bangla_pronunciation": "বনাইএ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मैं हर सप्ताह हिसाब रखना पसंद करता हूँ।",
+        "bangla_pronunciation": "ম্যাঁ হর সপ্তাহ হিসাব রখনা পসংদ করতা হুঁ।",
+        "word_pronunciations": [
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যাঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "हर",
+            "bangla_pronunciation": "হর",
+            "separator_after": " "
+          },
+          {
+            "target": "सप्ताह",
+            "bangla_pronunciation": "সপ্তাহ",
+            "separator_after": " "
+          },
+          {
+            "target": "हिसाब",
+            "bangla_pronunciation": "হিসাব",
+            "separator_after": " "
+          },
+          {
+            "target": "रखना",
+            "bangla_pronunciation": "রখনা",
+            "separator_after": " "
+          },
+          {
+            "target": "पसंद",
+            "bangla_pronunciation": "পসংদ",
+            "separator_after": " "
+          },
+          {
+            "target": "करता",
+            "bangla_pronunciation": "করতা",
+            "separator_after": " "
+          },
+          {
+            "target": "हूँ।",
+            "bangla_pronunciation": "হুঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "ऑनलाइन सुरक्षा के लिए पासवर्ड मज़बूत रखें।",
+        "bangla_pronunciation": "অনলাইন সুরক্ষা কে লিয়ে পাসওয়ার্ড মজবূত রখেঁ।",
+        "word_pronunciations": [
+          {
+            "target": "ऑनलाइन",
+            "bangla_pronunciation": "অনলাইন",
+            "separator_after": " "
+          },
+          {
+            "target": "सुरक्षा",
+            "bangla_pronunciation": "সুরক্ষা",
+            "separator_after": " "
+          },
+          {
+            "target": "के",
+            "bangla_pronunciation": "কে",
+            "separator_after": " "
+          },
+          {
+            "target": "लिए",
+            "bangla_pronunciation": "লিয়ে",
+            "separator_after": " "
+          },
+          {
+            "target": "पासवर्ड",
+            "bangla_pronunciation": "পাসওয়ার্ড",
+            "separator_after": " "
+          },
+          {
+            "target": "मज़बूत",
+            "bangla_pronunciation": "মজবূত",
+            "separator_after": " "
+          },
+          {
+            "target": "रखें।",
+            "bangla_pronunciation": "রখেঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "लेन-देन की रकम फिर से जाँचें।",
+        "bangla_pronunciation": "লেন-দেন কী রকম ফির সে জাঁচেং।",
+        "word_pronunciations": [
+          {
+            "target": "लेन-देन",
+            "bangla_pronunciation": "লেন-দেন",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "separator_after": " "
+          },
+          {
+            "target": "रकम",
+            "bangla_pronunciation": "রকম",
+            "separator_after": " "
+          },
+          {
+            "target": "फिर",
+            "bangla_pronunciation": "ফির",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "separator_after": " "
+          },
+          {
+            "target": "जाँचें।",
+            "bangla_pronunciation": "জাঁচেং।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "अंतिम तारीख से पहले तत्काल भुगतान करें।",
+        "bangla_pronunciation": "অন্তিম তারীখ সে পহলে তৎকাল ভুগতান করেঁ।",
+        "word_pronunciations": [
+          {
+            "target": "अंतिम",
+            "bangla_pronunciation": "অন্তিম",
+            "separator_after": " "
+          },
+          {
+            "target": "तारीख",
+            "bangla_pronunciation": "তারীখ",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "separator_after": " "
+          },
+          {
+            "target": "पहले",
+            "bangla_pronunciation": "পহলে",
+            "separator_after": " "
+          },
+          {
+            "target": "तत्काल",
+            "bangla_pronunciation": "তৎকাল",
+            "separator_after": " "
+          },
+          {
+            "target": "भुगतान",
+            "bangla_pronunciation": "ভুগতান",
+            "separator_after": " "
+          },
+          {
+            "target": "करें।",
+            "bangla_pronunciation": "করেঁ।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "মহীনে কা বজট পহলে বনাইএ। ম্যাঁ হর সপ্তাহ হিসাব রখনা পসংদ করতা হুঁ। অনলাইন সুরক্ষা কে লিয়ে পাসওয়ার্ড মজবূত রখেঁ। লেন-দেন কী রকম ফির সে জাঁচেং। অন্তিম তারীখ সে পহলে তৎকাল ভুগতান করেঁ।",
+    "meaning_bengali_md": "মাসের বাজেট আগে তৈরি করুন। আমি প্রতি সপ্তাহে হিসাব রাখতে পছন্দ করি। অনলাইন নিরাপত্তার জন্য পাসওয়ার্ড শক্ত রাখুন। লেনদেনের টাকার অঙ্ক আবার পরীক্ষা করুন। শেষ তারিখের আগে দ্রুত পেমেন্ট করুন।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_consonant_pa",
+      "mode": "review",
+      "target": "प",
+      "bangla_pronunciation": "প",
+      "explanation_bengali_md": "‘প’ ধ্বনির দেবনাগরী রূপ; দ্রুত চিনতে অনুশীলন করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে ধ্বনি বলুন, তারপর কাগজে তিনবার লিখে একটি পরিচিত শব্দে রূপটি খুঁজুন।"
+    },
+    {
+      "item_id": "dev_consonant_ba",
+      "mode": "review",
+      "target": "ब",
+      "bangla_pronunciation": "ব",
+      "explanation_bengali_md": "‘ব’ ধ্বনির রূপ; সাধারণ শব্দে বহুল ব্যবহৃত।",
+      "practice_bengali_md": "চিহ্নটি দেখে ধ্বনি বলুন, তারপর কাগজে তিনবার লিখে একটি পরিচিত শব্দে রূপটি খুঁজুন।"
+    },
+    {
+      "item_id": "dev_consonant_ma",
+      "mode": "review",
+      "target": "म",
+      "bangla_pronunciation": "ম",
+      "explanation_bengali_md": "‘ম’ ধ্বনির রূপ; শব্দের শুরু ও শেষে চিনুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে ধ্বনি বলুন, তারপর কাগজে তিনবার লিখে একটি পরিচিত শব্দে রূপটি খুঁজুন।"
+    },
+    {
+      "item_id": "dev_consonant_va",
+      "mode": "review",
+      "target": "व",
+      "bangla_pronunciation": "ভ/ব",
+      "explanation_bengali_md": "এই ধ্বনি অনেক ক্ষেত্রে বাংলা ‘ভ’ ও ‘ব’-এর মাঝামাঝি শোনায়; শেখা শব্দের উচ্চারণ অনুসরণ করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে ধ্বনি বলুন, তারপর কাগজে তিনবার লিখে একটি পরিচিত শব্দে রূপটি খুঁজুন।"
+    },
+    {
+      "item_id": "dev_sign_anusvara",
+      "mode": "application",
+      "target": "ं",
+      "bangla_pronunciation": "ং/ঁ",
+      "explanation_bengali_md": "অনুস্বার কখনও নাসিক্য ব্যঞ্জন, কখনও স্বর নাসিক্যতার সংকেত দেয়; শব্দভেদে শুনুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে ধ্বনি বলুন, তারপর কাগজে তিনবার লিখে একটি পরিচিত শব্দে রূপটি খুঁজুন।"
+    }
+  ],
+  "number_practice": [
+    {
+      "display": "100 / १००",
+      "target": "एक सौ",
+      "bangla_pronunciation": "এক সৌ",
+      "word_pronunciations": [
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "सौ",
+          "bangla_pronunciation": "সৌ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "একশ",
+      "system": "International + Devanagari"
+    },
+    {
+      "display": "500 / ५००",
+      "target": "पाँच सौ",
+      "bangla_pronunciation": "পাঁচ সৌ",
+      "word_pronunciations": [
+        {
+          "target": "पाँच",
+          "bangla_pronunciation": "পাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "सौ",
+          "bangla_pronunciation": "সৌ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পাঁচশ",
+      "system": "International + Devanagari"
+    },
+    {
+      "display": "1000 / १०००",
+      "target": "एक हज़ार",
+      "bangla_pronunciation": "এক হাজার",
+      "word_pronunciations": [
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "हज़ार",
+          "bangla_pronunciation": "হাজার",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এক হাজার",
+      "system": "International + Devanagari"
+    }
+  ],
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "হিন্দিতে বলুন: “আমার অ্যাকাউন্টে বেতন জমা হয়েছে।”",
+      "model_target": "मेरे खाते में वेतन जमा हुआ।",
+      "model_bangla_pronunciation": "মেরে খাতে মেঁ বেতন জমা হুয়া।",
+      "model_word_pronunciations": [
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "separator_after": " "
+        },
+        {
+          "target": "खाते",
+          "bangla_pronunciation": "খাতে",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "वेतन",
+          "bangla_pronunciation": "বেতন",
+          "separator_after": " "
+        },
+        {
+          "target": "जमा",
+          "bangla_pronunciation": "জমা",
+          "separator_after": " "
+        },
+        {
+          "target": "हुआ।",
+          "bangla_pronunciation": "হুয়া।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার অ্যাকাউন্টে বেতন জমা হয়েছে।"
+    },
+    {
+      "prompt_bengali_md": "হিন্দিতে বলুন: “আমি মোবাইল দিয়ে টাকা পাঠাতে চাই।”",
+      "model_target": "मैं मोबाइल से पैसे भेजना चाहता हूँ।",
+      "model_bangla_pronunciation": "ম্যাঁ মোবাইল সে পৈসে ভেজনা চাহতা হুঁ।",
+      "model_word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "मोबाइल",
+          "bangla_pronunciation": "মোবাইল",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पैसे",
+          "bangla_pronunciation": "পৈসে",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजना",
+          "bangla_pronunciation": "ভেজনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहता",
+          "bangla_pronunciation": "চাহতা",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমি মোবাইল দিয়ে টাকা পাঠাতে চাই।"
+    },
+    {
+      "prompt_bengali_md": "হিন্দিতে বলুন: “সঞ্চয়ী অ্যাকাউন্টে সুদ পাওয়া যায়।”",
+      "model_target": "बचत खाते पर ब्याज मिलता है।",
+      "model_bangla_pronunciation": "বচত খাতে পর ব্যাজ মিলতা হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "बचत",
+          "bangla_pronunciation": "বচত",
+          "separator_after": " "
+        },
+        {
+          "target": "खाते",
+          "bangla_pronunciation": "খাতে",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ब्याज",
+          "bangla_pronunciation": "ব্যাজ",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलता",
+          "bangla_pronunciation": "মিলতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "সঞ্চয়ী অ্যাকাউন্টে সুদ পাওয়া যায়।"
+    },
+    {
+      "prompt_bengali_md": "হিন্দিতে বলুন: “আমি প্রতি সপ্তাহে হিসাব রাখতে পছন্দ করি।”",
+      "model_target": "मैं हर सप्ताह हिसाब रखना पसंद करता हूँ।",
+      "model_bangla_pronunciation": "ম্যাঁ হর সপ্তাহ হিসাব রখনা পসংদ করতা হুঁ।",
+      "model_word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "हर",
+          "bangla_pronunciation": "হর",
+          "separator_after": " "
+        },
+        {
+          "target": "सप्ताह",
+          "bangla_pronunciation": "সপ্তাহ",
+          "separator_after": " "
+        },
+        {
+          "target": "हिसाब",
+          "bangla_pronunciation": "হিসাব",
+          "separator_after": " "
+        },
+        {
+          "target": "रखना",
+          "bangla_pronunciation": "রখনা",
+          "separator_after": " "
+        },
+        {
+          "target": "पसंद",
+          "bangla_pronunciation": "পসংদ",
+          "separator_after": " "
+        },
+        {
+          "target": "करता",
+          "bangla_pronunciation": "করতা",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমি প্রতি সপ্তাহে হিসাব রাখতে পছন্দ করি।"
+    },
+    {
+      "prompt_bengali_md": "হিন্দিতে বলুন: “লেনদেনের টাকার অঙ্ক আবার পরীক্ষা করুন।”",
+      "model_target": "लेन-देन की रकम फिर से जाँचें।",
+      "model_bangla_pronunciation": "লেন-দেন কী রকম ফির সে জাঁচেং।",
+      "model_word_pronunciations": [
+        {
+          "target": "लेन-देन",
+          "bangla_pronunciation": "লেন-দেন",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "रकम",
+          "bangla_pronunciation": "রকম",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "লেনদেনের টাকার অঙ্ক আবার পরীক্ষা করুন।"
+    },
+    {
+      "prompt_bengali_md": "হিন্দিতে বলুন: “শেষ তারিখের আগে দ্রুত পেমেন্ট করুন।”",
+      "model_target": "अंतिम तारीख से पहले तत्काल भुगतान करें।",
+      "model_bangla_pronunciation": "অন্তিম তারীখ সে পহলে তৎকাল ভুগতান করেঁ।",
+      "model_word_pronunciations": [
+        {
+          "target": "अंतिम",
+          "bangla_pronunciation": "অন্তিম",
+          "separator_after": " "
+        },
+        {
+          "target": "तारीख",
+          "bangla_pronunciation": "তারীখ",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "तत्काल",
+          "bangla_pronunciation": "তৎকাল",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "শেষ তারিখের আগে দ্রুত পেমেন্ট করুন।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch082_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A Bangladeshi adult at a tidy desk reviewing personal finances on a phone and a few blank receipts, calm home setting, daylight, visual focus on budgeting and safe digital banking, bright editorial illustration. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes"
+    },
+    {
+      "key": "ch082_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A customer at a clean modern bank service desk confirming a transaction with a staff member, payment card and phone visible, reassuring professional atmosphere, warm light, uncluttered composition. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes"
+    }
+  ],
+  "additional_practice": []
+}
