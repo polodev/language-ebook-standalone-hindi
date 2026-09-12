@@ -1,139 +1,35 @@
 name: Finalize Hindi vocabulary chapters 41-50
-
 on:
   push:
-    branches:
-      - content/04-easy-hindi-vocabulary-7000-words/ch041-ch050
-    paths:
-      - '.github/transfer-vocab-ch041-ch050/READY'
-
+    branches: [content/04-easy-hindi-vocabulary-7000-words/ch041-ch050]
+    paths: ['.github/transfer-vocab-ch041-ch050/READY']
 permissions:
   contents: write
-
 jobs:
   finalize:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout feature branch
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Concatenate archive pieces
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - name: Rebuild and record archive paths
         shell: bash
         run: |
           set -euo pipefail
-          TRANSFER='.github/transfer-vocab-ch041-ch050'
-          find "$TRANSFER" -maxdepth 1 -type f -name 'ch43-50.part-*' -print | LC_ALL=C sort > /tmp/parts.txt
-          cat /tmp/parts.txt
-          while IFS= read -r part; do cat "$part"; done < /tmp/parts.txt > /tmp/ch43-50.b64
-          echo "parts=$(wc -l < /tmp/parts.txt) bytes=$(wc -c < /tmp/ch43-50.b64)"
-          test "$(wc -l < /tmp/parts.txt)" -eq 14
-          test "$(wc -c < /tmp/ch43-50.b64)" -eq 47608
-
-      - name: Decode archive base64
-        shell: bash
-        run: |
-          set -euo pipefail
-          base64 -d /tmp/ch43-50.b64 > /tmp/ch43-50.tar.xz
-          test -s /tmp/ch43-50.tar.xz
-
-      - name: Test xz archive
-        shell: bash
-        run: |
-          set -euo pipefail
-          xz -t /tmp/ch43-50.tar.xz
-          xz -dc /tmp/ch43-50.tar.xz > /tmp/ch43-50.tar
-          test -s /tmp/ch43-50.tar
-
-      - name: Extract archive chapters 43-50
-        shell: bash
-        run: |
-          set -euo pipefail
-          BOOK='04-easy-hindi-vocabulary-7000-words'
-          mkdir -p "$BOOK/chapters" "$BOOK/rosters" /tmp/ch43-50-extract
-          tar -tf /tmp/ch43-50.tar
-          tar -xf /tmp/ch43-50.tar -C /tmp/ch43-50-extract
-          for n in {43..50}; do
-            c=$(find /tmp/ch43-50-extract -type f -path "*/chapters/ch$(printf '%03d' "$n").json" | head -n 1)
-            r=$(find /tmp/ch43-50-extract -type f -path "*/rosters/ch$(printf '%03d' "$n").json" | head -n 1)
-            test -n "$c" && test -s "$c"
-            test -n "$r" && test -s "$r"
-            cp "$c" "$(printf "$BOOK/chapters/ch%03d.json" "$n")"
-            cp "$r" "$(printf "$BOOK/rosters/ch%03d.json" "$n")"
-          done
-
-      - name: Restore chapters 41-42 blobs
-        shell: bash
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-          CH041_BLOB: 4892b1d1df7e5bd2588a9608d2c729a85b74c3a4
-          CH042_BLOB: 1ca8b72caa51bdef7a02e4d6f055f203d0a1219b
-        run: |
-          set -euo pipefail
-          BOOK='04-easy-hindi-vocabulary-7000-words'
-          fetch_blob() {
-            local sha="$1" out="$2"
-            curl -fsSL -H "Authorization: Bearer $GITHUB_TOKEN" -H 'Accept: application/vnd.github+json' -H 'X-GitHub-Api-Version: 2022-11-28' "https://api.github.com/repos/${GITHUB_REPOSITORY}/git/blobs/${sha}" | jq -r '.content' | tr -d '\n' | base64 -d > "$out"
-            test -s "$out"
-          }
-          fetch_blob "$CH041_BLOB" "$BOOK/chapters/ch041.json"
-          fetch_blob "$CH042_BLOB" "$BOOK/chapters/ch042.json"
-          test -s "$BOOK/rosters/ch041.json"
-
-      - name: Create reviewed roster 42
-        shell: bash
-        run: |
-          set -euo pipefail
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-          book = Path('04-easy-hindi-vocabulary-7000-words')
-          ch = json.loads((book/'chapters/ch042.json').read_text(encoding='utf-8'))
-          items = [{'id':v['id'],'target':v['target'],'category':v['category'],'type':v['type'],'level_rationale':'A2 পর্যায়ে দৈনন্দিন বাস্তব কথোপকথনে উচ্চ-উপযোগী; অর্থ, রেজিস্টার ও ব্যাচ-স্তরের পুনরাবৃত্তি সম্পাদকীয়ভাবে যাচাই করা হয়েছে।','sources':['Editorial review of common Standard Hindi usage; batch-level uniqueness and sense suitability checked.']} for v in ch['vocabulary']]
-          (book/'rosters/ch042.json').write_text(json.dumps({'status':'reviewed','items':items}, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
-          PY
-
-      - name: Record progress
-        shell: bash
-        run: |
-          set -euo pipefail
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-          book = Path('04-easy-hindi-vocabulary-7000-words')
-          completed=[f'ch{i:03d}' for i in range(41,51)]
-          data={'requested_chapters':completed,'completed_chapters':completed,'unfinished_chapters':[],'status':'batch_complete_draft','checks':{'partial_validation_command':'python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words','unit_tests_command':'python3 -m unittest discover -s tests','assigned_range_present':True,'reviewed_rosters_present':True,'image_prompts_per_chapter':2},'delivery':{'target_branch':'main','feature_branch':'content/04-easy-hindi-vocabulary-7000-words/ch041-ch050','merge_requested':False}}
-          (book/'authoring-progress.json').write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
-          PY
-
-      - name: Validate book batch
-        shell: bash
-        run: |
-          set -euo pipefail
-          BOOK='04-easy-hindi-vocabulary-7000-words'
-          python3 scripts/manage.py validate --book "$BOOK"
-          for n in {41..50}; do
-            test -s "$(printf "$BOOK/chapters/ch%03d.json" "$n")"
-            test -s "$(printf "$BOOK/rosters/ch%03d.json" "$n")"
-          done
-
-      - name: Run unit tests
-        shell: bash
-        run: python3 -m unittest discover -s tests
-
-      - name: Commit clean batch
-        shell: bash
-        run: |
-          set -euo pipefail
-          rm -rf .github/transfer-vocab-ch041-ch050
-          rm -f .github/workflows/chatgpt-finalize-vocab-ch041-ch050.yml
-          git config user.name 'polodev'
-          git config user.email 'polodev10@gmail.com'
-          git add -A
-          git commit -m 'Complete Easy Hindi Vocabulary chapters 41-50'
-          git fetch origin main
-          bad=$(git diff --name-only origin/main...HEAD | grep -vE '^04-easy-hindi-vocabulary-7000-words/(chapters/ch04[1-9]\.json|chapters/ch050\.json|rosters/ch04[1-9]\.json|rosters/ch050\.json|authoring-progress\.json)$' || true)
-          test -z "$bad"
-          test "$(git diff --name-only origin/main...HEAD | wc -l)" -eq 21
+          T=.github/transfer-vocab-ch041-ch050
+          find "$T" -maxdepth 1 -type f -name 'ch43-50.part-*' -print | LC_ALL=C sort > /tmp/parts
+          while IFS= read -r p; do cat "$p"; done < /tmp/parts > /tmp/a.b64
+          test "$(wc -c < /tmp/a.b64)" -eq 47608
+          base64 -d /tmp/a.b64 > /tmp/a.tar.xz
+          xz -t /tmp/a.tar.xz
+          xz -dc /tmp/a.tar.xz > /tmp/a.tar
+          mkdir -p /tmp/extract
+          tar -tf /tmp/a.tar > "$T/archive-listing.txt"
+          tar -xf /tmp/a.tar -C /tmp/extract
+          find /tmp/extract -type f -print | sort > "$T/extracted-listing.txt"
+          git config user.name polodev
+          git config user.email polodev10@gmail.com
+          git add "$T/archive-listing.txt" "$T/extracted-listing.txt"
+          git commit -m 'Record vocabulary archive paths'
           git push origin HEAD:content/04-easy-hindi-vocabulary-7000-words/ch041-ch050
+      - name: Stop after diagnostics
+        run: exit 1
