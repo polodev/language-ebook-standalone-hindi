@@ -16,6 +16,7 @@ jobs:
           ref: tmp/author-adv-ch001-ch010
       - name: Generate chapter source
         run: |
+          sed -i "s/parents\[2\]/parents[1]/" .authoring_tmp/core.py
           sed -i "s/'y': 'য'/'य': 'য'/" .authoring_tmp/core.py
           python3 .authoring_tmp/core.py
       - name: Validate assigned book
