@@ -5,7 +5,6 @@ on:
     branches:
       - content/02-easy-hindi-intermediate/ch041-ch050
     paths:
-      - '.github/transfer/intermediate-ch041-ch050.py.gz.b64'
       - '.github/workflows/chatgpt-deliver-intermediate-ch041-ch050.yml'
 
 permissions:
@@ -27,7 +26,10 @@ jobs:
           set -euo pipefail
           git fetch origin main
           test "$(git rev-parse origin/main)" = "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6"
-          base64 -d .github/transfer/intermediate-ch041-ch050.py.gz.b64 | gzip -d > /tmp/generate_intermediate_41_50.py
+          for n in 00 01 02 03; do
+            test -s ".github/transfer/intermediate-ch041-ch050.part-$n"
+          done
+          cat .github/transfer/intermediate-ch041-ch050.part-* | base64 -d | gzip -d > /tmp/generate_intermediate_41_50.py
           python3 -m py_compile /tmp/generate_intermediate_41_50.py
 
       - name: Generate requested chapter source files
@@ -73,8 +75,12 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git rm .github/transfer/intermediate-ch041-ch050.py.gz.b64
-          git rm .github/workflows/chatgpt-deliver-intermediate-ch041-ch050.yml
+          git rm -f .github/transfer/intermediate-ch041-ch050.py.gz.b64
+          git rm -f .github/transfer/intermediate-ch041-ch050.part-00
+          git rm -f .github/transfer/intermediate-ch041-ch050.part-01
+          git rm -f .github/transfer/intermediate-ch041-ch050.part-02
+          git rm -f .github/transfer/intermediate-ch041-ch050.part-03
+          git rm -f .github/workflows/chatgpt-deliver-intermediate-ch041-ch050.yml
           git add \
             02-easy-hindi-intermediate/chapters/ch041.json \
             02-easy-hindi-intermediate/chapters/ch042.json \
@@ -88,12 +94,14 @@ jobs:
             02-easy-hindi-intermediate/chapters/ch050.json \
             02-easy-hindi-intermediate/authoring-progress.json
           test "$(git diff --cached --diff-filter=A --name-only | wc -l)" -eq 11
-          test "$(git diff --cached --diff-filter=D --name-only | wc -l)" -eq 2
+          test "$(git diff --cached --diff-filter=D --name-only | wc -l)" -eq 6
           test -z "$(git diff --cached --diff-filter=MR --name-only)"
           git config user.name "polodev"
           git config user.email "polodev10@gmail.com"
+          added=$(git diff --cached --diff-filter=A --name-only | wc -l | tr -d ' ')
+          deleted=$(git diff --cached --diff-filter=D --name-only | wc -l | tr -d ' ')
           ts=$(TZ=Asia/Dhaka date '+%a %b %-d, %-I:%M%P')
-          git commit -m "$ts — 11 files added, 2 temporary transfer files removed"
+          git commit -m "$ts — ${added} files added, ${deleted} temporary files removed"
           git push origin HEAD:content/02-easy-hindi-intermediate/ch041-ch050
 
       - name: Verify final branch diff against main
