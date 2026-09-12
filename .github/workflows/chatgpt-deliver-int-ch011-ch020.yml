@@ -1,0 +1,38 @@
+name: Verify Easy Hindi Intermediate chapters 11-20 review branch
+
+on:
+  push:
+    branches:
+      - transport/02-easy-hindi-intermediate/ch011-ch020-20260912
+    paths:
+      - '.github/transfer-int-ch011-ch020/READY'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout transport branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch and validate merged review branch
+        shell: bash
+        env:
+          DELIVERY_BRANCH: content/02-easy-hindi-intermediate/ch011-ch020
+        run: |
+          set -euo pipefail
+          git fetch origin "refs/heads/$DELIVERY_BRANCH:refs/remotes/origin/review"
+          git checkout --detach refs/remotes/origin/review
+          python3 scripts/manage.py validate --book 02-easy-hindi-intermediate | tee /tmp/validation.txt
+          grep -F '02-easy-hindi-intermediate: 20/60 authored chapters structurally valid; publication not assessed' /tmp/validation.txt
+
+      - name: Upload validator result
+        uses: actions/upload-artifact@v4
+        with:
+          name: intermediate-ch011-ch020-merged-validation
+          path: /tmp/validation.txt
+          if-no-files-found: error
