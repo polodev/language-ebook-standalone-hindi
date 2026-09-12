@@ -1,0 +1,54 @@
+{
+  "book": "03-easy-hindi-advanced",
+  "requested_chapter_ids": [
+    "ch031",
+    "ch032",
+    "ch033",
+    "ch034",
+    "ch035",
+    "ch036",
+    "ch037",
+    "ch038",
+    "ch039",
+    "ch040"
+  ],
+  "completed_chapter_ids": [
+    "ch031",
+    "ch032",
+    "ch033",
+    "ch034",
+    "ch035",
+    "ch036",
+    "ch037",
+    "ch038",
+    "ch039",
+    "ch040"
+  ],
+  "unfinished_chapter_ids": [],
+  "status": "batch_complete_draft",
+  "inventory": {
+    "chapters": 10,
+    "essential_sentences": 200,
+    "vocabulary_entries": 40,
+    "script_items": 50,
+    "number_cards": 0,
+    "bridge_readings": 10,
+    "target_readings": 10,
+    "target_reading_lines": 50,
+    "speaking_practice_tasks": 60,
+    "reading_image_prompts": 20
+  },
+  "checks": {
+    "schema_and_required_counts": "passed",
+    "word_pronunciation_reconstruction": "passed",
+    "vocabulary_source_references": "passed",
+    "mixed_reading_markdown_mirror": "passed",
+    "pure_reading_line_limit": "passed",
+    "image_prompt_keys_and_no_text_rule": "passed",
+    "editorial_authoring_pass": "completed",
+    "repository_manage_py_validate": "not_run_no_repository_checkout_in_command_runtime",
+    "local_validator_mirror_of_scripts_manage_py": "passed_all_10_chapters"
+  },
+  "updated_at_local": "2026-09-12 15:21 +06:00",
+  "notes": "This records completion of the requested ch031-ch040 batch only. The full 60-chapter book remains incomplete; chapter status is drafted, not independently reviewed."
+}
