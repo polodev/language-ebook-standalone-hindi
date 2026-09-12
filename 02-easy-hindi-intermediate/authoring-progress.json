@@ -1,0 +1,100 @@
+{
+  "book": "02-easy-hindi-intermediate",
+  "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+  "requested_range": {
+    "start": "ch041",
+    "end": "ch050",
+    "count": 10
+  },
+  "completed_ids": [
+    "ch041",
+    "ch042",
+    "ch043",
+    "ch044",
+    "ch045",
+    "ch046",
+    "ch047",
+    "ch048",
+    "ch049",
+    "ch050"
+  ],
+  "unfinished_ids": [],
+  "status": "batch_complete",
+  "inventory": {
+    "chapters": 10,
+    "essential_sentences": 200,
+    "vocabulary_entries": 80,
+    "script_practice_items": 50,
+    "number_cards": 21,
+    "bridge_readings": 10,
+    "target_reading_lines": 50,
+    "speaking_practice_tasks": 60,
+    "reading_image_prompts": 20,
+    "additional_practice_items": 4
+  },
+  "checks_performed": [
+    {
+      "check": "instruction_and_plan_review",
+      "result": "passed",
+      "details": "Used 02-easy-hindi-intermediate/INSTRUCTIONS.md as the authoring contract and the current-main book.json plans for ch041-ch050."
+    },
+    {
+      "check": "requested_file_presence_and_identity",
+      "result": "passed",
+      "details": "All ten requested chapter files ch041.json through ch050.json were generated and chapter_id values match paths."
+    },
+    {
+      "check": "required_counts",
+      "result": "passed",
+      "details": "20 sentences, 5 script cards, 6 speaking tasks and 2 reading prompts per chapter; pure readings have 5 lines each; number practice has 2 or 3 cards."
+    },
+    {
+      "check": "word_pronunciation_reconstruction",
+      "result": "passed",
+      "details": "All annotated target strings reconstruct exactly from ordered word_pronunciations and separators."
+    },
+    {
+      "check": "vocabulary_sources",
+      "result": "passed",
+      "details": "All 80 vocabulary source_sentence_id references exist and each source_form occurs in its cited essential sentence."
+    },
+    {
+      "check": "mixed_reading_markdown",
+      "result": "passed",
+      "details": "Each bridge text_md is an exact bold-word/Bangla-pronunciation mirror of its structured segments."
+    },
+    {
+      "check": "pure_reading_limits",
+      "result": "passed",
+      "details": "All 50 pure-reading lines contain no more than 8 learning units and include full Bangla pronunciation and meaning."
+    },
+    {
+      "check": "image_prompt_contract",
+      "result": "passed",
+      "details": "Exactly two scene-matched prompts per chapter, with required keys/order and the required no-readable-text prohibition."
+    },
+    {
+      "check": "local_contract_validator",
+      "result": "passed",
+      "details": "A local validation script mirroring the current repository manager contract passed all ten chapter files."
+    },
+    {
+      "check": "repository_validator",
+      "result": "passed",
+      "command": "python3 scripts/manage.py validate --book 02-easy-hindi-intermediate",
+      "details": "Repository validator output: 02-easy-hindi-intermediate: 10/60 authored chapters structurally valid; publication not assessed."
+    }
+  ],
+  "remaining_issues": [
+    "Chapter status is drafted, not independently reviewed. Full-book validation/assembly and chapters outside ch041-ch050 were not attempted."
+  ],
+  "resume_point": "Requested ch041-ch050 batch complete; do not continue beyond ch050 in this batch.",
+  "updated_at_local": "2026-09-12T15:20+06:00",
+  "git_delivery": {
+    "status": "branch_delivery_validated",
+    "branch": "content/02-easy-hindi-intermediate/ch041-ch050",
+    "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+    "target_branch": "main",
+    "force_push": false
+  }
+}
