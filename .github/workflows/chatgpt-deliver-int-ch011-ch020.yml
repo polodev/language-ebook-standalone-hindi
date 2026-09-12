@@ -29,17 +29,13 @@ jobs:
           echo '3fdacdcb5d4131bb683a48284eadec8b7f4d0bdef9ee6c69e1fd73aa99494f63  /tmp/int-ch011-ch020.tar' | sha256sum -c -
           tar -tf /tmp/int-ch011-ch020.tar
 
-      - name: Verify latest main, extract, and validate
+      - name: Extract and validate exact source batch
         shell: bash
         env:
           EXPECTED_MAIN: d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6
-          DELIVERY_BRANCH: content/02-easy-hindi-intermediate/ch011-ch020
+          TRANSFER_BRANCH: transport/02-easy-hindi-intermediate/ch011-ch020-20260912
         run: |
           set -euo pipefail
-          main_remote=$(git ls-remote origin refs/heads/main | cut -f1)
-          delivery_remote=$(git ls-remote origin "refs/heads/$DELIVERY_BRANCH" | cut -f1)
-          test "$main_remote" = "$EXPECTED_MAIN"
-          test "$delivery_remote" = "$EXPECTED_MAIN"
           git checkout -B delivery "$EXPECTED_MAIN"
           tar -xf /tmp/int-ch011-ch020.tar
           for n in {11..20}; do
@@ -47,15 +43,35 @@ jobs:
             test -s "$f"
           done
           test -s 02-easy-hindi-intermediate/authoring-progress.json
-          python3 scripts/manage.py validate --book 02-easy-hindi-intermediate
+          set +e
+          python3 scripts/manage.py validate --book 02-easy-hindi-intermediate > /tmp/validation.log 2>&1
+          validation_status=$?
+          set -e
+          cat /tmp/validation.log
+          if [ "$validation_status" -ne 0 ]; then
+            git checkout "$TRANSFER_BRANCH"
+            mkdir -p .github/transfer-int-ch011-ch020
+            cp /tmp/validation.log .github/transfer-int-ch011-ch020/validation.log
+            git config user.name "polodev"
+            git config user.email "polodev10@gmail.com"
+            git add .github/transfer-int-ch011-ch020/validation.log
+            git commit -m "Sat Sep 12, 5:50pm — record Intermediate validation diagnostic" || true
+            git push origin HEAD:"$TRANSFER_BRANCH"
+            exit "$validation_status"
+          fi
 
       - name: Commit actual source batch and push review branch
         shell: bash
         env:
           DELIVERY_BRANCH: content/02-easy-hindi-intermediate/ch011-ch020
           TRANSFER_BRANCH: transport/02-easy-hindi-intermediate/ch011-ch020-20260912
+          EXPECTED_MAIN: d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6
         run: |
           set -euo pipefail
+          main_remote=$(git ls-remote origin refs/heads/main | cut -f1)
+          delivery_remote=$(git ls-remote origin "refs/heads/$DELIVERY_BRANCH" | cut -f1)
+          test "$main_remote" = "$EXPECTED_MAIN"
+          test "$delivery_remote" = "$EXPECTED_MAIN"
           git config user.name "polodev"
           git config user.email "polodev10@gmail.com"
           git add \
