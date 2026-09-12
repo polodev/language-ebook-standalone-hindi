@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "faces": [
+    {
+      "family": "Miriam Libre",
+      "filename": "MiriamLibre-Regular.ttf",
+      "weight": 400,
+      "style": "normal",
+      "sha256": "3a598ef4a1874b35c4c284cd5efe7d3fcc815b910efd525a116eb3a3ecd66423",
+      "license": "miriamlibre-OFL.txt",
+      "postscript_name": "MiriamLibre-Regular",
+      "source": "Inherited from original scaffold; exact binary retained and hashed.",
+      "upstream_project": "https://github.com/google/fonts/tree/main/ofl/miriamlibre"
+    },
+    {
+      "family": "Miriam Libre",
+      "filename": "MiriamLibre-Bold.ttf",
+      "weight": 700,
+      "style": "normal",
+      "sha256": "df4445ca4593576755e46ad1b64ad083d06602344885064c7726dafa20b33d7d",
+      "license": "miriamlibre-OFL.txt",
+      "postscript_name": "MiriamLibre-Bold",
+      "source": "Inherited from original scaffold; exact binary retained and hashed.",
+      "upstream_project": "https://github.com/google/fonts/tree/main/ofl/miriamlibre"
+    },
+    {
+      "family": "Noto Serif Bengali",
+      "filename": "NotoSerifBengali-Regular.ttf",
+      "weight": 400,
+      "style": "normal",
+      "sha256": "b8db45a820e370a720766e424c2077cd9ec5a7def78a38d01f111b2e5a0a272b",
+      "license": "notoserifbengali-OFL.txt",
+      "postscript_name": "NotoSerifBengali-Regular",
+      "source": "Inherited from original scaffold; exact binary retained and hashed.",
+      "upstream_project": "https://github.com/google/fonts/tree/main/ofl/notoserifbengali"
+    },
+    {
+      "family": "Noto Serif Bengali",
+      "filename": "NotoSerifBengali-Medium.ttf",
+      "weight": 500,
+      "style": "normal",
+      "sha256": "824d256d0f8841d6b198aeb287523c40bfd63636f09039c7695ebae26038e1cf",
+      "license": "notoserifbengali-OFL.txt",
+      "postscript_name": "NotoSerifBengali-Medium",
+      "source": "Inherited from original scaffold; exact binary retained and hashed.",
+      "upstream_project": "https://github.com/google/fonts/tree/main/ofl/notoserifbengali"
+    },
+    {
+      "family": "Noto Serif Bengali",
+      "filename": "NotoSerifBengali-SemiBold.ttf",
+      "weight": 600,
+      "style": "normal",
+      "sha256": "001257778d27c2763978b2361c6999d7d1b736f943abc2bdeb4fa1a3e79b2d38",
+      "license": "notoserifbengali-OFL.txt",
+      "postscript_name": "NotoSerifBengali-SemiBold",
+      "source": "Inherited from original scaffold; exact binary retained and hashed.",
+      "upstream_project": "https://github.com/google/fonts/tree/main/ofl/notoserifbengali"
+    },
+    {
+      "family": "Noto Serif Bengali",
+      "filename": "NotoSerifBengali-Bold.ttf",
+      "weight": 700,
+      "style": "normal",
+      "sha256": "bc639f8c9e6d58fbdfb193f609c1ed27560a092d4c1285e50d3c8cd15baa830b",
+      "license": "notoserifbengali-OFL.txt",
+      "postscript_name": "NotoSerifBengali-Bold",
+      "source": "Inherited from original scaffold; exact binary retained and hashed.",
+      "upstream_project": "https://github.com/google/fonts/tree/main/ofl/notoserifbengali"
+    },
+    {
+      "family": "Noto Sans Devanagari",
+      "filename": "NotoSansDevanagari-Regular.ttf",
+      "weight": 400,
+      "style": "normal",
+      "sha256": "385e78e6359a9d88a0f243d53b1209d7548361ba2194e2b9ec779bcaa7e8949d",
+      "license": "notosansdevanagari-OFL.txt",
+      "postscript_name": "NotoSansDevanagari-Regular",
+      "source_url": "https://raw.githubusercontent.com/notofonts/noto-fonts/ffebf8c1ee449e544955a7e813c54f9b73848eac/hinted/ttf/NotoSansDevanagari/NotoSansDevanagari-Regular.ttf",
+      "source_commit": "ffebf8c1ee449e544955a7e813c54f9b73848eac"
+    },
+    {
+      "family": "Noto Sans Devanagari",
+      "filename": "NotoSansDevanagari-Bold.ttf",
+      "weight": 700,
+      "style": "normal",
+      "sha256": "19cc835a064c4af63e3c20feb54f5bf51dc25ffa52c0f493a23904572af8b26e",
+      "license": "notosansdevanagari-OFL.txt",
+      "postscript_name": "NotoSansDevanagari-Bold",
+      "source_url": "https://raw.githubusercontent.com/notofonts/noto-fonts/ffebf8c1ee449e544955a7e813c54f9b73848eac/hinted/ttf/NotoSansDevanagari/NotoSansDevanagari-Bold.ttf",
+      "source_commit": "ffebf8c1ee449e544955a7e813c54f9b73848eac"
+    }
+  ],
+  "stacks": {
+    "default": [
+      "Miriam Libre",
+      "Noto Serif Bengali",
+      "Noto Sans Devanagari",
+      "sans-serif"
+    ],
+    "bangla": [
+      "Noto Serif Bengali",
+      "Miriam Libre",
+      "Noto Sans Devanagari",
+      "serif"
+    ],
+    "target": [
+      "Noto Sans Devanagari",
+      "Noto Serif Bengali",
+      "Miriam Libre",
+      "sans-serif"
+    ]
+  },
+  "licenses": [
+    {
+      "filename": "miriamlibre-OFL.txt",
+      "sha256": "5d7b2e7cbe739d84134c794ad1819434c6641502d063cce9632e4b5a9dec6346",
+      "license": "SIL Open Font License 1.1",
+      "source_url": "https://github.com/google/fonts/blob/main/ofl/miriamlibre/OFL.txt"
+    },
+    {
+      "filename": "notosansdevanagari-OFL.txt",
+      "sha256": "0dab92d0544f7b233403f14b84a663bdbfa746982eda629e7f4f9ffe1b036feb",
+      "license": "SIL Open Font License 1.1",
+      "source_url": "https://raw.githubusercontent.com/notofonts/noto-fonts/ffebf8c1ee449e544955a7e813c54f9b73848eac/LICENSE"
+    },
+    {
+      "filename": "notoserifbengali-OFL.txt",
+      "sha256": "f3ad80e1db16c6d3e13347f0e1aabfe9d353c502643bb4cdc295eb1e62051818",
+      "license": "SIL Open Font License 1.1",
+      "source_url": "https://github.com/google/fonts/blob/main/ofl/notoserifbengali/OFL.txt"
+    }
+  ]
+}
