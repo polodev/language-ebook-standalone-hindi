@@ -24,9 +24,9 @@ jobs:
         run: |
           set -euo pipefail
           cat .github/transfer-int-ch011-ch020/part-* | base64 -d > /tmp/int-ch011-ch020.tar.xz
-          echo '6cf9155c1929deb95e520b02b8b7ba0ac273e156ed05d7ff3031c96e3d5c66b0  /tmp/int-ch011-ch020.tar.xz' | sha256sum -c -
+          echo '6bee982595c7a98ef81b3b3ae9567cb55f699fddfad659a2cfeb5b66f0a66556  /tmp/int-ch011-ch020.tar.xz' | sha256sum -c -
           xz -dc /tmp/int-ch011-ch020.tar.xz > /tmp/int-ch011-ch020.tar
-          echo '746e2e2847625d8d3e39cfb1b762c11af92e4f3b9e122a147181a21fc6108848  /tmp/int-ch011-ch020.tar' | sha256sum -c -
+          echo '3fdacdcb5d4131bb683a48284eadec8b7f4d0bdef9ee6c69e1fd73aa99494f63  /tmp/int-ch011-ch020.tar' | sha256sum -c -
           tar -tf /tmp/int-ch011-ch020.tar
 
       - name: Verify latest main, extract, and validate
