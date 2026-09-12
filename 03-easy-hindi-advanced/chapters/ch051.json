@@ -1,0 +1,1943 @@
+{
+  "chapter_id": "ch051",
+  "status": "drafted",
+  "title_target": "एआई, काम और समाज की नैतिकता",
+  "title_bangla_pronunciation": "এআই, কাম ঔর সমাজ কী নৈতিকতা",
+  "title_word_pronunciations": [
+    {
+      "target": "एआई,",
+      "bangla_pronunciation": "এআই,",
+      "separator_after": " "
+    },
+    {
+      "target": "काम",
+      "bangla_pronunciation": "কাম",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "ঔর",
+      "separator_after": " "
+    },
+    {
+      "target": "समाज",
+      "bangla_pronunciation": "সমাজ",
+      "separator_after": " "
+    },
+    {
+      "target": "की",
+      "bangla_pronunciation": "কী",
+      "separator_after": " "
+    },
+    {
+      "target": "नैतिकता",
+      "bangla_pronunciation": "নৈতিকতা",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "এআই, কাজ ও সমাজের নৈতিকতা",
+  "goal_bengali_md": "এআই ও স্বয়ংক্রিয়তা নিয়ে ন্যায্যতা, জবাবদিহি, মানবিক পর্যালোচনা ও কর্মসংস্থানের প্রভাব সম্পর্কে সূক্ষ্মভাবে হিন্দিতে কথা বলা।",
+  "sentences": [
+    {
+      "id": "ch051_s01",
+      "target": "कृत्रिम बुद्धिमत्ता काम की गति बढ़ा सकती है।",
+      "romanization": "kritrim buddhimttaa kaam kii gti bddh'aa sktii hai /",
+      "bangla_pronunciation": "কৃত্রিম বুদ্ধিমত্তা কাম কী গতি বঢ়া সকতী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "कृत्रिम",
+          "bangla_pronunciation": "কৃত্রিম",
+          "separator_after": " "
+        },
+        {
+          "target": "बुद्धिमत्ता",
+          "bangla_pronunciation": "বুদ্ধিমত্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "गति",
+          "bangla_pronunciation": "গতি",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़ा",
+          "bangla_pronunciation": "বঢ়া",
+          "separator_after": " "
+        },
+        {
+          "target": "सकती",
+          "bangla_pronunciation": "সকতী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কৃত্রিম বুদ্ধিমত্তা কাজের গতি বাড়াতে পারে।"
+    },
+    {
+      "id": "ch051_s02",
+      "target": "लेकिन हर तेज़ समाधान न्यायपूर्ण नहीं होता।",
+      "romanization": "lekin hr tej' smaadhaan nyaaypuurnn nhiin hotaa /",
+      "bangla_pronunciation": "লেকিন হর তেজ সমাধান ন্যায়পূর্ণ নহীঁ হোতা।",
+      "word_pronunciations": [
+        {
+          "target": "लेकिन",
+          "bangla_pronunciation": "লেকিন",
+          "separator_after": " "
+        },
+        {
+          "target": "हर",
+          "bangla_pronunciation": "হর",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "समाधान",
+          "bangla_pronunciation": "সমাধান",
+          "separator_after": " "
+        },
+        {
+          "target": "न्यायपूर्ण",
+          "bangla_pronunciation": "ন্যায়পূর্ণ",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "होता।",
+          "bangla_pronunciation": "হোতা।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কিন্তু প্রতিটি দ্রুত সমাধান ন্যায়সঙ্গত হয় না।"
+    },
+    {
+      "id": "ch051_s03",
+      "target": "निर्णय लेने वाले मॉडल की सीमाएँ समझनी चाहिए।",
+      "romanization": "nirnny lene vaale monddl kii siimaaen smjhnii caahie /",
+      "bangla_pronunciation": "নির্ণয় লেনে বালে মডেল কী সীমায়েঁ সমঝনী চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "निर्णय",
+          "bangla_pronunciation": "নির্ণয়",
+          "separator_after": " "
+        },
+        {
+          "target": "लेने",
+          "bangla_pronunciation": "লেনে",
+          "separator_after": " "
+        },
+        {
+          "target": "वाले",
+          "bangla_pronunciation": "বালে",
+          "separator_after": " "
+        },
+        {
+          "target": "मॉडल",
+          "bangla_pronunciation": "মডেল",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "सीमाएँ",
+          "bangla_pronunciation": "সীমায়েঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "समझनी",
+          "bangla_pronunciation": "সমঝনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সিদ্ধান্ত নেওয়া মডেলের সীমাবদ্ধতা বোঝা উচিত।"
+    },
+    {
+      "id": "ch051_s04",
+      "target": "डेटा में पक्षपात हो तो परिणाम भी पक्षपाती होंगे।",
+      "romanization": "ddettaa men pksspaat ho to prinnaam bhii pksspaatii honge /",
+      "bangla_pronunciation": "ডেটা মেঁ পক্ষপাত হো তো পরিণাম ভী পক্ষপাতী হোংগে।",
+      "word_pronunciations": [
+        {
+          "target": "डेटा",
+          "bangla_pronunciation": "ডেটা",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "पक्षपात",
+          "bangla_pronunciation": "পক্ষপাত",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "परिणाम",
+          "bangla_pronunciation": "পরিণাম",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "पक्षपाती",
+          "bangla_pronunciation": "পক্ষপাতী",
+          "separator_after": " "
+        },
+        {
+          "target": "होंगे।",
+          "bangla_pronunciation": "হোংগে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডেটায় পক্ষপাত থাকলে ফলাফলও পক্ষপাতদুষ্ট হবে।"
+    },
+    {
+      "id": "ch051_s05",
+      "target": "कर्मचारी को मशीन से नहीं, कौशल से मजबूत बनाइए।",
+      "romanization": "krmcaarii ko mshiin se nhiin, kaushl se mjbuut bnaaie /",
+      "bangla_pronunciation": "কর্মচারী কো মশীন সে নহীঁ, কৌশল সে মজবূত বনাইয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "कर्मचारी",
+          "bangla_pronunciation": "কর্মচারী",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "मशीन",
+          "bangla_pronunciation": "মশীন",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं,",
+          "bangla_pronunciation": "নহীঁ,",
+          "separator_after": " "
+        },
+        {
+          "target": "कौशल",
+          "bangla_pronunciation": "কৌশল",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "मजबूत",
+          "bangla_pronunciation": "মজবূত",
+          "separator_after": " "
+        },
+        {
+          "target": "बनाइए।",
+          "bangla_pronunciation": "বনাইয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কর্মীকে মেশিন দিয়ে নয়, দক্ষতা দিয়ে শক্তিশালী করুন।"
+    },
+    {
+      "id": "ch051_s06",
+      "target": "स्वचालन का लाभ सब लोगों तक पहुँचना चाहिए।",
+      "romanization": "svcaaln kaa laabh sb logon tk phuncnaa caahie /",
+      "bangla_pronunciation": "স্বচালন কা লাভ সব লোগোঁ তক পহুঁচনা চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "स्वचालन",
+          "bangla_pronunciation": "স্বচালন",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "लाभ",
+          "bangla_pronunciation": "লাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "सब",
+          "bangla_pronunciation": "সব",
+          "separator_after": " "
+        },
+        {
+          "target": "लोगों",
+          "bangla_pronunciation": "লোগোঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "तक",
+          "bangla_pronunciation": "তক",
+          "separator_after": " "
+        },
+        {
+          "target": "पहुँचना",
+          "bangla_pronunciation": "পহুঁচনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্বয়ংক্রিয়তার সুফল সবার কাছে পৌঁছানো উচিত।"
+    },
+    {
+      "id": "ch051_s07",
+      "target": "किसी की निजी जानकारी बिना अनुमति उपयोग न करें।",
+      "romanization": "kisii kii nijii jaankaarii binaa anumti upyog n kren /",
+      "bangla_pronunciation": "কিসী কী নিজী জানকারী বিনা অনুমতী উপযোগ ন করেং।",
+      "word_pronunciations": [
+        {
+          "target": "किसी",
+          "bangla_pronunciation": "কিসী",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "निजी",
+          "bangla_pronunciation": "নিজী",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "separator_after": " "
+        },
+        {
+          "target": "बिना",
+          "bangla_pronunciation": "বিনা",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुमति",
+          "bangla_pronunciation": "অনুমতী",
+          "separator_after": " "
+        },
+        {
+          "target": "उपयोग",
+          "bangla_pronunciation": "উপযোগ",
+          "separator_after": " "
+        },
+        {
+          "target": "न",
+          "bangla_pronunciation": "ন",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কারও ব্যক্তিগত তথ্য অনুমতি ছাড়া ব্যবহার করবেন না।"
+    },
+    {
+      "id": "ch051_s08",
+      "target": "तकनीक का उद्देश्य मानव क्षमता को बढ़ाना होना चाहिए।",
+      "romanization": "tkniik kaa uddeshy maanv kssmtaa ko bddh'aanaa honaa caahie /",
+      "bangla_pronunciation": "তকনীক কা উদ্দেশ্য মানব ক্ষমতা কো বঢ়ানা হোনা চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "तकनीक",
+          "bangla_pronunciation": "তকনীক",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "उद्देश्य",
+          "bangla_pronunciation": "উদ্দেশ্য",
+          "separator_after": " "
+        },
+        {
+          "target": "मानव",
+          "bangla_pronunciation": "মানব",
+          "separator_after": " "
+        },
+        {
+          "target": "क्षमता",
+          "bangla_pronunciation": "ক্ষমতা",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़ाना",
+          "bangla_pronunciation": "বঢ়ানা",
+          "separator_after": " "
+        },
+        {
+          "target": "होना",
+          "bangla_pronunciation": "হোনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রযুক্তির উদ্দেশ্য মানবিক সক্ষমতা বাড়ানো হওয়া উচিত।"
+    },
+    {
+      "id": "ch051_s09",
+      "target": "जवाबदेही केवल सॉफ्टवेयर पर नहीं डाली जा सकती।",
+      "romanization": "jvaabdehii kevl sonphttveyr pr nhiin ddaalii jaa sktii /",
+      "bangla_pronunciation": "জবাবদেহী কেবল সফটওয়্যার পর নহীঁ ডালী জা সকতী।",
+      "word_pronunciations": [
+        {
+          "target": "जवाबदेही",
+          "bangla_pronunciation": "জবাবদেহী",
+          "separator_after": " "
+        },
+        {
+          "target": "केवल",
+          "bangla_pronunciation": "কেবল",
+          "separator_after": " "
+        },
+        {
+          "target": "सॉफ्टवेयर",
+          "bangla_pronunciation": "সফটওয়্যার",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "डाली",
+          "bangla_pronunciation": "ডালী",
+          "separator_after": " "
+        },
+        {
+          "target": "जा",
+          "bangla_pronunciation": "জা",
+          "separator_after": " "
+        },
+        {
+          "target": "सकती।",
+          "bangla_pronunciation": "সকতী।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "জবাবদিহি শুধু সফটওয়্যারের ওপর চাপানো যায় না।"
+    },
+    {
+      "id": "ch051_s10",
+      "target": "संस्था को स्पष्ट नियम और अपील की व्यवस्था चाहिए।",
+      "romanization": "snsthaa ko spsstt niym aur apiil kii vyvsthaa caahie /",
+      "bangla_pronunciation": "সংস্থা কো স্পষ্ট নিযম ঔর আপীল কী ব্যবস্থা চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "संस्था",
+          "bangla_pronunciation": "সংস্থা",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "नियम",
+          "bangla_pronunciation": "নিযম",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "अपील",
+          "bangla_pronunciation": "আপীল",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "व्यवस्था",
+          "bangla_pronunciation": "ব্যবস্থা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রতিষ্ঠানের স্পষ্ট নিয়ম ও আপিলের ব্যবস্থা থাকা উচিত।"
+    },
+    {
+      "id": "ch051_s11",
+      "target": "एआई से बना उत्तर हमेशा सत्य नहीं मानना चाहिए।",
+      "romanization": "eaaii se bnaa uttr hmeshaa sty nhiin maannaa caahie /",
+      "bangla_pronunciation": "এআই সে বনা উত্তর হমেশা সত্য নহীঁ মাননা চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "एआई",
+          "bangla_pronunciation": "এআই",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "बना",
+          "bangla_pronunciation": "বনা",
+          "separator_after": " "
+        },
+        {
+          "target": "उत्तर",
+          "bangla_pronunciation": "উত্তর",
+          "separator_after": " "
+        },
+        {
+          "target": "हमेशा",
+          "bangla_pronunciation": "হমেশা",
+          "separator_after": " "
+        },
+        {
+          "target": "सत्य",
+          "bangla_pronunciation": "সত্য",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "मानना",
+          "bangla_pronunciation": "মাননা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এআই-তৈরি উত্তরকে সবসময় সত্য ধরে নেওয়া উচিত নয়।"
+    },
+    {
+      "id": "ch051_s12",
+      "target": "संवेदनशील फैसलों में मानवीय समीक्षा आवश्यक है।",
+      "romanization": "snvednshiil phaislon men maanviiy smiikssaa aavshyk hai /",
+      "bangla_pronunciation": "সংবেদনশীল ফৈসলোং মেঁ মানবীয় সমীক্ষা আবশ্যক হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "संवेदनशील",
+          "bangla_pronunciation": "সংবেদনশীল",
+          "separator_after": " "
+        },
+        {
+          "target": "फैसलों",
+          "bangla_pronunciation": "ফৈসলোং",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "मानवीय",
+          "bangla_pronunciation": "মানবীয়",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "separator_after": " "
+        },
+        {
+          "target": "आवश्यक",
+          "bangla_pronunciation": "আবশ্যক",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সংবেদনশীল সিদ্ধান্তে মানবিক পর্যালোচনা জরুরি।"
+    },
+    {
+      "id": "ch051_s13",
+      "target": "नौकरी बदलने पर पुनः प्रशिक्षण का अवसर दीजिए।",
+      "romanization": "naukrii bdlne pr punH prshikssnn kaa avsr diijie /",
+      "bangla_pronunciation": "নৌকরী বদলনে পর পুনঃ প্রশিক্ষণ কা অবসর দীজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "नौकरी",
+          "bangla_pronunciation": "নৌকরী",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलने",
+          "bangla_pronunciation": "বদলনে",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "पुनः",
+          "bangla_pronunciation": "পুনঃ",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रशिक्षण",
+          "bangla_pronunciation": "প্রশিক্ষণ",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "अवसर",
+          "bangla_pronunciation": "অবসর",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "চাকরি বদলালে পুনঃপ্রশিক্ষণের সুযোগ দিন।"
+    },
+    {
+      "id": "ch051_s14",
+      "target": "पारदर्शिता भरोसा बढ़ाती है, पर सब कुछ नहीं बताती।",
+      "romanization": "paardrshitaa bhrosaa bddh'aatii hai, pr sb kuch nhiin btaatii /",
+      "bangla_pronunciation": "পারদর্শিতা ভরোসা বঢ়াতী হ্যায়, পর সব কুছ নহীঁ বতাতী।",
+      "word_pronunciations": [
+        {
+          "target": "पारदर्शिता",
+          "bangla_pronunciation": "পারদর্শিতা",
+          "separator_after": " "
+        },
+        {
+          "target": "भरोसा",
+          "bangla_pronunciation": "ভরোসা",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़ाती",
+          "bangla_pronunciation": "বঢ়াতী",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হ্যায়,",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "सब",
+          "bangla_pronunciation": "সব",
+          "separator_after": " "
+        },
+        {
+          "target": "कुछ",
+          "bangla_pronunciation": "কুছ",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "बताती।",
+          "bangla_pronunciation": "বতাতী।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্বচ্ছতা আস্থা বাড়ায়, কিন্তু সবকিছু ব্যাখ্যা করে না।"
+    },
+    {
+      "id": "ch051_s15",
+      "target": "दक्षता और गरिमा के बीच संतुलन जरूरी है।",
+      "romanization": "dksstaa aur grimaa ke biic sntuln jruurii hai /",
+      "bangla_pronunciation": "দক্ষতা ঔর গরিমা কে বীচ সন্তুলন জরূরী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "दक्षता",
+          "bangla_pronunciation": "দক্ষতা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "गरिमा",
+          "bangla_pronunciation": "গরিমা",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "बीच",
+          "bangla_pronunciation": "বীচ",
+          "separator_after": " "
+        },
+        {
+          "target": "संतुलन",
+          "bangla_pronunciation": "সন্তুলন",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দক্ষতা ও মর্যাদার মধ্যে ভারসাম্য জরুরি।"
+    },
+    {
+      "id": "ch051_s16",
+      "target": "तकनीकी सुविधा कमजोर लोगों को बाहर न करे।",
+      "romanization": "tkniikii suvidhaa kmjor logon ko baahr n kre /",
+      "bangla_pronunciation": "তকনীকী সুবিধা কমজোর লোগোঁ কো বাহর ন করে।",
+      "word_pronunciations": [
+        {
+          "target": "तकनीकी",
+          "bangla_pronunciation": "তকনীকী",
+          "separator_after": " "
+        },
+        {
+          "target": "सुविधा",
+          "bangla_pronunciation": "সুবিধা",
+          "separator_after": " "
+        },
+        {
+          "target": "कमजोर",
+          "bangla_pronunciation": "কমজোর",
+          "separator_after": " "
+        },
+        {
+          "target": "लोगों",
+          "bangla_pronunciation": "লোগোঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "बाहर",
+          "bangla_pronunciation": "বাহর",
+          "separator_after": " "
+        },
+        {
+          "target": "न",
+          "bangla_pronunciation": "ন",
+          "separator_after": " "
+        },
+        {
+          "target": "करे।",
+          "bangla_pronunciation": "করে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রযুক্তিগত সুবিধা যেন দুর্বল মানুষকে বাদ না দেয়।"
+    },
+    {
+      "id": "ch051_s17",
+      "target": "एल्गोरिदम किसे लाभ देता है, यह प्रश्न पूछिए।",
+      "romanization": "elgoridm kise laabh detaa hai, yh prshn puuchie /",
+      "bangla_pronunciation": "অ্যালগোরিদম কিসে লাভ দেতা হ্যায়, ইয়হ প্রশ্ন পুছিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "एल्गोरिदम",
+          "bangla_pronunciation": "অ্যালগোরিদম",
+          "separator_after": " "
+        },
+        {
+          "target": "किसे",
+          "bangla_pronunciation": "কিসে",
+          "separator_after": " "
+        },
+        {
+          "target": "लाभ",
+          "bangla_pronunciation": "লাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "देता",
+          "bangla_pronunciation": "দেতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হ্যায়,",
+          "separator_after": " "
+        },
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रश्न",
+          "bangla_pronunciation": "প্রশ্ন",
+          "separator_after": " "
+        },
+        {
+          "target": "पूछिए।",
+          "bangla_pronunciation": "পুছিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অ্যালগরিদম কাকে সুবিধা দেয়—এই প্রশ্ন করুন।"
+    },
+    {
+      "id": "ch051_s18",
+      "target": "गलत निर्णय सुधारने का रास्ता पहले से तय हो।",
+      "romanization": "glt nirnny sudhaarne kaa raastaa phle se ty ho /",
+      "bangla_pronunciation": "গলত নির্ণয় সুধারনে কা রাস্তা পহলে সে তয হো।",
+      "word_pronunciations": [
+        {
+          "target": "गलत",
+          "bangla_pronunciation": "গলত",
+          "separator_after": " "
+        },
+        {
+          "target": "निर्णय",
+          "bangla_pronunciation": "নির্ণয়",
+          "separator_after": " "
+        },
+        {
+          "target": "सुधारने",
+          "bangla_pronunciation": "সুধারনে",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "रास्ता",
+          "bangla_pronunciation": "রাস্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয",
+          "separator_after": " "
+        },
+        {
+          "target": "हो।",
+          "bangla_pronunciation": "হো।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভুল সিদ্ধান্ত সংশোধনের পথ আগে থেকেই নির্ধারিত থাকুক।"
+    },
+    {
+      "id": "ch051_s19",
+      "target": "जिम्मेदार नवाचार समाज की चिंता को सुनता है।",
+      "romanization": "jimmedaar nvaacaar smaaj kii cintaa ko suntaa hai /",
+      "bangla_pronunciation": "জিম্মেদার নবাচার সমাজ কী চিংতা কো সুনতা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "जिम्मेदार",
+          "bangla_pronunciation": "জিম্মেদার",
+          "separator_after": " "
+        },
+        {
+          "target": "नवाचार",
+          "bangla_pronunciation": "নবাচার",
+          "separator_after": " "
+        },
+        {
+          "target": "समाज",
+          "bangla_pronunciation": "সমাজ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "चिंता",
+          "bangla_pronunciation": "চিংতা",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "सुनता",
+          "bangla_pronunciation": "সুনতা",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দায়িত্বশীল উদ্ভাবন সমাজের উদ্বেগ শোনে।"
+    },
+    {
+      "id": "ch051_s20",
+      "target": "भविष्य की तैयारी में नैतिक सोच भी शामिल है।",
+      "romanization": "bhvissy kii taiyaarii men naitik soc bhii shaamil hai /",
+      "bangla_pronunciation": "ভবিষ্য কী তৈযারী মেঁ নৈতিক সোচ ভী শামিল হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "भविष्य",
+          "bangla_pronunciation": "ভবিষ্য",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "तैयारी",
+          "bangla_pronunciation": "তৈযারী",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "नैतिक",
+          "bangla_pronunciation": "নৈতিক",
+          "separator_after": " "
+        },
+        {
+          "target": "सोच",
+          "bangla_pronunciation": "সোচ",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "शामिल",
+          "bangla_pronunciation": "শামিল",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভবিষ্যতের প্রস্তুতিতে নৈতিক চিন্তাও অন্তর্ভুক্ত।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "ch051_v01",
+      "target": "बुद्धिमत्ता",
+      "type": "শব্দ",
+      "romanization": "buddhimttaa",
+      "bangla_pronunciation": "বুদ্ধিমত্তা",
+      "word_pronunciations": [
+        {
+          "target": "बुद्धिमत्ता",
+          "bangla_pronunciation": "বুদ্ধিমত্তা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বুদ্ধিমত্তা",
+      "source_sentence_id": "ch051_s01",
+      "source_form": "बुद्धिमत्ता"
+    },
+    {
+      "id": "ch051_v02",
+      "target": "पक्षपात",
+      "type": "শব্দ",
+      "romanization": "pksspaat",
+      "bangla_pronunciation": "পক্ষপাত",
+      "word_pronunciations": [
+        {
+          "target": "पक्षपात",
+          "bangla_pronunciation": "পক্ষপাত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পক্ষপাত",
+      "source_sentence_id": "ch051_s04",
+      "source_form": "पक्षपात"
+    },
+    {
+      "id": "ch051_v03",
+      "target": "स्वचालन",
+      "type": "শব্দ",
+      "romanization": "svcaaln",
+      "bangla_pronunciation": "স্বচালন",
+      "word_pronunciations": [
+        {
+          "target": "स्वचालन",
+          "bangla_pronunciation": "স্বচালন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্বয়ংক্রিয়তা",
+      "source_sentence_id": "ch051_s06",
+      "source_form": "स्वचालन"
+    },
+    {
+      "id": "ch051_v04",
+      "target": "जवाबदेही",
+      "type": "শব্দ",
+      "romanization": "jvaabdehii",
+      "bangla_pronunciation": "জবাবদেহী",
+      "word_pronunciations": [
+        {
+          "target": "जवाबदेही",
+          "bangla_pronunciation": "জবাবদেহী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "জবাবদিহি",
+      "source_sentence_id": "ch051_s09",
+      "source_form": "जवाबदेही"
+    },
+    {
+      "id": "ch051_v05",
+      "target": "पारदर्शिता",
+      "type": "শব্দ",
+      "romanization": "paardrshitaa",
+      "bangla_pronunciation": "পারদর্শিতা",
+      "word_pronunciations": [
+        {
+          "target": "पारदर्शिता",
+          "bangla_pronunciation": "পারদর্শিতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্বচ্ছতা",
+      "source_sentence_id": "ch051_s14",
+      "source_form": "पारदर्शिता"
+    },
+    {
+      "id": "ch051_v06",
+      "target": "गरिमा",
+      "type": "শব্দ",
+      "romanization": "grimaa",
+      "bangla_pronunciation": "গরিমা",
+      "word_pronunciations": [
+        {
+          "target": "गरिमा",
+          "bangla_pronunciation": "গরিমা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মর্যাদা",
+      "source_sentence_id": "ch051_s15",
+      "source_form": "गरिमा"
+    },
+    {
+      "id": "ch051_v07",
+      "target": "एल्गोरिदम",
+      "type": "শব্দ",
+      "romanization": "elgoridm",
+      "bangla_pronunciation": "অ্যালগোরিদম",
+      "word_pronunciations": [
+        {
+          "target": "एल्गोरिदम",
+          "bangla_pronunciation": "অ্যালগোরিদম",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অ্যালগরিদম",
+      "source_sentence_id": "ch051_s17",
+      "source_form": "एल्गोरिदम"
+    },
+    {
+      "id": "ch051_v08",
+      "target": "नवाचार",
+      "type": "শব্দ",
+      "romanization": "nvaacaar",
+      "bangla_pronunciation": "নবাচার",
+      "word_pronunciations": [
+        {
+          "target": "नवाचार",
+          "bangla_pronunciation": "নবাচার",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "উদ্ভাবন",
+      "source_sentence_id": "ch051_s19",
+      "source_form": "नवाचार"
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "এআই, কাজ ও সমাজের নৈতিকতা — মিশ্র পাঠ",
+    "scene_summary": "একটি প্রতিষ্ঠানে এআই ব্যবহারের নীতি তৈরির বৈঠক।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "রিমা একটি প্রতিষ্ঠানের নতুন এআই নীতি নিয়ে বৈঠকে গেল। সে প্রথমেই বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "डेटा में पक्षपात हो तो परिणाम भी पक्षपाती होंगे।",
+        "bangla_pronunciation": "ডেটা মেঁ পক্ষপাত হো তো পরিণাম ভী পক্ষপাতী হোংগে।",
+        "word_pronunciations": [
+          {
+            "target": "डेटा",
+            "bangla_pronunciation": "ডেটা",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "पक्षपात",
+            "bangla_pronunciation": "পক্ষপাত",
+            "separator_after": " "
+          },
+          {
+            "target": "हो",
+            "bangla_pronunciation": "হো",
+            "separator_after": " "
+          },
+          {
+            "target": "तो",
+            "bangla_pronunciation": "তো",
+            "separator_after": " "
+          },
+          {
+            "target": "परिणाम",
+            "bangla_pronunciation": "পরিণাম",
+            "separator_after": " "
+          },
+          {
+            "target": "भी",
+            "bangla_pronunciation": "ভী",
+            "separator_after": " "
+          },
+          {
+            "target": "पक्षपाती",
+            "bangla_pronunciation": "পক্ষপাতী",
+            "separator_after": " "
+          },
+          {
+            "target": "होंगे।",
+            "bangla_pronunciation": "হোংগে।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " তাই শুধু গতি নয়, ন্যায্যতাও দেখতে হবে। পরে সে যোগ করল, "
+      },
+      {
+        "kind": "target",
+        "target": "संवेदनशील फैसलों में मानवीय समीक्षा आवश्यक है।",
+        "bangla_pronunciation": "সংবেদনশীল ফৈসলোং মেঁ মানবীয় সমীক্ষা আবশ্যক হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "संवेदनशील",
+            "bangla_pronunciation": "সংবেদনশীল",
+            "separator_after": " "
+          },
+          {
+            "target": "फैसलों",
+            "bangla_pronunciation": "ফৈসলোং",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "मानवीय",
+            "bangla_pronunciation": "মানবীয়",
+            "separator_after": " "
+          },
+          {
+            "target": "समीक्षा",
+            "bangla_pronunciation": "সমীক্ষা",
+            "separator_after": " "
+          },
+          {
+            "target": "आवश्यक",
+            "bangla_pronunciation": "আবশ্যক",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " ব্যবস্থাপকরা সম্মত হলেন যে প্রযুক্তি মানুষের বিকল্প নয়। শেষে নীতির মূল কথা হলো, "
+      },
+      {
+        "kind": "target",
+        "target": "भविष्य की तैयारी में नैतिक सोच भी शामिल है।",
+        "bangla_pronunciation": "ভবিষ্য কী তৈযারী মেঁ নৈতিক সোচ ভী শামিল হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "भविष्य",
+            "bangla_pronunciation": "ভবিষ্য",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "separator_after": " "
+          },
+          {
+            "target": "तैयारी",
+            "bangla_pronunciation": "তৈযারী",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "नैतिक",
+            "bangla_pronunciation": "নৈতিক",
+            "separator_after": " "
+          },
+          {
+            "target": "सोच",
+            "bangla_pronunciation": "সোচ",
+            "separator_after": " "
+          },
+          {
+            "target": "भी",
+            "bangla_pronunciation": "ভী",
+            "separator_after": " "
+          },
+          {
+            "target": "शामिल",
+            "bangla_pronunciation": "শামিল",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "রিমা একটি প্রতিষ্ঠানের নতুন এআই নীতি নিয়ে বৈঠকে গেল। সে প্রথমেই বলল, **डेटा** (ডেটা) **में** (মেঁ) **पक्षपात** (পক্ষপাত) **हो** (হো) **तो** (তো) **परिणाम** (পরিণাম) **भी** (ভী) **पक्षपाती** (পক্ষপাতী) **होंगे।** (হোংগে।) তাই শুধু গতি নয়, ন্যায্যতাও দেখতে হবে। পরে সে যোগ করল, **संवेदनशील** (সংবেদনশীল) **फैसलों** (ফৈসলোং) **में** (মেঁ) **मानवीय** (মানবীয়) **समीक्षा** (সমীক্ষা) **आवश्यक** (আবশ্যক) **है।** (হ্যায়।) ব্যবস্থাপকরা সম্মত হলেন যে প্রযুক্তি মানুষের বিকল্প নয়। শেষে নীতির মূল কথা হলো, **भविष्य** (ভবিষ্য) **की** (কী) **तैयारी** (তৈযারী) **में** (মেঁ) **नैतिक** (নৈতিক) **सोच** (সোচ) **भी** (ভী) **शामिल** (শামিল) **है।** (হ্যায়।)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "এআই, কাজ ও সমাজের নৈতিকতা — ছোট হিন্দি পাঠ",
+    "scene_summary": "একটি কোম্পানি নতুন এআই মডেল গ্রহণের আগে ঝুঁকি পর্যালোচনা করছে।",
+    "lines": [
+      {
+        "target": "एक कंपनी ने नया एआई मॉडल अपनाया।",
+        "bangla_pronunciation": "এক কংপনী নে নয়া এআই মডেল অপনাযা।",
+        "word_pronunciations": [
+          {
+            "target": "एक",
+            "bangla_pronunciation": "এক",
+            "separator_after": " "
+          },
+          {
+            "target": "कंपनी",
+            "bangla_pronunciation": "কংপনী",
+            "separator_after": " "
+          },
+          {
+            "target": "ने",
+            "bangla_pronunciation": "নে",
+            "separator_after": " "
+          },
+          {
+            "target": "नया",
+            "bangla_pronunciation": "নয়া",
+            "separator_after": " "
+          },
+          {
+            "target": "एआई",
+            "bangla_pronunciation": "এআই",
+            "separator_after": " "
+          },
+          {
+            "target": "मॉडल",
+            "bangla_pronunciation": "মডেল",
+            "separator_after": " "
+          },
+          {
+            "target": "अपनाया।",
+            "bangla_pronunciation": "অপনাযা।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "टीम ने पहले उसके परिणामों की समीक्षा की।",
+        "bangla_pronunciation": "টীম নে পহলে উসকে পরিণামোং কী সমীক্ষা কী।",
+        "word_pronunciations": [
+          {
+            "target": "टीम",
+            "bangla_pronunciation": "টীম",
+            "separator_after": " "
+          },
+          {
+            "target": "ने",
+            "bangla_pronunciation": "নে",
+            "separator_after": " "
+          },
+          {
+            "target": "पहले",
+            "bangla_pronunciation": "পহলে",
+            "separator_after": " "
+          },
+          {
+            "target": "उसके",
+            "bangla_pronunciation": "উসকে",
+            "separator_after": " "
+          },
+          {
+            "target": "परिणामों",
+            "bangla_pronunciation": "পরিণামোং",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "separator_after": " "
+          },
+          {
+            "target": "समीक्षा",
+            "bangla_pronunciation": "সমীক্ষা",
+            "separator_after": " "
+          },
+          {
+            "target": "की।",
+            "bangla_pronunciation": "কী।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "दो कर्मचारियों ने पक्षपात का जोखिम बताया।",
+        "bangla_pronunciation": "দো কর্মচারিযোং নে পক্ষপাত কা জোখিম বতাযা।",
+        "word_pronunciations": [
+          {
+            "target": "दो",
+            "bangla_pronunciation": "দো",
+            "separator_after": " "
+          },
+          {
+            "target": "कर्मचारियों",
+            "bangla_pronunciation": "কর্মচারিযোং",
+            "separator_after": " "
+          },
+          {
+            "target": "ने",
+            "bangla_pronunciation": "নে",
+            "separator_after": " "
+          },
+          {
+            "target": "पक्षपात",
+            "bangla_pronunciation": "পক্ষপাত",
+            "separator_after": " "
+          },
+          {
+            "target": "का",
+            "bangla_pronunciation": "কা",
+            "separator_after": " "
+          },
+          {
+            "target": "जोखिम",
+            "bangla_pronunciation": "জোখিম",
+            "separator_after": " "
+          },
+          {
+            "target": "बताया।",
+            "bangla_pronunciation": "বতাযা।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "प्रबंधक ने मानवीय जांच जारी रखने का फैसला किया।",
+        "bangla_pronunciation": "প্রবংধক নে মানবীয় জাংচ জারী রখনে কা ফৈসলা কিযা।",
+        "word_pronunciations": [
+          {
+            "target": "प्रबंधक",
+            "bangla_pronunciation": "প্রবংধক",
+            "separator_after": " "
+          },
+          {
+            "target": "ने",
+            "bangla_pronunciation": "নে",
+            "separator_after": " "
+          },
+          {
+            "target": "मानवीय",
+            "bangla_pronunciation": "মানবীয়",
+            "separator_after": " "
+          },
+          {
+            "target": "जांच",
+            "bangla_pronunciation": "জাংচ",
+            "separator_after": " "
+          },
+          {
+            "target": "जारी",
+            "bangla_pronunciation": "জারী",
+            "separator_after": " "
+          },
+          {
+            "target": "रखने",
+            "bangla_pronunciation": "রখনে",
+            "separator_after": " "
+          },
+          {
+            "target": "का",
+            "bangla_pronunciation": "কা",
+            "separator_after": " "
+          },
+          {
+            "target": "फैसला",
+            "bangla_pronunciation": "ফৈসলা",
+            "separator_after": " "
+          },
+          {
+            "target": "किया।",
+            "bangla_pronunciation": "কিযা।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "इससे काम तेज़ रहा और भरोसा भी बचा।",
+        "bangla_pronunciation": "ইসসে কাম তেজ রহা ঔর ভরোসা ভী বচা।",
+        "word_pronunciations": [
+          {
+            "target": "इससे",
+            "bangla_pronunciation": "ইসসে",
+            "separator_after": " "
+          },
+          {
+            "target": "काम",
+            "bangla_pronunciation": "কাম",
+            "separator_after": " "
+          },
+          {
+            "target": "तेज़",
+            "bangla_pronunciation": "তেজ",
+            "separator_after": " "
+          },
+          {
+            "target": "रहा",
+            "bangla_pronunciation": "রহা",
+            "separator_after": " "
+          },
+          {
+            "target": "और",
+            "bangla_pronunciation": "ঔর",
+            "separator_after": " "
+          },
+          {
+            "target": "भरोसा",
+            "bangla_pronunciation": "ভরোসা",
+            "separator_after": " "
+          },
+          {
+            "target": "भी",
+            "bangla_pronunciation": "ভী",
+            "separator_after": " "
+          },
+          {
+            "target": "बचा।",
+            "bangla_pronunciation": "বচা।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "এক কংপনী নে নয়া এআই মডেল অপনাযা। টীম নে পহলে উসকে পরিণামোং কী সমীক্ষা কী। দো কর্মচারিযোং নে পক্ষপাত কা জোখিম বতাযা। প্রবংধক নে মানবীয় জাংচ জারী রখনে কা ফৈসলা কিযা। ইসসে কাম তেজ রহা ঔর ভরোসা ভী বচা।",
+    "meaning_bengali_md": "একটি কোম্পানি নতুন এআই মডেল গ্রহণ করল। দল প্রথমে তার ফলাফল পর্যালোচনা করল। দুই কর্মী পক্ষপাতের ঝুঁকি উল্লেখ করল। ব্যবস্থাপক মানবিক যাচাই চালিয়ে যাওয়ার সিদ্ধান্ত নিলেন। এতে কাজ দ্রুত রইল এবং আস্থাও বজায় থাকল।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_pr",
+      "mode": "review",
+      "target": "प्र",
+      "bangla_pronunciation": "প্র",
+      "explanation_bengali_md": "এই যুক্তরূপটি চিনুন; উচ্চারণে `প্র`-এর কাছাকাছি শোনা যায়।",
+      "practice_bengali_md": "কার্ডের যুক্তরূপ দেখে `প্র` উচ্চারণ করুন এবং অধ্যায়ের শব্দে মিলটি খুঁজুন।"
+    },
+    {
+      "item_id": "dev_tr",
+      "mode": "review",
+      "target": "त्र",
+      "bangla_pronunciation": "ত্র",
+      "explanation_bengali_md": "এই যুক্তরূপটি চিনুন; উচ্চারণে `ত্র`-এর কাছাকাছি শোনা যায়।",
+      "practice_bengali_md": "কার্ডের যুক্তরূপ দেখে `ত্র` উচ্চারণ করুন এবং অধ্যায়ের শব্দে মিলটি খুঁজুন।"
+    },
+    {
+      "item_id": "dev_ksh",
+      "mode": "review",
+      "target": "क्ष",
+      "bangla_pronunciation": "ক্ষ",
+      "explanation_bengali_md": "এই যুক্তরূপটি চিনুন; উচ্চারণে `ক্ষ`-এর কাছাকাছি শোনা যায়।",
+      "practice_bengali_md": "কার্ডের যুক্তরূপ দেখে `ক্ষ` উচ্চারণ করুন এবং অধ্যায়ের শব্দে মিলটি খুঁজুন।"
+    },
+    {
+      "item_id": "dev_shr",
+      "mode": "review",
+      "target": "श्र",
+      "bangla_pronunciation": "শ্র",
+      "explanation_bengali_md": "এই যুক্তরূপটি চিনুন; উচ্চারণে `শ্র`-এর কাছাকাছি শোনা যায়।",
+      "practice_bengali_md": "কার্ডের যুক্তরূপ দেখে `শ্র` উচ্চারণ করুন এবং অধ্যায়ের শব্দে মিলটি খুঁজুন।"
+    },
+    {
+      "item_id": "dev_gy",
+      "mode": "review",
+      "target": "ज्ञ",
+      "bangla_pronunciation": "জ্ঞ",
+      "explanation_bengali_md": "এই যুক্তরূপটি চিনুন; উচ্চারণে `জ্ঞ`-এর কাছাকাছি শোনা যায়।",
+      "practice_bengali_md": "কার্ডের যুক্তরূপ দেখে `জ্ঞ` উচ্চারণ করুন এবং অধ্যায়ের শব্দে মিলটি খুঁজুন।"
+    }
+  ],
+  "number_practice": null,
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "এআই কীভাবে কাজে সহায়তা করতে পারে—এক বাক্যে বলুন।",
+      "model_target": "कृत्रिम बुद्धिमत्ता काम की गति बढ़ा सकती है।",
+      "model_bangla_pronunciation": "কৃত্রিম বুদ্ধিমত্তা কাম কী গতি বঢ়া সকতী হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "कृत्रिम",
+          "bangla_pronunciation": "কৃত্রিম",
+          "separator_after": " "
+        },
+        {
+          "target": "बुद्धिमत्ता",
+          "bangla_pronunciation": "বুদ্ধিমত্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "गति",
+          "bangla_pronunciation": "গতি",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़ा",
+          "bangla_pronunciation": "বঢ়া",
+          "separator_after": " "
+        },
+        {
+          "target": "सकती",
+          "bangla_pronunciation": "সকতী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "কৃত্রিম বুদ্ধিমত্তা কাজের গতি বাড়াতে পারে।"
+    },
+    {
+      "prompt_bengali_md": "দ্রুত সমাধানের সীমা সম্পর্কে সতর্কতা দিন।",
+      "model_target": "लेकिन हर तेज़ समाधान न्यायपूर्ण नहीं होता।",
+      "model_bangla_pronunciation": "লেকিন হর তেজ সমাধান ন্যায়পূর্ণ নহীঁ হোতা।",
+      "model_word_pronunciations": [
+        {
+          "target": "लेकिन",
+          "bangla_pronunciation": "লেকিন",
+          "separator_after": " "
+        },
+        {
+          "target": "हर",
+          "bangla_pronunciation": "হর",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "समाधान",
+          "bangla_pronunciation": "সমাধান",
+          "separator_after": " "
+        },
+        {
+          "target": "न्यायपूर्ण",
+          "bangla_pronunciation": "ন্যায়পূর্ণ",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "होता।",
+          "bangla_pronunciation": "হোতা।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "কিন্তু প্রতিটি দ্রুত সমাধান ন্যায়সঙ্গত হয় না।"
+    },
+    {
+      "prompt_bengali_md": "ডেটার পক্ষপাতের ফল ব্যাখ্যা করুন।",
+      "model_target": "डेटा में पक्षपात हो तो परिणाम भी पक्षपाती होंगे।",
+      "model_bangla_pronunciation": "ডেটা মেঁ পক্ষপাত হো তো পরিণাম ভী পক্ষপাতী হোংগে।",
+      "model_word_pronunciations": [
+        {
+          "target": "डेटा",
+          "bangla_pronunciation": "ডেটা",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "पक्षपात",
+          "bangla_pronunciation": "পক্ষপাত",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "परिणाम",
+          "bangla_pronunciation": "পরিণাম",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "पक्षपाती",
+          "bangla_pronunciation": "পক্ষপাতী",
+          "separator_after": " "
+        },
+        {
+          "target": "होंगे।",
+          "bangla_pronunciation": "হোংগে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ডেটায় পক্ষপাত থাকলে ফলাফলও পক্ষপাতদুষ্ট হবে।"
+    },
+    {
+      "prompt_bengali_md": "সংবেদনশীল সিদ্ধান্তে কী দরকার বলুন।",
+      "model_target": "संवेदनशील फैसलों में मानवीय समीक्षा आवश्यक है।",
+      "model_bangla_pronunciation": "সংবেদনশীল ফৈসলোং মেঁ মানবীয় সমীক্ষা আবশ্যক হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "संवेदनशील",
+          "bangla_pronunciation": "সংবেদনশীল",
+          "separator_after": " "
+        },
+        {
+          "target": "फैसलों",
+          "bangla_pronunciation": "ফৈসলোং",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "मानवीय",
+          "bangla_pronunciation": "মানবীয়",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "separator_after": " "
+        },
+        {
+          "target": "आवश्यक",
+          "bangla_pronunciation": "আবশ্যক",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "সংবেদনশীল সিদ্ধান্তে মানবিক পর্যালোচনা জরুরি।"
+    },
+    {
+      "prompt_bengali_md": "দক্ষতা ও মর্যাদার ভারসাম্য বলুন।",
+      "model_target": "दक्षता और गरिमा के बीच संतुलन जरूरी है।",
+      "model_bangla_pronunciation": "দক্ষতা ঔর গরিমা কে বীচ সন্তুলন জরূরী হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "दक्षता",
+          "bangla_pronunciation": "দক্ষতা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "गरिमा",
+          "bangla_pronunciation": "গরিমা",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "बीच",
+          "bangla_pronunciation": "বীচ",
+          "separator_after": " "
+        },
+        {
+          "target": "संतुलन",
+          "bangla_pronunciation": "সন্তুলন",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "দক্ষতা ও মর্যাদার মধ্যে ভারসাম্য জরুরি।"
+    },
+    {
+      "prompt_bengali_md": "ভবিষ্যৎ প্রস্তুতিতে নৈতিকতার ভূমিকা বলুন।",
+      "model_target": "भविष्य की तैयारी में नैतिक सोच भी शामिल है।",
+      "model_bangla_pronunciation": "ভবিষ্য কী তৈযারী মেঁ নৈতিক সোচ ভী শামিল হ্যায়।",
+      "model_word_pronunciations": [
+        {
+          "target": "भविष्य",
+          "bangla_pronunciation": "ভবিষ্য",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "तैयारी",
+          "bangla_pronunciation": "তৈযারী",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "नैतिक",
+          "bangla_pronunciation": "নৈতিক",
+          "separator_after": " "
+        },
+        {
+          "target": "सोच",
+          "bangla_pronunciation": "সোচ",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "शामिल",
+          "bangla_pronunciation": "শামিল",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ভবিষ্যতের প্রস্তুতিতে নৈতিক চিন্তাও অন্তর্ভুক্ত।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch051_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A bright modern South Asian office meeting where a mixed-gender team discusses an AI policy around a table, one person thoughtfully pointing to abstract bias-and-fairness diagrams with no legible markings, collaborative and ethical atmosphere, warm daylight, editorial illustration, uncluttered composition. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes; clean composition, culturally grounded South Asian setting."
+    },
+    {
+      "key": "ch051_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A small workplace review scene with a manager and two employees examining an abstract AI dashboard made of icons and shapes, one employee raising a concern while the manager listens, human oversight emphasized, warm natural light, bright editorial illustration. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes; clean composition, culturally grounded South Asian setting."
+    }
+  ],
+  "additional_practice": []
+}
