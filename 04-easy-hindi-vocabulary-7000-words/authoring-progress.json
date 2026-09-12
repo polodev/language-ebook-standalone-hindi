@@ -1,0 +1,119 @@
+{
+  "book": "04-easy-hindi-vocabulary-7000-words",
+  "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+  "branch": "content/04-easy-hindi-vocabulary-7000-words/ch081-ch090",
+  "requested_range": {
+    "start": "ch081",
+    "end": "ch090",
+    "count": 10,
+    "requested_ids": [
+      "ch081",
+      "ch082",
+      "ch083",
+      "ch084",
+      "ch085",
+      "ch086",
+      "ch087",
+      "ch088",
+      "ch089",
+      "ch090"
+    ]
+  },
+  "completed_ids": [
+    "ch081",
+    "ch082",
+    "ch083",
+    "ch084",
+    "ch085",
+    "ch086",
+    "ch087",
+    "ch088",
+    "ch089",
+    "ch090"
+  ],
+  "unfinished_ids": [],
+  "status": "batch_complete",
+  "inventory": {
+    "chapters": 10,
+    "reviewed_rosters": 10,
+    "vocabulary_targets": 300,
+    "essential_sentences": 200,
+    "bridge_readings": 10,
+    "pure_readings": 10,
+    "pure_reading_lines": 50,
+    "script_practice_items": 50,
+    "number_cards": 18,
+    "speaking_practice_tasks": 60,
+    "reading_image_prompts": 20
+  },
+  "checks_performed": [
+    {
+      "check": "authoring_source_review",
+      "result": "passed",
+      "details": "Read this book INSTRUCTIONS.md as authoritative, ch081-ch090 plans in book.json, chapter-template.json, supplementary.json, and current main."
+    },
+    {
+      "check": "assigned_file_presence_and_identity",
+      "result": "passed",
+      "details": "Verified ch081-ch090 chapter JSON and matching reviewed roster files at planned paths."
+    },
+    {
+      "check": "roster_and_reserved_ids",
+      "result": "passed",
+      "details": "30 reviewed roster items per chapter; 25 words plus expressions at positions 6, 12, 18, 24 and 30; contiguous unique IDs v02401-v02700."
+    },
+    {
+      "check": "required_sections_and_counts",
+      "result": "passed",
+      "details": "Exactly 20 essential sentences, 30 vocabulary entries, 5 script cards, 4-8 pure-reading lines, 6 speaking tasks and 2 image prompts per chapter; 18 number cards total."
+    },
+    {
+      "check": "pronunciation_and_word_reconstruction",
+      "result": "passed",
+      "details": "Repository validator and local audit verified annotated target strings reconstruct exactly from ordered word_pronunciations."
+    },
+    {
+      "check": "vocabulary_sources",
+      "result": "passed",
+      "details": "Verified every vocabulary source_sentence_id exists and source_form occurs in its cited sentence."
+    },
+    {
+      "check": "mixed_and_pure_readings",
+      "result": "passed",
+      "details": "Regenerated bridge text_md with scripts.manage.mixed_reading_markdown from canonical segments; validator verified mirrors. Pure readings have annotated lines plus full Bangla pronunciation and meaning."
+    },
+    {
+      "check": "bangla_prose_audit",
+      "result": "passed",
+      "details": "Local audit found no unannotated Devanagari examples in learner-facing Bangla prose fields."
+    },
+    {
+      "check": "image_prompt_keys_and_scene_match",
+      "result": "passed",
+      "details": "Two required reading-specific prompts per chapter; all subjects contain the required no-readable-text prohibition."
+    },
+    {
+      "check": "manual_language_review",
+      "result": "passed",
+      "details": "Reviewed B1 usefulness, Standard Hindi naturalness, Bengali meanings, pronunciation cues, source fit and reading coherence. Chapter status remains drafted, not independently reviewed."
+    },
+    {
+      "check": "python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words",
+      "result": "passed",
+      "details": "Ran successfully in GitHub Actions on a checkout of current main after restoring the authored chapters, reviewed rosters, and canonical bridge mirrors."
+    }
+  ],
+  "remaining_issues": [
+    "No known structural issue remains in ch081-ch090.",
+    "Chapter status is drafted, not independently reviewed.",
+    "Full-book validation, assembly, generated images, PDF/EPUB output and chapters outside ch081-ch090 were not attempted."
+  ],
+  "resume_point": "Requested ch081-ch090 batch is complete. Do not continue into ch091 or later chapters without a separate assignment.",
+  "updated_at_local": "2026-09-12T15:23+06:00",
+  "git_delivery": {
+    "target_branch": "content/04-easy-hindi-vocabulary-7000-words/ch081-ch090",
+    "base_branch": "main",
+    "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+    "force_push": false
+  }
+}
