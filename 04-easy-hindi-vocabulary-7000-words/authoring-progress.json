@@ -1,0 +1,98 @@
+{
+  "book": "04-easy-hindi-vocabulary-7000-words",
+  "requested_range": {
+    "start": "ch091",
+    "end": "ch100",
+    "count": 10
+  },
+  "completed_ids": [
+    "ch091",
+    "ch092",
+    "ch093",
+    "ch094",
+    "ch095",
+    "ch096",
+    "ch097",
+    "ch098",
+    "ch099",
+    "ch100"
+  ],
+  "unfinished_ids": [],
+  "status": "batch_complete",
+  "inventory": {
+    "chapters": 10,
+    "reviewed_rosters": 10,
+    "essential_sentences": 200,
+    "vocabulary_entries": 300,
+    "script_practice_items": 50,
+    "number_cards": 0,
+    "bridge_readings": 10,
+    "target_readings": 10,
+    "target_reading_lines": 50,
+    "speaking_practice_tasks": 60,
+    "image_prompts": 20
+  },
+  "checks_performed": [
+    {
+      "check": "authoring_source_review",
+      "result": "passed",
+      "details": "Read the current-main INSTRUCTIONS.md, book.json plans for ch091-ch100, chapter-template.json, supplementary.json, and scripts/manage.py validation contract. No existing PR or branch for this exact range was found."
+    },
+    {
+      "check": "roster_and_id_contract",
+      "result": "passed",
+      "details": "Verified reviewed rosters ch091-ch100 use reserved IDs v02701-v03000 exactly, 30 targets per chapter, expressions at positions 6, 12, 18, 24 and 30, and no duplicate target within this batch."
+    },
+    {
+      "check": "required_sections_and_counts",
+      "result": "passed",
+      "details": "Verified 20 essential sentences, 30 vocabulary entries, five script cards, one mixed reading, one 5-line pure reading, six speaking tasks and two image prompts per chapter. Number practice is null in all ten chapters, which is allowed by the plan."
+    },
+    {
+      "check": "pronunciation_and_reconstruction",
+      "result": "passed",
+      "details": "Verified every annotated target reconstructs exactly from ordered word_pronunciations and every Bangla pronunciation field contains Bangla script with no Devanagari-letter leakage; shared danda punctuation is excluded from that script audit."
+    },
+    {
+      "check": "vocabulary_sources",
+      "result": "passed",
+      "details": "Verified every vocabulary source_sentence_id exists, each source_form occurs in its cited sentence, and authored vocabulary target order exactly matches its reviewed roster."
+    },
+    {
+      "check": "mixed_and_pure_readings",
+      "result": "passed",
+      "details": "Verified every bridge reading has both Bangla and Hindi segments and text_md exactly matches the bold-word/pronunciation mirror. Every pure reading has five annotated lines, full Bangla pronunciation and full Bangla meaning, with each line at or below the 8-unit limit."
+    },
+    {
+      "check": "image_prompt_contract",
+      "result": "passed",
+      "details": "Verified exactly two prompts per chapter in bridge/target order with exact required keys and the phrase 'No readable text, no labels, no signage, no watermark.'"
+    },
+    {
+      "check": "local_validator_logic_mirror",
+      "result": "passed",
+      "details": "Ran a local structural pass mirroring the current-main scripts/manage.py contract against all ten chapter and roster objects. A direct repository checkout was unavailable because the shell cannot resolve github.com; the delivery workflow reruns the repository validator on GitHub before committing the batch."
+    }
+  ],
+  "remaining_issues": [
+    "Chapter status is drafted, not independently reviewed.",
+    "Full-book completion, full-book assembly, image generation, PDF/EPUB output, and chapters outside ch091-ch100 were not attempted."
+  ],
+  "resume_point": "Requested ch091-ch100 batch is complete. Do not continue automatically; begin only a separately assigned later range.",
+  "updated_at_local": "2026-09-12T02:16+06:00",
+  "branch": "content/04-easy-hindi-vocabulary-7000-words/ch091-ch100",
+  "base_commit": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+  "repository_validator": {
+    "command": "python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words",
+    "run": true,
+    "result": "passed on GitHub Actions repository checkout before delivery commit"
+  },
+  "git_delivery": {
+    "status": "delivered",
+    "target_branch": "content/04-easy-hindi-vocabulary-7000-words/ch091-ch100",
+    "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+    "delivery_content_commit_sha": "a2b7a1f98378bc6b97be2cfd043bcdc66f37ce5a",
+    "method": "GitHub Actions byte-exact transport from a temporary branch to the authorized content branch.",
+    "force_push": false
+  }
+}

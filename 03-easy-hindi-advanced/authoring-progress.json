@@ -1,0 +1,96 @@
+{
+  "book": "03-easy-hindi-advanced",
+  "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+  "requested_range": {
+    "start": "ch041",
+    "end": "ch050",
+    "count": 10
+  },
+  "completed_ids": [
+    "ch041",
+    "ch042",
+    "ch043",
+    "ch044",
+    "ch045",
+    "ch046",
+    "ch047",
+    "ch048",
+    "ch049",
+    "ch050"
+  ],
+  "unfinished_ids": [],
+  "status": "batch_complete",
+  "inventory": {
+    "chapters": 10,
+    "essential_sentences": 200,
+    "vocabulary_entries": 80,
+    "script_practice_items": 50,
+    "number_cards": 0,
+    "bridge_readings": 10,
+    "target_reading_lines": 50,
+    "speaking_practice_tasks": 60,
+    "image_prompts": 20
+  },
+  "checks_performed": [
+    {
+      "check": "authoring_source_review",
+      "result": "passed",
+      "details": "Read 03-easy-hindi-advanced/INSTRUCTIONS.md as the sole authoring guide, chapter-template.json, the current main book.json plans for ch041-ch050, and the current chapters directory. Main had no authored Advanced chapter JSON and no prior Advanced authoring-progress.json to preserve."
+    },
+    {
+      "check": "assigned_file_presence_and_identity",
+      "result": "passed",
+      "details": "Verified ch041.json through ch050.json all exist in the local authoring workspace, parse as JSON, and each chapter_id matches its planned path."
+    },
+    {
+      "check": "required_sections_and_counts",
+      "result": "passed",
+      "details": "Verified 20 sentences per chapter (200 total), 8 sentence-sourced vocabulary entries per chapter (80 total), 5 script cards per chapter (50 total), 5 pure-reading lines per chapter (50 total), 6 speaking tasks per chapter (60 total), and 2 reading image prompts per chapter (20 total). number_practice is null in all ten chapters, which is explicitly permitted."
+    },
+    {
+      "check": "pronunciation_and_word_reconstruction",
+      "result": "passed",
+      "details": "Verified title, sentence, vocabulary, mixed-reading target spans, pure-reading lines, and speaking models reconstruct exactly from ordered word_pronunciations. All pure-reading lines are at or below the Advanced 12-unit ceiling."
+    },
+    {
+      "check": "mixed_and_pure_readings",
+      "result": "passed",
+      "details": "Verified every bridge reading contains both Bangla and Hindi segments and text_md exactly mirrors those segments with every Hindi word bolded and immediately followed by Bangla pronunciation. Pure readings have 5 annotated lines, complete Bangla pronunciation, complete Bangla meaning, and differ from bridge readings."
+    },
+    {
+      "check": "vocabulary_sources",
+      "result": "passed",
+      "details": "Verified all 80 vocabulary source_sentence_id values exist and every source_form occurs exactly in its cited essential sentence."
+    },
+    {
+      "check": "bangla_prose_and_pronunciation_script_audit",
+      "result": "passed",
+      "details": "Scanned Bangla pronunciation and learner-facing Bangla prose fields; found no unannotated Devanagari letters or signs. Shared danda punctuation was treated as punctuation, not a native-word leak."
+    },
+    {
+      "check": "image_prompt_keys_and_scene_match",
+      "result": "passed",
+      "details": "Verified exactly two prompts in bridge/target order for every chapter, with exact required keys/readings, distinct reading-specific scenes, and the required “No readable text, no labels, no signage, no watermark.” text."
+    },
+    {
+      "check": "repository_validator",
+      "result": "passed",
+      "command": "python3 scripts/manage.py validate --book 03-easy-hindi-advanced",
+      "details": "Ran on the repository checkout in GitHub Actions; output: 03-easy-hindi-advanced: 10/60 authored chapters structurally valid; publication not assessed"
+    }
+  ],
+  "remaining_issues": [
+    "Chapter status is drafted, not independently reviewed.",
+    "Full-book validation/assembly and unrequested chapters were not attempted."
+  ],
+  "resume_point": "Requested ch041-ch050 batch is complete. Do not continue automatically beyond ch050.",
+  "updated_at_local": "2026-09-12T02:14+06:00",
+  "git_delivery": {
+    "status": "committed_to_review_branch",
+    "branch": "content/03-easy-hindi-advanced/ch041-ch050",
+    "target_branch": "main",
+    "base_main_sha": "d79a0fb7cd84c4adfe9f4036038ac9404c05fcb6",
+    "method": "GitHub Actions byte-exact transport from a temporary branch to the dedicated review branch after repository validation.",
+    "force_push": false
+  }
+}
