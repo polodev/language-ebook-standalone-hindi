@@ -1,0 +1,52 @@
+name: Diagnose vocabulary roster duplicates ch101-110
+
+on:
+  push:
+    branches:
+      - content/04-easy-hindi-vocabulary-7000-words/ch101-ch110
+    paths:
+      - '.github/transfer-vocab101-110/DIAGNOSE'
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/04-easy-hindi-vocabulary-7000-words/ch101-ch110
+          fetch-depth: 1
+      - name: List every duplicate roster target
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, re, unicodedata
+          from pathlib import Path
+
+          root = Path('04-easy-hindi-vocabulary-7000-words/rosters')
+          def nkey(p):
+              m = re.search(r'ch(\d+)', p.stem)
+              return int(m.group(1)) if m else 999999
+          def norm(s):
+              return ' '.join(unicodedata.normalize('NFC', s).casefold().split()).strip('.,!?।。！？')
+
+          seen = {}
+          duplicates = []
+          for path in sorted(root.glob('ch*.json'), key=nkey):
+              data = json.loads(path.read_text(encoding='utf-8'))
+              for item in data.get('items', []):
+                  key = norm(item['target'])
+                  here = (str(path), item.get('id'), item['target'])
+                  if key in seen:
+                      duplicates.append((seen[key], here))
+                  else:
+                      seen[key] = here
+          if duplicates:
+              print(f'DUPLICATE_COUNT={len(duplicates)}')
+              for first, second in duplicates:
+                  print('DUPLICATE:', first, '=>', second)
+              raise SystemExit(1)
+          print('DUPLICATE_COUNT=0')
+          PY
