@@ -43,6 +43,33 @@ jobs:
       - name: Generate chapters and rosters
         run: python 04-easy-hindi-vocabulary-7000-words/_tmp_ch141_150/generate.py
 
+      - name: Diagnose duplicate roster targets
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('04-easy-hindi-vocabulary-7000-words/rosters')
+          seen = {}
+          duplicates = []
+          for p in sorted(root.glob('ch*.json')):
+              try:
+                  data = json.loads(p.read_text(encoding='utf-8'))
+              except Exception:
+                  continue
+              for item in data.get('items', []):
+                  target = item.get('target')
+                  if not target:
+                      continue
+                  if target in seen:
+                      duplicates.append((target, seen[target], p.name))
+                  else:
+                      seen[target] = p.name
+          print('DUPLICATE_TARGETS_START')
+          for target, first, second in duplicates:
+              print(f'{target}\t{first}\t{second}')
+          print('DUPLICATE_TARGETS_END')
+          PY
+
       - name: Run repository validator
         run: python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words
 
