@@ -1,0 +1,78 @@
+name: Deliver Easy Hindi Vocabulary chapters 111-120 review branch
+
+on:
+  push:
+    branches:
+      - transport/04-easy-hindi-vocabulary/ch111-ch120-20260913
+    paths:
+      - '.github/transfer-vocab-ch111-ch120/READY'
+
+permissions:
+  contents: write
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout transport branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reconstruct authored batch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .github/transfer-vocab-ch111-ch120/part-* | base64 -d | xz -d > /tmp/ch111-ch120.tar
+          tar -tf /tmp/ch111-ch120.tar
+
+      - name: Apply to main snapshot, validate, commit, and push review branch
+        shell: bash
+        env:
+          DELIVERY_BRANCH: content/04-easy-hindi-vocabulary-7000-words/ch111-ch120
+          EXPECTED_MAIN: 9dbdc14b189c0d9094d3502ac616da544d24dfb1
+        run: |
+          set -euo pipefail
+          git fetch origin main "$DELIVERY_BRANCH"
+          test "$(git rev-parse origin/main)" = "$EXPECTED_MAIN"
+          test "$(git rev-parse origin/$DELIVERY_BRANCH)" = "$EXPECTED_MAIN"
+          git checkout -B delivery origin/main
+          tar -xf /tmp/ch111-ch120.tar
+
+          for n in {111..120}; do
+            chapter=$(printf '04-easy-hindi-vocabulary-7000-words/chapters/ch%03d.json' "$n")
+            roster=$(printf '04-easy-hindi-vocabulary-7000-words/rosters/ch%03d.json' "$n")
+            test -s "$chapter"
+            test -s "$roster"
+          done
+          test -s 04-easy-hindi-vocabulary-7000-words/authoring-progress.json
+
+          python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words | tee /tmp/validation.txt
+
+          git config user.name "polodev"
+          git config user.email "polodev10@gmail.com"
+          for n in {111..120}; do
+            git add "$(printf '04-easy-hindi-vocabulary-7000-words/chapters/ch%03d.json' "$n")"
+            git add "$(printf '04-easy-hindi-vocabulary-7000-words/rosters/ch%03d.json' "$n")"
+          done
+          git add 04-easy-hindi-vocabulary-7000-words/authoring-progress.json
+
+          git diff --cached --name-status
+          test "$(git diff --cached --name-only | wc -l)" -eq 21
+          test -z "$(git diff --cached --diff-filter=DR --name-only)"
+
+          added=$(git diff --cached --diff-filter=A --name-only | wc -l | tr -d ' ')
+          modified=$(git diff --cached --diff-filter=M --name-only | wc -l | tr -d ' ')
+          ts=$(TZ=Asia/Dhaka date '+%a %b %-d, %-I:%M%P')
+          git commit -m "$ts — ${modified} files modified, ${added} files added"
+          commit_sha=$(git rev-parse HEAD)
+          git push origin HEAD:"$DELIVERY_BRANCH"
+          git fetch origin "$DELIVERY_BRANCH"
+          test "$(git rev-parse origin/$DELIVERY_BRANCH)" = "$commit_sha"
+
+      - name: Record validator output
+        uses: actions/upload-artifact@v4
+        with:
+          name: vocabulary-ch111-ch120-validation
+          path: /tmp/validation.txt
+          if-no-files-found: error
