@@ -1,0 +1,111 @@
+name: Deliver vocabulary chapters 201-210 to PR branch
+
+on:
+  push:
+    branches:
+      - chatgpt-transfer-vocab-ch201-ch210-20260913
+    paths:
+      - '.github/transfer/ch201-210/READY'
+
+permissions:
+  contents: write
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout transfer branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reconstruct transfer archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .github/transfer/ch201-210/ch201-210.part-* | base64 -d | xz -d > /tmp/ch201-210.tar
+          echo 'f104a7f1c85ba4d9c195cdb5e387c4aabf58908a155f379b3b3af231afa1f42f  /tmp/ch201-210.tar.xz' > /tmp/expected.sha256
+          xz -9 -c /tmp/ch201-210.tar > /tmp/ch201-210.tar.xz
+          sha256sum -c /tmp/expected.sha256
+          tar -tf /tmp/ch201-210.tar
+
+      - name: Extract on exact main and run repository validator
+        shell: bash
+        env:
+          EXPECTED_MAIN: 9dbdc14b189c0d9094d3502ac616da544d24dfb1
+          BOOK: 04-easy-hindi-vocabulary-7000-words
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          test "$(git rev-parse origin/main)" = "$EXPECTED_MAIN"
+          git checkout -B delivery origin/main
+          if test -f "$BOOK/authoring-progress.json"; then
+            cp "$BOOK/authoring-progress.json" /tmp/prior-progress.json
+          fi
+          tar -xf /tmp/ch201-210.tar -C "$BOOK"
+          for n in {201..210}; do
+            c=$(printf '%s/chapters/ch%03d.json' "$BOOK" "$n")
+            r=$(printf '%s/rosters/ch%03d.json' "$BOOK" "$n")
+            test -s "$c"
+            test -s "$r"
+          done
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          book = Path('04-easy-hindi-vocabulary-7000-words')
+          dest = book / 'authoring-progress.json'
+          current = json.loads(dest.read_text(encoding='utf-8'))
+          prior_path = Path('/tmp/prior-progress.json')
+          if prior_path.exists():
+              current['preserved_prior_progress_checkpoint'] = json.loads(prior_path.read_text(encoding='utf-8'))
+          current['git_delivery'] = {
+              'status': 'validation_in_progress',
+              'target_branch': 'content/04-easy-hindi-vocabulary-7000-words/ch201-ch210',
+              'base_main_sha': '9dbdc14b189c0d9094d3502ac616da544d24dfb1',
+              'method': 'GitHub Actions byte-exact transport to a dedicated PR branch; no force push.'
+          }
+          dest.write_text(json.dumps(current, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+          validation_output=$(python3 scripts/manage.py validate --book "$BOOK")
+          printf '%s\n' "$validation_output"
+          VALIDATION_OUTPUT="$validation_output" python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path('04-easy-hindi-vocabulary-7000-words/authoring-progress.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          for item in data.get('checks_performed', []):
+              if item.get('check') == 'repository_validator':
+                  item['result'] = 'passed'
+                  item['details'] = 'Executed on a clean GitHub Actions checkout against current main. ' + os.environ['VALIDATION_OUTPUT'].strip()
+          data['git_delivery']['status'] = 'validated_branch_commit_pending'
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+
+      - name: Commit and push dedicated delivery branch
+        shell: bash
+        env:
+          BOOK: 04-easy-hindi-vocabulary-7000-words
+          TARGET_BRANCH: content/04-easy-hindi-vocabulary-7000-words/ch201-ch210
+        run: |
+          set -euo pipefail
+          git config user.name "polodev"
+          git config user.email "polodev10@gmail.com"
+          for n in {201..210}; do
+            git add "$(printf '%s/chapters/ch%03d.json' "$BOOK" "$n")"
+            git add "$(printf '%s/rosters/ch%03d.json' "$BOOK" "$n")"
+          done
+          git add "$BOOK/authoring-progress.json"
+          git diff --cached --name-status
+          test "$(git diff --cached --name-only | wc -l)" -eq 21
+          test "$(git diff --cached --diff-filter=A --name-only | wc -l)" -eq 20
+          test "$(git diff --cached --diff-filter=M --name-only | wc -l)" -eq 1
+          test -z "$(git diff --cached --diff-filter=DR --name-only)"
+          added=$(git diff --cached --diff-filter=A --name-only | wc -l)
+          modified=$(git diff --cached --diff-filter=M --name-only | wc -l)
+          ts=$(TZ=Asia/Dhaka date '+%Y-%m-%d %H:%M +06:00')
+          git commit -m "$ts | vocabulary ch201-ch210 | ${added} files added, ${modified} file modified"
+          commit_sha=$(git rev-parse HEAD)
+          git push origin "HEAD:$TARGET_BRANCH"
+          git fetch origin "$TARGET_BRANCH"
+          test "$(git rev-parse FETCH_HEAD)" = "$commit_sha"
+          git push origin --delete chatgpt-transfer-vocab-ch201-ch210-20260913 || true
