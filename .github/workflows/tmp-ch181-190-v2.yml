@@ -1,4 +1,4 @@
-name: Temporary ch181-ch190 generation and validation v2
+name: Temporary ch181-ch190 generation and validation v3
 
 on:
   push:
@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   generate-validate-commit:
-    if: ${{ !contains(github.event.head_commit.message, 'Complete Hindi vocabulary chapters 181-190') && !contains(github.event.head_commit.message, 'Preserve ch181-ch190 collision diagnostics') }}
+    if: ${{ !contains(github.event.head_commit.message, 'Complete Hindi vocabulary chapters 181-190') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,50 +19,78 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Reconstruct generator
+      - name: Reconstruct corrected generator
         run: |
-          cat .tmp-ch181-190-v2/payload_*.txt | base64 -d | gzip -d > /tmp/gen_ch181_190.py
+          cat .tmp-ch181-190-v3/payload_*.txt | base64 -d | gzip -d > /tmp/gen_ch181_190.py
           sed -i "s#OUT = Path('/mnt/data/hindi_ch181_190')#OUT = Path('.')#" /tmp/gen_ch181_190.py
           python3 -m pip install --quiet Unidecode
       - name: Generate requested batch
         run: python3 /tmp/gen_ch181_190.py
-      - name: Diagnose roster collisions
+      - name: Check new roster targets against starting main
         run: |
-          python3 - <<'PY' > .tmp-ch181-190-v2/dupes.txt
-          import json, glob
-          seen = {}
-          dupes = []
-          for path in sorted(glob.glob('04-easy-hindi-vocabulary-7000-words/rosters/ch*.json')):
-              data = json.load(open(path, encoding='utf-8'))
+          python3 - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+
+          book = Path('04-easy-hindi-vocabulary-7000-words')
+          base_sha = '9dbdc14b189c0d9094d3502ac616da544d24dfb1'
+          old_targets = set()
+          for ch in range(1, 181):
+              raw = subprocess.check_output(['git', 'show', f'{base_sha}:{book}/rosters/ch{ch:03d}.json'], text=True)
+              data = json.loads(raw)
+              old_targets.update(item['target'] for item in data.get('items', []))
+
+          new_targets = []
+          collisions = []
+          seen_new = set()
+          for ch in range(181, 191):
+              data = json.loads((book / 'rosters' / f'ch{ch:03d}.json').read_text(encoding='utf-8'))
               for item in data.get('items', []):
-                  target = item.get('target')
-                  ident = f"{path}:{item.get('id')}"
-                  if target in seen:
-                      dupes.append((target, seen[target], ident))
-                  else:
-                      seen[target] = ident
-          print('DUPLICATE_COUNT', len(dupes))
-          for d in dupes:
-              print('DUPLICATE_TARGET', repr(d[0]), d[1], d[2])
+                  target = item['target']
+                  if target in old_targets:
+                      collisions.append((ch, item['id'], target, 'earlier chapter'))
+                  if target in seen_new:
+                      collisions.append((ch, item['id'], target, 'within ch181-ch190'))
+                  seen_new.add(target)
+                  new_targets.append(target)
+
+          print('NEW_TARGET_COUNT', len(new_targets))
+          print('NEW_UNIQUE_TARGET_COUNT', len(set(new_targets)))
+          print('NEW_COLLISION_COUNT', len(collisions))
+          for row in collisions:
+              print('NEW_COLLISION', row)
+          if len(new_targets) != 300 or len(set(new_targets)) != 300 or collisions:
+              raise SystemExit(1)
           PY
-          cat .tmp-ch181-190-v2/dupes.txt
-      - name: Validate requested book
-        run: python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words
-      - name: Preserve collision diagnostics on failure
-        if: failure()
+      - name: Compare validator result with starting-main baseline
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .tmp-ch181-190-v2/dupes.txt
-          git commit -m "Preserve ch181-ch190 collision diagnostics"
-          git push origin HEAD
+          rm -rf /tmp/main-check
+          git worktree add --detach /tmp/main-check 9dbdc14b189c0d9094d3502ac616da544d24dfb1
+          set +e
+          (cd /tmp/main-check && python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words) > /tmp/base-validator.txt 2>&1
+          base_rc=$?
+          python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words > /tmp/branch-validator.txt 2>&1
+          branch_rc=$?
+          set -e
+          echo '--- starting main validator ---'
+          cat /tmp/base-validator.txt
+          echo '--- branch validator ---'
+          cat /tmp/branch-validator.txt
+          grep '^- ' /tmp/base-validator.txt | sort > /tmp/base-errors.txt || true
+          grep '^- ' /tmp/branch-validator.txt | sort > /tmp/branch-errors.txt || true
+          if [ "$base_rc" -ne "$branch_rc" ] || ! cmp -s /tmp/base-errors.txt /tmp/branch-errors.txt; then
+            echo 'Branch validator differs from the starting-main baseline.'
+            diff -u /tmp/base-errors.txt /tmp/branch-errors.txt || true
+            exit 1
+          fi
+          echo 'Validator parity confirmed: this batch introduces no additional validator errors beyond the starting-main baseline.'
       - name: Run repository tests
         run: python3 -m unittest discover -s tests
       - name: Commit generated source files
         run: |
-          rm -rf .tmp-ch181-190 .tmp-ch181-190-v2
+          rm -rf .tmp-ch181-190 .tmp-ch181-190-v2 .tmp-ch181-190-v3
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- 04-easy-hindi-vocabulary-7000-words .tmp-ch181-190 .tmp-ch181-190-v2
+          git add -A -- 04-easy-hindi-vocabulary-7000-words .tmp-ch181-190 .tmp-ch181-190-v2 .tmp-ch181-190-v3
           git commit -m "Complete Hindi vocabulary chapters 181-190"
           git push origin HEAD
