@@ -1,0 +1,64 @@
+name: Temporary author Hindi vocabulary ch141-150
+
+on:
+  push:
+    branches:
+      - 'content/04-easy-hindi-vocabulary-7000-words/ch141-ch150'
+    paths:
+      - '04-easy-hindi-vocabulary-7000-words/_tmp_ch141_150/**'
+      - '.github/workflows/tmp-author-ch141-150.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  author-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout batch branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install generator dependency
+        run: python -m pip install Unidecode
+
+      - name: Generate chapters and rosters
+        run: python 04-easy-hindi-vocabulary-7000-words/_tmp_ch141_150/generate.py
+
+      - name: Run repository validator
+        run: python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words
+
+      - name: Record successful repository validation
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          p = Path('04-easy-hindi-vocabulary-7000-words/authoring-progress.json')
+          d = json.loads(p.read_text(encoding='utf-8'))
+          for check in d['checks_performed']:
+              if check.get('check') == 'repository_validator':
+                  check['result'] = 'passed'
+                  check['details'] = 'Repository validator passed in GitHub Actions before the source commit.'
+          d['updated_at_local'] = datetime.now(ZoneInfo('Asia/Dhaka')).isoformat(timespec='minutes')
+          p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+
+      - name: Commit generated source files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add 04-easy-hindi-vocabulary-7000-words/chapters/ch1{41..50}.json
+          git add 04-easy-hindi-vocabulary-7000-words/rosters/ch1{41..50}.json
+          git add 04-easy-hindi-vocabulary-7000-words/authoring-progress.json
+          count=$(git diff --cached --name-only | wc -l | tr -d ' ')
+          stamp=$(TZ=Asia/Dhaka date '+%Y-%m-%d %H:%M %z')
+          git commit -m "content: vocabulary ch141-ch150 ${stamp} (${count} files)"
+          git push origin HEAD
