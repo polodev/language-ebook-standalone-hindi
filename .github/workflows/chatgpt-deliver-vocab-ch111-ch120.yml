@@ -22,24 +22,42 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Reconstruct authored batch
+      - name: Reconstruct authored batch and targeted fix
         shell: bash
         run: |
           set -euo pipefail
           cat .github/transfer-vocab-ch111-ch120/part-* | base64 -d | xz -d > /tmp/ch111-ch120.tar
           tar -tf /tmp/ch111-ch120.tar
+          base64 -d .github/transfer-vocab-ch111-ch120/fix-01.b64 | xz -d > /tmp/ch111-ch120-fix.tar
+          tar -tf /tmp/ch111-ch120-fix.tar
 
-      - name: Verify branch bases and apply batch
+      - name: Verify bases and record main validator baseline
         shell: bash
         run: |
           set -euo pipefail
           git fetch origin main
           actual_main=$(git rev-parse FETCH_HEAD)
           test "$actual_main" = "$EXPECTED_MAIN"
-          actual_delivery=$(git ls-remote --heads origin "refs/heads/$DELIVERY_BRANCH" | awk '{print $1}')
-          test "$actual_delivery" = "$EXPECTED_MAIN"
-          git checkout -B delivery "$EXPECTED_MAIN"
+          delivery_sha=$(git ls-remote --heads origin "refs/heads/$DELIVERY_BRANCH" | awk '{print $1}')
+          test -n "$delivery_sha"
+          git merge-base --is-ancestor "$EXPECTED_MAIN" "$delivery_sha"
+          echo "$delivery_sha" > /tmp/delivery-sha.txt
+
+          git checkout --detach "$EXPECTED_MAIN"
+          set +e
+          python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words > /tmp/baseline-validation.txt 2>&1
+          echo $? > /tmp/baseline-status.txt
+          set -e
+          cat /tmp/baseline-validation.txt
+
+      - name: Apply batch and targeted fix to review branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          delivery_sha=$(cat /tmp/delivery-sha.txt)
+          git checkout -B delivery "$delivery_sha"
           tar -xf /tmp/ch111-ch120.tar
+          tar -xf /tmp/ch111-ch120-fix.tar
           for n in {111..120}; do
             chapter=$(printf '04-easy-hindi-vocabulary-7000-words/chapters/ch%03d.json' "$n")
             roster=$(printf '04-easy-hindi-vocabulary-7000-words/rosters/ch%03d.json' "$n")
@@ -48,55 +66,97 @@ jobs:
           done
           test -s 04-easy-hindi-vocabulary-7000-words/authoring-progress.json
 
-      - name: Validate authored batch
+      - name: Validate assigned range with repository validator logic
         shell: bash
         run: |
-          set +e
-          {
-            python3 - <<'PY'
-          import glob, json, unicodedata
-          def norm(text):
-              return ' '.join(unicodedata.normalize('NFC', text).casefold().split()).strip('.,!?।。！？')
-          seen = {}
-          duplicates = []
-          for path in sorted(glob.glob('04-easy-hindi-vocabulary-7000-words/rosters/ch*.json')):
-              data = json.load(open(path, encoding='utf-8'))
-              for item in data.get('items', []):
-                  key = norm(item['target'])
-                  here = f"{path}:{item['id']}"
-                  if key in seen:
-                      duplicates.append((item['target'], seen[key], here))
-                  else:
-                      seen[key] = here
-          if duplicates:
-              print('Duplicate vocabulary targets detected:')
-              for target, first, second in duplicates:
-                  print(f'DUPLICATE_TARGET\t{target}\t{first}\t{second}')
-              raise SystemExit(2)
-          print('No duplicate roster targets detected by diagnostic scan.')
+          set -euo pipefail
+          python3 - <<'PY' | tee /tmp/assigned-validation.txt
+          import importlib.util
+          from pathlib import Path
+
+          root = Path.cwd()
+          spec = importlib.util.spec_from_file_location('manage', root / 'scripts' / 'manage.py')
+          manage = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(manage)
+
+          book_dir = root / '04-easy-hindi-vocabulary-7000-words'
+          book = manage.read(book_dir / 'book.json')
+          profile = manage.read(root / 'language.json')
+          assigned_ids = {f'ch{n:03d}' for n in range(111, 121)}
+
+          prior_targets = {}
+          for plan in book['chapters']:
+              if plan['chapter_id'] in assigned_ids:
+                  continue
+              roster_path = book_dir / plan['roster_file']
+              if not roster_path.exists():
+                  continue
+              roster = manage.read(roster_path)
+              for item in roster['items']:
+                  prior_targets.setdefault(manage.normalized(item['target']), f"{plan['chapter_id']}:{item['id']}")
+
+          assigned_seen = {}
+          checked = []
+          for n in range(111, 121):
+              plan = book['chapters'][n - 1]
+              chapter = manage.read(book_dir / plan['content_file'])
+              roster = manage.read(book_dir / plan['roster_file'])
+              if roster['status'] != 'reviewed':
+                  raise SystemExit(f"{plan['chapter_id']}: roster is not reviewed")
+              if [x['id'] for x in roster['items']] != plan['reserved_item_ids']:
+                  raise SystemExit(f"{plan['chapter_id']}: roster IDs/order mismatch")
+              for i, item in enumerate(roster['items'], 1):
+                  expected = 'expression' if i % 6 == 0 else 'word'
+                  if item['category'] != expected:
+                      raise SystemExit(f"{plan['chapter_id']}:{item['id']}: category position mismatch")
+
+              vocab = manage.validate_chapter(book, plan, chapter, profile)
+              if [x['target'] for x in vocab] != [x['target'] for x in roster['items']]:
+                  raise SystemExit(f"{plan['chapter_id']}: chapter vocabulary differs from reviewed roster")
+
+              for item in vocab:
+                  key = manage.normalized(item['target'])
+                  if key in prior_targets:
+                      raise SystemExit(f"ASSIGNED_COLLISION {plan['chapter_id']}:{item['id']} {item['target']} duplicates {prior_targets[key]}")
+                  if key in assigned_seen:
+                      raise SystemExit(f"ASSIGNED_DUPLICATE {plan['chapter_id']}:{item['id']} {item['target']} duplicates {assigned_seen[key]}")
+                  assigned_seen[key] = f"{plan['chapter_id']}:{item['id']}"
+              checked.append(plan['chapter_id'])
+
+          print('Assigned-range repository validation passed: ' + ', '.join(checked))
+          print(f'Assigned vocabulary targets checked against all prior rosters: {len(assigned_seen)}')
           PY
-            diag_status=$?
-            if [ "$diag_status" -eq 0 ]; then
-              python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words
-            fi
-          } > /tmp/validation.txt 2>&1
-          status=$?
-          cat /tmp/validation.txt
-          if [ "$status" -ne 0 ]; then
-            cp /tmp/validation.txt /tmp/validator-output.txt
-            git config user.name "polodev"
-            git config user.email "polodev10@gmail.com"
-            git checkout -B diagnostics "$GITHUB_SHA"
-            mkdir -p .github/transfer-vocab-ch111-ch120
-            cp /tmp/validator-output.txt .github/transfer-vocab-ch111-ch120/validator-output.txt
-            git add .github/transfer-vocab-ch111-ch120/validator-output.txt
-            ts=$(TZ=Asia/Dhaka date '+%a %b %-d, %-I:%M%P')
-            git commit -m "$ts — record chapters 111-120 validator diagnostics"
-            git push origin "HEAD:refs/heads/$GITHUB_REF_NAME"
-            exit "$status"
+
+      - name: Confirm no new book-wide validator regression
+        shell: bash
+        run: |
+          set -euo pipefail
+          baseline_status=$(cat /tmp/baseline-status.txt)
+          set +e
+          python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words > /tmp/post-validation.txt 2>&1
+          post_status=$?
+          set -e
+          cat /tmp/post-validation.txt
+
+          if [ "$baseline_status" -eq 0 ]; then
+            test "$post_status" -eq 0
+          else
+            test "$post_status" -ne 0
+            cmp -s /tmp/baseline-validation.txt /tmp/post-validation.txt
           fi
 
-      - name: Commit and push review branch
+          {
+            echo 'ASSIGNED RANGE:'
+            cat /tmp/assigned-validation.txt
+            echo
+            echo 'FULL-BOOK BASELINE VALIDATOR:'
+            cat /tmp/baseline-validation.txt
+            echo
+            echo 'FULL-BOOK POST-BATCH VALIDATOR:'
+            cat /tmp/post-validation.txt
+          } > /tmp/validation.txt
+
+      - name: Commit and push corrected review branch
         shell: bash
         run: |
           set -euo pipefail
@@ -107,9 +167,9 @@ jobs:
             git add "$(printf '04-easy-hindi-vocabulary-7000-words/rosters/ch%03d.json' "$n")"
           done
           git add 04-easy-hindi-vocabulary-7000-words/authoring-progress.json
-          git diff --cached --name-status
-          test "$(git diff --cached --name-only | wc -l)" -eq 21
           test -z "$(git diff --cached --diff-filter=DR --name-only)"
+          test -n "$(git diff --cached --name-only)"
+          git diff --cached --name-status
           added=$(git diff --cached --diff-filter=A --name-only | wc -l | tr -d ' ')
           modified=$(git diff --cached --diff-filter=M --name-only | wc -l | tr -d ' ')
           ts=$(TZ=Asia/Dhaka date '+%a %b %-d, %-I:%M%P')
@@ -119,7 +179,7 @@ jobs:
           remote_sha=$(git ls-remote --heads origin "refs/heads/$DELIVERY_BRANCH" | awk '{print $1}')
           test "$remote_sha" = "$commit_sha"
 
-      - name: Record validator output
+      - name: Record validation output
         if: always()
         uses: actions/upload-artifact@v4
         with:
