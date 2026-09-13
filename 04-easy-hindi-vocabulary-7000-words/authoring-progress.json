@@ -66,25 +66,37 @@
     {
       "check": "target_uniqueness_audit",
       "result": "passed",
-      "details": "Verified 300 unique targets in ch111-ch120 and removed identified collisions with recent main B1 rosters."
+      "details": "Repository-side scan against all current-main rosters found one assigned-range collision: ch114 v03405 कार्यसूची duplicated ch073 v02161. Replaced the new target with कार्यतालिका in the chapter and reviewed roster, then rechecked assigned-range uniqueness."
     },
     {
       "check": "repository_validator_command",
-      "result": "not_run",
-      "details": "Direct repository checkout was unavailable in the authoring environment; current-main validator rules were mirrored locally and passed."
+      "result": "blocked_by_preexisting_main",
+      "details": "Repository-side full validator was attempted. Current main already fails before the assigned range because older rosters contain duplicate targets (for example ch007/ch011 and many other pre-existing pairs). This batch is therefore verified with the current validator's validate_chapter() logic plus a full prior-roster collision scan scoped to ch111-ch120; the global baseline defect is outside this assignment."
+    },
+    {
+      "check": "repository_baseline_validation",
+      "result": "failed_preexisting",
+      "command": "python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words",
+      "details": "On the untouched current-main snapshot, the repository validator reports 'Duplicate target across vocabulary rosters' due to pre-existing duplicate rosters outside ch111-ch120."
+    },
+    {
+      "check": "assigned_range_repository_validation",
+      "result": "passed",
+      "details": "Use the repository's current validate_chapter() implementation for ch111-ch120, require reviewed rosters and exact target/ID order, and scan every existing prior roster so no ch111-ch120 target duplicates a prior target."
     }
   ],
   "remaining_issues": [
-    "Independent editorial review is still pending; chapter status remains drafted."
+    "Independent editorial review is still pending; chapter status remains drafted.",
+    "The book-wide repository validator on current main is already blocked by pre-existing duplicate vocabulary targets in older rosters outside ch111-ch120; this batch does not modify those unrelated rosters."
   ],
   "resume_point": "Requested ch111-ch120 batch is complete. Do not continue to ch121 without a separate assignment.",
-  "updated_at_local": "2026-09-14T01:03+06:00",
+  "updated_at_local": "2026-09-14T01:29+06:00",
   "preserved_prior_progress_checkpoint": {
     "source_blob_sha": "3073bf8d131ee4bececbf1af4c8b2d32d7bfdfa7",
     "note": "Prior authoring-progress.json from main is preserved by immutable Git history and referenced here by blob SHA."
   },
   "git_delivery": {
-    "status": "submitted_for_review",
+    "status": "review_branch_prepared_pr_pending",
     "target_branch": "main",
     "base_main_sha": "9dbdc14b189c0d9094d3502ac616da544d24dfb1",
     "review_branch": "content/04-easy-hindi-vocabulary-7000-words/ch111-ch120",
