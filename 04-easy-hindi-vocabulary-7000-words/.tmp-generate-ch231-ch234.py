@@ -29,6 +29,41 @@ PROMPTS = [
     "অধ্যায়ের সারকথা এক বাক্যে বলুন।",
 ]
 
+CONS = {
+"क":"k","ख":"kh","ग":"g","घ":"gh","ङ":"ng","च":"ch","छ":"chh","ज":"j","झ":"jh","ञ":"ny",
+"ट":"t","ठ":"th","ड":"d","ढ":"dh","ण":"n","त":"t","थ":"th","द":"d","ध":"dh","न":"n",
+"प":"p","फ":"ph","ब":"b","भ":"bh","म":"m","य":"y","र":"r","ल":"l","व":"v","श":"sh","ष":"sh","स":"s","ह":"h",
+"क़":"q","ख़":"kh","ग़":"g","ज़":"z","ड़":"r","ढ़":"rh","फ़":"f","ऱ":"r",
+}
+VOWELS = {"अ":"a","आ":"aa","इ":"i","ई":"ii","उ":"u","ऊ":"uu","ऋ":"ri","ए":"e","ऐ":"ai","ओ":"o","औ":"au","ऑ":"o"}
+MATRAS = {"ा":"aa","ि":"i","ी":"ii","ु":"u","ू":"uu","ृ":"ri","े":"e","ै":"ai","ो":"o","ौ":"au","ॉ":"o"}
+def romanize(text):
+    out = []
+    for c in text:
+        if c in CONS:
+            out.append(CONS[c] + "a")
+        elif c in VOWELS:
+            out.append(VOWELS[c])
+        elif c in MATRAS:
+            if out and out[-1].endswith("a"):
+                out[-1] = out[-1][:-1] + MATRAS[c]
+            else:
+                out.append(MATRAS[c])
+        elif c == "्":
+            if out and out[-1].endswith("a"):
+                out[-1] = out[-1][:-1]
+        elif c in "ंँ":
+            out.append("n")
+        elif c == "ः":
+            out.append("h")
+        elif c == "़":
+            continue
+        elif c == "।":
+            out.append(".")
+        else:
+            out.append(c)
+    return "".join(out).lower()
+
 def read(n):
     return json.loads((BOOK / f".tmp-ch{n}-source.json").read_text(encoding="utf-8"))
 
@@ -99,7 +134,7 @@ def build(n):
             "target": it["target"],
             "category": it["category"],
             "type": it["type"],
-            "romanization": next((x["roman"] for x in src["sentences"] if x["target"].rstrip("।") == it["target"]), it["target"]),
+            "romanization": romanize(it["target"]),
             "bangla_pronunciation": it["pron"],
             "word_pronunciations": words(it["target"], it["pron"]),
             "meaning_bengali_md": it["meaning"] + (" দৈনন্দিন বাস্তব পরিস্থিতিতে ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।" if it["category"] == "expression" else " এই অধ্যায়ের বিশ্লেষণধর্মী আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।"),
@@ -178,7 +213,7 @@ def build(n):
             "meaning_bengali_md":" ".join(src["sentences"][idx]["meaning"] for idx in pure_idxs),
         },
         "script_practice": script,
-        "number_practice": None,
+        "number_practice": null,
         "speaking_practice": speaking,
         "image_prompts": [
             {
