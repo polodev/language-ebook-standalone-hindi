@@ -1,0 +1,85 @@
+name: ChatGPT validate vocabulary ch151-ch160
+
+on:
+  push:
+    branches:
+      - content/04-easy-hindi-vocabulary-7000-words/ch151-ch160
+
+permissions:
+  contents: write
+
+jobs:
+  validate-and-deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Restore authored batch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ARCHIVE_BLOB_SHA: d84f3f3f9586c24903718f25ba05c6e6f962f8ea
+        run: |
+          set -euo pipefail
+          BOOK="04-easy-hindi-vocabulary-7000-words"
+          curl -fsSL \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/git/blobs/${ARCHIVE_BLOB_SHA}" \
+            | python3 -c 'import sys,json,base64; obj=json.load(sys.stdin); sys.stdout.buffer.write(base64.b64decode(obj["content"]))' \
+            > /tmp/ch151-ch160.tgz
+          tar -xzf /tmp/ch151-ch160.tgz -C "$BOOK"
+
+      - name: Validate requested book
+        run: |
+          set -euo pipefail
+          python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words
+
+      - name: Finalize progress record
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          from pathlib import Path
+          p = Path("04-easy-hindi-vocabulary-7000-words/authoring-progress.json")
+          d = json.loads(p.read_text(encoding="utf-8"))
+          for check in d.get("checks_performed", []):
+              if check.get("check") == "repository_validator":
+                  check["result"] = "passed"
+                  check["details"] = "Passed on the actual GitHub Actions repository checkout after restoring the ch151-ch160 source files on the feature branch."
+          d["updated_at_local"] = datetime.now(ZoneInfo("Asia/Dhaka")).strftime("%Y-%m-%dT%H:%M+06:00")
+          p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          PY
+
+      - name: Verify scope, commit, and push
+        env:
+          BRANCH: content/04-easy-hindi-vocabulary-7000-words/ch151-ch160
+        run: |
+          set -euo pipefail
+          BOOK="04-easy-hindi-vocabulary-7000-words"
+          git fetch origin main
+          git add "$BOOK/authoring-progress.json"
+          for n in $(seq 151 160); do
+            git add "$BOOK/chapters/ch${n}.json" "$BOOK/rosters/ch${n}.json"
+          done
+          git rm .github/workflows/chatgpt-validate-vocab-ch151-ch160.yml
+
+          mapfile -t changed < <(git diff --cached --name-only origin/main)
+          test "${#changed[@]}" -eq 21
+          for f in "${changed[@]}"; do
+            case "$f" in
+              "$BOOK/authoring-progress.json"|"$BOOK/chapters/ch15"[1-9]".json"|"$BOOK/chapters/ch160.json"|"$BOOK/rosters/ch15"[1-9]".json"|"$BOOK/rosters/ch160.json") ;;
+              *) echo "Unexpected final diff path: $f" >&2; exit 1 ;;
+            esac
+          done
+
+          read adds dels < <(git diff --cached --numstat origin/main | awk '{a+=$1; d+=$2} END {print a+0, d+0}')
+          stamp=$(TZ=Asia/Dhaka date '+%Y-%m-%d %H:%M +06:00')
+          git config user.name "ChatGPT Content Delivery"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Complete vocabulary ch151-ch160 — ${stamp} — +${adds}/-${dels}"
+          git push origin "HEAD:${BRANCH}"
