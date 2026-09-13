@@ -23,7 +23,10 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          cat .github/transfer/ch131-140.part-* | base64 -d | xz -d > /tmp/ch131-140.tar
+          cat .github/transfer/piece-* | base64 -d > /tmp/ch131-140.tar.xz
+          test "$(stat -c%s /tmp/ch131-140.tar.xz)" -eq 50644
+          echo '94ea932dc57660ad90953de42ed0eb98b36711b656b6029a71851627e7f7bb3c  /tmp/ch131-140.tar.xz' | sha256sum -c -
+          xz -d -c /tmp/ch131-140.tar.xz > /tmp/ch131-140.tar
           tar -tf /tmp/ch131-140.tar
 
       - name: Extract, preserve progress, and validate
