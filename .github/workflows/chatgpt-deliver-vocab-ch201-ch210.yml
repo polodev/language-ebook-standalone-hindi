@@ -58,6 +58,7 @@ jobs:
           prior_path = Path('/tmp/prior-progress.json')
           if prior_path.exists():
               current['preserved_prior_progress_checkpoint'] = json.loads(prior_path.read_text(encoding='utf-8'))
+          current['base_main_sha'] = '9dbdc14b189c0d9094d3502ac616da544d24dfb1'
           current['git_delivery'] = {
               'status': 'validation_in_progress',
               'target_branch': 'content/04-easy-hindi-vocabulary-7000-words/ch201-ch210',
@@ -77,7 +78,10 @@ jobs:
               if item.get('check') == 'repository_validator':
                   item['result'] = 'passed'
                   item['details'] = 'Executed on a clean GitHub Actions checkout against current main. ' + os.environ['VALIDATION_OUTPUT'].strip()
-          data['git_delivery']['status'] = 'validated_branch_commit_pending'
+          data['remaining_issues'] = [
+              'Chapter status remains drafted; publication and independent editorial review are not assessed.'
+          ]
+          data['git_delivery']['status'] = 'validated_for_branch_commit'
           p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
 
