@@ -1,0 +1,49 @@
+name: Materialize Hindi vocabulary ch231-ch234
+
+on:
+  push:
+    branches:
+      - content/04-easy-hindi-vocabulary-7000-words/ch231-ch234
+    paths:
+      - '.github/workflows/tmp-materialize-ch231-ch234.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout batch branch
+        uses: actions/checkout@v4
+        with:
+          ref: content/04-easy-hindi-vocabulary-7000-words/ch231-ch234
+          fetch-depth: 0
+
+      - name: Materialize chapter JSON
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('04-easy-hindi-vocabulary-7000-words/.tmp-generate-ch231-ch234.py')
+          p.write_text(p.read_text(encoding='utf-8').replace('"number_practice": null', '"number_practice": None'), encoding='utf-8')
+          PY
+          python3 04-easy-hindi-vocabulary-7000-words/.tmp-generate-ch231-ch234.py
+
+      - name: Validate requested book content
+        run: python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words
+
+      - name: Commit finished batch and remove staging files
+        shell: bash
+        run: |
+          rm -f 04-easy-hindi-vocabulary-7000-words/.tmp-ch231-source.json
+          rm -f 04-easy-hindi-vocabulary-7000-words/.tmp-ch232-source.json
+          rm -f 04-easy-hindi-vocabulary-7000-words/.tmp-ch233-source.json
+          rm -f 04-easy-hindi-vocabulary-7000-words/.tmp-ch234-source.json
+          rm -f 04-easy-hindi-vocabulary-7000-words/.tmp-generate-ch231-ch234.py
+          rm -f .github/workflows/tmp-materialize-ch231-ch234.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Author Hindi vocabulary ch231-ch234 — 2026-09-13 23:36 +06 (10 files: 8 added, 2 updated)'
+          git push origin HEAD:content/04-easy-hindi-vocabulary-7000-words/ch231-ch234
