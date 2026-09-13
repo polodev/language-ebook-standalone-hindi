@@ -40,6 +40,39 @@ jobs:
           done
           cp .content/generated/authoring-progress.json "$BOOK/authoring-progress.json"
 
+      - name: Diagnose vocabulary-roster collisions
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          import unicodedata
+          from pathlib import Path
+
+          root = Path('04-easy-hindi-vocabulary-7000-words/rosters')
+          def normalized(text):
+              return ' '.join(unicodedata.normalize('NFC', text).casefold().split()).strip('.,!?।。！？')
+
+          seen = {}
+          collisions = []
+          for path in sorted(root.glob('ch*.json')):
+              data = json.loads(path.read_text(encoding='utf-8'))
+              for item in data.get('items', []):
+                  key = normalized(item['target'])
+                  current = f"{path.name}:{item['id']}:{item['target']}"
+                  if key in seen:
+                      collisions.append((seen[key], current))
+                  else:
+                      seen[key] = current
+          if collisions:
+              print('CROSS_ROSTER_DUPLICATES_BEGIN')
+              for first, second in collisions:
+                  print(f'DUPLICATE | {first} | {second}')
+              print('CROSS_ROSTER_DUPLICATES_END')
+          else:
+              print('CROSS_ROSTER_DUPLICATES_NONE')
+          PY
+
       - name: Run repository validator
         shell: bash
         run: |
