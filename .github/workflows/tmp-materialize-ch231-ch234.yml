@@ -30,6 +30,26 @@ jobs:
           PY
           python3 04-easy-hindi-vocabulary-7000-words/.tmp-generate-ch231-ch234.py
 
+      - name: Diagnose roster uniqueness
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, unicodedata
+          from pathlib import Path
+          root = Path('04-easy-hindi-vocabulary-7000-words/rosters')
+          seen = {}
+          requested = {'ch231','ch232','ch233','ch234'}
+          for path in sorted(root.glob('ch*.json')):
+              chapter = path.stem
+              data = json.loads(path.read_text(encoding='utf-8'))
+              for item in data.get('items', []):
+                  key = ' '.join(unicodedata.normalize('NFC', item['target']).casefold().split()).strip('.,!?।。！？')
+                  if key in seen and (chapter in requested or seen[key][0] in requested):
+                      print('DUPLICATE', item['target'], seen[key][0], seen[key][1], chapter, item['id'])
+                  else:
+                      seen[key] = (chapter, item['id'])
+          PY
+
       - name: Validate requested book content
         run: python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words
 
