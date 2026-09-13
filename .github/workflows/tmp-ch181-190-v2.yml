@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   generate-validate-commit:
-    if: ${{ !contains(github.event.head_commit.message, 'Complete Hindi vocabulary chapters 181-190') }}
+    if: ${{ !contains(github.event.head_commit.message, 'Complete Hindi vocabulary chapters 181-190') && !contains(github.event.head_commit.message, 'Preserve ch181-ch190 collision diagnostics') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -28,7 +28,7 @@ jobs:
         run: python3 /tmp/gen_ch181_190.py
       - name: Diagnose roster collisions
         run: |
-          python3 - <<'PY'
+          python3 - <<'PY' > .tmp-ch181-190-v2/dupes.txt
           import json, glob
           seen = {}
           dupes = []
@@ -45,8 +45,17 @@ jobs:
           for d in dupes:
               print('DUPLICATE_TARGET', repr(d[0]), d[1], d[2])
           PY
+          cat .tmp-ch181-190-v2/dupes.txt
       - name: Validate requested book
         run: python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words
+      - name: Preserve collision diagnostics on failure
+        if: failure()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .tmp-ch181-190-v2/dupes.txt
+          git commit -m "Preserve ch181-ch190 collision diagnostics"
+          git push origin HEAD
       - name: Run repository tests
         run: python3 -m unittest discover -s tests
       - name: Commit generated source files
