@@ -22,7 +22,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          cat .content/generator.part01.b64 .content/generator.part02.b64 | base64 -d | xz -d > .content/generate.py
+          cat .content/generator.part01.b64 .content/generator.part02a.b64 .content/generator.part02b.b64 .content/generator.part02c.b64 | base64 -d | xz -d > .content/generate.py
           python3 .content/generate.py
 
       - name: Install chapters, rosters, and progress record
@@ -122,6 +122,10 @@ jobs:
           p = Path('04-easy-hindi-vocabulary-7000-words/authoring-progress.json')
           data = json.loads(p.read_text(encoding='utf-8'))
           status = Path('.content/validator-status').read_text(encoding='utf-8').strip()
+          data['remaining_issues'] = [
+              item for item in data.get('remaining_issues', [])
+              if 'Cross-roster duplicate checking' not in item
+          ]
           if status == 'passed':
               result = 'passed'
               details = 'Ran python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words after installing ch191-ch200; validator passed.'
