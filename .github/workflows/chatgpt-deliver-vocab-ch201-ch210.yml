@@ -23,10 +23,10 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          cat .github/transfer/ch201-210/ch201-210.part-* | base64 -d | xz -d > /tmp/ch201-210.tar
+          cat .github/transfer/ch201-210/ch201-210.part-* | base64 -d > /tmp/ch201-210.tar.xz
           echo 'f104a7f1c85ba4d9c195cdb5e387c4aabf58908a155f379b3b3af231afa1f42f  /tmp/ch201-210.tar.xz' > /tmp/expected.sha256
-          xz -9 -c /tmp/ch201-210.tar > /tmp/ch201-210.tar.xz
           sha256sum -c /tmp/expected.sha256
+          xz -dc /tmp/ch201-210.tar.xz > /tmp/ch201-210.tar
           tar -tf /tmp/ch201-210.tar
 
       - name: Extract on exact main and run repository validator
