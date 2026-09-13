@@ -24,6 +24,8 @@ jobs:
         run: |
           set -euo pipefail
           cat .github/transfer/ch201-210/ch201-210.part-* | base64 -d > /tmp/ch201-210.tar.xz
+          echo 'f104a7f1c85ba4d9c195cdb5e387c4aabf58908a155f379b3b3af231afa1f42f  /tmp/expected.sha256
+' > /tmp/expected.sha256
           echo 'f104a7f1c85ba4d9c195cdb5e387c4aabf58908a155f379b3b3af231afa1f42f  /tmp/ch201-210.tar.xz' > /tmp/expected.sha256
           sha256sum -c /tmp/expected.sha256
           xz -dc /tmp/ch201-210.tar.xz > /tmp/ch201-210.tar
@@ -66,6 +68,25 @@ jobs:
               'method': 'GitHub Actions byte-exact transport to a dedicated PR branch; no force push.'
           }
           dest.write_text(json.dumps(current, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+          python3 - <<'PY'
+          import json
+          from collections import defaultdict
+          from pathlib import Path
+          root = Path('04-easy-hindi-vocabulary-7000-words/rosters')
+          seen = defaultdict(list)
+          for path in sorted(root.glob('ch*.json')):
+              try:
+                  data = json.loads(path.read_text(encoding='utf-8'))
+              except Exception:
+                  continue
+              for item in data.get('items', []):
+                  target = item.get('target')
+                  if target:
+                      seen[target].append((path.name, item.get('id')))
+          for target, uses in sorted(seen.items()):
+              if len(uses) > 1 and any(201 <= int(name[2:5]) <= 210 for name, _ in uses):
+                  print('DUPLICATE_TARGET', repr(target), uses)
           PY
           validation_output=$(python3 scripts/manage.py validate --book "$BOOK")
           printf '%s\n' "$validation_output"
