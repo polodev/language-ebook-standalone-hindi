@@ -1,0 +1,33 @@
+name: baseline-vocab-check
+on:
+  push:
+    branches:
+      - content/04-easy-hindi-vocabulary-7000-words/ch221-ch230
+jobs:
+  baseline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 9dbdc14b189c0d9094d3502ac616da544d24dfb1
+      - name: Run validator on untouched main baseline
+        continue-on-error: true
+        run: python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words
+      - name: List baseline roster collisions
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, unicodedata
+          from pathlib import Path
+          def norm(t): return ' '.join(unicodedata.normalize('NFC',t).casefold().split()).strip('.,!?।。！？')
+          seen={}; hits=[]
+          root=Path('04-easy-hindi-vocabulary-7000-words/rosters')
+          for p in sorted(root.glob('ch*.json'), key=lambda p:int(p.stem[2:])):
+              n=int(p.stem[2:])
+              for it in json.loads(p.read_text()).get('items',[]):
+                  k=norm(it['target'])
+                  if k in seen: hits.append((it['target'],seen[k][0],seen[k][1],n,it['id']))
+                  else: seen[k]=(n,it['id'])
+          print('BASELINE_COLLISIONS',len(hits))
+          for x in hits: print('BASELINE_COLLISION\t'+'\t'.join(map(str,x)))
+          PY
