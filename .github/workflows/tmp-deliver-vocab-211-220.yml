@@ -1,0 +1,116 @@
+name: Temporary delivery - Hindi vocabulary 211-220
+
+on:
+  push:
+    branches:
+      - content/04-easy-hindi-vocabulary-7000-words/ch211-ch220
+
+permissions:
+  contents: write
+
+jobs:
+  deliver:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout feature branch
+        uses: actions/checkout@v4
+        with:
+          ref: content/04-easy-hindi-vocabulary-7000-words/ch211-ch220
+          fetch-depth: 0
+
+      - name: Reconstruct checked generator
+        shell: bash
+        run: |
+          cat \
+            .chatgpt-tmp/vocab211-220/chunk_00.b64 \
+            .chatgpt-tmp/vocab211-220/chunk_01.b64 \
+            .chatgpt-tmp/vocab211-220/chunk_02.b64 \
+            .chatgpt-tmp/vocab211-220/chunk_04.b64 \
+            .chatgpt-tmp/vocab211-220/chunk_05.b64 \
+            .chatgpt-tmp/vocab211-220/chunk_06.b64 \
+            .chatgpt-tmp/vocab211-220/chunk_07.b64 \
+            .chatgpt-tmp/vocab211-220/chunk_08.b64 \
+            .chatgpt-tmp/vocab211-220/chunk_09.b64 \
+            .chatgpt-tmp/vocab211-220/chunk_10.b64 \
+            .chatgpt-tmp/vocab211-220/chunk_11.b64 \
+            | tr -d '\r\n\t ' | base64 -d > /tmp/generate_211_220.py
+          echo '5cab2ba8418d656adf8dbb8a857705d84028fcaccccfbc9412a1592081551073  /tmp/generate_211_220.py' | sha256sum -c -
+          test "$(wc -c < /tmp/generate_211_220.py | tr -d ' ')" = "49789"
+
+      - name: Generate chapters and rosters
+        run: python3 /tmp/generate_211_220.py
+
+      - name: Diagnose vocabulary uniqueness
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, unicodedata
+          from pathlib import Path
+          def norm(text):
+              return ' '.join(unicodedata.normalize('NFC', text).casefold().split()).strip('.,!?।。！？')
+          root = Path('04-easy-hindi-vocabulary-7000-words/rosters')
+          seen = {}
+          for path in sorted(root.glob('ch*.json')):
+              data = json.loads(path.read_text(encoding='utf-8'))
+              for item in data['items']:
+                  key = norm(item['target'])
+                  if key in seen:
+                      raise SystemExit(f"Duplicate roster target {item['target']!r}: {seen[key]} and {path}")
+                  seen[key] = str(path)
+          print(f'Unique roster targets checked: {len(seen)}')
+          PY
+
+      - name: Run repository partial validator
+        run: python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words
+
+      - name: Verify assigned output contract
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          book = Path('04-easy-hindi-vocabulary-7000-words')
+          vocab_ids = []
+          for n in range(211, 221):
+              cid = f'ch{n:03d}'
+              cpath = book / 'chapters' / f'{cid}.json'
+              rpath = book / 'rosters' / f'{cid}.json'
+              assert cpath.exists() and rpath.exists(), cid
+              ch = json.loads(cpath.read_text(encoding='utf-8'))
+              ro = json.loads(rpath.read_text(encoding='utf-8'))
+              assert ch['chapter_id'] == cid
+              assert ch['status'] == 'drafted'
+              assert ro['status'] == 'reviewed'
+              assert len(ch['sentences']) == 20
+              assert len(ch['vocabulary']) == 30
+              assert len(ch['script_practice']) == 5
+              assert ch['number_practice'] is None
+              assert len(ch['speaking_practice']) == 6
+              assert len(ch['image_prompts']) == 2
+              assert [x['target'] for x in ch['vocabulary']] == [x['target'] for x in ro['items']]
+              vocab_ids.extend(x['id'] for x in ch['vocabulary'])
+          assert vocab_ids == [f'v{i:05d}' for i in range(6301, 6601)]
+          print('Assigned contract verified: ch211-ch220, v06301-v06600')
+          PY
+
+      - name: Commit validated delivery and remove temporary transport
+        shell: bash
+        env:
+          BRANCH: content/04-easy-hindi-vocabulary-7000-words/ch211-ch220
+        run: |
+          git config user.name 'ChatGPT'
+          git config user.email 'chatgpt@users.noreply.github.com'
+          git rm .chatgpt-tmp/vocab211-220/*.b64 .github/workflows/tmp-deliver-vocab-211-220.yml
+          for n in $(seq -w 211 220); do
+            git add "04-easy-hindi-vocabulary-7000-words/chapters/ch${n}.json"
+            git add "04-easy-hindi-vocabulary-7000-words/rosters/ch${n}.json"
+          done
+          git add 04-easy-hindi-vocabulary-7000-words/authoring-progress.json
+          FILES=$(git diff --name-only origin/main | wc -l | tr -d ' ')
+          ADDS=$(git diff --numstat origin/main | awk '{a+=$1} END {print a+0}')
+          DELS=$(git diff --numstat origin/main | awk '{d+=$2} END {print d+0}')
+          test "$FILES" = "21"
+          STAMP=$(TZ=Asia/Dhaka date '+%Y-%m-%d %H:%M %z')
+          git commit -m "Complete Hindi vocabulary ch211-ch220 | ${STAMP} | ${FILES} files +${ADDS}/-${DELS}"
+          git push origin HEAD:"${BRANCH}"
