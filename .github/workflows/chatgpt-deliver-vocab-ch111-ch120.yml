@@ -51,8 +51,23 @@ jobs:
       - name: Validate authored batch
         shell: bash
         run: |
-          set -o pipefail
-          python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words | tee /tmp/validation.txt
+          set +e
+          python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words > /tmp/validation.txt 2>&1
+          status=$?
+          cat /tmp/validation.txt
+          if [ "$status" -ne 0 ]; then
+            cp /tmp/validation.txt /tmp/validator-output.txt
+            git config user.name "polodev"
+            git config user.email "polodev10@gmail.com"
+            git checkout -B diagnostics "$GITHUB_SHA"
+            mkdir -p .github/transfer-vocab-ch111-ch120
+            cp /tmp/validator-output.txt .github/transfer-vocab-ch111-ch120/validator-output.txt
+            git add .github/transfer-vocab-ch111-ch120/validator-output.txt
+            ts=$(TZ=Asia/Dhaka date '+%a %b %-d, %-I:%M%P')
+            git commit -m "$ts — record chapters 111-120 validator failure"
+            git push origin "HEAD:refs/heads/$GITHUB_REF_NAME"
+            exit "$status"
+          fi
 
       - name: Commit and push review branch
         shell: bash
