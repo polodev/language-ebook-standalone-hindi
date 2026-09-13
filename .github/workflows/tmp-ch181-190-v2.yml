@@ -26,6 +26,25 @@ jobs:
           python3 -m pip install --quiet Unidecode
       - name: Generate requested batch
         run: python3 /tmp/gen_ch181_190.py
+      - name: Diagnose roster collisions
+        run: |
+          python3 - <<'PY'
+          import json, glob
+          seen = {}
+          dupes = []
+          for path in sorted(glob.glob('04-easy-hindi-vocabulary-7000-words/rosters/ch*.json')):
+              data = json.load(open(path, encoding='utf-8'))
+              for item in data.get('items', []):
+                  target = item.get('target')
+                  ident = f"{path}:{item.get('id')}"
+                  if target in seen:
+                      dupes.append((target, seen[target], ident))
+                  else:
+                      seen[target] = ident
+          print('DUPLICATE_COUNT', len(dupes))
+          for d in dupes:
+              print('DUPLICATE_TARGET', repr(d[0]), d[1], d[2])
+          PY
       - name: Validate requested book
         run: python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words
       - name: Run repository tests
