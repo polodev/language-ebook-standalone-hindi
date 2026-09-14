@@ -1,0 +1,3068 @@
+{
+  "chapter_id": "ch125",
+  "status": "drafted",
+  "title_target": "यात्रा व्यवधान और वैकल्पिक योजना",
+  "title_bangla_pronunciation": "যাত্রা ভ্যভধান অউর ভৈকল্পিক যোজনা",
+  "title_word_pronunciations": [
+    {
+      "target": "यात्रा",
+      "bangla_pronunciation": "যাত্রা",
+      "separator_after": " "
+    },
+    {
+      "target": "व्यवधान",
+      "bangla_pronunciation": "ভ্যভধান",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "वैकल्पिक",
+      "bangla_pronunciation": "ভৈকল্পিক",
+      "separator_after": " "
+    },
+    {
+      "target": "योजना",
+      "bangla_pronunciation": "যোজনা",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "ভ্রমণ বিঘ্ন ও বিকল্প পরিকল্পনা",
+  "goal_bengali_md": "ভ্রমণের সময় বিলম্ব, বাতিল, পুনঃনির্ধারণ, বিকল্প রুট ও জরুরি যোগাযোগ নিয়ে দরকারি শব্দভান্ডার শেখা।",
+  "sentences": [
+    {
+      "id": "ch125_s01",
+      "target": "आज यात्रासूची और प्रस्थानसमय पर ध्यान दीजिए।",
+      "romanization": "aaja yaatraasuuchii aura prasthaanasamaya para dhyaana diijie",
+      "bangla_pronunciation": "আজ যাত্রাসূচী অউর প্রস্থানসময পর ধ্যান দীজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "यात्रासूची",
+          "bangla_pronunciation": "যাত্রাসূচী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रस्थानसमय",
+          "bangla_pronunciation": "প্রস্থানসময",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আজ ভ্রমণসূচি ও রওনা হওয়ার সময়-এর দিকে মনোযোগ দিন।"
+    },
+    {
+      "id": "ch125_s02",
+      "target": "आगमनसमय और स्थानांतरण की जानकारी लिखिए।",
+      "romanization": "aagamanasamaya aura sthaanaantarana kii jaanakaarii likhie",
+      "bangla_pronunciation": "আগমনসময অউর স্থানাংতরণ কী জানকারী লিখিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "आगमनसमय",
+          "bangla_pronunciation": "আগমনসময",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थानांतरण",
+          "bangla_pronunciation": "স্থানাংতরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পৌঁছানোর সময় ও এক যান বা স্থান থেকে অন্যটিতে বদল-এর তথ্য লিখুন।"
+    },
+    {
+      "id": "ch125_s03",
+      "target": "यात्रा ठहराव की स्थिति जाँचिए।",
+      "romanization": "yaatraa thaharaava kii sthiti jaanchie",
+      "bangla_pronunciation": "যাত্রা ঠহরাভ কী স্থিতি জাঁচিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "यात्रा",
+          "bangla_pronunciation": "যাত্রা",
+          "separator_after": " "
+        },
+        {
+          "target": "ठहराव",
+          "bangla_pronunciation": "ঠহরাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थिति",
+          "bangla_pronunciation": "স্থিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचिए।",
+          "bangla_pronunciation": "জাঁচিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মাঝপথের বিরতি বা স্টপওভার-এর অবস্থা যাচাই করুন।"
+    },
+    {
+      "id": "ch125_s04",
+      "target": "निकलने से पहले समय फिर जाँचिए।",
+      "romanization": "nikalane se pahale samaya phira jaanchie",
+      "bangla_pronunciation": "নিকলনে সে পহলে সময ফির জাঁচিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "निकलने",
+          "bangla_pronunciation": "নিকলনে",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचिए।",
+          "bangla_pronunciation": "জাঁচিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রওনা হওয়ার আগে সময় আবার যাচাই করুন।"
+    },
+    {
+      "id": "ch125_s05",
+      "target": "बोर्डिंगगेट और सामानभत्ता पर चर्चा कीजिए।",
+      "romanization": "bordingageta aura saamaanabhattaa para charchaa kiijie",
+      "bangla_pronunciation": "বোর্ডিংগগেট অউর সামানভত্তা পর চর্চা কীজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "बोर्डिंगगेट",
+          "bangla_pronunciation": "বোর্ডিংগগেট",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "सामानभत्ता",
+          "bangla_pronunciation": "সামানভত্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "चर्चा",
+          "bangla_pronunciation": "চর্চা",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বোর্ডিং গেট ও লাগেজ বহনের অনুমোদিত সীমা নিয়ে আলোচনা করুন।"
+    },
+    {
+      "id": "ch125_s06",
+      "target": "प्रतीक्षासूची और पुनर्निर्धारण को ध्यान से देखिए।",
+      "romanization": "pratiikshaasuuchii aura punarnirdhaarana ko dhyaana se dekhie",
+      "bangla_pronunciation": "প্রতীক্ষাসূচী অউর পুনর্নির্ধারণ কো ধ্যান সে দেখিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "प्रतीक्षासूची",
+          "bangla_pronunciation": "প্রতীক্ষাসূচী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "पुनर्निर्धारण",
+          "bangla_pronunciation": "পুনর্নির্ধারণ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "देखिए।",
+          "bangla_pronunciation": "দেখিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ওয়েটিং লিস্ট ও নতুন সময় নির্ধারণ মনোযোগ দিয়ে দেখুন।"
+    },
+    {
+      "id": "ch125_s07",
+      "target": "टिकटरद्दीकरण की जानकारी सुरक्षित रखिए।",
+      "romanization": "tikataraddiikarana kii jaanakaarii surakshita rakhie",
+      "bangla_pronunciation": "টিকটরদ্দীকরণ কী জানকারী সুরক্ষিত রখিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "टिकटरद्दीकरण",
+          "bangla_pronunciation": "টিকটরদ্দীকরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षित",
+          "bangla_pronunciation": "সুরক্ষিত",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাতিল হওয়া বা করা-এর তথ্য নিরাপদে রাখুন।"
+    },
+    {
+      "id": "ch125_s08",
+      "target": "बदलाव होते ही सूचना ले लीजिए।",
+      "romanization": "badalaava hote hii suuchanaa le liijie",
+      "bangla_pronunciation": "বদলাভ হোতে হী সূচনা লে লীজিএ।",
+      "word_pronunciations": [
+        {
+          "target": "बदलाव",
+          "bangla_pronunciation": "বদলাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "होते",
+          "bangla_pronunciation": "হোতে",
+          "separator_after": " "
+        },
+        {
+          "target": "ही",
+          "bangla_pronunciation": "হী",
+          "separator_after": " "
+        },
+        {
+          "target": "सूचना",
+          "bangla_pronunciation": "সূচনা",
+          "separator_after": " "
+        },
+        {
+          "target": "ले",
+          "bangla_pronunciation": "লে",
+          "separator_after": " "
+        },
+        {
+          "target": "लीजिए।",
+          "bangla_pronunciation": "লীজিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিবর্তন হলেই তথ্য জেনে নিন।"
+    },
+    {
+      "id": "ch125_s09",
+      "target": "वैकल्पिकमार्ग और यातायातविलंब पर ध्यान दीजिए।",
+      "romanization": "vaikalpikamaarga aura yaataayaatavilanba para dhyaana diijie",
+      "bangla_pronunciation": "ভৈকল্পিকমার্গ অউর যাতাযাতভিলংব পর ধ্যান দীজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "वैकल्पिकमार्ग",
+          "bangla_pronunciation": "ভৈকল্পিকমার্গ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "यातायातविलंब",
+          "bangla_pronunciation": "যাতাযাতভিলংব",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিকল্প পথ ও যানবাহনের বিলম্ব-এর দিকে মনোযোগ দিন।"
+    },
+    {
+      "id": "ch125_s10",
+      "target": "मौसमचेतावनी और संपर्ककेंद्र की तुलना कीजिए।",
+      "romanization": "mausamachetaavanii aura sanparkakendra kii tulanaa kiijie",
+      "bangla_pronunciation": "মৌসমচেতাভনী অউর সংপর্ককেংদ্র কী তুলনা কীজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "मौसमचेतावनी",
+          "bangla_pronunciation": "মৌসমচেতাভনী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "संपर्ककेंद्र",
+          "bangla_pronunciation": "সংপর্ককেংদ্র",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "तुलना",
+          "bangla_pronunciation": "তুলনা",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আবহাওয়া সতর্কতা ও যোগাযোগ কেন্দ্র তুলনা করুন।"
+    },
+    {
+      "id": "ch125_s11",
+      "target": "वापसीराशि की स्थिति जाँचिए।",
+      "romanization": "vaapasiiraashi kii sthiti jaanchie",
+      "bangla_pronunciation": "ভাপসীরাশি কী স্থিতি জাঁচিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "वापसीराशि",
+          "bangla_pronunciation": "ভাপসীরাশি",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थिति",
+          "bangla_pronunciation": "স্থিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचिए।",
+          "bangla_pronunciation": "জাঁচিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফেরত পাওয়ার টাকা-এর অবস্থা যাচাই করুন।"
+    },
+    {
+      "id": "ch125_s12",
+      "target": "देर हो तो वैकल्पिक मार्ग चुनिए।",
+      "romanization": "dera ho to vaikalpika maarga chunie",
+      "bangla_pronunciation": "দের হো তো ভৈকল্পিক মার্গ চুনিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "देर",
+          "bangla_pronunciation": "দের",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "वैकल्पिक",
+          "bangla_pronunciation": "ভৈকল্পিক",
+          "separator_after": " "
+        },
+        {
+          "target": "मार्ग",
+          "bangla_pronunciation": "মার্গ",
+          "separator_after": " "
+        },
+        {
+          "target": "चुनिए।",
+          "bangla_pronunciation": "চুনিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দেরি হলে বিকল্প পথ বেছে নিন।"
+    },
+    {
+      "id": "ch125_s13",
+      "target": "यात्राबीमा और आपातसंपर्क पर बात कीजिए।",
+      "romanization": "yaatraabiimaa aura aapaatasanparka para baata kiijie",
+      "bangla_pronunciation": "যাত্রাবীমা অউর আপাতসংপর্ক পর বাত কীজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "यात्राबीमा",
+          "bangla_pronunciation": "যাত্রাবীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "आपातसंपर्क",
+          "bangla_pronunciation": "আপাতসংপর্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "बात",
+          "bangla_pronunciation": "বাত",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভ্রমণ বীমা ও জরুরি যোগাযোগ নিয়ে কথা বলুন।"
+    },
+    {
+      "id": "ch125_s14",
+      "target": "पहचानदस्तावेज और टिकटपुष्टि की जानकारी लिखिए।",
+      "romanization": "pahachaanadastaaveja aura tikatapushti kii jaanakaarii likhie",
+      "bangla_pronunciation": "পহচানদস্তাভেজ অউর টিকটপুষ্টি কী জানকারী লিখিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "पहचानदस्तावेज",
+          "bangla_pronunciation": "পহচানদস্তাভেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "टिकटपुष्टि",
+          "bangla_pronunciation": "টিকটপুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিচয়পত্রের নথি ও টিকিট নিশ্চিতকরণ-এর তথ্য লিখুন।"
+    },
+    {
+      "id": "ch125_s15",
+      "target": "आरक्षणकोड को ध्यान में रखिए।",
+      "romanization": "aarakshanakoda ko dhyaana men rakhie",
+      "bangla_pronunciation": "আরক্ষণকোড কো ধ্যান মেঁ রখিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "आरक्षणकोड",
+          "bangla_pronunciation": "আরক্ষণকোড",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রিজার্ভেশন কোড বিবেচনায় রাখুন।"
+    },
+    {
+      "id": "ch125_s16",
+      "target": "ज़रूरी दस्तावेज़ अपने पास रखिए।",
+      "romanization": "jaruurii dastaaveja apane paasa rakhie",
+      "bangla_pronunciation": "জরুরি দস্তাভেজ অপনে পাস রখিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "ज़रूरी",
+          "bangla_pronunciation": "জরুরি",
+          "separator_after": " "
+        },
+        {
+          "target": "दस्तावेज़",
+          "bangla_pronunciation": "দস্তাভেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "अपने",
+          "bangla_pronunciation": "অপনে",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "জরুরি নথিগুলো নিজের কাছে রাখুন।"
+    },
+    {
+      "id": "ch125_s17",
+      "target": "आवासपुष्टि और चेकइनसमय पर ध्यान दीजिए।",
+      "romanization": "aavaasapushti aura chekainasamaya para dhyaana diijie",
+      "bangla_pronunciation": "আভাসপুষ্টি অউর চেকইনসময পর ধ্যান দীজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "आवासपुष्टि",
+          "bangla_pronunciation": "আভাসপুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "चेकइनसमय",
+          "bangla_pronunciation": "চেকইনসময",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "থাকার জায়গার বুকিং নিশ্চিতকরণ ও চেক-ইনের সময়-এর দিকে মনোযোগ দিন।"
+    },
+    {
+      "id": "ch125_s18",
+      "target": "स्थानीयपरिवहन और मार्गनिर्देश की समीक्षा कीजिए।",
+      "romanization": "sthaaniiyaparivahana aura maarganirdesha kii samiikshaa kiijie",
+      "bangla_pronunciation": "স্থানীযপরিভহন অউর মার্গনির্দেশ কী সমীক্ষা কীজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "स्थानीयपरिवहन",
+          "bangla_pronunciation": "স্থানীযপরিভহন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "मार्गनिर्देश",
+          "bangla_pronunciation": "মার্গনির্দেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্থানীয় পরিবহন ও পথনির্দেশ পর্যালোচনা করুন।"
+    },
+    {
+      "id": "ch125_s19",
+      "target": "समयअंतर की स्थिति जाँचिए।",
+      "romanization": "samayaantara kii sthiti jaanchie",
+      "bangla_pronunciation": "সমযঅংতর কী স্থিতি জাঁচিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "समयअंतर",
+          "bangla_pronunciation": "সমযঅংতর",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थिति",
+          "bangla_pronunciation": "স্থিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचिए।",
+          "bangla_pronunciation": "জাঁচিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সময়ের পার্থক্য-এর অবস্থা যাচাই করুন।"
+    },
+    {
+      "id": "ch125_s20",
+      "target": "पहुँचने के बाद परिवार को सूचना दीजिए।",
+      "romanization": "pahunchane ke baada parivaara ko suuchanaa diijie",
+      "bangla_pronunciation": "পহুঁচনে কে বাদ পরিভার কো সূচনা দীজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "पहुँचने",
+          "bangla_pronunciation": "পহুঁচনে",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "बाद",
+          "bangla_pronunciation": "বাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "परिवार",
+          "bangla_pronunciation": "পরিভার",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "सूचना",
+          "bangla_pronunciation": "সূচনা",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পৌঁছানোর পর পরিবারকে খবর দিন।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v03721",
+      "target": "यात्रासूची",
+      "category": "word",
+      "type": "noun",
+      "romanization": "yaatraasuuchii",
+      "bangla_pronunciation": "যাত্রাসূচী",
+      "word_pronunciations": [
+        {
+          "target": "यात्रासूची",
+          "bangla_pronunciation": "যাত্রাসূচী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভ্রমণসূচি। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s01",
+      "source_form": "यात्रासूची",
+      "example_target": "आज यात्रासूची और प्रस्थानसमय पर ध्यान दीजिए।",
+      "example_bangla_pronunciation": "আজ যাত্রাসূচী অউর প্রস্থানসময পর ধ্যান দীজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "यात्रासूची",
+          "bangla_pronunciation": "যাত্রাসূচী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रस्थानसमय",
+          "bangla_pronunciation": "প্রস্থানসময",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আজ ভ্রমণসূচি ও রওনা হওয়ার সময়-এর দিকে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03722",
+      "target": "प्रस्थानसमय",
+      "category": "word",
+      "type": "noun",
+      "romanization": "prasthaanasamaya",
+      "bangla_pronunciation": "প্রস্থানসময",
+      "word_pronunciations": [
+        {
+          "target": "प्रस्थानसमय",
+          "bangla_pronunciation": "প্রস্থানসময",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রওনা হওয়ার সময়। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s01",
+      "source_form": "प्रस्थानसमय",
+      "example_target": "आज यात्रासूची और प्रस्थानसमय पर ध्यान दीजिए।",
+      "example_bangla_pronunciation": "আজ যাত্রাসূচী অউর প্রস্থানসময পর ধ্যান দীজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "यात्रासूची",
+          "bangla_pronunciation": "যাত্রাসূচী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रस्थानसमय",
+          "bangla_pronunciation": "প্রস্থানসময",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আজ ভ্রমণসূচি ও রওনা হওয়ার সময়-এর দিকে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03723",
+      "target": "आगमनसमय",
+      "category": "word",
+      "type": "noun",
+      "romanization": "aagamanasamaya",
+      "bangla_pronunciation": "আগমনসময",
+      "word_pronunciations": [
+        {
+          "target": "आगमनसमय",
+          "bangla_pronunciation": "আগমনসময",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পৌঁছানোর সময়। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s02",
+      "source_form": "आगमनसमय",
+      "example_target": "आगमनसमय और स्थानांतरण की जानकारी लिखिए।",
+      "example_bangla_pronunciation": "আগমনসময অউর স্থানাংতরণ কী জানকারী লিখিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "आगमनसमय",
+          "bangla_pronunciation": "আগমনসময",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थानांतरण",
+          "bangla_pronunciation": "স্থানাংতরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পৌঁছানোর সময় ও এক যান বা স্থান থেকে অন্যটিতে বদল-এর তথ্য লিখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03724",
+      "target": "स्थानांतरण",
+      "category": "word",
+      "type": "noun",
+      "romanization": "sthaanaantarana",
+      "bangla_pronunciation": "স্থানাংতরণ",
+      "word_pronunciations": [
+        {
+          "target": "स्थानांतरण",
+          "bangla_pronunciation": "স্থানাংতরণ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এক যান বা স্থান থেকে অন্যটিতে বদল। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s02",
+      "source_form": "स्थानांतरण",
+      "example_target": "आगमनसमय और स्थानांतरण की जानकारी लिखिए।",
+      "example_bangla_pronunciation": "আগমনসময অউর স্থানাংতরণ কী জানকারী লিখিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "आगमनसमय",
+          "bangla_pronunciation": "আগমনসময",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थानांतरण",
+          "bangla_pronunciation": "স্থানাংতরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পৌঁছানোর সময় ও এক যান বা স্থান থেকে অন্যটিতে বদল-এর তথ্য লিখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03725",
+      "target": "यात्रा ठहराव",
+      "category": "word",
+      "type": "noun",
+      "romanization": "yaatraa thaharaava",
+      "bangla_pronunciation": "যাত্রা ঠহরাভ",
+      "word_pronunciations": [
+        {
+          "target": "यात्रा",
+          "bangla_pronunciation": "যাত্রা",
+          "separator_after": " "
+        },
+        {
+          "target": "ठहराव",
+          "bangla_pronunciation": "ঠহরাভ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মাঝপথের বিরতি বা স্টপওভার। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s03",
+      "source_form": "यात्रा ठहराव",
+      "example_target": "यात्रा ठहराव की स्थिति जाँचिए।",
+      "example_bangla_pronunciation": "যাত্রা ঠহরাভ কী স্থিতি জাঁচিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "यात्रा",
+          "bangla_pronunciation": "যাত্রা",
+          "separator_after": " "
+        },
+        {
+          "target": "ठहराव",
+          "bangla_pronunciation": "ঠহরাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थिति",
+          "bangla_pronunciation": "স্থিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचिए।",
+          "bangla_pronunciation": "জাঁচিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "মাঝপথের বিরতি বা স্টপওভার-এর অবস্থা যাচাই করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03726",
+      "target": "निकलने से पहले समय फिर जाँचिए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "nikalane se pahale samaya phira jaanchie",
+      "bangla_pronunciation": "নিকলনে সে পহলে সময ফির জাঁচিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "निकलने",
+          "bangla_pronunciation": "নিকলনে",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचिए",
+          "bangla_pronunciation": "জাঁচিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রওনা হওয়ার আগে সময় আবার যাচাই করুন। এটি এই অধ্যায়ের ব্যবহারযোগ্য একটি পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch125_s04",
+      "source_form": "निकलने से पहले समय फिर जाँचिए",
+      "example_target": "निकलने से पहले समय फिर जाँचिए।",
+      "example_bangla_pronunciation": "নিকলনে সে পহলে সময ফির জাঁচিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "निकलने",
+          "bangla_pronunciation": "নিকলনে",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचिए।",
+          "bangla_pronunciation": "জাঁচিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "রওনা হওয়ার আগে সময় আবার যাচাই করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03727",
+      "target": "बोर्डिंगगेट",
+      "category": "word",
+      "type": "noun",
+      "romanization": "bordingageta",
+      "bangla_pronunciation": "বোর্ডিংগগেট",
+      "word_pronunciations": [
+        {
+          "target": "बोर्डिंगगेट",
+          "bangla_pronunciation": "বোর্ডিংগগেট",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বোর্ডিং গেট। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s05",
+      "source_form": "बोर्डिंगगेट",
+      "example_target": "बोर्डिंगगेट और सामानभत्ता पर चर्चा कीजिए।",
+      "example_bangla_pronunciation": "বোর্ডিংগগেট অউর সামানভত্তা পর চর্চা কীজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "बोर्डिंगगेट",
+          "bangla_pronunciation": "বোর্ডিংগগেট",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "सामानभत्ता",
+          "bangla_pronunciation": "সামানভত্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "चर्चा",
+          "bangla_pronunciation": "চর্চা",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বোর্ডিং গেট ও লাগেজ বহনের অনুমোদিত সীমা নিয়ে আলোচনা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03728",
+      "target": "सामानभत्ता",
+      "category": "word",
+      "type": "noun",
+      "romanization": "saamaanabhattaa",
+      "bangla_pronunciation": "সামানভত্তা",
+      "word_pronunciations": [
+        {
+          "target": "सामानभत्ता",
+          "bangla_pronunciation": "সামানভত্তা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লাগেজ বহনের অনুমোদিত সীমা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s05",
+      "source_form": "सामानभत्ता",
+      "example_target": "बोर्डिंगगेट और सामानभत्ता पर चर्चा कीजिए।",
+      "example_bangla_pronunciation": "বোর্ডিংগগেট অউর সামানভত্তা পর চর্চা কীজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "बोर्डिंगगेट",
+          "bangla_pronunciation": "বোর্ডিংগগেট",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "सामानभत्ता",
+          "bangla_pronunciation": "সামানভত্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "चर्चा",
+          "bangla_pronunciation": "চর্চা",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বোর্ডিং গেট ও লাগেজ বহনের অনুমোদিত সীমা নিয়ে আলোচনা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03729",
+      "target": "प्रतीक्षासूची",
+      "category": "word",
+      "type": "noun",
+      "romanization": "pratiikshaasuuchii",
+      "bangla_pronunciation": "প্রতীক্ষাসূচী",
+      "word_pronunciations": [
+        {
+          "target": "प्रतीक्षासूची",
+          "bangla_pronunciation": "প্রতীক্ষাসূচী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ওয়েটিং লিস্ট। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s06",
+      "source_form": "प्रतीक्षासूची",
+      "example_target": "प्रतीक्षासूची और पुनर्निर्धारण को ध्यान से देखिए।",
+      "example_bangla_pronunciation": "প্রতীক্ষাসূচী অউর পুনর্নির্ধারণ কো ধ্যান সে দেখিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "प्रतीक्षासूची",
+          "bangla_pronunciation": "প্রতীক্ষাসূচী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "पुनर्निर्धारण",
+          "bangla_pronunciation": "পুনর্নির্ধারণ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "देखिए।",
+          "bangla_pronunciation": "দেখিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ওয়েটিং লিস্ট ও নতুন সময় নির্ধারণ মনোযোগ দিয়ে দেখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03730",
+      "target": "पुनर्निर्धारण",
+      "category": "word",
+      "type": "noun",
+      "romanization": "punarnirdhaarana",
+      "bangla_pronunciation": "পুনর্নির্ধারণ",
+      "word_pronunciations": [
+        {
+          "target": "पुनर्निर्धारण",
+          "bangla_pronunciation": "পুনর্নির্ধারণ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নতুন সময় নির্ধারণ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s06",
+      "source_form": "पुनर्निर्धारण",
+      "example_target": "प्रतीक्षासूची और पुनर्निर्धारण को ध्यान से देखिए।",
+      "example_bangla_pronunciation": "প্রতীক্ষাসূচী অউর পুনর্নির্ধারণ কো ধ্যান সে দেখিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "प्रतीक्षासूची",
+          "bangla_pronunciation": "প্রতীক্ষাসূচী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "पुनर्निर्धारण",
+          "bangla_pronunciation": "পুনর্নির্ধারণ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "देखिए।",
+          "bangla_pronunciation": "দেখিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ওয়েটিং লিস্ট ও নতুন সময় নির্ধারণ মনোযোগ দিয়ে দেখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03731",
+      "target": "टिकटरद्दीकरण",
+      "category": "word",
+      "type": "noun",
+      "romanization": "tikataraddiikarana",
+      "bangla_pronunciation": "টিকটরদ্দীকরণ",
+      "word_pronunciations": [
+        {
+          "target": "टिकटरद्दीकरण",
+          "bangla_pronunciation": "টিকটরদ্দীকরণ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "টিকিট বাতিল করা বা হওয়া। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s07",
+      "source_form": "टिकटरद्दीकरण",
+      "example_target": "टिकटरद्दीकरण की जानकारी सुरक्षित रखिए।",
+      "example_bangla_pronunciation": "টিকটরদ্দীকরণ কী জানকারী সুরক্ষিত রখিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "टिकटरद्दीकरण",
+          "bangla_pronunciation": "টিকটরদ্দীকরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षित",
+          "bangla_pronunciation": "সুরক্ষিত",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বাতিল হওয়া বা করা-এর তথ্য নিরাপদে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03732",
+      "target": "बदलाव होते ही सूचना ले लीजिए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "badalaava hote hii suuchanaa le liijie",
+      "bangla_pronunciation": "বদলাভ হোতে হী সূচনা লে লীজিএ",
+      "word_pronunciations": [
+        {
+          "target": "बदलाव",
+          "bangla_pronunciation": "বদলাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "होते",
+          "bangla_pronunciation": "হোতে",
+          "separator_after": " "
+        },
+        {
+          "target": "ही",
+          "bangla_pronunciation": "হী",
+          "separator_after": " "
+        },
+        {
+          "target": "सूचना",
+          "bangla_pronunciation": "সূচনা",
+          "separator_after": " "
+        },
+        {
+          "target": "ले",
+          "bangla_pronunciation": "লে",
+          "separator_after": " "
+        },
+        {
+          "target": "लीजिए",
+          "bangla_pronunciation": "লীজিএ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিবর্তন হলেই তথ্য জেনে নিন। এটি এই অধ্যায়ের ব্যবহারযোগ্য একটি পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch125_s08",
+      "source_form": "बदलाव होते ही सूचना ले लीजिए",
+      "example_target": "बदलाव होते ही सूचना ले लीजिए।",
+      "example_bangla_pronunciation": "বদলাভ হোতে হী সূচনা লে লীজিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "बदलाव",
+          "bangla_pronunciation": "বদলাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "होते",
+          "bangla_pronunciation": "হোতে",
+          "separator_after": " "
+        },
+        {
+          "target": "ही",
+          "bangla_pronunciation": "হী",
+          "separator_after": " "
+        },
+        {
+          "target": "सूचना",
+          "bangla_pronunciation": "সূচনা",
+          "separator_after": " "
+        },
+        {
+          "target": "ले",
+          "bangla_pronunciation": "লে",
+          "separator_after": " "
+        },
+        {
+          "target": "लीजिए।",
+          "bangla_pronunciation": "লীজিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পরিবর্তন হলেই তথ্য জেনে নিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03733",
+      "target": "वैकल्पिकमार्ग",
+      "category": "word",
+      "type": "noun",
+      "romanization": "vaikalpikamaarga",
+      "bangla_pronunciation": "ভৈকল্পিকমার্গ",
+      "word_pronunciations": [
+        {
+          "target": "वैकल्पिकमार्ग",
+          "bangla_pronunciation": "ভৈকল্পিকমার্গ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিকল্প পথ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s09",
+      "source_form": "वैकल्पिकमार्ग",
+      "example_target": "वैकल्पिकमार्ग और यातायातविलंब पर ध्यान दीजिए।",
+      "example_bangla_pronunciation": "ভৈকল্পিকমার্গ অউর যাতাযাতভিলংব পর ধ্যান দীজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "वैकल्पिकमार्ग",
+          "bangla_pronunciation": "ভৈকল্পিকমার্গ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "यातायातविलंब",
+          "bangla_pronunciation": "যাতাযাতভিলংব",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বিকল্প পথ ও যানবাহনের বিলম্ব-এর দিকে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03734",
+      "target": "यातायातविलंब",
+      "category": "word",
+      "type": "noun",
+      "romanization": "yaataayaatavilanba",
+      "bangla_pronunciation": "যাতাযাতভিলংব",
+      "word_pronunciations": [
+        {
+          "target": "यातायातविलंब",
+          "bangla_pronunciation": "যাতাযাতভিলংব",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "যানবাহনের বিলম্ব। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s09",
+      "source_form": "यातायातविलंब",
+      "example_target": "वैकल्पिकमार्ग और यातायातविलंब पर ध्यान दीजिए।",
+      "example_bangla_pronunciation": "ভৈকল্পিকমার্গ অউর যাতাযাতভিলংব পর ধ্যান দীজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "वैकल्पिकमार्ग",
+          "bangla_pronunciation": "ভৈকল্পিকমার্গ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "यातायातविलंब",
+          "bangla_pronunciation": "যাতাযাতভিলংব",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বিকল্প পথ ও যানবাহনের বিলম্ব-এর দিকে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03735",
+      "target": "मौसमचेतावनी",
+      "category": "word",
+      "type": "noun",
+      "romanization": "mausamachetaavanii",
+      "bangla_pronunciation": "মৌসমচেতাভনী",
+      "word_pronunciations": [
+        {
+          "target": "मौसमचेतावनी",
+          "bangla_pronunciation": "মৌসমচেতাভনী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আবহাওয়া সতর্কতা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s10",
+      "source_form": "मौसमचेतावनी",
+      "example_target": "मौसमचेतावनी और संपर्ककेंद्र की तुलना कीजिए।",
+      "example_bangla_pronunciation": "মৌসমচেতাভনী অউর সংপর্ককেংদ্র কী তুলনা কীজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "मौसमचेतावनी",
+          "bangla_pronunciation": "মৌসমচেতাভনী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "संपर्ककेंद्र",
+          "bangla_pronunciation": "সংপর্ককেংদ্র",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "तुलना",
+          "bangla_pronunciation": "তুলনা",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আবহাওয়া সতর্কতা ও যোগাযোগ কেন্দ্র তুলনা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03736",
+      "target": "संपर्ककेंद्र",
+      "category": "word",
+      "type": "noun",
+      "romanization": "sanparkakendra",
+      "bangla_pronunciation": "সংপর্ককেংদ্র",
+      "word_pronunciations": [
+        {
+          "target": "संपर्ककेंद्र",
+          "bangla_pronunciation": "সংপর্ককেংদ্র",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "যোগাযোগ কেন্দ্র। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s10",
+      "source_form": "संपर्ककेंद्र",
+      "example_target": "मौसमचेतावनी और संपर्ककेंद्र की तुलना कीजिए।",
+      "example_bangla_pronunciation": "মৌসমচেতাভনী অউর সংপর্ককেংদ্র কী তুলনা কীজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "मौसमचेतावनी",
+          "bangla_pronunciation": "মৌসমচেতাভনী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "संपर्ककेंद्र",
+          "bangla_pronunciation": "সংপর্ককেংদ্র",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "तुलना",
+          "bangla_pronunciation": "তুলনা",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আবহাওয়া সতর্কতা ও যোগাযোগ কেন্দ্র তুলনা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03737",
+      "target": "वापसीराशि",
+      "category": "word",
+      "type": "noun",
+      "romanization": "vaapasiiraashi",
+      "bangla_pronunciation": "ভাপসীরাশি",
+      "word_pronunciations": [
+        {
+          "target": "वापसीराशि",
+          "bangla_pronunciation": "ভাপসীরাশি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফেরত পাওয়ার টাকা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s11",
+      "source_form": "वापसीराशि",
+      "example_target": "वापसीराशि की स्थिति जाँचिए।",
+      "example_bangla_pronunciation": "ভাপসীরাশি কী স্থিতি জাঁচিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "वापसीराशि",
+          "bangla_pronunciation": "ভাপসীরাশি",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थिति",
+          "bangla_pronunciation": "স্থিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचिए।",
+          "bangla_pronunciation": "জাঁচিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ফেরত পাওয়ার টাকা-এর অবস্থা যাচাই করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03738",
+      "target": "देर हो तो वैकल्पिक मार्ग चुनिए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "dera ho to vaikalpika maarga chunie",
+      "bangla_pronunciation": "দের হো তো ভৈকল্পিক মার্গ চুনিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "देर",
+          "bangla_pronunciation": "দের",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "वैकल्पिक",
+          "bangla_pronunciation": "ভৈকল্পিক",
+          "separator_after": " "
+        },
+        {
+          "target": "मार्ग",
+          "bangla_pronunciation": "মার্গ",
+          "separator_after": " "
+        },
+        {
+          "target": "चुनिए",
+          "bangla_pronunciation": "চুনিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দেরি হলে বিকল্প পথ বেছে নিন। এটি এই অধ্যায়ের ব্যবহারযোগ্য একটি পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch125_s12",
+      "source_form": "देर हो तो वैकल्पिक मार्ग चुनिए",
+      "example_target": "देर हो तो वैकल्पिक मार्ग चुनिए।",
+      "example_bangla_pronunciation": "দের হো তো ভৈকল্পিক মার্গ চুনিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "देर",
+          "bangla_pronunciation": "দের",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "वैकल्पिक",
+          "bangla_pronunciation": "ভৈকল্পিক",
+          "separator_after": " "
+        },
+        {
+          "target": "मार्ग",
+          "bangla_pronunciation": "মার্গ",
+          "separator_after": " "
+        },
+        {
+          "target": "चुनिए।",
+          "bangla_pronunciation": "চুনিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দেরি হলে বিকল্প পথ বেছে নিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03739",
+      "target": "यात्राबीमा",
+      "category": "word",
+      "type": "noun",
+      "romanization": "yaatraabiimaa",
+      "bangla_pronunciation": "যাত্রাবীমা",
+      "word_pronunciations": [
+        {
+          "target": "यात्राबीमा",
+          "bangla_pronunciation": "যাত্রাবীমা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভ্রমণ বীমা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s13",
+      "source_form": "यात्राबीमा",
+      "example_target": "यात्राबीमा और आपातसंपर्क पर बात कीजिए।",
+      "example_bangla_pronunciation": "যাত্রাবীমা অউর আপাতসংপর্ক পর বাত কীজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "यात्राबीमा",
+          "bangla_pronunciation": "যাত্রাবীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "आपातसंपर्क",
+          "bangla_pronunciation": "আপাতসংপর্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "बात",
+          "bangla_pronunciation": "বাত",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ভ্রমণ বীমা ও জরুরি যোগাযোগ নিয়ে কথা বলুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03740",
+      "target": "आपातसंपर्क",
+      "category": "word",
+      "type": "noun",
+      "romanization": "aapaatasanparka",
+      "bangla_pronunciation": "আপাতসংপর্ক",
+      "word_pronunciations": [
+        {
+          "target": "आपातसंपर्क",
+          "bangla_pronunciation": "আপাতসংপর্ক",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "জরুরি যোগাযোগ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s13",
+      "source_form": "आपातसंपर्क",
+      "example_target": "यात्राबीमा और आपातसंपर्क पर बात कीजिए।",
+      "example_bangla_pronunciation": "যাত্রাবীমা অউর আপাতসংপর্ক পর বাত কীজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "यात्राबीमा",
+          "bangla_pronunciation": "যাত্রাবীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "आपातसंपर्क",
+          "bangla_pronunciation": "আপাতসংপর্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "बात",
+          "bangla_pronunciation": "বাত",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ভ্রমণ বীমা ও জরুরি যোগাযোগ নিয়ে কথা বলুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03741",
+      "target": "पहचानदस्तावेज",
+      "category": "word",
+      "type": "noun",
+      "romanization": "pahachaanadastaaveja",
+      "bangla_pronunciation": "পহচানদস্তাভেজ",
+      "word_pronunciations": [
+        {
+          "target": "पहचानदस्तावेज",
+          "bangla_pronunciation": "পহচানদস্তাভেজ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিচয়পত্রের নথি। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s14",
+      "source_form": "पहचानदस्तावेज",
+      "example_target": "पहचानदस्तावेज और टिकटपुष्टि की जानकारी लिखिए।",
+      "example_bangla_pronunciation": "পহচানদস্তাভেজ অউর টিকটপুষ্টি কী জানকারী লিখিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "पहचानदस्तावेज",
+          "bangla_pronunciation": "পহচানদস্তাভেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "टिकटपुष्टि",
+          "bangla_pronunciation": "টিকটপুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পরিচয়পত্রের নথি ও টিকিট নিশ্চিতকরণ-এর তথ্য লিখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03742",
+      "target": "टिकटपुष्टि",
+      "category": "word",
+      "type": "noun",
+      "romanization": "tikatapushti",
+      "bangla_pronunciation": "টিকটপুষ্টি",
+      "word_pronunciations": [
+        {
+          "target": "टिकटपुष्टि",
+          "bangla_pronunciation": "টিকটপুষ্টি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "টিকিট নিশ্চিতকরণ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s14",
+      "source_form": "टिकटपुष्टि",
+      "example_target": "पहचानदस्तावेज और टिकटपुष्टि की जानकारी लिखिए।",
+      "example_bangla_pronunciation": "পহচানদস্তাভেজ অউর টিকটপুষ্টি কী জানকারী লিখিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "पहचानदस्तावेज",
+          "bangla_pronunciation": "পহচানদস্তাভেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "टिकटपुष्टि",
+          "bangla_pronunciation": "টিকটপুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পরিচয়পত্রের নথি ও টিকিট নিশ্চিতকরণ-এর তথ্য লিখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03743",
+      "target": "आरक्षणकोड",
+      "category": "word",
+      "type": "noun",
+      "romanization": "aarakshanakoda",
+      "bangla_pronunciation": "আরক্ষণকোড",
+      "word_pronunciations": [
+        {
+          "target": "आरक्षणकोड",
+          "bangla_pronunciation": "আরক্ষণকোড",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রিজার্ভেশন কোড। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s15",
+      "source_form": "आरक्षणकोड",
+      "example_target": "आरक्षणकोड को ध्यान में रखिए।",
+      "example_bangla_pronunciation": "আরক্ষণকোড কো ধ্যান মেঁ রখিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "आरक्षणकोड",
+          "bangla_pronunciation": "আরক্ষণকোড",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "রিজার্ভেশন কোড বিবেচনায় রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03744",
+      "target": "ज़रूरी दस्तावेज़ अपने पास रखिए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "jaruurii dastaaveja apane paasa rakhie",
+      "bangla_pronunciation": "জরুরি দস্তাভেজ অপনে পাস রখিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "ज़रूरी",
+          "bangla_pronunciation": "জরুরি",
+          "separator_after": " "
+        },
+        {
+          "target": "दस्तावेज़",
+          "bangla_pronunciation": "দস্তাভেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "अपने",
+          "bangla_pronunciation": "অপনে",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए",
+          "bangla_pronunciation": "রখিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "জরুরি নথিগুলো নিজের কাছে রাখুন। এটি এই অধ্যায়ের ব্যবহারযোগ্য একটি পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch125_s16",
+      "source_form": "ज़रूरी दस्तावेज़ अपने पास रखिए",
+      "example_target": "ज़रूरी दस्तावेज़ अपने पास रखिए।",
+      "example_bangla_pronunciation": "জরুরি দস্তাভেজ অপনে পাস রখিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "ज़रूरी",
+          "bangla_pronunciation": "জরুরি",
+          "separator_after": " "
+        },
+        {
+          "target": "दस्तावेज़",
+          "bangla_pronunciation": "দস্তাভেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "अपने",
+          "bangla_pronunciation": "অপনে",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "জরুরি নথিগুলো নিজের কাছে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03745",
+      "target": "आवासपुष्टि",
+      "category": "word",
+      "type": "noun",
+      "romanization": "aavaasapushti",
+      "bangla_pronunciation": "আভাসপুষ্টি",
+      "word_pronunciations": [
+        {
+          "target": "आवासपुष्टि",
+          "bangla_pronunciation": "আভাসপুষ্টি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "থাকার জায়গার বুকিং নিশ্চিতকরণ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s17",
+      "source_form": "आवासपुष्टि",
+      "example_target": "आवासपुष्टि और चेकइनसमय पर ध्यान दीजिए।",
+      "example_bangla_pronunciation": "আভাসপুষ্টি অউর চেকইনসময পর ধ্যান দীজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "आवासपुष्टि",
+          "bangla_pronunciation": "আভাসপুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "चेकइनसमय",
+          "bangla_pronunciation": "চেকইনসময",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "থাকার জায়গার বুকিং নিশ্চিতকরণ ও চেক-ইনের সময়-এর দিকে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03746",
+      "target": "चेकइनसमय",
+      "category": "word",
+      "type": "noun",
+      "romanization": "chekainasamaya",
+      "bangla_pronunciation": "চেকইনসময",
+      "word_pronunciations": [
+        {
+          "target": "चेकइनसमय",
+          "bangla_pronunciation": "চেকইনসময",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "চেক-ইনের সময়। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s17",
+      "source_form": "चेकइनसमय",
+      "example_target": "आवासपुष्टि और चेकइनसमय पर ध्यान दीजिए।",
+      "example_bangla_pronunciation": "আভাসপুষ্টি অউর চেকইনসময পর ধ্যান দীজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "आवासपुष्टि",
+          "bangla_pronunciation": "আভাসপুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "चेकइनसमय",
+          "bangla_pronunciation": "চেকইনসময",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "থাকার জায়গার বুকিং নিশ্চিতকরণ ও চেক-ইনের সময়-এর দিকে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03747",
+      "target": "स्थानीयपरिवहन",
+      "category": "word",
+      "type": "noun",
+      "romanization": "sthaaniiyaparivahana",
+      "bangla_pronunciation": "স্থানীযপরিভহন",
+      "word_pronunciations": [
+        {
+          "target": "स्थानीयपरिवहन",
+          "bangla_pronunciation": "স্থানীযপরিভহন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্থানীয় পরিবহন। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s18",
+      "source_form": "स्थानीयपरिवहन",
+      "example_target": "स्थानीयपरिवहन और मार्गनिर्देश की समीक्षा कीजिए।",
+      "example_bangla_pronunciation": "স্থানীযপরিভহন অউর মার্গনির্দেশ কী সমীক্ষা কীজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "स्थानीयपरिवहन",
+          "bangla_pronunciation": "স্থানীযপরিভহন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "मार्गनिर्देश",
+          "bangla_pronunciation": "মার্গনির্দেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "স্থানীয় পরিবহন ও পথনির্দেশ পর্যালোচনা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03748",
+      "target": "मार्गनिर्देश",
+      "category": "word",
+      "type": "noun",
+      "romanization": "maarganirdesha",
+      "bangla_pronunciation": "মার্গনির্দেশ",
+      "word_pronunciations": [
+        {
+          "target": "मार्गनिर्देश",
+          "bangla_pronunciation": "মার্গনির্দেশ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পথনির্দেশ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s18",
+      "source_form": "मार्गनिर्देश",
+      "example_target": "स्थानीयपरिवहन और मार्गनिर्देश की समीक्षा कीजिए।",
+      "example_bangla_pronunciation": "স্থানীযপরিভহন অউর মার্গনির্দেশ কী সমীক্ষা কীজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "स्थानीयपरिवहन",
+          "bangla_pronunciation": "স্থানীযপরিভহন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "मार्गनिर्देश",
+          "bangla_pronunciation": "মার্গনির্দেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "স্থানীয় পরিবহন ও পথনির্দেশ পর্যালোচনা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03749",
+      "target": "समयअंतर",
+      "category": "word",
+      "type": "noun",
+      "romanization": "samayaantara",
+      "bangla_pronunciation": "সমযঅংতর",
+      "word_pronunciations": [
+        {
+          "target": "समयअंतर",
+          "bangla_pronunciation": "সমযঅংতর",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সময়ের পার্থক্য। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch125_s19",
+      "source_form": "समयअंतर",
+      "example_target": "समयअंतर की स्थिति जाँचिए।",
+      "example_bangla_pronunciation": "সমযঅংতর কী স্থিতি জাঁচিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "समयअंतर",
+          "bangla_pronunciation": "সমযঅংতর",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थिति",
+          "bangla_pronunciation": "স্থিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचिए।",
+          "bangla_pronunciation": "জাঁচিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সময়ের পার্থক্য-এর অবস্থা যাচাই করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03750",
+      "target": "पहुँचने के बाद परिवार को सूचना दीजिए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "pahunchane ke baada parivaara ko suuchanaa diijie",
+      "bangla_pronunciation": "পহুঁচনে কে বাদ পরিভার কো সূচনা দীজিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "पहुँचने",
+          "bangla_pronunciation": "পহুঁচনে",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "बाद",
+          "bangla_pronunciation": "বাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "परिवार",
+          "bangla_pronunciation": "পরিভার",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "सूचना",
+          "bangla_pronunciation": "সূচনা",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए",
+          "bangla_pronunciation": "দীজিয়ে",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পৌঁছানোর পর পরিবারকে খবর দিন। এটি এই অধ্যায়ের ব্যবহারযোগ্য একটি পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch125_s20",
+      "source_form": "पहुँचने के बाद परिवार को सूचना दीजिए",
+      "example_target": "पहुँचने के बाद परिवार को सूचना दीजिए।",
+      "example_bangla_pronunciation": "পহুঁচনে কে বাদ পরিভার কো সূচনা দীজিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "पहुँचने",
+          "bangla_pronunciation": "পহুঁচনে",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "बाद",
+          "bangla_pronunciation": "বাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "परिवार",
+          "bangla_pronunciation": "পরিভার",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "सूचना",
+          "bangla_pronunciation": "সূচনা",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পৌঁছানোর পর পরিবারকে খবর দিন।",
+      "synonyms": []
+    }
+  ],
+  "bridge_reading": {
+    "mode": "article",
+    "title_bengali": "ভ্রমণ বিঘ্ন ও বিকল্প পরিকল্পনা — একটি ব্যবহারিক দৃশ্য",
+    "scene_summary": "ভ্রমণ, বিলম্ব ও বিকল্প পরিকল্পনা নিয়ে একটি বাস্তবধর্মী ছোট আলোচনা যেখানে কয়েকটি মূল হিন্দি শব্দ প্রেক্ষিতের মধ্যে পুনরাবৃত্তি করা হয়েছে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "আজকের বাস্তব পরিস্থিতিতে "
+      },
+      {
+        "kind": "target",
+        "target": "यात्रासूची",
+        "bangla_pronunciation": "যাত্রাসূচী",
+        "word_pronunciations": [
+          {
+            "target": "यात्रासूची",
+            "bangla_pronunciation": "যাত্রাসূচী",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " দিয়ে কাজ শুরু হলো। এরপর "
+      },
+      {
+        "kind": "target",
+        "target": "बोर्डिंगगेट",
+        "bangla_pronunciation": "বোর্ডিংগগেট",
+        "word_pronunciations": [
+          {
+            "target": "बोर्डिंगगेट",
+            "bangla_pronunciation": "বোর্ডিংগগেট",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " ঠিক রেখে দল "
+      },
+      {
+        "kind": "target",
+        "target": "वैकल्पिकमार्ग",
+        "bangla_pronunciation": "ভৈকল্পিকমার্গ",
+        "word_pronunciations": [
+          {
+            "target": "वैकल्पिकमार्ग",
+            "bangla_pronunciation": "ভৈকল্পিকমার্গ",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " যাচাই করল। পরের ধাপে "
+      },
+      {
+        "kind": "target",
+        "target": "यात्राबीमा",
+        "bangla_pronunciation": "যাত্রাবীমা",
+        "word_pronunciations": [
+          {
+            "target": "यात्राबीमा",
+            "bangla_pronunciation": "যাত্রাবীমা",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " নিয়ে আলোচনা হলো এবং শেষে "
+      },
+      {
+        "kind": "target",
+        "target": "आवासपुष्टि",
+        "bangla_pronunciation": "আভাসপুষ্টি",
+        "word_pronunciations": [
+          {
+            "target": "आवासपुष्टि",
+            "bangla_pronunciation": "আভাসপুষ্টি",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " দেখে সিদ্ধান্ত নেওয়া হলো।"
+      }
+    ],
+    "text_md": "আজকের বাস্তব পরিস্থিতিতে **यात्रासूची** (যাত্রাসূচী) দিয়ে কাজ শুরু হলো। এরপর **बोर्डिंगगेट** (বোর্ডিংগগেট) ঠিক রেখে দল **वैकल्पिकमार्ग** (ভৈকল্পিকমার্গ) যাচাই করল। পরের ধাপে **यात्राबीमा** (যাত্রাবীমা) নিয়ে আলোচনা হলো এবং শেষে **आवासपुष्टि** (আভাসপুষ্টি) দেখে সিদ্ধান্ত নেওয়া হলো।"
+  },
+  "target_reading": {
+    "mode": "article",
+    "title_bengali": "ভ্রমণ বিঘ্ন ও বিকল্প পরিকল্পনা — ছোট হিন্দি পাঠ",
+    "scene_summary": "ভ্রমণ, বিলম্ব ও বিকল্প পরিকল্পনা নিয়ে পাঁচ লাইনের সহজ হিন্দি পাঠ; প্রতিটি লাইন একক ও ছোট বাক্য।",
+    "lines": [
+      {
+        "target": "आज यात्रासूची पर चर्चा हुई।",
+        "bangla_pronunciation": "আজ যাত্রাসূচী পর চর্চা হুঈ।",
+        "word_pronunciations": [
+          {
+            "target": "आज",
+            "bangla_pronunciation": "আজ",
+            "separator_after": " "
+          },
+          {
+            "target": "यात्रासूची",
+            "bangla_pronunciation": "যাত্রাসূচী",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "separator_after": " "
+          },
+          {
+            "target": "चर्चा",
+            "bangla_pronunciation": "চর্চা",
+            "separator_after": " "
+          },
+          {
+            "target": "हुई।",
+            "bangla_pronunciation": "হুঈ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "बोर्डिंगगेट की जाँच हुई।",
+        "bangla_pronunciation": "বোর্ডিংগগেট কী জাঁচ হুঈ।",
+        "word_pronunciations": [
+          {
+            "target": "बोर्डिंगगेट",
+            "bangla_pronunciation": "বোর্ডিংগগেট",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "separator_after": " "
+          },
+          {
+            "target": "जाँच",
+            "bangla_pronunciation": "জাঁচ",
+            "separator_after": " "
+          },
+          {
+            "target": "हुई।",
+            "bangla_pronunciation": "হুঈ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "वैकल्पिकमार्ग पर ध्यान दिया गया।",
+        "bangla_pronunciation": "ভৈকল্পিকমার্গ পর ধ্যান দিয়া গয়া।",
+        "word_pronunciations": [
+          {
+            "target": "वैकल्पिकमार्ग",
+            "bangla_pronunciation": "ভৈকল্পিকমার্গ",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "separator_after": " "
+          },
+          {
+            "target": "ध्यान",
+            "bangla_pronunciation": "ধ্যান",
+            "separator_after": " "
+          },
+          {
+            "target": "दिया",
+            "bangla_pronunciation": "দিয়া",
+            "separator_after": " "
+          },
+          {
+            "target": "गया।",
+            "bangla_pronunciation": "গয়া।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "यात्राबीमा की जानकारी मिली।",
+        "bangla_pronunciation": "যাত্রাবীমা কী জানকারী মিলী।",
+        "word_pronunciations": [
+          {
+            "target": "यात्राबीमा",
+            "bangla_pronunciation": "যাত্রাবীমা",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "separator_after": " "
+          },
+          {
+            "target": "जानकारी",
+            "bangla_pronunciation": "জানকারী",
+            "separator_after": " "
+          },
+          {
+            "target": "मिली।",
+            "bangla_pronunciation": "মিলী।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "आवासपुष्टि पर निर्णय हुआ।",
+        "bangla_pronunciation": "আভাসপুষ্টি পর নির্ণয হুআ।",
+        "word_pronunciations": [
+          {
+            "target": "आवासपुष्टि",
+            "bangla_pronunciation": "আভাসপুষ্টি",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "separator_after": " "
+          },
+          {
+            "target": "निर्णय",
+            "bangla_pronunciation": "নির্ণয",
+            "separator_after": " "
+          },
+          {
+            "target": "हुआ।",
+            "bangla_pronunciation": "হুআ।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "আজ যাত্রাসূচী পর চর্চা হুঈ। বোর্ডিংগগেট কী জাঁচ হুঈ। ভৈকল্পিকমার্গ পর ধ্যান দিয়া গয়া। যাত্রাবীমা কী জানকারী মিলী। আভাসপুষ্টি পর নির্ণয হুআ।",
+    "meaning_bengali_md": "আজ ভ্রমণসূচি নিয়ে আলোচনা হয়েছে। বোর্ডিং গেট যাচাই করা হয়েছে। বিকল্প পথ-এর দিকে মনোযোগ দেওয়া হয়েছে। ভ্রমণ বীমা সম্পর্কে তথ্য পাওয়া গেছে। থাকার জায়গার বুকিং নিশ্চিতকরণ নিয়ে সিদ্ধান্ত হয়েছে।"
+  },
+  "script_practice": [
+    {
+      "item_id": "devanagari_आ",
+      "mode": "review",
+      "target": "आ",
+      "bangla_pronunciation": "আ",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা চিহ্নগুচ্ছটি শব্দ চিনতে কাজে লাগে; আশপাশের স্বরচিহ্নসহ উচ্চারণ লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    },
+    {
+      "item_id": "devanagari_इ",
+      "mode": "review",
+      "target": "इ",
+      "bangla_pronunciation": "ই",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা চিহ্নগুচ্ছটি শব্দ চিনতে কাজে লাগে; আশপাশের স্বরচিহ্নসহ উচ্চারণ লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    },
+    {
+      "item_id": "devanagari_उ",
+      "mode": "review",
+      "target": "उ",
+      "bangla_pronunciation": "উ",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা চিহ্নগুচ্ছটি শব্দ চিনতে কাজে লাগে; আশপাশের স্বরচিহ্নসহ উচ্চারণ লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    },
+    {
+      "item_id": "devanagari_ए",
+      "mode": "review",
+      "target": "ए",
+      "bangla_pronunciation": "এ",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা চিহ্নগুচ্ছটি শব্দ চিনতে কাজে লাগে; আশপাশের স্বরচিহ্নসহ উচ্চারণ লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    },
+    {
+      "item_id": "devanagari_ओ",
+      "mode": "review",
+      "target": "ओ",
+      "bangla_pronunciation": "ও",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা চিহ্নগুচ্ছটি শব্দ চিনতে কাজে লাগে; আশপাশের স্বরচিহ্নসহ উচ্চারণ লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    }
+  ],
+  "number_practice": null,
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "বিষয়টি নিয়ে একটি দরকারি বাক্য বলুন।",
+      "model_target": "आज यात्रासूची और प्रस्थानसमय पर ध्यान दीजिए।",
+      "model_bangla_pronunciation": "আজ যাত্রাসূচী অউর প্রস্থানসময পর ধ্যান দীজিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "separator_after": " "
+        },
+        {
+          "target": "यात्रासूची",
+          "bangla_pronunciation": "যাত্রাসূচী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रस्थानसमय",
+          "bangla_pronunciation": "প্রস্থানসময",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আজ ভ্রমণসূচি ও রওনা হওয়ার সময়-এর দিকে মনোযোগ দিন।"
+    },
+    {
+      "prompt_bengali_md": "একটি ব্যবহারিক নির্দেশ ভদ্রভাবে বলুন।",
+      "model_target": "निकलने से पहले समय फिर जाँचिए।",
+      "model_bangla_pronunciation": "নিকলনে সে পহলে সময ফির জাঁচিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "निकलने",
+          "bangla_pronunciation": "নিকলনে",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचिए।",
+          "bangla_pronunciation": "জাঁচিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "রওনা হওয়ার আগে সময় আবার যাচাই করুন।"
+    },
+    {
+      "prompt_bengali_md": "দুটি গুরুত্বপূর্ণ বিষয় একসঙ্গে উল্লেখ করুন।",
+      "model_target": "बोर्डिंगगेट और सामानभत्ता पर चर्चा कीजिए।",
+      "model_bangla_pronunciation": "বোর্ডিংগগেট অউর সামানভত্তা পর চর্চা কীজিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "बोर्डिंगगेट",
+          "bangla_pronunciation": "বোর্ডিংগগেট",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "सामानभत्ता",
+          "bangla_pronunciation": "সামানভত্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "चर्चा",
+          "bangla_pronunciation": "চর্চা",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "বোর্ডিং গেট ও লাগেজ বহনের অনুমোদিত সীমা নিয়ে আলোচনা করুন।"
+    },
+    {
+      "prompt_bengali_md": "তথ্য যাচাই বা আলোচনার জন্য মডেল বাক্যটি বলুন।",
+      "model_target": "वैकल्पिकमार्ग और यातायातविलंब पर ध्यान दीजिए।",
+      "model_bangla_pronunciation": "ভৈকল্পিকমার্গ অউর যাতাযাতভিলংব পর ধ্যান দীজিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "वैकल्पिकमार्ग",
+          "bangla_pronunciation": "ভৈকল্পিকমার্গ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "यातायातविलंब",
+          "bangla_pronunciation": "যাতাযাতভিলংব",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "বিকল্প পথ ও যানবাহনের বিলম্ব-এর দিকে মনোযোগ দিন।"
+    },
+    {
+      "prompt_bengali_md": "পরবর্তী ধাপ সম্পর্কে মডেল বাক্যটি ব্যবহার করুন।",
+      "model_target": "आवासपुष्टि और चेकइनसमय पर ध्यान दीजिए।",
+      "model_bangla_pronunciation": "আভাসপুষ্টি অউর চেকইনসময পর ধ্যান দীজিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "आवासपुष्टि",
+          "bangla_pronunciation": "আভাসপুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "चेकइनसमय",
+          "bangla_pronunciation": "চেকইনসময",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "থাকার জায়গার বুকিং নিশ্চিতকরণ ও চেক-ইনের সময়-এর দিকে মনোযোগ দিন।"
+    },
+    {
+      "prompt_bengali_md": "শেষ পরামর্শটি স্পষ্টভাবে বলুন।",
+      "model_target": "पहुँचने के बाद परिवार को सूचना दीजिए।",
+      "model_bangla_pronunciation": "পহুঁচনে কে বাদ পরিভার কো সূচনা দীজিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "पहुँचने",
+          "bangla_pronunciation": "পহুঁচনে",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "बाद",
+          "bangla_pronunciation": "বাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "परिवार",
+          "bangla_pronunciation": "পরিভার",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "सूचना",
+          "bangla_pronunciation": "সূচনা",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "পৌঁছানোর পর পরিবারকে খবর দিন।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch125_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A practical adult-learning scene about ভ্রমণ, বিলম্ব ও বিকল্প পরিকল্পনা: two or three Bangladeshi/South Asian adults actively reviewing relevant objects or a shared task, medium-wide composition, warm daylight, calm focus, realistic contemporary setting. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, clear focal point, realistic South Asian context, no stereotypes."
+    },
+    {
+      "key": "ch125_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A different close-to-medium scene about ভ্রমণ, বিলম্ব ও বিকল্প পরিকল্পনা: one adult checking a result or making a clear decision while another person observes, tidy realistic environment, bright natural light, a single focal action and different framing from the first image. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, clear focal point, realistic South Asian context, no stereotypes."
+    }
+  ],
+  "additional_practice": []
+}
