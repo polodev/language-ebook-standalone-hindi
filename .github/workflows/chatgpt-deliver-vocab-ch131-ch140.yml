@@ -1,4 +1,4 @@
-name: Diagnose vocabulary chapters 131-140
+name: Check vocabulary replacement candidates
 
 on:
   push:
@@ -11,39 +11,44 @@ permissions:
   contents: read
 
 jobs:
-  diagnose:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Find roster collisions against main
+      - name: Check candidate uniqueness against main
         shell: bash
         run: |
           set -euo pipefail
-          cat .github/transfer/piece-* | base64 -d > /tmp/ch131-140.tar.xz
-          echo '94ea932dc57660ad90953de42ed0eb98b36711b656b6029a71851627e7f7bb3c  /tmp/ch131-140.tar.xz' | sha256sum -c -
-          xz -d -c /tmp/ch131-140.tar.xz > /tmp/ch131-140.tar
           git fetch origin main
-          git checkout -B diagnose origin/main
-          tar -xf /tmp/ch131-140.tar
+          git checkout -B check origin/main
           python3 - <<'PY'
           import json, unicodedata
           from pathlib import Path
-          root = Path('04-easy-hindi-vocabulary-7000-words/rosters')
+          candidates = {
+            'v03904':'परिरक्षण',
+            'v03907':'पुनर्संसाधन',
+            'v03920':'कसौटी',
+            'v03934':'भरोसेमंदी',
+            'v03955':'प्रमाणीकरण',
+            'v03965':'निजता',
+            'v03992':'रज़ामंदी',
+            'v03993':'मतभेद',
+            'v04005':'तटस्थता',
+            'v04011':'मियाद',
+            'v04017':'अनुमोदन',
+            'v04018':'नामंजूरी',
+            'v04027':'प्रक्षेपण',
+            'v04063':'पर्यवेक्षण',
+            'v04111':'नामांकन',
+          }
           def norm(s):
               return ' '.join(unicodedata.normalize('NFC', s).casefold().split()).strip('.,!?।。！？')
-          seen = {}
-          collisions = []
-          for path in sorted(root.glob('ch*.json')):
-              data = json.loads(path.read_text(encoding='utf-8'))
-              for item in data.get('items', []):
-                  key = norm(item['target'])
-                  if key in seen:
-                      collisions.append((item['target'], seen[key], f'{path.name}:{item["id"]}'))
-                  else:
-                      seen[key] = f'{path.name}:{item["id"]}'
-          print('COLLISION_COUNT', len(collisions))
-          for target, first, second in collisions:
-              print('DUPLICATE', repr(target), first, second)
+          existing={}
+          for p in Path('04-easy-hindi-vocabulary-7000-words/rosters').glob('ch*.json'):
+              d=json.loads(p.read_text(encoding='utf-8'))
+              for x in d.get('items',[]): existing.setdefault(norm(x['target']),[]).append(f"{p.name}:{x['id']}")
+          for vid,t in candidates.items():
+              print(vid, repr(t), 'USED' if norm(t) in existing else 'FREE', existing.get(norm(t),[]))
           PY
