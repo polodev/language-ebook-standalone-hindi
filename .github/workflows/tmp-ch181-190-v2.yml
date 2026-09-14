@@ -29,14 +29,24 @@ jobs:
       - name: Check new roster targets against starting main
         run: |
           python3 - <<'PY'
-          import json, subprocess
+          import json, re, subprocess
           from pathlib import Path
 
           book = Path('04-easy-hindi-vocabulary-7000-words')
           base_sha = '9dbdc14b189c0d9094d3502ac616da544d24dfb1'
+          roster_root = f'{book}/rosters/'
+          paths = subprocess.check_output(
+              ['git', 'ls-tree', '-r', '--name-only', base_sha, '--', f'{book}/rosters'],
+              text=True,
+          ).splitlines()
+
           old_targets = set()
-          for ch in range(1, 181):
-              raw = subprocess.check_output(['git', 'show', f'{base_sha}:{book}/rosters/ch{ch:03d}.json'], text=True)
+          roster_re = re.compile(r'/ch(\d{3})\.json$')
+          for path in paths:
+              match = roster_re.search(path)
+              if not match or int(match.group(1)) >= 181:
+                  continue
+              raw = subprocess.check_output(['git', 'show', f'{base_sha}:{path}'], text=True)
               data = json.loads(raw)
               old_targets.update(item['target'] for item in data.get('items', []))
 
@@ -54,6 +64,7 @@ jobs:
                   seen_new.add(target)
                   new_targets.append(target)
 
+          print('STARTING_MAIN_ROSTER_COUNT', sum(1 for p in paths if roster_re.search(p) and int(roster_re.search(p).group(1)) < 181))
           print('NEW_TARGET_COUNT', len(new_targets))
           print('NEW_UNIQUE_TARGET_COUNT', len(set(new_targets)))
           print('NEW_COLLISION_COUNT', len(collisions))
