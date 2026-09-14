@@ -1,78 +1,1659 @@
 {
-  "chapter_id":"ch030",
-  "status":"drafted",
-  "title_target":"शर्तें और विकल्प",
-  "title_bangla_pronunciation":"শর্তেঁ অউর বিকল্প",
-  "title_word_pronunciations":[{"target":"शर्तें","bangla_pronunciation":"শর্তেঁ","separator_after":" "},{"target":"और","bangla_pronunciation":"অউর","separator_after":" "},{"target":"विकल्प","bangla_pronunciation":"বিকল্প","separator_after":""}],
-  "title_bengali":"শর্ত ও বিকল্প",
-  "goal_bengali_md":"अगर, तो এবং जब तक ধরনের conditional বাক্যে choice, risk ও backup plan প্রকাশ করা।",
-  "sentences":[
-    {"id":"ch030_s01","target":"अगर समय मिला, भेजूँगा।","romanization":"agar samay milā, bhejū̃gā.","bangla_pronunciation":"অগর সময় মিলা, ভেজূঁগা।","word_pronunciations":[{"target":"अगर","bangla_pronunciation":"অগর","separator_after":" "},{"target":"समय","bangla_pronunciation":"সময়","separator_after":" "},{"target":"मिला,","bangla_pronunciation":"মিলা,","separator_after":" "},{"target":"भेजूँगा।","bangla_pronunciation":"ভেজূঁগা।","separator_after":""}],"meaning_bengali_md":"সময় পেলে পাঠাব। পুরুষ বক্তার রূপ।"},
-    {"id":"ch030_s02","target":"बारिश हुई तो ऑनलाइन मिलेंगे।","romanization":"bāriś huī to online milẽge.","bangla_pronunciation":"বারিশ হুঈ তো অনলাইন মিলেঙ্গে।","word_pronunciations":[{"target":"बारिश","bangla_pronunciation":"বারিশ","separator_after":" "},{"target":"हुई","bangla_pronunciation":"হুঈ","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"ऑनलाइन","bangla_pronunciation":"অনলাইন","separator_after":" "},{"target":"मिलेंगे।","bangla_pronunciation":"মিলেঙ্গে।","separator_after":""}],"meaning_bengali_md":"বৃষ্টি হলে অনলাইনে মিলব।"},
-    {"id":"ch030_s03","target":"बजट के बिना दायरा नहीं बढ़ेगा।","romanization":"bajaṭ ke binā dāyrā nahī̃ baṛhegā.","bangla_pronunciation":"বজট কে বিনা দায়রা নহীঁ বাড়েগা।","word_pronunciations":[{"target":"बजट","bangla_pronunciation":"বজট","separator_after":" "},{"target":"के","bangla_pronunciation":"কে","separator_after":" "},{"target":"बिना","bangla_pronunciation":"বিনা","separator_after":" "},{"target":"दायरा","bangla_pronunciation":"দায়রা","separator_after":" "},{"target":"नहीं","bangla_pronunciation":"নহীঁ","separator_after":" "},{"target":"बढ़ेगा।","bangla_pronunciation":"বাড়েগা।","separator_after":""}],"meaning_bengali_md":"বাজেট ছাড়া পরিধি বাড়বে না।"},
-    {"id":"ch030_s04","target":"पुष्टि तक भुगतान मत कीजिए।","romanization":"puṣṭi tak bhugtān mat kījiye.","bangla_pronunciation":"পুষ্টি তক ভুগতান মত কীজিয়ে।","word_pronunciations":[{"target":"पुष्टि","bangla_pronunciation":"পুষ্টি","separator_after":" "},{"target":"तक","bangla_pronunciation":"তক","separator_after":" "},{"target":"भुगतान","bangla_pronunciation":"ভুগতান","separator_after":" "},{"target":"मत","bangla_pronunciation":"মত","separator_after":" "},{"target":"कीजिए।","bangla_pronunciation":"কীজিয়ে।","separator_after":""}],"meaning_bengali_md":"নিশ্চিতকরণ না হওয়া পর্যন্ত পেমেন্ট করবেন না।"},
-    {"id":"ch030_s05","target":"काम पूरा होने तक रुकिए।","romanization":"kām pūrā hone tak rukiye.","bangla_pronunciation":"কাম পূরা হোনে তক রুকিয়ে।","word_pronunciations":[{"target":"काम","bangla_pronunciation":"কাম","separator_after":" "},{"target":"पूरा","bangla_pronunciation":"পূরা","separator_after":" "},{"target":"होने","bangla_pronunciation":"হোনে","separator_after":" "},{"target":"तक","bangla_pronunciation":"তক","separator_after":" "},{"target":"रुकिए।","bangla_pronunciation":"রুকিয়ে।","separator_after":""}],"meaning_bengali_md":"কাজ শেষ হওয়া পর্যন্ত অপেক্ষা করুন।"},
-    {"id":"ch030_s06","target":"रास्ता बंद हो तो बदलें।","romanization":"rāstā band ho to badlẽ.","bangla_pronunciation":"রাস্তা বন্দ হো তো বদলেঁ।","word_pronunciations":[{"target":"रास्ता","bangla_pronunciation":"রাস্তা","separator_after":" "},{"target":"बंद","bangla_pronunciation":"বন্দ","separator_after":" "},{"target":"हो","bangla_pronunciation":"হো","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"बदलें।","bangla_pronunciation":"বদলেঁ।","separator_after":""}],"meaning_bengali_md":"রাস্তা বন্ধ হলে বদলান।"},
-    {"id":"ch030_s07","target":"नेटवर्क रुके तो डेटा चलाएँ।","romanization":"neṭvark ruke to ḍeṭā calāẽ.","bangla_pronunciation":"নেটওয়ার্ক রুকে তো ডেটা চলায়েঁ।","word_pronunciations":[{"target":"नेटवर्क","bangla_pronunciation":"নেটওয়ার্ক","separator_after":" "},{"target":"रुके","bangla_pronunciation":"রুকে","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"डेटा","bangla_pronunciation":"ডেটা","separator_after":" "},{"target":"चलाएँ।","bangla_pronunciation":"চলায়েঁ।","separator_after":""}],"meaning_bengali_md":"নেটওয়ার্ক বন্ধ হলে ডেটা চালান।"},
-    {"id":"ch030_s08","target":"जोखिम बढ़े तो योजना बदलें।","romanization":"jokhim baṛhe to yojanā badlẽ.","bangla_pronunciation":"জোখিম বাড়ে তো যোজনা বদলেঁ।","word_pronunciations":[{"target":"जोखिम","bangla_pronunciation":"জোখিম","separator_after":" "},{"target":"बढ़े","bangla_pronunciation":"বাড়ে","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"योजना","bangla_pronunciation":"যোজনা","separator_after":" "},{"target":"बदलें।","bangla_pronunciation":"বদলেঁ।","separator_after":""}],"meaning_bengali_md":"ঝুঁকি বাড়লে পরিকল্পনা বদলান।"},
-    {"id":"ch030_s09","target":"आप सहमत हों तो शुरू करें।","romanization":"āp sahamat hõ to śurū karẽ.","bangla_pronunciation":"আপ সহমত হোঁ তো শুরু করেঁ।","word_pronunciations":[{"target":"आप","bangla_pronunciation":"আপ","separator_after":" "},{"target":"सहमत","bangla_pronunciation":"সহমত","separator_after":" "},{"target":"हों","bangla_pronunciation":"হোঁ","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"शुरू","bangla_pronunciation":"শুরু","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেঁ।","separator_after":""}],"meaning_bengali_md":"আপনি সম্মত হলে শুরু করুন।"},
-    {"id":"ch030_s10","target":"जवाब न मिले तो संपर्क करें।","romanization":"javāb na mile to sampark karẽ.","bangla_pronunciation":"জবাব ন মিলে তো সম্পর্ক করেঁ।","word_pronunciations":[{"target":"जवाब","bangla_pronunciation":"জবাব","separator_after":" "},{"target":"न","bangla_pronunciation":"ন","separator_after":" "},{"target":"मिले","bangla_pronunciation":"মিলে","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"संपर्क","bangla_pronunciation":"সম্পর্ক","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেঁ।","separator_after":""}],"meaning_bengali_md":"উত্তর না পেলে যোগাযোগ করুন।"},
-    {"id":"ch030_s11","target":"जरूरत तक बैकअप चालू रखें।","romanization":"zarūrat tak backup cālū rakhẽ.","bangla_pronunciation":"জরূরত তক ব্যাকআপ চালূ রাখেঁ।","word_pronunciations":[{"target":"जरूरत","bangla_pronunciation":"জরূরত","separator_after":" "},{"target":"तक","bangla_pronunciation":"তক","separator_after":" "},{"target":"बैकअप","bangla_pronunciation":"ব্যাকআপ","separator_after":" "},{"target":"चालू","bangla_pronunciation":"চালূ","separator_after":" "},{"target":"रखें।","bangla_pronunciation":"রাখেঁ।","separator_after":""}],"meaning_bengali_md":"প্রয়োজন পর্যন্ত ব্যাকআপ চালু রাখুন।"},
-    {"id":"ch030_s12","target":"कीमत कम हो तो गुणवत्ता जाँचिए।","romanization":"kīmat kam ho to guṇvattā jāñciye.","bangla_pronunciation":"কীমত কম হো তো গুণবত্তা জাঁচিয়ে।","word_pronunciations":[{"target":"कीमत","bangla_pronunciation":"কীমত","separator_after":" "},{"target":"कम","bangla_pronunciation":"কম","separator_after":" "},{"target":"हो","bangla_pronunciation":"হো","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"गुणवत्ता","bangla_pronunciation":"গুণবত্তা","separator_after":" "},{"target":"जाँचिए।","bangla_pronunciation":"জাঁচিয়ে।","separator_after":""}],"meaning_bengali_md":"দাম কম হলে মান যাচাই করুন।"},
-    {"id":"ch030_s13","target":"सूचना मिले तो नुकसान कम होगा।","romanization":"sūcnā mile to nuksān kam hogā.","bangla_pronunciation":"সূচনা মিলে তো নুকসান কম হোগা।","word_pronunciations":[{"target":"सूचना","bangla_pronunciation":"সূচনা","separator_after":" "},{"target":"मिले","bangla_pronunciation":"মিলে","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"नुकसान","bangla_pronunciation":"নুকসান","separator_after":" "},{"target":"कम","bangla_pronunciation":"কম","separator_after":" "},{"target":"होगा।","bangla_pronunciation":"হোগা।","separator_after":""}],"meaning_bengali_md":"তথ্য পেলে ক্ষতি কম হবে।"},
-    {"id":"ch030_s14","target":"दस्तावेज पूरे हों तो प्रक्रिया तेज होगी।","romanization":"dastāvez pūre hõ to prakriyā tez hogī.","bangla_pronunciation":"দস্তাবেজ পূরে হোঁ তো প্রক্রিয়া তেজ হোগী।","word_pronunciations":[{"target":"दस्तावेज","bangla_pronunciation":"দস্তাবেজ","separator_after":" "},{"target":"पूरे","bangla_pronunciation":"পূরে","separator_after":" "},{"target":"हों","bangla_pronunciation":"হোঁ","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"प्रक्रिया","bangla_pronunciation":"প্রক্রিয়া","separator_after":" "},{"target":"तेज","bangla_pronunciation":"তেজ","separator_after":" "},{"target":"होगी।","bangla_pronunciation":"হোগী।","separator_after":""}],"meaning_bengali_md":"নথি সম্পূর্ণ হলে প্রক্রিয়া দ্রুত হবে।"},
-    {"id":"ch030_s15","target":"शर्तें साफ हों तो फैसला आसान है।","romanization":"śartẽ sāf hõ to faislā āsān hai.","bangla_pronunciation":"শর্তেঁ সাফ হোঁ তো ফয়সলা আসান হ্যায়।","word_pronunciations":[{"target":"शर्तें","bangla_pronunciation":"শর্তেঁ","separator_after":" "},{"target":"साफ","bangla_pronunciation":"সাফ","separator_after":" "},{"target":"हों","bangla_pronunciation":"হোঁ","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"फैसला","bangla_pronunciation":"ফয়সলা","separator_after":" "},{"target":"आसान","bangla_pronunciation":"আসান","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"meaning_bengali_md":"শর্ত পরিষ্কার হলে সিদ্ধান্ত সহজ।"},
-    {"id":"ch030_s16","target":"नई जानकारी मिले तो फैसला बदलूँगा।","romanization":"naī jānkārī mile to faislā badlū̃gā.","bangla_pronunciation":"নঈ জানকারী মিলে তো ফয়সলা বদলূঁগা।","word_pronunciations":[{"target":"नई","bangla_pronunciation":"নঈ","separator_after":" "},{"target":"जानकारी","bangla_pronunciation":"জানকারী","separator_after":" "},{"target":"मिले","bangla_pronunciation":"মিলে","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"फैसला","bangla_pronunciation":"ফয়সলা","separator_after":" "},{"target":"बदलूँगा।","bangla_pronunciation":"বদলূঁগা।","separator_after":""}],"meaning_bengali_md":"নতুন তথ্য পেলে সিদ্ধান্ত বদলাব। পুরুষ বক্তার রূপ।"},
-    {"id":"ch030_s17","target":"बिजली जाए तो टॉर्च रखें।","romanization":"bijlī jāe to ṭorc rakhẽ.","bangla_pronunciation":"বিজলী জায়ে তো টর্চ রাখেঁ।","word_pronunciations":[{"target":"बिजली","bangla_pronunciation":"বিজলী","separator_after":" "},{"target":"जाए","bangla_pronunciation":"জায়ে","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"टॉर्च","bangla_pronunciation":"টর্চ","separator_after":" "},{"target":"रखें।","bangla_pronunciation":"রাখেঁ।","separator_after":""}],"meaning_bengali_md":"বিদ্যুৎ গেলে টর্চ রাখুন।"},
-    {"id":"ch030_s18","target":"योजना विफल हो तो विकल्प लें।","romanization":"yojanā viphal ho to vikalp lẽ.","bangla_pronunciation":"যোজনা বিফল হো তো বিকল্প লেঁ।","word_pronunciations":[{"target":"योजना","bangla_pronunciation":"যোজনা","separator_after":" "},{"target":"विफल","bangla_pronunciation":"বিফল","separator_after":" "},{"target":"हो","bangla_pronunciation":"হো","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"विकल्प","bangla_pronunciation":"বিকল্প","separator_after":" "},{"target":"लें।","bangla_pronunciation":"লেঁ।","separator_after":""}],"meaning_bengali_md":"পরিকল্পনা ব্যর্থ হলে বিকল্প নিন।"},
-    {"id":"ch030_s19","target":"आप चाहें तो छोटा शुरू करें।","romanization":"āp cāhẽ to choṭā śurū karẽ.","bangla_pronunciation":"আপ চাহেঁ তো ছোট়া শুরু করেঁ।","word_pronunciations":[{"target":"आप","bangla_pronunciation":"আপ","separator_after":" "},{"target":"चाहें","bangla_pronunciation":"চাহেঁ","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"छोटा","bangla_pronunciation":"ছোটা","separator_after":" "},{"target":"शुरू","bangla_pronunciation":"শুরু","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেঁ।","separator_after":""}],"meaning_bengali_md":"আপনি চাইলে ছোটভাবে শুরু করুন।"},
-    {"id":"ch030_s20","target":"सुरक्षित होने तक आगे मत बढ़िए।","romanization":"surakṣit hone tak āge mat baṛhiye.","bangla_pronunciation":"সুরক্ষিত হোনে তক আগে মত বাড়িয়ে।","word_pronunciations":[{"target":"सुरक्षित","bangla_pronunciation":"সুরক্ষিত","separator_after":" "},{"target":"होने","bangla_pronunciation":"হোনে","separator_after":" "},{"target":"तक","bangla_pronunciation":"তক","separator_after":" "},{"target":"आगे","bangla_pronunciation":"আগে","separator_after":" "},{"target":"मत","bangla_pronunciation":"মত","separator_after":" "},{"target":"बढ़िए।","bangla_pronunciation":"বাড়িয়ে।","separator_after":""}],"meaning_bengali_md":"নিরাপদ হওয়া পর্যন্ত এগোবেন না।"}
+  "chapter_id": "ch030",
+  "status": "drafted",
+  "title_target": "शर्तें और विकल्प",
+  "title_bangla_pronunciation": "শর্তেঁ অউর বিকল্প",
+  "title_romanization": "sharten aura vikalp",
+  "title_word_pronunciations": [
+    {
+      "target": "शर्तें",
+      "bangla_pronunciation": "শর্তেঁ",
+      "romanization": "shrteN",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "romanization": "aur",
+      "separator_after": " "
+    },
+    {
+      "target": "विकल्प",
+      "bangla_pronunciation": "বিকল্প",
+      "romanization": "viklp",
+      "separator_after": ""
+    }
   ],
-  "vocabulary":[
-    {"id":"ch030_v01","target":"पुष्टि","type":"noun","romanization":"puṣṭi","bangla_pronunciation":"পুষ্টি","word_pronunciations":[{"target":"पुष्टि","bangla_pronunciation":"পুষ্টি","separator_after":""}],"meaning_bengali_md":"নিশ্চিতকরণ।","source_sentence_id":"ch030_s04","source_form":"पुष्टि"},
-    {"id":"ch030_v02","target":"भुगतान","type":"noun","romanization":"bhugtān","bangla_pronunciation":"ভুগতান","word_pronunciations":[{"target":"भुगतान","bangla_pronunciation":"ভুগতান","separator_after":""}],"meaning_bengali_md":"পেমেন্ট।","source_sentence_id":"ch030_s04","source_form":"भुगतान"},
-    {"id":"ch030_v03","target":"जोखिम","type":"noun","romanization":"jokhim","bangla_pronunciation":"জোখিম","word_pronunciations":[{"target":"जोखिम","bangla_pronunciation":"জোখিম","separator_after":""}],"meaning_bengali_md":"ঝুঁকি।","source_sentence_id":"ch030_s08","source_form":"जोखिम"},
-    {"id":"ch030_v04","target":"बैकअप","type":"noun","romanization":"backup","bangla_pronunciation":"ব্যাকআপ","word_pronunciations":[{"target":"बैकअप","bangla_pronunciation":"ব্যাকআপ","separator_after":""}],"meaning_bengali_md":"ব্যাকআপ।","source_sentence_id":"ch030_s11","source_form":"बैकअप"},
-    {"id":"ch030_v05","target":"शर्तें","type":"noun","romanization":"śartẽ","bangla_pronunciation":"শর্তেঁ","word_pronunciations":[{"target":"शर्तें","bangla_pronunciation":"শর্তেঁ","separator_after":""}],"meaning_bengali_md":"শর্তসমূহ।","source_sentence_id":"ch030_s15","source_form":"शर्तें"}
+  "title_bengali": "শর্ত ও বিকল্প",
+  "goal_bengali_md": "अगर, तो এবং जब तक ধরনের conditional বাক্যে choice, risk ও backup plan প্রকাশ করা।",
+  "sentences": [
+    {
+      "id": "ch030_s01",
+      "target": "अगर समय मिला, भेजूँगा।",
+      "romanization": "agar samay milā, bhejū̃gā.",
+      "bangla_pronunciation": "অগর সময় মিলা, ভেজূঁগা।",
+      "word_pronunciations": [
+        {
+          "target": "अगर",
+          "bangla_pronunciation": "অগর",
+          "romanization": "agar",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "romanization": "samay",
+          "separator_after": " "
+        },
+        {
+          "target": "मिला,",
+          "bangla_pronunciation": "মিলা,",
+          "romanization": "milaa,",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजूँगा।",
+          "bangla_pronunciation": "ভেজূঁগা।",
+          "romanization": "bhejoongaa.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সময় পেলে পাঠাব। পুরুষ বক্তার রূপ।"
+    },
+    {
+      "id": "ch030_s02",
+      "target": "बारिश हुई तो ऑनलाइन मिलेंगे।",
+      "romanization": "bāriś huī to online milẽge.",
+      "bangla_pronunciation": "বারিশ হুঈ তো অনলাইন মিলেঙ্গে।",
+      "word_pronunciations": [
+        {
+          "target": "बारिश",
+          "bangla_pronunciation": "বারিশ",
+          "romanization": "baarish",
+          "separator_after": " "
+        },
+        {
+          "target": "हुई",
+          "bangla_pronunciation": "হুঈ",
+          "romanization": "huee",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "ऑनलाइन",
+          "bangla_pronunciation": "অনলাইন",
+          "romanization": "onalaain",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलेंगे।",
+          "bangla_pronunciation": "মিলেঙ্গে।",
+          "romanization": "milenge.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বৃষ্টি হলে অনলাইনে মিলব।"
+    },
+    {
+      "id": "ch030_s03",
+      "target": "बजट के बिना दायरा नहीं बढ़ेगा।",
+      "romanization": "bajaṭ ke binā dāyrā nahī̃ baṛhegā.",
+      "bangla_pronunciation": "বজট কে বিনা দায়রা নহীঁ বাড়েগা।",
+      "word_pronunciations": [
+        {
+          "target": "बजट",
+          "bangla_pronunciation": "বজট",
+          "romanization": "bajat",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "romanization": "ke",
+          "separator_after": " "
+        },
+        {
+          "target": "बिना",
+          "bangla_pronunciation": "বিনা",
+          "romanization": "binaa",
+          "separator_after": " "
+        },
+        {
+          "target": "दायरा",
+          "bangla_pronunciation": "দায়রা",
+          "romanization": "daayraa",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "romanization": "naheen",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़ेगा।",
+          "bangla_pronunciation": "বাড়েগা।",
+          "romanization": "barhegaa.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাজেট ছাড়া পরিধি বাড়বে না।"
+    },
+    {
+      "id": "ch030_s04",
+      "target": "पुष्टि तक भुगतान मत कीजिए।",
+      "romanization": "puṣṭi tak bhugtān mat kījiye.",
+      "bangla_pronunciation": "পুষ্টি তক ভুগতান মত কীজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "पुष्टि",
+          "bangla_pronunciation": "পুষ্টি",
+          "romanization": "pusstti",
+          "separator_after": " "
+        },
+        {
+          "target": "तक",
+          "bangla_pronunciation": "তক",
+          "romanization": "tak",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "romanization": "bhugtaan",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "romanization": "mat",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিশ্চিতকরণ না হওয়া পর্যন্ত পেমেন্ট করবেন না।"
+    },
+    {
+      "id": "ch030_s05",
+      "target": "काम पूरा होने तक रुकिए।",
+      "romanization": "kām pūrā hone tak rukiye.",
+      "bangla_pronunciation": "কাম পূরা হোনে তক রুকিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
+          "separator_after": " "
+        },
+        {
+          "target": "पूरा",
+          "bangla_pronunciation": "পূরা",
+          "romanization": "poora",
+          "separator_after": " "
+        },
+        {
+          "target": "होने",
+          "bangla_pronunciation": "হোনে",
+          "romanization": "hone",
+          "separator_after": " "
+        },
+        {
+          "target": "तक",
+          "bangla_pronunciation": "তক",
+          "romanization": "tak",
+          "separator_after": " "
+        },
+        {
+          "target": "रुकिए।",
+          "bangla_pronunciation": "রুকিয়ে।",
+          "romanization": "rukie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কাজ শেষ হওয়া পর্যন্ত অপেক্ষা করুন।"
+    },
+    {
+      "id": "ch030_s06",
+      "target": "रास्ता बंद हो तो बदलें।",
+      "romanization": "rāstā band ho to badlẽ.",
+      "bangla_pronunciation": "রাস্তা বন্দ হো তো বদলেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "रास्ता",
+          "bangla_pronunciation": "রাস্তা",
+          "romanization": "raasta",
+          "separator_after": " "
+        },
+        {
+          "target": "बंद",
+          "bangla_pronunciation": "বন্দ",
+          "romanization": "band",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "romanization": "ho",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलें।",
+          "bangla_pronunciation": "বদলেঁ।",
+          "romanization": "badalen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রাস্তা বন্ধ হলে বদলান।"
+    },
+    {
+      "id": "ch030_s07",
+      "target": "नेटवर्क रुके तो डेटा चलाएँ।",
+      "romanization": "neṭvark ruke to ḍeṭā calāẽ.",
+      "bangla_pronunciation": "নেটওয়ার্ক রুকে তো ডেটা চলায়েঁ।",
+      "word_pronunciations": [
+        {
+          "target": "नेटवर्क",
+          "bangla_pronunciation": "নেটওয়ার্ক",
+          "romanization": "network",
+          "separator_after": " "
+        },
+        {
+          "target": "रुके",
+          "bangla_pronunciation": "রুকে",
+          "romanization": "ruke",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "डेटा",
+          "bangla_pronunciation": "ডেটা",
+          "romanization": "data",
+          "separator_after": " "
+        },
+        {
+          "target": "चलाएँ।",
+          "bangla_pronunciation": "চলায়েঁ।",
+          "romanization": "chalaaen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নেটওয়ার্ক বন্ধ হলে ডেটা চালান।"
+    },
+    {
+      "id": "ch030_s08",
+      "target": "जोखिम बढ़े तो योजना बदलें।",
+      "romanization": "jokhim baṛhe to yojanā badlẽ.",
+      "bangla_pronunciation": "জোখিম বাড়ে তো যোজনা বদলেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "जोखिम",
+          "bangla_pronunciation": "জোখিম",
+          "romanization": "jokhim",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़े",
+          "bangla_pronunciation": "বাড়ে",
+          "romanization": "barhe",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "योजना",
+          "bangla_pronunciation": "যোজনা",
+          "romanization": "yojnaa",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलें।",
+          "bangla_pronunciation": "বদলেঁ।",
+          "romanization": "badalen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঝুঁকি বাড়লে পরিকল্পনা বদলান।"
+    },
+    {
+      "id": "ch030_s09",
+      "target": "आप सहमत हों तो शुरू करें।",
+      "romanization": "āp sahamat hõ to śurū karẽ.",
+      "bangla_pronunciation": "আপ সহমত হোঁ তো শুরু করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "आप",
+          "bangla_pronunciation": "আপ",
+          "romanization": "aap",
+          "separator_after": " "
+        },
+        {
+          "target": "सहमत",
+          "bangla_pronunciation": "সহমত",
+          "romanization": "shmt",
+          "separator_after": " "
+        },
+        {
+          "target": "हों",
+          "bangla_pronunciation": "হোঁ",
+          "romanization": "hon",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "शुरू",
+          "bangla_pronunciation": "শুরু",
+          "romanization": "shuroo",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপনি সম্মত হলে শুরু করুন।"
+    },
+    {
+      "id": "ch030_s10",
+      "target": "जवाब न मिले तो संपर्क करें।",
+      "romanization": "javāb na mile to sampark karẽ.",
+      "bangla_pronunciation": "জবাব ন মিলে তো সম্পর্ক করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "जवाब",
+          "bangla_pronunciation": "জবাব",
+          "romanization": "jawaab",
+          "separator_after": " "
+        },
+        {
+          "target": "न",
+          "bangla_pronunciation": "ন",
+          "romanization": "na",
+          "separator_after": " "
+        },
+        {
+          "target": "मिले",
+          "bangla_pronunciation": "মিলে",
+          "romanization": "mile",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "संपर्क",
+          "bangla_pronunciation": "সম্পর্ক",
+          "romanization": "sanpark",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "উত্তর না পেলে যোগাযোগ করুন।"
+    },
+    {
+      "id": "ch030_s11",
+      "target": "जरूरत तक बैकअप चालू रखें।",
+      "romanization": "zarūrat tak backup cālū rakhẽ.",
+      "bangla_pronunciation": "জরূরত তক ব্যাকআপ চালূ রাখেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "जरूरत",
+          "bangla_pronunciation": "জরূরত",
+          "romanization": "jaroorat",
+          "separator_after": " "
+        },
+        {
+          "target": "तक",
+          "bangla_pronunciation": "তক",
+          "romanization": "tak",
+          "separator_after": " "
+        },
+        {
+          "target": "बैकअप",
+          "bangla_pronunciation": "ব্যাকআপ",
+          "romanization": "backup",
+          "separator_after": " "
+        },
+        {
+          "target": "चालू",
+          "bangla_pronunciation": "চালূ",
+          "romanization": "caaluu",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রাখেঁ।",
+          "romanization": "rakhen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রয়োজন পর্যন্ত ব্যাকআপ চালু রাখুন।"
+    },
+    {
+      "id": "ch030_s12",
+      "target": "कीमत कम हो तो गुणवत्ता जाँचिए।",
+      "romanization": "kīmat kam ho to guṇvattā jāñciye.",
+      "bangla_pronunciation": "কীমত কম হো তো গুণবত্তা জাঁচিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "कीमत",
+          "bangla_pronunciation": "কীমত",
+          "romanization": "kiimat",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "romanization": "km",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "romanization": "ho",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "गुणवत्ता",
+          "bangla_pronunciation": "গুণবত্তা",
+          "romanization": "gunnvttaa",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचिए।",
+          "bangla_pronunciation": "জাঁচিয়ে।",
+          "romanization": "jaaNcie /",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দাম কম হলে মান যাচাই করুন।"
+    },
+    {
+      "id": "ch030_s13",
+      "target": "सूचना मिले तो नुकसान कम होगा।",
+      "romanization": "sūcnā mile to nuksān kam hogā.",
+      "bangla_pronunciation": "সূচনা মিলে তো নুকসান কম হোগা।",
+      "word_pronunciations": [
+        {
+          "target": "सूचना",
+          "bangla_pronunciation": "সূচনা",
+          "romanization": "suuchana",
+          "separator_after": " "
+        },
+        {
+          "target": "मिले",
+          "bangla_pronunciation": "মিলে",
+          "romanization": "mile",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "नुकसान",
+          "bangla_pronunciation": "নুকসান",
+          "romanization": "nuksaan",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "romanization": "km",
+          "separator_after": " "
+        },
+        {
+          "target": "होगा।",
+          "bangla_pronunciation": "হোগা।",
+          "romanization": "hogaa.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তথ্য পেলে ক্ষতি কম হবে।"
+    },
+    {
+      "id": "ch030_s14",
+      "target": "दस्तावेज पूरे हों तो प्रक्रिया तेज होगी।",
+      "romanization": "dastāvez pūre hõ to prakriyā tez hogī.",
+      "bangla_pronunciation": "দস্তাবেজ পূরে হোঁ তো প্রক্রিয়া তেজ হোগী।",
+      "word_pronunciations": [
+        {
+          "target": "दस्तावेज",
+          "bangla_pronunciation": "দস্তাবেজ",
+          "romanization": "dastaavez",
+          "separator_after": " "
+        },
+        {
+          "target": "पूरे",
+          "bangla_pronunciation": "পূরে",
+          "romanization": "poore",
+          "separator_after": " "
+        },
+        {
+          "target": "हों",
+          "bangla_pronunciation": "হোঁ",
+          "romanization": "hon",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रक्रिया",
+          "bangla_pronunciation": "প্রক্রিয়া",
+          "romanization": "prkriyaa",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज",
+          "bangla_pronunciation": "তেজ",
+          "romanization": "tej",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी।",
+          "bangla_pronunciation": "হোগী।",
+          "romanization": "hogee.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নথি সম্পূর্ণ হলে প্রক্রিয়া দ্রুত হবে।"
+    },
+    {
+      "id": "ch030_s15",
+      "target": "शर्तें साफ हों तो फैसला आसान है।",
+      "romanization": "śartẽ sāf hõ to faislā āsān hai.",
+      "bangla_pronunciation": "শর্তেঁ সাফ হোঁ তো ফয়সলা আসান হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "शर्तें",
+          "bangla_pronunciation": "শর্তেঁ",
+          "romanization": "shrteN",
+          "separator_after": " "
+        },
+        {
+          "target": "साफ",
+          "bangla_pronunciation": "সাফ",
+          "romanization": "saaph",
+          "separator_after": " "
+        },
+        {
+          "target": "हों",
+          "bangla_pronunciation": "হোঁ",
+          "romanization": "hon",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "फैसला",
+          "bangla_pronunciation": "ফয়সলা",
+          "romanization": "phaisalaa",
+          "separator_after": " "
+        },
+        {
+          "target": "आसान",
+          "bangla_pronunciation": "আসান",
+          "romanization": "aasaan",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শর্ত পরিষ্কার হলে সিদ্ধান্ত সহজ।"
+    },
+    {
+      "id": "ch030_s16",
+      "target": "नई जानकारी मिले तो फैसला बदलूँगा।",
+      "romanization": "naī jānkārī mile to faislā badlū̃gā.",
+      "bangla_pronunciation": "নঈ জানকারী মিলে তো ফয়সলা বদলূঁগা।",
+      "word_pronunciations": [
+        {
+          "target": "नई",
+          "bangla_pronunciation": "নঈ",
+          "romanization": "naee",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
+          "separator_after": " "
+        },
+        {
+          "target": "मिले",
+          "bangla_pronunciation": "মিলে",
+          "romanization": "mile",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "फैसला",
+          "bangla_pronunciation": "ফয়সলা",
+          "romanization": "phaisalaa",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलूँगा।",
+          "bangla_pronunciation": "বদলূঁগা।",
+          "romanization": "badaloongaa.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নতুন তথ্য পেলে সিদ্ধান্ত বদলাব। পুরুষ বক্তার রূপ।"
+    },
+    {
+      "id": "ch030_s17",
+      "target": "बिजली जाए तो टॉर्च रखें।",
+      "romanization": "bijlī jāe to ṭorc rakhẽ.",
+      "bangla_pronunciation": "বিজলী জায়ে তো টর্চ রাখেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "बिजली",
+          "bangla_pronunciation": "বিজলী",
+          "romanization": "bijlii",
+          "separator_after": " "
+        },
+        {
+          "target": "जाए",
+          "bangla_pronunciation": "জায়ে",
+          "romanization": "jaae",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "टॉर्च",
+          "bangla_pronunciation": "টর্চ",
+          "romanization": "torch",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রাখেঁ।",
+          "romanization": "rakhen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিদ্যুৎ গেলে টর্চ রাখুন।"
+    },
+    {
+      "id": "ch030_s18",
+      "target": "योजना विफल हो तो विकल्प लें।",
+      "romanization": "yojanā viphal ho to vikalp lẽ.",
+      "bangla_pronunciation": "যোজনা বিফল হো তো বিকল্প লেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "योजना",
+          "bangla_pronunciation": "যোজনা",
+          "romanization": "yojnaa",
+          "separator_after": " "
+        },
+        {
+          "target": "विफल",
+          "bangla_pronunciation": "বিফল",
+          "romanization": "viphal",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "romanization": "ho",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "विकल्प",
+          "bangla_pronunciation": "বিকল্প",
+          "romanization": "viklp",
+          "separator_after": " "
+        },
+        {
+          "target": "लें।",
+          "bangla_pronunciation": "লেঁ।",
+          "romanization": "len.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিকল্পনা ব্যর্থ হলে বিকল্প নিন।"
+    },
+    {
+      "id": "ch030_s19",
+      "target": "आप चाहें तो छोटा शुरू करें।",
+      "romanization": "āp cāhẽ to choṭā śurū karẽ.",
+      "bangla_pronunciation": "আপ চাহেঁ তো ছোট়া শুরু করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "आप",
+          "bangla_pronunciation": "আপ",
+          "romanization": "aap",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहें",
+          "bangla_pronunciation": "চাহেঁ",
+          "romanization": "chaahen",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "छोटा",
+          "bangla_pronunciation": "ছোটা",
+          "romanization": "chottaa",
+          "separator_after": " "
+        },
+        {
+          "target": "शुरू",
+          "bangla_pronunciation": "শুরু",
+          "romanization": "shuroo",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপনি চাইলে ছোটভাবে শুরু করুন।"
+    },
+    {
+      "id": "ch030_s20",
+      "target": "सुरक्षित होने तक आगे मत बढ़िए।",
+      "romanization": "surakṣit hone tak āge mat baṛhiye.",
+      "bangla_pronunciation": "সুরক্ষিত হোনে তক আগে মত বাড়িয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "सुरक्षित",
+          "bangla_pronunciation": "সুরক্ষিত",
+          "romanization": "surakshit",
+          "separator_after": " "
+        },
+        {
+          "target": "होने",
+          "bangla_pronunciation": "হোনে",
+          "romanization": "hone",
+          "separator_after": " "
+        },
+        {
+          "target": "तक",
+          "bangla_pronunciation": "তক",
+          "romanization": "tak",
+          "separator_after": " "
+        },
+        {
+          "target": "आगे",
+          "bangla_pronunciation": "আগে",
+          "romanization": "aage",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "romanization": "mat",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़िए।",
+          "bangla_pronunciation": "বাড়িয়ে।",
+          "romanization": "barhie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপদ হওয়া পর্যন্ত এগোবেন না।"
+    }
   ],
-  "bridge_reading":{"mode":"story","title_bengali":"শর্তভিত্তিক পরিকল্পনা","scene_summary":"একটি দল বিভিন্ন পরিস্থিতির জন্য বিকল্প পরিকল্পনা ঠিক করে।","segments":[
-    {"kind":"bangla","text":"দলটি বলল, "},
-    {"kind":"target","target":"बारिश हुई तो ऑनलाइन मिलेंगे।","bangla_pronunciation":"বারিশ হুঈ তো অনলাইন মিলেঙ্গে।","word_pronunciations":[{"target":"बारिश","bangla_pronunciation":"বারিশ","separator_after":" "},{"target":"हुई","bangla_pronunciation":"হুঈ","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"ऑनलाइन","bangla_pronunciation":"অনলাইন","separator_after":" "},{"target":"मिलेंगे।","bangla_pronunciation":"মিলেঙ্গে।","separator_after":""}]},
-    {"kind":"bangla","text":" পেমেন্টের আগে "},
-    {"kind":"target","target":"पुष्टि तक भुगतान मत कीजिए।","bangla_pronunciation":"পুষ্টি তক ভুগতান মত কীজিয়ে।","word_pronunciations":[{"target":"पुष्टि","bangla_pronunciation":"পুষ্টি","separator_after":" "},{"target":"तक","bangla_pronunciation":"তক","separator_after":" "},{"target":"भुगतान","bangla_pronunciation":"ভুগতান","separator_after":" "},{"target":"मत","bangla_pronunciation":"মত","separator_after":" "},{"target":"कीजिए।","bangla_pronunciation":"কীজিয়ে।","separator_after":""}]},
-    {"kind":"bangla","text":" ঝুঁকি বাড়লে "},
-    {"kind":"target","target":"जोखिम बढ़े तो योजना बदलें।","bangla_pronunciation":"জোখিম বাড়ে তো যোজনা বদলেঁ।","word_pronunciations":[{"target":"जोखिम","bangla_pronunciation":"জোখিম","separator_after":" "},{"target":"बढ़े","bangla_pronunciation":"বাড়ে","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"योजना","bangla_pronunciation":"যোজনা","separator_after":" "},{"target":"बदलें।","bangla_pronunciation":"বদলেঁ।","separator_after":""}]},
-    {"kind":"bangla","text":" নিরাপত্তার নিয়ম ছিল, "},
-    {"kind":"target","target":"सुरक्षित होने तक आगे मत बढ़िए।","bangla_pronunciation":"সুরক্ষিত হোনে তক আগে মত বাড়িয়ে।","word_pronunciations":[{"target":"सुरक्षित","bangla_pronunciation":"সুরক্ষিত","separator_after":" "},{"target":"होने","bangla_pronunciation":"হোনে","separator_after":" "},{"target":"तक","bangla_pronunciation":"তক","separator_after":" "},{"target":"आगे","bangla_pronunciation":"আগে","separator_after":" "},{"target":"मत","bangla_pronunciation":"মত","separator_after":" "},{"target":"बढ़िए।","bangla_pronunciation":"বাড়িয়ে।","separator_after":""}]}
-  ],"text_md":"দলটি বলল, **बारिश** (বারিশ) **हुई** (হুঈ) **तो** (তো) **ऑनलाइन** (অনলাইন) **मिलेंगे।** (মিলেঙ্গে।) পেমেন্টের আগে **पुष्टि** (পুষ্টি) **तक** (তক) **भुगतान** (ভুগতান) **मत** (মত) **कीजिए।** (কীজিয়ে।) ঝুঁকি বাড়লে **जोखिम** (জোখিম) **बढ़े** (বাড়ে) **तो** (তো) **योजना** (যোজনা) **बदलें।** (বদলেঁ।) নিরাপত্তার নিয়ম ছিল, **सुरक्षित** (সুরক্ষিত) **होने** (হোনে) **तक** (তক) **आगे** (আগে) **मत** (মত) **बढ़िए।** (বাড়িয়ে।)"},
-  "target_reading":{"mode":"story","title_bengali":"বিকল্প প্রস্তুত","scene_summary":"দলটি আবহাওয়া, নেটওয়ার্ক ও নিরাপত্তার জন্য বিকল্প রাখে।","lines":[
-    {"target":"टीम ने विकल्प बनाए।","bangla_pronunciation":"টীম নে বিকল্প বনায়ে।","word_pronunciations":[{"target":"टीम","bangla_pronunciation":"টীম","separator_after":" "},{"target":"ने","bangla_pronunciation":"নে","separator_after":" "},{"target":"विकल्प","bangla_pronunciation":"বিকল্প","separator_after":" "},{"target":"बनाए।","bangla_pronunciation":"বনায়ে।","separator_after":""}]},
-    {"target":"बारिश में बैठक ऑनलाइन होगी।","bangla_pronunciation":"বারিশ মেঁ বৈঠক অনলাইন হোগী।","word_pronunciations":[{"target":"बारिश","bangla_pronunciation":"বারিশ","separator_after":" "},{"target":"में","bangla_pronunciation":"মেঁ","separator_after":" "},{"target":"बैठक","bangla_pronunciation":"বৈঠক","separator_after":" "},{"target":"ऑनलाइन","bangla_pronunciation":"অনলাইন","separator_after":" "},{"target":"होगी।","bangla_pronunciation":"হোগী।","separator_after":""}]},
-    {"target":"नेटवर्क रुके तो डेटा चलेगा।","bangla_pronunciation":"নেটওয়ার্ক রুকে তো ডেটা চলেগা।","word_pronunciations":[{"target":"नेटवर्क","bangla_pronunciation":"নেটওয়ার্ক","separator_after":" "},{"target":"रुके","bangla_pronunciation":"রুকে","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"डेटा","bangla_pronunciation":"ডেটা","separator_after":" "},{"target":"चलेगा।","bangla_pronunciation":"চলেগা।","separator_after":""}]},
-    {"target":"सुरक्षा मिलने पर काम बढ़ेगा।","bangla_pronunciation":"সুরক্ষা মিলনে পর কাম বাড়েগা।","word_pronunciations":[{"target":"सुरक्षा","bangla_pronunciation":"সুরক্ষা","separator_after":" "},{"target":"मिलने","bangla_pronunciation":"মিলনে","separator_after":" "},{"target":"पर","bangla_pronunciation":"পর","separator_after":" "},{"target":"काम","bangla_pronunciation":"কাম","separator_after":" "},{"target":"बढ़ेगा।","bangla_pronunciation":"বাড়েগা।","separator_after":""}]}
-  ],"bangla_pronunciation":"টীম নে বিকল্প বনায়ে। বারিশ মেঁ বৈঠক অনলাইন হোগী। নেটওয়ার্ক রুকে তো ডেটা চলেগা। সুরক্ষা মিলনে পর কাম বাড়েগা।","meaning_bengali_md":"দলটি বিকল্প বানাল। বৃষ্টিতে সভা অনলাইনে হবে। নেটওয়ার্ক বন্ধ হলে ডেটা চলবে। নিরাপত্তা নিশ্চিত হলে কাজ এগোবে।"},
-  "script_practice":[
-    {"item_id":"dev_dhra","mode":"review","target":"ध्र","bangla_pronunciation":"ধ্র","explanation_bengali_md":"`ध्र` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`ध्र` দেখে ধ্র বলুন।"},
-    {"item_id":"dev_thya","mode":"review","target":"थ्य","bangla_pronunciation":"থ্য","explanation_bengali_md":"`थ्य` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`थ्य` দেখে থ্য বলুন।"},
-    {"item_id":"dev_tya","mode":"review","target":"त्य","bangla_pronunciation":"ত্য","explanation_bengali_md":"`त्य` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`त्य` দেখে ত্য বলুন।"},
-    {"item_id":"dev_vya","mode":"review","target":"व्य","bangla_pronunciation":"ব্য","explanation_bengali_md":"`व्य` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`व्य` দেখে ব্য বলুন।"},
-    {"item_id":"dev_hya","mode":"review","target":"ह्य","bangla_pronunciation":"হ্য","explanation_bengali_md":"`ह्य` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`ह्य` দেখে হ্য বলুন।"}
+  "vocabulary": [
+    {
+      "id": "ch030_v01",
+      "target": "पुष्टि",
+      "type": "noun",
+      "romanization": "puṣṭi",
+      "bangla_pronunciation": "পুষ্টি",
+      "word_pronunciations": [
+        {
+          "target": "पुष्टि",
+          "bangla_pronunciation": "পুষ্টি",
+          "romanization": "pusstti",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিশ্চিতকরণ।",
+      "source_sentence_id": "ch030_s04",
+      "source_form": "पुष्टि"
+    },
+    {
+      "id": "ch030_v02",
+      "target": "भुगतान",
+      "type": "noun",
+      "romanization": "bhugtān",
+      "bangla_pronunciation": "ভুগতান",
+      "word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "romanization": "bhugtaan",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্ট।",
+      "source_sentence_id": "ch030_s04",
+      "source_form": "भुगतान"
+    },
+    {
+      "id": "ch030_v03",
+      "target": "जोखिम",
+      "type": "noun",
+      "romanization": "jokhim",
+      "bangla_pronunciation": "জোখিম",
+      "word_pronunciations": [
+        {
+          "target": "जोखिम",
+          "bangla_pronunciation": "জোখিম",
+          "romanization": "jokhim",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঝুঁকি।",
+      "source_sentence_id": "ch030_s08",
+      "source_form": "जोखिम"
+    },
+    {
+      "id": "ch030_v04",
+      "target": "बैकअप",
+      "type": "noun",
+      "romanization": "backup",
+      "bangla_pronunciation": "ব্যাকআপ",
+      "word_pronunciations": [
+        {
+          "target": "बैकअप",
+          "bangla_pronunciation": "ব্যাকআপ",
+          "romanization": "backup",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাকআপ।",
+      "source_sentence_id": "ch030_s11",
+      "source_form": "बैकअप"
+    },
+    {
+      "id": "ch030_v05",
+      "target": "शर्तें",
+      "type": "noun",
+      "romanization": "śartẽ",
+      "bangla_pronunciation": "শর্তেঁ",
+      "word_pronunciations": [
+        {
+          "target": "शर्तें",
+          "bangla_pronunciation": "শর্তেঁ",
+          "romanization": "shrteN",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শর্তসমূহ।",
+      "source_sentence_id": "ch030_s15",
+      "source_form": "शर्तें"
+    }
   ],
-  "number_practice":[
-    {"display":"50 / ५०","target":"पचास","bangla_pronunciation":"পচাস","word_pronunciations":[{"target":"पचास","bangla_pronunciation":"পচাস","separator_after":""}],"meaning_bengali_md":"৫০ — পঞ্চাশ।","system":"international + devanagari"},
-    {"display":"100 / १००","target":"एक सौ","bangla_pronunciation":"এক সৌ","word_pronunciations":[{"target":"एक","bangla_pronunciation":"এক","separator_after":" "},{"target":"सौ","bangla_pronunciation":"সৌ","separator_after":""}],"meaning_bengali_md":"১০০ — একশ।","system":"international + devanagari"}
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "শর্তভিত্তিক পরিকল্পনা",
+    "scene_summary": "একটি দল বিভিন্ন পরিস্থিতির জন্য বিকল্প পরিকল্পনা ঠিক করে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "দলটি বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "बारिश हुई तो ऑनलाइन मिलेंगे।",
+        "bangla_pronunciation": "বারিশ হুঈ তো অনলাইন মিলেঙ্গে।",
+        "romanization": "bāriś huī to online milẽge.",
+        "word_pronunciations": [
+          {
+            "target": "बारिश",
+            "bangla_pronunciation": "বারিশ",
+            "romanization": "baarish",
+            "separator_after": " "
+          },
+          {
+            "target": "हुई",
+            "bangla_pronunciation": "হুঈ",
+            "romanization": "huee",
+            "separator_after": " "
+          },
+          {
+            "target": "तो",
+            "bangla_pronunciation": "তো",
+            "romanization": "to",
+            "separator_after": " "
+          },
+          {
+            "target": "ऑनलाइन",
+            "bangla_pronunciation": "অনলাইন",
+            "romanization": "onalaain",
+            "separator_after": " "
+          },
+          {
+            "target": "मिलेंगे।",
+            "bangla_pronunciation": "মিলেঙ্গে।",
+            "romanization": "milenge.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " পেমেন্টের আগে "
+      },
+      {
+        "kind": "target",
+        "target": "पुष्टि तक भुगतान मत कीजिए।",
+        "bangla_pronunciation": "পুষ্টি তক ভুগতান মত কীজিয়ে।",
+        "romanization": "puṣṭi tak bhugtān mat kījiye.",
+        "word_pronunciations": [
+          {
+            "target": "पुष्टि",
+            "bangla_pronunciation": "পুষ্টি",
+            "romanization": "pusstti",
+            "separator_after": " "
+          },
+          {
+            "target": "तक",
+            "bangla_pronunciation": "তক",
+            "romanization": "tak",
+            "separator_after": " "
+          },
+          {
+            "target": "भुगतान",
+            "bangla_pronunciation": "ভুগতান",
+            "romanization": "bhugtaan",
+            "separator_after": " "
+          },
+          {
+            "target": "मत",
+            "bangla_pronunciation": "মত",
+            "romanization": "mat",
+            "separator_after": " "
+          },
+          {
+            "target": "कीजिए।",
+            "bangla_pronunciation": "কীজিয়ে।",
+            "romanization": "keejie.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " ঝুঁকি বাড়লে "
+      },
+      {
+        "kind": "target",
+        "target": "जोखिम बढ़े तो योजना बदलें।",
+        "bangla_pronunciation": "জোখিম বাড়ে তো যোজনা বদলেঁ।",
+        "romanization": "jokhim baṛhe to yojanā badlẽ.",
+        "word_pronunciations": [
+          {
+            "target": "जोखिम",
+            "bangla_pronunciation": "জোখিম",
+            "romanization": "jokhim",
+            "separator_after": " "
+          },
+          {
+            "target": "बढ़े",
+            "bangla_pronunciation": "বাড়ে",
+            "romanization": "barhe",
+            "separator_after": " "
+          },
+          {
+            "target": "तो",
+            "bangla_pronunciation": "তো",
+            "romanization": "to",
+            "separator_after": " "
+          },
+          {
+            "target": "योजना",
+            "bangla_pronunciation": "যোজনা",
+            "romanization": "yojnaa",
+            "separator_after": " "
+          },
+          {
+            "target": "बदलें।",
+            "bangla_pronunciation": "বদলেঁ।",
+            "romanization": "badalen.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " নিরাপত্তার নিয়ম ছিল, "
+      },
+      {
+        "kind": "target",
+        "target": "सुरक्षित होने तक आगे मत बढ़िए।",
+        "bangla_pronunciation": "সুরক্ষিত হোনে তক আগে মত বাড়িয়ে।",
+        "romanization": "surakṣit hone tak āge mat baṛhiye.",
+        "word_pronunciations": [
+          {
+            "target": "सुरक्षित",
+            "bangla_pronunciation": "সুরক্ষিত",
+            "romanization": "surakshit",
+            "separator_after": " "
+          },
+          {
+            "target": "होने",
+            "bangla_pronunciation": "হোনে",
+            "romanization": "hone",
+            "separator_after": " "
+          },
+          {
+            "target": "तक",
+            "bangla_pronunciation": "তক",
+            "romanization": "tak",
+            "separator_after": " "
+          },
+          {
+            "target": "आगे",
+            "bangla_pronunciation": "আগে",
+            "romanization": "aage",
+            "separator_after": " "
+          },
+          {
+            "target": "मत",
+            "bangla_pronunciation": "মত",
+            "romanization": "mat",
+            "separator_after": " "
+          },
+          {
+            "target": "बढ़िए।",
+            "bangla_pronunciation": "বাড়িয়ে।",
+            "romanization": "barhie.",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "দলটি বলল, **बारिश** (বারিশ, baarish) **हुई** (হুঈ, huee) **तो** (তো, to) **ऑनलाइन** (অনলাইন, onalaain) **मिलेंगे।** (মিলেঙ্গে।, milenge\\.) পেমেন্টের আগে **पुष्टि** (পুষ্টি, pusstti) **तक** (তক, tak) **भुगतान** (ভুগতান, bhugtaan) **मत** (মত, mat) **कीजिए।** (কীজিয়ে।, keejie\\.) ঝুঁকি বাড়লে **जोखिम** (জোখিম, jokhim) **बढ़े** (বাড়ে, barhe) **तो** (তো, to) **योजना** (যোজনা, yojnaa) **बदलें।** (বদলেঁ।, badalen\\.) নিরাপত্তার নিয়ম ছিল, **सुरक्षित** (সুরক্ষিত, surakshit) **होने** (হোনে, hone) **तक** (তক, tak) **आगे** (আগে, aage) **मत** (মত, mat) **बढ़िए।** (বাড়িয়ে।, barhie\\.)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "বিকল্প প্রস্তুত",
+    "scene_summary": "দলটি আবহাওয়া, নেটওয়ার্ক ও নিরাপত্তার জন্য বিকল্প রাখে।",
+    "lines": [
+      {
+        "target": "टीम ने विकल्प बनाए।",
+        "bangla_pronunciation": "টীম নে বিকল্প বনায়ে।",
+        "romanization": "teema ne vikalpa banaae.",
+        "word_pronunciations": [
+          {
+            "target": "टीम",
+            "bangla_pronunciation": "টীম",
+            "romanization": "team",
+            "separator_after": " "
+          },
+          {
+            "target": "ने",
+            "bangla_pronunciation": "নে",
+            "romanization": "ne",
+            "separator_after": " "
+          },
+          {
+            "target": "विकल्प",
+            "bangla_pronunciation": "বিকল্প",
+            "romanization": "viklp",
+            "separator_after": " "
+          },
+          {
+            "target": "बनाए।",
+            "bangla_pronunciation": "বনায়ে।",
+            "romanization": "banaae.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "बारिश में बैठक ऑनलाइन होगी।",
+        "bangla_pronunciation": "বারিশ মেঁ বৈঠক অনলাইন হোগী।",
+        "romanization": "baarisha men baithaka onalaaina hogee.",
+        "word_pronunciations": [
+          {
+            "target": "बारिश",
+            "bangla_pronunciation": "বারিশ",
+            "romanization": "baarish",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "romanization": "men",
+            "separator_after": " "
+          },
+          {
+            "target": "बैठक",
+            "bangla_pronunciation": "বৈঠক",
+            "romanization": "baithak",
+            "separator_after": " "
+          },
+          {
+            "target": "ऑनलाइन",
+            "bangla_pronunciation": "অনলাইন",
+            "romanization": "onalaain",
+            "separator_after": " "
+          },
+          {
+            "target": "होगी।",
+            "bangla_pronunciation": "হোগী।",
+            "romanization": "hogee.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "नेटवर्क रुके तो डेटा चलेगा।",
+        "bangla_pronunciation": "নেটওয়ার্ক রুকে তো ডেটা চলেগা।",
+        "romanization": "netavarka ruke to detaa chalegaa.",
+        "word_pronunciations": [
+          {
+            "target": "नेटवर्क",
+            "bangla_pronunciation": "নেটওয়ার্ক",
+            "romanization": "network",
+            "separator_after": " "
+          },
+          {
+            "target": "रुके",
+            "bangla_pronunciation": "রুকে",
+            "romanization": "ruke",
+            "separator_after": " "
+          },
+          {
+            "target": "तो",
+            "bangla_pronunciation": "তো",
+            "romanization": "to",
+            "separator_after": " "
+          },
+          {
+            "target": "डेटा",
+            "bangla_pronunciation": "ডেটা",
+            "romanization": "data",
+            "separator_after": " "
+          },
+          {
+            "target": "चलेगा।",
+            "bangla_pronunciation": "চলেগা।",
+            "romanization": "chalegaa.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "सुरक्षा मिलने पर काम बढ़ेगा।",
+        "bangla_pronunciation": "সুরক্ষা মিলনে পর কাম বাড়েগা।",
+        "romanization": "surakshaa milane para kaama barhegaa.",
+        "word_pronunciations": [
+          {
+            "target": "सुरक्षा",
+            "bangla_pronunciation": "সুরক্ষা",
+            "romanization": "suraksha",
+            "separator_after": " "
+          },
+          {
+            "target": "मिलने",
+            "bangla_pronunciation": "মিলনে",
+            "romanization": "milane",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "romanization": "par",
+            "separator_after": " "
+          },
+          {
+            "target": "काम",
+            "bangla_pronunciation": "কাম",
+            "romanization": "kaam",
+            "separator_after": " "
+          },
+          {
+            "target": "बढ़ेगा।",
+            "bangla_pronunciation": "বাড়েগা।",
+            "romanization": "barhegaa.",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "টীম নে বিকল্প বনায়ে। বারিশ মেঁ বৈঠক অনলাইন হোগী। নেটওয়ার্ক রুকে তো ডেটা চলেগা। সুরক্ষা মিলনে পর কাম বাড়েগা।",
+    "romanization": "teema ne vikalpa banaae. baarisha men baithaka onalaaina hogee. netavarka ruke to detaa chalegaa. surakshaa milane para kaama barhegaa.",
+    "meaning_bengali_md": "দলটি বিকল্প বানাল। বৃষ্টিতে সভা অনলাইনে হবে। নেটওয়ার্ক বন্ধ হলে ডেটা চলবে। নিরাপত্তা নিশ্চিত হলে কাজ এগোবে।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_dhra",
+      "mode": "review",
+      "target": "ध्र",
+      "bangla_pronunciation": "ধ্র",
+      "romanization": "dhra",
+      "explanation_bengali_md": "`ध्र` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`ध्र` দেখে ধ্র বলুন।"
+    },
+    {
+      "item_id": "dev_thya",
+      "mode": "review",
+      "target": "थ्य",
+      "bangla_pronunciation": "থ্য",
+      "romanization": "thya",
+      "explanation_bengali_md": "`थ्य` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`थ्य` দেখে থ্য বলুন।"
+    },
+    {
+      "item_id": "dev_tya",
+      "mode": "review",
+      "target": "त्य",
+      "bangla_pronunciation": "ত্য",
+      "romanization": "tya",
+      "explanation_bengali_md": "`त्य` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`त्य` দেখে ত্য বলুন।"
+    },
+    {
+      "item_id": "dev_vya",
+      "mode": "review",
+      "target": "व्य",
+      "bangla_pronunciation": "ব্য",
+      "romanization": "vya",
+      "explanation_bengali_md": "`व्य` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`व्य` দেখে ব্য বলুন।"
+    },
+    {
+      "item_id": "dev_hya",
+      "mode": "review",
+      "target": "ह्य",
+      "bangla_pronunciation": "হ্য",
+      "romanization": "hya",
+      "explanation_bengali_md": "`ह्य` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`ह्य` দেখে হ্য বলুন।"
+    }
   ],
-  "speaking_practice":[
-    {"prompt_bengali_md":"সময় পেলে কী করবেন বলুন।","model_target":"अगर समय मिला, भेजूँगा।","model_bangla_pronunciation":"অগর সময় মিলা, ভেজূঁগা।","model_word_pronunciations":[{"target":"अगर","bangla_pronunciation":"অগর","separator_after":" "},{"target":"समय","bangla_pronunciation":"সময়","separator_after":" "},{"target":"मिला,","bangla_pronunciation":"মিলা,","separator_after":" "},{"target":"भेजूँगा।","bangla_pronunciation":"ভেজূঁগা।","separator_after":""}],"model_meaning_bengali_md":"সময় পেলে পাঠাব। পুরুষ বক্তার রূপ।"},
-    {"prompt_bengali_md":"পেমেন্টের আগে শর্ত বলুন।","model_target":"पुष्टि तक भुगतान मत कीजिए।","model_bangla_pronunciation":"পুষ্টি তক ভুগতান মত কীজিয়ে।","model_word_pronunciations":[{"target":"पुष्टि","bangla_pronunciation":"পুষ্টি","separator_after":" "},{"target":"तक","bangla_pronunciation":"তক","separator_after":" "},{"target":"भुगतान","bangla_pronunciation":"ভুগতান","separator_after":" "},{"target":"मत","bangla_pronunciation":"মত","separator_after":" "},{"target":"कीजिए।","bangla_pronunciation":"কীজিয়ে।","separator_after":""}],"model_meaning_bengali_md":"নিশ্চিতকরণ না হওয়া পর্যন্ত পেমেন্ট করবেন না।"},
-    {"prompt_bengali_md":"নেটওয়ার্কের ব্যাকআপ বলুন।","model_target":"नेटवर्क रुके तो डेटा चलाएँ।","model_bangla_pronunciation":"নেটওয়ার্ক রুকে তো ডেটা চলায়েঁ।","model_word_pronunciations":[{"target":"नेटवर्क","bangla_pronunciation":"নেটওয়ার্ক","separator_after":" "},{"target":"रुके","bangla_pronunciation":"রুকে","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"डेटा","bangla_pronunciation":"ডেটা","separator_after":" "},{"target":"चलाएँ।","bangla_pronunciation":"চলায়েঁ।","separator_after":""}],"model_meaning_bengali_md":"নেটওয়ার্ক বন্ধ হলে ডেটা চালান।"},
-    {"prompt_bengali_md":"ঝুঁকি বাড়লে কী করবেন বলুন।","model_target":"जोखिम बढ़े तो योजना बदलें।","model_bangla_pronunciation":"জোখিম বাড়ে তো যোজনা বদলেঁ।","model_word_pronunciations":[{"target":"जोखिम","bangla_pronunciation":"জোখিম","separator_after":" "},{"target":"बढ़े","bangla_pronunciation":"বাড়ে","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"योजना","bangla_pronunciation":"যোজনা","separator_after":" "},{"target":"बदलें।","bangla_pronunciation":"বদলেঁ।","separator_after":""}],"model_meaning_bengali_md":"ঝুঁকি বাড়লে পরিকল্পনা বদলান।"},
-    {"prompt_bengali_md":"নথির শর্ত বলুন।","model_target":"दस्तावेज पूरे हों तो प्रक्रिया तेज होगी।","model_bangla_pronunciation":"দস্তাবেজ পূরে হোঁ তো প্রক্রিয়া তেজ হোগী।","model_word_pronunciations":[{"target":"दस्तावेज","bangla_pronunciation":"দস্তাবেজ","separator_after":" "},{"target":"पूरे","bangla_pronunciation":"পূরে","separator_after":" "},{"target":"हों","bangla_pronunciation":"হোঁ","separator_after":" "},{"target":"तो","bangla_pronunciation":"তো","separator_after":" "},{"target":"प्रक्रिया","bangla_pronunciation":"প্রক্রিয়া","separator_after":" "},{"target":"तेज","bangla_pronunciation":"তেজ","separator_after":" "},{"target":"होगी।","bangla_pronunciation":"হোগী।","separator_after":""}],"model_meaning_bengali_md":"নথি সম্পূর্ণ হলে প্রক্রিয়া দ্রুত হবে।"},
-    {"prompt_bengali_md":"নিরাপত্তার শর্ত বলুন।","model_target":"सुरक्षित होने तक आगे मत बढ़िए।","model_bangla_pronunciation":"সুরক্ষিত হোনে তক আগে মত বাড়িয়ে।","model_word_pronunciations":[{"target":"सुरक्षित","bangla_pronunciation":"সুরক্ষিত","separator_after":" "},{"target":"होने","bangla_pronunciation":"হোনে","separator_after":" "},{"target":"तक","bangla_pronunciation":"তক","separator_after":" "},{"target":"आगे","bangla_pronunciation":"আগে","separator_after":" "},{"target":"मत","bangla_pronunciation":"মত","separator_after":" "},{"target":"बढ़िए।","bangla_pronunciation":"বাড়িয়ে।","separator_after":""}],"model_meaning_bengali_md":"নিরাপদ হওয়া পর্যন্ত এগোবেন না।"}
+  "number_practice": [
+    {
+      "display": "50 / ५०",
+      "target": "पचास",
+      "bangla_pronunciation": "পচাস",
+      "romanization": "pachaas",
+      "word_pronunciations": [
+        {
+          "target": "पचास",
+          "bangla_pronunciation": "পচাস",
+          "romanization": "pachaas",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "৫০ — পঞ্চাশ।",
+      "system": "international + devanagari"
+    },
+    {
+      "display": "100 / १००",
+      "target": "एक सौ",
+      "bangla_pronunciation": "এক সৌ",
+      "romanization": "eka sau",
+      "word_pronunciations": [
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "romanization": "ek",
+          "separator_after": " "
+        },
+        {
+          "target": "सौ",
+          "bangla_pronunciation": "সৌ",
+          "romanization": "sau",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "১০০ — একশ।",
+      "system": "international + devanagari"
+    }
   ],
-  "image_prompts":[
-    {"key":"ch030_bridge_reading_01","reading":"bridge_reading","subject":"A project team planning conditional backup options for weather, payment confirmation, and risk in a bright office. No readable text, no labels, no signage, no watermark.","style":"Bright warm editorial illustration with natural adult characters and uncluttered scenes"},
-    {"key":"ch030_target_reading_01","reading":"target_reading","subject":"A small team calmly preparing backup options for connectivity and safety, organized workspace with laptop and flashlight. No readable text, no labels, no signage, no watermark.","style":"Bright warm editorial illustration with natural adult characters and uncluttered scenes"}
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "সময় পেলে কী করবেন বলুন।",
+      "model_target": "अगर समय मिला, भेजूँगा।",
+      "model_bangla_pronunciation": "অগর সময় মিলা, ভেজূঁগা।",
+      "model_romanization": "agar samay milā, bhejū̃gā.",
+      "model_word_pronunciations": [
+        {
+          "target": "अगर",
+          "bangla_pronunciation": "অগর",
+          "romanization": "agar",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "romanization": "samay",
+          "separator_after": " "
+        },
+        {
+          "target": "मिला,",
+          "bangla_pronunciation": "মিলা,",
+          "romanization": "milaa,",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजूँगा।",
+          "bangla_pronunciation": "ভেজূঁগা।",
+          "romanization": "bhejoongaa.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "সময় পেলে পাঠাব। পুরুষ বক্তার রূপ।"
+    },
+    {
+      "prompt_bengali_md": "পেমেন্টের আগে শর্ত বলুন।",
+      "model_target": "पुष्टि तक भुगतान मत कीजिए।",
+      "model_bangla_pronunciation": "পুষ্টি তক ভুগতান মত কীজিয়ে।",
+      "model_romanization": "puṣṭi tak bhugtān mat kījiye.",
+      "model_word_pronunciations": [
+        {
+          "target": "पुष्टि",
+          "bangla_pronunciation": "পুষ্টি",
+          "romanization": "pusstti",
+          "separator_after": " "
+        },
+        {
+          "target": "तक",
+          "bangla_pronunciation": "তক",
+          "romanization": "tak",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "romanization": "bhugtaan",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "romanization": "mat",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "নিশ্চিতকরণ না হওয়া পর্যন্ত পেমেন্ট করবেন না।"
+    },
+    {
+      "prompt_bengali_md": "নেটওয়ার্কের ব্যাকআপ বলুন।",
+      "model_target": "नेटवर्क रुके तो डेटा चलाएँ।",
+      "model_bangla_pronunciation": "নেটওয়ার্ক রুকে তো ডেটা চলায়েঁ।",
+      "model_romanization": "neṭvark ruke to ḍeṭā calāẽ.",
+      "model_word_pronunciations": [
+        {
+          "target": "नेटवर्क",
+          "bangla_pronunciation": "নেটওয়ার্ক",
+          "romanization": "network",
+          "separator_after": " "
+        },
+        {
+          "target": "रुके",
+          "bangla_pronunciation": "রুকে",
+          "romanization": "ruke",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "डेटा",
+          "bangla_pronunciation": "ডেটা",
+          "romanization": "data",
+          "separator_after": " "
+        },
+        {
+          "target": "चलाएँ।",
+          "bangla_pronunciation": "চলায়েঁ।",
+          "romanization": "chalaaen.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "নেটওয়ার্ক বন্ধ হলে ডেটা চালান।"
+    },
+    {
+      "prompt_bengali_md": "ঝুঁকি বাড়লে কী করবেন বলুন।",
+      "model_target": "जोखिम बढ़े तो योजना बदलें।",
+      "model_bangla_pronunciation": "জোখিম বাড়ে তো যোজনা বদলেঁ।",
+      "model_romanization": "jokhim baṛhe to yojanā badlẽ.",
+      "model_word_pronunciations": [
+        {
+          "target": "जोखिम",
+          "bangla_pronunciation": "জোখিম",
+          "romanization": "jokhim",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़े",
+          "bangla_pronunciation": "বাড়ে",
+          "romanization": "barhe",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "योजना",
+          "bangla_pronunciation": "যোজনা",
+          "romanization": "yojnaa",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलें।",
+          "bangla_pronunciation": "বদলেঁ।",
+          "romanization": "badalen.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ঝুঁকি বাড়লে পরিকল্পনা বদলান।"
+    },
+    {
+      "prompt_bengali_md": "নথির শর্ত বলুন।",
+      "model_target": "दस्तावेज पूरे हों तो प्रक्रिया तेज होगी।",
+      "model_bangla_pronunciation": "দস্তাবেজ পূরে হোঁ তো প্রক্রিয়া তেজ হোগী।",
+      "model_romanization": "dastāvez pūre hõ to prakriyā tez hogī.",
+      "model_word_pronunciations": [
+        {
+          "target": "दस्तावेज",
+          "bangla_pronunciation": "দস্তাবেজ",
+          "romanization": "dastaavez",
+          "separator_after": " "
+        },
+        {
+          "target": "पूरे",
+          "bangla_pronunciation": "পূরে",
+          "romanization": "poore",
+          "separator_after": " "
+        },
+        {
+          "target": "हों",
+          "bangla_pronunciation": "হোঁ",
+          "romanization": "hon",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रक्रिया",
+          "bangla_pronunciation": "প্রক্রিয়া",
+          "romanization": "prkriyaa",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज",
+          "bangla_pronunciation": "তেজ",
+          "romanization": "tej",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी।",
+          "bangla_pronunciation": "হোগী।",
+          "romanization": "hogee.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "নথি সম্পূর্ণ হলে প্রক্রিয়া দ্রুত হবে।"
+    },
+    {
+      "prompt_bengali_md": "নিরাপত্তার শর্ত বলুন।",
+      "model_target": "सुरक्षित होने तक आगे मत बढ़िए।",
+      "model_bangla_pronunciation": "সুরক্ষিত হোনে তক আগে মত বাড়িয়ে।",
+      "model_romanization": "surakṣit hone tak āge mat baṛhiye.",
+      "model_word_pronunciations": [
+        {
+          "target": "सुरक्षित",
+          "bangla_pronunciation": "সুরক্ষিত",
+          "romanization": "surakshit",
+          "separator_after": " "
+        },
+        {
+          "target": "होने",
+          "bangla_pronunciation": "হোনে",
+          "romanization": "hone",
+          "separator_after": " "
+        },
+        {
+          "target": "तक",
+          "bangla_pronunciation": "তক",
+          "romanization": "tak",
+          "separator_after": " "
+        },
+        {
+          "target": "आगे",
+          "bangla_pronunciation": "আগে",
+          "romanization": "aage",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "romanization": "mat",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़िए।",
+          "bangla_pronunciation": "বাড়িয়ে।",
+          "romanization": "barhie.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "নিরাপদ হওয়া পর্যন্ত এগোবেন না।"
+    }
   ],
-  "additional_practice":[]
+  "image_prompts": [
+    {
+      "key": "ch030_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A project team planning conditional backup options for weather, payment confirmation, and risk in a bright office. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes"
+    },
+    {
+      "key": "ch030_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A small team calmly preparing backup options for connectivity and safety, organized workspace with laptop and flashlight. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes"
+    }
+  ],
+  "additional_practice": []
 }

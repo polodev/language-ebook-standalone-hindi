@@ -1,78 +1,1317 @@
 {
-  "chapter_id":"ch027",
-  "status":"drafted",
-  "title_target":"समुदाय और नागरिक जिम्मेदारी",
-  "title_bangla_pronunciation":"সমুদায় অউর নাগরিক জিম্মেদারী",
-  "title_word_pronunciations":[{"target":"समुदाय","bangla_pronunciation":"সমুদায়","separator_after":" "},{"target":"और","bangla_pronunciation":"অউর","separator_after":" "},{"target":"नागरिक","bangla_pronunciation":"নাগরিক","separator_after":" "},{"target":"जिम्मेदारी","bangla_pronunciation":"জিম্মেদারী","separator_after":""}],
-  "title_bengali":"কমিউনিটি ও নাগরিক দায়িত্ব",
-  "goal_bengali_md":"স্থানীয় সমস্যা, অভিযোগ, community action ও নাগরিক দায়িত্ব নিয়ে কথা বলা।",
-  "sentences":[
-    {"id":"ch027_s01","target":"हमारे इलाके में ट्रैफिक है।","romanization":"hamāre ilāke mẽ traffic hai.","bangla_pronunciation":"হমারে ইলাকে মেঁ ট্র্যাফিক হ্যায়।","word_pronunciations":[{"target":"हमारे","bangla_pronunciation":"হমারে","separator_after":" "},{"target":"इलाके","bangla_pronunciation":"ইলাকে","separator_after":" "},{"target":"में","bangla_pronunciation":"মেঁ","separator_after":" "},{"target":"ट्रैफिक","bangla_pronunciation":"ট্র্যাফিক","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"meaning_bengali_md":"আমাদের এলাকায় যানজট আছে।"},
-    {"id":"ch027_s02","target":"कचरा जमा है।","romanization":"kachrā jamā hai.","bangla_pronunciation":"কচরা জমা হ্যায়।","word_pronunciations":[{"target":"कचरा","bangla_pronunciation":"কচরা","separator_after":" "},{"target":"जमा","bangla_pronunciation":"জমা","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"meaning_bengali_md":"ময়লা জমে আছে।"},
-    {"id":"ch027_s03","target":"पानी साफ नहीं है।","romanization":"pānī sāf nahī̃ hai.","bangla_pronunciation":"পানী সাফ নহীঁ হ্যায়।","word_pronunciations":[{"target":"पानी","bangla_pronunciation":"পানী","separator_after":" "},{"target":"साफ","bangla_pronunciation":"সাফ","separator_after":" "},{"target":"नहीं","bangla_pronunciation":"নহীঁ","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"meaning_bengali_md":"পানি পরিষ্কার নয়।"},
-    {"id":"ch027_s04","target":"शिकायत दर्ज कीजिए।","romanization":"śikāyat darj kījiye.","bangla_pronunciation":"শিকায়ত দর্জ কীজিয়ে।","word_pronunciations":[{"target":"शिकायत","bangla_pronunciation":"শিকায়ত","separator_after":" "},{"target":"दर्ज","bangla_pronunciation":"দর্জ","separator_after":" "},{"target":"कीजिए।","bangla_pronunciation":"কীজিয়ে।","separator_after":""}],"meaning_bengali_md":"অভিযোগ নথিভুক্ত করুন।"},
-    {"id":"ch027_s05","target":"तस्वीर भेज सकते हैं?","romanization":"tasvīr bhej sakte hain?","bangla_pronunciation":"তসবীর ভেজ সকতে হ্যাঁয়?","word_pronunciations":[{"target":"तस्वीर","bangla_pronunciation":"তসবীর","separator_after":" "},{"target":"भेज","bangla_pronunciation":"ভেজ","separator_after":" "},{"target":"सकते","bangla_pronunciation":"সকতে","separator_after":" "},{"target":"हैं?","bangla_pronunciation":"হ্যাঁয়?","separator_after":""}],"meaning_bengali_md":"ছবি পাঠাতে পারবেন?"},
-    {"id":"ch027_s06","target":"सही पता लिखिए।","romanization":"sahī patā likhiye.","bangla_pronunciation":"সহী পতা লিখিয়ে।","word_pronunciations":[{"target":"सही","bangla_pronunciation":"সহী","separator_after":" "},{"target":"पता","bangla_pronunciation":"পতা","separator_after":" "},{"target":"लिखिए।","bangla_pronunciation":"লিখিয়ে।","separator_after":""}],"meaning_bengali_md":"সঠিক ঠিকানা লিখুন।"},
-    {"id":"ch027_s07","target":"पड़ोसी मिलकर काम करें।","romanization":"paṛosī milkar kām karẽ.","bangla_pronunciation":"পড়োসী মিলকর কাম করেঁ।","word_pronunciations":[{"target":"पड़ोसी","bangla_pronunciation":"পড়োসী","separator_after":" "},{"target":"मिलकर","bangla_pronunciation":"মিলকর","separator_after":" "},{"target":"काम","bangla_pronunciation":"কাম","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেঁ।","separator_after":""}],"meaning_bengali_md":"প্রতিবেশীরা মিলে কাজ করুন।"},
-    {"id":"ch027_s08","target":"फुटपाथ सुरक्षित होना चाहिए।","romanization":"fuṭpāth surakṣit honā cāhiye.","bangla_pronunciation":"ফুটপাথ সুরক্ষিত হোনা চাহিয়ে।","word_pronunciations":[{"target":"फुटपाथ","bangla_pronunciation":"ফুটপাথ","separator_after":" "},{"target":"सुरक्षित","bangla_pronunciation":"সুরক্ষিত","separator_after":" "},{"target":"होना","bangla_pronunciation":"হোনা","separator_after":" "},{"target":"चाहिए।","bangla_pronunciation":"চাহিয়ে।","separator_after":""}],"meaning_bengali_md":"ফুটপাত নিরাপদ হওয়া উচিত।"},
-    {"id":"ch027_s09","target":"कचरा बाहर मत फेंकिए।","romanization":"kachrā bāhar mat phẽkiye.","bangla_pronunciation":"কচরা বাহর মত ফেঁকিয়ে।","word_pronunciations":[{"target":"कचरा","bangla_pronunciation":"কচরা","separator_after":" "},{"target":"बाहर","bangla_pronunciation":"বাহর","separator_after":" "},{"target":"मत","bangla_pronunciation":"মত","separator_after":" "},{"target":"फेंकिए।","bangla_pronunciation":"ফেঁকিয়ে।","separator_after":""}],"meaning_bengali_md":"বাইরে ময়লা ফেলবেন না।"},
-    {"id":"ch027_s10","target":"पानी बचाना जरूरी है।","romanization":"pānī bacānā zarūrī hai.","bangla_pronunciation":"পানী বচানা জরূরী হ্যায়।","word_pronunciations":[{"target":"पानी","bangla_pronunciation":"পানী","separator_after":" "},{"target":"बचाना","bangla_pronunciation":"বচানা","separator_after":" "},{"target":"जरूरी","bangla_pronunciation":"জরূরী","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"meaning_bengali_md":"পানি সাশ্রয় জরুরি।"},
-    {"id":"ch027_s11","target":"विनम्रता से पूछिए।","romanization":"vinamratā se pūchiye.","bangla_pronunciation":"বিনম্রতা সে পূছিয়ে।","word_pronunciations":[{"target":"विनम्रता","bangla_pronunciation":"বিনম্রতা","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"पूछिए।","bangla_pronunciation":"পূছিয়ে।","separator_after":""}],"meaning_bengali_md":"ভদ্রভাবে জিজ্ঞেস করুন।"},
-    {"id":"ch027_s12","target":"हमने पहले भी बताया।","romanization":"hamne pahle bhī batāyā.","bangla_pronunciation":"হমনে পহলে ভী বতায়া।","word_pronunciations":[{"target":"हमने","bangla_pronunciation":"হমনে","separator_after":" "},{"target":"पहले","bangla_pronunciation":"পহলে","separator_after":" "},{"target":"भी","bangla_pronunciation":"ভী","separator_after":" "},{"target":"बताया।","bangla_pronunciation":"বতায়া।","separator_after":""}],"meaning_bengali_md":"আমরা আগেও জানিয়েছি।"},
-    {"id":"ch027_s13","target":"शिकायत नंबर दीजिए।","romanization":"śikāyat number dījiye.","bangla_pronunciation":"শিকায়ত নম্বর দীজিয়ে।","word_pronunciations":[{"target":"शिकायत","bangla_pronunciation":"শিকায়ত","separator_after":" "},{"target":"नंबर","bangla_pronunciation":"নম্বর","separator_after":" "},{"target":"दीजिए।","bangla_pronunciation":"দীজিয়ে।","separator_after":""}],"meaning_bengali_md":"অভিযোগ নম্বর দিন।"},
-    {"id":"ch027_s14","target":"बैठक रविवार को होगी।","romanization":"baiṭhak ravivār ko hogī.","bangla_pronunciation":"বৈঠক রবিবার কো হোগী।","word_pronunciations":[{"target":"बैठक","bangla_pronunciation":"বৈঠক","separator_after":" "},{"target":"रविवार","bangla_pronunciation":"রবিবার","separator_after":" "},{"target":"को","bangla_pronunciation":"কো","separator_after":" "},{"target":"होगी।","bangla_pronunciation":"হোগী।","separator_after":""}],"meaning_bengali_md":"সভা রবিবার হবে।"},
-    {"id":"ch027_s15","target":"हम तीन सुझाव देंगे।","romanization":"ham tīn sujhāv dẽge.","bangla_pronunciation":"হম তীন সুঝাব দেঙ্গে।","word_pronunciations":[{"target":"हम","bangla_pronunciation":"হম","separator_after":" "},{"target":"तीन","bangla_pronunciation":"তীন","separator_after":" "},{"target":"सुझाव","bangla_pronunciation":"সুঝাব","separator_after":" "},{"target":"देंगे।","bangla_pronunciation":"দেঙ্গে।","separator_after":""}],"meaning_bengali_md":"আমরা তিনটি প্রস্তাব দেব।"},
-    {"id":"ch027_s16","target":"सिर्फ शिकायत काफी नहीं।","romanization":"sirf śikāyat kāfī nahī̃.","bangla_pronunciation":"সির্ফ শিকায়ত কাফী নহীঁ।","word_pronunciations":[{"target":"सिर्फ","bangla_pronunciation":"সির্ফ","separator_after":" "},{"target":"शिकायत","bangla_pronunciation":"শিকায়ত","separator_after":" "},{"target":"काफी","bangla_pronunciation":"কাফী","separator_after":" "},{"target":"नहीं।","bangla_pronunciation":"নহীঁ।","separator_after":""}],"meaning_bengali_md":"শুধু অভিযোগ যথেষ্ট নয়।"},
-    {"id":"ch027_s17","target":"छोटे काम फर्क लाते हैं।","romanization":"choṭe kām fark lāte hain.","bangla_pronunciation":"ছোটে কাম ফর্ক লাতে হ্যাঁয়।","word_pronunciations":[{"target":"छोटे","bangla_pronunciation":"ছোটে","separator_after":" "},{"target":"काम","bangla_pronunciation":"কাম","separator_after":" "},{"target":"फर्क","bangla_pronunciation":"ফর্ক","separator_after":" "},{"target":"लाते","bangla_pronunciation":"লাতে","separator_after":" "},{"target":"हैं।","bangla_pronunciation":"হ্যাঁয়।","separator_after":""}],"meaning_bengali_md":"ছোট কাজ পরিবর্তন আনে।"},
-    {"id":"ch027_s18","target":"सार्वजनिक जगह सबकी है।","romanization":"sārvajanik jagah sabkī hai.","bangla_pronunciation":"সার্বজনিক জগহ সবকী হ্যায়।","word_pronunciations":[{"target":"सार्वजनिक","bangla_pronunciation":"সার্বজনিক","separator_after":" "},{"target":"जगह","bangla_pronunciation":"জগহ","separator_after":" "},{"target":"सबकी","bangla_pronunciation":"সবকী","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"meaning_bengali_md":"সার্বজনীন জায়গা সবার।"},
-    {"id":"ch027_s19","target":"नियम मानना जिम्मेदारी है।","romanization":"niyam mānnā zimmedārī hai.","bangla_pronunciation":"নিয়ম মাননা জিম্মেদারী হ্যায়।","word_pronunciations":[{"target":"नियम","bangla_pronunciation":"নিয়ম","separator_after":" "},{"target":"मानना","bangla_pronunciation":"মাননা","separator_after":" "},{"target":"जिम्मेदारी","bangla_pronunciation":"জিম্মেদারী","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"meaning_bengali_md":"নিয়ম মানা দায়িত্ব।"},
-    {"id":"ch027_s20","target":"मिलकर इलाका बेहतर होगा।","romanization":"milkar ilākā behtar hogā.","bangla_pronunciation":"মিলকর ইলাকা বেহতর হোগা।","word_pronunciations":[{"target":"मिलकर","bangla_pronunciation":"মিলকর","separator_after":" "},{"target":"इलाका","bangla_pronunciation":"ইলাকা","separator_after":" "},{"target":"बेहतर","bangla_pronunciation":"বেহতর","separator_after":" "},{"target":"होगा।","bangla_pronunciation":"হোগা।","separator_after":""}],"meaning_bengali_md":"একসঙ্গে কাজ করলে এলাকা ভালো হবে।"}
+  "chapter_id": "ch027",
+  "status": "drafted",
+  "title_target": "समुदाय और नागरिक जिम्मेदारी",
+  "title_bangla_pronunciation": "সমুদায় অউর নাগরিক জিম্মেদারী",
+  "title_romanization": "samudaaya aura naagarika jimmedaaree",
+  "title_word_pronunciations": [
+    {
+      "target": "समुदाय",
+      "bangla_pronunciation": "সমুদায়",
+      "romanization": "smudaay",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "romanization": "aur",
+      "separator_after": " "
+    },
+    {
+      "target": "नागरिक",
+      "bangla_pronunciation": "নাগরিক",
+      "romanization": "naagrik",
+      "separator_after": " "
+    },
+    {
+      "target": "जिम्मेदारी",
+      "bangla_pronunciation": "জিম্মেদারী",
+      "romanization": "jimmedaarii",
+      "separator_after": ""
+    }
   ],
-  "vocabulary":[
-    {"id":"ch027_v01","target":"इलाके","type":"noun","romanization":"ilāke","bangla_pronunciation":"ইলাকে","word_pronunciations":[{"target":"इलाके","bangla_pronunciation":"ইলাকে","separator_after":""}],"meaning_bengali_md":"এলাকার রূপ।","source_sentence_id":"ch027_s01","source_form":"इलाके"},
-    {"id":"ch027_v02","target":"कचरा","type":"noun","romanization":"kachrā","bangla_pronunciation":"কচরা","word_pronunciations":[{"target":"कचरा","bangla_pronunciation":"কচরা","separator_after":""}],"meaning_bengali_md":"আবর্জনা।","source_sentence_id":"ch027_s02","source_form":"कचरा"},
-    {"id":"ch027_v03","target":"शिकायत","type":"noun","romanization":"śikāyat","bangla_pronunciation":"শিকায়ত","word_pronunciations":[{"target":"शिकायत","bangla_pronunciation":"শিকায়ত","separator_after":""}],"meaning_bengali_md":"অভিযোগ।","source_sentence_id":"ch027_s04","source_form":"शिकायत"},
-    {"id":"ch027_v04","target":"पड़ोसी","type":"noun","romanization":"paṛosī","bangla_pronunciation":"পড়োসী","word_pronunciations":[{"target":"पड़ोसी","bangla_pronunciation":"পড়োসী","separator_after":""}],"meaning_bengali_md":"প্রতিবেশী।","source_sentence_id":"ch027_s07","source_form":"पड़ोसी"},
-    {"id":"ch027_v05","target":"जिम्मेदारी","type":"noun","romanization":"zimmedārī","bangla_pronunciation":"জিম্মেদারী","word_pronunciations":[{"target":"जिम्मेदारी","bangla_pronunciation":"জিম্মেদারী","separator_after":""}],"meaning_bengali_md":"দায়িত্ব।","source_sentence_id":"ch027_s19","source_form":"जिम्मेदारी"}
+  "title_bengali": "কমিউনিটি ও নাগরিক দায়িত্ব",
+  "goal_bengali_md": "স্থানীয় সমস্যা, অভিযোগ, community action ও নাগরিক দায়িত্ব নিয়ে কথা বলা।",
+  "sentences": [
+    {
+      "id": "ch027_s01",
+      "target": "हमारे इलाके में ट्रैफिक है।",
+      "romanization": "hamāre ilāke mẽ traffic hai.",
+      "bangla_pronunciation": "হমারে ইলাকে মেঁ ট্র্যাফিক হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "हमारे",
+          "bangla_pronunciation": "হমারে",
+          "romanization": "hamaare",
+          "separator_after": " "
+        },
+        {
+          "target": "इलाके",
+          "bangla_pronunciation": "ইলাকে",
+          "romanization": "ilāke",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "ट्रैफिक",
+          "bangla_pronunciation": "ট্র্যাফিক",
+          "romanization": "traiphik",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমাদের এলাকায় যানজট আছে।"
+    },
+    {
+      "id": "ch027_s02",
+      "target": "कचरा जमा है।",
+      "romanization": "kachrā jamā hai.",
+      "bangla_pronunciation": "কচরা জমা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "कचरा",
+          "bangla_pronunciation": "কচরা",
+          "romanization": "kachrā",
+          "separator_after": " "
+        },
+        {
+          "target": "जमा",
+          "bangla_pronunciation": "জমা",
+          "romanization": "jama",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ময়লা জমে আছে।"
+    },
+    {
+      "id": "ch027_s03",
+      "target": "पानी साफ नहीं है।",
+      "romanization": "pānī sāf nahī̃ hai.",
+      "bangla_pronunciation": "পানী সাফ নহীঁ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানী",
+          "romanization": "paani",
+          "separator_after": " "
+        },
+        {
+          "target": "साफ",
+          "bangla_pronunciation": "সাফ",
+          "romanization": "saaph",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "romanization": "naheen",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পানি পরিষ্কার নয়।"
+    },
+    {
+      "id": "ch027_s04",
+      "target": "शिकायत दर्ज कीजिए।",
+      "romanization": "śikāyat darj kījiye.",
+      "bangla_pronunciation": "শিকায়ত দর্জ কীজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "शिकायत",
+          "bangla_pronunciation": "শিকায়ত",
+          "romanization": "shikaayat",
+          "separator_after": " "
+        },
+        {
+          "target": "दर्ज",
+          "bangla_pronunciation": "দর্জ",
+          "romanization": "darj",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অভিযোগ নথিভুক্ত করুন।"
+    },
+    {
+      "id": "ch027_s05",
+      "target": "तस्वीर भेज सकते हैं?",
+      "romanization": "tasvīr bhej sakte hain?",
+      "bangla_pronunciation": "তসবীর ভেজ সকতে হ্যাঁয়?",
+      "word_pronunciations": [
+        {
+          "target": "तस्वीर",
+          "bangla_pronunciation": "তসবীর",
+          "romanization": "tasveer",
+          "separator_after": " "
+        },
+        {
+          "target": "भेज",
+          "bangla_pronunciation": "ভেজ",
+          "romanization": "bhej",
+          "separator_after": " "
+        },
+        {
+          "target": "सकते",
+          "bangla_pronunciation": "সকতে",
+          "romanization": "skte",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं?",
+          "bangla_pronunciation": "হ্যাঁয়?",
+          "romanization": "hain?",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ছবি পাঠাতে পারবেন?"
+    },
+    {
+      "id": "ch027_s06",
+      "target": "सही पता लिखिए।",
+      "romanization": "sahī patā likhiye.",
+      "bangla_pronunciation": "সহী পতা লিখিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "सही",
+          "bangla_pronunciation": "সহী",
+          "romanization": "sahee",
+          "separator_after": " "
+        },
+        {
+          "target": "पता",
+          "bangla_pronunciation": "পতা",
+          "romanization": "pata",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিয়ে।",
+          "romanization": "likhie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সঠিক ঠিকানা লিখুন।"
+    },
+    {
+      "id": "ch027_s07",
+      "target": "पड़ोसी मिलकर काम करें।",
+      "romanization": "paṛosī milkar kām karẽ.",
+      "bangla_pronunciation": "পড়োসী মিলকর কাম করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "पड़ोसी",
+          "bangla_pronunciation": "পড়োসী",
+          "romanization": "padosi",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलकर",
+          "bangla_pronunciation": "মিলকর",
+          "romanization": "milakar",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রতিবেশীরা মিলে কাজ করুন।"
+    },
+    {
+      "id": "ch027_s08",
+      "target": "फुटपाथ सुरक्षित होना चाहिए।",
+      "romanization": "fuṭpāth surakṣit honā cāhiye.",
+      "bangla_pronunciation": "ফুটপাথ সুরক্ষিত হোনা চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "फुटपाथ",
+          "bangla_pronunciation": "ফুটপাথ",
+          "romanization": "phutpaath",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षित",
+          "bangla_pronunciation": "সুরক্ষিত",
+          "romanization": "surakshit",
+          "separator_after": " "
+        },
+        {
+          "target": "होना",
+          "bangla_pronunciation": "হোনা",
+          "romanization": "honaa",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "romanization": "chaahie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফুটপাত নিরাপদ হওয়া উচিত।"
+    },
+    {
+      "id": "ch027_s09",
+      "target": "कचरा बाहर मत फेंकिए।",
+      "romanization": "kachrā bāhar mat phẽkiye.",
+      "bangla_pronunciation": "কচরা বাহর মত ফেঁকিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "कचरा",
+          "bangla_pronunciation": "কচরা",
+          "romanization": "kachrā",
+          "separator_after": " "
+        },
+        {
+          "target": "बाहर",
+          "bangla_pronunciation": "বাহর",
+          "romanization": "baahar",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "romanization": "mat",
+          "separator_after": " "
+        },
+        {
+          "target": "फेंकिए।",
+          "bangla_pronunciation": "ফেঁকিয়ে।",
+          "romanization": "phenkie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাইরে ময়লা ফেলবেন না।"
+    },
+    {
+      "id": "ch027_s10",
+      "target": "पानी बचाना जरूरी है।",
+      "romanization": "pānī bacānā zarūrī hai.",
+      "bangla_pronunciation": "পানী বচানা জরূরী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানী",
+          "romanization": "paani",
+          "separator_after": " "
+        },
+        {
+          "target": "बचाना",
+          "bangla_pronunciation": "বচানা",
+          "romanization": "bachaanaa",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পানি সাশ্রয় জরুরি।"
+    },
+    {
+      "id": "ch027_s11",
+      "target": "विनम्रता से पूछिए।",
+      "romanization": "vinamratā se pūchiye.",
+      "bangla_pronunciation": "বিনম্রতা সে পূছিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "विनम्रता",
+          "bangla_pronunciation": "বিনম্রতা",
+          "romanization": "vinmrtaa",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "romanization": "se",
+          "separator_after": " "
+        },
+        {
+          "target": "पूछिए।",
+          "bangla_pronunciation": "পূছিয়ে।",
+          "romanization": "poochhie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভদ্রভাবে জিজ্ঞেস করুন।"
+    },
+    {
+      "id": "ch027_s12",
+      "target": "हमने पहले भी बताया।",
+      "romanization": "hamne pahle bhī batāyā.",
+      "bangla_pronunciation": "হমনে পহলে ভী বতায়া।",
+      "word_pronunciations": [
+        {
+          "target": "हमने",
+          "bangla_pronunciation": "হমনে",
+          "romanization": "hamane",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "romanization": "phle",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
+          "separator_after": " "
+        },
+        {
+          "target": "बताया।",
+          "bangla_pronunciation": "বতায়া।",
+          "romanization": "bataayaa.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমরা আগেও জানিয়েছি।"
+    },
+    {
+      "id": "ch027_s13",
+      "target": "शिकायत नंबर दीजिए।",
+      "romanization": "śikāyat number dījiye.",
+      "bangla_pronunciation": "শিকায়ত নম্বর দীজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "शिकायत",
+          "bangla_pronunciation": "শিকায়ত",
+          "romanization": "shikaayat",
+          "separator_after": " "
+        },
+        {
+          "target": "नंबर",
+          "bangla_pronunciation": "নম্বর",
+          "romanization": "nambar",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "romanization": "deejie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অভিযোগ নম্বর দিন।"
+    },
+    {
+      "id": "ch027_s14",
+      "target": "बैठक रविवार को होगी।",
+      "romanization": "baiṭhak ravivār ko hogī.",
+      "bangla_pronunciation": "বৈঠক রবিবার কো হোগী।",
+      "word_pronunciations": [
+        {
+          "target": "बैठक",
+          "bangla_pronunciation": "বৈঠক",
+          "romanization": "baithak",
+          "separator_after": " "
+        },
+        {
+          "target": "रविवार",
+          "bangla_pronunciation": "রবিবার",
+          "romanization": "ravivaar",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "romanization": "ko",
+          "separator_after": " "
+        },
+        {
+          "target": "होगी।",
+          "bangla_pronunciation": "হোগী।",
+          "romanization": "hogee.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সভা রবিবার হবে।"
+    },
+    {
+      "id": "ch027_s15",
+      "target": "हम तीन सुझाव देंगे।",
+      "romanization": "ham tīn sujhāv dẽge.",
+      "bangla_pronunciation": "হম তীন সুঝাব দেঙ্গে।",
+      "word_pronunciations": [
+        {
+          "target": "हम",
+          "bangla_pronunciation": "হম",
+          "romanization": "ham",
+          "separator_after": " "
+        },
+        {
+          "target": "तीन",
+          "bangla_pronunciation": "তীন",
+          "romanization": "teen",
+          "separator_after": " "
+        },
+        {
+          "target": "सुझाव",
+          "bangla_pronunciation": "সুঝাব",
+          "romanization": "sujhaav",
+          "separator_after": " "
+        },
+        {
+          "target": "देंगे।",
+          "bangla_pronunciation": "দেঙ্গে।",
+          "romanization": "denge.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমরা তিনটি প্রস্তাব দেব।"
+    },
+    {
+      "id": "ch027_s16",
+      "target": "सिर्फ शिकायत काफी नहीं।",
+      "romanization": "sirf śikāyat kāfī nahī̃.",
+      "bangla_pronunciation": "সির্ফ শিকায়ত কাফী নহীঁ।",
+      "word_pronunciations": [
+        {
+          "target": "सिर्फ",
+          "bangla_pronunciation": "সির্ফ",
+          "romanization": "sirph",
+          "separator_after": " "
+        },
+        {
+          "target": "शिकायत",
+          "bangla_pronunciation": "শিকায়ত",
+          "romanization": "shikaayat",
+          "separator_after": " "
+        },
+        {
+          "target": "काफी",
+          "bangla_pronunciation": "কাফী",
+          "romanization": "kaaphee",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं।",
+          "bangla_pronunciation": "নহীঁ।",
+          "romanization": "nahin.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শুধু অভিযোগ যথেষ্ট নয়।"
+    },
+    {
+      "id": "ch027_s17",
+      "target": "छोटे काम फर्क लाते हैं।",
+      "romanization": "choṭe kām fark lāte hain.",
+      "bangla_pronunciation": "ছোটে কাম ফর্ক লাতে হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "छोटे",
+          "bangla_pronunciation": "ছোটে",
+          "romanization": "chhote",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
+          "separator_after": " "
+        },
+        {
+          "target": "फर्क",
+          "bangla_pronunciation": "ফর্ক",
+          "romanization": "phark",
+          "separator_after": " "
+        },
+        {
+          "target": "लाते",
+          "bangla_pronunciation": "লাতে",
+          "romanization": "laate",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ছোট কাজ পরিবর্তন আনে।"
+    },
+    {
+      "id": "ch027_s18",
+      "target": "सार्वजनिक जगह सबकी है।",
+      "romanization": "sārvajanik jagah sabkī hai.",
+      "bangla_pronunciation": "সার্বজনিক জগহ সবকী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "सार्वजनिक",
+          "bangla_pronunciation": "সার্বজনিক",
+          "romanization": "saarvjnik",
+          "separator_after": " "
+        },
+        {
+          "target": "जगह",
+          "bangla_pronunciation": "জগহ",
+          "romanization": "jagah",
+          "separator_after": " "
+        },
+        {
+          "target": "सबकी",
+          "bangla_pronunciation": "সবকী",
+          "romanization": "sabakee",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সার্বজনীন জায়গা সবার।"
+    },
+    {
+      "id": "ch027_s19",
+      "target": "नियम मानना जिम्मेदारी है।",
+      "romanization": "niyam mānnā zimmedārī hai.",
+      "bangla_pronunciation": "নিয়ম মাননা জিম্মেদারী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "नियम",
+          "bangla_pronunciation": "নিয়ম",
+          "romanization": "niyam",
+          "separator_after": " "
+        },
+        {
+          "target": "मानना",
+          "bangla_pronunciation": "মাননা",
+          "romanization": "maananaa",
+          "separator_after": " "
+        },
+        {
+          "target": "जिम्मेदारी",
+          "bangla_pronunciation": "জিম্মেদারী",
+          "romanization": "jimmedaarii",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিয়ম মানা দায়িত্ব।"
+    },
+    {
+      "id": "ch027_s20",
+      "target": "मिलकर इलाका बेहतर होगा।",
+      "romanization": "milkar ilākā behtar hogā.",
+      "bangla_pronunciation": "মিলকর ইলাকা বেহতর হোগা।",
+      "word_pronunciations": [
+        {
+          "target": "मिलकर",
+          "bangla_pronunciation": "মিলকর",
+          "romanization": "milakar",
+          "separator_after": " "
+        },
+        {
+          "target": "इलाका",
+          "bangla_pronunciation": "ইলাকা",
+          "romanization": "ilaaka",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "romanization": "behtar",
+          "separator_after": " "
+        },
+        {
+          "target": "होगा।",
+          "bangla_pronunciation": "হোগা।",
+          "romanization": "hogaa.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "একসঙ্গে কাজ করলে এলাকা ভালো হবে।"
+    }
   ],
-  "bridge_reading":{"mode":"story","title_bengali":"মহল্লার উদ্যোগ","scene_summary":"বাসিন্দারা স্থানীয় সমস্যা নিয়ে একসঙ্গে কাজ করে।","segments":[
-    {"kind":"bangla","text":"বাসিন্দারা দেখল, "},
-    {"kind":"target","target":"कचरा जमा है।","bangla_pronunciation":"কচরা জমা হ্যায়।","word_pronunciations":[{"target":"कचरा","bangla_pronunciation":"কচরা","separator_after":" "},{"target":"जमा","bangla_pronunciation":"জমা","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}]},
-    {"kind":"bangla","text":" তারা ঠিক করল, "},
-    {"kind":"target","target":"शिकायत दर्ज कीजिए।","bangla_pronunciation":"শিকায়ত দর্জ কীজিয়ে।","word_pronunciations":[{"target":"शिकायत","bangla_pronunciation":"শিকায়ত","separator_after":" "},{"target":"दर्ज","bangla_pronunciation":"দর্জ","separator_after":" "},{"target":"कीजिए।","bangla_pronunciation":"কীজিয়ে।","separator_after":""}]},
-    {"kind":"bangla","text":" পরে সবাই বলল, "},
-    {"kind":"target","target":"पड़ोसी मिलकर काम करें।","bangla_pronunciation":"পড়োসী মিলকর কাম করেঁ।","word_pronunciations":[{"target":"पड़ोसी","bangla_pronunciation":"পড়োসী","separator_after":" "},{"target":"मिलकर","bangla_pronunciation":"মিলকর","separator_after":" "},{"target":"काम","bangla_pronunciation":"কাম","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেঁ।","separator_after":""}]},
-    {"kind":"bangla","text":" শেষ কথা ছিল, "},
-    {"kind":"target","target":"नियम मानना जिम्मेदारी है।","bangla_pronunciation":"নিয়ম মাননা জিম্মেদারী হ্যায়।","word_pronunciations":[{"target":"नियम","bangla_pronunciation":"নিয়ম","separator_after":" "},{"target":"मानना","bangla_pronunciation":"মাননা","separator_after":" "},{"target":"जिम्मेदारी","bangla_pronunciation":"জিম্মেদারী","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}]}
-  ],"text_md":"বাসিন্দারা দেখল, **कचरा** (কচরা) **जमा** (জমা) **है।** (হ্যায়।) তারা ঠিক করল, **शिकायत** (শিকায়ত) **दर्ज** (দর্জ) **कीजिए।** (কীজিয়ে।) পরে সবাই বলল, **पड़ोसी** (পড়োসী) **मिलकर** (মিলকর) **काम** (কাম) **करें।** (করেঁ।) শেষ কথা ছিল, **नियम** (নিয়ম) **मानना** (মাননা) **जिम्मेदारी** (জিম্মেদারী) **है।** (হ্যায়।)"},
-  "target_reading":{"mode":"story","title_bengali":"পরিষ্কার মহল্লা","scene_summary":"কয়েকজন প্রতিবেশী মিলে ছোট সমস্যা সমাধান করে।","lines":[
-    {"target":"चार पड़ोसी मिले।","bangla_pronunciation":"চার পড়োসী মিলে।","word_pronunciations":[{"target":"चार","bangla_pronunciation":"চার","separator_after":" "},{"target":"पड़ोसी","bangla_pronunciation":"পড়োসী","separator_after":" "},{"target":"मिले।","bangla_pronunciation":"মিলে।","separator_after":""}]},
-    {"target":"उन्होंने शिकायत की।","bangla_pronunciation":"উনহোঁনে শিকায়ত কী।","word_pronunciations":[{"target":"उन्होंने","bangla_pronunciation":"উনহোঁনে","separator_after":" "},{"target":"शिकायत","bangla_pronunciation":"শিকায়ত","separator_after":" "},{"target":"की।","bangla_pronunciation":"কী।","separator_after":""}]},
-    {"target":"सबने सफाई की।","bangla_pronunciation":"সবনে সফাই কী।","word_pronunciations":[{"target":"सबने","bangla_pronunciation":"সবনে","separator_after":" "},{"target":"सफाई","bangla_pronunciation":"সফাই","separator_after":" "},{"target":"की।","bangla_pronunciation":"কী।","separator_after":""}]},
-    {"target":"सड़क साफ हो गई।","bangla_pronunciation":"সড়ক সাফ হো গঈ।","word_pronunciations":[{"target":"सड़क","bangla_pronunciation":"সড়ক","separator_after":" "},{"target":"साफ","bangla_pronunciation":"সাফ","separator_after":" "},{"target":"हो","bangla_pronunciation":"হো","separator_after":" "},{"target":"गई।","bangla_pronunciation":"গঈ।","separator_after":""}]}
-  ],"bangla_pronunciation":"চার পড়োসী মিলে। উনহোঁনে শিকায়ত কী। সবনে সফাই কী। সড়ক সাফ হো গঈ।","meaning_bengali_md":"চার প্রতিবেশী মিলল। তারা অভিযোগ করল। সবাই পরিষ্কার করল। রাস্তা পরিষ্কার হয়ে গেল।"},
-  "script_practice":[
-    {"item_id":"dev_tta","mode":"review","target":"त्त","bangla_pronunciation":"ত্ত","explanation_bengali_md":"`त्त` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`त्त` দেখে ত্ত বলুন।"},
-    {"item_id":"dev_dda","mode":"review","target":"द्द","bangla_pronunciation":"দ্দ","explanation_bengali_md":"`द्द` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`द्द` দেখে দ্দ বলুন।"},
-    {"item_id":"dev_nna","mode":"review","target":"न्न","bangla_pronunciation":"ন্ন","explanation_bengali_md":"`न्न` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`न्न` দেখে ন্ন বলুন।"},
-    {"item_id":"dev_lla","mode":"review","target":"ल्ल","bangla_pronunciation":"ল্ল","explanation_bengali_md":"`ल्ल` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`ल्ल` দেখে ল্ল বলুন।"},
-    {"item_id":"dev_mma","mode":"review","target":"म्म","bangla_pronunciation":"ম্ম","explanation_bengali_md":"`म्म` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`म्म` দেখে ম্ম বলুন।"}
+  "vocabulary": [
+    {
+      "id": "ch027_v01",
+      "target": "इलाके",
+      "type": "noun",
+      "romanization": "ilāke",
+      "bangla_pronunciation": "ইলাকে",
+      "word_pronunciations": [
+        {
+          "target": "इलाके",
+          "bangla_pronunciation": "ইলাকে",
+          "romanization": "ilāke",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এলাকার রূপ।",
+      "source_sentence_id": "ch027_s01",
+      "source_form": "इलाके"
+    },
+    {
+      "id": "ch027_v02",
+      "target": "कचरा",
+      "type": "noun",
+      "romanization": "kachrā",
+      "bangla_pronunciation": "কচরা",
+      "word_pronunciations": [
+        {
+          "target": "कचरा",
+          "bangla_pronunciation": "কচরা",
+          "romanization": "kachrā",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আবর্জনা।",
+      "source_sentence_id": "ch027_s02",
+      "source_form": "कचरा"
+    },
+    {
+      "id": "ch027_v03",
+      "target": "शिकायत",
+      "type": "noun",
+      "romanization": "śikāyat",
+      "bangla_pronunciation": "শিকায়ত",
+      "word_pronunciations": [
+        {
+          "target": "शिकायत",
+          "bangla_pronunciation": "শিকায়ত",
+          "romanization": "shikaayat",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অভিযোগ।",
+      "source_sentence_id": "ch027_s04",
+      "source_form": "शिकायत"
+    },
+    {
+      "id": "ch027_v04",
+      "target": "पड़ोसी",
+      "type": "noun",
+      "romanization": "paṛosī",
+      "bangla_pronunciation": "পড়োসী",
+      "word_pronunciations": [
+        {
+          "target": "पड़ोसी",
+          "bangla_pronunciation": "পড়োসী",
+          "romanization": "padosi",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রতিবেশী।",
+      "source_sentence_id": "ch027_s07",
+      "source_form": "पड़ोसी"
+    },
+    {
+      "id": "ch027_v05",
+      "target": "जिम्मेदारी",
+      "type": "noun",
+      "romanization": "zimmedārī",
+      "bangla_pronunciation": "জিম্মেদারী",
+      "word_pronunciations": [
+        {
+          "target": "जिम्मेदारी",
+          "bangla_pronunciation": "জিম্মেদারী",
+          "romanization": "jimmedaarii",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দায়িত্ব।",
+      "source_sentence_id": "ch027_s19",
+      "source_form": "जिम्मेदारी"
+    }
   ],
-  "number_practice":[
-    {"display":"35 / ३५","target":"पैंतीस","bangla_pronunciation":"প্যাঁতীস","word_pronunciations":[{"target":"पैंतीस","bangla_pronunciation":"প্যাঁতীস","separator_after":""}],"meaning_bengali_md":"৩৫ — পঁয়ত্রিশ।","system":"international + devanagari"},
-    {"display":"70 / ७०","target":"सत्तर","bangla_pronunciation":"সত্তর","word_pronunciations":[{"target":"सत्तर","bangla_pronunciation":"সত্তর","separator_after":""}],"meaning_bengali_md":"৭০ — সত্তর।","system":"international + devanagari"}
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "মহল্লার উদ্যোগ",
+    "scene_summary": "বাসিন্দারা স্থানীয় সমস্যা নিয়ে একসঙ্গে কাজ করে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "বাসিন্দারা দেখল, "
+      },
+      {
+        "kind": "target",
+        "target": "कचरा जमा है।",
+        "bangla_pronunciation": "কচরা জমা হ্যায়।",
+        "romanization": "kachrā jamā hai.",
+        "word_pronunciations": [
+          {
+            "target": "कचरा",
+            "bangla_pronunciation": "কচরা",
+            "romanization": "kachrā",
+            "separator_after": " "
+          },
+          {
+            "target": "जमा",
+            "bangla_pronunciation": "জমা",
+            "romanization": "jama",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " তারা ঠিক করল, "
+      },
+      {
+        "kind": "target",
+        "target": "शिकायत दर्ज कीजिए।",
+        "bangla_pronunciation": "শিকায়ত দর্জ কীজিয়ে।",
+        "romanization": "śikāyat darj kījiye.",
+        "word_pronunciations": [
+          {
+            "target": "शिकायत",
+            "bangla_pronunciation": "শিকায়ত",
+            "romanization": "shikaayat",
+            "separator_after": " "
+          },
+          {
+            "target": "दर्ज",
+            "bangla_pronunciation": "দর্জ",
+            "romanization": "darj",
+            "separator_after": " "
+          },
+          {
+            "target": "कीजिए।",
+            "bangla_pronunciation": "কীজিয়ে।",
+            "romanization": "keejie.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " পরে সবাই বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "पड़ोसी मिलकर काम करें।",
+        "bangla_pronunciation": "পড়োসী মিলকর কাম করেঁ।",
+        "romanization": "paṛosī milkar kām karẽ.",
+        "word_pronunciations": [
+          {
+            "target": "पड़ोसी",
+            "bangla_pronunciation": "পড়োসী",
+            "romanization": "padosi",
+            "separator_after": " "
+          },
+          {
+            "target": "मिलकर",
+            "bangla_pronunciation": "মিলকর",
+            "romanization": "milakar",
+            "separator_after": " "
+          },
+          {
+            "target": "काम",
+            "bangla_pronunciation": "কাম",
+            "romanization": "kaam",
+            "separator_after": " "
+          },
+          {
+            "target": "करें।",
+            "bangla_pronunciation": "করেঁ।",
+            "romanization": "karen.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " শেষ কথা ছিল, "
+      },
+      {
+        "kind": "target",
+        "target": "नियम मानना जिम्मेदारी है।",
+        "bangla_pronunciation": "নিয়ম মাননা জিম্মেদারী হ্যায়।",
+        "romanization": "niyam mānnā zimmedārī hai.",
+        "word_pronunciations": [
+          {
+            "target": "नियम",
+            "bangla_pronunciation": "নিয়ম",
+            "romanization": "niyam",
+            "separator_after": " "
+          },
+          {
+            "target": "मानना",
+            "bangla_pronunciation": "মাননা",
+            "romanization": "maananaa",
+            "separator_after": " "
+          },
+          {
+            "target": "जिम्मेदारी",
+            "bangla_pronunciation": "জিম্মেদারী",
+            "romanization": "jimmedaarii",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "বাসিন্দারা দেখল, **कचरा** (কচরা, kachrā) **जमा** (জমা, jama) **है।** (হ্যায়।, hai\\.) তারা ঠিক করল, **शिकायत** (শিকায়ত, shikaayat) **दर्ज** (দর্জ, darj) **कीजिए।** (কীজিয়ে।, keejie\\.) পরে সবাই বলল, **पड़ोसी** (পড়োসী, padosi) **मिलकर** (মিলকর, milakar) **काम** (কাম, kaam) **करें।** (করেঁ।, karen\\.) শেষ কথা ছিল, **नियम** (নিয়ম, niyam) **मानना** (মাননা, maananaa) **जिम्मेदारी** (জিম্মেদারী, jimmedaarii) **है।** (হ্যায়।, hai\\.)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "পরিষ্কার মহল্লা",
+    "scene_summary": "কয়েকজন প্রতিবেশী মিলে ছোট সমস্যা সমাধান করে।",
+    "lines": [
+      {
+        "target": "चार पड़ोसी मिले।",
+        "bangla_pronunciation": "চার পড়োসী মিলে।",
+        "romanization": "chaara parosee mile.",
+        "word_pronunciations": [
+          {
+            "target": "चार",
+            "bangla_pronunciation": "চার",
+            "romanization": "chaar",
+            "separator_after": " "
+          },
+          {
+            "target": "पड़ोसी",
+            "bangla_pronunciation": "পড়োসী",
+            "romanization": "padosi",
+            "separator_after": " "
+          },
+          {
+            "target": "मिले।",
+            "bangla_pronunciation": "মিলে।",
+            "romanization": "mile.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "उन्होंने शिकायत की।",
+        "bangla_pronunciation": "উনহোঁনে শিকায়ত কী।",
+        "romanization": "unhonne shikaayata kee.",
+        "word_pronunciations": [
+          {
+            "target": "उन्होंने",
+            "bangla_pronunciation": "উনহোঁনে",
+            "romanization": "unhonne",
+            "separator_after": " "
+          },
+          {
+            "target": "शिकायत",
+            "bangla_pronunciation": "শিকায়ত",
+            "romanization": "shikaayat",
+            "separator_after": " "
+          },
+          {
+            "target": "की।",
+            "bangla_pronunciation": "কী।",
+            "romanization": "kee.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "सबने सफाई की।",
+        "bangla_pronunciation": "সবনে সফাই কী।",
+        "romanization": "sabane saphaaee kee.",
+        "word_pronunciations": [
+          {
+            "target": "सबने",
+            "bangla_pronunciation": "সবনে",
+            "romanization": "sabane",
+            "separator_after": " "
+          },
+          {
+            "target": "सफाई",
+            "bangla_pronunciation": "সফাই",
+            "romanization": "saphaaii",
+            "separator_after": " "
+          },
+          {
+            "target": "की।",
+            "bangla_pronunciation": "কী।",
+            "romanization": "kee.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "सड़क साफ हो गई।",
+        "bangla_pronunciation": "সড়ক সাফ হো গঈ।",
+        "romanization": "saraka saapha ho gaee.",
+        "word_pronunciations": [
+          {
+            "target": "सड़क",
+            "bangla_pronunciation": "সড়ক",
+            "romanization": "sarak",
+            "separator_after": " "
+          },
+          {
+            "target": "साफ",
+            "bangla_pronunciation": "সাফ",
+            "romanization": "saaph",
+            "separator_after": " "
+          },
+          {
+            "target": "हो",
+            "bangla_pronunciation": "হো",
+            "romanization": "ho",
+            "separator_after": " "
+          },
+          {
+            "target": "गई।",
+            "bangla_pronunciation": "গঈ।",
+            "romanization": "gaee.",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "চার পড়োসী মিলে। উনহোঁনে শিকায়ত কী। সবনে সফাই কী। সড়ক সাফ হো গঈ।",
+    "romanization": "chaara parosee mile. unhonne shikaayata kee. sabane saphaaee kee. saraka saapha ho gaee.",
+    "meaning_bengali_md": "চার প্রতিবেশী মিলল। তারা অভিযোগ করল। সবাই পরিষ্কার করল। রাস্তা পরিষ্কার হয়ে গেল।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_tta",
+      "mode": "review",
+      "target": "त्त",
+      "bangla_pronunciation": "ত্ত",
+      "romanization": "tta",
+      "explanation_bengali_md": "`त्त` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`त्त` দেখে ত্ত বলুন।"
+    },
+    {
+      "item_id": "dev_dda",
+      "mode": "review",
+      "target": "द्द",
+      "bangla_pronunciation": "দ্দ",
+      "romanization": "dda",
+      "explanation_bengali_md": "`द्द` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`द्द` দেখে দ্দ বলুন।"
+    },
+    {
+      "item_id": "dev_nna",
+      "mode": "review",
+      "target": "न्न",
+      "bangla_pronunciation": "ন্ন",
+      "romanization": "nna",
+      "explanation_bengali_md": "`न्न` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`न्न` দেখে ন্ন বলুন।"
+    },
+    {
+      "item_id": "dev_lla",
+      "mode": "review",
+      "target": "ल्ल",
+      "bangla_pronunciation": "ল্ল",
+      "romanization": "lla",
+      "explanation_bengali_md": "`ल्ल` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`ल्ल` দেখে ল্ল বলুন।"
+    },
+    {
+      "item_id": "dev_mma",
+      "mode": "review",
+      "target": "म्म",
+      "bangla_pronunciation": "ম্ম",
+      "romanization": "mma",
+      "explanation_bengali_md": "`म्म` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`म्म` দেখে ম্ম বলুন।"
+    }
   ],
-  "speaking_practice":[
-    {"prompt_bengali_md":"এলাকার সমস্যা বলুন।","model_target":"हमारे इलाके में ट्रैफिक है।","model_bangla_pronunciation":"হমারে ইলাকে মেঁ ট্র্যাফিক হ্যায়।","model_word_pronunciations":[{"target":"हमारे","bangla_pronunciation":"হমারে","separator_after":" "},{"target":"इलाके","bangla_pronunciation":"ইলাকে","separator_after":" "},{"target":"में","bangla_pronunciation":"মেঁ","separator_after":" "},{"target":"ट्रैफिक","bangla_pronunciation":"ট্র্যাফিক","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"model_meaning_bengali_md":"আমাদের এলাকায় যানজট আছে।"},
-    {"prompt_bengali_md":"অভিযোগ করতে বলুন।","model_target":"शिकायत दर्ज कीजिए।","model_bangla_pronunciation":"শিকায়ত দর্জ কীজিয়ে।","model_word_pronunciations":[{"target":"शिकायत","bangla_pronunciation":"শিকায়ত","separator_after":" "},{"target":"दर्ज","bangla_pronunciation":"দর্জ","separator_after":" "},{"target":"कीजिए।","bangla_pronunciation":"কীজিয়ে।","separator_after":""}],"model_meaning_bengali_md":"অভিযোগ নথিভুক্ত করুন।"},
-    {"prompt_bengali_md":"পড়শিদের একসঙ্গে কাজ করতে বলুন।","model_target":"पड़ोसी मिलकर काम करें।","model_bangla_pronunciation":"পড়োসী মিলকর কাম করেঁ।","model_word_pronunciations":[{"target":"पड़ोसी","bangla_pronunciation":"পড়োসী","separator_after":" "},{"target":"मिलकर","bangla_pronunciation":"মিলকর","separator_after":" "},{"target":"काम","bangla_pronunciation":"কাম","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেঁ।","separator_after":""}],"model_meaning_bengali_md":"প্রতিবেশীরা মিলে কাজ করুন।"},
-    {"prompt_bengali_md":"অভিযোগ নম্বর চাইুন।","model_target":"शिकायत नंबर दीजिए।","model_bangla_pronunciation":"শিকায়ত নম্বর দীজিয়ে।","model_word_pronunciations":[{"target":"शिकायत","bangla_pronunciation":"শিকায়ত","separator_after":" "},{"target":"नंबर","bangla_pronunciation":"নম্বর","separator_after":" "},{"target":"दीजिए।","bangla_pronunciation":"দীজিয়ে।","separator_after":""}],"model_meaning_bengali_md":"অভিযোগ নম্বর দিন।"},
-    {"prompt_bengali_md":"দায়িত্বের কথা বলুন।","model_target":"नियम मानना जिम्मेदारी है।","model_bangla_pronunciation":"নিয়ম মাননা জিম্মেদারী হ্যায়।","model_word_pronunciations":[{"target":"नियम","bangla_pronunciation":"নিয়ম","separator_after":" "},{"target":"मानना","bangla_pronunciation":"মাননা","separator_after":" "},{"target":"जिम्मेदारी","bangla_pronunciation":"জিম্মেদারী","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"model_meaning_bengali_md":"নিয়ম মানা দায়িত্ব।"},
-    {"prompt_bengali_md":"একসঙ্গে কাজের ফল বলুন।","model_target":"मिलकर इलाका बेहतर होगा।","model_bangla_pronunciation":"মিলকর ইলাকা বেহতর হোগা।","model_word_pronunciations":[{"target":"मिलकर","bangla_pronunciation":"মিলকর","separator_after":" "},{"target":"इलाका","bangla_pronunciation":"ইলাকা","separator_after":" "},{"target":"बेहतर","bangla_pronunciation":"বেহতর","separator_after":" "},{"target":"होगा।","bangla_pronunciation":"হোগা।","separator_after":""}],"model_meaning_bengali_md":"একসঙ্গে কাজ করলে এলাকা ভালো হবে।"}
+  "number_practice": [
+    {
+      "display": "35 / ३५",
+      "target": "पैंतीस",
+      "bangla_pronunciation": "প্যাঁতীস",
+      "romanization": "paintees",
+      "word_pronunciations": [
+        {
+          "target": "पैंतीस",
+          "bangla_pronunciation": "প্যাঁতীস",
+          "romanization": "paintees",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "৩৫ — পঁয়ত্রিশ।",
+      "system": "international + devanagari"
+    },
+    {
+      "display": "70 / ७०",
+      "target": "सत्तर",
+      "bangla_pronunciation": "সত্তর",
+      "romanization": "sattar",
+      "word_pronunciations": [
+        {
+          "target": "सत्तर",
+          "bangla_pronunciation": "সত্তর",
+          "romanization": "sattar",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "৭০ — সত্তর।",
+      "system": "international + devanagari"
+    }
   ],
-  "image_prompts":[
-    {"key":"ch027_bridge_reading_01","reading":"bridge_reading","subject":"Neighbors discussing a local waste problem and planning a cleanup in a bright residential courtyard. No readable text, no labels, no signage, no watermark.","style":"Bright warm editorial illustration with natural adult characters and uncluttered scenes"},
-    {"key":"ch027_target_reading_01","reading":"target_reading","subject":"Four neighbors working together to clean a street after contacting local services, cooperative morning scene. No readable text, no labels, no signage, no watermark.","style":"Bright warm editorial illustration with natural adult characters and uncluttered scenes"}
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "এলাকার সমস্যা বলুন।",
+      "model_target": "हमारे इलाके में ट्रैफिक है।",
+      "model_bangla_pronunciation": "হমারে ইলাকে মেঁ ট্র্যাফিক হ্যায়।",
+      "model_romanization": "hamāre ilāke mẽ traffic hai.",
+      "model_word_pronunciations": [
+        {
+          "target": "हमारे",
+          "bangla_pronunciation": "হমারে",
+          "romanization": "hamaare",
+          "separator_after": " "
+        },
+        {
+          "target": "इलाके",
+          "bangla_pronunciation": "ইলাকে",
+          "romanization": "ilāke",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "ट्रैफिक",
+          "bangla_pronunciation": "ট্র্যাফিক",
+          "romanization": "traiphik",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমাদের এলাকায় যানজট আছে।"
+    },
+    {
+      "prompt_bengali_md": "অভিযোগ করতে বলুন।",
+      "model_target": "शिकायत दर्ज कीजिए।",
+      "model_bangla_pronunciation": "শিকায়ত দর্জ কীজিয়ে।",
+      "model_romanization": "śikāyat darj kījiye.",
+      "model_word_pronunciations": [
+        {
+          "target": "शिकायत",
+          "bangla_pronunciation": "শিকায়ত",
+          "romanization": "shikaayat",
+          "separator_after": " "
+        },
+        {
+          "target": "दर्ज",
+          "bangla_pronunciation": "দর্জ",
+          "romanization": "darj",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "অভিযোগ নথিভুক্ত করুন।"
+    },
+    {
+      "prompt_bengali_md": "পড়শিদের একসঙ্গে কাজ করতে বলুন।",
+      "model_target": "पड़ोसी मिलकर काम करें।",
+      "model_bangla_pronunciation": "পড়োসী মিলকর কাম করেঁ।",
+      "model_romanization": "paṛosī milkar kām karẽ.",
+      "model_word_pronunciations": [
+        {
+          "target": "पड़ोसी",
+          "bangla_pronunciation": "পড়োসী",
+          "romanization": "padosi",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलकर",
+          "bangla_pronunciation": "মিলকর",
+          "romanization": "milakar",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "প্রতিবেশীরা মিলে কাজ করুন।"
+    },
+    {
+      "prompt_bengali_md": "অভিযোগ নম্বর চাইুন।",
+      "model_target": "शिकायत नंबर दीजिए।",
+      "model_bangla_pronunciation": "শিকায়ত নম্বর দীজিয়ে।",
+      "model_romanization": "śikāyat number dījiye.",
+      "model_word_pronunciations": [
+        {
+          "target": "शिकायत",
+          "bangla_pronunciation": "শিকায়ত",
+          "romanization": "shikaayat",
+          "separator_after": " "
+        },
+        {
+          "target": "नंबर",
+          "bangla_pronunciation": "নম্বর",
+          "romanization": "nambar",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "romanization": "deejie.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "অভিযোগ নম্বর দিন।"
+    },
+    {
+      "prompt_bengali_md": "দায়িত্বের কথা বলুন।",
+      "model_target": "नियम मानना जिम्मेदारी है।",
+      "model_bangla_pronunciation": "নিয়ম মাননা জিম্মেদারী হ্যায়।",
+      "model_romanization": "niyam mānnā zimmedārī hai.",
+      "model_word_pronunciations": [
+        {
+          "target": "नियम",
+          "bangla_pronunciation": "নিয়ম",
+          "romanization": "niyam",
+          "separator_after": " "
+        },
+        {
+          "target": "मानना",
+          "bangla_pronunciation": "মাননা",
+          "romanization": "maananaa",
+          "separator_after": " "
+        },
+        {
+          "target": "जिम्मेदारी",
+          "bangla_pronunciation": "জিম্মেদারী",
+          "romanization": "jimmedaarii",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "নিয়ম মানা দায়িত্ব।"
+    },
+    {
+      "prompt_bengali_md": "একসঙ্গে কাজের ফল বলুন।",
+      "model_target": "मिलकर इलाका बेहतर होगा।",
+      "model_bangla_pronunciation": "মিলকর ইলাকা বেহতর হোগা।",
+      "model_romanization": "milkar ilākā behtar hogā.",
+      "model_word_pronunciations": [
+        {
+          "target": "मिलकर",
+          "bangla_pronunciation": "মিলকর",
+          "romanization": "milakar",
+          "separator_after": " "
+        },
+        {
+          "target": "इलाका",
+          "bangla_pronunciation": "ইলাকা",
+          "romanization": "ilaaka",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "romanization": "behtar",
+          "separator_after": " "
+        },
+        {
+          "target": "होगा।",
+          "bangla_pronunciation": "হোগা।",
+          "romanization": "hogaa.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "একসঙ্গে কাজ করলে এলাকা ভালো হবে।"
+    }
   ],
-  "additional_practice":[]
+  "image_prompts": [
+    {
+      "key": "ch027_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "Neighbors discussing a local waste problem and planning a cleanup in a bright residential courtyard. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes"
+    },
+    {
+      "key": "ch027_target_reading_01",
+      "reading": "target_reading",
+      "subject": "Four neighbors working together to clean a street after contacting local services, cooperative morning scene. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes"
+    }
+  ],
+  "additional_practice": []
 }

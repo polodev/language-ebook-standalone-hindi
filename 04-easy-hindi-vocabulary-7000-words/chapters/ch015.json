@@ -3,20 +3,24 @@
   "status": "drafted",
   "title_target": "ऑफ़िस और काम",
   "title_bangla_pronunciation": "অফিস অউর কাম",
+  "title_romanization": "ofisa aura kaam",
   "title_word_pronunciations": [
     {
       "target": "ऑफ़िस",
       "bangla_pronunciation": "অফিস",
+      "romanization": "ofis",
       "separator_after": " "
     },
     {
       "target": "और",
       "bangla_pronunciation": "অউর",
+      "romanization": "aur",
       "separator_after": " "
     },
     {
       "target": "काम",
       "bangla_pronunciation": "কাম",
+      "romanization": "kaam",
       "separator_after": ""
     }
   ],
@@ -26,37 +30,43 @@
     {
       "id": "ch015_s01",
       "target": "ऑफ़िस में कर्मचारी काम करते हैं।",
-      "romanization": "ofिs mein karmachaaree kaam karate hain.",
+      "romanization": "ofis mein karmachaaree kaam karate hain.",
       "bangla_pronunciation": "অফিস মেঁ কর্মচারী কাম করতে হ্যাঁয়।",
       "word_pronunciations": [
         {
           "target": "ऑफ़िस",
           "bangla_pronunciation": "অফিস",
+          "romanization": "ofis",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "कर्मचारी",
           "bangla_pronunciation": "কর্মচারী",
+          "romanization": "karmachaarii",
           "separator_after": " "
         },
         {
           "target": "काम",
           "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
           "separator_after": " "
         },
         {
           "target": "करते",
           "bangla_pronunciation": "করতে",
+          "romanization": "karate",
           "separator_after": " "
         },
         {
           "target": "हैं।",
           "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
           "separator_after": ""
         }
       ],
@@ -71,31 +81,37 @@
         {
           "target": "मैनेजर",
           "bangla_pronunciation": "মৈনেজর",
+          "romanization": "manager",
           "separator_after": " "
         },
         {
           "target": "सहकर्मी",
           "bangla_pronunciation": "সহকর্মী",
+          "romanization": "sahakarmi",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "बात",
           "bangla_pronunciation": "বাত",
+          "romanization": "baat",
           "separator_after": " "
         },
         {
           "target": "करता",
           "bangla_pronunciation": "করতা",
+          "romanization": "karataa",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -110,16 +126,19 @@
         {
           "target": "बैठक",
           "bangla_pronunciation": "বৈঠক",
+          "romanization": "baithak",
           "separator_after": " "
         },
         {
           "target": "आज",
           "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -134,16 +153,19 @@
         {
           "target": "मीटिंग",
           "bangla_pronunciation": "মীটিংগ",
+          "romanization": "meeting",
           "separator_after": " "
         },
         {
           "target": "कब",
           "bangla_pronunciation": "কব",
+          "romanization": "kab",
           "separator_after": " "
         },
         {
           "target": "है?",
           "bangla_pronunciation": "হ্যায়?",
+          "romanization": "hai?",
           "separator_after": ""
         }
       ],
@@ -158,26 +180,31 @@
         {
           "target": "ईमेल",
           "bangla_pronunciation": "ঈমেল",
+          "romanization": "email",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "संदेश",
           "bangla_pronunciation": "সংদেশ",
+          "romanization": "sandesh",
           "separator_after": " "
         },
         {
           "target": "मिल",
           "bangla_pronunciation": "মিল",
+          "romanization": "mil",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গয়া।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
@@ -186,32 +213,37 @@
     {
       "id": "ch015_s06",
       "target": "यह फ़ाइल और कागज़ रखिए।",
-      "romanization": "yah fाil aur kaagaz rakhie.",
+      "romanization": "yah faail aur kaagaz rakhie.",
       "bangla_pronunciation": "যহ ফাইল অউর কাগজ রখিএ।",
       "word_pronunciations": [
         {
           "target": "यह",
           "bangla_pronunciation": "যহ",
+          "romanization": "yah",
           "separator_after": " "
         },
         {
           "target": "फ़ाइल",
           "bangla_pronunciation": "ফাইল",
+          "romanization": "file",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "कागज़",
           "bangla_pronunciation": "কাগজ",
+          "romanization": "kaagaj",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিএ।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
@@ -226,21 +258,25 @@
         {
           "target": "कंप्यूटर",
           "bangla_pronunciation": "কংপ্যূটর",
+          "romanization": "kanpyuutar",
           "separator_after": " "
         },
         {
           "target": "मेज़",
           "bangla_pronunciation": "মেজ",
+          "romanization": "mez",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -255,16 +291,19 @@
         {
           "target": "कृपया",
           "bangla_pronunciation": "কৃপয়া",
+          "romanization": "kripaya",
           "separator_after": " "
         },
         {
           "target": "भेज",
           "bangla_pronunciation": "ভেজ",
+          "romanization": "bhej",
           "separator_after": " "
         },
         {
           "target": "दीजिए।",
           "bangla_pronunciation": "দিজিয়ে।",
+          "romanization": "deejie.",
           "separator_after": ""
         }
       ],
@@ -279,26 +318,31 @@
         {
           "target": "प्रिंटर",
           "bangla_pronunciation": "প্রিংটর",
+          "romanization": "printar",
           "separator_after": " "
         },
         {
           "target": "कुर्सी",
           "bangla_pronunciation": "কুর্সী",
+          "romanization": "kursee",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "पास",
           "bangla_pronunciation": "পাস",
+          "romanization": "paas",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -313,16 +357,19 @@
         {
           "target": "यहाँ",
           "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
           "separator_after": " "
         },
         {
           "target": "हस्ताक्षर",
           "bangla_pronunciation": "হস্তাক্ষর",
+          "romanization": "hastaakshar",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কিজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -337,21 +384,25 @@
         {
           "target": "मेरी",
           "bangla_pronunciation": "মেরি",
+          "romanization": "meree",
           "separator_after": " "
         },
         {
           "target": "ड्यूटी",
           "bangla_pronunciation": "ড্যূটী",
+          "romanization": "duty",
           "separator_after": " "
         },
         {
           "target": "सुबह",
           "bangla_pronunciation": "সুবহ",
+          "romanization": "subah",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -366,16 +417,19 @@
         {
           "target": "आज",
           "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
           "separator_after": " "
         },
         {
           "target": "व्यस्त",
           "bangla_pronunciation": "ব্যস্ত",
+          "romanization": "vyast",
           "separator_after": " "
         },
         {
           "target": "हूँ।",
           "bangla_pronunciation": "হুঁ।",
+          "romanization": "hoon.",
           "separator_after": ""
         }
       ],
@@ -390,21 +444,25 @@
         {
           "target": "कल",
           "bangla_pronunciation": "কল",
+          "romanization": "kal",
           "separator_after": " "
         },
         {
           "target": "मेरी",
           "bangla_pronunciation": "মেরি",
+          "romanization": "meree",
           "separator_after": " "
         },
         {
           "target": "छुट्टी",
           "bangla_pronunciation": "ছুট্টী",
+          "romanization": "chhuttee",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -419,26 +477,31 @@
         {
           "target": "वेतन",
           "bangla_pronunciation": "বেতন",
+          "romanization": "vetan",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "तारीख",
           "bangla_pronunciation": "তারীখ",
+          "romanization": "taariikh",
           "separator_after": " "
         },
         {
           "target": "आज",
           "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -453,26 +516,31 @@
         {
           "target": "रिपोर्ट",
           "bangla_pronunciation": "রিপোর্ট",
+          "romanization": "riport",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "सूची",
           "bangla_pronunciation": "সূচী",
+          "romanization": "soochee",
           "separator_after": " "
         },
         {
           "target": "तैयार",
           "bangla_pronunciation": "তৈযার",
+          "romanization": "taiyaar",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -487,16 +555,19 @@
         {
           "target": "दोपहर",
           "bangla_pronunciation": "দোপহর",
+          "romanization": "dophr",
           "separator_after": " "
         },
         {
           "target": "बाद",
           "bangla_pronunciation": "বাদ",
+          "romanization": "baad",
           "separator_after": " "
         },
         {
           "target": "मिलें।",
           "bangla_pronunciation": "মিলেং।",
+          "romanization": "milen.",
           "separator_after": ""
         }
       ],
@@ -511,21 +582,25 @@
         {
           "target": "यह",
           "bangla_pronunciation": "যহ",
+          "romanization": "yah",
           "separator_after": " "
         },
         {
           "target": "काम",
           "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -540,26 +615,31 @@
         {
           "target": "काम",
           "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
           "separator_after": " "
         },
         {
           "target": "पूरा",
           "bangla_pronunciation": "পূরা",
+          "romanization": "poora",
           "separator_after": " "
         },
         {
           "target": "है,",
           "bangla_pronunciation": "হ্যায়,",
+          "romanization": "hai,",
           "separator_after": " "
         },
         {
           "target": "अधूरा",
           "bangla_pronunciation": "অধূরা",
+          "romanization": "adhuuraa",
           "separator_after": " "
         },
         {
           "target": "नहीं।",
           "bangla_pronunciation": "নহিঁ।",
+          "romanization": "nahin.",
           "separator_after": ""
         }
       ],
@@ -574,26 +654,31 @@
         {
           "target": "बैठक",
           "bangla_pronunciation": "বৈঠক",
+          "romanization": "baithak",
           "separator_after": " "
         },
         {
           "target": "शुरू",
           "bangla_pronunciation": "শুরূ",
+          "romanization": "shuroo",
           "separator_after": " "
         },
         {
           "target": "होकर",
           "bangla_pronunciation": "হোকর",
+          "romanization": "hokar",
           "separator_after": " "
         },
         {
           "target": "खत्म",
           "bangla_pronunciation": "খত্ম",
+          "romanization": "khatm",
           "separator_after": " "
         },
         {
           "target": "हुई।",
           "bangla_pronunciation": "হুঈ।",
+          "romanization": "huee.",
           "separator_after": ""
         }
       ],
@@ -608,16 +693,19 @@
         {
           "target": "कृपया",
           "bangla_pronunciation": "কৃপয়া",
+          "romanization": "kripaya",
           "separator_after": " "
         },
         {
           "target": "जाँच",
           "bangla_pronunciation": "জাঁচ",
+          "romanization": "jaanch",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কিজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -630,12 +718,13 @@
       "target": "ऑफ़िस",
       "category": "word",
       "type": "word",
-      "romanization": "ofिs",
+      "romanization": "ofis",
       "bangla_pronunciation": "অফিস",
       "word_pronunciations": [
         {
           "target": "ऑफ़िस",
           "bangla_pronunciation": "অফিস",
+          "romanization": "ofis",
           "separator_after": ""
         }
       ],
@@ -644,35 +733,42 @@
       "source_form": "ऑफ़िस",
       "example_target": "ऑफ़िस में कर्मचारी काम करते हैं।",
       "example_bangla_pronunciation": "অফিস মেঁ কর্মচারী কাম করতে হ্যাঁয়।",
+      "example_romanization": "ofis mein karmachaaree kaam karate hain.",
       "example_word_pronunciations": [
         {
           "target": "ऑफ़िस",
           "bangla_pronunciation": "অফিস",
+          "romanization": "ofis",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "कर्मचारी",
           "bangla_pronunciation": "কর্মচারী",
+          "romanization": "karmachaarii",
           "separator_after": " "
         },
         {
           "target": "काम",
           "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
           "separator_after": " "
         },
         {
           "target": "करते",
           "bangla_pronunciation": "করতে",
+          "romanization": "karate",
           "separator_after": " "
         },
         {
           "target": "हैं।",
           "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
           "separator_after": ""
         }
       ],
@@ -690,6 +786,7 @@
         {
           "target": "कर्मचारी",
           "bangla_pronunciation": "কর্মচারী",
+          "romanization": "karmachaarii",
           "separator_after": ""
         }
       ],
@@ -698,35 +795,42 @@
       "source_form": "कर्मचारी",
       "example_target": "ऑफ़िस में कर्मचारी काम करते हैं।",
       "example_bangla_pronunciation": "অফিস মেঁ কর্মচারী কাম করতে হ্যাঁয়।",
+      "example_romanization": "ofis mein karmachaaree kaam karate hain.",
       "example_word_pronunciations": [
         {
           "target": "ऑफ़िस",
           "bangla_pronunciation": "অফিস",
+          "romanization": "ofis",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "कर्मचारी",
           "bangla_pronunciation": "কর্মচারী",
+          "romanization": "karmachaarii",
           "separator_after": " "
         },
         {
           "target": "काम",
           "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
           "separator_after": " "
         },
         {
           "target": "करते",
           "bangla_pronunciation": "করতে",
+          "romanization": "karate",
           "separator_after": " "
         },
         {
           "target": "हैं।",
           "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
           "separator_after": ""
         }
       ],
@@ -744,6 +848,7 @@
         {
           "target": "मैनेजर",
           "bangla_pronunciation": "মৈনেজর",
+          "romanization": "manager",
           "separator_after": ""
         }
       ],
@@ -752,35 +857,42 @@
       "source_form": "मैनेजर",
       "example_target": "मैनेजर सहकर्मी से बात करता है।",
       "example_bangla_pronunciation": "মৈনেজর সহকর্মী সে বাত করতা হ্যায়।",
+      "example_romanization": "mainejar sahakarmee se baat karata hai.",
       "example_word_pronunciations": [
         {
           "target": "मैनेजर",
           "bangla_pronunciation": "মৈনেজর",
+          "romanization": "manager",
           "separator_after": " "
         },
         {
           "target": "सहकर्मी",
           "bangla_pronunciation": "সহকর্মী",
+          "romanization": "sahakarmi",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "बात",
           "bangla_pronunciation": "বাত",
+          "romanization": "baat",
           "separator_after": " "
         },
         {
           "target": "करता",
           "bangla_pronunciation": "করতা",
+          "romanization": "karataa",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -798,6 +910,7 @@
         {
           "target": "सहकर्मी",
           "bangla_pronunciation": "সহকর্মী",
+          "romanization": "sahakarmi",
           "separator_after": ""
         }
       ],
@@ -806,35 +919,42 @@
       "source_form": "सहकर्मी",
       "example_target": "मैनेजर सहकर्मी से बात करता है।",
       "example_bangla_pronunciation": "মৈনেজর সহকর্মী সে বাত করতা হ্যায়।",
+      "example_romanization": "mainejar sahakarmee se baat karata hai.",
       "example_word_pronunciations": [
         {
           "target": "मैनेजर",
           "bangla_pronunciation": "মৈনেজর",
+          "romanization": "manager",
           "separator_after": " "
         },
         {
           "target": "सहकर्मी",
           "bangla_pronunciation": "সহকর্মী",
+          "romanization": "sahakarmi",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "बात",
           "bangla_pronunciation": "বাত",
+          "romanization": "baat",
           "separator_after": " "
         },
         {
           "target": "करता",
           "bangla_pronunciation": "করতা",
+          "romanization": "karataa",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -852,6 +972,7 @@
         {
           "target": "बैठक",
           "bangla_pronunciation": "বৈঠক",
+          "romanization": "baithak",
           "separator_after": ""
         }
       ],
@@ -860,20 +981,24 @@
       "source_form": "बैठक",
       "example_target": "बैठक आज है।",
       "example_bangla_pronunciation": "বৈঠক আজ হ্যায়।",
+      "example_romanization": "baithak aaj hai.",
       "example_word_pronunciations": [
         {
           "target": "बैठक",
           "bangla_pronunciation": "বৈঠক",
+          "romanization": "baithak",
           "separator_after": " "
         },
         {
           "target": "आज",
           "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -891,16 +1016,19 @@
         {
           "target": "मीटिंग",
           "bangla_pronunciation": "মীটিংগ",
+          "romanization": "meeting",
           "separator_after": " "
         },
         {
           "target": "कब",
           "bangla_pronunciation": "কব",
+          "romanization": "kab",
           "separator_after": " "
         },
         {
           "target": "है",
           "bangla_pronunciation": "হ্যায়",
+          "romanization": "hai",
           "separator_after": ""
         }
       ],
@@ -909,20 +1037,24 @@
       "source_form": "मीटिंग कब है",
       "example_target": "मीटिंग कब है?",
       "example_bangla_pronunciation": "মীটিংগ কব হ্যায়?",
+      "example_romanization": "meeting kab hai?",
       "example_word_pronunciations": [
         {
           "target": "मीटिंग",
           "bangla_pronunciation": "মীটিংগ",
+          "romanization": "meeting",
           "separator_after": " "
         },
         {
           "target": "कब",
           "bangla_pronunciation": "কব",
+          "romanization": "kab",
           "separator_after": " "
         },
         {
           "target": "है?",
           "bangla_pronunciation": "হ্যায়?",
+          "romanization": "hai?",
           "separator_after": ""
         }
       ],
@@ -940,6 +1072,7 @@
         {
           "target": "ईमेल",
           "bangla_pronunciation": "ঈমেল",
+          "romanization": "email",
           "separator_after": ""
         }
       ],
@@ -948,30 +1081,36 @@
       "source_form": "ईमेल",
       "example_target": "ईमेल और संदेश मिल गया।",
       "example_bangla_pronunciation": "ঈমেল অউর সংদেশ মিল গয়া।",
+      "example_romanization": "eemel aur sandesh mil gaya.",
       "example_word_pronunciations": [
         {
           "target": "ईमेल",
           "bangla_pronunciation": "ঈমেল",
+          "romanization": "email",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "संदेश",
           "bangla_pronunciation": "সংদেশ",
+          "romanization": "sandesh",
           "separator_after": " "
         },
         {
           "target": "मिल",
           "bangla_pronunciation": "মিল",
+          "romanization": "mil",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গয়া।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
@@ -989,6 +1128,7 @@
         {
           "target": "संदेश",
           "bangla_pronunciation": "সংদেশ",
+          "romanization": "sandesh",
           "separator_after": ""
         }
       ],
@@ -997,30 +1137,36 @@
       "source_form": "संदेश",
       "example_target": "ईमेल और संदेश मिल गया।",
       "example_bangla_pronunciation": "ঈমেল অউর সংদেশ মিল গয়া।",
+      "example_romanization": "eemel aur sandesh mil gaya.",
       "example_word_pronunciations": [
         {
           "target": "ईमेल",
           "bangla_pronunciation": "ঈমেল",
+          "romanization": "email",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "संदेश",
           "bangla_pronunciation": "সংদেশ",
+          "romanization": "sandesh",
           "separator_after": " "
         },
         {
           "target": "मिल",
           "bangla_pronunciation": "মিল",
+          "romanization": "mil",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গয়া।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
@@ -1032,12 +1178,13 @@
       "target": "फ़ाइल",
       "category": "word",
       "type": "word",
-      "romanization": "fाil",
+      "romanization": "faail",
       "bangla_pronunciation": "ফাইল",
       "word_pronunciations": [
         {
           "target": "फ़ाइल",
           "bangla_pronunciation": "ফাইল",
+          "romanization": "file",
           "separator_after": ""
         }
       ],
@@ -1046,30 +1193,36 @@
       "source_form": "फ़ाइल",
       "example_target": "यह फ़ाइल और कागज़ रखिए।",
       "example_bangla_pronunciation": "যহ ফাইল অউর কাগজ রখিএ।",
+      "example_romanization": "yah faail aur kaagaz rakhie.",
       "example_word_pronunciations": [
         {
           "target": "यह",
           "bangla_pronunciation": "যহ",
+          "romanization": "yah",
           "separator_after": " "
         },
         {
           "target": "फ़ाइल",
           "bangla_pronunciation": "ফাইল",
+          "romanization": "file",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "कागज़",
           "bangla_pronunciation": "কাগজ",
+          "romanization": "kaagaj",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিএ।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
@@ -1087,6 +1240,7 @@
         {
           "target": "कागज़",
           "bangla_pronunciation": "কাগজ",
+          "romanization": "kaagaj",
           "separator_after": ""
         }
       ],
@@ -1095,30 +1249,36 @@
       "source_form": "कागज़",
       "example_target": "यह फ़ाइल और कागज़ रखिए।",
       "example_bangla_pronunciation": "যহ ফাইল অউর কাগজ রখিএ।",
+      "example_romanization": "yah faail aur kaagaz rakhie.",
       "example_word_pronunciations": [
         {
           "target": "यह",
           "bangla_pronunciation": "যহ",
+          "romanization": "yah",
           "separator_after": " "
         },
         {
           "target": "फ़ाइल",
           "bangla_pronunciation": "ফাইল",
+          "romanization": "file",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "कागज़",
           "bangla_pronunciation": "কাগজ",
+          "romanization": "kaagaj",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিএ।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
@@ -1136,6 +1296,7 @@
         {
           "target": "कंप्यूटर",
           "bangla_pronunciation": "কংপ্যূটর",
+          "romanization": "kanpyuutar",
           "separator_after": ""
         }
       ],
@@ -1144,25 +1305,30 @@
       "source_form": "कंप्यूटर",
       "example_target": "कंप्यूटर मेज़ पर है।",
       "example_bangla_pronunciation": "কংপ্যূটর মেজ পর হ্যায়।",
+      "example_romanization": "kanpyootar mez par hai.",
       "example_word_pronunciations": [
         {
           "target": "कंप्यूटर",
           "bangla_pronunciation": "কংপ্যূটর",
+          "romanization": "kanpyuutar",
           "separator_after": " "
         },
         {
           "target": "मेज़",
           "bangla_pronunciation": "মেজ",
+          "romanization": "mez",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -1180,16 +1346,19 @@
         {
           "target": "कृपया",
           "bangla_pronunciation": "কৃপয়া",
+          "romanization": "kripaya",
           "separator_after": " "
         },
         {
           "target": "भेज",
           "bangla_pronunciation": "ভেজ",
+          "romanization": "bhej",
           "separator_after": " "
         },
         {
           "target": "दीजिए",
           "bangla_pronunciation": "দিজিয়ে",
+          "romanization": "deejiye",
           "separator_after": ""
         }
       ],
@@ -1198,20 +1367,24 @@
       "source_form": "कृपया भेज दीजिए",
       "example_target": "कृपया भेज दीजिए।",
       "example_bangla_pronunciation": "কৃপয়া ভেজ দিজিয়ে।",
+      "example_romanization": "kripaya bhej deejiye.",
       "example_word_pronunciations": [
         {
           "target": "कृपया",
           "bangla_pronunciation": "কৃপয়া",
+          "romanization": "kripaya",
           "separator_after": " "
         },
         {
           "target": "भेज",
           "bangla_pronunciation": "ভেজ",
+          "romanization": "bhej",
           "separator_after": " "
         },
         {
           "target": "दीजिए।",
           "bangla_pronunciation": "দিজিয়ে।",
+          "romanization": "deejie.",
           "separator_after": ""
         }
       ],
@@ -1229,6 +1402,7 @@
         {
           "target": "प्रिंटर",
           "bangla_pronunciation": "প্রিংটর",
+          "romanization": "printar",
           "separator_after": ""
         }
       ],
@@ -1237,30 +1411,36 @@
       "source_form": "प्रिंटर",
       "example_target": "प्रिंटर कुर्सी के पास है।",
       "example_bangla_pronunciation": "প্রিংটর কুর্সী কে পাস হ্যায়।",
+      "example_romanization": "printar kursee ke paas hai.",
       "example_word_pronunciations": [
         {
           "target": "प्रिंटर",
           "bangla_pronunciation": "প্রিংটর",
+          "romanization": "printar",
           "separator_after": " "
         },
         {
           "target": "कुर्सी",
           "bangla_pronunciation": "কুর্সী",
+          "romanization": "kursee",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "पास",
           "bangla_pronunciation": "পাস",
+          "romanization": "paas",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -1278,6 +1458,7 @@
         {
           "target": "हस्ताक्षर",
           "bangla_pronunciation": "হস্তাক্ষর",
+          "romanization": "hastaakshar",
           "separator_after": ""
         }
       ],
@@ -1286,20 +1467,24 @@
       "source_form": "हस्ताक्षर",
       "example_target": "यहाँ हस्ताक्षर कीजिए।",
       "example_bangla_pronunciation": "যহাঁ হস্তাক্ষর কিজিয়ে।",
+      "example_romanization": "yahaan hastaakshar kijiye",
       "example_word_pronunciations": [
         {
           "target": "यहाँ",
           "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
           "separator_after": " "
         },
         {
           "target": "हस्ताक्षर",
           "bangla_pronunciation": "হস্তাক্ষর",
+          "romanization": "hastaakshar",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কিজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -1317,6 +1502,7 @@
         {
           "target": "ड्यूटी",
           "bangla_pronunciation": "ড্যূটী",
+          "romanization": "duty",
           "separator_after": ""
         }
       ],
@@ -1325,25 +1511,30 @@
       "source_form": "ड्यूटी",
       "example_target": "मेरी ड्यूटी सुबह है।",
       "example_bangla_pronunciation": "মেরি ড্যূটী সুবহ হ্যায়।",
+      "example_romanization": "meree dyootee subah hai.",
       "example_word_pronunciations": [
         {
           "target": "मेरी",
           "bangla_pronunciation": "মেরি",
+          "romanization": "meree",
           "separator_after": " "
         },
         {
           "target": "ड्यूटी",
           "bangla_pronunciation": "ড্যূটী",
+          "romanization": "duty",
           "separator_after": " "
         },
         {
           "target": "सुबह",
           "bangla_pronunciation": "সুবহ",
+          "romanization": "subah",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -1361,6 +1552,7 @@
         {
           "target": "मेज़",
           "bangla_pronunciation": "মেজ",
+          "romanization": "mez",
           "separator_after": ""
         }
       ],
@@ -1369,25 +1561,30 @@
       "source_form": "मेज़",
       "example_target": "कंप्यूटर मेज़ पर है।",
       "example_bangla_pronunciation": "কংপ্যূটর মেজ পর হ্যায়।",
+      "example_romanization": "kanpyootar mez par hai.",
       "example_word_pronunciations": [
         {
           "target": "कंप्यूटर",
           "bangla_pronunciation": "কংপ্যূটর",
+          "romanization": "kanpyuutar",
           "separator_after": " "
         },
         {
           "target": "मेज़",
           "bangla_pronunciation": "মেজ",
+          "romanization": "mez",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -1405,6 +1602,7 @@
         {
           "target": "कुर्सी",
           "bangla_pronunciation": "কুর্সী",
+          "romanization": "kursee",
           "separator_after": ""
         }
       ],
@@ -1413,30 +1611,36 @@
       "source_form": "कुर्सी",
       "example_target": "प्रिंटर कुर्सी के पास है।",
       "example_bangla_pronunciation": "প্রিংটর কুর্সী কে পাস হ্যায়।",
+      "example_romanization": "printar kursee ke paas hai.",
       "example_word_pronunciations": [
         {
           "target": "प्रिंटर",
           "bangla_pronunciation": "প্রিংটর",
+          "romanization": "printar",
           "separator_after": " "
         },
         {
           "target": "कुर्सी",
           "bangla_pronunciation": "কুর্সী",
+          "romanization": "kursee",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "पास",
           "bangla_pronunciation": "পাস",
+          "romanization": "paas",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -1454,16 +1658,19 @@
         {
           "target": "आज",
           "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
           "separator_after": " "
         },
         {
           "target": "व्यस्त",
           "bangla_pronunciation": "ব্যস্ত",
+          "romanization": "vyast",
           "separator_after": " "
         },
         {
           "target": "हूँ",
           "bangla_pronunciation": "হুঁ",
+          "romanization": "hoon",
           "separator_after": ""
         }
       ],
@@ -1472,20 +1679,24 @@
       "source_form": "आज व्यस्त हूँ",
       "example_target": "आज व्यस्त हूँ।",
       "example_bangla_pronunciation": "আজ ব্যস্ত হুঁ।",
+      "example_romanization": "aaj vyast hoon.",
       "example_word_pronunciations": [
         {
           "target": "आज",
           "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
           "separator_after": " "
         },
         {
           "target": "व्यस्त",
           "bangla_pronunciation": "ব্যস্ত",
+          "romanization": "vyast",
           "separator_after": " "
         },
         {
           "target": "हूँ।",
           "bangla_pronunciation": "হুঁ।",
+          "romanization": "hoon.",
           "separator_after": ""
         }
       ],
@@ -1503,6 +1714,7 @@
         {
           "target": "छुट्टी",
           "bangla_pronunciation": "ছুট্টী",
+          "romanization": "chhuttee",
           "separator_after": ""
         }
       ],
@@ -1511,25 +1723,30 @@
       "source_form": "छुट्टी",
       "example_target": "कल मेरी छुट्टी है।",
       "example_bangla_pronunciation": "কল মেরি ছুট্টী হ্যায়।",
+      "example_romanization": "kal meree chhuttee hai.",
       "example_word_pronunciations": [
         {
           "target": "कल",
           "bangla_pronunciation": "কল",
+          "romanization": "kal",
           "separator_after": " "
         },
         {
           "target": "मेरी",
           "bangla_pronunciation": "মেরি",
+          "romanization": "meree",
           "separator_after": " "
         },
         {
           "target": "छुट्टी",
           "bangla_pronunciation": "ছুট্টী",
+          "romanization": "chhuttee",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -1547,6 +1764,7 @@
         {
           "target": "वेतन",
           "bangla_pronunciation": "বেতন",
+          "romanization": "vetan",
           "separator_after": ""
         }
       ],
@@ -1555,30 +1773,36 @@
       "source_form": "वेतन",
       "example_target": "वेतन की तारीख आज है।",
       "example_bangla_pronunciation": "বেতন কী তারীখ আজ হ্যায়।",
+      "example_romanization": "vetan kee taareekh aaj hai.",
       "example_word_pronunciations": [
         {
           "target": "वेतन",
           "bangla_pronunciation": "বেতন",
+          "romanization": "vetan",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "तारीख",
           "bangla_pronunciation": "তারীখ",
+          "romanization": "taariikh",
           "separator_after": " "
         },
         {
           "target": "आज",
           "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -1596,6 +1820,7 @@
         {
           "target": "तारीख",
           "bangla_pronunciation": "তারীখ",
+          "romanization": "taariikh",
           "separator_after": ""
         }
       ],
@@ -1604,30 +1829,36 @@
       "source_form": "तारीख",
       "example_target": "वेतन की तारीख आज है।",
       "example_bangla_pronunciation": "বেতন কী তারীখ আজ হ্যায়।",
+      "example_romanization": "vetan kee taareekh aaj hai.",
       "example_word_pronunciations": [
         {
           "target": "वेतन",
           "bangla_pronunciation": "বেতন",
+          "romanization": "vetan",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "तारीख",
           "bangla_pronunciation": "তারীখ",
+          "romanization": "taariikh",
           "separator_after": " "
         },
         {
           "target": "आज",
           "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -1645,6 +1876,7 @@
         {
           "target": "रिपोर्ट",
           "bangla_pronunciation": "রিপোর্ট",
+          "romanization": "riport",
           "separator_after": ""
         }
       ],
@@ -1653,30 +1885,36 @@
       "source_form": "रिपोर्ट",
       "example_target": "रिपोर्ट की सूची तैयार है।",
       "example_bangla_pronunciation": "রিপোর্ট কী সূচী তৈযার হ্যায়।",
+      "example_romanization": "riport kee soochee taiyaar hai.",
       "example_word_pronunciations": [
         {
           "target": "रिपोर्ट",
           "bangla_pronunciation": "রিপোর্ট",
+          "romanization": "riport",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "सूची",
           "bangla_pronunciation": "সূচী",
+          "romanization": "soochee",
           "separator_after": " "
         },
         {
           "target": "तैयार",
           "bangla_pronunciation": "তৈযার",
+          "romanization": "taiyaar",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -1694,6 +1932,7 @@
         {
           "target": "सूची",
           "bangla_pronunciation": "সূচী",
+          "romanization": "soochee",
           "separator_after": ""
         }
       ],
@@ -1702,30 +1941,36 @@
       "source_form": "सूची",
       "example_target": "रिपोर्ट की सूची तैयार है।",
       "example_bangla_pronunciation": "রিপোর্ট কী সূচী তৈযার হ্যায়।",
+      "example_romanization": "riport kee soochee taiyaar hai.",
       "example_word_pronunciations": [
         {
           "target": "रिपोर्ट",
           "bangla_pronunciation": "রিপোর্ট",
+          "romanization": "riport",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "सूची",
           "bangla_pronunciation": "সূচী",
+          "romanization": "soochee",
           "separator_after": " "
         },
         {
           "target": "तैयार",
           "bangla_pronunciation": "তৈযার",
+          "romanization": "taiyaar",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -1743,16 +1988,19 @@
         {
           "target": "दोपहर",
           "bangla_pronunciation": "দোপহর",
+          "romanization": "dophr",
           "separator_after": " "
         },
         {
           "target": "बाद",
           "bangla_pronunciation": "বাদ",
+          "romanization": "baad",
           "separator_after": " "
         },
         {
           "target": "मिलें",
           "bangla_pronunciation": "মিলেং",
+          "romanization": "milen",
           "separator_after": ""
         }
       ],
@@ -1761,20 +2009,24 @@
       "source_form": "दोपहर बाद मिलें",
       "example_target": "दोपहर बाद मिलें।",
       "example_bangla_pronunciation": "দোপহর বাদ মিলেং।",
+      "example_romanization": "dopahar baad milen.",
       "example_word_pronunciations": [
         {
           "target": "दोपहर",
           "bangla_pronunciation": "দোপহর",
+          "romanization": "dophr",
           "separator_after": " "
         },
         {
           "target": "बाद",
           "bangla_pronunciation": "বাদ",
+          "romanization": "baad",
           "separator_after": " "
         },
         {
           "target": "मिलें।",
           "bangla_pronunciation": "মিলেং।",
+          "romanization": "milen.",
           "separator_after": ""
         }
       ],
@@ -1792,6 +2044,7 @@
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": ""
         }
       ],
@@ -1800,25 +2053,30 @@
       "source_form": "ज़रूरी",
       "example_target": "यह काम ज़रूरी है।",
       "example_bangla_pronunciation": "যহ কাম জরূরী হ্যায়।",
+      "example_romanization": "yah kaam zrooree hai.",
       "example_word_pronunciations": [
         {
           "target": "यह",
           "bangla_pronunciation": "যহ",
+          "romanization": "yah",
           "separator_after": " "
         },
         {
           "target": "काम",
           "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -1836,6 +2094,7 @@
         {
           "target": "पूरा",
           "bangla_pronunciation": "পূরা",
+          "romanization": "poora",
           "separator_after": ""
         }
       ],
@@ -1844,30 +2103,36 @@
       "source_form": "पूरा",
       "example_target": "काम पूरा है, अधूरा नहीं।",
       "example_bangla_pronunciation": "কাম পূরা হ্যায়, অধূরা নহিঁ।",
+      "example_romanization": "kaam poora hai, adhoora nahin.",
       "example_word_pronunciations": [
         {
           "target": "काम",
           "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
           "separator_after": " "
         },
         {
           "target": "पूरा",
           "bangla_pronunciation": "পূরা",
+          "romanization": "poora",
           "separator_after": " "
         },
         {
           "target": "है,",
           "bangla_pronunciation": "হ্যায়,",
+          "romanization": "hai,",
           "separator_after": " "
         },
         {
           "target": "अधूरा",
           "bangla_pronunciation": "অধূরা",
+          "romanization": "adhuuraa",
           "separator_after": " "
         },
         {
           "target": "नहीं।",
           "bangla_pronunciation": "নহিঁ।",
+          "romanization": "nahin.",
           "separator_after": ""
         }
       ],
@@ -1885,6 +2150,7 @@
         {
           "target": "अधूरा",
           "bangla_pronunciation": "অধূরা",
+          "romanization": "adhuuraa",
           "separator_after": ""
         }
       ],
@@ -1893,30 +2159,36 @@
       "source_form": "अधूरा",
       "example_target": "काम पूरा है, अधूरा नहीं।",
       "example_bangla_pronunciation": "কাম পূরা হ্যায়, অধূরা নহিঁ।",
+      "example_romanization": "kaam poora hai, adhoora nahin.",
       "example_word_pronunciations": [
         {
           "target": "काम",
           "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
           "separator_after": " "
         },
         {
           "target": "पूरा",
           "bangla_pronunciation": "পূরা",
+          "romanization": "poora",
           "separator_after": " "
         },
         {
           "target": "है,",
           "bangla_pronunciation": "হ্যায়,",
+          "romanization": "hai,",
           "separator_after": " "
         },
         {
           "target": "अधूरा",
           "bangla_pronunciation": "অধূরা",
+          "romanization": "adhuuraa",
           "separator_after": " "
         },
         {
           "target": "नहीं।",
           "bangla_pronunciation": "নহিঁ।",
+          "romanization": "nahin.",
           "separator_after": ""
         }
       ],
@@ -1934,6 +2206,7 @@
         {
           "target": "शुरू",
           "bangla_pronunciation": "শুরূ",
+          "romanization": "shuroo",
           "separator_after": ""
         }
       ],
@@ -1942,30 +2215,36 @@
       "source_form": "शुरू",
       "example_target": "बैठक शुरू होकर खत्म हुई।",
       "example_bangla_pronunciation": "বৈঠক শুরূ হোকর খত্ম হুঈ।",
+      "example_romanization": "baithak shuroo hokar khatm huee.",
       "example_word_pronunciations": [
         {
           "target": "बैठक",
           "bangla_pronunciation": "বৈঠক",
+          "romanization": "baithak",
           "separator_after": " "
         },
         {
           "target": "शुरू",
           "bangla_pronunciation": "শুরূ",
+          "romanization": "shuroo",
           "separator_after": " "
         },
         {
           "target": "होकर",
           "bangla_pronunciation": "হোকর",
+          "romanization": "hokar",
           "separator_after": " "
         },
         {
           "target": "खत्म",
           "bangla_pronunciation": "খত্ম",
+          "romanization": "khatm",
           "separator_after": " "
         },
         {
           "target": "हुई।",
           "bangla_pronunciation": "হুঈ।",
+          "romanization": "huee.",
           "separator_after": ""
         }
       ],
@@ -1983,6 +2262,7 @@
         {
           "target": "खत्म",
           "bangla_pronunciation": "খত্ম",
+          "romanization": "khatm",
           "separator_after": ""
         }
       ],
@@ -1991,30 +2271,36 @@
       "source_form": "खत्म",
       "example_target": "बैठक शुरू होकर खत्म हुई।",
       "example_bangla_pronunciation": "বৈঠক শুরূ হোকর খত্ম হুঈ।",
+      "example_romanization": "baithak shuroo hokar khatm huee.",
       "example_word_pronunciations": [
         {
           "target": "बैठक",
           "bangla_pronunciation": "বৈঠক",
+          "romanization": "baithak",
           "separator_after": " "
         },
         {
           "target": "शुरू",
           "bangla_pronunciation": "শুরূ",
+          "romanization": "shuroo",
           "separator_after": " "
         },
         {
           "target": "होकर",
           "bangla_pronunciation": "হোকর",
+          "romanization": "hokar",
           "separator_after": " "
         },
         {
           "target": "खत्म",
           "bangla_pronunciation": "খত্ম",
+          "romanization": "khatm",
           "separator_after": " "
         },
         {
           "target": "हुई।",
           "bangla_pronunciation": "হুঈ।",
+          "romanization": "huee.",
           "separator_after": ""
         }
       ],
@@ -2032,16 +2318,19 @@
         {
           "target": "कृपया",
           "bangla_pronunciation": "কৃপয়া",
+          "romanization": "kripaya",
           "separator_after": " "
         },
         {
           "target": "जाँच",
           "bangla_pronunciation": "জাঁচ",
+          "romanization": "jaanch",
           "separator_after": " "
         },
         {
           "target": "कीजिए",
           "bangla_pronunciation": "কিজিয়ে",
+          "romanization": "keejie",
           "separator_after": ""
         }
       ],
@@ -2050,20 +2339,24 @@
       "source_form": "कृपया जाँच कीजिए",
       "example_target": "कृपया जाँच कीजिए।",
       "example_bangla_pronunciation": "কৃপয়া জাঁচ কিজিয়ে।",
+      "example_romanization": "kripaya jaanch keejiye.",
       "example_word_pronunciations": [
         {
           "target": "कृपया",
           "bangla_pronunciation": "কৃপয়া",
+          "romanization": "kripaya",
           "separator_after": " "
         },
         {
           "target": "जाँच",
           "bangla_pronunciation": "জাঁচ",
+          "romanization": "jaanch",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কিজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -2084,35 +2377,42 @@
         "kind": "target",
         "target": "मैनेजर सहकर्मी से बात करता है।",
         "bangla_pronunciation": "মৈনেজর সহকর্মী সে বাত করতা হ্যায়।",
+        "romanization": "mainejar sahakarmee se baat karata hai.",
         "word_pronunciations": [
           {
             "target": "मैनेजर",
             "bangla_pronunciation": "মৈনেজর",
+            "romanization": "manager",
             "separator_after": " "
           },
           {
             "target": "सहकर्मी",
             "bangla_pronunciation": "সহকর্মী",
+            "romanization": "sahakarmi",
             "separator_after": " "
           },
           {
             "target": "से",
             "bangla_pronunciation": "সে",
+            "romanization": "se",
             "separator_after": " "
           },
           {
             "target": "बात",
             "bangla_pronunciation": "বাত",
+            "romanization": "baat",
             "separator_after": " "
           },
           {
             "target": "करता",
             "bangla_pronunciation": "করতা",
+            "romanization": "karataa",
             "separator_after": " "
           },
           {
             "target": "है।",
             "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
             "separator_after": ""
           }
         ]
@@ -2125,25 +2425,30 @@
         "kind": "target",
         "target": "कंप्यूटर मेज़ पर है।",
         "bangla_pronunciation": "কংপ্যূটর মেজ পর হ্যায়।",
+        "romanization": "kanpyootar mez par hai.",
         "word_pronunciations": [
           {
             "target": "कंप्यूटर",
             "bangla_pronunciation": "কংপ্যূটর",
+            "romanization": "kanpyuutar",
             "separator_after": " "
           },
           {
             "target": "मेज़",
             "bangla_pronunciation": "মেজ",
+            "romanization": "mez",
             "separator_after": " "
           },
           {
             "target": "पर",
             "bangla_pronunciation": "পর",
+            "romanization": "par",
             "separator_after": " "
           },
           {
             "target": "है।",
             "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
             "separator_after": ""
           }
         ]
@@ -2153,7 +2458,7 @@
         "text": " এভাবে পরিচিত শব্দগুলো ছোট কথোপকথনে ব্যবহার করা যায়।"
       }
     ],
-    "text_md": "অফিস ও কাজ নিয়ে একটি ছোট বাস্তব দৃশ্য। রাহিম প্রথমে বলল, **मैनेजर** (মৈনেজর) **सहकर्मी** (সহকর্মী) **से** (সে) **बात** (বাত) **करता** (করতা) **है।** (হ্যায়।) এরপর পরিস্থিতি দেখে সে আরও বলল, **कंप्यूटर** (কংপ্যূটর) **मेज़** (মেজ) **पर** (পর) **है।** (হ্যায়।) এভাবে পরিচিত শব্দগুলো ছোট কথোপকথনে ব্যবহার করা যায়।"
+    "text_md": "অফিস ও কাজ নিয়ে একটি ছোট বাস্তব দৃশ্য। রাহিম প্রথমে বলল, **मैनेजर** (মৈনেজর, manager) **सहकर्मी** (সহকর্মী, sahakarmi) **से** (সে, se) **बात** (বাত, baat) **करता** (করতা, karataa) **है।** (হ্যায়।, hai\\.) এরপর পরিস্থিতি দেখে সে আরও বলল, **कंप्यूटर** (কংপ্যূটর, kanpyuutar) **मेज़** (মেজ, mez) **पर** (পর, par) **है।** (হ্যায়।, hai\\.) এভাবে পরিচিত শব্দগুলো ছোট কথোপকথনে ব্যবহার করা যায়।"
   },
   "target_reading": {
     "mode": "story",
@@ -2163,35 +2468,42 @@
       {
         "target": "ऑफ़िस में कर्मचारी काम करते हैं।",
         "bangla_pronunciation": "অফিস মেঁ কর্মচারী কাম করতে হ্যাঁয়।",
+        "romanization": "ofis mein karmachaaree kaam karate hain.",
         "word_pronunciations": [
           {
             "target": "ऑफ़िस",
             "bangla_pronunciation": "অফিস",
+            "romanization": "ofis",
             "separator_after": " "
           },
           {
             "target": "में",
             "bangla_pronunciation": "মেঁ",
+            "romanization": "men",
             "separator_after": " "
           },
           {
             "target": "कर्मचारी",
             "bangla_pronunciation": "কর্মচারী",
+            "romanization": "karmachaarii",
             "separator_after": " "
           },
           {
             "target": "काम",
             "bangla_pronunciation": "কাম",
+            "romanization": "kaam",
             "separator_after": " "
           },
           {
             "target": "करते",
             "bangla_pronunciation": "করতে",
+            "romanization": "karate",
             "separator_after": " "
           },
           {
             "target": "हैं।",
             "bangla_pronunciation": "হ্যাঁয়।",
+            "romanization": "hain.",
             "separator_after": ""
           }
         ]
@@ -2199,30 +2511,36 @@
       {
         "target": "ईमेल और संदेश मिल गया।",
         "bangla_pronunciation": "ঈমেল অউর সংদেশ মিল গয়া।",
+        "romanization": "eemel aur sandesh mil gaya.",
         "word_pronunciations": [
           {
             "target": "ईमेल",
             "bangla_pronunciation": "ঈমেল",
+            "romanization": "email",
             "separator_after": " "
           },
           {
             "target": "और",
             "bangla_pronunciation": "অউর",
+            "romanization": "aur",
             "separator_after": " "
           },
           {
             "target": "संदेश",
             "bangla_pronunciation": "সংদেশ",
+            "romanization": "sandesh",
             "separator_after": " "
           },
           {
             "target": "मिल",
             "bangla_pronunciation": "মিল",
+            "romanization": "mil",
             "separator_after": " "
           },
           {
             "target": "गया।",
             "bangla_pronunciation": "গয়া।",
+            "romanization": "gayaa.",
             "separator_after": ""
           }
         ]
@@ -2230,20 +2548,24 @@
       {
         "target": "यहाँ हस्ताक्षर कीजिए।",
         "bangla_pronunciation": "যহাঁ হস্তাক্ষর কিজিয়ে।",
+        "romanization": "yahaan hastaakshar kijiye",
         "word_pronunciations": [
           {
             "target": "यहाँ",
             "bangla_pronunciation": "যহাঁ",
+            "romanization": "yahaan",
             "separator_after": " "
           },
           {
             "target": "हस्ताक्षर",
             "bangla_pronunciation": "হস্তাক্ষর",
+            "romanization": "hastaakshar",
             "separator_after": " "
           },
           {
             "target": "कीजिए।",
             "bangla_pronunciation": "কিজিয়ে।",
+            "romanization": "keejie.",
             "separator_after": ""
           }
         ]
@@ -2251,30 +2573,36 @@
       {
         "target": "रिपोर्ट की सूची तैयार है।",
         "bangla_pronunciation": "রিপোর্ট কী সূচী তৈযার হ্যায়।",
+        "romanization": "riport kee soochee taiyaar hai.",
         "word_pronunciations": [
           {
             "target": "रिपोर्ट",
             "bangla_pronunciation": "রিপোর্ট",
+            "romanization": "riport",
             "separator_after": " "
           },
           {
             "target": "की",
             "bangla_pronunciation": "কী",
+            "romanization": "kee",
             "separator_after": " "
           },
           {
             "target": "सूची",
             "bangla_pronunciation": "সূচী",
+            "romanization": "soochee",
             "separator_after": " "
           },
           {
             "target": "तैयार",
             "bangla_pronunciation": "তৈযার",
+            "romanization": "taiyaar",
             "separator_after": " "
           },
           {
             "target": "है।",
             "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
             "separator_after": ""
           }
         ]
@@ -2282,26 +2610,31 @@
       {
         "target": "कृपया जाँच कीजिए।",
         "bangla_pronunciation": "কৃপয়া জাঁচ কিজিয়ে।",
+        "romanization": "kripaya jaanch keejiye.",
         "word_pronunciations": [
           {
             "target": "कृपया",
             "bangla_pronunciation": "কৃপয়া",
+            "romanization": "kripaya",
             "separator_after": " "
           },
           {
             "target": "जाँच",
             "bangla_pronunciation": "জাঁচ",
+            "romanization": "jaanch",
             "separator_after": " "
           },
           {
             "target": "कीजिए।",
             "bangla_pronunciation": "কিজিয়ে।",
+            "romanization": "keejie.",
             "separator_after": ""
           }
         ]
       }
     ],
     "bangla_pronunciation": "অফিস মেঁ কর্মচারী কাম করতে হ্যাঁয়। ঈমেল অউর সংদেশ মিল গয়া। যহাঁ হস্তাক্ষর কিজিয়ে। রিপোর্ট কী সূচী তৈযার হ্যায়। কৃপয়া জাঁচ কিজিয়ে।",
+    "romanization": "ofis mein karmachaaree kaam karate hain. eemel aur sandesh mil gaya. yahaan hastaakshar kijiye riport kee soochee taiyaar hai. kripaya jaanch keejiye.",
     "meaning_bengali_md": "অফিসে কর্মচারীরা কাজ করেন। ইমেইল ও বার্তা পেয়েছি। এখানে স্বাক্ষর করুন। রিপোর্টের তালিকা প্রস্তুত। দয়া করে যাচাই করুন।"
   },
   "script_practice": [
@@ -2310,6 +2643,7 @@
       "mode": "review",
       "target": "प",
       "bangla_pronunciation": "প",
+      "romanization": "pa",
       "explanation_bengali_md": "হিন্দি লিপির এই চিহ্নটি চিনে সংশ্লিষ্ট ধ্বনি আলাদা করে অনুশীলন করুন।",
       "practice_bengali_md": "চিহ্নটি দেখে ধ্বনি বলুন, তারপর খাতায় তিনবার লিখুন।"
     },
@@ -2318,6 +2652,7 @@
       "mode": "review",
       "target": "फ",
       "bangla_pronunciation": "ফ",
+      "romanization": "pha",
       "explanation_bengali_md": "হিন্দি লিপির এই চিহ্নটি চিনে সংশ্লিষ্ট ধ্বনি আলাদা করে অনুশীলন করুন।",
       "practice_bengali_md": "চিহ্নটি দেখে ধ্বনি বলুন, তারপর খাতায় তিনবার লিখুন।"
     },
@@ -2326,6 +2661,7 @@
       "mode": "review",
       "target": "ब",
       "bangla_pronunciation": "ব",
+      "romanization": "ba",
       "explanation_bengali_md": "হিন্দি লিপির এই চিহ্নটি চিনে সংশ্লিষ্ট ধ্বনি আলাদা করে অনুশীলন করুন।",
       "practice_bengali_md": "চিহ্নটি দেখে ধ্বনি বলুন, তারপর খাতায় তিনবার লিখুন।"
     },
@@ -2334,6 +2670,7 @@
       "mode": "review",
       "target": "भ",
       "bangla_pronunciation": "ভ",
+      "romanization": "bha",
       "explanation_bengali_md": "হিন্দি লিপির এই চিহ্নটি চিনে সংশ্লিষ্ট ধ্বনি আলাদা করে অনুশীলন করুন।",
       "practice_bengali_md": "চিহ্নটি দেখে ধ্বনি বলুন, তারপর খাতায় তিনবার লিখুন।"
     },
@@ -2342,6 +2679,7 @@
       "mode": "review",
       "target": "म",
       "bangla_pronunciation": "ম",
+      "romanization": "ma",
       "explanation_bengali_md": "হিন্দি লিপির এই চিহ্নটি চিনে সংশ্লিষ্ট ধ্বনি আলাদা করে অনুশীলন করুন।",
       "practice_bengali_md": "চিহ্নটি দেখে ধ্বনি বলুন, তারপর খাতায় তিনবার লিখুন।"
     }
@@ -2351,10 +2689,12 @@
       "display": "29 / २९",
       "target": "उनतीस",
       "bangla_pronunciation": "উনতীস",
+      "romanization": "unatees",
       "word_pronunciations": [
         {
           "target": "उनतीस",
           "bangla_pronunciation": "উনতীস",
+          "romanization": "unatees",
           "separator_after": ""
         }
       ],
@@ -2365,10 +2705,12 @@
       "display": "30 / ३०",
       "target": "तीस",
       "bangla_pronunciation": "তীস",
+      "romanization": "tees",
       "word_pronunciations": [
         {
           "target": "तीस",
           "bangla_pronunciation": "তীস",
+          "romanization": "tees",
           "separator_after": ""
         }
       ],
@@ -2381,20 +2723,24 @@
       "prompt_bengali_md": "পরিস্থিতিটি কল্পনা করে মডেল বাক্যটি বলুন।",
       "model_target": "बैठक आज है।",
       "model_bangla_pronunciation": "বৈঠক আজ হ্যায়।",
+      "model_romanization": "baithak aaj hai.",
       "model_word_pronunciations": [
         {
           "target": "बैठक",
           "bangla_pronunciation": "বৈঠক",
+          "romanization": "baithak",
           "separator_after": " "
         },
         {
           "target": "आज",
           "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -2404,20 +2750,24 @@
       "prompt_bengali_md": "সঙ্গীর সঙ্গে প্রশ্ন-উত্তরে এই বাক্যটি ব্যবহার করুন।",
       "model_target": "मीटिंग कब है?",
       "model_bangla_pronunciation": "মীটিংগ কব হ্যায়?",
+      "model_romanization": "meeting kab hai?",
       "model_word_pronunciations": [
         {
           "target": "मीटिंग",
           "bangla_pronunciation": "মীটিংগ",
+          "romanization": "meeting",
           "separator_after": " "
         },
         {
           "target": "कब",
           "bangla_pronunciation": "কব",
+          "romanization": "kab",
           "separator_after": " "
         },
         {
           "target": "है?",
           "bangla_pronunciation": "হ্যায়?",
+          "romanization": "hai?",
           "separator_after": ""
         }
       ],
@@ -2427,20 +2777,24 @@
       "prompt_bengali_md": "শব্দগুলো মনে করে না দেখে বাক্যটি বলুন।",
       "model_target": "कृपया भेज दीजिए।",
       "model_bangla_pronunciation": "কৃপয়া ভেজ দিজিয়ে।",
+      "model_romanization": "kripaya bhej deejiye.",
       "model_word_pronunciations": [
         {
           "target": "कृपया",
           "bangla_pronunciation": "কৃপয়া",
+          "romanization": "kripaya",
           "separator_after": " "
         },
         {
           "target": "भेज",
           "bangla_pronunciation": "ভেজ",
+          "romanization": "bhej",
           "separator_after": " "
         },
         {
           "target": "दीजिए।",
           "bangla_pronunciation": "দিজিয়ে।",
+          "romanization": "deejie.",
           "separator_after": ""
         }
       ],
@@ -2450,25 +2804,30 @@
       "prompt_bengali_md": "নিজের তথ্য বসিয়ে একই ধরনে বলুন।",
       "model_target": "मेरी ड्यूटी सुबह है।",
       "model_bangla_pronunciation": "মেরি ড্যূটী সুবহ হ্যায়।",
+      "model_romanization": "meree dyootee subah hai.",
       "model_word_pronunciations": [
         {
           "target": "मेरी",
           "bangla_pronunciation": "মেরি",
+          "romanization": "meree",
           "separator_after": " "
         },
         {
           "target": "ड्यूटी",
           "bangla_pronunciation": "ড্যূটী",
+          "romanization": "duty",
           "separator_after": " "
         },
         {
           "target": "सुबह",
           "bangla_pronunciation": "সুবহ",
+          "romanization": "subah",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -2478,20 +2837,24 @@
       "prompt_bengali_md": "ধীরে বলুন, তারপর স্বাভাবিক গতিতে বলুন।",
       "model_target": "दोपहर बाद मिलें।",
       "model_bangla_pronunciation": "দোপহর বাদ মিলেং।",
+      "model_romanization": "dopahar baad milen.",
       "model_word_pronunciations": [
         {
           "target": "दोपहर",
           "bangla_pronunciation": "দোপহর",
+          "romanization": "dophr",
           "separator_after": " "
         },
         {
           "target": "बाद",
           "bangla_pronunciation": "বাদ",
+          "romanization": "baad",
           "separator_after": " "
         },
         {
           "target": "मिलें।",
           "bangla_pronunciation": "মিলেং।",
+          "romanization": "milen.",
           "separator_after": ""
         }
       ],
@@ -2501,20 +2864,24 @@
       "prompt_bengali_md": "বাংলা অর্থ দেখে হিন্দি বাক্যটি বলুন।",
       "model_target": "कृपया जाँच कीजिए।",
       "model_bangla_pronunciation": "কৃপয়া জাঁচ কিজিয়ে।",
+      "model_romanization": "kripaya jaanch keejiye.",
       "model_word_pronunciations": [
         {
           "target": "कृपया",
           "bangla_pronunciation": "কৃপয়া",
+          "romanization": "kripaya",
           "separator_after": " "
         },
         {
           "target": "जाँच",
           "bangla_pronunciation": "জাঁচ",
+          "romanization": "jaanch",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কিজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],

@@ -38,11 +38,20 @@ def need(condition, message):
         raise ValueError(message)
 
 
+NON_LATIN_SCRIPT = re.compile(
+    # Devanagari minus the danda/double-danda (\u0964/\u0965), which existing
+    # romanization already carries as plain sentence-final punctuation.
+    r'[\u0900-\u0963\u0966-\u097f\u0980-\u09ff\u0600-\u06ff\u3040-\u30ff\u4e00-\u9fff\uac00-\ud7a3\u0400-\u04ff]'
+)
+
+
 def filled(obj, fields):
     for field in fields:
         need(isinstance(obj.get(field), str) and obj[field].strip(), f'Missing text: {field}')
         if 'bengali' in field or 'bangla_pronunciation' in field:
             need(re.search(r'[\u0980-\u09ff]', obj[field]), f'{field} requires Bangla script')
+        if field == 'romanization' or field.endswith('_romanization'):
+            need(not NON_LATIN_SCRIPT.search(obj[field]), f'{field} must be Latin-letter romanization, not native/Bangla script')
 
 
 def walk(value):
@@ -66,7 +75,7 @@ def validate_words(target, words):
     reconstructed = ''
     for word in words:
         need(isinstance(word, dict), 'Pronunciation unit must be an object')
-        filled(word, ['target', 'bangla_pronunciation'])
+        filled(word, ['target', 'bangla_pronunciation', 'romanization'])
         need(not any(c.isspace() for c in word['target']), 'A pronunciation unit must be one word, not a sentence')
         separator = word.get('separator_after')
         need(isinstance(separator, str) and (not separator or separator.isspace()), 'separator_after must be whitespace or empty')
@@ -74,8 +83,8 @@ def validate_words(target, words):
     need(reconstructed == target, 'Word pronunciations must cover the exact target text in order, including spacing')
 
 
-def annotated(item, target='target', pronunciation='bangla_pronunciation', words='word_pronunciations'):
-    filled(item, [target, pronunciation])
+def annotated(item, target='target', pronunciation='bangla_pronunciation', words='word_pronunciations', romanization='romanization'):
+    filled(item, [target, pronunciation, romanization])
     validate_words(item[target], item.get(words))
 
 
@@ -98,7 +107,8 @@ def mixed_reading_markdown(segments):
             for word in segment['word_pronunciations']:
                 target = escape_inline_markdown(word['target'])
                 cue = escape_inline_markdown(word['bangla_pronunciation'])
-                pieces.append(f'**{target}** ({cue})' + word['separator_after'])
+                roman = escape_inline_markdown(word['romanization'])
+                pieces.append(f'**{target}** ({cue}, {roman})' + word['separator_after'])
     return ''.join(pieces)
 
 
@@ -106,7 +116,7 @@ def validate_chapter(book, plan, ch, profile):
     need(ch['chapter_id'] == plan['chapter_id'], 'Chapter ID mismatch')
     need(ch['status'] in ['drafted', 'reviewed'], 'Chapter must be a complete draft')
     filled(ch, ['title_target', 'title_bengali', 'goal_bengali_md'])
-    annotated(ch, 'title_target', 'title_bangla_pronunciation', 'title_word_pronunciations')
+    annotated(ch, 'title_target', 'title_bangla_pronunciation', 'title_word_pronunciations', 'title_romanization')
     for text in walk(ch):
         need(not re.search(r'<\s*/?\s*[A-Za-z][^>]*>', text), 'Raw HTML is forbidden')
         need(not re.search(r'\b(TODO|TBD|LOREM IPSUM)\b', text, re.I), 'Placeholder found')
@@ -114,7 +124,7 @@ def validate_chapter(book, plan, ch, profile):
     need(isinstance(script, list) and len(script) == 5, 'Exactly five script items required')
     need(len({x['item_id'] for x in script}) == 5, 'Duplicate script items within chapter')
     for item in script:
-        filled(item, ['item_id', 'target', 'bangla_pronunciation', 'explanation_bengali_md', 'practice_bengali_md'])
+        filled(item, ['item_id', 'target', 'bangla_pronunciation', 'romanization', 'explanation_bengali_md', 'practice_bengali_md'])
         need(item['mode'] in ['new', 'review', 'application'], 'Invalid script mode')
     numbers = ch['number_practice']
     need(numbers is None or (isinstance(numbers, list) and len(numbers) in [2, 3]), 'Number practice must be null or two/three cards')
@@ -156,7 +166,7 @@ def validate_chapter(book, plan, ch, profile):
                     annotated(example)
         if book['kind'] == 'vocabulary':
             filled(item, ['example_meaning_bengali_md'])
-            annotated(item, 'example_target', 'example_bangla_pronunciation', 'example_word_pronunciations')
+            annotated(item, 'example_target', 'example_bangla_pronunciation', 'example_word_pronunciations', 'example_romanization')
             need(isinstance(item['synonyms'], list), 'Synonyms must be a list; empty is allowed')
             need(item['category'] in ['word', 'expression'], 'Invalid lexical category')
     if book['kind'] == 'vocabulary':
@@ -183,7 +193,7 @@ def validate_chapter(book, plan, ch, profile):
             mixed += segment['target']
     filled(bridge, ['text_md'])
     need(bridge['text_md'] == mixed_reading_markdown(segments), 'Mixed reading text_md must match the exact bold-word/pronunciation mirror of segments')
-    filled(reading, ['meaning_bengali_md', 'bangla_pronunciation'])
+    filled(reading, ['meaning_bengali_md', 'bangla_pronunciation', 'romanization'])
     need(not any(key in reading for key in ['text', 'word_pronunciations', 'words']), 'Pure reading uses annotated lines, not legacy root text/words')
     lines = reading['lines']
     need(isinstance(lines, list) and 4 <= len(lines) <= 8, 'Pure reading requires four to eight short lines')
@@ -200,11 +210,11 @@ def validate_chapter(book, plan, ch, profile):
     need(isinstance(tasks, list) and len(tasks) == 6, 'Six practice tasks required')
     for item in tasks:
         filled(item, ['prompt_bengali_md', 'model_meaning_bengali_md'])
-        annotated(item, 'model_target', 'model_bangla_pronunciation', 'model_word_pronunciations')
+        annotated(item, 'model_target', 'model_bangla_pronunciation', 'model_word_pronunciations', 'model_romanization')
     for item in ch.get('additional_practice', []):
         filled(item, ['explanation_bengali_md'])
         for key in ['base', 'expanded', 'polished']:
-            annotated(item, key+'_target', key+'_bangla_pronunciation', key+'_word_pronunciations')
+            annotated(item, key+'_target', key+'_bangla_pronunciation', key+'_word_pronunciations', key+'_romanization')
     prompts = ch['image_prompts']
     need(len(prompts) == 2, 'Two reading image prompts required')
     for prompt, key in zip(prompts, ['bridge_reading', 'target_reading']):

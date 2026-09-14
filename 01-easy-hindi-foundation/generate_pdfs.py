@@ -57,7 +57,7 @@ class BookRenderer:
     def words(self, items):
         return "".join(
             '<span class="word-cue"><span class="native" lang="'+esc(self.pub["target_language"])+'">'+esc(w["target"])+
-            '</span> <span class="cue" lang="bn">('+esc(w["bangla_pronunciation"])+')</span></span>'+esc(w["separator_after"])
+            '</span> <span class="cue" lang="bn">('+esc(w["bangla_pronunciation"])+', '+esc(w["romanization"])+')</span></span>'+esc(w["separator_after"])
             for w in items
         )
 
@@ -94,7 +94,7 @@ class BookRenderer:
 
     def chapter(self, chapter, number, epub=False, mode="mobile"):
         c=chapter
-        parts=['<article class="chapter" id="'+esc(c['chapter_id'])+'" style="'+self.palette(number)+'">', '<header class="chapter-head"><div class="eyebrow">'+esc(self.copy['chapter_label'])+' '+str(number+1).zfill(2)+'</div><h1>'+esc(c['title_bengali'])+'</h1><div class="chapter-native">'+self.words(c['title_word_pronunciations'])+'</div>'+self.row('pronunciation',c['title_bangla_pronunciation'])+render_block(c['goal_bengali_md'])+'</header>']
+        parts=['<article class="chapter" id="'+esc(c['chapter_id'])+'" style="'+self.palette(number)+'">', '<header class="chapter-head"><div class="eyebrow">'+esc(self.copy['chapter_label'])+' '+str(number+1).zfill(2)+'</div><h1>'+esc(c['title_bengali'])+'</h1><div class="chapter-native">'+self.words(c['title_word_pronunciations'])+'</div>'+self.row('pronunciation',c['title_bangla_pronunciation'])+self.row('romanization',c['title_romanization'])+render_block(c['goal_bengali_md'])+'</header>']
         for section in self.design['reading_layout']['section_order']:
             parts.append('<section class="lesson-section"><h2>'+esc(self.copy[section])+'</h2>')
             if section in ('sentences', 'vocabulary') and mode == 'desktop' and not epub:
@@ -104,7 +104,7 @@ class BookRenderer:
                     target = self.annotated(item)
                     for field in ['synonyms', 'collocations']:
                         if item.get(field):
-                            target += '<div class="label">'+esc(self.copy[field])+'</div>'+''.join(self.annotated(x)+self.row('pronunciation',x['bangla_pronunciation']) for x in item[field])
+                            target += '<div class="label">'+esc(self.copy[field])+'</div>'+''.join(self.annotated(x)+self.row('pronunciation',x['bangla_pronunciation'])+self.row('romanization',x['romanization']) for x in item[field])
                     hindi = self.row('pronunciation', item['bangla_pronunciation'])+self.row('romanization', item['romanization'])
                     parts.append('<tr style="'+self.palette((number*20+i)//self.design['palette_rotation_every_items'])+'"><td>'+str(i+1).zfill(2)+'</td><td>'+render_inline(item['meaning_bengali_md'])+'</td><td>'+hindi+'</td><td>'+target+'</td></tr>')
                 parts.append('</tbody></table>')
@@ -120,7 +120,7 @@ class BookRenderer:
                     body=self.ordered_entry(v)
                     for field in ['synonyms','collocations']:
                         if v.get(field):
-                            body+='<div class="label">'+esc(self.copy[field])+'</div>'+''.join(self.annotated(x)+self.row('pronunciation',x['bangla_pronunciation']) for x in v[field])
+                            body+='<div class="label">'+esc(self.copy[field])+'</div>'+''.join(self.annotated(x)+self.row('pronunciation',x['bangla_pronunciation'])+self.row('romanization',x['romanization']) for x in v[field])
                     cards.append(self.card(body,(number*20+i)//self.design['palette_rotation_every_items']))
                 parts.append('<div class="cards vocabulary">'+''.join(cards)+'</div>')
             elif section in ('bridge_reading','target_reading'):
@@ -132,24 +132,24 @@ class BookRenderer:
                     prose=''.join(esc(s['text']) if s['kind']=='bangla' else self.words(s['word_pronunciations']) for s in r['segments'])
                     parts.append('<div class="bridge prose">'+prose+'</div>')
                 else:
-                    parts.append('<div class="complete-target-reading" lang="bn"><p>'+esc(r['bangla_pronunciation'])+'</p></div>')
+                    parts.append('<div class="complete-target-reading" lang="bn"><p>'+esc(r['bangla_pronunciation'])+'</p><p class="cue">'+esc(r['romanization'])+'</p></div>')
                     parts.append('<div class="reading-meaning"><h3>'+esc(self.copy['reading_meaning'])+'</h3>'+render_block(r['meaning_bengali_md'])+'</div>')
-                    parts.append('<h3>'+esc(self.copy['reading_breakdown'])+'</h3><div class="pure-reading">'+''.join('<div class="reading-line">'+self.annotated(line)+'<div class="detail">'+esc(line['bangla_pronunciation'])+'</div></div>' for line in r['lines'])+'</div>')
+                    parts.append('<h3>'+esc(self.copy['reading_breakdown'])+'</h3><div class="pure-reading">'+''.join('<div class="reading-line">'+self.annotated(line)+'<div class="detail">'+esc(line['bangla_pronunciation'])+', '+esc(line['romanization'])+'</div></div>' for line in r['lines'])+'</div>')
             elif section=='script_and_numbers':
                 parts.append('<h3>'+esc(self.copy['script'])+'</h3><div class="cards">')
                 for s in c['script_practice']:
-                    body='<div class="script-symbol"><span class="native" lang="'+esc(self.pub['target_language'])+'">'+esc(s['target'])+'</span> <span class="cue">('+esc(s['bangla_pronunciation'])+')</span></div><div class="label">'+esc(self.copy['script_modes'][s['mode']])+'</div>'+render_block(s['explanation_bengali_md'])+render_block(s['practice_bengali_md'])
+                    body='<div class="script-symbol"><span class="native" lang="'+esc(self.pub['target_language'])+'">'+esc(s['target'])+'</span> <span class="cue">('+esc(s['bangla_pronunciation'])+', '+esc(s['romanization'])+')</span></div><div class="label">'+esc(self.copy['script_modes'][s['mode']])+'</div>'+render_block(s['explanation_bengali_md'])+render_block(s['practice_bengali_md'])
                     parts.append(self.card(body,number))
                 parts.append('</div>')
                 if c['number_practice']:
                     parts.append('<h3>'+esc(self.copy['numbers'])+'</h3><div class="cards">')
                     for n in c['number_practice']:
-                        parts.append(self.card('<div class="number-symbol">'+esc(n['display'])+'</div>'+self.annotated(n)+self.row('pronunciation',n['bangla_pronunciation'])+self.row('meaning',n['meaning_bengali_md'],True),number))
+                        parts.append(self.card('<div class="number-symbol">'+esc(n['display'])+'</div>'+self.annotated(n)+self.row('pronunciation',n['bangla_pronunciation'])+self.row('romanization',n['romanization'])+self.row('meaning',n['meaning_bengali_md'],True),number))
                     parts.append('</div>')
             elif section=='speaking_practice':
                 parts.append('<div class="cards">')
                 for i,s in enumerate(c['speaking_practice']):
-                    parts.append(self.card('<div class="item-number">'+str(i+1).zfill(2)+'</div>'+render_block(s['prompt_bengali_md'])+'<div class="label">'+esc(self.copy['answer'])+'</div>'+self.annotated(s,True)+self.row('pronunciation',s['model_bangla_pronunciation'])+self.row('meaning',s['model_meaning_bengali_md'],True),number))
+                    parts.append(self.card('<div class="item-number">'+str(i+1).zfill(2)+'</div>'+render_block(s['prompt_bengali_md'])+'<div class="label">'+esc(self.copy['answer'])+'</div>'+self.annotated(s,True)+self.row('pronunciation',s['model_bangla_pronunciation'])+self.row('romanization',s['model_romanization'])+self.row('meaning',s['model_meaning_bengali_md'],True),number))
                 parts.append('</div>')
             parts.append('</section>')
         if c.get('additional_practice'):
@@ -157,7 +157,7 @@ class BookRenderer:
             for item in c['additional_practice']:
                 parts.append(render_block(item['explanation_bengali_md']))
                 for prefix in ['base','expanded','polished']:
-                    parts.append('<h3>'+esc(self.copy[prefix])+'</h3>'+self.words(item[prefix+'_word_pronunciations'])+self.row('pronunciation',item[prefix+'_bangla_pronunciation']))
+                    parts.append('<h3>'+esc(self.copy[prefix])+'</h3>'+self.words(item[prefix+'_word_pronunciations'])+self.row('pronunciation',item[prefix+'_bangla_pronunciation'])+self.row('romanization',item[prefix+'_romanization']))
             parts.append('</section>')
         parts.append('</article>');return ''.join(parts)
 

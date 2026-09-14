@@ -1,78 +1,1407 @@
 {
-  "chapter_id":"ch028",
-  "status":"drafted",
-  "title_target":"पर्यावरण और सार्वजनिक सुरक्षा",
-  "title_bangla_pronunciation":"পর্যাবরণ অউর সার্বজনিক সুরক্ষা",
-  "title_word_pronunciations":[{"target":"पर्यावरण","bangla_pronunciation":"পর্যাবরণ","separator_after":" "},{"target":"और","bangla_pronunciation":"অউর","separator_after":" "},{"target":"सार्वजनिक","bangla_pronunciation":"সার্বজনিক","separator_after":" "},{"target":"सुरक्षा","bangla_pronunciation":"সুরক্ষা","separator_after":""}],
-  "title_bengali":"পরিবেশ ও জননিরাপত্তা",
-  "goal_bengali_md":"বন্যা, গরম, দূষণ, সতর্কবার্তা ও জননিরাপত্তা নিয়ে ব্যবহারিক নির্দেশনা বলা।",
-  "sentences":[
-    {"id":"ch028_s01","target":"सड़क पर पानी है।","romanization":"saṛak par pānī hai.","bangla_pronunciation":"সড়ক পর পানী হ্যায়।","word_pronunciations":[{"target":"सड़क","bangla_pronunciation":"সড়ক","separator_after":" "},{"target":"पर","bangla_pronunciation":"পর","separator_after":" "},{"target":"पानी","bangla_pronunciation":"পানী","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"meaning_bengali_md":"রাস্তায় পানি আছে।"},
-    {"id":"ch028_s02","target":"बाढ़ का खतरा है।","romanization":"bāṛh kā khatrā hai.","bangla_pronunciation":"বাঢ় কা খতরা হ্যায়।","word_pronunciations":[{"target":"बाढ़","bangla_pronunciation":"বাঢ়","separator_after":" "},{"target":"का","bangla_pronunciation":"কা","separator_after":" "},{"target":"खतरा","bangla_pronunciation":"খতরা","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"meaning_bengali_md":"বন্যার ঝুঁকি আছে।"},
-    {"id":"ch028_s03","target":"चेतावनी ध्यान से सुनिए।","romanization":"cetāvanī dhyān se suniye.","bangla_pronunciation":"চেতাবনী ধ্যান সে সুনিয়ে।","word_pronunciations":[{"target":"चेतावनी","bangla_pronunciation":"চেতাবনী","separator_after":" "},{"target":"ध्यान","bangla_pronunciation":"ধ্যান","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"सुनिए।","bangla_pronunciation":"সুনিয়ে।","separator_after":""}],"meaning_bengali_md":"সতর্কবার্তা মনোযোগ দিয়ে শুনুন।"},
-    {"id":"ch028_s04","target":"सामान ऊँचा रखिए।","romanization":"sāmān ū̃cā rakhiye.","bangla_pronunciation":"সামান ঊঁচা রাখিয়ে।","word_pronunciations":[{"target":"सामान","bangla_pronunciation":"সামান","separator_after":" "},{"target":"ऊँचा","bangla_pronunciation":"ঊঁচা","separator_after":" "},{"target":"रखिए।","bangla_pronunciation":"রাখিয়ে।","separator_after":""}],"meaning_bengali_md":"জিনিস উঁচুতে রাখুন।"},
-    {"id":"ch028_s05","target":"खुले तार से दूर रहिए।","romanization":"khule tār se dūr rahiye.","bangla_pronunciation":"খুলে তার সে দূর রহিয়ে।","word_pronunciations":[{"target":"खुले","bangla_pronunciation":"খুলে","separator_after":" "},{"target":"तार","bangla_pronunciation":"তার","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"दूर","bangla_pronunciation":"দূর","separator_after":" "},{"target":"रहिए।","bangla_pronunciation":"রহিয়ে।","separator_after":""}],"meaning_bengali_md":"খোলা তার থেকে দূরে থাকুন।"},
-    {"id":"ch028_s06","target":"गर्मी में पानी पीजिए।","romanization":"garmī mẽ pānī pījiye.","bangla_pronunciation":"গরমী মেঁ পানী পীজিয়ে।","word_pronunciations":[{"target":"गर्मी","bangla_pronunciation":"গরমী","separator_after":" "},{"target":"में","bangla_pronunciation":"মেঁ","separator_after":" "},{"target":"पानी","bangla_pronunciation":"পানী","separator_after":" "},{"target":"पीजिए।","bangla_pronunciation":"পীজিয়ে।","separator_after":""}],"meaning_bengali_md":"গরমে পানি পান করুন।"},
-    {"id":"ch028_s07","target":"तेज धूप से बचिए।","romanization":"tez dhūp se baciye.","bangla_pronunciation":"তেজ ধূপ সে বচিয়ে।","word_pronunciations":[{"target":"तेज","bangla_pronunciation":"তেজ","separator_after":" "},{"target":"धूप","bangla_pronunciation":"ধূপ","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"बचिए।","bangla_pronunciation":"বচিয়ে।","separator_after":""}],"meaning_bengali_md":"তীব্র রোদ এড়িয়ে চলুন।"},
-    {"id":"ch028_s08","target":"प्रदूषण में बाहर कम रहें।","romanization":"pradūṣaṇ mẽ bāhar kam rahẽ.","bangla_pronunciation":"প্রদূষণ মেঁ বাহর কম রহেঁ।","word_pronunciations":[{"target":"प्रदूषण","bangla_pronunciation":"প্রদূষণ","separator_after":" "},{"target":"में","bangla_pronunciation":"মেঁ","separator_after":" "},{"target":"बाहर","bangla_pronunciation":"বাহর","separator_after":" "},{"target":"कम","bangla_pronunciation":"কম","separator_after":" "},{"target":"रहें।","bangla_pronunciation":"রহেঁ।","separator_after":""}],"meaning_bengali_md":"দূষণে বাইরে কম থাকুন।"},
-    {"id":"ch028_s09","target":"बुजुर्गों का ध्यान रखें।","romanization":"buzurgõ kā dhyān rakhẽ.","bangla_pronunciation":"বুজুর্গোঁ কা ধ্যান রাখেঁ।","word_pronunciations":[{"target":"बुजुर्गों","bangla_pronunciation":"বুজুর্গোঁ","separator_after":" "},{"target":"का","bangla_pronunciation":"কা","separator_after":" "},{"target":"ध्यान","bangla_pronunciation":"ধ্যান","separator_after":" "},{"target":"रखें।","bangla_pronunciation":"রাখেঁ।","separator_after":""}],"meaning_bengali_md":"বয়স্কদের খেয়াল রাখুন।"},
-    {"id":"ch028_s10","target":"आपातकालीन नंबर सेव रखिए।","romanization":"āpātkālīn number sev rakhiye.","bangla_pronunciation":"আপাৎকালীন নম্বর সেভ রাখিয়ে।","word_pronunciations":[{"target":"आपातकालीन","bangla_pronunciation":"আপাৎকালীন","separator_after":" "},{"target":"नंबर","bangla_pronunciation":"নম্বর","separator_after":" "},{"target":"सेव","bangla_pronunciation":"সেভ","separator_after":" "},{"target":"रखिए।","bangla_pronunciation":"রাখিয়ে।","separator_after":""}],"meaning_bengali_md":"জরুরি নম্বর সেভ রাখুন।"},
-    {"id":"ch028_s11","target":"राहत केंद्र कहाँ है?","romanization":"rāhat kendra kahā̃ hai?","bangla_pronunciation":"রাহত কেন্দ্র কহাঁ হ্যায়?","word_pronunciations":[{"target":"राहत","bangla_pronunciation":"রাহত","separator_after":" "},{"target":"केंद्र","bangla_pronunciation":"কেন্দ্র","separator_after":" "},{"target":"कहाँ","bangla_pronunciation":"কহাঁ","separator_after":" "},{"target":"है?","bangla_pronunciation":"হ্যায়?","separator_after":""}],"meaning_bengali_md":"ত্রাণকেন্দ্র কোথায়?"},
-    {"id":"ch028_s12","target":"सुरक्षित रास्ता तय करें।","romanization":"surakṣit rāstā tay karẽ.","bangla_pronunciation":"সুরক্ষিত রাস্তা তয় করেঁ।","word_pronunciations":[{"target":"सुरक्षित","bangla_pronunciation":"সুরক্ষিত","separator_after":" "},{"target":"रास्ता","bangla_pronunciation":"রাস্তা","separator_after":" "},{"target":"तय","bangla_pronunciation":"তয়","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেঁ।","separator_after":""}],"meaning_bengali_md":"নিরাপদ পথ ঠিক করুন।"},
-    {"id":"ch028_s13","target":"अफवाह पर भरोसा मत करें।","romanization":"afvāh par bharosā mat karẽ.","bangla_pronunciation":"অফবাহ পর ভরোসা মত করেঁ।","word_pronunciations":[{"target":"अफवाह","bangla_pronunciation":"অফবাহ","separator_after":" "},{"target":"पर","bangla_pronunciation":"পর","separator_after":" "},{"target":"भरोसा","bangla_pronunciation":"ভরোসা","separator_after":" "},{"target":"मत","bangla_pronunciation":"মত","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেঁ।","separator_after":""}],"meaning_bengali_md":"গুজবে বিশ্বাস করবেন না।"},
-    {"id":"ch028_s14","target":"आधिकारिक सूचना साझा करें।","romanization":"ādhikārik sūcnā sānjhā karẽ.","bangla_pronunciation":"আধিকারিক সূচনা সাঝা করেঁ।","word_pronunciations":[{"target":"आधिकारिक","bangla_pronunciation":"আধিকারিক","separator_after":" "},{"target":"सूचना","bangla_pronunciation":"সূচনা","separator_after":" "},{"target":"साझा","bangla_pronunciation":"সাঝা","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেঁ।","separator_after":""}],"meaning_bengali_md":"আনুষ্ঠানিক তথ্য শেয়ার করুন।"},
-    {"id":"ch028_s15","target":"पड़ोसी की मदद कीजिए।","romanization":"paṛosī kī madad kījiye.","bangla_pronunciation":"পড়োসী কী মদদ কীজিয়ে।","word_pronunciations":[{"target":"पड़ोसी","bangla_pronunciation":"পড়োসী","separator_after":" "},{"target":"की","bangla_pronunciation":"কী","separator_after":" "},{"target":"मदद","bangla_pronunciation":"মদদ","separator_after":" "},{"target":"कीजिए।","bangla_pronunciation":"কীজিয়ে।","separator_after":""}],"meaning_bengali_md":"প্রতিবেশীকে সাহায্য করুন।"},
-    {"id":"ch028_s16","target":"गंदे पानी में मत जाइए।","romanization":"gande pānī mẽ mat jāiye.","bangla_pronunciation":"গন্দে পানী মেঁ মত জাইয়ে।","word_pronunciations":[{"target":"गंदे","bangla_pronunciation":"গন্দে","separator_after":" "},{"target":"पानी","bangla_pronunciation":"পানী","separator_after":" "},{"target":"में","bangla_pronunciation":"মেঁ","separator_after":" "},{"target":"मत","bangla_pronunciation":"মত","separator_after":" "},{"target":"जाइए।","bangla_pronunciation":"জাইয়ে।","separator_after":""}],"meaning_bengali_md":"নোংরা পানিতে যাবেন না।"},
-    {"id":"ch028_s17","target":"पीने का पानी ढकिए।","romanization":"pīne kā pānī ḍhakiye.","bangla_pronunciation":"পীনে কা পানী ঢকিয়ে।","word_pronunciations":[{"target":"पीने","bangla_pronunciation":"পীনে","separator_after":" "},{"target":"का","bangla_pronunciation":"কা","separator_after":" "},{"target":"पानी","bangla_pronunciation":"পানী","separator_after":" "},{"target":"ढकिए।","bangla_pronunciation":"ঢকিয়ে।","separator_after":""}],"meaning_bengali_md":"পানীয় পানি ঢেকে রাখুন।"},
-    {"id":"ch028_s18","target":"स्थिति पहले जाँचिए।","romanization":"sthiti pahle jāñciye.","bangla_pronunciation":"স্থিতি পহলে জাঁচিয়ে।","word_pronunciations":[{"target":"स्थिति","bangla_pronunciation":"স্থিতি","separator_after":" "},{"target":"पहले","bangla_pronunciation":"পহলে","separator_after":" "},{"target":"जाँचिए।","bangla_pronunciation":"জাঁচিয়ে।","separator_after":""}],"meaning_bengali_md":"আগে পরিস্থিতি যাচাই করুন।"},
-    {"id":"ch028_s19","target":"सुरक्षित जगह पर रहिए।","romanization":"surakṣit jagah par rahiye.","bangla_pronunciation":"সুরক্ষিত জগহ পর রহিয়ে।","word_pronunciations":[{"target":"सुरक्षित","bangla_pronunciation":"সুরক্ষিত","separator_after":" "},{"target":"जगह","bangla_pronunciation":"জগহ","separator_after":" "},{"target":"पर","bangla_pronunciation":"পর","separator_after":" "},{"target":"रहिए।","bangla_pronunciation":"রহিয়ে।","separator_after":""}],"meaning_bengali_md":"নিরাপদ জায়গায় থাকুন।"},
-    {"id":"ch028_s20","target":"तैयारी घबराहट कम करती है।","romanization":"taiyārī ghabrāhaṭ kam kartī hai.","bangla_pronunciation":"তৈয়ারী ঘবরাহাট কম করতী হ্যায়।","word_pronunciations":[{"target":"तैयारी","bangla_pronunciation":"তৈয়ারী","separator_after":" "},{"target":"घबराहट","bangla_pronunciation":"ঘবরাহাট","separator_after":" "},{"target":"कम","bangla_pronunciation":"কম","separator_after":" "},{"target":"करती","bangla_pronunciation":"করতী","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"meaning_bengali_md":"প্রস্তুতি আতঙ্ক কমায়।"}
+  "chapter_id": "ch028",
+  "status": "drafted",
+  "title_target": "पर्यावरण और सार्वजनिक सुरक्षा",
+  "title_bangla_pronunciation": "পর্যাবরণ অউর সার্বজনিক সুরক্ষা",
+  "title_romanization": "paryaavarana aura saarvajanika surakshaa",
+  "title_word_pronunciations": [
+    {
+      "target": "पर्यावरण",
+      "bangla_pronunciation": "পর্যাবরণ",
+      "romanization": "pryaavrn",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "romanization": "aur",
+      "separator_after": " "
+    },
+    {
+      "target": "सार्वजनिक",
+      "bangla_pronunciation": "সার্বজনিক",
+      "romanization": "saarvjnik",
+      "separator_after": " "
+    },
+    {
+      "target": "सुरक्षा",
+      "bangla_pronunciation": "সুরক্ষা",
+      "romanization": "suraksha",
+      "separator_after": ""
+    }
   ],
-  "vocabulary":[
-    {"id":"ch028_v01","target":"बाढ़","type":"noun","romanization":"bāṛh","bangla_pronunciation":"বাঢ়","word_pronunciations":[{"target":"बाढ़","bangla_pronunciation":"বাঢ়","separator_after":""}],"meaning_bengali_md":"বন্যা।","source_sentence_id":"ch028_s02","source_form":"बाढ़"},
-    {"id":"ch028_v02","target":"खतरा","type":"noun","romanization":"khatrā","bangla_pronunciation":"খতরা","word_pronunciations":[{"target":"खतरा","bangla_pronunciation":"খতরা","separator_after":""}],"meaning_bengali_md":"ঝুঁকি।","source_sentence_id":"ch028_s02","source_form":"खतरा"},
-    {"id":"ch028_v03","target":"चेतावनी","type":"noun","romanization":"cetāvanī","bangla_pronunciation":"চেতাবনী","word_pronunciations":[{"target":"चेतावनी","bangla_pronunciation":"চেতাবনী","separator_after":""}],"meaning_bengali_md":"সতর্কবার্তা।","source_sentence_id":"ch028_s03","source_form":"चेतावनी"},
-    {"id":"ch028_v04","target":"प्रदूषण","type":"noun","romanization":"pradūṣaṇ","bangla_pronunciation":"প্রদূষণ","word_pronunciations":[{"target":"प्रदूषण","bangla_pronunciation":"প্রদূষণ","separator_after":""}],"meaning_bengali_md":"দূষণ।","source_sentence_id":"ch028_s08","source_form":"प्रदूषण"},
-    {"id":"ch028_v05","target":"तैयारी","type":"noun","romanization":"taiyārī","bangla_pronunciation":"তৈয়ারী","word_pronunciations":[{"target":"तैयारी","bangla_pronunciation":"তৈয়ারী","separator_after":""}],"meaning_bengali_md":"প্রস্তুতি।","source_sentence_id":"ch028_s20","source_form":"तैयारी"}
+  "title_bengali": "পরিবেশ ও জননিরাপত্তা",
+  "goal_bengali_md": "বন্যা, গরম, দূষণ, সতর্কবার্তা ও জননিরাপত্তা নিয়ে ব্যবহারিক নির্দেশনা বলা।",
+  "sentences": [
+    {
+      "id": "ch028_s01",
+      "target": "सड़क पर पानी है।",
+      "romanization": "saṛak par pānī hai.",
+      "bangla_pronunciation": "সড়ক পর পানী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "सड़क",
+          "bangla_pronunciation": "সড়ক",
+          "romanization": "sarak",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "romanization": "par",
+          "separator_after": " "
+        },
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানী",
+          "romanization": "paani",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রাস্তায় পানি আছে।"
+    },
+    {
+      "id": "ch028_s02",
+      "target": "बाढ़ का खतरा है।",
+      "romanization": "bāṛh kā khatrā hai.",
+      "bangla_pronunciation": "বাঢ় কা খতরা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "बाढ़",
+          "bangla_pronunciation": "বাঢ়",
+          "romanization": "bāṛh",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "romanization": "kaa",
+          "separator_after": " "
+        },
+        {
+          "target": "खतरा",
+          "bangla_pronunciation": "খতরা",
+          "romanization": "khatrā",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বন্যার ঝুঁকি আছে।"
+    },
+    {
+      "id": "ch028_s03",
+      "target": "चेतावनी ध्यान से सुनिए।",
+      "romanization": "cetāvanī dhyān se suniye.",
+      "bangla_pronunciation": "চেতাবনী ধ্যান সে সুনিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "चेतावनी",
+          "bangla_pronunciation": "চেতাবনী",
+          "romanization": "chetaavanee",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "romanization": "se",
+          "separator_after": " "
+        },
+        {
+          "target": "सुनिए।",
+          "bangla_pronunciation": "সুনিয়ে।",
+          "romanization": "sunie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সতর্কবার্তা মনোযোগ দিয়ে শুনুন।"
+    },
+    {
+      "id": "ch028_s04",
+      "target": "सामान ऊँचा रखिए।",
+      "romanization": "sāmān ū̃cā rakhiye.",
+      "bangla_pronunciation": "সামান ঊঁচা রাখিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "सामान",
+          "bangla_pronunciation": "সামান",
+          "romanization": "saamaan",
+          "separator_after": " "
+        },
+        {
+          "target": "ऊँचा",
+          "bangla_pronunciation": "ঊঁচা",
+          "romanization": "uunchaa",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রাখিয়ে।",
+          "romanization": "rakhie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "জিনিস উঁচুতে রাখুন।"
+    },
+    {
+      "id": "ch028_s05",
+      "target": "खुले तार से दूर रहिए।",
+      "romanization": "khule tār se dūr rahiye.",
+      "bangla_pronunciation": "খুলে তার সে দূর রহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "खुले",
+          "bangla_pronunciation": "খুলে",
+          "romanization": "khule",
+          "separator_after": " "
+        },
+        {
+          "target": "तार",
+          "bangla_pronunciation": "তার",
+          "romanization": "taar",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "romanization": "se",
+          "separator_after": " "
+        },
+        {
+          "target": "दूर",
+          "bangla_pronunciation": "দূর",
+          "romanization": "door",
+          "separator_after": " "
+        },
+        {
+          "target": "रहिए।",
+          "bangla_pronunciation": "রহিয়ে।",
+          "romanization": "rahie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খোলা তার থেকে দূরে থাকুন।"
+    },
+    {
+      "id": "ch028_s06",
+      "target": "गर्मी में पानी पीजिए।",
+      "romanization": "garmī mẽ pānī pījiye.",
+      "bangla_pronunciation": "গরমী মেঁ পানী পীজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "गर्मी",
+          "bangla_pronunciation": "গরমী",
+          "romanization": "garmi",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানী",
+          "romanization": "paani",
+          "separator_after": " "
+        },
+        {
+          "target": "पीजिए।",
+          "bangla_pronunciation": "পীজিয়ে।",
+          "romanization": "peejie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গরমে পানি পান করুন।"
+    },
+    {
+      "id": "ch028_s07",
+      "target": "तेज धूप से बचिए।",
+      "romanization": "tez dhūp se baciye.",
+      "bangla_pronunciation": "তেজ ধূপ সে বচিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "तेज",
+          "bangla_pronunciation": "তেজ",
+          "romanization": "tej",
+          "separator_after": " "
+        },
+        {
+          "target": "धूप",
+          "bangla_pronunciation": "ধূপ",
+          "romanization": "dhoop",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "romanization": "se",
+          "separator_after": " "
+        },
+        {
+          "target": "बचिए।",
+          "bangla_pronunciation": "বচিয়ে।",
+          "romanization": "bachie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তীব্র রোদ এড়িয়ে চলুন।"
+    },
+    {
+      "id": "ch028_s08",
+      "target": "प्रदूषण में बाहर कम रहें।",
+      "romanization": "pradūṣaṇ mẽ bāhar kam rahẽ.",
+      "bangla_pronunciation": "প্রদূষণ মেঁ বাহর কম রহেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "प्रदूषण",
+          "bangla_pronunciation": "প্রদূষণ",
+          "romanization": "pradūṣaṇ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "बाहर",
+          "bangla_pronunciation": "বাহর",
+          "romanization": "baahar",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "romanization": "km",
+          "separator_after": " "
+        },
+        {
+          "target": "रहें।",
+          "bangla_pronunciation": "রহেঁ।",
+          "romanization": "rahen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দূষণে বাইরে কম থাকুন।"
+    },
+    {
+      "id": "ch028_s09",
+      "target": "बुजुर्गों का ध्यान रखें।",
+      "romanization": "buzurgõ kā dhyān rakhẽ.",
+      "bangla_pronunciation": "বুজুর্গোঁ কা ধ্যান রাখেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "बुजुर्गों",
+          "bangla_pronunciation": "বুজুর্গোঁ",
+          "romanization": "bujurgon",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "romanization": "kaa",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রাখেঁ।",
+          "romanization": "rakhen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বয়স্কদের খেয়াল রাখুন।"
+    },
+    {
+      "id": "ch028_s10",
+      "target": "आपातकालीन नंबर सेव रखिए।",
+      "romanization": "āpātkālīn number sev rakhiye.",
+      "bangla_pronunciation": "আপাৎকালীন নম্বর সেভ রাখিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "आपातकालीन",
+          "bangla_pronunciation": "আপাৎকালীন",
+          "romanization": "aapaatkaaleen",
+          "separator_after": " "
+        },
+        {
+          "target": "नंबर",
+          "bangla_pronunciation": "নম্বর",
+          "romanization": "nambar",
+          "separator_after": " "
+        },
+        {
+          "target": "सेव",
+          "bangla_pronunciation": "সেভ",
+          "romanization": "sev",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রাখিয়ে।",
+          "romanization": "rakhie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "জরুরি নম্বর সেভ রাখুন।"
+    },
+    {
+      "id": "ch028_s11",
+      "target": "राहत केंद्र कहाँ है?",
+      "romanization": "rāhat kendra kahā̃ hai?",
+      "bangla_pronunciation": "রাহত কেন্দ্র কহাঁ হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "राहत",
+          "bangla_pronunciation": "রাহত",
+          "romanization": "raahat",
+          "separator_after": " "
+        },
+        {
+          "target": "केंद्र",
+          "bangla_pronunciation": "কেন্দ্র",
+          "romanization": "kendr",
+          "separator_after": " "
+        },
+        {
+          "target": "कहाँ",
+          "bangla_pronunciation": "কহাঁ",
+          "romanization": "kahaan",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "romanization": "hai?",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ত্রাণকেন্দ্র কোথায়?"
+    },
+    {
+      "id": "ch028_s12",
+      "target": "सुरक्षित रास्ता तय करें।",
+      "romanization": "surakṣit rāstā tay karẽ.",
+      "bangla_pronunciation": "সুরক্ষিত রাস্তা তয় করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "सुरक्षित",
+          "bangla_pronunciation": "সুরক্ষিত",
+          "romanization": "surakshit",
+          "separator_after": " "
+        },
+        {
+          "target": "रास्ता",
+          "bangla_pronunciation": "রাস্তা",
+          "romanization": "raasta",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয়",
+          "romanization": "tay",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপদ পথ ঠিক করুন।"
+    },
+    {
+      "id": "ch028_s13",
+      "target": "अफवाह पर भरोसा मत करें।",
+      "romanization": "afvāh par bharosā mat karẽ.",
+      "bangla_pronunciation": "অফবাহ পর ভরোসা মত করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "अफवाह",
+          "bangla_pronunciation": "অফবাহ",
+          "romanization": "aphavaah",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "romanization": "par",
+          "separator_after": " "
+        },
+        {
+          "target": "भरोसा",
+          "bangla_pronunciation": "ভরোসা",
+          "romanization": "bhrosaa",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "romanization": "mat",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গুজবে বিশ্বাস করবেন না।"
+    },
+    {
+      "id": "ch028_s14",
+      "target": "आधिकारिक सूचना साझा करें।",
+      "romanization": "ādhikārik sūcnā sānjhā karẽ.",
+      "bangla_pronunciation": "আধিকারিক সূচনা সাঝা করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "आधिकारिक",
+          "bangla_pronunciation": "আধিকারিক",
+          "romanization": "aadhikaarik",
+          "separator_after": " "
+        },
+        {
+          "target": "सूचना",
+          "bangla_pronunciation": "সূচনা",
+          "romanization": "suuchana",
+          "separator_after": " "
+        },
+        {
+          "target": "साझा",
+          "bangla_pronunciation": "সাঝা",
+          "romanization": "saajhaa",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আনুষ্ঠানিক তথ্য শেয়ার করুন।"
+    },
+    {
+      "id": "ch028_s15",
+      "target": "पड़ोसी की मदद कीजिए।",
+      "romanization": "paṛosī kī madad kījiye.",
+      "bangla_pronunciation": "পড়োসী কী মদদ কীজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "पड़ोसी",
+          "bangla_pronunciation": "পড়োসী",
+          "romanization": "padosi",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "मदद",
+          "bangla_pronunciation": "মদদ",
+          "romanization": "madad",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রতিবেশীকে সাহায্য করুন।"
+    },
+    {
+      "id": "ch028_s16",
+      "target": "गंदे पानी में मत जाइए।",
+      "romanization": "gande pānī mẽ mat jāiye.",
+      "bangla_pronunciation": "গন্দে পানী মেঁ মত জাইয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "गंदे",
+          "bangla_pronunciation": "গন্দে",
+          "romanization": "gande",
+          "separator_after": " "
+        },
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানী",
+          "romanization": "paani",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "romanization": "mat",
+          "separator_after": " "
+        },
+        {
+          "target": "जाइए।",
+          "bangla_pronunciation": "জাইয়ে।",
+          "romanization": "jaaie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নোংরা পানিতে যাবেন না।"
+    },
+    {
+      "id": "ch028_s17",
+      "target": "पीने का पानी ढकिए।",
+      "romanization": "pīne kā pānī ḍhakiye.",
+      "bangla_pronunciation": "পীনে কা পানী ঢকিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "पीने",
+          "bangla_pronunciation": "পীনে",
+          "romanization": "peene",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "romanization": "kaa",
+          "separator_after": " "
+        },
+        {
+          "target": "पानी",
+          "bangla_pronunciation": "পানী",
+          "romanization": "paani",
+          "separator_after": " "
+        },
+        {
+          "target": "ढकिए।",
+          "bangla_pronunciation": "ঢকিয়ে।",
+          "romanization": "dhakie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পানীয় পানি ঢেকে রাখুন।"
+    },
+    {
+      "id": "ch028_s18",
+      "target": "स्थिति पहले जाँचिए।",
+      "romanization": "sthiti pahle jāñciye.",
+      "bangla_pronunciation": "স্থিতি পহলে জাঁচিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "स्थिति",
+          "bangla_pronunciation": "স্থিতি",
+          "romanization": "sthiti",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "romanization": "phle",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचिए।",
+          "bangla_pronunciation": "জাঁচিয়ে।",
+          "romanization": "jaaNcie /",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আগে পরিস্থিতি যাচাই করুন।"
+    },
+    {
+      "id": "ch028_s19",
+      "target": "सुरक्षित जगह पर रहिए।",
+      "romanization": "surakṣit jagah par rahiye.",
+      "bangla_pronunciation": "সুরক্ষিত জগহ পর রহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "सुरक्षित",
+          "bangla_pronunciation": "সুরক্ষিত",
+          "romanization": "surakshit",
+          "separator_after": " "
+        },
+        {
+          "target": "जगह",
+          "bangla_pronunciation": "জগহ",
+          "romanization": "jagah",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "romanization": "par",
+          "separator_after": " "
+        },
+        {
+          "target": "रहिए।",
+          "bangla_pronunciation": "রহিয়ে।",
+          "romanization": "rahie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপদ জায়গায় থাকুন।"
+    },
+    {
+      "id": "ch028_s20",
+      "target": "तैयारी घबराहट कम करती है।",
+      "romanization": "taiyārī ghabrāhaṭ kam kartī hai.",
+      "bangla_pronunciation": "তৈয়ারী ঘবরাহাট কম করতী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "तैयारी",
+          "bangla_pronunciation": "তৈয়ারী",
+          "romanization": "taiyārī",
+          "separator_after": " "
+        },
+        {
+          "target": "घबराहट",
+          "bangla_pronunciation": "ঘবরাহাট",
+          "romanization": "ghabaraahat",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "romanization": "km",
+          "separator_after": " "
+        },
+        {
+          "target": "करती",
+          "bangla_pronunciation": "করতী",
+          "romanization": "karatee",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রস্তুতি আতঙ্ক কমায়।"
+    }
   ],
-  "bridge_reading":{"mode":"story","title_bengali":"বৃষ্টির পর সতর্কতা","scene_summary":"বৃষ্টির পরে একটি পরিবার নিরাপত্তা প্রস্তুতি নেয়।","segments":[
-    {"kind":"bangla","text":"বৃষ্টির পরে দেখা গেল, "},
-    {"kind":"target","target":"सड़क पर पानी है।","bangla_pronunciation":"সড়ক পর পানী হ্যায়।","word_pronunciations":[{"target":"सड़क","bangla_pronunciation":"সড়ক","separator_after":" "},{"target":"पर","bangla_pronunciation":"পর","separator_after":" "},{"target":"पानी","bangla_pronunciation":"পানী","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}]},
-    {"kind":"bangla","text":" পরিবারটি শুনল, "},
-    {"kind":"target","target":"चेतावनी ध्यान से सुनिए।","bangla_pronunciation":"চেতাবনী ধ্যান সে সুনিয়ে।","word_pronunciations":[{"target":"चेतावनी","bangla_pronunciation":"চেতাবনী","separator_after":" "},{"target":"ध्यान","bangla_pronunciation":"ধ্যান","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"सुनिए।","bangla_pronunciation":"সুনিয়ে।","separator_after":""}]},
-    {"kind":"bangla","text":" তারা মনে রাখল, "},
-    {"kind":"target","target":"खुले तार से दूर रहिए।","bangla_pronunciation":"খুলে তার সে দূর রহিয়ে।","word_pronunciations":[{"target":"खुले","bangla_pronunciation":"খুলে","separator_after":" "},{"target":"तार","bangla_pronunciation":"তার","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"दूर","bangla_pronunciation":"দূর","separator_after":" "},{"target":"रहिए।","bangla_pronunciation":"রহিয়ে।","separator_after":""}]},
-    {"kind":"bangla","text":" এবং সিদ্ধান্ত নিল, "},
-    {"kind":"target","target":"सुरक्षित जगह पर रहिए।","bangla_pronunciation":"সুরক্ষিত জগহ পর রহিয়ে।","word_pronunciations":[{"target":"सुरक्षित","bangla_pronunciation":"সুরক্ষিত","separator_after":" "},{"target":"जगह","bangla_pronunciation":"জগহ","separator_after":" "},{"target":"पर","bangla_pronunciation":"পর","separator_after":" "},{"target":"रहिए।","bangla_pronunciation":"রহিয়ে।","separator_after":""}]}
-  ],"text_md":"বৃষ্টির পরে দেখা গেল, **सड़क** (সড়ক) **पर** (পর) **पानी** (পানী) **है।** (হ্যায়।) পরিবারটি শুনল, **चेतावनी** (চেতাবনী) **ध्यान** (ধ্যান) **से** (সে) **सुनिए।** (সুনিয়ে।) তারা মনে রাখল, **खुले** (খুলে) **तार** (তার) **से** (সে) **दूर** (দূর) **रहिए।** (রহিয়ে।) এবং সিদ্ধান্ত নিল, **सुरक्षित** (সুরক্ষিত) **जगह** (জগহ) **पर** (পর) **रहिए।** (রহিয়ে।)"},
-  "target_reading":{"mode":"story","title_bengali":"নিরাপদ প্রস্তুতি","scene_summary":"একটি পরিবার বৃষ্টির পরে নিরাপদে থাকে।","lines":[
-    {"target":"रात में बारिश हुई।","bangla_pronunciation":"রাত মেঁ বারিশ হুঈ।","word_pronunciations":[{"target":"रात","bangla_pronunciation":"রাত","separator_after":" "},{"target":"में","bangla_pronunciation":"মেঁ","separator_after":" "},{"target":"बारिश","bangla_pronunciation":"বারিশ","separator_after":" "},{"target":"हुई।","bangla_pronunciation":"হুঈ।","separator_after":""}]},
-    {"target":"परिवार ने सामान उठाया।","bangla_pronunciation":"পরিবার নে সামান উঠায়া।","word_pronunciations":[{"target":"परिवार","bangla_pronunciation":"পরিবার","separator_after":" "},{"target":"ने","bangla_pronunciation":"নে","separator_after":" "},{"target":"सामान","bangla_pronunciation":"সামান","separator_after":" "},{"target":"उठाया।","bangla_pronunciation":"উঠায়া।","separator_after":""}]},
-    {"target":"सबने रास्ता जाँचा।","bangla_pronunciation":"সবনে রাস্তা জাঁচা।","word_pronunciations":[{"target":"सबने","bangla_pronunciation":"সবনে","separator_after":" "},{"target":"रास्ता","bangla_pronunciation":"রাস্তা","separator_after":" "},{"target":"जाँचा।","bangla_pronunciation":"জাঁচা।","separator_after":""}]},
-    {"target":"वे सुरक्षित जगह रहे।","bangla_pronunciation":"বে সুরক্ষিত জগহ রহে।","word_pronunciations":[{"target":"वे","bangla_pronunciation":"বে","separator_after":" "},{"target":"सुरक्षित","bangla_pronunciation":"সুরক্ষিত","separator_after":" "},{"target":"जगह","bangla_pronunciation":"জগহ","separator_after":" "},{"target":"रहे।","bangla_pronunciation":"রহে।","separator_after":""}]}
-  ],"bangla_pronunciation":"রাত মেঁ বারিশ হুঈ। পরিবার নে সামান উঠায়া। সবনে রাস্তা জাঁচা। বে সুরক্ষিত জগহ রহে।","meaning_bengali_md":"রাতে বৃষ্টি হলো। পরিবার জিনিস উঁচুতে তুলল। সবাই পথ যাচাই করল। তারা নিরাপদ জায়গায় থাকল।"},
-  "script_practice":[
-    {"item_id":"dev_kta","mode":"review","target":"क्त","bangla_pronunciation":"ক্ত","explanation_bengali_md":"`क्त` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`क्त` দেখে ক্ত বলুন।"},
-    {"item_id":"dev_pta","mode":"review","target":"प्त","bangla_pronunciation":"প্ত","explanation_bengali_md":"`प्त` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`प्त` দেখে প্ত বলুন।"},
-    {"item_id":"dev_nda","mode":"review","target":"न्द","bangla_pronunciation":"ন্দ","explanation_bengali_md":"`न्द` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`न्द` দেখে ন্দ বলুন।"},
-    {"item_id":"dev_mpa","mode":"review","target":"म्प","bangla_pronunciation":"ম্প","explanation_bengali_md":"`म्प` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`म्प` দেখে ম্প বলুন।"},
-    {"item_id":"dev_rta","mode":"review","target":"र्त","bangla_pronunciation":"র্ত","explanation_bengali_md":"`र्त` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`र्त` দেখে র্ত বলুন।"}
+  "vocabulary": [
+    {
+      "id": "ch028_v01",
+      "target": "बाढ़",
+      "type": "noun",
+      "romanization": "bāṛh",
+      "bangla_pronunciation": "বাঢ়",
+      "word_pronunciations": [
+        {
+          "target": "बाढ़",
+          "bangla_pronunciation": "বাঢ়",
+          "romanization": "bāṛh",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বন্যা।",
+      "source_sentence_id": "ch028_s02",
+      "source_form": "बाढ़"
+    },
+    {
+      "id": "ch028_v02",
+      "target": "खतरा",
+      "type": "noun",
+      "romanization": "khatrā",
+      "bangla_pronunciation": "খতরা",
+      "word_pronunciations": [
+        {
+          "target": "खतरा",
+          "bangla_pronunciation": "খতরা",
+          "romanization": "khatrā",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঝুঁকি।",
+      "source_sentence_id": "ch028_s02",
+      "source_form": "खतरा"
+    },
+    {
+      "id": "ch028_v03",
+      "target": "चेतावनी",
+      "type": "noun",
+      "romanization": "cetāvanī",
+      "bangla_pronunciation": "চেতাবনী",
+      "word_pronunciations": [
+        {
+          "target": "चेतावनी",
+          "bangla_pronunciation": "চেতাবনী",
+          "romanization": "chetaavanee",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সতর্কবার্তা।",
+      "source_sentence_id": "ch028_s03",
+      "source_form": "चेतावनी"
+    },
+    {
+      "id": "ch028_v04",
+      "target": "प्रदूषण",
+      "type": "noun",
+      "romanization": "pradūṣaṇ",
+      "bangla_pronunciation": "প্রদূষণ",
+      "word_pronunciations": [
+        {
+          "target": "प्रदूषण",
+          "bangla_pronunciation": "প্রদূষণ",
+          "romanization": "pradūṣaṇ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দূষণ।",
+      "source_sentence_id": "ch028_s08",
+      "source_form": "प्रदूषण"
+    },
+    {
+      "id": "ch028_v05",
+      "target": "तैयारी",
+      "type": "noun",
+      "romanization": "taiyārī",
+      "bangla_pronunciation": "তৈয়ারী",
+      "word_pronunciations": [
+        {
+          "target": "तैयारी",
+          "bangla_pronunciation": "তৈয়ারী",
+          "romanization": "taiyārī",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রস্তুতি।",
+      "source_sentence_id": "ch028_s20",
+      "source_form": "तैयारी"
+    }
   ],
-  "number_practice":[
-    {"display":"40 / ४०","target":"चालीस","bangla_pronunciation":"চালীস","word_pronunciations":[{"target":"चालीस","bangla_pronunciation":"চালীস","separator_after":""}],"meaning_bengali_md":"৪০ — চল্লিশ।","system":"international + devanagari"},
-    {"display":"80 / ८०","target":"अस्सी","bangla_pronunciation":"অস্সী","word_pronunciations":[{"target":"अस्सी","bangla_pronunciation":"অস্সী","separator_after":""}],"meaning_bengali_md":"৮০ — আশি।","system":"international + devanagari"}
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "বৃষ্টির পর সতর্কতা",
+    "scene_summary": "বৃষ্টির পরে একটি পরিবার নিরাপত্তা প্রস্তুতি নেয়।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "বৃষ্টির পরে দেখা গেল, "
+      },
+      {
+        "kind": "target",
+        "target": "सड़क पर पानी है।",
+        "bangla_pronunciation": "সড়ক পর পানী হ্যায়।",
+        "romanization": "saṛak par pānī hai.",
+        "word_pronunciations": [
+          {
+            "target": "सड़क",
+            "bangla_pronunciation": "সড়ক",
+            "romanization": "sarak",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "romanization": "par",
+            "separator_after": " "
+          },
+          {
+            "target": "पानी",
+            "bangla_pronunciation": "পানী",
+            "romanization": "paani",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " পরিবারটি শুনল, "
+      },
+      {
+        "kind": "target",
+        "target": "चेतावनी ध्यान से सुनिए।",
+        "bangla_pronunciation": "চেতাবনী ধ্যান সে সুনিয়ে।",
+        "romanization": "cetāvanī dhyān se suniye.",
+        "word_pronunciations": [
+          {
+            "target": "चेतावनी",
+            "bangla_pronunciation": "চেতাবনী",
+            "romanization": "chetaavanee",
+            "separator_after": " "
+          },
+          {
+            "target": "ध्यान",
+            "bangla_pronunciation": "ধ্যান",
+            "romanization": "dhyaan",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "romanization": "se",
+            "separator_after": " "
+          },
+          {
+            "target": "सुनिए।",
+            "bangla_pronunciation": "সুনিয়ে।",
+            "romanization": "sunie.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " তারা মনে রাখল, "
+      },
+      {
+        "kind": "target",
+        "target": "खुले तार से दूर रहिए।",
+        "bangla_pronunciation": "খুলে তার সে দূর রহিয়ে।",
+        "romanization": "khule tār se dūr rahiye.",
+        "word_pronunciations": [
+          {
+            "target": "खुले",
+            "bangla_pronunciation": "খুলে",
+            "romanization": "khule",
+            "separator_after": " "
+          },
+          {
+            "target": "तार",
+            "bangla_pronunciation": "তার",
+            "romanization": "taar",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "romanization": "se",
+            "separator_after": " "
+          },
+          {
+            "target": "दूर",
+            "bangla_pronunciation": "দূর",
+            "romanization": "door",
+            "separator_after": " "
+          },
+          {
+            "target": "रहिए।",
+            "bangla_pronunciation": "রহিয়ে।",
+            "romanization": "rahie.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " এবং সিদ্ধান্ত নিল, "
+      },
+      {
+        "kind": "target",
+        "target": "सुरक्षित जगह पर रहिए।",
+        "bangla_pronunciation": "সুরক্ষিত জগহ পর রহিয়ে।",
+        "romanization": "surakṣit jagah par rahiye.",
+        "word_pronunciations": [
+          {
+            "target": "सुरक्षित",
+            "bangla_pronunciation": "সুরক্ষিত",
+            "romanization": "surakshit",
+            "separator_after": " "
+          },
+          {
+            "target": "जगह",
+            "bangla_pronunciation": "জগহ",
+            "romanization": "jagah",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "romanization": "par",
+            "separator_after": " "
+          },
+          {
+            "target": "रहिए।",
+            "bangla_pronunciation": "রহিয়ে।",
+            "romanization": "rahie.",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "বৃষ্টির পরে দেখা গেল, **सड़क** (সড়ক, sarak) **पर** (পর, par) **पानी** (পানী, paani) **है।** (হ্যায়।, hai\\.) পরিবারটি শুনল, **चेतावनी** (চেতাবনী, chetaavanee) **ध्यान** (ধ্যান, dhyaan) **से** (সে, se) **सुनिए।** (সুনিয়ে।, sunie\\.) তারা মনে রাখল, **खुले** (খুলে, khule) **तार** (তার, taar) **से** (সে, se) **दूर** (দূর, door) **रहिए।** (রহিয়ে।, rahie\\.) এবং সিদ্ধান্ত নিল, **सुरक्षित** (সুরক্ষিত, surakshit) **जगह** (জগহ, jagah) **पर** (পর, par) **रहिए।** (রহিয়ে।, rahie\\.)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "নিরাপদ প্রস্তুতি",
+    "scene_summary": "একটি পরিবার বৃষ্টির পরে নিরাপদে থাকে।",
+    "lines": [
+      {
+        "target": "रात में बारिश हुई।",
+        "bangla_pronunciation": "রাত মেঁ বারিশ হুঈ।",
+        "romanization": "raata men baarisha huee.",
+        "word_pronunciations": [
+          {
+            "target": "रात",
+            "bangla_pronunciation": "রাত",
+            "romanization": "raat",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "romanization": "men",
+            "separator_after": " "
+          },
+          {
+            "target": "बारिश",
+            "bangla_pronunciation": "বারিশ",
+            "romanization": "baarish",
+            "separator_after": " "
+          },
+          {
+            "target": "हुई।",
+            "bangla_pronunciation": "হুঈ।",
+            "romanization": "huee.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "परिवार ने सामान उठाया।",
+        "bangla_pronunciation": "পরিবার নে সামান উঠায়া।",
+        "romanization": "parivaara ne saamaana uthaayaa.",
+        "word_pronunciations": [
+          {
+            "target": "परिवार",
+            "bangla_pronunciation": "পরিবার",
+            "romanization": "parivaar",
+            "separator_after": " "
+          },
+          {
+            "target": "ने",
+            "bangla_pronunciation": "নে",
+            "romanization": "ne",
+            "separator_after": " "
+          },
+          {
+            "target": "सामान",
+            "bangla_pronunciation": "সামান",
+            "romanization": "saamaan",
+            "separator_after": " "
+          },
+          {
+            "target": "उठाया।",
+            "bangla_pronunciation": "উঠায়া।",
+            "romanization": "uthaayaa.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "सबने रास्ता जाँचा।",
+        "bangla_pronunciation": "সবনে রাস্তা জাঁচা।",
+        "romanization": "sabane raastaa jaanchaa.",
+        "word_pronunciations": [
+          {
+            "target": "सबने",
+            "bangla_pronunciation": "সবনে",
+            "romanization": "sabane",
+            "separator_after": " "
+          },
+          {
+            "target": "रास्ता",
+            "bangla_pronunciation": "রাস্তা",
+            "romanization": "raasta",
+            "separator_after": " "
+          },
+          {
+            "target": "जाँचा।",
+            "bangla_pronunciation": "জাঁচা।",
+            "romanization": "jaanchaa.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "वे सुरक्षित जगह रहे।",
+        "bangla_pronunciation": "বে সুরক্ষিত জগহ রহে।",
+        "romanization": "ve surakshita jagaha rahe.",
+        "word_pronunciations": [
+          {
+            "target": "वे",
+            "bangla_pronunciation": "বে",
+            "romanization": "ve",
+            "separator_after": " "
+          },
+          {
+            "target": "सुरक्षित",
+            "bangla_pronunciation": "সুরক্ষিত",
+            "romanization": "surakshit",
+            "separator_after": " "
+          },
+          {
+            "target": "जगह",
+            "bangla_pronunciation": "জগহ",
+            "romanization": "jagah",
+            "separator_after": " "
+          },
+          {
+            "target": "रहे।",
+            "bangla_pronunciation": "রহে।",
+            "romanization": "rahe.",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "রাত মেঁ বারিশ হুঈ। পরিবার নে সামান উঠায়া। সবনে রাস্তা জাঁচা। বে সুরক্ষিত জগহ রহে।",
+    "romanization": "raata men baarisha huee. parivaara ne saamaana uthaayaa. sabane raastaa jaanchaa. ve surakshita jagaha rahe.",
+    "meaning_bengali_md": "রাতে বৃষ্টি হলো। পরিবার জিনিস উঁচুতে তুলল। সবাই পথ যাচাই করল। তারা নিরাপদ জায়গায় থাকল।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_kta",
+      "mode": "review",
+      "target": "क्त",
+      "bangla_pronunciation": "ক্ত",
+      "romanization": "kta",
+      "explanation_bengali_md": "`क्त` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`क्त` দেখে ক্ত বলুন।"
+    },
+    {
+      "item_id": "dev_pta",
+      "mode": "review",
+      "target": "प्त",
+      "bangla_pronunciation": "প্ত",
+      "romanization": "pta",
+      "explanation_bengali_md": "`प्त` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`प्त` দেখে প্ত বলুন।"
+    },
+    {
+      "item_id": "dev_nda",
+      "mode": "review",
+      "target": "न्द",
+      "bangla_pronunciation": "ন্দ",
+      "romanization": "nda",
+      "explanation_bengali_md": "`न्द` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`न्द` দেখে ন্দ বলুন।"
+    },
+    {
+      "item_id": "dev_mpa",
+      "mode": "review",
+      "target": "म्प",
+      "bangla_pronunciation": "ম্প",
+      "romanization": "mpa",
+      "explanation_bengali_md": "`म्प` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`म्प` দেখে ম্প বলুন।"
+    },
+    {
+      "item_id": "dev_rta",
+      "mode": "review",
+      "target": "र्त",
+      "bangla_pronunciation": "র্ত",
+      "romanization": "rta",
+      "explanation_bengali_md": "`र्त` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`र्त` দেখে র্ত বলুন।"
+    }
   ],
-  "speaking_practice":[
-    {"prompt_bengali_md":"বন্যার ঝুঁকি বলুন।","model_target":"बाढ़ का खतरा है।","model_bangla_pronunciation":"বাঢ় কা খতরা হ্যায়।","model_word_pronunciations":[{"target":"बाढ़","bangla_pronunciation":"বাঢ়","separator_after":" "},{"target":"का","bangla_pronunciation":"কা","separator_after":" "},{"target":"खतरा","bangla_pronunciation":"খতরা","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"model_meaning_bengali_md":"বন্যার ঝুঁকি আছে।"},
-    {"prompt_bengali_md":"সতর্কতা শুনতে বলুন।","model_target":"चेतावनी ध्यान से सुनिए।","model_bangla_pronunciation":"চেতাবনী ধ্যান সে সুনিয়ে।","model_word_pronunciations":[{"target":"चेतावनी","bangla_pronunciation":"চেতাবনী","separator_after":" "},{"target":"ध्यान","bangla_pronunciation":"ধ্যান","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"सुनिए।","bangla_pronunciation":"সুনিয়ে।","separator_after":""}],"model_meaning_bengali_md":"সতর্কবার্তা মনোযোগ দিয়ে শুনুন।"},
-    {"prompt_bengali_md":"খোলা তার থেকে দূরে থাকতে বলুন।","model_target":"खुले तार से दूर रहिए।","model_bangla_pronunciation":"খুলে তার সে দূর রহিয়ে।","model_word_pronunciations":[{"target":"खुले","bangla_pronunciation":"খুলে","separator_after":" "},{"target":"तार","bangla_pronunciation":"তার","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"दूर","bangla_pronunciation":"দূর","separator_after":" "},{"target":"रहिए।","bangla_pronunciation":"রহিয়ে।","separator_after":""}],"model_meaning_bengali_md":"খোলা তার থেকে দূরে থাকুন।"},
-    {"prompt_bengali_md":"জরুরি নম্বর রাখতে বলুন।","model_target":"आपातकालीन नंबर सेव रखिए।","model_bangla_pronunciation":"আপাৎকালীন নম্বর সেভ রাখিয়ে।","model_word_pronunciations":[{"target":"आपातकालीन","bangla_pronunciation":"আপাৎকালীন","separator_after":" "},{"target":"नंबर","bangla_pronunciation":"নম্বর","separator_after":" "},{"target":"सेव","bangla_pronunciation":"সেভ","separator_after":" "},{"target":"रखिए।","bangla_pronunciation":"রাখিয়ে।","separator_after":""}],"model_meaning_bengali_md":"জরুরি নম্বর সেভ রাখুন।"},
-    {"prompt_bengali_md":"গুজবে বিশ্বাস না করতে বলুন।","model_target":"अफवाह पर भरोसा मत करें।","model_bangla_pronunciation":"অফবাহ পর ভরোসা মত করেঁ।","model_word_pronunciations":[{"target":"अफवाह","bangla_pronunciation":"অফবাহ","separator_after":" "},{"target":"पर","bangla_pronunciation":"পর","separator_after":" "},{"target":"भरोसा","bangla_pronunciation":"ভরোসা","separator_after":" "},{"target":"मत","bangla_pronunciation":"মত","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেঁ।","separator_after":""}],"model_meaning_bengali_md":"গুজবে বিশ্বাস করবেন না।"},
-    {"prompt_bengali_md":"প্রস্তুতির উপকার বলুন।","model_target":"तैयारी घबराहट कम करती है।","model_bangla_pronunciation":"তৈয়ারী ঘবরাহাট কম করতী হ্যায়।","model_word_pronunciations":[{"target":"तैयारी","bangla_pronunciation":"তৈয়ারী","separator_after":" "},{"target":"घबराहट","bangla_pronunciation":"ঘবরাহাট","separator_after":" "},{"target":"कम","bangla_pronunciation":"কম","separator_after":" "},{"target":"करती","bangla_pronunciation":"করতী","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"model_meaning_bengali_md":"প্রস্তুতি আতঙ্ক কমায়।"}
+  "number_practice": [
+    {
+      "display": "40 / ४०",
+      "target": "चालीस",
+      "bangla_pronunciation": "চালীস",
+      "romanization": "chaalees",
+      "word_pronunciations": [
+        {
+          "target": "चालीस",
+          "bangla_pronunciation": "চালীস",
+          "romanization": "chaalees",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "৪০ — চল্লিশ।",
+      "system": "international + devanagari"
+    },
+    {
+      "display": "80 / ८०",
+      "target": "अस्सी",
+      "bangla_pronunciation": "অস্সী",
+      "romanization": "assee",
+      "word_pronunciations": [
+        {
+          "target": "अस्सी",
+          "bangla_pronunciation": "অস্সী",
+          "romanization": "assee",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "৮০ — আশি।",
+      "system": "international + devanagari"
+    }
   ],
-  "image_prompts":[
-    {"key":"ch028_bridge_reading_01","reading":"bridge_reading","subject":"A South Asian family preparing safely after heavy rain, moving essentials higher and checking a phone alert, bright home interior. No readable text, no labels, no signage, no watermark.","style":"Bright warm editorial illustration with natural adult characters and uncluttered scenes"},
-    {"key":"ch028_target_reading_01","reading":"target_reading","subject":"A family staying on a safe route during a flooded morning, calm practical public-safety scene. No readable text, no labels, no signage, no watermark.","style":"Bright warm editorial illustration with natural adult characters and uncluttered scenes"}
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "বন্যার ঝুঁকি বলুন।",
+      "model_target": "बाढ़ का खतरा है।",
+      "model_bangla_pronunciation": "বাঢ় কা খতরা হ্যায়।",
+      "model_romanization": "bāṛh kā khatrā hai.",
+      "model_word_pronunciations": [
+        {
+          "target": "बाढ़",
+          "bangla_pronunciation": "বাঢ়",
+          "romanization": "bāṛh",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "romanization": "kaa",
+          "separator_after": " "
+        },
+        {
+          "target": "खतरा",
+          "bangla_pronunciation": "খতরা",
+          "romanization": "khatrā",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "বন্যার ঝুঁকি আছে।"
+    },
+    {
+      "prompt_bengali_md": "সতর্কতা শুনতে বলুন।",
+      "model_target": "चेतावनी ध्यान से सुनिए।",
+      "model_bangla_pronunciation": "চেতাবনী ধ্যান সে সুনিয়ে।",
+      "model_romanization": "cetāvanī dhyān se suniye.",
+      "model_word_pronunciations": [
+        {
+          "target": "चेतावनी",
+          "bangla_pronunciation": "চেতাবনী",
+          "romanization": "chetaavanee",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "romanization": "se",
+          "separator_after": " "
+        },
+        {
+          "target": "सुनिए।",
+          "bangla_pronunciation": "সুনিয়ে।",
+          "romanization": "sunie.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "সতর্কবার্তা মনোযোগ দিয়ে শুনুন।"
+    },
+    {
+      "prompt_bengali_md": "খোলা তার থেকে দূরে থাকতে বলুন।",
+      "model_target": "खुले तार से दूर रहिए।",
+      "model_bangla_pronunciation": "খুলে তার সে দূর রহিয়ে।",
+      "model_romanization": "khule tār se dūr rahiye.",
+      "model_word_pronunciations": [
+        {
+          "target": "खुले",
+          "bangla_pronunciation": "খুলে",
+          "romanization": "khule",
+          "separator_after": " "
+        },
+        {
+          "target": "तार",
+          "bangla_pronunciation": "তার",
+          "romanization": "taar",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "romanization": "se",
+          "separator_after": " "
+        },
+        {
+          "target": "दूर",
+          "bangla_pronunciation": "দূর",
+          "romanization": "door",
+          "separator_after": " "
+        },
+        {
+          "target": "रहिए।",
+          "bangla_pronunciation": "রহিয়ে।",
+          "romanization": "rahie.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "খোলা তার থেকে দূরে থাকুন।"
+    },
+    {
+      "prompt_bengali_md": "জরুরি নম্বর রাখতে বলুন।",
+      "model_target": "आपातकालीन नंबर सेव रखिए।",
+      "model_bangla_pronunciation": "আপাৎকালীন নম্বর সেভ রাখিয়ে।",
+      "model_romanization": "āpātkālīn number sev rakhiye.",
+      "model_word_pronunciations": [
+        {
+          "target": "आपातकालीन",
+          "bangla_pronunciation": "আপাৎকালীন",
+          "romanization": "aapaatkaaleen",
+          "separator_after": " "
+        },
+        {
+          "target": "नंबर",
+          "bangla_pronunciation": "নম্বর",
+          "romanization": "nambar",
+          "separator_after": " "
+        },
+        {
+          "target": "सेव",
+          "bangla_pronunciation": "সেভ",
+          "romanization": "sev",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রাখিয়ে।",
+          "romanization": "rakhie.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "জরুরি নম্বর সেভ রাখুন।"
+    },
+    {
+      "prompt_bengali_md": "গুজবে বিশ্বাস না করতে বলুন।",
+      "model_target": "अफवाह पर भरोसा मत करें।",
+      "model_bangla_pronunciation": "অফবাহ পর ভরোসা মত করেঁ।",
+      "model_romanization": "afvāh par bharosā mat karẽ.",
+      "model_word_pronunciations": [
+        {
+          "target": "अफवाह",
+          "bangla_pronunciation": "অফবাহ",
+          "romanization": "aphavaah",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "romanization": "par",
+          "separator_after": " "
+        },
+        {
+          "target": "भरोसा",
+          "bangla_pronunciation": "ভরোসা",
+          "romanization": "bhrosaa",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "romanization": "mat",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "গুজবে বিশ্বাস করবেন না।"
+    },
+    {
+      "prompt_bengali_md": "প্রস্তুতির উপকার বলুন।",
+      "model_target": "तैयारी घबराहट कम करती है।",
+      "model_bangla_pronunciation": "তৈয়ারী ঘবরাহাট কম করতী হ্যায়।",
+      "model_romanization": "taiyārī ghabrāhaṭ kam kartī hai.",
+      "model_word_pronunciations": [
+        {
+          "target": "तैयारी",
+          "bangla_pronunciation": "তৈয়ারী",
+          "romanization": "taiyārī",
+          "separator_after": " "
+        },
+        {
+          "target": "घबराहट",
+          "bangla_pronunciation": "ঘবরাহাট",
+          "romanization": "ghabaraahat",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "romanization": "km",
+          "separator_after": " "
+        },
+        {
+          "target": "करती",
+          "bangla_pronunciation": "করতী",
+          "romanization": "karatee",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "প্রস্তুতি আতঙ্ক কমায়।"
+    }
   ],
-  "additional_practice":[]
+  "image_prompts": [
+    {
+      "key": "ch028_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A South Asian family preparing safely after heavy rain, moving essentials higher and checking a phone alert, bright home interior. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes"
+    },
+    {
+      "key": "ch028_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A family staying on a safe route during a flooded morning, calm practical public-safety scene. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes"
+    }
+  ],
+  "additional_practice": []
 }

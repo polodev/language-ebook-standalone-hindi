@@ -3,35 +3,42 @@
   "status": "drafted",
   "title_target": "स्वास्थ्य अपॉइंटमेंट और बीमारी की छुट्टी",
   "title_bangla_pronunciation": "স্বাস্থ্য অপয়েন্টমেন্ট অউর বীমারী কী ছুট্টী",
+  "title_romanization": "svaasthya apointamenta aura beemaaree kee chhuttee",
   "title_word_pronunciations": [
     {
       "target": "स्वास्थ्य",
       "bangla_pronunciation": "স্বাস্থ্য",
+      "romanization": "svaasthy",
       "separator_after": " "
     },
     {
       "target": "अपॉइंटमेंट",
       "bangla_pronunciation": "অপয়েন্টমেন্ট",
+      "romanization": "appointment",
       "separator_after": " "
     },
     {
       "target": "और",
       "bangla_pronunciation": "অউর",
+      "romanization": "aur",
       "separator_after": " "
     },
     {
       "target": "बीमारी",
       "bangla_pronunciation": "বীমারী",
+      "romanization": "beemaaree",
       "separator_after": " "
     },
     {
       "target": "की",
       "bangla_pronunciation": "কী",
+      "romanization": "kee",
       "separator_after": " "
     },
     {
       "target": "छुट्टी",
       "bangla_pronunciation": "ছুট্টী",
+      "romanization": "chhuttee",
       "separator_after": ""
     }
   ],
@@ -44,15 +51,60 @@
       "romanization": "mujhe aaj doctor se milne ka samay mila hai.",
       "bangla_pronunciation": "মুঝে আজ ডক্টর সে মিলনে কা সময় মিলা হ্যায়।",
       "word_pronunciations": [
-        {"target": "मुझे", "bangla_pronunciation": "মুঝে", "separator_after": " "},
-        {"target": "आज", "bangla_pronunciation": "আজ", "separator_after": " "},
-        {"target": "डॉक्टर", "bangla_pronunciation": "ডক্টর", "separator_after": " "},
-        {"target": "से", "bangla_pronunciation": "সে", "separator_after": " "},
-        {"target": "मिलने", "bangla_pronunciation": "মিলনে", "separator_after": " "},
-        {"target": "का", "bangla_pronunciation": "কা", "separator_after": " "},
-        {"target": "समय", "bangla_pronunciation": "সময়", "separator_after": " "},
-        {"target": "मिला", "bangla_pronunciation": "মিলা", "separator_after": " "},
-        {"target": "है।", "bangla_pronunciation": "হ্যায়।", "separator_after": ""}
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
+          "separator_after": " "
+        },
+        {
+          "target": "डॉक्टर",
+          "bangla_pronunciation": "ডক্টর",
+          "romanization": "doctor",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "romanization": "se",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलने",
+          "bangla_pronunciation": "মিলনে",
+          "romanization": "milane",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "romanization": "kaa",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "romanization": "samay",
+          "separator_after": " "
+        },
+        {
+          "target": "मिला",
+          "bangla_pronunciation": "মিলা",
+          "romanization": "milaa",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "আজ আমার ডাক্তারের সঙ্গে দেখা করার সময় হয়েছে।"
     },
@@ -62,11 +114,36 @@
       "romanization": "meri tabiiyat theek nahin hai.",
       "bangla_pronunciation": "মেরি তবীয়ত ঠিক নহীঁ হ্যায়।",
       "word_pronunciations": [
-        {"target": "मेरी", "bangla_pronunciation": "মেরি", "separator_after": " "},
-        {"target": "तबीयत", "bangla_pronunciation": "তবীয়ত", "separator_after": " "},
-        {"target": "ठीक", "bangla_pronunciation": "ঠিক", "separator_after": " "},
-        {"target": "नहीं", "bangla_pronunciation": "নহীঁ", "separator_after": " "},
-        {"target": "है।", "bangla_pronunciation": "হ্যায়।", "separator_after": ""}
+        {
+          "target": "मेरी",
+          "bangla_pronunciation": "মেরি",
+          "romanization": "meree",
+          "separator_after": " "
+        },
+        {
+          "target": "तबीयत",
+          "bangla_pronunciation": "তবীয়ত",
+          "romanization": "tabeeyat",
+          "separator_after": " "
+        },
+        {
+          "target": "ठीक",
+          "bangla_pronunciation": "ঠিক",
+          "romanization": "theek",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "romanization": "naheen",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "আমার শরীর ভালো নেই।"
     },
@@ -76,13 +153,48 @@
       "romanization": "mujhe subah se bukhaar aur siradard hai.",
       "bangla_pronunciation": "মুঝে সুবহ সে বুখার অউর সিরদর্দ হ্যায়।",
       "word_pronunciations": [
-        {"target": "मुझे", "bangla_pronunciation": "মুঝে", "separator_after": " "},
-        {"target": "सुबह", "bangla_pronunciation": "সুবহ", "separator_after": " "},
-        {"target": "से", "bangla_pronunciation": "সে", "separator_after": " "},
-        {"target": "बुखार", "bangla_pronunciation": "বুখার", "separator_after": " "},
-        {"target": "और", "bangla_pronunciation": "অউর", "separator_after": " "},
-        {"target": "सिरदर्द", "bangla_pronunciation": "সিরদর্দ", "separator_after": " "},
-        {"target": "है।", "bangla_pronunciation": "হ্যায়।", "separator_after": ""}
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "सुबह",
+          "bangla_pronunciation": "সুবহ",
+          "romanization": "subah",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "romanization": "se",
+          "separator_after": " "
+        },
+        {
+          "target": "बुखार",
+          "bangla_pronunciation": "বুখার",
+          "romanization": "bukhaar",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "सिरदर्द",
+          "bangla_pronunciation": "সিরদর্দ",
+          "romanization": "sirdrd",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "সকাল থেকে আমার জ্বর ও মাথাব্যথা আছে।"
     },
@@ -92,13 +204,48 @@
       "romanization": "main aaj kaam par nahin aa paauunga.",
       "bangla_pronunciation": "ম্যাঁ আজ কাম পর নহীঁ আ পাউঙ্গা।",
       "word_pronunciations": [
-        {"target": "मैं", "bangla_pronunciation": "ম্যাঁ", "separator_after": " "},
-        {"target": "आज", "bangla_pronunciation": "আজ", "separator_after": " "},
-        {"target": "काम", "bangla_pronunciation": "কাম", "separator_after": " "},
-        {"target": "पर", "bangla_pronunciation": "পর", "separator_after": " "},
-        {"target": "नहीं", "bangla_pronunciation": "নহীঁ", "separator_after": " "},
-        {"target": "आ", "bangla_pronunciation": "আ", "separator_after": " "},
-        {"target": "पाऊँगा।", "bangla_pronunciation": "পাউঙ্গা।", "separator_after": ""}
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "romanization": "main",
+          "separator_after": " "
+        },
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "romanization": "par",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "romanization": "naheen",
+          "separator_after": " "
+        },
+        {
+          "target": "आ",
+          "bangla_pronunciation": "আ",
+          "romanization": "aa",
+          "separator_after": " "
+        },
+        {
+          "target": "पाऊँगा।",
+          "bangla_pronunciation": "পাউঙ্গা।",
+          "romanization": "paaoongaa.",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "আমি আজ কাজে আসতে পারব না। পুরুষ বক্তার রূপ।"
     },
@@ -108,13 +255,48 @@
       "romanization": "main aaj kaam par nahin aa paauungii.",
       "bangla_pronunciation": "ম্যাঁ আজ কাম পর নহীঁ আ পাউঙ্গি।",
       "word_pronunciations": [
-        {"target": "मैं", "bangla_pronunciation": "ম্যাঁ", "separator_after": " "},
-        {"target": "आज", "bangla_pronunciation": "আজ", "separator_after": " "},
-        {"target": "काम", "bangla_pronunciation": "কাম", "separator_after": " "},
-        {"target": "पर", "bangla_pronunciation": "পর", "separator_after": " "},
-        {"target": "नहीं", "bangla_pronunciation": "নহীঁ", "separator_after": " "},
-        {"target": "आ", "bangla_pronunciation": "আ", "separator_after": " "},
-        {"target": "पाऊँगी।", "bangla_pronunciation": "পাউঙ্গি।", "separator_after": ""}
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "romanization": "main",
+          "separator_after": " "
+        },
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "romanization": "par",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "romanization": "naheen",
+          "separator_after": " "
+        },
+        {
+          "target": "आ",
+          "bangla_pronunciation": "আ",
+          "romanization": "aa",
+          "separator_after": " "
+        },
+        {
+          "target": "पाऊँगी।",
+          "bangla_pronunciation": "পাউঙ্গি।",
+          "romanization": "paaoongee.",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "আমি আজ কাজে আসতে পারব না। নারী বক্তার রূপ।"
     },
@@ -124,17 +306,72 @@
       "romanization": "kya mujhe ek din kii biimaarii kii chhuttii mil sakti hai?",
       "bangla_pronunciation": "ক্যা মুঝে এক দিন কী বীমারী কী ছুট্টী মিল সকতি হ্যায়?",
       "word_pronunciations": [
-        {"target": "क्या", "bangla_pronunciation": "ক্যা", "separator_after": " "},
-        {"target": "मुझे", "bangla_pronunciation": "মুঝে", "separator_after": " "},
-        {"target": "एक", "bangla_pronunciation": "এক", "separator_after": " "},
-        {"target": "दिन", "bangla_pronunciation": "দিন", "separator_after": " "},
-        {"target": "की", "bangla_pronunciation": "কী", "separator_after": " "},
-        {"target": "बीमारी", "bangla_pronunciation": "বীমারী", "separator_after": " "},
-        {"target": "की", "bangla_pronunciation": "কী", "separator_after": " "},
-        {"target": "छुट्टी", "bangla_pronunciation": "ছুট্টী", "separator_after": " "},
-        {"target": "मिल", "bangla_pronunciation": "মিল", "separator_after": " "},
-        {"target": "सकती", "bangla_pronunciation": "সকতি", "separator_after": " "},
-        {"target": "है?", "bangla_pronunciation": "হ্যায়?", "separator_after": ""}
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "romanization": "kya",
+          "separator_after": " "
+        },
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "romanization": "ek",
+          "separator_after": " "
+        },
+        {
+          "target": "दिन",
+          "bangla_pronunciation": "দিন",
+          "romanization": "din",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "बीमारी",
+          "bangla_pronunciation": "বীমারী",
+          "romanization": "beemaaree",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "छुट्टी",
+          "bangla_pronunciation": "ছুট্টী",
+          "romanization": "chhuttee",
+          "separator_after": " "
+        },
+        {
+          "target": "मिल",
+          "bangla_pronunciation": "মিল",
+          "romanization": "mil",
+          "separator_after": " "
+        },
+        {
+          "target": "सकती",
+          "bangla_pronunciation": "সকতি",
+          "romanization": "sakti",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "romanization": "hai?",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "আমি কি এক দিনের অসুস্থতার ছুটি পেতে পারি?"
     },
@@ -144,14 +381,54 @@
       "romanization": "doctor ne aaraam karne kii salaah dii hai.",
       "bangla_pronunciation": "ডক্টর নে আরাম করনে কী সলাহ দী হ্যায়।",
       "word_pronunciations": [
-        {"target": "डॉक्टर", "bangla_pronunciation": "ডক্টর", "separator_after": " "},
-        {"target": "ने", "bangla_pronunciation": "নে", "separator_after": " "},
-        {"target": "आराम", "bangla_pronunciation": "আরাম", "separator_after": " "},
-        {"target": "करने", "bangla_pronunciation": "করনে", "separator_after": " "},
-        {"target": "की", "bangla_pronunciation": "কী", "separator_after": " "},
-        {"target": "सलाह", "bangla_pronunciation": "সলাহ", "separator_after": " "},
-        {"target": "दी", "bangla_pronunciation": "দী", "separator_after": " "},
-        {"target": "है।", "bangla_pronunciation": "হ্যায়।", "separator_after": ""}
+        {
+          "target": "डॉक्टर",
+          "bangla_pronunciation": "ডক্টর",
+          "romanization": "doctor",
+          "separator_after": " "
+        },
+        {
+          "target": "ने",
+          "bangla_pronunciation": "নে",
+          "romanization": "ne",
+          "separator_after": " "
+        },
+        {
+          "target": "आराम",
+          "bangla_pronunciation": "আরাম",
+          "romanization": "aaraam",
+          "separator_after": " "
+        },
+        {
+          "target": "करने",
+          "bangla_pronunciation": "করনে",
+          "romanization": "karane",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "सलाह",
+          "bangla_pronunciation": "সলাহ",
+          "romanization": "slaah",
+          "separator_after": " "
+        },
+        {
+          "target": "दी",
+          "bangla_pronunciation": "দী",
+          "romanization": "dee",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "ডাক্তার বিশ্রাম নেওয়ার পরামর্শ দিয়েছেন।"
     },
@@ -161,12 +438,42 @@
       "romanization": "main medical pramaan-patra kal bhej duunga.",
       "bangla_pronunciation": "ম্যাঁ মেডিক্যাল প্রমাণপত্র কল ভেজ দুঙ্গা।",
       "word_pronunciations": [
-        {"target": "मैं", "bangla_pronunciation": "ম্যাঁ", "separator_after": " "},
-        {"target": "मेडिकल", "bangla_pronunciation": "মেডিক্যাল", "separator_after": " "},
-        {"target": "प्रमाणपत्र", "bangla_pronunciation": "প্রমাণপত্র", "separator_after": " "},
-        {"target": "कल", "bangla_pronunciation": "কল", "separator_after": " "},
-        {"target": "भेज", "bangla_pronunciation": "ভেজ", "separator_after": " "},
-        {"target": "दूँगा।", "bangla_pronunciation": "দুঙ্গা।", "separator_after": ""}
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "romanization": "main",
+          "separator_after": " "
+        },
+        {
+          "target": "मेडिकल",
+          "bangla_pronunciation": "মেডিক্যাল",
+          "romanization": "medikal",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रमाणपत्र",
+          "bangla_pronunciation": "প্রমাণপত্র",
+          "romanization": "pramaan-patra",
+          "separator_after": " "
+        },
+        {
+          "target": "कल",
+          "bangla_pronunciation": "কল",
+          "romanization": "kal",
+          "separator_after": " "
+        },
+        {
+          "target": "भेज",
+          "bangla_pronunciation": "ভেজ",
+          "romanization": "bhej",
+          "separator_after": " "
+        },
+        {
+          "target": "दूँगा।",
+          "bangla_pronunciation": "দুঙ্গা।",
+          "romanization": "doongaa.",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "আমি কাল মেডিক্যাল সনদ পাঠিয়ে দেব। পুরুষ বক্তার রূপ।"
     },
@@ -176,12 +483,42 @@
       "romanization": "main medical pramaan-patra kal bhej duungii.",
       "bangla_pronunciation": "ম্যাঁ মেডিক্যাল প্রমাণপত্র কল ভেজ দুঙ্গি।",
       "word_pronunciations": [
-        {"target": "मैं", "bangla_pronunciation": "ম্যাঁ", "separator_after": " "},
-        {"target": "मेडिकल", "bangla_pronunciation": "মেডিক্যাল", "separator_after": " "},
-        {"target": "प्रमाणपत्र", "bangla_pronunciation": "প্রমাণপত্র", "separator_after": " "},
-        {"target": "कल", "bangla_pronunciation": "কল", "separator_after": " "},
-        {"target": "भेज", "bangla_pronunciation": "ভেজ", "separator_after": " "},
-        {"target": "दूँगी।", "bangla_pronunciation": "দুঙ্গি।", "separator_after": ""}
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "romanization": "main",
+          "separator_after": " "
+        },
+        {
+          "target": "मेडिकल",
+          "bangla_pronunciation": "মেডিক্যাল",
+          "romanization": "medikal",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रमाणपत्र",
+          "bangla_pronunciation": "প্রমাণপত্র",
+          "romanization": "pramaan-patra",
+          "separator_after": " "
+        },
+        {
+          "target": "कल",
+          "bangla_pronunciation": "কল",
+          "romanization": "kal",
+          "separator_after": " "
+        },
+        {
+          "target": "भेज",
+          "bangla_pronunciation": "ভেজ",
+          "romanization": "bhej",
+          "separator_after": " "
+        },
+        {
+          "target": "दूँगी।",
+          "bangla_pronunciation": "দুঙ্গি।",
+          "romanization": "doongee.",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "আমি কাল মেডিক্যাল সনদ পাঠিয়ে দেব। নারী বক্তার রূপ।"
     },
@@ -191,12 +528,42 @@
       "romanization": "meri aaj dopahar kii appointment hai.",
       "bangla_pronunciation": "মেরি আজ দোপহর কী অপয়েন্টমেন্ট হ্যায়।",
       "word_pronunciations": [
-        {"target": "मेरी", "bangla_pronunciation": "মেরি", "separator_after": " "},
-        {"target": "आज", "bangla_pronunciation": "আজ", "separator_after": " "},
-        {"target": "दोपहर", "bangla_pronunciation": "দোপহর", "separator_after": " "},
-        {"target": "की", "bangla_pronunciation": "কী", "separator_after": " "},
-        {"target": "अपॉइंटमेंट", "bangla_pronunciation": "অপয়েন্টমেন্ট", "separator_after": " "},
-        {"target": "है।", "bangla_pronunciation": "হ্যায়।", "separator_after": ""}
+        {
+          "target": "मेरी",
+          "bangla_pronunciation": "মেরি",
+          "romanization": "meree",
+          "separator_after": " "
+        },
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
+          "separator_after": " "
+        },
+        {
+          "target": "दोपहर",
+          "bangla_pronunciation": "দোপহর",
+          "romanization": "dophr",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "अपॉइंटमेंट",
+          "bangla_pronunciation": "অপয়েন্টমেন্ট",
+          "romanization": "appointment",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "আজ দুপুরে আমার অ্যাপয়েন্টমেন্ট আছে।"
     },
@@ -206,15 +573,60 @@
       "romanization": "agar meri haalat behatar huii, to main kal lautuunga.",
       "bangla_pronunciation": "অগর মেরি হালত বেহতর হুঈ, তো ম্যাঁ কল লৌটুঙ্গা।",
       "word_pronunciations": [
-        {"target": "अगर", "bangla_pronunciation": "অগর", "separator_after": " "},
-        {"target": "मेरी", "bangla_pronunciation": "মেরি", "separator_after": " "},
-        {"target": "हालत", "bangla_pronunciation": "হালত", "separator_after": " "},
-        {"target": "बेहतर", "bangla_pronunciation": "বেহতর", "separator_after": " "},
-        {"target": "हुई,", "bangla_pronunciation": "হুঈ,", "separator_after": " "},
-        {"target": "तो", "bangla_pronunciation": "তো", "separator_after": " "},
-        {"target": "मैं", "bangla_pronunciation": "ম্যাঁ", "separator_after": " "},
-        {"target": "कल", "bangla_pronunciation": "কল", "separator_after": " "},
-        {"target": "लौटूँगा।", "bangla_pronunciation": "লৌটুঙ্গা।", "separator_after": ""}
+        {
+          "target": "अगर",
+          "bangla_pronunciation": "অগর",
+          "romanization": "agar",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरी",
+          "bangla_pronunciation": "মেরি",
+          "romanization": "meree",
+          "separator_after": " "
+        },
+        {
+          "target": "हालत",
+          "bangla_pronunciation": "হালত",
+          "romanization": "haalat",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "romanization": "behtar",
+          "separator_after": " "
+        },
+        {
+          "target": "हुई,",
+          "bangla_pronunciation": "হুঈ,",
+          "romanization": "huee,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "romanization": "main",
+          "separator_after": " "
+        },
+        {
+          "target": "कल",
+          "bangla_pronunciation": "কল",
+          "romanization": "kal",
+          "separator_after": " "
+        },
+        {
+          "target": "लौटूँगा।",
+          "bangla_pronunciation": "লৌটুঙ্গা।",
+          "romanization": "lautoongaa.",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "আমার অবস্থা ভালো হলে আমি কাল ফিরব। পুরুষ বক্তার রূপ।"
     },
@@ -224,15 +636,60 @@
       "romanization": "agar meri haalat behatar huii, to main kal lautuungii.",
       "bangla_pronunciation": "অগর মেরি হালত বেহতর হুঈ, তো ম্যাঁ কল লৌটুঙ্গি।",
       "word_pronunciations": [
-        {"target": "अगर", "bangla_pronunciation": "অগর", "separator_after": " "},
-        {"target": "मेरी", "bangla_pronunciation": "মেরি", "separator_after": " "},
-        {"target": "हालत", "bangla_pronunciation": "হালত", "separator_after": " "},
-        {"target": "बेहतर", "bangla_pronunciation": "বেহতর", "separator_after": " "},
-        {"target": "हुई,", "bangla_pronunciation": "হুঈ,", "separator_after": " "},
-        {"target": "तो", "bangla_pronunciation": "তো", "separator_after": " "},
-        {"target": "मैं", "bangla_pronunciation": "ম্যাঁ", "separator_after": " "},
-        {"target": "कल", "bangla_pronunciation": "কল", "separator_after": " "},
-        {"target": "लौटूँगी।", "bangla_pronunciation": "লৌটুঙ্গি।", "separator_after": ""}
+        {
+          "target": "अगर",
+          "bangla_pronunciation": "অগর",
+          "romanization": "agar",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरी",
+          "bangla_pronunciation": "মেরি",
+          "romanization": "meree",
+          "separator_after": " "
+        },
+        {
+          "target": "हालत",
+          "bangla_pronunciation": "হালত",
+          "romanization": "haalat",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "romanization": "behtar",
+          "separator_after": " "
+        },
+        {
+          "target": "हुई,",
+          "bangla_pronunciation": "হুঈ,",
+          "romanization": "huee,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "romanization": "to",
+          "separator_after": " "
+        },
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "romanization": "main",
+          "separator_after": " "
+        },
+        {
+          "target": "कल",
+          "bangla_pronunciation": "কল",
+          "romanization": "kal",
+          "separator_after": " "
+        },
+        {
+          "target": "लौटूँगी।",
+          "bangla_pronunciation": "লৌটুঙ্গি।",
+          "romanization": "lautoongee.",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "আমার অবস্থা ভালো হলে আমি কাল ফিরব। নারী বক্তার রূপ।"
     },
@@ -242,16 +699,66 @@
       "romanization": "main zaroori kaam kii jaanakaarii team ko bhej raha hoon.",
       "bangla_pronunciation": "ম্যাঁ জরুরি কাম কী জানকারি টীম কো ভেজ রহা হুঁ।",
       "word_pronunciations": [
-        {"target": "मैं", "bangla_pronunciation": "ম্যাঁ", "separator_after": " "},
-        {"target": "जरूरी", "bangla_pronunciation": "জরুরি", "separator_after": " "},
-        {"target": "काम", "bangla_pronunciation": "কাম", "separator_after": " "},
-        {"target": "की", "bangla_pronunciation": "কী", "separator_after": " "},
-        {"target": "जानकारी", "bangla_pronunciation": "জানকারি", "separator_after": " "},
-        {"target": "टीम", "bangla_pronunciation": "টীম", "separator_after": " "},
-        {"target": "को", "bangla_pronunciation": "কো", "separator_after": " "},
-        {"target": "भेज", "bangla_pronunciation": "ভেজ", "separator_after": " "},
-        {"target": "रहा", "bangla_pronunciation": "রহা", "separator_after": " "},
-        {"target": "हूँ।", "bangla_pronunciation": "হুঁ।", "separator_after": ""}
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "romanization": "main",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরুরি",
+          "romanization": "jarooree",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারি",
+          "romanization": "jaanakaarii",
+          "separator_after": " "
+        },
+        {
+          "target": "टीम",
+          "bangla_pronunciation": "টীম",
+          "romanization": "team",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "romanization": "ko",
+          "separator_after": " "
+        },
+        {
+          "target": "भेज",
+          "bangla_pronunciation": "ভেজ",
+          "romanization": "bhej",
+          "separator_after": " "
+        },
+        {
+          "target": "रहा",
+          "bangla_pronunciation": "রহা",
+          "romanization": "rahaa",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "romanization": "hoon.",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "আমি জরুরি কাজের তথ্য টিমকে পাঠাচ্ছি। পুরুষ বক্তার রূপ।"
     },
@@ -261,16 +768,66 @@
       "romanization": "main zaroori kaam kii jaanakaarii team ko bhej rahii hoon.",
       "bangla_pronunciation": "ম্যাঁ জরুরি কাম কী জানকারি টীম কো ভেজ রহী হুঁ।",
       "word_pronunciations": [
-        {"target": "मैं", "bangla_pronunciation": "ম্যাঁ", "separator_after": " "},
-        {"target": "जरूरी", "bangla_pronunciation": "জরুরি", "separator_after": " "},
-        {"target": "काम", "bangla_pronunciation": "কাম", "separator_after": " "},
-        {"target": "की", "bangla_pronunciation": "কী", "separator_after": " "},
-        {"target": "जानकारी", "bangla_pronunciation": "জানকারি", "separator_after": " "},
-        {"target": "टीम", "bangla_pronunciation": "টীম", "separator_after": " "},
-        {"target": "को", "bangla_pronunciation": "কো", "separator_after": " "},
-        {"target": "भेज", "bangla_pronunciation": "ভেজ", "separator_after": " "},
-        {"target": "रही", "bangla_pronunciation": "রহী", "separator_after": " "},
-        {"target": "हूँ।", "bangla_pronunciation": "হুঁ।", "separator_after": ""}
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "romanization": "main",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরুরি",
+          "romanization": "jarooree",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারি",
+          "romanization": "jaanakaarii",
+          "separator_after": " "
+        },
+        {
+          "target": "टीम",
+          "bangla_pronunciation": "টীম",
+          "romanization": "team",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "romanization": "ko",
+          "separator_after": " "
+        },
+        {
+          "target": "भेज",
+          "bangla_pronunciation": "ভেজ",
+          "romanization": "bhej",
+          "separator_after": " "
+        },
+        {
+          "target": "रही",
+          "bangla_pronunciation": "রহী",
+          "romanization": "rahee",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "romanization": "hoon.",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "আমি জরুরি কাজের তথ্য টিমকে পাঠাচ্ছি। নারী বক্তার রূপ।"
     },
@@ -280,14 +837,54 @@
       "romanization": "kripaya meri nijii svaasthya jaanakaarii saajha na karen.",
       "bangla_pronunciation": "কৃপয়া মেরি নিজী স্বাস্থ্য জানকারি সাঝা ন করেঁ।",
       "word_pronunciations": [
-        {"target": "कृपया", "bangla_pronunciation": "কৃপয়া", "separator_after": " "},
-        {"target": "मेरी", "bangla_pronunciation": "মেরি", "separator_after": " "},
-        {"target": "निजी", "bangla_pronunciation": "নিজী", "separator_after": " "},
-        {"target": "स्वास्थ्य", "bangla_pronunciation": "স্বাস্থ্য", "separator_after": " "},
-        {"target": "जानकारी", "bangla_pronunciation": "জানকারি", "separator_after": " "},
-        {"target": "साझा", "bangla_pronunciation": "সাঝা", "separator_after": " "},
-        {"target": "न", "bangla_pronunciation": "ন", "separator_after": " "},
-        {"target": "करें।", "bangla_pronunciation": "করেঁ।", "separator_after": ""}
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "romanization": "kripaya",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरी",
+          "bangla_pronunciation": "মেরি",
+          "romanization": "meree",
+          "separator_after": " "
+        },
+        {
+          "target": "निजी",
+          "bangla_pronunciation": "নিজী",
+          "romanization": "nijii",
+          "separator_after": " "
+        },
+        {
+          "target": "स्वास्थ्य",
+          "bangla_pronunciation": "স্বাস্থ্য",
+          "romanization": "svaasthy",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারি",
+          "romanization": "jaanakaarii",
+          "separator_after": " "
+        },
+        {
+          "target": "साझा",
+          "bangla_pronunciation": "সাঝা",
+          "romanization": "saajhaa",
+          "separator_after": " "
+        },
+        {
+          "target": "न",
+          "bangla_pronunciation": "ন",
+          "romanization": "na",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "দয়া করে আমার ব্যক্তিগত স্বাস্থ্যতথ্য শেয়ার করবেন না।"
     },
@@ -297,14 +894,54 @@
       "romanization": "main baithak mein online shaamil ho sakta hoon.",
       "bangla_pronunciation": "ম্যাঁ বৈঠক মেঁ অনলাইন শামিল হো সকতা হুঁ।",
       "word_pronunciations": [
-        {"target": "मैं", "bangla_pronunciation": "ম্যাঁ", "separator_after": " "},
-        {"target": "बैठक", "bangla_pronunciation": "বৈঠক", "separator_after": " "},
-        {"target": "में", "bangla_pronunciation": "মেঁ", "separator_after": " "},
-        {"target": "ऑनलाइन", "bangla_pronunciation": "অনলাইন", "separator_after": " "},
-        {"target": "शामिल", "bangla_pronunciation": "শামিল", "separator_after": " "},
-        {"target": "हो", "bangla_pronunciation": "হো", "separator_after": " "},
-        {"target": "सकता", "bangla_pronunciation": "সকতা", "separator_after": " "},
-        {"target": "हूँ।", "bangla_pronunciation": "হুঁ।", "separator_after": ""}
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "romanization": "main",
+          "separator_after": " "
+        },
+        {
+          "target": "बैठक",
+          "bangla_pronunciation": "বৈঠক",
+          "romanization": "baithak",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "ऑनलाइन",
+          "bangla_pronunciation": "অনলাইন",
+          "romanization": "onalaain",
+          "separator_after": " "
+        },
+        {
+          "target": "शामिल",
+          "bangla_pronunciation": "শামিল",
+          "romanization": "shaamil",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "romanization": "ho",
+          "separator_after": " "
+        },
+        {
+          "target": "सकता",
+          "bangla_pronunciation": "সকতা",
+          "romanization": "sakta",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "romanization": "hoon.",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "আমি মিটিংয়ে অনলাইনে যোগ দিতে পারি। পুরুষ বক্তার রূপ।"
     },
@@ -314,14 +951,54 @@
       "romanization": "aaj main keval zaroori sandeshon ka javaab duunga.",
       "bangla_pronunciation": "আজ ম্যাঁ কেবল জরুরি সন্দেশোঁ কা জবাব দুঙ্গা।",
       "word_pronunciations": [
-        {"target": "आज", "bangla_pronunciation": "আজ", "separator_after": " "},
-        {"target": "मैं", "bangla_pronunciation": "ম্যাঁ", "separator_after": " "},
-        {"target": "केवल", "bangla_pronunciation": "কেবল", "separator_after": " "},
-        {"target": "जरूरी", "bangla_pronunciation": "জরুরি", "separator_after": " "},
-        {"target": "संदेशों", "bangla_pronunciation": "সন্দেশোঁ", "separator_after": " "},
-        {"target": "का", "bangla_pronunciation": "কা", "separator_after": " "},
-        {"target": "जवाब", "bangla_pronunciation": "জবাব", "separator_after": " "},
-        {"target": "दूँगा।", "bangla_pronunciation": "দুঙ্গা।", "separator_after": ""}
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
+          "separator_after": " "
+        },
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "romanization": "main",
+          "separator_after": " "
+        },
+        {
+          "target": "केवल",
+          "bangla_pronunciation": "কেবল",
+          "romanization": "keval",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরুরি",
+          "romanization": "jarooree",
+          "separator_after": " "
+        },
+        {
+          "target": "संदेशों",
+          "bangla_pronunciation": "সন্দেশোঁ",
+          "romanization": "sandeshon",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "romanization": "kaa",
+          "separator_after": " "
+        },
+        {
+          "target": "जवाब",
+          "bangla_pronunciation": "জবাব",
+          "romanization": "jawaab",
+          "separator_after": " "
+        },
+        {
+          "target": "दूँगा।",
+          "bangla_pronunciation": "দুঙ্গা।",
+          "romanization": "doongaa.",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "আজ আমি শুধু জরুরি বার্তার উত্তর দেব। পুরুষ বক্তার রূপ।"
     },
@@ -331,14 +1008,54 @@
       "romanization": "kripaya meri chhuttii system mein darj kar den.",
       "bangla_pronunciation": "কৃপয়া মেরি ছুট্টী সিস্টেম মেঁ দর্জ কর দেঁ।",
       "word_pronunciations": [
-        {"target": "कृपया", "bangla_pronunciation": "কৃপয়া", "separator_after": " "},
-        {"target": "मेरी", "bangla_pronunciation": "মেরি", "separator_after": " "},
-        {"target": "छुट्टी", "bangla_pronunciation": "ছুট্টী", "separator_after": " "},
-        {"target": "सिस्टम", "bangla_pronunciation": "সিস্টেম", "separator_after": " "},
-        {"target": "में", "bangla_pronunciation": "মেঁ", "separator_after": " "},
-        {"target": "दर्ज", "bangla_pronunciation": "দর্জ", "separator_after": " "},
-        {"target": "कर", "bangla_pronunciation": "কর", "separator_after": " "},
-        {"target": "दें।", "bangla_pronunciation": "দেঁ।", "separator_after": ""}
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "romanization": "kripaya",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरी",
+          "bangla_pronunciation": "মেরি",
+          "romanization": "meree",
+          "separator_after": " "
+        },
+        {
+          "target": "छुट्टी",
+          "bangla_pronunciation": "ছুট্টী",
+          "romanization": "chhuttee",
+          "separator_after": " "
+        },
+        {
+          "target": "सिस्टम",
+          "bangla_pronunciation": "সিস্টেম",
+          "romanization": "sistam",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "दर्ज",
+          "bangla_pronunciation": "দর্জ",
+          "romanization": "darj",
+          "separator_after": " "
+        },
+        {
+          "target": "कर",
+          "bangla_pronunciation": "কর",
+          "romanization": "kar",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেঁ।",
+          "romanization": "den.",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "দয়া করে আমার ছুটি সিস্টেমে নথিভুক্ত করে দিন।"
     },
@@ -348,14 +1065,54 @@
       "romanization": "kya mujhe vaapasii par koi form bharna hoga?",
       "bangla_pronunciation": "ক্যা মুঝে বাপসী পর কোঈ ফর্ম ভরনা হোগা?",
       "word_pronunciations": [
-        {"target": "क्या", "bangla_pronunciation": "ক্যা", "separator_after": " "},
-        {"target": "मुझे", "bangla_pronunciation": "মুঝে", "separator_after": " "},
-        {"target": "वापसी", "bangla_pronunciation": "বাপসী", "separator_after": " "},
-        {"target": "पर", "bangla_pronunciation": "পর", "separator_after": " "},
-        {"target": "कोई", "bangla_pronunciation": "কোঈ", "separator_after": " "},
-        {"target": "फॉर्म", "bangla_pronunciation": "ফর্ম", "separator_after": " "},
-        {"target": "भरना", "bangla_pronunciation": "ভরনা", "separator_after": " "},
-        {"target": "होगा?", "bangla_pronunciation": "হোগা?", "separator_after": ""}
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "romanization": "kya",
+          "separator_after": " "
+        },
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "वापसी",
+          "bangla_pronunciation": "বাপসী",
+          "romanization": "vaapsii",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "romanization": "par",
+          "separator_after": " "
+        },
+        {
+          "target": "कोई",
+          "bangla_pronunciation": "কোঈ",
+          "romanization": "koee",
+          "separator_after": " "
+        },
+        {
+          "target": "फॉर्म",
+          "bangla_pronunciation": "ফর্ম",
+          "romanization": "phoNrm",
+          "separator_after": " "
+        },
+        {
+          "target": "भरना",
+          "bangla_pronunciation": "ভরনা",
+          "romanization": "bharanaa",
+          "separator_after": " "
+        },
+        {
+          "target": "होगा?",
+          "bangla_pronunciation": "হোগা?",
+          "romanization": "hogaa?",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "ফিরে আসার পর কি আমাকে কোনো ফর্ম পূরণ করতে হবে?"
     },
@@ -365,82 +1122,1139 @@
       "romanization": "dhanyavaad, main aapko shaam tak update kar duunga.",
       "bangla_pronunciation": "ধন্যবাদ, ম্যাঁ আপকো শাম তক আপডেট কর দুঙ্গা।",
       "word_pronunciations": [
-        {"target": "धन्यवाद,", "bangla_pronunciation": "ধন্যবাদ,", "separator_after": " "},
-        {"target": "मैं", "bangla_pronunciation": "ম্যাঁ", "separator_after": " "},
-        {"target": "आपको", "bangla_pronunciation": "আপকো", "separator_after": " "},
-        {"target": "शाम", "bangla_pronunciation": "শাম", "separator_after": " "},
-        {"target": "तक", "bangla_pronunciation": "তক", "separator_after": " "},
-        {"target": "अपडेट", "bangla_pronunciation": "আপডেট", "separator_after": " "},
-        {"target": "कर", "bangla_pronunciation": "কর", "separator_after": " "},
-        {"target": "दूँगा।", "bangla_pronunciation": "দুঙ্গা।", "separator_after": ""}
+        {
+          "target": "धन्यवाद,",
+          "bangla_pronunciation": "ধন্যবাদ,",
+          "romanization": "dhanyavaad,",
+          "separator_after": " "
+        },
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "romanization": "main",
+          "separator_after": " "
+        },
+        {
+          "target": "आपको",
+          "bangla_pronunciation": "আপকো",
+          "romanization": "aapako",
+          "separator_after": " "
+        },
+        {
+          "target": "शाम",
+          "bangla_pronunciation": "শাম",
+          "romanization": "shaam",
+          "separator_after": " "
+        },
+        {
+          "target": "तक",
+          "bangla_pronunciation": "তক",
+          "romanization": "tak",
+          "separator_after": " "
+        },
+        {
+          "target": "अपडेट",
+          "bangla_pronunciation": "আপডেট",
+          "romanization": "update",
+          "separator_after": " "
+        },
+        {
+          "target": "कर",
+          "bangla_pronunciation": "কর",
+          "romanization": "kar",
+          "separator_after": " "
+        },
+        {
+          "target": "दूँगा।",
+          "bangla_pronunciation": "দুঙ্গা।",
+          "romanization": "doongaa.",
+          "separator_after": ""
+        }
       ],
       "meaning_bengali_md": "ধন্যবাদ, আমি সন্ধ্যার মধ্যে আপনাকে আপডেট দেব। পুরুষ বক্তার রূপ।"
     }
   ],
   "vocabulary": [
-    {"id": "ch021_v01", "target": "अपॉइंटमेंट", "type": "বিশেষ্য", "romanization": "appointment", "bangla_pronunciation": "অপয়েন্টমেন্ট", "word_pronunciations": [{"target": "अपॉइंटमेंट", "bangla_pronunciation": "অপয়েন্টমেন্ট", "separator_after": ""}], "meaning_bengali_md": "অ্যাপয়েন্টমেন্ট; নির্ধারিত সাক্ষাতের সময়।", "source_sentence_id": "ch021_s10", "source_form": "अपॉइंटमेंट"},
-    {"id": "ch021_v02", "target": "तबीयत", "type": "বিশেষ্য", "romanization": "tabiiyat", "bangla_pronunciation": "তবীয়ত", "word_pronunciations": [{"target": "तबीयत", "bangla_pronunciation": "তবীয়ত", "separator_after": ""}], "meaning_bengali_md": "শরীরের অবস্থা বা স্বাস্থ্য; কথ্য হিন্দিতে খুব সাধারণ।", "source_sentence_id": "ch021_s02", "source_form": "तबीयत"},
-    {"id": "ch021_v03", "target": "बीमारी की छुट्टी", "type": "বাক্যাংশ", "romanization": "biimaarii kii chhuttii", "bangla_pronunciation": "বীমারী কী ছুট্টী", "word_pronunciations": [{"target": "बीमारी", "bangla_pronunciation": "বীমারী", "separator_after": " "}, {"target": "की", "bangla_pronunciation": "কী", "separator_after": " "}, {"target": "छुट्टी", "bangla_pronunciation": "ছুট্টী", "separator_after": ""}], "meaning_bengali_md": "অসুস্থতার কারণে নেওয়া ছুটি।", "source_sentence_id": "ch021_s06", "source_form": "बीमारी की छुट्टी"},
-    {"id": "ch021_v04", "target": "सलाह", "type": "বিশেষ্য", "romanization": "salaah", "bangla_pronunciation": "সলাহ", "word_pronunciations": [{"target": "सलाह", "bangla_pronunciation": "সলাহ", "separator_after": ""}], "meaning_bengali_md": "পরামর্শ।", "source_sentence_id": "ch021_s07", "source_form": "सलाह"},
-    {"id": "ch021_v05", "target": "प्रमाणपत्र", "type": "বিশেষ্য", "romanization": "pramaan-patra", "bangla_pronunciation": "প্রমাণপত্র", "word_pronunciations": [{"target": "प्रमाणपत्र", "bangla_pronunciation": "প্রমাণপত্র", "separator_after": ""}], "meaning_bengali_md": "সনদ বা certificate।", "source_sentence_id": "ch021_s08", "source_form": "प्रमाणपत्र"},
-    {"id": "ch021_v06", "target": "हालत", "type": "বিশেষ্য", "romanization": "haalat", "bangla_pronunciation": "হালত", "word_pronunciations": [{"target": "हालत", "bangla_pronunciation": "হালত", "separator_after": ""}], "meaning_bengali_md": "অবস্থা; এখানে শারীরিক অবস্থার অর্থে।", "source_sentence_id": "ch021_s11", "source_form": "हालत"},
-    {"id": "ch021_v07", "target": "निजी स्वास्थ्य जानकारी", "type": "বাক্যাংশ", "romanization": "nijii svaasthya jaanakaarii", "bangla_pronunciation": "নিজী স্বাস্থ্য জানকারি", "word_pronunciations": [{"target": "निजी", "bangla_pronunciation": "নিজী", "separator_after": " "}, {"target": "स्वास्थ्य", "bangla_pronunciation": "স্বাস্থ্য", "separator_after": " "}, {"target": "जानकारी", "bangla_pronunciation": "জানকারি", "separator_after": ""}], "meaning_bengali_md": "ব্যক্তিগত স্বাস্থ্যসংক্রান্ত তথ্য।", "source_sentence_id": "ch021_s15", "source_form": "निजी स्वास्थ्य जानकारी"},
-    {"id": "ch021_v08", "target": "दर्ज", "type": "ক্রিয়া-সহায়ক রূপ", "romanization": "darj", "bangla_pronunciation": "দর্জ", "word_pronunciations": [{"target": "दर्ज", "bangla_pronunciation": "দর্জ", "separator_after": ""}], "meaning_bengali_md": "নথিভুক্ত/রেকর্ড করা; `दर्ज कर दें` ভদ্র অনুরোধ।", "source_sentence_id": "ch021_s18", "source_form": "दर्ज"}
+    {
+      "id": "ch021_v01",
+      "target": "अपॉइंटमेंट",
+      "type": "বিশেষ্য",
+      "romanization": "appointment",
+      "bangla_pronunciation": "অপয়েন্টমেন্ট",
+      "word_pronunciations": [
+        {
+          "target": "अपॉइंटमेंट",
+          "bangla_pronunciation": "অপয়েন্টমেন্ট",
+          "romanization": "appointment",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অ্যাপয়েন্টমেন্ট; নির্ধারিত সাক্ষাতের সময়।",
+      "source_sentence_id": "ch021_s10",
+      "source_form": "अपॉइंटमेंट"
+    },
+    {
+      "id": "ch021_v02",
+      "target": "तबीयत",
+      "type": "বিশেষ্য",
+      "romanization": "tabiiyat",
+      "bangla_pronunciation": "তবীয়ত",
+      "word_pronunciations": [
+        {
+          "target": "तबीयत",
+          "bangla_pronunciation": "তবীয়ত",
+          "romanization": "tabeeyat",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শরীরের অবস্থা বা স্বাস্থ্য; কথ্য হিন্দিতে খুব সাধারণ।",
+      "source_sentence_id": "ch021_s02",
+      "source_form": "तबीयत"
+    },
+    {
+      "id": "ch021_v03",
+      "target": "बीमारी की छुट्टी",
+      "type": "বাক্যাংশ",
+      "romanization": "biimaarii kii chhuttii",
+      "bangla_pronunciation": "বীমারী কী ছুট্টী",
+      "word_pronunciations": [
+        {
+          "target": "बीमारी",
+          "bangla_pronunciation": "বীমারী",
+          "romanization": "beemaaree",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "छुट्टी",
+          "bangla_pronunciation": "ছুট্টী",
+          "romanization": "chhuttee",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অসুস্থতার কারণে নেওয়া ছুটি।",
+      "source_sentence_id": "ch021_s06",
+      "source_form": "बीमारी की छुट्टी"
+    },
+    {
+      "id": "ch021_v04",
+      "target": "सलाह",
+      "type": "বিশেষ্য",
+      "romanization": "salaah",
+      "bangla_pronunciation": "সলাহ",
+      "word_pronunciations": [
+        {
+          "target": "सलाह",
+          "bangla_pronunciation": "সলাহ",
+          "romanization": "slaah",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরামর্শ।",
+      "source_sentence_id": "ch021_s07",
+      "source_form": "सलाह"
+    },
+    {
+      "id": "ch021_v05",
+      "target": "प्रमाणपत्र",
+      "type": "বিশেষ্য",
+      "romanization": "pramaan-patra",
+      "bangla_pronunciation": "প্রমাণপত্র",
+      "word_pronunciations": [
+        {
+          "target": "प्रमाणपत्र",
+          "bangla_pronunciation": "প্রমাণপত্র",
+          "romanization": "pramaan-patra",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সনদ বা certificate।",
+      "source_sentence_id": "ch021_s08",
+      "source_form": "प्रमाणपत्र"
+    },
+    {
+      "id": "ch021_v06",
+      "target": "हालत",
+      "type": "বিশেষ্য",
+      "romanization": "haalat",
+      "bangla_pronunciation": "হালত",
+      "word_pronunciations": [
+        {
+          "target": "हालत",
+          "bangla_pronunciation": "হালত",
+          "romanization": "haalat",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অবস্থা; এখানে শারীরিক অবস্থার অর্থে।",
+      "source_sentence_id": "ch021_s11",
+      "source_form": "हालत"
+    },
+    {
+      "id": "ch021_v07",
+      "target": "निजी स्वास्थ्य जानकारी",
+      "type": "বাক্যাংশ",
+      "romanization": "nijii svaasthya jaanakaarii",
+      "bangla_pronunciation": "নিজী স্বাস্থ্য জানকারি",
+      "word_pronunciations": [
+        {
+          "target": "निजी",
+          "bangla_pronunciation": "নিজী",
+          "romanization": "nijii",
+          "separator_after": " "
+        },
+        {
+          "target": "स्वास्थ्य",
+          "bangla_pronunciation": "স্বাস্থ্য",
+          "romanization": "svaasthy",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারি",
+          "romanization": "jaanakaarii",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যক্তিগত স্বাস্থ্যসংক্রান্ত তথ্য।",
+      "source_sentence_id": "ch021_s15",
+      "source_form": "निजी स्वास्थ्य जानकारी"
+    },
+    {
+      "id": "ch021_v08",
+      "target": "दर्ज",
+      "type": "ক্রিয়া-সহায়ক রূপ",
+      "romanization": "darj",
+      "bangla_pronunciation": "দর্জ",
+      "word_pronunciations": [
+        {
+          "target": "दर्ज",
+          "bangla_pronunciation": "দর্জ",
+          "romanization": "darj",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নথিভুক্ত/রেকর্ড করা; `दर्ज कर दें` ভদ্র অনুরোধ।",
+      "source_sentence_id": "ch021_s18",
+      "source_form": "दर्ज"
+    }
   ],
   "bridge_reading": {
     "mode": "story",
     "title_bengali": "অফিসে অসুস্থতার খবর",
     "scene_summary": "এক কর্মী অসুস্থ হয়ে ম্যানেজারকে ছুটি ও কাজের হস্তান্তর সম্পর্কে জানাচ্ছেন।",
     "segments": [
-      {"kind": "bangla", "text": "সকালে রাশেদের শরীর খারাপ। তিনি ম্যানেজারকে লিখলেন, "},
-      {"target": "मेरी तबीयत ठीक नहीं है।", "bangla_pronunciation": "মেরি তবীয়ত ঠিক নহীঁ হ্যায়।", "word_pronunciations": [{"target": "मेरी", "bangla_pronunciation": "মেরি", "separator_after": " "}, {"target": "तबीयत", "bangla_pronunciation": "তবীয়ত", "separator_after": " "}, {"target": "ठीक", "bangla_pronunciation": "ঠিক", "separator_after": " "}, {"target": "नहीं", "bangla_pronunciation": "নহীঁ", "separator_after": " "}, {"target": "है।", "bangla_pronunciation": "হ্যায়।", "separator_after": ""}], "kind": "target"},
-      {"kind": "bangla", "text": " তিনি জানান যে "},
-      {"target": "मेरी आज दोपहर की अपॉइंटमेंट है।", "bangla_pronunciation": "মেরি আজ দোপহর কী অপয়েন্টমেন্ট হ্যায়।", "word_pronunciations": [{"target": "मेरी", "bangla_pronunciation": "মেরি", "separator_after": " "}, {"target": "आज", "bangla_pronunciation": "আজ", "separator_after": " "}, {"target": "दोपहर", "bangla_pronunciation": "দোপহর", "separator_after": " "}, {"target": "की", "bangla_pronunciation": "কী", "separator_after": " "}, {"target": "अपॉइंटमेंट", "bangla_pronunciation": "অপয়েন্টমেন্ট", "separator_after": " "}, {"target": "है।", "bangla_pronunciation": "হ্যায়।", "separator_after": ""}], "kind": "target"},
-      {"kind": "bangla", "text": " কাজ আটকে না রাখতে তিনি আরও লিখলেন, "},
-      {"target": "मैं जरूरी काम की जानकारी टीम को भेज रहा हूँ।", "bangla_pronunciation": "ম্যাঁ জরুরি কাম কী জানকারি টীম কো ভেজ রহা হুঁ।", "word_pronunciations": [{"target": "मैं", "bangla_pronunciation": "ম্যাঁ", "separator_after": " "}, {"target": "जरूरी", "bangla_pronunciation": "জরুরি", "separator_after": " "}, {"target": "काम", "bangla_pronunciation": "কাম", "separator_after": " "}, {"target": "की", "bangla_pronunciation": "কী", "separator_after": " "}, {"target": "जानकारी", "bangla_pronunciation": "জানকারি", "separator_after": " "}, {"target": "टीम", "bangla_pronunciation": "টীম", "separator_after": " "}, {"target": "को", "bangla_pronunciation": "কো", "separator_after": " "}, {"target": "भेज", "bangla_pronunciation": "ভেজ", "separator_after": " "}, {"target": "रहा", "bangla_pronunciation": "রহা", "separator_after": " "}, {"target": "हूँ।", "bangla_pronunciation": "হুঁ।", "separator_after": ""}], "kind": "target"},
-      {"kind": "bangla", "text": " ব্যক্তিগত তথ্য নিয়ে তিনি অনুরোধ করলেন, "},
-      {"target": "कृपया मेरी निजी स्वास्थ्य जानकारी साझा न करें।", "bangla_pronunciation": "কৃপয়া মেরি নিজী স্বাস্থ্য জানকারি সাঝা ন করেঁ।", "word_pronunciations": [{"target": "कृपया", "bangla_pronunciation": "কৃপয়া", "separator_after": " "}, {"target": "मेरी", "bangla_pronunciation": "মেরি", "separator_after": " "}, {"target": "निजी", "bangla_pronunciation": "নিজী", "separator_after": " "}, {"target": "स्वास्थ्य", "bangla_pronunciation": "স্বাস্থ্য", "separator_after": " "}, {"target": "जानकारी", "bangla_pronunciation": "জানকারি", "separator_after": " "}, {"target": "साझा", "bangla_pronunciation": "সাঝা", "separator_after": " "}, {"target": "न", "bangla_pronunciation": "ন", "separator_after": " "}, {"target": "करें।", "bangla_pronunciation": "করেঁ।", "separator_after": ""}], "kind": "target"},
-      {"kind": "bangla", "text": " ম্যানেজার ছুটি নথিভুক্ত করবেন। রাশেদ শেষে বললেন, "},
-      {"target": "धन्यवाद, मैं आपको शाम तक अपडेट कर दूँगा।", "bangla_pronunciation": "ধন্যবাদ, ম্যাঁ আপকো শাম তক আপডেট কর দুঙ্গা।", "word_pronunciations": [{"target": "धन्यवाद,", "bangla_pronunciation": "ধন্যবাদ,", "separator_after": " "}, {"target": "मैं", "bangla_pronunciation": "ম্যাঁ", "separator_after": " "}, {"target": "आपको", "bangla_pronunciation": "আপকো", "separator_after": " "}, {"target": "शाम", "bangla_pronunciation": "শাম", "separator_after": " "}, {"target": "तक", "bangla_pronunciation": "তক", "separator_after": " "}, {"target": "अपडेट", "bangla_pronunciation": "আপডেট", "separator_after": " "}, {"target": "कर", "bangla_pronunciation": "কর", "separator_after": " "}, {"target": "दूँगा।", "bangla_pronunciation": "দুঙ্গা।", "separator_after": ""}], "kind": "target"}
+      {
+        "kind": "bangla",
+        "text": "সকালে রাশেদের শরীর খারাপ। তিনি ম্যানেজারকে লিখলেন, "
+      },
+      {
+        "target": "मेरी तबीयत ठीक नहीं है।",
+        "bangla_pronunciation": "মেরি তবীয়ত ঠিক নহীঁ হ্যায়।",
+        "romanization": "meri tabiiyat theek nahin hai.",
+        "word_pronunciations": [
+          {
+            "target": "मेरी",
+            "bangla_pronunciation": "মেরি",
+            "romanization": "meree",
+            "separator_after": " "
+          },
+          {
+            "target": "तबीयत",
+            "bangla_pronunciation": "তবীয়ত",
+            "romanization": "tabeeyat",
+            "separator_after": " "
+          },
+          {
+            "target": "ठीक",
+            "bangla_pronunciation": "ঠিক",
+            "romanization": "theek",
+            "separator_after": " "
+          },
+          {
+            "target": "नहीं",
+            "bangla_pronunciation": "নহীঁ",
+            "romanization": "naheen",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
+            "separator_after": ""
+          }
+        ],
+        "kind": "target"
+      },
+      {
+        "kind": "bangla",
+        "text": " তিনি জানান যে "
+      },
+      {
+        "target": "मेरी आज दोपहर की अपॉइंटमेंट है।",
+        "bangla_pronunciation": "মেরি আজ দোপহর কী অপয়েন্টমেন্ট হ্যায়।",
+        "romanization": "meri aaj dopahar kii appointment hai.",
+        "word_pronunciations": [
+          {
+            "target": "मेरी",
+            "bangla_pronunciation": "মেরি",
+            "romanization": "meree",
+            "separator_after": " "
+          },
+          {
+            "target": "आज",
+            "bangla_pronunciation": "আজ",
+            "romanization": "aaj",
+            "separator_after": " "
+          },
+          {
+            "target": "दोपहर",
+            "bangla_pronunciation": "দোপহর",
+            "romanization": "dophr",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "romanization": "kee",
+            "separator_after": " "
+          },
+          {
+            "target": "अपॉइंटमेंट",
+            "bangla_pronunciation": "অপয়েন্টমেন্ট",
+            "romanization": "appointment",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
+            "separator_after": ""
+          }
+        ],
+        "kind": "target"
+      },
+      {
+        "kind": "bangla",
+        "text": " কাজ আটকে না রাখতে তিনি আরও লিখলেন, "
+      },
+      {
+        "target": "मैं जरूरी काम की जानकारी टीम को भेज रहा हूँ।",
+        "bangla_pronunciation": "ম্যাঁ জরুরি কাম কী জানকারি টীম কো ভেজ রহা হুঁ।",
+        "romanization": "main zaroori kaam kii jaanakaarii team ko bhej raha hoon.",
+        "word_pronunciations": [
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যাঁ",
+            "romanization": "main",
+            "separator_after": " "
+          },
+          {
+            "target": "जरूरी",
+            "bangla_pronunciation": "জরুরি",
+            "romanization": "jarooree",
+            "separator_after": " "
+          },
+          {
+            "target": "काम",
+            "bangla_pronunciation": "কাম",
+            "romanization": "kaam",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "romanization": "kee",
+            "separator_after": " "
+          },
+          {
+            "target": "जानकारी",
+            "bangla_pronunciation": "জানকারি",
+            "romanization": "jaanakaarii",
+            "separator_after": " "
+          },
+          {
+            "target": "टीम",
+            "bangla_pronunciation": "টীম",
+            "romanization": "team",
+            "separator_after": " "
+          },
+          {
+            "target": "को",
+            "bangla_pronunciation": "কো",
+            "romanization": "ko",
+            "separator_after": " "
+          },
+          {
+            "target": "भेज",
+            "bangla_pronunciation": "ভেজ",
+            "romanization": "bhej",
+            "separator_after": " "
+          },
+          {
+            "target": "रहा",
+            "bangla_pronunciation": "রহা",
+            "romanization": "rahaa",
+            "separator_after": " "
+          },
+          {
+            "target": "हूँ।",
+            "bangla_pronunciation": "হুঁ।",
+            "romanization": "hoon.",
+            "separator_after": ""
+          }
+        ],
+        "kind": "target"
+      },
+      {
+        "kind": "bangla",
+        "text": " ব্যক্তিগত তথ্য নিয়ে তিনি অনুরোধ করলেন, "
+      },
+      {
+        "target": "कृपया मेरी निजी स्वास्थ्य जानकारी साझा न करें।",
+        "bangla_pronunciation": "কৃপয়া মেরি নিজী স্বাস্থ্য জানকারি সাঝা ন করেঁ।",
+        "romanization": "kripaya meri nijii svaasthya jaanakaarii saajha na karen.",
+        "word_pronunciations": [
+          {
+            "target": "कृपया",
+            "bangla_pronunciation": "কৃপয়া",
+            "romanization": "kripaya",
+            "separator_after": " "
+          },
+          {
+            "target": "मेरी",
+            "bangla_pronunciation": "মেরি",
+            "romanization": "meree",
+            "separator_after": " "
+          },
+          {
+            "target": "निजी",
+            "bangla_pronunciation": "নিজী",
+            "romanization": "nijii",
+            "separator_after": " "
+          },
+          {
+            "target": "स्वास्थ्य",
+            "bangla_pronunciation": "স্বাস্থ্য",
+            "romanization": "svaasthy",
+            "separator_after": " "
+          },
+          {
+            "target": "जानकारी",
+            "bangla_pronunciation": "জানকারি",
+            "romanization": "jaanakaarii",
+            "separator_after": " "
+          },
+          {
+            "target": "साझा",
+            "bangla_pronunciation": "সাঝা",
+            "romanization": "saajhaa",
+            "separator_after": " "
+          },
+          {
+            "target": "न",
+            "bangla_pronunciation": "ন",
+            "romanization": "na",
+            "separator_after": " "
+          },
+          {
+            "target": "करें।",
+            "bangla_pronunciation": "করেঁ।",
+            "romanization": "karen.",
+            "separator_after": ""
+          }
+        ],
+        "kind": "target"
+      },
+      {
+        "kind": "bangla",
+        "text": " ম্যানেজার ছুটি নথিভুক্ত করবেন। রাশেদ শেষে বললেন, "
+      },
+      {
+        "target": "धन्यवाद, मैं आपको शाम तक अपडेट कर दूँगा।",
+        "bangla_pronunciation": "ধন্যবাদ, ম্যাঁ আপকো শাম তক আপডেট কর দুঙ্গা।",
+        "romanization": "dhanyavaad, main aapko shaam tak update kar duunga.",
+        "word_pronunciations": [
+          {
+            "target": "धन्यवाद,",
+            "bangla_pronunciation": "ধন্যবাদ,",
+            "romanization": "dhanyavaad,",
+            "separator_after": " "
+          },
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যাঁ",
+            "romanization": "main",
+            "separator_after": " "
+          },
+          {
+            "target": "आपको",
+            "bangla_pronunciation": "আপকো",
+            "romanization": "aapako",
+            "separator_after": " "
+          },
+          {
+            "target": "शाम",
+            "bangla_pronunciation": "শাম",
+            "romanization": "shaam",
+            "separator_after": " "
+          },
+          {
+            "target": "तक",
+            "bangla_pronunciation": "তক",
+            "romanization": "tak",
+            "separator_after": " "
+          },
+          {
+            "target": "अपडेट",
+            "bangla_pronunciation": "আপডেট",
+            "romanization": "update",
+            "separator_after": " "
+          },
+          {
+            "target": "कर",
+            "bangla_pronunciation": "কর",
+            "romanization": "kar",
+            "separator_after": " "
+          },
+          {
+            "target": "दूँगा।",
+            "bangla_pronunciation": "দুঙ্গা।",
+            "romanization": "doongaa.",
+            "separator_after": ""
+          }
+        ],
+        "kind": "target"
+      }
     ],
-    "text_md": "সকালে রাশেদের শরীর খারাপ। তিনি ম্যানেজারকে লিখলেন, **मेरी** (মেরি) **तबीयत** (তবীয়ত) **ठीक** (ঠিক) **नहीं** (নহীঁ) **है।** (হ্যায়।) তিনি জানান যে **मेरी** (মেরি) **आज** (আজ) **दोपहर** (দোপহর) **की** (কী) **अपॉइंटमेंट** (অপয়েন্টমেন্ট) **है।** (হ্যায়।) কাজ আটকে না রাখতে তিনি আরও লিখলেন, **मैं** (ম্যাঁ) **जरूरी** (জরুরি) **काम** (কাম) **की** (কী) **जानकारी** (জানকারি) **टीम** (টীম) **को** (কো) **भेज** (ভেজ) **रहा** (রহা) **हूँ।** (হুঁ।) ব্যক্তিগত তথ্য নিয়ে তিনি অনুরোধ করলেন, **कृपया** (কৃপয়া) **मेरी** (মেরি) **निजी** (নিজী) **स्वास्थ्य** (স্বাস্থ্য) **जानकारी** (জানকারি) **साझा** (সাঝা) **न** (ন) **करें।** (করেঁ।) ম্যানেজার ছুটি নথিভুক্ত করবেন। রাশেদ শেষে বললেন, **धन्यवाद,** (ধন্যবাদ,) **मैं** (ম্যাঁ) **आपको** (আপকো) **शाम** (শাম) **तक** (তক) **अपडेट** (আপডেট) **कर** (কর) **दूँगा।** (দুঙ্গা।)"
+    "text_md": "সকালে রাশেদের শরীর খারাপ। তিনি ম্যানেজারকে লিখলেন, **मेरी** (মেরি, meree) **तबीयत** (তবীয়ত, tabeeyat) **ठीक** (ঠিক, theek) **नहीं** (নহীঁ, naheen) **है।** (হ্যায়।, hai\\.) তিনি জানান যে **मेरी** (মেরি, meree) **आज** (আজ, aaj) **दोपहर** (দোপহর, dophr) **की** (কী, kee) **अपॉइंटमेंट** (অপয়েন্টমেন্ট, appointment) **है।** (হ্যায়।, hai\\.) কাজ আটকে না রাখতে তিনি আরও লিখলেন, **मैं** (ম্যাঁ, main) **जरूरी** (জরুরি, jarooree) **काम** (কাম, kaam) **की** (কী, kee) **जानकारी** (জানকারি, jaanakaarii) **टीम** (টীম, team) **को** (কো, ko) **भेज** (ভেজ, bhej) **रहा** (রহা, rahaa) **हूँ।** (হুঁ।, hoon\\.) ব্যক্তিগত তথ্য নিয়ে তিনি অনুরোধ করলেন, **कृपया** (কৃপয়া, kripaya) **मेरी** (মেরি, meree) **निजी** (নিজী, nijii) **स्वास्थ्य** (স্বাস্থ্য, svaasthy) **जानकारी** (জানকারি, jaanakaarii) **साझा** (সাঝা, saajhaa) **न** (ন, na) **करें।** (করেঁ।, karen\\.) ম্যানেজার ছুটি নথিভুক্ত করবেন। রাশেদ শেষে বললেন, **धन्यवाद,** (ধন্যবাদ,, dhanyavaad,) **मैं** (ম্যাঁ, main) **आपको** (আপকো, aapako) **शाम** (শাম, shaam) **तक** (তক, tak) **अपडेट** (আপডেট, update) **कर** (কর, kar) **दूँगा।** (দুঙ্গা।, doongaa\\.)"
   },
   "target_reading": {
     "mode": "story",
     "title_bengali": "ডাক্তারের আগে ছোট আপডেট",
     "scene_summary": "এক কর্মী অ্যাপয়েন্টমেন্টের আগে নিজের অবস্থা ও কাজের আপডেট দিচ্ছেন।",
     "lines": [
-      {"target": "आज मेरी अपॉइंटमेंट है।", "bangla_pronunciation": "আজ মেরি অপয়েন্টমেন্ট হ্যায়।", "word_pronunciations": [{"target": "आज", "bangla_pronunciation": "আজ", "separator_after": " "}, {"target": "मेरी", "bangla_pronunciation": "মেরি", "separator_after": " "}, {"target": "अपॉइंटमेंट", "bangla_pronunciation": "অপয়েন্টমেন্ট", "separator_after": " "}, {"target": "है।", "bangla_pronunciation": "হ্যায়।", "separator_after": ""}]},
-      {"target": "मेरी तबीयत ठीक नहीं है।", "bangla_pronunciation": "মেরি তবীয়ত ঠিক নহীঁ হ্যায়।", "word_pronunciations": [{"target": "मेरी", "bangla_pronunciation": "মেরি", "separator_after": " "}, {"target": "तबीयत", "bangla_pronunciation": "তবীয়ত", "separator_after": " "}, {"target": "ठीक", "bangla_pronunciation": "ঠিক", "separator_after": " "}, {"target": "नहीं", "bangla_pronunciation": "নহীঁ", "separator_after": " "}, {"target": "है।", "bangla_pronunciation": "হ্যায়।", "separator_after": ""}]},
-      {"target": "डॉक्टर ने आराम की सलाह दी।", "bangla_pronunciation": "ডক্টর নে আরাম কী সলাহ দী।", "word_pronunciations": [{"target": "डॉक्टर", "bangla_pronunciation": "ডক্টর", "separator_after": " "}, {"target": "ने", "bangla_pronunciation": "নে", "separator_after": " "}, {"target": "आराम", "bangla_pronunciation": "আরাম", "separator_after": " "}, {"target": "की", "bangla_pronunciation": "কী", "separator_after": " "}, {"target": "सलाह", "bangla_pronunciation": "সলাহ", "separator_after": " "}, {"target": "दी।", "bangla_pronunciation": "দী।", "separator_after": ""}]},
-      {"target": "मैं टीम को जानकारी भेज रहा हूँ।", "bangla_pronunciation": "ম্যাঁ টীম কো জানকারি ভেজ রহা হুঁ।", "word_pronunciations": [{"target": "मैं", "bangla_pronunciation": "ম্যাঁ", "separator_after": " "}, {"target": "टीम", "bangla_pronunciation": "টীম", "separator_after": " "}, {"target": "को", "bangla_pronunciation": "কো", "separator_after": " "}, {"target": "जानकारी", "bangla_pronunciation": "জানকারি", "separator_after": " "}, {"target": "भेज", "bangla_pronunciation": "ভেজ", "separator_after": " "}, {"target": "रहा", "bangla_pronunciation": "রহা", "separator_after": " "}, {"target": "हूँ।", "bangla_pronunciation": "হুঁ।", "separator_after": ""}]},
-      {"target": "मैं कल काम पर लौटूँगा।", "bangla_pronunciation": "ম্যাঁ কল কাম পর লৌটুঙ্গা।", "word_pronunciations": [{"target": "मैं", "bangla_pronunciation": "ম্যাঁ", "separator_after": " "}, {"target": "कल", "bangla_pronunciation": "কল", "separator_after": " "}, {"target": "काम", "bangla_pronunciation": "কাম", "separator_after": " "}, {"target": "पर", "bangla_pronunciation": "পর", "separator_after": " "}, {"target": "लौटूँगा।", "bangla_pronunciation": "লৌটুঙ্গা।", "separator_after": ""}]}
+      {
+        "target": "आज मेरी अपॉइंटमेंट है।",
+        "bangla_pronunciation": "আজ মেরি অপয়েন্টমেন্ট হ্যায়।",
+        "romanization": "aaja meree apointamenta hai.",
+        "word_pronunciations": [
+          {
+            "target": "आज",
+            "bangla_pronunciation": "আজ",
+            "romanization": "aaj",
+            "separator_after": " "
+          },
+          {
+            "target": "मेरी",
+            "bangla_pronunciation": "মেরি",
+            "romanization": "meree",
+            "separator_after": " "
+          },
+          {
+            "target": "अपॉइंटमेंट",
+            "bangla_pronunciation": "অপয়েন্টমেন্ট",
+            "romanization": "appointment",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मेरी तबीयत ठीक नहीं है।",
+        "bangla_pronunciation": "মেরি তবীয়ত ঠিক নহীঁ হ্যায়।",
+        "romanization": "meri tabiiyat theek nahin hai.",
+        "word_pronunciations": [
+          {
+            "target": "मेरी",
+            "bangla_pronunciation": "মেরি",
+            "romanization": "meree",
+            "separator_after": " "
+          },
+          {
+            "target": "तबीयत",
+            "bangla_pronunciation": "তবীয়ত",
+            "romanization": "tabeeyat",
+            "separator_after": " "
+          },
+          {
+            "target": "ठीक",
+            "bangla_pronunciation": "ঠিক",
+            "romanization": "theek",
+            "separator_after": " "
+          },
+          {
+            "target": "नहीं",
+            "bangla_pronunciation": "নহীঁ",
+            "romanization": "naheen",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "डॉक्टर ने आराम की सलाह दी।",
+        "bangla_pronunciation": "ডক্টর নে আরাম কী সলাহ দী।",
+        "romanization": "doktara ne aaraama kee salaaha dee.",
+        "word_pronunciations": [
+          {
+            "target": "डॉक्टर",
+            "bangla_pronunciation": "ডক্টর",
+            "romanization": "doctor",
+            "separator_after": " "
+          },
+          {
+            "target": "ने",
+            "bangla_pronunciation": "নে",
+            "romanization": "ne",
+            "separator_after": " "
+          },
+          {
+            "target": "आराम",
+            "bangla_pronunciation": "আরাম",
+            "romanization": "aaraam",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "romanization": "kee",
+            "separator_after": " "
+          },
+          {
+            "target": "सलाह",
+            "bangla_pronunciation": "সলাহ",
+            "romanization": "slaah",
+            "separator_after": " "
+          },
+          {
+            "target": "दी।",
+            "bangla_pronunciation": "দী।",
+            "romanization": "dee.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मैं टीम को जानकारी भेज रहा हूँ।",
+        "bangla_pronunciation": "ম্যাঁ টীম কো জানকারি ভেজ রহা হুঁ।",
+        "romanization": "main teema ko jaanakaaree bheja rahaa hoon.",
+        "word_pronunciations": [
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যাঁ",
+            "romanization": "main",
+            "separator_after": " "
+          },
+          {
+            "target": "टीम",
+            "bangla_pronunciation": "টীম",
+            "romanization": "team",
+            "separator_after": " "
+          },
+          {
+            "target": "को",
+            "bangla_pronunciation": "কো",
+            "romanization": "ko",
+            "separator_after": " "
+          },
+          {
+            "target": "जानकारी",
+            "bangla_pronunciation": "জানকারি",
+            "romanization": "jaanakaarii",
+            "separator_after": " "
+          },
+          {
+            "target": "भेज",
+            "bangla_pronunciation": "ভেজ",
+            "romanization": "bhej",
+            "separator_after": " "
+          },
+          {
+            "target": "रहा",
+            "bangla_pronunciation": "রহা",
+            "romanization": "rahaa",
+            "separator_after": " "
+          },
+          {
+            "target": "हूँ।",
+            "bangla_pronunciation": "হুঁ।",
+            "romanization": "hoon.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मैं कल काम पर लौटूँगा।",
+        "bangla_pronunciation": "ম্যাঁ কল কাম পর লৌটুঙ্গা।",
+        "romanization": "main kala kaama para lautoongaa.",
+        "word_pronunciations": [
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যাঁ",
+            "romanization": "main",
+            "separator_after": " "
+          },
+          {
+            "target": "कल",
+            "bangla_pronunciation": "কল",
+            "romanization": "kal",
+            "separator_after": " "
+          },
+          {
+            "target": "काम",
+            "bangla_pronunciation": "কাম",
+            "romanization": "kaam",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "romanization": "par",
+            "separator_after": " "
+          },
+          {
+            "target": "लौटूँगा।",
+            "bangla_pronunciation": "লৌটুঙ্গা।",
+            "romanization": "lautoongaa.",
+            "separator_after": ""
+          }
+        ]
+      }
     ],
     "bangla_pronunciation": "আজ মেরি অপয়েন্টমেন্ট হ্যায়। মেরি তবীয়ত ঠিক নহীঁ হ্যায়। ডক্টর নে আরাম কী সলাহ দী। ম্যাঁ টীম কো জানকারি ভেজ রহা হুঁ। ম্যাঁ কল কাম পর লৌটুঙ্গা।",
+    "romanization": "aaja meree apointamenta hai. meri tabiiyat theek nahin hai. doktara ne aaraama kee salaaha dee. main teema ko jaanakaaree bheja rahaa hoon. main kala kaama para lautoongaa.",
     "meaning_bengali_md": "আজ আমার অ্যাপয়েন্টমেন্ট আছে। আমার শরীর ভালো নেই। ডাক্তার বিশ্রামের পরামর্শ দিয়েছেন। আমি টিমকে তথ্য পাঠাচ্ছি। আমি কাল কাজে ফিরব।"
   },
   "script_practice": [
-    {"item_id": "dev_ksha", "mode": "review", "target": "क्ष", "bangla_pronunciation": "ক্ষ", "explanation_bengali_md": "`क्ष`-এ যুক্ত ব্যঞ্জন দেখা যায়; `क्षेत्र`-এর মতো শব্দে এটি চিনুন।", "practice_bengali_md": "`क्ष` দেখে উচ্চারণটি একবার বলুন।"},
-    {"item_id": "dev_tra", "mode": "review", "target": "त्र", "bangla_pronunciation": "ত্র", "explanation_bengali_md": "`त्र` একটি বহুল ব্যবহৃত যুক্তরূপ।", "practice_bengali_md": "`त्र`-যুক্ত একটি পরিচিত শব্দ চোখে খুঁজুন।"},
-    {"item_id": "dev_gya", "mode": "review", "target": "ज्ञ", "bangla_pronunciation": "জ্ঞ", "explanation_bengali_md": "`ज्ञ`-এর উচ্চারণ শব্দভেদে বদলাতে পারে; মুদ্রিত রূপটি আগে চিনুন।", "practice_bengali_md": "`ज्ञ` দেখে ধীরে উচ্চারণ অনুশীলন করুন।"},
-    {"item_id": "dev_shra", "mode": "review", "target": "श्र", "bangla_pronunciation": "শ্র", "explanation_bengali_md": "`श्र`-এ শ + র যুক্ত।", "practice_bengali_md": "`श्र` একবার দেখে লিখে নিন।"},
-    {"item_id": "dev_fa_nukta", "mode": "review", "target": "फ़", "bangla_pronunciation": "ফ", "explanation_bengali_md": "নুক্তাযুক্ত `फ़` সাধারণত /f/ ধ্বনি বোঝায়।", "practice_bengali_md": "`फ़` এবং `फ` পাশাপাশি দেখে পার্থক্য চিনুন।"}
+    {
+      "item_id": "dev_ksha",
+      "mode": "review",
+      "target": "क्ष",
+      "bangla_pronunciation": "ক্ষ",
+      "romanization": "ksha",
+      "explanation_bengali_md": "`क्ष`-এ যুক্ত ব্যঞ্জন দেখা যায়; `क्षेत्र`-এর মতো শব্দে এটি চিনুন।",
+      "practice_bengali_md": "`क्ष` দেখে উচ্চারণটি একবার বলুন।"
+    },
+    {
+      "item_id": "dev_tra",
+      "mode": "review",
+      "target": "त्र",
+      "bangla_pronunciation": "ত্র",
+      "romanization": "tra",
+      "explanation_bengali_md": "`त्र` একটি বহুল ব্যবহৃত যুক্তরূপ।",
+      "practice_bengali_md": "`त्र`-যুক্ত একটি পরিচিত শব্দ চোখে খুঁজুন।"
+    },
+    {
+      "item_id": "dev_gya",
+      "mode": "review",
+      "target": "ज्ञ",
+      "bangla_pronunciation": "জ্ঞ",
+      "romanization": "jnya",
+      "explanation_bengali_md": "`ज्ञ`-এর উচ্চারণ শব্দভেদে বদলাতে পারে; মুদ্রিত রূপটি আগে চিনুন।",
+      "practice_bengali_md": "`ज्ञ` দেখে ধীরে উচ্চারণ অনুশীলন করুন।"
+    },
+    {
+      "item_id": "dev_shra",
+      "mode": "review",
+      "target": "श्र",
+      "bangla_pronunciation": "শ্র",
+      "romanization": "shra",
+      "explanation_bengali_md": "`श्र`-এ শ + র যুক্ত।",
+      "practice_bengali_md": "`श्र` একবার দেখে লিখে নিন।"
+    },
+    {
+      "item_id": "dev_fa_nukta",
+      "mode": "review",
+      "target": "फ़",
+      "bangla_pronunciation": "ফ",
+      "romanization": "fa",
+      "explanation_bengali_md": "নুক্তাযুক্ত `फ़` সাধারণত /f/ ধ্বনি বোঝায়।",
+      "practice_bengali_md": "`फ़` এবং `फ` পাশাপাশি দেখে পার্থক্য চিনুন।"
+    }
   ],
   "number_practice": [
-    {"display": "2 / २", "target": "दो", "bangla_pronunciation": "দো", "word_pronunciations": [{"target": "दो", "bangla_pronunciation": "দো", "separator_after": ""}], "meaning_bengali_md": "দুই", "system": "international+devanagari"},
-    {"display": "9 / ९", "target": "नौ", "bangla_pronunciation": "নৌ", "word_pronunciations": [{"target": "नौ", "bangla_pronunciation": "নৌ", "separator_after": ""}], "meaning_bengali_md": "নয়", "system": "international+devanagari"}
+    {
+      "display": "2 / २",
+      "target": "दो",
+      "bangla_pronunciation": "দো",
+      "romanization": "do",
+      "word_pronunciations": [
+        {
+          "target": "दो",
+          "bangla_pronunciation": "দো",
+          "romanization": "do",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুই",
+      "system": "international+devanagari"
+    },
+    {
+      "display": "9 / ९",
+      "target": "नौ",
+      "bangla_pronunciation": "নৌ",
+      "romanization": "nau",
+      "word_pronunciations": [
+        {
+          "target": "नौ",
+          "bangla_pronunciation": "নৌ",
+          "romanization": "nau",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নয়",
+      "system": "international+devanagari"
+    }
   ],
   "speaking_practice": [
-    {"prompt_bengali_md": "আপনার আজ ডাক্তারের সময় আছে—বলুন।", "model_target": "मेरी आज दोपहर की अपॉइंटमेंट है।", "model_bangla_pronunciation": "মেরি আজ দোপহর কী অপয়েন্টমেন্ট হ্যায়।", "model_word_pronunciations": [{"target": "मेरी", "bangla_pronunciation": "মেরি", "separator_after": " "}, {"target": "आज", "bangla_pronunciation": "আজ", "separator_after": " "}, {"target": "दोपहर", "bangla_pronunciation": "দোপহর", "separator_after": " "}, {"target": "की", "bangla_pronunciation": "কী", "separator_after": " "}, {"target": "अपॉइंटमेंट", "bangla_pronunciation": "অপয়েন্টমেন্ট", "separator_after": " "}, {"target": "है।", "bangla_pronunciation": "হ্যায়।", "separator_after": ""}], "model_meaning_bengali_md": "আজ দুপুরে আমার অ্যাপয়েন্টমেন্ট আছে।"},
-    {"prompt_bengali_md": "শরীর ভালো নেই—ভদ্রভাবে জানান।", "model_target": "मेरी तबीयत ठीक नहीं है।", "model_bangla_pronunciation": "মেরি তবীয়ত ঠিক নহীঁ হ্যায়।", "model_word_pronunciations": [{"target": "मेरी", "bangla_pronunciation": "মেরি", "separator_after": " "}, {"target": "तबीयत", "bangla_pronunciation": "তবীয়ত", "separator_after": " "}, {"target": "ठीक", "bangla_pronunciation": "ঠিক", "separator_after": " "}, {"target": "नहीं", "bangla_pronunciation": "নহীঁ", "separator_after": " "}, {"target": "है।", "bangla_pronunciation": "হ্যায়।", "separator_after": ""}], "model_meaning_bengali_md": "আমার শরীর ভালো নেই।"},
-    {"prompt_bengali_md": "এক দিনের sick leave চান।", "model_target": "क्या मुझे एक दिन की बीमारी की छुट्टी मिल सकती है?", "model_bangla_pronunciation": "ক্যা মুঝে এক দিন কী বীমারী কী ছুট্টী মিল সকতি হ্যায়?", "model_word_pronunciations": [{"target": "क्या", "bangla_pronunciation": "ক্যা", "separator_after": " "}, {"target": "मुझे", "bangla_pronunciation": "মুঝে", "separator_after": " "}, {"target": "एक", "bangla_pronunciation": "এক", "separator_after": " "}, {"target": "दिन", "bangla_pronunciation": "দিন", "separator_after": " "}, {"target": "की", "bangla_pronunciation": "কী", "separator_after": " "}, {"target": "बीमारी", "bangla_pronunciation": "বীমারী", "separator_after": " "}, {"target": "की", "bangla_pronunciation": "কী", "separator_after": " "}, {"target": "छुट्टी", "bangla_pronunciation": "ছুট্টী", "separator_after": " "}, {"target": "मिल", "bangla_pronunciation": "মিল", "separator_after": " "}, {"target": "सकती", "bangla_pronunciation": "সকতি", "separator_after": " "}, {"target": "है?", "bangla_pronunciation": "হ্যায়?", "separator_after": ""}], "model_meaning_bengali_md": "আমি কি এক দিনের অসুস্থতার ছুটি পেতে পারি?"},
-    {"prompt_bengali_md": "মেডিক্যাল সনদ কাল পাঠাবেন—বলুন।", "model_target": "मैं मेडिकल प्रमाणपत्र कल भेज दूँगा।", "model_bangla_pronunciation": "ম্যাঁ মেডিক্যাল প্রমাণপত্র কল ভেজ দুঙ্গা।", "model_word_pronunciations": [{"target": "मैं", "bangla_pronunciation": "ম্যাঁ", "separator_after": " "}, {"target": "मेडिकल", "bangla_pronunciation": "মেডিক্যাল", "separator_after": " "}, {"target": "प्रमाणपत्र", "bangla_pronunciation": "প্রমাণপত্র", "separator_after": " "}, {"target": "कल", "bangla_pronunciation": "কল", "separator_after": " "}, {"target": "भेज", "bangla_pronunciation": "ভেজ", "separator_after": " "}, {"target": "दूँगा।", "bangla_pronunciation": "দুঙ্গা।", "separator_after": ""}], "model_meaning_bengali_md": "আমি কাল মেডিক্যাল সনদ পাঠিয়ে দেব। পুরুষ বক্তার রূপ।"},
-    {"prompt_bengali_md": "স্বাস্থ্যতথ্য শেয়ার না করতে অনুরোধ করুন।", "model_target": "कृपया मेरी निजी स्वास्थ्य जानकारी साझा न करें।", "model_bangla_pronunciation": "কৃপয়া মেরি নিজী স্বাস্থ্য জানকারি সাঝা ন করেঁ।", "model_word_pronunciations": [{"target": "कृपया", "bangla_pronunciation": "কৃপয়া", "separator_after": " "}, {"target": "मेरी", "bangla_pronunciation": "মেরি", "separator_after": " "}, {"target": "निजी", "bangla_pronunciation": "নিজী", "separator_after": " "}, {"target": "स्वास्थ्य", "bangla_pronunciation": "স্বাস্থ্য", "separator_after": " "}, {"target": "जानकारी", "bangla_pronunciation": "জানকারি", "separator_after": " "}, {"target": "साझा", "bangla_pronunciation": "সাঝা", "separator_after": " "}, {"target": "न", "bangla_pronunciation": "ন", "separator_after": " "}, {"target": "करें।", "bangla_pronunciation": "করেঁ।", "separator_after": ""}], "model_meaning_bengali_md": "দয়া করে আমার ব্যক্তিগত স্বাস্থ্যতথ্য শেয়ার করবেন না।"},
-    {"prompt_bengali_md": "ফিরে এসে ফর্ম লাগবে কি না জিজ্ঞেস করুন।", "model_target": "क्या मुझे वापसी पर कोई फॉर्म भरना होगा?", "model_bangla_pronunciation": "ক্যা মুঝে বাপসী পর কোঈ ফর্ম ভরনা হোগা?", "model_word_pronunciations": [{"target": "क्या", "bangla_pronunciation": "ক্যা", "separator_after": " "}, {"target": "मुझे", "bangla_pronunciation": "মুঝে", "separator_after": " "}, {"target": "वापसी", "bangla_pronunciation": "বাপসী", "separator_after": " "}, {"target": "पर", "bangla_pronunciation": "পর", "separator_after": " "}, {"target": "कोई", "bangla_pronunciation": "কোঈ", "separator_after": " "}, {"target": "फॉर्म", "bangla_pronunciation": "ফর্ম", "separator_after": " "}, {"target": "भरना", "bangla_pronunciation": "ভরনা", "separator_after": " "}, {"target": "होगा?", "bangla_pronunciation": "হোগা?", "separator_after": ""}], "model_meaning_bengali_md": "ফিরে আসার পর কি আমাকে কোনো ফর্ম পূরণ করতে হবে?"}
+    {
+      "prompt_bengali_md": "আপনার আজ ডাক্তারের সময় আছে—বলুন।",
+      "model_target": "मेरी आज दोपहर की अपॉइंटमेंट है।",
+      "model_bangla_pronunciation": "মেরি আজ দোপহর কী অপয়েন্টমেন্ট হ্যায়।",
+      "model_romanization": "meri aaj dopahar kii appointment hai.",
+      "model_word_pronunciations": [
+        {
+          "target": "मेरी",
+          "bangla_pronunciation": "মেরি",
+          "romanization": "meree",
+          "separator_after": " "
+        },
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
+          "separator_after": " "
+        },
+        {
+          "target": "दोपहर",
+          "bangla_pronunciation": "দোপহর",
+          "romanization": "dophr",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "अपॉइंटमेंट",
+          "bangla_pronunciation": "অপয়েন্টমেন্ট",
+          "romanization": "appointment",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আজ দুপুরে আমার অ্যাপয়েন্টমেন্ট আছে।"
+    },
+    {
+      "prompt_bengali_md": "শরীর ভালো নেই—ভদ্রভাবে জানান।",
+      "model_target": "मेरी तबीयत ठीक नहीं है।",
+      "model_bangla_pronunciation": "মেরি তবীয়ত ঠিক নহীঁ হ্যায়।",
+      "model_romanization": "meri tabiiyat theek nahin hai.",
+      "model_word_pronunciations": [
+        {
+          "target": "मेरी",
+          "bangla_pronunciation": "মেরি",
+          "romanization": "meree",
+          "separator_after": " "
+        },
+        {
+          "target": "तबीयत",
+          "bangla_pronunciation": "তবীয়ত",
+          "romanization": "tabeeyat",
+          "separator_after": " "
+        },
+        {
+          "target": "ठीक",
+          "bangla_pronunciation": "ঠিক",
+          "romanization": "theek",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं",
+          "bangla_pronunciation": "নহীঁ",
+          "romanization": "naheen",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার শরীর ভালো নেই।"
+    },
+    {
+      "prompt_bengali_md": "এক দিনের sick leave চান।",
+      "model_target": "क्या मुझे एक दिन की बीमारी की छुट्टी मिल सकती है?",
+      "model_bangla_pronunciation": "ক্যা মুঝে এক দিন কী বীমারী কী ছুট্টী মিল সকতি হ্যায়?",
+      "model_romanization": "kya mujhe ek din kii biimaarii kii chhuttii mil sakti hai?",
+      "model_word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "romanization": "kya",
+          "separator_after": " "
+        },
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "romanization": "ek",
+          "separator_after": " "
+        },
+        {
+          "target": "दिन",
+          "bangla_pronunciation": "দিন",
+          "romanization": "din",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "बीमारी",
+          "bangla_pronunciation": "বীমারী",
+          "romanization": "beemaaree",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "छुट्टी",
+          "bangla_pronunciation": "ছুট্টী",
+          "romanization": "chhuttee",
+          "separator_after": " "
+        },
+        {
+          "target": "मिल",
+          "bangla_pronunciation": "মিল",
+          "romanization": "mil",
+          "separator_after": " "
+        },
+        {
+          "target": "सकती",
+          "bangla_pronunciation": "সকতি",
+          "romanization": "sakti",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "romanization": "hai?",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমি কি এক দিনের অসুস্থতার ছুটি পেতে পারি?"
+    },
+    {
+      "prompt_bengali_md": "মেডিক্যাল সনদ কাল পাঠাবেন—বলুন।",
+      "model_target": "मैं मेडिकल प्रमाणपत्र कल भेज दूँगा।",
+      "model_bangla_pronunciation": "ম্যাঁ মেডিক্যাল প্রমাণপত্র কল ভেজ দুঙ্গা।",
+      "model_romanization": "main medical pramaan-patra kal bhej duunga.",
+      "model_word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যাঁ",
+          "romanization": "main",
+          "separator_after": " "
+        },
+        {
+          "target": "मेडिकल",
+          "bangla_pronunciation": "মেডিক্যাল",
+          "romanization": "medikal",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रमाणपत्र",
+          "bangla_pronunciation": "প্রমাণপত্র",
+          "romanization": "pramaan-patra",
+          "separator_after": " "
+        },
+        {
+          "target": "कल",
+          "bangla_pronunciation": "কল",
+          "romanization": "kal",
+          "separator_after": " "
+        },
+        {
+          "target": "भेज",
+          "bangla_pronunciation": "ভেজ",
+          "romanization": "bhej",
+          "separator_after": " "
+        },
+        {
+          "target": "दूँगा।",
+          "bangla_pronunciation": "দুঙ্গা।",
+          "romanization": "doongaa.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমি কাল মেডিক্যাল সনদ পাঠিয়ে দেব। পুরুষ বক্তার রূপ।"
+    },
+    {
+      "prompt_bengali_md": "স্বাস্থ্যতথ্য শেয়ার না করতে অনুরোধ করুন।",
+      "model_target": "कृपया मेरी निजी स्वास्थ्य जानकारी साझा न करें।",
+      "model_bangla_pronunciation": "কৃপয়া মেরি নিজী স্বাস্থ্য জানকারি সাঝা ন করেঁ।",
+      "model_romanization": "kripaya meri nijii svaasthya jaanakaarii saajha na karen.",
+      "model_word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "romanization": "kripaya",
+          "separator_after": " "
+        },
+        {
+          "target": "मेरी",
+          "bangla_pronunciation": "মেরি",
+          "romanization": "meree",
+          "separator_after": " "
+        },
+        {
+          "target": "निजी",
+          "bangla_pronunciation": "নিজী",
+          "romanization": "nijii",
+          "separator_after": " "
+        },
+        {
+          "target": "स्वास्थ्य",
+          "bangla_pronunciation": "স্বাস্থ্য",
+          "romanization": "svaasthy",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারি",
+          "romanization": "jaanakaarii",
+          "separator_after": " "
+        },
+        {
+          "target": "साझा",
+          "bangla_pronunciation": "সাঝা",
+          "romanization": "saajhaa",
+          "separator_after": " "
+        },
+        {
+          "target": "न",
+          "bangla_pronunciation": "ন",
+          "romanization": "na",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "দয়া করে আমার ব্যক্তিগত স্বাস্থ্যতথ্য শেয়ার করবেন না।"
+    },
+    {
+      "prompt_bengali_md": "ফিরে এসে ফর্ম লাগবে কি না জিজ্ঞেস করুন।",
+      "model_target": "क्या मुझे वापसी पर कोई फॉर्म भरना होगा?",
+      "model_bangla_pronunciation": "ক্যা মুঝে বাপসী পর কোঈ ফর্ম ভরনা হোগা?",
+      "model_romanization": "kya mujhe vaapasii par koi form bharna hoga?",
+      "model_word_pronunciations": [
+        {
+          "target": "क्या",
+          "bangla_pronunciation": "ক্যা",
+          "romanization": "kya",
+          "separator_after": " "
+        },
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "वापसी",
+          "bangla_pronunciation": "বাপসী",
+          "romanization": "vaapsii",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "romanization": "par",
+          "separator_after": " "
+        },
+        {
+          "target": "कोई",
+          "bangla_pronunciation": "কোঈ",
+          "romanization": "koee",
+          "separator_after": " "
+        },
+        {
+          "target": "फॉर्म",
+          "bangla_pronunciation": "ফর্ম",
+          "romanization": "phoNrm",
+          "separator_after": " "
+        },
+        {
+          "target": "भरना",
+          "bangla_pronunciation": "ভরনা",
+          "romanization": "bharanaa",
+          "separator_after": " "
+        },
+        {
+          "target": "होगा?",
+          "bangla_pronunciation": "হোগা?",
+          "romanization": "hogaa?",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ফিরে আসার পর কি আমাকে কোনো ফর্ম পূরণ করতে হবে?"
+    }
   ],
   "image_prompts": [
-    {"key": "ch021_bridge_reading_01", "reading": "bridge_reading", "subject": "A contemporary South Asian office worker at home in daylight, sending a calm sick-leave update from a laptop while a clinic appointment card without legible writing sits nearby; tidy room, respectful professional mood, clear focal point on the person and laptop. No readable text, no labels, no signage, no watermark.", "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes, soft daylight, contemporary South Asian setting."},
-    {"key": "ch021_target_reading_01", "reading": "target_reading", "subject": "A patient in a clean modern clinic waiting area speaking quietly with a doctor, conveying a routine appointment and rest advice; simple chairs, subtle medical context without text, reassuring natural expressions, medium-wide framing. No readable text, no labels, no signage, no watermark.", "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes, soft daylight, contemporary South Asian setting."}
+    {
+      "key": "ch021_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A contemporary South Asian office worker at home in daylight, sending a calm sick-leave update from a laptop while a clinic appointment card without legible writing sits nearby; tidy room, respectful professional mood, clear focal point on the person and laptop. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes, soft daylight, contemporary South Asian setting."
+    },
+    {
+      "key": "ch021_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A patient in a clean modern clinic waiting area speaking quietly with a doctor, conveying a routine appointment and rest advice; simple chairs, subtle medical context without text, reassuring natural expressions, medium-wide framing. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes, soft daylight, contemporary South Asian setting."
+    }
   ],
   "additional_practice": []
 }

@@ -17,18 +17,18 @@ spec.loader.exec_module(manager)
 
 def annotation(target, prefix=''):
     parts = target.split(' ')
-    return {prefix+'target': target, prefix+'bangla_pronunciation':'ক',
-            prefix+'word_pronunciations':[{'target':word, 'bangla_pronunciation':'ক', 'separator_after':' ' if i < len(parts)-1 else ''} for i,word in enumerate(parts)]}
+    return {prefix+'target': target, prefix+'bangla_pronunciation':'ক', prefix+'romanization':'TEST',
+            prefix+'word_pronunciations':[{'target':word, 'bangla_pronunciation':'ক', 'romanization':'TEST', 'separator_after':' ' if i < len(parts)-1 else ''} for i,word in enumerate(parts)]}
 
 
 def fixture(kind='foundation'):
     sentences = [dict(annotation(f'X{i} Y{i}'), id=f's{i}', romanization='TEST', meaning_bengali_md='ক') for i in range(20)]
     vocabulary = [dict(annotation('X0'), id='v0', type='test', romanization='TEST', meaning_bengali_md='ক', source_sentence_id='s0', source_form='X0')]
-    chapter = {'chapter_id':'ch001', 'status':'drafted', 'title_target':'TEST', 'title_bangla_pronunciation':'ক', 'title_word_pronunciations':annotation('TEST')['word_pronunciations'], 'title_bengali':'ক', 'goal_bengali_md':'ক',
-               'script_practice':[{'item_id':str(i),'mode':'new','target':str(i),'bangla_pronunciation':'ক','explanation_bengali_md':'ক','practice_bengali_md':'ক'} for i in range(5)],
+    chapter = {'chapter_id':'ch001', 'status':'drafted', 'title_target':'TEST', 'title_bangla_pronunciation':'ক', 'title_romanization':'TEST', 'title_word_pronunciations':annotation('TEST')['word_pronunciations'], 'title_bengali':'ক', 'goal_bengali_md':'ক',
+               'script_practice':[{'item_id':str(i),'mode':'new','target':str(i),'bangla_pronunciation':'ক','romanization':'TEST','explanation_bengali_md':'ক','practice_bengali_md':'ক'} for i in range(5)],
                'number_practice':None, 'sentences':sentences, 'vocabulary':vocabulary,
                'bridge_reading':{'mode':'story','title_bengali':'ক','segments':[{'kind':'bangla','text':'ক'},dict(annotation('TEST'),kind='target')],'scene_summary':'TEST'},
-               'target_reading':{'mode':'article','title_bengali':'ক','lines':[annotation(f'LINE{i}') for i in range(4)],'scene_summary':'TEST','bangla_pronunciation':'ক','meaning_bengali_md':'ক'},
+               'target_reading':{'mode':'article','title_bengali':'ক','lines':[annotation(f'LINE{i}') for i in range(4)],'scene_summary':'TEST','bangla_pronunciation':'ক','romanization':'TEST','meaning_bengali_md':'ক'},
                'speaking_practice':[dict(annotation('TEST', 'model_'),prompt_bengali_md='ক',model_meaning_bengali_md='ক') for _ in range(6)],
                'image_prompts':[{'key':f'ch001_{key}_01','reading':key,'subject':'TEST. No readable text.','style':'TEST'} for key in ['bridge_reading','target_reading']]}
     book = {'kind':kind,'sentences_per_chapter':20,'pure_reading_max_units':12 if kind=='advanced' else 8}
@@ -69,14 +69,14 @@ class ValidationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'Bangla script'): manager.validate_chapter(b,p,c,l)
 
     def test_reconstruction_catches_missing_wrong_reordered_words_and_spacing(self):
-        for words in [[{'target':'A','bangla_pronunciation':'ক','separator_after':''}],annotation('A C')['word_pronunciations'],annotation('B A')['word_pronunciations'],annotation('A B ')['word_pronunciations']]:
+        for words in [[{'target':'A','bangla_pronunciation':'ক','romanization':'TEST','separator_after':''}],annotation('A C')['word_pronunciations'],annotation('B A')['word_pronunciations'],annotation('A B ')['word_pronunciations']]:
             with self.subTest(words=words), self.assertRaises(ValueError): manager.validate_words('A B',words)
 
     def test_sentence_cannot_hide_inside_one_pronunciation_unit(self):
-        with self.assertRaisesRegex(ValueError,'one word'): manager.validate_words('A B',[{'target':'A B','bangla_pronunciation':'ক','separator_after':''}])
+        with self.assertRaisesRegex(ValueError,'one word'): manager.validate_words('A B',[{'target':'A B','bangla_pronunciation':'ক','romanization':'TEST','separator_after':''}])
 
     def test_segmented_script_preserves_unspaced_native_text(self):
-        manager.validate_words('甲乙',[{'target':x,'bangla_pronunciation':'ক','separator_after':''} for x in ['甲','乙']])
+        manager.validate_words('甲乙',[{'target':x,'bangla_pronunciation':'ক','romanization':'TEST','separator_after':''} for x in ['甲','乙']])
 
     def test_five_distinct_script_cards(self):
         for action in ['remove','duplicate']:
@@ -130,7 +130,7 @@ class ValidationTests(unittest.TestCase):
         b,p,c,l=fixture()
         c['bridge_reading']['segments']=[{'kind':'bangla','text':'ক '},dict(annotation('X X'),kind='target')]
         c['bridge_reading']['text_md']=manager.mixed_reading_markdown(c['bridge_reading']['segments'])
-        self.assertEqual(c['bridge_reading']['text_md'],'ক **X** (ক) **X** (ক)')
+        self.assertEqual(c['bridge_reading']['text_md'],'ক **X** (ক, TEST) **X** (ক, TEST)')
         manager.validate_chapter(b,p,c,l)
 
     def test_mixed_markdown_requires_bold_on_every_word(self):
@@ -165,14 +165,14 @@ class ValidationTests(unittest.TestCase):
         target['word_pronunciations'][0]['bangla_pronunciation']='ক_(খ)'
         c['bridge_reading']['segments']=[{'kind':'bangla','text':'ক [*]\\` '},dict(target,kind='target')]
         c['bridge_reading']['text_md']=manager.mixed_reading_markdown(c['bridge_reading']['segments'])
-        self.assertEqual(c['bridge_reading']['text_md'],r'ক \[\*\]\\\` **X\_\*\[\!\]** (ক\_\(খ\))')
+        self.assertEqual(c['bridge_reading']['text_md'],r'ক \[\*\]\\\` **X\_\*\[\!\]** (ক\_\(খ\), TEST)')
         manager.validate_chapter(b,p,c,l)
 
     def test_mixed_markdown_preserves_apostrophes_and_email_punctuation(self):
         b,p,c,l=fixture()
         c['bridge_reading']['segments']=[{'kind':'bangla','text':'ক: '},dict(annotation("l'amour name@example.com"),kind='target')]
         c['bridge_reading']['text_md']=manager.mixed_reading_markdown(c['bridge_reading']['segments'])
-        self.assertEqual(c['bridge_reading']['text_md'],"ক: **l'amour** (ক) **name@example\\.com** (ক)")
+        self.assertEqual(c['bridge_reading']['text_md'],"ক: **l'amour** (ক, TEST) **name@example\\.com** (ক, TEST)")
         manager.validate_chapter(b,p,c,l)
 
     def test_legacy_prose_rejected(self):

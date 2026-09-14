@@ -1,78 +1,1335 @@
 {
-  "chapter_id":"ch029",
-  "status":"drafted",
-  "title_target":"ऐप और ऑनलाइन गोपनीयता",
-  "title_bangla_pronunciation":"অ্যাপ অউর অনলাইন গোপনীয়তা",
-  "title_word_pronunciations":[{"target":"ऐप","bangla_pronunciation":"অ্যাপ","separator_after":" "},{"target":"और","bangla_pronunciation":"অউর","separator_after":" "},{"target":"ऑनलाइन","bangla_pronunciation":"অনলাইন","separator_after":" "},{"target":"गोपनीयता","bangla_pronunciation":"গোপনীয়তা","separator_after":""}],
-  "title_bengali":"অ্যাপ ও অনলাইন গোপনীয়তা",
-  "goal_bengali_md":"ওটিপি, পাসওয়ার্ড, প্রতারণা, অনুমতি ও অ্যাকাউন্ট নিরাপত্তা নিয়ে ব্যবহারিক হিন্দি বলা।",
-  "sentences":[
-    {"id":"ch029_s01","target":"गोपनीयता सेटिंग जाँचिए।","romanization":"gopnīyatā seṭiṅg jāñciye.","bangla_pronunciation":"গোপনীয়তা সেটিং জাঁচিয়ে।","word_pronunciations":[{"target":"गोपनीयता","bangla_pronunciation":"গোপনীয়তা","separator_after":" "},{"target":"सेटिंग","bangla_pronunciation":"সেটিং","separator_after":" "},{"target":"जाँचिए।","bangla_pronunciation":"জাঁচিয়ে।","separator_after":""}],"meaning_bengali_md":"গোপনীয়তা সেটিং যাচাই করুন।"},
-    {"id":"ch029_s02","target":"ओटीपी साझा मत कीजिए।","romanization":"oṭīpī sānjhā mat kījiye.","bangla_pronunciation":"ওটিপি সাঝা মত কীজিয়ে।","word_pronunciations":[{"target":"ओटीपी","bangla_pronunciation":"ওটিপি","separator_after":" "},{"target":"साझा","bangla_pronunciation":"সাঝা","separator_after":" "},{"target":"मत","bangla_pronunciation":"মত","separator_after":" "},{"target":"कीजिए।","bangla_pronunciation":"কীজিয়ে।","separator_after":""}],"meaning_bengali_md":"ওটিপি শেয়ার করবেন না।"},
-    {"id":"ch029_s03","target":"मजबूत पासवर्ड रखिए।","romanization":"mazbūt pāsvarḍ rakhiye.","bangla_pronunciation":"মজবূত পাসওয়ার্ড রাখিয়ে।","word_pronunciations":[{"target":"मजबूत","bangla_pronunciation":"মজবূত","separator_after":" "},{"target":"पासवर्ड","bangla_pronunciation":"পাসওয়ার্ড","separator_after":" "},{"target":"रखिए।","bangla_pronunciation":"রাখিয়ে।","separator_after":""}],"meaning_bengali_md":"শক্তিশালী পাসওয়ার্ড রাখুন।"},
-    {"id":"ch029_s04","target":"अलग पासवर्ड बेहतर है।","romanization":"alag pāsvarḍ behtar hai.","bangla_pronunciation":"অলগ পাসওয়ার্ড বেহতর হ্যায়।","word_pronunciations":[{"target":"अलग","bangla_pronunciation":"অলগ","separator_after":" "},{"target":"पासवर्ड","bangla_pronunciation":"পাসওয়ার্ড","separator_after":" "},{"target":"बेहतर","bangla_pronunciation":"বেহতর","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"meaning_bengali_md":"আলাদা পাসওয়ার্ড ভালো।"},
-    {"id":"ch029_s05","target":"दो-स्तरीय सुरक्षा चालू करें।","romanization":"do-starīya surakṣā cālū karẽ.","bangla_pronunciation":"দো-স্তরীয় সুরক্ষা চালূ করেঁ।","word_pronunciations":[{"target":"दो-स्तरीय","bangla_pronunciation":"দো-স্তরীয়","separator_after":" "},{"target":"सुरक्षा","bangla_pronunciation":"সুরক্ষা","separator_after":" "},{"target":"चालू","bangla_pronunciation":"চালূ","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেঁ।","separator_after":""}],"meaning_bengali_md":"দুই-স্তরের নিরাপত্তা চালু করুন।"},
-    {"id":"ch029_s06","target":"अनजान लिंक मत खोलिए।","romanization":"anjān liṅk mat kholiye.","bangla_pronunciation":"অনজান লিংক মত খোলিয়ে।","word_pronunciations":[{"target":"अनजान","bangla_pronunciation":"অনজান","separator_after":" "},{"target":"लिंक","bangla_pronunciation":"লিংক","separator_after":" "},{"target":"मत","bangla_pronunciation":"মত","separator_after":" "},{"target":"खोलिए।","bangla_pronunciation":"খোলিয়ে।","separator_after":""}],"meaning_bengali_md":"অচেনা লিঙ্ক খুলবেন না।"},
-    {"id":"ch029_s07","target":"यह संदेश धोखाधड़ी है।","romanization":"yah sandeś dhokhādhaṛī hai.","bangla_pronunciation":"ইয়হ সন্দেশ ধোখাধড়ী হ্যায়।","word_pronunciations":[{"target":"यह","bangla_pronunciation":"ইয়হ","separator_after":" "},{"target":"संदेश","bangla_pronunciation":"সন্দেশ","separator_after":" "},{"target":"धोखाधड़ी","bangla_pronunciation":"ধোখাধড়ী","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"meaning_bengali_md":"এই বার্তাটি প্রতারণা।"},
-    {"id":"ch029_s08","target":"किसी ने लॉगिन किया।","romanization":"kisī ne login kiyā.","bangla_pronunciation":"কিসী নে লগইন কিয়া।","word_pronunciations":[{"target":"किसी","bangla_pronunciation":"কিসী","separator_after":" "},{"target":"ने","bangla_pronunciation":"নে","separator_after":" "},{"target":"लॉगिन","bangla_pronunciation":"লগইন","separator_after":" "},{"target":"किया।","bangla_pronunciation":"কিয়া।","separator_after":""}],"meaning_bengali_md":"কেউ লগইন করেছে।"},
-    {"id":"ch029_s09","target":"मैंने पासवर्ड बदल दिया।","romanization":"maine pāsvarḍ badal diyā.","bangla_pronunciation":"ম্যাঁনে পাসওয়ার্ড বদল দিয়া।","word_pronunciations":[{"target":"मैंने","bangla_pronunciation":"ম্যাঁনে","separator_after":" "},{"target":"पासवर्ड","bangla_pronunciation":"পাসওয়ার্ড","separator_after":" "},{"target":"बदल","bangla_pronunciation":"বদল","separator_after":" "},{"target":"दिया।","bangla_pronunciation":"দিয়া।","separator_after":""}],"meaning_bengali_md":"আমি পাসওয়ার্ড বদলে দিয়েছি।"},
-    {"id":"ch029_s10","target":"जरूरी अनुमति ही दीजिए।","romanization":"zarūrī anumati hī dījiye.","bangla_pronunciation":"জরূরী অনুমতি হী দীজিয়ে।","word_pronunciations":[{"target":"जरूरी","bangla_pronunciation":"জরূরী","separator_after":" "},{"target":"अनुमति","bangla_pronunciation":"অনুমতি","separator_after":" "},{"target":"ही","bangla_pronunciation":"হী","separator_after":" "},{"target":"दीजिए।","bangla_pronunciation":"দীজিয়ে।","separator_after":""}],"meaning_bengali_md":"শুধু প্রয়োজনীয় অনুমতি দিন।"},
-    {"id":"ch029_s11","target":"लोकेशन हमेशा जरूरी नहीं।","romanization":"lokeśan hameśā zarūrī nahī̃.","bangla_pronunciation":"লোকেশন হামেশা জরূরী নহীঁ।","word_pronunciations":[{"target":"लोकेशन","bangla_pronunciation":"লোকেশন","separator_after":" "},{"target":"हमेशा","bangla_pronunciation":"হামেশা","separator_after":" "},{"target":"जरूरी","bangla_pronunciation":"জরূরী","separator_after":" "},{"target":"नहीं।","bangla_pronunciation":"নহীঁ।","separator_after":""}],"meaning_bengali_md":"লোকেশন সব সময় জরুরি নয়।"},
-    {"id":"ch029_s12","target":"सार्वजनिक वाई-फाई से बचिए।","romanization":"sārvajanik vāī-fāī se baciye.","bangla_pronunciation":"সার্বজনিক ওয়াই-ফাই সে বচিয়ে।","word_pronunciations":[{"target":"सार्वजनिक","bangla_pronunciation":"সার্বজনিক","separator_after":" "},{"target":"वाई-फाई","bangla_pronunciation":"ওয়াই-ফাই","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"बचिए।","bangla_pronunciation":"বচিয়ে।","separator_after":""}],"meaning_bengali_md":"পাবলিক ওয়াই-ফাই এড়িয়ে চলুন।"},
-    {"id":"ch029_s13","target":"बैंक जानकारी मत भेजिए।","romanization":"baiṅk jānkārī mat bhejiye.","bangla_pronunciation":"ব্যাংক জানকারী মত ভেজিয়ে।","word_pronunciations":[{"target":"बैंक","bangla_pronunciation":"ব্যাংক","separator_after":" "},{"target":"जानकारी","bangla_pronunciation":"জানকারী","separator_after":" "},{"target":"मत","bangla_pronunciation":"মত","separator_after":" "},{"target":"भेजिए।","bangla_pronunciation":"ভেজিয়ে।","separator_after":""}],"meaning_bengali_md":"ব্যাংকের তথ্য পাঠাবেন না।"},
-    {"id":"ch029_s14","target":"फर्जी कॉल रिपोर्ट कीजिए।","romanization":"farzī call report kījiye.","bangla_pronunciation":"ফর্জী কল রিপোর্ট কীজিয়ে।","word_pronunciations":[{"target":"फर्जी","bangla_pronunciation":"ফর্জী","separator_after":" "},{"target":"कॉल","bangla_pronunciation":"কল","separator_after":" "},{"target":"रिपोर्ट","bangla_pronunciation":"রিপোর্ট","separator_after":" "},{"target":"कीजिए।","bangla_pronunciation":"কীজিয়ে।","separator_after":""}],"meaning_bengali_md":"ভুয়া কল রিপোর্ট করুন।"},
-    {"id":"ch029_s15","target":"स्क्रीनशॉट सुरक्षित रखिए।","romanization":"skrīnśoṭ surakṣit rakhiye.","bangla_pronunciation":"স্ক্রিনশট সুরক্ষিত রাখিয়ে।","word_pronunciations":[{"target":"स्क्रीनशॉट","bangla_pronunciation":"স্ক্রিনশট","separator_after":" "},{"target":"सुरक्षित","bangla_pronunciation":"সুরক্ষিত","separator_after":" "},{"target":"रखिए।","bangla_pronunciation":"রাখিয়ে।","separator_after":""}],"meaning_bengali_md":"স্ক্রিনশট নিরাপদে রাখুন।"},
-    {"id":"ch029_s16","target":"घटना का समय बताइए।","romanization":"ghaṭnā kā samay batāiye.","bangla_pronunciation":"ঘটনা কা সময় বতাইয়ে।","word_pronunciations":[{"target":"घटना","bangla_pronunciation":"ঘটনা","separator_after":" "},{"target":"का","bangla_pronunciation":"কা","separator_after":" "},{"target":"समय","bangla_pronunciation":"সময়","separator_after":" "},{"target":"बताइए।","bangla_pronunciation":"বতাইয়ে।","separator_after":""}],"meaning_bengali_md":"ঘটনার সময় বলুন।"},
-    {"id":"ch029_s17","target":"नया अपडेट उपलब्ध है।","romanization":"nayā apḍeṭ upalabdh hai.","bangla_pronunciation":"নয়া আপডেট উপলব্ধ হ্যায়।","word_pronunciations":[{"target":"नया","bangla_pronunciation":"নয়া","separator_after":" "},{"target":"अपडेट","bangla_pronunciation":"আপডেট","separator_after":" "},{"target":"उपलब्ध","bangla_pronunciation":"উপলব্ধ","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"meaning_bengali_md":"নতুন আপডেট আছে।"},
-    {"id":"ch029_s18","target":"अपडेट सुरक्षा सुधारता है।","romanization":"apḍeṭ surakṣā sudhārtā hai.","bangla_pronunciation":"আপডেট সুরক্ষা সুধারতা হ্যায়।","word_pronunciations":[{"target":"अपडेट","bangla_pronunciation":"আপডেট","separator_after":" "},{"target":"सुरक्षा","bangla_pronunciation":"সুরক্ষা","separator_after":" "},{"target":"सुधारता","bangla_pronunciation":"সুধারতা","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"meaning_bengali_md":"আপডেট নিরাপত্তা উন্নত করে।"},
-    {"id":"ch029_s19","target":"खाता बंद हो गया।","romanization":"khātā band ho gayā.","bangla_pronunciation":"খাতা বন্দ হো গয়া।","word_pronunciations":[{"target":"खाता","bangla_pronunciation":"খাতা","separator_after":" "},{"target":"बंद","bangla_pronunciation":"বন্দ","separator_after":" "},{"target":"हो","bangla_pronunciation":"হো","separator_after":" "},{"target":"गया।","bangla_pronunciation":"গয়া।","separator_after":""}],"meaning_bengali_md":"অ্যাকাউন্ট বন্ধ হয়ে গেছে।"},
-    {"id":"ch029_s20","target":"ऑनलाइन सुरक्षा रोज जरूरी है।","romanization":"online surakṣā roz zarūrī hai.","bangla_pronunciation":"অনলাইন সুরক্ষা রোজ জরূরী হ্যায়।","word_pronunciations":[{"target":"ऑनलाइन","bangla_pronunciation":"অনলাইন","separator_after":" "},{"target":"सुरक्षा","bangla_pronunciation":"সুরক্ষা","separator_after":" "},{"target":"रोज","bangla_pronunciation":"রোজ","separator_after":" "},{"target":"जरूरी","bangla_pronunciation":"জরূরী","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"meaning_bengali_md":"অনলাইন নিরাপত্তা প্রতিদিন জরুরি।"}
+  "chapter_id": "ch029",
+  "status": "drafted",
+  "title_target": "ऐप और ऑनलाइन गोपनीयता",
+  "title_bangla_pronunciation": "অ্যাপ অউর অনলাইন গোপনীয়তা",
+  "title_romanization": "aipa aura onalaaina gopaneeyataa",
+  "title_word_pronunciations": [
+    {
+      "target": "ऐप",
+      "bangla_pronunciation": "অ্যাপ",
+      "romanization": "aip",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "romanization": "aur",
+      "separator_after": " "
+    },
+    {
+      "target": "ऑनलाइन",
+      "bangla_pronunciation": "অনলাইন",
+      "romanization": "onalaain",
+      "separator_after": " "
+    },
+    {
+      "target": "गोपनीयता",
+      "bangla_pronunciation": "গোপনীয়তা",
+      "romanization": "gopnīyatā",
+      "separator_after": ""
+    }
   ],
-  "vocabulary":[
-    {"id":"ch029_v01","target":"गोपनीयता","type":"noun","romanization":"gopnīyatā","bangla_pronunciation":"গোপনীয়তা","word_pronunciations":[{"target":"गोपनीयता","bangla_pronunciation":"গোপনীয়তা","separator_after":""}],"meaning_bengali_md":"গোপনীয়তা।","source_sentence_id":"ch029_s01","source_form":"गोपनीयता"},
-    {"id":"ch029_v02","target":"ओटीपी","type":"noun","romanization":"oṭīpī","bangla_pronunciation":"ওটিপি","word_pronunciations":[{"target":"ओटीपी","bangla_pronunciation":"ওটিপি","separator_after":""}],"meaning_bengali_md":"ওটিপি।","source_sentence_id":"ch029_s02","source_form":"ओटीपी"},
-    {"id":"ch029_v03","target":"पासवर्ड","type":"noun","romanization":"pāsvarḍ","bangla_pronunciation":"পাসওয়ার্ড","word_pronunciations":[{"target":"पासवर्ड","bangla_pronunciation":"পাসওয়ার্ড","separator_after":""}],"meaning_bengali_md":"পাসওয়ার্ড।","source_sentence_id":"ch029_s03","source_form":"पासवर्ड"},
-    {"id":"ch029_v04","target":"धोखाधड़ी","type":"noun","romanization":"dhokhādhaṛī","bangla_pronunciation":"ধোখাধড়ী","word_pronunciations":[{"target":"धोखाधड़ी","bangla_pronunciation":"ধোখাধড়ী","separator_after":""}],"meaning_bengali_md":"প্রতারণা।","source_sentence_id":"ch029_s07","source_form":"धोखाधड़ी"},
-    {"id":"ch029_v05","target":"स्क्रीनशॉट","type":"noun","romanization":"skrīnśoṭ","bangla_pronunciation":"স্ক্রিনশট","word_pronunciations":[{"target":"स्क्रीनशॉट","bangla_pronunciation":"স্ক্রিনশট","separator_after":""}],"meaning_bengali_md":"স্ক্রিনশট।","source_sentence_id":"ch029_s15","source_form":"स्क्रीनशॉट"}
+  "title_bengali": "অ্যাপ ও অনলাইন গোপনীয়তা",
+  "goal_bengali_md": "ওটিপি, পাসওয়ার্ড, প্রতারণা, অনুমতি ও অ্যাকাউন্ট নিরাপত্তা নিয়ে ব্যবহারিক হিন্দি বলা।",
+  "sentences": [
+    {
+      "id": "ch029_s01",
+      "target": "गोपनीयता सेटिंग जाँचिए।",
+      "romanization": "gopnīyatā seṭiṅg jāñciye.",
+      "bangla_pronunciation": "গোপনীয়তা সেটিং জাঁচিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "गोपनीयता",
+          "bangla_pronunciation": "গোপনীয়তা",
+          "romanization": "gopnīyatā",
+          "separator_after": " "
+        },
+        {
+          "target": "सेटिंग",
+          "bangla_pronunciation": "সেটিং",
+          "romanization": "seting",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचिए।",
+          "bangla_pronunciation": "জাঁচিয়ে।",
+          "romanization": "jaaNcie /",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গোপনীয়তা সেটিং যাচাই করুন।"
+    },
+    {
+      "id": "ch029_s02",
+      "target": "ओटीपी साझा मत कीजिए।",
+      "romanization": "oṭīpī sānjhā mat kījiye.",
+      "bangla_pronunciation": "ওটিপি সাঝা মত কীজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "ओटीपी",
+          "bangla_pronunciation": "ওটিপি",
+          "romanization": "oṭīpī",
+          "separator_after": " "
+        },
+        {
+          "target": "साझा",
+          "bangla_pronunciation": "সাঝা",
+          "romanization": "saajhaa",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "romanization": "mat",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ওটিপি শেয়ার করবেন না।"
+    },
+    {
+      "id": "ch029_s03",
+      "target": "मजबूत पासवर्ड रखिए।",
+      "romanization": "mazbūt pāsvarḍ rakhiye.",
+      "bangla_pronunciation": "মজবূত পাসওয়ার্ড রাখিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "मजबूत",
+          "bangla_pronunciation": "মজবূত",
+          "romanization": "mjbuut",
+          "separator_after": " "
+        },
+        {
+          "target": "पासवर्ड",
+          "bangla_pronunciation": "পাসওয়ার্ড",
+          "romanization": "pāsvarḍ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রাখিয়ে।",
+          "romanization": "rakhie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শক্তিশালী পাসওয়ার্ড রাখুন।"
+    },
+    {
+      "id": "ch029_s04",
+      "target": "अलग पासवर्ड बेहतर है।",
+      "romanization": "alag pāsvarḍ behtar hai.",
+      "bangla_pronunciation": "অলগ পাসওয়ার্ড বেহতর হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "अलग",
+          "bangla_pronunciation": "অলগ",
+          "romanization": "alg",
+          "separator_after": " "
+        },
+        {
+          "target": "पासवर्ड",
+          "bangla_pronunciation": "পাসওয়ার্ড",
+          "romanization": "pāsvarḍ",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "romanization": "behtar",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আলাদা পাসওয়ার্ড ভালো।"
+    },
+    {
+      "id": "ch029_s05",
+      "target": "दो-स्तरीय सुरक्षा चालू करें।",
+      "romanization": "do-starīya surakṣā cālū karẽ.",
+      "bangla_pronunciation": "দো-স্তরীয় সুরক্ষা চালূ করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "दो-स्तरीय",
+          "bangla_pronunciation": "দো-স্তরীয়",
+          "romanization": "do-stareey",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षा",
+          "bangla_pronunciation": "সুরক্ষা",
+          "romanization": "suraksha",
+          "separator_after": " "
+        },
+        {
+          "target": "चालू",
+          "bangla_pronunciation": "চালূ",
+          "romanization": "caaluu",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুই-স্তরের নিরাপত্তা চালু করুন।"
+    },
+    {
+      "id": "ch029_s06",
+      "target": "अनजान लिंक मत खोलिए।",
+      "romanization": "anjān liṅk mat kholiye.",
+      "bangla_pronunciation": "অনজান লিংক মত খোলিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "अनजान",
+          "bangla_pronunciation": "অনজান",
+          "romanization": "anajaan",
+          "separator_after": " "
+        },
+        {
+          "target": "लिंक",
+          "bangla_pronunciation": "লিংক",
+          "romanization": "liNk",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "romanization": "mat",
+          "separator_after": " "
+        },
+        {
+          "target": "खोलिए।",
+          "bangla_pronunciation": "খোলিয়ে।",
+          "romanization": "kholie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অচেনা লিঙ্ক খুলবেন না।"
+    },
+    {
+      "id": "ch029_s07",
+      "target": "यह संदेश धोखाधड़ी है।",
+      "romanization": "yah sandeś dhokhādhaṛī hai.",
+      "bangla_pronunciation": "ইয়হ সন্দেশ ধোখাধড়ী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "संदेश",
+          "bangla_pronunciation": "সন্দেশ",
+          "romanization": "sandesh",
+          "separator_after": " "
+        },
+        {
+          "target": "धोखाधड़ी",
+          "bangla_pronunciation": "ধোখাধড়ী",
+          "romanization": "dhokhādhaṛī",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই বার্তাটি প্রতারণা।"
+    },
+    {
+      "id": "ch029_s08",
+      "target": "किसी ने लॉगिन किया।",
+      "romanization": "kisī ne login kiyā.",
+      "bangla_pronunciation": "কিসী নে লগইন কিয়া।",
+      "word_pronunciations": [
+        {
+          "target": "किसी",
+          "bangla_pronunciation": "কিসী",
+          "romanization": "kisee",
+          "separator_after": " "
+        },
+        {
+          "target": "ने",
+          "bangla_pronunciation": "নে",
+          "romanization": "ne",
+          "separator_after": " "
+        },
+        {
+          "target": "लॉगिन",
+          "bangla_pronunciation": "লগইন",
+          "romanization": "login",
+          "separator_after": " "
+        },
+        {
+          "target": "किया।",
+          "bangla_pronunciation": "কিয়া।",
+          "romanization": "kiyaa.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কেউ লগইন করেছে।"
+    },
+    {
+      "id": "ch029_s09",
+      "target": "मैंने पासवर्ड बदल दिया।",
+      "romanization": "maine pāsvarḍ badal diyā.",
+      "bangla_pronunciation": "ম্যাঁনে পাসওয়ার্ড বদল দিয়া।",
+      "word_pronunciations": [
+        {
+          "target": "मैंने",
+          "bangla_pronunciation": "ম্যাঁনে",
+          "romanization": "mainne",
+          "separator_after": " "
+        },
+        {
+          "target": "पासवर्ड",
+          "bangla_pronunciation": "পাসওয়ার্ড",
+          "romanization": "pāsvarḍ",
+          "separator_after": " "
+        },
+        {
+          "target": "बदल",
+          "bangla_pronunciation": "বদল",
+          "romanization": "badal",
+          "separator_after": " "
+        },
+        {
+          "target": "दिया।",
+          "bangla_pronunciation": "দিয়া।",
+          "romanization": "diyaa.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি পাসওয়ার্ড বদলে দিয়েছি।"
+    },
+    {
+      "id": "ch029_s10",
+      "target": "जरूरी अनुमति ही दीजिए।",
+      "romanization": "zarūrī anumati hī dījiye.",
+      "bangla_pronunciation": "জরূরী অনুমতি হী দীজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुमति",
+          "bangla_pronunciation": "অনুমতি",
+          "romanization": "anumti",
+          "separator_after": " "
+        },
+        {
+          "target": "ही",
+          "bangla_pronunciation": "হী",
+          "romanization": "hee",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিয়ে।",
+          "romanization": "deejie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শুধু প্রয়োজনীয় অনুমতি দিন।"
+    },
+    {
+      "id": "ch029_s11",
+      "target": "लोकेशन हमेशा जरूरी नहीं।",
+      "romanization": "lokeśan hameśā zarūrī nahī̃.",
+      "bangla_pronunciation": "লোকেশন হামেশা জরূরী নহীঁ।",
+      "word_pronunciations": [
+        {
+          "target": "लोकेशन",
+          "bangla_pronunciation": "লোকেশন",
+          "romanization": "lokeshan",
+          "separator_after": " "
+        },
+        {
+          "target": "हमेशा",
+          "bangla_pronunciation": "হামেশা",
+          "romanization": "hmeshaa",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
+          "separator_after": " "
+        },
+        {
+          "target": "नहीं।",
+          "bangla_pronunciation": "নহীঁ।",
+          "romanization": "nahin.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লোকেশন সব সময় জরুরি নয়।"
+    },
+    {
+      "id": "ch029_s12",
+      "target": "सार्वजनिक वाई-फाई से बचिए।",
+      "romanization": "sārvajanik vāī-fāī se baciye.",
+      "bangla_pronunciation": "সার্বজনিক ওয়াই-ফাই সে বচিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "सार्वजनिक",
+          "bangla_pronunciation": "সার্বজনিক",
+          "romanization": "saarvjnik",
+          "separator_after": " "
+        },
+        {
+          "target": "वाई-फाई",
+          "bangla_pronunciation": "ওয়াই-ফাই",
+          "romanization": "vaaee-phaaee",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "romanization": "se",
+          "separator_after": " "
+        },
+        {
+          "target": "बचिए।",
+          "bangla_pronunciation": "বচিয়ে।",
+          "romanization": "bachie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পাবলিক ওয়াই-ফাই এড়িয়ে চলুন।"
+    },
+    {
+      "id": "ch029_s13",
+      "target": "बैंक जानकारी मत भेजिए।",
+      "romanization": "baiṅk jānkārī mat bhejiye.",
+      "bangla_pronunciation": "ব্যাংক জানকারী মত ভেজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "बैंक",
+          "bangla_pronunciation": "ব্যাংক",
+          "romanization": "bank",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "romanization": "mat",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजिए।",
+          "bangla_pronunciation": "ভেজিয়ে।",
+          "romanization": "bhejie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাংকের তথ্য পাঠাবেন না।"
+    },
+    {
+      "id": "ch029_s14",
+      "target": "फर्जी कॉल रिपोर्ट कीजिए।",
+      "romanization": "farzī call report kījiye.",
+      "bangla_pronunciation": "ফর্জী কল রিপোর্ট কীজিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "फर्जी",
+          "bangla_pronunciation": "ফর্জী",
+          "romanization": "pharjee",
+          "separator_after": " "
+        },
+        {
+          "target": "कॉल",
+          "bangla_pronunciation": "কল",
+          "romanization": "call",
+          "separator_after": " "
+        },
+        {
+          "target": "रिपोर्ट",
+          "bangla_pronunciation": "রিপোর্ট",
+          "romanization": "riport",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভুয়া কল রিপোর্ট করুন।"
+    },
+    {
+      "id": "ch029_s15",
+      "target": "स्क्रीनशॉट सुरक्षित रखिए।",
+      "romanization": "skrīnśoṭ surakṣit rakhiye.",
+      "bangla_pronunciation": "স্ক্রিনশট সুরক্ষিত রাখিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "स्क्रीनशॉट",
+          "bangla_pronunciation": "স্ক্রিনশট",
+          "romanization": "skrīnśoṭ",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षित",
+          "bangla_pronunciation": "সুরক্ষিত",
+          "romanization": "surakshit",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রাখিয়ে।",
+          "romanization": "rakhie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্ক্রিনশট নিরাপদে রাখুন।"
+    },
+    {
+      "id": "ch029_s16",
+      "target": "घटना का समय बताइए।",
+      "romanization": "ghaṭnā kā samay batāiye.",
+      "bangla_pronunciation": "ঘটনা কা সময় বতাইয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "घटना",
+          "bangla_pronunciation": "ঘটনা",
+          "romanization": "ghatana",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "romanization": "kaa",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "romanization": "samay",
+          "separator_after": " "
+        },
+        {
+          "target": "बताइए।",
+          "bangla_pronunciation": "বতাইয়ে।",
+          "romanization": "bataaie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঘটনার সময় বলুন।"
+    },
+    {
+      "id": "ch029_s17",
+      "target": "नया अपडेट उपलब्ध है।",
+      "romanization": "nayā apḍeṭ upalabdh hai.",
+      "bangla_pronunciation": "নয়া আপডেট উপলব্ধ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "नया",
+          "bangla_pronunciation": "নয়া",
+          "romanization": "nyaa",
+          "separator_after": " "
+        },
+        {
+          "target": "अपडेट",
+          "bangla_pronunciation": "আপডেট",
+          "romanization": "update",
+          "separator_after": " "
+        },
+        {
+          "target": "उपलब्ध",
+          "bangla_pronunciation": "উপলব্ধ",
+          "romanization": "upalabdh",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নতুন আপডেট আছে।"
+    },
+    {
+      "id": "ch029_s18",
+      "target": "अपडेट सुरक्षा सुधारता है।",
+      "romanization": "apḍeṭ surakṣā sudhārtā hai.",
+      "bangla_pronunciation": "আপডেট সুরক্ষা সুধারতা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "अपडेट",
+          "bangla_pronunciation": "আপডেট",
+          "romanization": "update",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षा",
+          "bangla_pronunciation": "সুরক্ষা",
+          "romanization": "suraksha",
+          "separator_after": " "
+        },
+        {
+          "target": "सुधारता",
+          "bangla_pronunciation": "সুধারতা",
+          "romanization": "sudhaarataa",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপডেট নিরাপত্তা উন্নত করে।"
+    },
+    {
+      "id": "ch029_s19",
+      "target": "खाता बंद हो गया।",
+      "romanization": "khātā band ho gayā.",
+      "bangla_pronunciation": "খাতা বন্দ হো গয়া।",
+      "word_pronunciations": [
+        {
+          "target": "खाता",
+          "bangla_pronunciation": "খাতা",
+          "romanization": "khaata",
+          "separator_after": " "
+        },
+        {
+          "target": "बंद",
+          "bangla_pronunciation": "বন্দ",
+          "romanization": "band",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "romanization": "ho",
+          "separator_after": " "
+        },
+        {
+          "target": "गया।",
+          "bangla_pronunciation": "গয়া।",
+          "romanization": "gayaa.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অ্যাকাউন্ট বন্ধ হয়ে গেছে।"
+    },
+    {
+      "id": "ch029_s20",
+      "target": "ऑनलाइन सुरक्षा रोज जरूरी है।",
+      "romanization": "online surakṣā roz zarūrī hai.",
+      "bangla_pronunciation": "অনলাইন সুরক্ষা রোজ জরূরী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "ऑनलाइन",
+          "bangla_pronunciation": "অনলাইন",
+          "romanization": "onalaain",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षा",
+          "bangla_pronunciation": "সুরক্ষা",
+          "romanization": "suraksha",
+          "separator_after": " "
+        },
+        {
+          "target": "रोज",
+          "bangla_pronunciation": "রোজ",
+          "romanization": "roj",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনলাইন নিরাপত্তা প্রতিদিন জরুরি।"
+    }
   ],
-  "bridge_reading":{"mode":"story","title_bengali":"সন্দেহজনক বার্তা","scene_summary":"একজন ব্যবহারকারী প্রতারণা সন্দেহ করে অ্যাকাউন্ট নিরাপদ করে।","segments":[
-    {"kind":"bangla","text":"একটি বার্তা দেখে রিমা ভাবল, "},
-    {"kind":"target","target":"यह संदेश धोखाधड़ी है।","bangla_pronunciation":"ইয়হ সন্দেশ ধোখাধড়ী হ্যায়।","word_pronunciations":[{"target":"यह","bangla_pronunciation":"ইয়হ","separator_after":" "},{"target":"संदेश","bangla_pronunciation":"সন্দেশ","separator_after":" "},{"target":"धोखाधड़ी","bangla_pronunciation":"ধোখাধড়ী","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}]},
-    {"kind":"bangla","text":" সে মনে রাখল, "},
-    {"kind":"target","target":"अनजान लिंक मत खोलिए।","bangla_pronunciation":"অনজান লিংক মত খোলিয়ে।","word_pronunciations":[{"target":"अनजान","bangla_pronunciation":"অনজান","separator_after":" "},{"target":"लिंक","bangla_pronunciation":"লিংক","separator_after":" "},{"target":"मत","bangla_pronunciation":"মত","separator_after":" "},{"target":"खोलिए।","bangla_pronunciation":"খোলিয়ে।","separator_after":""}]},
-    {"kind":"bangla","text":" এরপর "},
-    {"kind":"target","target":"मैंने पासवर्ड बदल दिया।","bangla_pronunciation":"ম্যাঁনে পাসওয়ার্ড বদল দিয়া।","word_pronunciations":[{"target":"मैंने","bangla_pronunciation":"ম্যাঁনে","separator_after":" "},{"target":"पासवर्ड","bangla_pronunciation":"পাসওয়ার্ড","separator_after":" "},{"target":"बदल","bangla_pronunciation":"বদল","separator_after":" "},{"target":"दिया।","bangla_pronunciation":"দিয়া।","separator_after":""}]},
-    {"kind":"bangla","text":" এবং "},
-    {"kind":"target","target":"स्क्रीनशॉट सुरक्षित रखिए।","bangla_pronunciation":"স্ক্রিনশট সুরক্ষিত রাখিয়ে।","word_pronunciations":[{"target":"स्क्रीनशॉट","bangla_pronunciation":"স্ক্রিনশট","separator_after":" "},{"target":"सुरक्षित","bangla_pronunciation":"সুরক্ষিত","separator_after":" "},{"target":"रखिए।","bangla_pronunciation":"রাখিয়ে।","separator_after":""}]}
-  ],"text_md":"একটি বার্তা দেখে রিমা ভাবল, **यह** (ইয়হ) **संदेश** (সন্দেশ) **धोखाधड़ी** (ধোখাধড়ী) **है।** (হ্যায়।) সে মনে রাখল, **अनजान** (অনজান) **लिंक** (লিংক) **मत** (মত) **खोलिए।** (খোলিয়ে।) এরপর **मैंने** (ম্যাঁনে) **पासवर्ड** (পাসওয়ার্ড) **बदल** (বদল) **दिया।** (দিয়া।) এবং **स्क्रीनशॉट** (স্ক্রিনশট) **सुरक्षित** (সুরক্ষিত) **रखिए।** (রাখিয়ে।)"},
-  "target_reading":{"mode":"story","title_bengali":"নিরাপদ অ্যাপ","scene_summary":"একজন ব্যবহারকারী গোপনীয়তার সেটিং ঠিক রাখে।","lines":[
-    {"target":"रीना ने ऐप खोला।","bangla_pronunciation":"রীনা নে অ্যাপ খোলা।","word_pronunciations":[{"target":"रीना","bangla_pronunciation":"রীনা","separator_after":" "},{"target":"ने","bangla_pronunciation":"নে","separator_after":" "},{"target":"ऐप","bangla_pronunciation":"অ্যাপ","separator_after":" "},{"target":"खोला।","bangla_pronunciation":"খোলা।","separator_after":""}]},
-    {"target":"उसने सेटिंग जाँची।","bangla_pronunciation":"উসনে সেটিং জাঁচী।","word_pronunciations":[{"target":"उसने","bangla_pronunciation":"উসনে","separator_after":" "},{"target":"सेटिंग","bangla_pronunciation":"সেটিং","separator_after":" "},{"target":"जाँची।","bangla_pronunciation":"জাঁচী।","separator_after":""}]},
-    {"target":"उसने पासवर्ड बदला।","bangla_pronunciation":"উসনে পাসওয়ার্ড বদলা।","word_pronunciations":[{"target":"उसने","bangla_pronunciation":"উসনে","separator_after":" "},{"target":"पासवर्ड","bangla_pronunciation":"পাসওয়ার্ড","separator_after":" "},{"target":"बदला।","bangla_pronunciation":"বদলা।","separator_after":""}]},
-    {"target":"उसका खाता सुरक्षित रहा।","bangla_pronunciation":"উসকা খাতা সুরক্ষিত রহা।","word_pronunciations":[{"target":"उसका","bangla_pronunciation":"উসকা","separator_after":" "},{"target":"खाता","bangla_pronunciation":"খাতা","separator_after":" "},{"target":"सुरक्षित","bangla_pronunciation":"সুরক্ষিত","separator_after":" "},{"target":"रहा।","bangla_pronunciation":"রহা।","separator_after":""}]}
-  ],"bangla_pronunciation":"রীনা নে অ্যাপ খোলা। উসনে সেটিং জাঁচী। উসনে পাসওয়ার্ড বদলা। উসকা খাতা সুরক্ষিত রহা।","meaning_bengali_md":"রীনা অ্যাপ খুলল। সে সেটিং যাচাই করল। সে পাসওয়ার্ড বদলাল। তার অ্যাকাউন্ট নিরাপদ থাকল।"},
-  "script_practice":[
-    {"item_id":"dev_shna","mode":"review","target":"श्न","bangla_pronunciation":"শ্ন","explanation_bengali_md":"`श्न` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`श्न` দেখে শ্ন বলুন।"},
-    {"item_id":"dev_ska","mode":"review","target":"स्क","bangla_pronunciation":"স্ক","explanation_bengali_md":"`स्क` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`स्क` দেখে স্ক বলুন।"},
-    {"item_id":"dev_spa","mode":"review","target":"स्प","bangla_pronunciation":"স্প","explanation_bengali_md":"`स्प` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`स्प` দেখে স্প বলুন।"},
-    {"item_id":"dev_sta","mode":"review","target":"स्त","bangla_pronunciation":"স্ত","explanation_bengali_md":"`स्त` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`स्त` দেখে স্ত বলুন।"},
-    {"item_id":"dev_sma","mode":"review","target":"स्म","bangla_pronunciation":"স্ম","explanation_bengali_md":"`स्म` যুক্তাক্ষরটি চিনুন।","practice_bengali_md":"`स्म` দেখে স্ম বলুন।"}
+  "vocabulary": [
+    {
+      "id": "ch029_v01",
+      "target": "गोपनीयता",
+      "type": "noun",
+      "romanization": "gopnīyatā",
+      "bangla_pronunciation": "গোপনীয়তা",
+      "word_pronunciations": [
+        {
+          "target": "गोपनीयता",
+          "bangla_pronunciation": "গোপনীয়তা",
+          "romanization": "gopnīyatā",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গোপনীয়তা।",
+      "source_sentence_id": "ch029_s01",
+      "source_form": "गोपनीयता"
+    },
+    {
+      "id": "ch029_v02",
+      "target": "ओटीपी",
+      "type": "noun",
+      "romanization": "oṭīpī",
+      "bangla_pronunciation": "ওটিপি",
+      "word_pronunciations": [
+        {
+          "target": "ओटीपी",
+          "bangla_pronunciation": "ওটিপি",
+          "romanization": "oṭīpī",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ওটিপি।",
+      "source_sentence_id": "ch029_s02",
+      "source_form": "ओटीपी"
+    },
+    {
+      "id": "ch029_v03",
+      "target": "पासवर्ड",
+      "type": "noun",
+      "romanization": "pāsvarḍ",
+      "bangla_pronunciation": "পাসওয়ার্ড",
+      "word_pronunciations": [
+        {
+          "target": "पासवर्ड",
+          "bangla_pronunciation": "পাসওয়ার্ড",
+          "romanization": "pāsvarḍ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পাসওয়ার্ড।",
+      "source_sentence_id": "ch029_s03",
+      "source_form": "पासवर्ड"
+    },
+    {
+      "id": "ch029_v04",
+      "target": "धोखाधड़ी",
+      "type": "noun",
+      "romanization": "dhokhādhaṛī",
+      "bangla_pronunciation": "ধোখাধড়ী",
+      "word_pronunciations": [
+        {
+          "target": "धोखाधड़ी",
+          "bangla_pronunciation": "ধোখাধড়ী",
+          "romanization": "dhokhādhaṛī",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রতারণা।",
+      "source_sentence_id": "ch029_s07",
+      "source_form": "धोखाधड़ी"
+    },
+    {
+      "id": "ch029_v05",
+      "target": "स्क्रीनशॉट",
+      "type": "noun",
+      "romanization": "skrīnśoṭ",
+      "bangla_pronunciation": "স্ক্রিনশট",
+      "word_pronunciations": [
+        {
+          "target": "स्क्रीनशॉट",
+          "bangla_pronunciation": "স্ক্রিনশট",
+          "romanization": "skrīnśoṭ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্ক্রিনশট।",
+      "source_sentence_id": "ch029_s15",
+      "source_form": "स्क्रीनशॉट"
+    }
   ],
-  "number_practice":[
-    {"display":"45 / ४५","target":"पैंतालीस","bangla_pronunciation":"প্যাঁতালীস","word_pronunciations":[{"target":"पैंतालीस","bangla_pronunciation":"প্যাঁতালীস","separator_after":""}],"meaning_bengali_md":"৪৫ — পঁয়তাল্লিশ।","system":"international + devanagari"},
-    {"display":"90 / ९०","target":"नब्बे","bangla_pronunciation":"নব্বে","word_pronunciations":[{"target":"नब्बे","bangla_pronunciation":"নব্বে","separator_after":""}],"meaning_bengali_md":"৯০ — নব্বই।","system":"international + devanagari"}
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "সন্দেহজনক বার্তা",
+    "scene_summary": "একজন ব্যবহারকারী প্রতারণা সন্দেহ করে অ্যাকাউন্ট নিরাপদ করে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "একটি বার্তা দেখে রিমা ভাবল, "
+      },
+      {
+        "kind": "target",
+        "target": "यह संदेश धोखाधड़ी है।",
+        "bangla_pronunciation": "ইয়হ সন্দেশ ধোখাধড়ী হ্যায়।",
+        "romanization": "yah sandeś dhokhādhaṛī hai.",
+        "word_pronunciations": [
+          {
+            "target": "यह",
+            "bangla_pronunciation": "ইয়হ",
+            "romanization": "yah",
+            "separator_after": " "
+          },
+          {
+            "target": "संदेश",
+            "bangla_pronunciation": "সন্দেশ",
+            "romanization": "sandesh",
+            "separator_after": " "
+          },
+          {
+            "target": "धोखाधड़ी",
+            "bangla_pronunciation": "ধোখাধড়ী",
+            "romanization": "dhokhādhaṛī",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " সে মনে রাখল, "
+      },
+      {
+        "kind": "target",
+        "target": "अनजान लिंक मत खोलिए।",
+        "bangla_pronunciation": "অনজান লিংক মত খোলিয়ে।",
+        "romanization": "anjān liṅk mat kholiye.",
+        "word_pronunciations": [
+          {
+            "target": "अनजान",
+            "bangla_pronunciation": "অনজান",
+            "romanization": "anajaan",
+            "separator_after": " "
+          },
+          {
+            "target": "लिंक",
+            "bangla_pronunciation": "লিংক",
+            "romanization": "liNk",
+            "separator_after": " "
+          },
+          {
+            "target": "मत",
+            "bangla_pronunciation": "মত",
+            "romanization": "mat",
+            "separator_after": " "
+          },
+          {
+            "target": "खोलिए।",
+            "bangla_pronunciation": "খোলিয়ে।",
+            "romanization": "kholie.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " এরপর "
+      },
+      {
+        "kind": "target",
+        "target": "मैंने पासवर्ड बदल दिया।",
+        "bangla_pronunciation": "ম্যাঁনে পাসওয়ার্ড বদল দিয়া।",
+        "romanization": "maine pāsvarḍ badal diyā.",
+        "word_pronunciations": [
+          {
+            "target": "मैंने",
+            "bangla_pronunciation": "ম্যাঁনে",
+            "romanization": "mainne",
+            "separator_after": " "
+          },
+          {
+            "target": "पासवर्ड",
+            "bangla_pronunciation": "পাসওয়ার্ড",
+            "romanization": "pāsvarḍ",
+            "separator_after": " "
+          },
+          {
+            "target": "बदल",
+            "bangla_pronunciation": "বদল",
+            "romanization": "badal",
+            "separator_after": " "
+          },
+          {
+            "target": "दिया।",
+            "bangla_pronunciation": "দিয়া।",
+            "romanization": "diyaa.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " এবং "
+      },
+      {
+        "kind": "target",
+        "target": "स्क्रीनशॉट सुरक्षित रखिए।",
+        "bangla_pronunciation": "স্ক্রিনশট সুরক্ষিত রাখিয়ে।",
+        "romanization": "skrīnśoṭ surakṣit rakhiye.",
+        "word_pronunciations": [
+          {
+            "target": "स्क्रीनशॉट",
+            "bangla_pronunciation": "স্ক্রিনশট",
+            "romanization": "skrīnśoṭ",
+            "separator_after": " "
+          },
+          {
+            "target": "सुरक्षित",
+            "bangla_pronunciation": "সুরক্ষিত",
+            "romanization": "surakshit",
+            "separator_after": " "
+          },
+          {
+            "target": "रखिए।",
+            "bangla_pronunciation": "রাখিয়ে।",
+            "romanization": "rakhie.",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "একটি বার্তা দেখে রিমা ভাবল, **यह** (ইয়হ, yah) **संदेश** (সন্দেশ, sandesh) **धोखाधड़ी** (ধোখাধড়ী, dhokhādhaṛī) **है।** (হ্যায়।, hai\\.) সে মনে রাখল, **अनजान** (অনজান, anajaan) **लिंक** (লিংক, liNk) **मत** (মত, mat) **खोलिए।** (খোলিয়ে।, kholie\\.) এরপর **मैंने** (ম্যাঁনে, mainne) **पासवर्ड** (পাসওয়ার্ড, pāsvarḍ) **बदल** (বদল, badal) **दिया।** (দিয়া।, diyaa\\.) এবং **स्क्रीनशॉट** (স্ক্রিনশট, skrīnśoṭ) **सुरक्षित** (সুরক্ষিত, surakshit) **रखिए।** (রাখিয়ে।, rakhie\\.)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "নিরাপদ অ্যাপ",
+    "scene_summary": "একজন ব্যবহারকারী গোপনীয়তার সেটিং ঠিক রাখে।",
+    "lines": [
+      {
+        "target": "रीना ने ऐप खोला।",
+        "bangla_pronunciation": "রীনা নে অ্যাপ খোলা।",
+        "romanization": "reenaa ne aipa kholaa.",
+        "word_pronunciations": [
+          {
+            "target": "रीना",
+            "bangla_pronunciation": "রীনা",
+            "romanization": "reenaa",
+            "separator_after": " "
+          },
+          {
+            "target": "ने",
+            "bangla_pronunciation": "নে",
+            "romanization": "ne",
+            "separator_after": " "
+          },
+          {
+            "target": "ऐप",
+            "bangla_pronunciation": "অ্যাপ",
+            "romanization": "aip",
+            "separator_after": " "
+          },
+          {
+            "target": "खोला।",
+            "bangla_pronunciation": "খোলা।",
+            "romanization": "kholaa.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "उसने सेटिंग जाँची।",
+        "bangla_pronunciation": "উসনে সেটিং জাঁচী।",
+        "romanization": "usane setinga jaanchee.",
+        "word_pronunciations": [
+          {
+            "target": "उसने",
+            "bangla_pronunciation": "উসনে",
+            "romanization": "usane",
+            "separator_after": " "
+          },
+          {
+            "target": "सेटिंग",
+            "bangla_pronunciation": "সেটিং",
+            "romanization": "seting",
+            "separator_after": " "
+          },
+          {
+            "target": "जाँची।",
+            "bangla_pronunciation": "জাঁচী।",
+            "romanization": "jaanchee.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "उसने पासवर्ड बदला।",
+        "bangla_pronunciation": "উসনে পাসওয়ার্ড বদলা।",
+        "romanization": "usane paasavarda badalaa.",
+        "word_pronunciations": [
+          {
+            "target": "उसने",
+            "bangla_pronunciation": "উসনে",
+            "romanization": "usane",
+            "separator_after": " "
+          },
+          {
+            "target": "पासवर्ड",
+            "bangla_pronunciation": "পাসওয়ার্ড",
+            "romanization": "pāsvarḍ",
+            "separator_after": " "
+          },
+          {
+            "target": "बदला।",
+            "bangla_pronunciation": "বদলা।",
+            "romanization": "badalaa.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "उसका खाता सुरक्षित रहा।",
+        "bangla_pronunciation": "উসকা খাতা সুরক্ষিত রহা।",
+        "romanization": "usakaa khaataa surakshita rahaa.",
+        "word_pronunciations": [
+          {
+            "target": "उसका",
+            "bangla_pronunciation": "উসকা",
+            "romanization": "usakaa",
+            "separator_after": " "
+          },
+          {
+            "target": "खाता",
+            "bangla_pronunciation": "খাতা",
+            "romanization": "khaata",
+            "separator_after": " "
+          },
+          {
+            "target": "सुरक्षित",
+            "bangla_pronunciation": "সুরক্ষিত",
+            "romanization": "surakshit",
+            "separator_after": " "
+          },
+          {
+            "target": "रहा।",
+            "bangla_pronunciation": "রহা।",
+            "romanization": "rahaa.",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "রীনা নে অ্যাপ খোলা। উসনে সেটিং জাঁচী। উসনে পাসওয়ার্ড বদলা। উসকা খাতা সুরক্ষিত রহা।",
+    "romanization": "reenaa ne aipa kholaa. usane setinga jaanchee. usane paasavarda badalaa. usakaa khaataa surakshita rahaa.",
+    "meaning_bengali_md": "রীনা অ্যাপ খুলল। সে সেটিং যাচাই করল। সে পাসওয়ার্ড বদলাল। তার অ্যাকাউন্ট নিরাপদ থাকল।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_shna",
+      "mode": "review",
+      "target": "श्न",
+      "bangla_pronunciation": "শ্ন",
+      "romanization": "shna",
+      "explanation_bengali_md": "`श्न` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`श्न` দেখে শ্ন বলুন।"
+    },
+    {
+      "item_id": "dev_ska",
+      "mode": "review",
+      "target": "स्क",
+      "bangla_pronunciation": "স্ক",
+      "romanization": "ska",
+      "explanation_bengali_md": "`स्क` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`स्क` দেখে স্ক বলুন।"
+    },
+    {
+      "item_id": "dev_spa",
+      "mode": "review",
+      "target": "स्प",
+      "bangla_pronunciation": "স্প",
+      "romanization": "spa",
+      "explanation_bengali_md": "`स्प` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`स्प` দেখে স্প বলুন।"
+    },
+    {
+      "item_id": "dev_sta",
+      "mode": "review",
+      "target": "स्त",
+      "bangla_pronunciation": "স্ত",
+      "romanization": "sta",
+      "explanation_bengali_md": "`स्त` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`स्त` দেখে স্ত বলুন।"
+    },
+    {
+      "item_id": "dev_sma",
+      "mode": "review",
+      "target": "स्म",
+      "bangla_pronunciation": "স্ম",
+      "romanization": "sma",
+      "explanation_bengali_md": "`स्म` যুক্তাক্ষরটি চিনুন।",
+      "practice_bengali_md": "`स्म` দেখে স্ম বলুন।"
+    }
   ],
-  "speaking_practice":[
-    {"prompt_bengali_md":"গোপনীয়তা সেটিং যাচাই করতে বলুন।","model_target":"गोपनीयता सेटिंग जाँचिए।","model_bangla_pronunciation":"গোপনীয়তা সেটিং জাঁচিয়ে।","model_word_pronunciations":[{"target":"गोपनीयता","bangla_pronunciation":"গোপনীয়তা","separator_after":" "},{"target":"सेटिंग","bangla_pronunciation":"সেটিং","separator_after":" "},{"target":"जाँचिए।","bangla_pronunciation":"জাঁচিয়ে।","separator_after":""}],"model_meaning_bengali_md":"গোপনীয়তা সেটিং যাচাই করুন।"},
-    {"prompt_bengali_md":"ওটিপি শেয়ার না করতে বলুন।","model_target":"ओटीपी साझा मत कीजिए।","model_bangla_pronunciation":"ওটিপি সাঝা মত কীজিয়ে।","model_word_pronunciations":[{"target":"ओटीपी","bangla_pronunciation":"ওটিপি","separator_after":" "},{"target":"साझा","bangla_pronunciation":"সাঝা","separator_after":" "},{"target":"मत","bangla_pronunciation":"মত","separator_after":" "},{"target":"कीजिए।","bangla_pronunciation":"কীজিয়ে।","separator_after":""}],"model_meaning_bengali_md":"ওটিপি শেয়ার করবেন না।"},
-    {"prompt_bengali_md":"অচেনা লিঙ্ক খুলতে নিষেধ করুন।","model_target":"अनजान लिंक मत खोलिए।","model_bangla_pronunciation":"অনজান লিংক মত খোলিয়ে।","model_word_pronunciations":[{"target":"अनजान","bangla_pronunciation":"অনজান","separator_after":" "},{"target":"लिंक","bangla_pronunciation":"লিংক","separator_after":" "},{"target":"मत","bangla_pronunciation":"মত","separator_after":" "},{"target":"खोलिए।","bangla_pronunciation":"খোলিয়ে।","separator_after":""}],"model_meaning_bengali_md":"অচেনা লিঙ্ক খুলবেন না।"},
-    {"prompt_bengali_md":"প্রতারণার বার্তা শনাক্ত করুন।","model_target":"यह संदेश धोखाधड़ी है।","model_bangla_pronunciation":"ইয়হ সন্দেশ ধোখাধড়ী হ্যায়।","model_word_pronunciations":[{"target":"यह","bangla_pronunciation":"ইয়হ","separator_after":" "},{"target":"संदेश","bangla_pronunciation":"সন্দেশ","separator_after":" "},{"target":"धोखाधड़ी","bangla_pronunciation":"ধোখাধড়ী","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"model_meaning_bengali_md":"এই বার্তাটি প্রতারণা।"},
-    {"prompt_bengali_md":"স্ক্রিনশট রাখতে বলুন।","model_target":"स्क्रीनशॉट सुरक्षित रखिए।","model_bangla_pronunciation":"স্ক্রিনশট সুরক্ষিত রাখিয়ে।","model_word_pronunciations":[{"target":"स्क्रीनशॉट","bangla_pronunciation":"স্ক্রিনশট","separator_after":" "},{"target":"सुरक्षित","bangla_pronunciation":"সুরক্ষিত","separator_after":" "},{"target":"रखिए।","bangla_pronunciation":"রাখিয়ে।","separator_after":""}],"model_meaning_bengali_md":"স্ক্রিনশট নিরাপদে রাখুন।"},
-    {"prompt_bengali_md":"অনলাইন নিরাপত্তার গুরুত্ব বলুন।","model_target":"ऑनलाइन सुरक्षा रोज जरूरी है।","model_bangla_pronunciation":"অনলাইন সুরক্ষা রোজ জরূরী হ্যায়।","model_word_pronunciations":[{"target":"ऑनलाइन","bangla_pronunciation":"অনলাইন","separator_after":" "},{"target":"सुरक्षा","bangla_pronunciation":"সুরক্ষা","separator_after":" "},{"target":"रोज","bangla_pronunciation":"রোজ","separator_after":" "},{"target":"जरूरी","bangla_pronunciation":"জরূরী","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"model_meaning_bengali_md":"অনলাইন নিরাপত্তা প্রতিদিন জরুরি।"}
+  "number_practice": [
+    {
+      "display": "45 / ४५",
+      "target": "पैंतालीस",
+      "bangla_pronunciation": "প্যাঁতালীস",
+      "romanization": "paintaalees",
+      "word_pronunciations": [
+        {
+          "target": "पैंतालीस",
+          "bangla_pronunciation": "প্যাঁতালীস",
+          "romanization": "paintaalees",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "৪৫ — পঁয়তাল্লিশ।",
+      "system": "international + devanagari"
+    },
+    {
+      "display": "90 / ९०",
+      "target": "नब्बे",
+      "bangla_pronunciation": "নব্বে",
+      "romanization": "nabbe",
+      "word_pronunciations": [
+        {
+          "target": "नब्बे",
+          "bangla_pronunciation": "নব্বে",
+          "romanization": "nabbe",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "৯০ — নব্বই।",
+      "system": "international + devanagari"
+    }
   ],
-  "image_prompts":[
-    {"key":"ch029_bridge_reading_01","reading":"bridge_reading","subject":"A young adult reviewing privacy settings on a smartphone in a bright home workspace, subtle security cues and no readable screen text. No readable text, no labels, no signage, no watermark.","style":"Bright warm editorial illustration with natural adult characters and uncluttered scenes"},
-    {"key":"ch029_target_reading_01","reading":"target_reading","subject":"A woman safely using a mobile app, changing a password and ignoring a suspicious link, clean modern interior. No readable text, no labels, no signage, no watermark.","style":"Bright warm editorial illustration with natural adult characters and uncluttered scenes"}
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "গোপনীয়তা সেটিং যাচাই করতে বলুন।",
+      "model_target": "गोपनीयता सेटिंग जाँचिए।",
+      "model_bangla_pronunciation": "গোপনীয়তা সেটিং জাঁচিয়ে।",
+      "model_romanization": "gopnīyatā seṭiṅg jāñciye.",
+      "model_word_pronunciations": [
+        {
+          "target": "गोपनीयता",
+          "bangla_pronunciation": "গোপনীয়তা",
+          "romanization": "gopnīyatā",
+          "separator_after": " "
+        },
+        {
+          "target": "सेटिंग",
+          "bangla_pronunciation": "সেটিং",
+          "romanization": "seting",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचिए।",
+          "bangla_pronunciation": "জাঁচিয়ে।",
+          "romanization": "jaaNcie /",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "গোপনীয়তা সেটিং যাচাই করুন।"
+    },
+    {
+      "prompt_bengali_md": "ওটিপি শেয়ার না করতে বলুন।",
+      "model_target": "ओटीपी साझा मत कीजिए।",
+      "model_bangla_pronunciation": "ওটিপি সাঝা মত কীজিয়ে।",
+      "model_romanization": "oṭīpī sānjhā mat kījiye.",
+      "model_word_pronunciations": [
+        {
+          "target": "ओटीपी",
+          "bangla_pronunciation": "ওটিপি",
+          "romanization": "oṭīpī",
+          "separator_after": " "
+        },
+        {
+          "target": "साझा",
+          "bangla_pronunciation": "সাঝা",
+          "romanization": "saajhaa",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "romanization": "mat",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ওটিপি শেয়ার করবেন না।"
+    },
+    {
+      "prompt_bengali_md": "অচেনা লিঙ্ক খুলতে নিষেধ করুন।",
+      "model_target": "अनजान लिंक मत खोलिए।",
+      "model_bangla_pronunciation": "অনজান লিংক মত খোলিয়ে।",
+      "model_romanization": "anjān liṅk mat kholiye.",
+      "model_word_pronunciations": [
+        {
+          "target": "अनजान",
+          "bangla_pronunciation": "অনজান",
+          "romanization": "anajaan",
+          "separator_after": " "
+        },
+        {
+          "target": "लिंक",
+          "bangla_pronunciation": "লিংক",
+          "romanization": "liNk",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "romanization": "mat",
+          "separator_after": " "
+        },
+        {
+          "target": "खोलिए।",
+          "bangla_pronunciation": "খোলিয়ে।",
+          "romanization": "kholie.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "অচেনা লিঙ্ক খুলবেন না।"
+    },
+    {
+      "prompt_bengali_md": "প্রতারণার বার্তা শনাক্ত করুন।",
+      "model_target": "यह संदेश धोखाधड़ी है।",
+      "model_bangla_pronunciation": "ইয়হ সন্দেশ ধোখাধড়ী হ্যায়।",
+      "model_romanization": "yah sandeś dhokhādhaṛī hai.",
+      "model_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "ইয়হ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "संदेश",
+          "bangla_pronunciation": "সন্দেশ",
+          "romanization": "sandesh",
+          "separator_after": " "
+        },
+        {
+          "target": "धोखाधड़ी",
+          "bangla_pronunciation": "ধোখাধড়ী",
+          "romanization": "dhokhādhaṛī",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এই বার্তাটি প্রতারণা।"
+    },
+    {
+      "prompt_bengali_md": "স্ক্রিনশট রাখতে বলুন।",
+      "model_target": "स्क्रीनशॉट सुरक्षित रखिए।",
+      "model_bangla_pronunciation": "স্ক্রিনশট সুরক্ষিত রাখিয়ে।",
+      "model_romanization": "skrīnśoṭ surakṣit rakhiye.",
+      "model_word_pronunciations": [
+        {
+          "target": "स्क्रीनशॉट",
+          "bangla_pronunciation": "স্ক্রিনশট",
+          "romanization": "skrīnśoṭ",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षित",
+          "bangla_pronunciation": "সুরক্ষিত",
+          "romanization": "surakshit",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রাখিয়ে।",
+          "romanization": "rakhie.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "স্ক্রিনশট নিরাপদে রাখুন।"
+    },
+    {
+      "prompt_bengali_md": "অনলাইন নিরাপত্তার গুরুত্ব বলুন।",
+      "model_target": "ऑनलाइन सुरक्षा रोज जरूरी है।",
+      "model_bangla_pronunciation": "অনলাইন সুরক্ষা রোজ জরূরী হ্যায়।",
+      "model_romanization": "online surakṣā roz zarūrī hai.",
+      "model_word_pronunciations": [
+        {
+          "target": "ऑनलाइन",
+          "bangla_pronunciation": "অনলাইন",
+          "romanization": "onalaain",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षा",
+          "bangla_pronunciation": "সুরক্ষা",
+          "romanization": "suraksha",
+          "separator_after": " "
+        },
+        {
+          "target": "रोज",
+          "bangla_pronunciation": "রোজ",
+          "romanization": "roj",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "অনলাইন নিরাপত্তা প্রতিদিন জরুরি।"
+    }
   ],
-  "additional_practice":[]
+  "image_prompts": [
+    {
+      "key": "ch029_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A young adult reviewing privacy settings on a smartphone in a bright home workspace, subtle security cues and no readable screen text. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes"
+    },
+    {
+      "key": "ch029_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A woman safely using a mobile app, changing a password and ignoring a suspicious link, clean modern interior. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes"
+    }
+  ],
+  "additional_practice": []
 }

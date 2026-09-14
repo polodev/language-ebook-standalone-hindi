@@ -3,30 +3,36 @@
   "status": "drafted",
   "title_target": "शहर में रास्ते और जगहें",
   "title_bangla_pronunciation": "শহর মেঁ রাস্‌তে অউর জগহেঁ",
+  "title_romanization": "shahara men raaste aura jagahen",
   "title_word_pronunciations": [
     {
       "target": "शहर",
       "bangla_pronunciation": "শহর",
+      "romanization": "shahar",
       "separator_after": " "
     },
     {
       "target": "में",
       "bangla_pronunciation": "মেঁ",
+      "romanization": "men",
       "separator_after": " "
     },
     {
       "target": "रास्ते",
       "bangla_pronunciation": "রাস্‌তে",
+      "romanization": "raaste",
       "separator_after": " "
     },
     {
       "target": "और",
       "bangla_pronunciation": "অউর",
+      "romanization": "aur",
       "separator_after": " "
     },
     {
       "target": "जगहें",
       "bangla_pronunciation": "জগহেঁ",
+      "romanization": "jagahen",
       "separator_after": ""
     }
   ],
@@ -41,16 +47,19 @@
         {
           "target": "बाज़ार",
           "bangla_pronunciation": "বাজার",
+          "romanization": "baazaar",
           "separator_after": " "
         },
         {
           "target": "कहाँ",
           "bangla_pronunciation": "কহাঁ",
+          "romanization": "kahaan",
           "separator_after": " "
         },
         {
           "target": "है?",
           "bangla_pronunciation": "হ্যায়?",
+          "romanization": "hai?",
           "separator_after": ""
         }
       ],
@@ -65,16 +74,19 @@
         {
           "target": "अस्पताल",
           "bangla_pronunciation": "অসপতাল",
+          "romanization": "aspataal",
           "separator_after": " "
         },
         {
           "target": "कहाँ",
           "bangla_pronunciation": "কহাঁ",
+          "romanization": "kahaan",
           "separator_after": " "
         },
         {
           "target": "है?",
           "bangla_pronunciation": "হ্যায়?",
+          "romanization": "hai?",
           "separator_after": ""
         }
       ],
@@ -89,26 +101,31 @@
         {
           "target": "स्कूल",
           "bangla_pronunciation": "স্কুল",
+          "romanization": "skuul",
           "separator_after": " "
         },
         {
           "target": "यहाँ",
           "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "दूर",
           "bangla_pronunciation": "দূর",
+          "romanization": "door",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -123,21 +140,25 @@
         {
           "target": "मस्जिद",
           "bangla_pronunciation": "মসজিদ",
+          "romanization": "msjid",
           "separator_after": " "
         },
         {
           "target": "पास",
           "bangla_pronunciation": "পাস",
+          "romanization": "paas",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -152,21 +173,25 @@
         {
           "target": "मेरा",
           "bangla_pronunciation": "মেরা",
+          "romanization": "mera",
           "separator_after": " "
         },
         {
           "target": "दफ़्तर",
           "bangla_pronunciation": "দফ्तर",
+          "romanization": "daftar",
           "separator_after": " "
         },
         {
           "target": "सामने",
           "bangla_pronunciation": "সামনে",
+          "romanization": "saamne",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -181,21 +206,25 @@
         {
           "target": "यह",
           "bangla_pronunciation": "যহ",
+          "romanization": "yah",
           "separator_after": " "
         },
         {
           "target": "सड़क",
           "bangla_pronunciation": "সড়ক",
+          "romanization": "sarak",
           "separator_after": " "
         },
         {
           "target": "सीधी",
           "bangla_pronunciation": "সীধি",
+          "romanization": "seedhee",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -210,11 +239,13 @@
         {
           "target": "बाएँ",
           "bangla_pronunciation": "বায়েঁ",
+          "romanization": "baaen",
           "separator_after": " "
         },
         {
           "target": "मुड़िए।",
           "bangla_pronunciation": "মুড়িয়ে।",
+          "romanization": "murie.",
           "separator_after": ""
         }
       ],
@@ -229,11 +260,13 @@
         {
           "target": "दाएँ",
           "bangla_pronunciation": "দায়েঁ",
+          "romanization": "daaen",
           "separator_after": " "
         },
         {
           "target": "मुड़िए।",
           "bangla_pronunciation": "মুড়িয়ে।",
+          "romanization": "murie.",
           "separator_after": ""
         }
       ],
@@ -248,11 +281,13 @@
         {
           "target": "सीधे",
           "bangla_pronunciation": "সীধে",
+          "romanization": "seedhe",
           "separator_after": " "
         },
         {
           "target": "जाइए।",
           "bangla_pronunciation": "জাইয়ে।",
+          "romanization": "jaaie.",
           "separator_after": ""
         }
       ],
@@ -267,11 +302,13 @@
         {
           "target": "यहाँ",
           "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
           "separator_after": " "
         },
         {
           "target": "रुकिए।",
           "bangla_pronunciation": "রুকিয়ে।",
+          "romanization": "rukie.",
           "separator_after": ""
         }
       ],
@@ -286,21 +323,25 @@
         {
           "target": "उस",
           "bangla_pronunciation": "উস",
+          "romanization": "us",
           "separator_after": " "
         },
         {
           "target": "रास्ते",
           "bangla_pronunciation": "রাস্‌তে",
+          "romanization": "raaste",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "जाइए।",
           "bangla_pronunciation": "জাইয়ে।",
+          "romanization": "jaaie.",
           "separator_after": ""
         }
       ],
@@ -315,21 +356,25 @@
         {
           "target": "स्टेशन",
           "bangla_pronunciation": "স্টেশন",
+          "romanization": "station",
           "separator_after": " "
         },
         {
           "target": "कितना",
           "bangla_pronunciation": "কিতনা",
+          "romanization": "kitnaa",
           "separator_after": " "
         },
         {
           "target": "दूर",
           "bangla_pronunciation": "দূর",
+          "romanization": "door",
           "separator_after": " "
         },
         {
           "target": "है?",
           "bangla_pronunciation": "হ্যায়?",
+          "romanization": "hai?",
           "separator_after": ""
         }
       ],
@@ -344,21 +389,25 @@
         {
           "target": "क्या",
           "bangla_pronunciation": "ক্যা",
+          "romanization": "kya",
           "separator_after": " "
         },
         {
           "target": "बाज़ार",
           "bangla_pronunciation": "বাজার",
+          "romanization": "baazaar",
           "separator_after": " "
         },
         {
           "target": "पास",
           "bangla_pronunciation": "পাস",
+          "romanization": "paas",
           "separator_after": " "
         },
         {
           "target": "है?",
           "bangla_pronunciation": "হ্যায়?",
+          "romanization": "hai?",
           "separator_after": ""
         }
       ],
@@ -373,16 +422,19 @@
         {
           "target": "मुझे",
           "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
           "separator_after": " "
         },
         {
           "target": "रास्ता",
           "bangla_pronunciation": "রাস্‌তা",
+          "romanization": "raasta",
           "separator_after": " "
         },
         {
           "target": "बताइए।",
           "bangla_pronunciation": "বতাইয়ে।",
+          "romanization": "bataaie.",
           "separator_after": ""
         }
       ],
@@ -397,21 +449,25 @@
         {
           "target": "यह",
           "bangla_pronunciation": "যহ",
+          "romanization": "yah",
           "separator_after": " "
         },
         {
           "target": "जगह",
           "bangla_pronunciation": "জগহ",
+          "romanization": "jagah",
           "separator_after": " "
         },
         {
           "target": "कहाँ",
           "bangla_pronunciation": "কহাঁ",
+          "romanization": "kahaan",
           "separator_after": " "
         },
         {
           "target": "है?",
           "bangla_pronunciation": "হ্যায়?",
+          "romanization": "hai?",
           "separator_after": ""
         }
       ],
@@ -426,21 +482,25 @@
         {
           "target": "पुल",
           "bangla_pronunciation": "পুল",
+          "romanization": "pul",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "बाद",
           "bangla_pronunciation": "বাদ",
+          "romanization": "baad",
           "separator_after": " "
         },
         {
           "target": "मुड़िए।",
           "bangla_pronunciation": "মুড়িয়ে।",
+          "romanization": "murie.",
           "separator_after": ""
         }
       ],
@@ -455,21 +515,25 @@
         {
           "target": "दुकान",
           "bangla_pronunciation": "দুকান",
+          "romanization": "dukaan",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "सामने",
           "bangla_pronunciation": "সামনে",
+          "romanization": "saamne",
           "separator_after": " "
         },
         {
           "target": "रुकिए।",
           "bangla_pronunciation": "রুকিয়ে।",
+          "romanization": "rukie.",
           "separator_after": ""
         }
       ],
@@ -484,26 +548,31 @@
         {
           "target": "बैंक",
           "bangla_pronunciation": "ব্যাঙ্ক",
+          "romanization": "bank",
           "separator_after": " "
         },
         {
           "target": "स्कूल",
           "bangla_pronunciation": "স্কুল",
+          "romanization": "skuul",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "पास",
           "bangla_pronunciation": "পাস",
+          "romanization": "paas",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -518,21 +587,25 @@
         {
           "target": "मैं",
           "bangla_pronunciation": "ম্যাঁ",
+          "romanization": "main",
           "separator_after": " "
         },
         {
           "target": "रास्ता",
           "bangla_pronunciation": "রাস্‌তা",
+          "romanization": "raasta",
           "separator_after": " "
         },
         {
           "target": "भूल",
           "bangla_pronunciation": "ভূল",
+          "romanization": "bhool",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গয়া।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
@@ -547,21 +620,25 @@
         {
           "target": "धन्यवाद,",
           "bangla_pronunciation": "ধন্যবাদ,",
+          "romanization": "dhanyavaad,",
           "separator_after": " "
         },
         {
           "target": "मुझे",
           "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
           "separator_after": " "
         },
         {
           "target": "मिल",
           "bangla_pronunciation": "মিল",
+          "romanization": "mil",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গয়া।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
@@ -578,6 +655,7 @@
         {
           "target": "बाज़ार",
           "bangla_pronunciation": "বাজার",
+          "romanization": "baazaar",
           "separator_after": ""
         }
       ],
@@ -595,6 +673,7 @@
         {
           "target": "अस्पताल",
           "bangla_pronunciation": "অসপতাল",
+          "romanization": "aspataal",
           "separator_after": ""
         }
       ],
@@ -612,6 +691,7 @@
         {
           "target": "दूर",
           "bangla_pronunciation": "দূর",
+          "romanization": "door",
           "separator_after": ""
         }
       ],
@@ -629,6 +709,7 @@
         {
           "target": "पास",
           "bangla_pronunciation": "পাস",
+          "romanization": "paas",
           "separator_after": ""
         }
       ],
@@ -646,6 +727,7 @@
         {
           "target": "सामने",
           "bangla_pronunciation": "সামনে",
+          "romanization": "saamne",
           "separator_after": ""
         }
       ],
@@ -663,6 +745,7 @@
         {
           "target": "बाएँ",
           "bangla_pronunciation": "বায়েঁ",
+          "romanization": "baaen",
           "separator_after": ""
         }
       ],
@@ -680,6 +763,7 @@
         {
           "target": "दाएँ",
           "bangla_pronunciation": "দায়েঁ",
+          "romanization": "daaen",
           "separator_after": ""
         }
       ],
@@ -697,6 +781,7 @@
         {
           "target": "सीधे",
           "bangla_pronunciation": "সীধে",
+          "romanization": "seedhe",
           "separator_after": ""
         }
       ],
@@ -714,6 +799,7 @@
         {
           "target": "रास्ता",
           "bangla_pronunciation": "রাস্‌তা",
+          "romanization": "raasta",
           "separator_after": ""
         }
       ],
@@ -731,6 +817,7 @@
         {
           "target": "बताइए",
           "bangla_pronunciation": "বতাইয়ে",
+          "romanization": "bataiye",
           "separator_after": ""
         }
       ],
@@ -754,20 +841,24 @@
         "kind": "target",
         "target": "अस्पताल कहाँ है?",
         "bangla_pronunciation": "অসপতাল কহাঁ হ্যায়?",
+        "romanization": "aspataal kahaan hai?",
         "word_pronunciations": [
           {
             "target": "अस्पताल",
             "bangla_pronunciation": "অসপতাল",
+            "romanization": "aspataal",
             "separator_after": " "
           },
           {
             "target": "कहाँ",
             "bangla_pronunciation": "কহাঁ",
+            "romanization": "kahaan",
             "separator_after": " "
           },
           {
             "target": "है?",
             "bangla_pronunciation": "হ্যায়?",
+            "romanization": "hai?",
             "separator_after": ""
           }
         ]
@@ -780,15 +871,18 @@
         "kind": "target",
         "target": "सीधे जाइए।",
         "bangla_pronunciation": "সীধে জাইয়ে।",
+        "romanization": "seedhe jaiye.",
         "word_pronunciations": [
           {
             "target": "सीधे",
             "bangla_pronunciation": "সীধে",
+            "romanization": "seedhe",
             "separator_after": " "
           },
           {
             "target": "जाइए।",
             "bangla_pronunciation": "জাইয়ে।",
+            "romanization": "jaaie.",
             "separator_after": ""
           }
         ]
@@ -801,15 +895,18 @@
         "kind": "target",
         "target": "बाएँ मुड़िए।",
         "bangla_pronunciation": "বায়েঁ মুড়িয়ে।",
+        "romanization": "baaen mudiye.",
         "word_pronunciations": [
           {
             "target": "बाएँ",
             "bangla_pronunciation": "বায়েঁ",
+            "romanization": "baaen",
             "separator_after": " "
           },
           {
             "target": "मुड़िए।",
             "bangla_pronunciation": "মুড়িয়ে।",
+            "romanization": "murie.",
             "separator_after": ""
           }
         ]
@@ -822,25 +919,30 @@
         "kind": "target",
         "target": "अस्पताल पास में है।",
         "bangla_pronunciation": "অসপতাল পাস মেঁ হ্যায়।",
+        "romanization": "aspataala paasa men hai.",
         "word_pronunciations": [
           {
             "target": "अस्पताल",
             "bangla_pronunciation": "অসপতাল",
+            "romanization": "aspataal",
             "separator_after": " "
           },
           {
             "target": "पास",
             "bangla_pronunciation": "পাস",
+            "romanization": "paas",
             "separator_after": " "
           },
           {
             "target": "में",
             "bangla_pronunciation": "মেঁ",
+            "romanization": "men",
             "separator_after": " "
           },
           {
             "target": "है।",
             "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
             "separator_after": ""
           }
         ]
@@ -853,16 +955,18 @@
         "kind": "target",
         "target": "धन्यवाद।",
         "bangla_pronunciation": "ধন্যবাদ।",
+        "romanization": "dhanyavaada.",
         "word_pronunciations": [
           {
             "target": "धन्यवाद।",
             "bangla_pronunciation": "ধন্যবাদ।",
+            "romanization": "dhanyavaada.",
             "separator_after": ""
           }
         ]
       }
     ],
-    "text_md": "নতুন শহরে নাবিল একটি হাসপাতাল খুঁজছিল। সে একজন পথচারীকে জিজ্ঞেস করল, **अस्पताल** (অসপতাল) **कहाँ** (কহাঁ) **है?** (হ্যায়?) পথচারী হাসিমুখে বললেন, **सीधे** (সীধে) **जाइए।** (জাইয়ে।) তারপর মোড়ে গিয়ে **बाएँ** (বায়েঁ) **मुड़िए।** (মুড়িয়ে।) তিনি আরও বললেন, **अस्पताल** (অসপতাল) **पास** (পাস) **में** (মেঁ) **है।** (হ্যায়।) নাবিল জায়গাটি দেখে বলল, **धन्यवाद।** (ধন্যবাদ।)"
+    "text_md": "নতুন শহরে নাবিল একটি হাসপাতাল খুঁজছিল। সে একজন পথচারীকে জিজ্ঞেস করল, **अस्पताल** (অসপতাল, aspataal) **कहाँ** (কহাঁ, kahaan) **है?** (হ্যায়?, hai?) পথচারী হাসিমুখে বললেন, **सीधे** (সীধে, seedhe) **जाइए।** (জাইয়ে।, jaaie\\.) তারপর মোড়ে গিয়ে **बाएँ** (বায়েঁ, baaen) **मुड़िए।** (মুড়িয়ে।, murie\\.) তিনি আরও বললেন, **अस्पताल** (অসপতাল, aspataal) **पास** (পাস, paas) **में** (মেঁ, men) **है।** (হ্যায়।, hai\\.) নাবিল জায়গাটি দেখে বলল, **धन्यवाद।** (ধন্যবাদ।, dhanyavaada\\.)"
   },
   "target_reading": {
     "mode": "story",
@@ -872,20 +976,24 @@
       {
         "target": "बाज़ार पास है।",
         "bangla_pronunciation": "বাজার পাস হ্যায়।",
+        "romanization": "baazaara paasa hai.",
         "word_pronunciations": [
           {
             "target": "बाज़ार",
             "bangla_pronunciation": "বাজার",
+            "romanization": "baazaar",
             "separator_after": " "
           },
           {
             "target": "पास",
             "bangla_pronunciation": "পাস",
+            "romanization": "paas",
             "separator_after": " "
           },
           {
             "target": "है।",
             "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
             "separator_after": ""
           }
         ]
@@ -893,25 +1001,30 @@
       {
         "target": "मैं सीधे जाता हूँ।",
         "bangla_pronunciation": "ম্যাঁ সীধে জাতা হুঁ।",
+        "romanization": "main seedhe jaataa hoon.",
         "word_pronunciations": [
           {
             "target": "मैं",
             "bangla_pronunciation": "ম্যাঁ",
+            "romanization": "main",
             "separator_after": " "
           },
           {
             "target": "सीधे",
             "bangla_pronunciation": "সীধে",
+            "romanization": "seedhe",
             "separator_after": " "
           },
           {
             "target": "जाता",
             "bangla_pronunciation": "জাতা",
+            "romanization": "jaataa",
             "separator_after": " "
           },
           {
             "target": "हूँ।",
             "bangla_pronunciation": "হুঁ।",
+            "romanization": "hoon.",
             "separator_after": ""
           }
         ]
@@ -919,25 +1032,30 @@
       {
         "target": "फिर दाएँ मुड़ता हूँ।",
         "bangla_pronunciation": "ফির দায়েঁ মুড়তা হুঁ।",
+        "romanization": "phira daaen murataa hoon.",
         "word_pronunciations": [
           {
             "target": "फिर",
             "bangla_pronunciation": "ফির",
+            "romanization": "phir",
             "separator_after": " "
           },
           {
             "target": "दाएँ",
             "bangla_pronunciation": "দায়েঁ",
+            "romanization": "daaen",
             "separator_after": " "
           },
           {
             "target": "मुड़ता",
             "bangla_pronunciation": "মুড়তা",
+            "romanization": "murataa",
             "separator_after": " "
           },
           {
             "target": "हूँ।",
             "bangla_pronunciation": "হুঁ।",
+            "romanization": "hoon.",
             "separator_after": ""
           }
         ]
@@ -945,20 +1063,24 @@
       {
         "target": "दुकान सामने है।",
         "bangla_pronunciation": "দুকান সামনে হ্যায়।",
+        "romanization": "dukaana saamane hai.",
         "word_pronunciations": [
           {
             "target": "दुकान",
             "bangla_pronunciation": "দুকান",
+            "romanization": "dukaan",
             "separator_after": " "
           },
           {
             "target": "सामने",
             "bangla_pronunciation": "সামনে",
+            "romanization": "saamne",
             "separator_after": " "
           },
           {
             "target": "है।",
             "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
             "separator_after": ""
           }
         ]
@@ -966,31 +1088,37 @@
       {
         "target": "मुझे बाज़ार मिल गया।",
         "bangla_pronunciation": "মুঝে বাজার মিল গয়া।",
+        "romanization": "mujhe baazaara mila gayaa.",
         "word_pronunciations": [
           {
             "target": "मुझे",
             "bangla_pronunciation": "মুঝে",
+            "romanization": "mujhe",
             "separator_after": " "
           },
           {
             "target": "बाज़ार",
             "bangla_pronunciation": "বাজার",
+            "romanization": "baazaar",
             "separator_after": " "
           },
           {
             "target": "मिल",
             "bangla_pronunciation": "মিল",
+            "romanization": "mil",
             "separator_after": " "
           },
           {
             "target": "गया।",
             "bangla_pronunciation": "গয়া।",
+            "romanization": "gayaa.",
             "separator_after": ""
           }
         ]
       }
     ],
     "bangla_pronunciation": "বাজার পাস হ্যায়। ম্যাঁ সীধে জাতা হুঁ। ফির দায়েঁ মুড়তা হুঁ। দুকান সামনে হ্যায়। মুঝে বাজার মিল গয়া।",
+    "romanization": "baazaara paasa hai. main seedhe jaataa hoon. phira daaen murataa hoon. dukaana saamane hai. mujhe baazaara mila gayaa.",
     "meaning_bengali_md": "বাজার কাছে। আমি সোজা যাই। তারপর ডান দিকে ঘুরি। দোকান সামনে। আমি বাজারটি পেয়ে গেলাম।"
   },
   "script_practice": [
@@ -999,6 +1127,7 @@
       "mode": "application",
       "target": "े",
       "bangla_pronunciation": "এ",
+      "romanization": "e",
       "explanation_bengali_md": "এই মাত্রাটি ব্যঞ্জনের সঙ্গে ‘এ’ ধ্বনি যোগ করে।",
       "practice_bengali_md": "মাত্রাটি দেখে ধ্বনিটি বলুন এবং তিনবার লিখুন।"
     },
@@ -1007,6 +1136,7 @@
       "mode": "application",
       "target": "ी",
       "bangla_pronunciation": "ঈ/ই",
+      "romanization": "ee",
       "explanation_bengali_md": "এই মাত্রাটি সাধারণত দীর্ঘ ‘ঈ/ই’ ধ্বনি নির্দেশ করে।",
       "practice_bengali_md": "চিহ্নটি চিনে উচ্চারণ বলুন এবং তিনবার লিখুন।"
     },
@@ -1015,6 +1145,7 @@
       "mode": "application",
       "target": "ु",
       "bangla_pronunciation": "উ",
+      "romanization": "u",
       "explanation_bengali_md": "এই মাত্রাটি ব্যঞ্জনের নিচে বসে ছোট ‘উ’ ধ্বনি দেয়।",
       "practice_bengali_md": "আকৃতিটি লক্ষ্য করে ধ্বনিটি বলুন।"
     },
@@ -1023,6 +1154,7 @@
       "mode": "application",
       "target": "ो",
       "bangla_pronunciation": "ও",
+      "romanization": "o",
       "explanation_bengali_md": "এই মাত্রাটি সাধারণত ‘ও’ ধ্বনি তৈরি করে।",
       "practice_bengali_md": "চিহ্নটি আলাদা করে চিনুন এবং তিনবার লিখুন।"
     },
@@ -1031,6 +1163,7 @@
       "mode": "review",
       "target": "ढ",
       "bangla_pronunciation": "ঢ",
+      "romanization": "dha",
       "explanation_bengali_md": "এটি মূর্ধন্য উচ্চারণের একটি ব্যঞ্জন; বাংলা ‘ঢ’-এর কাছাকাছি।",
       "practice_bengali_md": "জিহ্বা একটু পেছনে রেখে ধ্বনিটি ধীরে বলুন।"
     }
@@ -1040,10 +1173,12 @@
       "display": "20 / २०",
       "target": "बीस",
       "bangla_pronunciation": "বীস",
+      "romanization": "bees",
       "word_pronunciations": [
         {
           "target": "बीस",
           "bangla_pronunciation": "বীস",
+          "romanization": "bees",
           "separator_after": ""
         }
       ],
@@ -1054,10 +1189,12 @@
       "display": "50 / ५०",
       "target": "पचास",
       "bangla_pronunciation": "পচাস",
+      "romanization": "pachaas",
       "word_pronunciations": [
         {
           "target": "पचास",
           "bangla_pronunciation": "পচাস",
+          "romanization": "pachaas",
           "separator_after": ""
         }
       ],
@@ -1070,20 +1207,24 @@
       "prompt_bengali_md": "বাজার কোথায়—এটি জিজ্ঞেস করুন।",
       "model_target": "बाज़ार कहाँ है?",
       "model_bangla_pronunciation": "বাজার কহাঁ হ্যায়?",
+      "model_romanization": "baazaar kahaan hai?",
       "model_word_pronunciations": [
         {
           "target": "बाज़ार",
           "bangla_pronunciation": "বাজার",
+          "romanization": "baazaar",
           "separator_after": " "
         },
         {
           "target": "कहाँ",
           "bangla_pronunciation": "কহাঁ",
+          "romanization": "kahaan",
           "separator_after": " "
         },
         {
           "target": "है?",
           "bangla_pronunciation": "হ্যায়?",
+          "romanization": "hai?",
           "separator_after": ""
         }
       ],
@@ -1093,15 +1234,18 @@
       "prompt_bengali_md": "কাউকে সোজা যেতে বলুন।",
       "model_target": "सीधे जाइए।",
       "model_bangla_pronunciation": "সীধে জাইয়ে।",
+      "model_romanization": "seedhe jaiye.",
       "model_word_pronunciations": [
         {
           "target": "सीधे",
           "bangla_pronunciation": "সীধে",
+          "romanization": "seedhe",
           "separator_after": " "
         },
         {
           "target": "जाइए।",
           "bangla_pronunciation": "জাইয়ে।",
+          "romanization": "jaaie.",
           "separator_after": ""
         }
       ],
@@ -1111,15 +1255,18 @@
       "prompt_bengali_md": "বাঁ দিকে ঘুরতে বলুন।",
       "model_target": "बाएँ मुड़िए।",
       "model_bangla_pronunciation": "বায়েঁ মুড়িয়ে।",
+      "model_romanization": "baaen mudiye.",
       "model_word_pronunciations": [
         {
           "target": "बाएँ",
           "bangla_pronunciation": "বায়েঁ",
+          "romanization": "baaen",
           "separator_after": " "
         },
         {
           "target": "मुड़िए।",
           "bangla_pronunciation": "মুড়িয়ে।",
+          "romanization": "murie.",
           "separator_after": ""
         }
       ],
@@ -1129,25 +1276,30 @@
       "prompt_bengali_md": "কোনো জায়গা কাছে কি না জিজ্ঞেস করুন।",
       "model_target": "क्या बाज़ार पास है?",
       "model_bangla_pronunciation": "ক্যা বাজার পাস হ্যায়?",
+      "model_romanization": "kya baazaar paas hai?",
       "model_word_pronunciations": [
         {
           "target": "क्या",
           "bangla_pronunciation": "ক্যা",
+          "romanization": "kya",
           "separator_after": " "
         },
         {
           "target": "बाज़ार",
           "bangla_pronunciation": "বাজার",
+          "romanization": "baazaar",
           "separator_after": " "
         },
         {
           "target": "पास",
           "bangla_pronunciation": "পাস",
+          "romanization": "paas",
           "separator_after": " "
         },
         {
           "target": "है?",
           "bangla_pronunciation": "হ্যায়?",
+          "romanization": "hai?",
           "separator_after": ""
         }
       ],
@@ -1157,20 +1309,24 @@
       "prompt_bengali_md": "পথ দেখাতে অনুরোধ করুন।",
       "model_target": "मुझे रास्ता बताइए।",
       "model_bangla_pronunciation": "মুঝে রাস্‌তা বতাইয়ে।",
+      "model_romanization": "mujhe raasta bataiye.",
       "model_word_pronunciations": [
         {
           "target": "मुझे",
           "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
           "separator_after": " "
         },
         {
           "target": "रास्ता",
           "bangla_pronunciation": "রাস্‌তা",
+          "romanization": "raasta",
           "separator_after": " "
         },
         {
           "target": "बताइए।",
           "bangla_pronunciation": "বতাইয়ে।",
+          "romanization": "bataaie.",
           "separator_after": ""
         }
       ],
@@ -1180,15 +1336,18 @@
       "prompt_bengali_md": "এখানে থামতে বলুন।",
       "model_target": "यहाँ रुकिए।",
       "model_bangla_pronunciation": "যহাঁ রুকিয়ে।",
+      "model_romanization": "yahaan rukiye.",
       "model_word_pronunciations": [
         {
           "target": "यहाँ",
           "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
           "separator_after": " "
         },
         {
           "target": "रुकिए।",
           "bangla_pronunciation": "রুকিয়ে।",
+          "romanization": "rukie.",
           "separator_after": ""
         }
       ],
