@@ -21,6 +21,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           ARCHIVE_BLOB_SHA: d84f3f3f9586c24903718f25ba05c6e6f962f8ea
+          ARCHIVE_SHA256: 82c277b2c0a17768d569a0c674c301aac1ec0ce464737cb38008ddeca22f59f0
         run: |
           set -euo pipefail
           BOOK="04-easy-hindi-vocabulary-7000-words"
@@ -29,8 +30,14 @@ jobs:
             -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/${GITHUB_REPOSITORY}/git/blobs/${ARCHIVE_BLOB_SHA}" \
             | python3 -c 'import sys,json,base64; obj=json.load(sys.stdin); sys.stdout.buffer.write(base64.b64decode(obj["content"]))' \
-            > /tmp/ch151-ch160.tgz
+            > /tmp/ch151-ch160.b64
+          base64 -d /tmp/ch151-ch160.b64 > /tmp/ch151-ch160.tgz
+          echo "${ARCHIVE_SHA256}  /tmp/ch151-ch160.tgz" | sha256sum -c -
           tar -xzf /tmp/ch151-ch160.tgz -C "$BOOK"
+          for n in $(seq 151 160); do
+            test -s "$BOOK/chapters/ch${n}.json"
+            test -s "$BOOK/rosters/ch${n}.json"
+          done
 
       - name: Validate requested book
         run: |
@@ -50,7 +57,7 @@ jobs:
           for check in d.get("checks_performed", []):
               if check.get("check") == "repository_validator":
                   check["result"] = "passed"
-                  check["details"] = "Passed on the actual GitHub Actions repository checkout after restoring the ch151-ch160 source files on the feature branch."
+                  check["details"] = "Passed on the actual GitHub Actions repository checkout after restoring the byte-verified ch151-ch160 source archive."
           d["updated_at_local"] = datetime.now(ZoneInfo("Asia/Dhaka")).strftime("%Y-%m-%dT%H:%M+06:00")
           p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
           PY
