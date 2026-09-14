@@ -41,7 +41,6 @@ jobs:
           python3 - <<'PY'
           import json, runpy
           from pathlib import Path
-
           ns = runpy.run_path('.chatgpt-tmp/generate_211_220.py')
           bn, roman, wp, mixed_md = ns['bn'], ns['roman'], ns['wp'], ns['mixed_md']
           book = Path('04-easy-hindi-vocabulary-7000-words')
@@ -52,14 +51,9 @@ jobs:
                   ('v06315', 'विश्वसनीयता', 'सत्यापनयोग्यता', 'বিশ্বাসযোগ্যতা', 'যাচাইযোগ্যতা'),
                   ('v06329', 'असहमति', 'मतभिन्नता', 'মতভেদ', 'মতভিন্নতা'),
               ],
-              212: [
-                  ('v06343', 'परामर्श', 'मंत्रणा', 'পরামর্শ', 'মন্ত্রণা'),
-              ],
-              218: [
-                  ('v06515', 'गोपनीयता', 'डेटा-संरक्षण', 'গোপনীয়তা', 'ডেটা সুরক্ষা'),
-              ],
+              212: [('v06343', 'परामर्श', 'मंत्रणा', 'পরামর্শ', 'মন্ত্রণা')],
+              218: [('v06515', 'गोपनीयता', 'डेटा-संरक्षण', 'গোপনীয়তা', 'ডেটা সুরক্ষা')],
           }
-
           def replace_all(value, replacements):
               if isinstance(value, str):
                   for old, new in replacements:
@@ -70,7 +64,6 @@ jobs:
               if isinstance(value, dict):
                   return {k: replace_all(v, replacements) for k, v in value.items()}
               return value
-
           def refresh_annotation(obj, target_key='target', pron_key='bangla_pronunciation', words_key='word_pronunciations', roman_key=None):
               if target_key not in obj:
                   return
@@ -79,7 +72,6 @@ jobs:
               obj[words_key] = wp(target)
               if roman_key and roman_key in obj:
                   obj[roman_key] = roman(target)
-
           for n, specs in changes.items():
               cpath = book / 'chapters' / f'ch{n:03d}.json'
               rpath = book / 'rosters' / f'ch{n:03d}.json'
@@ -92,7 +84,6 @@ jobs:
                       replacements.append((old_bn_meaning, new_bn_meaning))
               ch = replace_all(ch, replacements)
               ro = replace_all(ro, replacements)
-
               ch['title_bangla_pronunciation'] = bn(ch['title_target'])
               ch['title_word_pronunciations'] = wp(ch['title_target'])
               for s in ch['sentences']:
@@ -118,13 +109,11 @@ jobs:
               for item in ch.get('additional_practice', []):
                   for key in ('base', 'expanded', 'polished'):
                       refresh_annotation(item, key + '_target', key + '_bangla_pronunciation', key + '_word_pronunciations')
-
               by_id = {x['id']: x for x in ch['vocabulary']}
               roster_by_id = {x['id']: x for x in ro['items']}
               for vid, _old, new, _old_bn_meaning, _new_bn_meaning in specs:
-                  assert by_id[vid]['target'] == new, (vid, by_id[vid]['target'])
-                  assert roster_by_id[vid]['target'] == new, (vid, roster_by_id[vid]['target'])
-
+                  assert by_id[vid]['target'] == new
+                  assert roster_by_id[vid]['target'] == new
               cpath.write_text(json.dumps(ch, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
               rpath.write_text(json.dumps(ro, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           print('Applied six collision-safe lexical corrections with regenerated pronunciation/romanization metadata.')
@@ -144,19 +133,17 @@ jobs:
               num = int(path.stem[2:])
               if 211 <= num <= 220:
                   continue
-              data = json.loads(path.read_text(encoding='utf-8'))
-              for item in data['items']:
+              for item in json.loads(path.read_text(encoding='utf-8'))['items']:
                   baseline.setdefault(norm(item['target']), (item['target'], str(path)))
           fresh = {}
           for n in range(211, 221):
               path = root / f'ch{n:03d}.json'
-              data = json.loads(path.read_text(encoding='utf-8'))
-              for item in data['items']:
+              for item in json.loads(path.read_text(encoding='utf-8'))['items']:
                   key = norm(item['target'])
                   if key in fresh:
                       raise SystemExit(f"Duplicate target inside new batch {item['target']!r}: {fresh[key]} and {path}")
                   if key in baseline:
-                      old_target, old_path = baseline[key]
+                      _old_target, old_path = baseline[key]
                       raise SystemExit(f"New target collides with baseline {item['target']!r}: {old_path} and {path}")
                   fresh[key] = str(path)
           if len(fresh) != 300:
@@ -195,6 +182,9 @@ jobs:
             echo 'Official validator is blocked by the identical pre-existing origin/main failure; validator code was not modified.'
             echo 'validator_status=baseline_blocked' >> "$GITHUB_ENV"
           fi
+
+      - name: Install repository Python dependencies
+        run: python3 -m pip install -r requirements.txt
 
       - name: Run tooling unit tests
         run: python3 -m unittest discover -s tests
@@ -239,31 +229,12 @@ jobs:
           data = json.loads(p.read_text(encoding='utf-8'))
           checks = data.setdefault('checks_performed', [])
           status = os.environ.get('validator_status', 'unknown')
-          checks.append({
-              'check': 'new_batch_cross_chapter_uniqueness',
-              'result': 'passed',
-              'details': 'Verified all 300 ch211-ch220 targets are unique inside the batch and absent from previously authored roster targets after replacing six detected collisions.'
-          })
+          checks.append({'check':'new_batch_cross_chapter_uniqueness','result':'passed','details':'Verified all 300 ch211-ch220 targets are unique inside the batch and absent from previously authored roster targets after replacing six detected collisions.'})
           if status == 'passed':
-              checks.append({
-                  'check': 'repository_partial_validator_remote',
-                  'result': 'passed',
-                  'command': 'python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words',
-                  'details': 'Passed in the GitHub Actions checkout before delivery.'
-              })
+              checks.append({'check':'repository_partial_validator_remote','result':'passed','command':'python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words','details':'Passed in the GitHub Actions checkout before delivery.'})
           else:
-              checks.append({
-                  'check': 'repository_partial_validator_remote',
-                  'result': 'blocked_by_preexisting_main_issue',
-                  'command': 'python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words',
-                  'details': "The unmodified validator fails identically on this branch and clean origin/main at the pre-existing duplicate roster target 'बाज़ार' in ch007/ch011. The ch211-ch220 batch itself passed the separate 300-target uniqueness audit."
-              })
-          checks.append({
-              'check': 'tooling_unit_tests_remote',
-              'result': 'passed',
-              'command': 'python3 -m unittest discover -s tests',
-              'details': 'Repository tooling unit tests passed in GitHub Actions before delivery.'
-          })
+              checks.append({'check':'repository_partial_validator_remote','result':'blocked_by_preexisting_main_issue','command':'python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words','details':"The unmodified validator fails identically on this branch and clean origin/main at the pre-existing duplicate roster target 'बाज़ार' in ch007/ch011. The ch211-ch220 batch itself passed the separate 300-target uniqueness audit."})
+          checks.append({'check':'tooling_unit_tests_remote','result':'passed','command':'python3 -m unittest discover -s tests','details':'Repository pinned Python dependencies were installed from requirements.txt and the tooling unit tests passed in GitHub Actions before delivery.'})
           p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
 
