@@ -73,12 +73,6 @@
       "details": "Verified exact bridge/target image keys, distinct scene prompts, and the required no-readable-text prohibition."
     },
     {
-      "check": "repository_partial_validator",
-      "result": "passed",
-      "command": "python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words",
-      "details": "Run in GitHub Actions on the feature branch after generation; workflow only commits delivery if this command passes."
-    },
-    {
       "check": "new_batch_cross_chapter_uniqueness",
       "result": "passed",
       "details": "Verified all 300 ch211-ch220 targets are unique inside the batch and absent from previously authored roster targets after replacing six detected collisions."
@@ -87,17 +81,23 @@
       "check": "repository_partial_validator_remote",
       "result": "blocked_by_preexisting_main_issue",
       "command": "python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words",
-      "details": "The unmodified validator fails identically on this branch and clean origin/main at the pre-existing duplicate roster target 'बाज़ार' in ch007/ch011. The ch211-ch220 batch itself passed the separate 300-target uniqueness audit."
+      "details": "The unmodified validator fails identically on this branch and clean origin/main because current main already contains duplicate vocabulary-roster targets (including 'बाज़ार' in ch007/ch011). The ch211-ch220 batch itself passed the separate 300-target uniqueness audit."
     },
     {
       "check": "tooling_unit_tests_remote",
       "result": "passed",
       "command": "python3 -m unittest discover -s tests",
       "details": "Repository pinned Python dependencies were installed from requirements.txt and the tooling unit tests passed in GitHub Actions before delivery."
+    },
+    {
+      "check": "final_diff_scope",
+      "result": "passed",
+      "details": "Compared the delivered branch with main and verified exactly 21 intended source/progress files: 10 chapters, 10 reviewed rosters, and authoring-progress.json; no temporary workflows or transport files remain in the diff."
     }
   ],
   "remaining_issues": [
     "Independent native-speaker/editorial review remains pending; chapter status is drafted.",
+    "The whole-book partial validator is currently blocked by a pre-existing duplicate-roster issue already present on main; this batch does not add a new target collision.",
     "Full-book validation/assembly and chapters outside ch211-ch220 are out of scope."
   ],
   "resume_point": "Requested ch211-ch220 batch complete; do not continue into ch221 without a separate assignment.",
