@@ -13,37 +13,189 @@ permissions:
 jobs:
   deliver:
     runs-on: ubuntu-latest
+    env:
+      EXPECTED_MAIN: 9dbdc14b189c0d9094d3502ac616da544d24dfb1
+      FINAL_BRANCH: content/04-easy-hindi-vocabulary-7000-words/ch161-ch170
+      BOOK: 04-easy-hindi-vocabulary-7000-words
     steps:
       - name: Checkout transfer branch
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Reconstruct archive and inspect v04817
+
+      - name: Reconstruct and verify archive
         shell: bash
         run: |
           set -euo pipefail
           cat .github/transfer-04-vocab-161-170/part-* | base64 -d > /tmp/ch161-170.tar.xz
           echo '885d26d20487b427b86e6fc6797c46a41b031132792f1166258292612330d85a  /tmp/ch161-170.tar.xz' | sha256sum -c -
           xz -dc /tmp/ch161-170.tar.xz > /tmp/ch161-170.tar
+          echo '63d5014d3392f2ef1c020cd52cd99679f1004437d0a9efe73fde133665cc7b9f  /tmp/ch161-170.tar' | sha256sum -c -
+
+      - name: Create corrected delivery branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          test "$(git rev-parse origin/main)" = "$EXPECTED_MAIN"
+          if git ls-remote --exit-code --heads origin "refs/heads/$FINAL_BRANCH" >/dev/null 2>&1; then
+            echo "Final branch already exists; refusing to overwrite it."
+            exit 2
+          fi
+          git checkout -B "$FINAL_BRANCH" origin/main
+          cp "$BOOK/authoring-progress.json" /tmp/prior-progress.json
+          python3 - <<'PY'
+          import json, unicodedata
+          from pathlib import Path
+          root = Path('04-easy-hindi-vocabulary-7000-words/rosters')
+          def norm(s):
+              return ' '.join(unicodedata.normalize('NFC', s).casefold().split()).strip('.,!?।。！？')
+          targets = set()
+          for p in root.glob('ch*.json'):
+              d = json.loads(p.read_text(encoding='utf-8'))
+              for item in d.get('items', []):
+                  targets.add(norm(item['target']))
+          Path('/tmp/baseline-targets.json').write_text(json.dumps(sorted(targets), ensure_ascii=False), encoding='utf-8')
+          PY
           tar -xf /tmp/ch161-170.tar
+          for n in $(seq 161 170); do
+            test -s "$(printf "$BOOK/chapters/ch%03d.json" "$n")"
+            test -s "$(printf "$BOOK/rosters/ch%03d.json" "$n")"
+          done
+
           python3 - <<'PY'
           import json
           from pathlib import Path
-          c = json.loads(Path('04-easy-hindi-vocabulary-7000-words/chapters/ch161.json').read_text(encoding='utf-8'))
-          r = json.loads(Path('04-easy-hindi-vocabulary-7000-words/rosters/ch161.json').read_text(encoding='utf-8'))
-          item = next(x for x in c['vocabulary'] if x['id'] == 'v04817')
-          roster = next(x for x in r['items'] if x['id'] == 'v04817')
-          sent = next(x for x in c['sentences'] if x['id'] == item['source_sentence_id'])
-          print('ROSTER', json.dumps(roster, ensure_ascii=False))
-          print('VOCAB', json.dumps(item, ensure_ascii=False))
-          print('SOURCE_SENTENCE', json.dumps(sent, ensure_ascii=False))
-          old = item['target']
-          def walk(v, path='root'):
+          from scripts.manage import mixed_reading_markdown
+
+          book = Path('04-easy-hindi-vocabulary-7000-words')
+          cp = book / 'chapters/ch161.json'
+          rp = book / 'rosters/ch161.json'
+          c = json.loads(cp.read_text(encoding='utf-8'))
+          r = json.loads(rp.read_text(encoding='utf-8'))
+          old_t, new_t = 'ऐप-अनुमति', 'ऐप-प्राधिकरण'
+          old_b, new_b = 'অ্যায়প-অনুমতি', 'অ্যায়প-প্রাধিকরণ'
+          old_r, new_r = 'aipa-anumati', 'aipa-praadhikaran'
+
+          def replace(v):
               if isinstance(v, dict):
-                  for k, x in v.items(): walk(x, path + '.' + k)
-              elif isinstance(v, list):
-                  for i, x in enumerate(v): walk(x, f'{path}[{i}]')
-              elif isinstance(v, str) and old in v:
-                  print('OCCURRENCE', path, json.dumps(v, ensure_ascii=False))
-          walk(c)
+                  return {k: replace(x) for k, x in v.items()}
+              if isinstance(v, list):
+                  return [replace(x) for x in v]
+              if isinstance(v, str):
+                  return v.replace(old_t, new_t).replace(old_b, new_b).replace(old_r, new_r)
+              return v
+
+          c = replace(c)
+          for item in r['items']:
+              if item['id'] == 'v04817':
+                  if item['target'] != old_t:
+                      raise SystemExit('Unexpected v04817 target before patch')
+                  item['target'] = new_t
+                  item['level_rationale'] = item['level_rationale'].replace('Sense, register and chapter fit reviewed', 'Sense, register, uniqueness and chapter fit reviewed')
+          c['bridge_reading']['text_md'] = mixed_reading_markdown(c['bridge_reading']['segments'])
+          cp.write_text(json.dumps(c, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          rp.write_text(json.dumps(r, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print('Corrected v04817:', new_t)
           PY
+
+      - name: Validate assigned batch against baseline
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, unicodedata
+          from pathlib import Path
+          book = Path('04-easy-hindi-vocabulary-7000-words')
+          baseline = set(json.loads(Path('/tmp/baseline-targets.json').read_text(encoding='utf-8')))
+          def norm(s):
+              return ' '.join(unicodedata.normalize('NFC', s).casefold().split()).strip('.,!?।。！？')
+          seen = set()
+          for n in range(161, 171):
+              r = json.loads((book / f'rosters/ch{n:03d}.json').read_text(encoding='utf-8'))
+              assert r['status'] == 'reviewed'
+              assert len(r['items']) == 30
+              for i, item in enumerate(r['items'], 1):
+                  key = norm(item['target'])
+                  if key in baseline:
+                      raise SystemExit(f'Assigned target still collides with main: ch{n:03d} {item["id"]} {item["target"]}')
+                  if key in seen:
+                      raise SystemExit(f'Duplicate inside assigned range: {item["target"]}')
+                  seen.add(key)
+                  expected = 'expression' if i % 6 == 0 else 'word'
+                  assert item['category'] == expected
+          assert len(seen) == 300
+          print('Baseline cross-roster uniqueness: PASS, 300/300 assigned targets unique against current main')
+          PY
+
+          rm -rf /tmp/ch161-validate
+          mkdir -p /tmp/ch161-validate
+          rsync -a --exclude='.git' ./ /tmp/ch161-validate/
+          find /tmp/ch161-validate/$BOOK/chapters -maxdepth 1 -name 'ch*.json' -delete
+          find /tmp/ch161-validate/$BOOK/rosters -maxdepth 1 -name 'ch*.json' -delete
+          for n in $(seq 161 170); do
+            cp "$(printf "$BOOK/chapters/ch%03d.json" "$n")" /tmp/ch161-validate/$BOOK/chapters/
+            cp "$(printf "$BOOK/rosters/ch%03d.json" "$n")" /tmp/ch161-validate/$BOOK/rosters/
+          done
+          (cd /tmp/ch161-validate && python3 scripts/manage.py validate --book "$BOOK") | tee /tmp/validator-output.txt
+          grep -q '10/234 authored chapters structurally valid' /tmp/validator-output.txt
+
+          set +e
+          python3 scripts/manage.py validate --book "$BOOK" >/tmp/full-validator.txt 2>&1
+          full_rc=$?
+          set -e
+          test "$full_rc" -ne 0
+          grep -q 'Duplicate target across vocabulary rosters' /tmp/full-validator.txt
+          echo 'Whole current-main validator remains blocked by pre-existing roster duplicates unrelated to ch161-ch170; isolated assigned-range validator passed.'
+
+      - name: Preserve progress and commit content branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('04-easy-hindi-vocabulary-7000-words/authoring-progress.json')
+          d = json.loads(p.read_text(encoding='utf-8'))
+          prior = json.loads(Path('/tmp/prior-progress.json').read_text(encoding='utf-8'))
+          d['base_main_sha'] = '9dbdc14b189c0d9094d3502ac616da544d24dfb1'
+          d['preserved_prior_progress_checkpoint'] = prior
+          d.pop('preserved_prior_progress_reference', None)
+          checks = d.setdefault('checks_performed', [])
+          def upsert(name, result, details, command=None):
+              item = next((x for x in checks if isinstance(x, dict) and x.get('check') == name), None)
+              if item is None:
+                  item = {'check': name}
+                  checks.append(item)
+              item['result'] = result
+              item['details'] = details
+              if command:
+                  item['command'] = command
+          upsert('repository_validator_cli', 'passed', 'Ran the repository validator in an isolated current-main checkout containing only the requested ch161-ch170 chapter and roster files; result: 10/234 authored chapters structurally valid; publication not assessed. This isolates the assigned batch because current main already contains unrelated historical duplicate roster targets.', 'python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words')
+          upsert('baseline_cross_roster_uniqueness', 'passed', 'Verified all 300 ch161-ch170 roster targets are unique against the target set already present on current main after correcting v04817 from ऐप-अनुमति to ऐप-प्राधिकरण.')
+          upsert('whole_repository_validator', 'blocked_by_preexisting_main_data', 'The whole current-main book validator still stops at pre-existing duplicate target groups in older authored rosters. The requested ch161-ch170 range introduces no remaining collision and passes isolated structural validation.')
+          p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+
+          git config user.name "polodev"
+          git config user.email "polodev10@gmail.com"
+          git add "$BOOK/authoring-progress.json"
+          for n in $(seq 161 170); do
+            git add "$(printf "$BOOK/chapters/ch%03d.json" "$n")"
+            git add "$(printf "$BOOK/rosters/ch%03d.json" "$n")"
+          done
+          test "$(git diff --cached --name-only | wc -l)" -eq 21
+          test "$(git diff --cached --diff-filter=A --name-only | wc -l)" -eq 20
+          test "$(git diff --cached --diff-filter=M --name-only | wc -l)" -eq 1
+          test -z "$(git diff --cached --diff-filter=DR --name-only)"
+          files=$(git diff --cached --name-only | wc -l | tr -d ' ')
+          adds=$(git diff --cached --numstat | awk '{a+=$1} END {print a+0}')
+          dels=$(git diff --cached --numstat | awk '{d+=$2} END {print d+0}')
+          ts=$(TZ=Asia/Dhaka date '+%Y-%m-%d %H:%M +06')
+          git commit -m "Complete vocabulary ch161-ch170 | $ts | $files files, +$adds/-$dels"
+          commit_sha=$(git rev-parse HEAD)
+          git push origin "HEAD:refs/heads/$FINAL_BRANCH"
+          git fetch origin "$FINAL_BRANCH"
+          test "$(git rev-parse FETCH_HEAD)" = "$commit_sha"
+          echo "DELIVERY_COMMIT=$commit_sha" >> "$GITHUB_ENV"
+          echo "Delivery commit: $commit_sha"
