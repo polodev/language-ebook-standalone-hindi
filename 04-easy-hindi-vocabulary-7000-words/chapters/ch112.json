@@ -1,0 +1,2563 @@
+{
+  "chapter_id": "ch112",
+  "status": "drafted",
+  "title_target": "डिजिटल बैंकिंग और सुरक्षित लेनदेन",
+  "title_bangla_pronunciation": "ডিজিটল বৈংকিংগ ঔর সুরক্ষিত লেনদেন",
+  "title_word_pronunciations": [
+    {
+      "target": "डिजिटल",
+      "bangla_pronunciation": "ডিজিটল",
+      "separator_after": " "
+    },
+    {
+      "target": "बैंकिंग",
+      "bangla_pronunciation": "বৈংকিংগ",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "ঔর",
+      "separator_after": " "
+    },
+    {
+      "target": "सुरक्षित",
+      "bangla_pronunciation": "সুরক্ষিত",
+      "separator_after": " "
+    },
+    {
+      "target": "लेनदेन",
+      "bangla_pronunciation": "লেনদেন",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "ডিজিটাল ব্যাংকিং ও নিরাপদ লেনদেন",
+  "goal_bengali_md": "ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা নিয়ে ৩০টি লক্ষ্য, ২০টি বাক্য, দুটি পাঠ ও বলার অনুশীলন।",
+  "sentences": [
+    {
+      "id": "ch112_s01",
+      "target": "खाताधारक और भुगतानलाभार्थी जाँचें।",
+      "romanization": "khaataadhaark aur bhugtaanlaabhaarthee jaanchen.",
+      "bangla_pronunciation": "খাতাধারক ঔর ভুগতানলাভার্থী জাঁচেং।",
+      "word_pronunciations": [
+        {
+          "target": "खाताधारक",
+          "bangla_pronunciation": "খাতাধারক",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतानलाभार्थी",
+          "bangla_pronunciation": "ভুগতানলাভার্থী",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাংক হিসাবের মালিক ও যিনি পেমেন্ট গ্রহণ করবেন পরীক্ষা করুন।"
+    },
+    {
+      "id": "ch112_s02",
+      "target": "शेषराशि और खाताप्रमाणीकरण लिखें।",
+      "romanization": "sheshraashi aur khaataaprmaaneekrn likhen.",
+      "bangla_pronunciation": "শেষরাশি ঔর খাতাপ্রমাণীকরণ লিখেং।",
+      "word_pronunciations": [
+        {
+          "target": "शेषराशि",
+          "bangla_pronunciation": "শেষরাশি",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "खाताप्रमाणीकरण",
+          "bangla_pronunciation": "খাতাপ্রমাণীকরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें।",
+          "bangla_pronunciation": "লিখেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "হিসাবে অবশিষ্ট টাকা ও ব্যাংক হিসাবের পরিচয় যাচাই লিখে রাখুন।"
+    },
+    {
+      "id": "ch112_s03",
+      "target": "लेनदेनरिकॉर्ड याद रखें।",
+      "romanization": "lendenrikord yaad rkhen.",
+      "bangla_pronunciation": "লেনদেনরিকॉর্ড যাদ রখেং।",
+      "word_pronunciations": [
+        {
+          "target": "लेनदेनरिकॉर्ड",
+          "bangla_pronunciation": "লেনদেনরিকॉর্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "याद",
+          "bangla_pronunciation": "যাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লেনদেনের রেকর্ড মনে রাখুন।"
+    },
+    {
+      "id": "ch112_s04",
+      "target": "भुगतान से पहले नाम मिलाइए।",
+      "romanization": "bhugtaan se phle naam milaaie.",
+      "bangla_pronunciation": "ভুগতান সে পহলে নাম মিলাইএ।",
+      "word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "नाम",
+          "bangla_pronunciation": "নাম",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाइए।",
+          "bangla_pronunciation": "মিলাইএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্টের আগে নাম মিলিয়ে নিন।"
+    },
+    {
+      "id": "ch112_s05",
+      "target": "निकासीसीमा और अंतरणशुल्क जाँचें।",
+      "romanization": "nikaaseeseemaa aur antrnshulk jaanchen.",
+      "bangla_pronunciation": "নিকাসীসীমা ঔর অংতরণশুল্ক জাঁচেং।",
+      "word_pronunciations": [
+        {
+          "target": "निकासीसीमा",
+          "bangla_pronunciation": "নিকাসীসীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "अंतरणशुल्क",
+          "bangla_pronunciation": "অংতরণশুল্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "টাকা তোলার সীমা ও অর্থ স্থানান্তরের ফি পরীক্ষা করুন।"
+    },
+    {
+      "id": "ch112_s06",
+      "target": "संदर्भसंख्या और धनप्रेषक लिखें।",
+      "romanization": "sndrbhsnkhyaa aur dhnpreshk likhen.",
+      "bangla_pronunciation": "সংদর্ভসংখ্যা ঔর ধনপ্রেষক লিখেং।",
+      "word_pronunciations": [
+        {
+          "target": "संदर्भसंख्या",
+          "bangla_pronunciation": "সংদর্ভসংখ্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "धनप्रेषक",
+          "bangla_pronunciation": "ধনপ্রেষক",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें।",
+          "bangla_pronunciation": "লিখেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লেনদেনের রেফারেন্স নম্বর ও যিনি অর্থ পাঠান লিখে রাখুন।"
+    },
+    {
+      "id": "ch112_s07",
+      "target": "धनप्राप्तकर्ता याद रखें।",
+      "romanization": "dhnpraaptkrtaa yaad rkhen.",
+      "bangla_pronunciation": "ধনপ্রাপ্তকর্তা যাদ রখেং।",
+      "word_pronunciations": [
+        {
+          "target": "धनप्राप्तकर्ता",
+          "bangla_pronunciation": "ধনপ্রাপ্তকর্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "याद",
+          "bangla_pronunciation": "যাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "যিনি অর্থ গ্রহণ করেন মনে রাখুন।"
+    },
+    {
+      "id": "ch112_s08",
+      "target": "ओटीपी किसी से साझा न करें।",
+      "romanization": "oteepee kisee se saajhaa n kren.",
+      "bangla_pronunciation": "ওটীপী কিসী সে সাঝা ন করেং।",
+      "word_pronunciations": [
+        {
+          "target": "ओटीपी",
+          "bangla_pronunciation": "ওটীপী",
+          "separator_after": " "
+        },
+        {
+          "target": "किसी",
+          "bangla_pronunciation": "কিসী",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "साझा",
+          "bangla_pronunciation": "সাঝা",
+          "separator_after": " "
+        },
+        {
+          "target": "न",
+          "bangla_pronunciation": "ন",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ওটিপি কারও সঙ্গে শেয়ার করবেন না।"
+    },
+    {
+      "id": "ch112_s09",
+      "target": "भुगतानअधिसूचना और द्विस्तरीयता जाँचें।",
+      "romanization": "bhugtaanadhisoochnaa aur dvistreeytaa jaanchen.",
+      "bangla_pronunciation": "ভুগতানঅধিসূচনা ঔর দ্ভিস্তরীযতা জাঁচেং।",
+      "word_pronunciations": [
+        {
+          "target": "भुगतानअधिसूचना",
+          "bangla_pronunciation": "ভুগতানঅধিসূচনা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "द्विस्तरीयता",
+          "bangla_pronunciation": "দ্ভিস্তরীযতা",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্টের নোটিফিকেশন ও দুই স্তরের নিরাপত্তা ব্যবস্থা পরীক্ষা করুন।"
+    },
+    {
+      "id": "ch112_s10",
+      "target": "प्राप्तकर्तासत्यापन और संदिग्धता लिखें।",
+      "romanization": "praaptkrtaastyaapn aur sndigdhtaa likhen.",
+      "bangla_pronunciation": "প্রাপ্তকর্তাসত্যাপন ঔর সংদিগ্ধতা লিখেং।",
+      "word_pronunciations": [
+        {
+          "target": "प्राप्तकर्तासत्यापन",
+          "bangla_pronunciation": "প্রাপ্তকর্তাসত্যাপন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "संदिग्धता",
+          "bangla_pronunciation": "সংদিগ্ধতা",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें।",
+          "bangla_pronunciation": "লিখেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রাপকের তথ্য যাচাই ও সন্দেহজনক অবস্থা লিখে রাখুন।"
+    },
+    {
+      "id": "ch112_s11",
+      "target": "भुगतानप्रतिपूर्ति याद रखें।",
+      "romanization": "bhugtaanprtipoorti yaad rkhen.",
+      "bangla_pronunciation": "ভুগতানপ্রতিপূর্তি যাদ রখেং।",
+      "word_pronunciations": [
+        {
+          "target": "भुगतानप्रतिपूर्ति",
+          "bangla_pronunciation": "ভুগতানপ্রতিপূর্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "याद",
+          "bangla_pronunciation": "যাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্ট ফেরত বা সমন্বয় মনে রাখুন।"
+    },
+    {
+      "id": "ch112_s12",
+      "target": "संदिग्ध लेनदेन तुरंत रोकिए।",
+      "romanization": "sndigdh lenden turnt rokie.",
+      "bangla_pronunciation": "সংদিগ্ধ লেনদেন তুরংত রোকিএ।",
+      "word_pronunciations": [
+        {
+          "target": "संदिग्ध",
+          "bangla_pronunciation": "সংদিগ্ধ",
+          "separator_after": " "
+        },
+        {
+          "target": "लेनदेन",
+          "bangla_pronunciation": "লেনদেন",
+          "separator_after": " "
+        },
+        {
+          "target": "तुरंत",
+          "bangla_pronunciation": "তুরংত",
+          "separator_after": " "
+        },
+        {
+          "target": "रोकिए।",
+          "bangla_pronunciation": "রোকিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সন্দেহজনক লেনদেন সঙ্গে সঙ্গে থামান।"
+    },
+    {
+      "id": "ch112_s13",
+      "target": "लेनदेनअस्वीकृति और लंबितस्थिति जाँचें।",
+      "romanization": "lendenasveekriti aur lnbitsthiti jaanchen.",
+      "bangla_pronunciation": "লেনদেনঅস্ভীকৃতি ঔর লংবিতস্থিতি জাঁচেং।",
+      "word_pronunciations": [
+        {
+          "target": "लेनदेनअस्वीकृति",
+          "bangla_pronunciation": "লেনদেনঅস্ভীকৃতি",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "लंबितस्थिति",
+          "bangla_pronunciation": "লংবিতস্থিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লেনদেন প্রত্যাখ্যান ও অপেক্ষমাণ অবস্থা পরীক্ষা করুন।"
+    },
+    {
+      "id": "ch112_s14",
+      "target": "खातागोपनीयता और भुगतानअधिकृतता लिखें।",
+      "romanization": "khaataagopneeytaa aur bhugtaanadhikrittaa likhen.",
+      "bangla_pronunciation": "খাতাগোপনীযতা ঔর ভুগতানঅধিকৃততা লিখেং।",
+      "word_pronunciations": [
+        {
+          "target": "खातागोपनीयता",
+          "bangla_pronunciation": "খাতাগোপনীযতা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतानअधिकृतता",
+          "bangla_pronunciation": "ভুগতানঅধিকৃততা",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें।",
+          "bangla_pronunciation": "লিখেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাংক হিসাবের গোপনীয়তা ও পেমেন্ট অনুমোদনের অবস্থা লিখে রাখুন।"
+    },
+    {
+      "id": "ch112_s15",
+      "target": "जैवमिति याद रखें।",
+      "romanization": "jaivmiti yaad rkhen.",
+      "bangla_pronunciation": "জৈভমিতি যাদ রখেং।",
+      "word_pronunciations": [
+        {
+          "target": "जैवमिति",
+          "bangla_pronunciation": "জৈভমিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "याद",
+          "bangla_pronunciation": "যাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বায়োমেট্রিক পরিচয় যাচাই মনে রাখুন।"
+    },
+    {
+      "id": "ch112_s16",
+      "target": "रसीद डाउनलोड करके रखिए।",
+      "romanization": "rseed daaunlod krke rkhie.",
+      "bangla_pronunciation": "রসীদ ডাউনলোড করকে রখিএ।",
+      "word_pronunciations": [
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসীদ",
+          "separator_after": " "
+        },
+        {
+          "target": "डाउनलोड",
+          "bangla_pronunciation": "ডাউনলোড",
+          "separator_after": " "
+        },
+        {
+          "target": "करके",
+          "bangla_pronunciation": "করকে",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রসিদ ডাউনলোড করে রেখে দিন।"
+    },
+    {
+      "id": "ch112_s17",
+      "target": "पासकोड और विवरणपत्र जाँचें।",
+      "romanization": "paaskod aur vivrnptr jaanchen.",
+      "bangla_pronunciation": "পাসকোড ঔর ভিভরণপত্র জাঁচেং।",
+      "word_pronunciations": [
+        {
+          "target": "पासकोड",
+          "bangla_pronunciation": "পাসকোড",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "विवरणपत्र",
+          "bangla_pronunciation": "ভিভরণপত্র",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপত্তা কোড ও হিসাব বা লেনদেনের বিস্তারিত বিবরণ পরীক্ষা করুন।"
+    },
+    {
+      "id": "ch112_s18",
+      "target": "निपटानअवधि और खातेबंदी लिखें।",
+      "romanization": "niptaanavdhi aur khaatebndee likhen.",
+      "bangla_pronunciation": "নিপটানঅভধি ঔর খাতেবংদী লিখেং।",
+      "word_pronunciations": [
+        {
+          "target": "निपटानअवधि",
+          "bangla_pronunciation": "নিপটানঅভধি",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "खातेबंदी",
+          "bangla_pronunciation": "খাতেবংদী",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें।",
+          "bangla_pronunciation": "লিখেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লেনদেন নিষ্পত্তির সময়কাল ও হিসাব সাময়িক বা স্থায়ীভাবে বন্ধ করা লিখে রাখুন।"
+    },
+    {
+      "id": "ch112_s19",
+      "target": "पुनर्सक्रियण याद रखें।",
+      "romanization": "punrskriyn yaad rkhen.",
+      "bangla_pronunciation": "পুনর্সক্রিযণ যাদ রখেং।",
+      "word_pronunciations": [
+        {
+          "target": "पुनर्सक्रियण",
+          "bangla_pronunciation": "পুনর্সক্রিযণ",
+          "separator_after": " "
+        },
+        {
+          "target": "याद",
+          "bangla_pronunciation": "যাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পুনরায় সক্রিয় করা মনে রাখুন।"
+    },
+    {
+      "id": "ch112_s20",
+      "target": "गलत भुगतान पर बैंक को सूचित करें।",
+      "romanization": "glt bhugtaan pr baink ko soochit kren.",
+      "bangla_pronunciation": "গলত ভুগতান পর বৈংক কো সূচিত করেং।",
+      "word_pronunciations": [
+        {
+          "target": "गलत",
+          "bangla_pronunciation": "গলত",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "बैंक",
+          "bangla_pronunciation": "বৈংক",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "सूचित",
+          "bangla_pronunciation": "সূচিত",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভুল পেমেন্ট হলে ব্যাংককে জানান।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v03331",
+      "target": "खाताधारक",
+      "category": "word",
+      "type": "noun",
+      "romanization": "khaataadhaark",
+      "bangla_pronunciation": "খাতাধারক",
+      "word_pronunciations": [
+        {
+          "target": "खाताधारक",
+          "bangla_pronunciation": "খাতাধারক",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাংক হিসাবের মালিক। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s01",
+      "source_form": "खाताधारक",
+      "example_target": "खाताधारक और भुगतानलाभार्थी जाँचें।",
+      "example_bangla_pronunciation": "খাতাধারক ঔর ভুগতানলাভার্থী জাঁচেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "खाताधारक",
+          "bangla_pronunciation": "খাতাধারক",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतानलाभार्थी",
+          "bangla_pronunciation": "ভুগতানলাভার্থী",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ব্যাংক হিসাবের মালিক ও যিনি পেমেন্ট গ্রহণ করবেন পরীক্ষা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03332",
+      "target": "भुगतानलाभार्थी",
+      "category": "word",
+      "type": "noun",
+      "romanization": "bhugtaanlaabhaarthee",
+      "bangla_pronunciation": "ভুগতানলাভার্থী",
+      "word_pronunciations": [
+        {
+          "target": "भुगतानलाभार्थी",
+          "bangla_pronunciation": "ভুগতানলাভার্থী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "যিনি পেমেন্ট গ্রহণ করবেন। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s01",
+      "source_form": "भुगतानलाभार्थी",
+      "example_target": "खाताधारक और भुगतानलाभार्थी जाँचें।",
+      "example_bangla_pronunciation": "খাতাধারক ঔর ভুগতানলাভার্থী জাঁচেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "खाताधारक",
+          "bangla_pronunciation": "খাতাধারক",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतानलाभार्थी",
+          "bangla_pronunciation": "ভুগতানলাভার্থী",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ব্যাংক হিসাবের মালিক ও যিনি পেমেন্ট গ্রহণ করবেন পরীক্ষা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03333",
+      "target": "शेषराशि",
+      "category": "word",
+      "type": "noun",
+      "romanization": "sheshraashi",
+      "bangla_pronunciation": "শেষরাশি",
+      "word_pronunciations": [
+        {
+          "target": "शेषराशि",
+          "bangla_pronunciation": "শেষরাশি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "হিসাবে অবশিষ্ট টাকা। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s02",
+      "source_form": "शेषराशि",
+      "example_target": "शेषराशि और खाताप्रमाणीकरण लिखें।",
+      "example_bangla_pronunciation": "শেষরাশি ঔর খাতাপ্রমাণীকরণ লিখেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "शेषराशि",
+          "bangla_pronunciation": "শেষরাশি",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "खाताप्रमाणीकरण",
+          "bangla_pronunciation": "খাতাপ্রমাণীকরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें।",
+          "bangla_pronunciation": "লিখেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "হিসাবে অবশিষ্ট টাকা ও ব্যাংক হিসাবের পরিচয় যাচাই লিখে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03334",
+      "target": "खाताप्रमाणीकरण",
+      "category": "word",
+      "type": "noun",
+      "romanization": "khaataaprmaaneekrn",
+      "bangla_pronunciation": "খাতাপ্রমাণীকরণ",
+      "word_pronunciations": [
+        {
+          "target": "खाताप्रमाणीकरण",
+          "bangla_pronunciation": "খাতাপ্রমাণীকরণ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাংক হিসাবের পরিচয় যাচাই। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s02",
+      "source_form": "खाताप्रमाणीकरण",
+      "example_target": "शेषराशि और खाताप्रमाणीकरण लिखें।",
+      "example_bangla_pronunciation": "শেষরাশি ঔর খাতাপ্রমাণীকরণ লিখেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "शेषराशि",
+          "bangla_pronunciation": "শেষরাশি",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "खाताप्रमाणीकरण",
+          "bangla_pronunciation": "খাতাপ্রমাণীকরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें।",
+          "bangla_pronunciation": "লিখেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "হিসাবে অবশিষ্ট টাকা ও ব্যাংক হিসাবের পরিচয় যাচাই লিখে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03335",
+      "target": "लेनदेनरिकॉर्ड",
+      "category": "word",
+      "type": "noun",
+      "romanization": "lendenrikord",
+      "bangla_pronunciation": "লেনদেনরিকॉর্ড",
+      "word_pronunciations": [
+        {
+          "target": "लेनदेनरिकॉर्ड",
+          "bangla_pronunciation": "লেনদেনরিকॉর্ড",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লেনদেনের রেকর্ড। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s03",
+      "source_form": "लेनदेनरिकॉर्ड",
+      "example_target": "लेनदेनरिकॉर्ड याद रखें।",
+      "example_bangla_pronunciation": "লেনদেনরিকॉর্ড যাদ রখেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "लेनदेनरिकॉर्ड",
+          "bangla_pronunciation": "লেনদেনরিকॉর্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "याद",
+          "bangla_pronunciation": "যাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "লেনদেনের রেকর্ড মনে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03336",
+      "target": "भुगतान से पहले नाम मिलाइए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "bhugtaan se phle naam milaaie",
+      "bangla_pronunciation": "ভুগতান সে পহলে নাম মিলাইএ",
+      "word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "नाम",
+          "bangla_pronunciation": "নাম",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाइए",
+          "bangla_pronunciation": "মিলাইএ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্টের আগে নাম মিলিয়ে নিন। ব্যবহারযোগ্য একটি পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch112_s04",
+      "source_form": "भुगतान से पहले नाम मिलाइए",
+      "example_target": "भुगतान से पहले नाम मिलाइए।",
+      "example_bangla_pronunciation": "ভুগতান সে পহলে নাম মিলাইএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "नाम",
+          "bangla_pronunciation": "নাম",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाइए।",
+          "bangla_pronunciation": "মিলাইএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পেমেন্টের আগে নাম মিলিয়ে নিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03337",
+      "target": "निकासीसीमा",
+      "category": "word",
+      "type": "noun",
+      "romanization": "nikaaseeseemaa",
+      "bangla_pronunciation": "নিকাসীসীমা",
+      "word_pronunciations": [
+        {
+          "target": "निकासीसीमा",
+          "bangla_pronunciation": "নিকাসীসীমা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "টাকা তোলার সীমা। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s05",
+      "source_form": "निकासीसीमा",
+      "example_target": "निकासीसीमा और अंतरणशुल्क जाँचें।",
+      "example_bangla_pronunciation": "নিকাসীসীমা ঔর অংতরণশুল্ক জাঁচেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "निकासीसीमा",
+          "bangla_pronunciation": "নিকাসীসীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "अंतरणशुल्क",
+          "bangla_pronunciation": "অংতরণশুল্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "টাকা তোলার সীমা ও অর্থ স্থানান্তরের ফি পরীক্ষা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03338",
+      "target": "अंतरणशुल्क",
+      "category": "word",
+      "type": "noun",
+      "romanization": "antrnshulk",
+      "bangla_pronunciation": "অংতরণশুল্ক",
+      "word_pronunciations": [
+        {
+          "target": "अंतरणशुल्क",
+          "bangla_pronunciation": "অংতরণশুল্ক",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অর্থ স্থানান্তরের ফি। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s05",
+      "source_form": "अंतरणशुल्क",
+      "example_target": "निकासीसीमा और अंतरणशुल्क जाँचें।",
+      "example_bangla_pronunciation": "নিকাসীসীমা ঔর অংতরণশুল্ক জাঁচেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "निकासीसीमा",
+          "bangla_pronunciation": "নিকাসীসীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "अंतरणशुल्क",
+          "bangla_pronunciation": "অংতরণশুল্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "টাকা তোলার সীমা ও অর্থ স্থানান্তরের ফি পরীক্ষা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03339",
+      "target": "संदर्भसंख्या",
+      "category": "word",
+      "type": "noun",
+      "romanization": "sndrbhsnkhyaa",
+      "bangla_pronunciation": "সংদর্ভসংখ্যা",
+      "word_pronunciations": [
+        {
+          "target": "संदर्भसंख्या",
+          "bangla_pronunciation": "সংদর্ভসংখ্যা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লেনদেনের রেফারেন্স নম্বর। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s06",
+      "source_form": "संदर्भसंख्या",
+      "example_target": "संदर्भसंख्या और धनप्रेषक लिखें।",
+      "example_bangla_pronunciation": "সংদর্ভসংখ্যা ঔর ধনপ্রেষক লিখেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "संदर्भसंख्या",
+          "bangla_pronunciation": "সংদর্ভসংখ্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "धनप्रेषक",
+          "bangla_pronunciation": "ধনপ্রেষক",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें।",
+          "bangla_pronunciation": "লিখেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "লেনদেনের রেফারেন্স নম্বর ও যিনি অর্থ পাঠান লিখে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03340",
+      "target": "धनप्रेषक",
+      "category": "word",
+      "type": "noun",
+      "romanization": "dhnpreshk",
+      "bangla_pronunciation": "ধনপ্রেষক",
+      "word_pronunciations": [
+        {
+          "target": "धनप्रेषक",
+          "bangla_pronunciation": "ধনপ্রেষক",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "যিনি অর্থ পাঠান। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s06",
+      "source_form": "धनप्रेषक",
+      "example_target": "संदर्भसंख्या और धनप्रेषक लिखें।",
+      "example_bangla_pronunciation": "সংদর্ভসংখ্যা ঔর ধনপ্রেষক লিখেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "संदर्भसंख्या",
+          "bangla_pronunciation": "সংদর্ভসংখ্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "धनप्रेषक",
+          "bangla_pronunciation": "ধনপ্রেষক",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें।",
+          "bangla_pronunciation": "লিখেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "লেনদেনের রেফারেন্স নম্বর ও যিনি অর্থ পাঠান লিখে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03341",
+      "target": "धनप्राप्तकर्ता",
+      "category": "word",
+      "type": "noun",
+      "romanization": "dhnpraaptkrtaa",
+      "bangla_pronunciation": "ধনপ্রাপ্তকর্তা",
+      "word_pronunciations": [
+        {
+          "target": "धनप्राप्तकर्ता",
+          "bangla_pronunciation": "ধনপ্রাপ্তকর্তা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "যিনি অর্থ গ্রহণ করেন। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s07",
+      "source_form": "धनप्राप्तकर्ता",
+      "example_target": "धनप्राप्तकर्ता याद रखें।",
+      "example_bangla_pronunciation": "ধনপ্রাপ্তকর্তা যাদ রখেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "धनप्राप्तकर्ता",
+          "bangla_pronunciation": "ধনপ্রাপ্তকর্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "याद",
+          "bangla_pronunciation": "যাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "যিনি অর্থ গ্রহণ করেন মনে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03342",
+      "target": "ओटीपी किसी से साझा न करें",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "oteepee kisee se saajhaa n kren",
+      "bangla_pronunciation": "ওটীপী কিসী সে সাঝা ন করেং",
+      "word_pronunciations": [
+        {
+          "target": "ओटीपी",
+          "bangla_pronunciation": "ওটীপী",
+          "separator_after": " "
+        },
+        {
+          "target": "किसी",
+          "bangla_pronunciation": "কিসী",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "साझा",
+          "bangla_pronunciation": "সাঝা",
+          "separator_after": " "
+        },
+        {
+          "target": "न",
+          "bangla_pronunciation": "ন",
+          "separator_after": " "
+        },
+        {
+          "target": "करें",
+          "bangla_pronunciation": "করেং",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ওটিপি কারও সঙ্গে শেয়ার করবেন না। ব্যবহারযোগ্য একটি পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch112_s08",
+      "source_form": "ओटीपी किसी से साझा न करें",
+      "example_target": "ओटीपी किसी से साझा न करें।",
+      "example_bangla_pronunciation": "ওটীপী কিসী সে সাঝা ন করেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "ओटीपी",
+          "bangla_pronunciation": "ওটীপী",
+          "separator_after": " "
+        },
+        {
+          "target": "किसी",
+          "bangla_pronunciation": "কিসী",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "साझा",
+          "bangla_pronunciation": "সাঝা",
+          "separator_after": " "
+        },
+        {
+          "target": "न",
+          "bangla_pronunciation": "ন",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ওটিপি কারও সঙ্গে শেয়ার করবেন না।",
+      "synonyms": []
+    },
+    {
+      "id": "v03343",
+      "target": "भुगतानअधिसूचना",
+      "category": "word",
+      "type": "noun",
+      "romanization": "bhugtaanadhisoochnaa",
+      "bangla_pronunciation": "ভুগতানঅধিসূচনা",
+      "word_pronunciations": [
+        {
+          "target": "भुगतानअधिसूचना",
+          "bangla_pronunciation": "ভুগতানঅধিসূচনা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্টের নোটিফিকেশন। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s09",
+      "source_form": "भुगतानअधिसूचना",
+      "example_target": "भुगतानअधिसूचना और द्विस्तरीयता जाँचें।",
+      "example_bangla_pronunciation": "ভুগতানঅধিসূচনা ঔর দ্ভিস্তরীযতা জাঁচেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "भुगतानअधिसूचना",
+          "bangla_pronunciation": "ভুগতানঅধিসূচনা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "द्विस्तरीयता",
+          "bangla_pronunciation": "দ্ভিস্তরীযতা",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পেমেন্টের নোটিফিকেশন ও দুই স্তরের নিরাপত্তা ব্যবস্থা পরীক্ষা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03344",
+      "target": "द्विस्तरीयता",
+      "category": "word",
+      "type": "noun",
+      "romanization": "dvistreeytaa",
+      "bangla_pronunciation": "দ্ভিস্তরীযতা",
+      "word_pronunciations": [
+        {
+          "target": "द्विस्तरीयता",
+          "bangla_pronunciation": "দ্ভিস্তরীযতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুই স্তরের নিরাপত্তা ব্যবস্থা। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s09",
+      "source_form": "द्विस्तरीयता",
+      "example_target": "भुगतानअधिसूचना और द्विस्तरीयता जाँचें।",
+      "example_bangla_pronunciation": "ভুগতানঅধিসূচনা ঔর দ্ভিস্তরীযতা জাঁচেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "भुगतानअधिसूचना",
+          "bangla_pronunciation": "ভুগতানঅধিসূচনা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "द्विस्तरीयता",
+          "bangla_pronunciation": "দ্ভিস্তরীযতা",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পেমেন্টের নোটিফিকেশন ও দুই স্তরের নিরাপত্তা ব্যবস্থা পরীক্ষা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03345",
+      "target": "प्राप्तकर्तासत्यापन",
+      "category": "word",
+      "type": "noun",
+      "romanization": "praaptkrtaastyaapn",
+      "bangla_pronunciation": "প্রাপ্তকর্তাসত্যাপন",
+      "word_pronunciations": [
+        {
+          "target": "प्राप्तकर्तासत्यापन",
+          "bangla_pronunciation": "প্রাপ্তকর্তাসত্যাপন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রাপকের তথ্য যাচাই। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s10",
+      "source_form": "प्राप्तकर्तासत्यापन",
+      "example_target": "प्राप्तकर्तासत्यापन और संदिग्धता लिखें।",
+      "example_bangla_pronunciation": "প্রাপ্তকর্তাসত্যাপন ঔর সংদিগ্ধতা লিখেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "प्राप्तकर्तासत्यापन",
+          "bangla_pronunciation": "প্রাপ্তকর্তাসত্যাপন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "संदिग्धता",
+          "bangla_pronunciation": "সংদিগ্ধতা",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें।",
+          "bangla_pronunciation": "লিখেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্রাপকের তথ্য যাচাই ও সন্দেহজনক অবস্থা লিখে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03346",
+      "target": "संदिग्धता",
+      "category": "word",
+      "type": "noun",
+      "romanization": "sndigdhtaa",
+      "bangla_pronunciation": "সংদিগ্ধতা",
+      "word_pronunciations": [
+        {
+          "target": "संदिग्धता",
+          "bangla_pronunciation": "সংদিগ্ধতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সন্দেহজনক অবস্থা। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s10",
+      "source_form": "संदिग्धता",
+      "example_target": "प्राप्तकर्तासत्यापन और संदिग्धता लिखें।",
+      "example_bangla_pronunciation": "প্রাপ্তকর্তাসত্যাপন ঔর সংদিগ্ধতা লিখেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "प्राप्तकर्तासत्यापन",
+          "bangla_pronunciation": "প্রাপ্তকর্তাসত্যাপন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "संदिग्धता",
+          "bangla_pronunciation": "সংদিগ্ধতা",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें।",
+          "bangla_pronunciation": "লিখেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্রাপকের তথ্য যাচাই ও সন্দেহজনক অবস্থা লিখে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03347",
+      "target": "भुगतानप्रतिपूर्ति",
+      "category": "word",
+      "type": "noun",
+      "romanization": "bhugtaanprtipoorti",
+      "bangla_pronunciation": "ভুগতানপ্রতিপূর্তি",
+      "word_pronunciations": [
+        {
+          "target": "भुगतानप्रतिपूर्ति",
+          "bangla_pronunciation": "ভুগতানপ্রতিপূর্তি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্ট ফেরত বা সমন্বয়। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s11",
+      "source_form": "भुगतानप्रतिपूर्ति",
+      "example_target": "भुगतानप्रतिपूर्ति याद रखें।",
+      "example_bangla_pronunciation": "ভুগতানপ্রতিপূর্তি যাদ রখেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "भुगतानप्रतिपूर्ति",
+          "bangla_pronunciation": "ভুগতানপ্রতিপূর্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "याद",
+          "bangla_pronunciation": "যাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পেমেন্ট ফেরত বা সমন্বয় মনে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03348",
+      "target": "संदिग्ध लेनदेन तुरंत रोकिए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "sndigdh lenden turnt rokie",
+      "bangla_pronunciation": "সংদিগ্ধ লেনদেন তুরংত রোকিএ",
+      "word_pronunciations": [
+        {
+          "target": "संदिग्ध",
+          "bangla_pronunciation": "সংদিগ্ধ",
+          "separator_after": " "
+        },
+        {
+          "target": "लेनदेन",
+          "bangla_pronunciation": "লেনদেন",
+          "separator_after": " "
+        },
+        {
+          "target": "तुरंत",
+          "bangla_pronunciation": "তুরংত",
+          "separator_after": " "
+        },
+        {
+          "target": "रोकिए",
+          "bangla_pronunciation": "রোকিএ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সন্দেহজনক লেনদেন সঙ্গে সঙ্গে থামান। ব্যবহারযোগ্য একটি পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch112_s12",
+      "source_form": "संदिग्ध लेनदेन तुरंत रोकिए",
+      "example_target": "संदिग्ध लेनदेन तुरंत रोकिए।",
+      "example_bangla_pronunciation": "সংদিগ্ধ লেনদেন তুরংত রোকিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "संदिग्ध",
+          "bangla_pronunciation": "সংদিগ্ধ",
+          "separator_after": " "
+        },
+        {
+          "target": "लेनदेन",
+          "bangla_pronunciation": "লেনদেন",
+          "separator_after": " "
+        },
+        {
+          "target": "तुरंत",
+          "bangla_pronunciation": "তুরংত",
+          "separator_after": " "
+        },
+        {
+          "target": "रोकिए।",
+          "bangla_pronunciation": "রোকিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সন্দেহজনক লেনদেন সঙ্গে সঙ্গে থামান।",
+      "synonyms": []
+    },
+    {
+      "id": "v03349",
+      "target": "लेनदेनअस्वीकृति",
+      "category": "word",
+      "type": "noun",
+      "romanization": "lendenasveekriti",
+      "bangla_pronunciation": "লেনদেনঅস্ভীকৃতি",
+      "word_pronunciations": [
+        {
+          "target": "लेनदेनअस्वीकृति",
+          "bangla_pronunciation": "লেনদেনঅস্ভীকৃতি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লেনদেন প্রত্যাখ্যান। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s13",
+      "source_form": "लेनदेनअस्वीकृति",
+      "example_target": "लेनदेनअस्वीकृति और लंबितस्थिति जाँचें।",
+      "example_bangla_pronunciation": "লেনদেনঅস্ভীকৃতি ঔর লংবিতস্থিতি জাঁচেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "लेनदेनअस्वीकृति",
+          "bangla_pronunciation": "লেনদেনঅস্ভীকৃতি",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "लंबितस्थिति",
+          "bangla_pronunciation": "লংবিতস্থিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "লেনদেন প্রত্যাখ্যান ও অপেক্ষমাণ অবস্থা পরীক্ষা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03350",
+      "target": "लंबितस्थिति",
+      "category": "word",
+      "type": "noun",
+      "romanization": "lnbitsthiti",
+      "bangla_pronunciation": "লংবিতস্থিতি",
+      "word_pronunciations": [
+        {
+          "target": "लंबितस्थिति",
+          "bangla_pronunciation": "লংবিতস্থিতি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অপেক্ষমাণ অবস্থা। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s13",
+      "source_form": "लंबितस्थिति",
+      "example_target": "लेनदेनअस्वीकृति और लंबितस्थिति जाँचें।",
+      "example_bangla_pronunciation": "লেনদেনঅস্ভীকৃতি ঔর লংবিতস্থিতি জাঁচেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "लेनदेनअस्वीकृति",
+          "bangla_pronunciation": "লেনদেনঅস্ভীকৃতি",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "लंबितस्थिति",
+          "bangla_pronunciation": "লংবিতস্থিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "লেনদেন প্রত্যাখ্যান ও অপেক্ষমাণ অবস্থা পরীক্ষা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03351",
+      "target": "खातागोपनीयता",
+      "category": "word",
+      "type": "noun",
+      "romanization": "khaataagopneeytaa",
+      "bangla_pronunciation": "খাতাগোপনীযতা",
+      "word_pronunciations": [
+        {
+          "target": "खातागोपनीयता",
+          "bangla_pronunciation": "খাতাগোপনীযতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাংক হিসাবের গোপনীয়তা। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s14",
+      "source_form": "खातागोपनीयता",
+      "example_target": "खातागोपनीयता और भुगतानअधिकृतता लिखें।",
+      "example_bangla_pronunciation": "খাতাগোপনীযতা ঔর ভুগতানঅধিকৃততা লিখেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "खातागोपनीयता",
+          "bangla_pronunciation": "খাতাগোপনীযতা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतानअधिकृतता",
+          "bangla_pronunciation": "ভুগতানঅধিকৃততা",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें।",
+          "bangla_pronunciation": "লিখেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ব্যাংক হিসাবের গোপনীয়তা ও পেমেন্ট অনুমোদনের অবস্থা লিখে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03352",
+      "target": "भुगतानअधिकृतता",
+      "category": "word",
+      "type": "noun",
+      "romanization": "bhugtaanadhikrittaa",
+      "bangla_pronunciation": "ভুগতানঅধিকৃততা",
+      "word_pronunciations": [
+        {
+          "target": "भुगतानअधिकृतता",
+          "bangla_pronunciation": "ভুগতানঅধিকৃততা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্ট অনুমোদনের অবস্থা। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s14",
+      "source_form": "भुगतानअधिकृतता",
+      "example_target": "खातागोपनीयता और भुगतानअधिकृतता लिखें।",
+      "example_bangla_pronunciation": "খাতাগোপনীযতা ঔর ভুগতানঅধিকৃততা লিখেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "खातागोपनीयता",
+          "bangla_pronunciation": "খাতাগোপনীযতা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतानअधिकृतता",
+          "bangla_pronunciation": "ভুগতানঅধিকৃততা",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें।",
+          "bangla_pronunciation": "লিখেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ব্যাংক হিসাবের গোপনীয়তা ও পেমেন্ট অনুমোদনের অবস্থা লিখে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03353",
+      "target": "जैवमिति",
+      "category": "word",
+      "type": "noun",
+      "romanization": "jaivmiti",
+      "bangla_pronunciation": "জৈভমিতি",
+      "word_pronunciations": [
+        {
+          "target": "जैवमिति",
+          "bangla_pronunciation": "জৈভমিতি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বায়োমেট্রিক পরিচয় যাচাই। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s15",
+      "source_form": "जैवमिति",
+      "example_target": "जैवमिति याद रखें।",
+      "example_bangla_pronunciation": "জৈভমিতি যাদ রখেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "जैवमिति",
+          "bangla_pronunciation": "জৈভমিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "याद",
+          "bangla_pronunciation": "যাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বায়োমেট্রিক পরিচয় যাচাই মনে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03354",
+      "target": "रसीद डाउनलोड करके रखिए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "rseed daaunlod krke rkhie",
+      "bangla_pronunciation": "রসীদ ডাউনলোড করকে রখিএ",
+      "word_pronunciations": [
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসীদ",
+          "separator_after": " "
+        },
+        {
+          "target": "डाउनलोड",
+          "bangla_pronunciation": "ডাউনলোড",
+          "separator_after": " "
+        },
+        {
+          "target": "करके",
+          "bangla_pronunciation": "করকে",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए",
+          "bangla_pronunciation": "রখিএ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রসিদ ডাউনলোড করে রেখে দিন। ব্যবহারযোগ্য একটি পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch112_s16",
+      "source_form": "रसीद डाउनलोड करके रखिए",
+      "example_target": "रसीद डाउनलोड करके रखिए।",
+      "example_bangla_pronunciation": "রসীদ ডাউনলোড করকে রখিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসীদ",
+          "separator_after": " "
+        },
+        {
+          "target": "डाउनलोड",
+          "bangla_pronunciation": "ডাউনলোড",
+          "separator_after": " "
+        },
+        {
+          "target": "करके",
+          "bangla_pronunciation": "করকে",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "রসিদ ডাউনলোড করে রেখে দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03355",
+      "target": "पासकोड",
+      "category": "word",
+      "type": "noun",
+      "romanization": "paaskod",
+      "bangla_pronunciation": "পাসকোড",
+      "word_pronunciations": [
+        {
+          "target": "पासकोड",
+          "bangla_pronunciation": "পাসকোড",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপত্তা কোড। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s17",
+      "source_form": "पासकोड",
+      "example_target": "पासकोड और विवरणपत्र जाँचें।",
+      "example_bangla_pronunciation": "পাসকোড ঔর ভিভরণপত্র জাঁচেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "पासकोड",
+          "bangla_pronunciation": "পাসকোড",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "विवरणपत्र",
+          "bangla_pronunciation": "ভিভরণপত্র",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নিরাপত্তা কোড ও হিসাব বা লেনদেনের বিস্তারিত বিবরণ পরীক্ষা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03356",
+      "target": "विवरणपत्र",
+      "category": "word",
+      "type": "noun",
+      "romanization": "vivrnptr",
+      "bangla_pronunciation": "ভিভরণপত্র",
+      "word_pronunciations": [
+        {
+          "target": "विवरणपत्र",
+          "bangla_pronunciation": "ভিভরণপত্র",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "হিসাব বা লেনদেনের বিস্তারিত বিবরণ। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s17",
+      "source_form": "विवरणपत्र",
+      "example_target": "पासकोड और विवरणपत्र जाँचें।",
+      "example_bangla_pronunciation": "পাসকোড ঔর ভিভরণপত্র জাঁচেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "पासकोड",
+          "bangla_pronunciation": "পাসকোড",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "विवरणपत्र",
+          "bangla_pronunciation": "ভিভরণপত্র",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নিরাপত্তা কোড ও হিসাব বা লেনদেনের বিস্তারিত বিবরণ পরীক্ষা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03357",
+      "target": "निपटानअवधि",
+      "category": "word",
+      "type": "noun",
+      "romanization": "niptaanavdhi",
+      "bangla_pronunciation": "নিপটানঅভধি",
+      "word_pronunciations": [
+        {
+          "target": "निपटानअवधि",
+          "bangla_pronunciation": "নিপটানঅভধি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লেনদেন নিষ্পত্তির সময়কাল। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s18",
+      "source_form": "निपटानअवधि",
+      "example_target": "निपटानअवधि और खातेबंदी लिखें।",
+      "example_bangla_pronunciation": "নিপটানঅভধি ঔর খাতেবংদী লিখেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "निपटानअवधि",
+          "bangla_pronunciation": "নিপটানঅভধি",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "खातेबंदी",
+          "bangla_pronunciation": "খাতেবংদী",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें।",
+          "bangla_pronunciation": "লিখেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "লেনদেন নিষ্পত্তির সময়কাল ও হিসাব সাময়িক বা স্থায়ীভাবে বন্ধ করা লিখে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03358",
+      "target": "खातेबंदी",
+      "category": "word",
+      "type": "noun",
+      "romanization": "khaatebndee",
+      "bangla_pronunciation": "খাতেবংদী",
+      "word_pronunciations": [
+        {
+          "target": "खातेबंदी",
+          "bangla_pronunciation": "খাতেবংদী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "হিসাব সাময়িক বা স্থায়ীভাবে বন্ধ করা। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s18",
+      "source_form": "खातेबंदी",
+      "example_target": "निपटानअवधि और खातेबंदी लिखें।",
+      "example_bangla_pronunciation": "নিপটানঅভধি ঔর খাতেবংদী লিখেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "निपटानअवधि",
+          "bangla_pronunciation": "নিপটানঅভধি",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "खातेबंदी",
+          "bangla_pronunciation": "খাতেবংদী",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें।",
+          "bangla_pronunciation": "লিখেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "লেনদেন নিষ্পত্তির সময়কাল ও হিসাব সাময়িক বা স্থায়ীভাবে বন্ধ করা লিখে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03359",
+      "target": "पुनर्सक्रियण",
+      "category": "word",
+      "type": "noun",
+      "romanization": "punrskriyn",
+      "bangla_pronunciation": "পুনর্সক্রিযণ",
+      "word_pronunciations": [
+        {
+          "target": "पुनर्सक्रियण",
+          "bangla_pronunciation": "পুনর্সক্রিযণ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পুনরায় সক্রিয় করা। ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা প্রসঙ্গে দরকারি শব্দ।",
+      "source_sentence_id": "ch112_s19",
+      "source_form": "पुनर्सक्रियण",
+      "example_target": "पुनर्सक्रियण याद रखें।",
+      "example_bangla_pronunciation": "পুনর্সক্রিযণ যাদ রখেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "पुनर्सक्रियण",
+          "bangla_pronunciation": "পুনর্সক্রিযণ",
+          "separator_after": " "
+        },
+        {
+          "target": "याद",
+          "bangla_pronunciation": "যাদ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পুনরায় সক্রিয় করা মনে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03360",
+      "target": "गलत भुगतान पर बैंक को सूचित करें",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "glt bhugtaan pr baink ko soochit kren",
+      "bangla_pronunciation": "গলত ভুগতান পর বৈংক কো সূচিত করেং",
+      "word_pronunciations": [
+        {
+          "target": "गलत",
+          "bangla_pronunciation": "গলত",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "बैंक",
+          "bangla_pronunciation": "বৈংক",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "सूचित",
+          "bangla_pronunciation": "সূচিত",
+          "separator_after": " "
+        },
+        {
+          "target": "करें",
+          "bangla_pronunciation": "করেং",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভুল পেমেন্ট হলে ব্যাংককে জানান। ব্যবহারযোগ্য একটি পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch112_s20",
+      "source_form": "गलत भुगतान पर बैंक को सूचित करें",
+      "example_target": "गलत भुगतान पर बैंक को सूचित करें।",
+      "example_bangla_pronunciation": "গলত ভুগতান পর বৈংক কো সূচিত করেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "गलत",
+          "bangla_pronunciation": "গলত",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "बैंक",
+          "bangla_pronunciation": "বৈংক",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "सूचित",
+          "bangla_pronunciation": "সূচিত",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ভুল পেমেন্ট হলে ব্যাংককে জানান।",
+      "synonyms": []
+    }
+  ],
+  "bridge_reading": {
+    "mode": "article",
+    "title_bengali": "ডিজিটাল ব্যাংকিং ও নিরাপদ লেনদেন: ছোট পাঠ",
+    "scene_summary": "ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা নিয়ে চারটি ব্যবহারিক মুহূর্ত।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা নিয়ে একটি ব্যবহারিক পরিস্থিতি। "
+      },
+      {
+        "kind": "target",
+        "target": "खाताधारक और भुगतानलाभार्थी जाँचें।",
+        "bangla_pronunciation": "খাতাধারক ঔর ভুগতানলাভার্থী জাঁচেং।",
+        "word_pronunciations": [
+          {
+            "target": "खाताधारक",
+            "bangla_pronunciation": "খাতাধারক",
+            "separator_after": " "
+          },
+          {
+            "target": "और",
+            "bangla_pronunciation": "ঔর",
+            "separator_after": " "
+          },
+          {
+            "target": "भुगतानलाभार्थी",
+            "bangla_pronunciation": "ভুগতানলাভার্থী",
+            "separator_after": " "
+          },
+          {
+            "target": "जाँचें।",
+            "bangla_pronunciation": "জাঁচেং।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " প্রথম ধাপের পরে বলা হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "भुगतान से पहले नाम मिलाइए।",
+        "bangla_pronunciation": "ভুগতান সে পহলে নাম মিলাইএ।",
+        "word_pronunciations": [
+          {
+            "target": "भुगतान",
+            "bangla_pronunciation": "ভুগতান",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "separator_after": " "
+          },
+          {
+            "target": "पहले",
+            "bangla_pronunciation": "পহলে",
+            "separator_after": " "
+          },
+          {
+            "target": "नाम",
+            "bangla_pronunciation": "নাম",
+            "separator_after": " "
+          },
+          {
+            "target": "मिलाइए।",
+            "bangla_pronunciation": "মিলাইএ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " এরপর আরেকটি বিষয় সামনে এলো: "
+      },
+      {
+        "kind": "target",
+        "target": "भुगतानअधिसूचना और द्विस्तरीयता जाँचें।",
+        "bangla_pronunciation": "ভুগতানঅধিসূচনা ঔর দ্ভিস্তরীযতা জাঁচেং।",
+        "word_pronunciations": [
+          {
+            "target": "भुगतानअधिसूचना",
+            "bangla_pronunciation": "ভুগতানঅধিসূচনা",
+            "separator_after": " "
+          },
+          {
+            "target": "और",
+            "bangla_pronunciation": "ঔর",
+            "separator_after": " "
+          },
+          {
+            "target": "द्विस्तरीयता",
+            "bangla_pronunciation": "দ্ভিস্তরীযতা",
+            "separator_after": " "
+          },
+          {
+            "target": "जाँचें।",
+            "bangla_pronunciation": "জাঁচেং।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " শেষে একটি স্পষ্ট পদক্ষেপ নেওয়া হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "रसीद डाउनलोड करके रखिए।",
+        "bangla_pronunciation": "রসীদ ডাউনলোড করকে রখিএ।",
+        "word_pronunciations": [
+          {
+            "target": "रसीद",
+            "bangla_pronunciation": "রসীদ",
+            "separator_after": " "
+          },
+          {
+            "target": "डाउनलोड",
+            "bangla_pronunciation": "ডাউনলোড",
+            "separator_after": " "
+          },
+          {
+            "target": "करके",
+            "bangla_pronunciation": "করকে",
+            "separator_after": " "
+          },
+          {
+            "target": "रखिए।",
+            "bangla_pronunciation": "রখিএ।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা নিয়ে একটি ব্যবহারিক পরিস্থিতি। **खाताधारक** (খাতাধারক) **और** (ঔর) **भुगतानलाभार्थी** (ভুগতানলাভার্থী) **जाँचें।** (জাঁচেং।) প্রথম ধাপের পরে বলা হলো: **भुगतान** (ভুগতান) **से** (সে) **पहले** (পহলে) **नाम** (নাম) **मिलाइए।** (মিলাইএ।) এরপর আরেকটি বিষয় সামনে এলো: **भुगतानअधिसूचना** (ভুগতানঅধিসূচনা) **और** (ঔর) **द्विस्तरीयता** (দ্ভিস্তরীযতা) **जाँचें।** (জাঁচেং।) শেষে একটি স্পষ্ট পদক্ষেপ নেওয়া হলো: **रसीद** (রসীদ) **डाउनलोड** (ডাউনলোড) **करके** (করকে) **रखिए।** (রখিএ।)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "ডিজিটাল ব্যাংকিং ও নিরাপদ লেনদেন: হিন্দি অনুশীলন",
+    "scene_summary": "একই বিষয়ের অন্য পরিস্থিতিতে পাঁচটি ছোট হিন্দি বাক্য।",
+    "lines": [
+      {
+        "target": "लेनदेनरिकॉर्ड याद रखें।",
+        "bangla_pronunciation": "লেনদেনরিকॉর্ড যাদ রখেং।",
+        "word_pronunciations": [
+          {
+            "target": "लेनदेनरिकॉर्ड",
+            "bangla_pronunciation": "লেনদেনরিকॉর্ড",
+            "separator_after": " "
+          },
+          {
+            "target": "याद",
+            "bangla_pronunciation": "যাদ",
+            "separator_after": " "
+          },
+          {
+            "target": "रखें।",
+            "bangla_pronunciation": "রখেং।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "धनप्राप्तकर्ता याद रखें।",
+        "bangla_pronunciation": "ধনপ্রাপ্তকর্তা যাদ রখেং।",
+        "word_pronunciations": [
+          {
+            "target": "धनप्राप्तकर्ता",
+            "bangla_pronunciation": "ধনপ্রাপ্তকর্তা",
+            "separator_after": " "
+          },
+          {
+            "target": "याद",
+            "bangla_pronunciation": "যাদ",
+            "separator_after": " "
+          },
+          {
+            "target": "रखें।",
+            "bangla_pronunciation": "রখেং।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "भुगतानप्रतिपूर्ति याद रखें।",
+        "bangla_pronunciation": "ভুগতানপ্রতিপূর্তি যাদ রখেং।",
+        "word_pronunciations": [
+          {
+            "target": "भुगतानप्रतिपूर्ति",
+            "bangla_pronunciation": "ভুগতানপ্রতিপূর্তি",
+            "separator_after": " "
+          },
+          {
+            "target": "याद",
+            "bangla_pronunciation": "যাদ",
+            "separator_after": " "
+          },
+          {
+            "target": "रखें।",
+            "bangla_pronunciation": "রখেং।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "जैवमिति याद रखें।",
+        "bangla_pronunciation": "জৈভমিতি যাদ রখেং।",
+        "word_pronunciations": [
+          {
+            "target": "जैवमिति",
+            "bangla_pronunciation": "জৈভমিতি",
+            "separator_after": " "
+          },
+          {
+            "target": "याद",
+            "bangla_pronunciation": "যাদ",
+            "separator_after": " "
+          },
+          {
+            "target": "रखें।",
+            "bangla_pronunciation": "রখেং।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "पुनर्सक्रियण याद रखें।",
+        "bangla_pronunciation": "পুনর্সক্রিযণ যাদ রখেং।",
+        "word_pronunciations": [
+          {
+            "target": "पुनर्सक्रियण",
+            "bangla_pronunciation": "পুনর্সক্রিযণ",
+            "separator_after": " "
+          },
+          {
+            "target": "याद",
+            "bangla_pronunciation": "যাদ",
+            "separator_after": " "
+          },
+          {
+            "target": "रखें।",
+            "bangla_pronunciation": "রখেং।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "লেনদেনরিকॉর্ড যাদ রখেং। ধনপ্রাপ্তকর্তা যাদ রখেং। ভুগতানপ্রতিপূর্তি যাদ রখেং। জৈভমিতি যাদ রখেং। পুনর্সক্রিযণ যাদ রখেং।",
+    "meaning_bengali_md": "লেনদেনের রেকর্ড মনে রাখুন। যিনি অর্থ গ্রহণ করেন মনে রাখুন। পেমেন্ট ফেরত বা সমন্বয় মনে রাখুন। বায়োমেট্রিক পরিচয় যাচাই মনে রাখুন। পুনরায় সক্রিয় করা মনে রাখুন।"
+  },
+  "script_practice": [
+    {
+      "item_id": "devanagari_ल",
+      "mode": "review",
+      "target": "ल",
+      "bangla_pronunciation": "ল",
+      "explanation_bengali_md": "দেবনাগরীর এই চিহ্নটি চিনুন এবং আশপাশের স্বরচিহ্নসহ উচ্চারণ মিলিয়ে নিন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দে এটি খুঁজুন।"
+    },
+    {
+      "item_id": "devanagari_भ",
+      "mode": "review",
+      "target": "भ",
+      "bangla_pronunciation": "ভ",
+      "explanation_bengali_md": "দেবনাগরীর এই চিহ্নটি চিনুন এবং আশপাশের স্বরচিহ্নসহ উচ্চারণ মিলিয়ে নিন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দে এটি খুঁজুন।"
+    },
+    {
+      "item_id": "devanagari_त",
+      "mode": "review",
+      "target": "त",
+      "bangla_pronunciation": "ত",
+      "explanation_bengali_md": "দেবনাগরীর এই চিহ্নটি চিনুন এবং আশপাশের স্বরচিহ্নসহ উচ্চারণ মিলিয়ে নিন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দে এটি খুঁজুন।"
+    },
+    {
+      "item_id": "devanagari_प",
+      "mode": "review",
+      "target": "प",
+      "bangla_pronunciation": "প",
+      "explanation_bengali_md": "দেবনাগরীর এই চিহ্নটি চিনুন এবং আশপাশের স্বরচিহ্নসহ উচ্চারণ মিলিয়ে নিন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দে এটি খুঁজুন।"
+    },
+    {
+      "item_id": "devanagari_द",
+      "mode": "review",
+      "target": "द",
+      "bangla_pronunciation": "দ",
+      "explanation_bengali_md": "দেবনাগরীর এই চিহ্নটি চিনুন এবং আশপাশের স্বরচিহ্নসহ উচ্চারণ মিলিয়ে নিন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দে এটি খুঁজুন।"
+    }
+  ],
+  "number_practice": null,
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "একটি দরকারি বাক্য বলুন।",
+      "model_target": "खाताधारक और भुगतानलाभार्थी जाँचें।",
+      "model_bangla_pronunciation": "খাতাধারক ঔর ভুগতানলাভার্থী জাঁচেং।",
+      "model_word_pronunciations": [
+        {
+          "target": "खाताधारक",
+          "bangla_pronunciation": "খাতাধারক",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतानलाभार्थी",
+          "bangla_pronunciation": "ভুগতানলাভার্থী",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ব্যাংক হিসাবের মালিক ও যিনি পেমেন্ট গ্রহণ করবেন পরীক্ষা করুন।"
+    },
+    {
+      "prompt_bengali_md": "ভদ্র নির্দেশটি বলুন।",
+      "model_target": "भुगतान से पहले नाम मिलाइए।",
+      "model_bangla_pronunciation": "ভুগতান সে পহলে নাম মিলাইএ।",
+      "model_word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "नाम",
+          "bangla_pronunciation": "নাম",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाइए।",
+          "bangla_pronunciation": "মিলাইএ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "পেমেন্টের আগে নাম মিলিয়ে নিন।"
+    },
+    {
+      "prompt_bengali_md": "দুটি বিষয় একসঙ্গে বলুন।",
+      "model_target": "निकासीसीमा और अंतरणशुल्क जाँचें।",
+      "model_bangla_pronunciation": "নিকাসীসীমা ঔর অংতরণশুল্ক জাঁচেং।",
+      "model_word_pronunciations": [
+        {
+          "target": "निकासीसीमा",
+          "bangla_pronunciation": "নিকাসীসীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "अंतरणशुल्क",
+          "bangla_pronunciation": "অংতরণশুল্ক",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "টাকা তোলার সীমা ও অর্থ স্থানান্তরের ফি পরীক্ষা করুন।"
+    },
+    {
+      "prompt_bengali_md": "পরবর্তী করণীয় বলুন।",
+      "model_target": "ओटीपी किसी से साझा न करें।",
+      "model_bangla_pronunciation": "ওটীপী কিসী সে সাঝা ন করেং।",
+      "model_word_pronunciations": [
+        {
+          "target": "ओटीपी",
+          "bangla_pronunciation": "ওটীপী",
+          "separator_after": " "
+        },
+        {
+          "target": "किसी",
+          "bangla_pronunciation": "কিসী",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "साझा",
+          "bangla_pronunciation": "সাঝা",
+          "separator_after": " "
+        },
+        {
+          "target": "न",
+          "bangla_pronunciation": "ন",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ওটিপি কারও সঙ্গে শেয়ার করবেন না।"
+    },
+    {
+      "prompt_bengali_md": "একটি অবস্থা সংক্ষেপে বলুন।",
+      "model_target": "लेनदेनअस्वीकृति और लंबितस्थिति जाँचें।",
+      "model_bangla_pronunciation": "লেনদেনঅস্ভীকৃতি ঔর লংবিতস্থিতি জাঁচেং।",
+      "model_word_pronunciations": [
+        {
+          "target": "लेनदेनअस्वीकृति",
+          "bangla_pronunciation": "লেনদেনঅস্ভীকৃতি",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "लंबितस्थिति",
+          "bangla_pronunciation": "লংবিতস্থিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "লেনদেন প্রত্যাখ্যান ও অপেক্ষমাণ অবস্থা পরীক্ষা করুন।"
+    },
+    {
+      "prompt_bengali_md": "শেষ পদক্ষেপটি বলুন।",
+      "model_target": "गलत भुगतान पर बैंक को सूचित करें।",
+      "model_bangla_pronunciation": "গলত ভুগতান পর বৈংক কো সূচিত করেং।",
+      "model_word_pronunciations": [
+        {
+          "target": "गलत",
+          "bangla_pronunciation": "গলত",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "बैंक",
+          "bangla_pronunciation": "বৈংক",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "सूचित",
+          "bangla_pronunciation": "সূচিত",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ভুল পেমেন্ট হলে ব্যাংককে জানান।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch112_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A practical adult-learning scene about ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা, with two or three Bangladeshi/South Asian adults actively handling the situation, medium-wide composition, relevant objects, warm daylight, calm focus. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration, natural adult characters, uncluttered realistic South Asian context, soft daylight, clear focal point, no stereotypes."
+    },
+    {
+      "key": "ch112_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A different close-to-medium scene about ডিজিটাল ব্যাংকিং, অর্থ স্থানান্তর ও লেনদেনের নিরাপত্তা, one adult checking a result or making a practical decision while another observes, tidy environment, bright natural light, clear focal action. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration, natural adult characters, uncluttered realistic South Asian context, soft daylight, clear focal point, no stereotypes."
+    }
+  ],
+  "additional_practice": []
+}
