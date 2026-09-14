@@ -1,0 +1,3612 @@
+{
+  "chapter_id": "ch162",
+  "status": "drafted",
+  "title_target": "मीडिया साक्षरता और सूचना जाँच",
+  "title_bangla_pronunciation": "মীডিযা সাক্ষরতা অউর সূচনা জাঁচ",
+  "title_word_pronunciations": [
+    {
+      "target": "मीडिया",
+      "bangla_pronunciation": "মীডিযা",
+      "separator_after": " "
+    },
+    {
+      "target": "साक्षरता",
+      "bangla_pronunciation": "সাক্ষরতা",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "सूचना",
+      "bangla_pronunciation": "সূচনা",
+      "separator_after": " "
+    },
+    {
+      "target": "जाँच",
+      "bangla_pronunciation": "জাঁচ",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "মিডিয়া সাক্ষরতা ও তথ্য যাচাই",
+  "goal_bengali_md": "খবর, অনলাইন তথ্য ও উৎসের বিশ্বাসযোগ্যতা যাচাই নিয়ে দরকারি বি২-স্তরের শব্দ, বাক্যাংশ, ছোট পাঠ এবং বলার অনুশীলন।",
+  "sentences": [
+    {
+      "id": "ch162_s01",
+      "target": "सूचना-विश्वसनीयता और स्रोत-पुष्टि इस विषय में महत्वपूर्ण हैं।",
+      "romanization": "suuchanaa-vishvasaniiyataa aura srota-pushti isa vishaya men mahatvapuurna hain।",
+      "bangla_pronunciation": "সূচনা-ভিশ্ভসনীযতা অউর স্রোত-পুষ্টি ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "सूचना-विश्वसनीयता",
+          "bangla_pronunciation": "সূচনা-ভিশ্ভসনীযতা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "स्रोत-पुष्टि",
+          "bangla_pronunciation": "স্রোত-পুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "विषय",
+          "bangla_pronunciation": "ভিষয়",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "महत्वपूर्ण",
+          "bangla_pronunciation": "মহত্বপূর্ণ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তথ্যের বিশ্বাসযোগ্যতা ও উৎস নিশ্চিতকরণ—দুটিই এই বিষয়ে গুরুত্বপূর্ণ।"
+    },
+    {
+      "id": "ch162_s02",
+      "target": "मीडिया-पक्षपात के साथ संदर्भ-संगति पर भी ध्यान देना चाहिए।",
+      "romanization": "miidiyaa-pakshapaata ke saatha sandarbha-sangati para bhii dhyaana denaa chaahie।",
+      "bangla_pronunciation": "মীডিযা-পক্ষপাত কে সাথ সংদর্ভ-সংগতি পর ভী ধ্যান দেনা চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "मीडिया-पक्षपात",
+          "bangla_pronunciation": "মীডিযা-পক্ষপাত",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ-संगति",
+          "bangla_pronunciation": "সংদর্ভ-সংগতি",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "देना",
+          "bangla_pronunciation": "দেনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মিডিয়ার পক্ষপাত-এর সঙ্গে প্রসঙ্গের সামঞ্জস্য-এর দিকেও মনোযোগ দেওয়া উচিত।"
+    },
+    {
+      "id": "ch162_s03",
+      "target": "अगर शीर्षक-भ्रम से जुड़ा मामला हो, तो दावे की जाँच करें।",
+      "romanization": "agara shiirshaka-bhrama se judaा maamalaa ho, to daave kii jaancha karen।",
+      "bangla_pronunciation": "অগর শীর্ষক-ভ্রম সে জুডা মামলা হো, তো দাভে কী জাঁচ করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "अगर",
+          "bangla_pronunciation": "অগর",
+          "separator_after": " "
+        },
+        {
+          "target": "शीर्षक-भ्रम",
+          "bangla_pronunciation": "শীর্ষক-ভ্রম",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़ा",
+          "bangla_pronunciation": "জুডা",
+          "separator_after": " "
+        },
+        {
+          "target": "मामला",
+          "bangla_pronunciation": "মামলা",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "दावे",
+          "bangla_pronunciation": "দাভে",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँच",
+          "bangla_pronunciation": "জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শিরোনামজনিত বিভ্রান্তি-সংক্রান্ত বিষয় হলে দাবিটি যাচাই করুন।"
+    },
+    {
+      "id": "ch162_s04",
+      "target": "तथ्य-परीक्षण और भ्रामक-सामग्री को साथ देखकर निर्णय लें।",
+      "romanization": "tathya-pariikshana aura bhraamaka-saamagrii ko saatha dekhakara nirnaya len।",
+      "bangla_pronunciation": "তথ্য-পরীক্ষণ অউর ভ্রামক-সামগ্রী কো সাথ দেখকর নির্ণয় লেং।",
+      "word_pronunciations": [
+        {
+          "target": "तथ्य-परीक्षण",
+          "bangla_pronunciation": "তথ্য-পরীক্ষণ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "भ्रामक-सामग्री",
+          "bangla_pronunciation": "ভ্রামক-সামগ্রী",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "देखकर",
+          "bangla_pronunciation": "দেখকর",
+          "separator_after": " "
+        },
+        {
+          "target": "निर्णय",
+          "bangla_pronunciation": "নির্ণয়",
+          "separator_after": " "
+        },
+        {
+          "target": "लें।",
+          "bangla_pronunciation": "লেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তথ্য যাচাই ও বিভ্রান্তিকর বিষয়বস্তু একসঙ্গে দেখে সিদ্ধান্ত নিন।"
+    },
+    {
+      "id": "ch162_s05",
+      "target": "संपादकीय-मानक और प्रमाण-आधार की नियमित जाँच जरूरी है।",
+      "romanization": "sanpaadakiiya-maanaka aura pramaana-aadhaara kii niyamita jaancha jaruurii hai।",
+      "bangla_pronunciation": "সংপাদকীয-মানক অউর প্রমাণ-আধার কী নিয়মিত জাঁচ জরূরী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "संपादकीय-मानक",
+          "bangla_pronunciation": "সংপাদকীয-মানক",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रमाण-आधार",
+          "bangla_pronunciation": "প্রমাণ-আধার",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँच",
+          "bangla_pronunciation": "জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সম্পাদকীয় মানদণ্ড ও প্রমাণের ভিত্তি নিয়মিত যাচাই করা জরুরি।"
+    },
+    {
+      "id": "ch162_s06",
+      "target": "अफ़वाह-चक्र पर ध्यान दें और मूल स्रोत तक पहुँचें।",
+      "romanization": "aphavaaha-chakra para dhyaana den aura muula srota taka pahunchen।",
+      "bangla_pronunciation": "অফভাহ-চক্র পর ধ্যান দেঁ অউর মূল স্রোত তক পহুঁচেং।",
+      "word_pronunciations": [
+        {
+          "target": "अफ़वाह-चक्र",
+          "bangla_pronunciation": "অফভাহ-চক্র",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें",
+          "bangla_pronunciation": "দেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "मूल",
+          "bangla_pronunciation": "মূল",
+          "separator_after": " "
+        },
+        {
+          "target": "स्रोत",
+          "bangla_pronunciation": "স্রোত",
+          "separator_after": " "
+        },
+        {
+          "target": "तक",
+          "bangla_pronunciation": "তক",
+          "separator_after": " "
+        },
+        {
+          "target": "पहुँचें।",
+          "bangla_pronunciation": "পহুঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গুজব ছড়ানোর চক্র-এর দিকে মনোযোগ দিন এবং মূল উৎসে পৌঁছান।"
+    },
+    {
+      "id": "ch162_s07",
+      "target": "उद्धरण-संदर्भ और सांख्यिकीय-भ्रम को एक साथ समझना उपयोगी है।",
+      "romanization": "uddharana-sandarbha aura saankhyikiiya-bhrama ko eka saatha samajhanaa upayogii hai।",
+      "bangla_pronunciation": "উদ্ধরণ-সংদর্ভ অউর সাংখ্যিকীয-ভ্রম কো এক সাথ সমঝনা উপযোগী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "उद्धरण-संदर्भ",
+          "bangla_pronunciation": "উদ্ধরণ-সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "सांख्यिकीय-भ्रम",
+          "bangla_pronunciation": "সাংখ্যিকীয-ভ্রম",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "समझना",
+          "bangla_pronunciation": "সমঝনা",
+          "separator_after": " "
+        },
+        {
+          "target": "उपयोगी",
+          "bangla_pronunciation": "উপযোগী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "উদ্ধৃতির প্রসঙ্গ ও পরিসংখ্যানগত বিভ্রান্তি একসঙ্গে বোঝা উপকারী।"
+    },
+    {
+      "id": "ch162_s08",
+      "target": "दृश्य-हेरफेर के साथ आलोचनात्मक-पठन पर भी ध्यान दें।",
+      "romanization": "drishya-heraphera ke saatha aalochanaatmaka-pathana para bhii dhyaana den।",
+      "bangla_pronunciation": "দৃশ্য-হেরফের কে সাথ আলোচনাত্মক-পঠন পর ভী ধ্যান দেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "दृश्य-हेरफेर",
+          "bangla_pronunciation": "দৃশ্য-হেরফের",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "आलोचनात्मक-पठन",
+          "bangla_pronunciation": "আলোচনাত্মক-পঠন",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ছবি বা দৃশ্যের কারসাজি-এর সঙ্গে সমালোচনামূলক পাঠ-এর দিকেও মনোযোগ দিন।"
+    },
+    {
+      "id": "ch162_s09",
+      "target": "जब विश्वसनीय-स्रोत जरूरी हो, तो तारीख़ और संदर्भ देखें।",
+      "romanization": "jaba vishvasaniiya-srota jaruurii ho, to taariikha aura sandarbha dekhen।",
+      "bangla_pronunciation": "জব ভিশ্ভসনীয-স্রোত জরূরী হো, তো তারীখ অউর সংদর্ভ দেখেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "जब",
+          "bangla_pronunciation": "জব",
+          "separator_after": " "
+        },
+        {
+          "target": "विश्वसनीय-स्रोत",
+          "bangla_pronunciation": "ভিশ্ভসনীয-স্রোত",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "तारीख़",
+          "bangla_pronunciation": "তারীখ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "देखें।",
+          "bangla_pronunciation": "দেখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "যখন বিশ্বাসযোগ্য উৎস জরুরি হয়, তখন তারিখ ও প্রসঙ্গ দেখুন।"
+    },
+    {
+      "id": "ch162_s10",
+      "target": "मत-तथ्य-भेद और प्रचार-तकनीक की प्रक्रिया स्पष्ट होनी चाहिए।",
+      "romanization": "mata-tathya-bheda aura prachaara-takaniika kii prakriyaa spashta honii chaahie।",
+      "bangla_pronunciation": "মত-তথ্য-ভেদ অউর প্রচার-তকনীক কী প্রক্রিযা স্পষ্ট হোনী চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "मत-तथ्य-भेद",
+          "bangla_pronunciation": "মত-তথ্য-ভেদ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रचार-तकनीक",
+          "bangla_pronunciation": "প্রচার-তকনীক",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रक्रिया",
+          "bangla_pronunciation": "প্রক্রিযা",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মতামত ও তথ্যের পার্থক্য ও প্রচার কৌশল-এর প্রক্রিয়া পরিষ্কার হওয়া উচিত।"
+    },
+    {
+      "id": "ch162_s11",
+      "target": "चयनात्मक-प्रस्तुति की नियमित समीक्षा जरूरी है।",
+      "romanization": "chayanaatmaka-prastuti kii niyamita samiikshaa jaruurii hai।",
+      "bangla_pronunciation": "চযনাত্মক-প্রস্তুতি কী নিয়মিত সমীক্ষা জরূরী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "चयनात्मक-प्रस्तुति",
+          "bangla_pronunciation": "চযনাত্মক-প্রস্তুতি",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাছাই করে তথ্য উপস্থাপন নিয়মিত পর্যালোচনা করা জরুরি।"
+    },
+    {
+      "id": "ch162_s12",
+      "target": "सामग्री-सत्यापन को स्पष्ट रूप से दर्ज करें।",
+      "romanization": "saamagrii-satyaapana ko spashta ruupa se darja karen।",
+      "bangla_pronunciation": "সামগ্রী-সত্যাপন কো স্পষ্ট রূপ সে দর্জ করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "सामग्री-सत्यापन",
+          "bangla_pronunciation": "সামগ্রী-সত্যাপন",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "रूप",
+          "bangla_pronunciation": "রূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "दर्ज",
+          "bangla_pronunciation": "দর্জ",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিষয়বস্তু যাচাই স্পষ্টভাবে নথিভুক্ত করুন।"
+    },
+    {
+      "id": "ch162_s13",
+      "target": "स्रोत-पारदर्शिता का आधार स्पष्ट रूप से समझें।",
+      "romanization": "srota-paaradarshitaa kaa aadhaara spashta ruupa se samajhen।",
+      "bangla_pronunciation": "স্রোত-পারদর্শিতা কা আধার স্পষ্ট রূপ সে সমঝেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "स्रोत-पारदर्शिता",
+          "bangla_pronunciation": "স্রোত-পারদর্শিতা",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "आधार",
+          "bangla_pronunciation": "আধার",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "रूप",
+          "bangla_pronunciation": "রূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "समझें।",
+          "bangla_pronunciation": "সমঝেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "উৎসের স্বচ্ছতা-এর ভিত্তি পরিষ্কারভাবে বুঝুন।"
+    },
+    {
+      "id": "ch162_s14",
+      "target": "एक से अधिक स्रोत मिलाएँ।",
+      "romanization": "eka se adhika srota milaaen।",
+      "bangla_pronunciation": "এক সে অধিক স্রোত মিলাএঁ।",
+      "word_pronunciations": [
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "अधिक",
+          "bangla_pronunciation": "অধিক",
+          "separator_after": " "
+        },
+        {
+          "target": "स्रोत",
+          "bangla_pronunciation": "স্রোত",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाएँ।",
+          "bangla_pronunciation": "মিলাএঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "একাধিক উৎস মিলিয়ে দেখুন।"
+    },
+    {
+      "id": "ch162_s15",
+      "target": "सूचना-प्रसार के लिए जिम्मेदारी तय होनी चाहिए।",
+      "romanization": "suuchanaa-prasaara ke lie jimmedaarii taya honii chaahie।",
+      "bangla_pronunciation": "সূচনা-প্রসার কে লিয়ে জিম্মেদারী তয হোনী চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "सूचना-प्रसार",
+          "bangla_pronunciation": "সূচনা-প্রসার",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "जिम्मेदारी",
+          "bangla_pronunciation": "জিম্মেদারী",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তথ্য ছড়ানো-এর জন্য দায়িত্ব নির্ধারিত থাকা উচিত।"
+    },
+    {
+      "id": "ch162_s16",
+      "target": "विश्वसनीयता-संकेत के बारे में स्पष्ट जानकारी होनी चाहिए।",
+      "romanization": "vishvasaniiyataa-sanketa ke baare men spashta jaanakaarii honii chaahie।",
+      "bangla_pronunciation": "ভিশ্ভসনীযতা-সংকেত কে বারে মেঁ স্পষ্ট জানকারী হোনী চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "विश्वसनीयता-संकेत",
+          "bangla_pronunciation": "ভিশ্ভসনীযতা-সংকেত",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "बारे",
+          "bangla_pronunciation": "বারে",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিশ্বাসযোগ্যতার লক্ষণ সম্পর্কে পরিষ্কার তথ্য থাকা উচিত।"
+    },
+    {
+      "id": "ch162_s17",
+      "target": "संशोधन-नीति पर नियमित निगरानी जरूरी है।",
+      "romanization": "sanshodhana-niiti para niyamita nigaraanii jaruurii hai।",
+      "bangla_pronunciation": "সংশোধন-নীতি পর নিয়মিত নিগরানী জরূরী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "संशोधन-नीति",
+          "bangla_pronunciation": "সংশোধন-নীতি",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "निगरानी",
+          "bangla_pronunciation": "নিগরানী",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সংশোধন নীতি নিয়মিত পর্যবেক্ষণ করা জরুরি।"
+    },
+    {
+      "id": "ch162_s18",
+      "target": "संदर्भ-विहीनता पर समय रहते कार्रवाई करें।",
+      "romanization": "sandarbha-vihiinataa para samaya rahate kaarravaaii karen।",
+      "bangla_pronunciation": "সংদর্ভ-ভিহীনতা পর সময় রহতে কার্রভাঈ করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "संदर्भ-विहीनता",
+          "bangla_pronunciation": "সংদর্ভ-ভিহীনতা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "रहते",
+          "bangla_pronunciation": "রহতে",
+          "separator_after": " "
+        },
+        {
+          "target": "कार्रवाई",
+          "bangla_pronunciation": "কার্রভাঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রসঙ্গহীনতা নিয়ে সময়মতো পদক্ষেপ নিন।"
+    },
+    {
+      "id": "ch162_s19",
+      "target": "प्रमाण-श्रृंखला पर ध्यान देना जरूरी है।",
+      "romanization": "pramaana-shrrinkhalaa para dhyaana denaa jaruurii hai।",
+      "bangla_pronunciation": "প্রমাণ-শ্রৃংখলা পর ধ্যান দেনা জরূরী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "प्रमाण-श्रृंखला",
+          "bangla_pronunciation": "প্রমাণ-শ্রৃংখলা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "देना",
+          "bangla_pronunciation": "দেনা",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রমাণের ধারাবাহিকতা-এর দিকে মনোযোগ দেওয়া জরুরি।"
+    },
+    {
+      "id": "ch162_s20",
+      "target": "जल्दबाज़ी में साझा न करें।",
+      "romanization": "jaldabaajaी men saajhaa na karen।",
+      "bangla_pronunciation": "জল্দবাজী মেঁ সাঝা ন করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "जल्दबाज़ी",
+          "bangla_pronunciation": "জল্দবাজী",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "साझा",
+          "bangla_pronunciation": "সাঝা",
+          "separator_after": " "
+        },
+        {
+          "target": "न",
+          "bangla_pronunciation": "ন",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তাড়াহুড়ো করে শেয়ার করবেন না।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v04831",
+      "target": "सूचना-विश्वसनीयता",
+      "category": "word",
+      "type": "term",
+      "romanization": "suuchanaa-vishvasaniiyataa",
+      "bangla_pronunciation": "সূচনা-ভিশ্ভসনীযতা",
+      "word_pronunciations": [
+        {
+          "target": "सूचना-विश्वसनीयता",
+          "bangla_pronunciation": "সূচনা-ভিশ্ভসনীযতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তথ্যের বিশ্বাসযোগ্যতা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s01",
+      "source_form": "सूचना-विश्वसनीयता",
+      "example_target": "सूचना-विश्वसनीयता और स्रोत-पुष्टि इस विषय में महत्वपूर्ण हैं।",
+      "example_bangla_pronunciation": "সূচনা-ভিশ্ভসনীযতা অউর স্রোত-পুষ্টি ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+      "example_word_pronunciations": [
+        {
+          "target": "सूचना-विश्वसनीयता",
+          "bangla_pronunciation": "সূচনা-ভিশ্ভসনীযতা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "स्रोत-पुष्टि",
+          "bangla_pronunciation": "স্রোত-পুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "विषय",
+          "bangla_pronunciation": "ভিষয়",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "महत्वपूर्ण",
+          "bangla_pronunciation": "মহত্বপূর্ণ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "তথ্যের বিশ্বাসযোগ্যতা ও উৎস নিশ্চিতকরণ—দুটিই এই বিষয়ে গুরুত্বপূর্ণ।",
+      "synonyms": []
+    },
+    {
+      "id": "v04832",
+      "target": "स्रोत-पुष्टि",
+      "category": "word",
+      "type": "term",
+      "romanization": "srota-pushti",
+      "bangla_pronunciation": "স্রোত-পুষ্টি",
+      "word_pronunciations": [
+        {
+          "target": "स्रोत-पुष्टि",
+          "bangla_pronunciation": "স্রোত-পুষ্টি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "উৎস নিশ্চিতকরণ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s01",
+      "source_form": "स्रोत-पुष्टि",
+      "example_target": "सूचना-विश्वसनीयता और स्रोत-पुष्टि इस विषय में महत्वपूर्ण हैं।",
+      "example_bangla_pronunciation": "সূচনা-ভিশ্ভসনীযতা অউর স্রোত-পুষ্টি ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+      "example_word_pronunciations": [
+        {
+          "target": "सूचना-विश्वसनीयता",
+          "bangla_pronunciation": "সূচনা-ভিশ্ভসনীযতা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "स्रोत-पुष्टि",
+          "bangla_pronunciation": "স্রোত-পুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "विषय",
+          "bangla_pronunciation": "ভিষয়",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "महत्वपूर्ण",
+          "bangla_pronunciation": "মহত্বপূর্ণ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "তথ্যের বিশ্বাসযোগ্যতা ও উৎস নিশ্চিতকরণ—দুটিই এই বিষয়ে গুরুত্বপূর্ণ।",
+      "synonyms": []
+    },
+    {
+      "id": "v04833",
+      "target": "मीडिया-पक्षपात",
+      "category": "word",
+      "type": "term",
+      "romanization": "miidiyaa-pakshapaata",
+      "bangla_pronunciation": "মীডিযা-পক্ষপাত",
+      "word_pronunciations": [
+        {
+          "target": "मीडिया-पक्षपात",
+          "bangla_pronunciation": "মীডিযা-পক্ষপাত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মিডিয়ার পক্ষপাত। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s02",
+      "source_form": "मीडिया-पक्षपात",
+      "example_target": "मीडिया-पक्षपात के साथ संदर्भ-संगति पर भी ध्यान देना चाहिए।",
+      "example_bangla_pronunciation": "মীডিযা-পক্ষপাত কে সাথ সংদর্ভ-সংগতি পর ভী ধ্যান দেনা চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "मीडिया-पक्षपात",
+          "bangla_pronunciation": "মীডিযা-পক্ষপাত",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ-संगति",
+          "bangla_pronunciation": "সংদর্ভ-সংগতি",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "देना",
+          "bangla_pronunciation": "দেনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "মিডিয়ার পক্ষপাত-এর সঙ্গে প্রসঙ্গের সামঞ্জস্য-এর দিকেও মনোযোগ দেওয়া উচিত।",
+      "synonyms": []
+    },
+    {
+      "id": "v04834",
+      "target": "संदर्भ-संगति",
+      "category": "word",
+      "type": "term",
+      "romanization": "sandarbha-sangati",
+      "bangla_pronunciation": "সংদর্ভ-সংগতি",
+      "word_pronunciations": [
+        {
+          "target": "संदर्भ-संगति",
+          "bangla_pronunciation": "সংদর্ভ-সংগতি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রসঙ্গের সামঞ্জস্য। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s02",
+      "source_form": "संदर्भ-संगति",
+      "example_target": "मीडिया-पक्षपात के साथ संदर्भ-संगति पर भी ध्यान देना चाहिए।",
+      "example_bangla_pronunciation": "মীডিযা-পক্ষপাত কে সাথ সংদর্ভ-সংগতি পর ভী ধ্যান দেনা চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "मीडिया-पक्षपात",
+          "bangla_pronunciation": "মীডিযা-পক্ষপাত",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ-संगति",
+          "bangla_pronunciation": "সংদর্ভ-সংগতি",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "देना",
+          "bangla_pronunciation": "দেনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "মিডিয়ার পক্ষপাত-এর সঙ্গে প্রসঙ্গের সামঞ্জস্য-এর দিকেও মনোযোগ দেওয়া উচিত।",
+      "synonyms": []
+    },
+    {
+      "id": "v04835",
+      "target": "शीर्षक-भ्रम",
+      "category": "word",
+      "type": "term",
+      "romanization": "shiirshaka-bhrama",
+      "bangla_pronunciation": "শীর্ষক-ভ্রম",
+      "word_pronunciations": [
+        {
+          "target": "शीर्षक-भ्रम",
+          "bangla_pronunciation": "শীর্ষক-ভ্রম",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শিরোনামজনিত বিভ্রান্তি। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s03",
+      "source_form": "शीर्षक-भ्रम",
+      "example_target": "अगर शीर्षक-भ्रम से जुड़ा मामला हो, तो दावे की जाँच करें।",
+      "example_bangla_pronunciation": "অগর শীর্ষক-ভ্রম সে জুডা মামলা হো, তো দাভে কী জাঁচ করেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "अगर",
+          "bangla_pronunciation": "অগর",
+          "separator_after": " "
+        },
+        {
+          "target": "शीर्षक-भ्रम",
+          "bangla_pronunciation": "শীর্ষক-ভ্রম",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़ा",
+          "bangla_pronunciation": "জুডা",
+          "separator_after": " "
+        },
+        {
+          "target": "मामला",
+          "bangla_pronunciation": "মামলা",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "दावे",
+          "bangla_pronunciation": "দাভে",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँच",
+          "bangla_pronunciation": "জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "শিরোনামজনিত বিভ্রান্তি-সংক্রান্ত বিষয় হলে দাবিটি যাচাই করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04836",
+      "target": "दावे की जाँच करें",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "daave kii jaancha karen",
+      "bangla_pronunciation": "দাভে কী জাঁচ করেঁ",
+      "word_pronunciations": [
+        {
+          "target": "दावे",
+          "bangla_pronunciation": "দাভে",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँच",
+          "bangla_pronunciation": "জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "करें",
+          "bangla_pronunciation": "করেঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দাবিটি যাচাই করুন। বাস্তব কথোপকথনে ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch162_s03",
+      "source_form": "दावे की जाँच करें",
+      "example_target": "अगर शीर्षक-भ्रम से जुड़ा मामला हो, तो दावे की जाँच करें।",
+      "example_bangla_pronunciation": "অগর শীর্ষক-ভ্রম সে জুডা মামলা হো, তো দাভে কী জাঁচ করেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "अगर",
+          "bangla_pronunciation": "অগর",
+          "separator_after": " "
+        },
+        {
+          "target": "शीर्षक-भ्रम",
+          "bangla_pronunciation": "শীর্ষক-ভ্রম",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़ा",
+          "bangla_pronunciation": "জুডা",
+          "separator_after": " "
+        },
+        {
+          "target": "मामला",
+          "bangla_pronunciation": "মামলা",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "दावे",
+          "bangla_pronunciation": "দাভে",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँच",
+          "bangla_pronunciation": "জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "শিরোনামজনিত বিভ্রান্তি-সংক্রান্ত বিষয় হলে দাবিটি যাচাই করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04837",
+      "target": "तथ्य-परीक्षण",
+      "category": "word",
+      "type": "term",
+      "romanization": "tathya-pariikshana",
+      "bangla_pronunciation": "তথ্য-পরীক্ষণ",
+      "word_pronunciations": [
+        {
+          "target": "तथ्य-परीक्षण",
+          "bangla_pronunciation": "তথ্য-পরীক্ষণ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তথ্য যাচাই। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s04",
+      "source_form": "तथ्य-परीक्षण",
+      "example_target": "तथ्य-परीक्षण और भ्रामक-सामग्री को साथ देखकर निर्णय लें।",
+      "example_bangla_pronunciation": "তথ্য-পরীক্ষণ অউর ভ্রামক-সামগ্রী কো সাথ দেখকর নির্ণয় লেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "तथ्य-परीक्षण",
+          "bangla_pronunciation": "তথ্য-পরীক্ষণ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "भ्रामक-सामग्री",
+          "bangla_pronunciation": "ভ্রামক-সামগ্রী",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "देखकर",
+          "bangla_pronunciation": "দেখকর",
+          "separator_after": " "
+        },
+        {
+          "target": "निर्णय",
+          "bangla_pronunciation": "নির্ণয়",
+          "separator_after": " "
+        },
+        {
+          "target": "लें।",
+          "bangla_pronunciation": "লেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "তথ্য যাচাই ও বিভ্রান্তিকর বিষয়বস্তু একসঙ্গে দেখে সিদ্ধান্ত নিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04838",
+      "target": "भ्रामक-सामग्री",
+      "category": "word",
+      "type": "term",
+      "romanization": "bhraamaka-saamagrii",
+      "bangla_pronunciation": "ভ্রামক-সামগ্রী",
+      "word_pronunciations": [
+        {
+          "target": "भ्रामक-सामग्री",
+          "bangla_pronunciation": "ভ্রামক-সামগ্রী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিভ্রান্তিকর বিষয়বস্তু। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s04",
+      "source_form": "भ्रामक-सामग्री",
+      "example_target": "तथ्य-परीक्षण और भ्रामक-सामग्री को साथ देखकर निर्णय लें।",
+      "example_bangla_pronunciation": "তথ্য-পরীক্ষণ অউর ভ্রামক-সামগ্রী কো সাথ দেখকর নির্ণয় লেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "तथ्य-परीक्षण",
+          "bangla_pronunciation": "তথ্য-পরীক্ষণ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "भ्रामक-सामग्री",
+          "bangla_pronunciation": "ভ্রামক-সামগ্রী",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "देखकर",
+          "bangla_pronunciation": "দেখকর",
+          "separator_after": " "
+        },
+        {
+          "target": "निर्णय",
+          "bangla_pronunciation": "নির্ণয়",
+          "separator_after": " "
+        },
+        {
+          "target": "लें।",
+          "bangla_pronunciation": "লেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "তথ্য যাচাই ও বিভ্রান্তিকর বিষয়বস্তু একসঙ্গে দেখে সিদ্ধান্ত নিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04839",
+      "target": "संपादकीय-मानक",
+      "category": "word",
+      "type": "term",
+      "romanization": "sanpaadakiiya-maanaka",
+      "bangla_pronunciation": "সংপাদকীয-মানক",
+      "word_pronunciations": [
+        {
+          "target": "संपादकीय-मानक",
+          "bangla_pronunciation": "সংপাদকীয-মানক",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সম্পাদকীয় মানদণ্ড। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s05",
+      "source_form": "संपादकीय-मानक",
+      "example_target": "संपादकीय-मानक और प्रमाण-आधार की नियमित जाँच जरूरी है।",
+      "example_bangla_pronunciation": "সংপাদকীয-মানক অউর প্রমাণ-আধার কী নিয়মিত জাঁচ জরূরী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "संपादकीय-मानक",
+          "bangla_pronunciation": "সংপাদকীয-মানক",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रमाण-आधार",
+          "bangla_pronunciation": "প্রমাণ-আধার",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँच",
+          "bangla_pronunciation": "জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সম্পাদকীয় মানদণ্ড ও প্রমাণের ভিত্তি নিয়মিত যাচাই করা জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v04840",
+      "target": "प्रमाण-आधार",
+      "category": "word",
+      "type": "term",
+      "romanization": "pramaana-aadhaara",
+      "bangla_pronunciation": "প্রমাণ-আধার",
+      "word_pronunciations": [
+        {
+          "target": "प्रमाण-आधार",
+          "bangla_pronunciation": "প্রমাণ-আধার",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রমাণের ভিত্তি। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s05",
+      "source_form": "प्रमाण-आधार",
+      "example_target": "संपादकीय-मानक और प्रमाण-आधार की नियमित जाँच जरूरी है।",
+      "example_bangla_pronunciation": "সংপাদকীয-মানক অউর প্রমাণ-আধার কী নিয়মিত জাঁচ জরূরী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "संपादकीय-मानक",
+          "bangla_pronunciation": "সংপাদকীয-মানক",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रमाण-आधार",
+          "bangla_pronunciation": "প্রমাণ-আধার",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँच",
+          "bangla_pronunciation": "জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সম্পাদকীয় মানদণ্ড ও প্রমাণের ভিত্তি নিয়মিত যাচাই করা জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v04841",
+      "target": "अफ़वाह-चक्र",
+      "category": "word",
+      "type": "term",
+      "romanization": "aphavaaha-chakra",
+      "bangla_pronunciation": "অফভাহ-চক্র",
+      "word_pronunciations": [
+        {
+          "target": "अफ़वाह-चक्र",
+          "bangla_pronunciation": "অফভাহ-চক্র",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গুজব ছড়ানোর চক্র। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s06",
+      "source_form": "अफ़वाह-चक्र",
+      "example_target": "अफ़वाह-चक्र पर ध्यान दें और मूल स्रोत तक पहुँचें।",
+      "example_bangla_pronunciation": "অফভাহ-চক্র পর ধ্যান দেঁ অউর মূল স্রোত তক পহুঁচেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "अफ़वाह-चक्र",
+          "bangla_pronunciation": "অফভাহ-চক্র",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें",
+          "bangla_pronunciation": "দেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "मूल",
+          "bangla_pronunciation": "মূল",
+          "separator_after": " "
+        },
+        {
+          "target": "स्रोत",
+          "bangla_pronunciation": "স্রোত",
+          "separator_after": " "
+        },
+        {
+          "target": "तक",
+          "bangla_pronunciation": "তক",
+          "separator_after": " "
+        },
+        {
+          "target": "पहुँचें।",
+          "bangla_pronunciation": "পহুঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "গুজব ছড়ানোর চক্র-এর দিকে মনোযোগ দিন এবং মূল উৎসে পৌঁছান।",
+      "synonyms": []
+    },
+    {
+      "id": "v04842",
+      "target": "मूल स्रोत तक पहुँचें",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "muula srota taka pahunchen",
+      "bangla_pronunciation": "মূল স্রোত তক পহুঁচেং",
+      "word_pronunciations": [
+        {
+          "target": "मूल",
+          "bangla_pronunciation": "মূল",
+          "separator_after": " "
+        },
+        {
+          "target": "स्रोत",
+          "bangla_pronunciation": "স্রোত",
+          "separator_after": " "
+        },
+        {
+          "target": "तक",
+          "bangla_pronunciation": "তক",
+          "separator_after": " "
+        },
+        {
+          "target": "पहुँचें",
+          "bangla_pronunciation": "পহুঁচেং",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মূল উৎসে পৌঁছান। বাস্তব কথোপকথনে ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch162_s06",
+      "source_form": "मूल स्रोत तक पहुँचें",
+      "example_target": "अफ़वाह-चक्र पर ध्यान दें और मूल स्रोत तक पहुँचें।",
+      "example_bangla_pronunciation": "অফভাহ-চক্র পর ধ্যান দেঁ অউর মূল স্রোত তক পহুঁচেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "अफ़वाह-चक्र",
+          "bangla_pronunciation": "অফভাহ-চক্র",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें",
+          "bangla_pronunciation": "দেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "मूल",
+          "bangla_pronunciation": "মূল",
+          "separator_after": " "
+        },
+        {
+          "target": "स्रोत",
+          "bangla_pronunciation": "স্রোত",
+          "separator_after": " "
+        },
+        {
+          "target": "तक",
+          "bangla_pronunciation": "তক",
+          "separator_after": " "
+        },
+        {
+          "target": "पहुँचें।",
+          "bangla_pronunciation": "পহুঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "গুজব ছড়ানোর চক্র-এর দিকে মনোযোগ দিন এবং মূল উৎসে পৌঁছান।",
+      "synonyms": []
+    },
+    {
+      "id": "v04843",
+      "target": "उद्धरण-संदर्भ",
+      "category": "word",
+      "type": "term",
+      "romanization": "uddharana-sandarbha",
+      "bangla_pronunciation": "উদ্ধরণ-সংদর্ভ",
+      "word_pronunciations": [
+        {
+          "target": "उद्धरण-संदर्भ",
+          "bangla_pronunciation": "উদ্ধরণ-সংদর্ভ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "উদ্ধৃতির প্রসঙ্গ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s07",
+      "source_form": "उद्धरण-संदर्भ",
+      "example_target": "उद्धरण-संदर्भ और सांख्यिकीय-भ्रम को एक साथ समझना उपयोगी है।",
+      "example_bangla_pronunciation": "উদ্ধরণ-সংদর্ভ অউর সাংখ্যিকীয-ভ্রম কো এক সাথ সমঝনা উপযোগী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "उद्धरण-संदर्भ",
+          "bangla_pronunciation": "উদ্ধরণ-সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "सांख्यिकीय-भ्रम",
+          "bangla_pronunciation": "সাংখ্যিকীয-ভ্রম",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "समझना",
+          "bangla_pronunciation": "সমঝনা",
+          "separator_after": " "
+        },
+        {
+          "target": "उपयोगी",
+          "bangla_pronunciation": "উপযোগী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "উদ্ধৃতির প্রসঙ্গ ও পরিসংখ্যানগত বিভ্রান্তি একসঙ্গে বোঝা উপকারী।",
+      "synonyms": []
+    },
+    {
+      "id": "v04844",
+      "target": "सांख्यिकीय-भ्रम",
+      "category": "word",
+      "type": "term",
+      "romanization": "saankhyikiiya-bhrama",
+      "bangla_pronunciation": "সাংখ্যিকীয-ভ্রম",
+      "word_pronunciations": [
+        {
+          "target": "सांख्यिकीय-भ्रम",
+          "bangla_pronunciation": "সাংখ্যিকীয-ভ্রম",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিসংখ্যানগত বিভ্রান্তি। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s07",
+      "source_form": "सांख्यिकीय-भ्रम",
+      "example_target": "उद्धरण-संदर्भ और सांख्यिकीय-भ्रम को एक साथ समझना उपयोगी है।",
+      "example_bangla_pronunciation": "উদ্ধরণ-সংদর্ভ অউর সাংখ্যিকীয-ভ্রম কো এক সাথ সমঝনা উপযোগী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "उद्धरण-संदर्भ",
+          "bangla_pronunciation": "উদ্ধরণ-সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "सांख्यिकीय-भ्रम",
+          "bangla_pronunciation": "সাংখ্যিকীয-ভ্রম",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "समझना",
+          "bangla_pronunciation": "সমঝনা",
+          "separator_after": " "
+        },
+        {
+          "target": "उपयोगी",
+          "bangla_pronunciation": "উপযোগী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "উদ্ধৃতির প্রসঙ্গ ও পরিসংখ্যানগত বিভ্রান্তি একসঙ্গে বোঝা উপকারী।",
+      "synonyms": []
+    },
+    {
+      "id": "v04845",
+      "target": "दृश्य-हेरफेर",
+      "category": "word",
+      "type": "term",
+      "romanization": "drishya-heraphera",
+      "bangla_pronunciation": "দৃশ্য-হেরফের",
+      "word_pronunciations": [
+        {
+          "target": "दृश्य-हेरफेर",
+          "bangla_pronunciation": "দৃশ্য-হেরফের",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ছবি বা দৃশ্যের কারসাজি। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s08",
+      "source_form": "दृश्य-हेरफेर",
+      "example_target": "दृश्य-हेरफेर के साथ आलोचनात्मक-पठन पर भी ध्यान दें।",
+      "example_bangla_pronunciation": "দৃশ্য-হেরফের কে সাথ আলোচনাত্মক-পঠন পর ভী ধ্যান দেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "दृश्य-हेरफेर",
+          "bangla_pronunciation": "দৃশ্য-হেরফের",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "आलोचनात्मक-पठन",
+          "bangla_pronunciation": "আলোচনাত্মক-পঠন",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ছবি বা দৃশ্যের কারসাজি-এর সঙ্গে সমালোচনামূলক পাঠ-এর দিকেও মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04846",
+      "target": "आलोचनात्मक-पठन",
+      "category": "word",
+      "type": "term",
+      "romanization": "aalochanaatmaka-pathana",
+      "bangla_pronunciation": "আলোচনাত্মক-পঠন",
+      "word_pronunciations": [
+        {
+          "target": "आलोचनात्मक-पठन",
+          "bangla_pronunciation": "আলোচনাত্মক-পঠন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সমালোচনামূলক পাঠ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s08",
+      "source_form": "आलोचनात्मक-पठन",
+      "example_target": "दृश्य-हेरफेर के साथ आलोचनात्मक-पठन पर भी ध्यान दें।",
+      "example_bangla_pronunciation": "দৃশ্য-হেরফের কে সাথ আলোচনাত্মক-পঠন পর ভী ধ্যান দেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "दृश्य-हेरफेर",
+          "bangla_pronunciation": "দৃশ্য-হেরফের",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "आलोचनात्मक-पठन",
+          "bangla_pronunciation": "আলোচনাত্মক-পঠন",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ছবি বা দৃশ্যের কারসাজি-এর সঙ্গে সমালোচনামূলক পাঠ-এর দিকেও মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04847",
+      "target": "विश्वसनीय-स्रोत",
+      "category": "word",
+      "type": "term",
+      "romanization": "vishvasaniiya-srota",
+      "bangla_pronunciation": "ভিশ্ভসনীয-স্রোত",
+      "word_pronunciations": [
+        {
+          "target": "विश्वसनीय-स्रोत",
+          "bangla_pronunciation": "ভিশ্ভসনীয-স্রোত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিশ্বাসযোগ্য উৎস। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s09",
+      "source_form": "विश्वसनीय-स्रोत",
+      "example_target": "जब विश्वसनीय-स्रोत जरूरी हो, तो तारीख़ और संदर्भ देखें।",
+      "example_bangla_pronunciation": "জব ভিশ্ভসনীয-স্রোত জরূরী হো, তো তারীখ অউর সংদর্ভ দেখেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "जब",
+          "bangla_pronunciation": "জব",
+          "separator_after": " "
+        },
+        {
+          "target": "विश्वसनीय-स्रोत",
+          "bangla_pronunciation": "ভিশ্ভসনীয-স্রোত",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "तारीख़",
+          "bangla_pronunciation": "তারীখ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "देखें।",
+          "bangla_pronunciation": "দেখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "যখন বিশ্বাসযোগ্য উৎস জরুরি হয়, তখন তারিখ ও প্রসঙ্গ দেখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04848",
+      "target": "तारीख़ और संदर्भ देखें",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "taariikha aura sandarbha dekhen",
+      "bangla_pronunciation": "তারীখ অউর সংদর্ভ দেখেঁ",
+      "word_pronunciations": [
+        {
+          "target": "तारीख़",
+          "bangla_pronunciation": "তারীখ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "देखें",
+          "bangla_pronunciation": "দেখেঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তারিখ ও প্রসঙ্গ দেখুন। বাস্তব কথোপকথনে ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch162_s09",
+      "source_form": "तारीख़ और संदर्भ देखें",
+      "example_target": "जब विश्वसनीय-स्रोत जरूरी हो, तो तारीख़ और संदर्भ देखें।",
+      "example_bangla_pronunciation": "জব ভিশ্ভসনীয-স্রোত জরূরী হো, তো তারীখ অউর সংদর্ভ দেখেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "जब",
+          "bangla_pronunciation": "জব",
+          "separator_after": " "
+        },
+        {
+          "target": "विश्वसनीय-स्रोत",
+          "bangla_pronunciation": "ভিশ্ভসনীয-স্রোত",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "तारीख़",
+          "bangla_pronunciation": "তারীখ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "देखें।",
+          "bangla_pronunciation": "দেখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "যখন বিশ্বাসযোগ্য উৎস জরুরি হয়, তখন তারিখ ও প্রসঙ্গ দেখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04849",
+      "target": "मत-तथ्य-भेद",
+      "category": "word",
+      "type": "term",
+      "romanization": "mata-tathya-bheda",
+      "bangla_pronunciation": "মত-তথ্য-ভেদ",
+      "word_pronunciations": [
+        {
+          "target": "मत-तथ्य-भेद",
+          "bangla_pronunciation": "মত-তথ্য-ভেদ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মতামত ও তথ্যের পার্থক্য। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s10",
+      "source_form": "मत-तथ्य-भेद",
+      "example_target": "मत-तथ्य-भेद और प्रचार-तकनीक की प्रक्रिया स्पष्ट होनी चाहिए।",
+      "example_bangla_pronunciation": "মত-তথ্য-ভেদ অউর প্রচার-তকনীক কী প্রক্রিযা স্পষ্ট হোনী চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "मत-तथ्य-भेद",
+          "bangla_pronunciation": "মত-তথ্য-ভেদ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रचार-तकनीक",
+          "bangla_pronunciation": "প্রচার-তকনীক",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रक्रिया",
+          "bangla_pronunciation": "প্রক্রিযা",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "মতামত ও তথ্যের পার্থক্য ও প্রচার কৌশল-এর প্রক্রিয়া পরিষ্কার হওয়া উচিত।",
+      "synonyms": []
+    },
+    {
+      "id": "v04850",
+      "target": "प्रचार-तकनीक",
+      "category": "word",
+      "type": "term",
+      "romanization": "prachaara-takaniika",
+      "bangla_pronunciation": "প্রচার-তকনীক",
+      "word_pronunciations": [
+        {
+          "target": "प्रचार-तकनीक",
+          "bangla_pronunciation": "প্রচার-তকনীক",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রচার কৌশল। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s10",
+      "source_form": "प्रचार-तकनीक",
+      "example_target": "मत-तथ्य-भेद और प्रचार-तकनीक की प्रक्रिया स्पष्ट होनी चाहिए।",
+      "example_bangla_pronunciation": "মত-তথ্য-ভেদ অউর প্রচার-তকনীক কী প্রক্রিযা স্পষ্ট হোনী চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "मत-तथ्य-भेद",
+          "bangla_pronunciation": "মত-তথ্য-ভেদ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रचार-तकनीक",
+          "bangla_pronunciation": "প্রচার-তকনীক",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रक्रिया",
+          "bangla_pronunciation": "প্রক্রিযা",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "মতামত ও তথ্যের পার্থক্য ও প্রচার কৌশল-এর প্রক্রিয়া পরিষ্কার হওয়া উচিত।",
+      "synonyms": []
+    },
+    {
+      "id": "v04851",
+      "target": "चयनात्मक-प्रस्तुति",
+      "category": "word",
+      "type": "term",
+      "romanization": "chayanaatmaka-prastuti",
+      "bangla_pronunciation": "চযনাত্মক-প্রস্তুতি",
+      "word_pronunciations": [
+        {
+          "target": "चयनात्मक-प्रस्तुति",
+          "bangla_pronunciation": "চযনাত্মক-প্রস্তুতি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাছাই করে তথ্য উপস্থাপন। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s11",
+      "source_form": "चयनात्मक-प्रस्तुति",
+      "example_target": "चयनात्मक-प्रस्तुति की नियमित समीक्षा जरूरी है।",
+      "example_bangla_pronunciation": "চযনাত্মক-প্রস্তুতি কী নিয়মিত সমীক্ষা জরূরী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "चयनात्मक-प्रस्तुति",
+          "bangla_pronunciation": "চযনাত্মক-প্রস্তুতি",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বাছাই করে তথ্য উপস্থাপন নিয়মিত পর্যালোচনা করা জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v04852",
+      "target": "सामग्री-सत्यापन",
+      "category": "word",
+      "type": "term",
+      "romanization": "saamagrii-satyaapana",
+      "bangla_pronunciation": "সামগ্রী-সত্যাপন",
+      "word_pronunciations": [
+        {
+          "target": "सामग्री-सत्यापन",
+          "bangla_pronunciation": "সামগ্রী-সত্যাপন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিষয়বস্তু যাচাই। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s12",
+      "source_form": "सामग्री-सत्यापन",
+      "example_target": "सामग्री-सत्यापन को स्पष्ट रूप से दर्ज करें।",
+      "example_bangla_pronunciation": "সামগ্রী-সত্যাপন কো স্পষ্ট রূপ সে দর্জ করেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "सामग्री-सत्यापन",
+          "bangla_pronunciation": "সামগ্রী-সত্যাপন",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "रूप",
+          "bangla_pronunciation": "রূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "दर्ज",
+          "bangla_pronunciation": "দর্জ",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বিষয়বস্তু যাচাই স্পষ্টভাবে নথিভুক্ত করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04853",
+      "target": "स्रोत-पारदर्शिता",
+      "category": "word",
+      "type": "term",
+      "romanization": "srota-paaradarshitaa",
+      "bangla_pronunciation": "স্রোত-পারদর্শিতা",
+      "word_pronunciations": [
+        {
+          "target": "स्रोत-पारदर्शिता",
+          "bangla_pronunciation": "স্রোত-পারদর্শিতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "উৎসের স্বচ্ছতা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s13",
+      "source_form": "स्रोत-पारदर्शिता",
+      "example_target": "स्रोत-पारदर्शिता का आधार स्पष्ट रूप से समझें।",
+      "example_bangla_pronunciation": "স্রোত-পারদর্শিতা কা আধার স্পষ্ট রূপ সে সমঝেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "स्रोत-पारदर्शिता",
+          "bangla_pronunciation": "স্রোত-পারদর্শিতা",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "आधार",
+          "bangla_pronunciation": "আধার",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "रूप",
+          "bangla_pronunciation": "রূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "समझें।",
+          "bangla_pronunciation": "সমঝেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "উৎসের স্বচ্ছতা-এর ভিত্তি পরিষ্কারভাবে বুঝুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04854",
+      "target": "एक से अधिक स्रोत मिलाएँ",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "eka se adhika srota milaaen",
+      "bangla_pronunciation": "এক সে অধিক স্রোত মিলাএঁ",
+      "word_pronunciations": [
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "अधिक",
+          "bangla_pronunciation": "অধিক",
+          "separator_after": " "
+        },
+        {
+          "target": "स्रोत",
+          "bangla_pronunciation": "স্রোত",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाएँ",
+          "bangla_pronunciation": "মিলাএঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "একাধিক উৎস মিলিয়ে দেখুন। বাস্তব কথোপকথনে ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch162_s14",
+      "source_form": "एक से अधिक स्रोत मिलाएँ",
+      "example_target": "एक से अधिक स्रोत मिलाएँ।",
+      "example_bangla_pronunciation": "এক সে অধিক স্রোত মিলাএঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "अधिक",
+          "bangla_pronunciation": "অধিক",
+          "separator_after": " "
+        },
+        {
+          "target": "स्रोत",
+          "bangla_pronunciation": "স্রোত",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाएँ।",
+          "bangla_pronunciation": "মিলাএঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "একাধিক উৎস মিলিয়ে দেখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04855",
+      "target": "सूचना-प्रसार",
+      "category": "word",
+      "type": "term",
+      "romanization": "suuchanaa-prasaara",
+      "bangla_pronunciation": "সূচনা-প্রসার",
+      "word_pronunciations": [
+        {
+          "target": "सूचना-प्रसार",
+          "bangla_pronunciation": "সূচনা-প্রসার",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তথ্য ছড়ানো। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s15",
+      "source_form": "सूचना-प्रसार",
+      "example_target": "सूचना-प्रसार के लिए जिम्मेदारी तय होनी चाहिए।",
+      "example_bangla_pronunciation": "সূচনা-প্রসার কে লিয়ে জিম্মেদারী তয হোনী চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "सूचना-प्रसार",
+          "bangla_pronunciation": "সূচনা-প্রসার",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "जिम्मेदारी",
+          "bangla_pronunciation": "জিম্মেদারী",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "তথ্য ছড়ানো-এর জন্য দায়িত্ব নির্ধারিত থাকা উচিত।",
+      "synonyms": []
+    },
+    {
+      "id": "v04856",
+      "target": "विश्वसनीयता-संकेत",
+      "category": "word",
+      "type": "term",
+      "romanization": "vishvasaniiyataa-sanketa",
+      "bangla_pronunciation": "ভিশ্ভসনীযতা-সংকেত",
+      "word_pronunciations": [
+        {
+          "target": "विश्वसनीयता-संकेत",
+          "bangla_pronunciation": "ভিশ্ভসনীযতা-সংকেত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিশ্বাসযোগ্যতার লক্ষণ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s16",
+      "source_form": "विश्वसनीयता-संकेत",
+      "example_target": "विश्वसनीयता-संकेत के बारे में स्पष्ट जानकारी होनी चाहिए।",
+      "example_bangla_pronunciation": "ভিশ্ভসনীযতা-সংকেত কে বারে মেঁ স্পষ্ট জানকারী হোনী চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "विश्वसनीयता-संकेत",
+          "bangla_pronunciation": "ভিশ্ভসনীযতা-সংকেত",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "बारे",
+          "bangla_pronunciation": "বারে",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বিশ্বাসযোগ্যতার লক্ষণ সম্পর্কে পরিষ্কার তথ্য থাকা উচিত।",
+      "synonyms": []
+    },
+    {
+      "id": "v04857",
+      "target": "संशोधन-नीति",
+      "category": "word",
+      "type": "term",
+      "romanization": "sanshodhana-niiti",
+      "bangla_pronunciation": "সংশোধন-নীতি",
+      "word_pronunciations": [
+        {
+          "target": "संशोधन-नीति",
+          "bangla_pronunciation": "সংশোধন-নীতি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সংশোধন নীতি। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s17",
+      "source_form": "संशोधन-नीति",
+      "example_target": "संशोधन-नीति पर नियमित निगरानी जरूरी है।",
+      "example_bangla_pronunciation": "সংশোধন-নীতি পর নিয়মিত নিগরানী জরূরী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "संशोधन-नीति",
+          "bangla_pronunciation": "সংশোধন-নীতি",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "निगरानी",
+          "bangla_pronunciation": "নিগরানী",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সংশোধন নীতি নিয়মিত পর্যবেক্ষণ করা জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v04858",
+      "target": "संदर्भ-विहीनता",
+      "category": "word",
+      "type": "term",
+      "romanization": "sandarbha-vihiinataa",
+      "bangla_pronunciation": "সংদর্ভ-ভিহীনতা",
+      "word_pronunciations": [
+        {
+          "target": "संदर्भ-विहीनता",
+          "bangla_pronunciation": "সংদর্ভ-ভিহীনতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রসঙ্গহীনতা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s18",
+      "source_form": "संदर्भ-विहीनता",
+      "example_target": "संदर्भ-विहीनता पर समय रहते कार्रवाई करें।",
+      "example_bangla_pronunciation": "সংদর্ভ-ভিহীনতা পর সময় রহতে কার্রভাঈ করেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "संदर्भ-विहीनता",
+          "bangla_pronunciation": "সংদর্ভ-ভিহীনতা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "रहते",
+          "bangla_pronunciation": "রহতে",
+          "separator_after": " "
+        },
+        {
+          "target": "कार्रवाई",
+          "bangla_pronunciation": "কার্রভাঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্রসঙ্গহীনতা নিয়ে সময়মতো পদক্ষেপ নিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04859",
+      "target": "प्रमाण-श्रृंखला",
+      "category": "word",
+      "type": "term",
+      "romanization": "pramaana-shrrinkhalaa",
+      "bangla_pronunciation": "প্রমাণ-শ্রৃংখলা",
+      "word_pronunciations": [
+        {
+          "target": "प्रमाण-श्रृंखला",
+          "bangla_pronunciation": "প্রমাণ-শ্রৃংখলা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রমাণের ধারাবাহিকতা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch162_s19",
+      "source_form": "प्रमाण-श्रृंखला",
+      "example_target": "प्रमाण-श्रृंखला पर ध्यान देना जरूरी है।",
+      "example_bangla_pronunciation": "প্রমাণ-শ্রৃংখলা পর ধ্যান দেনা জরূরী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "प्रमाण-श्रृंखला",
+          "bangla_pronunciation": "প্রমাণ-শ্রৃংখলা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "देना",
+          "bangla_pronunciation": "দেনা",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্রমাণের ধারাবাহিকতা-এর দিকে মনোযোগ দেওয়া জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v04860",
+      "target": "जल्दबाज़ी में साझा न करें",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "jaldabaajaी men saajhaa na karen",
+      "bangla_pronunciation": "জল্দবাজী মেঁ সাঝা ন করেঁ",
+      "word_pronunciations": [
+        {
+          "target": "जल्दबाज़ी",
+          "bangla_pronunciation": "জল্দবাজী",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "साझा",
+          "bangla_pronunciation": "সাঝা",
+          "separator_after": " "
+        },
+        {
+          "target": "न",
+          "bangla_pronunciation": "ন",
+          "separator_after": " "
+        },
+        {
+          "target": "करें",
+          "bangla_pronunciation": "করেঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তাড়াহুড়ো করে শেয়ার করবেন না। বাস্তব কথোপকথনে ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch162_s20",
+      "source_form": "जल्दबाज़ी में साझा न करें",
+      "example_target": "जल्दबाज़ी में साझा न करें।",
+      "example_bangla_pronunciation": "জল্দবাজী মেঁ সাঝা ন করেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "जल्दबाज़ी",
+          "bangla_pronunciation": "জল্দবাজী",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "साझा",
+          "bangla_pronunciation": "সাঝা",
+          "separator_after": " "
+        },
+        {
+          "target": "न",
+          "bangla_pronunciation": "ন",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "তাড়াহুড়ো করে শেয়ার করবেন না।",
+      "synonyms": []
+    }
+  ],
+  "bridge_reading": {
+    "mode": "article",
+    "title_bengali": "মিডিয়া সাক্ষরতা ও তথ্য যাচাই: ব্যবহারিক পাঠ",
+    "scene_summary": "খবর, অনলাইন তথ্য ও উৎসের বিশ্বাসযোগ্যতা যাচাই নিয়ে চারটি সংক্ষিপ্ত ব্যবহারিক মুহূর্তের পাঠ।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "খবর, অনলাইন তথ্য ও উৎসের বিশ্বাসযোগ্যতা যাচাই নিয়ে একটি ব্যবহারিক আলোচনায় প্রথমে বলা হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "सूचना-विश्वसनीयता और स्रोत-पुष्टि इस विषय में महत्वपूर्ण हैं।",
+        "bangla_pronunciation": "সূচনা-ভিশ্ভসনীযতা অউর স্রোত-পুষ্টি ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+        "word_pronunciations": [
+          {
+            "target": "सूचना-विश्वसनीयता",
+            "bangla_pronunciation": "সূচনা-ভিশ্ভসনীযতা",
+            "separator_after": " "
+          },
+          {
+            "target": "और",
+            "bangla_pronunciation": "অউর",
+            "separator_after": " "
+          },
+          {
+            "target": "स्रोत-पुष्टि",
+            "bangla_pronunciation": "স্রোত-পুষ্টি",
+            "separator_after": " "
+          },
+          {
+            "target": "इस",
+            "bangla_pronunciation": "ইস",
+            "separator_after": " "
+          },
+          {
+            "target": "विषय",
+            "bangla_pronunciation": "ভিষয়",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "महत्वपूर्ण",
+            "bangla_pronunciation": "মহত্বপূর্ণ",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যাঁয়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " এরপর আরেকটি গুরুত্বপূর্ণ পদক্ষেপ হিসেবে বলা হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "अफ़वाह-चक्र पर ध्यान दें और मूल स्रोत तक पहुँचें।",
+        "bangla_pronunciation": "অফভাহ-চক্র পর ধ্যান দেঁ অউর মূল স্রোত তক পহুঁচেং।",
+        "word_pronunciations": [
+          {
+            "target": "अफ़वाह-चक्र",
+            "bangla_pronunciation": "অফভাহ-চক্র",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "separator_after": " "
+          },
+          {
+            "target": "ध्यान",
+            "bangla_pronunciation": "ধ্যান",
+            "separator_after": " "
+          },
+          {
+            "target": "दें",
+            "bangla_pronunciation": "দেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "और",
+            "bangla_pronunciation": "অউর",
+            "separator_after": " "
+          },
+          {
+            "target": "मूल",
+            "bangla_pronunciation": "মূল",
+            "separator_after": " "
+          },
+          {
+            "target": "स्रोत",
+            "bangla_pronunciation": "স্রোত",
+            "separator_after": " "
+          },
+          {
+            "target": "तक",
+            "bangla_pronunciation": "তক",
+            "separator_after": " "
+          },
+          {
+            "target": "पहुँचें।",
+            "bangla_pronunciation": "পহুঁচেং।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " সিদ্ধান্ত নেওয়ার আগে সবাই মনে রাখল: "
+      },
+      {
+        "kind": "target",
+        "target": "एक से अधिक स्रोत मिलाएँ।",
+        "bangla_pronunciation": "এক সে অধিক স্রোত মিলাএঁ।",
+        "word_pronunciations": [
+          {
+            "target": "एक",
+            "bangla_pronunciation": "এক",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "separator_after": " "
+          },
+          {
+            "target": "अधिक",
+            "bangla_pronunciation": "অধিক",
+            "separator_after": " "
+          },
+          {
+            "target": "स्रोत",
+            "bangla_pronunciation": "স্রোত",
+            "separator_after": " "
+          },
+          {
+            "target": "मिलाएँ।",
+            "bangla_pronunciation": "মিলাএঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " শেষে করণীয়টি সংক্ষেপে বলা হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "जल्दबाज़ी में साझा न करें।",
+        "bangla_pronunciation": "জল্দবাজী মেঁ সাঝা ন করেঁ।",
+        "word_pronunciations": [
+          {
+            "target": "जल्दबाज़ी",
+            "bangla_pronunciation": "জল্দবাজী",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "साझा",
+            "bangla_pronunciation": "সাঝা",
+            "separator_after": " "
+          },
+          {
+            "target": "न",
+            "bangla_pronunciation": "ন",
+            "separator_after": " "
+          },
+          {
+            "target": "करें।",
+            "bangla_pronunciation": "করেঁ।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "খবর, অনলাইন তথ্য ও উৎসের বিশ্বাসযোগ্যতা যাচাই নিয়ে একটি ব্যবহারিক আলোচনায় প্রথমে বলা হলো: **सूचना\\-विश्वसनीयता** (সূচনা\\-ভিশ্ভসনীযতা) **और** (অউর) **स्रोत\\-पुष्टि** (স্রোত\\-পুষ্টি) **इस** (ইস) **विषय** (ভিষয়) **में** (মেঁ) **महत्वपूर्ण** (মহত্বপূর্ণ) **हैं।** (হ্যাঁয়।) এরপর আরেকটি গুরুত্বপূর্ণ পদক্ষেপ হিসেবে বলা হলো: **अफ़वाह\\-चक्र** (অফভাহ\\-চক্র) **पर** (পর) **ध्यान** (ধ্যান) **दें** (দেঁ) **और** (অউর) **मूल** (মূল) **स्रोत** (স্রোত) **तक** (তক) **पहुँचें।** (পহুঁচেং।) সিদ্ধান্ত নেওয়ার আগে সবাই মনে রাখল: **एक** (এক) **से** (সে) **अधिक** (অধিক) **स्रोत** (স্রোত) **मिलाएँ।** (মিলাএঁ।) শেষে করণীয়টি সংক্ষেপে বলা হলো: **जल्दबाज़ी** (জল্দবাজী) **में** (মেঁ) **साझा** (সাঝা) **न** (ন) **करें।** (করেঁ।)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "মিডিয়া সাক্ষরতা ও তথ্য যাচাই: হিন্দি অনুশীলন",
+    "scene_summary": "একই বিষয়ের অন্য একটি পরিস্থিতিতে পাঁচটি ছোট হিন্দি বাক্য।",
+    "lines": [
+      {
+        "target": "सूचना-विश्वसनीयता महत्वपूर्ण है।",
+        "bangla_pronunciation": "সূচনা-ভিশ্ভসনীযতা মহত্বপূর্ণ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "सूचना-विश्वसनीयता",
+            "bangla_pronunciation": "সূচনা-ভিশ্ভসনীযতা",
+            "separator_after": " "
+          },
+          {
+            "target": "महत्वपूर्ण",
+            "bangla_pronunciation": "মহত্বপূর্ণ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "स्रोत-पुष्टि स्पष्ट रखें।",
+        "bangla_pronunciation": "স্রোত-পুষ্টি স্পষ্ট রখেঁ।",
+        "word_pronunciations": [
+          {
+            "target": "स्रोत-पुष्टि",
+            "bangla_pronunciation": "স্রোত-পুষ্টি",
+            "separator_after": " "
+          },
+          {
+            "target": "स्पष्ट",
+            "bangla_pronunciation": "স্পষ্ট",
+            "separator_after": " "
+          },
+          {
+            "target": "रखें।",
+            "bangla_pronunciation": "রখেঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मीडिया-पक्षपात पर ध्यान दें।",
+        "bangla_pronunciation": "মীডিযা-পক্ষপাত পর ধ্যান দেঁ।",
+        "word_pronunciations": [
+          {
+            "target": "मीडिया-पक्षपात",
+            "bangla_pronunciation": "মীডিযা-পক্ষপাত",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "separator_after": " "
+          },
+          {
+            "target": "ध्यान",
+            "bangla_pronunciation": "ধ্যান",
+            "separator_after": " "
+          },
+          {
+            "target": "दें।",
+            "bangla_pronunciation": "দেঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "संदर्भ-संगति की जाँच करें।",
+        "bangla_pronunciation": "সংদর্ভ-সংগতি কী জাঁচ করেঁ।",
+        "word_pronunciations": [
+          {
+            "target": "संदर्भ-संगति",
+            "bangla_pronunciation": "সংদর্ভ-সংগতি",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "separator_after": " "
+          },
+          {
+            "target": "जाँच",
+            "bangla_pronunciation": "জাঁচ",
+            "separator_after": " "
+          },
+          {
+            "target": "करें।",
+            "bangla_pronunciation": "করেঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "शीर्षक-भ्रम पर नज़र रखें।",
+        "bangla_pronunciation": "শীর্ষক-ভ্রম পর নজর রখেঁ।",
+        "word_pronunciations": [
+          {
+            "target": "शीर्षक-भ्रम",
+            "bangla_pronunciation": "শীর্ষক-ভ্রম",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "separator_after": " "
+          },
+          {
+            "target": "नज़र",
+            "bangla_pronunciation": "নজর",
+            "separator_after": " "
+          },
+          {
+            "target": "रखें।",
+            "bangla_pronunciation": "রখেঁ।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "সূচনা-ভিশ্ভসনীযতা মহত্বপূর্ণ হ্যায়। স্রোত-পুষ্টি স্পষ্ট রখেঁ। মীডিযা-পক্ষপাত পর ধ্যান দেঁ। সংদর্ভ-সংগতি কী জাঁচ করেঁ। শীর্ষক-ভ্রম পর নজর রখেঁ।",
+    "meaning_bengali_md": "তথ্যের বিশ্বাসযোগ্যতা গুরুত্বপূর্ণ। উৎস নিশ্চিতকরণ পরিষ্কার রাখুন। মিডিয়ার পক্ষপাত-এর দিকে মনোযোগ দিন। প্রসঙ্গের সামঞ্জস্য যাচাই করুন। শিরোনামজনিত বিভ্রান্তি-এর দিকে নজর রাখুন।"
+  },
+  "script_practice": [
+    {
+      "item_id": "devanagari_क्र",
+      "mode": "review",
+      "target": "क्र",
+      "bangla_pronunciation": "ক্র",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    },
+    {
+      "item_id": "devanagari_ग्र",
+      "mode": "review",
+      "target": "ग्र",
+      "bangla_pronunciation": "গ্র",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    },
+    {
+      "item_id": "devanagari_स्त",
+      "mode": "review",
+      "target": "स्त",
+      "bangla_pronunciation": "স্ত",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    },
+    {
+      "item_id": "devanagari_त्व",
+      "mode": "review",
+      "target": "त्व",
+      "bangla_pronunciation": "ত্ভ",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    },
+    {
+      "item_id": "devanagari_द्य",
+      "mode": "review",
+      "target": "द्य",
+      "bangla_pronunciation": "দ্য",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    }
+  ],
+  "number_practice": null,
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "বিষয়টি নিয়ে একটি দরকারি বাক্য বলুন।",
+      "model_target": "सूचना-विश्वसनीयता और स्रोत-पुष्टि इस विषय में महत्वपूर्ण हैं।",
+      "model_bangla_pronunciation": "সূচনা-ভিশ্ভসনীযতা অউর স্রোত-পুষ্টি ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+      "model_word_pronunciations": [
+        {
+          "target": "सूचना-विश्वसनीयता",
+          "bangla_pronunciation": "সূচনা-ভিশ্ভসনীযতা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "स्रोत-पुष्टि",
+          "bangla_pronunciation": "স্রোত-পুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "विषय",
+          "bangla_pronunciation": "ভিষয়",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "महत्वपूर्ण",
+          "bangla_pronunciation": "মহত্বপূর্ণ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "তথ্যের বিশ্বাসযোগ্যতা ও উৎস নিশ্চিতকরণ—দুটিই এই বিষয়ে গুরুত্বপূর্ণ।"
+    },
+    {
+      "prompt_bengali_md": "ঝুঁকি বা সমস্যার ক্ষেত্রে কী করবেন, একটি বাক্যে বলুন।",
+      "model_target": "अगर शीर्षक-भ्रम से जुड़ा मामला हो, तो दावे की जाँच करें।",
+      "model_bangla_pronunciation": "অগর শীর্ষক-ভ্রম সে জুডা মামলা হো, তো দাভে কী জাঁচ করেঁ।",
+      "model_word_pronunciations": [
+        {
+          "target": "अगर",
+          "bangla_pronunciation": "অগর",
+          "separator_after": " "
+        },
+        {
+          "target": "शीर्षक-भ्रम",
+          "bangla_pronunciation": "শীর্ষক-ভ্রম",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़ा",
+          "bangla_pronunciation": "জুডা",
+          "separator_after": " "
+        },
+        {
+          "target": "मामला",
+          "bangla_pronunciation": "মামলা",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "दावे",
+          "bangla_pronunciation": "দাভে",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँच",
+          "bangla_pronunciation": "জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "শিরোনামজনিত বিভ্রান্তি-সংক্রান্ত বিষয় হলে দাবিটি যাচাই করুন।"
+    },
+    {
+      "prompt_bengali_md": "একটি নিরাপদ বা দায়িত্বশীল পদক্ষেপ বলুন।",
+      "model_target": "अफ़वाह-चक्र पर ध्यान दें और मूल स्रोत तक पहुँचें।",
+      "model_bangla_pronunciation": "অফভাহ-চক্র পর ধ্যান দেঁ অউর মূল স্রোত তক পহুঁচেং।",
+      "model_word_pronunciations": [
+        {
+          "target": "अफ़वाह-चक्र",
+          "bangla_pronunciation": "অফভাহ-চক্র",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें",
+          "bangla_pronunciation": "দেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "मूल",
+          "bangla_pronunciation": "মূল",
+          "separator_after": " "
+        },
+        {
+          "target": "स्रोत",
+          "bangla_pronunciation": "স্রোত",
+          "separator_after": " "
+        },
+        {
+          "target": "तक",
+          "bangla_pronunciation": "তক",
+          "separator_after": " "
+        },
+        {
+          "target": "पहुँचें।",
+          "bangla_pronunciation": "পহুঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "গুজব ছড়ানোর চক্র-এর দিকে মনোযোগ দিন এবং মূল উৎসে পৌঁছান।"
+    },
+    {
+      "prompt_bengali_md": "পরবর্তী প্রক্রিয়া সম্পর্কে একটি বাক্য বলুন।",
+      "model_target": "मत-तथ्य-भेद और प्रचार-तकनीक की प्रक्रिया स्पष्ट होनी चाहिए।",
+      "model_bangla_pronunciation": "মত-তথ্য-ভেদ অউর প্রচার-তকনীক কী প্রক্রিযা স্পষ্ট হোনী চাহিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "मत-तथ्य-भेद",
+          "bangla_pronunciation": "মত-তথ্য-ভেদ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रचार-तकनीक",
+          "bangla_pronunciation": "প্রচার-তকনীক",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रक्रिया",
+          "bangla_pronunciation": "প্রক্রিযা",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "মতামত ও তথ্যের পার্থক্য ও প্রচার কৌশল-এর প্রক্রিয়া পরিষ্কার হওয়া উচিত।"
+    },
+    {
+      "prompt_bengali_md": "একটি নির্দেশ বা করণীয় বলুন।",
+      "model_target": "एक से अधिक स्रोत मिलाएँ।",
+      "model_bangla_pronunciation": "এক সে অধিক স্রোত মিলাএঁ।",
+      "model_word_pronunciations": [
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "अधिक",
+          "bangla_pronunciation": "অধিক",
+          "separator_after": " "
+        },
+        {
+          "target": "स्रोत",
+          "bangla_pronunciation": "স্রোত",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाएँ।",
+          "bangla_pronunciation": "মিলাএঁ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "একাধিক উৎস মিলিয়ে দেখুন।"
+    },
+    {
+      "prompt_bengali_md": "শেষে মনে রাখার মতো একটি বাক্য বলুন।",
+      "model_target": "जल्दबाज़ी में साझा न करें।",
+      "model_bangla_pronunciation": "জল্দবাজী মেঁ সাঝা ন করেঁ।",
+      "model_word_pronunciations": [
+        {
+          "target": "जल्दबाज़ी",
+          "bangla_pronunciation": "জল্দবাজী",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "साझा",
+          "bangla_pronunciation": "সাঝা",
+          "separator_after": " "
+        },
+        {
+          "target": "न",
+          "bangla_pronunciation": "ন",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "তাড়াহুড়ো করে শেয়ার করবেন না।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch162_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "Bright editorial scene in a realistic South Asian setting: two adults comparing several news sources on a tablet and laptop, calmly checking dates, evidence and original sources. Medium-wide composition, warm daylight, clear focal point, practical adult-learning atmosphere. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, clear focal point, realistic South Asian context, no stereotypes."
+    },
+    {
+      "key": "ch162_target_reading_01",
+      "reading": "target_reading",
+      "subject": "Bright editorial scene in a realistic South Asian setting: a community workshop where adults discuss a misleading social-media post and verify it before sharing. Different viewpoint from the first image, medium shot, warm natural light, uncluttered background, clear focal point. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, clear focal point, realistic South Asian context, no stereotypes."
+    }
+  ]
+}
