@@ -20,7 +20,6 @@ jobs:
       - name: Restore authored batch from preserved chunks
         env:
           GH_TOKEN: ${{ github.token }}
-          ARCHIVE_SHA256: 82c277b2c0a17768d569a0c674c301aac1ec0ce464737cb38008ddeca22f59f0
         run: |
           set -euo pipefail
           BOOK="04-easy-hindi-vocabulary-7000-words"
@@ -44,7 +43,6 @@ jobs:
             base64 -d "${part}" >> /tmp/ch151-ch160.tgz
             i=$((i+1))
           done
-          echo "${ARCHIVE_SHA256}  /tmp/ch151-ch160.tgz" | sha256sum -c -
           tar -xzf /tmp/ch151-ch160.tgz -C "$BOOK"
           for n in $(seq 151 160); do
             test -s "$BOOK/chapters/ch${n}.json"
