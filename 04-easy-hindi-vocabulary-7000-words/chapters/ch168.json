@@ -1,0 +1,3582 @@
+{
+  "chapter_id": "ch168",
+  "status": "drafted",
+  "title_target": "अनुसंधान और डेटा विश्लेषण",
+  "title_bangla_pronunciation": "অনুসংধান অউর ডেটা ভিশ্লেষণ",
+  "title_word_pronunciations": [
+    {
+      "target": "अनुसंधान",
+      "bangla_pronunciation": "অনুসংধান",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "डेटा",
+      "bangla_pronunciation": "ডেটা",
+      "separator_after": " "
+    },
+    {
+      "target": "विश्लेषण",
+      "bangla_pronunciation": "ভিশ্লেষণ",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "গবেষণা ও ডেটা বিশ্লেষণ",
+  "goal_bengali_md": "গবেষণার প্রশ্ন, ডেটার মান ও ফলাফল ব্যাখ্যা নিয়ে দরকারি বি২-স্তরের শব্দ, বাক্যাংশ, ছোট পাঠ এবং বলার অনুশীলন।",
+  "sentences": [
+    {
+      "id": "ch168_s01",
+      "target": "अनुसंधान-प्रश्न और नमूना-चयन इस विषय में महत्वपूर्ण हैं।",
+      "romanization": "anusandhaana-prashna aura namuunaa-chayana isa vishaya men mahatvapuurna hain।",
+      "bangla_pronunciation": "অনুসংধান-প্রশ্ন অউর নমূনা-চযন ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "अनुसंधान-प्रश्न",
+          "bangla_pronunciation": "অনুসংধান-প্রশ্ন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "नमूना-चयन",
+          "bangla_pronunciation": "নমূনা-চযন",
+          "separator_after": " "
+        },
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "विषय",
+          "bangla_pronunciation": "ভিষয়",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "महत्वपूर्ण",
+          "bangla_pronunciation": "মহত্বপূর্ণ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গবেষণা প্রশ্ন ও নমুনা নির্বাচন—দুটিই এই বিষয়ে গুরুত্বপূর্ণ।"
+    },
+    {
+      "id": "ch168_s02",
+      "target": "परिकल्पना-परीक्षण के साथ डेटा-गुणवत्ता पर भी ध्यान देना चाहिए।",
+      "romanization": "parikalpanaa-pariikshana ke saatha detaa-gunavattaa para bhii dhyaana denaa chaahie।",
+      "bangla_pronunciation": "পরিকল্পনা-পরীক্ষণ কে সাথ ডেটা-গুণভত্তা পর ভী ধ্যান দেনা চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "परिकल्पना-परीक्षण",
+          "bangla_pronunciation": "পরিকল্পনা-পরীক্ষণ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "डेटा-गुणवत्ता",
+          "bangla_pronunciation": "ডেটা-গুণভত্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "देना",
+          "bangla_pronunciation": "দেনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "হাইপোথিসিস পরীক্ষা-এর সঙ্গে ডেটার মান-এর দিকেও মনোযোগ দেওয়া উচিত।"
+    },
+    {
+      "id": "ch168_s03",
+      "target": "अगर मापन-त्रुटि से जुड़ा मामला हो, तो परिभाषा पहले तय करें।",
+      "romanization": "agara maapana-truti se judaा maamalaa ho, to paribhaashaa pahale taya karen।",
+      "bangla_pronunciation": "অগর মাপন-ত্রুটি সে জুডা মামলা হো, তো পরিভাষা পহলে তয করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "अगर",
+          "bangla_pronunciation": "অগর",
+          "separator_after": " "
+        },
+        {
+          "target": "मापन-त्रुटि",
+          "bangla_pronunciation": "মাপন-ত্রুটি",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़ा",
+          "bangla_pronunciation": "জুডা",
+          "separator_after": " "
+        },
+        {
+          "target": "मामला",
+          "bangla_pronunciation": "মামলা",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "परिभाषा",
+          "bangla_pronunciation": "পরিভাষা",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিমাপের ভুল-সংক্রান্ত বিষয় হলে সংজ্ঞা আগে ঠিক করুন।"
+    },
+    {
+      "id": "ch168_s04",
+      "target": "नमूना-पक्षपात और डेटा-सहसंबंध को साथ देखकर निर्णय लें।",
+      "romanization": "namuunaa-pakshapaata aura detaa-sahasanbandha ko saatha dekhakara nirnaya len।",
+      "bangla_pronunciation": "নমূনা-পক্ষপাত অউর ডেটা-সহসংবংধ কো সাথ দেখকর নির্ণয় লেং।",
+      "word_pronunciations": [
+        {
+          "target": "नमूना-पक्षपात",
+          "bangla_pronunciation": "নমূনা-পক্ষপাত",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "डेटा-सहसंबंध",
+          "bangla_pronunciation": "ডেটা-সহসংবংধ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "देखकर",
+          "bangla_pronunciation": "দেখকর",
+          "separator_after": " "
+        },
+        {
+          "target": "निर्णय",
+          "bangla_pronunciation": "নির্ণয়",
+          "separator_after": " "
+        },
+        {
+          "target": "लें।",
+          "bangla_pronunciation": "লেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নমুনা নির্বাচনের পক্ষপাত ও ডেটার সহসম্পর্ক একসঙ্গে দেখে সিদ্ধান্ত নিন।"
+    },
+    {
+      "id": "ch168_s05",
+      "target": "कारण-संबंध और विश्लेषण-चर की नियमित जाँच जरूरी है।",
+      "romanization": "kaarana-sanbandha aura vishleshana-chara kii niyamita jaancha jaruurii hai।",
+      "bangla_pronunciation": "কারণ-সংবংধ অউর ভিশ্লেষণ-চর কী নিয়মিত জাঁচ জরূরী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "कारण-संबंध",
+          "bangla_pronunciation": "কারণ-সংবংধ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "विश्लेषण-चर",
+          "bangla_pronunciation": "ভিশ্লেষণ-চর",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँच",
+          "bangla_pronunciation": "জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কারণসম্পর্ক ও বিশ্লেষণের চলক নিয়মিত যাচাই করা জরুরি।"
+    },
+    {
+      "id": "ch168_s06",
+      "target": "नियंत्रण-समूह पर ध्यान दें और नतीजे संदर्भ सहित पढ़ें।",
+      "romanization": "niyantrana-samuuha para dhyaana den aura natiije sandarbha sahita padhaेn।",
+      "bangla_pronunciation": "নিযংত্রণ-সমূহ পর ধ্যান দেঁ অউর নতীজে সংদর্ভ সহিত পঢেং।",
+      "word_pronunciations": [
+        {
+          "target": "नियंत्रण-समूह",
+          "bangla_pronunciation": "নিযংত্রণ-সমূহ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें",
+          "bangla_pronunciation": "দেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "नतीजे",
+          "bangla_pronunciation": "নতীজে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "सहित",
+          "bangla_pronunciation": "সহিত",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़ें।",
+          "bangla_pronunciation": "পঢেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিয়ন্ত্রণ দল-এর দিকে মনোযোগ দিন এবং ফলাফল প্রসঙ্গসহ পড়ুন।"
+    },
+    {
+      "id": "ch168_s07",
+      "target": "नमूना-प्रतिनिधित्व और सांख्यिकीय-महत्त्व को एक साथ समझना उपयोगी है।",
+      "romanization": "namuunaa-pratinidhitva aura saankhyikiiya-mahattva ko eka saatha samajhanaa upayogii hai।",
+      "bangla_pronunciation": "নমূনা-প্রতিনিধিত্ভ অউর সাংখ্যিকীয-মহত্ত্ভ কো এক সাথ সমঝনা উপযোগী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "नमूना-प्रतिनिधित्व",
+          "bangla_pronunciation": "নমূনা-প্রতিনিধিত্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "सांख्यिकीय-महत्त्व",
+          "bangla_pronunciation": "সাংখ্যিকীয-মহত্ত্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "समझना",
+          "bangla_pronunciation": "সমঝনা",
+          "separator_after": " "
+        },
+        {
+          "target": "उपयोगी",
+          "bangla_pronunciation": "উপযোগী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নমুনার প্রতিনিধিত্ব ও পরিসংখ্যানগত তাৎপর্য একসঙ্গে বোঝা উপকারী।"
+    },
+    {
+      "id": "ch168_s08",
+      "target": "प्रभाव-आकार के साथ अनिश्चितता-सीमा पर भी ध्यान दें।",
+      "romanization": "prabhaava-aakaara ke saatha anishchitataa-siimaa para bhii dhyaana den।",
+      "bangla_pronunciation": "প্রভাভ-আকার কে সাথ অনিশ্চিততা-সীমা পর ভী ধ্যান দেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "प्रभाव-आकार",
+          "bangla_pronunciation": "প্রভাভ-আকার",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "अनिश्चितता-सीमा",
+          "bangla_pronunciation": "অনিশ্চিততা-সীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রভাবের মাত্রা-এর সঙ্গে অনিশ্চয়তার সীমা-এর দিকেও মনোযোগ দিন।"
+    },
+    {
+      "id": "ch168_s09",
+      "target": "जब परिणाम-पुनरुत्पादन जरूरी हो, तो कच्चा डेटा सुरक्षित रखें।",
+      "romanization": "jaba parinaama-punarutpaadana jaruurii ho, to kachchaa detaa surakshita rakhen।",
+      "bangla_pronunciation": "জব পরিণাম-পুনরুত্পাদন জরূরী হো, তো কচ্চা ডেটা সুরক্ষিত রখেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "जब",
+          "bangla_pronunciation": "জব",
+          "separator_after": " "
+        },
+        {
+          "target": "परिणाम-पुनरुत्पादन",
+          "bangla_pronunciation": "পরিণাম-পুনরুত্পাদন",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "कच्चा",
+          "bangla_pronunciation": "কচ্চা",
+          "separator_after": " "
+        },
+        {
+          "target": "डेटा",
+          "bangla_pronunciation": "ডেটা",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षित",
+          "bangla_pronunciation": "সুরক্ষিত",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "যখন ফল পুনরুত্পাদন জরুরি হয়, তখন কাঁচা ডেটা নিরাপদে রাখুন।"
+    },
+    {
+      "id": "ch168_s10",
+      "target": "अनुसंधान-पद्धति और निष्कर्ष-सीमा की प्रक्रिया स्पष्ट होनी चाहिए।",
+      "romanization": "anusandhaana-paddhati aura nishkarsha-siimaa kii prakriyaa spashta honii chaahie।",
+      "bangla_pronunciation": "অনুসংধান-পদ্ধতি অউর নিষ্কর্ষ-সীমা কী প্রক্রিযা স্পষ্ট হোনী চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "अनुसंधान-पद्धति",
+          "bangla_pronunciation": "অনুসংধান-পদ্ধতি",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "निष्कर्ष-सीमा",
+          "bangla_pronunciation": "নিষ্কর্ষ-সীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रक्रिया",
+          "bangla_pronunciation": "প্রক্রিযা",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গবেষণা পদ্ধতি ও উপসংহারের সীমা-এর প্রক্রিয়া পরিষ্কার হওয়া উচিত।"
+    },
+    {
+      "id": "ch168_s11",
+      "target": "तुलनात्मक-विश्लेषण की नियमित समीक्षा जरूरी है।",
+      "romanization": "tulanaatmaka-vishleshana kii niyamita samiikshaa jaruurii hai।",
+      "bangla_pronunciation": "তুলনাত্মক-ভিশ্লেষণ কী নিয়মিত সমীক্ষা জরূরী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "तुलनात्मक-विश्लेषण",
+          "bangla_pronunciation": "তুলনাত্মক-ভিশ্লেষণ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তুলনামূলক বিশ্লেষণ নিয়মিত পর্যালোচনা করা জরুরি।"
+    },
+    {
+      "id": "ch168_s12",
+      "target": "डेटा-सफाई को स्पष्ट रूप से दर्ज करें।",
+      "romanization": "detaa-saphaaii ko spashta ruupa se darja karen।",
+      "bangla_pronunciation": "ডেটা-সফাঈ কো স্পষ্ট রূপ সে দর্জ করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "डेटा-सफाई",
+          "bangla_pronunciation": "ডেটা-সফাঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "रूप",
+          "bangla_pronunciation": "রূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "दर्ज",
+          "bangla_pronunciation": "দর্জ",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডেটা পরিষ্কার করা স্পষ্টভাবে নথিভুক্ত করুন।"
+    },
+    {
+      "id": "ch168_s13",
+      "target": "अपवाद-मूल्य का आधार स्पष्ट रूप से समझें।",
+      "romanization": "apavaada-muulya kaa aadhaara spashta ruupa se samajhen।",
+      "bangla_pronunciation": "অপভাদ-মূল্য কা আধার স্পষ্ট রূপ সে সমঝেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "अपवाद-मूल्य",
+          "bangla_pronunciation": "অপভাদ-মূল্য",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "आधार",
+          "bangla_pronunciation": "আধার",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "रूप",
+          "bangla_pronunciation": "রূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "समझें।",
+          "bangla_pronunciation": "সমঝেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যতিক্রমী মান-এর ভিত্তি পরিষ্কারভাবে বুঝুন।"
+    },
+    {
+      "id": "ch168_s14",
+      "target": "दावे को आँकड़ों से मिलाएँ।",
+      "romanization": "daave ko aankadaोn se milaaen।",
+      "bangla_pronunciation": "দাভে কো আঁকডোং সে মিলাএঁ।",
+      "word_pronunciations": [
+        {
+          "target": "दावे",
+          "bangla_pronunciation": "দাভে",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "आँकड़ों",
+          "bangla_pronunciation": "আঁকডোং",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाएँ।",
+          "bangla_pronunciation": "মিলাএঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দাবি পরিসংখ্যানের সঙ্গে মিলিয়ে দেখুন।"
+    },
+    {
+      "id": "ch168_s15",
+      "target": "गुणात्मक-प्रमाण के लिए जिम्मेदारी तय होनी चाहिए।",
+      "romanization": "gunaatmaka-pramaana ke lie jimmedaarii taya honii chaahie।",
+      "bangla_pronunciation": "গুণাত্মক-প্রমাণ কে লিয়ে জিম্মেদারী তয হোনী চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "गुणात्मक-प्रमाण",
+          "bangla_pronunciation": "গুণাত্মক-প্রমাণ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "जिम्मेदारी",
+          "bangla_pronunciation": "জিম্মেদারী",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গুণগত প্রমাণ-এর জন্য দায়িত্ব নির্ধারিত থাকা উচিত।"
+    },
+    {
+      "id": "ch168_s16",
+      "target": "मात्रात्मक-प्रमाण के बारे में स्पष्ट जानकारी होनी चाहिए।",
+      "romanization": "maatraatmaka-pramaana ke baare men spashta jaanakaarii honii chaahie।",
+      "bangla_pronunciation": "মাত্রাত্মক-প্রমাণ কে বারে মেঁ স্পষ্ট জানকারী হোনী চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "मात्रात्मक-प्रमाण",
+          "bangla_pronunciation": "মাত্রাত্মক-প্রমাণ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "बारे",
+          "bangla_pronunciation": "বারে",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিমাণগত প্রমাণ সম্পর্কে পরিষ্কার তথ্য থাকা উচিত।"
+    },
+    {
+      "id": "ch168_s17",
+      "target": "स्रोत-दस्तावेज़ पर नियमित निगरानी जरूरी है।",
+      "romanization": "srota-dastaaveja para niyamita nigaraanii jaruurii hai।",
+      "bangla_pronunciation": "স্রোত-দস্তাভেজ পর নিয়মিত নিগরানী জরূরী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "स्रोत-दस्तावेज़",
+          "bangla_pronunciation": "স্রোত-দস্তাভেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "निगरानी",
+          "bangla_pronunciation": "নিগরানী",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "উৎস নথি নিয়মিত পর্যবেক্ষণ করা জরুরি।"
+    },
+    {
+      "id": "ch168_s18",
+      "target": "विश्लेषण-धारणा पर समय रहते कार्रवाई करें।",
+      "romanization": "vishleshana-dhaaranaa para samaya rahate kaarravaaii karen।",
+      "bangla_pronunciation": "ভিশ্লেষণ-ধারণা পর সময় রহতে কার্রভাঈ করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "विश्लेषण-धारणा",
+          "bangla_pronunciation": "ভিশ্লেষণ-ধারণা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "रहते",
+          "bangla_pronunciation": "রহতে",
+          "separator_after": " "
+        },
+        {
+          "target": "कार्रवाई",
+          "bangla_pronunciation": "কার্রভাঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিশ্লেষণের অনুমান নিয়ে সময়মতো পদক্ষেপ নিন।"
+    },
+    {
+      "id": "ch168_s19",
+      "target": "समीक्षा-योग्यता पर ध्यान देना जरूरी है।",
+      "romanization": "samiikshaa-yogyataa para dhyaana denaa jaruurii hai।",
+      "bangla_pronunciation": "সমীক্ষা-যোগ্যতা পর ধ্যান দেনা জরূরী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "समीक्षा-योग्यता",
+          "bangla_pronunciation": "সমীক্ষা-যোগ্যতা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "देना",
+          "bangla_pronunciation": "দেনা",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পর্যালোচনা করার সক্ষমতা-এর দিকে মনোযোগ দেওয়া জরুরি।"
+    },
+    {
+      "id": "ch168_s20",
+      "target": "निष्कर्ष सावधानी से लिखें।",
+      "romanization": "nishkarsha saavadhaanii se likhen।",
+      "bangla_pronunciation": "নিষ্কর্ষ সাভধানী সে লিখেং।",
+      "word_pronunciations": [
+        {
+          "target": "निष्कर्ष",
+          "bangla_pronunciation": "নিষ্কর্ষ",
+          "separator_after": " "
+        },
+        {
+          "target": "सावधानी",
+          "bangla_pronunciation": "সাভধানী",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें।",
+          "bangla_pronunciation": "লিখেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "উপসংহার সতর্কভাবে লিখুন।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v05011",
+      "target": "अनुसंधान-प्रश्न",
+      "category": "word",
+      "type": "term",
+      "romanization": "anusandhaana-prashna",
+      "bangla_pronunciation": "অনুসংধান-প্রশ্ন",
+      "word_pronunciations": [
+        {
+          "target": "अनुसंधान-प्रश्न",
+          "bangla_pronunciation": "অনুসংধান-প্রশ্ন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গবেষণা প্রশ্ন। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s01",
+      "source_form": "अनुसंधान-प्रश्न",
+      "example_target": "अनुसंधान-प्रश्न और नमूना-चयन इस विषय में महत्वपूर्ण हैं।",
+      "example_bangla_pronunciation": "অনুসংধান-প্রশ্ন অউর নমূনা-চযন ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+      "example_word_pronunciations": [
+        {
+          "target": "अनुसंधान-प्रश्न",
+          "bangla_pronunciation": "অনুসংধান-প্রশ্ন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "नमूना-चयन",
+          "bangla_pronunciation": "নমূনা-চযন",
+          "separator_after": " "
+        },
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "विषय",
+          "bangla_pronunciation": "ভিষয়",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "महत्वपूर्ण",
+          "bangla_pronunciation": "মহত্বপূর্ণ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "গবেষণা প্রশ্ন ও নমুনা নির্বাচন—দুটিই এই বিষয়ে গুরুত্বপূর্ণ।",
+      "synonyms": []
+    },
+    {
+      "id": "v05012",
+      "target": "नमूना-चयन",
+      "category": "word",
+      "type": "term",
+      "romanization": "namuunaa-chayana",
+      "bangla_pronunciation": "নমূনা-চযন",
+      "word_pronunciations": [
+        {
+          "target": "नमूना-चयन",
+          "bangla_pronunciation": "নমূনা-চযন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নমুনা নির্বাচন। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s01",
+      "source_form": "नमूना-चयन",
+      "example_target": "अनुसंधान-प्रश्न और नमूना-चयन इस विषय में महत्वपूर्ण हैं।",
+      "example_bangla_pronunciation": "অনুসংধান-প্রশ্ন অউর নমূনা-চযন ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+      "example_word_pronunciations": [
+        {
+          "target": "अनुसंधान-प्रश्न",
+          "bangla_pronunciation": "অনুসংধান-প্রশ্ন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "नमूना-चयन",
+          "bangla_pronunciation": "নমূনা-চযন",
+          "separator_after": " "
+        },
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "विषय",
+          "bangla_pronunciation": "ভিষয়",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "महत्वपूर्ण",
+          "bangla_pronunciation": "মহত্বপূর্ণ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "গবেষণা প্রশ্ন ও নমুনা নির্বাচন—দুটিই এই বিষয়ে গুরুত্বপূর্ণ।",
+      "synonyms": []
+    },
+    {
+      "id": "v05013",
+      "target": "परिकल्पना-परीक्षण",
+      "category": "word",
+      "type": "term",
+      "romanization": "parikalpanaa-pariikshana",
+      "bangla_pronunciation": "পরিকল্পনা-পরীক্ষণ",
+      "word_pronunciations": [
+        {
+          "target": "परिकल्पना-परीक्षण",
+          "bangla_pronunciation": "পরিকল্পনা-পরীক্ষণ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "হাইপোথিসিস পরীক্ষা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s02",
+      "source_form": "परिकल्पना-परीक्षण",
+      "example_target": "परिकल्पना-परीक्षण के साथ डेटा-गुणवत्ता पर भी ध्यान देना चाहिए।",
+      "example_bangla_pronunciation": "পরিকল্পনা-পরীক্ষণ কে সাথ ডেটা-গুণভত্তা পর ভী ধ্যান দেনা চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "परिकल्पना-परीक्षण",
+          "bangla_pronunciation": "পরিকল্পনা-পরীক্ষণ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "डेटा-गुणवत्ता",
+          "bangla_pronunciation": "ডেটা-গুণভত্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "देना",
+          "bangla_pronunciation": "দেনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "হাইপোথিসিস পরীক্ষা-এর সঙ্গে ডেটার মান-এর দিকেও মনোযোগ দেওয়া উচিত।",
+      "synonyms": []
+    },
+    {
+      "id": "v05014",
+      "target": "डेटा-गुणवत्ता",
+      "category": "word",
+      "type": "term",
+      "romanization": "detaa-gunavattaa",
+      "bangla_pronunciation": "ডেটা-গুণভত্তা",
+      "word_pronunciations": [
+        {
+          "target": "डेटा-गुणवत्ता",
+          "bangla_pronunciation": "ডেটা-গুণভত্তা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডেটার মান। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s02",
+      "source_form": "डेटा-गुणवत्ता",
+      "example_target": "परिकल्पना-परीक्षण के साथ डेटा-गुणवत्ता पर भी ध्यान देना चाहिए।",
+      "example_bangla_pronunciation": "পরিকল্পনা-পরীক্ষণ কে সাথ ডেটা-গুণভত্তা পর ভী ধ্যান দেনা চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "परिकल्पना-परीक्षण",
+          "bangla_pronunciation": "পরিকল্পনা-পরীক্ষণ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "डेटा-गुणवत्ता",
+          "bangla_pronunciation": "ডেটা-গুণভত্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "देना",
+          "bangla_pronunciation": "দেনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "হাইপোথিসিস পরীক্ষা-এর সঙ্গে ডেটার মান-এর দিকেও মনোযোগ দেওয়া উচিত।",
+      "synonyms": []
+    },
+    {
+      "id": "v05015",
+      "target": "मापन-त्रुटि",
+      "category": "word",
+      "type": "term",
+      "romanization": "maapana-truti",
+      "bangla_pronunciation": "মাপন-ত্রুটি",
+      "word_pronunciations": [
+        {
+          "target": "मापन-त्रुटि",
+          "bangla_pronunciation": "মাপন-ত্রুটি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিমাপের ভুল। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s03",
+      "source_form": "मापन-त्रुटि",
+      "example_target": "अगर मापन-त्रुटि से जुड़ा मामला हो, तो परिभाषा पहले तय करें।",
+      "example_bangla_pronunciation": "অগর মাপন-ত্রুটি সে জুডা মামলা হো, তো পরিভাষা পহলে তয করেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "अगर",
+          "bangla_pronunciation": "অগর",
+          "separator_after": " "
+        },
+        {
+          "target": "मापन-त्रुटि",
+          "bangla_pronunciation": "মাপন-ত্রুটি",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़ा",
+          "bangla_pronunciation": "জুডা",
+          "separator_after": " "
+        },
+        {
+          "target": "मामला",
+          "bangla_pronunciation": "মামলা",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "परिभाषा",
+          "bangla_pronunciation": "পরিভাষা",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পরিমাপের ভুল-সংক্রান্ত বিষয় হলে সংজ্ঞা আগে ঠিক করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v05016",
+      "target": "परिभाषा पहले तय करें",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "paribhaashaa pahale taya karen",
+      "bangla_pronunciation": "পরিভাষা পহলে তয করেঁ",
+      "word_pronunciations": [
+        {
+          "target": "परिभाषा",
+          "bangla_pronunciation": "পরিভাষা",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয",
+          "separator_after": " "
+        },
+        {
+          "target": "करें",
+          "bangla_pronunciation": "করেঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সংজ্ঞা আগে ঠিক করুন। বাস্তব কথোপকথনে ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch168_s03",
+      "source_form": "परिभाषा पहले तय करें",
+      "example_target": "अगर मापन-त्रुटि से जुड़ा मामला हो, तो परिभाषा पहले तय करें।",
+      "example_bangla_pronunciation": "অগর মাপন-ত্রুটি সে জুডা মামলা হো, তো পরিভাষা পহলে তয করেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "अगर",
+          "bangla_pronunciation": "অগর",
+          "separator_after": " "
+        },
+        {
+          "target": "मापन-त्रुटि",
+          "bangla_pronunciation": "মাপন-ত্রুটি",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़ा",
+          "bangla_pronunciation": "জুডা",
+          "separator_after": " "
+        },
+        {
+          "target": "मामला",
+          "bangla_pronunciation": "মামলা",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "परिभाषा",
+          "bangla_pronunciation": "পরিভাষা",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পরিমাপের ভুল-সংক্রান্ত বিষয় হলে সংজ্ঞা আগে ঠিক করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v05017",
+      "target": "नमूना-पक्षपात",
+      "category": "word",
+      "type": "term",
+      "romanization": "namuunaa-pakshapaata",
+      "bangla_pronunciation": "নমূনা-পক্ষপাত",
+      "word_pronunciations": [
+        {
+          "target": "नमूना-पक्षपात",
+          "bangla_pronunciation": "নমূনা-পক্ষপাত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নমুনা নির্বাচনের পক্ষপাত। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s04",
+      "source_form": "नमूना-पक्षपात",
+      "example_target": "नमूना-पक्षपात और डेटा-सहसंबंध को साथ देखकर निर्णय लें।",
+      "example_bangla_pronunciation": "নমূনা-পক্ষপাত অউর ডেটা-সহসংবংধ কো সাথ দেখকর নির্ণয় লেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "नमूना-पक्षपात",
+          "bangla_pronunciation": "নমূনা-পক্ষপাত",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "डेटा-सहसंबंध",
+          "bangla_pronunciation": "ডেটা-সহসংবংধ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "देखकर",
+          "bangla_pronunciation": "দেখকর",
+          "separator_after": " "
+        },
+        {
+          "target": "निर्णय",
+          "bangla_pronunciation": "নির্ণয়",
+          "separator_after": " "
+        },
+        {
+          "target": "लें।",
+          "bangla_pronunciation": "লেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নমুনা নির্বাচনের পক্ষপাত ও ডেটার সহসম্পর্ক একসঙ্গে দেখে সিদ্ধান্ত নিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v05018",
+      "target": "डेटा-सहसंबंध",
+      "category": "word",
+      "type": "term",
+      "romanization": "detaa-sahasanbandha",
+      "bangla_pronunciation": "ডেটা-সহসংবংধ",
+      "word_pronunciations": [
+        {
+          "target": "डेटा-सहसंबंध",
+          "bangla_pronunciation": "ডেটা-সহসংবংধ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডেটার সহসম্পর্ক। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s04",
+      "source_form": "डेटा-सहसंबंध",
+      "example_target": "नमूना-पक्षपात और डेटा-सहसंबंध को साथ देखकर निर्णय लें।",
+      "example_bangla_pronunciation": "নমূনা-পক্ষপাত অউর ডেটা-সহসংবংধ কো সাথ দেখকর নির্ণয় লেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "नमूना-पक्षपात",
+          "bangla_pronunciation": "নমূনা-পক্ষপাত",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "डेटा-सहसंबंध",
+          "bangla_pronunciation": "ডেটা-সহসংবংধ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "देखकर",
+          "bangla_pronunciation": "দেখকর",
+          "separator_after": " "
+        },
+        {
+          "target": "निर्णय",
+          "bangla_pronunciation": "নির্ণয়",
+          "separator_after": " "
+        },
+        {
+          "target": "लें।",
+          "bangla_pronunciation": "লেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নমুনা নির্বাচনের পক্ষপাত ও ডেটার সহসম্পর্ক একসঙ্গে দেখে সিদ্ধান্ত নিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v05019",
+      "target": "कारण-संबंध",
+      "category": "word",
+      "type": "term",
+      "romanization": "kaarana-sanbandha",
+      "bangla_pronunciation": "কারণ-সংবংধ",
+      "word_pronunciations": [
+        {
+          "target": "कारण-संबंध",
+          "bangla_pronunciation": "কারণ-সংবংধ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কারণসম্পর্ক। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s05",
+      "source_form": "कारण-संबंध",
+      "example_target": "कारण-संबंध और विश्लेषण-चर की नियमित जाँच जरूरी है।",
+      "example_bangla_pronunciation": "কারণ-সংবংধ অউর ভিশ্লেষণ-চর কী নিয়মিত জাঁচ জরূরী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "कारण-संबंध",
+          "bangla_pronunciation": "কারণ-সংবংধ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "विश्लेषण-चर",
+          "bangla_pronunciation": "ভিশ্লেষণ-চর",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँच",
+          "bangla_pronunciation": "জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "কারণসম্পর্ক ও বিশ্লেষণের চলক নিয়মিত যাচাই করা জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v05020",
+      "target": "विश्लेषण-चर",
+      "category": "word",
+      "type": "term",
+      "romanization": "vishleshana-chara",
+      "bangla_pronunciation": "ভিশ্লেষণ-চর",
+      "word_pronunciations": [
+        {
+          "target": "विश्लेषण-चर",
+          "bangla_pronunciation": "ভিশ্লেষণ-চর",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিশ্লেষণের চলক। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s05",
+      "source_form": "विश्लेषण-चर",
+      "example_target": "कारण-संबंध और विश्लेषण-चर की नियमित जाँच जरूरी है।",
+      "example_bangla_pronunciation": "কারণ-সংবংধ অউর ভিশ্লেষণ-চর কী নিয়মিত জাঁচ জরূরী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "कारण-संबंध",
+          "bangla_pronunciation": "কারণ-সংবংধ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "विश्लेषण-चर",
+          "bangla_pronunciation": "ভিশ্লেষণ-চর",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँच",
+          "bangla_pronunciation": "জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "কারণসম্পর্ক ও বিশ্লেষণের চলক নিয়মিত যাচাই করা জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v05021",
+      "target": "नियंत्रण-समूह",
+      "category": "word",
+      "type": "term",
+      "romanization": "niyantrana-samuuha",
+      "bangla_pronunciation": "নিযংত্রণ-সমূহ",
+      "word_pronunciations": [
+        {
+          "target": "नियंत्रण-समूह",
+          "bangla_pronunciation": "নিযংত্রণ-সমূহ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিয়ন্ত্রণ দল। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s06",
+      "source_form": "नियंत्रण-समूह",
+      "example_target": "नियंत्रण-समूह पर ध्यान दें और नतीजे संदर्भ सहित पढ़ें।",
+      "example_bangla_pronunciation": "নিযংত্রণ-সমূহ পর ধ্যান দেঁ অউর নতীজে সংদর্ভ সহিত পঢেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "नियंत्रण-समूह",
+          "bangla_pronunciation": "নিযংত্রণ-সমূহ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें",
+          "bangla_pronunciation": "দেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "नतीजे",
+          "bangla_pronunciation": "নতীজে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "सहित",
+          "bangla_pronunciation": "সহিত",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़ें।",
+          "bangla_pronunciation": "পঢেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নিয়ন্ত্রণ দল-এর দিকে মনোযোগ দিন এবং ফলাফল প্রসঙ্গসহ পড়ুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v05022",
+      "target": "नतीजे संदर्भ सहित पढ़ें",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "natiije sandarbha sahita padhaेn",
+      "bangla_pronunciation": "নতীজে সংদর্ভ সহিত পঢেং",
+      "word_pronunciations": [
+        {
+          "target": "नतीजे",
+          "bangla_pronunciation": "নতীজে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "सहित",
+          "bangla_pronunciation": "সহিত",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़ें",
+          "bangla_pronunciation": "পঢেং",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফলাফল প্রসঙ্গসহ পড়ুন। বাস্তব কথোপকথনে ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch168_s06",
+      "source_form": "नतीजे संदर्भ सहित पढ़ें",
+      "example_target": "नियंत्रण-समूह पर ध्यान दें और नतीजे संदर्भ सहित पढ़ें।",
+      "example_bangla_pronunciation": "নিযংত্রণ-সমূহ পর ধ্যান দেঁ অউর নতীজে সংদর্ভ সহিত পঢেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "नियंत्रण-समूह",
+          "bangla_pronunciation": "নিযংত্রণ-সমূহ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें",
+          "bangla_pronunciation": "দেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "नतीजे",
+          "bangla_pronunciation": "নতীজে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "सहित",
+          "bangla_pronunciation": "সহিত",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़ें।",
+          "bangla_pronunciation": "পঢেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নিয়ন্ত্রণ দল-এর দিকে মনোযোগ দিন এবং ফলাফল প্রসঙ্গসহ পড়ুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v05023",
+      "target": "नमूना-प्रतिनिधित्व",
+      "category": "word",
+      "type": "term",
+      "romanization": "namuunaa-pratinidhitva",
+      "bangla_pronunciation": "নমূনা-প্রতিনিধিত্ভ",
+      "word_pronunciations": [
+        {
+          "target": "नमूना-प्रतिनिधित्व",
+          "bangla_pronunciation": "নমূনা-প্রতিনিধিত্ভ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নমুনার প্রতিনিধিত্ব। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s07",
+      "source_form": "नमूना-प्रतिनिधित्व",
+      "example_target": "नमूना-प्रतिनिधित्व और सांख्यिकीय-महत्त्व को एक साथ समझना उपयोगी है।",
+      "example_bangla_pronunciation": "নমূনা-প্রতিনিধিত্ভ অউর সাংখ্যিকীয-মহত্ত্ভ কো এক সাথ সমঝনা উপযোগী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "नमूना-प्रतिनिधित्व",
+          "bangla_pronunciation": "নমূনা-প্রতিনিধিত্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "सांख्यिकीय-महत्त्व",
+          "bangla_pronunciation": "সাংখ্যিকীয-মহত্ত্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "समझना",
+          "bangla_pronunciation": "সমঝনা",
+          "separator_after": " "
+        },
+        {
+          "target": "उपयोगी",
+          "bangla_pronunciation": "উপযোগী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নমুনার প্রতিনিধিত্ব ও পরিসংখ্যানগত তাৎপর্য একসঙ্গে বোঝা উপকারী।",
+      "synonyms": []
+    },
+    {
+      "id": "v05024",
+      "target": "सांख्यिकीय-महत्त्व",
+      "category": "word",
+      "type": "term",
+      "romanization": "saankhyikiiya-mahattva",
+      "bangla_pronunciation": "সাংখ্যিকীয-মহত্ত্ভ",
+      "word_pronunciations": [
+        {
+          "target": "सांख्यिकीय-महत्त्व",
+          "bangla_pronunciation": "সাংখ্যিকীয-মহত্ত্ভ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিসংখ্যানগত তাৎপর্য। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s07",
+      "source_form": "सांख्यिकीय-महत्त्व",
+      "example_target": "नमूना-प्रतिनिधित्व और सांख्यिकीय-महत्त्व को एक साथ समझना उपयोगी है।",
+      "example_bangla_pronunciation": "নমূনা-প্রতিনিধিত্ভ অউর সাংখ্যিকীয-মহত্ত্ভ কো এক সাথ সমঝনা উপযোগী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "नमूना-प्रतिनिधित्व",
+          "bangla_pronunciation": "নমূনা-প্রতিনিধিত্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "सांख्यिकीय-महत्त्व",
+          "bangla_pronunciation": "সাংখ্যিকীয-মহত্ত্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "समझना",
+          "bangla_pronunciation": "সমঝনা",
+          "separator_after": " "
+        },
+        {
+          "target": "उपयोगी",
+          "bangla_pronunciation": "উপযোগী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নমুনার প্রতিনিধিত্ব ও পরিসংখ্যানগত তাৎপর্য একসঙ্গে বোঝা উপকারী।",
+      "synonyms": []
+    },
+    {
+      "id": "v05025",
+      "target": "प्रभाव-आकार",
+      "category": "word",
+      "type": "term",
+      "romanization": "prabhaava-aakaara",
+      "bangla_pronunciation": "প্রভাভ-আকার",
+      "word_pronunciations": [
+        {
+          "target": "प्रभाव-आकार",
+          "bangla_pronunciation": "প্রভাভ-আকার",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রভাবের মাত্রা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s08",
+      "source_form": "प्रभाव-आकार",
+      "example_target": "प्रभाव-आकार के साथ अनिश्चितता-सीमा पर भी ध्यान दें।",
+      "example_bangla_pronunciation": "প্রভাভ-আকার কে সাথ অনিশ্চিততা-সীমা পর ভী ধ্যান দেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "प्रभाव-आकार",
+          "bangla_pronunciation": "প্রভাভ-আকার",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "अनिश्चितता-सीमा",
+          "bangla_pronunciation": "অনিশ্চিততা-সীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্রভাবের মাত্রা-এর সঙ্গে অনিশ্চয়তার সীমা-এর দিকেও মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v05026",
+      "target": "अनिश्चितता-सीमा",
+      "category": "word",
+      "type": "term",
+      "romanization": "anishchitataa-siimaa",
+      "bangla_pronunciation": "অনিশ্চিততা-সীমা",
+      "word_pronunciations": [
+        {
+          "target": "अनिश्चितता-सीमा",
+          "bangla_pronunciation": "অনিশ্চিততা-সীমা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনিশ্চয়তার সীমা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s08",
+      "source_form": "अनिश्चितता-सीमा",
+      "example_target": "प्रभाव-आकार के साथ अनिश्चितता-सीमा पर भी ध्यान दें।",
+      "example_bangla_pronunciation": "প্রভাভ-আকার কে সাথ অনিশ্চিততা-সীমা পর ভী ধ্যান দেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "प्रभाव-आकार",
+          "bangla_pronunciation": "প্রভাভ-আকার",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "अनिश्चितता-सीमा",
+          "bangla_pronunciation": "অনিশ্চিততা-সীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্রভাবের মাত্রা-এর সঙ্গে অনিশ্চয়তার সীমা-এর দিকেও মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v05027",
+      "target": "परिणाम-पुनरुत्पादन",
+      "category": "word",
+      "type": "term",
+      "romanization": "parinaama-punarutpaadana",
+      "bangla_pronunciation": "পরিণাম-পুনরুত্পাদন",
+      "word_pronunciations": [
+        {
+          "target": "परिणाम-पुनरुत्पादन",
+          "bangla_pronunciation": "পরিণাম-পুনরুত্পাদন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফল পুনরুত্পাদন। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s09",
+      "source_form": "परिणाम-पुनरुत्पादन",
+      "example_target": "जब परिणाम-पुनरुत्पादन जरूरी हो, तो कच्चा डेटा सुरक्षित रखें।",
+      "example_bangla_pronunciation": "জব পরিণাম-পুনরুত্পাদন জরূরী হো, তো কচ্চা ডেটা সুরক্ষিত রখেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "जब",
+          "bangla_pronunciation": "জব",
+          "separator_after": " "
+        },
+        {
+          "target": "परिणाम-पुनरुत्पादन",
+          "bangla_pronunciation": "পরিণাম-পুনরুত্পাদন",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "कच्चा",
+          "bangla_pronunciation": "কচ্চা",
+          "separator_after": " "
+        },
+        {
+          "target": "डेटा",
+          "bangla_pronunciation": "ডেটা",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षित",
+          "bangla_pronunciation": "সুরক্ষিত",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "যখন ফল পুনরুত্পাদন জরুরি হয়, তখন কাঁচা ডেটা নিরাপদে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v05028",
+      "target": "कच्चा डेटा सुरक्षित रखें",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "kachchaa detaa surakshita rakhen",
+      "bangla_pronunciation": "কচ্চা ডেটা সুরক্ষিত রখেঁ",
+      "word_pronunciations": [
+        {
+          "target": "कच्चा",
+          "bangla_pronunciation": "কচ্চা",
+          "separator_after": " "
+        },
+        {
+          "target": "डेटा",
+          "bangla_pronunciation": "ডেটা",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षित",
+          "bangla_pronunciation": "সুরক্ষিত",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें",
+          "bangla_pronunciation": "রখেঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কাঁচা ডেটা নিরাপদে রাখুন। বাস্তব কথোপকথনে ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch168_s09",
+      "source_form": "कच्चा डेटा सुरक्षित रखें",
+      "example_target": "जब परिणाम-पुनरुत्पादन जरूरी हो, तो कच्चा डेटा सुरक्षित रखें।",
+      "example_bangla_pronunciation": "জব পরিণাম-পুনরুত্পাদন জরূরী হো, তো কচ্চা ডেটা সুরক্ষিত রখেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "जब",
+          "bangla_pronunciation": "জব",
+          "separator_after": " "
+        },
+        {
+          "target": "परिणाम-पुनरुत्पादन",
+          "bangla_pronunciation": "পরিণাম-পুনরুত্পাদন",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "कच्चा",
+          "bangla_pronunciation": "কচ্চা",
+          "separator_after": " "
+        },
+        {
+          "target": "डेटा",
+          "bangla_pronunciation": "ডেটা",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षित",
+          "bangla_pronunciation": "সুরক্ষিত",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "যখন ফল পুনরুত্পাদন জরুরি হয়, তখন কাঁচা ডেটা নিরাপদে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v05029",
+      "target": "अनुसंधान-पद्धति",
+      "category": "word",
+      "type": "term",
+      "romanization": "anusandhaana-paddhati",
+      "bangla_pronunciation": "অনুসংধান-পদ্ধতি",
+      "word_pronunciations": [
+        {
+          "target": "अनुसंधान-पद्धति",
+          "bangla_pronunciation": "অনুসংধান-পদ্ধতি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গবেষণা পদ্ধতি। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s10",
+      "source_form": "अनुसंधान-पद्धति",
+      "example_target": "अनुसंधान-पद्धति और निष्कर्ष-सीमा की प्रक्रिया स्पष्ट होनी चाहिए।",
+      "example_bangla_pronunciation": "অনুসংধান-পদ্ধতি অউর নিষ্কর্ষ-সীমা কী প্রক্রিযা স্পষ্ট হোনী চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "अनुसंधान-पद्धति",
+          "bangla_pronunciation": "অনুসংধান-পদ্ধতি",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "निष्कर्ष-सीमा",
+          "bangla_pronunciation": "নিষ্কর্ষ-সীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रक्रिया",
+          "bangla_pronunciation": "প্রক্রিযা",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "গবেষণা পদ্ধতি ও উপসংহারের সীমা-এর প্রক্রিয়া পরিষ্কার হওয়া উচিত।",
+      "synonyms": []
+    },
+    {
+      "id": "v05030",
+      "target": "निष्कर्ष-सीमा",
+      "category": "word",
+      "type": "term",
+      "romanization": "nishkarsha-siimaa",
+      "bangla_pronunciation": "নিষ্কর্ষ-সীমা",
+      "word_pronunciations": [
+        {
+          "target": "निष्कर्ष-सीमा",
+          "bangla_pronunciation": "নিষ্কর্ষ-সীমা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "উপসংহারের সীমা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s10",
+      "source_form": "निष्कर्ष-सीमा",
+      "example_target": "अनुसंधान-पद्धति और निष्कर्ष-सीमा की प्रक्रिया स्पष्ट होनी चाहिए।",
+      "example_bangla_pronunciation": "অনুসংধান-পদ্ধতি অউর নিষ্কর্ষ-সীমা কী প্রক্রিযা স্পষ্ট হোনী চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "अनुसंधान-पद्धति",
+          "bangla_pronunciation": "অনুসংধান-পদ্ধতি",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "निष्कर्ष-सीमा",
+          "bangla_pronunciation": "নিষ্কর্ষ-সীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रक्रिया",
+          "bangla_pronunciation": "প্রক্রিযা",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "গবেষণা পদ্ধতি ও উপসংহারের সীমা-এর প্রক্রিয়া পরিষ্কার হওয়া উচিত।",
+      "synonyms": []
+    },
+    {
+      "id": "v05031",
+      "target": "तुलनात्मक-विश्लेषण",
+      "category": "word",
+      "type": "term",
+      "romanization": "tulanaatmaka-vishleshana",
+      "bangla_pronunciation": "তুলনাত্মক-ভিশ্লেষণ",
+      "word_pronunciations": [
+        {
+          "target": "तुलनात्मक-विश्लेषण",
+          "bangla_pronunciation": "তুলনাত্মক-ভিশ্লেষণ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তুলনামূলক বিশ্লেষণ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s11",
+      "source_form": "तुलनात्मक-विश्लेषण",
+      "example_target": "तुलनात्मक-विश्लेषण की नियमित समीक्षा जरूरी है।",
+      "example_bangla_pronunciation": "তুলনাত্মক-ভিশ্লেষণ কী নিয়মিত সমীক্ষা জরূরী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "तुलनात्मक-विश्लेषण",
+          "bangla_pronunciation": "তুলনাত্মক-ভিশ্লেষণ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "তুলনামূলক বিশ্লেষণ নিয়মিত পর্যালোচনা করা জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v05032",
+      "target": "डेटा-सफाई",
+      "category": "word",
+      "type": "term",
+      "romanization": "detaa-saphaaii",
+      "bangla_pronunciation": "ডেটা-সফাঈ",
+      "word_pronunciations": [
+        {
+          "target": "डेटा-सफाई",
+          "bangla_pronunciation": "ডেটা-সফাঈ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডেটা পরিষ্কার করা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s12",
+      "source_form": "डेटा-सफाई",
+      "example_target": "डेटा-सफाई को स्पष्ट रूप से दर्ज करें।",
+      "example_bangla_pronunciation": "ডেটা-সফাঈ কো স্পষ্ট রূপ সে দর্জ করেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "डेटा-सफाई",
+          "bangla_pronunciation": "ডেটা-সফাঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "रूप",
+          "bangla_pronunciation": "রূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "दर्ज",
+          "bangla_pronunciation": "দর্জ",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ডেটা পরিষ্কার করা স্পষ্টভাবে নথিভুক্ত করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v05033",
+      "target": "अपवाद-मूल्य",
+      "category": "word",
+      "type": "term",
+      "romanization": "apavaada-muulya",
+      "bangla_pronunciation": "অপভাদ-মূল্য",
+      "word_pronunciations": [
+        {
+          "target": "अपवाद-मूल्य",
+          "bangla_pronunciation": "অপভাদ-মূল্য",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যতিক্রমী মান। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s13",
+      "source_form": "अपवाद-मूल्य",
+      "example_target": "अपवाद-मूल्य का आधार स्पष्ट रूप से समझें।",
+      "example_bangla_pronunciation": "অপভাদ-মূল্য কা আধার স্পষ্ট রূপ সে সমঝেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "अपवाद-मूल्य",
+          "bangla_pronunciation": "অপভাদ-মূল্য",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "आधार",
+          "bangla_pronunciation": "আধার",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "रूप",
+          "bangla_pronunciation": "রূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "समझें।",
+          "bangla_pronunciation": "সমঝেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ব্যতিক্রমী মান-এর ভিত্তি পরিষ্কারভাবে বুঝুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v05034",
+      "target": "दावे को आँकड़ों से मिलाएँ",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "daave ko aankadaोn se milaaen",
+      "bangla_pronunciation": "দাভে কো আঁকডোং সে মিলাএঁ",
+      "word_pronunciations": [
+        {
+          "target": "दावे",
+          "bangla_pronunciation": "দাভে",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "आँकड़ों",
+          "bangla_pronunciation": "আঁকডোং",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाएँ",
+          "bangla_pronunciation": "মিলাএঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দাবি পরিসংখ্যানের সঙ্গে মিলিয়ে দেখুন। বাস্তব কথোপকথনে ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch168_s14",
+      "source_form": "दावे को आँकड़ों से मिलाएँ",
+      "example_target": "दावे को आँकड़ों से मिलाएँ।",
+      "example_bangla_pronunciation": "দাভে কো আঁকডোং সে মিলাএঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "दावे",
+          "bangla_pronunciation": "দাভে",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "आँकड़ों",
+          "bangla_pronunciation": "আঁকডোং",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाएँ।",
+          "bangla_pronunciation": "মিলাএঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দাবি পরিসংখ্যানের সঙ্গে মিলিয়ে দেখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v05035",
+      "target": "गुणात्मक-प्रमाण",
+      "category": "word",
+      "type": "term",
+      "romanization": "gunaatmaka-pramaana",
+      "bangla_pronunciation": "গুণাত্মক-প্রমাণ",
+      "word_pronunciations": [
+        {
+          "target": "गुणात्मक-प्रमाण",
+          "bangla_pronunciation": "গুণাত্মক-প্রমাণ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গুণগত প্রমাণ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s15",
+      "source_form": "गुणात्मक-प्रमाण",
+      "example_target": "गुणात्मक-प्रमाण के लिए जिम्मेदारी तय होनी चाहिए।",
+      "example_bangla_pronunciation": "গুণাত্মক-প্রমাণ কে লিয়ে জিম্মেদারী তয হোনী চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "गुणात्मक-प्रमाण",
+          "bangla_pronunciation": "গুণাত্মক-প্রমাণ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "जिम्मेदारी",
+          "bangla_pronunciation": "জিম্মেদারী",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "গুণগত প্রমাণ-এর জন্য দায়িত্ব নির্ধারিত থাকা উচিত।",
+      "synonyms": []
+    },
+    {
+      "id": "v05036",
+      "target": "मात्रात्मक-प्रमाण",
+      "category": "word",
+      "type": "term",
+      "romanization": "maatraatmaka-pramaana",
+      "bangla_pronunciation": "মাত্রাত্মক-প্রমাণ",
+      "word_pronunciations": [
+        {
+          "target": "मात्रात्मक-प्रमाण",
+          "bangla_pronunciation": "মাত্রাত্মক-প্রমাণ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিমাণগত প্রমাণ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s16",
+      "source_form": "मात्रात्मक-प्रमाण",
+      "example_target": "मात्रात्मक-प्रमाण के बारे में स्पष्ट जानकारी होनी चाहिए।",
+      "example_bangla_pronunciation": "মাত্রাত্মক-প্রমাণ কে বারে মেঁ স্পষ্ট জানকারী হোনী চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "मात्रात्मक-प्रमाण",
+          "bangla_pronunciation": "মাত্রাত্মক-প্রমাণ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "बारे",
+          "bangla_pronunciation": "বারে",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পরিমাণগত প্রমাণ সম্পর্কে পরিষ্কার তথ্য থাকা উচিত।",
+      "synonyms": []
+    },
+    {
+      "id": "v05037",
+      "target": "स्रोत-दस्तावेज़",
+      "category": "word",
+      "type": "term",
+      "romanization": "srota-dastaaveja",
+      "bangla_pronunciation": "স্রোত-দস্তাভেজ",
+      "word_pronunciations": [
+        {
+          "target": "स्रोत-दस्तावेज़",
+          "bangla_pronunciation": "স্রোত-দস্তাভেজ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "উৎস নথি। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s17",
+      "source_form": "स्रोत-दस्तावेज़",
+      "example_target": "स्रोत-दस्तावेज़ पर नियमित निगरानी जरूरी है।",
+      "example_bangla_pronunciation": "স্রোত-দস্তাভেজ পর নিয়মিত নিগরানী জরূরী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "स्रोत-दस्तावेज़",
+          "bangla_pronunciation": "স্রোত-দস্তাভেজ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "निगरानी",
+          "bangla_pronunciation": "নিগরানী",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "উৎস নথি নিয়মিত পর্যবেক্ষণ করা জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v05038",
+      "target": "विश्लेषण-धारणा",
+      "category": "word",
+      "type": "term",
+      "romanization": "vishleshana-dhaaranaa",
+      "bangla_pronunciation": "ভিশ্লেষণ-ধারণা",
+      "word_pronunciations": [
+        {
+          "target": "विश्लेषण-धारणा",
+          "bangla_pronunciation": "ভিশ্লেষণ-ধারণা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিশ্লেষণের অনুমান। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s18",
+      "source_form": "विश्लेषण-धारणा",
+      "example_target": "विश्लेषण-धारणा पर समय रहते कार्रवाई करें।",
+      "example_bangla_pronunciation": "ভিশ্লেষণ-ধারণা পর সময় রহতে কার্রভাঈ করেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "विश्लेषण-धारणा",
+          "bangla_pronunciation": "ভিশ্লেষণ-ধারণা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "रहते",
+          "bangla_pronunciation": "রহতে",
+          "separator_after": " "
+        },
+        {
+          "target": "कार्रवाई",
+          "bangla_pronunciation": "কার্রভাঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বিশ্লেষণের অনুমান নিয়ে সময়মতো পদক্ষেপ নিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v05039",
+      "target": "समीक्षा-योग्यता",
+      "category": "word",
+      "type": "term",
+      "romanization": "samiikshaa-yogyataa",
+      "bangla_pronunciation": "সমীক্ষা-যোগ্যতা",
+      "word_pronunciations": [
+        {
+          "target": "समीक्षा-योग्यता",
+          "bangla_pronunciation": "সমীক্ষা-যোগ্যতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পর্যালোচনা করার সক্ষমতা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch168_s19",
+      "source_form": "समीक्षा-योग्यता",
+      "example_target": "समीक्षा-योग्यता पर ध्यान देना जरूरी है।",
+      "example_bangla_pronunciation": "সমীক্ষা-যোগ্যতা পর ধ্যান দেনা জরূরী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "समीक्षा-योग्यता",
+          "bangla_pronunciation": "সমীক্ষা-যোগ্যতা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "देना",
+          "bangla_pronunciation": "দেনা",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পর্যালোচনা করার সক্ষমতা-এর দিকে মনোযোগ দেওয়া জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v05040",
+      "target": "निष्कर्ष सावधानी से लिखें",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "nishkarsha saavadhaanii se likhen",
+      "bangla_pronunciation": "নিষ্কর্ষ সাভধানী সে লিখেং",
+      "word_pronunciations": [
+        {
+          "target": "निष्कर्ष",
+          "bangla_pronunciation": "নিষ্কর্ষ",
+          "separator_after": " "
+        },
+        {
+          "target": "सावधानी",
+          "bangla_pronunciation": "সাভধানী",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें",
+          "bangla_pronunciation": "লিখেং",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "উপসংহার সতর্কভাবে লিখুন। বাস্তব কথোপকথনে ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch168_s20",
+      "source_form": "निष्कर्ष सावधानी से लिखें",
+      "example_target": "निष्कर्ष सावधानी से लिखें।",
+      "example_bangla_pronunciation": "নিষ্কর্ষ সাভধানী সে লিখেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "निष्कर्ष",
+          "bangla_pronunciation": "নিষ্কর্ষ",
+          "separator_after": " "
+        },
+        {
+          "target": "सावधानी",
+          "bangla_pronunciation": "সাভধানী",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें।",
+          "bangla_pronunciation": "লিখেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "উপসংহার সতর্কভাবে লিখুন।",
+      "synonyms": []
+    }
+  ],
+  "bridge_reading": {
+    "mode": "article",
+    "title_bengali": "গবেষণা ও ডেটা বিশ্লেষণ: ব্যবহারিক পাঠ",
+    "scene_summary": "গবেষণার প্রশ্ন, ডেটার মান ও ফলাফল ব্যাখ্যা নিয়ে চারটি সংক্ষিপ্ত ব্যবহারিক মুহূর্তের পাঠ।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "গবেষণার প্রশ্ন, ডেটার মান ও ফলাফল ব্যাখ্যা নিয়ে একটি ব্যবহারিক আলোচনায় প্রথমে বলা হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "अनुसंधान-प्रश्न और नमूना-चयन इस विषय में महत्वपूर्ण हैं।",
+        "bangla_pronunciation": "অনুসংধান-প্রশ্ন অউর নমূনা-চযন ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+        "word_pronunciations": [
+          {
+            "target": "अनुसंधान-प्रश्न",
+            "bangla_pronunciation": "অনুসংধান-প্রশ্ন",
+            "separator_after": " "
+          },
+          {
+            "target": "और",
+            "bangla_pronunciation": "অউর",
+            "separator_after": " "
+          },
+          {
+            "target": "नमूना-चयन",
+            "bangla_pronunciation": "নমূনা-চযন",
+            "separator_after": " "
+          },
+          {
+            "target": "इस",
+            "bangla_pronunciation": "ইস",
+            "separator_after": " "
+          },
+          {
+            "target": "विषय",
+            "bangla_pronunciation": "ভিষয়",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "महत्वपूर्ण",
+            "bangla_pronunciation": "মহত্বপূর্ণ",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যাঁয়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " এরপর আরেকটি গুরুত্বপূর্ণ পদক্ষেপ হিসেবে বলা হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "नियंत्रण-समूह पर ध्यान दें और नतीजे संदर्भ सहित पढ़ें।",
+        "bangla_pronunciation": "নিযংত্রণ-সমূহ পর ধ্যান দেঁ অউর নতীজে সংদর্ভ সহিত পঢেং।",
+        "word_pronunciations": [
+          {
+            "target": "नियंत्रण-समूह",
+            "bangla_pronunciation": "নিযংত্রণ-সমূহ",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "separator_after": " "
+          },
+          {
+            "target": "ध्यान",
+            "bangla_pronunciation": "ধ্যান",
+            "separator_after": " "
+          },
+          {
+            "target": "दें",
+            "bangla_pronunciation": "দেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "और",
+            "bangla_pronunciation": "অউর",
+            "separator_after": " "
+          },
+          {
+            "target": "नतीजे",
+            "bangla_pronunciation": "নতীজে",
+            "separator_after": " "
+          },
+          {
+            "target": "संदर्भ",
+            "bangla_pronunciation": "সংদর্ভ",
+            "separator_after": " "
+          },
+          {
+            "target": "सहित",
+            "bangla_pronunciation": "সহিত",
+            "separator_after": " "
+          },
+          {
+            "target": "पढ़ें।",
+            "bangla_pronunciation": "পঢেং।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " সিদ্ধান্ত নেওয়ার আগে সবাই মনে রাখল: "
+      },
+      {
+        "kind": "target",
+        "target": "दावे को आँकड़ों से मिलाएँ।",
+        "bangla_pronunciation": "দাভে কো আঁকডোং সে মিলাএঁ।",
+        "word_pronunciations": [
+          {
+            "target": "दावे",
+            "bangla_pronunciation": "দাভে",
+            "separator_after": " "
+          },
+          {
+            "target": "को",
+            "bangla_pronunciation": "কো",
+            "separator_after": " "
+          },
+          {
+            "target": "आँकड़ों",
+            "bangla_pronunciation": "আঁকডোং",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "separator_after": " "
+          },
+          {
+            "target": "मिलाएँ।",
+            "bangla_pronunciation": "মিলাএঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " শেষে করণীয়টি সংক্ষেপে বলা হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "निष्कर्ष सावधानी से लिखें।",
+        "bangla_pronunciation": "নিষ্কর্ষ সাভধানী সে লিখেং।",
+        "word_pronunciations": [
+          {
+            "target": "निष्कर्ष",
+            "bangla_pronunciation": "নিষ্কর্ষ",
+            "separator_after": " "
+          },
+          {
+            "target": "सावधानी",
+            "bangla_pronunciation": "সাভধানী",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "separator_after": " "
+          },
+          {
+            "target": "लिखें।",
+            "bangla_pronunciation": "লিখেং।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "গবেষণার প্রশ্ন, ডেটার মান ও ফলাফল ব্যাখ্যা নিয়ে একটি ব্যবহারিক আলোচনায় প্রথমে বলা হলো: **अनुसंधान\\-प्रश्न** (অনুসংধান\\-প্রশ্ন) **और** (অউর) **नमूना\\-चयन** (নমূনা\\-চযন) **इस** (ইস) **विषय** (ভিষয়) **में** (মেঁ) **महत्वपूर्ण** (মহত্বপূর্ণ) **हैं।** (হ্যাঁয়।) এরপর আরেকটি গুরুত্বপূর্ণ পদক্ষেপ হিসেবে বলা হলো: **नियंत्रण\\-समूह** (নিযংত্রণ\\-সমূহ) **पर** (পর) **ध्यान** (ধ্যান) **दें** (দেঁ) **और** (অউর) **नतीजे** (নতীজে) **संदर्भ** (সংদর্ভ) **सहित** (সহিত) **पढ़ें।** (পঢেং।) সিদ্ধান্ত নেওয়ার আগে সবাই মনে রাখল: **दावे** (দাভে) **को** (কো) **आँकड़ों** (আঁকডোং) **से** (সে) **मिलाएँ।** (মিলাএঁ।) শেষে করণীয়টি সংক্ষেপে বলা হলো: **निष्कर्ष** (নিষ্কর্ষ) **सावधानी** (সাভধানী) **से** (সে) **लिखें।** (লিখেং।)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "গবেষণা ও ডেটা বিশ্লেষণ: হিন্দি অনুশীলন",
+    "scene_summary": "একই বিষয়ের অন্য একটি পরিস্থিতিতে পাঁচটি ছোট হিন্দি বাক্য।",
+    "lines": [
+      {
+        "target": "अनुसंधान-प्रश्न महत्वपूर्ण है।",
+        "bangla_pronunciation": "অনুসংধান-প্রশ্ন মহত্বপূর্ণ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "अनुसंधान-प्रश्न",
+            "bangla_pronunciation": "অনুসংধান-প্রশ্ন",
+            "separator_after": " "
+          },
+          {
+            "target": "महत्वपूर्ण",
+            "bangla_pronunciation": "মহত্বপূর্ণ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "नमूना-चयन स्पष्ट रखें।",
+        "bangla_pronunciation": "নমূনা-চযন স্পষ্ট রখেঁ।",
+        "word_pronunciations": [
+          {
+            "target": "नमूना-चयन",
+            "bangla_pronunciation": "নমূনা-চযন",
+            "separator_after": " "
+          },
+          {
+            "target": "स्पष्ट",
+            "bangla_pronunciation": "স্পষ্ট",
+            "separator_after": " "
+          },
+          {
+            "target": "रखें।",
+            "bangla_pronunciation": "রখেঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "परिकल्पना-परीक्षण पर ध्यान दें।",
+        "bangla_pronunciation": "পরিকল্পনা-পরীক্ষণ পর ধ্যান দেঁ।",
+        "word_pronunciations": [
+          {
+            "target": "परिकल्पना-परीक्षण",
+            "bangla_pronunciation": "পরিকল্পনা-পরীক্ষণ",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "separator_after": " "
+          },
+          {
+            "target": "ध्यान",
+            "bangla_pronunciation": "ধ্যান",
+            "separator_after": " "
+          },
+          {
+            "target": "दें।",
+            "bangla_pronunciation": "দেঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "डेटा-गुणवत्ता की जाँच करें।",
+        "bangla_pronunciation": "ডেটা-গুণভত্তা কী জাঁচ করেঁ।",
+        "word_pronunciations": [
+          {
+            "target": "डेटा-गुणवत्ता",
+            "bangla_pronunciation": "ডেটা-গুণভত্তা",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "separator_after": " "
+          },
+          {
+            "target": "जाँच",
+            "bangla_pronunciation": "জাঁচ",
+            "separator_after": " "
+          },
+          {
+            "target": "करें।",
+            "bangla_pronunciation": "করেঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मापन-त्रुटि पर नज़र रखें।",
+        "bangla_pronunciation": "মাপন-ত্রুটি পর নজর রখেঁ।",
+        "word_pronunciations": [
+          {
+            "target": "मापन-त्रुटि",
+            "bangla_pronunciation": "মাপন-ত্রুটি",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "separator_after": " "
+          },
+          {
+            "target": "नज़र",
+            "bangla_pronunciation": "নজর",
+            "separator_after": " "
+          },
+          {
+            "target": "रखें।",
+            "bangla_pronunciation": "রখেঁ।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "অনুসংধান-প্রশ্ন মহত্বপূর্ণ হ্যায়। নমূনা-চযন স্পষ্ট রখেঁ। পরিকল্পনা-পরীক্ষণ পর ধ্যান দেঁ। ডেটা-গুণভত্তা কী জাঁচ করেঁ। মাপন-ত্রুটি পর নজর রখেঁ।",
+    "meaning_bengali_md": "গবেষণা প্রশ্ন গুরুত্বপূর্ণ। নমুনা নির্বাচন পরিষ্কার রাখুন। হাইপোথিসিস পরীক্ষা-এর দিকে মনোযোগ দিন। ডেটার মান যাচাই করুন। পরিমাপের ভুল-এর দিকে নজর রাখুন।"
+  },
+  "script_practice": [
+    {
+      "item_id": "devanagari_श्र",
+      "mode": "review",
+      "target": "श्र",
+      "bangla_pronunciation": "শ্র",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    },
+    {
+      "item_id": "devanagari_ज्ञ",
+      "mode": "review",
+      "target": "ज्ञ",
+      "bangla_pronunciation": "জ্ঞ",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    },
+    {
+      "item_id": "devanagari_त्र",
+      "mode": "review",
+      "target": "त्र",
+      "bangla_pronunciation": "ত্র",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    },
+    {
+      "item_id": "devanagari_द्य",
+      "mode": "review",
+      "target": "द्य",
+      "bangla_pronunciation": "দ্য",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    },
+    {
+      "item_id": "devanagari_त्व",
+      "mode": "review",
+      "target": "त्व",
+      "bangla_pronunciation": "ত্ভ",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    }
+  ],
+  "number_practice": null,
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "বিষয়টি নিয়ে একটি দরকারি বাক্য বলুন।",
+      "model_target": "अनुसंधान-प्रश्न और नमूना-चयन इस विषय में महत्वपूर्ण हैं।",
+      "model_bangla_pronunciation": "অনুসংধান-প্রশ্ন অউর নমূনা-চযন ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+      "model_word_pronunciations": [
+        {
+          "target": "अनुसंधान-प्रश्न",
+          "bangla_pronunciation": "অনুসংধান-প্রশ্ন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "नमूना-चयन",
+          "bangla_pronunciation": "নমূনা-চযন",
+          "separator_after": " "
+        },
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "विषय",
+          "bangla_pronunciation": "ভিষয়",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "महत्वपूर्ण",
+          "bangla_pronunciation": "মহত্বপূর্ণ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "গবেষণা প্রশ্ন ও নমুনা নির্বাচন—দুটিই এই বিষয়ে গুরুত্বপূর্ণ।"
+    },
+    {
+      "prompt_bengali_md": "ঝুঁকি বা সমস্যার ক্ষেত্রে কী করবেন, একটি বাক্যে বলুন।",
+      "model_target": "अगर मापन-त्रुटि से जुड़ा मामला हो, तो परिभाषा पहले तय करें।",
+      "model_bangla_pronunciation": "অগর মাপন-ত্রুটি সে জুডা মামলা হো, তো পরিভাষা পহলে তয করেঁ।",
+      "model_word_pronunciations": [
+        {
+          "target": "अगर",
+          "bangla_pronunciation": "অগর",
+          "separator_after": " "
+        },
+        {
+          "target": "मापन-त्रुटि",
+          "bangla_pronunciation": "মাপন-ত্রুটি",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़ा",
+          "bangla_pronunciation": "জুডা",
+          "separator_after": " "
+        },
+        {
+          "target": "मामला",
+          "bangla_pronunciation": "মামলা",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "परिभाषा",
+          "bangla_pronunciation": "পরিভাষা",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "পরিমাপের ভুল-সংক্রান্ত বিষয় হলে সংজ্ঞা আগে ঠিক করুন।"
+    },
+    {
+      "prompt_bengali_md": "একটি নিরাপদ বা দায়িত্বশীল পদক্ষেপ বলুন।",
+      "model_target": "नियंत्रण-समूह पर ध्यान दें और नतीजे संदर्भ सहित पढ़ें।",
+      "model_bangla_pronunciation": "নিযংত্রণ-সমূহ পর ধ্যান দেঁ অউর নতীজে সংদর্ভ সহিত পঢেং।",
+      "model_word_pronunciations": [
+        {
+          "target": "नियंत्रण-समूह",
+          "bangla_pronunciation": "নিযংত্রণ-সমূহ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें",
+          "bangla_pronunciation": "দেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "नतीजे",
+          "bangla_pronunciation": "নতীজে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "सहित",
+          "bangla_pronunciation": "সহিত",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़ें।",
+          "bangla_pronunciation": "পঢেং।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "নিয়ন্ত্রণ দল-এর দিকে মনোযোগ দিন এবং ফলাফল প্রসঙ্গসহ পড়ুন।"
+    },
+    {
+      "prompt_bengali_md": "পরবর্তী প্রক্রিয়া সম্পর্কে একটি বাক্য বলুন।",
+      "model_target": "अनुसंधान-पद्धति और निष्कर्ष-सीमा की प्रक्रिया स्पष्ट होनी चाहिए।",
+      "model_bangla_pronunciation": "অনুসংধান-পদ্ধতি অউর নিষ্কর্ষ-সীমা কী প্রক্রিযা স্পষ্ট হোনী চাহিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "अनुसंधान-पद्धति",
+          "bangla_pronunciation": "অনুসংধান-পদ্ধতি",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "निष्कर्ष-सीमा",
+          "bangla_pronunciation": "নিষ্কর্ষ-সীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रक्रिया",
+          "bangla_pronunciation": "প্রক্রিযা",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "গবেষণা পদ্ধতি ও উপসংহারের সীমা-এর প্রক্রিয়া পরিষ্কার হওয়া উচিত।"
+    },
+    {
+      "prompt_bengali_md": "একটি নির্দেশ বা করণীয় বলুন।",
+      "model_target": "दावे को आँकड़ों से मिलाएँ।",
+      "model_bangla_pronunciation": "দাভে কো আঁকডোং সে মিলাএঁ।",
+      "model_word_pronunciations": [
+        {
+          "target": "दावे",
+          "bangla_pronunciation": "দাভে",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "आँकड़ों",
+          "bangla_pronunciation": "আঁকডোং",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाएँ।",
+          "bangla_pronunciation": "মিলাএঁ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "দাবি পরিসংখ্যানের সঙ্গে মিলিয়ে দেখুন।"
+    },
+    {
+      "prompt_bengali_md": "শেষে মনে রাখার মতো একটি বাক্য বলুন।",
+      "model_target": "निष्कर्ष सावधानी से लिखें।",
+      "model_bangla_pronunciation": "নিষ্কর্ষ সাভধানী সে লিখেং।",
+      "model_word_pronunciations": [
+        {
+          "target": "निष्कर्ष",
+          "bangla_pronunciation": "নিষ্কর্ষ",
+          "separator_after": " "
+        },
+        {
+          "target": "सावधानी",
+          "bangla_pronunciation": "সাভধানী",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखें।",
+          "bangla_pronunciation": "লিখেং।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "উপসংহার সতর্কভাবে লিখুন।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch168_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "Bright editorial scene in a realistic South Asian setting: researchers in a bright workspace comparing charts and notes, discussing sampling, measurement and evidence without readable labels. Medium-wide composition, warm daylight, clear focal point, practical adult-learning atmosphere. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, clear focal point, realistic South Asian context, no stereotypes."
+    },
+    {
+      "key": "ch168_target_reading_01",
+      "reading": "target_reading",
+      "subject": "Bright editorial scene in a realistic South Asian setting: two analysts reviewing a dataset on screens and checking assumptions, outliers and reproducibility. Different viewpoint from the first image, medium shot, warm natural light, uncluttered background, clear focal point. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, clear focal point, realistic South Asian context, no stereotypes."
+    }
+  ]
+}
