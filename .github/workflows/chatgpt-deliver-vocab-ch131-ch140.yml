@@ -45,11 +45,11 @@ jobs:
           repl={
           'v03904':('परिरक्षण','পরিরক্ষণ','parirakshan'),'v03907':('पुनर्संसाधन','পুনর্সংসাধন','punarsansaadhan'),
           'v03920':('कसौटी','কসৌটি','kasautee'),'v03934':('भरोसेमंदी','ভরোসেমন্দী','bharosemandee'),
-          'v03955':('प्रमाणीकरण','প্রমাণীকরণ','pramaaneekaran'),'v03965':('निजता','নিজতা','nijataa'),
+          'v03955':('प्रमाणन','প্রমাণন','pramaanan'),'v03965':('निजता','নিজতা','nijataa'),
           'v03992':('रज़ामंदी','রজামন্দী','razaamandee'),'v03993':('मतभेद','মতভেদ','matbhed'),
           'v04005':('तटस्थता','তটস্থতা','tatasthataa'),'v04011':('मियाद','মিয়াদ','miyaad'),
           'v04017':('अनुमोदन','অনুমোদন','anumodan'),'v04018':('नामंजूरी','নামঞ্জূরী','naamanzuree'),
-          'v04027':('प्रक्षेपण','প্রক্ষেপণ','prakshepan'),'v04063':('पर्यवेक्षण','পর্যবেক্ষণ','paryavekshan'),
+          'v04027':('प्रक्षेपण','প্রক্ষেপণ','prakshepan'),'v04063':('मुआयना','মুআয়না','muaayanaa'),
           'v04111':('नामांकन','নামাঙ্কন','naamaankan')}
           def whole(text,old,new,lo,hi):
               return re.sub(rf'(?<![{lo}-{hi}]){re.escape(old)}(?![{lo}-{hi}])',new,text)
@@ -122,7 +122,7 @@ jobs:
           test "$(git diff --cached --diff-filter=A --name-only | wc -l)" -eq 20
           test "$(git diff --cached --diff-filter=M --name-only | wc -l)" -eq 1
           git diff --cached --name-status
-          ts=$(TZ=Asia/Dhaka date '+%a %b %-d, %-I:%M%P')
+          ts=$(TZ=Asia/Dhaka date '+%a %b, %-I:%M%p')
           git commit -m "$ts — 1 file modified, 20 files added"
           sha=$(git rev-parse HEAD)
           git push origin HEAD:content/04-easy-hindi-vocabulary-7000-words/ch131-ch140
