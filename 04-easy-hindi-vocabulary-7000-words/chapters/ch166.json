@@ -1,0 +1,3517 @@
+{
+  "chapter_id": "ch166",
+  "status": "drafted",
+  "title_target": "वित्तीय योजना और नकदी प्रबंधन",
+  "title_bangla_pronunciation": "ভিত্তীয যোজনা অউর নকদী প্রবংধন",
+  "title_word_pronunciations": [
+    {
+      "target": "वित्तीय",
+      "bangla_pronunciation": "ভিত্তীয",
+      "separator_after": " "
+    },
+    {
+      "target": "योजना",
+      "bangla_pronunciation": "যোজনা",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "separator_after": " "
+    },
+    {
+      "target": "नकदी",
+      "bangla_pronunciation": "নকদী",
+      "separator_after": " "
+    },
+    {
+      "target": "प्रबंधन",
+      "bangla_pronunciation": "প্রবংধন",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "আর্থিক পরিকল্পনা ও নগদ অর্থ ব্যবস্থাপনা",
+  "goal_bengali_md": "ব্যক্তিগত বা ছোট ব্যবসার নগদ প্রবাহ, ব্যয় ও আর্থিক ঝুঁকি নিয়ে দরকারি বি২-স্তরের শব্দ, বাক্যাংশ, ছোট পাঠ এবং বলার অনুশীলন।",
+  "sentences": [
+    {
+      "id": "ch166_s01",
+      "target": "नकदी-प्रवाह और कार्यशील-पूँजी इस विषय में महत्वपूर्ण हैं।",
+      "romanization": "nakadii-pravaaha aura kaaryashiila-puunjii isa vishaya men mahatvapuurna hain।",
+      "bangla_pronunciation": "নকদী-প্রভাহ অউর কার্যশীল-পূঁজী ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "नकदी-प्रवाह",
+          "bangla_pronunciation": "নকদী-প্রভাহ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "कार्यशील-पूँजी",
+          "bangla_pronunciation": "কার্যশীল-পূঁজী",
+          "separator_after": " "
+        },
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "विषय",
+          "bangla_pronunciation": "ভিষয়",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "महत्वपूर्ण",
+          "bangla_pronunciation": "মহত্বপূর্ণ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নগদ অর্থের প্রবাহ ও কার্যকর মূলধন—দুটিই এই বিষয়ে গুরুত্বপূর্ণ।"
+    },
+    {
+      "id": "ch166_s02",
+      "target": "लाभ-सीमा के साथ वित्तीय-देयता पर भी ध्यान देना चाहिए।",
+      "romanization": "laabha-siimaa ke saatha vittiiya-deyataa para bhii dhyaana denaa chaahie।",
+      "bangla_pronunciation": "লাভ-সীমা কে সাথ ভিত্তীয-দেযতা পর ভী ধ্যান দেনা চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "लाभ-सीमा",
+          "bangla_pronunciation": "লাভ-সীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "वित्तीय-देयता",
+          "bangla_pronunciation": "ভিত্তীয-দেযতা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "देना",
+          "bangla_pronunciation": "দেনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লাভের সীমা-এর সঙ্গে আর্থিক দায়-এর দিকেও মনোযোগ দেওয়া উচিত।"
+    },
+    {
+      "id": "ch166_s03",
+      "target": "अगर तरलता-स्थिति से जुड़ा मामला हो, तो खर्च का रिकॉर्ड रखें।",
+      "romanization": "agara taralataa-sthiti se judaा maamalaa ho, to kharcha kaa rikorda rakhen।",
+      "bangla_pronunciation": "অগর তরলতা-স্থিতি সে জুডা মামলা হো, তো খর্চ কা রিকোর্ড রখেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "अगर",
+          "bangla_pronunciation": "অগর",
+          "separator_after": " "
+        },
+        {
+          "target": "तरलता-स्थिति",
+          "bangla_pronunciation": "তরলতা-স্থিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़ा",
+          "bangla_pronunciation": "জুডা",
+          "separator_after": " "
+        },
+        {
+          "target": "मामला",
+          "bangla_pronunciation": "মামলা",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "खर्च",
+          "bangla_pronunciation": "খর্চ",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "रिकॉर्ड",
+          "bangla_pronunciation": "রিকোর্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তারল্যের অবস্থা-সংক্রান্ত বিষয় হলে খরচের রেকর্ড রাখুন।"
+    },
+    {
+      "id": "ch166_s04",
+      "target": "बजट-विचलन और नकद-आरक्षित को साथ देखकर निर्णय लें।",
+      "romanization": "bajata-vichalana aura nakada-aarakshita ko saatha dekhakara nirnaya len।",
+      "bangla_pronunciation": "বজট-ভিচলন অউর নকদ-আরক্ষিত কো সাথ দেখকর নির্ণয় লেং।",
+      "word_pronunciations": [
+        {
+          "target": "बजट-विचलन",
+          "bangla_pronunciation": "বজট-ভিচলন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "नकद-आरक्षित",
+          "bangla_pronunciation": "নকদ-আরক্ষিত",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "देखकर",
+          "bangla_pronunciation": "দেখকর",
+          "separator_after": " "
+        },
+        {
+          "target": "निर्णय",
+          "bangla_pronunciation": "নির্ণয়",
+          "separator_after": " "
+        },
+        {
+          "target": "लें।",
+          "bangla_pronunciation": "লেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাজেটের বিচ্যুতি ও নগদ রিজার্ভ একসঙ্গে দেখে সিদ্ধান্ত নিন।"
+    },
+    {
+      "id": "ch166_s05",
+      "target": "भुगतान-चक्र और उधार-लागत की नियमित जाँच जरूरी है।",
+      "romanization": "bhugataana-chakra aura udhaara-laagata kii niyamita jaancha jaruurii hai।",
+      "bangla_pronunciation": "ভুগতান-চক্র অউর উধার-লাগত কী নিয়মিত জাঁচ জরূরী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "भुगतान-चक्र",
+          "bangla_pronunciation": "ভুগতান-চক্র",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "उधार-लागत",
+          "bangla_pronunciation": "উধার-লাগত",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँच",
+          "bangla_pronunciation": "জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্ট চক্র ও ঋণের খরচ নিয়মিত যাচাই করা জরুরি।"
+    },
+    {
+      "id": "ch166_s06",
+      "target": "ब्याज-जोखिम पर ध्यान दें और शर्तें पढ़कर सहमत हों।",
+      "romanization": "byaaja-jokhima para dhyaana den aura sharten padhakara sahamata hon।",
+      "bangla_pronunciation": "ব্যাজ-জোখিম পর ধ্যান দেঁ অউর শর্তেং পঢকর সহমত হোং।",
+      "word_pronunciations": [
+        {
+          "target": "ब्याज-जोखिम",
+          "bangla_pronunciation": "ব্যাজ-জোখিম",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें",
+          "bangla_pronunciation": "দেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "शर्तें",
+          "bangla_pronunciation": "শর্তেং",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़कर",
+          "bangla_pronunciation": "পঢকর",
+          "separator_after": " "
+        },
+        {
+          "target": "सहमत",
+          "bangla_pronunciation": "সহমত",
+          "separator_after": " "
+        },
+        {
+          "target": "हों।",
+          "bangla_pronunciation": "হোং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সুদের ঝুঁকি-এর দিকে মনোযোগ দিন এবং শর্ত পড়ে সম্মত হন।"
+    },
+    {
+      "id": "ch166_s07",
+      "target": "ऋण-अनुपात और निवेश-विविधीकरण को एक साथ समझना उपयोगी है।",
+      "romanization": "rina-anupaata aura nivesha-vividhiikarana ko eka saatha samajhanaa upayogii hai।",
+      "bangla_pronunciation": "ঋণ-অনুপাত অউর নিভেশ-ভিভিধীকরণ কো এক সাথ সমঝনা উপযোগী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "ऋण-अनुपात",
+          "bangla_pronunciation": "ঋণ-অনুপাত",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "निवेश-विविधीकरण",
+          "bangla_pronunciation": "নিভেশ-ভিভিধীকরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "समझना",
+          "bangla_pronunciation": "সমঝনা",
+          "separator_after": " "
+        },
+        {
+          "target": "उपयोगी",
+          "bangla_pronunciation": "উপযোগী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঋণের অনুপাত ও বিনিয়োগে বৈচিত্র্য একসঙ্গে বোঝা উপকারী।"
+    },
+    {
+      "id": "ch166_s08",
+      "target": "संपत्ति-मूल्यह्रास के साथ कर-दायित्व पर भी ध्यान दें।",
+      "romanization": "sanpatti-muulyahraasa ke saatha kara-daayitva para bhii dhyaana den।",
+      "bangla_pronunciation": "সংপত্তি-মূল্যহ্রাস কে সাথ কর-দাযিত্ভ পর ভী ধ্যান দেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "संपत्ति-मूल्यह्रास",
+          "bangla_pronunciation": "সংপত্তি-মূল্যহ্রাস",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "कर-दायित्व",
+          "bangla_pronunciation": "কর-দাযিত্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সম্পদের মূল্যহ্রাস-এর সঙ্গে করদায়-এর দিকেও মনোযোগ দিন।"
+    },
+    {
+      "id": "ch166_s09",
+      "target": "जब वित्तीय-कुशन जरूरी हो, तो जोखिम क्षमता समझें।",
+      "romanization": "jaba vittiiya-kushana jaruurii ho, to jokhima kshamataa samajhen।",
+      "bangla_pronunciation": "জব ভিত্তীয-কুশন জরূরী হো, তো জোখিম ক্ষমতা সমঝেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "जब",
+          "bangla_pronunciation": "জব",
+          "separator_after": " "
+        },
+        {
+          "target": "वित्तीय-कुशन",
+          "bangla_pronunciation": "ভিত্তীয-কুশন",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "जोखिम",
+          "bangla_pronunciation": "জোখিম",
+          "separator_after": " "
+        },
+        {
+          "target": "क्षमता",
+          "bangla_pronunciation": "ক্ষমতা",
+          "separator_after": " "
+        },
+        {
+          "target": "समझें।",
+          "bangla_pronunciation": "সমঝেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "যখন আর্থিক সুরক্ষা তহবিল জরুরি হয়, তখন ঝুঁকি নেওয়ার সক্ষমতা বুঝুন।"
+    },
+    {
+      "id": "ch166_s10",
+      "target": "नकदी-पूर्वानुमान और आपूर्तिकर्ता-भुगतान की प्रक्रिया स्पष्ट होनी चाहिए।",
+      "romanization": "nakadii-puurvaanumaana aura aapuurtikartaa-bhugataana kii prakriyaa spashta honii chaahie।",
+      "bangla_pronunciation": "নকদী-পূর্ভানুমান অউর আপূর্তিকর্তা-ভুগতান কী প্রক্রিযা স্পষ্ট হোনী চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "नकदी-पूर्वानुमान",
+          "bangla_pronunciation": "নকদী-পূর্ভানুমান",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "आपूर्तिकर्ता-भुगतान",
+          "bangla_pronunciation": "আপূর্তিকর্তা-ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रक्रिया",
+          "bangla_pronunciation": "প্রক্রিযা",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নগদ প্রবাহের পূর্বাভাস ও সরবরাহকারীর পেমেন্ট-এর প্রক্রিয়া পরিষ্কার হওয়া উচিত।"
+    },
+    {
+      "id": "ch166_s11",
+      "target": "बकाया-प्रबंधन की नियमित समीक्षा जरूरी है।",
+      "romanization": "bakaayaa-prabandhana kii niyamita samiikshaa jaruurii hai।",
+      "bangla_pronunciation": "বকাযা-প্রবংধন কী নিয়মিত সমীক্ষা জরূরী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "बकाया-प्रबंधन",
+          "bangla_pronunciation": "বকাযা-প্রবংধন",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বকেয়া ব্যবস্থাপনা নিয়মিত পর্যালোচনা করা জরুরি।"
+    },
+    {
+      "id": "ch166_s12",
+      "target": "मार्जिन-दबाव को स्पष्ट रूप से दर्ज करें।",
+      "romanization": "maarjina-dabaava ko spashta ruupa se darja karen।",
+      "bangla_pronunciation": "মার্জিন-দবাভ কো স্পষ্ট রূপ সে দর্জ করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "मार्जिन-दबाव",
+          "bangla_pronunciation": "মার্জিন-দবাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "रूप",
+          "bangla_pronunciation": "রূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "दर्ज",
+          "bangla_pronunciation": "দর্জ",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মার্জিনের চাপ স্পষ্টভাবে নথিভুক্ত করুন।"
+    },
+    {
+      "id": "ch166_s13",
+      "target": "मूल्य-निर्धारण का आधार स्पष्ट रूप से समझें।",
+      "romanization": "muulya-nirdhaarana kaa aadhaara spashta ruupa se samajhen।",
+      "bangla_pronunciation": "মূল্য-নির্ধারণ কা আধার স্পষ্ট রূপ সে সমঝেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "मूल्य-निर्धारण",
+          "bangla_pronunciation": "মূল্য-নির্ধারণ",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "आधार",
+          "bangla_pronunciation": "আধার",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "रूप",
+          "bangla_pronunciation": "রূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "समझें।",
+          "bangla_pronunciation": "সমঝেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মূল্য নির্ধারণ-এর ভিত্তি পরিষ্কারভাবে বুঝুন।"
+    },
+    {
+      "id": "ch166_s14",
+      "target": "मासिक हिसाब मिलाएँ।",
+      "romanization": "maasika hisaaba milaaen।",
+      "bangla_pronunciation": "মাসিক হিসাব মিলাএঁ।",
+      "word_pronunciations": [
+        {
+          "target": "मासिक",
+          "bangla_pronunciation": "মাসিক",
+          "separator_after": " "
+        },
+        {
+          "target": "हिसाब",
+          "bangla_pronunciation": "হিসাব",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाएँ।",
+          "bangla_pronunciation": "মিলাএঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মাসিক হিসাব মিলিয়ে নিন।"
+    },
+    {
+      "id": "ch166_s15",
+      "target": "पूँजीगत-व्यय के लिए जिम्मेदारी तय होनी चाहिए।",
+      "romanization": "puunjiigata-vyaya ke lie jimmedaarii taya honii chaahie।",
+      "bangla_pronunciation": "পূঁজীগত-ভ্যয কে লিয়ে জিম্মেদারী তয হোনী চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "पूँजीगत-व्यय",
+          "bangla_pronunciation": "পূঁজীগত-ভ্যয",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "जिम्मेदारी",
+          "bangla_pronunciation": "জিম্মেদারী",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মূলধনী ব্যয়-এর জন্য দায়িত্ব নির্ধারিত থাকা উচিত।"
+    },
+    {
+      "id": "ch166_s16",
+      "target": "परिचालन-व्यय के बारे में स्पष्ट जानकारी होनी चाहिए।",
+      "romanization": "parichaalana-vyaya ke baare men spashta jaanakaarii honii chaahie।",
+      "bangla_pronunciation": "পরিচালন-ভ্যয কে বারে মেঁ স্পষ্ট জানকারী হোনী চাহিয়ে।",
+      "word_pronunciations": [
+        {
+          "target": "परिचालन-व्यय",
+          "bangla_pronunciation": "পরিচালন-ভ্যয",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "बारे",
+          "bangla_pronunciation": "বারে",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিচালন ব্যয় সম্পর্কে পরিষ্কার তথ্য থাকা উচিত।"
+    },
+    {
+      "id": "ch166_s17",
+      "target": "लागत-कटौती पर नियमित निगरानी जरूरी है।",
+      "romanization": "laagata-katautii para niyamita nigaraanii jaruurii hai।",
+      "bangla_pronunciation": "লাগত-কটৌতী পর নিয়মিত নিগরানী জরূরী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "लागत-कटौती",
+          "bangla_pronunciation": "লাগত-কটৌতী",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "निगरानी",
+          "bangla_pronunciation": "নিগরানী",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খরচ কমানোর ব্যবস্থা নিয়মিত পর্যবেক্ষণ করা জরুরি।"
+    },
+    {
+      "id": "ch166_s18",
+      "target": "आय-विविधता पर समय रहते कार्रवाई करें।",
+      "romanization": "aaya-vividhataa para samaya rahate kaarravaaii karen।",
+      "bangla_pronunciation": "আয-ভিভিধতা পর সময় রহতে কার্রভাঈ করেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "आय-विविधता",
+          "bangla_pronunciation": "আয-ভিভিধতা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "रहते",
+          "bangla_pronunciation": "রহতে",
+          "separator_after": " "
+        },
+        {
+          "target": "कार्रवाई",
+          "bangla_pronunciation": "কার্রভাঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আয়ের বৈচিত্র্য নিয়ে সময়মতো পদক্ষেপ নিন।"
+    },
+    {
+      "id": "ch166_s19",
+      "target": "वित्तीय-अनुशासन पर ध्यान देना जरूरी है।",
+      "romanization": "vittiiya-anushaasana para dhyaana denaa jaruurii hai।",
+      "bangla_pronunciation": "ভিত্তীয-অনুশাসন পর ধ্যান দেনা জরূরী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "वित्तीय-अनुशासन",
+          "bangla_pronunciation": "ভিত্তীয-অনুশাসন",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "देना",
+          "bangla_pronunciation": "দেনা",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আর্থিক শৃঙ্খলা-এর দিকে মনোযোগ দেওয়া জরুরি।"
+    },
+    {
+      "id": "ch166_s20",
+      "target": "आकस्मिक निधि अलग रखें।",
+      "romanization": "aakasmika nidhi alaga rakhen।",
+      "bangla_pronunciation": "আকস্মিক নিধি অলগ রখেঁ।",
+      "word_pronunciations": [
+        {
+          "target": "आकस्मिक",
+          "bangla_pronunciation": "আকস্মিক",
+          "separator_after": " "
+        },
+        {
+          "target": "निधि",
+          "bangla_pronunciation": "নিধি",
+          "separator_after": " "
+        },
+        {
+          "target": "अलग",
+          "bangla_pronunciation": "অলগ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "জরুরি তহবিল আলাদা রাখুন।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v04951",
+      "target": "नकदी-प्रवाह",
+      "category": "word",
+      "type": "term",
+      "romanization": "nakadii-pravaaha",
+      "bangla_pronunciation": "নকদী-প্রভাহ",
+      "word_pronunciations": [
+        {
+          "target": "नकदी-प्रवाह",
+          "bangla_pronunciation": "নকদী-প্রভাহ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নগদ অর্থের প্রবাহ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s01",
+      "source_form": "नकदी-प्रवाह",
+      "example_target": "नकदी-प्रवाह और कार्यशील-पूँजी इस विषय में महत्वपूर्ण हैं।",
+      "example_bangla_pronunciation": "নকদী-প্রভাহ অউর কার্যশীল-পূঁজী ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+      "example_word_pronunciations": [
+        {
+          "target": "नकदी-प्रवाह",
+          "bangla_pronunciation": "নকদী-প্রভাহ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "कार्यशील-पूँजी",
+          "bangla_pronunciation": "কার্যশীল-পূঁজী",
+          "separator_after": " "
+        },
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "विषय",
+          "bangla_pronunciation": "ভিষয়",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "महत्वपूर्ण",
+          "bangla_pronunciation": "মহত্বপূর্ণ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নগদ অর্থের প্রবাহ ও কার্যকর মূলধন—দুটিই এই বিষয়ে গুরুত্বপূর্ণ।",
+      "synonyms": []
+    },
+    {
+      "id": "v04952",
+      "target": "कार्यशील-पूँजी",
+      "category": "word",
+      "type": "term",
+      "romanization": "kaaryashiila-puunjii",
+      "bangla_pronunciation": "কার্যশীল-পূঁজী",
+      "word_pronunciations": [
+        {
+          "target": "कार्यशील-पूँजी",
+          "bangla_pronunciation": "কার্যশীল-পূঁজী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কার্যকর মূলধন। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s01",
+      "source_form": "कार्यशील-पूँजी",
+      "example_target": "नकदी-प्रवाह और कार्यशील-पूँजी इस विषय में महत्वपूर्ण हैं।",
+      "example_bangla_pronunciation": "নকদী-প্রভাহ অউর কার্যশীল-পূঁজী ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+      "example_word_pronunciations": [
+        {
+          "target": "नकदी-प्रवाह",
+          "bangla_pronunciation": "নকদী-প্রভাহ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "कार्यशील-पूँजी",
+          "bangla_pronunciation": "কার্যশীল-পূঁজী",
+          "separator_after": " "
+        },
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "विषय",
+          "bangla_pronunciation": "ভিষয়",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "महत्वपूर्ण",
+          "bangla_pronunciation": "মহত্বপূর্ণ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নগদ অর্থের প্রবাহ ও কার্যকর মূলধন—দুটিই এই বিষয়ে গুরুত্বপূর্ণ।",
+      "synonyms": []
+    },
+    {
+      "id": "v04953",
+      "target": "लाभ-सीमा",
+      "category": "word",
+      "type": "term",
+      "romanization": "laabha-siimaa",
+      "bangla_pronunciation": "লাভ-সীমা",
+      "word_pronunciations": [
+        {
+          "target": "लाभ-सीमा",
+          "bangla_pronunciation": "লাভ-সীমা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লাভের সীমা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s02",
+      "source_form": "लाभ-सीमा",
+      "example_target": "लाभ-सीमा के साथ वित्तीय-देयता पर भी ध्यान देना चाहिए।",
+      "example_bangla_pronunciation": "লাভ-সীমা কে সাথ ভিত্তীয-দেযতা পর ভী ধ্যান দেনা চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "लाभ-सीमा",
+          "bangla_pronunciation": "লাভ-সীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "वित्तीय-देयता",
+          "bangla_pronunciation": "ভিত্তীয-দেযতা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "देना",
+          "bangla_pronunciation": "দেনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "লাভের সীমা-এর সঙ্গে আর্থিক দায়-এর দিকেও মনোযোগ দেওয়া উচিত।",
+      "synonyms": []
+    },
+    {
+      "id": "v04954",
+      "target": "वित्तीय-देयता",
+      "category": "word",
+      "type": "term",
+      "romanization": "vittiiya-deyataa",
+      "bangla_pronunciation": "ভিত্তীয-দেযতা",
+      "word_pronunciations": [
+        {
+          "target": "वित्तीय-देयता",
+          "bangla_pronunciation": "ভিত্তীয-দেযতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আর্থিক দায়। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s02",
+      "source_form": "वित्तीय-देयता",
+      "example_target": "लाभ-सीमा के साथ वित्तीय-देयता पर भी ध्यान देना चाहिए।",
+      "example_bangla_pronunciation": "লাভ-সীমা কে সাথ ভিত্তীয-দেযতা পর ভী ধ্যান দেনা চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "लाभ-सीमा",
+          "bangla_pronunciation": "লাভ-সীমা",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "वित्तीय-देयता",
+          "bangla_pronunciation": "ভিত্তীয-দেযতা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "देना",
+          "bangla_pronunciation": "দেনা",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "লাভের সীমা-এর সঙ্গে আর্থিক দায়-এর দিকেও মনোযোগ দেওয়া উচিত।",
+      "synonyms": []
+    },
+    {
+      "id": "v04955",
+      "target": "तरलता-स्थिति",
+      "category": "word",
+      "type": "term",
+      "romanization": "taralataa-sthiti",
+      "bangla_pronunciation": "তরলতা-স্থিতি",
+      "word_pronunciations": [
+        {
+          "target": "तरलता-स्थिति",
+          "bangla_pronunciation": "তরলতা-স্থিতি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তারল্যের অবস্থা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s03",
+      "source_form": "तरलता-स्थिति",
+      "example_target": "अगर तरलता-स्थिति से जुड़ा मामला हो, तो खर्च का रिकॉर्ड रखें।",
+      "example_bangla_pronunciation": "অগর তরলতা-স্থিতি সে জুডা মামলা হো, তো খর্চ কা রিকোর্ড রখেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "अगर",
+          "bangla_pronunciation": "অগর",
+          "separator_after": " "
+        },
+        {
+          "target": "तरलता-स्थिति",
+          "bangla_pronunciation": "তরলতা-স্থিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़ा",
+          "bangla_pronunciation": "জুডা",
+          "separator_after": " "
+        },
+        {
+          "target": "मामला",
+          "bangla_pronunciation": "মামলা",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "खर्च",
+          "bangla_pronunciation": "খর্চ",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "रिकॉर्ड",
+          "bangla_pronunciation": "রিকোর্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "তারল্যের অবস্থা-সংক্রান্ত বিষয় হলে খরচের রেকর্ড রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04956",
+      "target": "खर्च का रिकॉर्ड रखें",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "kharcha kaa rikorda rakhen",
+      "bangla_pronunciation": "খর্চ কা রিকোর্ড রখেঁ",
+      "word_pronunciations": [
+        {
+          "target": "खर्च",
+          "bangla_pronunciation": "খর্চ",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "रिकॉर्ड",
+          "bangla_pronunciation": "রিকোর্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें",
+          "bangla_pronunciation": "রখেঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খরচের রেকর্ড রাখুন। বাস্তব কথোপকথনে ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch166_s03",
+      "source_form": "खर्च का रिकॉर्ड रखें",
+      "example_target": "अगर तरलता-स्थिति से जुड़ा मामला हो, तो खर्च का रिकॉर्ड रखें।",
+      "example_bangla_pronunciation": "অগর তরলতা-স্থিতি সে জুডা মামলা হো, তো খর্চ কা রিকোর্ড রখেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "अगर",
+          "bangla_pronunciation": "অগর",
+          "separator_after": " "
+        },
+        {
+          "target": "तरलता-स्थिति",
+          "bangla_pronunciation": "তরলতা-স্থিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़ा",
+          "bangla_pronunciation": "জুডা",
+          "separator_after": " "
+        },
+        {
+          "target": "मामला",
+          "bangla_pronunciation": "মামলা",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "खर्च",
+          "bangla_pronunciation": "খর্চ",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "रिकॉर्ड",
+          "bangla_pronunciation": "রিকোর্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "তারল্যের অবস্থা-সংক্রান্ত বিষয় হলে খরচের রেকর্ড রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04957",
+      "target": "बजट-विचलन",
+      "category": "word",
+      "type": "term",
+      "romanization": "bajata-vichalana",
+      "bangla_pronunciation": "বজট-ভিচলন",
+      "word_pronunciations": [
+        {
+          "target": "बजट-विचलन",
+          "bangla_pronunciation": "বজট-ভিচলন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাজেটের বিচ্যুতি। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s04",
+      "source_form": "बजट-विचलन",
+      "example_target": "बजट-विचलन और नकद-आरक्षित को साथ देखकर निर्णय लें।",
+      "example_bangla_pronunciation": "বজট-ভিচলন অউর নকদ-আরক্ষিত কো সাথ দেখকর নির্ণয় লেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "बजट-विचलन",
+          "bangla_pronunciation": "বজট-ভিচলন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "नकद-आरक्षित",
+          "bangla_pronunciation": "নকদ-আরক্ষিত",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "देखकर",
+          "bangla_pronunciation": "দেখকর",
+          "separator_after": " "
+        },
+        {
+          "target": "निर्णय",
+          "bangla_pronunciation": "নির্ণয়",
+          "separator_after": " "
+        },
+        {
+          "target": "लें।",
+          "bangla_pronunciation": "লেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বাজেটের বিচ্যুতি ও নগদ রিজার্ভ একসঙ্গে দেখে সিদ্ধান্ত নিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04958",
+      "target": "नकद-आरक्षित",
+      "category": "word",
+      "type": "term",
+      "romanization": "nakada-aarakshita",
+      "bangla_pronunciation": "নকদ-আরক্ষিত",
+      "word_pronunciations": [
+        {
+          "target": "नकद-आरक्षित",
+          "bangla_pronunciation": "নকদ-আরক্ষিত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নগদ রিজার্ভ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s04",
+      "source_form": "नकद-आरक्षित",
+      "example_target": "बजट-विचलन और नकद-आरक्षित को साथ देखकर निर्णय लें।",
+      "example_bangla_pronunciation": "বজট-ভিচলন অউর নকদ-আরক্ষিত কো সাথ দেখকর নির্ণয় লেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "बजट-विचलन",
+          "bangla_pronunciation": "বজট-ভিচলন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "नकद-आरक्षित",
+          "bangla_pronunciation": "নকদ-আরক্ষিত",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "देखकर",
+          "bangla_pronunciation": "দেখকর",
+          "separator_after": " "
+        },
+        {
+          "target": "निर्णय",
+          "bangla_pronunciation": "নির্ণয়",
+          "separator_after": " "
+        },
+        {
+          "target": "लें।",
+          "bangla_pronunciation": "লেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বাজেটের বিচ্যুতি ও নগদ রিজার্ভ একসঙ্গে দেখে সিদ্ধান্ত নিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04959",
+      "target": "भुगतान-चक्र",
+      "category": "word",
+      "type": "term",
+      "romanization": "bhugataana-chakra",
+      "bangla_pronunciation": "ভুগতান-চক্র",
+      "word_pronunciations": [
+        {
+          "target": "भुगतान-चक्र",
+          "bangla_pronunciation": "ভুগতান-চক্র",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্ট চক্র। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s05",
+      "source_form": "भुगतान-चक्र",
+      "example_target": "भुगतान-चक्र और उधार-लागत की नियमित जाँच जरूरी है।",
+      "example_bangla_pronunciation": "ভুগতান-চক্র অউর উধার-লাগত কী নিয়মিত জাঁচ জরূরী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "भुगतान-चक्र",
+          "bangla_pronunciation": "ভুগতান-চক্র",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "उधार-लागत",
+          "bangla_pronunciation": "উধার-লাগত",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँच",
+          "bangla_pronunciation": "জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পেমেন্ট চক্র ও ঋণের খরচ নিয়মিত যাচাই করা জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v04960",
+      "target": "उधार-लागत",
+      "category": "word",
+      "type": "term",
+      "romanization": "udhaara-laagata",
+      "bangla_pronunciation": "উধার-লাগত",
+      "word_pronunciations": [
+        {
+          "target": "उधार-लागत",
+          "bangla_pronunciation": "উধার-লাগত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঋণের খরচ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s05",
+      "source_form": "उधार-लागत",
+      "example_target": "भुगतान-चक्र और उधार-लागत की नियमित जाँच जरूरी है।",
+      "example_bangla_pronunciation": "ভুগতান-চক্র অউর উধার-লাগত কী নিয়মিত জাঁচ জরূরী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "भुगतान-चक्र",
+          "bangla_pronunciation": "ভুগতান-চক্র",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "उधार-लागत",
+          "bangla_pronunciation": "উধার-লাগত",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँच",
+          "bangla_pronunciation": "জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পেমেন্ট চক্র ও ঋণের খরচ নিয়মিত যাচাই করা জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v04961",
+      "target": "ब्याज-जोखिम",
+      "category": "word",
+      "type": "term",
+      "romanization": "byaaja-jokhima",
+      "bangla_pronunciation": "ব্যাজ-জোখিম",
+      "word_pronunciations": [
+        {
+          "target": "ब्याज-जोखिम",
+          "bangla_pronunciation": "ব্যাজ-জোখিম",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সুদের ঝুঁকি। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s06",
+      "source_form": "ब्याज-जोखिम",
+      "example_target": "ब्याज-जोखिम पर ध्यान दें और शर्तें पढ़कर सहमत हों।",
+      "example_bangla_pronunciation": "ব্যাজ-জোখিম পর ধ্যান দেঁ অউর শর্তেং পঢকর সহমত হোং।",
+      "example_word_pronunciations": [
+        {
+          "target": "ब्याज-जोखिम",
+          "bangla_pronunciation": "ব্যাজ-জোখিম",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें",
+          "bangla_pronunciation": "দেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "शर्तें",
+          "bangla_pronunciation": "শর্তেং",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़कर",
+          "bangla_pronunciation": "পঢকর",
+          "separator_after": " "
+        },
+        {
+          "target": "सहमत",
+          "bangla_pronunciation": "সহমত",
+          "separator_after": " "
+        },
+        {
+          "target": "हों।",
+          "bangla_pronunciation": "হোং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সুদের ঝুঁকি-এর দিকে মনোযোগ দিন এবং শর্ত পড়ে সম্মত হন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04962",
+      "target": "शर्तें पढ़कर सहमत हों",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "sharten padhakara sahamata hon",
+      "bangla_pronunciation": "শর্তেং পঢকর সহমত হোং",
+      "word_pronunciations": [
+        {
+          "target": "शर्तें",
+          "bangla_pronunciation": "শর্তেং",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़कर",
+          "bangla_pronunciation": "পঢকর",
+          "separator_after": " "
+        },
+        {
+          "target": "सहमत",
+          "bangla_pronunciation": "সহমত",
+          "separator_after": " "
+        },
+        {
+          "target": "हों",
+          "bangla_pronunciation": "হোং",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শর্ত পড়ে সম্মত হন। বাস্তব কথোপকথনে ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch166_s06",
+      "source_form": "शर्तें पढ़कर सहमत हों",
+      "example_target": "ब्याज-जोखिम पर ध्यान दें और शर्तें पढ़कर सहमत हों।",
+      "example_bangla_pronunciation": "ব্যাজ-জোখিম পর ধ্যান দেঁ অউর শর্তেং পঢকর সহমত হোং।",
+      "example_word_pronunciations": [
+        {
+          "target": "ब्याज-जोखिम",
+          "bangla_pronunciation": "ব্যাজ-জোখিম",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें",
+          "bangla_pronunciation": "দেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "शर्तें",
+          "bangla_pronunciation": "শর্তেং",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़कर",
+          "bangla_pronunciation": "পঢকর",
+          "separator_after": " "
+        },
+        {
+          "target": "सहमत",
+          "bangla_pronunciation": "সহমত",
+          "separator_after": " "
+        },
+        {
+          "target": "हों।",
+          "bangla_pronunciation": "হোং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সুদের ঝুঁকি-এর দিকে মনোযোগ দিন এবং শর্ত পড়ে সম্মত হন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04963",
+      "target": "ऋण-अनुपात",
+      "category": "word",
+      "type": "term",
+      "romanization": "rina-anupaata",
+      "bangla_pronunciation": "ঋণ-অনুপাত",
+      "word_pronunciations": [
+        {
+          "target": "ऋण-अनुपात",
+          "bangla_pronunciation": "ঋণ-অনুপাত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঋণের অনুপাত। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s07",
+      "source_form": "ऋण-अनुपात",
+      "example_target": "ऋण-अनुपात और निवेश-विविधीकरण को एक साथ समझना उपयोगी है।",
+      "example_bangla_pronunciation": "ঋণ-অনুপাত অউর নিভেশ-ভিভিধীকরণ কো এক সাথ সমঝনা উপযোগী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "ऋण-अनुपात",
+          "bangla_pronunciation": "ঋণ-অনুপাত",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "निवेश-विविधीकरण",
+          "bangla_pronunciation": "নিভেশ-ভিভিধীকরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "समझना",
+          "bangla_pronunciation": "সমঝনা",
+          "separator_after": " "
+        },
+        {
+          "target": "उपयोगी",
+          "bangla_pronunciation": "উপযোগী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ঋণের অনুপাত ও বিনিয়োগে বৈচিত্র্য একসঙ্গে বোঝা উপকারী।",
+      "synonyms": []
+    },
+    {
+      "id": "v04964",
+      "target": "निवेश-विविधीकरण",
+      "category": "word",
+      "type": "term",
+      "romanization": "nivesha-vividhiikarana",
+      "bangla_pronunciation": "নিভেশ-ভিভিধীকরণ",
+      "word_pronunciations": [
+        {
+          "target": "निवेश-विविधीकरण",
+          "bangla_pronunciation": "নিভেশ-ভিভিধীকরণ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিনিয়োগে বৈচিত্র্য। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s07",
+      "source_form": "निवेश-विविधीकरण",
+      "example_target": "ऋण-अनुपात और निवेश-विविधीकरण को एक साथ समझना उपयोगी है।",
+      "example_bangla_pronunciation": "ঋণ-অনুপাত অউর নিভেশ-ভিভিধীকরণ কো এক সাথ সমঝনা উপযোগী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "ऋण-अनुपात",
+          "bangla_pronunciation": "ঋণ-অনুপাত",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "निवेश-विविधीकरण",
+          "bangla_pronunciation": "নিভেশ-ভিভিধীকরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "समझना",
+          "bangla_pronunciation": "সমঝনা",
+          "separator_after": " "
+        },
+        {
+          "target": "उपयोगी",
+          "bangla_pronunciation": "উপযোগী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ঋণের অনুপাত ও বিনিয়োগে বৈচিত্র্য একসঙ্গে বোঝা উপকারী।",
+      "synonyms": []
+    },
+    {
+      "id": "v04965",
+      "target": "संपत्ति-मूल्यह्रास",
+      "category": "word",
+      "type": "term",
+      "romanization": "sanpatti-muulyahraasa",
+      "bangla_pronunciation": "সংপত্তি-মূল্যহ্রাস",
+      "word_pronunciations": [
+        {
+          "target": "संपत्ति-मूल्यह्रास",
+          "bangla_pronunciation": "সংপত্তি-মূল্যহ্রাস",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সম্পদের মূল্যহ্রাস। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s08",
+      "source_form": "संपत्ति-मूल्यह्रास",
+      "example_target": "संपत्ति-मूल्यह्रास के साथ कर-दायित्व पर भी ध्यान दें।",
+      "example_bangla_pronunciation": "সংপত্তি-মূল্যহ্রাস কে সাথ কর-দাযিত্ভ পর ভী ধ্যান দেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "संपत्ति-मूल्यह्रास",
+          "bangla_pronunciation": "সংপত্তি-মূল্যহ্রাস",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "कर-दायित्व",
+          "bangla_pronunciation": "কর-দাযিত্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সম্পদের মূল্যহ্রাস-এর সঙ্গে করদায়-এর দিকেও মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04966",
+      "target": "कर-दायित्व",
+      "category": "word",
+      "type": "term",
+      "romanization": "kara-daayitva",
+      "bangla_pronunciation": "কর-দাযিত্ভ",
+      "word_pronunciations": [
+        {
+          "target": "कर-दायित्व",
+          "bangla_pronunciation": "কর-দাযিত্ভ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "করদায়। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s08",
+      "source_form": "कर-दायित्व",
+      "example_target": "संपत्ति-मूल्यह्रास के साथ कर-दायित्व पर भी ध्यान दें।",
+      "example_bangla_pronunciation": "সংপত্তি-মূল্যহ্রাস কে সাথ কর-দাযিত্ভ পর ভী ধ্যান দেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "संपत्ति-मूल्यह्रास",
+          "bangla_pronunciation": "সংপত্তি-মূল্যহ্রাস",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "कर-दायित्व",
+          "bangla_pronunciation": "কর-দাযিত্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সম্পদের মূল্যহ্রাস-এর সঙ্গে করদায়-এর দিকেও মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04967",
+      "target": "वित्तीय-कुशन",
+      "category": "word",
+      "type": "term",
+      "romanization": "vittiiya-kushana",
+      "bangla_pronunciation": "ভিত্তীয-কুশন",
+      "word_pronunciations": [
+        {
+          "target": "वित्तीय-कुशन",
+          "bangla_pronunciation": "ভিত্তীয-কুশন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আর্থিক সুরক্ষা তহবিল। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s09",
+      "source_form": "वित्तीय-कुशन",
+      "example_target": "जब वित्तीय-कुशन जरूरी हो, तो जोखिम क्षमता समझें।",
+      "example_bangla_pronunciation": "জব ভিত্তীয-কুশন জরূরী হো, তো জোখিম ক্ষমতা সমঝেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "जब",
+          "bangla_pronunciation": "জব",
+          "separator_after": " "
+        },
+        {
+          "target": "वित्तीय-कुशन",
+          "bangla_pronunciation": "ভিত্তীয-কুশন",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "जोखिम",
+          "bangla_pronunciation": "জোখিম",
+          "separator_after": " "
+        },
+        {
+          "target": "क्षमता",
+          "bangla_pronunciation": "ক্ষমতা",
+          "separator_after": " "
+        },
+        {
+          "target": "समझें।",
+          "bangla_pronunciation": "সমঝেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "যখন আর্থিক সুরক্ষা তহবিল জরুরি হয়, তখন ঝুঁকি নেওয়ার সক্ষমতা বুঝুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04968",
+      "target": "जोखिम क्षमता समझें",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "jokhima kshamataa samajhen",
+      "bangla_pronunciation": "জোখিম ক্ষমতা সমঝেঁ",
+      "word_pronunciations": [
+        {
+          "target": "जोखिम",
+          "bangla_pronunciation": "জোখিম",
+          "separator_after": " "
+        },
+        {
+          "target": "क्षमता",
+          "bangla_pronunciation": "ক্ষমতা",
+          "separator_after": " "
+        },
+        {
+          "target": "समझें",
+          "bangla_pronunciation": "সমঝেঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঝুঁকি নেওয়ার সক্ষমতা বুঝুন। বাস্তব কথোপকথনে ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch166_s09",
+      "source_form": "जोखिम क्षमता समझें",
+      "example_target": "जब वित्तीय-कुशन जरूरी हो, तो जोखिम क्षमता समझें।",
+      "example_bangla_pronunciation": "জব ভিত্তীয-কুশন জরূরী হো, তো জোখিম ক্ষমতা সমঝেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "जब",
+          "bangla_pronunciation": "জব",
+          "separator_after": " "
+        },
+        {
+          "target": "वित्तीय-कुशन",
+          "bangla_pronunciation": "ভিত্তীয-কুশন",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "जोखिम",
+          "bangla_pronunciation": "জোখিম",
+          "separator_after": " "
+        },
+        {
+          "target": "क्षमता",
+          "bangla_pronunciation": "ক্ষমতা",
+          "separator_after": " "
+        },
+        {
+          "target": "समझें।",
+          "bangla_pronunciation": "সমঝেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "যখন আর্থিক সুরক্ষা তহবিল জরুরি হয়, তখন ঝুঁকি নেওয়ার সক্ষমতা বুঝুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04969",
+      "target": "नकदी-पूर्वानुमान",
+      "category": "word",
+      "type": "term",
+      "romanization": "nakadii-puurvaanumaana",
+      "bangla_pronunciation": "নকদী-পূর্ভানুমান",
+      "word_pronunciations": [
+        {
+          "target": "नकदी-पूर्वानुमान",
+          "bangla_pronunciation": "নকদী-পূর্ভানুমান",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নগদ প্রবাহের পূর্বাভাস। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s10",
+      "source_form": "नकदी-पूर्वानुमान",
+      "example_target": "नकदी-पूर्वानुमान और आपूर्तिकर्ता-भुगतान की प्रक्रिया स्पष्ट होनी चाहिए।",
+      "example_bangla_pronunciation": "নকদী-পূর্ভানুমান অউর আপূর্তিকর্তা-ভুগতান কী প্রক্রিযা স্পষ্ট হোনী চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "नकदी-पूर्वानुमान",
+          "bangla_pronunciation": "নকদী-পূর্ভানুমান",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "आपूर्तिकर्ता-भुगतान",
+          "bangla_pronunciation": "আপূর্তিকর্তা-ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रक्रिया",
+          "bangla_pronunciation": "প্রক্রিযা",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নগদ প্রবাহের পূর্বাভাস ও সরবরাহকারীর পেমেন্ট-এর প্রক্রিয়া পরিষ্কার হওয়া উচিত।",
+      "synonyms": []
+    },
+    {
+      "id": "v04970",
+      "target": "आपूर्तिकर्ता-भुगतान",
+      "category": "word",
+      "type": "term",
+      "romanization": "aapuurtikartaa-bhugataana",
+      "bangla_pronunciation": "আপূর্তিকর্তা-ভুগতান",
+      "word_pronunciations": [
+        {
+          "target": "आपूर्तिकर्ता-भुगतान",
+          "bangla_pronunciation": "আপূর্তিকর্তা-ভুগতান",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সরবরাহকারীর পেমেন্ট। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s10",
+      "source_form": "आपूर्तिकर्ता-भुगतान",
+      "example_target": "नकदी-पूर्वानुमान और आपूर्तिकर्ता-भुगतान की प्रक्रिया स्पष्ट होनी चाहिए।",
+      "example_bangla_pronunciation": "নকদী-পূর্ভানুমান অউর আপূর্তিকর্তা-ভুগতান কী প্রক্রিযা স্পষ্ট হোনী চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "नकदी-पूर्वानुमान",
+          "bangla_pronunciation": "নকদী-পূর্ভানুমান",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "आपूर्तिकर्ता-भुगतान",
+          "bangla_pronunciation": "আপূর্তিকর্তা-ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रक्रिया",
+          "bangla_pronunciation": "প্রক্রিযা",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নগদ প্রবাহের পূর্বাভাস ও সরবরাহকারীর পেমেন্ট-এর প্রক্রিয়া পরিষ্কার হওয়া উচিত।",
+      "synonyms": []
+    },
+    {
+      "id": "v04971",
+      "target": "बकाया-प्रबंधन",
+      "category": "word",
+      "type": "term",
+      "romanization": "bakaayaa-prabandhana",
+      "bangla_pronunciation": "বকাযা-প্রবংধন",
+      "word_pronunciations": [
+        {
+          "target": "बकाया-प्रबंधन",
+          "bangla_pronunciation": "বকাযা-প্রবংধন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বকেয়া ব্যবস্থাপনা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s11",
+      "source_form": "बकाया-प्रबंधन",
+      "example_target": "बकाया-प्रबंधन की नियमित समीक्षा जरूरी है।",
+      "example_bangla_pronunciation": "বকাযা-প্রবংধন কী নিয়মিত সমীক্ষা জরূরী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "बकाया-प्रबंधन",
+          "bangla_pronunciation": "বকাযা-প্রবংধন",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বকেয়া ব্যবস্থাপনা নিয়মিত পর্যালোচনা করা জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v04972",
+      "target": "मार्जिन-दबाव",
+      "category": "word",
+      "type": "term",
+      "romanization": "maarjina-dabaava",
+      "bangla_pronunciation": "মার্জিন-দবাভ",
+      "word_pronunciations": [
+        {
+          "target": "मार्जिन-दबाव",
+          "bangla_pronunciation": "মার্জিন-দবাভ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মার্জিনের চাপ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s12",
+      "source_form": "मार्जिन-दबाव",
+      "example_target": "मार्जिन-दबाव को स्पष्ट रूप से दर्ज करें।",
+      "example_bangla_pronunciation": "মার্জিন-দবাভ কো স্পষ্ট রূপ সে দর্জ করেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "मार्जिन-दबाव",
+          "bangla_pronunciation": "মার্জিন-দবাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "रूप",
+          "bangla_pronunciation": "রূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "दर्ज",
+          "bangla_pronunciation": "দর্জ",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "মার্জিনের চাপ স্পষ্টভাবে নথিভুক্ত করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04973",
+      "target": "मूल्य-निर्धारण",
+      "category": "word",
+      "type": "term",
+      "romanization": "muulya-nirdhaarana",
+      "bangla_pronunciation": "মূল্য-নির্ধারণ",
+      "word_pronunciations": [
+        {
+          "target": "मूल्य-निर्धारण",
+          "bangla_pronunciation": "মূল্য-নির্ধারণ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মূল্য নির্ধারণ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s13",
+      "source_form": "मूल्य-निर्धारण",
+      "example_target": "मूल्य-निर्धारण का आधार स्पष्ट रूप से समझें।",
+      "example_bangla_pronunciation": "মূল্য-নির্ধারণ কা আধার স্পষ্ট রূপ সে সমঝেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "मूल्य-निर्धारण",
+          "bangla_pronunciation": "মূল্য-নির্ধারণ",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "आधार",
+          "bangla_pronunciation": "আধার",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "रूप",
+          "bangla_pronunciation": "রূপ",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "समझें।",
+          "bangla_pronunciation": "সমঝেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "মূল্য নির্ধারণ-এর ভিত্তি পরিষ্কারভাবে বুঝুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04974",
+      "target": "मासिक हिसाब मिलाएँ",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "maasika hisaaba milaaen",
+      "bangla_pronunciation": "মাসিক হিসাব মিলাএঁ",
+      "word_pronunciations": [
+        {
+          "target": "मासिक",
+          "bangla_pronunciation": "মাসিক",
+          "separator_after": " "
+        },
+        {
+          "target": "हिसाब",
+          "bangla_pronunciation": "হিসাব",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाएँ",
+          "bangla_pronunciation": "মিলাএঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মাসিক হিসাব মিলিয়ে নিন। বাস্তব কথোপকথনে ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch166_s14",
+      "source_form": "मासिक हिसाब मिलाएँ",
+      "example_target": "मासिक हिसाब मिलाएँ।",
+      "example_bangla_pronunciation": "মাসিক হিসাব মিলাএঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "मासिक",
+          "bangla_pronunciation": "মাসিক",
+          "separator_after": " "
+        },
+        {
+          "target": "हिसाब",
+          "bangla_pronunciation": "হিসাব",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाएँ।",
+          "bangla_pronunciation": "মিলাএঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "মাসিক হিসাব মিলিয়ে নিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04975",
+      "target": "पूँजीगत-व्यय",
+      "category": "word",
+      "type": "term",
+      "romanization": "puunjiigata-vyaya",
+      "bangla_pronunciation": "পূঁজীগত-ভ্যয",
+      "word_pronunciations": [
+        {
+          "target": "पूँजीगत-व्यय",
+          "bangla_pronunciation": "পূঁজীগত-ভ্যয",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মূলধনী ব্যয়। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s15",
+      "source_form": "पूँजीगत-व्यय",
+      "example_target": "पूँजीगत-व्यय के लिए जिम्मेदारी तय होनी चाहिए।",
+      "example_bangla_pronunciation": "পূঁজীগত-ভ্যয কে লিয়ে জিম্মেদারী তয হোনী চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "पूँजीगत-व्यय",
+          "bangla_pronunciation": "পূঁজীগত-ভ্যয",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "separator_after": " "
+        },
+        {
+          "target": "जिम्मेदारी",
+          "bangla_pronunciation": "জিম্মেদারী",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "মূলধনী ব্যয়-এর জন্য দায়িত্ব নির্ধারিত থাকা উচিত।",
+      "synonyms": []
+    },
+    {
+      "id": "v04976",
+      "target": "परिचालन-व्यय",
+      "category": "word",
+      "type": "term",
+      "romanization": "parichaalana-vyaya",
+      "bangla_pronunciation": "পরিচালন-ভ্যয",
+      "word_pronunciations": [
+        {
+          "target": "परिचालन-व्यय",
+          "bangla_pronunciation": "পরিচালন-ভ্যয",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিচালন ব্যয়। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s16",
+      "source_form": "परिचालन-व्यय",
+      "example_target": "परिचालन-व्यय के बारे में स्पष्ट जानकारी होनी चाहिए।",
+      "example_bangla_pronunciation": "পরিচালন-ভ্যয কে বারে মেঁ স্পষ্ট জানকারী হোনী চাহিয়ে।",
+      "example_word_pronunciations": [
+        {
+          "target": "परिचालन-व्यय",
+          "bangla_pronunciation": "পরিচালন-ভ্যয",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "बारे",
+          "bangla_pronunciation": "বারে",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পরিচালন ব্যয় সম্পর্কে পরিষ্কার তথ্য থাকা উচিত।",
+      "synonyms": []
+    },
+    {
+      "id": "v04977",
+      "target": "लागत-कटौती",
+      "category": "word",
+      "type": "term",
+      "romanization": "laagata-katautii",
+      "bangla_pronunciation": "লাগত-কটৌতী",
+      "word_pronunciations": [
+        {
+          "target": "लागत-कटौती",
+          "bangla_pronunciation": "লাগত-কটৌতী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খরচ কমানোর ব্যবস্থা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s17",
+      "source_form": "लागत-कटौती",
+      "example_target": "लागत-कटौती पर नियमित निगरानी जरूरी है।",
+      "example_bangla_pronunciation": "লাগত-কটৌতী পর নিয়মিত নিগরানী জরূরী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "लागत-कटौती",
+          "bangla_pronunciation": "লাগত-কটৌতী",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमित",
+          "bangla_pronunciation": "নিয়মিত",
+          "separator_after": " "
+        },
+        {
+          "target": "निगरानी",
+          "bangla_pronunciation": "নিগরানী",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "খরচ কমানোর ব্যবস্থা নিয়মিত পর্যবেক্ষণ করা জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v04978",
+      "target": "आय-विविधता",
+      "category": "word",
+      "type": "term",
+      "romanization": "aaya-vividhataa",
+      "bangla_pronunciation": "আয-ভিভিধতা",
+      "word_pronunciations": [
+        {
+          "target": "आय-विविधता",
+          "bangla_pronunciation": "আয-ভিভিধতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আয়ের বৈচিত্র্য। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s18",
+      "source_form": "आय-विविधता",
+      "example_target": "आय-विविधता पर समय रहते कार्रवाई करें।",
+      "example_bangla_pronunciation": "আয-ভিভিধতা পর সময় রহতে কার্রভাঈ করেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "आय-विविधता",
+          "bangla_pronunciation": "আয-ভিভিধতা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "समय",
+          "bangla_pronunciation": "সময়",
+          "separator_after": " "
+        },
+        {
+          "target": "रहते",
+          "bangla_pronunciation": "রহতে",
+          "separator_after": " "
+        },
+        {
+          "target": "कार्रवाई",
+          "bangla_pronunciation": "কার্রভাঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আয়ের বৈচিত্র্য নিয়ে সময়মতো পদক্ষেপ নিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v04979",
+      "target": "वित्तीय-अनुशासन",
+      "category": "word",
+      "type": "term",
+      "romanization": "vittiiya-anushaasana",
+      "bangla_pronunciation": "ভিত্তীয-অনুশাসন",
+      "word_pronunciations": [
+        {
+          "target": "वित्तीय-अनुशासन",
+          "bangla_pronunciation": "ভিত্তীয-অনুশাসন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আর্থিক শৃঙ্খলা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch166_s19",
+      "source_form": "वित्तीय-अनुशासन",
+      "example_target": "वित्तीय-अनुशासन पर ध्यान देना जरूरी है।",
+      "example_bangla_pronunciation": "ভিত্তীয-অনুশাসন পর ধ্যান দেনা জরূরী হ্যায়।",
+      "example_word_pronunciations": [
+        {
+          "target": "वित्तीय-अनुशासन",
+          "bangla_pronunciation": "ভিত্তীয-অনুশাসন",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "देना",
+          "bangla_pronunciation": "দেনা",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আর্থিক শৃঙ্খলা-এর দিকে মনোযোগ দেওয়া জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v04980",
+      "target": "आकस्मिक निधि अलग रखें",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "aakasmika nidhi alaga rakhen",
+      "bangla_pronunciation": "আকস্মিক নিধি অলগ রখেঁ",
+      "word_pronunciations": [
+        {
+          "target": "आकस्मिक",
+          "bangla_pronunciation": "আকস্মিক",
+          "separator_after": " "
+        },
+        {
+          "target": "निधि",
+          "bangla_pronunciation": "নিধি",
+          "separator_after": " "
+        },
+        {
+          "target": "अलग",
+          "bangla_pronunciation": "অলগ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें",
+          "bangla_pronunciation": "রখেঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "জরুরি তহবিল আলাদা রাখুন। বাস্তব কথোপকথনে ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch166_s20",
+      "source_form": "आकस्मिक निधि अलग रखें",
+      "example_target": "आकस्मिक निधि अलग रखें।",
+      "example_bangla_pronunciation": "আকস্মিক নিধি অলগ রখেঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "आकस्मिक",
+          "bangla_pronunciation": "আকস্মিক",
+          "separator_after": " "
+        },
+        {
+          "target": "निधि",
+          "bangla_pronunciation": "নিধি",
+          "separator_after": " "
+        },
+        {
+          "target": "अलग",
+          "bangla_pronunciation": "অলগ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "জরুরি তহবিল আলাদা রাখুন।",
+      "synonyms": []
+    }
+  ],
+  "bridge_reading": {
+    "mode": "article",
+    "title_bengali": "আর্থিক পরিকল্পনা ও নগদ অর্থ ব্যবস্থাপনা: ব্যবহারিক পাঠ",
+    "scene_summary": "ব্যক্তিগত বা ছোট ব্যবসার নগদ প্রবাহ, ব্যয় ও আর্থিক ঝুঁকি নিয়ে চারটি সংক্ষিপ্ত ব্যবহারিক মুহূর্তের পাঠ।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "ব্যক্তিগত বা ছোট ব্যবসার নগদ প্রবাহ, ব্যয় ও আর্থিক ঝুঁকি নিয়ে একটি ব্যবহারিক আলোচনায় প্রথমে বলা হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "नकदी-प्रवाह और कार्यशील-पूँजी इस विषय में महत्वपूर्ण हैं।",
+        "bangla_pronunciation": "নকদী-প্রভাহ অউর কার্যশীল-পূঁজী ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+        "word_pronunciations": [
+          {
+            "target": "नकदी-प्रवाह",
+            "bangla_pronunciation": "নকদী-প্রভাহ",
+            "separator_after": " "
+          },
+          {
+            "target": "और",
+            "bangla_pronunciation": "অউর",
+            "separator_after": " "
+          },
+          {
+            "target": "कार्यशील-पूँजी",
+            "bangla_pronunciation": "কার্যশীল-পূঁজী",
+            "separator_after": " "
+          },
+          {
+            "target": "इस",
+            "bangla_pronunciation": "ইস",
+            "separator_after": " "
+          },
+          {
+            "target": "विषय",
+            "bangla_pronunciation": "ভিষয়",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "महत्वपूर्ण",
+            "bangla_pronunciation": "মহত্বপূর্ণ",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যাঁয়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " এরপর আরেকটি গুরুত্বপূর্ণ পদক্ষেপ হিসেবে বলা হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "ब्याज-जोखिम पर ध्यान दें और शर्तें पढ़कर सहमत हों।",
+        "bangla_pronunciation": "ব্যাজ-জোখিম পর ধ্যান দেঁ অউর শর্তেং পঢকর সহমত হোং।",
+        "word_pronunciations": [
+          {
+            "target": "ब्याज-जोखिम",
+            "bangla_pronunciation": "ব্যাজ-জোখিম",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "separator_after": " "
+          },
+          {
+            "target": "ध्यान",
+            "bangla_pronunciation": "ধ্যান",
+            "separator_after": " "
+          },
+          {
+            "target": "दें",
+            "bangla_pronunciation": "দেঁ",
+            "separator_after": " "
+          },
+          {
+            "target": "और",
+            "bangla_pronunciation": "অউর",
+            "separator_after": " "
+          },
+          {
+            "target": "शर्तें",
+            "bangla_pronunciation": "শর্তেং",
+            "separator_after": " "
+          },
+          {
+            "target": "पढ़कर",
+            "bangla_pronunciation": "পঢকর",
+            "separator_after": " "
+          },
+          {
+            "target": "सहमत",
+            "bangla_pronunciation": "সহমত",
+            "separator_after": " "
+          },
+          {
+            "target": "हों।",
+            "bangla_pronunciation": "হোং।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " সিদ্ধান্ত নেওয়ার আগে সবাই মনে রাখল: "
+      },
+      {
+        "kind": "target",
+        "target": "मासिक हिसाब मिलाएँ।",
+        "bangla_pronunciation": "মাসিক হিসাব মিলাএঁ।",
+        "word_pronunciations": [
+          {
+            "target": "मासिक",
+            "bangla_pronunciation": "মাসিক",
+            "separator_after": " "
+          },
+          {
+            "target": "हिसाब",
+            "bangla_pronunciation": "হিসাব",
+            "separator_after": " "
+          },
+          {
+            "target": "मिलाएँ।",
+            "bangla_pronunciation": "মিলাএঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " শেষে করণীয়টি সংক্ষেপে বলা হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "आकस्मिक निधि अलग रखें।",
+        "bangla_pronunciation": "আকস্মিক নিধি অলগ রখেঁ।",
+        "word_pronunciations": [
+          {
+            "target": "आकस्मिक",
+            "bangla_pronunciation": "আকস্মিক",
+            "separator_after": " "
+          },
+          {
+            "target": "निधि",
+            "bangla_pronunciation": "নিধি",
+            "separator_after": " "
+          },
+          {
+            "target": "अलग",
+            "bangla_pronunciation": "অলগ",
+            "separator_after": " "
+          },
+          {
+            "target": "रखें।",
+            "bangla_pronunciation": "রখেঁ।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "ব্যক্তিগত বা ছোট ব্যবসার নগদ প্রবাহ, ব্যয় ও আর্থিক ঝুঁকি নিয়ে একটি ব্যবহারিক আলোচনায় প্রথমে বলা হলো: **नकदी\\-प्रवाह** (নকদী\\-প্রভাহ) **और** (অউর) **कार्यशील\\-पूँजी** (কার্যশীল\\-পূঁজী) **इस** (ইস) **विषय** (ভিষয়) **में** (মেঁ) **महत्वपूर्ण** (মহত্বপূর্ণ) **हैं।** (হ্যাঁয়।) এরপর আরেকটি গুরুত্বপূর্ণ পদক্ষেপ হিসেবে বলা হলো: **ब्याज\\-जोखिम** (ব্যাজ\\-জোখিম) **पर** (পর) **ध्यान** (ধ্যান) **दें** (দেঁ) **और** (অউর) **शर्तें** (শর্তেং) **पढ़कर** (পঢকর) **सहमत** (সহমত) **हों।** (হোং।) সিদ্ধান্ত নেওয়ার আগে সবাই মনে রাখল: **मासिक** (মাসিক) **हिसाब** (হিসাব) **मिलाएँ।** (মিলাএঁ।) শেষে করণীয়টি সংক্ষেপে বলা হলো: **आकस्मिक** (আকস্মিক) **निधि** (নিধি) **अलग** (অলগ) **रखें।** (রখেঁ।)"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "আর্থিক পরিকল্পনা ও নগদ অর্থ ব্যবস্থাপনা: হিন্দি অনুশীলন",
+    "scene_summary": "একই বিষয়ের অন্য একটি পরিস্থিতিতে পাঁচটি ছোট হিন্দি বাক্য।",
+    "lines": [
+      {
+        "target": "नकदी-प्रवाह महत्वपूर्ण है।",
+        "bangla_pronunciation": "নকদী-প্রভাহ মহত্বপূর্ণ হ্যায়।",
+        "word_pronunciations": [
+          {
+            "target": "नकदी-प्रवाह",
+            "bangla_pronunciation": "নকদী-প্রভাহ",
+            "separator_after": " "
+          },
+          {
+            "target": "महत्वपूर्ण",
+            "bangla_pronunciation": "মহত্বপূর্ণ",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "कार्यशील-पूँजी स्पष्ट रखें।",
+        "bangla_pronunciation": "কার্যশীল-পূঁজী স্পষ্ট রখেঁ।",
+        "word_pronunciations": [
+          {
+            "target": "कार्यशील-पूँजी",
+            "bangla_pronunciation": "কার্যশীল-পূঁজী",
+            "separator_after": " "
+          },
+          {
+            "target": "स्पष्ट",
+            "bangla_pronunciation": "স্পষ্ট",
+            "separator_after": " "
+          },
+          {
+            "target": "रखें।",
+            "bangla_pronunciation": "রখেঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "लाभ-सीमा पर ध्यान दें।",
+        "bangla_pronunciation": "লাভ-সীমা পর ধ্যান দেঁ।",
+        "word_pronunciations": [
+          {
+            "target": "लाभ-सीमा",
+            "bangla_pronunciation": "লাভ-সীমা",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "separator_after": " "
+          },
+          {
+            "target": "ध्यान",
+            "bangla_pronunciation": "ধ্যান",
+            "separator_after": " "
+          },
+          {
+            "target": "दें।",
+            "bangla_pronunciation": "দেঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "वित्तीय-देयता की जाँच करें।",
+        "bangla_pronunciation": "ভিত্তীয-দেযতা কী জাঁচ করেঁ।",
+        "word_pronunciations": [
+          {
+            "target": "वित्तीय-देयता",
+            "bangla_pronunciation": "ভিত্তীয-দেযতা",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "separator_after": " "
+          },
+          {
+            "target": "जाँच",
+            "bangla_pronunciation": "জাঁচ",
+            "separator_after": " "
+          },
+          {
+            "target": "करें।",
+            "bangla_pronunciation": "করেঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "तरलता-स्थिति पर नज़र रखें।",
+        "bangla_pronunciation": "তরলতা-স্থিতি পর নজর রখেঁ।",
+        "word_pronunciations": [
+          {
+            "target": "तरलता-स्थिति",
+            "bangla_pronunciation": "তরলতা-স্থিতি",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "separator_after": " "
+          },
+          {
+            "target": "नज़र",
+            "bangla_pronunciation": "নজর",
+            "separator_after": " "
+          },
+          {
+            "target": "रखें।",
+            "bangla_pronunciation": "রখেঁ।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "নকদী-প্রভাহ মহত্বপূর্ণ হ্যায়। কার্যশীল-পূঁজী স্পষ্ট রখেঁ। লাভ-সীমা পর ধ্যান দেঁ। ভিত্তীয-দেযতা কী জাঁচ করেঁ। তরলতা-স্থিতি পর নজর রখেঁ।",
+    "meaning_bengali_md": "নগদ অর্থের প্রবাহ গুরুত্বপূর্ণ। কার্যকর মূলধন পরিষ্কার রাখুন। লাভের সীমা-এর দিকে মনোযোগ দিন। আর্থিক দায় যাচাই করুন। তারল্যের অবস্থা-এর দিকে নজর রাখুন।"
+  },
+  "script_practice": [
+    {
+      "item_id": "devanagari_प्र",
+      "mode": "review",
+      "target": "प्र",
+      "bangla_pronunciation": "প্র",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    },
+    {
+      "item_id": "devanagari_क्र",
+      "mode": "review",
+      "target": "क्र",
+      "bangla_pronunciation": "ক্র",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    },
+    {
+      "item_id": "devanagari_त्र",
+      "mode": "review",
+      "target": "त्र",
+      "bangla_pronunciation": "ত্র",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    },
+    {
+      "item_id": "devanagari_ज्ञ",
+      "mode": "review",
+      "target": "ज्ञ",
+      "bangla_pronunciation": "জ্ঞ",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    },
+    {
+      "item_id": "devanagari_क्ष",
+      "mode": "review",
+      "target": "क्ष",
+      "bangla_pronunciation": "ক্ষ",
+      "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
+    }
+  ],
+  "number_practice": null,
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "বিষয়টি নিয়ে একটি দরকারি বাক্য বলুন।",
+      "model_target": "नकदी-प्रवाह और कार्यशील-पूँजी इस विषय में महत्वपूर्ण हैं।",
+      "model_bangla_pronunciation": "নকদী-প্রভাহ অউর কার্যশীল-পূঁজী ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+      "model_word_pronunciations": [
+        {
+          "target": "नकदी-प्रवाह",
+          "bangla_pronunciation": "নকদী-প্রভাহ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "कार्यशील-पूँजी",
+          "bangla_pronunciation": "কার্যশীল-পূঁজী",
+          "separator_after": " "
+        },
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "विषय",
+          "bangla_pronunciation": "ভিষয়",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "महत्वपूर्ण",
+          "bangla_pronunciation": "মহত্বপূর্ণ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "নগদ অর্থের প্রবাহ ও কার্যকর মূলধন—দুটিই এই বিষয়ে গুরুত্বপূর্ণ।"
+    },
+    {
+      "prompt_bengali_md": "ঝুঁকি বা সমস্যার ক্ষেত্রে কী করবেন, একটি বাক্যে বলুন।",
+      "model_target": "अगर तरलता-स्थिति से जुड़ा मामला हो, तो खर्च का रिकॉर्ड रखें।",
+      "model_bangla_pronunciation": "অগর তরলতা-স্থিতি সে জুডা মামলা হো, তো খর্চ কা রিকোর্ড রখেঁ।",
+      "model_word_pronunciations": [
+        {
+          "target": "अगर",
+          "bangla_pronunciation": "অগর",
+          "separator_after": " "
+        },
+        {
+          "target": "तरलता-स्थिति",
+          "bangla_pronunciation": "তরলতা-স্থিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़ा",
+          "bangla_pronunciation": "জুডা",
+          "separator_after": " "
+        },
+        {
+          "target": "मामला",
+          "bangla_pronunciation": "মামলা",
+          "separator_after": " "
+        },
+        {
+          "target": "हो,",
+          "bangla_pronunciation": "হো,",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "खर्च",
+          "bangla_pronunciation": "খর্চ",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "रिकॉर्ड",
+          "bangla_pronunciation": "রিকোর্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "তারল্যের অবস্থা-সংক্রান্ত বিষয় হলে খরচের রেকর্ড রাখুন।"
+    },
+    {
+      "prompt_bengali_md": "একটি নিরাপদ বা দায়িত্বশীল পদক্ষেপ বলুন।",
+      "model_target": "ब्याज-जोखिम पर ध्यान दें और शर्तें पढ़कर सहमत हों।",
+      "model_bangla_pronunciation": "ব্যাজ-জোখিম পর ধ্যান দেঁ অউর শর্তেং পঢকর সহমত হোং।",
+      "model_word_pronunciations": [
+        {
+          "target": "ब्याज-जोखिम",
+          "bangla_pronunciation": "ব্যাজ-জোখিম",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें",
+          "bangla_pronunciation": "দেঁ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "शर्तें",
+          "bangla_pronunciation": "শর্তেং",
+          "separator_after": " "
+        },
+        {
+          "target": "पढ़कर",
+          "bangla_pronunciation": "পঢকর",
+          "separator_after": " "
+        },
+        {
+          "target": "सहमत",
+          "bangla_pronunciation": "সহমত",
+          "separator_after": " "
+        },
+        {
+          "target": "हों।",
+          "bangla_pronunciation": "হোং।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "সুদের ঝুঁকি-এর দিকে মনোযোগ দিন এবং শর্ত পড়ে সম্মত হন।"
+    },
+    {
+      "prompt_bengali_md": "পরবর্তী প্রক্রিয়া সম্পর্কে একটি বাক্য বলুন।",
+      "model_target": "नकदी-पूर्वानुमान और आपूर्तिकर्ता-भुगतान की प्रक्रिया स्पष्ट होनी चाहिए।",
+      "model_bangla_pronunciation": "নকদী-পূর্ভানুমান অউর আপূর্তিকর্তা-ভুগতান কী প্রক্রিযা স্পষ্ট হোনী চাহিয়ে।",
+      "model_word_pronunciations": [
+        {
+          "target": "नकदी-पूर्वानुमान",
+          "bangla_pronunciation": "নকদী-পূর্ভানুমান",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "separator_after": " "
+        },
+        {
+          "target": "आपूर्तिकर्ता-भुगतान",
+          "bangla_pronunciation": "আপূর্তিকর্তা-ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रक्रिया",
+          "bangla_pronunciation": "প্রক্রিযা",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "होनी",
+          "bangla_pronunciation": "হোনী",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहिए।",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "নগদ প্রবাহের পূর্বাভাস ও সরবরাহকারীর পেমেন্ট-এর প্রক্রিয়া পরিষ্কার হওয়া উচিত।"
+    },
+    {
+      "prompt_bengali_md": "একটি নির্দেশ বা করণীয় বলুন।",
+      "model_target": "मासिक हिसाब मिलाएँ।",
+      "model_bangla_pronunciation": "মাসিক হিসাব মিলাএঁ।",
+      "model_word_pronunciations": [
+        {
+          "target": "मासिक",
+          "bangla_pronunciation": "মাসিক",
+          "separator_after": " "
+        },
+        {
+          "target": "हिसाब",
+          "bangla_pronunciation": "হিসাব",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाएँ।",
+          "bangla_pronunciation": "মিলাএঁ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "মাসিক হিসাব মিলিয়ে নিন।"
+    },
+    {
+      "prompt_bengali_md": "শেষে মনে রাখার মতো একটি বাক্য বলুন।",
+      "model_target": "आकस्मिक निधि अलग रखें।",
+      "model_bangla_pronunciation": "আকস্মিক নিধি অলগ রখেঁ।",
+      "model_word_pronunciations": [
+        {
+          "target": "आकस्मिक",
+          "bangla_pronunciation": "আকস্মিক",
+          "separator_after": " "
+        },
+        {
+          "target": "निधि",
+          "bangla_pronunciation": "নিধি",
+          "separator_after": " "
+        },
+        {
+          "target": "अलग",
+          "bangla_pronunciation": "অলগ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেঁ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "জরুরি তহবিল আলাদা রাখুন।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch166_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "Bright editorial scene in a realistic South Asian setting: a small-business owner and accountant reviewing cash flow, invoices and expense categories on a laptop in a bright office. Medium-wide composition, warm daylight, clear focal point, practical adult-learning atmosphere. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, clear focal point, realistic South Asian context, no stereotypes."
+    },
+    {
+      "key": "ch166_target_reading_01",
+      "reading": "target_reading",
+      "subject": "Bright editorial scene in a realistic South Asian setting: an adult at home dividing money among savings, emergency funds and planned expenses using envelopes and a calculator. Different viewpoint from the first image, medium shot, warm natural light, uncluttered background, clear focal point. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, clear focal point, realistic South Asian context, no stereotypes."
+    }
+  ]
+}
