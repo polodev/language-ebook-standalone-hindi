@@ -1,4 +1,4 @@
-name: Diagnose baseline validator state for vocabulary delivery
+name: Deliver vocabulary chapters 201-210 to PR branch
 
 on:
   push:
@@ -8,16 +8,25 @@ on:
       - '.github/transfer/ch201-210/READY'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  diagnose:
+  deliver:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Check exact main before requested payload
+
+      - name: Reconstruct payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .github/transfer/ch201-210/ch201-210.part-* | base64 -d > /tmp/ch201-210.tar.xz
+          echo 'f104a7f1c85ba4d9c195cdb5e387c4aabf58908a155f379b3b3af231afa1f42f  /tmp/ch201-210.tar.xz' | sha256sum -c -
+          xz -dc /tmp/ch201-210.tar.xz > /tmp/ch201-210.tar
+
+      - name: Patch and validate requested range
         shell: bash
         env:
           EXPECTED_MAIN: 9dbdc14b189c0d9094d3502ac616da544d24dfb1
@@ -26,25 +35,118 @@ jobs:
           set -euo pipefail
           git fetch origin main
           test "$(git rev-parse origin/main)" = "$EXPECTED_MAIN"
-          git checkout -B baseline origin/main
+          git checkout -B delivery origin/main
+          cp "$BOOK/authoring-progress.json" /tmp/prior-progress.json
+
+          # Confirm and record the pre-existing global validator failure before adding this batch.
           set +e
-          python3 scripts/manage.py validate --book "$BOOK" >/tmp/main-validator.out 2>&1
-          rc=$?
+          python3 scripts/manage.py validate --book "$BOOK" >/tmp/baseline-validator.out 2>&1
+          baseline_rc=$?
           set -e
-          echo "MAIN_VALIDATOR_RC=$rc"
-          cat /tmp/main-validator.out
+          test "$baseline_rc" -ne 0
+          grep -q 'Duplicate target across vocabulary rosters' /tmp/baseline-validator.out
+          cat /tmp/baseline-validator.out
+
+          tar -xf /tmp/ch201-210.tar -C "$BOOK"
+
           python3 - <<'PY'
           import json, unicodedata
           from collections import defaultdict
           from pathlib import Path
-          root=Path('04-easy-hindi-vocabulary-7000-words/rosters')
+          root=Path('04-easy-hindi-vocabulary-7000-words')
+          fixes=[
+            ('ch201','v06011','समयसीमा','मियाद','সমযসীমা','মিয়াদ','smysiimaa','miyaad'),
+            ('ch201','v06021','उत्तरदायित्व','दायित्वबोध','উত্তরদাযিত্঵','দায়িত্ববোধ','uttrdaayitv','daayitvabodh'),
+            ('ch203','v06082','सत्यापन','तथ्य-पुष्टि','সত্যাপন','তথ্য-পুষ্টি','styaapn','tathya-pushti'),
+            ('ch203','v06085','निष्पक्षता','पक्षपातहीनता','নিষ্পক্ষতা','পক্ষপাতহীনতা','nisspksstaa','pakshpaatheenataa'),
+            ('ch205','v06137','पूर्वानुमान','प्राक्कलन','পূর্঵ানুমান','প্রাক্কলন','puurvaanumaan','praakkalan'),
+            ('ch207','v06195','पुनर्चक्रण','पुनरुपयोग','পুনর্চক্রণ','পুনরুপযোগ','punrckrnn','punarupayog'),
+          ]
+          def rep(v,pairs):
+            if isinstance(v,dict): return {k:rep(x,pairs) for k,x in v.items()}
+            if isinstance(v,list): return [rep(x,pairs) for x in v]
+            if isinstance(v,str):
+              for a,b in pairs: v=v.replace(a,b)
+            return v
+          by={}
+          for ch,vid,oh,nh,ob,nb,orom,nrom in fixes:
+            by.setdefault(ch,[]).append((vid,oh,nh,ob,nb,orom,nrom))
+          for ch,fs in by.items():
+            cp=root/'chapters'/f'{ch}.json'; rp=root/'rosters'/f'{ch}.json'
+            c=json.loads(cp.read_text(encoding='utf-8')); r=json.loads(rp.read_text(encoding='utf-8'))
+            pairs=[]
+            for _,oh,nh,ob,nb,orom,nrom in fs: pairs += [(oh,nh),(ob,nb),(orom,nrom)]
+            c=rep(c,pairs); r=rep(r,[(oh,nh) for _,oh,nh,*_ in fs])
+            cp.write_text(json.dumps(c,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+            rp.write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           def norm(t): return ' '.join(unicodedata.normalize('NFC',t).casefold().split()).strip('.,!?।。！？')
           seen=defaultdict(list)
-          for p in sorted(root.glob('ch*.json')):
-              d=json.loads(p.read_text(encoding='utf-8'))
-              for x in d.get('items',[]):
-                  if x.get('target'): seen[norm(x['target'])].append((x['target'],p.name,x.get('id')))
-          ds=[(k,v) for k,v in seen.items() if len(v)>1]
-          print('MAIN_DUPLICATE_COUNT',len(ds))
-          for k,v in ds: print('MAIN_DUPLICATE',repr(k),v)
+          for p in sorted((root/'rosters').glob('ch*.json')):
+            d=json.loads(p.read_text(encoding='utf-8'))
+            for x in d.get('items',[]):
+              if x.get('target'): seen[norm(x['target'])].append((p.name,x.get('id')))
+          conflicts=[(k,v) for k,v in seen.items() if len(v)>1 and any(201<=int(n[2:5])<=210 for n,_ in v)]
+          assert not conflicts, conflicts
           PY
+
+          # Run the repository's actual validator against only the assigned range, because main's
+          # 516 pre-existing cross-roster duplicates make the global partial validator fail before
+          # it can assess this batch.
+          mkdir -p /tmp/base-rosters /tmp/base-chapters
+          for f in "$BOOK"/rosters/ch*.json; do
+            b=$(basename "$f"); n=${b#ch}; n=${n%.json};
+            if [ "$n" -lt 201 ] || [ "$n" -gt 210 ]; then mv "$f" /tmp/base-rosters/; fi
+          done
+          for f in "$BOOK"/chapters/ch*.json; do
+            b=$(basename "$f"); n=${b#ch}; n=${n%.json};
+            if [ "$n" -lt 201 ] || [ "$n" -gt 210 ]; then mv "$f" /tmp/base-chapters/; fi
+          done
+          range_output=$(python3 scripts/manage.py validate --book "$BOOK")
+          printf '%s\n' "$range_output"
+          mv /tmp/base-rosters/* "$BOOK"/rosters/ 2>/dev/null || true
+          mv /tmp/base-chapters/* "$BOOK"/chapters/ 2>/dev/null || true
+
+          RANGE_OUTPUT="$range_output" python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          p=Path('04-easy-hindi-vocabulary-7000-words/authoring-progress.json')
+          data=json.loads(p.read_text(encoding='utf-8'))
+          data['base_main_sha']='9dbdc14b189c0d9094d3502ac616da544d24dfb1'
+          data['preserved_prior_progress_checkpoint']=json.loads(Path('/tmp/prior-progress.json').read_text(encoding='utf-8'))
+          checks=data.setdefault('checks_performed',[])
+          checks.append({'check':'duplicate_target_resolution','result':'passed','details':'Resolved all target collisions involving ch201-ch210; verified no normalized duplicate target remains involving the requested range.'})
+          checks.append({'check':'repository_validator_baseline','result':'blocked_by_preexisting_main','details':'Exact main fails before this batch with: Duplicate target across vocabulary rosters. Baseline scan found 516 duplicate normalized targets in existing rosters.'})
+          checks.append({'check':'requested_range_repository_validator','result':'passed','command':'python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words','details':'Ran the repository validator on an isolated view containing only ch201-ch210 source/roster files. '+os.environ['RANGE_OUTPUT'].strip()})
+          data['remaining_issues']=['Global book validator on base main is already blocked by 516 pre-existing duplicate roster targets outside this assignment.','Chapter status remains drafted; publication and independent editorial review are not assessed.']
+          data['git_delivery']={'status':'validated_requested_range_ready_for_pr','target_branch':'content/04-easy-hindi-vocabulary-7000-words/ch201-ch210','base_main_sha':'9dbdc14b189c0d9094d3502ac616da544d24dfb1','method':'Byte-exact payload reconstruction; requested-range validation with pre-existing global main failure recorded; no force push.'}
+          p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+
+      - name: Commit and push dedicated delivery branch
+        shell: bash
+        env:
+          BOOK: 04-easy-hindi-vocabulary-7000-words
+          TARGET_BRANCH: content/04-easy-hindi-vocabulary-7000-words/ch201-ch210
+        run: |
+          set -euo pipefail
+          git config user.name "polodev"
+          git config user.email "polodev10@gmail.com"
+          for n in {201..210}; do
+            git add "$(printf '%s/chapters/ch%03d.json' "$BOOK" "$n")"
+            git add "$(printf '%s/rosters/ch%03d.json' "$BOOK" "$n")"
+          done
+          git add "$BOOK/authoring-progress.json"
+          test "$(git diff --cached --name-only | wc -l)" -eq 21
+          test "$(git diff --cached --diff-filter=A --name-only | wc -l)" -eq 20
+          test "$(git diff --cached --diff-filter=M --name-only | wc -l)" -eq 1
+          test -z "$(git diff --cached --diff-filter=DR --name-only)"
+          git diff --cached --name-status
+          added=$(git diff --cached --diff-filter=A --name-only | wc -l)
+          modified=$(git diff --cached --diff-filter=M --name-only | wc -l)
+          ts=$(TZ=Asia/Dhaka date '+%Y-%m-%d %H:%M +06:00')
+          git commit -m "$ts | vocabulary ch201-ch210 | ${added} files added, ${modified} file modified"
+          commit_sha=$(git rev-parse HEAD)
+          git push origin "HEAD:$TARGET_BRANCH"
+          git fetch origin "$TARGET_BRANCH"
+          test "$(git rev-parse FETCH_HEAD)" = "$commit_sha"
+          echo "DELIVERY_COMMIT=$commit_sha"
