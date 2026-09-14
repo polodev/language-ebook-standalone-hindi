@@ -20,33 +20,23 @@ jobs:
           echo '5cab2ba8418d656adf8dbb8a857705d84028fcaccccfbc9412a1592081551073  .chatgpt-tmp/generate_211_220.py' | sha256sum -c -
       - name: Generate
         run: python3 .chatgpt-tmp/generate_211_220.py
-      - name: List all collisions
+      - name: Show colliding entry contexts
         shell: bash
         run: |
           python3 - <<'PY'
-          import json, unicodedata
+          import json
           from pathlib import Path
-          def norm(text):
-              return ' '.join(unicodedata.normalize('NFC', text).casefold().split()).strip('.,!?।。！？')
-          root=Path('04-easy-hindi-vocabulary-7000-words/rosters')
-          baseline={}
-          for p in sorted(root.glob('ch*.json')):
-              n=int(p.stem[2:])
-              if 211 <= n <= 220: continue
-              for item in json.loads(p.read_text(encoding='utf-8'))['items']:
-                  baseline.setdefault(norm(item['target']), []).append((item['target'],str(p),item['id']))
-          fresh={}; collisions=[]; within=[]
-          for n in range(211,221):
-              p=root/f'ch{n:03d}.json'
-              for item in json.loads(p.read_text(encoding='utf-8'))['items']:
-                  k=norm(item['target'])
-                  if k in fresh: within.append((item['target'],fresh[k],str(p),item['id']))
-                  fresh[k]=(str(p),item['id'])
-                  if k in baseline: collisions.append((item['target'],str(p),item['id'],baseline[k]))
-          print('NEW_VS_BASELINE_COLLISIONS',len(collisions))
-          for x in collisions: print(repr(x))
-          print('WITHIN_BATCH_DUPLICATES',len(within))
-          for x in within: print(repr(x))
-          print('FRESH_COUNT',len(fresh))
-          if collisions or within or len(fresh)!=300: raise SystemExit(1)
+          ids={'v06305','v06313','v06315','v06329','v06343','v06515'}
+          root=Path('04-easy-hindi-vocabulary-7000-words')
+          for n in (211,212,218):
+              ch=json.loads((root/'chapters'/f'ch{n:03d}.json').read_text(encoding='utf-8'))
+              bys={s['id']:s for s in ch['sentences']}
+              print('CHAPTER',n,'TITLE',ch['title_target'])
+              for v in ch['vocabulary']:
+                  if v['id'] in ids:
+                      print('ID',v['id'],'TARGET',v['target'],'MEANING',v['meaning_bengali_md'],'PRON',v['bangla_pronunciation'],'SOURCE_ID',v['source_sentence_id'])
+                      s=bys[v['source_sentence_id']]
+                      print('SOURCE_TARGET',s['target'])
+                      print('SOURCE_PRON',s['bangla_pronunciation'])
+                      print('SOURCE_MEANING',s['meaning_bengali_md'])
           PY
