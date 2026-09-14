@@ -18,45 +18,32 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Reconstruct and verify archive
+      - name: Reconstruct archive and inspect v04817
         shell: bash
         run: |
           set -euo pipefail
           cat .github/transfer-04-vocab-161-170/part-* | base64 -d > /tmp/ch161-170.tar.xz
           echo '885d26d20487b427b86e6fc6797c46a41b031132792f1166258292612330d85a  /tmp/ch161-170.tar.xz' | sha256sum -c -
           xz -dc /tmp/ch161-170.tar.xz > /tmp/ch161-170.tar
-          echo '63d5014d3392f2ef1c020cd52cd99679f1004437d0a9efe73fde133665cc7b9f  /tmp/ch161-170.tar' | sha256sum -c -
-
-      - name: Diagnose new-range duplicates
-        shell: bash
-        run: |
-          set -euo pipefail
-          git fetch origin main
-          git checkout -B diagnostic origin/main
           tar -xf /tmp/ch161-170.tar
           python3 - <<'PY'
-          import json, unicodedata
-          from collections import defaultdict
+          import json
           from pathlib import Path
-          root = Path('04-easy-hindi-vocabulary-7000-words/rosters')
-          def norm(s):
-              return ' '.join(unicodedata.normalize('NFC', s).casefold().split()).strip('.,!?।。！？')
-          seen = defaultdict(list)
-          for p in sorted(root.glob('ch*.json')):
-              d = json.loads(p.read_text(encoding='utf-8'))
-              for item in d.get('items', []):
-                  seen[norm(item['target'])].append((p.name, item['id'], item['target']))
-          found = 0
-          for group in seen.values():
-              if len(group) < 2:
-                  continue
-              new = [x for x in group if 161 <= int(x[0][2:5]) <= 170]
-              old = [x for x in group if not (161 <= int(x[0][2:5]) <= 170)]
-              if new and old:
-                  found += 1
-                  print('NEW_RANGE_DUPLICATE', json.dumps(group, ensure_ascii=False))
-          print('NEW_RANGE_DUPLICATE_GROUPS', found)
-          if found:
-              raise SystemExit(3)
+          c = json.loads(Path('04-easy-hindi-vocabulary-7000-words/chapters/ch161.json').read_text(encoding='utf-8'))
+          r = json.loads(Path('04-easy-hindi-vocabulary-7000-words/rosters/ch161.json').read_text(encoding='utf-8'))
+          item = next(x for x in c['vocabulary'] if x['id'] == 'v04817')
+          roster = next(x for x in r['items'] if x['id'] == 'v04817')
+          sent = next(x for x in c['sentences'] if x['id'] == item['source_sentence_id'])
+          print('ROSTER', json.dumps(roster, ensure_ascii=False))
+          print('VOCAB', json.dumps(item, ensure_ascii=False))
+          print('SOURCE_SENTENCE', json.dumps(sent, ensure_ascii=False))
+          old = item['target']
+          def walk(v, path='root'):
+              if isinstance(v, dict):
+                  for k, x in v.items(): walk(x, path + '.' + k)
+              elif isinstance(v, list):
+                  for i, x in enumerate(v): walk(x, f'{path}[{i}]')
+              elif isinstance(v, str) and old in v:
+                  print('OCCURRENCE', path, json.dumps(v, ensure_ascii=False))
+          walk(c)
           PY
