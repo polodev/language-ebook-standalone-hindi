@@ -23,18 +23,11 @@ jobs:
         shell: bash
         run: |
           cat \
-            .chatgpt-tmp/vocab211-220/chunk_00.b64 \
-            .chatgpt-tmp/vocab211-220/chunk_01.b64 \
-            .chatgpt-tmp/vocab211-220/chunk_02.b64 \
-            .chatgpt-tmp/vocab211-220/chunk_04.b64 \
-            .chatgpt-tmp/vocab211-220/chunk_05.b64 \
-            .chatgpt-tmp/vocab211-220/chunk_06.b64 \
-            .chatgpt-tmp/vocab211-220/chunk_07.b64 \
-            .chatgpt-tmp/vocab211-220/chunk_08.b64 \
-            .chatgpt-tmp/vocab211-220/chunk_09.b64 \
-            .chatgpt-tmp/vocab211-220/chunk_10.b64 \
-            .chatgpt-tmp/vocab211-220/chunk_11.b64 \
-            | tr -d '\r\n\t ' | base64 -d > /tmp/generate_211_220.py
+            .chatgpt-tmp/vocab211-220/gzchunk_00.b64 \
+            .chatgpt-tmp/vocab211-220/gzchunk_01.b64 \
+            .chatgpt-tmp/vocab211-220/gzchunk_02.b64 \
+            .chatgpt-tmp/vocab211-220/gzchunk_03.b64 \
+            | tr -d '\r\n\t ' | base64 -d | gzip -dc > /tmp/generate_211_220.py
           echo '5cab2ba8418d656adf8dbb8a857705d84028fcaccccfbc9412a1592081551073  /tmp/generate_211_220.py' | sha256sum -c -
           test "$(wc -c < /tmp/generate_211_220.py | tr -d ' ')" = "49789"
 
