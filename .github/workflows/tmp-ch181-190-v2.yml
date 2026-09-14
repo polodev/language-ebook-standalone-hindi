@@ -23,7 +23,7 @@ jobs:
         run: |
           cat .tmp-ch181-190-v3/payload_*.txt | base64 -d | gzip -d > /tmp/gen_ch181_190.py
           sed -i "s#OUT = Path('/mnt/data/hindi_ch181_190')#OUT = Path('.')#" /tmp/gen_ch181_190.py
-          python3 -m pip install --quiet Unidecode
+          python3 -m pip install --quiet -r requirements.txt Unidecode
       - name: Generate requested batch
         run: python3 /tmp/gen_ch181_190.py
       - name: Check new roster targets against starting main
@@ -34,7 +34,6 @@ jobs:
 
           book = Path('04-easy-hindi-vocabulary-7000-words')
           base_sha = '9dbdc14b189c0d9094d3502ac616da544d24dfb1'
-          roster_root = f'{book}/rosters/'
           paths = subprocess.check_output(
               ['git', 'ls-tree', '-r', '--name-only', base_sha, '--', f'{book}/rosters'],
               text=True,
