@@ -1,4 +1,4 @@
-name: Diagnose vocabulary chapters 201-210
+name: Inspect vocabulary chapters 201-210 conflicts
 
 on:
   push:
@@ -11,54 +11,43 @@ permissions:
   contents: read
 
 jobs:
-  diagnose:
+  inspect:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout transfer branch
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Reconstruct payload
-        shell: bash
-        run: |
-          set -euo pipefail
-          cat .github/transfer/ch201-210/ch201-210.part-* | base64 -d > /tmp/ch201-210.tar.xz
-          echo 'f104a7f1c85ba4d9c195cdb5e387c4aabf58908a155f379b3b3af231afa1f42f  /tmp/ch201-210.tar.xz' | sha256sum -c -
-          xz -dc /tmp/ch201-210.tar.xz > /tmp/ch201-210.tar
-
-      - name: Print normalized duplicate targets
+      - name: Reconstruct and inspect six entries
         shell: bash
         env:
           EXPECTED_MAIN: 9dbdc14b189c0d9094d3502ac616da544d24dfb1
           BOOK: 04-easy-hindi-vocabulary-7000-words
         run: |
           set -euo pipefail
+          cat .github/transfer/ch201-210/ch201-210.part-* | base64 -d > /tmp/ch201-210.tar.xz
+          echo 'f104a7f1c85ba4d9c195cdb5e387c4aabf58908a155f379b3b3af231afa1f42f  /tmp/ch201-210.tar.xz' | sha256sum -c -
+          xz -dc /tmp/ch201-210.tar.xz > /tmp/ch201-210.tar
           git fetch origin main
           test "$(git rev-parse origin/main)" = "$EXPECTED_MAIN"
-          git checkout -B diagnostic origin/main
+          git checkout -B inspect origin/main
           tar -xf /tmp/ch201-210.tar -C "$BOOK"
           python3 - <<'PY'
-          import json, unicodedata
-          from collections import defaultdict
+          import json
           from pathlib import Path
-
-          def normalized(text):
-              return ' '.join(unicodedata.normalize('NFC', text).casefold().split()).strip('.,!?।。！？')
-
-          root = Path('04-easy-hindi-vocabulary-7000-words/rosters')
-          seen = defaultdict(list)
-          for path in sorted(root.glob('ch*.json')):
-              data = json.loads(path.read_text(encoding='utf-8'))
-              for item in data.get('items', []):
-                  target = item.get('target')
-                  if target:
-                      seen[normalized(target)].append((target, path.name, item.get('id')))
-
-          found = 0
-          for key, uses in sorted(seen.items()):
-              if len(uses) > 1 and any(201 <= int(name[2:5]) <= 210 for _, name, _ in uses):
-                  found += 1
-                  print('DUPLICATE_TARGET', repr(key), uses)
-          print('DUPLICATE_COUNT', found)
+          ids = {
+              'v06011':'ch201', 'v06021':'ch201', 'v06082':'ch203',
+              'v06085':'ch203', 'v06137':'ch205', 'v06195':'ch207'
+          }
+          root = Path('04-easy-hindi-vocabulary-7000-words')
+          for vid, ch in ids.items():
+              chapter = json.loads((root/'chapters'/f'{ch}.json').read_text(encoding='utf-8'))
+              roster = json.loads((root/'rosters'/f'{ch}.json').read_text(encoding='utf-8'))
+              v = next(x for x in chapter['vocabulary'] if x['id']==vid)
+              r = next(x for x in roster['items'] if x['id']==vid)
+              s = next(x for x in chapter['sentences'] if x['id']==v['source_sentence_id'])
+              print('ENTRY_BEGIN', vid, ch)
+              print('ROSTER', json.dumps(r, ensure_ascii=False, separators=(',',':')))
+              print('VOCAB', json.dumps(v, ensure_ascii=False, separators=(',',':')))
+              print('SOURCE', json.dumps(s, ensure_ascii=False, separators=(',',':')))
+              print('ENTRY_END', vid)
           PY
