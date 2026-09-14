@@ -28,12 +28,12 @@ jobs:
             .chatgpt-tmp/vocab211-220/gzchunk_02.b64 \
             .chatgpt-tmp/vocab211-220/gzchunk_03.b64 \
             .chatgpt-tmp/vocab211-220/gzchunk_04.b64 \
-            | tr -d '\r\n\t ' | base64 -d | gzip -dc > /tmp/generate_211_220.py
-          echo '5cab2ba8418d656adf8dbb8a857705d84028fcaccccfbc9412a1592081551073  /tmp/generate_211_220.py' | sha256sum -c -
-          test "$(wc -c < /tmp/generate_211_220.py | tr -d ' ')" = "49789"
+            | tr -d '\r\n\t ' | base64 -d | gzip -dc > .chatgpt-tmp/generate_211_220.py
+          echo '5cab2ba8418d656adf8dbb8a857705d84028fcaccccfbc9412a1592081551073  .chatgpt-tmp/generate_211_220.py' | sha256sum -c -
+          test "$(wc -c < .chatgpt-tmp/generate_211_220.py | tr -d ' ')" = "49789"
 
       - name: Generate chapters and rosters
-        run: python3 /tmp/generate_211_220.py
+        run: python3 .chatgpt-tmp/generate_211_220.py
 
       - name: Diagnose vocabulary uniqueness
         shell: bash
