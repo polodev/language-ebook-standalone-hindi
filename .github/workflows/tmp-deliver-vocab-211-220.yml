@@ -35,6 +35,101 @@ jobs:
       - name: Generate chapters and rosters
         run: python3 .chatgpt-tmp/generate_211_220.py
 
+      - name: Apply collision-safe lexical corrections
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, runpy
+          from pathlib import Path
+
+          ns = runpy.run_path('.chatgpt-tmp/generate_211_220.py')
+          bn, roman, wp, mixed_md = ns['bn'], ns['roman'], ns['wp'], ns['mixed_md']
+          book = Path('04-easy-hindi-vocabulary-7000-words')
+          changes = {
+              211: [
+                  ('v06305', 'निष्पक्षता', 'निरपेक्षता', 'নিরপেক্ষতা', 'নিরপেক্ষতা'),
+                  ('v06313', 'पक्षपात', 'पूर्वाग्रह', 'পক্ষপাত', 'পূর্বাগ্রহ'),
+                  ('v06315', 'विश्वसनीयता', 'सत्यापनयोग्यता', 'বিশ্বাসযোগ্যতা', 'যাচাইযোগ্যতা'),
+                  ('v06329', 'असहमति', 'मतभिन्नता', 'মতভেদ', 'মতভিন্নতা'),
+              ],
+              212: [
+                  ('v06343', 'परामर्श', 'मंत्रणा', 'পরামর্শ', 'মন্ত্রণা'),
+              ],
+              218: [
+                  ('v06515', 'गोपनीयता', 'डेटा-संरक्षण', 'গোপনীয়তা', 'ডেটা সুরক্ষা'),
+              ],
+          }
+
+          def replace_all(value, replacements):
+              if isinstance(value, str):
+                  for old, new in replacements:
+                      value = value.replace(old, new)
+                  return value
+              if isinstance(value, list):
+                  return [replace_all(x, replacements) for x in value]
+              if isinstance(value, dict):
+                  return {k: replace_all(v, replacements) for k, v in value.items()}
+              return value
+
+          def refresh_annotation(obj, target_key='target', pron_key='bangla_pronunciation', words_key='word_pronunciations', roman_key=None):
+              if target_key not in obj:
+                  return
+              target = obj[target_key]
+              obj[pron_key] = bn(target)
+              obj[words_key] = wp(target)
+              if roman_key and roman_key in obj:
+                  obj[roman_key] = roman(target)
+
+          for n, specs in changes.items():
+              cpath = book / 'chapters' / f'ch{n:03d}.json'
+              rpath = book / 'rosters' / f'ch{n:03d}.json'
+              ch = json.loads(cpath.read_text(encoding='utf-8'))
+              ro = json.loads(rpath.read_text(encoding='utf-8'))
+              replacements = []
+              for _vid, old, new, old_bn_meaning, new_bn_meaning in specs:
+                  replacements.append((old, new))
+                  if old_bn_meaning != new_bn_meaning:
+                      replacements.append((old_bn_meaning, new_bn_meaning))
+              ch = replace_all(ch, replacements)
+              ro = replace_all(ro, replacements)
+
+              ch['title_bangla_pronunciation'] = bn(ch['title_target'])
+              ch['title_word_pronunciations'] = wp(ch['title_target'])
+              for s in ch['sentences']:
+                  refresh_annotation(s, roman_key='romanization')
+              for v in ch['vocabulary']:
+                  refresh_annotation(v, roman_key='romanization')
+                  refresh_annotation(v, 'example_target', 'example_bangla_pronunciation', 'example_word_pronunciations')
+                  for group in ('synonyms', 'collocations'):
+                      for item in v.get(group, []):
+                          refresh_annotation(item)
+              for seg in ch['bridge_reading']['segments']:
+                  if seg['kind'] == 'target':
+                      refresh_annotation(seg)
+              ch['bridge_reading']['text_md'] = mixed_md(ch['bridge_reading']['segments'])
+              for line in ch['target_reading']['lines']:
+                  refresh_annotation(line)
+              ch['target_reading']['bangla_pronunciation'] = ' '.join(x['bangla_pronunciation'] for x in ch['target_reading']['lines'])
+              if ch.get('number_practice'):
+                  for item in ch['number_practice']:
+                      refresh_annotation(item)
+              for task in ch['speaking_practice']:
+                  refresh_annotation(task, 'model_target', 'model_bangla_pronunciation', 'model_word_pronunciations')
+              for item in ch.get('additional_practice', []):
+                  for key in ('base', 'expanded', 'polished'):
+                      refresh_annotation(item, key + '_target', key + '_bangla_pronunciation', key + '_word_pronunciations')
+
+              by_id = {x['id']: x for x in ch['vocabulary']}
+              roster_by_id = {x['id']: x for x in ro['items']}
+              for vid, _old, new, _old_bn_meaning, _new_bn_meaning in specs:
+                  assert by_id[vid]['target'] == new, (vid, by_id[vid]['target'])
+                  assert roster_by_id[vid]['target'] == new, (vid, roster_by_id[vid]['target'])
+
+              cpath.write_text(json.dumps(ch, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+              rpath.write_text(json.dumps(ro, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print('Applied six collision-safe lexical corrections with regenerated pronunciation/romanization metadata.')
+          PY
+
       - name: Verify new vocabulary uniqueness against baseline
         shell: bash
         run: |
@@ -144,6 +239,11 @@ jobs:
           data = json.loads(p.read_text(encoding='utf-8'))
           checks = data.setdefault('checks_performed', [])
           status = os.environ.get('validator_status', 'unknown')
+          checks.append({
+              'check': 'new_batch_cross_chapter_uniqueness',
+              'result': 'passed',
+              'details': 'Verified all 300 ch211-ch220 targets are unique inside the batch and absent from previously authored roster targets after replacing six detected collisions.'
+          })
           if status == 'passed':
               checks.append({
                   'check': 'repository_partial_validator_remote',
@@ -156,7 +256,7 @@ jobs:
                   'check': 'repository_partial_validator_remote',
                   'result': 'blocked_by_preexisting_main_issue',
                   'command': 'python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words',
-                  'details': "The unmodified validator fails identically on this branch and clean origin/main at the pre-existing duplicate roster target 'बाज़ार' in ch007/ch011. New-batch uniqueness was checked separately and passed for all 300 targets."
+                  'details': "The unmodified validator fails identically on this branch and clean origin/main at the pre-existing duplicate roster target 'बाज़ार' in ch007/ch011. The ch211-ch220 batch itself passed the separate 300-target uniqueness audit."
               })
           checks.append({
               'check': 'tooling_unit_tests_remote',
@@ -174,7 +274,7 @@ jobs:
         run: |
           git config user.name 'ChatGPT'
           git config user.email 'chatgpt@users.noreply.github.com'
-          git rm .chatgpt-tmp/vocab211-220/*.b64 .github/workflows/tmp-deliver-vocab-211-220.yml
+          git rm .chatgpt-tmp/vocab211-220/*.b64 .github/workflows/tmp-deliver-vocab-211-220.yml .github/workflows/tmp-diagnose-vocab-211-220.yml
           for n in $(seq -w 211 220); do
             git add "04-easy-hindi-vocabulary-7000-words/chapters/ch${n}.json"
             git add "04-easy-hindi-vocabulary-7000-words/rosters/ch${n}.json"
