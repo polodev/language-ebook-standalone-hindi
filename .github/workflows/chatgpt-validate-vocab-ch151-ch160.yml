@@ -1,4 +1,4 @@
-name: Deliver vocabulary ch151-ch160
+name: Recover and deliver vocabulary ch151-ch160
 
 on:
   push:
@@ -17,40 +17,88 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Restore authored batch from preserved chunks
+      - name: Recover all requested source files
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          set -euo pipefail
+          set -u
           BOOK="04-easy-hindi-vocabulary-7000-words"
-          : > /tmp/ch151-ch160.tgz
-          i=0
-          for sha in \
-            b352facfc048ec9636471ceed4cb414457d61d69 \
-            d95d628615068fd12d25cc15b72850d331e9f7f3 \
-            bb7bbe8ef9d3d99ff8d2d0966b28110128bdeaa5 \
-            8cc082ae7c17a06373d46a8cfb82b60aad33de55 \
-            94a9fe11733448fb606552c4bf206580f7e3adea \
+          CHUNKS=(
+            b352facfc048ec9636471ceed4cb414457d61d69
+            d95d628615068fd12d25cc15b72850d331e9f7f3
+            bb7bbe8ef9d3d99ff8d2d0966b28110128bdeaa5
+            8cc082ae7c17a06373d46a8cfb82b60aad33de55
+            94a9fe11733448fb606552c4bf206580f7e3adea
             9e5e716acc0f1185648d1910f67a596dec12dff8
-          do
-            part="/tmp/chunk-${i}.b64"
+          )
+
+          fetch_blob_text() {
+            local sha="$1" out="$2"
             curl -fsSL \
               -H "Authorization: Bearer ${GH_TOKEN}" \
               -H "Accept: application/vnd.github+json" \
               "https://api.github.com/repos/${GITHUB_REPOSITORY}/git/blobs/${sha}" \
-              | python3 -c 'import sys,json,base64; obj=json.load(sys.stdin); sys.stdout.buffer.write(base64.b64decode(obj["content"]))' \
-              > "${part}"
-            base64 -d "${part}" >> /tmp/ch151-ch160.tgz
+              | python3 -c 'import sys,json,base64; o=json.load(sys.stdin); sys.stdout.buffer.write(base64.b64decode(o["content"]))' \
+              > "$out"
+          }
+
+          rm -rf /tmp/recover-vocab && mkdir -p /tmp/recover-vocab
+          : > /tmp/recover-vocab/combined.b64
+          : > /tmp/recover-vocab/individual.tgz
+          i=0
+          for sha in "${CHUNKS[@]}"; do
+            raw="/tmp/recover-vocab/chunk-${i}.txt"
+            fetch_blob_text "$sha" "$raw"
+            printf 'chunk %s bytes=%s first=%s last=%s\n' "$i" "$(wc -c < "$raw")" "$(head -c 12 "$raw")" "$(tail -c 12 "$raw")"
+            cat "$raw" >> /tmp/recover-vocab/combined.b64
+            base64 -d "$raw" >> /tmp/recover-vocab/individual.tgz 2>/dev/null || true
             i=$((i+1))
           done
-          # The preserved stream has a damaged trailer; extract recoverable members,
-          # then require every requested source file before allowing a commit.
-          tar -xzf /tmp/ch151-ch160.tgz -C "$BOOK" || true
-          for n in $(seq 151 160); do
-            test -s "$BOOK/chapters/ch${n}.json"
-            test -s "$BOOK/rosters/ch${n}.json"
+
+          base64 -d /tmp/recover-vocab/combined.b64 > /tmp/recover-vocab/combined.tgz 2>/dev/null || true
+          fetch_blob_text d84f3f3f9586c24903718f25ba05c6e6f962f8ea /tmp/recover-vocab/mono.txt
+          base64 -d /tmp/recover-vocab/mono.txt > /tmp/recover-vocab/mono.tgz 2>/dev/null || true
+          printf 'combined-b64=%s mono-b64=%s individual-gzip=%s combined-gzip=%s mono-gzip=%s\n' \
+            "$(wc -c < /tmp/recover-vocab/combined.b64)" \
+            "$(wc -c < /tmp/recover-vocab/mono.txt)" \
+            "$(wc -c < /tmp/recover-vocab/individual.tgz)" \
+            "$(wc -c < /tmp/recover-vocab/combined.tgz)" \
+            "$(wc -c < /tmp/recover-vocab/mono.tgz)"
+
+          required_ok() {
+            local root="$1"
+            test -s "$root/authoring-progress.json" || return 1
+            for n in $(seq 151 160); do
+              test -s "$root/chapters/ch${n}.json" || return 1
+              test -s "$root/rosters/ch${n}.json" || return 1
+            done
+            return 0
+          }
+
+          winner=""
+          for mode in individual combined mono; do
+            mkdir -p "/tmp/recover-vocab/out-${mode}"
+            gzip -dc "/tmp/recover-vocab/${mode}.tgz" > "/tmp/recover-vocab/${mode}.tar" 2>/dev/null || true
+            tar -xf "/tmp/recover-vocab/${mode}.tar" -C "/tmp/recover-vocab/out-${mode}" --ignore-zeros 2>/dev/null || true
+            echo "--- recovered via ${mode} ---"
+            find "/tmp/recover-vocab/out-${mode}" -type f -printf '%P\n' | sort
+            if required_ok "/tmp/recover-vocab/out-${mode}"; then
+              winner="$mode"
+              break
+            fi
           done
-          test -s "$BOOK/authoring-progress.json"
+
+          if [ -z "$winner" ]; then
+            echo "No preserved representation contains all 21 required files." >&2
+            exit 1
+          fi
+
+          echo "Using recovery mode: $winner"
+          cp "/tmp/recover-vocab/out-${winner}/authoring-progress.json" "$BOOK/authoring-progress.json"
+          for n in $(seq 151 160); do
+            cp "/tmp/recover-vocab/out-${winner}/chapters/ch${n}.json" "$BOOK/chapters/ch${n}.json"
+            cp "/tmp/recover-vocab/out-${winner}/rosters/ch${n}.json" "$BOOK/rosters/ch${n}.json"
+          done
 
       - name: Commit and push completed batch
         env:
