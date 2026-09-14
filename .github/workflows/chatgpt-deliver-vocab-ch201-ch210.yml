@@ -1,4 +1,4 @@
-name: Inspect vocabulary chapters 201-210 conflicts
+name: Deliver vocabulary chapters 201-210 to PR branch
 
 on:
   push:
@@ -8,46 +8,152 @@ on:
       - '.github/transfer/ch201-210/READY'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  inspect:
+  deliver:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Reconstruct and inspect six entries
+
+      - name: Reconstruct payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .github/transfer/ch201-210/ch201-210.part-* | base64 -d > /tmp/ch201-210.tar.xz
+          echo 'f104a7f1c85ba4d9c195cdb5e387c4aabf58908a155f379b3b3af231afa1f42f  /tmp/ch201-210.tar.xz' | sha256sum -c -
+          xz -dc /tmp/ch201-210.tar.xz > /tmp/ch201-210.tar
+
+      - name: Patch duplicate targets and validate on exact main
         shell: bash
         env:
           EXPECTED_MAIN: 9dbdc14b189c0d9094d3502ac616da544d24dfb1
           BOOK: 04-easy-hindi-vocabulary-7000-words
         run: |
           set -euo pipefail
-          cat .github/transfer/ch201-210/ch201-210.part-* | base64 -d > /tmp/ch201-210.tar.xz
-          echo 'f104a7f1c85ba4d9c195cdb5e387c4aabf58908a155f379b3b3af231afa1f42f  /tmp/ch201-210.tar.xz' | sha256sum -c -
-          xz -dc /tmp/ch201-210.tar.xz > /tmp/ch201-210.tar
           git fetch origin main
           test "$(git rev-parse origin/main)" = "$EXPECTED_MAIN"
-          git checkout -B inspect origin/main
+          git checkout -B delivery origin/main
+          cp "$BOOK/authoring-progress.json" /tmp/prior-progress.json
           tar -xf /tmp/ch201-210.tar -C "$BOOK"
+
           python3 - <<'PY'
           import json
           from pathlib import Path
-          ids = {
-              'v06011':'ch201', 'v06021':'ch201', 'v06082':'ch203',
-              'v06085':'ch203', 'v06137':'ch205', 'v06195':'ch207'
-          }
+
           root = Path('04-easy-hindi-vocabulary-7000-words')
-          for vid, ch in ids.items():
+          fixes = [
+              ('ch201','v06011','समयसीमा','मियाद','সমযসীমা','মিয়াদ','smysiimaa','miyaad'),
+              ('ch201','v06021','उत्तरदायित्व','जवाबदेही','উত্তরদাযিত্঵','জবাবদেহী','uttrdaayitv','javaabdehii'),
+              ('ch203','v06082','सत्यापन','पुष्टिकरण','সত্যাপন','পুষ্টিকরণ','styaapn','pushtikaran'),
+              ('ch203','v06085','निष्पक्षता','निरपेक्षता','নিষ্পক্ষতা','নিরপেক্ষতা','nisspksstaa','nirapekshataa'),
+              ('ch205','v06137','पूर्वानुमान','प्राक्कलन','পূর্঵ানুমান','প্রাক্কলন','puurvaanumaan','praakkalan'),
+              ('ch207','v06195','पुनर्चक्रण','पुनरुपयोग','পুনর্চক্রণ','পুনরুপযোগ','punrckrnn','punarupayog'),
+          ]
+
+          def replace_all(value, replacements):
+              if isinstance(value, dict):
+                  return {k: replace_all(v, replacements) for k, v in value.items()}
+              if isinstance(value, list):
+                  return [replace_all(v, replacements) for v in value]
+              if isinstance(value, str):
+                  for old, new in replacements:
+                      value = value.replace(old, new)
+                  return value
+              return value
+
+          by_chapter = {}
+          for ch, vid, old_hi, new_hi, old_bn, new_bn, old_rom, new_rom in fixes:
+              by_chapter.setdefault(ch, []).append((vid, old_hi, new_hi, old_bn, new_bn, old_rom, new_rom))
+
+          for ch, chapter_fixes in by_chapter.items():
+              cpath = root/'chapters'/f'{ch}.json'
+              rpath = root/'rosters'/f'{ch}.json'
+              chapter = json.loads(cpath.read_text(encoding='utf-8'))
+              roster = json.loads(rpath.read_text(encoding='utf-8'))
+              replacements = []
+              for vid, old_hi, new_hi, old_bn, new_bn, old_rom, new_rom in chapter_fixes:
+                  replacements.extend([(old_hi,new_hi),(old_bn,new_bn),(old_rom,new_rom)])
+              chapter = replace_all(chapter, replacements)
+              roster = replace_all(roster, [(x[1],x[2]) for x in chapter_fixes])
+              cpath.write_text(json.dumps(chapter, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+              rpath.write_text(json.dumps(roster, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+
+          # Explicitly verify the six frozen IDs now carry the intended unique targets.
+          for ch, vid, old_hi, new_hi, *_ in fixes:
               chapter = json.loads((root/'chapters'/f'{ch}.json').read_text(encoding='utf-8'))
               roster = json.loads((root/'rosters'/f'{ch}.json').read_text(encoding='utf-8'))
-              v = next(x for x in chapter['vocabulary'] if x['id']==vid)
-              r = next(x for x in roster['items'] if x['id']==vid)
-              s = next(x for x in chapter['sentences'] if x['id']==v['source_sentence_id'])
-              print('ENTRY_BEGIN', vid, ch)
-              print('ROSTER', json.dumps(r, ensure_ascii=False, separators=(',',':')))
-              print('VOCAB', json.dumps(v, ensure_ascii=False, separators=(',',':')))
-              print('SOURCE', json.dumps(s, ensure_ascii=False, separators=(',',':')))
-              print('ENTRY_END', vid)
+              vocab = next(x for x in chapter['vocabulary'] if x['id']==vid)
+              item = next(x for x in roster['items'] if x['id']==vid)
+              assert vocab['target'] == new_hi, (vid, vocab['target'])
+              assert item['target'] == new_hi, (vid, item['target'])
+              assert old_hi not in json.dumps(vocab, ensure_ascii=False)
           PY
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('04-easy-hindi-vocabulary-7000-words/authoring-progress.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          data['base_main_sha'] = '9dbdc14b189c0d9094d3502ac616da544d24dfb1'
+          data['preserved_prior_progress_checkpoint'] = json.loads(Path('/tmp/prior-progress.json').read_text(encoding='utf-8'))
+          data.setdefault('checks_performed', []).append({
+              'check': 'duplicate_target_resolution',
+              'result': 'passed',
+              'details': 'Resolved six collisions with existing vocabulary rosters: समयसीमा→मियाद, उत्तरदायित्व→जवाबदेही, सत्यापन→पुष्टिकरण, निष्पक्षता→निरपेक्षता, पूर्वानुमान→प्राक्कलन, पुनर्चक्रण→पुनरुपयोग; updated linked chapter text and pronunciation metadata.'
+          })
+          data['git_delivery'] = {
+              'status': 'validation_in_progress',
+              'target_branch': 'content/04-easy-hindi-vocabulary-7000-words/ch201-ch210',
+              'base_main_sha': '9dbdc14b189c0d9094d3502ac616da544d24dfb1',
+              'method': 'GitHub Actions byte-exact payload reconstruction followed by targeted duplicate resolution and clean-checkout validation; no force push.'
+          }
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+          PY
+
+          validation_output=$(python3 scripts/manage.py validate --book "$BOOK")
+          printf '%s\n' "$validation_output"
+          VALIDATION_OUTPUT="$validation_output" python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path('04-easy-hindi-vocabulary-7000-words/authoring-progress.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          for item in data.get('checks_performed', []):
+              if item.get('check') == 'repository_validator':
+                  item['result'] = 'passed'
+                  item['details'] = 'Executed on a clean GitHub Actions checkout against exact main. ' + os.environ['VALIDATION_OUTPUT'].strip()
+          data['remaining_issues'] = ['Chapter status remains drafted; publication and independent editorial review are not assessed.']
+          data['git_delivery']['status'] = 'validated_and_ready_for_pr'
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+          PY
+
+      - name: Commit and push dedicated delivery branch
+        shell: bash
+        env:
+          BOOK: 04-easy-hindi-vocabulary-7000-words
+          TARGET_BRANCH: content/04-easy-hindi-vocabulary-7000-words/ch201-ch210
+        run: |
+          set -euo pipefail
+          git config user.name "polodev"
+          git config user.email "polodev10@gmail.com"
+          for n in {201..210}; do
+            git add "$(printf '%s/chapters/ch%03d.json' "$BOOK" "$n")"
+            git add "$(printf '%s/rosters/ch%03d.json' "$BOOK" "$n")"
+          done
+          git add "$BOOK/authoring-progress.json"
+          git diff --cached --name-status
+          test "$(git diff --cached --name-only | wc -l)" -eq 21
+          test "$(git diff --cached --diff-filter=A --name-only | wc -l)" -eq 20
+          test "$(git diff --cached --diff-filter=M --name-only | wc -l)" -eq 1
+          test -z "$(git diff --cached --diff-filter=DR --name-only)"
+          added=$(git diff --cached --diff-filter=A --name-only | wc -l)
+          modified=$(git diff --cached --diff-filter=M --name-only | wc -l)
+          ts=$(TZ=Asia/Dhaka date '+%Y-%m-%d %H:%M +06:00')
+          git commit -m "$ts | vocabulary ch201-ch210 | ${added} files added, ${modified} file modified"
+          commit_sha=$(git rev-parse HEAD)
+          git push origin "HEAD:$TARGET_BRANCH"
+          git fetch origin "$TARGET_BRANCH"
+          test "$(git rev-parse FETCH_HEAD)" = "$commit_sha"
+          echo "DELIVERY_COMMIT=$commit_sha"
