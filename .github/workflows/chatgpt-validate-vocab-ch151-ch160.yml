@@ -43,7 +43,9 @@ jobs:
             base64 -d "${part}" >> /tmp/ch151-ch160.tgz
             i=$((i+1))
           done
-          tar -xzf /tmp/ch151-ch160.tgz -C "$BOOK"
+          # The preserved stream has a damaged trailer; extract recoverable members,
+          # then require every requested source file before allowing a commit.
+          tar -xzf /tmp/ch151-ch160.tgz -C "$BOOK" || true
           for n in $(seq 151 160); do
             test -s "$BOOK/chapters/ch${n}.json"
             test -s "$BOOK/rosters/ch${n}.json"
