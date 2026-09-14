@@ -27,41 +27,14 @@ jobs:
           echo '885d26d20487b427b86e6fc6797c46a41b031132792f1166258292612330d85a  /tmp/ch161-170.tar.xz' | sha256sum -c -
           xz -dc /tmp/ch161-170.tar.xz > /tmp/ch161-170.tar
           echo '63d5014d3392f2ef1c020cd52cd99679f1004437d0a9efe73fde133665cc7b9f  /tmp/ch161-170.tar' | sha256sum -c -
-          tar -tf /tmp/ch161-170.tar
 
-      - name: Create delivery branch and validate
+      - name: Diagnose new-range duplicates
         shell: bash
-        env:
-          EXPECTED_MAIN: 9dbdc14b189c0d9094d3502ac616da544d24dfb1
-          FINAL_BRANCH: content/04-easy-hindi-vocabulary-7000-words/ch161-ch170
         run: |
           set -euo pipefail
           git fetch origin main
-          test "$(git rev-parse origin/main)" = "$EXPECTED_MAIN"
-          if git ls-remote --exit-code --heads origin "refs/heads/$FINAL_BRANCH" >/dev/null 2>&1; then
-            echo "Final branch already exists; refusing to overwrite it."
-            exit 2
-          fi
-          git checkout -B "$FINAL_BRANCH" origin/main
-          cp 04-easy-hindi-vocabulary-7000-words/authoring-progress.json /tmp/prior-progress.json
+          git checkout -B diagnostic origin/main
           tar -xf /tmp/ch161-170.tar
-          for n in $(seq 161 170); do
-            c=$(printf '04-easy-hindi-vocabulary-7000-words/chapters/ch%03d.json' "$n")
-            r=$(printf '04-easy-hindi-vocabulary-7000-words/rosters/ch%03d.json' "$n")
-            test -s "$c"
-            test -s "$r"
-          done
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-          p = Path('04-easy-hindi-vocabulary-7000-words/authoring-progress.json')
-          d = json.loads(p.read_text(encoding='utf-8'))
-          prior = json.loads(Path('/tmp/prior-progress.json').read_text(encoding='utf-8'))
-          d['base_main_sha'] = '9dbdc14b189c0d9094d3502ac616da544d24dfb1'
-          d['preserved_prior_progress_checkpoint'] = prior
-          d.pop('preserved_prior_progress_reference', None)
-          p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-          PY
           python3 - <<'PY'
           import json, unicodedata
           from collections import defaultdict
@@ -74,54 +47,16 @@ jobs:
               d = json.loads(p.read_text(encoding='utf-8'))
               for item in d.get('items', []):
                   seen[norm(item['target'])].append((p.name, item['id'], item['target']))
-          dups = [v for v in seen.values() if len(v) > 1]
-          print('DUPLICATE_TARGET_GROUPS', len(dups))
-          for group in dups:
-              print('DUPLICATE', json.dumps(group, ensure_ascii=False))
+          found = 0
+          for group in seen.values():
+              if len(group) < 2:
+                  continue
+              new = [x for x in group if 161 <= int(x[0][2:5]) <= 170]
+              old = [x for x in group if not (161 <= int(x[0][2:5]) <= 170)]
+              if new and old:
+                  found += 1
+                  print('NEW_RANGE_DUPLICATE', json.dumps(group, ensure_ascii=False))
+          print('NEW_RANGE_DUPLICATE_GROUPS', found)
+          if found:
+              raise SystemExit(3)
           PY
-          python3 scripts/manage.py validate --book 04-easy-hindi-vocabulary-7000-words
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-          p = Path('04-easy-hindi-vocabulary-7000-words/authoring-progress.json')
-          d = json.loads(p.read_text(encoding='utf-8'))
-          for check in d.get('checks_performed', []):
-              if check.get('check') == 'repository_validator_cli':
-                  check['result'] = 'passed'
-                  check['details'] = 'Passed in a clean GitHub Actions checkout on the delivery branch using current main scripts/manage.py after all ch161-ch170 chapter and roster files were extracted.'
-          p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-          PY
-
-      - name: Commit and push content branch
-        shell: bash
-        env:
-          FINAL_BRANCH: content/04-easy-hindi-vocabulary-7000-words/ch161-ch170
-        run: |
-          set -euo pipefail
-          git config user.name "polodev"
-          git config user.email "polodev10@gmail.com"
-          git add 04-easy-hindi-vocabulary-7000-words/authoring-progress.json
-          for n in $(seq 161 170); do
-            git add "$(printf '04-easy-hindi-vocabulary-7000-words/chapters/ch%03d.json' "$n")"
-            git add "$(printf '04-easy-hindi-vocabulary-7000-words/rosters/ch%03d.json' "$n")"
-          done
-          test "$(git diff --cached --name-only | wc -l)" -eq 21
-          test "$(git diff --cached --diff-filter=A --name-only | wc -l)" -eq 20
-          test "$(git diff --cached --diff-filter=M --name-only | wc -l)" -eq 1
-          test -z "$(git diff --cached --diff-filter=DR --name-only)"
-          files=$(git diff --cached --name-only | wc -l | tr -d ' ')
-          adds=$(git diff --cached --numstat | awk '{a+=$1} END {print a+0}')
-          dels=$(git diff --cached --numstat | awk '{d+=$2} END {print d+0}')
-          ts=$(TZ=Asia/Dhaka date '+%Y-%m-%d %H:%M +06')
-          git commit -m "Complete vocabulary ch161-ch170 | $ts | $files files, +$adds/-$dels"
-          commit_sha=$(git rev-parse HEAD)
-          git push origin "HEAD:refs/heads/$FINAL_BRANCH"
-          git fetch origin "$FINAL_BRANCH"
-          test "$(git rev-parse FETCH_HEAD)" = "$commit_sha"
-          echo "DELIVERY_COMMIT=$commit_sha" >> "$GITHUB_ENV"
-
-      - name: Clean temporary transfer branch
-        if: success()
-        shell: bash
-        run: |
-          git push origin --delete transfer/04-vocab-ch161-ch170-20260913 || true
