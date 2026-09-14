@@ -2,7 +2,7 @@
 
 Four book plans: Foundation (60 chapters), Intermediate (60), Advanced (60), and Vocabulary 7000+ Words & Phrases (234 chapters, 7,020 planned vocabulary targets). Plans and blank templates are not completed manuscripts; consult actual chapter files and validation for current progress.
 
-Language: Standard Hindi, Devanagari. Locale: hi; language tag: hi-IN. Publisher: Englishing.app.
+Language: Standard Hindi, Devanagari. Locale: hi; language tag: hi-IN. Publisher: Bidyazo.com (an Englishing.app project).
 
 ## Start authoring
 

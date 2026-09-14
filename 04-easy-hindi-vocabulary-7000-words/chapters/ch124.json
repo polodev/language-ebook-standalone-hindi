@@ -3,25 +3,30 @@
   "status": "drafted",
   "title_target": "बैंकिंग और घरेलू बजट",
   "title_bangla_pronunciation": "বৈংকিংগ অউর ঘরেলূ বজট",
+  "title_romanization": "bainkinga aura ghareloo bajat",
   "title_word_pronunciations": [
     {
       "target": "बैंकिंग",
       "bangla_pronunciation": "বৈংকিংগ",
+      "romanization": "bainking",
       "separator_after": " "
     },
     {
       "target": "और",
       "bangla_pronunciation": "অউর",
+      "romanization": "aur",
       "separator_after": " "
     },
     {
       "target": "घरेलू",
       "bangla_pronunciation": "ঘরেলূ",
+      "romanization": "ghareloo",
       "separator_after": " "
     },
     {
       "target": "बजट",
       "bangla_pronunciation": "বজট",
+      "romanization": "bajat",
       "separator_after": ""
     }
   ],
@@ -31,42 +36,49 @@
     {
       "id": "ch124_s01",
       "target": "आज लेनदेनविवरण और खाताविवरण पर ध्यान दीजिए।",
-      "romanization": "aaja lenadenavivarana aura khaataavivarana para dhyaana diijie",
+      "romanization": "aaj lenadenavivarana aur khaataavivarana par dhyaan deejie",
       "bangla_pronunciation": "আজ লেনদেনবিবরণ অউর খাতাভিভরণ পর ধ্যান দীজিয়ে।",
       "word_pronunciations": [
         {
           "target": "आज",
           "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
           "separator_after": " "
         },
         {
           "target": "लेनदेनविवरण",
           "bangla_pronunciation": "লেনদেনবিবরণ",
+          "romanization": "lenadenavivaran",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "खाताविवरण",
           "bangla_pronunciation": "খাতাভিভরণ",
+          "romanization": "khaataavivaran",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दीजिए।",
           "bangla_pronunciation": "দীজিয়ে।",
+          "romanization": "deejie.",
           "separator_after": ""
         }
       ],
@@ -75,37 +87,43 @@
     {
       "id": "ch124_s02",
       "target": "शेषराशि और मासिकबजट की जानकारी लिखिए।",
-      "romanization": "shesharaashi aura maasikabajata kii jaanakaarii likhie",
+      "romanization": "shesharaashi aur maasikabajata kee jaanakaarii likhie",
       "bangla_pronunciation": "শেষরাশি অউর মাসিকবজট কী জানকারী লিখিয়ে।",
       "word_pronunciations": [
         {
           "target": "शेषराशि",
           "bangla_pronunciation": "শেষরাশি",
+          "romanization": "sheshraashi",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "मासिकबजट",
           "bangla_pronunciation": "মাসিকবজট",
+          "romanization": "maasikabajat",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
           "separator_after": " "
         },
         {
           "target": "लिखिए।",
           "bangla_pronunciation": "লিখিয়ে।",
+          "romanization": "likhie.",
           "separator_after": ""
         }
       ],
@@ -114,27 +132,31 @@
     {
       "id": "ch124_s03",
       "target": "खर्चश्रेणी की स्थिति जाँचिए।",
-      "romanization": "kharchashrenii kii sthiti jaanchie",
+      "romanization": "kharchashrenii kee sthiti jaanchie",
       "bangla_pronunciation": "খর্চশ্রেণী কী স্থিতি জাঁচিয়ে।",
       "word_pronunciations": [
         {
           "target": "खर्चश्रेणी",
           "bangla_pronunciation": "খর্চশ্রেণী",
+          "romanization": "kharchashrenii",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "स्थिति",
           "bangla_pronunciation": "স্থিতি",
+          "romanization": "sthiti",
           "separator_after": " "
         },
         {
           "target": "जाँचिए।",
           "bangla_pronunciation": "জাঁচিয়ে।",
+          "romanization": "jaanchie.",
           "separator_after": ""
         }
       ],
@@ -149,26 +171,31 @@
         {
           "target": "हर",
           "bangla_pronunciation": "হর",
+          "romanization": "har",
           "separator_after": " "
         },
         {
           "target": "लेनदेनविवरण",
           "bangla_pronunciation": "লেনদেনবিবরণ",
+          "romanization": "lenadenavivaran",
           "separator_after": " "
         },
         {
           "target": "दर्ज",
           "bangla_pronunciation": "দর্জ",
+          "romanization": "darj",
           "separator_after": " "
         },
         {
           "target": "कर",
           "bangla_pronunciation": "কর",
+          "romanization": "kar",
           "separator_after": " "
         },
         {
           "target": "लीजिए।",
           "bangla_pronunciation": "লীজিএ।",
+          "romanization": "leejie.",
           "separator_after": ""
         }
       ],
@@ -177,37 +204,43 @@
     {
       "id": "ch124_s05",
       "target": "बचतलक्ष्य और आकस्मिकनिधि पर चर्चा कीजिए।",
-      "romanization": "bachatalakshya aura aakasmikanidhi para charchaa kiijie",
+      "romanization": "bachatalakshya aur aakasmikanidhi par charchaa kiijie",
       "bangla_pronunciation": "বচতলক্ষ্য অউর আকস্মিকনিধি পর চর্চা কীজিয়ে।",
       "word_pronunciations": [
         {
           "target": "बचतलक्ष्य",
           "bangla_pronunciation": "বচতলক্ষ্য",
+          "romanization": "bachatalakshya",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "आकस्मिकनिधि",
           "bangla_pronunciation": "আকস্মিকনিধি",
+          "romanization": "aakasmikanidhi",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -216,42 +249,49 @@
     {
       "id": "ch124_s06",
       "target": "किस्तराशि और देयतिथि को ध्यान से देखिए।",
-      "romanization": "kistaraashi aura deyatithi ko dhyaana se dekhie",
+      "romanization": "kistaraashi aur deyatithi ko dhyaan se dekhie",
       "bangla_pronunciation": "কিস্তরাশি অউর দেযতিথি কো ধ্যান সে দেখিয়ে।",
       "word_pronunciations": [
         {
           "target": "किस्तराशि",
           "bangla_pronunciation": "কিস্তরাশি",
+          "romanization": "kistaraashi",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "देयतिथि",
           "bangla_pronunciation": "দেযতিথি",
+          "romanization": "deyatithi",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "देखिए।",
           "bangla_pronunciation": "দেখিয়ে।",
+          "romanization": "dekhie.",
           "separator_after": ""
         }
       ],
@@ -260,32 +300,37 @@
     {
       "id": "ch124_s07",
       "target": "सेवाशुल्क की जानकारी सुरक्षित रखिए।",
-      "romanization": "sevaashulka kii jaanakaarii surakshita rakhie",
+      "romanization": "sevaashulka kee jaanakaarii surakshita rakhie",
       "bangla_pronunciation": "সেভাশুল্ক কী জানকারী সুরক্ষিত রখিয়ে।",
       "word_pronunciations": [
         {
           "target": "सेवाशुल्क",
           "bangla_pronunciation": "সেভাশুল্ক",
+          "romanization": "sevaashulk",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
           "separator_after": " "
         },
         {
           "target": "सुरक्षित",
           "bangla_pronunciation": "সুরক্ষিত",
+          "romanization": "surakshit",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিয়ে।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
@@ -300,26 +345,31 @@
         {
           "target": "देयतिथि",
           "bangla_pronunciation": "দেযতিথি",
+          "romanization": "deyatithi",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "पहले",
           "bangla_pronunciation": "পহলে",
+          "romanization": "phle",
           "separator_after": " "
         },
         {
           "target": "भुगतान",
           "bangla_pronunciation": "ভুগতান",
+          "romanization": "bhugtaan",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -328,42 +378,49 @@
     {
       "id": "ch124_s09",
       "target": "बैंकअंतरण और नामित लाभार्थी पर ध्यान दीजिए।",
-      "romanization": "bainkaantarana aura naamita laabhaarthii para dhyaana diijie",
+      "romanization": "bainkaantarana aur naamita laabhaarthii par dhyaan deejie",
       "bangla_pronunciation": "বৈংকঅংতরণ অউর নামিত লাভার্থী পর ধ্যান দীজিয়ে।",
       "word_pronunciations": [
         {
           "target": "बैंकअंतरण",
           "bangla_pronunciation": "বৈংকঅংতরণ",
+          "romanization": "bainkaantaran",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "नामित",
           "bangla_pronunciation": "নামিত",
+          "romanization": "naamit",
           "separator_after": " "
         },
         {
           "target": "लाभार्थी",
           "bangla_pronunciation": "লাভার্থী",
+          "romanization": "laabhaarthii",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दीजिए।",
           "bangla_pronunciation": "দীজিয়ে।",
+          "romanization": "deejie.",
           "separator_after": ""
         }
       ],
@@ -372,37 +429,43 @@
     {
       "id": "ch124_s10",
       "target": "सत्यापनकोड और भुगतानपुष्टि की तुलना कीजिए।",
-      "romanization": "satyaapanakoda aura bhugataanapushti kii tulanaa kiijie",
+      "romanization": "satyaapanakoda aur bhugataanapushti kee tulanaa kiijie",
       "bangla_pronunciation": "সত্যাপনকোড অউর ভুগতানপুষ্টি কী তুলনা কীজিয়ে।",
       "word_pronunciations": [
         {
           "target": "सत्यापनकोड",
           "bangla_pronunciation": "সত্যাপনকোড",
+          "romanization": "satyaapanakod",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "भुगतानपुष्टि",
           "bangla_pronunciation": "ভুগতানপুষ্টি",
+          "romanization": "bhugataanapushti",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "तुलना",
           "bangla_pronunciation": "তুলনা",
+          "romanization": "tulnaa",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -411,27 +474,31 @@
     {
       "id": "ch124_s11",
       "target": "विनिमयदर की स्थिति जाँचिए।",
-      "romanization": "vinimayadara kii sthiti jaanchie",
+      "romanization": "vinimayadara kee sthiti jaanchie",
       "bangla_pronunciation": "ভিনিমযদর কী স্থিতি জাঁচিয়ে।",
       "word_pronunciations": [
         {
           "target": "विनिमयदर",
           "bangla_pronunciation": "ভিনিমযদর",
+          "romanization": "vinimayadar",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "स्थिति",
           "bangla_pronunciation": "স্থিতি",
+          "romanization": "sthiti",
           "separator_after": " "
         },
         {
           "target": "जाँचिए।",
           "bangla_pronunciation": "জাঁচিয়ে।",
+          "romanization": "jaanchie.",
           "separator_after": ""
         }
       ],
@@ -446,36 +513,43 @@
         {
           "target": "कोड",
           "bangla_pronunciation": "কোড",
+          "romanization": "kod",
           "separator_after": " "
         },
         {
           "target": "किसी",
           "bangla_pronunciation": "কিসী",
+          "romanization": "kisee",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "साझा",
           "bangla_pronunciation": "সাঝা",
+          "romanization": "saajhaa",
           "separator_after": " "
         },
         {
           "target": "मत",
           "bangla_pronunciation": "মত",
+          "romanization": "mat",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -484,37 +558,43 @@
     {
       "id": "ch124_s13",
       "target": "नकदीप्रवाह और खर्चसीमा पर बात कीजिए।",
-      "romanization": "nakadiipravaaha aura kharchasiimaa para baata kiijie",
+      "romanization": "nakadiipravaaha aur kharchasiimaa par baata kiijie",
       "bangla_pronunciation": "নকদীপ্রভাহ অউর খর্চসীমা পর বাত কীজিয়ে।",
       "word_pronunciations": [
         {
           "target": "नकदीप्रवाह",
           "bangla_pronunciation": "নকদীপ্রভাহ",
+          "romanization": "nakadiipravaah",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "खर्चसीमा",
           "bangla_pronunciation": "খর্চসীমা",
+          "romanization": "kharchasiimaa",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "बात",
           "bangla_pronunciation": "বাত",
+          "romanization": "baat",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -523,37 +603,43 @@
     {
       "id": "ch124_s14",
       "target": "बचतदर और ऋणशेष की जानकारी लिखिए।",
-      "romanization": "bachatadara aura rinashesha kii jaanakaarii likhie",
+      "romanization": "bachatadara aur rinashesha kee jaanakaarii likhie",
       "bangla_pronunciation": "বচতদর অউর ঋণশেষ কী জানকারী লিখিয়ে।",
       "word_pronunciations": [
         {
           "target": "बचतदर",
           "bangla_pronunciation": "বচতদর",
+          "romanization": "bachatadar",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "ऋणशेष",
           "bangla_pronunciation": "ঋণশেষ",
+          "romanization": "rinashesh",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
           "separator_after": " "
         },
         {
           "target": "लिखिए।",
           "bangla_pronunciation": "লিখিয়ে।",
+          "romanization": "likhie.",
           "separator_after": ""
         }
       ],
@@ -562,32 +648,37 @@
     {
       "id": "ch124_s15",
       "target": "ब्याजदर को ध्यान में रखिए।",
-      "romanization": "byaajadara ko dhyaana men rakhie",
+      "romanization": "byaajadara ko dhyaan men rakhie",
       "bangla_pronunciation": "ব্যাজদর কো ধ্যান মেঁ রখিয়ে।",
       "word_pronunciations": [
         {
           "target": "ब्याजदर",
           "bangla_pronunciation": "ব্যাজদর",
+          "romanization": "byaajadar",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিয়ে।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
@@ -602,31 +693,37 @@
         {
           "target": "महीने",
           "bangla_pronunciation": "মহীনে",
+          "romanization": "maheene",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "अंत",
           "bangla_pronunciation": "অংত",
+          "romanization": "ant",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "बजट",
           "bangla_pronunciation": "বজট",
+          "romanization": "bajat",
           "separator_after": " "
         },
         {
           "target": "मिलाइए।",
           "bangla_pronunciation": "মিলাইএ।",
+          "romanization": "milaaie.",
           "separator_after": ""
         }
       ],
@@ -635,37 +732,43 @@
     {
       "id": "ch124_s17",
       "target": "बजटसमीक्षा और रसीदसंग्रह पर ध्यान दीजिए।",
-      "romanization": "bajatasamiikshaa aura rasiidasangraha para dhyaana diijie",
+      "romanization": "bajatasamiikshaa aur rasiidasangraha par dhyaan deejie",
       "bangla_pronunciation": "বজটসমীক্ষা অউর রসীদসংগ্রহ পর ধ্যান দীজিয়ে।",
       "word_pronunciations": [
         {
           "target": "बजटसमीक्षा",
           "bangla_pronunciation": "বজটসমীক্ষা",
+          "romanization": "bajatasamiikshaa",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "रसीदसंग्रह",
           "bangla_pronunciation": "রসীদসংগ্রহ",
+          "romanization": "rasiidasangrah",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दीजिए।",
           "bangla_pronunciation": "দীজিয়ে।",
+          "romanization": "deejie.",
           "separator_after": ""
         }
       ],
@@ -674,37 +777,43 @@
     {
       "id": "ch124_s18",
       "target": "करदस्तावेज और बीमाप्रीमियम की समीक्षा कीजिए।",
-      "romanization": "karadastaaveja aura biimaapriimiyama kii samiikshaa kiijie",
+      "romanization": "karadastaaveja aur biimaapriimiyama kee samiikshaa kiijie",
       "bangla_pronunciation": "করদস্তাভেজ অউর বীমাপ্রীমিযম কী সমীক্ষা কীজিয়ে।",
       "word_pronunciations": [
         {
           "target": "करदस्तावेज",
           "bangla_pronunciation": "করদস্তাভেজ",
+          "romanization": "karadastaavej",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "बीमाप्रीमियम",
           "bangla_pronunciation": "বীমাপ্রীমিযম",
+          "romanization": "biimaapriimiyam",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "समीक्षा",
           "bangla_pronunciation": "সমীক্ষা",
+          "romanization": "smiikssaa",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -713,27 +822,31 @@
     {
       "id": "ch124_s19",
       "target": "आपातनिधि की स्थिति जाँचिए।",
-      "romanization": "aapaatanidhi kii sthiti jaanchie",
+      "romanization": "aapaatanidhi kee sthiti jaanchie",
       "bangla_pronunciation": "আপাতনিধি কী স্থিতি জাঁচিয়ে।",
       "word_pronunciations": [
         {
           "target": "आपातनिधि",
           "bangla_pronunciation": "আপাতনিধি",
+          "romanization": "aapaatanidhi",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "स्थिति",
           "bangla_pronunciation": "স্থিতি",
+          "romanization": "sthiti",
           "separator_after": " "
         },
         {
           "target": "जाँचिए।",
           "bangla_pronunciation": "জাঁচিয়ে।",
+          "romanization": "jaanchie.",
           "separator_after": ""
         }
       ],
@@ -748,31 +861,37 @@
         {
           "target": "बचत",
           "bangla_pronunciation": "বচত",
+          "romanization": "bcht",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "अलग",
           "bangla_pronunciation": "অলগ",
+          "romanization": "alg",
           "separator_after": " "
         },
         {
           "target": "खाते",
           "bangla_pronunciation": "খাতে",
+          "romanization": "khaate",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিয়ে।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
@@ -791,6 +910,7 @@
         {
           "target": "लेनदेनविवरण",
           "bangla_pronunciation": "লেনদেনবিবরণ",
+          "romanization": "lenadenavivaran",
           "separator_after": ""
         }
       ],
@@ -799,40 +919,48 @@
       "source_form": "लेनदेनविवरण",
       "example_target": "आज लेनदेनविवरण और खाताविवरण पर ध्यान दीजिए।",
       "example_bangla_pronunciation": "আজ লেনদেনবিবরণ অউর খাতাভিভরণ পর ধ্যান দীজিয়ে।",
+      "example_romanization": "aaja lenadenavivarana aura khaataavivarana para dhyaana diijie",
       "example_word_pronunciations": [
         {
           "target": "आज",
           "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
           "separator_after": " "
         },
         {
           "target": "लेनदेनविवरण",
           "bangla_pronunciation": "লেনদেনবিবরণ",
+          "romanization": "lenadenavivaran",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "खाताविवरण",
           "bangla_pronunciation": "খাতাভিভরণ",
+          "romanization": "khaataavivaran",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दीजिए।",
           "bangla_pronunciation": "দীজিয়ে।",
+          "romanization": "deejie.",
           "separator_after": ""
         }
       ],
@@ -850,6 +978,7 @@
         {
           "target": "खाताविवरण",
           "bangla_pronunciation": "খাতাভিভরণ",
+          "romanization": "khaataavivaran",
           "separator_after": ""
         }
       ],
@@ -858,40 +987,48 @@
       "source_form": "खाताविवरण",
       "example_target": "आज लेनदेनविवरण और खाताविवरण पर ध्यान दीजिए।",
       "example_bangla_pronunciation": "আজ লেনদেনবিবরণ অউর খাতাভিভরণ পর ধ্যান দীজিয়ে।",
+      "example_romanization": "aaja lenadenavivarana aura khaataavivarana para dhyaana diijie",
       "example_word_pronunciations": [
         {
           "target": "आज",
           "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
           "separator_after": " "
         },
         {
           "target": "लेनदेनविवरण",
           "bangla_pronunciation": "লেনদেনবিবরণ",
+          "romanization": "lenadenavivaran",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "खाताविवरण",
           "bangla_pronunciation": "খাতাভিভরণ",
+          "romanization": "khaataavivaran",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दीजिए।",
           "bangla_pronunciation": "দীজিয়ে।",
+          "romanization": "deejie.",
           "separator_after": ""
         }
       ],
@@ -909,6 +1046,7 @@
         {
           "target": "शेषराशि",
           "bangla_pronunciation": "শেষরাশি",
+          "romanization": "sheshraashi",
           "separator_after": ""
         }
       ],
@@ -917,35 +1055,42 @@
       "source_form": "शेषराशि",
       "example_target": "शेषराशि और मासिकबजट की जानकारी लिखिए।",
       "example_bangla_pronunciation": "শেষরাশি অউর মাসিকবজট কী জানকারী লিখিয়ে।",
+      "example_romanization": "shesharaashi aura maasikabajata kii jaanakaarii likhie",
       "example_word_pronunciations": [
         {
           "target": "शेषराशि",
           "bangla_pronunciation": "শেষরাশি",
+          "romanization": "sheshraashi",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "मासिकबजट",
           "bangla_pronunciation": "মাসিকবজট",
+          "romanization": "maasikabajat",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
           "separator_after": " "
         },
         {
           "target": "लिखिए।",
           "bangla_pronunciation": "লিখিয়ে।",
+          "romanization": "likhie.",
           "separator_after": ""
         }
       ],
@@ -963,6 +1108,7 @@
         {
           "target": "मासिकबजट",
           "bangla_pronunciation": "মাসিকবজট",
+          "romanization": "maasikabajat",
           "separator_after": ""
         }
       ],
@@ -971,35 +1117,42 @@
       "source_form": "मासिकबजट",
       "example_target": "शेषराशि और मासिकबजट की जानकारी लिखिए।",
       "example_bangla_pronunciation": "শেষরাশি অউর মাসিকবজট কী জানকারী লিখিয়ে।",
+      "example_romanization": "shesharaashi aura maasikabajata kii jaanakaarii likhie",
       "example_word_pronunciations": [
         {
           "target": "शेषराशि",
           "bangla_pronunciation": "শেষরাশি",
+          "romanization": "sheshraashi",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "मासिकबजट",
           "bangla_pronunciation": "মাসিকবজট",
+          "romanization": "maasikabajat",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
           "separator_after": " "
         },
         {
           "target": "लिखिए।",
           "bangla_pronunciation": "লিখিয়ে।",
+          "romanization": "likhie.",
           "separator_after": ""
         }
       ],
@@ -1017,6 +1170,7 @@
         {
           "target": "खर्चश्रेणी",
           "bangla_pronunciation": "খর্চশ্রেণী",
+          "romanization": "kharchashrenii",
           "separator_after": ""
         }
       ],
@@ -1025,25 +1179,30 @@
       "source_form": "खर्चश्रेणी",
       "example_target": "खर्चश्रेणी की स्थिति जाँचिए।",
       "example_bangla_pronunciation": "খর্চশ্রেণী কী স্থিতি জাঁচিয়ে।",
+      "example_romanization": "kharchashrenii kii sthiti jaanchie",
       "example_word_pronunciations": [
         {
           "target": "खर्चश्रेणी",
           "bangla_pronunciation": "খর্চশ্রেণী",
+          "romanization": "kharchashrenii",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "स्थिति",
           "bangla_pronunciation": "স্থিতি",
+          "romanization": "sthiti",
           "separator_after": " "
         },
         {
           "target": "जाँचिए।",
           "bangla_pronunciation": "জাঁচিয়ে।",
+          "romanization": "jaanchie.",
           "separator_after": ""
         }
       ],
@@ -1061,26 +1220,31 @@
         {
           "target": "हर",
           "bangla_pronunciation": "হর",
+          "romanization": "har",
           "separator_after": " "
         },
         {
           "target": "लेनदेनविवरण",
           "bangla_pronunciation": "লেনদেনবিবরণ",
+          "romanization": "lenadenavivaran",
           "separator_after": " "
         },
         {
           "target": "दर्ज",
           "bangla_pronunciation": "দর্জ",
+          "romanization": "darj",
           "separator_after": " "
         },
         {
           "target": "कर",
           "bangla_pronunciation": "কর",
+          "romanization": "kar",
           "separator_after": " "
         },
         {
           "target": "लीजिए",
           "bangla_pronunciation": "লীজিএ",
+          "romanization": "leejie",
           "separator_after": ""
         }
       ],
@@ -1089,30 +1253,36 @@
       "source_form": "हर लेनदेनविवरण दर्ज कर लीजिए",
       "example_target": "हर लेनदेनविवरण दर्ज कर लीजिए।",
       "example_bangla_pronunciation": "হর লেনদেনবিবরণ দর্জ কর লীজিএ।",
+      "example_romanization": "hara lenadenavivarana darja kara liijie",
       "example_word_pronunciations": [
         {
           "target": "हर",
           "bangla_pronunciation": "হর",
+          "romanization": "har",
           "separator_after": " "
         },
         {
           "target": "लेनदेनविवरण",
           "bangla_pronunciation": "লেনদেনবিবরণ",
+          "romanization": "lenadenavivaran",
           "separator_after": " "
         },
         {
           "target": "दर्ज",
           "bangla_pronunciation": "দর্জ",
+          "romanization": "darj",
           "separator_after": " "
         },
         {
           "target": "कर",
           "bangla_pronunciation": "কর",
+          "romanization": "kar",
           "separator_after": " "
         },
         {
           "target": "लीजिए।",
           "bangla_pronunciation": "লীজিএ।",
+          "romanization": "leejie.",
           "separator_after": ""
         }
       ],
@@ -1130,6 +1300,7 @@
         {
           "target": "बचतलक्ष्य",
           "bangla_pronunciation": "বচতলক্ষ্য",
+          "romanization": "bachatalakshya",
           "separator_after": ""
         }
       ],
@@ -1138,35 +1309,42 @@
       "source_form": "बचतलक्ष्य",
       "example_target": "बचतलक्ष्य और आकस्मिकनिधि पर चर्चा कीजिए।",
       "example_bangla_pronunciation": "বচতলক্ষ্য অউর আকস্মিকনিধি পর চর্চা কীজিয়ে।",
+      "example_romanization": "bachatalakshya aura aakasmikanidhi para charchaa kiijie",
       "example_word_pronunciations": [
         {
           "target": "बचतलक्ष्य",
           "bangla_pronunciation": "বচতলক্ষ্য",
+          "romanization": "bachatalakshya",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "आकस्मिकनिधि",
           "bangla_pronunciation": "আকস্মিকনিধি",
+          "romanization": "aakasmikanidhi",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -1184,6 +1362,7 @@
         {
           "target": "आकस्मिकनिधि",
           "bangla_pronunciation": "আকস্মিকনিধি",
+          "romanization": "aakasmikanidhi",
           "separator_after": ""
         }
       ],
@@ -1192,35 +1371,42 @@
       "source_form": "आकस्मिकनिधि",
       "example_target": "बचतलक्ष्य और आकस्मिकनिधि पर चर्चा कीजिए।",
       "example_bangla_pronunciation": "বচতলক্ষ্য অউর আকস্মিকনিধি পর চর্চা কীজিয়ে।",
+      "example_romanization": "bachatalakshya aura aakasmikanidhi para charchaa kiijie",
       "example_word_pronunciations": [
         {
           "target": "बचतलक्ष्य",
           "bangla_pronunciation": "বচতলক্ষ্য",
+          "romanization": "bachatalakshya",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "आकस्मिकनिधि",
           "bangla_pronunciation": "আকস্মিকনিধি",
+          "romanization": "aakasmikanidhi",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -1238,6 +1424,7 @@
         {
           "target": "किस्तराशि",
           "bangla_pronunciation": "কিস্তরাশি",
+          "romanization": "kistaraashi",
           "separator_after": ""
         }
       ],
@@ -1246,40 +1433,48 @@
       "source_form": "किस्तराशि",
       "example_target": "किस्तराशि और देयतिथि को ध्यान से देखिए।",
       "example_bangla_pronunciation": "কিস্তরাশি অউর দেযতিথি কো ধ্যান সে দেখিয়ে।",
+      "example_romanization": "kistaraashi aura deyatithi ko dhyaana se dekhie",
       "example_word_pronunciations": [
         {
           "target": "किस्तराशि",
           "bangla_pronunciation": "কিস্তরাশি",
+          "romanization": "kistaraashi",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "देयतिथि",
           "bangla_pronunciation": "দেযতিথি",
+          "romanization": "deyatithi",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "देखिए।",
           "bangla_pronunciation": "দেখিয়ে।",
+          "romanization": "dekhie.",
           "separator_after": ""
         }
       ],
@@ -1297,6 +1492,7 @@
         {
           "target": "देयतिथि",
           "bangla_pronunciation": "দেযতিথি",
+          "romanization": "deyatithi",
           "separator_after": ""
         }
       ],
@@ -1305,40 +1501,48 @@
       "source_form": "देयतिथि",
       "example_target": "किस्तराशि और देयतिथि को ध्यान से देखिए।",
       "example_bangla_pronunciation": "কিস্তরাশি অউর দেযতিথি কো ধ্যান সে দেখিয়ে।",
+      "example_romanization": "kistaraashi aura deyatithi ko dhyaana se dekhie",
       "example_word_pronunciations": [
         {
           "target": "किस्तराशि",
           "bangla_pronunciation": "কিস্তরাশি",
+          "romanization": "kistaraashi",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "देयतिथि",
           "bangla_pronunciation": "দেযতিথি",
+          "romanization": "deyatithi",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "देखिए।",
           "bangla_pronunciation": "দেখিয়ে।",
+          "romanization": "dekhie.",
           "separator_after": ""
         }
       ],
@@ -1356,6 +1560,7 @@
         {
           "target": "सेवाशुल्क",
           "bangla_pronunciation": "সেভাশুল্ক",
+          "romanization": "sevaashulk",
           "separator_after": ""
         }
       ],
@@ -1364,30 +1569,36 @@
       "source_form": "सेवाशुल्क",
       "example_target": "सेवाशुल्क की जानकारी सुरक्षित रखिए।",
       "example_bangla_pronunciation": "সেভাশুল্ক কী জানকারী সুরক্ষিত রখিয়ে।",
+      "example_romanization": "sevaashulka kii jaanakaarii surakshita rakhie",
       "example_word_pronunciations": [
         {
           "target": "सेवाशुल्क",
           "bangla_pronunciation": "সেভাশুল্ক",
+          "romanization": "sevaashulk",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
           "separator_after": " "
         },
         {
           "target": "सुरक्षित",
           "bangla_pronunciation": "সুরক্ষিত",
+          "romanization": "surakshit",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিয়ে।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
@@ -1405,26 +1616,31 @@
         {
           "target": "देयतिथि",
           "bangla_pronunciation": "দেযতিথি",
+          "romanization": "deyatithi",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "पहले",
           "bangla_pronunciation": "পহলে",
+          "romanization": "phle",
           "separator_after": " "
         },
         {
           "target": "भुगतान",
           "bangla_pronunciation": "ভুগতান",
+          "romanization": "bhugtaan",
           "separator_after": " "
         },
         {
           "target": "कीजिए",
           "bangla_pronunciation": "কীজিয়ে",
+          "romanization": "keejie",
           "separator_after": ""
         }
       ],
@@ -1433,30 +1649,36 @@
       "source_form": "देयतिथि से पहले भुगतान कीजिए",
       "example_target": "देयतिथि से पहले भुगतान कीजिए।",
       "example_bangla_pronunciation": "দেযতিথি সে পহলে ভুগতান কীজিয়ে।",
+      "example_romanization": "deyatithi se pahale bhugataana kiijie",
       "example_word_pronunciations": [
         {
           "target": "देयतिथि",
           "bangla_pronunciation": "দেযতিথি",
+          "romanization": "deyatithi",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "पहले",
           "bangla_pronunciation": "পহলে",
+          "romanization": "phle",
           "separator_after": " "
         },
         {
           "target": "भुगतान",
           "bangla_pronunciation": "ভুগতান",
+          "romanization": "bhugtaan",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -1474,6 +1696,7 @@
         {
           "target": "बैंकअंतरण",
           "bangla_pronunciation": "বৈংকঅংতরণ",
+          "romanization": "bainkaantaran",
           "separator_after": ""
         }
       ],
@@ -1482,40 +1705,48 @@
       "source_form": "बैंकअंतरण",
       "example_target": "बैंकअंतरण और नामित लाभार्थी पर ध्यान दीजिए।",
       "example_bangla_pronunciation": "বৈংকঅংতরণ অউর নামিত লাভার্থী পর ধ্যান দীজিয়ে।",
+      "example_romanization": "bainkaantarana aura naamita laabhaarthii para dhyaana diijie",
       "example_word_pronunciations": [
         {
           "target": "बैंकअंतरण",
           "bangla_pronunciation": "বৈংকঅংতরণ",
+          "romanization": "bainkaantaran",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "नामित",
           "bangla_pronunciation": "নামিত",
+          "romanization": "naamit",
           "separator_after": " "
         },
         {
           "target": "लाभार्थी",
           "bangla_pronunciation": "লাভার্থী",
+          "romanization": "laabhaarthii",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दीजिए।",
           "bangla_pronunciation": "দীজিয়ে।",
+          "romanization": "deejie.",
           "separator_after": ""
         }
       ],
@@ -1533,11 +1764,13 @@
         {
           "target": "नामित",
           "bangla_pronunciation": "নামিত",
+          "romanization": "naamit",
           "separator_after": " "
         },
         {
           "target": "लाभार्थी",
           "bangla_pronunciation": "লাভার্থী",
+          "romanization": "laabhaarthii",
           "separator_after": ""
         }
       ],
@@ -1546,40 +1779,48 @@
       "source_form": "नामित लाभार्थी",
       "example_target": "बैंकअंतरण और नामित लाभार्थी पर ध्यान दीजिए।",
       "example_bangla_pronunciation": "বৈংকঅংতরণ অউর নামিত লাভার্থী পর ধ্যান দীজিয়ে।",
+      "example_romanization": "bainkaantarana aura naamita laabhaarthii para dhyaana diijie",
       "example_word_pronunciations": [
         {
           "target": "बैंकअंतरण",
           "bangla_pronunciation": "বৈংকঅংতরণ",
+          "romanization": "bainkaantaran",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "नामित",
           "bangla_pronunciation": "নামিত",
+          "romanization": "naamit",
           "separator_after": " "
         },
         {
           "target": "लाभार्थी",
           "bangla_pronunciation": "লাভার্থী",
+          "romanization": "laabhaarthii",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दीजिए।",
           "bangla_pronunciation": "দীজিয়ে।",
+          "romanization": "deejie.",
           "separator_after": ""
         }
       ],
@@ -1597,6 +1838,7 @@
         {
           "target": "सत्यापनकोड",
           "bangla_pronunciation": "সত্যাপনকোড",
+          "romanization": "satyaapanakod",
           "separator_after": ""
         }
       ],
@@ -1605,35 +1847,42 @@
       "source_form": "सत्यापनकोड",
       "example_target": "सत्यापनकोड और भुगतानपुष्टि की तुलना कीजिए।",
       "example_bangla_pronunciation": "সত্যাপনকোড অউর ভুগতানপুষ্টি কী তুলনা কীজিয়ে।",
+      "example_romanization": "satyaapanakoda aura bhugataanapushti kii tulanaa kiijie",
       "example_word_pronunciations": [
         {
           "target": "सत्यापनकोड",
           "bangla_pronunciation": "সত্যাপনকোড",
+          "romanization": "satyaapanakod",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "भुगतानपुष्टि",
           "bangla_pronunciation": "ভুগতানপুষ্টি",
+          "romanization": "bhugataanapushti",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "तुलना",
           "bangla_pronunciation": "তুলনা",
+          "romanization": "tulnaa",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -1651,6 +1900,7 @@
         {
           "target": "भुगतानपुष्टि",
           "bangla_pronunciation": "ভুগতানপুষ্টি",
+          "romanization": "bhugataanapushti",
           "separator_after": ""
         }
       ],
@@ -1659,35 +1909,42 @@
       "source_form": "भुगतानपुष्टि",
       "example_target": "सत्यापनकोड और भुगतानपुष्टि की तुलना कीजिए।",
       "example_bangla_pronunciation": "সত্যাপনকোড অউর ভুগতানপুষ্টি কী তুলনা কীজিয়ে।",
+      "example_romanization": "satyaapanakoda aura bhugataanapushti kii tulanaa kiijie",
       "example_word_pronunciations": [
         {
           "target": "सत्यापनकोड",
           "bangla_pronunciation": "সত্যাপনকোড",
+          "romanization": "satyaapanakod",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "भुगतानपुष्टि",
           "bangla_pronunciation": "ভুগতানপুষ্টি",
+          "romanization": "bhugataanapushti",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "तुलना",
           "bangla_pronunciation": "তুলনা",
+          "romanization": "tulnaa",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -1705,6 +1962,7 @@
         {
           "target": "विनिमयदर",
           "bangla_pronunciation": "ভিনিমযদর",
+          "romanization": "vinimayadar",
           "separator_after": ""
         }
       ],
@@ -1713,25 +1971,30 @@
       "source_form": "विनिमयदर",
       "example_target": "विनिमयदर की स्थिति जाँचिए।",
       "example_bangla_pronunciation": "ভিনিমযদর কী স্থিতি জাঁচিয়ে।",
+      "example_romanization": "vinimayadara kii sthiti jaanchie",
       "example_word_pronunciations": [
         {
           "target": "विनिमयदर",
           "bangla_pronunciation": "ভিনিমযদর",
+          "romanization": "vinimayadar",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "स्थिति",
           "bangla_pronunciation": "স্থিতি",
+          "romanization": "sthiti",
           "separator_after": " "
         },
         {
           "target": "जाँचिए।",
           "bangla_pronunciation": "জাঁচিয়ে।",
+          "romanization": "jaanchie.",
           "separator_after": ""
         }
       ],
@@ -1749,36 +2012,43 @@
         {
           "target": "कोड",
           "bangla_pronunciation": "কোড",
+          "romanization": "kod",
           "separator_after": " "
         },
         {
           "target": "किसी",
           "bangla_pronunciation": "কিসী",
+          "romanization": "kisee",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "साझा",
           "bangla_pronunciation": "সাঝা",
+          "romanization": "saajhaa",
           "separator_after": " "
         },
         {
           "target": "मत",
           "bangla_pronunciation": "মত",
+          "romanization": "mat",
           "separator_after": " "
         },
         {
           "target": "कीजिए",
           "bangla_pronunciation": "কীজিয়ে",
+          "romanization": "keejie",
           "separator_after": ""
         }
       ],
@@ -1787,40 +2057,48 @@
       "source_form": "कोड किसी के साथ साझा मत कीजिए",
       "example_target": "कोड किसी के साथ साझा मत कीजिए।",
       "example_bangla_pronunciation": "কোড কিসী কে সাথ সাঝা মত কীজিয়ে।",
+      "example_romanization": "koda kisii ke saatha saajhaa mata kiijie",
       "example_word_pronunciations": [
         {
           "target": "कोड",
           "bangla_pronunciation": "কোড",
+          "romanization": "kod",
           "separator_after": " "
         },
         {
           "target": "किसी",
           "bangla_pronunciation": "কিসী",
+          "romanization": "kisee",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "साझा",
           "bangla_pronunciation": "সাঝা",
+          "romanization": "saajhaa",
           "separator_after": " "
         },
         {
           "target": "मत",
           "bangla_pronunciation": "মত",
+          "romanization": "mat",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -1838,6 +2116,7 @@
         {
           "target": "नकदीप्रवाह",
           "bangla_pronunciation": "নকদীপ্রভাহ",
+          "romanization": "nakadiipravaah",
           "separator_after": ""
         }
       ],
@@ -1846,35 +2125,42 @@
       "source_form": "नकदीप्रवाह",
       "example_target": "नकदीप्रवाह और खर्चसीमा पर बात कीजिए।",
       "example_bangla_pronunciation": "নকদীপ্রভাহ অউর খর্চসীমা পর বাত কীজিয়ে।",
+      "example_romanization": "nakadiipravaaha aura kharchasiimaa para baata kiijie",
       "example_word_pronunciations": [
         {
           "target": "नकदीप्रवाह",
           "bangla_pronunciation": "নকদীপ্রভাহ",
+          "romanization": "nakadiipravaah",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "खर्चसीमा",
           "bangla_pronunciation": "খর্চসীমা",
+          "romanization": "kharchasiimaa",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "बात",
           "bangla_pronunciation": "বাত",
+          "romanization": "baat",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -1892,6 +2178,7 @@
         {
           "target": "खर्चसीमा",
           "bangla_pronunciation": "খর্চসীমা",
+          "romanization": "kharchasiimaa",
           "separator_after": ""
         }
       ],
@@ -1900,35 +2187,42 @@
       "source_form": "खर्चसीमा",
       "example_target": "नकदीप्रवाह और खर्चसीमा पर बात कीजिए।",
       "example_bangla_pronunciation": "নকদীপ্রভাহ অউর খর্চসীমা পর বাত কীজিয়ে।",
+      "example_romanization": "nakadiipravaaha aura kharchasiimaa para baata kiijie",
       "example_word_pronunciations": [
         {
           "target": "नकदीप्रवाह",
           "bangla_pronunciation": "নকদীপ্রভাহ",
+          "romanization": "nakadiipravaah",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "खर्चसीमा",
           "bangla_pronunciation": "খর্চসীমা",
+          "romanization": "kharchasiimaa",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "बात",
           "bangla_pronunciation": "বাত",
+          "romanization": "baat",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -1946,6 +2240,7 @@
         {
           "target": "बचतदर",
           "bangla_pronunciation": "বচতদর",
+          "romanization": "bachatadar",
           "separator_after": ""
         }
       ],
@@ -1954,35 +2249,42 @@
       "source_form": "बचतदर",
       "example_target": "बचतदर और ऋणशेष की जानकारी लिखिए।",
       "example_bangla_pronunciation": "বচতদর অউর ঋণশেষ কী জানকারী লিখিয়ে।",
+      "example_romanization": "bachatadara aura rinashesha kii jaanakaarii likhie",
       "example_word_pronunciations": [
         {
           "target": "बचतदर",
           "bangla_pronunciation": "বচতদর",
+          "romanization": "bachatadar",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "ऋणशेष",
           "bangla_pronunciation": "ঋণশেষ",
+          "romanization": "rinashesh",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
           "separator_after": " "
         },
         {
           "target": "लिखिए।",
           "bangla_pronunciation": "লিখিয়ে।",
+          "romanization": "likhie.",
           "separator_after": ""
         }
       ],
@@ -2000,6 +2302,7 @@
         {
           "target": "ऋणशेष",
           "bangla_pronunciation": "ঋণশেষ",
+          "romanization": "rinashesh",
           "separator_after": ""
         }
       ],
@@ -2008,35 +2311,42 @@
       "source_form": "ऋणशेष",
       "example_target": "बचतदर और ऋणशेष की जानकारी लिखिए।",
       "example_bangla_pronunciation": "বচতদর অউর ঋণশেষ কী জানকারী লিখিয়ে।",
+      "example_romanization": "bachatadara aura rinashesha kii jaanakaarii likhie",
       "example_word_pronunciations": [
         {
           "target": "बचतदर",
           "bangla_pronunciation": "বচতদর",
+          "romanization": "bachatadar",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "ऋणशेष",
           "bangla_pronunciation": "ঋণশেষ",
+          "romanization": "rinashesh",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
           "separator_after": " "
         },
         {
           "target": "लिखिए।",
           "bangla_pronunciation": "লিখিয়ে।",
+          "romanization": "likhie.",
           "separator_after": ""
         }
       ],
@@ -2054,6 +2364,7 @@
         {
           "target": "ब्याजदर",
           "bangla_pronunciation": "ব্যাজদর",
+          "romanization": "byaajadar",
           "separator_after": ""
         }
       ],
@@ -2062,30 +2373,36 @@
       "source_form": "ब्याजदर",
       "example_target": "ब्याजदर को ध्यान में रखिए।",
       "example_bangla_pronunciation": "ব্যাজদর কো ধ্যান মেঁ রখিয়ে।",
+      "example_romanization": "byaajadara ko dhyaana men rakhie",
       "example_word_pronunciations": [
         {
           "target": "ब्याजदर",
           "bangla_pronunciation": "ব্যাজদর",
+          "romanization": "byaajadar",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিয়ে।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
@@ -2103,31 +2420,37 @@
         {
           "target": "महीने",
           "bangla_pronunciation": "মহীনে",
+          "romanization": "maheene",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "अंत",
           "bangla_pronunciation": "অংত",
+          "romanization": "ant",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "बजट",
           "bangla_pronunciation": "বজট",
+          "romanization": "bajat",
           "separator_after": " "
         },
         {
           "target": "मिलाइए",
           "bangla_pronunciation": "মিলাইএ",
+          "romanization": "milaaie",
           "separator_after": ""
         }
       ],
@@ -2136,35 +2459,42 @@
       "source_form": "महीने के अंत में बजट मिलाइए",
       "example_target": "महीने के अंत में बजट मिलाइए।",
       "example_bangla_pronunciation": "মহীনে কে অংত মেঁ বজট মিলাইএ।",
+      "example_romanization": "mahiine ke anta men bajata milaaie",
       "example_word_pronunciations": [
         {
           "target": "महीने",
           "bangla_pronunciation": "মহীনে",
+          "romanization": "maheene",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "अंत",
           "bangla_pronunciation": "অংত",
+          "romanization": "ant",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "बजट",
           "bangla_pronunciation": "বজট",
+          "romanization": "bajat",
           "separator_after": " "
         },
         {
           "target": "मिलाइए।",
           "bangla_pronunciation": "মিলাইএ।",
+          "romanization": "milaaie.",
           "separator_after": ""
         }
       ],
@@ -2182,6 +2512,7 @@
         {
           "target": "बजटसमीक्षा",
           "bangla_pronunciation": "বজটসমীক্ষা",
+          "romanization": "bajatasamiikshaa",
           "separator_after": ""
         }
       ],
@@ -2190,35 +2521,42 @@
       "source_form": "बजटसमीक्षा",
       "example_target": "बजटसमीक्षा और रसीदसंग्रह पर ध्यान दीजिए।",
       "example_bangla_pronunciation": "বজটসমীক্ষা অউর রসীদসংগ্রহ পর ধ্যান দীজিয়ে।",
+      "example_romanization": "bajatasamiikshaa aura rasiidasangraha para dhyaana diijie",
       "example_word_pronunciations": [
         {
           "target": "बजटसमीक्षा",
           "bangla_pronunciation": "বজটসমীক্ষা",
+          "romanization": "bajatasamiikshaa",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "रसीदसंग्रह",
           "bangla_pronunciation": "রসীদসংগ্রহ",
+          "romanization": "rasiidasangrah",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दीजिए।",
           "bangla_pronunciation": "দীজিয়ে।",
+          "romanization": "deejie.",
           "separator_after": ""
         }
       ],
@@ -2236,6 +2574,7 @@
         {
           "target": "रसीदसंग्रह",
           "bangla_pronunciation": "রসীদসংগ্রহ",
+          "romanization": "rasiidasangrah",
           "separator_after": ""
         }
       ],
@@ -2244,35 +2583,42 @@
       "source_form": "रसीदसंग्रह",
       "example_target": "बजटसमीक्षा और रसीदसंग्रह पर ध्यान दीजिए।",
       "example_bangla_pronunciation": "বজটসমীক্ষা অউর রসীদসংগ্রহ পর ধ্যান দীজিয়ে।",
+      "example_romanization": "bajatasamiikshaa aura rasiidasangraha para dhyaana diijie",
       "example_word_pronunciations": [
         {
           "target": "बजटसमीक्षा",
           "bangla_pronunciation": "বজটসমীক্ষা",
+          "romanization": "bajatasamiikshaa",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "रसीदसंग्रह",
           "bangla_pronunciation": "রসীদসংগ্রহ",
+          "romanization": "rasiidasangrah",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दीजिए।",
           "bangla_pronunciation": "দীজিয়ে।",
+          "romanization": "deejie.",
           "separator_after": ""
         }
       ],
@@ -2290,6 +2636,7 @@
         {
           "target": "करदस्तावेज",
           "bangla_pronunciation": "করদস্তাভেজ",
+          "romanization": "karadastaavej",
           "separator_after": ""
         }
       ],
@@ -2298,35 +2645,42 @@
       "source_form": "करदस्तावेज",
       "example_target": "करदस्तावेज और बीमाप्रीमियम की समीक्षा कीजिए।",
       "example_bangla_pronunciation": "করদস্তাভেজ অউর বীমাপ্রীমিযম কী সমীক্ষা কীজিয়ে।",
+      "example_romanization": "karadastaaveja aura biimaapriimiyama kii samiikshaa kiijie",
       "example_word_pronunciations": [
         {
           "target": "करदस्तावेज",
           "bangla_pronunciation": "করদস্তাভেজ",
+          "romanization": "karadastaavej",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "बीमाप्रीमियम",
           "bangla_pronunciation": "বীমাপ্রীমিযম",
+          "romanization": "biimaapriimiyam",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "समीक्षा",
           "bangla_pronunciation": "সমীক্ষা",
+          "romanization": "smiikssaa",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -2344,6 +2698,7 @@
         {
           "target": "बीमाप्रीमियम",
           "bangla_pronunciation": "বীমাপ্রীমিযম",
+          "romanization": "biimaapriimiyam",
           "separator_after": ""
         }
       ],
@@ -2352,35 +2707,42 @@
       "source_form": "बीमाप्रीमियम",
       "example_target": "करदस्तावेज और बीमाप्रीमियम की समीक्षा कीजिए।",
       "example_bangla_pronunciation": "করদস্তাভেজ অউর বীমাপ্রীমিযম কী সমীক্ষা কীজিয়ে।",
+      "example_romanization": "karadastaaveja aura biimaapriimiyama kii samiikshaa kiijie",
       "example_word_pronunciations": [
         {
           "target": "करदस्तावेज",
           "bangla_pronunciation": "করদস্তাভেজ",
+          "romanization": "karadastaavej",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "बीमाप्रीमियम",
           "bangla_pronunciation": "বীমাপ্রীমিযম",
+          "romanization": "biimaapriimiyam",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "समीक्षा",
           "bangla_pronunciation": "সমীক্ষা",
+          "romanization": "smiikssaa",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -2398,6 +2760,7 @@
         {
           "target": "आपातनिधि",
           "bangla_pronunciation": "আপাতনিধি",
+          "romanization": "aapaatanidhi",
           "separator_after": ""
         }
       ],
@@ -2406,25 +2769,30 @@
       "source_form": "आपातनिधि",
       "example_target": "आपातनिधि की स्थिति जाँचिए।",
       "example_bangla_pronunciation": "আপাতনিধি কী স্থিতি জাঁচিয়ে।",
+      "example_romanization": "aapaatanidhi kii sthiti jaanchie",
       "example_word_pronunciations": [
         {
           "target": "आपातनिधि",
           "bangla_pronunciation": "আপাতনিধি",
+          "romanization": "aapaatanidhi",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "स्थिति",
           "bangla_pronunciation": "স্থিতি",
+          "romanization": "sthiti",
           "separator_after": " "
         },
         {
           "target": "जाँचिए।",
           "bangla_pronunciation": "জাঁচিয়ে।",
+          "romanization": "jaanchie.",
           "separator_after": ""
         }
       ],
@@ -2442,31 +2810,37 @@
         {
           "target": "बचत",
           "bangla_pronunciation": "বচত",
+          "romanization": "bcht",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "अलग",
           "bangla_pronunciation": "অলগ",
+          "romanization": "alg",
           "separator_after": " "
         },
         {
           "target": "खाते",
           "bangla_pronunciation": "খাতে",
+          "romanization": "khaate",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "रखिए",
           "bangla_pronunciation": "রখিয়ে",
+          "romanization": "rakhie",
           "separator_after": ""
         }
       ],
@@ -2475,35 +2849,42 @@
       "source_form": "बचत को अलग खाते में रखिए",
       "example_target": "बचत को अलग खाते में रखिए।",
       "example_bangla_pronunciation": "বচত কো অলগ খাতে মেঁ রখিয়ে।",
+      "example_romanization": "bachata ko alaga khaate men rakhie",
       "example_word_pronunciations": [
         {
           "target": "बचत",
           "bangla_pronunciation": "বচত",
+          "romanization": "bcht",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "अलग",
           "bangla_pronunciation": "অলগ",
+          "romanization": "alg",
           "separator_after": " "
         },
         {
           "target": "खाते",
           "bangla_pronunciation": "খাতে",
+          "romanization": "khaate",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিয়ে।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
@@ -2524,10 +2905,12 @@
         "kind": "target",
         "target": "लेनदेनविवरण",
         "bangla_pronunciation": "লেনদেনবিবরণ",
+        "romanization": "lenadenavivarana",
         "word_pronunciations": [
           {
             "target": "लेनदेनविवरण",
             "bangla_pronunciation": "লেনদেনবিবরণ",
+            "romanization": "lenadenavivaran",
             "separator_after": ""
           }
         ]
@@ -2540,10 +2923,12 @@
         "kind": "target",
         "target": "बचतलक्ष्य",
         "bangla_pronunciation": "বচতলক্ষ্য",
+        "romanization": "bachatalakshya",
         "word_pronunciations": [
           {
             "target": "बचतलक्ष्य",
             "bangla_pronunciation": "বচতলক্ষ্য",
+            "romanization": "bachatalakshya",
             "separator_after": ""
           }
         ]
@@ -2556,10 +2941,12 @@
         "kind": "target",
         "target": "बैंकअंतरण",
         "bangla_pronunciation": "বৈংকঅংতরণ",
+        "romanization": "bainkaantarana",
         "word_pronunciations": [
           {
             "target": "बैंकअंतरण",
             "bangla_pronunciation": "বৈংকঅংতরণ",
+            "romanization": "bainkaantaran",
             "separator_after": ""
           }
         ]
@@ -2572,10 +2959,12 @@
         "kind": "target",
         "target": "नकदीप्रवाह",
         "bangla_pronunciation": "নকদীপ্রভাহ",
+        "romanization": "nakadiipravaaha",
         "word_pronunciations": [
           {
             "target": "नकदीप्रवाह",
             "bangla_pronunciation": "নকদীপ্রভাহ",
+            "romanization": "nakadiipravaah",
             "separator_after": ""
           }
         ]
@@ -2588,10 +2977,12 @@
         "kind": "target",
         "target": "बजटसमीक्षा",
         "bangla_pronunciation": "বজটসমীক্ষা",
+        "romanization": "bajatasamiikshaa",
         "word_pronunciations": [
           {
             "target": "बजटसमीक्षा",
             "bangla_pronunciation": "বজটসমীক্ষা",
+            "romanization": "bajatasamiikshaa",
             "separator_after": ""
           }
         ]
@@ -2601,7 +2992,7 @@
         "text": " দেখে সিদ্ধান্ত নেওয়া হলো।"
       }
     ],
-    "text_md": "আজকের বাস্তব পরিস্থিতিতে **लेनदेनविवरण** (লেনদেনবিবরণ) দিয়ে কাজ শুরু হলো। এরপর **बचतलक्ष्य** (বচতলক্ষ্য) ঠিক রেখে দল **बैंकअंतरण** (বৈংকঅংতরণ) যাচাই করল। পরের ধাপে **नकदीप्रवाह** (নকদীপ্রভাহ) নিয়ে আলোচনা হলো এবং শেষে **बजटसमीक्षा** (বজটসমীক্ষা) দেখে সিদ্ধান্ত নেওয়া হলো।"
+    "text_md": "আজকের বাস্তব পরিস্থিতিতে **लेनदेनविवरण** (লেনদেনবিবরণ, lenadenavivaran) দিয়ে কাজ শুরু হলো। এরপর **बचतलक्ष्य** (বচতলক্ষ্য, bachatalakshya) ঠিক রেখে দল **बैंकअंतरण** (বৈংকঅংতরণ, bainkaantaran) যাচাই করল। পরের ধাপে **नकदीप्रवाह** (নকদীপ্রভাহ, nakadiipravaah) নিয়ে আলোচনা হলো এবং শেষে **बजटसमीक्षा** (বজটসমীক্ষা, bajatasamiikshaa) দেখে সিদ্ধান্ত নেওয়া হলো।"
   },
   "target_reading": {
     "mode": "article",
@@ -2611,30 +3002,36 @@
       {
         "target": "आज लेनदेनविवरण पर चर्चा हुई।",
         "bangla_pronunciation": "আজ লেনদেনবিবরণ পর চর্চা হুঈ।",
+        "romanization": "aaja lenadenavivarana para charchaa huee.",
         "word_pronunciations": [
           {
             "target": "आज",
             "bangla_pronunciation": "আজ",
+            "romanization": "aaj",
             "separator_after": " "
           },
           {
             "target": "लेनदेनविवरण",
             "bangla_pronunciation": "লেনদেনবিবরণ",
+            "romanization": "lenadenavivaran",
             "separator_after": " "
           },
           {
             "target": "पर",
             "bangla_pronunciation": "পর",
+            "romanization": "par",
             "separator_after": " "
           },
           {
             "target": "चर्चा",
             "bangla_pronunciation": "চর্চা",
+            "romanization": "crcaa",
             "separator_after": " "
           },
           {
             "target": "हुई।",
             "bangla_pronunciation": "হুঈ।",
+            "romanization": "huee.",
             "separator_after": ""
           }
         ]
@@ -2642,25 +3039,30 @@
       {
         "target": "बचतलक्ष्य की जाँच हुई।",
         "bangla_pronunciation": "বচতলক্ষ্য কী জাঁচ হুঈ।",
+        "romanization": "bachatalakshya kee jaancha huee.",
         "word_pronunciations": [
           {
             "target": "बचतलक्ष्य",
             "bangla_pronunciation": "বচতলক্ষ্য",
+            "romanization": "bachatalakshya",
             "separator_after": " "
           },
           {
             "target": "की",
             "bangla_pronunciation": "কী",
+            "romanization": "kee",
             "separator_after": " "
           },
           {
             "target": "जाँच",
             "bangla_pronunciation": "জাঁচ",
+            "romanization": "jaanch",
             "separator_after": " "
           },
           {
             "target": "हुई।",
             "bangla_pronunciation": "হুঈ।",
+            "romanization": "huee.",
             "separator_after": ""
           }
         ]
@@ -2668,30 +3070,36 @@
       {
         "target": "बैंकअंतरण पर ध्यान दिया गया।",
         "bangla_pronunciation": "বৈংকঅংতরণ পর ধ্যান দিয়া গয়া।",
+        "romanization": "bainkaantarana para dhyaana diyaa gayaa.",
         "word_pronunciations": [
           {
             "target": "बैंकअंतरण",
             "bangla_pronunciation": "বৈংকঅংতরণ",
+            "romanization": "bainkaantaran",
             "separator_after": " "
           },
           {
             "target": "पर",
             "bangla_pronunciation": "পর",
+            "romanization": "par",
             "separator_after": " "
           },
           {
             "target": "ध्यान",
             "bangla_pronunciation": "ধ্যান",
+            "romanization": "dhyaan",
             "separator_after": " "
           },
           {
             "target": "दिया",
             "bangla_pronunciation": "দিয়া",
+            "romanization": "diyaa",
             "separator_after": " "
           },
           {
             "target": "गया।",
             "bangla_pronunciation": "গয়া।",
+            "romanization": "gayaa.",
             "separator_after": ""
           }
         ]
@@ -2699,25 +3107,30 @@
       {
         "target": "नकदीप्रवाह की जानकारी मिली।",
         "bangla_pronunciation": "নকদীপ্রভাহ কী জানকারী মিলী।",
+        "romanization": "nakadeepravaaha kee jaanakaaree milee.",
         "word_pronunciations": [
           {
             "target": "नकदीप्रवाह",
             "bangla_pronunciation": "নকদীপ্রভাহ",
+            "romanization": "nakadiipravaah",
             "separator_after": " "
           },
           {
             "target": "की",
             "bangla_pronunciation": "কী",
+            "romanization": "kee",
             "separator_after": " "
           },
           {
             "target": "जानकारी",
             "bangla_pronunciation": "জানকারী",
+            "romanization": "jaanakaarii",
             "separator_after": " "
           },
           {
             "target": "मिली।",
             "bangla_pronunciation": "মিলী।",
+            "romanization": "milee.",
             "separator_after": ""
           }
         ]
@@ -2725,31 +3138,37 @@
       {
         "target": "बजटसमीक्षा पर निर्णय हुआ।",
         "bangla_pronunciation": "বজটসমীক্ষা পর নির্ণয হুআ।",
+        "romanization": "bajatasameekshaa para nirnaya huaa.",
         "word_pronunciations": [
           {
             "target": "बजटसमीक्षा",
             "bangla_pronunciation": "বজটসমীক্ষা",
+            "romanization": "bajatasamiikshaa",
             "separator_after": " "
           },
           {
             "target": "पर",
             "bangla_pronunciation": "পর",
+            "romanization": "par",
             "separator_after": " "
           },
           {
             "target": "निर्णय",
             "bangla_pronunciation": "নির্ণয",
+            "romanization": "nirnay",
             "separator_after": " "
           },
           {
             "target": "हुआ।",
             "bangla_pronunciation": "হুআ।",
+            "romanization": "huaa.",
             "separator_after": ""
           }
         ]
       }
     ],
     "bangla_pronunciation": "আজ লেনদেনবিবরণ পর চর্চা হুঈ। বচতলক্ষ্য কী জাঁচ হুঈ। বৈংকঅংতরণ পর ধ্যান দিয়া গয়া। নকদীপ্রভাহ কী জানকারী মিলী। বজটসমীক্ষা পর নির্ণয হুআ।",
+    "romanization": "aaja lenadenavivarana para charchaa huee. bachatalakshya kee jaancha huee. bainkaantarana para dhyaana diyaa gayaa. nakadeepravaaha kee jaanakaaree milee. bajatasameekshaa para nirnaya huaa.",
     "meaning_bengali_md": "আজ লেনদেনবিবরণ নিয়ে আলোচনা হয়েছে। সঞ্চয়ের লক্ষ্য যাচাই করা হয়েছে। ব্যাংক ট্রান্সফার-এর দিকে মনোযোগ দেওয়া হয়েছে। নগদ অর্থের প্রবাহ সম্পর্কে তথ্য পাওয়া গেছে। বাজেট পর্যালোচনা নিয়ে সিদ্ধান্ত হয়েছে।"
   },
   "script_practice": [
@@ -2758,6 +3177,7 @@
       "mode": "review",
       "target": "ब",
       "bangla_pronunciation": "ব",
+      "romanization": "ba",
       "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা চিহ্নগুচ্ছটি শব্দ চিনতে কাজে লাগে; আশপাশের স্বরচিহ্নসহ উচ্চারণ লক্ষ্য করুন।",
       "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
     },
@@ -2766,6 +3186,7 @@
       "mode": "review",
       "target": "ध",
       "bangla_pronunciation": "ধ",
+      "romanization": "dha",
       "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা চিহ্নগুচ্ছটি শব্দ চিনতে কাজে লাগে; আশপাশের স্বরচিহ্নসহ উচ্চারণ লক্ষ্য করুন।",
       "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
     },
@@ -2774,6 +3195,7 @@
       "mode": "review",
       "target": "ज",
       "bangla_pronunciation": "জ",
+      "romanization": "ja",
       "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা চিহ্নগুচ্ছটি শব্দ চিনতে কাজে লাগে; আশপাশের স্বরচিহ্নসহ উচ্চারণ লক্ষ্য করুন।",
       "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
     },
@@ -2782,6 +3204,7 @@
       "mode": "review",
       "target": "ह",
       "bangla_pronunciation": "হ",
+      "romanization": "ha",
       "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা চিহ্নগুচ্ছটি শব্দ চিনতে কাজে লাগে; আশপাশের স্বরচিহ্নসহ উচ্চারণ লক্ষ্য করুন।",
       "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
     },
@@ -2790,6 +3213,7 @@
       "mode": "review",
       "target": "ट",
       "bangla_pronunciation": "ট",
+      "romanization": "ta",
       "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা চিহ্নগুচ্ছটি শব্দ চিনতে কাজে লাগে; আশপাশের স্বরচিহ্নসহ উচ্চারণ লক্ষ্য করুন।",
       "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
     }
@@ -2800,40 +3224,48 @@
       "prompt_bengali_md": "বিষয়টি নিয়ে একটি দরকারি বাক্য বলুন।",
       "model_target": "आज लेनदेनविवरण और खाताविवरण पर ध्यान दीजिए।",
       "model_bangla_pronunciation": "আজ লেনদেনবিবরণ অউর খাতাভিভরণ পর ধ্যান দীজিয়ে।",
+      "model_romanization": "aaja lenadenavivarana aura khaataavivarana para dhyaana diijie",
       "model_word_pronunciations": [
         {
           "target": "आज",
           "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
           "separator_after": " "
         },
         {
           "target": "लेनदेनविवरण",
           "bangla_pronunciation": "লেনদেনবিবরণ",
+          "romanization": "lenadenavivaran",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "खाताविवरण",
           "bangla_pronunciation": "খাতাভিভরণ",
+          "romanization": "khaataavivaran",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दीजिए।",
           "bangla_pronunciation": "দীজিয়ে।",
+          "romanization": "deejie.",
           "separator_after": ""
         }
       ],
@@ -2843,30 +3275,36 @@
       "prompt_bengali_md": "একটি ব্যবহারিক নির্দেশ ভদ্রভাবে বলুন।",
       "model_target": "हर लेनदेनविवरण दर्ज कर लीजिए।",
       "model_bangla_pronunciation": "হর লেনদেনবিবরণ দর্জ কর লীজিএ।",
+      "model_romanization": "hara lenadenavivarana darja kara liijie",
       "model_word_pronunciations": [
         {
           "target": "हर",
           "bangla_pronunciation": "হর",
+          "romanization": "har",
           "separator_after": " "
         },
         {
           "target": "लेनदेनविवरण",
           "bangla_pronunciation": "লেনদেনবিবরণ",
+          "romanization": "lenadenavivaran",
           "separator_after": " "
         },
         {
           "target": "दर्ज",
           "bangla_pronunciation": "দর্জ",
+          "romanization": "darj",
           "separator_after": " "
         },
         {
           "target": "कर",
           "bangla_pronunciation": "কর",
+          "romanization": "kar",
           "separator_after": " "
         },
         {
           "target": "लीजिए।",
           "bangla_pronunciation": "লীজিএ।",
+          "romanization": "leejie.",
           "separator_after": ""
         }
       ],
@@ -2876,35 +3314,42 @@
       "prompt_bengali_md": "দুটি গুরুত্বপূর্ণ বিষয় একসঙ্গে উল্লেখ করুন।",
       "model_target": "बचतलक्ष्य और आकस्मिकनिधि पर चर्चा कीजिए।",
       "model_bangla_pronunciation": "বচতলক্ষ্য অউর আকস্মিকনিধি পর চর্চা কীজিয়ে।",
+      "model_romanization": "bachatalakshya aura aakasmikanidhi para charchaa kiijie",
       "model_word_pronunciations": [
         {
           "target": "बचतलक्ष्य",
           "bangla_pronunciation": "বচতলক্ষ্য",
+          "romanization": "bachatalakshya",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "आकस्मिकनिधि",
           "bangla_pronunciation": "আকস্মিকনিধি",
+          "romanization": "aakasmikanidhi",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -2914,40 +3359,48 @@
       "prompt_bengali_md": "তথ্য যাচাই বা আলোচনার জন্য মডেল বাক্যটি বলুন।",
       "model_target": "बैंकअंतरण और नामित लाभार्थी पर ध्यान दीजिए।",
       "model_bangla_pronunciation": "বৈংকঅংতরণ অউর নামিত লাভার্থী পর ধ্যান দীজিয়ে।",
+      "model_romanization": "bainkaantarana aura naamita laabhaarthii para dhyaana diijie",
       "model_word_pronunciations": [
         {
           "target": "बैंकअंतरण",
           "bangla_pronunciation": "বৈংকঅংতরণ",
+          "romanization": "bainkaantaran",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "नामित",
           "bangla_pronunciation": "নামিত",
+          "romanization": "naamit",
           "separator_after": " "
         },
         {
           "target": "लाभार्थी",
           "bangla_pronunciation": "লাভার্থী",
+          "romanization": "laabhaarthii",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दीजिए।",
           "bangla_pronunciation": "দীজিয়ে।",
+          "romanization": "deejie.",
           "separator_after": ""
         }
       ],
@@ -2957,35 +3410,42 @@
       "prompt_bengali_md": "পরবর্তী ধাপ সম্পর্কে মডেল বাক্যটি ব্যবহার করুন।",
       "model_target": "बजटसमीक्षा और रसीदसंग्रह पर ध्यान दीजिए।",
       "model_bangla_pronunciation": "বজটসমীক্ষা অউর রসীদসংগ্রহ পর ধ্যান দীজিয়ে।",
+      "model_romanization": "bajatasamiikshaa aura rasiidasangraha para dhyaana diijie",
       "model_word_pronunciations": [
         {
           "target": "बजटसमीक्षा",
           "bangla_pronunciation": "বজটসমীক্ষা",
+          "romanization": "bajatasamiikshaa",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "रसीदसंग्रह",
           "bangla_pronunciation": "রসীদসংগ্রহ",
+          "romanization": "rasiidasangrah",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दीजिए।",
           "bangla_pronunciation": "দীজিয়ে।",
+          "romanization": "deejie.",
           "separator_after": ""
         }
       ],
@@ -2995,35 +3455,42 @@
       "prompt_bengali_md": "শেষ পরামর্শটি স্পষ্টভাবে বলুন।",
       "model_target": "बचत को अलग खाते में रखिए।",
       "model_bangla_pronunciation": "বচত কো অলগ খাতে মেঁ রখিয়ে।",
+      "model_romanization": "bachata ko alaga khaate men rakhie",
       "model_word_pronunciations": [
         {
           "target": "बचत",
           "bangla_pronunciation": "বচত",
+          "romanization": "bcht",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "अलग",
           "bangla_pronunciation": "অলগ",
+          "romanization": "alg",
           "separator_after": " "
         },
         {
           "target": "खाते",
           "bangla_pronunciation": "খাতে",
+          "romanization": "khaate",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিয়ে।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],

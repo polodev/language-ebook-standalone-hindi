@@ -3,7 +3,7 @@
   "status": "drafted",
   "title_target": "बाज़ार और खरीदारी",
   "title_bangla_pronunciation": "বাজার অউর খরীদারী",
-  "title_romanization": "baazaara aura khareedaaree",
+  "title_romanization": "baazaar aur khareedaari",
   "title_word_pronunciations": [
     {
       "target": "बाज़ार",
@@ -20,7 +20,7 @@
     {
       "target": "खरीदारी",
       "bangla_pronunciation": "খরীদারী",
-      "romanization": "khareedaaree",
+      "romanization": "khareedaari",
       "separator_after": ""
     }
   ],
@@ -30,8 +30,8 @@
     {
       "id": "s01",
       "target": "मैं आज बाज़ार की इस दुकान में आया हूँ।",
-      "romanization": "main aaja baajaara kii isa dukaana men aayaa hoon.",
-      "bangla_pronunciation": "ম্যায়ঁ আজ বাজার কী ইস দুকান মেঁ আয়া হুঁ",
+      "romanization": "main aaj baazaar kee is dukaan men aayaa hoon.",
+      "bangla_pronunciation": "ম্যায়ঁ আজ বাজার কী ইস দুকান মেঁ আয়া হুঁ।",
       "word_pronunciations": [
         {
           "target": "मैं",
@@ -83,7 +83,7 @@
         },
         {
           "target": "हूँ।",
-          "bangla_pronunciation": "হুঁ",
+          "bangla_pronunciation": "হুঁ।",
           "romanization": "hoon.",
           "separator_after": ""
         }
@@ -93,8 +93,8 @@
     {
       "id": "s02",
       "target": "इस बैग की कीमत कम है और यह सस्ता है।",
-      "romanization": "isa baiga kii kiimata kama hai aura yaha sastaa hai.",
-      "bangla_pronunciation": "ইস বৈগ কী কীমত কম হ্যায় অউর ইয়হ সস্তা হ্যায়",
+      "romanization": "is bag kee keemat kam hai aur yeh sasta hai.",
+      "bangla_pronunciation": "ইস ব্যাগ কী কীমত কম হ্যায় অউর য়হ সস্তা হ্যায়।",
       "word_pronunciations": [
         {
           "target": "इस",
@@ -104,7 +104,7 @@
         },
         {
           "target": "बैग",
-          "bangla_pronunciation": "বৈগ",
+          "bangla_pronunciation": "ব্যাগ",
           "romanization": "bag",
           "separator_after": " "
         },
@@ -117,13 +117,13 @@
         {
           "target": "कीमत",
           "bangla_pronunciation": "কীমত",
-          "romanization": "kiimat",
+          "romanization": "keemat",
           "separator_after": " "
         },
         {
           "target": "कम",
           "bangla_pronunciation": "কম",
-          "romanization": "km",
+          "romanization": "kam",
           "separator_after": " "
         },
         {
@@ -140,8 +140,8 @@
         },
         {
           "target": "यह",
-          "bangla_pronunciation": "ইয়হ",
-          "romanization": "yah",
+          "bangla_pronunciation": "য়হ",
+          "romanization": "yeh",
           "separator_after": " "
         },
         {
@@ -152,7 +152,7 @@
         },
         {
           "target": "है।",
-          "bangla_pronunciation": "হ্যায়",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hai.",
           "separator_after": ""
         }
@@ -162,18 +162,18 @@
     {
       "id": "s03",
       "target": "वह बैग बहुत महँगा है।",
-      "romanization": "vaha baiga bahuta mahangaa hai.",
-      "bangla_pronunciation": "ভহ বৈগ বহুত মহঁগা হ্যায়",
+      "romanization": "vah bag bahut mahanga hai.",
+      "bangla_pronunciation": "বহ ব্যাগ বহুত মহঁগা হ্যায়।",
       "word_pronunciations": [
         {
           "target": "वह",
-          "bangla_pronunciation": "ভহ",
+          "bangla_pronunciation": "বহ",
           "romanization": "vah",
           "separator_after": " "
         },
         {
           "target": "बैग",
-          "bangla_pronunciation": "বৈগ",
+          "bangla_pronunciation": "ব্যাগ",
           "romanization": "bag",
           "separator_after": " "
         },
@@ -191,7 +191,7 @@
         },
         {
           "target": "है।",
-          "bangla_pronunciation": "হ্যায়",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hai.",
           "separator_after": ""
         }
@@ -201,19 +201,19 @@
     {
       "id": "s04",
       "target": "यह कितने का है?",
-      "romanization": "yaha kitane kaa hai?",
-      "bangla_pronunciation": "ইয়হ কিতনে কা হ্যায়",
+      "romanization": "yeh kitne kaa hai?",
+      "bangla_pronunciation": "য়হ কিতনে কা হ্যায়?",
       "word_pronunciations": [
         {
           "target": "यह",
-          "bangla_pronunciation": "ইয়হ",
-          "romanization": "yah",
+          "bangla_pronunciation": "য়হ",
+          "romanization": "yeh",
           "separator_after": " "
         },
         {
           "target": "कितने",
           "bangla_pronunciation": "কিতনে",
-          "romanization": "kitane",
+          "romanization": "kitne",
           "separator_after": " "
         },
         {
@@ -224,7 +224,7 @@
         },
         {
           "target": "है?",
-          "bangla_pronunciation": "হ্যায়",
+          "bangla_pronunciation": "হ্যায়?",
           "romanization": "hai?",
           "separator_after": ""
         }
@@ -234,8 +234,8 @@
     {
       "id": "s05",
       "target": "मैं नकद दूँगा और मुझे छुट्टा चाहिए।",
-      "romanization": "main nakada duungaa aura mujhe chhuttaa chaahie.",
-      "bangla_pronunciation": "ম্যায়ঁ নকদ দূঁগা অউর মুঝে ছুট্টা চাহিয়ে",
+      "romanization": "main nakad doongaa aur mujhe chhutta chaahie.",
+      "bangla_pronunciation": "ম্যায়ঁ নকদ দূঁগা অউর মুঝে ছুট্টা চাহিয়ে।",
       "word_pronunciations": [
         {
           "target": "मैं",
@@ -275,7 +275,7 @@
         },
         {
           "target": "चाहिए।",
-          "bangla_pronunciation": "চাহিয়ে",
+          "bangla_pronunciation": "চাহিয়ে।",
           "romanization": "chaahie.",
           "separator_after": ""
         }
@@ -285,8 +285,8 @@
     {
       "id": "s06",
       "target": "कृपया रसीद दीजिए।",
-      "romanization": "kripayaa rasiida diijie.",
-      "bangla_pronunciation": "কৃপয়া রসীদ দিজিয়ে",
+      "romanization": "kripaya raseed deejie.",
+      "bangla_pronunciation": "কৃপয়া রসীদ দিজিয়ে।",
       "word_pronunciations": [
         {
           "target": "कृपया",
@@ -302,7 +302,7 @@
         },
         {
           "target": "दीजिए।",
-          "bangla_pronunciation": "দিজিয়ে",
+          "bangla_pronunciation": "দিজিয়ে।",
           "romanization": "deejie.",
           "separator_after": ""
         }
@@ -312,8 +312,8 @@
     {
       "id": "s07",
       "target": "मुझे बड़ा आकार और नीला रंग चाहिए।",
-      "romanization": "mujhe badaa aakaara aura niilaa ranga chaahie.",
-      "bangla_pronunciation": "মুঝে বড়া আকার অউর নীলা রংগ চাহিয়ে",
+      "romanization": "mujhe bdd'aa aakaar aur neela rang chaahie.",
+      "bangla_pronunciation": "মুঝে বড়া আকার অউর নীলা রং চাহিয়ে।",
       "word_pronunciations": [
         {
           "target": "मुझे",
@@ -347,13 +347,13 @@
         },
         {
           "target": "रंग",
-          "bangla_pronunciation": "রংগ",
+          "bangla_pronunciation": "রং",
           "romanization": "rang",
           "separator_after": " "
         },
         {
           "target": "चाहिए।",
-          "bangla_pronunciation": "চাহিয়ে",
+          "bangla_pronunciation": "চাহিয়ে।",
           "romanization": "chaahie.",
           "separator_after": ""
         }
@@ -363,24 +363,24 @@
     {
       "id": "s08",
       "target": "थोड़ा कम कीजिए।",
-      "romanization": "thodaa kama kiijie.",
-      "bangla_pronunciation": "থোডা কম কিজিয়ে",
+      "romanization": "thoda kam keejie.",
+      "bangla_pronunciation": "থোড়া কম কিজিয়ে।",
       "word_pronunciations": [
         {
           "target": "थोड़ा",
-          "bangla_pronunciation": "থোডা",
+          "bangla_pronunciation": "থোড়া",
           "romanization": "thoda",
           "separator_after": " "
         },
         {
           "target": "कम",
           "bangla_pronunciation": "কম",
-          "romanization": "km",
+          "romanization": "kam",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
-          "bangla_pronunciation": "কিজিয়ে",
+          "bangla_pronunciation": "কিজিয়ে।",
           "romanization": "keejie.",
           "separator_after": ""
         }
@@ -390,13 +390,13 @@
     {
       "id": "s09",
       "target": "यह कपड़ा अच्छा है।",
-      "romanization": "yaha kapadaa achchhaa hai.",
-      "bangla_pronunciation": "ইয়হ কপডা অচ্ছা হ্যায়",
+      "romanization": "yeh kaparaa achchha hai.",
+      "bangla_pronunciation": "য়হ কপডা অচ্ছা হ্যায়।",
       "word_pronunciations": [
         {
           "target": "यह",
-          "bangla_pronunciation": "ইয়হ",
-          "romanization": "yah",
+          "bangla_pronunciation": "য়হ",
+          "romanization": "yeh",
           "separator_after": " "
         },
         {
@@ -413,7 +413,7 @@
         },
         {
           "target": "है।",
-          "bangla_pronunciation": "হ্যায়",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hai.",
           "separator_after": ""
         }
@@ -423,8 +423,8 @@
     {
       "id": "s10",
       "target": "मुझे एक जोड़ी जूते चाहिए।",
-      "romanization": "mujhe eka jodii juute chaahie.",
-      "bangla_pronunciation": "মুঝে এক জোডী জূতে চাহিয়ে",
+      "romanization": "mujhe ek joree joote chaahie.",
+      "bangla_pronunciation": "মুঝে এক জোডী জূতে চাহিয়ে।",
       "word_pronunciations": [
         {
           "target": "मुझे",
@@ -452,7 +452,7 @@
         },
         {
           "target": "चाहिए।",
-          "bangla_pronunciation": "চাহিয়ে",
+          "bangla_pronunciation": "চাহিয়ে।",
           "romanization": "chaahie.",
           "separator_after": ""
         }
@@ -462,8 +462,8 @@
     {
       "id": "s11",
       "target": "एक बोतल तेल और एक पैकेट नमक दीजिए।",
-      "romanization": "eka botala tela aura eka paiketa namaka diijie.",
-      "bangla_pronunciation": "এক বোতল তেল অউর এক পৈকেট নমক দিজিয়ে",
+      "romanization": "ek botal tel aur ek packet namak deejie.",
+      "bangla_pronunciation": "এক বোতল তেল অউর এক প্যাকেট নমক দিজিয়ে।",
       "word_pronunciations": [
         {
           "target": "एक",
@@ -497,8 +497,8 @@
         },
         {
           "target": "पैकेट",
-          "bangla_pronunciation": "পৈকেট",
-          "romanization": "paiket",
+          "bangla_pronunciation": "প্যাকেট",
+          "romanization": "packet",
           "separator_after": " "
         },
         {
@@ -509,7 +509,7 @@
         },
         {
           "target": "दीजिए।",
-          "bangla_pronunciation": "দিজিয়ে",
+          "bangla_pronunciation": "দিজিয়ে।",
           "romanization": "deejie.",
           "separator_after": ""
         }
@@ -519,8 +519,8 @@
     {
       "id": "s12",
       "target": "मुझे ताज़ा फल चाहिए।",
-      "romanization": "mujhe taajaa phala chaahie.",
-      "bangla_pronunciation": "মুঝে তাজা ফল চাহিয়ে",
+      "romanization": "mujhe taaza phal chaahie.",
+      "bangla_pronunciation": "মুঝে তাজা ফল চাহিয়ে।",
       "word_pronunciations": [
         {
           "target": "मुझे",
@@ -542,7 +542,7 @@
         },
         {
           "target": "चाहिए।",
-          "bangla_pronunciation": "চাহিয়ে",
+          "bangla_pronunciation": "চাহিয়ে।",
           "romanization": "chaahie.",
           "separator_after": ""
         }
@@ -552,8 +552,8 @@
     {
       "id": "s13",
       "target": "कृपया दूसरा दिखाइए।",
-      "romanization": "kripayaa duusaraa dikhaaie.",
-      "bangla_pronunciation": "কৃপয়া দূসরা দিখাইয়ে",
+      "romanization": "kripaya doosra dikhaaie.",
+      "bangla_pronunciation": "কৃপয়া দূসরা দিখাইয়ে।",
       "word_pronunciations": [
         {
           "target": "कृपया",
@@ -564,12 +564,12 @@
         {
           "target": "दूसरा",
           "bangla_pronunciation": "দূসরা",
-          "romanization": "doosaraa",
+          "romanization": "doosra",
           "separator_after": " "
         },
         {
           "target": "दिखाइए।",
-          "bangla_pronunciation": "দিখাইয়ে",
+          "bangla_pronunciation": "দিখাইয়ে।",
           "romanization": "dikhaaie.",
           "separator_after": ""
         }
@@ -579,8 +579,8 @@
     {
       "id": "s14",
       "target": "इसका वजन एक किलो है।",
-      "romanization": "isakaa vajana eka kilo hai.",
-      "bangla_pronunciation": "ইসকা ভজন এক কিলো হ্যায়",
+      "romanization": "isakaa vajana ek kilo hai.",
+      "bangla_pronunciation": "ইসকা ভজন এক কিলো হ্যায়।",
       "word_pronunciations": [
         {
           "target": "इसका",
@@ -608,7 +608,7 @@
         },
         {
           "target": "है।",
-          "bangla_pronunciation": "হ্যায়",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hai.",
           "separator_after": ""
         }
@@ -618,7 +618,7 @@
     {
       "id": "s15",
       "target": "मैं एक दर्जन अंडे लूँगा।",
-      "romanization": "main eka darjana ande luungaa.",
+      "romanization": "main ek darjana ande loongaa.",
       "bangla_pronunciation": "ম্যায়ঁ এক দর্জন অংডে লূঁগা",
       "word_pronunciations": [
         {
@@ -657,8 +657,8 @@
     {
       "id": "s16",
       "target": "इसकी गुणवत्ता अच्छी है और मुझे पसंद है।",
-      "romanization": "isakii gunavattaa achchhii hai aura mujhe pasanda hai.",
-      "bangla_pronunciation": "ইসকী গুণভত্তা অচ্ছী হ্যায় অউর মুঝে পসংদ হ্যায়",
+      "romanization": "isakee gunnvttaa achchhee hai aur mujhe pasand hai.",
+      "bangla_pronunciation": "ইসকী গুণভত্তা অচ্ছী হ্যায় অউর মুঝে পসন্দ হ্যায়।",
       "word_pronunciations": [
         {
           "target": "इसकी",
@@ -698,13 +698,13 @@
         },
         {
           "target": "पसंद",
-          "bangla_pronunciation": "পসংদ",
+          "bangla_pronunciation": "পসন্দ",
           "romanization": "pasand",
           "separator_after": " "
         },
         {
           "target": "है।",
-          "bangla_pronunciation": "হ্যায়",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hai.",
           "separator_after": ""
         }
@@ -714,8 +714,8 @@
     {
       "id": "s17",
       "target": "मुझे यह चाहिए।",
-      "romanization": "mujhe yaha chaahie.",
-      "bangla_pronunciation": "মুঝে ইয়হ চাহিয়ে",
+      "romanization": "mujhe yeh chaahie.",
+      "bangla_pronunciation": "মুঝে য়হ চাহিয়ে।",
       "word_pronunciations": [
         {
           "target": "मुझे",
@@ -725,13 +725,13 @@
         },
         {
           "target": "यह",
-          "bangla_pronunciation": "ইয়হ",
-          "romanization": "yah",
+          "bangla_pronunciation": "য়হ",
+          "romanization": "yeh",
           "separator_after": " "
         },
         {
           "target": "चाहिए।",
-          "bangla_pronunciation": "চাহিয়ে",
+          "bangla_pronunciation": "চাহিয়ে।",
           "romanization": "chaahie.",
           "separator_after": ""
         }
@@ -741,8 +741,8 @@
     {
       "id": "s18",
       "target": "मुझे यह बदलना है और दूसरा वापस करना है।",
-      "romanization": "mujhe yaha badalanaa hai aura duusaraa vaapasa karanaa hai.",
-      "bangla_pronunciation": "মুঝে ইয়হ বদলনা হ্যায় অউর দূসরা ভাপস করনা হ্যায়",
+      "romanization": "mujhe yeh badalana hai aur doosra vaaps karanaa hai.",
+      "bangla_pronunciation": "মুঝে য়হ বদলনা হ্যায় অউর দূসরা ভাপস করনা হ্যায়।",
       "word_pronunciations": [
         {
           "target": "मुझे",
@@ -752,8 +752,8 @@
         },
         {
           "target": "यह",
-          "bangla_pronunciation": "ইয়হ",
-          "romanization": "yah",
+          "bangla_pronunciation": "য়হ",
+          "romanization": "yeh",
           "separator_after": " "
         },
         {
@@ -777,7 +777,7 @@
         {
           "target": "दूसरा",
           "bangla_pronunciation": "দূসরা",
-          "romanization": "doosaraa",
+          "romanization": "doosra",
           "separator_after": " "
         },
         {
@@ -794,7 +794,7 @@
         },
         {
           "target": "है।",
-          "bangla_pronunciation": "হ্যায়",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hai.",
           "separator_after": ""
         }
@@ -804,8 +804,8 @@
     {
       "id": "s19",
       "target": "आज अच्छा ऑफ़र है और ग्राहक खुश हैं।",
-      "romanization": "aaja achchhaa ophara hai aura graahaka khusha hain.",
-      "bangla_pronunciation": "আজ অচ্ছা অফার হ্যায় অউর গ্রাহক খুশ হ্যায়ঁ",
+      "romanization": "aaj achchha ophara hai aur graahak khush hain.",
+      "bangla_pronunciation": "আজ অচ্ছা অফার হ্যায় অউর গ্রাহক খুশ হ্যাঁয়।",
       "word_pronunciations": [
         {
           "target": "आज",
@@ -851,7 +851,7 @@
         },
         {
           "target": "हैं।",
-          "bangla_pronunciation": "হ্যায়ঁ",
+          "bangla_pronunciation": "হ্যাঁয়।",
           "romanization": "hain.",
           "separator_after": ""
         }
@@ -861,7 +861,7 @@
     {
       "id": "s20",
       "target": "कृपया बिल बनाइए; मैं कार्ड से भुगतान करूँगा।",
-      "romanization": "kripayaa bila banaaie; main kaarda se bhugataana karuungaa.",
+      "romanization": "kripaya bil banaaie; main kaardd se bhugtaan karoongaa.",
       "bangla_pronunciation": "কৃপয়া বিল বনাইএ ম্যায়ঁ কার্ড সে ভুগতান করূঁগা",
       "word_pronunciations": [
         {
@@ -922,7 +922,7 @@
       "target": "बाज़ार",
       "category": "word",
       "type": "noun",
-      "romanization": "baajaara",
+      "romanization": "baazaar",
       "bangla_pronunciation": "বাজার",
       "word_pronunciations": [
         {
@@ -954,7 +954,7 @@
       "target": "दुकान",
       "category": "word",
       "type": "noun",
-      "romanization": "dukaana",
+      "romanization": "dukaan",
       "bangla_pronunciation": "দুকান",
       "word_pronunciations": [
         {
@@ -986,13 +986,13 @@
       "target": "कीमत",
       "category": "word",
       "type": "noun",
-      "romanization": "kiimata",
+      "romanization": "keemat",
       "bangla_pronunciation": "কীমত",
       "word_pronunciations": [
         {
           "target": "कीमत",
           "bangla_pronunciation": "কীমত",
-          "romanization": "kiimat",
+          "romanization": "keemat",
           "separator_after": ""
         }
       ],
@@ -1001,12 +1001,12 @@
       "source_form": "कीमत",
       "example_target": "कीमत",
       "example_bangla_pronunciation": "কীমত",
-      "example_romanization": "kiimat",
+      "example_romanization": "keemat",
       "example_word_pronunciations": [
         {
           "target": "कीमत",
           "bangla_pronunciation": "কীমত",
-          "romanization": "kiimat",
+          "romanization": "keemat",
           "separator_after": ""
         }
       ],
@@ -1018,7 +1018,7 @@
       "target": "सस्ता",
       "category": "word",
       "type": "adjective",
-      "romanization": "sastaa",
+      "romanization": "sasta",
       "bangla_pronunciation": "সস্তা",
       "word_pronunciations": [
         {
@@ -1050,7 +1050,7 @@
       "target": "महँगा",
       "category": "word",
       "type": "adjective",
-      "romanization": "mahangaa",
+      "romanization": "mahanga",
       "bangla_pronunciation": "মহঁগা",
       "word_pronunciations": [
         {
@@ -1082,19 +1082,19 @@
       "target": "यह कितने का है",
       "category": "expression",
       "type": "expression",
-      "romanization": "yaha kitane kaa hai",
-      "bangla_pronunciation": "ইয়হ কিতনে কা হ্যায়",
+      "romanization": "yeh kitne kaa hai",
+      "bangla_pronunciation": "য়হ কিতনে কা হ্যায়",
       "word_pronunciations": [
         {
           "target": "यह",
-          "bangla_pronunciation": "ইয়হ",
-          "romanization": "yah",
+          "bangla_pronunciation": "য়হ",
+          "romanization": "yeh",
           "separator_after": " "
         },
         {
           "target": "कितने",
           "bangla_pronunciation": "কিতনে",
-          "romanization": "kitane",
+          "romanization": "kitne",
           "separator_after": " "
         },
         {
@@ -1114,19 +1114,19 @@
       "source_sentence_id": "s04",
       "source_form": "यह कितने का है",
       "example_target": "यह कितने का है",
-      "example_bangla_pronunciation": "ইয়হ কিতনে কা হ্যায়",
-      "example_romanization": "yah kitane ka hai",
+      "example_bangla_pronunciation": "য়হ কিতনে কা হ্যায়",
+      "example_romanization": "yeh kitne kaa hai",
       "example_word_pronunciations": [
         {
           "target": "यह",
-          "bangla_pronunciation": "ইয়হ",
-          "romanization": "yah",
+          "bangla_pronunciation": "য়হ",
+          "romanization": "yeh",
           "separator_after": " "
         },
         {
           "target": "कितने",
           "bangla_pronunciation": "কিতনে",
-          "romanization": "kitane",
+          "romanization": "kitne",
           "separator_after": " "
         },
         {
@@ -1150,7 +1150,7 @@
       "target": "नकद",
       "category": "word",
       "type": "noun",
-      "romanization": "nakada",
+      "romanization": "nakad",
       "bangla_pronunciation": "নকদ",
       "word_pronunciations": [
         {
@@ -1182,7 +1182,7 @@
       "target": "छुट्टा",
       "category": "word",
       "type": "noun",
-      "romanization": "chhuttaa",
+      "romanization": "chhutta",
       "bangla_pronunciation": "ছুট্টা",
       "word_pronunciations": [
         {
@@ -1214,7 +1214,7 @@
       "target": "रसीद",
       "category": "word",
       "type": "noun",
-      "romanization": "rasiida",
+      "romanization": "raseed",
       "bangla_pronunciation": "রসীদ",
       "word_pronunciations": [
         {
@@ -1246,7 +1246,7 @@
       "target": "आकार",
       "category": "word",
       "type": "noun",
-      "romanization": "aakaara",
+      "romanization": "aakaar",
       "bangla_pronunciation": "আকার",
       "word_pronunciations": [
         {
@@ -1278,12 +1278,12 @@
       "target": "रंग",
       "category": "word",
       "type": "noun",
-      "romanization": "ranga",
-      "bangla_pronunciation": "রংগ",
+      "romanization": "rang",
+      "bangla_pronunciation": "রং",
       "word_pronunciations": [
         {
           "target": "रंग",
-          "bangla_pronunciation": "রংগ",
+          "bangla_pronunciation": "রং",
           "romanization": "rang",
           "separator_after": ""
         }
@@ -1292,12 +1292,12 @@
       "source_sentence_id": "s07",
       "source_form": "रंग",
       "example_target": "रंग",
-      "example_bangla_pronunciation": "রংগ",
+      "example_bangla_pronunciation": "রং",
       "example_romanization": "rang",
       "example_word_pronunciations": [
         {
           "target": "रंग",
-          "bangla_pronunciation": "রংগ",
+          "bangla_pronunciation": "রং",
           "romanization": "rang",
           "separator_after": ""
         }
@@ -1310,19 +1310,19 @@
       "target": "थोड़ा कम कीजिए",
       "category": "expression",
       "type": "expression",
-      "romanization": "thodaa kama kiijie",
-      "bangla_pronunciation": "থোডা কম কিজিয়ে",
+      "romanization": "thoda kam keejie",
+      "bangla_pronunciation": "থোড়া কম কিজিয়ে",
       "word_pronunciations": [
         {
           "target": "थोड़ा",
-          "bangla_pronunciation": "থোডা",
+          "bangla_pronunciation": "থোড়া",
           "romanization": "thoda",
           "separator_after": " "
         },
         {
           "target": "कम",
           "bangla_pronunciation": "কম",
-          "romanization": "km",
+          "romanization": "kam",
           "separator_after": " "
         },
         {
@@ -1336,19 +1336,19 @@
       "source_sentence_id": "s08",
       "source_form": "थोड़ा कम कीजिए",
       "example_target": "थोड़ा कम कीजिए",
-      "example_bangla_pronunciation": "থোডা কম কিজিয়ে",
-      "example_romanization": "thora kam keejie",
+      "example_bangla_pronunciation": "থোড়া কম কিজিয়ে",
+      "example_romanization": "thoda kam keejie",
       "example_word_pronunciations": [
         {
           "target": "थोड़ा",
-          "bangla_pronunciation": "থোডা",
+          "bangla_pronunciation": "থোড়া",
           "romanization": "thoda",
           "separator_after": " "
         },
         {
           "target": "कम",
           "bangla_pronunciation": "কম",
-          "romanization": "km",
+          "romanization": "kam",
           "separator_after": " "
         },
         {
@@ -1366,7 +1366,7 @@
       "target": "कपड़ा",
       "category": "word",
       "type": "noun",
-      "romanization": "kapadaa",
+      "romanization": "kaparaa",
       "bangla_pronunciation": "কপডা",
       "word_pronunciations": [
         {
@@ -1398,7 +1398,7 @@
       "target": "जोड़ी",
       "category": "word",
       "type": "noun",
-      "romanization": "jodii",
+      "romanization": "joree",
       "bangla_pronunciation": "জোডী",
       "word_pronunciations": [
         {
@@ -1430,7 +1430,7 @@
       "target": "बोतल",
       "category": "word",
       "type": "noun",
-      "romanization": "botala",
+      "romanization": "botal",
       "bangla_pronunciation": "বোতল",
       "word_pronunciations": [
         {
@@ -1462,13 +1462,13 @@
       "target": "पैकेट",
       "category": "word",
       "type": "noun",
-      "romanization": "paiketa",
-      "bangla_pronunciation": "পৈকেট",
+      "romanization": "packet",
+      "bangla_pronunciation": "প্যাকেট",
       "word_pronunciations": [
         {
           "target": "पैकेट",
-          "bangla_pronunciation": "পৈকেট",
-          "romanization": "paiket",
+          "bangla_pronunciation": "প্যাকেট",
+          "romanization": "packet",
           "separator_after": ""
         }
       ],
@@ -1476,13 +1476,13 @@
       "source_sentence_id": "s11",
       "source_form": "पैकेट",
       "example_target": "पैकेट",
-      "example_bangla_pronunciation": "পৈকেট",
-      "example_romanization": "paiket",
+      "example_bangla_pronunciation": "প্যাকেট",
+      "example_romanization": "packet",
       "example_word_pronunciations": [
         {
           "target": "पैकेट",
-          "bangla_pronunciation": "পৈকেট",
-          "romanization": "paiket",
+          "bangla_pronunciation": "প্যাকেট",
+          "romanization": "packet",
           "separator_after": ""
         }
       ],
@@ -1494,7 +1494,7 @@
       "target": "ताज़ा",
       "category": "word",
       "type": "adjective",
-      "romanization": "taajaa",
+      "romanization": "taaza",
       "bangla_pronunciation": "তাজা",
       "word_pronunciations": [
         {
@@ -1526,18 +1526,18 @@
       "target": "दूसरा दिखाइए",
       "category": "expression",
       "type": "expression",
-      "romanization": "duusaraa dikhaaie",
-      "bangla_pronunciation": "দূসরা দিখাইয়ে",
+      "romanization": "doosra dikhaaie",
+      "bangla_pronunciation": "দূসরা দিখाइए",
       "word_pronunciations": [
         {
           "target": "दूसरा",
           "bangla_pronunciation": "দূসরা",
-          "romanization": "doosaraa",
+          "romanization": "doosra",
           "separator_after": " "
         },
         {
           "target": "दिखाइए",
-          "bangla_pronunciation": "দিখাইয়ে",
+          "bangla_pronunciation": "দিখाइए",
           "romanization": "dikhaaie",
           "separator_after": ""
         }
@@ -1546,18 +1546,18 @@
       "source_sentence_id": "s13",
       "source_form": "दूसरा दिखाइए",
       "example_target": "दूसरा दिखाइए",
-      "example_bangla_pronunciation": "দূসরা দিখাইয়ে",
-      "example_romanization": "duusaraa dikhaaie",
+      "example_bangla_pronunciation": "দূসরা দিখाइए",
+      "example_romanization": "doosra dikhaaie",
       "example_word_pronunciations": [
         {
           "target": "दूसरा",
           "bangla_pronunciation": "দূসরা",
-          "romanization": "doosaraa",
+          "romanization": "doosra",
           "separator_after": " "
         },
         {
           "target": "दिखाइए",
-          "bangla_pronunciation": "দিখাইয়ে",
+          "bangla_pronunciation": "দিখाइए",
           "romanization": "dikhaaie",
           "separator_after": ""
         }
@@ -1666,7 +1666,7 @@
       "target": "गुणवत्ता",
       "category": "word",
       "type": "noun",
-      "romanization": "gunavattaa",
+      "romanization": "gunnvttaa",
       "bangla_pronunciation": "গুণভত্তা",
       "word_pronunciations": [
         {
@@ -1698,12 +1698,12 @@
       "target": "पसंद",
       "category": "word",
       "type": "noun",
-      "romanization": "pasanda",
-      "bangla_pronunciation": "পসংদ",
+      "romanization": "pasand",
+      "bangla_pronunciation": "পসন্দ",
       "word_pronunciations": [
         {
           "target": "पसंद",
-          "bangla_pronunciation": "পসংদ",
+          "bangla_pronunciation": "পসন্দ",
           "romanization": "pasand",
           "separator_after": ""
         }
@@ -1712,12 +1712,12 @@
       "source_sentence_id": "s16",
       "source_form": "पसंद",
       "example_target": "पसंद",
-      "example_bangla_pronunciation": "পসংদ",
+      "example_bangla_pronunciation": "পসন্দ",
       "example_romanization": "pasand",
       "example_word_pronunciations": [
         {
           "target": "पसंद",
-          "bangla_pronunciation": "পসংদ",
+          "bangla_pronunciation": "পসন্দ",
           "romanization": "pasand",
           "separator_after": ""
         }
@@ -1730,8 +1730,8 @@
       "target": "मुझे यह चाहिए",
       "category": "expression",
       "type": "expression",
-      "romanization": "mujhe yaha chaahie",
-      "bangla_pronunciation": "মুঝে ইয়হ চাহিয়ে",
+      "romanization": "mujhe yeh chaahie",
+      "bangla_pronunciation": "মুঝে য়হ চাহিয়ে",
       "word_pronunciations": [
         {
           "target": "मुझे",
@@ -1741,14 +1741,14 @@
         },
         {
           "target": "यह",
-          "bangla_pronunciation": "ইয়হ",
-          "romanization": "yah",
+          "bangla_pronunciation": "য়হ",
+          "romanization": "yeh",
           "separator_after": " "
         },
         {
           "target": "चाहिए",
           "bangla_pronunciation": "চাহিয়ে",
-          "romanization": "chaahiye",
+          "romanization": "chaahie",
           "separator_after": ""
         }
       ],
@@ -1756,8 +1756,8 @@
       "source_sentence_id": "s17",
       "source_form": "मुझे यह चाहिए",
       "example_target": "मुझे यह चाहिए",
-      "example_bangla_pronunciation": "মুঝে ইয়হ চাহিয়ে",
-      "example_romanization": "mujhe yh chaahie",
+      "example_bangla_pronunciation": "মুঝে য়হ চাহিয়ে",
+      "example_romanization": "mujhe yeh chaahie",
       "example_word_pronunciations": [
         {
           "target": "मुझे",
@@ -1767,14 +1767,14 @@
         },
         {
           "target": "यह",
-          "bangla_pronunciation": "ইয়হ",
-          "romanization": "yah",
+          "bangla_pronunciation": "য়হ",
+          "romanization": "yeh",
           "separator_after": " "
         },
         {
           "target": "चाहिए",
           "bangla_pronunciation": "চাহিয়ে",
-          "romanization": "chaahiye",
+          "romanization": "chaahie",
           "separator_after": ""
         }
       ],
@@ -1786,7 +1786,7 @@
       "target": "बदलना",
       "category": "word",
       "type": "verb",
-      "romanization": "badalanaa",
+      "romanization": "badalana",
       "bangla_pronunciation": "বদলনা",
       "word_pronunciations": [
         {
@@ -1818,7 +1818,7 @@
       "target": "वापस",
       "category": "word",
       "type": "adverb",
-      "romanization": "vaapasa",
+      "romanization": "vaaps",
       "bangla_pronunciation": "ভাপস",
       "word_pronunciations": [
         {
@@ -1882,7 +1882,7 @@
       "target": "ग्राहक",
       "category": "word",
       "type": "noun",
-      "romanization": "graahaka",
+      "romanization": "graahak",
       "bangla_pronunciation": "গ্রাহক",
       "word_pronunciations": [
         {
@@ -1914,7 +1914,7 @@
       "target": "बिल",
       "category": "word",
       "type": "noun",
-      "romanization": "bila",
+      "romanization": "bil",
       "bangla_pronunciation": "বিল",
       "word_pronunciations": [
         {
@@ -1946,7 +1946,7 @@
       "target": "कार्ड से भुगतान",
       "category": "expression",
       "type": "expression",
-      "romanization": "kaarda se bhugataana",
+      "romanization": "kaardd se bhugtaan",
       "bangla_pronunciation": "কার্ড সে ভুগতান",
       "word_pronunciations": [
         {
@@ -1973,7 +1973,7 @@
       "source_form": "कार्ड से भुगतान",
       "example_target": "कार्ड से भुगतान",
       "example_bangla_pronunciation": "কার্ড সে ভুগতান",
-      "example_romanization": "kaarda se bhugataana",
+      "example_romanization": "kaardd se bhugtaan",
       "example_word_pronunciations": [
         {
           "target": "कार्ड",
@@ -2028,19 +2028,19 @@
       {
         "kind": "target",
         "target": "यह कितने का है",
-        "bangla_pronunciation": "ইয়হ কিতনে কা হ্যায়",
-        "romanization": "yah kitane ka hai",
+        "bangla_pronunciation": "য়হ কিতনে কা হ্যায়",
+        "romanization": "yeh kitne kaa hai",
         "word_pronunciations": [
           {
             "target": "यह",
-            "bangla_pronunciation": "ইয়হ",
-            "romanization": "yah",
+            "bangla_pronunciation": "য়হ",
+            "romanization": "yeh",
             "separator_after": " "
           },
           {
             "target": "कितने",
             "bangla_pronunciation": "কিতনে",
-            "romanization": "kitane",
+            "romanization": "kitne",
             "separator_after": " "
           },
           {
@@ -2064,18 +2064,18 @@
       {
         "kind": "target",
         "target": "दूसरा दिखाइए",
-        "bangla_pronunciation": "দূসরা দিখাইয়ে",
-        "romanization": "duusaraa dikhaaie",
+        "bangla_pronunciation": "দূসরা দিখाइए",
+        "romanization": "doosra dikhaaie",
         "word_pronunciations": [
           {
             "target": "दूसरा",
             "bangla_pronunciation": "দূসরা",
-            "romanization": "doosaraa",
+            "romanization": "doosra",
             "separator_after": " "
           },
           {
             "target": "दिखाइए",
-            "bangla_pronunciation": "দিখাইয়ে",
+            "bangla_pronunciation": "দিখाइए",
             "romanization": "dikhaaie",
             "separator_after": ""
           }
@@ -2089,7 +2089,7 @@
         "kind": "target",
         "target": "कार्ड से भुगतान",
         "bangla_pronunciation": "কার্ড সে ভুগতান",
-        "romanization": "kaarda se bhugataana",
+        "romanization": "kaardd se bhugtaan",
         "word_pronunciations": [
           {
             "target": "कार्ड",
@@ -2116,7 +2116,7 @@
         "text": " বলে কথোপকথনটি স্বাভাবিকভাবে শেষ করল।"
       }
     ],
-    "text_md": "একজন বাংলা ভাষাভাষী শিক্ষার্থী বাস্তব পরিস্থিতিতে **बाज़ार** (বাজার, baazaar) কথাটি ব্যবহার করে, তারপর **यह** (ইয়হ, yah) **कितने** (কিতনে, kitane) **का** (কা, kaa) **है** (হ্যায়, hai) কথাটি ব্যবহার করে, তারপর **दूसरा** (দূসরা, doosaraa) **दिखाइए** (দিখাইয়ে, dikhaaie) কথাটি ব্যবহার করে, তারপর **कार्ड** (কার্ড, kaardd) **से** (সে, se) **भुगतान** (ভুগতান, bhugtaan) বলে কথোপকথনটি স্বাভাবিকভাবে শেষ করল।"
+    "text_md": "একজন বাংলা ভাষাভাষী শিক্ষার্থী বাস্তব পরিস্থিতিতে **बाज़ार** (বাজার, baazaar) কথাটি ব্যবহার করে, তারপর **यह** (য়হ, yeh) **कितने** (কিতনে, kitne) **का** (কা, kaa) **है** (হ্যায়, hai) কথাটি ব্যবহার করে, তারপর **दूसरा** (দূসরা, doosra) **दिखाइए** (দিখाइए, dikhaaie) কথাটি ব্যবহার করে, তারপর **कार्ड** (কার্ড, kaardd) **से** (সে, se) **भुगतान** (ভুগতান, bhugtaan) বলে কথোপকথনটি স্বাভাবিকভাবে শেষ করল।"
   },
   "target_reading": {
     "mode": "story",
@@ -2125,18 +2125,18 @@
     "lines": [
       {
         "target": "वह बैग बहुत महँगा है।",
-        "bangla_pronunciation": "ভহ বৈগ বহুত মহঁগা হ্যায়",
-        "romanization": "vaha baiga bahuta mahangaa hai.",
+        "bangla_pronunciation": "বহ ব্যাগ বহুত মহঁগা হ্যায়।",
+        "romanization": "vah bag bahut mahanga hai.",
         "word_pronunciations": [
           {
             "target": "वह",
-            "bangla_pronunciation": "ভহ",
+            "bangla_pronunciation": "বহ",
             "romanization": "vah",
             "separator_after": " "
           },
           {
             "target": "बैग",
-            "bangla_pronunciation": "বৈগ",
+            "bangla_pronunciation": "ব্যাগ",
             "romanization": "bag",
             "separator_after": " "
           },
@@ -2154,7 +2154,7 @@
           },
           {
             "target": "है।",
-            "bangla_pronunciation": "হ্যায়",
+            "bangla_pronunciation": "হ্যায়।",
             "romanization": "hai.",
             "separator_after": ""
           }
@@ -2162,19 +2162,19 @@
       },
       {
         "target": "यह कितने का है?",
-        "bangla_pronunciation": "ইয়হ কিতনে কা হ্যায়",
-        "romanization": "yah kitane ka hai?",
+        "bangla_pronunciation": "য়হ কিতনে কা হ্যায়?",
+        "romanization": "yeh kitne kaa hai?",
         "word_pronunciations": [
           {
             "target": "यह",
-            "bangla_pronunciation": "ইয়হ",
-            "romanization": "yah",
+            "bangla_pronunciation": "য়হ",
+            "romanization": "yeh",
             "separator_after": " "
           },
           {
             "target": "कितने",
             "bangla_pronunciation": "কিতনে",
-            "romanization": "kitane",
+            "romanization": "kitne",
             "separator_after": " "
           },
           {
@@ -2185,7 +2185,7 @@
           },
           {
             "target": "है?",
-            "bangla_pronunciation": "হ্যায়",
+            "bangla_pronunciation": "হ্যায়?",
             "romanization": "hai?",
             "separator_after": ""
           }
@@ -2193,8 +2193,8 @@
       },
       {
         "target": "मैं नकद दूँगा और मुझे छुट्टा चाहिए।",
-        "bangla_pronunciation": "ম্যায়ঁ নকদ দূঁগা অউর মুঝে ছুট্টা চাহিয়ে",
-        "romanization": "main nakada duungaa aura mujhe chhuttaa chaahie.",
+        "bangla_pronunciation": "ম্যায়ঁ নকদ দূঁগা অউর মুঝে ছুট্টা চাহিয়ে।",
+        "romanization": "main nakad doongaa aur mujhe chhutta chaahie.",
         "word_pronunciations": [
           {
             "target": "मैं",
@@ -2234,7 +2234,7 @@
           },
           {
             "target": "चाहिए।",
-            "bangla_pronunciation": "চাহিয়ে",
+            "bangla_pronunciation": "চাহিয়ে।",
             "romanization": "chaahie.",
             "separator_after": ""
           }
@@ -2242,8 +2242,8 @@
       },
       {
         "target": "कृपया रसीद दीजिए।",
-        "bangla_pronunciation": "কৃপয়া রসীদ দিজিয়ে",
-        "romanization": "kRpyaa rsiid diijie",
+        "bangla_pronunciation": "কৃপয়া রসীদ দিজিয়ে।",
+        "romanization": "kripaya raseed deejie.",
         "word_pronunciations": [
           {
             "target": "कृपया",
@@ -2259,15 +2259,15 @@
           },
           {
             "target": "दीजिए।",
-            "bangla_pronunciation": "দিজিয়ে",
+            "bangla_pronunciation": "দিজিয়ে।",
             "romanization": "deejie.",
             "separator_after": ""
           }
         ]
       }
     ],
-    "bangla_pronunciation": "ভহ বৈগ বহুত মহঁগা হ্যায় ইয়হ কিতনে কা হ্যায় ম্যায়ঁ নকদ দূঁগা অউর মুঝে ছুট্টা চাহিয়ে কৃপয়া রসীদ দিজিয়ে",
-    "romanization": "vaha baiga bahuta mahangaa hai. yah kitane ka hai? main nakada duungaa aura mujhe chhuttaa chaahie. kRpyaa rsiid diijie",
+    "bangla_pronunciation": "বহ ব্যাগ বহুত মহঁগা হ্যায়। য়হ কিতনে কা হ্যায়? ম্যায়ঁ নকদ দূঁগা অউর মুঝে ছুট্টা চাহিয়ে। কৃপয়া রসীদ দিজিয়ে।",
+    "romanization": "vah bag bahut mahanga hai. yeh kitne kaa hai? main nakad doongaa aur mujhe chhutta chaahie. kripaya raseed deejie.",
     "meaning_bengali_md": "ওই ব্যাগটি খুব দামি। এটার দাম কত? আমি নগদ দেব এবং আমার খুচরা টাকা দরকার। দয়া করে রসিদ দিন।"
   },
   "script_practice": [
@@ -2353,12 +2353,12 @@
       "prompt_bengali_md": "অনুশীলন 3: শব্দ বা অভিব্যক্তিটি স্পষ্ট করে বলুন।",
       "model_target": "कीमत",
       "model_bangla_pronunciation": "কীমত",
-      "model_romanization": "kiimat",
+      "model_romanization": "keemat",
       "model_word_pronunciations": [
         {
           "target": "कीमत",
           "bangla_pronunciation": "কীমত",
-          "romanization": "kiimat",
+          "romanization": "keemat",
           "separator_after": ""
         }
       ],
@@ -2397,19 +2397,19 @@
     {
       "prompt_bengali_md": "অনুশীলন 6: শব্দ বা অভিব্যক্তিটি স্পষ্ট করে বলুন।",
       "model_target": "यह कितने का है",
-      "model_bangla_pronunciation": "ইয়হ কিতনে কা হ্যায়",
-      "model_romanization": "yah kitane ka hai",
+      "model_bangla_pronunciation": "য়হ কিতনে কা হ্যায়",
+      "model_romanization": "yeh kitne kaa hai",
       "model_word_pronunciations": [
         {
           "target": "यह",
-          "bangla_pronunciation": "ইয়হ",
-          "romanization": "yah",
+          "bangla_pronunciation": "য়হ",
+          "romanization": "yeh",
           "separator_after": " "
         },
         {
           "target": "कितने",
           "bangla_pronunciation": "কিতনে",
-          "romanization": "kitane",
+          "romanization": "kitne",
           "separator_after": " "
         },
         {

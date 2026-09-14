@@ -30,7 +30,7 @@
     {
       "id": "s01",
       "target": "यह नगर बड़ी सड़क और पुराने पुल के लिए जाना जाता है।",
-      "romanization": "yh ngr bdii sdk aur puraane pul ke lie jaanaa jaataa hai.",
+      "romanization": "yah ngr badi sarak aur puraane pul ke lie jaana jaataa hai.",
       "bangla_pronunciation": "যহ নগর বডী সডক ঔর পুরানে পুল কে লিএ জানা জাতা হৈ।",
       "word_pronunciations": [
         {
@@ -110,14 +110,14 @@
     },
     {
       "id": "s02",
-      "target": "चौराहा इस मोहल्ला के सामने है।",
-      "romanization": "chauraahaa is mohllaa ke saamne hai.",
-      "bangla_pronunciation": "চৌরাহা ইস মোহল্লা কে সামনে হৈ।",
+      "target": "चौराहा इस मोहल्ले के सामने है।",
+      "romanization": "chauraaha is mohalle ke saamne hai.",
+      "bangla_pronunciation": "চৌরাহা ইস মোহল্লে কে সামনে হৈ।",
       "word_pronunciations": [
         {
           "target": "चौराहा",
           "bangla_pronunciation": "চৌরাহা",
-          "romanization": "chauraahaa",
+          "romanization": "chauraaha",
           "separator_after": " "
         },
         {
@@ -127,9 +127,9 @@
           "separator_after": " "
         },
         {
-          "target": "मोहल्ला",
-          "bangla_pronunciation": "মোহল্লা",
-          "romanization": "mohllaa",
+          "target": "मोहल्ले",
+          "bangla_pronunciation": "মোহল্লে",
+          "romanization": "mohalle",
           "separator_after": " "
         },
         {
@@ -156,7 +156,7 @@
     {
       "id": "s03",
       "target": "सीधा चलते जाइए, फिर बायाँ मोड़ लीजिए।",
-      "romanization": "siidhaa chlte jaaie, phir baayaan mod liijie.",
+      "romanization": "seedha chalte jaaie, phir baayaan mod leejie.",
       "bangla_pronunciation": "সীধা চলতে জাইএ, ফির বাযাঁ মোড লীজিএ।",
       "word_pronunciations": [
         {
@@ -168,7 +168,7 @@
         {
           "target": "चलते",
           "bangla_pronunciation": "চলতে",
-          "romanization": "chalate",
+          "romanization": "chalte",
           "separator_after": " "
         },
         {
@@ -206,14 +206,14 @@
     },
     {
       "id": "s04",
-      "target": "दायाँ मोड़ पर यातायात ज्यादा है।",
-      "romanization": "daayaan mod pr yaataayaat jyaadaa hai.",
-      "bangla_pronunciation": "দাযাঁ মোড পর যাতাযাত জ্যাদা হৈ।",
+      "target": "दाएँ मोड़ पर यातायात ज्यादा है।",
+      "romanization": "daaen mod par yaataayaat jyaada hai.",
+      "bangla_pronunciation": "দাএঁ মোড পর যাতাযাত জ্যাদা হৈ।",
       "word_pronunciations": [
         {
-          "target": "दायाँ",
-          "bangla_pronunciation": "দাযাঁ",
-          "romanization": "daayaan",
+          "target": "दाएँ",
+          "bangla_pronunciation": "দাএঁ",
+          "romanization": "daaen",
           "separator_after": " "
         },
         {
@@ -237,7 +237,7 @@
         {
           "target": "ज्यादा",
           "bangla_pronunciation": "জ্যাদা",
-          "romanization": "jyadaa",
+          "romanization": "jyaada",
           "separator_after": " "
         },
         {
@@ -252,7 +252,7 @@
     {
       "id": "s05",
       "target": "बस-स्टॉप के पास पूछिए, यह रास्ता कहाँ जाता है।",
-      "romanization": "bs-stop ke paas puuchhie, yh raastaa khaan jaataa hai.",
+      "romanization": "bs-stop ke paas poochhie, yah raasta kahaan jaataa hai.",
       "bangla_pronunciation": "বস-স্টোপ কে পাস পূছিএ, যহ রাস্তা কহাঁ জাতা হৈ।",
       "word_pronunciations": [
         {
@@ -314,9 +314,9 @@
     },
     {
       "id": "s06",
-      "target": "पुलिस थाना सड़क के दूसरी तरफ है।",
-      "romanization": "pulis thaanaa sdk ke duusrii trph hai.",
-      "bangla_pronunciation": "পুলিস থানা সডক কে দূসরী তরফ হৈ।",
+      "target": "पुलिस थाना सड़क की दूसरी तरफ है।",
+      "romanization": "pulis thaana sadak ki doosri taraf hai.",
+      "bangla_pronunciation": "পুলিস থানা সডক কী দূসরী তরফ হৈ।",
       "word_pronunciations": [
         {
           "target": "पुलिस",
@@ -327,31 +327,31 @@
         {
           "target": "थाना",
           "bangla_pronunciation": "থানা",
-          "romanization": "thaanaa",
+          "romanization": "thaana",
           "separator_after": " "
         },
         {
           "target": "सड़क",
           "bangla_pronunciation": "সডক",
-          "romanization": "sarak",
+          "romanization": "sadak",
           "separator_after": " "
         },
         {
-          "target": "के",
-          "bangla_pronunciation": "কে",
-          "romanization": "ke",
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "ki",
           "separator_after": " "
         },
         {
           "target": "दूसरी",
           "bangla_pronunciation": "দূসরী",
-          "romanization": "doosaree",
+          "romanization": "doosri",
           "separator_after": " "
         },
         {
           "target": "तरफ",
           "bangla_pronunciation": "তরফ",
-          "romanization": "taraph",
+          "romanization": "taraf",
           "separator_after": " "
         },
         {
@@ -366,7 +366,7 @@
     {
       "id": "s07",
       "target": "डाकघर और पुस्तकालय एक ही गली में हैं।",
-      "romanization": "daakghr aur pustkaaly ek hii glii men hain.",
+      "romanization": "daakaghar aur pustakaalay ek hee galii men hain.",
       "bangla_pronunciation": "ডাকঘর ঔর পুস্তকালয এক হী গলী মেং হৈং।",
       "word_pronunciations": [
         {
@@ -423,7 +423,7 @@
     {
       "id": "s08",
       "target": "क्लिनिक खोजते हुए मैंने कहा, मुझे रास्ता नहीं मिल रहा।",
-      "romanization": "klinik khojte hue mainne khaa, mujhe raastaa nhiin mil rhaa.",
+      "romanization": "klinik khojate hue mainne kahaa, mujhe raasta naheen mil rahaa.",
       "bangla_pronunciation": "ক্লিনিক খোজতে হুএ মৈংনে কহা, মুঝে রাস্তা নহীং মিল রহা।",
       "word_pronunciations": [
         {
@@ -492,7 +492,7 @@
     {
       "id": "s09",
       "target": "पार्क के पीछे बड़ा मैदान है।",
-      "romanization": "paark ke piichhe bdaa maidaan hai.",
+      "romanization": "paark ke peechhe bada maidaan hai.",
       "bangla_pronunciation": "পার্ক কে পীছে বডা মৈদান হৈ।",
       "word_pronunciations": [
         {
@@ -516,7 +516,7 @@
         {
           "target": "बड़ा",
           "bangla_pronunciation": "বডা",
-          "romanization": "bdd'aa",
+          "romanization": "bada",
           "separator_after": " "
         },
         {
@@ -536,14 +536,14 @@
     },
     {
       "id": "s10",
-      "target": "मंदिर और मस्जिद दोनों इस मोहल्ला में हैं।",
-      "romanization": "mndir aur msjid donon is mohllaa men hain.",
-      "bangla_pronunciation": "মংদির ঔর মস্জিদ দোনোং ইস মোহল্লা মেং হৈং।",
+      "target": "मंदिर और मस्जिद दोनों इस मोहल्ले में हैं।",
+      "romanization": "mandir aur masjid donon is mohalle mein hain.",
+      "bangla_pronunciation": "মংদির ঔর মস্জিদ দোনোং ইস মোহল্লে মেং হৈং।",
       "word_pronunciations": [
         {
           "target": "मंदिर",
           "bangla_pronunciation": "মংদির",
-          "romanization": "mndir",
+          "romanization": "mandir",
           "separator_after": " "
         },
         {
@@ -555,7 +555,7 @@
         {
           "target": "मस्जिद",
           "bangla_pronunciation": "মস্জিদ",
-          "romanization": "msjid",
+          "romanization": "masjid",
           "separator_after": " "
         },
         {
@@ -571,15 +571,15 @@
           "separator_after": " "
         },
         {
-          "target": "मोहल्ला",
-          "bangla_pronunciation": "মোহল্লা",
-          "romanization": "mohllaa",
+          "target": "मोहल्ले",
+          "bangla_pronunciation": "মোহল্লে",
+          "romanization": "mohalle",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেং",
-          "romanization": "men",
+          "romanization": "mein",
           "separator_after": " "
         },
         {
@@ -594,7 +594,7 @@
     {
       "id": "s11",
       "target": "नगरपालिका कार्यालय कितनी दूर है?",
-      "romanization": "ngrpaalikaa kaaryaaly kitnii duur hai?",
+      "romanization": "ngrpaalikaa kaaryaaly kitni door hai?",
       "bangla_pronunciation": "নগরপালিকা কার্যালয কিতনী দূর হৈ?",
       "word_pronunciations": [
         {
@@ -612,7 +612,7 @@
         {
           "target": "कितनी",
           "bangla_pronunciation": "কিতনী",
-          "romanization": "kitanee",
+          "romanization": "kitni",
           "separator_after": " "
         },
         {
@@ -632,14 +632,14 @@
     },
     {
       "id": "s12",
-      "target": "टैक्सी और ऑटो चौराहा पर मिलते हैं।",
-      "romanization": "taiksii aur oto chauraahaa pr milte hain.",
-      "bangla_pronunciation": "টৈক্সী ঔর অটো চৌরাহা পর মিলতে হৈং।",
+      "target": "टैक्सी और ऑटो चौराहे पर मिलते हैं।",
+      "romanization": "taxi aur auto chauraahe par milte hain.",
+      "bangla_pronunciation": "টৈক্সী ঔর অটো চৌরাহে পর মিলতে হৈং।",
       "word_pronunciations": [
         {
           "target": "टैक्सी",
           "bangla_pronunciation": "টৈক্সী",
-          "romanization": "taiksee",
+          "romanization": "taxi",
           "separator_after": " "
         },
         {
@@ -651,13 +651,13 @@
         {
           "target": "ऑटो",
           "bangla_pronunciation": "অটো",
-          "romanization": "oto",
+          "romanization": "auto",
           "separator_after": " "
         },
         {
-          "target": "चौराहा",
-          "bangla_pronunciation": "চৌরাহা",
-          "romanization": "chauraahaa",
+          "target": "चौराहे",
+          "bangla_pronunciation": "চৌরাহে",
+          "romanization": "chauraahe",
           "separator_after": " "
         },
         {
@@ -669,7 +669,7 @@
         {
           "target": "मिलते",
           "bangla_pronunciation": "মিলতে",
-          "romanization": "milate",
+          "romanization": "milte",
           "separator_after": " "
         },
         {
@@ -729,7 +729,7 @@
     {
       "id": "s14",
       "target": "शाम को सड़क पर बहुत भीड़ होती है।",
-      "romanization": "shaam ko sdk pr bhut bhiid hotii hai.",
+      "romanization": "shaam ko sarak par bahut bheed hotee hai.",
       "bangla_pronunciation": "শাম কো সডক পর বহুত ভীড হোতী হৈ।",
       "word_pronunciations": [
         {
@@ -765,7 +765,7 @@
         {
           "target": "भीड़",
           "bangla_pronunciation": "ভীড",
-          "romanization": "bhiidd'",
+          "romanization": "bheed",
           "separator_after": " "
         },
         {
@@ -786,7 +786,7 @@
     {
       "id": "s15",
       "target": "ड्राइवर से कहिए, यहीं रोकिए।",
-      "romanization": "draaivr se khie, yhiin rokie.",
+      "romanization": "draaivar se kahie, yaheen rokie.",
       "bangla_pronunciation": "ড্রাইভর সে কহিএ, যহীং রোকিএ।",
       "word_pronunciations": [
         {
@@ -870,7 +870,7 @@
     {
       "id": "s17",
       "target": "बस-स्टॉप के पास पुलिस खड़ी है।",
-      "romanization": "bs-stop ke paas pulis khdii hai.",
+      "romanization": "bs-stop ke paas pulis kharee hai.",
       "bangla_pronunciation": "বস-স্টোপ কে পাস পুলিস খডী হৈ।",
       "word_pronunciations": [
         {
@@ -915,7 +915,7 @@
     {
       "id": "s18",
       "target": "पार्क और पुस्तकालय पास-पास हैं।",
-      "romanization": "paark aur pustkaaly paas-paas hain.",
+      "romanization": "paark aur pustakaalay paasa-paas hain.",
       "bangla_pronunciation": "পার্ক ঔর পুস্তকালয পাস-পাস হৈং।",
       "word_pronunciations": [
         {
@@ -954,7 +954,7 @@
     {
       "id": "s19",
       "target": "ऑटो से नगरपालिका जल्दी पहुँच सकते हैं।",
-      "romanization": "oto se ngrpaalikaa jldii phunch skte hain.",
+      "romanization": "oto se ngrpaalikaa jaldee phunc skte hain.",
       "bangla_pronunciation": "অটো সে নগরপালিকা জল্দী পহুঁচ সকতে হৈং।",
       "word_pronunciations": [
         {
@@ -1005,7 +1005,7 @@
     {
       "id": "s20",
       "target": "फुटपाथ पर भीड़ कम है।",
-      "romanization": "phutpaath pr bhiid km hai.",
+      "romanization": "phutpaath par bheed km hai.",
       "bangla_pronunciation": "ফুটপাথ পর ভীড কম হৈ।",
       "word_pronunciations": [
         {
@@ -1023,7 +1023,7 @@
         {
           "target": "भीड़",
           "bangla_pronunciation": "ভীড",
-          "romanization": "bhiidd'",
+          "romanization": "bheed",
           "separator_after": " "
         },
         {
@@ -1063,7 +1063,7 @@
       "source_form": "नगर",
       "example_target": "यह नगर बड़ी सड़क और पुराने पुल के लिए जाना जाता है।",
       "example_bangla_pronunciation": "যহ নগর বডী সডক ঔর পুরানে পুল কে লিএ জানা জাতা হৈ।",
-      "example_romanization": "yh ngr bdii sdk aur puraane pul ke lie jaanaa jaataa hai.",
+      "example_romanization": "yah ngr badi sarak aur puraane pul ke lie jaana jaataa hai.",
       "example_word_pronunciations": [
         {
           "target": "यह",
@@ -1161,7 +1161,7 @@
       "source_form": "सड़क",
       "example_target": "यह नगर बड़ी सड़क और पुराने पुल के लिए जाना जाता है।",
       "example_bangla_pronunciation": "যহ নগর বডী সডক ঔর পুরানে পুল কে লিএ জানা জাতা হৈ।",
-      "example_romanization": "yh ngr bdii sdk aur puraane pul ke lie jaanaa jaataa hai.",
+      "example_romanization": "yah ngr badi sarak aur puraane pul ke lie jaana jaataa hai.",
       "example_word_pronunciations": [
         {
           "target": "यह",
@@ -1257,14 +1257,14 @@
       "meaning_bengali_md": "চৌরাস্তা",
       "source_sentence_id": "s02",
       "source_form": "चौराहा",
-      "example_target": "चौराहा इस मोहल्ला के सामने है।",
-      "example_bangla_pronunciation": "চৌরাহা ইস মোহল্লা কে সামনে হৈ।",
-      "example_romanization": "chauraahaa is mohllaa ke saamne hai.",
+      "example_target": "चौराहा इस मोहल्ले के सामने है।",
+      "example_bangla_pronunciation": "চৌরাহা ইস মোহল্লে কে সামনে হৈ।",
+      "example_romanization": "chauraaha is mohalle ke saamne hai.",
       "example_word_pronunciations": [
         {
           "target": "चौराहा",
           "bangla_pronunciation": "চৌরাহা",
-          "romanization": "chauraahaa",
+          "romanization": "chauraaha",
           "separator_after": " "
         },
         {
@@ -1274,9 +1274,9 @@
           "separator_after": " "
         },
         {
-          "target": "मोहल्ला",
-          "bangla_pronunciation": "মোহল্লা",
-          "romanization": "mohllaa",
+          "target": "मोहल्ले",
+          "bangla_pronunciation": "মোহল্লে",
+          "romanization": "mohalle",
           "separator_after": " "
         },
         {
@@ -1321,7 +1321,7 @@
       "source_form": "पुल",
       "example_target": "यह नगर बड़ी सड़क और पुराने पुल के लिए जाना जाता है।",
       "example_bangla_pronunciation": "যহ নগর বডী সডক ঔর পুরানে পুল কে লিএ জানা জাতা হৈ।",
-      "example_romanization": "yh ngr bdii sdk aur puraane pul ke lie jaanaa jaataa hai.",
+      "example_romanization": "yah ngr badi sarak aur puraane pul ke lie jaana jaataa hai.",
       "example_word_pronunciations": [
         {
           "target": "यह",
@@ -1416,15 +1416,15 @@
       ],
       "meaning_bengali_md": "মহল্লা",
       "source_sentence_id": "s02",
-      "source_form": "मोहल्ला",
-      "example_target": "चौराहा इस मोहल्ला के सामने है।",
-      "example_bangla_pronunciation": "চৌরাহা ইস মোহল্লা কে সামনে হৈ।",
-      "example_romanization": "chauraahaa is mohllaa ke saamne hai.",
+      "source_form": "मोहल्ले",
+      "example_target": "चौराहा इस मोहल्ले के सामने है।",
+      "example_bangla_pronunciation": "চৌরাহা ইস মোহল্লে কে সামনে হৈ।",
+      "example_romanization": "chauraaha is mohalle ke saamne hai.",
       "example_word_pronunciations": [
         {
           "target": "चौराहा",
           "bangla_pronunciation": "চৌরাহা",
-          "romanization": "chauraahaa",
+          "romanization": "chauraaha",
           "separator_after": " "
         },
         {
@@ -1434,9 +1434,9 @@
           "separator_after": " "
         },
         {
-          "target": "मोहल्ला",
-          "bangla_pronunciation": "মোহল্লা",
-          "romanization": "mohllaa",
+          "target": "मोहल्ले",
+          "bangla_pronunciation": "মোহল্লে",
+          "romanization": "mohalle",
           "separator_after": " "
         },
         {
@@ -1478,7 +1478,7 @@
         {
           "target": "चलते",
           "bangla_pronunciation": "চলতে",
-          "romanization": "chalate",
+          "romanization": "chalte",
           "separator_after": " "
         },
         {
@@ -1493,7 +1493,7 @@
       "source_form": "सीधा चलते जाइए",
       "example_target": "सीधा चलते जाइए, फिर बायाँ मोड़ लीजिए।",
       "example_bangla_pronunciation": "সীধা চলতে জাইএ, ফির বাযাঁ মোড লীজিএ।",
-      "example_romanization": "siidhaa chlte jaaie, phir baayaan mod liijie.",
+      "example_romanization": "seedha chalte jaaie, phir baayaan mod leejie.",
       "example_word_pronunciations": [
         {
           "target": "सीधा",
@@ -1504,7 +1504,7 @@
         {
           "target": "चलते",
           "bangla_pronunciation": "চলতে",
-          "romanization": "chalate",
+          "romanization": "chalte",
           "separator_after": " "
         },
         {
@@ -1561,7 +1561,7 @@
       "source_form": "बायाँ",
       "example_target": "सीधा चलते जाइए, फिर बायाँ मोड़ लीजिए।",
       "example_bangla_pronunciation": "সীধা চলতে জাইএ, ফির বাযাঁ মোড লীজিএ।",
-      "example_romanization": "siidhaa chlte jaaie, phir baayaan mod liijie.",
+      "example_romanization": "seedha chalte jaaie, phir baayaan mod leejie.",
       "example_word_pronunciations": [
         {
           "target": "सीधा",
@@ -1572,7 +1572,7 @@
         {
           "target": "चलते",
           "bangla_pronunciation": "চলতে",
-          "romanization": "chalate",
+          "romanization": "chalte",
           "separator_after": " "
         },
         {
@@ -1626,15 +1626,15 @@
       ],
       "meaning_bengali_md": "ডান",
       "source_sentence_id": "s04",
-      "source_form": "दायाँ",
-      "example_target": "दायाँ मोड़ पर यातायात ज्यादा है।",
-      "example_bangla_pronunciation": "দাযাঁ মোড পর যাতাযাত জ্যাদা হৈ।",
-      "example_romanization": "daayaan mod pr yaataayaat jyaadaa hai.",
+      "source_form": "दाएँ",
+      "example_target": "दाएँ मोड़ पर यातायात ज्यादा है।",
+      "example_bangla_pronunciation": "দাএঁ মোড পর যাতাযাত জ্যাদা হৈ।",
+      "example_romanization": "daaen mod par yaataayaat jyaada hai.",
       "example_word_pronunciations": [
         {
-          "target": "दायाँ",
-          "bangla_pronunciation": "দাযাঁ",
-          "romanization": "daayaan",
+          "target": "दाएँ",
+          "bangla_pronunciation": "দাএঁ",
+          "romanization": "daaen",
           "separator_after": " "
         },
         {
@@ -1658,7 +1658,7 @@
         {
           "target": "ज्यादा",
           "bangla_pronunciation": "জ্যাদা",
-          "romanization": "jyadaa",
+          "romanization": "jyaada",
           "separator_after": " "
         },
         {
@@ -1691,7 +1691,7 @@
       "source_form": "मोड़",
       "example_target": "सीधा चलते जाइए, फिर बायाँ मोड़ लीजिए।",
       "example_bangla_pronunciation": "সীধা চলতে জাইএ, ফির বাযাঁ মোড লীজিএ।",
-      "example_romanization": "siidhaa chlte jaaie, phir baayaan mod liijie.",
+      "example_romanization": "seedha chalte jaaie, phir baayaan mod leejie.",
       "example_word_pronunciations": [
         {
           "target": "सीधा",
@@ -1702,7 +1702,7 @@
         {
           "target": "चलते",
           "bangla_pronunciation": "চলতে",
-          "romanization": "chalate",
+          "romanization": "chalte",
           "separator_after": " "
         },
         {
@@ -1757,14 +1757,14 @@
       "meaning_bengali_md": "যানবাহন চলাচল",
       "source_sentence_id": "s04",
       "source_form": "यातायात",
-      "example_target": "दायाँ मोड़ पर यातायात ज्यादा है।",
-      "example_bangla_pronunciation": "দাযাঁ মোড পর যাতাযাত জ্যাদা হৈ।",
-      "example_romanization": "daayaan mod pr yaataayaat jyaadaa hai.",
+      "example_target": "दाएँ मोड़ पर यातायात ज्यादा है।",
+      "example_bangla_pronunciation": "দাএঁ মোড পর যাতাযাত জ্যাদা হৈ।",
+      "example_romanization": "daaen mod par yaataayaat jyaada hai.",
       "example_word_pronunciations": [
         {
-          "target": "दायाँ",
-          "bangla_pronunciation": "দাযাঁ",
-          "romanization": "daayaan",
+          "target": "दाएँ",
+          "bangla_pronunciation": "দাএঁ",
+          "romanization": "daaen",
           "separator_after": " "
         },
         {
@@ -1788,7 +1788,7 @@
         {
           "target": "ज्यादा",
           "bangla_pronunciation": "জ্যাদা",
-          "romanization": "jyadaa",
+          "romanization": "jyaada",
           "separator_after": " "
         },
         {
@@ -1821,7 +1821,7 @@
       "source_form": "बस-स्टॉप",
       "example_target": "बस-स्टॉप के पास पूछिए, यह रास्ता कहाँ जाता है।",
       "example_bangla_pronunciation": "বস-স্টোপ কে পাস পূছিএ, যহ রাস্তা কহাঁ জাতা হৈ।",
-      "example_romanization": "bs-stop ke paas puuchhie, yh raastaa khaan jaataa hai.",
+      "example_romanization": "bs-stop ke paas poochhie, yah raasta kahaan jaataa hai.",
       "example_word_pronunciations": [
         {
           "target": "बस-स्टॉप",
@@ -1925,7 +1925,7 @@
       "source_form": "यह रास्ता कहाँ जाता है",
       "example_target": "बस-स्टॉप के पास पूछिए, यह रास्ता कहाँ जाता है।",
       "example_bangla_pronunciation": "বস-স্টোপ কে পাস পূছিএ, যহ রাস্তা কহাঁ জাতা হৈ।",
-      "example_romanization": "bs-stop ke paas puuchhie, yh raastaa khaan jaataa hai.",
+      "example_romanization": "bs-stop ke paas poochhie, yah raasta kahaan jaataa hai.",
       "example_word_pronunciations": [
         {
           "target": "बस-स्टॉप",
@@ -2003,9 +2003,9 @@
       "meaning_bengali_md": "পুলিশ",
       "source_sentence_id": "s06",
       "source_form": "पुलिस",
-      "example_target": "पुलिस थाना सड़क के दूसरी तरफ है।",
-      "example_bangla_pronunciation": "পুলিস থানা সডক কে দূসরী তরফ হৈ।",
-      "example_romanization": "pulis thaanaa sdk ke duusrii trph hai.",
+      "example_target": "पुलिस थाना सड़क की दूसरी तरफ है।",
+      "example_bangla_pronunciation": "পুলিস থানা সডক কী দূসরী তরফ হৈ।",
+      "example_romanization": "pulis thaana sadak ki doosri taraf hai.",
       "example_word_pronunciations": [
         {
           "target": "पुलिस",
@@ -2016,31 +2016,31 @@
         {
           "target": "थाना",
           "bangla_pronunciation": "থানা",
-          "romanization": "thaanaa",
+          "romanization": "thaana",
           "separator_after": " "
         },
         {
           "target": "सड़क",
           "bangla_pronunciation": "সডক",
-          "romanization": "sarak",
+          "romanization": "sadak",
           "separator_after": " "
         },
         {
-          "target": "के",
-          "bangla_pronunciation": "কে",
-          "romanization": "ke",
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "ki",
           "separator_after": " "
         },
         {
           "target": "दूसरी",
           "bangla_pronunciation": "দূসরী",
-          "romanization": "doosaree",
+          "romanization": "doosri",
           "separator_after": " "
         },
         {
           "target": "तरफ",
           "bangla_pronunciation": "তরফ",
-          "romanization": "taraph",
+          "romanization": "taraf",
           "separator_after": " "
         },
         {
@@ -2071,9 +2071,9 @@
       "meaning_bengali_md": "থানা",
       "source_sentence_id": "s06",
       "source_form": "थाना",
-      "example_target": "पुलिस थाना सड़क के दूसरी तरफ है।",
-      "example_bangla_pronunciation": "পুলিস থানা সডক কে দূসরী তরফ হৈ।",
-      "example_romanization": "pulis thaanaa sdk ke duusrii trph hai.",
+      "example_target": "पुलिस थाना सड़क की दूसरी तरफ है।",
+      "example_bangla_pronunciation": "পুলিস থানা সডক কী দূসরী তরফ হৈ।",
+      "example_romanization": "pulis thaana sadak ki doosri taraf hai.",
       "example_word_pronunciations": [
         {
           "target": "पुलिस",
@@ -2084,31 +2084,31 @@
         {
           "target": "थाना",
           "bangla_pronunciation": "থানা",
-          "romanization": "thaanaa",
+          "romanization": "thaana",
           "separator_after": " "
         },
         {
           "target": "सड़क",
           "bangla_pronunciation": "সডক",
-          "romanization": "sarak",
+          "romanization": "sadak",
           "separator_after": " "
         },
         {
-          "target": "के",
-          "bangla_pronunciation": "কে",
-          "romanization": "ke",
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "ki",
           "separator_after": " "
         },
         {
           "target": "दूसरी",
           "bangla_pronunciation": "দূসরী",
-          "romanization": "doosaree",
+          "romanization": "doosri",
           "separator_after": " "
         },
         {
           "target": "तरफ",
           "bangla_pronunciation": "তরফ",
-          "romanization": "taraph",
+          "romanization": "taraf",
           "separator_after": " "
         },
         {
@@ -2141,7 +2141,7 @@
       "source_form": "डाकघर",
       "example_target": "डाकघर और पुस्तकालय एक ही गली में हैं।",
       "example_bangla_pronunciation": "ডাকঘর ঔর পুস্তকালয এক হী গলী মেং হৈং।",
-      "example_romanization": "daakghr aur pustkaaly ek hii glii men hain.",
+      "example_romanization": "daakaghar aur pustakaalay ek hee galii men hain.",
       "example_word_pronunciations": [
         {
           "target": "डाकघर",
@@ -2215,7 +2215,7 @@
       "source_form": "पुस्तकालय",
       "example_target": "डाकघर और पुस्तकालय एक ही गली में हैं।",
       "example_bangla_pronunciation": "ডাকঘর ঔর পুস্তকালয এক হী গলী মেং হৈং।",
-      "example_romanization": "daakghr aur pustkaaly ek hii glii men hain.",
+      "example_romanization": "daakaghar aur pustakaalay ek hee galii men hain.",
       "example_word_pronunciations": [
         {
           "target": "डाकघर",
@@ -2289,7 +2289,7 @@
       "source_form": "क्लिनिक",
       "example_target": "क्लिनिक खोजते हुए मैंने कहा, मुझे रास्ता नहीं मिल रहा।",
       "example_bangla_pronunciation": "ক্লিনিক খোজতে হুএ মৈংনে কহা, মুঝে রাস্তা নহীং মিল রহা।",
-      "example_romanization": "klinik khojte hue mainne khaa, mujhe raastaa nhiin mil rhaa.",
+      "example_romanization": "klinik khojate hue mainne kahaa, mujhe raasta naheen mil rahaa.",
       "example_word_pronunciations": [
         {
           "target": "क्लिनिक",
@@ -2399,7 +2399,7 @@
       "source_form": "मुझे रास्ता नहीं मिल रहा",
       "example_target": "क्लिनिक खोजते हुए मैंने कहा, मुझे रास्ता नहीं मिल रहा।",
       "example_bangla_pronunciation": "ক্লিনিক খোজতে হুএ মৈংনে কহা, মুঝে রাস্তা নহীং মিল রহা।",
-      "example_romanization": "klinik khojte hue mainne khaa, mujhe raastaa nhiin mil rhaa.",
+      "example_romanization": "klinik khojate hue mainne kahaa, mujhe raasta naheen mil rahaa.",
       "example_word_pronunciations": [
         {
           "target": "क्लिनिक",
@@ -2485,7 +2485,7 @@
       "source_form": "पार्क",
       "example_target": "पार्क के पीछे बड़ा मैदान है।",
       "example_bangla_pronunciation": "পার্ক কে পীছে বডা মৈদান হৈ।",
-      "example_romanization": "paark ke piichhe bdaa maidaan hai.",
+      "example_romanization": "paark ke peechhe bada maidaan hai.",
       "example_word_pronunciations": [
         {
           "target": "पार्क",
@@ -2508,7 +2508,7 @@
         {
           "target": "बड़ा",
           "bangla_pronunciation": "বডা",
-          "romanization": "bdd'aa",
+          "romanization": "bada",
           "separator_after": " "
         },
         {
@@ -2547,7 +2547,7 @@
       "source_form": "मैदान",
       "example_target": "पार्क के पीछे बड़ा मैदान है।",
       "example_bangla_pronunciation": "পার্ক কে পীছে বডা মৈদান হৈ।",
-      "example_romanization": "paark ke piichhe bdaa maidaan hai.",
+      "example_romanization": "paark ke peechhe bada maidaan hai.",
       "example_word_pronunciations": [
         {
           "target": "पार्क",
@@ -2570,7 +2570,7 @@
         {
           "target": "बड़ा",
           "bangla_pronunciation": "বডা",
-          "romanization": "bdd'aa",
+          "romanization": "bada",
           "separator_after": " "
         },
         {
@@ -2607,14 +2607,14 @@
       "meaning_bengali_md": "মন্দির",
       "source_sentence_id": "s10",
       "source_form": "मंदिर",
-      "example_target": "मंदिर और मस्जिद दोनों इस मोहल्ला में हैं।",
-      "example_bangla_pronunciation": "মংদির ঔর মস্জিদ দোনোং ইস মোহল্লা মেং হৈং।",
-      "example_romanization": "mndir aur msjid donon is mohllaa men hain.",
+      "example_target": "मंदिर और मस्जिद दोनों इस मोहल्ले में हैं।",
+      "example_bangla_pronunciation": "মংদির ঔর মস্জিদ দোনোং ইস মোহল্লে মেং হৈং।",
+      "example_romanization": "mandir aur masjid donon is mohalle mein hain.",
       "example_word_pronunciations": [
         {
           "target": "मंदिर",
           "bangla_pronunciation": "মংদির",
-          "romanization": "mndir",
+          "romanization": "mandir",
           "separator_after": " "
         },
         {
@@ -2626,7 +2626,7 @@
         {
           "target": "मस्जिद",
           "bangla_pronunciation": "মস্জিদ",
-          "romanization": "msjid",
+          "romanization": "masjid",
           "separator_after": " "
         },
         {
@@ -2642,15 +2642,15 @@
           "separator_after": " "
         },
         {
-          "target": "मोहल्ला",
-          "bangla_pronunciation": "মোহল্লা",
-          "romanization": "mohllaa",
+          "target": "मोहल्ले",
+          "bangla_pronunciation": "মোহল্লে",
+          "romanization": "mohalle",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেং",
-          "romanization": "men",
+          "romanization": "mein",
           "separator_after": " "
         },
         {
@@ -2681,14 +2681,14 @@
       "meaning_bengali_md": "মসজিদ",
       "source_sentence_id": "s10",
       "source_form": "मस्जिद",
-      "example_target": "मंदिर और मस्जिद दोनों इस मोहल्ला में हैं।",
-      "example_bangla_pronunciation": "মংদির ঔর মস্জিদ দোনোং ইস মোহল্লা মেং হৈং।",
-      "example_romanization": "mndir aur msjid donon is mohllaa men hain.",
+      "example_target": "मंदिर और मस्जिद दोनों इस मोहल्ले में हैं।",
+      "example_bangla_pronunciation": "মংদির ঔর মস্জিদ দোনোং ইস মোহল্লে মেং হৈং।",
+      "example_romanization": "mandir aur masjid donon is mohalle mein hain.",
       "example_word_pronunciations": [
         {
           "target": "मंदिर",
           "bangla_pronunciation": "মংদির",
-          "romanization": "mndir",
+          "romanization": "mandir",
           "separator_after": " "
         },
         {
@@ -2700,7 +2700,7 @@
         {
           "target": "मस्जिद",
           "bangla_pronunciation": "মস্জিদ",
-          "romanization": "msjid",
+          "romanization": "masjid",
           "separator_after": " "
         },
         {
@@ -2716,15 +2716,15 @@
           "separator_after": " "
         },
         {
-          "target": "मोहल्ला",
-          "bangla_pronunciation": "মোহল্লা",
-          "romanization": "mohllaa",
+          "target": "मोहल्ले",
+          "bangla_pronunciation": "মোহল্লে",
+          "romanization": "mohalle",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেং",
-          "romanization": "men",
+          "romanization": "mein",
           "separator_after": " "
         },
         {
@@ -2757,7 +2757,7 @@
       "source_form": "नगरपालिका",
       "example_target": "नगरपालिका कार्यालय कितनी दूर है?",
       "example_bangla_pronunciation": "নগরপালিকা কার্যালয কিতনী দূর হৈ?",
-      "example_romanization": "ngrpaalikaa kaaryaaly kitnii duur hai?",
+      "example_romanization": "ngrpaalikaa kaaryaaly kitni door hai?",
       "example_word_pronunciations": [
         {
           "target": "नगरपालिका",
@@ -2774,7 +2774,7 @@
         {
           "target": "कितनी",
           "bangla_pronunciation": "কিতনী",
-          "romanization": "kitanee",
+          "romanization": "kitni",
           "separator_after": " "
         },
         {
@@ -2804,7 +2804,7 @@
         {
           "target": "कितनी",
           "bangla_pronunciation": "কিতনী",
-          "romanization": "kitanee",
+          "romanization": "kitni",
           "separator_after": " "
         },
         {
@@ -2825,7 +2825,7 @@
       "source_form": "कितनी दूर है",
       "example_target": "नगरपालिका कार्यालय कितनी दूर है?",
       "example_bangla_pronunciation": "নগরপালিকা কার্যালয কিতনী দূর হৈ?",
-      "example_romanization": "ngrpaalikaa kaaryaaly kitnii duur hai?",
+      "example_romanization": "ngrpaalikaa kaaryaaly kitni door hai?",
       "example_word_pronunciations": [
         {
           "target": "नगरपालिका",
@@ -2842,7 +2842,7 @@
         {
           "target": "कितनी",
           "bangla_pronunciation": "কিতনী",
-          "romanization": "kitanee",
+          "romanization": "kitni",
           "separator_after": " "
         },
         {
@@ -2879,14 +2879,14 @@
       "meaning_bengali_md": "ট্যাক্সি",
       "source_sentence_id": "s12",
       "source_form": "टैक्सी",
-      "example_target": "टैक्सी और ऑटो चौराहा पर मिलते हैं।",
-      "example_bangla_pronunciation": "টৈক্সী ঔর অটো চৌরাহা পর মিলতে হৈং।",
-      "example_romanization": "taiksii aur oto chauraahaa pr milte hain.",
+      "example_target": "टैक्सी और ऑटो चौराहे पर मिलते हैं।",
+      "example_bangla_pronunciation": "টৈক্সী ঔর অটো চৌরাহে পর মিলতে হৈং।",
+      "example_romanization": "taxi aur auto chauraahe par milte hain.",
       "example_word_pronunciations": [
         {
           "target": "टैक्सी",
           "bangla_pronunciation": "টৈক্সী",
-          "romanization": "taiksee",
+          "romanization": "taxi",
           "separator_after": " "
         },
         {
@@ -2898,13 +2898,13 @@
         {
           "target": "ऑटो",
           "bangla_pronunciation": "অটো",
-          "romanization": "oto",
+          "romanization": "auto",
           "separator_after": " "
         },
         {
-          "target": "चौराहा",
-          "bangla_pronunciation": "চৌরাহা",
-          "romanization": "chauraahaa",
+          "target": "चौराहे",
+          "bangla_pronunciation": "চৌরাহে",
+          "romanization": "chauraahe",
           "separator_after": " "
         },
         {
@@ -2916,7 +2916,7 @@
         {
           "target": "मिलते",
           "bangla_pronunciation": "মিলতে",
-          "romanization": "milate",
+          "romanization": "milte",
           "separator_after": " "
         },
         {
@@ -2947,14 +2947,14 @@
       "meaning_bengali_md": "অটো",
       "source_sentence_id": "s12",
       "source_form": "ऑटो",
-      "example_target": "टैक्सी और ऑटो चौराहा पर मिलते हैं।",
-      "example_bangla_pronunciation": "টৈক্সী ঔর অটো চৌরাহা পর মিলতে হৈং।",
-      "example_romanization": "taiksii aur oto chauraahaa pr milte hain.",
+      "example_target": "टैक्सी और ऑटो चौराहे पर मिलते हैं।",
+      "example_bangla_pronunciation": "টৈক্সী ঔর অটো চৌরাহে পর মিলতে হৈং।",
+      "example_romanization": "taxi aur auto chauraahe par milte hain.",
       "example_word_pronunciations": [
         {
           "target": "टैक्सी",
           "bangla_pronunciation": "টৈক্সী",
-          "romanization": "taiksee",
+          "romanization": "taxi",
           "separator_after": " "
         },
         {
@@ -2966,13 +2966,13 @@
         {
           "target": "ऑटो",
           "bangla_pronunciation": "অটো",
-          "romanization": "oto",
+          "romanization": "auto",
           "separator_after": " "
         },
         {
-          "target": "चौराहा",
-          "bangla_pronunciation": "চৌরাহা",
-          "romanization": "chauraahaa",
+          "target": "चौराहे",
+          "bangla_pronunciation": "চৌরাহে",
+          "romanization": "chauraahe",
           "separator_after": " "
         },
         {
@@ -2984,7 +2984,7 @@
         {
           "target": "मिलते",
           "bangla_pronunciation": "মিলতে",
-          "romanization": "milate",
+          "romanization": "milte",
           "separator_after": " "
         },
         {
@@ -3126,13 +3126,13 @@
       "target": "भीड़",
       "category": "word",
       "type": "lexical_word",
-      "romanization": "bhiid",
+      "romanization": "bheed",
       "bangla_pronunciation": "ভীড",
       "word_pronunciations": [
         {
           "target": "भीड़",
           "bangla_pronunciation": "ভীড",
-          "romanization": "bhiidd'",
+          "romanization": "bheed",
           "separator_after": ""
         }
       ],
@@ -3141,7 +3141,7 @@
       "source_form": "भीड़",
       "example_target": "शाम को सड़क पर बहुत भीड़ होती है।",
       "example_bangla_pronunciation": "শাম কো সডক পর বহুত ভীড হোতী হৈ।",
-      "example_romanization": "shaam ko sdk pr bhut bhiid hotii hai.",
+      "example_romanization": "shaam ko sarak par bahut bheed hotee hai.",
       "example_word_pronunciations": [
         {
           "target": "शाम",
@@ -3176,7 +3176,7 @@
         {
           "target": "भीड़",
           "bangla_pronunciation": "ভীড",
-          "romanization": "bhiidd'",
+          "romanization": "bheed",
           "separator_after": " "
         },
         {
@@ -3221,7 +3221,7 @@
       "source_form": "यहीं रोकिए",
       "example_target": "ड्राइवर से कहिए, यहीं रोकिए।",
       "example_bangla_pronunciation": "ড্রাইভর সে কহিএ, যহীং রোকিএ।",
-      "example_romanization": "draaivr se khie, yhiin rokie.",
+      "example_romanization": "draaivar se kahie, yaheen rokie.",
       "example_word_pronunciations": [
         {
           "target": "ड्राइवर",
@@ -3362,7 +3362,7 @@
       {
         "target": "मैं नए नगर में आया।",
         "bangla_pronunciation": "মৈং নএ নগর মেং আযা।",
-        "romanization": "main nae nagara men aayaa.",
+        "romanization": "main nae ngr men aayaa.",
         "word_pronunciations": [
           {
             "target": "मैं",
@@ -3399,7 +3399,7 @@
       {
         "target": "सड़क बहुत व्यस्त थी।",
         "bangla_pronunciation": "সডক বহুত ভ্যস্ত থী।",
-        "romanization": "saraka bahuta vyasta thee.",
+        "romanization": "sarak bahut vyast thee.",
         "word_pronunciations": [
           {
             "target": "सड़क",
@@ -3430,7 +3430,7 @@
       {
         "target": "मैंने बायाँ मोड़ लिया।",
         "bangla_pronunciation": "মৈংনে বাযাঁ মোড লিযা।",
-        "romanization": "mainne baayaan mora liyaa.",
+        "romanization": "mainne baayaan mod liyaa.",
         "word_pronunciations": [
           {
             "target": "मैंने",
@@ -3461,7 +3461,7 @@
       {
         "target": "पार्क के पास टैक्सी मिली।",
         "bangla_pronunciation": "পার্ক কে পাস টৈক্সী মিলী।",
-        "romanization": "paarka ke paasa taiksee milee.",
+        "romanization": "paark ke paas taiksee milee.",
         "word_pronunciations": [
           {
             "target": "पार्क",
@@ -3496,14 +3496,14 @@
         ]
       },
       {
-        "target": "ड्राइवर ने सही जगह रोकी।",
-        "bangla_pronunciation": "ড্রাইভর নে সহী জগহ রোকী।",
-        "romanization": "draaivara ne sahee jagaha rokee.",
+        "target": "ड्राइवर ने सही जगह गाड़ी रोकी।",
+        "bangla_pronunciation": "ড্রাইভর নে সহী জগহ গাড়ী রোকী।",
+        "romanization": "driver ne sahi jagah gaadi roki.",
         "word_pronunciations": [
           {
             "target": "ड्राइवर",
             "bangla_pronunciation": "ড্রাইভর",
-            "romanization": "draaivar",
+            "romanization": "driver",
             "separator_after": " "
           },
           {
@@ -3515,7 +3515,7 @@
           {
             "target": "सही",
             "bangla_pronunciation": "সহী",
-            "romanization": "sahee",
+            "romanization": "sahi",
             "separator_after": " "
           },
           {
@@ -3525,16 +3525,22 @@
             "separator_after": " "
           },
           {
+            "target": "गाड़ी",
+            "bangla_pronunciation": "গাড়ী",
+            "romanization": "gaadi",
+            "separator_after": " "
+          },
+          {
             "target": "रोकी।",
             "bangla_pronunciation": "রোকী।",
-            "romanization": "rokee.",
+            "romanization": "roki.",
             "separator_after": ""
           }
         ]
       }
     ],
-    "bangla_pronunciation": "মৈং নএ নগর মেং আযা। সডক বহুত ভ্যস্ত থী। মৈংনে বাযাঁ মোড লিযা। পার্ক কে পাস টৈক্সী মিলী। ড্রাইভর নে সহী জগহ রোকী।",
-    "romanization": "main nae nagara men aayaa. saraka bahuta vyasta thee. mainne baayaan mora liyaa. paarka ke paasa taiksee milee. draaivara ne sahee jagaha rokee.",
+    "bangla_pronunciation": "মৈং নএ নগর মেং আযা। সডক বহুত ভ্যস্ত থী। মৈংনে বাযাঁ মোড লিযা। পার্ক কে পাস টৈক্সী মিলী। ড্রাইভর নে সহী জগহ গাড়ী রোকী।",
+    "romanization": "main naye nagar mein aaya. sadak bahut vyast thi. mainne baayaan mod liya. park ke paas taxi mili. driver ne sahi jagah gaadi roki.",
     "meaning_bengali_md": "আমি নতুন শহরে এলাম। রাস্তা খুব ব্যস্ত ছিল। আমি বাম মোড় নিলাম। পার্কের কাছে ট্যাক্সি পেলাম। ড্রাইভার সঠিক জায়গায় থামালেন।"
   },
   "script_practice": [
@@ -3635,7 +3641,7 @@
       "prompt_bengali_md": "এই পরিস্থিতিতে একটি উপযুক্ত হিন্দি বাক্য বলুন।",
       "model_target": "यह नगर बड़ी सड़क और पुराने पुल के लिए जाना जाता है।",
       "model_bangla_pronunciation": "যহ নগর বডী সডক ঔর পুরানে পুল কে লিএ জানা জাতা হৈ।",
-      "model_romanization": "yh ngr bdii sdk aur puraane pul ke lie jaanaa jaataa hai.",
+      "model_romanization": "yah ngr badi sarak aur puraane pul ke lie jaana jaataa hai.",
       "model_word_pronunciations": [
         {
           "target": "यह",
@@ -3716,7 +3722,7 @@
       "prompt_bengali_md": "প্রয়োজন বা পছন্দটি হিন্দিতে বলুন।",
       "model_target": "सीधा चलते जाइए, फिर बायाँ मोड़ लीजिए।",
       "model_bangla_pronunciation": "সীধা চলতে জাইএ, ফির বাযাঁ মোড লীজিএ।",
-      "model_romanization": "siidhaa chlte jaaie, phir baayaan mod liijie.",
+      "model_romanization": "seedha chalte jaaie, phir baayaan mod leejie.",
       "model_word_pronunciations": [
         {
           "target": "सीधा",
@@ -3727,7 +3733,7 @@
         {
           "target": "चलते",
           "bangla_pronunciation": "চলতে",
-          "romanization": "chalate",
+          "romanization": "chalte",
           "separator_after": " "
         },
         {
@@ -3767,7 +3773,7 @@
       "prompt_bengali_md": "প্রশ্ন বা অনুরোধটি হিন্দিতে বলুন।",
       "model_target": "पुलिस थाना सड़क के दूसरी तरफ है।",
       "model_bangla_pronunciation": "পুলিস থানা সডক কে দূসরী তরফ হৈ।",
-      "model_romanization": "pulis thaanaa sdk ke duusrii trph hai.",
+      "model_romanization": "pulis thaanaa sarak ke doosaree taraph hai.",
       "model_word_pronunciations": [
         {
           "target": "पुलिस",
@@ -3818,7 +3824,7 @@
       "prompt_bengali_md": "এই অধ্যায়ের শব্দ ব্যবহার করে একটি বাস্তব বাক্য বলুন।",
       "model_target": "पार्क के पीछे बड़ा मैदान है।",
       "model_bangla_pronunciation": "পার্ক কে পীছে বডা মৈদান হৈ।",
-      "model_romanization": "paark ke piichhe bdaa maidaan hai.",
+      "model_romanization": "paark ke peechhe bada maidaan hai.",
       "model_word_pronunciations": [
         {
           "target": "पार्क",
@@ -3841,7 +3847,7 @@
         {
           "target": "बड़ा",
           "bangla_pronunciation": "বডা",
-          "romanization": "bdd'aa",
+          "romanization": "bada",
           "separator_after": " "
         },
         {
@@ -3861,14 +3867,14 @@
     },
     {
       "prompt_bengali_md": "ভদ্রভাবে পরিস্থিতিটি সামলাতে হিন্দিতে বলুন।",
-      "model_target": "टैक्सी और ऑटो चौराहा पर मिलते हैं।",
-      "model_bangla_pronunciation": "টৈক্সী ঔর অটো চৌরাহা পর মিলতে হৈং।",
-      "model_romanization": "taiksii aur oto chauraahaa pr milte hain.",
+      "model_target": "टैक्सी और ऑटो चौराहे पर मिलते हैं।",
+      "model_bangla_pronunciation": "টৈক্সী ঔর অটো চৌরাহে পর মিলতে হৈং।",
+      "model_romanization": "taxi aur auto chauraahe par milte hain.",
       "model_word_pronunciations": [
         {
           "target": "टैक्सी",
           "bangla_pronunciation": "টৈক্সী",
-          "romanization": "taiksee",
+          "romanization": "taxi",
           "separator_after": " "
         },
         {
@@ -3880,13 +3886,13 @@
         {
           "target": "ऑटो",
           "bangla_pronunciation": "অটো",
-          "romanization": "oto",
+          "romanization": "auto",
           "separator_after": " "
         },
         {
-          "target": "चौराहा",
-          "bangla_pronunciation": "চৌরাহা",
-          "romanization": "chauraahaa",
+          "target": "चौराहे",
+          "bangla_pronunciation": "চৌরাহে",
+          "romanization": "chauraahe",
           "separator_after": " "
         },
         {
@@ -3898,7 +3904,7 @@
         {
           "target": "मिलते",
           "bangla_pronunciation": "মিলতে",
-          "romanization": "milate",
+          "romanization": "milte",
           "separator_after": " "
         },
         {
@@ -3914,7 +3920,7 @@
       "prompt_bengali_md": "শেষবারের মতো একটি পূর্ণ বাক্য স্মরণ করে বলুন।",
       "model_target": "ड्राइवर से कहिए, यहीं रोकिए।",
       "model_bangla_pronunciation": "ড্রাইভর সে কহিএ, যহীং রোকিএ।",
-      "model_romanization": "draaivr se khie, yhiin rokie.",
+      "model_romanization": "draaivar se kahie, yaheen rokie.",
       "model_word_pronunciations": [
         {
           "target": "ड्राइवर",

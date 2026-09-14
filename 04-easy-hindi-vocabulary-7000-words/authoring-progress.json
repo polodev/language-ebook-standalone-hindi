@@ -1,0 +1,41 @@
+{
+  "book": "04-easy-hindi-vocabulary-7000-words",
+  "requested_range": {
+    "batches": ["21-30", "51-60"],
+    "completed_chapters": [
+      "ch021", "ch022", "ch023", "ch024", "ch025", "ch026", "ch027", "ch028", "ch029", "ch030",
+      "ch051", "ch052", "ch053", "ch054", "ch055", "ch056", "ch057", "ch058", "ch059", "ch060"
+    ],
+    "count": 20
+  },
+  "completed_ids": [
+    "ch021", "ch022", "ch023", "ch024", "ch025", "ch026", "ch027", "ch028", "ch029", "ch030",
+    "ch051", "ch052", "ch053", "ch054", "ch055", "ch056", "ch057", "ch058", "ch059", "ch060"
+  ],
+  "unfinished_ids": [],
+  "status": "all_chapters_authored",
+  "total_chapters_authored": 234,
+  "planned_chapters": 234,
+  "checks_performed": [
+    {
+      "check": "authoring_source_review",
+      "result": "passed",
+      "details": "Read INSTRUCTIONS.md, HINDI-BANGLA-NUANCES.md, and chapter plans for ch021-ch030 and ch051-ch060."
+    },
+    {
+      "check": "required_sections_and_counts",
+      "result": "passed",
+      "details": "Verified exactly 20 sentences, 30 vocabulary entries, bridge reading, target reading (5 lines), 5 script cards, <=2 number cards, 6 speaking practices, and 2 image prompts per chapter."
+    },
+    {
+      "check": "sentence_length_a1",
+      "result": "passed",
+      "details": "Verified all sentences and pure-reading lines in ch021-ch030 adhere to the A1 sentence ceiling (<= 6 learning units)."
+    },
+    {
+      "check": "chapter_validator",
+      "result": "passed",
+      "details": "All 20 authored chapters validated with scripts/validate_single_chapter.py with zero errors."
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "title_bengali": "ইজি হিন্দি অ্যাডভান্সড",
   "content_status": "planned",
   "editorial_status": "not_started",
-  "build_status": "scaffolded",
+  "build_status": "review_built",
   "content_locale": "bn",
   "target_locale": "hi-IN",
   "level_target": "B2–C1; optional C2-style stretch",
@@ -1367,5 +1367,8 @@
     "whole_article": true,
     "taper": false
   },
-  "script_selection_policy": "varied_stage_appropriate_saved_in_chapter_json"
+  "script_selection_policy": "varied_stage_appropriate_saved_in_chapter_json",
+  "brand": "Bidyazo.com",
+  "parent_brand": "Englishing.app",
+  "publisher": "Bidyazo.com"
 }

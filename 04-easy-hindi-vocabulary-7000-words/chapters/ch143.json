@@ -3,35 +3,42 @@
   "status": "drafted",
   "title_target": "यात्रा की योजना और सार्वजनिक सेवा",
   "title_bangla_pronunciation": "যাত্রা কী যোজনা অউর সার্বজনিক সেবা",
+  "title_romanization": "yaatraa kee yojanaa aura saarvajanika sevaa",
   "title_word_pronunciations": [
     {
       "target": "यात्रा",
       "bangla_pronunciation": "যাত্রা",
+      "romanization": "yaatra",
       "separator_after": " "
     },
     {
       "target": "की",
       "bangla_pronunciation": "কী",
+      "romanization": "kee",
       "separator_after": " "
     },
     {
       "target": "योजना",
       "bangla_pronunciation": "যোজনা",
+      "romanization": "yojnaa",
       "separator_after": " "
     },
     {
       "target": "और",
       "bangla_pronunciation": "অউর",
+      "romanization": "aur",
       "separator_after": " "
     },
     {
       "target": "सार्वजनिक",
       "bangla_pronunciation": "সার্বজনিক",
+      "romanization": "saarvjnik",
       "separator_after": " "
     },
     {
       "target": "सेवा",
       "bangla_pronunciation": "সেবা",
+      "romanization": "seva",
       "separator_after": ""
     }
   ],
@@ -47,40 +54,47 @@
         {
           "target": "यात्रा-मार्ग",
           "bangla_pronunciation": "যাত্রা-মার্গ",
+          "romanization": "yaatraa-maarg",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "यात्रा-देरी",
           "bangla_pronunciation": "যাত্রা-দেরী",
+          "romanization": "yaatraa-derii",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "हुई।",
           "bangla_pronunciation": "হুঈ।",
+          "romanization": "huee.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে ভ্রমণপথ ও বিলম্ব—দুটিতেই মনোযোগ দেওয়া হয়েছে।"
+      "meaning_bengali_md": "ভ্রমণপথ ও বিলম্ব উভয় বিষয় নিয়েই আলোচনা হয়েছে।"
     },
     {
       "id": "ch143_s02",
@@ -91,104 +105,122 @@
         {
           "target": "यात्रा-आरक्षण",
           "bangla_pronunciation": "যাত্রা-আরক্ষণ",
+          "romanization": "yaatraa-aarkssnn",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "वैकल्पिक",
           "bangla_pronunciation": "বৈকল্পিক",
+          "romanization": "vaiklpik",
           "separator_after": " "
         },
         {
           "target": "मार्ग",
           "bangla_pronunciation": "মার্গ",
+          "romanization": "maarg",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दिया",
           "bangla_pronunciation": "দিযা",
+          "romanization": "diyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে রিজার্ভেশন ও বিকল্প পথ—দুটিতেই মনোযোগ দেওয়া হয়েছে।"
+      "meaning_bengali_md": "রিজার্ভেশন ও বিকল্প পথ উভয় বিষয়ের প্রতি মনোযোগ দেওয়া হয়েছে।"
     },
     {
       "id": "ch143_s03",
       "target": "यात्री-भीड़ पर चर्चा हुई; समय से निकलना ज़रूरी है।",
-      "romanization": "yaatrii-bhiidd' pr crcaa huii; smy se niklnaa j'ruurii hai.",
+      "romanization": "yaatrii-bhiidd' pr crcaa huii; samay se niklnaa zaruurii hai.",
       "bangla_pronunciation": "যাত্রী-ভীড পর চর্চা হুঈ; সময় সে নিকলনা জরূরী হ্যায়।",
       "word_pronunciations": [
         {
           "target": "यात्री-भीड़",
           "bangla_pronunciation": "যাত্রী-ভীড",
+          "romanization": "yaatrii-bhiidd'",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "हुई;",
           "bangla_pronunciation": "হুঈ;",
+          "romanization": "huee;",
           "separator_after": " "
         },
         {
           "target": "समय",
           "bangla_pronunciation": "সময়",
+          "romanization": "samay",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "निकलना",
           "bangla_pronunciation": "নিকলনা",
+          "romanization": "nikalana",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে যাত্রীর ভিড় ও সময়ে বের হওয়া—দুটিতেই মনোযোগ দেওয়া হয়েছে।"
+      "meaning_bengali_md": "যাত্রীর ভিড় নিয়ে আলোচনা হয়েছে; সময়ে বের হওয়া জরুরি।"
     },
     {
       "id": "ch143_s04",
@@ -199,143 +231,167 @@
         {
           "target": "स्टेशन-प्लेटफ़ॉर्म",
           "bangla_pronunciation": "স্টেশন-প্লেটফঅর্ম",
+          "romanization": "stteshn-plettph'onrm",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "यात्रा-किराया",
           "bangla_pronunciation": "যাত্রা-কিরাযা",
+          "romanization": "yaatraa-kiraayaa",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "विचार",
           "bangla_pronunciation": "বিচার",
+          "romanization": "vichaar",
           "separator_after": " "
         },
         {
           "target": "किया",
           "bangla_pronunciation": "কিযা",
+          "romanization": "kiyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে প্ল্যাটফর্ম ও ভ্রমণ ভাড়া—দুটিতেই মনোযোগ দেওয়া হয়েছে।"
+      "meaning_bengali_md": "প্ল্যাটফর্ম ও ভ্রমণ ভাড়া উভয় দিকই বিবেচনা করা হয়েছে।"
     },
     {
       "id": "ch143_s05",
       "target": "टिकट-रद्दीकरण और सेवा-सूचना दोनों को नोट किया गया।",
-      "romanization": "ttiktt-rddiikrnn aur sevaa-suucnaa donon ko nott kiyaa gyaa.",
+      "romanization": "ttiktt-raddiikrnn aur sevaa-suucnaa donon ko nott kiyaa gyaa.",
       "bangla_pronunciation": "টিকট-রদ্দীকরণ অউর সেবা-সূচনা দোনোং কো নোট কিযা গযা।",
       "word_pronunciations": [
         {
           "target": "टिकट-रद्दीकरण",
           "bangla_pronunciation": "টিকট-রদ্দীকরণ",
+          "romanization": "ttiktt-raddiikrnn",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "सेवा-सूचना",
           "bangla_pronunciation": "সেবা-সূচনা",
+          "romanization": "sevaa-suucnaa",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "नोट",
           "bangla_pronunciation": "নোট",
+          "romanization": "not",
           "separator_after": " "
         },
         {
           "target": "किया",
           "bangla_pronunciation": "কিযা",
+          "romanization": "kiyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে বাতিলকরণ ও সেবা সংক্রান্ত তথ্য—দুটিতেই মনোযোগ দেওয়া হয়েছে।"
+      "meaning_bengali_md": "বাতিলকরণ ও সেবা সংক্রান্ত তথ্য উভয়ই নথিভুক্ত করা হয়েছে।"
     },
     {
       "id": "ch143_s06",
       "target": "यात्री-सुविधा पर चर्चा हुई; यात्रा-मार्ग बदलना ज़रूरी है।",
-      "romanization": "yaatrii-suvidhaa pr crcaa huii; yaatraa-maarg bdlnaa j'ruurii hai.",
+      "romanization": "yaatrii-suvidhaa pr crcaa huii; yaatraa-maarg bdlnaa zaruurii hai.",
       "bangla_pronunciation": "যাত্রী-সুবিধা পর চর্চা হুঈ; যাত্রা-মার্গ বদলনা জরূরী হ্যায়।",
       "word_pronunciations": [
         {
           "target": "यात्री-सुविधा",
           "bangla_pronunciation": "যাত্রী-সুবিধা",
+          "romanization": "yaatrii-suvidhaa",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "हुई;",
           "bangla_pronunciation": "হুঈ;",
+          "romanization": "huee;",
           "separator_after": " "
         },
         {
           "target": "यात्रा-मार्ग",
           "bangla_pronunciation": "যাত্রা-মার্গ",
+          "romanization": "yaatraa-maarg",
           "separator_after": " "
         },
         {
           "target": "बदलना",
           "bangla_pronunciation": "বদলনা",
+          "romanization": "badalana",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে যাত্রী সুবিধা ও পথ পরিবর্তন করা—দুটিতেই মনোযোগ দেওয়া হয়েছে।"
+      "meaning_bengali_md": "যাত্রী সুবিধা নিয়ে আলোচনা হয়েছে; পথ পরিবর্তন করা জরুরি।"
     },
     {
       "id": "ch143_s07",
@@ -346,45 +402,53 @@
         {
           "target": "सहयात्री",
           "bangla_pronunciation": "সহযাত্রী",
+          "romanization": "shyaatrii",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "सीट-उपलब्धता",
           "bangla_pronunciation": "সীট-উপলব্ধতা",
+          "romanization": "siitt-uplbdhtaa",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दिया",
           "bangla_pronunciation": "দিযা",
+          "romanization": "diyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে সহযাত্রী ও সিটের প্রাপ্যতা—দুটিতেই মনোযোগ দেওয়া হয়েছে।"
+      "meaning_bengali_md": "সহযাত্রী ও সিটের প্রাপ্যতা উভয় বিষয়ের প্রতি মনোযোগ দেওয়া হয়েছে।"
     },
     {
       "id": "ch143_s08",
@@ -395,104 +459,122 @@
         {
           "target": "प्रतीक्षा-कतार",
           "bangla_pronunciation": "প্রতীক্ষা-কতার",
+          "romanization": "prtiikssaa-ktaar",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "सार्वजनिक",
           "bangla_pronunciation": "সার্বজনিক",
+          "romanization": "saarvjnik",
           "separator_after": " "
         },
         {
           "target": "घोषणा",
           "bangla_pronunciation": "ঘোষণা",
+          "romanization": "ghoshanaa",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
           "separator_after": " "
         },
         {
           "target": "देखी",
           "bangla_pronunciation": "দেখী",
+          "romanization": "dekhee",
           "separator_after": " "
         },
         {
           "target": "गई।",
           "bangla_pronunciation": "গঈ।",
+          "romanization": "gaee.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে অপেক্ষার সারি ও পাবলিক ঘোষণা—দুটিতেই মনোযোগ দেওয়া হয়েছে।"
+      "meaning_bengali_md": "অপেক্ষার সারি ও পাবলিক ঘোষণা উভয়ের তথ্য পর্যালোচনা করা হয়েছে।"
     },
     {
       "id": "ch143_s09",
       "target": "यात्रा-गंतव्य पर चर्चा हुई; पुष्टि कर लेना ज़रूरी है।",
-      "romanization": "yaatraa-gntvy pr crcaa huii; pusstti kr lenaa j'ruurii hai.",
+      "romanization": "yaatraa-gntvy pr crcaa huii; pusstti kr lenaa zaruurii hai.",
       "bangla_pronunciation": "যাত্রা-গংতব্য পর চর্চা হুঈ; পুষ্টি কর লেনা জরূরী হ্যায়।",
       "word_pronunciations": [
         {
           "target": "यात्रा-गंतव्य",
           "bangla_pronunciation": "যাত্রা-গংতব্য",
+          "romanization": "yaatraa-gntvy",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "हुई;",
           "bangla_pronunciation": "হুঈ;",
+          "romanization": "huee;",
           "separator_after": " "
         },
         {
           "target": "पुष्टि",
           "bangla_pronunciation": "পুষ্টি",
+          "romanization": "pusstti",
           "separator_after": " "
         },
         {
           "target": "कर",
           "bangla_pronunciation": "কর",
+          "romanization": "kar",
           "separator_after": " "
         },
         {
           "target": "लेना",
           "bangla_pronunciation": "লেনা",
+          "romanization": "lena",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে গন্তব্য ও নিশ্চিত করে নেওয়া—দুটিতেই মনোযোগ দেওয়া হয়েছে।"
+      "meaning_bengali_md": "গন্তব্য নিয়ে আলোচনা হয়েছে; নিশ্চিত করে নেওয়া জরুরি।"
     },
     {
       "id": "ch143_s10",
@@ -503,45 +585,53 @@
         {
           "target": "यात्रा-सामान",
           "bangla_pronunciation": "যাত্রা-সামান",
+          "romanization": "yaatraa-saamaan",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "यात्री-सुरक्षा",
           "bangla_pronunciation": "যাত্রী-সুরক্ষা",
+          "romanization": "yaatrii-surkssaa",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "नोट",
           "bangla_pronunciation": "নোট",
+          "romanization": "not",
           "separator_after": " "
         },
         {
           "target": "किया",
           "bangla_pronunciation": "কিযা",
+          "romanization": "kiyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে ভ্রমণের মালপত্র ও যাত্রীর নিরাপত্তা—দুটিতেই মনোযোগ দেওয়া হয়েছে।"
+      "meaning_bengali_md": "ভ্রমণের মালপত্র ও যাত্রীর নিরাপত্তা উভয়ই নথিভুক্ত করা হয়েছে।"
     },
     {
       "id": "ch143_s11",
@@ -552,30 +642,35 @@
         {
           "target": "आपात-संपर्क",
           "bangla_pronunciation": "আপাত-সংপর্ক",
+          "romanization": "aapaat-snprk",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "हुई।",
           "bangla_pronunciation": "হুঈ।",
+          "romanization": "huee.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে জরুরি যোগাযোগ-এর দিকে মনোযোগ দেওয়া জরুরি।"
+      "meaning_bengali_md": "জরুরি যোগাযোগ নিয়েও আলোচনা হয়েছে।"
     },
     {
       "id": "ch143_s12",
@@ -586,108 +681,125 @@
         {
           "target": "यात्रा-आपातस्थिति",
           "bangla_pronunciation": "যাত্রা-আপাতস্থিতি",
+          "romanization": "yaatraa-aapaatsthiti",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दिया",
           "bangla_pronunciation": "দিযা",
+          "romanization": "diyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে জরুরি অবস্থা-এর দিকে মনোযোগ দেওয়া জরুরি।"
+      "meaning_bengali_md": "জরুরি অবস্থা-এর প্রতি মনোযোগ দেওয়া হয়েছে।"
     },
     {
       "id": "ch143_s13",
       "target": "समयतालिका की जानकारी देखी गई।",
-      "romanization": "smytaalikaa kii jaankaarii dekhii gii.",
+      "romanization": "samaytaalikaa kii jaankaarii dekhii gii.",
       "bangla_pronunciation": "সমযতালিকা কী জানকারী দেখী গঈ।",
       "word_pronunciations": [
         {
           "target": "समयतालिका",
           "bangla_pronunciation": "সমযতালিকা",
+          "romanization": "samaytaalikaa",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
           "separator_after": " "
         },
         {
           "target": "देखी",
           "bangla_pronunciation": "দেখী",
+          "romanization": "dekhee",
           "separator_after": " "
         },
         {
           "target": "गई।",
           "bangla_pronunciation": "গঈ।",
+          "romanization": "gaee.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে সময়সূচি-এর দিকে মনোযোগ দেওয়া জরুরি।"
+      "meaning_bengali_md": "সময়সূচি-এর তথ্য পর্যালোচনা করা হয়েছে।"
     },
     {
       "id": "ch143_s14",
       "target": "पहले से योजना बनाना भी ज़रूरी है।",
-      "romanization": "phle se yojnaa bnaanaa bhii j'ruurii hai.",
+      "romanization": "pahale se yojnaa bnaanaa bhii zaruurii hai.",
       "bangla_pronunciation": "পহলে সে যোজনা বনানা ভী জরূরী হ্যায়।",
       "word_pronunciations": [
         {
           "target": "पहले",
           "bangla_pronunciation": "পহলে",
+          "romanization": "pahale",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "योजना",
           "bangla_pronunciation": "যোজনা",
+          "romanization": "yojnaa",
           "separator_after": " "
         },
         {
           "target": "बनाना",
           "bangla_pronunciation": "বনানা",
+          "romanization": "banaanaa",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে আগে থেকে পরিকল্পনা করা-এর দিকে মনোযোগ দেওয়া জরুরি।"
+      "meaning_bengali_md": "আগে থেকে পরিকল্পনা করাও জরুরি।"
     },
     {
       "id": "ch143_s15",
@@ -698,30 +810,35 @@
         {
           "target": "सेवा-शिकायत",
           "bangla_pronunciation": "সেবা-শিকাযত",
+          "romanization": "sevaa-shikaayt",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "नोट",
           "bangla_pronunciation": "নোট",
+          "romanization": "not",
           "separator_after": " "
         },
         {
           "target": "किया",
           "bangla_pronunciation": "কিযা",
+          "romanization": "kiyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে সেবা অভিযোগ-এর দিকে মনোযোগ দেওয়া জরুরি।"
+      "meaning_bengali_md": "সেবা অভিযোগ নথিভুক্ত করা হয়েছে।"
     },
     {
       "id": "ch143_s16",
@@ -732,30 +849,35 @@
         {
           "target": "सहायता-केंद्र",
           "bangla_pronunciation": "সহাযতা-কেংদ্র",
+          "romanization": "shaaytaa-kendr",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "हुई।",
           "bangla_pronunciation": "হুঈ।",
+          "romanization": "huee.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে সহায়তা কেন্দ্র-এর দিকে মনোযোগ দেওয়া জরুরি।"
+      "meaning_bengali_md": "সহায়তা কেন্দ্র নিয়েও আলোচনা হয়েছে।"
     },
     {
       "id": "ch143_s17",
@@ -766,30 +888,35 @@
         {
           "target": "भुगतान-रसीद",
           "bangla_pronunciation": "ভুগতান-রসীদ",
+          "romanization": "bhugtaan-rsiid",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दिया",
           "bangla_pronunciation": "দিযা",
+          "romanization": "diyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে পেমেন্ট রসিদ-এর দিকে মনোযোগ দেওয়া জরুরি।"
+      "meaning_bengali_md": "পেমেন্ট রসিদ-এর প্রতি মনোযোগ দেওয়া হয়েছে।"
     },
     {
       "id": "ch143_s18",
@@ -800,103 +927,119 @@
         {
           "target": "लाइन-परिवर्तन",
           "bangla_pronunciation": "লাইন-পরিবর্তন",
+          "romanization": "laain-privrtn",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
           "separator_after": " "
         },
         {
           "target": "देखी",
           "bangla_pronunciation": "দেখী",
+          "romanization": "dekhee",
           "separator_after": " "
         },
         {
           "target": "गई।",
           "bangla_pronunciation": "গঈ।",
+          "romanization": "gaee.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে লাইন পরিবর্তন-এর দিকে মনোযোগ দেওয়া জরুরি।"
+      "meaning_bengali_md": "লাইন পরিবর্তন-এর তথ্য পর্যালোচনা করা হয়েছে।"
     },
     {
       "id": "ch143_s19",
       "target": "प्रतीक्षा-समय पर विचार किया गया।",
-      "romanization": "prtiikssaa-smy pr vicaar kiyaa gyaa.",
+      "romanization": "prtiikssaa-samay pr vicaar kiyaa gyaa.",
       "bangla_pronunciation": "প্রতীক্ষা-সময পর বিচার কিযা গযা।",
       "word_pronunciations": [
         {
           "target": "प्रतीक्षा-समय",
           "bangla_pronunciation": "প্রতীক্ষা-সময",
+          "romanization": "prtiikssaa-samay",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "विचार",
           "bangla_pronunciation": "বিচার",
+          "romanization": "vichaar",
           "separator_after": " "
         },
         {
           "target": "किया",
           "bangla_pronunciation": "কিযা",
+          "romanization": "kiyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে অপেক্ষার সময়-এর দিকে মনোযোগ দেওয়া জরুরি।"
+      "meaning_bengali_md": "অপেক্ষার সময় বিবেচনা করা হয়েছে।"
     },
     {
       "id": "ch143_s20",
       "target": "स्थिति पूछ लेना भी ज़रूरी है।",
-      "romanization": "sthiti puuch lenaa bhii j'ruurii hai.",
+      "romanization": "sthiti puuch lenaa bhii zaruurii hai.",
       "bangla_pronunciation": "স্থিতি পূছ লেনা ভী জরূরী হ্যায়।",
       "word_pronunciations": [
         {
           "target": "स्थिति",
           "bangla_pronunciation": "স্থিতি",
+          "romanization": "sthiti",
           "separator_after": " "
         },
         {
           "target": "पूछ",
           "bangla_pronunciation": "পূছ",
+          "romanization": "poochh",
           "separator_after": " "
         },
         {
           "target": "लेना",
           "bangla_pronunciation": "লেনা",
+          "romanization": "lena",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই পরিস্থিতিতে অবস্থা জেনে নেওয়া-এর দিকে মনোযোগ দেওয়া জরুরি।"
+      "meaning_bengali_md": "অবস্থা জেনে নেওয়াও জরুরি।"
     }
   ],
   "vocabulary": [
@@ -911,6 +1054,7 @@
         {
           "target": "यात्रा-मार्ग",
           "bangla_pronunciation": "যাত্রা-মার্গ",
+          "romanization": "yaatraa-maarg",
           "separator_after": ""
         }
       ],
@@ -919,44 +1063,52 @@
       "source_form": "यात्रा-मार्ग",
       "example_target": "यात्रा-मार्ग और यात्रा-देरी दोनों पर चर्चा हुई।",
       "example_bangla_pronunciation": "যাত্রা-মার্গ অউর যাত্রা-দেরী দোনোং পর চর্চা হুঈ।",
+      "example_romanization": "yaatraa-maarg aur yaatraa-derii donon pr crcaa huii.",
       "example_word_pronunciations": [
         {
           "target": "यात्रा-मार्ग",
           "bangla_pronunciation": "যাত্রা-মার্গ",
+          "romanization": "yaatraa-maarg",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "यात्रा-देरी",
           "bangla_pronunciation": "যাত্রা-দেরী",
+          "romanization": "yaatraa-derii",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "हुई।",
           "bangla_pronunciation": "হুঈ।",
+          "romanization": "huee.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে ভ্রমণপথ ও বিলম্ব—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "ভ্রমণপথ ও বিলম্ব উভয় বিষয় নিয়েই আলোচনা হয়েছে।",
       "synonyms": []
     },
     {
@@ -970,6 +1122,7 @@
         {
           "target": "यात्रा-देरी",
           "bangla_pronunciation": "যাত্রা-দেরী",
+          "romanization": "yaatraa-derii",
           "separator_after": ""
         }
       ],
@@ -978,44 +1131,52 @@
       "source_form": "यात्रा-देरी",
       "example_target": "यात्रा-मार्ग और यात्रा-देरी दोनों पर चर्चा हुई।",
       "example_bangla_pronunciation": "যাত্রা-মার্গ অউর যাত্রা-দেরী দোনোং পর চর্চা হুঈ।",
+      "example_romanization": "yaatraa-maarg aur yaatraa-derii donon pr crcaa huii.",
       "example_word_pronunciations": [
         {
           "target": "यात्रा-मार्ग",
           "bangla_pronunciation": "যাত্রা-মার্গ",
+          "romanization": "yaatraa-maarg",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "यात्रा-देरी",
           "bangla_pronunciation": "যাত্রা-দেরী",
+          "romanization": "yaatraa-derii",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "हुई।",
           "bangla_pronunciation": "হুঈ।",
+          "romanization": "huee.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে ভ্রমণপথ ও বিলম্ব—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "ভ্রমণপথ ও বিলম্ব উভয় বিষয় নিয়েই আলোচনা হয়েছে।",
       "synonyms": []
     },
     {
@@ -1029,6 +1190,7 @@
         {
           "target": "यात्रा-आरक्षण",
           "bangla_pronunciation": "যাত্রা-আরক্ষণ",
+          "romanization": "yaatraa-aarkssnn",
           "separator_after": ""
         }
       ],
@@ -1037,54 +1199,64 @@
       "source_form": "यात्रा-आरक्षण",
       "example_target": "यात्रा-आरक्षण और वैकल्पिक मार्ग दोनों पर ध्यान दिया गया।",
       "example_bangla_pronunciation": "যাত্রা-আরক্ষণ অউর বৈকল্পিক মার্গ দোনোং পর ধ্যান দিযা গযা।",
+      "example_romanization": "yaatraa-aarkssnn aur vaiklpik maarg donon pr dhyaan diyaa gyaa.",
       "example_word_pronunciations": [
         {
           "target": "यात्रा-आरक्षण",
           "bangla_pronunciation": "যাত্রা-আরক্ষণ",
+          "romanization": "yaatraa-aarkssnn",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "वैकल्पिक",
           "bangla_pronunciation": "বৈকল্পিক",
+          "romanization": "vaiklpik",
           "separator_after": " "
         },
         {
           "target": "मार्ग",
           "bangla_pronunciation": "মার্গ",
+          "romanization": "maarg",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दिया",
           "bangla_pronunciation": "দিযা",
+          "romanization": "diyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে রিজার্ভেশন ও বিকল্প পথ—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "রিজার্ভেশন ও বিকল্প পথ উভয় বিষয়ের প্রতি মনোযোগ দেওয়া হয়েছে।",
       "synonyms": []
     },
     {
@@ -1098,11 +1270,13 @@
         {
           "target": "वैकल्पिक",
           "bangla_pronunciation": "বৈকল্পিক",
+          "romanization": "vaiklpik",
           "separator_after": " "
         },
         {
           "target": "मार्ग",
           "bangla_pronunciation": "মার্গ",
+          "romanization": "maarg",
           "separator_after": ""
         }
       ],
@@ -1111,54 +1285,64 @@
       "source_form": "वैकल्पिक मार्ग",
       "example_target": "यात्रा-आरक्षण और वैकल्पिक मार्ग दोनों पर ध्यान दिया गया।",
       "example_bangla_pronunciation": "যাত্রা-আরক্ষণ অউর বৈকল্পিক মার্গ দোনোং পর ধ্যান দিযা গযা।",
+      "example_romanization": "yaatraa-aarkssnn aur vaiklpik maarg donon pr dhyaan diyaa gyaa.",
       "example_word_pronunciations": [
         {
           "target": "यात्रा-आरक्षण",
           "bangla_pronunciation": "যাত্রা-আরক্ষণ",
+          "romanization": "yaatraa-aarkssnn",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "वैकल्पिक",
           "bangla_pronunciation": "বৈকল্পিক",
+          "romanization": "vaiklpik",
           "separator_after": " "
         },
         {
           "target": "मार्ग",
           "bangla_pronunciation": "মার্গ",
+          "romanization": "maarg",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दिया",
           "bangla_pronunciation": "দিযা",
+          "romanization": "diyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে রিজার্ভেশন ও বিকল্প পথ—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "রিজার্ভেশন ও বিকল্প পথ উভয় বিষয়ের প্রতি মনোযোগ দেওয়া হয়েছে।",
       "synonyms": []
     },
     {
@@ -1172,6 +1356,7 @@
         {
           "target": "यात्री-भीड़",
           "bangla_pronunciation": "যাত্রী-ভীড",
+          "romanization": "yaatrii-bhiidd'",
           "separator_after": ""
         }
       ],
@@ -1180,54 +1365,64 @@
       "source_form": "यात्री-भीड़",
       "example_target": "यात्री-भीड़ पर चर्चा हुई; समय से निकलना ज़रूरी है।",
       "example_bangla_pronunciation": "যাত্রী-ভীড পর চর্চা হুঈ; সময় সে নিকলনা জরূরী হ্যায়।",
+      "example_romanization": "yaatrii-bhiidd' pr crcaa huii; samay se niklnaa zaruurii hai.",
       "example_word_pronunciations": [
         {
           "target": "यात्री-भीड़",
           "bangla_pronunciation": "যাত্রী-ভীড",
+          "romanization": "yaatrii-bhiidd'",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "हुई;",
           "bangla_pronunciation": "হুঈ;",
+          "romanization": "huee;",
           "separator_after": " "
         },
         {
           "target": "समय",
           "bangla_pronunciation": "সময়",
+          "romanization": "samay",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "निकलना",
           "bangla_pronunciation": "নিকলনা",
+          "romanization": "nikalana",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে যাত্রীর ভিড় ও সময়ে বের হওয়া—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "যাত্রীর ভিড় নিয়ে আলোচনা হয়েছে; সময়ে বের হওয়া জরুরি।",
       "synonyms": []
     },
     {
@@ -1235,22 +1430,25 @@
       "target": "समय से निकलना",
       "type": "expression",
       "category": "expression",
-      "romanization": "smy se niklnaa",
+      "romanization": "samay se niklnaa",
       "bangla_pronunciation": "সময় সে নিকলনা",
       "word_pronunciations": [
         {
           "target": "समय",
           "bangla_pronunciation": "সময়",
+          "romanization": "samay",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "निकलना",
           "bangla_pronunciation": "নিকলনা",
+          "romanization": "nikalana",
           "separator_after": ""
         }
       ],
@@ -1259,54 +1457,64 @@
       "source_form": "समय से निकलना",
       "example_target": "यात्री-भीड़ पर चर्चा हुई; समय से निकलना ज़रूरी है।",
       "example_bangla_pronunciation": "যাত্রী-ভীড পর চর্চা হুঈ; সময় সে নিকলনা জরূরী হ্যায়।",
+      "example_romanization": "yaatrii-bhiidd' pr crcaa huii; samay se niklnaa zaruurii hai.",
       "example_word_pronunciations": [
         {
           "target": "यात्री-भीड़",
           "bangla_pronunciation": "যাত্রী-ভীড",
+          "romanization": "yaatrii-bhiidd'",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "हुई;",
           "bangla_pronunciation": "হুঈ;",
+          "romanization": "huee;",
           "separator_after": " "
         },
         {
           "target": "समय",
           "bangla_pronunciation": "সময়",
+          "romanization": "samay",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "निकलना",
           "bangla_pronunciation": "নিকলনা",
+          "romanization": "nikalana",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে যাত্রীর ভিড় ও সময়ে বের হওয়া—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "যাত্রীর ভিড় নিয়ে আলোচনা হয়েছে; সময়ে বের হওয়া জরুরি।",
       "synonyms": []
     },
     {
@@ -1320,6 +1528,7 @@
         {
           "target": "स्टेशन-प्लेटफ़ॉर्म",
           "bangla_pronunciation": "স্টেশন-প্লেটফঅর্ম",
+          "romanization": "stteshn-plettph'onrm",
           "separator_after": ""
         }
       ],
@@ -1328,49 +1537,58 @@
       "source_form": "स्टेशन-प्लेटफ़ॉर्म",
       "example_target": "स्टेशन-प्लेटफ़ॉर्म और यात्रा-किराया दोनों पर विचार किया गया।",
       "example_bangla_pronunciation": "স্টেশন-প্লেটফঅর্ম অউর যাত্রা-কিরাযা দোনোং পর বিচার কিযা গযা।",
+      "example_romanization": "stteshn-plettph'onrm aur yaatraa-kiraayaa donon pr vicaar kiyaa gyaa.",
       "example_word_pronunciations": [
         {
           "target": "स्टेशन-प्लेटफ़ॉर्म",
           "bangla_pronunciation": "স্টেশন-প্লেটফঅর্ম",
+          "romanization": "stteshn-plettph'onrm",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "यात्रा-किराया",
           "bangla_pronunciation": "যাত্রা-কিরাযা",
+          "romanization": "yaatraa-kiraayaa",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "विचार",
           "bangla_pronunciation": "বিচার",
+          "romanization": "vichaar",
           "separator_after": " "
         },
         {
           "target": "किया",
           "bangla_pronunciation": "কিযা",
+          "romanization": "kiyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে প্ল্যাটফর্ম ও ভ্রমণ ভাড়া—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "প্ল্যাটফর্ম ও ভ্রমণ ভাড়া উভয় দিকই বিবেচনা করা হয়েছে।",
       "synonyms": []
     },
     {
@@ -1384,6 +1602,7 @@
         {
           "target": "यात्रा-किराया",
           "bangla_pronunciation": "যাত্রা-কিরাযা",
+          "romanization": "yaatraa-kiraayaa",
           "separator_after": ""
         }
       ],
@@ -1392,49 +1611,58 @@
       "source_form": "यात्रा-किराया",
       "example_target": "स्टेशन-प्लेटफ़ॉर्म और यात्रा-किराया दोनों पर विचार किया गया।",
       "example_bangla_pronunciation": "স্টেশন-প্লেটফঅর্ম অউর যাত্রা-কিরাযা দোনোং পর বিচার কিযা গযা।",
+      "example_romanization": "stteshn-plettph'onrm aur yaatraa-kiraayaa donon pr vicaar kiyaa gyaa.",
       "example_word_pronunciations": [
         {
           "target": "स्टेशन-प्लेटफ़ॉर्म",
           "bangla_pronunciation": "স্টেশন-প্লেটফঅর্ম",
+          "romanization": "stteshn-plettph'onrm",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "यात्रा-किराया",
           "bangla_pronunciation": "যাত্রা-কিরাযা",
+          "romanization": "yaatraa-kiraayaa",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "विचार",
           "bangla_pronunciation": "বিচার",
+          "romanization": "vichaar",
           "separator_after": " "
         },
         {
           "target": "किया",
           "bangla_pronunciation": "কিযা",
+          "romanization": "kiyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে প্ল্যাটফর্ম ও ভ্রমণ ভাড়া—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "প্ল্যাটফর্ম ও ভ্রমণ ভাড়া উভয় দিকই বিবেচনা করা হয়েছে।",
       "synonyms": []
     },
     {
@@ -1442,12 +1670,13 @@
       "target": "टिकट-रद्दीकरण",
       "type": "noun",
       "category": "word",
-      "romanization": "ttiktt-rddiikrnn",
+      "romanization": "ttiktt-raddiikrnn",
       "bangla_pronunciation": "টিকট-রদ্দীকরণ",
       "word_pronunciations": [
         {
           "target": "टिकट-रद्दीकरण",
           "bangla_pronunciation": "টিকট-রদ্দীকরণ",
+          "romanization": "ttiktt-raddiikrnn",
           "separator_after": ""
         }
       ],
@@ -1456,49 +1685,58 @@
       "source_form": "टिकट-रद्दीकरण",
       "example_target": "टिकट-रद्दीकरण और सेवा-सूचना दोनों को नोट किया गया।",
       "example_bangla_pronunciation": "টিকট-রদ্দীকরণ অউর সেবা-সূচনা দোনোং কো নোট কিযা গযা।",
+      "example_romanization": "ttiktt-raddiikrnn aur sevaa-suucnaa donon ko nott kiyaa gyaa.",
       "example_word_pronunciations": [
         {
           "target": "टिकट-रद्दीकरण",
           "bangla_pronunciation": "টিকট-রদ্দীকরণ",
+          "romanization": "ttiktt-raddiikrnn",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "सेवा-सूचना",
           "bangla_pronunciation": "সেবা-সূচনা",
+          "romanization": "sevaa-suucnaa",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "नोट",
           "bangla_pronunciation": "নোট",
+          "romanization": "not",
           "separator_after": " "
         },
         {
           "target": "किया",
           "bangla_pronunciation": "কিযা",
+          "romanization": "kiyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে বাতিলকরণ ও সেবা সংক্রান্ত তথ্য—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "বাতিলকরণ ও সেবা সংক্রান্ত তথ্য উভয়ই নথিভুক্ত করা হয়েছে।",
       "synonyms": []
     },
     {
@@ -1512,6 +1750,7 @@
         {
           "target": "सेवा-सूचना",
           "bangla_pronunciation": "সেবা-সূচনা",
+          "romanization": "sevaa-suucnaa",
           "separator_after": ""
         }
       ],
@@ -1520,49 +1759,58 @@
       "source_form": "सेवा-सूचना",
       "example_target": "टिकट-रद्दीकरण और सेवा-सूचना दोनों को नोट किया गया।",
       "example_bangla_pronunciation": "টিকট-রদ্দীকরণ অউর সেবা-সূচনা দোনোং কো নোট কিযা গযা।",
+      "example_romanization": "ttiktt-raddiikrnn aur sevaa-suucnaa donon ko nott kiyaa gyaa.",
       "example_word_pronunciations": [
         {
           "target": "टिकट-रद्दीकरण",
           "bangla_pronunciation": "টিকট-রদ্দীকরণ",
+          "romanization": "ttiktt-raddiikrnn",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "सेवा-सूचना",
           "bangla_pronunciation": "সেবা-সূচনা",
+          "romanization": "sevaa-suucnaa",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "नोट",
           "bangla_pronunciation": "নোট",
+          "romanization": "not",
           "separator_after": " "
         },
         {
           "target": "किया",
           "bangla_pronunciation": "কিযা",
+          "romanization": "kiyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে বাতিলকরণ ও সেবা সংক্রান্ত তথ্য—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "বাতিলকরণ ও সেবা সংক্রান্ত তথ্য উভয়ই নথিভুক্ত করা হয়েছে।",
       "synonyms": []
     },
     {
@@ -1576,6 +1824,7 @@
         {
           "target": "यात्री-सुविधा",
           "bangla_pronunciation": "যাত্রী-সুবিধা",
+          "romanization": "yaatrii-suvidhaa",
           "separator_after": ""
         }
       ],
@@ -1584,49 +1833,58 @@
       "source_form": "यात्री-सुविधा",
       "example_target": "यात्री-सुविधा पर चर्चा हुई; यात्रा-मार्ग बदलना ज़रूरी है।",
       "example_bangla_pronunciation": "যাত্রী-সুবিধা পর চর্চা হুঈ; যাত্রা-মার্গ বদলনা জরূরী হ্যায়।",
+      "example_romanization": "yaatrii-suvidhaa pr crcaa huii; yaatraa-maarg bdlnaa zaruurii hai.",
       "example_word_pronunciations": [
         {
           "target": "यात्री-सुविधा",
           "bangla_pronunciation": "যাত্রী-সুবিধা",
+          "romanization": "yaatrii-suvidhaa",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "हुई;",
           "bangla_pronunciation": "হুঈ;",
+          "romanization": "huee;",
           "separator_after": " "
         },
         {
           "target": "यात्रा-मार्ग",
           "bangla_pronunciation": "যাত্রা-মার্গ",
+          "romanization": "yaatraa-maarg",
           "separator_after": " "
         },
         {
           "target": "बदलना",
           "bangla_pronunciation": "বদলনা",
+          "romanization": "badalana",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে যাত্রী সুবিধা ও পথ পরিবর্তন করা—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "যাত্রী সুবিধা নিয়ে আলোচনা হয়েছে; পথ পরিবর্তন করা জরুরি।",
       "synonyms": []
     },
     {
@@ -1640,11 +1898,13 @@
         {
           "target": "यात्रा-मार्ग",
           "bangla_pronunciation": "যাত্রা-মার্গ",
+          "romanization": "yaatraa-maarg",
           "separator_after": " "
         },
         {
           "target": "बदलना",
           "bangla_pronunciation": "বদলনা",
+          "romanization": "badalana",
           "separator_after": ""
         }
       ],
@@ -1653,49 +1913,58 @@
       "source_form": "यात्रा-मार्ग बदलना",
       "example_target": "यात्री-सुविधा पर चर्चा हुई; यात्रा-मार्ग बदलना ज़रूरी है।",
       "example_bangla_pronunciation": "যাত্রী-সুবিধা পর চর্চা হুঈ; যাত্রা-মার্গ বদলনা জরূরী হ্যায়।",
+      "example_romanization": "yaatrii-suvidhaa pr crcaa huii; yaatraa-maarg bdlnaa zaruurii hai.",
       "example_word_pronunciations": [
         {
           "target": "यात्री-सुविधा",
           "bangla_pronunciation": "যাত্রী-সুবিধা",
+          "romanization": "yaatrii-suvidhaa",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "हुई;",
           "bangla_pronunciation": "হুঈ;",
+          "romanization": "huee;",
           "separator_after": " "
         },
         {
           "target": "यात्रा-मार्ग",
           "bangla_pronunciation": "যাত্রা-মার্গ",
+          "romanization": "yaatraa-maarg",
           "separator_after": " "
         },
         {
           "target": "बदलना",
           "bangla_pronunciation": "বদলনা",
+          "romanization": "badalana",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে যাত্রী সুবিধা ও পথ পরিবর্তন করা—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "যাত্রী সুবিধা নিয়ে আলোচনা হয়েছে; পথ পরিবর্তন করা জরুরি।",
       "synonyms": []
     },
     {
@@ -1709,6 +1978,7 @@
         {
           "target": "सहयात्री",
           "bangla_pronunciation": "সহযাত্রী",
+          "romanization": "shyaatrii",
           "separator_after": ""
         }
       ],
@@ -1717,49 +1987,58 @@
       "source_form": "सहयात्री",
       "example_target": "सहयात्री और सीट-उपलब्धता दोनों पर ध्यान दिया गया।",
       "example_bangla_pronunciation": "সহযাত্রী অউর সীট-উপলব্ধতা দোনোং পর ধ্যান দিযা গযা।",
+      "example_romanization": "shyaatrii aur siitt-uplbdhtaa donon pr dhyaan diyaa gyaa.",
       "example_word_pronunciations": [
         {
           "target": "सहयात्री",
           "bangla_pronunciation": "সহযাত্রী",
+          "romanization": "shyaatrii",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "सीट-उपलब्धता",
           "bangla_pronunciation": "সীট-উপলব্ধতা",
+          "romanization": "siitt-uplbdhtaa",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दिया",
           "bangla_pronunciation": "দিযা",
+          "romanization": "diyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে সহযাত্রী ও সিটের প্রাপ্যতা—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "সহযাত্রী ও সিটের প্রাপ্যতা উভয় বিষয়ের প্রতি মনোযোগ দেওয়া হয়েছে।",
       "synonyms": []
     },
     {
@@ -1773,6 +2052,7 @@
         {
           "target": "सीट-उपलब्धता",
           "bangla_pronunciation": "সীট-উপলব্ধতা",
+          "romanization": "siitt-uplbdhtaa",
           "separator_after": ""
         }
       ],
@@ -1781,49 +2061,58 @@
       "source_form": "सीट-उपलब्धता",
       "example_target": "सहयात्री और सीट-उपलब्धता दोनों पर ध्यान दिया गया।",
       "example_bangla_pronunciation": "সহযাত্রী অউর সীট-উপলব্ধতা দোনোং পর ধ্যান দিযা গযা।",
+      "example_romanization": "shyaatrii aur siitt-uplbdhtaa donon pr dhyaan diyaa gyaa.",
       "example_word_pronunciations": [
         {
           "target": "सहयात्री",
           "bangla_pronunciation": "সহযাত্রী",
+          "romanization": "shyaatrii",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "सीट-उपलब्धता",
           "bangla_pronunciation": "সীট-উপলব্ধতা",
+          "romanization": "siitt-uplbdhtaa",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दिया",
           "bangla_pronunciation": "দিযা",
+          "romanization": "diyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে সহযাত্রী ও সিটের প্রাপ্যতা—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "সহযাত্রী ও সিটের প্রাপ্যতা উভয় বিষয়ের প্রতি মনোযোগ দেওয়া হয়েছে।",
       "synonyms": []
     },
     {
@@ -1837,6 +2126,7 @@
         {
           "target": "प्रतीक्षा-कतार",
           "bangla_pronunciation": "প্রতীক্ষা-কতার",
+          "romanization": "prtiikssaa-ktaar",
           "separator_after": ""
         }
       ],
@@ -1845,54 +2135,64 @@
       "source_form": "प्रतीक्षा-कतार",
       "example_target": "प्रतीक्षा-कतार और सार्वजनिक घोषणा दोनों की जानकारी देखी गई।",
       "example_bangla_pronunciation": "প্রতীক্ষা-কতার অউর সার্বজনিক ঘোষণা দোনোং কী জানকারী দেখী গঈ।",
+      "example_romanization": "prtiikssaa-ktaar aur saarvjnik ghossnnaa donon kii jaankaarii dekhii gii.",
       "example_word_pronunciations": [
         {
           "target": "प्रतीक्षा-कतार",
           "bangla_pronunciation": "প্রতীক্ষা-কতার",
+          "romanization": "prtiikssaa-ktaar",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "सार्वजनिक",
           "bangla_pronunciation": "সার্বজনিক",
+          "romanization": "saarvjnik",
           "separator_after": " "
         },
         {
           "target": "घोषणा",
           "bangla_pronunciation": "ঘোষণা",
+          "romanization": "ghoshanaa",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
           "separator_after": " "
         },
         {
           "target": "देखी",
           "bangla_pronunciation": "দেখী",
+          "romanization": "dekhee",
           "separator_after": " "
         },
         {
           "target": "गई।",
           "bangla_pronunciation": "গঈ।",
+          "romanization": "gaee.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে অপেক্ষার সারি ও পাবলিক ঘোষণা—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "অপেক্ষার সারি ও পাবলিক ঘোষণা উভয়ের তথ্য পর্যালোচনা করা হয়েছে।",
       "synonyms": []
     },
     {
@@ -1906,11 +2206,13 @@
         {
           "target": "सार्वजनिक",
           "bangla_pronunciation": "সার্বজনিক",
+          "romanization": "saarvjnik",
           "separator_after": " "
         },
         {
           "target": "घोषणा",
           "bangla_pronunciation": "ঘোষণা",
+          "romanization": "ghoshanaa",
           "separator_after": ""
         }
       ],
@@ -1919,54 +2221,64 @@
       "source_form": "सार्वजनिक घोषणा",
       "example_target": "प्रतीक्षा-कतार और सार्वजनिक घोषणा दोनों की जानकारी देखी गई।",
       "example_bangla_pronunciation": "প্রতীক্ষা-কতার অউর সার্বজনিক ঘোষণা দোনোং কী জানকারী দেখী গঈ।",
+      "example_romanization": "prtiikssaa-ktaar aur saarvjnik ghossnnaa donon kii jaankaarii dekhii gii.",
       "example_word_pronunciations": [
         {
           "target": "प्रतीक्षा-कतार",
           "bangla_pronunciation": "প্রতীক্ষা-কতার",
+          "romanization": "prtiikssaa-ktaar",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "सार्वजनिक",
           "bangla_pronunciation": "সার্বজনিক",
+          "romanization": "saarvjnik",
           "separator_after": " "
         },
         {
           "target": "घोषणा",
           "bangla_pronunciation": "ঘোষণা",
+          "romanization": "ghoshanaa",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
           "separator_after": " "
         },
         {
           "target": "देखी",
           "bangla_pronunciation": "দেখী",
+          "romanization": "dekhee",
           "separator_after": " "
         },
         {
           "target": "गई।",
           "bangla_pronunciation": "গঈ।",
+          "romanization": "gaee.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে অপেক্ষার সারি ও পাবলিক ঘোষণা—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "অপেক্ষার সারি ও পাবলিক ঘোষণা উভয়ের তথ্য পর্যালোচনা করা হয়েছে।",
       "synonyms": []
     },
     {
@@ -1980,6 +2292,7 @@
         {
           "target": "यात्रा-गंतव्य",
           "bangla_pronunciation": "যাত্রা-গংতব্য",
+          "romanization": "yaatraa-gntvy",
           "separator_after": ""
         }
       ],
@@ -1988,54 +2301,64 @@
       "source_form": "यात्रा-गंतव्य",
       "example_target": "यात्रा-गंतव्य पर चर्चा हुई; पुष्टि कर लेना ज़रूरी है।",
       "example_bangla_pronunciation": "যাত্রা-গংতব্য পর চর্চা হুঈ; পুষ্টি কর লেনা জরূরী হ্যায়।",
+      "example_romanization": "yaatraa-gntvy pr crcaa huii; pusstti kr lenaa zaruurii hai.",
       "example_word_pronunciations": [
         {
           "target": "यात्रा-गंतव्य",
           "bangla_pronunciation": "যাত্রা-গংতব্য",
+          "romanization": "yaatraa-gntvy",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "हुई;",
           "bangla_pronunciation": "হুঈ;",
+          "romanization": "huee;",
           "separator_after": " "
         },
         {
           "target": "पुष्टि",
           "bangla_pronunciation": "পুষ্টি",
+          "romanization": "pusstti",
           "separator_after": " "
         },
         {
           "target": "कर",
           "bangla_pronunciation": "কর",
+          "romanization": "kar",
           "separator_after": " "
         },
         {
           "target": "लेना",
           "bangla_pronunciation": "লেনা",
+          "romanization": "lena",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে গন্তব্য ও নিশ্চিত করে নেওয়া—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "গন্তব্য নিয়ে আলোচনা হয়েছে; নিশ্চিত করে নেওয়া জরুরি।",
       "synonyms": []
     },
     {
@@ -2049,16 +2372,19 @@
         {
           "target": "पुष्टि",
           "bangla_pronunciation": "পুষ্টি",
+          "romanization": "pusstti",
           "separator_after": " "
         },
         {
           "target": "कर",
           "bangla_pronunciation": "কর",
+          "romanization": "kar",
           "separator_after": " "
         },
         {
           "target": "लेना",
           "bangla_pronunciation": "লেনা",
+          "romanization": "lena",
           "separator_after": ""
         }
       ],
@@ -2067,54 +2393,64 @@
       "source_form": "पुष्टि कर लेना",
       "example_target": "यात्रा-गंतव्य पर चर्चा हुई; पुष्टि कर लेना ज़रूरी है।",
       "example_bangla_pronunciation": "যাত্রা-গংতব্য পর চর্চা হুঈ; পুষ্টি কর লেনা জরূরী হ্যায়।",
+      "example_romanization": "yaatraa-gntvy pr crcaa huii; pusstti kr lenaa zaruurii hai.",
       "example_word_pronunciations": [
         {
           "target": "यात्रा-गंतव्य",
           "bangla_pronunciation": "যাত্রা-গংতব্য",
+          "romanization": "yaatraa-gntvy",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "हुई;",
           "bangla_pronunciation": "হুঈ;",
+          "romanization": "huee;",
           "separator_after": " "
         },
         {
           "target": "पुष्टि",
           "bangla_pronunciation": "পুষ্টি",
+          "romanization": "pusstti",
           "separator_after": " "
         },
         {
           "target": "कर",
           "bangla_pronunciation": "কর",
+          "romanization": "kar",
           "separator_after": " "
         },
         {
           "target": "लेना",
           "bangla_pronunciation": "লেনা",
+          "romanization": "lena",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে গন্তব্য ও নিশ্চিত করে নেওয়া—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "গন্তব্য নিয়ে আলোচনা হয়েছে; নিশ্চিত করে নেওয়া জরুরি।",
       "synonyms": []
     },
     {
@@ -2128,6 +2464,7 @@
         {
           "target": "यात्रा-सामान",
           "bangla_pronunciation": "যাত্রা-সামান",
+          "romanization": "yaatraa-saamaan",
           "separator_after": ""
         }
       ],
@@ -2136,49 +2473,58 @@
       "source_form": "यात्रा-सामान",
       "example_target": "यात्रा-सामान और यात्री-सुरक्षा दोनों को नोट किया गया।",
       "example_bangla_pronunciation": "যাত্রা-সামান অউর যাত্রী-সুরক্ষা দোনোং কো নোট কিযা গযা।",
+      "example_romanization": "yaatraa-saamaan aur yaatrii-surkssaa donon ko nott kiyaa gyaa.",
       "example_word_pronunciations": [
         {
           "target": "यात्रा-सामान",
           "bangla_pronunciation": "যাত্রা-সামান",
+          "romanization": "yaatraa-saamaan",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "यात्री-सुरक्षा",
           "bangla_pronunciation": "যাত্রী-সুরক্ষা",
+          "romanization": "yaatrii-surkssaa",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "नोट",
           "bangla_pronunciation": "নোট",
+          "romanization": "not",
           "separator_after": " "
         },
         {
           "target": "किया",
           "bangla_pronunciation": "কিযা",
+          "romanization": "kiyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে ভ্রমণের মালপত্র ও যাত্রীর নিরাপত্তা—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "ভ্রমণের মালপত্র ও যাত্রীর নিরাপত্তা উভয়ই নথিভুক্ত করা হয়েছে।",
       "synonyms": []
     },
     {
@@ -2192,6 +2538,7 @@
         {
           "target": "यात्री-सुरक्षा",
           "bangla_pronunciation": "যাত্রী-সুরক্ষা",
+          "romanization": "yaatrii-surkssaa",
           "separator_after": ""
         }
       ],
@@ -2200,49 +2547,58 @@
       "source_form": "यात्री-सुरक्षा",
       "example_target": "यात्रा-सामान और यात्री-सुरक्षा दोनों को नोट किया गया।",
       "example_bangla_pronunciation": "যাত্রা-সামান অউর যাত্রী-সুরক্ষা দোনোং কো নোট কিযা গযা।",
+      "example_romanization": "yaatraa-saamaan aur yaatrii-surkssaa donon ko nott kiyaa gyaa.",
       "example_word_pronunciations": [
         {
           "target": "यात्रा-सामान",
           "bangla_pronunciation": "যাত্রা-সামান",
+          "romanization": "yaatraa-saamaan",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "यात्री-सुरक्षा",
           "bangla_pronunciation": "যাত্রী-সুরক্ষা",
+          "romanization": "yaatrii-surkssaa",
           "separator_after": " "
         },
         {
           "target": "दोनों",
           "bangla_pronunciation": "দোনোং",
+          "romanization": "donon",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "नोट",
           "bangla_pronunciation": "নোট",
+          "romanization": "not",
           "separator_after": " "
         },
         {
           "target": "किया",
           "bangla_pronunciation": "কিযা",
+          "romanization": "kiyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে ভ্রমণের মালপত্র ও যাত্রীর নিরাপত্তা—দুটিতেই মনোযোগ দেওয়া হয়েছে।",
+      "example_meaning_bengali_md": "ভ্রমণের মালপত্র ও যাত্রীর নিরাপত্তা উভয়ই নথিভুক্ত করা হয়েছে।",
       "synonyms": []
     },
     {
@@ -2256,6 +2612,7 @@
         {
           "target": "आपात-संपर्क",
           "bangla_pronunciation": "আপাত-সংপর্ক",
+          "romanization": "aapaat-snprk",
           "separator_after": ""
         }
       ],
@@ -2264,34 +2621,40 @@
       "source_form": "आपात-संपर्क",
       "example_target": "आपात-संपर्क पर भी चर्चा हुई।",
       "example_bangla_pronunciation": "আপাত-সংপর্ক পর ভী চর্চা হুঈ।",
+      "example_romanization": "aapaat-snprk pr bhii crcaa huii.",
       "example_word_pronunciations": [
         {
           "target": "आपात-संपर्क",
           "bangla_pronunciation": "আপাত-সংপর্ক",
+          "romanization": "aapaat-snprk",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "हुई।",
           "bangla_pronunciation": "হুঈ।",
+          "romanization": "huee.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে জরুরি যোগাযোগ-এর দিকে মনোযোগ দেওয়া জরুরি।",
+      "example_meaning_bengali_md": "জরুরি যোগাযোগ নিয়েও আলোচনা হয়েছে।",
       "synonyms": []
     },
     {
@@ -2305,6 +2668,7 @@
         {
           "target": "यात्रा-आपातस्थिति",
           "bangla_pronunciation": "যাত্রা-আপাতস্থিতি",
+          "romanization": "yaatraa-aapaatsthiti",
           "separator_after": ""
         }
       ],
@@ -2313,34 +2677,40 @@
       "source_form": "यात्रा-आपातस्थिति",
       "example_target": "यात्रा-आपातस्थिति पर ध्यान दिया गया।",
       "example_bangla_pronunciation": "যাত্রা-আপাতস্থিতি পর ধ্যান দিযা গযা।",
+      "example_romanization": "yaatraa-aapaatsthiti pr dhyaan diyaa gyaa.",
       "example_word_pronunciations": [
         {
           "target": "यात्रा-आपातस्थिति",
           "bangla_pronunciation": "যাত্রা-আপাতস্থিতি",
+          "romanization": "yaatraa-aapaatsthiti",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दिया",
           "bangla_pronunciation": "দিযা",
+          "romanization": "diyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে জরুরি অবস্থা-এর দিকে মনোযোগ দেওয়া জরুরি।",
+      "example_meaning_bengali_md": "জরুরি অবস্থা-এর প্রতি মনোযোগ দেওয়া হয়েছে।",
       "synonyms": []
     },
     {
@@ -2348,12 +2718,13 @@
       "target": "समयतालिका",
       "type": "noun",
       "category": "word",
-      "romanization": "smytaalikaa",
+      "romanization": "samaytaalikaa",
       "bangla_pronunciation": "সমযতালিকা",
       "word_pronunciations": [
         {
           "target": "समयतालिका",
           "bangla_pronunciation": "সমযতালিকা",
+          "romanization": "samaytaalikaa",
           "separator_after": ""
         }
       ],
@@ -2362,34 +2733,40 @@
       "source_form": "समयतालिका",
       "example_target": "समयतालिका की जानकारी देखी गई।",
       "example_bangla_pronunciation": "সমযতালিকা কী জানকারী দেখী গঈ।",
+      "example_romanization": "samaytaalikaa kii jaankaarii dekhii gii.",
       "example_word_pronunciations": [
         {
           "target": "समयतालिका",
           "bangla_pronunciation": "সমযতালিকা",
+          "romanization": "samaytaalikaa",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
           "separator_after": " "
         },
         {
           "target": "देखी",
           "bangla_pronunciation": "দেখী",
+          "romanization": "dekhee",
           "separator_after": " "
         },
         {
           "target": "गई।",
           "bangla_pronunciation": "গঈ।",
+          "romanization": "gaee.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে সময়সূচি-এর দিকে মনোযোগ দেওয়া জরুরি।",
+      "example_meaning_bengali_md": "সময়সূচি-এর তথ্য পর্যালোচনা করা হয়েছে।",
       "synonyms": []
     },
     {
@@ -2397,27 +2774,31 @@
       "target": "पहले से योजना बनाना",
       "type": "expression",
       "category": "expression",
-      "romanization": "phle se yojnaa bnaanaa",
+      "romanization": "pahale se yojnaa bnaanaa",
       "bangla_pronunciation": "পহলে সে যোজনা বনানা",
       "word_pronunciations": [
         {
           "target": "पहले",
           "bangla_pronunciation": "পহলে",
+          "romanization": "pahale",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "योजना",
           "bangla_pronunciation": "যোজনা",
+          "romanization": "yojnaa",
           "separator_after": " "
         },
         {
           "target": "बनाना",
           "bangla_pronunciation": "বনানা",
+          "romanization": "banaanaa",
           "separator_after": ""
         }
       ],
@@ -2426,44 +2807,52 @@
       "source_form": "पहले से योजना बनाना",
       "example_target": "पहले से योजना बनाना भी ज़रूरी है।",
       "example_bangla_pronunciation": "পহলে সে যোজনা বনানা ভী জরূরী হ্যায়।",
+      "example_romanization": "pahale se yojnaa bnaanaa bhii zaruurii hai.",
       "example_word_pronunciations": [
         {
           "target": "पहले",
           "bangla_pronunciation": "পহলে",
+          "romanization": "pahale",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "योजना",
           "bangla_pronunciation": "যোজনা",
+          "romanization": "yojnaa",
           "separator_after": " "
         },
         {
           "target": "बनाना",
           "bangla_pronunciation": "বনানা",
+          "romanization": "banaanaa",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে আগে থেকে পরিকল্পনা করা-এর দিকে মনোযোগ দেওয়া জরুরি।",
+      "example_meaning_bengali_md": "আগে থেকে পরিকল্পনা করাও জরুরি।",
       "synonyms": []
     },
     {
@@ -2477,6 +2866,7 @@
         {
           "target": "सेवा-शिकायत",
           "bangla_pronunciation": "সেবা-শিকাযত",
+          "romanization": "sevaa-shikaayt",
           "separator_after": ""
         }
       ],
@@ -2485,34 +2875,40 @@
       "source_form": "सेवा-शिकायत",
       "example_target": "सेवा-शिकायत को नोट किया गया।",
       "example_bangla_pronunciation": "সেবা-শিকাযত কো নোট কিযা গযা।",
+      "example_romanization": "sevaa-shikaayt ko nott kiyaa gyaa.",
       "example_word_pronunciations": [
         {
           "target": "सेवा-शिकायत",
           "bangla_pronunciation": "সেবা-শিকাযত",
+          "romanization": "sevaa-shikaayt",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "नोट",
           "bangla_pronunciation": "নোট",
+          "romanization": "not",
           "separator_after": " "
         },
         {
           "target": "किया",
           "bangla_pronunciation": "কিযা",
+          "romanization": "kiyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে সেবা অভিযোগ-এর দিকে মনোযোগ দেওয়া জরুরি।",
+      "example_meaning_bengali_md": "সেবা অভিযোগ নথিভুক্ত করা হয়েছে।",
       "synonyms": []
     },
     {
@@ -2526,6 +2922,7 @@
         {
           "target": "सहायता-केंद्र",
           "bangla_pronunciation": "সহাযতা-কেংদ্র",
+          "romanization": "shaaytaa-kendr",
           "separator_after": ""
         }
       ],
@@ -2534,34 +2931,40 @@
       "source_form": "सहायता-केंद्र",
       "example_target": "सहायता-केंद्र पर भी चर्चा हुई।",
       "example_bangla_pronunciation": "সহাযতা-কেংদ্র পর ভী চর্চা হুঈ।",
+      "example_romanization": "shaaytaa-kendr pr bhii crcaa huii.",
       "example_word_pronunciations": [
         {
           "target": "सहायता-केंद्र",
           "bangla_pronunciation": "সহাযতা-কেংদ্র",
+          "romanization": "shaaytaa-kendr",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "हुई।",
           "bangla_pronunciation": "হুঈ।",
+          "romanization": "huee.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে সহায়তা কেন্দ্র-এর দিকে মনোযোগ দেওয়া জরুরি।",
+      "example_meaning_bengali_md": "সহায়তা কেন্দ্র নিয়েও আলোচনা হয়েছে।",
       "synonyms": []
     },
     {
@@ -2575,6 +2978,7 @@
         {
           "target": "भुगतान-रसीद",
           "bangla_pronunciation": "ভুগতান-রসীদ",
+          "romanization": "bhugtaan-rsiid",
           "separator_after": ""
         }
       ],
@@ -2583,34 +2987,40 @@
       "source_form": "भुगतान-रसीद",
       "example_target": "भुगतान-रसीद पर ध्यान दिया गया।",
       "example_bangla_pronunciation": "ভুগতান-রসীদ পর ধ্যান দিযা গযা।",
+      "example_romanization": "bhugtaan-rsiid pr dhyaan diyaa gyaa.",
       "example_word_pronunciations": [
         {
           "target": "भुगतान-रसीद",
           "bangla_pronunciation": "ভুগতান-রসীদ",
+          "romanization": "bhugtaan-rsiid",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दिया",
           "bangla_pronunciation": "দিযা",
+          "romanization": "diyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে পেমেন্ট রসিদ-এর দিকে মনোযোগ দেওয়া জরুরি।",
+      "example_meaning_bengali_md": "পেমেন্ট রসিদ-এর প্রতি মনোযোগ দেওয়া হয়েছে।",
       "synonyms": []
     },
     {
@@ -2624,6 +3034,7 @@
         {
           "target": "लाइन-परिवर्तन",
           "bangla_pronunciation": "লাইন-পরিবর্তন",
+          "romanization": "laain-privrtn",
           "separator_after": ""
         }
       ],
@@ -2632,34 +3043,40 @@
       "source_form": "लाइन-परिवर्तन",
       "example_target": "लाइन-परिवर्तन की जानकारी देखी गई।",
       "example_bangla_pronunciation": "লাইন-পরিবর্তন কী জানকারী দেখী গঈ।",
+      "example_romanization": "laain-privrtn kii jaankaarii dekhii gii.",
       "example_word_pronunciations": [
         {
           "target": "लाइन-परिवर्तन",
           "bangla_pronunciation": "লাইন-পরিবর্তন",
+          "romanization": "laain-privrtn",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
           "separator_after": " "
         },
         {
           "target": "देखी",
           "bangla_pronunciation": "দেখী",
+          "romanization": "dekhee",
           "separator_after": " "
         },
         {
           "target": "गई।",
           "bangla_pronunciation": "গঈ।",
+          "romanization": "gaee.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে লাইন পরিবর্তন-এর দিকে মনোযোগ দেওয়া জরুরি।",
+      "example_meaning_bengali_md": "লাইন পরিবর্তন-এর তথ্য পর্যালোচনা করা হয়েছে।",
       "synonyms": []
     },
     {
@@ -2667,12 +3084,13 @@
       "target": "प्रतीक्षा-समय",
       "type": "noun",
       "category": "word",
-      "romanization": "prtiikssaa-smy",
+      "romanization": "prtiikssaa-samay",
       "bangla_pronunciation": "প্রতীক্ষা-সময",
       "word_pronunciations": [
         {
           "target": "प्रतीक्षा-समय",
           "bangla_pronunciation": "প্রতীক্ষা-সময",
+          "romanization": "prtiikssaa-samay",
           "separator_after": ""
         }
       ],
@@ -2681,34 +3099,40 @@
       "source_form": "प्रतीक्षा-समय",
       "example_target": "प्रतीक्षा-समय पर विचार किया गया।",
       "example_bangla_pronunciation": "প্রতীক্ষা-সময পর বিচার কিযা গযা।",
+      "example_romanization": "prtiikssaa-samay pr vicaar kiyaa gyaa.",
       "example_word_pronunciations": [
         {
           "target": "प्रतीक्षा-समय",
           "bangla_pronunciation": "প্রতীক্ষা-সময",
+          "romanization": "prtiikssaa-samay",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "विचार",
           "bangla_pronunciation": "বিচার",
+          "romanization": "vichaar",
           "separator_after": " "
         },
         {
           "target": "किया",
           "bangla_pronunciation": "কিযা",
+          "romanization": "kiyaa",
           "separator_after": " "
         },
         {
           "target": "गया।",
           "bangla_pronunciation": "গযা।",
+          "romanization": "gayaa.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে অপেক্ষার সময়-এর দিকে মনোযোগ দেওয়া জরুরি।",
+      "example_meaning_bengali_md": "অপেক্ষার সময় বিবেচনা করা হয়েছে।",
       "synonyms": []
     },
     {
@@ -2722,16 +3146,19 @@
         {
           "target": "स्थिति",
           "bangla_pronunciation": "স্থিতি",
+          "romanization": "sthiti",
           "separator_after": " "
         },
         {
           "target": "पूछ",
           "bangla_pronunciation": "পূছ",
+          "romanization": "poochh",
           "separator_after": " "
         },
         {
           "target": "लेना",
           "bangla_pronunciation": "লেনা",
+          "romanization": "lena",
           "separator_after": ""
         }
       ],
@@ -2740,39 +3167,46 @@
       "source_form": "स्थिति पूछ लेना",
       "example_target": "स्थिति पूछ लेना भी ज़रूरी है।",
       "example_bangla_pronunciation": "স্থিতি পূছ লেনা ভী জরূরী হ্যায়।",
+      "example_romanization": "sthiti puuch lenaa bhii zaruurii hai.",
       "example_word_pronunciations": [
         {
           "target": "स्थिति",
           "bangla_pronunciation": "স্থিতি",
+          "romanization": "sthiti",
           "separator_after": " "
         },
         {
           "target": "पूछ",
           "bangla_pronunciation": "পূছ",
+          "romanization": "poochh",
           "separator_after": " "
         },
         {
           "target": "लेना",
           "bangla_pronunciation": "লেনা",
+          "romanization": "lena",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "এই পরিস্থিতিতে অবস্থা জেনে নেওয়া-এর দিকে মনোযোগ দেওয়া জরুরি।",
+      "example_meaning_bengali_md": "অবস্থা জেনে নেওয়াও জরুরি।",
       "synonyms": []
     }
   ],
@@ -2789,10 +3223,12 @@
         "kind": "target",
         "target": "यात्रा-मार्ग",
         "bangla_pronunciation": "যাত্রা-মার্গ",
+        "romanization": "yaatraa-maarg",
         "word_pronunciations": [
           {
             "target": "यात्रा-मार्ग",
             "bangla_pronunciation": "যাত্রা-মার্গ",
+            "romanization": "yaatraa-maarg",
             "separator_after": ""
           }
         ]
@@ -2805,20 +3241,24 @@
         "kind": "target",
         "target": "समय से निकलना",
         "bangla_pronunciation": "সময় সে নিকলনা",
+        "romanization": "samay se niklnaa",
         "word_pronunciations": [
           {
             "target": "समय",
             "bangla_pronunciation": "সময়",
+            "romanization": "samay",
             "separator_after": " "
           },
           {
             "target": "से",
             "bangla_pronunciation": "সে",
+            "romanization": "se",
             "separator_after": " "
           },
           {
             "target": "निकलना",
             "bangla_pronunciation": "নিকলনা",
+            "romanization": "nikalana",
             "separator_after": ""
           }
         ]
@@ -2831,10 +3271,12 @@
         "kind": "target",
         "target": "यात्रा-किराया",
         "bangla_pronunciation": "যাত্রা-কিরাযা",
+        "romanization": "yaatraa-kiraayaa",
         "word_pronunciations": [
           {
             "target": "यात्रा-किराया",
             "bangla_pronunciation": "যাত্রা-কিরাযা",
+            "romanization": "yaatraa-kiraayaa",
             "separator_after": ""
           }
         ]
@@ -2847,15 +3289,18 @@
         "kind": "target",
         "target": "यात्रा-मार्ग बदलना",
         "bangla_pronunciation": "যাত্রা-মার্গ বদলনা",
+        "romanization": "yaatraa-maarg bdlnaa",
         "word_pronunciations": [
           {
             "target": "यात्रा-मार्ग",
             "bangla_pronunciation": "যাত্রা-মার্গ",
+            "romanization": "yaatraa-maarg",
             "separator_after": " "
           },
           {
             "target": "बदलना",
             "bangla_pronunciation": "বদলনা",
+            "romanization": "badalana",
             "separator_after": ""
           }
         ]
@@ -2868,20 +3313,24 @@
         "kind": "target",
         "target": "पुष्टि कर लेना",
         "bangla_pronunciation": "পুষ্টি কর লেনা",
+        "romanization": "pusstti kr lenaa",
         "word_pronunciations": [
           {
             "target": "पुष्टि",
             "bangla_pronunciation": "পুষ্টি",
+            "romanization": "pusstti",
             "separator_after": " "
           },
           {
             "target": "कर",
             "bangla_pronunciation": "কর",
+            "romanization": "kar",
             "separator_after": " "
           },
           {
             "target": "लेना",
             "bangla_pronunciation": "লেনা",
+            "romanization": "lena",
             "separator_after": ""
           }
         ]
@@ -2894,25 +3343,30 @@
         "kind": "target",
         "target": "पहले से योजना बनाना",
         "bangla_pronunciation": "পহলে সে যোজনা বনানা",
+        "romanization": "pahale se yojnaa bnaanaa",
         "word_pronunciations": [
           {
             "target": "पहले",
             "bangla_pronunciation": "পহলে",
+            "romanization": "pahale",
             "separator_after": " "
           },
           {
             "target": "से",
             "bangla_pronunciation": "সে",
+            "romanization": "se",
             "separator_after": " "
           },
           {
             "target": "योजना",
             "bangla_pronunciation": "যোজনা",
+            "romanization": "yojnaa",
             "separator_after": " "
           },
           {
             "target": "बनाना",
             "bangla_pronunciation": "বনানা",
+            "romanization": "banaanaa",
             "separator_after": ""
           }
         ]
@@ -2925,10 +3379,12 @@
         "kind": "target",
         "target": "भुगतान-रसीद",
         "bangla_pronunciation": "ভুগতান-রসীদ",
+        "romanization": "bhugtaan-rsiid",
         "word_pronunciations": [
           {
             "target": "भुगतान-रसीद",
             "bangla_pronunciation": "ভুগতান-রসীদ",
+            "romanization": "bhugtaan-rsiid",
             "separator_after": ""
           }
         ]
@@ -2941,20 +3397,24 @@
         "kind": "target",
         "target": "स्थिति पूछ लेना",
         "bangla_pronunciation": "স্থিতি পূছ লেনা",
+        "romanization": "sthiti puuch lenaa",
         "word_pronunciations": [
           {
             "target": "स्थिति",
             "bangla_pronunciation": "স্থিতি",
+            "romanization": "sthiti",
             "separator_after": " "
           },
           {
             "target": "पूछ",
             "bangla_pronunciation": "পূছ",
+            "romanization": "poochh",
             "separator_after": " "
           },
           {
             "target": "लेना",
             "bangla_pronunciation": "লেনা",
+            "romanization": "lena",
             "separator_after": ""
           }
         ]
@@ -2964,7 +3424,7 @@
         "text": " দিয়ে আলোচনা শেষ হলো।"
       }
     ],
-    "text_md": "ভ্রমণ ও গণপরিবহন নিয়ে একটি ছোট আলোচনায় সবাই আগে **यात्रा\\-मार्ग** (যাত্রা\\-মার্গ) নিয়ে কথা বলল। এরপর **समय** (সময়) **से** (সে) **निकलना** (নিকলনা) জরুরি বলে মনে হলো, কারণ **यात्रा\\-किराया** (যাত্রা\\-কিরাযা) ঠিক না থাকলে কাজ আটকে যেতে পারে। তাই **यात्रा\\-मार्ग** (যাত্রা\\-মার্গ) **बदलना** (বদলনা) নিয়ে আলাদা করে আলোচনা হলো। দলটি **पुष्टि** (পুষ্টি) **कर** (কর) **लेना** (লেনা) অনুসরণ করার সিদ্ধান্ত নিল এবং **पहले** (পহলে) **से** (সে) **योजना** (যোজনা) **बनाना** (বনানা) সম্পর্কে সবার মত নিল। শেষে **भुगतान\\-रसीद** (ভুগতান\\-রসীদ) দেখে নেওয়া হলো, তারপর **स्थिति** (স্থিতি) **पूछ** (পূছ) **लेना** (লেনা) দিয়ে আলোচনা শেষ হলো।"
+    "text_md": "ভ্রমণ ও গণপরিবহন নিয়ে একটি ছোট আলোচনায় সবাই আগে **यात्रा\\-मार्ग** (যাত্রা\\-মার্গ, yaatraa\\-maarg) নিয়ে কথা বলল। এরপর **समय** (সময়, samay) **से** (সে, se) **निकलना** (নিকলনা, nikalana) জরুরি বলে মনে হলো, কারণ **यात्रा\\-किराया** (যাত্রা\\-কিরাযা, yaatraa\\-kiraayaa) ঠিক না থাকলে কাজ আটকে যেতে পারে। তাই **यात्रा\\-मार्ग** (যাত্রা\\-মার্গ, yaatraa\\-maarg) **बदलना** (বদলনা, badalana) নিয়ে আলাদা করে আলোচনা হলো। দলটি **पुष्टि** (পুষ্টি, pusstti) **कर** (কর, kar) **लेना** (লেনা, lena) অনুসরণ করার সিদ্ধান্ত নিল এবং **पहले** (পহলে, pahale) **से** (সে, se) **योजना** (যোজনা, yojnaa) **बनाना** (বনানা, banaanaa) সম্পর্কে সবার মত নিল। শেষে **भुगतान\\-रसीद** (ভুগতান\\-রসীদ, bhugtaan\\-rsiid) দেখে নেওয়া হলো, তারপর **स्थिति** (স্থিতি, sthiti) **पूछ** (পূছ, poochh) **लेना** (লেনা, lena) দিয়ে আলোচনা শেষ হলো।"
   },
   "target_reading": {
     "mode": "article",
@@ -2972,27 +3432,32 @@
     "scene_summary": "একজন ব্যক্তি ভ্রমণ ও গণপরিবহন সংক্রান্ত দিনের শেষে পাঁচটি সংক্ষিপ্ত নোট লিখছে।",
     "lines": [
       {
-        "target": "यात्रा-देरी आज तय है।",
-        "bangla_pronunciation": "যাত্রা-দেরী আজ তয হ্যায়।",
+        "target": "यात्रा-मार्ग आज तय है।",
+        "bangla_pronunciation": "যাত্রা-মার্গ আজ তয হ্যায়।",
+        "romanization": "yaatraa-maarg aaj tay hai.",
         "word_pronunciations": [
           {
-            "target": "यात्रा-देरी",
-            "bangla_pronunciation": "যাত্রা-দেরী",
+            "target": "यात्रा-मार्ग",
+            "bangla_pronunciation": "যাত্রা-মার্গ",
+            "romanization": "yaatraa-maarg",
             "separator_after": " "
           },
           {
             "target": "आज",
             "bangla_pronunciation": "আজ",
+            "romanization": "aaj",
             "separator_after": " "
           },
           {
             "target": "तय",
             "bangla_pronunciation": "তয",
+            "romanization": "tay",
             "separator_after": " "
           },
           {
             "target": "है।",
             "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
             "separator_after": ""
           }
         ]
@@ -3000,46 +3465,67 @@
       {
         "target": "स्टेशन-प्लेटफ़ॉर्म अभी स्पष्ट है।",
         "bangla_pronunciation": "স্টেশন-প্লেটফঅর্ম অভী স্পষ্ট হ্যায়।",
+        "romanization": "steshana-pletaforma abhee spashta hai.",
         "word_pronunciations": [
           {
             "target": "स्टेशन-प्लेटफ़ॉर्म",
             "bangla_pronunciation": "স্টেশন-প্লেটফঅর্ম",
+            "romanization": "stteshn-plettph'onrm",
             "separator_after": " "
           },
           {
             "target": "अभी",
             "bangla_pronunciation": "অভী",
+            "romanization": "abhii",
             "separator_after": " "
           },
           {
             "target": "स्पष्ट",
             "bangla_pronunciation": "স্পষ্ট",
+            "romanization": "spasht",
             "separator_after": " "
           },
           {
             "target": "है।",
             "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
             "separator_after": ""
           }
         ]
       },
       {
-        "target": "सहयात्री उपयोगी है।",
-        "bangla_pronunciation": "সহযাত্রী উপযোগী হ্যায়।",
+        "target": "सहयात्री का सहयोग उपयोगी है।",
+        "bangla_pronunciation": "সহযাত্রী কা সহযোগ উপযোগী হ্যায়।",
+        "romanization": "sahyaatrii kaa sahyog upayogee hai.",
         "word_pronunciations": [
           {
             "target": "सहयात्री",
             "bangla_pronunciation": "সহযাত্রী",
+            "romanization": "sahyaatrii",
+            "separator_after": " "
+          },
+          {
+            "target": "का",
+            "bangla_pronunciation": "কা",
+            "romanization": "kaa",
+            "separator_after": " "
+          },
+          {
+            "target": "सहयोग",
+            "bangla_pronunciation": "সহযোগ",
+            "romanization": "sahyog",
             "separator_after": " "
           },
           {
             "target": "उपयोगी",
             "bangla_pronunciation": "উপযোগী",
+            "romanization": "upayogee",
             "separator_after": " "
           },
           {
             "target": "है।",
             "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
             "separator_after": ""
           }
         ]
@@ -3047,20 +3533,24 @@
       {
         "target": "यात्रा-सामान ज़रूरी है।",
         "bangla_pronunciation": "যাত্রা-সামান জরূরী হ্যায়।",
+        "romanization": "yaatraa-saamaana zarooree hai.",
         "word_pronunciations": [
           {
             "target": "यात्रा-सामान",
             "bangla_pronunciation": "যাত্রা-সামান",
+            "romanization": "yaatraa-saamaan",
             "separator_after": " "
           },
           {
             "target": "ज़रूरी",
             "bangla_pronunciation": "জরূরী",
+            "romanization": "zaruri",
             "separator_after": " "
           },
           {
             "target": "है।",
             "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
             "separator_after": ""
           }
         ]
@@ -3068,32 +3558,38 @@
       {
         "target": "सेवा-शिकायत अगला मुद्दा है।",
         "bangla_pronunciation": "সেবা-শিকাযত অগলা মুদ্দা হ্যায়।",
+        "romanization": "sevaa-shikaayata agalaa muddaa hai.",
         "word_pronunciations": [
           {
             "target": "सेवा-शिकायत",
             "bangla_pronunciation": "সেবা-শিকাযত",
+            "romanization": "sevaa-shikaayt",
             "separator_after": " "
           },
           {
             "target": "अगला",
             "bangla_pronunciation": "অগলা",
+            "romanization": "aglaa",
             "separator_after": " "
           },
           {
             "target": "मुद्दा",
             "bangla_pronunciation": "মুদ্দা",
+            "romanization": "muddaa",
             "separator_after": " "
           },
           {
             "target": "है।",
             "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
             "separator_after": ""
           }
         ]
       }
     ],
-    "bangla_pronunciation": "যাত্রা-দেরী আজ তয হ্যায়। স্টেশন-প্লেটফঅর্ম অভী স্পষ্ট হ্যায়। সহযাত্রী উপযোগী হ্যায়। যাত্রা-সামান জরূরী হ্যায়। সেবা-শিকাযত অগলা মুদ্দা হ্যায়।",
-    "meaning_bengali_md": "বিলম্ব আজ নির্ধারিত। প্ল্যাটফর্ম এখন স্পষ্ট। সহযাত্রী উপকারী। ভ্রমণের মালপত্র জরুরি। সেবা অভিযোগ পরবর্তী আলোচ্য বিষয়।"
+    "bangla_pronunciation": "যাত্রা-মার্গ আজ তয হ্যায়। স্টেশন-প্ল্যাটফর্ম অভী স্পষ্ট হ্যায়। সহযাত্রী কা সহযোগ উপযোগী হ্যায়। যাত্রা-সামান জরূরী হ্যায়। সেবা-শিকাযত অগলা মুদ্দা হ্যায়।",
+    "romanization": "yaatraa-maarg aaj tay hai. steshana-plaitaforma abhee spashta hai. sahyaatrii kaa sahyog upayogee hai. yaatraa-saamaana zarooree hai. sevaa-shikaayata agalaa muddaa hai.",
+    "meaning_bengali_md": "ভ্রমণের পথ আজ নির্ধারিত। স্টেশন প্ল্যাটফর্ম এখন পরিষ্কার। সহযাত্রীর সহযোগিতা উপকারী। ভ্রমণের মালপত্র জরুরি। সেবা সংক্রান্ত অভিযোগ পরবর্তী আলোচ্য বিষয়।"
   },
   "script_practice": [
     {
@@ -3101,6 +3597,7 @@
       "mode": "review",
       "target": "श",
       "bangla_pronunciation": "শ",
+      "romanization": "sha",
       "explanation_bengali_md": "আগে শেখা দেবনাগরী রূপটি আবার চিনে ধ্বনির সঙ্গে মিলিয়ে নিন।",
       "practice_bengali_md": "চিহ্নটি দেখে বাংলা উচ্চারণ **শ** বলুন, তারপর অধ্যায়ের শব্দে রূপটি খুঁজে দেখুন।"
     },
@@ -3109,6 +3606,7 @@
       "mode": "review",
       "target": "ष",
       "bangla_pronunciation": "ষ/শ",
+      "romanization": "sha",
       "explanation_bengali_md": "আগে শেখা দেবনাগরী রূপটি আবার চিনে ধ্বনির সঙ্গে মিলিয়ে নিন।",
       "practice_bengali_md": "চিহ্নটি দেখে বাংলা উচ্চারণ **ষ/শ** বলুন, তারপর অধ্যায়ের শব্দে রূপটি খুঁজে দেখুন।"
     },
@@ -3117,6 +3615,7 @@
       "mode": "application",
       "target": "त्र",
       "bangla_pronunciation": "ত্র",
+      "romanization": "tra",
       "explanation_bengali_md": "আগে শেখা দেবনাগরী রূপটি আবার চিনে ধ্বনির সঙ্গে মিলিয়ে নিন।",
       "practice_bengali_md": "চিহ্নটি দেখে বাংলা উচ্চারণ **ত্র** বলুন, তারপর অধ্যায়ের শব্দে রূপটি খুঁজে দেখুন।"
     },
@@ -3125,6 +3624,7 @@
       "mode": "application",
       "target": "क्ष",
       "bangla_pronunciation": "ক্ষ",
+      "romanization": "ksha",
       "explanation_bengali_md": "আগে শেখা দেবনাগরী রূপটি আবার চিনে ধ্বনির সঙ্গে মিলিয়ে নিন।",
       "practice_bengali_md": "চিহ্নটি দেখে বাংলা উচ্চারণ **ক্ষ** বলুন, তারপর অধ্যায়ের শব্দে রূপটি খুঁজে দেখুন।"
     },
@@ -3133,6 +3633,7 @@
       "mode": "application",
       "target": "ं",
       "bangla_pronunciation": "ং/ঁ",
+      "romanization": "n",
       "explanation_bengali_md": "আগে শেখা দেবনাগরী রূপটি আবার চিনে ধ্বনির সঙ্গে মিলিয়ে নিন।",
       "practice_bengali_md": "চিহ্নটি দেখে বাংলা উচ্চারণ **ং/ঁ** বলুন, তারপর অধ্যায়ের শব্দে রূপটি খুঁজে দেখুন।"
     }
@@ -3143,20 +3644,24 @@
       "prompt_bengali_md": "একটি গুরুত্বপূর্ণ বিষয় বলুন।",
       "model_target": "यात्रा-मार्ग ज़रूरी है।",
       "model_bangla_pronunciation": "যাত্রা-মার্গ জরূরী হ্যায়।",
+      "model_romanization": "yaatraa-maarga zarooree hai.",
       "model_word_pronunciations": [
         {
           "target": "यात्रा-मार्ग",
           "bangla_pronunciation": "যাত্রা-মার্গ",
+          "romanization": "yaatraa-maarg",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -3166,30 +3671,36 @@
       "prompt_bengali_md": "একটি করণীয় বলুন।",
       "model_target": "समय से निकलना ज़रूरी है।",
       "model_bangla_pronunciation": "সময় সে নিকলনা জরূরী হ্যায়।",
+      "model_romanization": "samaya se nikalanaa zarooree hai.",
       "model_word_pronunciations": [
         {
           "target": "समय",
           "bangla_pronunciation": "সময়",
+          "romanization": "samay",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "निकलना",
           "bangla_pronunciation": "নিকলনা",
+          "romanization": "nikalana",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -3199,25 +3710,30 @@
       "prompt_bengali_md": "দায়িত্ব বা যাচাই সম্পর্কে বলুন।",
       "model_target": "यात्रा-मार्ग बदलना ज़रूरी है।",
       "model_bangla_pronunciation": "যাত্রা-মার্গ বদলনা জরূরী হ্যায়।",
+      "model_romanization": "yaatraa-maarga badalanaa zarooree hai.",
       "model_word_pronunciations": [
         {
           "target": "यात्रा-मार्ग",
           "bangla_pronunciation": "যাত্রা-মার্গ",
+          "romanization": "yaatraa-maarg",
           "separator_after": " "
         },
         {
           "target": "बदलना",
           "bangla_pronunciation": "বদলনা",
+          "romanization": "badalana",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -3227,30 +3743,36 @@
       "prompt_bengali_md": "সতর্কতা বা স্পষ্টতার একটি কথা বলুন।",
       "model_target": "पुष्टि कर लेना ज़रूरी है।",
       "model_bangla_pronunciation": "পুষ্টি কর লেনা জরূরী হ্যায়।",
+      "model_romanization": "pushti kara lenaa zarooree hai.",
       "model_word_pronunciations": [
         {
           "target": "पुष्टि",
           "bangla_pronunciation": "পুষ্টি",
+          "romanization": "pusstti",
           "separator_after": " "
         },
         {
           "target": "कर",
           "bangla_pronunciation": "কর",
+          "romanization": "kar",
           "separator_after": " "
         },
         {
           "target": "लेना",
           "bangla_pronunciation": "লেনা",
+          "romanization": "lena",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -3260,35 +3782,42 @@
       "prompt_bengali_md": "পরিকল্পনার একটি পদক্ষেপ বলুন।",
       "model_target": "पहले से योजना बनाना ज़रूरी है।",
       "model_bangla_pronunciation": "পহলে সে যোজনা বনানা জরূরী হ্যায়।",
+      "model_romanization": "pahale se yojanaa banaanaa zarooree hai.",
       "model_word_pronunciations": [
         {
           "target": "पहले",
           "bangla_pronunciation": "পহলে",
+          "romanization": "pahale",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "योजना",
           "bangla_pronunciation": "যোজনা",
+          "romanization": "yojnaa",
           "separator_after": " "
         },
         {
           "target": "बनाना",
           "bangla_pronunciation": "বনানা",
+          "romanization": "banaanaa",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -3298,30 +3827,36 @@
       "prompt_bengali_md": "অধ্যায়ের শেষ বাক্যাংশটি ব্যবহার করুন।",
       "model_target": "स्थिति पूछ लेना ज़रूरी है।",
       "model_bangla_pronunciation": "স্থিতি পূছ লেনা জরূরী হ্যায়।",
+      "model_romanization": "sthiti poochha lenaa zarooree hai.",
       "model_word_pronunciations": [
         {
           "target": "स्थिति",
           "bangla_pronunciation": "স্থিতি",
+          "romanization": "sthiti",
           "separator_after": " "
         },
         {
           "target": "पूछ",
           "bangla_pronunciation": "পূছ",
+          "romanization": "poochh",
           "separator_after": " "
         },
         {
           "target": "लेना",
           "bangla_pronunciation": "লেনা",
+          "romanization": "lena",
           "separator_after": " "
         },
         {
           "target": "ज़रूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "zaruri",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],

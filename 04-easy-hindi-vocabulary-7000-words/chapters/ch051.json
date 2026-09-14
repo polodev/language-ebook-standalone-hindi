@@ -1,0 +1,2843 @@
+{
+  "chapter_id": "ch051",
+  "status": "drafted",
+  "title_target": "बैंक खाता और बचत",
+  "title_bangla_pronunciation": "ব্যাংক খাতা অউর বচত",
+  "title_romanization": "bank khaata aur bachat",
+  "title_word_pronunciations": [
+    {
+      "target": "बैंक",
+      "bangla_pronunciation": "ব্যাংক",
+      "romanization": "bank",
+      "separator_after": " "
+    },
+    {
+      "target": "खाता",
+      "bangla_pronunciation": "খাতা",
+      "romanization": "khaata",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "romanization": "aur",
+      "separator_after": " "
+    },
+    {
+      "target": "बचत",
+      "bangla_pronunciation": "বচত",
+      "romanization": "bachat",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "ব্যাংক হিসাব ও সঞ্চয়",
+  "goal_bengali_md": "ব্যাংক হিসাব খোলা, টাকা জমা ও সঞ্চয়ের কৌশল নিয়ে সহজ হিন্দি বলা।",
+  "sentences": [
+    {
+      "id": "s01",
+      "target": "यह बैंक बहुत बड़ा है।",
+      "bangla_pronunciation": "যহ ব্যাংক বহুত বডা হ্যায়।",
+      "romanization": "yah bank bahut bada hai.",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "बैंक",
+          "bangla_pronunciation": "ব্যাংক",
+          "romanization": "bank",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "romanization": "bahut",
+          "separator_after": " "
+        },
+        {
+          "target": "बड़ा",
+          "bangla_pronunciation": "বডা",
+          "romanization": "bada",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই ব্যাংকটি অনেক বড়।"
+    },
+    {
+      "id": "s02",
+      "target": "मेरा एक बचत खाता है।",
+      "bangla_pronunciation": "মেরা এক বচত খাতা হ্যায়।",
+      "romanization": "mera ek bachat khaata hai.",
+      "word_pronunciations": [
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "romanization": "mera",
+          "separator_after": " "
+        },
+        {
+          "target": "एक",
+          "bangla_pronunciation": "এক",
+          "romanization": "ek",
+          "separator_after": " "
+        },
+        {
+          "target": "बचत",
+          "bangla_pronunciation": "বচত",
+          "romanization": "bachat",
+          "separator_after": " "
+        },
+        {
+          "target": "खाता",
+          "bangla_pronunciation": "খাতা",
+          "romanization": "khaata",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার একটি সঞ্চয়ী হিসাব আছে।"
+    },
+    {
+      "id": "s03",
+      "target": "यह बैंक की मुख्य शाखा है।",
+      "bangla_pronunciation": "যহ ব্যাংক কী মুখ্য শাখা হ্যায়।",
+      "romanization": "yah bank kee mukhya shaakha hai.",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "बैंक",
+          "bangla_pronunciation": "ব্যাংক",
+          "romanization": "bank",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "मुख्य",
+          "bangla_pronunciation": "মুখ্য",
+          "romanization": "mukhya",
+          "separator_after": " "
+        },
+        {
+          "target": "शाखा",
+          "bangla_pronunciation": "শাখা",
+          "romanization": "shaakha",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এটি ব্যাংকের প্রধান শাখা।"
+    },
+    {
+      "id": "s04",
+      "target": "मेरे पास कुछ रुपये हैं।",
+      "bangla_pronunciation": "মেরে পাস কুছ রুপয়ে হ্যাঁয়।",
+      "romanization": "mere paas kuchh rupaye hain.",
+      "word_pronunciations": [
+        {
+          "target": "मेरे",
+          "bangla_pronunciation": "মেরে",
+          "romanization": "mere",
+          "separator_after": " "
+        },
+        {
+          "target": "पास",
+          "bangla_pronunciation": "পাস",
+          "romanization": "paas",
+          "separator_after": " "
+        },
+        {
+          "target": "कुछ",
+          "bangla_pronunciation": "কুছ",
+          "romanization": "kuchh",
+          "separator_after": " "
+        },
+        {
+          "target": "रुपये",
+          "bangla_pronunciation": "রুপয়ে",
+          "romanization": "rupaye",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার কাছে কিছু টাকা আছে।"
+    },
+    {
+      "id": "s05",
+      "target": "नमस्ते, मुझे नया खाता खोलना है।",
+      "bangla_pronunciation": "নমস্তে, মুঝে নয়া খাতা খোলনা হ্যায়।",
+      "romanization": "namaste, mujhe naya khaata kholna hai.",
+      "word_pronunciations": [
+        {
+          "target": "नमस्ते,",
+          "bangla_pronunciation": "নমস্তে,",
+          "romanization": "namaste,",
+          "separator_after": " "
+        },
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "नया",
+          "bangla_pronunciation": "নয়া",
+          "romanization": "naya",
+          "separator_after": " "
+        },
+        {
+          "target": "खाता",
+          "bangla_pronunciation": "খাতা",
+          "romanization": "khaata",
+          "separator_after": " "
+        },
+        {
+          "target": "खोलना",
+          "bangla_pronunciation": "খোলনা",
+          "romanization": "kholna",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নমস্কার, আমার একটি নতুন হিসাব খুলতে হবে।"
+    },
+    {
+      "id": "s06",
+      "target": "कृपया यह आवेदन फॉर्म लीजिए।",
+      "bangla_pronunciation": "কৃপয়া যহ আবেদন ফর্ম লীজিয়ে।",
+      "romanization": "kripaya yah aavedan form leejiye.",
+      "word_pronunciations": [
+        {
+          "target": "कृपया",
+          "bangla_pronunciation": "কৃপয়া",
+          "romanization": "kripaya",
+          "separator_after": " "
+        },
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "आवेदन",
+          "bangla_pronunciation": "আবেদন",
+          "romanization": "aavedan",
+          "separator_after": " "
+        },
+        {
+          "target": "फॉर्म",
+          "bangla_pronunciation": "ফর্ম",
+          "romanization": "form",
+          "separator_after": " "
+        },
+        {
+          "target": "लीजिए।",
+          "bangla_pronunciation": "লীজিয়ে।",
+          "romanization": "leejiye.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দয়া করে এই আবেদন ফরমটি নিন।"
+    },
+    {
+      "id": "s07",
+      "target": "आपको यह फॉर्म पूरा भरना होगा।",
+      "bangla_pronunciation": "আপকো যহ ফর্ম পুরা ভরনা হোগা।",
+      "romanization": "aapko yah form poora bharna hoga.",
+      "word_pronunciations": [
+        {
+          "target": "आपको",
+          "bangla_pronunciation": "আপকো",
+          "romanization": "aapko",
+          "separator_after": " "
+        },
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "फॉर्म",
+          "bangla_pronunciation": "ফর্ম",
+          "romanization": "form",
+          "separator_after": " "
+        },
+        {
+          "target": "पूरा",
+          "bangla_pronunciation": "পুরা",
+          "romanization": "poora",
+          "separator_after": " "
+        },
+        {
+          "target": "भरना",
+          "bangla_pronunciation": "ভরনা",
+          "romanization": "bharna",
+          "separator_after": " "
+        },
+        {
+          "target": "होगा।",
+          "bangla_pronunciation": "হোগা।",
+          "romanization": "hoga.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপনাকে এই ফরমটি সম্পূর্ণ পূরণ করতে হবে।"
+    },
+    {
+      "id": "s08",
+      "target": "यहाँ अपने हस्ताक्षर कीजिए।",
+      "bangla_pronunciation": "যহাঁ অপনে হস্তাক্ষর কীজিয়ে।",
+      "romanization": "yahaan apne hastaakshar keejiye.",
+      "word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
+          "separator_after": " "
+        },
+        {
+          "target": "अपने",
+          "bangla_pronunciation": "অপনে",
+          "romanization": "apne",
+          "separator_after": " "
+        },
+        {
+          "target": "हस्ताक्षर",
+          "bangla_pronunciation": "হস্তাক্ষর",
+          "romanization": "hastaakshar",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিয়ে।",
+          "romanization": "keejiye.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এখানে আপনার স্বাক্ষর করুন।"
+    },
+    {
+      "id": "s09",
+      "target": "अपने पहचान के दस्तावेज़ दिखाइए।",
+      "bangla_pronunciation": "অপনে পহচান কে দস্তাবেজ় দিখাইয়ে।",
+      "romanization": "apne pahchaan ke dastaavez dikhaaiye.",
+      "word_pronunciations": [
+        {
+          "target": "अपने",
+          "bangla_pronunciation": "অপনে",
+          "romanization": "apne",
+          "separator_after": " "
+        },
+        {
+          "target": "पहचान",
+          "bangla_pronunciation": "পহচান",
+          "romanization": "pahchaan",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "romanization": "ke",
+          "separator_after": " "
+        },
+        {
+          "target": "दस्तावेज़",
+          "bangla_pronunciation": "দস্তাবেজ়",
+          "romanization": "dastaavez",
+          "separator_after": " "
+        },
+        {
+          "target": "दिखाइए।",
+          "bangla_pronunciation": "দিখাইয়ে।",
+          "romanization": "dikhaaiye.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আপনার পরিচয়ের নথিপত্র দেখান।"
+    },
+    {
+      "id": "s10",
+      "target": "मैं पैसे जमा करना चाहता हूँ।",
+      "bangla_pronunciation": "ম্যায়ঁ পৈসে জমা করনা চাহতা হুঁ।",
+      "romanization": "main paise jama karna chaahta hoon.",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যায়ঁ",
+          "romanization": "main",
+          "separator_after": " "
+        },
+        {
+          "target": "पैसे",
+          "bangla_pronunciation": "পৈসে",
+          "romanization": "paise",
+          "separator_after": " "
+        },
+        {
+          "target": "जमा",
+          "bangla_pronunciation": "জমা",
+          "romanization": "jama",
+          "separator_after": " "
+        },
+        {
+          "target": "करना",
+          "bangla_pronunciation": "করনা",
+          "romanization": "karna",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहता",
+          "bangla_pronunciation": "চাহতা",
+          "romanization": "chaahta",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ।",
+          "bangla_pronunciation": "হুঁ।",
+          "romanization": "hoon.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি টাকা জমা দিতে চাই।"
+    },
+    {
+      "id": "s11",
+      "target": "आज खाते से निकासी आसान है।",
+      "bangla_pronunciation": "আজ খাতে সে নিকাচী আসান হ্যায়।",
+      "romanization": "aaj khaate se nikaasee aasaan hai.",
+      "word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
+          "separator_after": " "
+        },
+        {
+          "target": "खाते",
+          "bangla_pronunciation": "খাতে",
+          "romanization": "khaate",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "romanization": "se",
+          "separator_after": " "
+        },
+        {
+          "target": "निकासी",
+          "bangla_pronunciation": "নিকাচী",
+          "romanization": "nikaasee",
+          "separator_after": " "
+        },
+        {
+          "target": "आसान",
+          "bangla_pronunciation": "আসান",
+          "romanization": "aasaan",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আজ হিসাব থেকে টাকা তোলা সহজ।"
+    },
+    {
+      "id": "s12",
+      "target": "मुझे कुछ पैसे निकालना है।",
+      "bangla_pronunciation": "মুঝে কুছ পৈসে নিকালনা হ্যায়।",
+      "romanization": "mujhe kuchh paise nikaalna hai.",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "कुछ",
+          "bangla_pronunciation": "কুছ",
+          "romanization": "kuchh",
+          "separator_after": " "
+        },
+        {
+          "target": "पैसे",
+          "bangla_pronunciation": "পৈসে",
+          "romanization": "paise",
+          "separator_after": " "
+        },
+        {
+          "target": "निकालना",
+          "bangla_pronunciation": "নিকালনা",
+          "romanization": "nikaalna",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমাকে কিছু টাকা তুলতে হবে।"
+    },
+    {
+      "id": "s13",
+      "target": "यह आपकी नई पासबुक है।",
+      "bangla_pronunciation": "যহ আপকী নঈ পাসবুক হ্যায়।",
+      "romanization": "yah aapkee naee paasbuk hai.",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "आपकी",
+          "bangla_pronunciation": "আপকী",
+          "romanization": "aapkee",
+          "separator_after": " "
+        },
+        {
+          "target": "नई",
+          "bangla_pronunciation": "নঈ",
+          "romanization": "naee",
+          "separator_after": " "
+        },
+        {
+          "target": "पासबुक",
+          "bangla_pronunciation": "পাসবুক",
+          "romanization": "paasbuk",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এটি আপনার নতুন পাসবই।"
+    },
+    {
+      "id": "s14",
+      "target": "एटीएम कार्ड बहुत उपयोगी है।",
+      "bangla_pronunciation": "এটিএম কার্ড বহুত উপযোগী হ্যায়।",
+      "romanization": "etiem kaard bahut upayogee hai.",
+      "word_pronunciations": [
+        {
+          "target": "एटीएम",
+          "bangla_pronunciation": "এটিএম",
+          "romanization": "etiem",
+          "separator_after": " "
+        },
+        {
+          "target": "कार्ड",
+          "bangla_pronunciation": "কার্ড",
+          "romanization": "kaard",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "romanization": "bahut",
+          "separator_after": " "
+        },
+        {
+          "target": "उपयोगी",
+          "bangla_pronunciation": "উপযোগী",
+          "romanization": "upayogee",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এটিএম কার্ড খুব উপকারী।"
+    },
+    {
+      "id": "s15",
+      "target": "लेनदेन के बाद रसीद लीजिए।",
+      "bangla_pronunciation": "লেনদেন কে বাদ রসীদ লীজিয়ে।",
+      "romanization": "lenden ke baad raseed leejiye.",
+      "word_pronunciations": [
+        {
+          "target": "लेनदेन",
+          "bangla_pronunciation": "লেনদেন",
+          "romanization": "lenden",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "romanization": "ke",
+          "separator_after": " "
+        },
+        {
+          "target": "बाद",
+          "bangla_pronunciation": "বাদ",
+          "romanization": "baad",
+          "separator_after": " "
+        },
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসীদ",
+          "romanization": "raseed",
+          "separator_after": " "
+        },
+        {
+          "target": "लीजिए।",
+          "bangla_pronunciation": "লীজিয়ে।",
+          "romanization": "leejiye.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লেনদেনের পর রসিদ নিন।"
+    },
+    {
+      "id": "s16",
+      "target": "बचत पर अच्छा ब्याज मिलता है।",
+      "bangla_pronunciation": "বচত পর অচ্ছা ব্যাজ মিলতা হ্যায়।",
+      "romanization": "bachat par achchha byaaj milta hai.",
+      "word_pronunciations": [
+        {
+          "target": "बचत",
+          "bangla_pronunciation": "বচত",
+          "romanization": "bachat",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "romanization": "par",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "romanization": "achchha",
+          "separator_after": " "
+        },
+        {
+          "target": "ब्याज",
+          "bangla_pronunciation": "ব্যাজ",
+          "romanization": "byaaj",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलता",
+          "bangla_pronunciation": "মিলতা",
+          "romanization": "milta",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সঞ্চয়ের ওপর ভালো সুদ পাওয়া যায়।"
+    },
+    {
+      "id": "s17",
+      "target": "नकद पैसे बैंक में सुरक्षित रहते हैं।",
+      "bangla_pronunciation": "নকদ পৈসে ব্যাংক মেঁ সুরক্ষিত রহতে হ্যাঁয়।",
+      "romanization": "nakad paise bank men surakshit rahte hain.",
+      "word_pronunciations": [
+        {
+          "target": "नकद",
+          "bangla_pronunciation": "নকদ",
+          "romanization": "nakad",
+          "separator_after": " "
+        },
+        {
+          "target": "पैसे",
+          "bangla_pronunciation": "পৈসে",
+          "romanization": "paise",
+          "separator_after": " "
+        },
+        {
+          "target": "बैंक",
+          "bangla_pronunciation": "ব্যাংক",
+          "romanization": "bank",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षित",
+          "bangla_pronunciation": "সুরক্ষিত",
+          "romanization": "surakshit",
+          "separator_after": " "
+        },
+        {
+          "target": "रहते",
+          "bangla_pronunciation": "রহতে",
+          "romanization": "rahte",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নগদ টাকা ব্যাংকে নিরাপদ থাকে।"
+    },
+    {
+      "id": "s18",
+      "target": "बताइए, खाते में कितना पैसा है?",
+      "bangla_pronunciation": "বতাইয়ে, খাতে মেঁ কিতনা পৈসা হ্যায়?",
+      "romanization": "bataaiye, khaate men kitna paisa hai?",
+      "word_pronunciations": [
+        {
+          "target": "बताइए,",
+          "bangla_pronunciation": "বতাইয়ে,",
+          "romanization": "bataaiye,",
+          "separator_after": " "
+        },
+        {
+          "target": "खाते",
+          "bangla_pronunciation": "খাতে",
+          "romanization": "khaate",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "कितना",
+          "bangla_pronunciation": "কিতনা",
+          "romanization": "kitna",
+          "separator_after": " "
+        },
+        {
+          "target": "पैसा",
+          "bangla_pronunciation": "পৈসা",
+          "romanization": "paisa",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "romanization": "hai?",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বলুন তো, হিসাবে কত টাকা আছে?"
+    },
+    {
+      "id": "s19",
+      "target": "बैंक अधिकारी ने ऋण की किस्त समझाई।",
+      "bangla_pronunciation": "ব্যাংক অধিকারী নে ঋণ কী কিস্ত সমঝাঈ।",
+      "romanization": "bank adhikaaree ne rin kee kist samjhaaee.",
+      "word_pronunciations": [
+        {
+          "target": "बैंक",
+          "bangla_pronunciation": "ব্যাংক",
+          "romanization": "bank",
+          "separator_after": " "
+        },
+        {
+          "target": "अधिकारी",
+          "bangla_pronunciation": "অধিকারী",
+          "romanization": "adhikaaree",
+          "separator_after": " "
+        },
+        {
+          "target": "ने",
+          "bangla_pronunciation": "নে",
+          "romanization": "ne",
+          "separator_after": " "
+        },
+        {
+          "target": "ऋण",
+          "bangla_pronunciation": "ঋণ",
+          "romanization": "rin",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "किस्त",
+          "bangla_pronunciation": "কিস্ত",
+          "romanization": "kist",
+          "separator_after": " "
+        },
+        {
+          "target": "समझाई।",
+          "bangla_pronunciation": "সমঝাঈ।",
+          "romanization": "samjhaaee.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাংক কর্মকর্তা ঋণের কিস্তি বুঝিয়ে দিলেন।"
+    },
+    {
+      "id": "s20",
+      "target": "हर महीने बचत करना अच्छा है, इससे पैसे बचाना आसान होता है और खाता शुल्क भी कम लगता है।",
+      "bangla_pronunciation": "হর মহীনে বচত করনা অচ্ছা হ্যায়, ইসসে পৈসে বচানা আসান হোতা হ্যায় অউর খাতা শুল্ক ভী কম লগতা হ্যায়।",
+      "romanization": "har maheene bachat karna achchha hai, isse paise bachaana aasaan hota hai aur khaata shulk bhee kam lagta hai.",
+      "word_pronunciations": [
+        {
+          "target": "हर",
+          "bangla_pronunciation": "হর",
+          "romanization": "har",
+          "separator_after": " "
+        },
+        {
+          "target": "महीने",
+          "bangla_pronunciation": "মহীনে",
+          "romanization": "maheene",
+          "separator_after": " "
+        },
+        {
+          "target": "बचत",
+          "bangla_pronunciation": "বচত",
+          "romanization": "bachat",
+          "separator_after": " "
+        },
+        {
+          "target": "करना",
+          "bangla_pronunciation": "করনা",
+          "romanization": "karna",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "romanization": "achchha",
+          "separator_after": " "
+        },
+        {
+          "target": "है,",
+          "bangla_pronunciation": "হ্যায়,",
+          "romanization": "hai,",
+          "separator_after": " "
+        },
+        {
+          "target": "इससे",
+          "bangla_pronunciation": "ইসসে",
+          "romanization": "isse",
+          "separator_after": " "
+        },
+        {
+          "target": "पैसे",
+          "bangla_pronunciation": "পৈসে",
+          "romanization": "paise",
+          "separator_after": " "
+        },
+        {
+          "target": "बचाना",
+          "bangla_pronunciation": "বচানা",
+          "romanization": "bachaana",
+          "separator_after": " "
+        },
+        {
+          "target": "आसान",
+          "bangla_pronunciation": "আসান",
+          "romanization": "aasaan",
+          "separator_after": " "
+        },
+        {
+          "target": "होता",
+          "bangla_pronunciation": "হোতা",
+          "romanization": "hota",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হ্যায়",
+          "romanization": "hai",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "खाता",
+          "bangla_pronunciation": "খাতা",
+          "romanization": "khaata",
+          "separator_after": " "
+        },
+        {
+          "target": "शुल्क",
+          "bangla_pronunciation": "শুল্ক",
+          "romanization": "shulk",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "romanization": "kam",
+          "separator_after": " "
+        },
+        {
+          "target": "लगता",
+          "bangla_pronunciation": "লগতা",
+          "romanization": "lagta",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রতি মাসে সঞ্চয় করা ভালো, এতে টাকা বাঁচানো সহজ হয় এবং অ্যাকাউন্টের ফি-ও কম লাগে।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v01501",
+      "target": "बैंक",
+      "category": "word",
+      "type": "noun",
+      "romanization": "bank",
+      "bangla_pronunciation": "ব্যাংক",
+      "word_pronunciations": [
+        {
+          "target": "बैंक",
+          "bangla_pronunciation": "ব্যাংক",
+          "romanization": "bank",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাংক",
+      "source_sentence_id": "s01",
+      "source_form": "बैंक",
+      "example_target": "बैंक",
+      "example_bangla_pronunciation": "ব্যাংক",
+      "example_romanization": "bank",
+      "example_word_pronunciations": [
+        {
+          "target": "बैंक",
+          "bangla_pronunciation": "ব্যাংক",
+          "romanization": "bank",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ব্যাংক",
+      "synonyms": []
+    },
+    {
+      "id": "v01502",
+      "target": "खाता",
+      "category": "word",
+      "type": "noun",
+      "romanization": "khaata",
+      "bangla_pronunciation": "খাতা",
+      "word_pronunciations": [
+        {
+          "target": "खाता",
+          "bangla_pronunciation": "খাতা",
+          "romanization": "khaata",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "হিসাব বা অ্যাকাউন্ট",
+      "source_sentence_id": "s02",
+      "source_form": "खाता",
+      "example_target": "खाता",
+      "example_bangla_pronunciation": "খাতা",
+      "example_romanization": "khaata",
+      "example_word_pronunciations": [
+        {
+          "target": "खाता",
+          "bangla_pronunciation": "খাতা",
+          "romanization": "khaata",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "হিসাব বা অ্যাকাউন্ট",
+      "synonyms": []
+    },
+    {
+      "id": "v01503",
+      "target": "बचत",
+      "category": "word",
+      "type": "noun",
+      "romanization": "bachat",
+      "bangla_pronunciation": "বচত",
+      "word_pronunciations": [
+        {
+          "target": "बचत",
+          "bangla_pronunciation": "বচত",
+          "romanization": "bachat",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সঞ্চয়",
+      "source_sentence_id": "s02",
+      "source_form": "बचत",
+      "example_target": "बचत",
+      "example_bangla_pronunciation": "বচত",
+      "example_romanization": "bachat",
+      "example_word_pronunciations": [
+        {
+          "target": "बचत",
+          "bangla_pronunciation": "বচত",
+          "romanization": "bachat",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সঞ্চয়",
+      "synonyms": []
+    },
+    {
+      "id": "v01504",
+      "target": "शाखा",
+      "category": "word",
+      "type": "noun",
+      "romanization": "shaakha",
+      "bangla_pronunciation": "শাখা",
+      "word_pronunciations": [
+        {
+          "target": "शाखा",
+          "bangla_pronunciation": "শাখা",
+          "romanization": "shaakha",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শাখা (ব্যাংকের ব্রাঞ্চ)",
+      "source_sentence_id": "s03",
+      "source_form": "शाखा",
+      "example_target": "शाखा",
+      "example_bangla_pronunciation": "শাখা",
+      "example_romanization": "shaakha",
+      "example_word_pronunciations": [
+        {
+          "target": "शाखा",
+          "bangla_pronunciation": "শাখা",
+          "romanization": "shaakha",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "শাখা",
+      "synonyms": []
+    },
+    {
+      "id": "v01505",
+      "target": "रुपये",
+      "category": "word",
+      "type": "noun",
+      "romanization": "rupaye",
+      "bangla_pronunciation": "রুপয়ে",
+      "word_pronunciations": [
+        {
+          "target": "रुपये",
+          "bangla_pronunciation": "রুপয়ে",
+          "romanization": "rupaye",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "টাকা বা রুপি",
+      "source_sentence_id": "s04",
+      "source_form": "रुपये",
+      "example_target": "रुपये",
+      "example_bangla_pronunciation": "রুপয়ে",
+      "example_romanization": "rupaye",
+      "example_word_pronunciations": [
+        {
+          "target": "रुपये",
+          "bangla_pronunciation": "রুপয়ে",
+          "romanization": "rupaye",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "টাকা বা রুপি",
+      "synonyms": []
+    },
+    {
+      "id": "v01506",
+      "target": "मुझे नया खाता खोलना है",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "mujhe naya khaata kholna hai",
+      "bangla_pronunciation": "মুঝে নয়া খাতা খোলনা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "नया",
+          "bangla_pronunciation": "নয়া",
+          "romanization": "naya",
+          "separator_after": " "
+        },
+        {
+          "target": "खाता",
+          "bangla_pronunciation": "খাতা",
+          "romanization": "khaata",
+          "separator_after": " "
+        },
+        {
+          "target": "खोलना",
+          "bangla_pronunciation": "খোলনা",
+          "romanization": "kholna",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হ্যায়",
+          "romanization": "hai",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার একটি নতুন হিসাব খুলতে হবে",
+      "source_sentence_id": "s05",
+      "source_form": "मुझे नया खाता खोलना है",
+      "example_target": "मुझे नया खाता खोलना है",
+      "example_bangla_pronunciation": "মুঝে নয়া খাতা খোলনা হ্যায়",
+      "example_romanization": "mujhe naya khaata kholna hai",
+      "example_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "नया",
+          "bangla_pronunciation": "নয়া",
+          "romanization": "naya",
+          "separator_after": " "
+        },
+        {
+          "target": "खाता",
+          "bangla_pronunciation": "খাতা",
+          "romanization": "khaata",
+          "separator_after": " "
+        },
+        {
+          "target": "खोलना",
+          "bangla_pronunciation": "খোলনা",
+          "romanization": "kholna",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হ্যায়",
+          "romanization": "hai",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমার একটি নতুন হিসাব খুলতে হবে",
+      "synonyms": []
+    },
+    {
+      "id": "v01507",
+      "target": "खोलना",
+      "category": "word",
+      "type": "verb",
+      "romanization": "kholna",
+      "bangla_pronunciation": "খোলনা",
+      "word_pronunciations": [
+        {
+          "target": "खोलना",
+          "bangla_pronunciation": "খোলনা",
+          "romanization": "kholna",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খোলা",
+      "source_sentence_id": "s05",
+      "source_form": "खोलना",
+      "example_target": "खोलना",
+      "example_bangla_pronunciation": "খোলনা",
+      "example_romanization": "kholna",
+      "example_word_pronunciations": [
+        {
+          "target": "खोलना",
+          "bangla_pronunciation": "খোলনা",
+          "romanization": "kholna",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "খোলা",
+      "synonyms": []
+    },
+    {
+      "id": "v01508",
+      "target": "फॉर्म",
+      "category": "word",
+      "type": "noun",
+      "romanization": "form",
+      "bangla_pronunciation": "ফর্ম",
+      "word_pronunciations": [
+        {
+          "target": "फॉर्म",
+          "bangla_pronunciation": "ফর্ম",
+          "romanization": "form",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আবেদন ফরম",
+      "source_sentence_id": "s06",
+      "source_form": "फॉर्म",
+      "example_target": "फॉर्म",
+      "example_bangla_pronunciation": "ফর্ম",
+      "example_romanization": "form",
+      "example_word_pronunciations": [
+        {
+          "target": "फॉर्म",
+          "bangla_pronunciation": "ফর্ম",
+          "romanization": "form",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আবেদন ফরম",
+      "synonyms": []
+    },
+    {
+      "id": "v01509",
+      "target": "भरना",
+      "category": "word",
+      "type": "verb",
+      "romanization": "bharna",
+      "bangla_pronunciation": "ভরনা",
+      "word_pronunciations": [
+        {
+          "target": "भरना",
+          "bangla_pronunciation": "ভরনা",
+          "romanization": "bharna",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পূরণ করা (ফরম ইত্যাদি)",
+      "source_sentence_id": "s07",
+      "source_form": "भरना",
+      "example_target": "भरना",
+      "example_bangla_pronunciation": "ভরনা",
+      "example_romanization": "bharna",
+      "example_word_pronunciations": [
+        {
+          "target": "भरना",
+          "bangla_pronunciation": "ভরনা",
+          "romanization": "bharna",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পূরণ করা",
+      "synonyms": []
+    },
+    {
+      "id": "v01510",
+      "target": "हस्ताक्षर",
+      "category": "word",
+      "type": "noun",
+      "romanization": "hastaakshar",
+      "bangla_pronunciation": "হস্তাক্ষর",
+      "word_pronunciations": [
+        {
+          "target": "हस्ताक्षर",
+          "bangla_pronunciation": "হস্তাক্ষর",
+          "romanization": "hastaakshar",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্বাক্ষর বা দস্তখত",
+      "source_sentence_id": "s08",
+      "source_form": "हस्ताक्षर",
+      "example_target": "हस्ताक्षर",
+      "example_bangla_pronunciation": "হস্তাক্ষর",
+      "example_romanization": "hastaakshar",
+      "example_word_pronunciations": [
+        {
+          "target": "हस्ताक्षर",
+          "bangla_pronunciation": "হস্তাক্ষর",
+          "romanization": "hastaakshar",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "স্বাক্ষর",
+      "synonyms": []
+    },
+    {
+      "id": "v01511",
+      "target": "दस्तावेज़",
+      "category": "word",
+      "type": "noun",
+      "romanization": "dastaavez",
+      "bangla_pronunciation": "দস্তাবেজ়",
+      "word_pronunciations": [
+        {
+          "target": "दस्तावेज़",
+          "bangla_pronunciation": "দস্তাবেজ়",
+          "romanization": "dastaavez",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নথিপত্র বা কাগজপত্র",
+      "source_sentence_id": "s09",
+      "source_form": "दस्तावेज़",
+      "example_target": "दस्तावेज़",
+      "example_bangla_pronunciation": "দস্তাবেজ়",
+      "example_romanization": "dastaavez",
+      "example_word_pronunciations": [
+        {
+          "target": "दस्तावेज़",
+          "bangla_pronunciation": "দস্তাবেজ়",
+          "romanization": "dastaavez",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নথিপত্র",
+      "synonyms": []
+    },
+    {
+      "id": "v01512",
+      "target": "यहाँ अपने हस्ताक्षर कीजिए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "yahaan apne hastaakshar keejiye",
+      "bangla_pronunciation": "যহাঁ অপনে হস্তাক্ষর কীজিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
+          "separator_after": " "
+        },
+        {
+          "target": "अपने",
+          "bangla_pronunciation": "অপনে",
+          "romanization": "apne",
+          "separator_after": " "
+        },
+        {
+          "target": "हस्ताक्षर",
+          "bangla_pronunciation": "হস্তাক্ষর",
+          "romanization": "hastaakshar",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए",
+          "bangla_pronunciation": "কীজিয়ে",
+          "romanization": "keejiye",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এখানে আপনার স্বাক্ষর করুন",
+      "source_sentence_id": "s08",
+      "source_form": "यहाँ अपने हस्ताक्षर कीजिए",
+      "example_target": "यहाँ अपने हस्ताक्षर कीजिए",
+      "example_bangla_pronunciation": "যহাঁ অপনে হস্তাক্ষর কীজিয়ে",
+      "example_romanization": "yahaan apne hastaakshar keejiye",
+      "example_word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
+          "separator_after": " "
+        },
+        {
+          "target": "अपने",
+          "bangla_pronunciation": "অপনে",
+          "romanization": "apne",
+          "separator_after": " "
+        },
+        {
+          "target": "हस्ताक्षर",
+          "bangla_pronunciation": "হস্তাক্ষর",
+          "romanization": "hastaakshar",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए",
+          "bangla_pronunciation": "কীজিয়ে",
+          "romanization": "keejiye",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এখানে আপনার স্বাক্ষর করুন",
+      "synonyms": []
+    },
+    {
+      "id": "v01513",
+      "target": "जमा",
+      "category": "word",
+      "type": "noun",
+      "romanization": "jama",
+      "bangla_pronunciation": "জমা",
+      "word_pronunciations": [
+        {
+          "target": "जमा",
+          "bangla_pronunciation": "জমা",
+          "romanization": "jama",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "জমা (অর্থ জমা রাখা)",
+      "source_sentence_id": "s10",
+      "source_form": "जमा",
+      "example_target": "जमा",
+      "example_bangla_pronunciation": "জমা",
+      "example_romanization": "jama",
+      "example_word_pronunciations": [
+        {
+          "target": "जमा",
+          "bangla_pronunciation": "জমা",
+          "romanization": "jama",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "জমা",
+      "synonyms": []
+    },
+    {
+      "id": "v01514",
+      "target": "निकासी",
+      "category": "word",
+      "type": "noun",
+      "romanization": "nikaasee",
+      "bangla_pronunciation": "নিকাচী",
+      "word_pronunciations": [
+        {
+          "target": "निकासी",
+          "bangla_pronunciation": "নিকাচী",
+          "romanization": "nikaasee",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "উত্তোলন বা টাকা তোলা",
+      "source_sentence_id": "s11",
+      "source_form": "निकासी",
+      "example_target": "निकासी",
+      "example_bangla_pronunciation": "নিকাচী",
+      "example_romanization": "nikaasee",
+      "example_word_pronunciations": [
+        {
+          "target": "निकासी",
+          "bangla_pronunciation": "নিকাচী",
+          "romanization": "nikaasee",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "টাকা তোলা বা উত্তোলন",
+      "synonyms": []
+    },
+    {
+      "id": "v01515",
+      "target": "पैसे",
+      "category": "word",
+      "type": "noun",
+      "romanization": "paise",
+      "bangla_pronunciation": "পৈসে",
+      "word_pronunciations": [
+        {
+          "target": "पैसे",
+          "bangla_pronunciation": "পৈসে",
+          "romanization": "paise",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "টাকাপয়সা",
+      "source_sentence_id": "s10",
+      "source_form": "पैसे",
+      "example_target": "पैसे",
+      "example_bangla_pronunciation": "পৈসে",
+      "example_romanization": "paise",
+      "example_word_pronunciations": [
+        {
+          "target": "पैसे",
+          "bangla_pronunciation": "পৈসে",
+          "romanization": "paise",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "টাকাপয়সা",
+      "synonyms": []
+    },
+    {
+      "id": "v01516",
+      "target": "निकालना",
+      "category": "word",
+      "type": "verb",
+      "romanization": "nikaalna",
+      "bangla_pronunciation": "নিকালনা",
+      "word_pronunciations": [
+        {
+          "target": "निकालना",
+          "bangla_pronunciation": "নিকালনা",
+          "romanization": "nikaalna",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বের করা বা টাকা তোলা",
+      "source_sentence_id": "s12",
+      "source_form": "निकालना",
+      "example_target": "निकालना",
+      "example_bangla_pronunciation": "নিকালনা",
+      "example_romanization": "nikaalna",
+      "example_word_pronunciations": [
+        {
+          "target": "निकालना",
+          "bangla_pronunciation": "নিকালনা",
+          "romanization": "nikaalna",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "টাকা তোলা",
+      "synonyms": []
+    },
+    {
+      "id": "v01517",
+      "target": "पासबुक",
+      "category": "word",
+      "type": "noun",
+      "romanization": "paasbuk",
+      "bangla_pronunciation": "পাসবুক",
+      "word_pronunciations": [
+        {
+          "target": "पासबुक",
+          "bangla_pronunciation": "পাসবুক",
+          "romanization": "paasbuk",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পাসবই",
+      "source_sentence_id": "s13",
+      "source_form": "पासबुक",
+      "example_target": "पासबुक",
+      "example_bangla_pronunciation": "পাসবুক",
+      "example_romanization": "paasbuk",
+      "example_word_pronunciations": [
+        {
+          "target": "पासबुक",
+          "bangla_pronunciation": "পাসবুক",
+          "romanization": "paasbuk",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পাসবই",
+      "synonyms": []
+    },
+    {
+      "id": "v01518",
+      "target": "मैं पैसे जमा करना चाहता हूँ",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "main paise jama karna chaahta hoon",
+      "bangla_pronunciation": "ম্যায়ঁ পৈসে জমা করনা চাহতা হুঁ",
+      "word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যায়ঁ",
+          "romanization": "main",
+          "separator_after": " "
+        },
+        {
+          "target": "पैसे",
+          "bangla_pronunciation": "পৈসে",
+          "romanization": "paise",
+          "separator_after": " "
+        },
+        {
+          "target": "जमा",
+          "bangla_pronunciation": "জমা",
+          "romanization": "jama",
+          "separator_after": " "
+        },
+        {
+          "target": "करना",
+          "bangla_pronunciation": "করনা",
+          "romanization": "karna",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहता",
+          "bangla_pronunciation": "চাহতা",
+          "romanization": "chaahta",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ",
+          "bangla_pronunciation": "হুঁ",
+          "romanization": "hoon",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমি টাকা জমা দিতে চাই",
+      "source_sentence_id": "s10",
+      "source_form": "मैं पैसे जमा करना चाहता हूँ",
+      "example_target": "मैं पैसे जमा करना चाहता हूँ",
+      "example_bangla_pronunciation": "ম্যায়ঁ পৈসে জমা করনা চাহতা হুঁ",
+      "example_romanization": "main paise jama karna chaahta hoon",
+      "example_word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যায়ঁ",
+          "romanization": "main",
+          "separator_after": " "
+        },
+        {
+          "target": "पैसे",
+          "bangla_pronunciation": "পৈসে",
+          "romanization": "paise",
+          "separator_after": " "
+        },
+        {
+          "target": "जमा",
+          "bangla_pronunciation": "জমা",
+          "romanization": "jama",
+          "separator_after": " "
+        },
+        {
+          "target": "करना",
+          "bangla_pronunciation": "করনা",
+          "romanization": "karna",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहता",
+          "bangla_pronunciation": "চাহতা",
+          "romanization": "chaahta",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ",
+          "bangla_pronunciation": "হুঁ",
+          "romanization": "hoon",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমি টাকা জমা দিতে চাই",
+      "synonyms": []
+    },
+    {
+      "id": "v01519",
+      "target": "कार्ड",
+      "category": "word",
+      "type": "noun",
+      "romanization": "kaard",
+      "bangla_pronunciation": "কার্ড",
+      "word_pronunciations": [
+        {
+          "target": "कार्ड",
+          "bangla_pronunciation": "কার্ড",
+          "romanization": "kaard",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কার্ড (যেমন ডেবিট কার্ড)",
+      "source_sentence_id": "s14",
+      "source_form": "कार्ड",
+      "example_target": "कार्ड",
+      "example_bangla_pronunciation": "কার্ড",
+      "example_romanization": "kaard",
+      "example_word_pronunciations": [
+        {
+          "target": "कार्ड",
+          "bangla_pronunciation": "কার্ড",
+          "romanization": "kaard",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "কার্ড",
+      "synonyms": []
+    },
+    {
+      "id": "v01520",
+      "target": "रसीद",
+      "category": "word",
+      "type": "noun",
+      "romanization": "raseed",
+      "bangla_pronunciation": "রসীদ",
+      "word_pronunciations": [
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসীদ",
+          "romanization": "raseed",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রসিদ",
+      "source_sentence_id": "s15",
+      "source_form": "रसीद",
+      "example_target": "रसीद",
+      "example_bangla_pronunciation": "রসীদ",
+      "example_romanization": "raseed",
+      "example_word_pronunciations": [
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসীদ",
+          "romanization": "raseed",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "রসিদ",
+      "synonyms": []
+    },
+    {
+      "id": "v01521",
+      "target": "ब्याज",
+      "category": "word",
+      "type": "noun",
+      "romanization": "byaaj",
+      "bangla_pronunciation": "ব্যাজ",
+      "word_pronunciations": [
+        {
+          "target": "ब्याज",
+          "bangla_pronunciation": "ব্যাজ",
+          "romanization": "byaaj",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সুদ বা মুনাফা",
+      "source_sentence_id": "s16",
+      "source_form": "ब्याज",
+      "example_target": "ब्याज",
+      "example_bangla_pronunciation": "ব্যাজ",
+      "example_romanization": "byaaj",
+      "example_word_pronunciations": [
+        {
+          "target": "ब्याज",
+          "bangla_pronunciation": "ব্যাজ",
+          "romanization": "byaaj",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সুদ বা মুনাফা",
+      "synonyms": []
+    },
+    {
+      "id": "v01522",
+      "target": "नकद",
+      "category": "word",
+      "type": "noun",
+      "romanization": "nakad",
+      "bangla_pronunciation": "নকদ",
+      "word_pronunciations": [
+        {
+          "target": "नकद",
+          "bangla_pronunciation": "নকদ",
+          "romanization": "nakad",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নগদ টাকা",
+      "source_sentence_id": "s17",
+      "source_form": "नकद",
+      "example_target": "नकद",
+      "example_bangla_pronunciation": "নকদ",
+      "example_romanization": "nakad",
+      "example_word_pronunciations": [
+        {
+          "target": "नकद",
+          "bangla_pronunciation": "নকদ",
+          "romanization": "nakad",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নগদ অর্থ",
+      "synonyms": []
+    },
+    {
+      "id": "v01523",
+      "target": "सुरक्षित",
+      "category": "word",
+      "type": "adjective",
+      "romanization": "surakshit",
+      "bangla_pronunciation": "সুরক্ষিত",
+      "word_pronunciations": [
+        {
+          "target": "सुरक्षित",
+          "bangla_pronunciation": "সুরক্ষিত",
+          "romanization": "surakshit",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপদ বা সুরক্ষিত",
+      "source_sentence_id": "s17",
+      "source_form": "सुरक्षित",
+      "example_target": "सुरक्षित",
+      "example_bangla_pronunciation": "সুরক্ষিত",
+      "example_romanization": "surakshit",
+      "example_word_pronunciations": [
+        {
+          "target": "सुरक्षित",
+          "bangla_pronunciation": "সুরক্ষিত",
+          "romanization": "surakshit",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নিরাপদ",
+      "synonyms": []
+    },
+    {
+      "id": "v01524",
+      "target": "खाते में कितना पैसा है?",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "khaate men kitna paisa hai?",
+      "bangla_pronunciation": "খাতে মেঁ কিতনা পৈসা হ্যায়?",
+      "word_pronunciations": [
+        {
+          "target": "खाते",
+          "bangla_pronunciation": "খাতে",
+          "romanization": "khaate",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "कितना",
+          "bangla_pronunciation": "কিতনা",
+          "romanization": "kitna",
+          "separator_after": " "
+        },
+        {
+          "target": "पैसा",
+          "bangla_pronunciation": "পৈসা",
+          "romanization": "paisa",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "romanization": "hai?",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "হিসাবে কত টাকা আছে?",
+      "source_sentence_id": "s18",
+      "source_form": "खाते में कितना पैसा है?",
+      "example_target": "खाते में कितना पैसा है?",
+      "example_bangla_pronunciation": "খাতে মেঁ কিতনা পৈসা হ্যায়?",
+      "example_romanization": "khaate men kitna paisa hai?",
+      "example_word_pronunciations": [
+        {
+          "target": "खाते",
+          "bangla_pronunciation": "খাতে",
+          "romanization": "khaate",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "कितना",
+          "bangla_pronunciation": "কিতনা",
+          "romanization": "kitna",
+          "separator_after": " "
+        },
+        {
+          "target": "पैसा",
+          "bangla_pronunciation": "পৈসা",
+          "romanization": "paisa",
+          "separator_after": " "
+        },
+        {
+          "target": "है?",
+          "bangla_pronunciation": "হ্যায়?",
+          "romanization": "hai?",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "হিসাবে কত টাকা আছে?",
+      "synonyms": []
+    },
+    {
+      "id": "v01525",
+      "target": "अधिकारी",
+      "category": "word",
+      "type": "noun",
+      "romanization": "adhikaaree",
+      "bangla_pronunciation": "অধিকারী",
+      "word_pronunciations": [
+        {
+          "target": "अधिकारी",
+          "bangla_pronunciation": "অধিকারী",
+          "romanization": "adhikaaree",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কর্মকর্তা বা অফিসার",
+      "source_sentence_id": "s19",
+      "source_form": "अधिकारी",
+      "example_target": "अधिकारी",
+      "example_bangla_pronunciation": "অধিকারী",
+      "example_romanization": "adhikaaree",
+      "example_word_pronunciations": [
+        {
+          "target": "अधिकारी",
+          "bangla_pronunciation": "অধিকারী",
+          "romanization": "adhikaaree",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "কর্মকর্তা",
+      "synonyms": []
+    },
+    {
+      "id": "v01526",
+      "target": "किस्त",
+      "category": "word",
+      "type": "noun",
+      "romanization": "kist",
+      "bangla_pronunciation": "কিস্ত",
+      "word_pronunciations": [
+        {
+          "target": "किस्त",
+          "bangla_pronunciation": "কিস্ত",
+          "romanization": "kist",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কিস্তি",
+      "source_sentence_id": "s19",
+      "source_form": "किस्त",
+      "example_target": "किस्त",
+      "example_bangla_pronunciation": "কিস্ত",
+      "example_romanization": "kist",
+      "example_word_pronunciations": [
+        {
+          "target": "किस्त",
+          "bangla_pronunciation": "কিস্ত",
+          "romanization": "kist",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "কিস্তি",
+      "synonyms": []
+    },
+    {
+      "id": "v01527",
+      "target": "ऋण",
+      "category": "word",
+      "type": "noun",
+      "romanization": "rin",
+      "bangla_pronunciation": "ঋণ",
+      "word_pronunciations": [
+        {
+          "target": "ऋण",
+          "bangla_pronunciation": "ঋণ",
+          "romanization": "rin",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঋণ বা লোন",
+      "source_sentence_id": "s19",
+      "source_form": "ऋण",
+      "example_target": "ऋण",
+      "example_bangla_pronunciation": "ঋণ",
+      "example_romanization": "rin",
+      "example_word_pronunciations": [
+        {
+          "target": "ऋण",
+          "bangla_pronunciation": "ঋণ",
+          "romanization": "rin",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ঋণ",
+      "synonyms": []
+    },
+    {
+      "id": "v01528",
+      "target": "शुल्क",
+      "category": "word",
+      "type": "noun",
+      "romanization": "shulk",
+      "bangla_pronunciation": "শুল্ক",
+      "word_pronunciations": [
+        {
+          "target": "शुल्क",
+          "bangla_pronunciation": "শুল্ক",
+          "romanization": "shulk",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফি বা চার্জ",
+      "source_sentence_id": "s20",
+      "source_form": "शुल्क",
+      "example_target": "शुल्क",
+      "example_bangla_pronunciation": "শুল্ক",
+      "example_romanization": "shulk",
+      "example_word_pronunciations": [
+        {
+          "target": "शुल्क",
+          "bangla_pronunciation": "শুল্ক",
+          "romanization": "shulk",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ফি বা চার্জ",
+      "synonyms": []
+    },
+    {
+      "id": "v01529",
+      "target": "बचाना",
+      "category": "word",
+      "type": "verb",
+      "romanization": "bachaana",
+      "bangla_pronunciation": "বচানা",
+      "word_pronunciations": [
+        {
+          "target": "बचाना",
+          "bangla_pronunciation": "বচানা",
+          "romanization": "bachaana",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাঁচানো বা সঞ্চয় করা",
+      "source_sentence_id": "s20",
+      "source_form": "बचाना",
+      "example_target": "बचाना",
+      "example_bangla_pronunciation": "বচানা",
+      "example_romanization": "bachaana",
+      "example_word_pronunciations": [
+        {
+          "target": "बचाना",
+          "bangla_pronunciation": "বচানা",
+          "romanization": "bachaana",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সঞ্চয় করা বা বাঁচানো",
+      "synonyms": []
+    },
+    {
+      "id": "v01530",
+      "target": "हर महीने बचत करना अच्छा है",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "har maheene bachat karna achchha hai",
+      "bangla_pronunciation": "হর মহীনে বচত করনা অচ্ছা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "हर",
+          "bangla_pronunciation": "হর",
+          "romanization": "har",
+          "separator_after": " "
+        },
+        {
+          "target": "महीने",
+          "bangla_pronunciation": "মহীনে",
+          "romanization": "maheene",
+          "separator_after": " "
+        },
+        {
+          "target": "बचत",
+          "bangla_pronunciation": "বচত",
+          "romanization": "bachat",
+          "separator_after": " "
+        },
+        {
+          "target": "करना",
+          "bangla_pronunciation": "করনা",
+          "romanization": "karna",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "romanization": "achchha",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হ্যায়",
+          "romanization": "hai",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রতি মাসে সঞ্চয় করা ভালো",
+      "source_sentence_id": "s20",
+      "source_form": "हर महीने बचत करना अच्छा है",
+      "example_target": "हर महीने बचत करना अच्छा है",
+      "example_bangla_pronunciation": "হর মহীনে বচত করনা অচ্ছা হ্যায়",
+      "example_romanization": "har maheene bachat karna achchha hai",
+      "example_word_pronunciations": [
+        {
+          "target": "हर",
+          "bangla_pronunciation": "হর",
+          "romanization": "har",
+          "separator_after": " "
+        },
+        {
+          "target": "महीने",
+          "bangla_pronunciation": "মহীনে",
+          "romanization": "maheene",
+          "separator_after": " "
+        },
+        {
+          "target": "बचत",
+          "bangla_pronunciation": "বচত",
+          "romanization": "bachat",
+          "separator_after": " "
+        },
+        {
+          "target": "करना",
+          "bangla_pronunciation": "করনা",
+          "romanization": "karna",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "romanization": "achchha",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হ্যায়",
+          "romanization": "hai",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্রতি মাসে সঞ্চয় করা ভালো",
+      "synonyms": []
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "ব্যাংক হিসাব ও সঞ্চয় — পরিস্থিতি",
+    "scene_summary": "ব্যাংক হিসাব খোলা, টাকা জমা ও সঞ্চয়ের বাস্তব পরিস্থিতি নিয়ে সহজ আলোচনা।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "রহিম ব্যাংকে গিয়ে ব্যাংক কর্মকর্তাকে বললেন, "
+      },
+      {
+        "kind": "target",
+        "target": "नमस्ते, मुझे नया खाता खोलना है।",
+        "bangla_pronunciation": "নমস্তে, মুঝে নয়া খাতা খোলনা হ্যায়।",
+        "romanization": "namaste, mujhe naya khaata kholna hai.",
+        "word_pronunciations": [
+          {
+            "target": "नमस्ते,",
+            "bangla_pronunciation": "নমস্তে,",
+            "romanization": "namaste,",
+            "separator_after": " "
+          },
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "romanization": "mujhe",
+            "separator_after": " "
+          },
+          {
+            "target": "नया",
+            "bangla_pronunciation": "নয়া",
+            "romanization": "naya",
+            "separator_after": " "
+          },
+          {
+            "target": "खाता",
+            "bangla_pronunciation": "খাতা",
+            "romanization": "khaata",
+            "separator_after": " "
+          },
+          {
+            "target": "खोलना",
+            "bangla_pronunciation": "খোলনা",
+            "romanization": "kholna",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " তখন ব্যাংকের "
+      },
+      {
+        "kind": "target",
+        "target": "अधिकारी",
+        "bangla_pronunciation": "অধিকারী",
+        "romanization": "adhikaaree",
+        "word_pronunciations": [
+          {
+            "target": "अधिकारी",
+            "bangla_pronunciation": "অধিকারী",
+            "romanization": "adhikaaree",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " একটি ফর্ম এগিয়ে দিয়ে বললেন, "
+      },
+      {
+        "kind": "target",
+        "target": "यहाँ अपने हस्ताक्षर कीजिए।",
+        "bangla_pronunciation": "যহাঁ অপনে হস্তাক্ষর কীজিয়ে।",
+        "romanization": "yahaan apne hastaakshar keejiye.",
+        "word_pronunciations": [
+          {
+            "target": "यहाँ",
+            "bangla_pronunciation": "যহাঁ",
+            "romanization": "yahaan",
+            "separator_after": " "
+          },
+          {
+            "target": "अपने",
+            "bangla_pronunciation": "অপনে",
+            "romanization": "apne",
+            "separator_after": " "
+          },
+          {
+            "target": "हस्ताक्षर",
+            "bangla_pronunciation": "হস্তাক্ষর",
+            "romanization": "hastaakshar",
+            "separator_after": " "
+          },
+          {
+            "target": "कीजिए।",
+            "bangla_pronunciation": "কীজিয়ে।",
+            "romanization": "keejiye.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " এরপর রহিম আবেদনপত্র জমা দিয়ে বললেন, "
+      },
+      {
+        "kind": "target",
+        "target": "मैं पैसे जमा करना चाहता हूँ।",
+        "bangla_pronunciation": "ম্যায়ঁ পৈসে জমা করনা চাহতা হুঁ।",
+        "romanization": "main paise jama karna chaahta hoon.",
+        "word_pronunciations": [
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যায়ঁ",
+            "romanization": "main",
+            "separator_after": " "
+          },
+          {
+            "target": "पैसे",
+            "bangla_pronunciation": "পৈসে",
+            "romanization": "paise",
+            "separator_after": " "
+          },
+          {
+            "target": "जमा",
+            "bangla_pronunciation": "জমা",
+            "romanization": "jama",
+            "separator_after": " "
+          },
+          {
+            "target": "करना",
+            "bangla_pronunciation": "করনা",
+            "romanization": "karna",
+            "separator_after": " "
+          },
+          {
+            "target": "चाहता",
+            "bangla_pronunciation": "চাহতা",
+            "romanization": "chaahta",
+            "separator_after": " "
+          },
+          {
+            "target": "हूँ।",
+            "bangla_pronunciation": "হুঁ।",
+            "romanization": "hoon.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " কর্মকর্তা তাকে একটি পাসবই দিয়ে বললেন, প্রতি মাসে "
+      },
+      {
+        "kind": "target",
+        "target": "बचत",
+        "bangla_pronunciation": "বচত",
+        "romanization": "bachat",
+        "word_pronunciations": [
+          {
+            "target": "बचत",
+            "bangla_pronunciation": "বচত",
+            "romanization": "bachat",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " করলে আপনার অর্থ সবসময় "
+      },
+      {
+        "kind": "target",
+        "target": "सुरक्षित",
+        "bangla_pronunciation": "সুরক্ষিত",
+        "romanization": "surakshit",
+        "word_pronunciations": [
+          {
+            "target": "सुरक्षित",
+            "bangla_pronunciation": "সুরক্ষিত",
+            "romanization": "surakshit",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " থাকবে।"
+      }
+    ],
+    "text_md": "রহিম ব্যাংকে গিয়ে ব্যাংক কর্মকর্তাকে বললেন, **नमस्ते,** (নমস্তে,, namaste,) **मुझे** (মুঝে, mujhe) **नया** (নয়া, naya) **खाता** (খাতা, khaata) **खोलना** (খোলনা, kholna) **है।** (হ্যায়।, hai\\.) তখন ব্যাংকের **अधिकारी** (অধিকারী, adhikaaree) একটি ফর্ম এগিয়ে দিয়ে বললেন, **यहाँ** (যহাঁ, yahaan) **अपने** (অপনে, apne) **हस्ताक्षर** (হস্তাক্ষর, hastaakshar) **कीजिए।** (কীজিয়ে।, keejiye\\.) এরপর রহিম আবেদনপত্র জমা দিয়ে বললেন, **मैं** (ম্যায়ঁ, main) **पैसे** (পৈসে, paise) **जमा** (জমা, jama) **करना** (করনা, karna) **चाहता** (চাহতা, chaahta) **हूँ।** (হুঁ।, hoon\\.) কর্মকর্তা তাকে একটি পাসবই দিয়ে বললেন, প্রতি মাসে **बचत** (বচত, bachat) করলে আপনার অর্থ সবসময় **सुरक्षित** (সুরক্ষিত, surakshit) থাকবে।"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "ব্যাংক হিসাব ও সঞ্চয় — হিন্দি পাঠ",
+    "scene_summary": "ব্যাংক হিসাব খোলা, টাকা জমা ও সঞ্চয়ের কৌশল নিয়ে সহজ হিন্দি গল্প।",
+    "lines": [
+      {
+        "target": "मैं आज बैंक जा रहा हूँ।",
+        "bangla_pronunciation": "ম্যায়ঁ আজ ব্যাংক জা রহা হুঁ।",
+        "romanization": "main aaj bank jaa rahaa hoon.",
+        "word_pronunciations": [
+          {
+            "target": "मैं",
+            "bangla_pronunciation": "ম্যায়ঁ",
+            "romanization": "main",
+            "separator_after": " "
+          },
+          {
+            "target": "आज",
+            "bangla_pronunciation": "আজ",
+            "romanization": "aaj",
+            "separator_after": " "
+          },
+          {
+            "target": "बैंक",
+            "bangla_pronunciation": "ব্যাংক",
+            "romanization": "bank",
+            "separator_after": " "
+          },
+          {
+            "target": "जा",
+            "bangla_pronunciation": "জা",
+            "romanization": "jaa",
+            "separator_after": " "
+          },
+          {
+            "target": "रहा",
+            "bangla_pronunciation": "রহা",
+            "romanization": "rahaa",
+            "separator_after": " "
+          },
+          {
+            "target": "हूँ।",
+            "bangla_pronunciation": "হুঁ।",
+            "romanization": "hoon.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मुझे नया बचत खाता खोलना है।",
+        "bangla_pronunciation": "মুঝে নয়া বচত খাতা খোলনা হ্যায়।",
+        "romanization": "mujhe naya bachat khaata kholna hai.",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "romanization": "mujhe",
+            "separator_after": " "
+          },
+          {
+            "target": "नया",
+            "bangla_pronunciation": "নয়া",
+            "romanization": "naya",
+            "separator_after": " "
+          },
+          {
+            "target": "बचत",
+            "bangla_pronunciation": "বচত",
+            "romanization": "bachat",
+            "separator_after": " "
+          },
+          {
+            "target": "खाता",
+            "bangla_pronunciation": "খাতা",
+            "romanization": "khaata",
+            "separator_after": " "
+          },
+          {
+            "target": "खोलना",
+            "bangla_pronunciation": "খোলনা",
+            "romanization": "kholna",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "अधिकारी ने आवेदन फॉर्म दिया।",
+        "bangla_pronunciation": "অধিকারী নে আবেদন ফর্ম দিয়া।",
+        "romanization": "adhikaaree ne aavedan form diya.",
+        "word_pronunciations": [
+          {
+            "target": "अधिकारी",
+            "bangla_pronunciation": "অধিকারী",
+            "romanization": "adhikaaree",
+            "separator_after": " "
+          },
+          {
+            "target": "ने",
+            "bangla_pronunciation": "নে",
+            "romanization": "ne",
+            "separator_after": " "
+          },
+          {
+            "target": "आवेदन",
+            "bangla_pronunciation": "আবেদন",
+            "romanization": "aavedan",
+            "separator_after": " "
+          },
+          {
+            "target": "फॉर्म",
+            "bangla_pronunciation": "ফর্ম",
+            "romanization": "form",
+            "separator_after": " "
+          },
+          {
+            "target": "दिया।",
+            "bangla_pronunciation": "দিয়া।",
+            "romanization": "diya.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मैंने फॉर्म पर हस्ताक्षर किए।",
+        "bangla_pronunciation": "ম্যায়ঁনে ফর্ম পর হস্তাক্ষর কিয়ে।",
+        "romanization": "mainne form par hastaakshar kiye.",
+        "word_pronunciations": [
+          {
+            "target": "मैंने",
+            "bangla_pronunciation": "ম্যায়ঁনে",
+            "romanization": "mainne",
+            "separator_after": " "
+          },
+          {
+            "target": "फॉर्म",
+            "bangla_pronunciation": "ফর্ম",
+            "romanization": "form",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "romanization": "par",
+            "separator_after": " "
+          },
+          {
+            "target": "हस्ताक्षर",
+            "bangla_pronunciation": "হস্তাক্ষর",
+            "romanization": "hastaakshar",
+            "separator_after": " "
+          },
+          {
+            "target": "किए।",
+            "bangla_pronunciation": "কিয়ে।",
+            "romanization": "kiye.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "अब मेरे पैसे सुरक्षित हैं।",
+        "bangla_pronunciation": "অব মেরে পৈসে সুরক্ষিত হ্যাঁয়।",
+        "romanization": "ab mere paise surakshit hain.",
+        "word_pronunciations": [
+          {
+            "target": "अब",
+            "bangla_pronunciation": "অব",
+            "romanization": "ab",
+            "separator_after": " "
+          },
+          {
+            "target": "मेरे",
+            "bangla_pronunciation": "মেরে",
+            "romanization": "mere",
+            "separator_after": " "
+          },
+          {
+            "target": "पैसे",
+            "bangla_pronunciation": "পৈসে",
+            "romanization": "paise",
+            "separator_after": " "
+          },
+          {
+            "target": "सुरक्षित",
+            "bangla_pronunciation": "সুরক্ষিত",
+            "romanization": "surakshit",
+            "separator_after": " "
+          },
+          {
+            "target": "हैं।",
+            "bangla_pronunciation": "হ্যাঁয়।",
+            "romanization": "hain.",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "ম্যায়ঁ আজ ব্যাংক জা রহা হুঁ। মুঝে নয়া বচত খাতা খোলনা হ্যায়। অধিকারী নে আবেদন ফর্ম দিয়া। ম্যায়ঁনে ফর্ম পর হস্তাক্ষর কিয়ে। অব মেরে পৈসে সুরক্ষিত হ্যাঁয়।",
+    "romanization": "main aaj bank jaa rahaa hoon. mujhe naya bachat khaata kholna hai. adhikaaree ne aavedan form diya. mainne form par hastaakshar kiye. ab mere paise surakshit hain.",
+    "meaning_bengali_md": "আমি আজ ব্যাংকে যাচ্ছি। আমার নতুন সঞ্চয়ী হিসাব খুলতে হবে। কর্মকর্তা আবেদনের ফরম দিলেন। আমি ফরমে স্বাক্ষর করলাম। এখন আমার টাকা নিরাপদ।"
+  },
+  "script_practice": [
+    {
+      "item_id": "देव-ब",
+      "mode": "review",
+      "target": "ब",
+      "bangla_pronunciation": "ব",
+      "romanization": "ba",
+      "explanation_bengali_md": "দেবনাগরী **ब** বর্ণটি লক্ষ্য করুন, এর উচ্চারণ বাংলা 'ব'-এর মতো।",
+      "practice_bengali_md": "বর্ণটি তিনবার দেখে বলুন: ব।"
+    },
+    {
+      "item_id": "देव-ख",
+      "mode": "review",
+      "target": "ख",
+      "bangla_pronunciation": "খ",
+      "romanization": "kha",
+      "explanation_bengali_md": "দেবনাগরী **ख** বর্ণটি লক্ষ্য করুন, এর উচ্চারণ বাংলা 'খ'-এর মতো মহাপ্রাণ ধ্বনি।",
+      "practice_bengali_md": "বর্ণটি তিনবার দেখে বলুন: খ।"
+    },
+    {
+      "item_id": "देव-च",
+      "mode": "review",
+      "target": "च",
+      "bangla_pronunciation": "চ",
+      "romanization": "cha",
+      "explanation_bengali_md": "দেবনাগরী **च** বর্ণটি লক্ষ্য করুন, এর উচ্চারণ বাংলা 'চ'-এর মতো।",
+      "practice_bengali_md": "বর্ণটি তিনবার দেখে বলুন: চ।"
+    },
+    {
+      "item_id": "देव-स",
+      "mode": "review",
+      "target": "स",
+      "bangla_pronunciation": "স",
+      "romanization": "sa",
+      "explanation_bengali_md": "দেবনাগরী **स** বর্ণটি লক্ষ্য করুন, এর সাধারণ উচ্চারণ দন্ত্য 'স'-এর মতো।",
+      "practice_bengali_md": "বর্ণটি দেখে তিনবার উচ্চারণ করুন: স।"
+    },
+    {
+      "item_id": "देव-र",
+      "mode": "review",
+      "target": "र",
+      "bangla_pronunciation": "র",
+      "romanization": "ra",
+      "explanation_bengali_md": "দেবনাগরী **र** বর্ণটি লক্ষ্য করুন, এর উচ্চারণ বাংলা 'র'-এর মতো।",
+      "practice_bengali_md": "বর্ণটি দেখে তিনবার উচ্চারণ করুন: র।"
+    }
+  ],
+  "number_practice": null,
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "অনুশীলন ১: শব্দটি স্পষ্ট করে বলুন এবং অর্থ মনে করুন।",
+      "model_target": "बैंक",
+      "model_bangla_pronunciation": "ব্যাংক",
+      "model_romanization": "bank",
+      "model_word_pronunciations": [
+        {
+          "target": "बैंक",
+          "bangla_pronunciation": "ব্যাংক",
+          "romanization": "bank",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ব্যাংক"
+    },
+    {
+      "prompt_bengali_md": "অনুশীলন ২: শব্দটি স্পষ্ট করে বলুন এবং অর্থ মনে করুন।",
+      "model_target": "बचत खाता",
+      "model_bangla_pronunciation": "বচত খাতা",
+      "model_romanization": "bachat khaata",
+      "model_word_pronunciations": [
+        {
+          "target": "बचत",
+          "bangla_pronunciation": "বচত",
+          "romanization": "bachat",
+          "separator_after": " "
+        },
+        {
+          "target": "खाता",
+          "bangla_pronunciation": "খাতা",
+          "romanization": "khaata",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "সঞ্চয়ী হিসাব"
+    },
+    {
+      "prompt_bengali_md": "অনুশীলন ৩: বাক্যটি স্পষ্ট করে বলুন।",
+      "model_target": "मुझे नया खाता खोलना है",
+      "model_bangla_pronunciation": "মুঝে নয়া খাতা খোলনা হ্যায়",
+      "model_romanization": "mujhe naya khaata kholna hai",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "नया",
+          "bangla_pronunciation": "নয়া",
+          "romanization": "naya",
+          "separator_after": " "
+        },
+        {
+          "target": "खाता",
+          "bangla_pronunciation": "খাতা",
+          "romanization": "khaata",
+          "separator_after": " "
+        },
+        {
+          "target": "खोलना",
+          "bangla_pronunciation": "খোলনা",
+          "romanization": "kholna",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হ্যায়",
+          "romanization": "hai",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমার একটি নতুন হিসাব খুলতে হবে"
+    },
+    {
+      "prompt_bengali_md": "অনুশীলন ৪: বাক্যটি স্পষ্ট করে বলুন।",
+      "model_target": "यहाँ अपने हस्ताक्षर कीजिए",
+      "model_bangla_pronunciation": "যহাঁ অপনে হস্তাক্ষর কীজিয়ে",
+      "model_romanization": "yahaan apne hastaakshar keejiye",
+      "model_word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
+          "separator_after": " "
+        },
+        {
+          "target": "अपने",
+          "bangla_pronunciation": "অপনে",
+          "romanization": "apne",
+          "separator_after": " "
+        },
+        {
+          "target": "हस्ताक्षर",
+          "bangla_pronunciation": "হস্তাক্ষর",
+          "romanization": "hastaakshar",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए",
+          "bangla_pronunciation": "কীজিয়ে",
+          "romanization": "keejiye",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এখানে আপনার স্বাক্ষর করুন"
+    },
+    {
+      "prompt_bengali_md": "অনুশীলন ৫: বাক্যটি স্পষ্ট করে বলুন।",
+      "model_target": "मैं पैसे जमा करना चाहता हूँ",
+      "model_bangla_pronunciation": "ম্যায়ঁ পৈসে জমা করনা চাহতা হুঁ",
+      "model_romanization": "main paise jama karna chaahta hoon",
+      "model_word_pronunciations": [
+        {
+          "target": "मैं",
+          "bangla_pronunciation": "ম্যায়ঁ",
+          "romanization": "main",
+          "separator_after": " "
+        },
+        {
+          "target": "पैसे",
+          "bangla_pronunciation": "পৈসে",
+          "romanization": "paise",
+          "separator_after": " "
+        },
+        {
+          "target": "जमा",
+          "bangla_pronunciation": "জমা",
+          "romanization": "jama",
+          "separator_after": " "
+        },
+        {
+          "target": "करना",
+          "bangla_pronunciation": "করনা",
+          "romanization": "karna",
+          "separator_after": " "
+        },
+        {
+          "target": "चाहता",
+          "bangla_pronunciation": "চাহতা",
+          "romanization": "chaahta",
+          "separator_after": " "
+        },
+        {
+          "target": "हूँ",
+          "bangla_pronunciation": "হুঁ",
+          "romanization": "hoon",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমি টাকা জমা দিতে চাই"
+    },
+    {
+      "prompt_bengali_md": "অনুশীলন ৬: বাক্যটি স্পষ্ট করে বলুন।",
+      "model_target": "हर महीने बचत करना अच्छा है",
+      "model_bangla_pronunciation": "হর মহীনে বচত করনা অচ্ছা হ্যায়",
+      "model_romanization": "har maheene bachat karna achchha hai",
+      "model_word_pronunciations": [
+        {
+          "target": "हर",
+          "bangla_pronunciation": "হর",
+          "romanization": "har",
+          "separator_after": " "
+        },
+        {
+          "target": "महीने",
+          "bangla_pronunciation": "মহীনে",
+          "romanization": "maheene",
+          "separator_after": " "
+        },
+        {
+          "target": "बचत",
+          "bangla_pronunciation": "বচত",
+          "romanization": "bachat",
+          "separator_after": " "
+        },
+        {
+          "target": "करना",
+          "bangla_pronunciation": "করনা",
+          "romanization": "karna",
+          "separator_after": " "
+        },
+        {
+          "target": "अच्छा",
+          "bangla_pronunciation": "অচ্ছা",
+          "romanization": "achchha",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হ্যায়",
+          "romanization": "hai",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "প্রতি মাসে সঞ্চয় করা ভালো"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch051_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "Bright editorial illustration for an everyday adult-learning scene about ব্যাংক হিসাব ও সঞ্চয়: an adult customer consulting a friendly bank officer at a clean wooden desk to open an account, paper forms and pen visible, clear focal action, warm daylight, uncluttered modern bank interior. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright coherent editorial illustration, clean shapes, realistic proportions, warm daylight, accessible adult-learning book aesthetic."
+    },
+    {
+      "key": "ch051_target_reading_01",
+      "reading": "target_reading",
+      "subject": "Bright editorial illustration for a practical moment related to ব্যাংক হিসাব ও সঞ্চয়: a pleased adult holding a newly received bank passbook and debit card near a bank branch entrance, soft natural lighting, realistic atmosphere. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright coherent editorial illustration, clean shapes, realistic proportions, warm daylight, accessible adult-learning book aesthetic."
+    }
+  ],
+  "additional_practice": []
+}

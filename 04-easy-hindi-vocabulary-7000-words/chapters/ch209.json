@@ -1,1 +1,3509 @@
-{"chapter_id":"ch209","status":"drafted","title_target":"डेटा सुरक्षा और गोपनीयता","title_bangla_pronunciation":"ডেটা সুরক্ষা অউর গোপনীযতা","title_word_pronunciations":[{"target":"डेटा","bangla_pronunciation":"ডেটা","separator_after":" "},{"target":"सुरक्षा","bangla_pronunciation":"সুরক্ষা","separator_after":" "},{"target":"और","bangla_pronunciation":"অউর","separator_after":" "},{"target":"गोपनीयता","bangla_pronunciation":"গোপনীযতা","separator_after":""}],"title_bengali":"ডেটা নিরাপত্তা ও গোপনীয়তা","goal_bengali_md":"ডেটা অ্যাক্সেস, পরিচয় যাচাই, এনক্রিপশন, লগ, ব্যাকআপ, গোপনীয়তা ও নিরাপত্তা ঘটনার শব্দভান্ডার অনুশীলন করুন।","sentences":[{"id":"ch209_s01","target":"पहचानसत्यापन और अभिगमाधिकार जरूरी हैं।","romanization":"phcaanstyaapn aur abhigmaadhikaar jruurii haiN /","bangla_pronunciation":"পহচানসত্যাপন অউর অভিগমাধিকার জরূরী হ্যাঁয়।","word_pronunciations":[{"target":"पहचानसत्यापन","bangla_pronunciation":"পহচানসত্যাপন","separator_after":" "},{"target":"और","bangla_pronunciation":"অউর","separator_after":" "},{"target":"अभिगमाधिकार","bangla_pronunciation":"অভিগমাধিকার","separator_after":" "},{"target":"जरूरी","bangla_pronunciation":"জরূরী","separator_after":" "},{"target":"हैं।","bangla_pronunciation":"হ্যাঁয়।","separator_after":""}],"meaning_bengali_md":"পরিচয় যাচাই এবং প্রবেশাধিকার—দুটিই জরুরি।"},{"id":"ch209_s02","target":"कूटलेखन महत्वपूर्ण है।","romanization":"kuuttlekhn mhtvpuurnn hai /","bangla_pronunciation":"কূটলেখন মহত্঵পূর্ণ হ্যায়।","word_pronunciations":[{"target":"कूटलेखन","bangla_pronunciation":"কূটলেখন","separator_after":" "},{"target":"महत्वपूर्ण","bangla_pronunciation":"মহত্঵পূর্ণ","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"meaning_bengali_md":"এনক্রিপশন গুরুত্বপূর্ণ।"},{"id":"ch209_s03","target":"डेटासंरक्षण और अखंडताजाँच जरूरी हैं।","romanization":"ddettaasNrkssnn aur akhNddtaajaaNc jruurii haiN /","bangla_pronunciation":"ডেটাসংরক্ষণ অউর অখংডতাজাঁচ জরূরী হ্যাঁয়।","word_pronunciations":[{"target":"डेटासंरक्षण","bangla_pronunciation":"ডেটাসংরক্ষণ","separator_after":" "},{"target":"और","bangla_pronunciation":"অউর","separator_after":" "},{"target":"अखंडताजाँच","bangla_pronunciation":"অখংডতাজাঁচ","separator_after":" "},{"target":"जरूरी","bangla_pronunciation":"জরূরী","separator_after":" "},{"target":"हैं।","bangla_pronunciation":"হ্যাঁয়।","separator_after":""}],"meaning_bengali_md":"ডেটা সুরক্ষা এবং অখণ্ডতা যাচাই—দুটিই জরুরি।"},{"id":"ch209_s04","target":"पहुँच देने से पहले काम करें।","romanization":"phuNc dene se phle kaam kreN /","bangla_pronunciation":"পহুঁচ দেনে সে পহলে কাম করেং।","word_pronunciations":[{"target":"पहुँच","bangla_pronunciation":"পহুঁচ","separator_after":" "},{"target":"देने","bangla_pronunciation":"দেনে","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"पहले","bangla_pronunciation":"পহলে","separator_after":" "},{"target":"काम","bangla_pronunciation":"কাম","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেং।","separator_after":""}],"meaning_bengali_md":"অ্যাক্সেস দেওয়ার আগে কাজ করুন।"},{"id":"ch209_s05","target":"भेद्यतामूल्यांकन तथा सुरक्षापैबंदी जुड़े हुए हैं।","romanization":"bhedytaamuulyaaNkn tthaa surkssaapaibNdii judd'e hue haiN /","bangla_pronunciation":"ভেদ্যতামূল্যাংকন তথা সুরক্ষাপৈবংদী জুড়ে হুয়ে হ্যাঁয়।","word_pronunciations":[{"target":"भेद्यतामूल्यांकन","bangla_pronunciation":"ভেদ্যতামূল্যাংকন","separator_after":" "},{"target":"तथा","bangla_pronunciation":"তথা","separator_after":" "},{"target":"सुरक्षापैबंदी","bangla_pronunciation":"সুরক্ষাপৈবংদী","separator_after":" "},{"target":"जुड़े","bangla_pronunciation":"জুড়ে","separator_after":" "},{"target":"हुए","bangla_pronunciation":"হুয়ে","separator_after":" "},{"target":"हैं।","bangla_pronunciation":"হ্যাঁয়।","separator_after":""}],"meaning_bengali_md":"দুর্বলতা মূল্যায়ন এবং নিরাপত্তা প্যাচ প্রয়োগ পরস্পরের সঙ্গে যুক্ত।"},{"id":"ch209_s06","target":"संस्करणनियंत्रण पर चर्चा करें।","romanization":"sNskrnnniyNtrnn pr crcaa kreN /","bangla_pronunciation":"সংস্করণনিযংত্রণ পর চর্চা করেং।","word_pronunciations":[{"target":"संस्करणनियंत्रण","bangla_pronunciation":"সংস্করণনিযংত্রণ","separator_after":" "},{"target":"पर","bangla_pronunciation":"পর","separator_after":" "},{"target":"चर्चा","bangla_pronunciation":"চর্চা","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেং।","separator_after":""}],"meaning_bengali_md":"সংস্করণ নিয়ন্ত্রণ নিয়ে আলোচনা করুন।"},{"id":"ch209_s07","target":"बैकअपनीति तथा पुनर्स्थापनपरीक्षण जुड़े हुए हैं।","romanization":"baikapniiti tthaa punrsthaapnpriikssnn judd'e hue haiN /","bangla_pronunciation":"বৈকঅপনীতি তথা পুনর্স্থাপনপরীক্ষণ জুড়ে হুয়ে হ্যাঁয়।","word_pronunciations":[{"target":"बैकअपनीति","bangla_pronunciation":"বৈকঅপনীতি","separator_after":" "},{"target":"तथा","bangla_pronunciation":"তথা","separator_after":" "},{"target":"पुनर्स्थापनपरीक्षण","bangla_pronunciation":"পুনর্স্থাপনপরীক্ষণ","separator_after":" "},{"target":"जुड़े","bangla_pronunciation":"জুড়ে","separator_after":" "},{"target":"हुए","bangla_pronunciation":"হুয়ে","separator_after":" "},{"target":"हैं।","bangla_pronunciation":"হ্যাঁয়।","separator_after":""}],"meaning_bengali_md":"ব্যাকআপ নীতি এবং পুনঃস্থাপন পরীক্ষা পরস্পরের সঙ্গে যুক্ত।"},{"id":"ch209_s08","target":"कम से कम अधिकार के साथ निर्णय लें।","romanization":"km se km adhikaar ke saath nirnny leN /","bangla_pronunciation":"কম সে কম অধিকার কে সাথ নির্ণয লেং।","word_pronunciations":[{"target":"कम","bangla_pronunciation":"কম","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"कम","bangla_pronunciation":"কম","separator_after":" "},{"target":"अधिकार","bangla_pronunciation":"অধিকার","separator_after":" "},{"target":"के","bangla_pronunciation":"কে","separator_after":" "},{"target":"साथ","bangla_pronunciation":"সাথ","separator_after":" "},{"target":"निर्णय","bangla_pronunciation":"নির্ণয","separator_after":" "},{"target":"लें।","bangla_pronunciation":"লেং।","separator_after":""}],"meaning_bengali_md":"সর্বনিম্ন প্রয়োজনীয় অধিকার দিয়ে সিদ্ধান্ত নিন।"},{"id":"ch209_s09","target":"अभिलेखलॉग के साथ सुरक्षानिगरानी भी देखें।","romanization":"abhilekhloNg ke saath surkssaanigraanii bhii dekheN /","bangla_pronunciation":"অভিলেখল৉গ কে সাথ সুরক্ষানিগরানী ভী দেখেং।","word_pronunciations":[{"target":"अभिलेखलॉग","bangla_pronunciation":"অভিলেখল৉গ","separator_after":" "},{"target":"के","bangla_pronunciation":"কে","separator_after":" "},{"target":"साथ","bangla_pronunciation":"সাথ","separator_after":" "},{"target":"सुरक्षानिगरानी","bangla_pronunciation":"সুরক্ষানিগরানী","separator_after":" "},{"target":"भी","bangla_pronunciation":"ভী","separator_after":" "},{"target":"देखें।","bangla_pronunciation":"দেখেং।","separator_after":""}],"meaning_bengali_md":"লগ রেকর্ড-এর সঙ্গে নিরাপত্তা নজরদারি-ও দেখুন।"},{"id":"ch209_s10","target":"बहुकारकप्रमाणीकरण की समीक्षा करें।","romanization":"bhukaarkprmaanniikrnn kii smiikssaa kreN /","bangla_pronunciation":"বহুকারকপ্রমাণীকরণ কী সমীক্ষা করেং।","word_pronunciations":[{"target":"बहुकारकप्रमाणीकरण","bangla_pronunciation":"বহুকারকপ্রমাণীকরণ","separator_after":" "},{"target":"की","bangla_pronunciation":"কী","separator_after":" "},{"target":"समीक्षा","bangla_pronunciation":"সমীক্ষা","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেং।","separator_after":""}],"meaning_bengali_md":"বহুস্তরীয় যাচাই পর্যালোচনা করুন।"},{"id":"ch209_s11","target":"अनुमतिनियंत्रण के साथ जोखिमांकन भी देखें।","romanization":"anumtiniyNtrnn ke saath jokhimaaNkn bhii dekheN /","bangla_pronunciation":"অনুমতিনিযংত্রণ কে সাথ জোখিমাংকন ভী দেখেং।","word_pronunciations":[{"target":"अनुमतिनियंत्रण","bangla_pronunciation":"অনুমতিনিযংত্রণ","separator_after":" "},{"target":"के","bangla_pronunciation":"কে","separator_after":" "},{"target":"साथ","bangla_pronunciation":"সাথ","separator_after":" "},{"target":"जोखिमांकन","bangla_pronunciation":"জোখিমাংকন","separator_after":" "},{"target":"भी","bangla_pronunciation":"ভী","separator_after":" "},{"target":"देखें।","bangla_pronunciation":"দেখেং।","separator_after":""}],"meaning_bengali_md":"অনুমতি নিয়ন্ত্রণ-এর সঙ্গে ঝুঁকি মূল্যায়ন-ও দেখুন।"},{"id":"ch209_s12","target":"संवेदनशील जानकारी के लिए स्थिति समझें।","romanization":"sNvednshiil jaankaarii ke lie sthiti smjheN /","bangla_pronunciation":"সং঵েদনশীল জানকারী কে লিয়ে স্থিতি সমঝেং।","word_pronunciations":[{"target":"संवेदनशील","bangla_pronunciation":"সং঵েদনশীল","separator_after":" "},{"target":"जानकारी","bangla_pronunciation":"জানকারী","separator_after":" "},{"target":"के","bangla_pronunciation":"কে","separator_after":" "},{"target":"लिए","bangla_pronunciation":"লিয়ে","separator_after":" "},{"target":"स्थिति","bangla_pronunciation":"স্থিতি","separator_after":" "},{"target":"समझें।","bangla_pronunciation":"সমঝেং।","separator_after":""}],"meaning_bengali_md":"সংবেদনশীল তথ্যের জন্য পরিস্থিতি বুঝুন।"},{"id":"ch209_s13","target":"डेटाउल्लंघन और प्रतिधारणनीति की समीक्षा करें।","romanization":"ddettaaullNghn aur prtidhaarnnniiti kii smiikssaa kreN /","bangla_pronunciation":"ডেটাউল্লংঘন অউর প্রতিধারণনীতি কী সমীক্ষা করেং।","word_pronunciations":[{"target":"डेटाउल्लंघन","bangla_pronunciation":"ডেটাউল্লংঘন","separator_after":" "},{"target":"और","bangla_pronunciation":"অউর","separator_after":" "},{"target":"प्रतिधारणनीति","bangla_pronunciation":"প্রতিধারণনীতি","separator_after":" "},{"target":"की","bangla_pronunciation":"কী","separator_after":" "},{"target":"समीक्षा","bangla_pronunciation":"সমীক্ষা","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেং।","separator_after":""}],"meaning_bengali_md":"ডেটা লঙ্ঘন এবং ডেটা ধরে রাখার নীতি পর্যালোচনা করুন।"},{"id":"ch209_s14","target":"सुरक्षितमिटाव को समझें।","romanization":"surkssitmittaav ko smjheN /","bangla_pronunciation":"সুরক্ষিতমিটা঵ কো সমঝেং।","word_pronunciations":[{"target":"सुरक्षितमिटाव","bangla_pronunciation":"সুরক্ষিতমিটা঵","separator_after":" "},{"target":"को","bangla_pronunciation":"কো","separator_after":" "},{"target":"समझें।","bangla_pronunciation":"সমঝেং।","separator_after":""}],"meaning_bengali_md":"নিরাপদ মুছে ফেলা বুঝুন।"},{"id":"ch209_s15","target":"अनामीकरण और नियमपालन की समीक्षा करें।","romanization":"anaamiikrnn aur niympaaln kii smiikssaa kreN /","bangla_pronunciation":"অনামীকরণ অউর নিযমপালন কী সমীক্ষা করেং।","word_pronunciations":[{"target":"अनामीकरण","bangla_pronunciation":"অনামীকরণ","separator_after":" "},{"target":"और","bangla_pronunciation":"অউর","separator_after":" "},{"target":"नियमपालन","bangla_pronunciation":"নিযমপালন","separator_after":" "},{"target":"की","bangla_pronunciation":"কী","separator_after":" "},{"target":"समीक्षा","bangla_pronunciation":"সমীক্ষা","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেং।","separator_after":""}],"meaning_bengali_md":"পরিচয়হীনকরণ এবং নীতিমালা মেনে চলা পর্যালোচনা করুন।"},{"id":"ch209_s16","target":"जरूरत भर डेटा लेकर अगला कदम तय करें।","romanization":"jruurt bhr ddettaa lekr aglaa kdm ty kreN /","bangla_pronunciation":"জরূরত ভর ডেটা লেকর অগলা কদম তয করেং।","word_pronunciations":[{"target":"जरूरत","bangla_pronunciation":"জরূরত","separator_after":" "},{"target":"भर","bangla_pronunciation":"ভর","separator_after":" "},{"target":"डेटा","bangla_pronunciation":"ডেটা","separator_after":" "},{"target":"लेकर","bangla_pronunciation":"লেকর","separator_after":" "},{"target":"अगला","bangla_pronunciation":"অগলা","separator_after":" "},{"target":"कदम","bangla_pronunciation":"কদম","separator_after":" "},{"target":"तय","bangla_pronunciation":"তয","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেং।","separator_after":""}],"meaning_bengali_md":"প্রয়োজনমতো ডেটা নিয়ে পরবর্তী পদক্ষেপ ঠিক করুন।"},{"id":"ch209_s17","target":"डेटापोर्टेबिलिटी तथा उपयोगकर्तासहमति में संतुलन रखें।","romanization":"ddettaaporttebilittii tthaa upyogkrtaashmti meN sNtuln rkheN /","bangla_pronunciation":"ডেটাপোর্টেবিলিটী তথা উপযোগকর্তাসহমতি মেঁ সংতুলন রখেং।","word_pronunciations":[{"target":"डेटापोर्टेबिलिटी","bangla_pronunciation":"ডেটাপোর্টেবিলিটী","separator_after":" "},{"target":"तथा","bangla_pronunciation":"তথা","separator_after":" "},{"target":"उपयोगकर्तासहमति","bangla_pronunciation":"উপযোগকর্তাসহমতি","separator_after":" "},{"target":"में","bangla_pronunciation":"মেঁ","separator_after":" "},{"target":"संतुलन","bangla_pronunciation":"সংতুলন","separator_after":" "},{"target":"रखें।","bangla_pronunciation":"রখেং।","separator_after":""}],"meaning_bengali_md":"ডেটা স্থানান্তরযোগ্যতা এবং ব্যবহারকারীর সম্মতি-এর মধ্যে ভারসাম্য রাখুন।"},{"id":"ch209_s18","target":"अनुरेखण पर ध्यान दें।","romanization":"anurekhnn pr dhyaan deN /","bangla_pronunciation":"অনুরেখণ পর ধ্যান দেং।","word_pronunciations":[{"target":"अनुरेखण","bangla_pronunciation":"অনুরেখণ","separator_after":" "},{"target":"पर","bangla_pronunciation":"পর","separator_after":" "},{"target":"ध्यान","bangla_pronunciation":"ধ্যান","separator_after":" "},{"target":"दें।","bangla_pronunciation":"দেং।","separator_after":""}],"meaning_bengali_md":"ট্রেসযোগ্যতা নিয়ে নজর দিন।"},{"id":"ch209_s19","target":"प्रणालीप्रत्यास्थता तथा घटनाप्रतिक्रिया में संतुलन रखें।","romanization":"prnnaaliiprtyaasthtaa tthaa ghttnaaprtikriyaa meN sNtuln rkheN /","bangla_pronunciation":"প্রণালীপ্রত্যাস্থতা তথা ঘটনাপ্রতিক্রিযা মেঁ সংতুলন রখেং।","word_pronunciations":[{"target":"प्रणालीप्रत्यास्थता","bangla_pronunciation":"প্রণালীপ্রত্যাস্থতা","separator_after":" "},{"target":"तथा","bangla_pronunciation":"তথা","separator_after":" "},{"target":"घटनाप्रतिक्रिया","bangla_pronunciation":"ঘটনাপ্রতিক্রিযা","separator_after":" "},{"target":"में","bangla_pronunciation":"মেঁ","separator_after":" "},{"target":"संतुलन","bangla_pronunciation":"সংতুলন","separator_after":" "},{"target":"रखें।","bangla_pronunciation":"রখেং।","separator_after":""}],"meaning_bengali_md":"সিস্টেমের স্থিতিস্থাপকতা এবং নিরাপত্তা ঘটনার প্রতিক্রিয়া-এর মধ্যে ভারসাম্য রাখুন।"},{"id":"ch209_s20","target":"सुरक्षा को प्राथमिकता देते हुए आगे बढ़ें।","romanization":"surkssaa ko praathmiktaa dete hue aage bddh'eN /","bangla_pronunciation":"সুরক্ষা কো প্রাথমিকতা দেতে হুয়ে আগে বঢ়েং।","word_pronunciations":[{"target":"सुरक्षा","bangla_pronunciation":"সুরক্ষা","separator_after":" "},{"target":"को","bangla_pronunciation":"কো","separator_after":" "},{"target":"प्राथमिकता","bangla_pronunciation":"প্রাথমিকতা","separator_after":" "},{"target":"देते","bangla_pronunciation":"দেতে","separator_after":" "},{"target":"हुए","bangla_pronunciation":"হুয়ে","separator_after":" "},{"target":"आगे","bangla_pronunciation":"আগে","separator_after":" "},{"target":"बढ़ें।","bangla_pronunciation":"বঢ়েং।","separator_after":""}],"meaning_bengali_md":"নিরাপত্তাকে অগ্রাধিকার দিয়ে এগোন।"}],"vocabulary":[{"id":"v06241","target":"पहचानसत्यापन","category":"word","type":"noun","romanization":"phcaanstyaapn","bangla_pronunciation":"পহচানসত্যাপন","word_pronunciations":[{"target":"पहचानसत्यापन","bangla_pronunciation":"পহচানসত্যাপন","separator_after":""}],"meaning_bengali_md":"পরিচয় যাচাই","source_sentence_id":"ch209_s01","source_form":"पहचानसत्यापन","example_target":"पहचानसत्यापन और अभिगमाधिकार जरूरी हैं।","example_bangla_pronunciation":"পহচানসত্যাপন অউর অভিগমাধিকার জরূরী হ্যাঁয়।","example_word_pronunciations":[{"target":"पहचानसत्यापन","bangla_pronunciation":"পহচানসত্যাপন","separator_after":" "},{"target":"और","bangla_pronunciation":"অউর","separator_after":" "},{"target":"अभिगमाधिकार","bangla_pronunciation":"অভিগমাধিকার","separator_after":" "},{"target":"जरूरी","bangla_pronunciation":"জরূরী","separator_after":" "},{"target":"हैं।","bangla_pronunciation":"হ্যাঁয়।","separator_after":""}],"example_meaning_bengali_md":"পরিচয় যাচাই এবং প্রবেশাধিকার—দুটিই জরুরি।","synonyms":[]},{"id":"v06242","target":"अभिगमाधिकार","category":"word","type":"noun","romanization":"abhigmaadhikaar","bangla_pronunciation":"অভিগমাধিকার","word_pronunciations":[{"target":"अभिगमाधिकार","bangla_pronunciation":"অভিগমাধিকার","separator_after":""}],"meaning_bengali_md":"প্রবেশাধিকার","source_sentence_id":"ch209_s01","source_form":"अभिगमाधिकार","example_target":"पहचानसत्यापन और अभिगमाधिकार जरूरी हैं।","example_bangla_pronunciation":"পহচানসত্যাপন অউর অভিগমাধিকার জরূরী হ্যাঁয়।","example_word_pronunciations":[{"target":"पहचानसत्यापन","bangla_pronunciation":"পহচানসত্যাপন","separator_after":" "},{"target":"और","bangla_pronunciation":"অউর","separator_after":" "},{"target":"अभिगमाधिकार","bangla_pronunciation":"অভিগমাধিকার","separator_after":" "},{"target":"जरूरी","bangla_pronunciation":"জরূরী","separator_after":" "},{"target":"हैं।","bangla_pronunciation":"হ্যাঁয়।","separator_after":""}],"example_meaning_bengali_md":"পরিচয় যাচাই এবং প্রবেশাধিকার—দুটিই জরুরি।","synonyms":[]},{"id":"v06243","target":"कूटलेखन","category":"word","type":"noun","romanization":"kuuttlekhn","bangla_pronunciation":"কূটলেখন","word_pronunciations":[{"target":"कूटलेखन","bangla_pronunciation":"কূটলেখন","separator_after":""}],"meaning_bengali_md":"এনক্রিপশন","source_sentence_id":"ch209_s02","source_form":"कूटलेखन","example_target":"कूटलेखन महत्वपूर्ण है।","example_bangla_pronunciation":"কূটলেখন মহত্঵পূর্ণ হ্যায়।","example_word_pronunciations":[{"target":"कूटलेखन","bangla_pronunciation":"কূটলেখন","separator_after":" "},{"target":"महत्वपूर्ण","bangla_pronunciation":"মহত্঵পূর্ণ","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}],"example_meaning_bengali_md":"এনক্রিপশন গুরুত্বপূর্ণ।","synonyms":[]},{"id":"v06244","target":"डेटासंरक्षण","category":"word","type":"noun","romanization":"ddettaasNrkssnn","bangla_pronunciation":"ডেটাসংরক্ষণ","word_pronunciations":[{"target":"डेटासंरक्षण","bangla_pronunciation":"ডেটাসংরক্ষণ","separator_after":""}],"meaning_bengali_md":"ডেটা সুরক্ষা","source_sentence_id":"ch209_s03","source_form":"डेटासंरक्षण","example_target":"डेटासंरक्षण और अखंडताजाँच जरूरी हैं।","example_bangla_pronunciation":"ডেটাসংরক্ষণ অউর অখংডতাজাঁচ জরূরী হ্যাঁয়।","example_word_pronunciations":[{"target":"डेटासंरक्षण","bangla_pronunciation":"ডেটাসংরক্ষণ","separator_after":" "},{"target":"और","bangla_pronunciation":"অউর","separator_after":" "},{"target":"अखंडताजाँच","bangla_pronunciation":"অখংডতাজাঁচ","separator_after":" "},{"target":"जरूरी","bangla_pronunciation":"জরূরী","separator_after":" "},{"target":"हैं।","bangla_pronunciation":"হ্যাঁয়।","separator_after":""}],"example_meaning_bengali_md":"ডেটা সুরক্ষা এবং অখণ্ডতা যাচাই—দুটিই জরুরি।","synonyms":[]},{"id":"v06245","target":"अखंडताजाँच","category":"word","type":"noun","romanization":"akhNddtaajaaNc","bangla_pronunciation":"অখংডতাজাঁচ","word_pronunciations":[{"target":"अखंडताजाँच","bangla_pronunciation":"অখংডতাজাঁচ","separator_after":""}],"meaning_bengali_md":"অখণ্ডতা যাচাই","source_sentence_id":"ch209_s03","source_form":"अखंडताजाँच","example_target":"डेटासंरक्षण और अखंडताजाँच जरूरी हैं।","example_bangla_pronunciation":"ডেটাসংরক্ষণ অউর অখংডতাজাঁচ জরূরী হ্যাঁয়।","example_word_pronunciations":[{"target":"डेटासंरक्षण","bangla_pronunciation":"ডেটাসংরক্ষণ","separator_after":" "},{"target":"और","bangla_pronunciation":"অউর","separator_after":" "},{"target":"अखंडताजाँच","bangla_pronunciation":"অখংডতাজাঁচ","separator_after":" "},{"target":"जरूरी","bangla_pronunciation":"জরূরী","separator_after":" "},{"target":"हैं।","bangla_pronunciation":"হ্যাঁয়।","separator_after":""}],"example_meaning_bengali_md":"ডেটা সুরক্ষা এবং অখণ্ডতা যাচাই—দুটিই জরুরি।","synonyms":[]},{"id":"v06246","target":"पहुँच देने से पहले","category":"expression","type":"expression","romanization":"phuNc dene se phle","bangla_pronunciation":"পহুঁচ দেনে সে পহলে","word_pronunciations":[{"target":"पहुँच","bangla_pronunciation":"পহুঁচ","separator_after":" "},{"target":"देने","bangla_pronunciation":"দেনে","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"पहले","bangla_pronunciation":"পহলে","separator_after":""}],"meaning_bengali_md":"অ্যাক্সেস দেওয়ার আগে","source_sentence_id":"ch209_s04","source_form":"पहुँच देने से पहले","example_target":"पहुँच देने से पहले काम करें।","example_bangla_pronunciation":"পহুঁচ দেনে সে পহলে কাম করেং।","example_word_pronunciations":[{"target":"पहुँच","bangla_pronunciation":"পহুঁচ","separator_after":" "},{"target":"देने","bangla_pronunciation":"দেনে","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"पहले","bangla_pronunciation":"পহলে","separator_after":" "},{"target":"काम","bangla_pronunciation":"কাম","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেং।","separator_after":""}],"example_meaning_bengali_md":"অ্যাক্সেস দেওয়ার আগে কাজ করুন।","synonyms":[]},{"id":"v06247","target":"भेद्यतामूल्यांकन","category":"word","type":"noun","romanization":"bhedytaamuulyaaNkn","bangla_pronunciation":"ভেদ্যতামূল্যাংকন","word_pronunciations":[{"target":"भेद्यतामूल्यांकन","bangla_pronunciation":"ভেদ্যতামূল্যাংকন","separator_after":""}],"meaning_bengali_md":"দুর্বলতা মূল্যায়ন","source_sentence_id":"ch209_s05","source_form":"भेद्यतामूल्यांकन","example_target":"भेद्यतामूल्यांकन तथा सुरक्षापैबंदी जुड़े हुए हैं।","example_bangla_pronunciation":"ভেদ্যতামূল্যাংকন তথা সুরক্ষাপৈবংদী জুড়ে হুয়ে হ্যাঁয়।","example_word_pronunciations":[{"target":"भेद्यतामूल्यांकन","bangla_pronunciation":"ভেদ্যতামূল্যাংকন","separator_after":" "},{"target":"तथा","bangla_pronunciation":"তথা","separator_after":" "},{"target":"सुरक्षापैबंदी","bangla_pronunciation":"সুরক্ষাপৈবংদী","separator_after":" "},{"target":"जुड़े","bangla_pronunciation":"জুড়ে","separator_after":" "},{"target":"हुए","bangla_pronunciation":"হুয়ে","separator_after":" "},{"target":"हैं।","bangla_pronunciation":"হ্যাঁয়।","separator_after":""}],"example_meaning_bengali_md":"দুর্বলতা মূল্যায়ন এবং নিরাপত্তা প্যাচ প্রয়োগ পরস্পরের সঙ্গে যুক্ত।","synonyms":[]},{"id":"v06248","target":"सुरक्षापैबंदी","category":"word","type":"noun","romanization":"surkssaapaibNdii","bangla_pronunciation":"সুরক্ষাপৈবংদী","word_pronunciations":[{"target":"सुरक्षापैबंदी","bangla_pronunciation":"সুরক্ষাপৈবংদী","separator_after":""}],"meaning_bengali_md":"নিরাপত্তা প্যাচ প্রয়োগ","source_sentence_id":"ch209_s05","source_form":"सुरक्षापैबंदी","example_target":"भेद्यतामूल्यांकन तथा सुरक्षापैबंदी जुड़े हुए हैं।","example_bangla_pronunciation":"ভেদ্যতামূল্যাংকন তথা সুরক্ষাপৈবংদী জুড়ে হুয়ে হ্যাঁয়।","example_word_pronunciations":[{"target":"भेद्यतामूल्यांकन","bangla_pronunciation":"ভেদ্যতামূল্যাংকন","separator_after":" "},{"target":"तथा","bangla_pronunciation":"তথা","separator_after":" "},{"target":"सुरक्षापैबंदी","bangla_pronunciation":"সুরক্ষাপৈবংদী","separator_after":" "},{"target":"जुड़े","bangla_pronunciation":"জুড়ে","separator_after":" "},{"target":"हुए","bangla_pronunciation":"হুয়ে","separator_after":" "},{"target":"हैं।","bangla_pronunciation":"হ্যাঁয়।","separator_after":""}],"example_meaning_bengali_md":"দুর্বলতা মূল্যায়ন এবং নিরাপত্তা প্যাচ প্রয়োগ পরস্পরের সঙ্গে যুক্ত।","synonyms":[]},{"id":"v06249","target":"संस्करणनियंत्रण","category":"word","type":"noun","romanization":"sNskrnnniyNtrnn","bangla_pronunciation":"সংস্করণনিযংত্রণ","word_pronunciations":[{"target":"संस्करणनियंत्रण","bangla_pronunciation":"সংস্করণনিযংত্রণ","separator_after":""}],"meaning_bengali_md":"সংস্করণ নিয়ন্ত্রণ","source_sentence_id":"ch209_s06","source_form":"संस्करणनियंत्रण","example_target":"संस्करणनियंत्रण पर चर्चा करें।","example_bangla_pronunciation":"সংস্করণনিযংত্রণ পর চর্চা করেং।","example_word_pronunciations":[{"target":"संस्करणनियंत्रण","bangla_pronunciation":"সংস্করণনিযংত্রণ","separator_after":" "},{"target":"पर","bangla_pronunciation":"পর","separator_after":" "},{"target":"चर्चा","bangla_pronunciation":"চর্চা","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেং।","separator_after":""}],"example_meaning_bengali_md":"সংস্করণ নিয়ন্ত্রণ নিয়ে আলোচনা করুন।","synonyms":[]},{"id":"v06250","target":"बैकअपनीति","category":"word","type":"noun","romanization":"baikapniiti","bangla_pronunciation":"বৈকঅপনীতি","word_pronunciations":[{"target":"बैकअपनीति","bangla_pronunciation":"বৈকঅপনীতি","separator_after":""}],"meaning_bengali_md":"ব্যাকআপ নীতি","source_sentence_id":"ch209_s07","source_form":"बैकअपनीति","example_target":"बैकअपनीति तथा पुनर्स्थापनपरीक्षण जुड़े हुए हैं।","example_bangla_pronunciation":"বৈকঅপনীতি তথা পুনর্স্থাপনপরীক্ষণ জুড়ে হুয়ে হ্যাঁয়।","example_word_pronunciations":[{"target":"बैकअपनीति","bangla_pronunciation":"বৈকঅপনীতি","separator_after":" "},{"target":"तथा","bangla_pronunciation":"তথা","separator_after":" "},{"target":"पुनर्स्थापनपरीक्षण","bangla_pronunciation":"পুনর্স্থাপনপরীক্ষণ","separator_after":" "},{"target":"जुड़े","bangla_pronunciation":"জুড়ে","separator_after":" "},{"target":"हुए","bangla_pronunciation":"হুয়ে","separator_after":" "},{"target":"हैं।","bangla_pronunciation":"হ্যাঁয়।","separator_after":""}],"example_meaning_bengali_md":"ব্যাকআপ নীতি এবং পুনঃস্থাপন পরীক্ষা পরস্পরের সঙ্গে যুক্ত।","synonyms":[]},{"id":"v06251","target":"पुनर्स्थापनपरीक्षण","category":"word","type":"noun","romanization":"punrsthaapnpriikssnn","bangla_pronunciation":"পুনর্স্থাপনপরীক্ষণ","word_pronunciations":[{"target":"पुनर्स्थापनपरीक्षण","bangla_pronunciation":"পুনর্স্থাপনপরীক্ষণ","separator_after":""}],"meaning_bengali_md":"পুনঃস্থাপন পরীক্ষা","source_sentence_id":"ch209_s07","source_form":"पुनर्स्थापनपरीक्षण","example_target":"बैकअपनीति तथा पुनर्स्थापनपरीक्षण जुड़े हुए हैं।","example_bangla_pronunciation":"বৈকঅপনীতি তথা পুনর্স্থাপনপরীক্ষণ জুড়ে হুয়ে হ্যাঁয়।","example_word_pronunciations":[{"target":"बैकअपनीति","bangla_pronunciation":"বৈকঅপনীতি","separator_after":" "},{"target":"तथा","bangla_pronunciation":"তথা","separator_after":" "},{"target":"पुनर्स्थापनपरीक्षण","bangla_pronunciation":"পুনর্স্থাপনপরীক্ষণ","separator_after":" "},{"target":"जुड़े","bangla_pronunciation":"জুড়ে","separator_after":" "},{"target":"हुए","bangla_pronunciation":"হুয়ে","separator_after":" "},{"target":"हैं।","bangla_pronunciation":"হ্যাঁয়।","separator_after":""}],"example_meaning_bengali_md":"ব্যাকআপ নীতি এবং পুনঃস্থাপন পরীক্ষা পরস্পরের সঙ্গে যুক্ত।","synonyms":[]},{"id":"v06252","target":"कम से कम अधिकार के साथ","category":"expression","type":"expression","romanization":"km se km adhikaar ke saath","bangla_pronunciation":"কম সে কম অধিকার কে সাথ","word_pronunciations":[{"target":"कम","bangla_pronunciation":"কম","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"कम","bangla_pronunciation":"কম","separator_after":" "},{"target":"अधिकार","bangla_pronunciation":"অধিকার","separator_after":" "},{"target":"के","bangla_pronunciation":"কে","separator_after":" "},{"target":"साथ","bangla_pronunciation":"সাথ","separator_after":""}],"meaning_bengali_md":"সর্বনিম্ন প্রয়োজনীয় অধিকার দিয়ে","source_sentence_id":"ch209_s08","source_form":"कम से कम अधिकार के साथ","example_target":"कम से कम अधिकार के साथ निर्णय लें।","example_bangla_pronunciation":"কম সে কম অধিকার কে সাথ নির্ণয লেং।","example_word_pronunciations":[{"target":"कम","bangla_pronunciation":"কম","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"कम","bangla_pronunciation":"কম","separator_after":" "},{"target":"अधिकार","bangla_pronunciation":"অধিকার","separator_after":" "},{"target":"के","bangla_pronunciation":"কে","separator_after":" "},{"target":"साथ","bangla_pronunciation":"সাথ","separator_after":" "},{"target":"निर्णय","bangla_pronunciation":"নির্ণয","separator_after":" "},{"target":"लें।","bangla_pronunciation":"লেং।","separator_after":""}],"example_meaning_bengali_md":"সর্বনিম্ন প্রয়োজনীয় অধিকার দিয়ে সিদ্ধান্ত নিন।","synonyms":[]},{"id":"v06253","target":"अभिलेखलॉग","category":"word","type":"noun","romanization":"abhilekhloNg","bangla_pronunciation":"অভিলেখল৉গ","word_pronunciations":[{"target":"अभिलेखलॉग","bangla_pronunciation":"অভিলেখল৉গ","separator_after":""}],"meaning_bengali_md":"লগ রেকর্ড","source_sentence_id":"ch209_s09","source_form":"अभिलेखलॉग","example_target":"अभिलेखलॉग के साथ सुरक्षानिगरानी भी देखें।","example_bangla_pronunciation":"অভিলেখল৉গ কে সাথ সুরক্ষানিগরানী ভী দেখেং।","example_word_pronunciations":[{"target":"अभिलेखलॉग","bangla_pronunciation":"অভিলেখল৉গ","separator_after":" "},{"target":"के","bangla_pronunciation":"কে","separator_after":" "},{"target":"साथ","bangla_pronunciation":"সাথ","separator_after":" "},{"target":"सुरक्षानिगरानी","bangla_pronunciation":"সুরক্ষানিগরানী","separator_after":" "},{"target":"भी","bangla_pronunciation":"ভী","separator_after":" "},{"target":"देखें।","bangla_pronunciation":"দেখেং।","separator_after":""}],"example_meaning_bengali_md":"লগ রেকর্ড-এর সঙ্গে নিরাপত্তা নজরদারি-ও দেখুন।","synonyms":[]},{"id":"v06254","target":"सुरक्षानिगरानी","category":"word","type":"noun","romanization":"surkssaanigraanii","bangla_pronunciation":"সুরক্ষানিগরানী","word_pronunciations":[{"target":"सुरक्षानिगरानी","bangla_pronunciation":"সুরক্ষানিগরানী","separator_after":""}],"meaning_bengali_md":"নিরাপত্তা নজরদারি","source_sentence_id":"ch209_s09","source_form":"सुरक्षानिगरानी","example_target":"अभिलेखलॉग के साथ सुरक्षानिगरानी भी देखें।","example_bangla_pronunciation":"অভিলেখল৉গ কে সাথ সুরক্ষানিগরানী ভী দেখেং।","example_word_pronunciations":[{"target":"अभिलेखलॉग","bangla_pronunciation":"অভিলেখল৉গ","separator_after":" "},{"target":"के","bangla_pronunciation":"কে","separator_after":" "},{"target":"साथ","bangla_pronunciation":"সাথ","separator_after":" "},{"target":"सुरक्षानिगरानी","bangla_pronunciation":"সুরক্ষানিগরানী","separator_after":" "},{"target":"भी","bangla_pronunciation":"ভী","separator_after":" "},{"target":"देखें।","bangla_pronunciation":"দেখেং।","separator_after":""}],"example_meaning_bengali_md":"লগ রেকর্ড-এর সঙ্গে নিরাপত্তা নজরদারি-ও দেখুন।","synonyms":[]},{"id":"v06255","target":"बहुकारकप्रमाणीकरण","category":"word","type":"noun","romanization":"bhukaarkprmaanniikrnn","bangla_pronunciation":"বহুকারকপ্রমাণীকরণ","word_pronunciations":[{"target":"बहुकारकप्रमाणीकरण","bangla_pronunciation":"বহুকারকপ্রমাণীকরণ","separator_after":""}],"meaning_bengali_md":"বহুস্তরীয় যাচাই","source_sentence_id":"ch209_s10","source_form":"बहुकारकप्रमाणीकरण","example_target":"बहुकारकप्रमाणीकरण की समीक्षा करें।","example_bangla_pronunciation":"বহুকারকপ্রমাণীকরণ কী সমীক্ষা করেং।","example_word_pronunciations":[{"target":"बहुकारकप्रमाणीकरण","bangla_pronunciation":"বহুকারকপ্রমাণীকরণ","separator_after":" "},{"target":"की","bangla_pronunciation":"কী","separator_after":" "},{"target":"समीक्षा","bangla_pronunciation":"সমীক্ষা","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেং।","separator_after":""}],"example_meaning_bengali_md":"বহুস্তরীয় যাচাই পর্যালোচনা করুন।","synonyms":[]},{"id":"v06256","target":"अनुमतिनियंत्रण","category":"word","type":"noun","romanization":"anumtiniyNtrnn","bangla_pronunciation":"অনুমতিনিযংত্রণ","word_pronunciations":[{"target":"अनुमतिनियंत्रण","bangla_pronunciation":"অনুমতিনিযংত্রণ","separator_after":""}],"meaning_bengali_md":"অনুমতি নিয়ন্ত্রণ","source_sentence_id":"ch209_s11","source_form":"अनुमतिनियंत्रण","example_target":"अनुमतिनियंत्रण के साथ जोखिमांकन भी देखें।","example_bangla_pronunciation":"অনুমতিনিযংত্রণ কে সাথ জোখিমাংকন ভী দেখেং।","example_word_pronunciations":[{"target":"अनुमतिनियंत्रण","bangla_pronunciation":"অনুমতিনিযংত্রণ","separator_after":" "},{"target":"के","bangla_pronunciation":"কে","separator_after":" "},{"target":"साथ","bangla_pronunciation":"সাথ","separator_after":" "},{"target":"जोखिमांकन","bangla_pronunciation":"জোখিমাংকন","separator_after":" "},{"target":"भी","bangla_pronunciation":"ভী","separator_after":" "},{"target":"देखें।","bangla_pronunciation":"দেখেং।","separator_after":""}],"example_meaning_bengali_md":"অনুমতি নিয়ন্ত্রণ-এর সঙ্গে ঝুঁকি মূল্যায়ন-ও দেখুন।","synonyms":[]},{"id":"v06257","target":"जोखिमांकन","category":"word","type":"noun","romanization":"jokhimaaNkn","bangla_pronunciation":"জোখিমাংকন","word_pronunciations":[{"target":"जोखिमांकन","bangla_pronunciation":"জোখিমাংকন","separator_after":""}],"meaning_bengali_md":"ঝুঁকি মূল্যায়ন","source_sentence_id":"ch209_s11","source_form":"जोखिमांकन","example_target":"अनुमतिनियंत्रण के साथ जोखिमांकन भी देखें।","example_bangla_pronunciation":"অনুমতিনিযংত্রণ কে সাথ জোখিমাংকন ভী দেখেং।","example_word_pronunciations":[{"target":"अनुमतिनियंत्रण","bangla_pronunciation":"অনুমতিনিযংত্রণ","separator_after":" "},{"target":"के","bangla_pronunciation":"কে","separator_after":" "},{"target":"साथ","bangla_pronunciation":"সাথ","separator_after":" "},{"target":"जोखिमांकन","bangla_pronunciation":"জোখিমাংকন","separator_after":" "},{"target":"भी","bangla_pronunciation":"ভী","separator_after":" "},{"target":"देखें।","bangla_pronunciation":"দেখেং।","separator_after":""}],"example_meaning_bengali_md":"অনুমতি নিয়ন্ত্রণ-এর সঙ্গে ঝুঁকি মূল্যায়ন-ও দেখুন।","synonyms":[]},{"id":"v06258","target":"संवेदनशील जानकारी के लिए","category":"expression","type":"expression","romanization":"sNvednshiil jaankaarii ke lie","bangla_pronunciation":"সং঵েদনশীল জানকারী কে লিয়ে","word_pronunciations":[{"target":"संवेदनशील","bangla_pronunciation":"সং঵েদনশীল","separator_after":" "},{"target":"जानकारी","bangla_pronunciation":"জানকারী","separator_after":" "},{"target":"के","bangla_pronunciation":"কে","separator_after":" "},{"target":"लिए","bangla_pronunciation":"লিয়ে","separator_after":""}],"meaning_bengali_md":"সংবেদনশীল তথ্যের জন্য","source_sentence_id":"ch209_s12","source_form":"संवेदनशील जानकारी के लिए","example_target":"संवेदनशील जानकारी के लिए स्थिति समझें।","example_bangla_pronunciation":"সং঵েদনশীল জানকারী কে লিয়ে স্থিতি সমঝেং।","example_word_pronunciations":[{"target":"संवेदनशील","bangla_pronunciation":"সং঵েদনশীল","separator_after":" "},{"target":"जानकारी","bangla_pronunciation":"জানকারী","separator_after":" "},{"target":"के","bangla_pronunciation":"কে","separator_after":" "},{"target":"लिए","bangla_pronunciation":"লিয়ে","separator_after":" "},{"target":"स्थिति","bangla_pronunciation":"স্থিতি","separator_after":" "},{"target":"समझें।","bangla_pronunciation":"সমঝেং।","separator_after":""}],"example_meaning_bengali_md":"সংবেদনশীল তথ্যের জন্য পরিস্থিতি বুঝুন।","synonyms":[]},{"id":"v06259","target":"डेटाउल्लंघन","category":"word","type":"noun","romanization":"ddettaaullNghn","bangla_pronunciation":"ডেটাউল্লংঘন","word_pronunciations":[{"target":"डेटाउल्लंघन","bangla_pronunciation":"ডেটাউল্লংঘন","separator_after":""}],"meaning_bengali_md":"ডেটা লঙ্ঘন","source_sentence_id":"ch209_s13","source_form":"डेटाउल्लंघन","example_target":"डेटाउल्लंघन और प्रतिधारणनीति की समीक्षा करें।","example_bangla_pronunciation":"ডেটাউল্লংঘন অউর প্রতিধারণনীতি কী সমীক্ষা করেং।","example_word_pronunciations":[{"target":"डेटाउल्लंघन","bangla_pronunciation":"ডেটাউল্লংঘন","separator_after":" "},{"target":"और","bangla_pronunciation":"অউর","separator_after":" "},{"target":"प्रतिधारणनीति","bangla_pronunciation":"প্রতিধারণনীতি","separator_after":" "},{"target":"की","bangla_pronunciation":"কী","separator_after":" "},{"target":"समीक्षा","bangla_pronunciation":"সমীক্ষা","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেং।","separator_after":""}],"example_meaning_bengali_md":"ডেটা লঙ্ঘন এবং ডেটা ধরে রাখার নীতি পর্যালোচনা করুন।","synonyms":[]},{"id":"v06260","target":"प्रतिधारणनीति","category":"word","type":"noun","romanization":"prtidhaarnnniiti","bangla_pronunciation":"প্রতিধারণনীতি","word_pronunciations":[{"target":"प्रतिधारणनीति","bangla_pronunciation":"প্রতিধারণনীতি","separator_after":""}],"meaning_bengali_md":"ডেটা ধরে রাখার নীতি","source_sentence_id":"ch209_s13","source_form":"प्रतिधारणनीति","example_target":"डेटाउल्लंघन और प्रतिधारणनीति की समीक्षा करें।","example_bangla_pronunciation":"ডেটাউল্লংঘন অউর প্রতিধারণনীতি কী সমীক্ষা করেং।","example_word_pronunciations":[{"target":"डेटाउल्लंघन","bangla_pronunciation":"ডেটাউল্লংঘন","separator_after":" "},{"target":"और","bangla_pronunciation":"অউর","separator_after":" "},{"target":"प्रतिधारणनीति","bangla_pronunciation":"প্রতিধারণনীতি","separator_after":" "},{"target":"की","bangla_pronunciation":"কী","separator_after":" "},{"target":"समीक्षा","bangla_pronunciation":"সমীক্ষা","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেং।","separator_after":""}],"example_meaning_bengali_md":"ডেটা লঙ্ঘন এবং ডেটা ধরে রাখার নীতি পর্যালোচনা করুন।","synonyms":[]},{"id":"v06261","target":"सुरक्षितमिटाव","category":"word","type":"noun","romanization":"surkssitmittaav","bangla_pronunciation":"সুরক্ষিতমিটা঵","word_pronunciations":[{"target":"सुरक्षितमिटाव","bangla_pronunciation":"সুরক্ষিতমিটা঵","separator_after":""}],"meaning_bengali_md":"নিরাপদ মুছে ফেলা","source_sentence_id":"ch209_s14","source_form":"सुरक्षितमिटाव","example_target":"सुरक्षितमिटाव को समझें।","example_bangla_pronunciation":"সুরক্ষিতমিটা঵ কো সমঝেং।","example_word_pronunciations":[{"target":"सुरक्षितमिटाव","bangla_pronunciation":"সুরক্ষিতমিটা঵","separator_after":" "},{"target":"को","bangla_pronunciation":"কো","separator_after":" "},{"target":"समझें।","bangla_pronunciation":"সমঝেং।","separator_after":""}],"example_meaning_bengali_md":"নিরাপদ মুছে ফেলা বুঝুন।","synonyms":[]},{"id":"v06262","target":"अनामीकरण","category":"word","type":"noun","romanization":"anaamiikrnn","bangla_pronunciation":"অনামীকরণ","word_pronunciations":[{"target":"अनामीकरण","bangla_pronunciation":"অনামীকরণ","separator_after":""}],"meaning_bengali_md":"পরিচয়হীনকরণ","source_sentence_id":"ch209_s15","source_form":"अनामीकरण","example_target":"अनामीकरण और नियमपालन की समीक्षा करें।","example_bangla_pronunciation":"অনামীকরণ অউর নিযমপালন কী সমীক্ষা করেং।","example_word_pronunciations":[{"target":"अनामीकरण","bangla_pronunciation":"অনামীকরণ","separator_after":" "},{"target":"और","bangla_pronunciation":"অউর","separator_after":" "},{"target":"नियमपालन","bangla_pronunciation":"নিযমপালন","separator_after":" "},{"target":"की","bangla_pronunciation":"কী","separator_after":" "},{"target":"समीक्षा","bangla_pronunciation":"সমীক্ষা","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেং।","separator_after":""}],"example_meaning_bengali_md":"পরিচয়হীনকরণ এবং নীতিমালা মেনে চলা পর্যালোচনা করুন।","synonyms":[]},{"id":"v06263","target":"नियमपालन","category":"word","type":"noun","romanization":"niympaaln","bangla_pronunciation":"নিযমপালন","word_pronunciations":[{"target":"नियमपालन","bangla_pronunciation":"নিযমপালন","separator_after":""}],"meaning_bengali_md":"নীতিমালা মেনে চলা","source_sentence_id":"ch209_s15","source_form":"नियमपालन","example_target":"अनामीकरण और नियमपालन की समीक्षा करें।","example_bangla_pronunciation":"অনামীকরণ অউর নিযমপালন কী সমীক্ষা করেং।","example_word_pronunciations":[{"target":"अनामीकरण","bangla_pronunciation":"অনামীকরণ","separator_after":" "},{"target":"और","bangla_pronunciation":"অউর","separator_after":" "},{"target":"नियमपालन","bangla_pronunciation":"নিযমপালন","separator_after":" "},{"target":"की","bangla_pronunciation":"কী","separator_after":" "},{"target":"समीक्षा","bangla_pronunciation":"সমীক্ষা","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেং।","separator_after":""}],"example_meaning_bengali_md":"পরিচয়হীনকরণ এবং নীতিমালা মেনে চলা পর্যালোচনা করুন।","synonyms":[]},{"id":"v06264","target":"जरूरत भर डेटा लेकर","category":"expression","type":"expression","romanization":"jruurt bhr ddettaa lekr","bangla_pronunciation":"জরূরত ভর ডেটা লেকর","word_pronunciations":[{"target":"जरूरत","bangla_pronunciation":"জরূরত","separator_after":" "},{"target":"भर","bangla_pronunciation":"ভর","separator_after":" "},{"target":"डेटा","bangla_pronunciation":"ডেটা","separator_after":" "},{"target":"लेकर","bangla_pronunciation":"লেকর","separator_after":""}],"meaning_bengali_md":"প্রয়োজনমতো ডেটা নিয়ে","source_sentence_id":"ch209_s16","source_form":"जरूरत भर डेटा लेकर","example_target":"जरूरत भर डेटा लेकर अगला कदम तय करें।","example_bangla_pronunciation":"জরূরত ভর ডেটা লেকর অগলা কদম তয করেং।","example_word_pronunciations":[{"target":"जरूरत","bangla_pronunciation":"জরূরত","separator_after":" "},{"target":"भर","bangla_pronunciation":"ভর","separator_after":" "},{"target":"डेटा","bangla_pronunciation":"ডেটা","separator_after":" "},{"target":"लेकर","bangla_pronunciation":"লেকর","separator_after":" "},{"target":"अगला","bangla_pronunciation":"অগলা","separator_after":" "},{"target":"कदम","bangla_pronunciation":"কদম","separator_after":" "},{"target":"तय","bangla_pronunciation":"তয","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেং।","separator_after":""}],"example_meaning_bengali_md":"প্রয়োজনমতো ডেটা নিয়ে পরবর্তী পদক্ষেপ ঠিক করুন।","synonyms":[]},{"id":"v06265","target":"डेटापोर्टेबिलिटी","category":"word","type":"noun","romanization":"ddettaaporttebilittii","bangla_pronunciation":"ডেটাপোর্টেবিলিটী","word_pronunciations":[{"target":"डेटापोर्टेबिलिटी","bangla_pronunciation":"ডেটাপোর্টেবিলিটী","separator_after":""}],"meaning_bengali_md":"ডেটা স্থানান্তরযোগ্যতা","source_sentence_id":"ch209_s17","source_form":"डेटापोर्टेबिलिटी","example_target":"डेटापोर्टेबिलिटी तथा उपयोगकर्तासहमति में संतुलन रखें।","example_bangla_pronunciation":"ডেটাপোর্টেবিলিটী তথা উপযোগকর্তাসহমতি মেঁ সংতুলন রখেং।","example_word_pronunciations":[{"target":"डेटापोर्टेबिलिटी","bangla_pronunciation":"ডেটাপোর্টেবিলিটী","separator_after":" "},{"target":"तथा","bangla_pronunciation":"তথা","separator_after":" "},{"target":"उपयोगकर्तासहमति","bangla_pronunciation":"উপযোগকর্তাসহমতি","separator_after":" "},{"target":"में","bangla_pronunciation":"মেঁ","separator_after":" "},{"target":"संतुलन","bangla_pronunciation":"সংতুলন","separator_after":" "},{"target":"रखें।","bangla_pronunciation":"রখেং।","separator_after":""}],"example_meaning_bengali_md":"ডেটা স্থানান্তরযোগ্যতা এবং ব্যবহারকারীর সম্মতি-এর মধ্যে ভারসাম্য রাখুন।","synonyms":[]},{"id":"v06266","target":"उपयोगकर्तासहमति","category":"word","type":"noun","romanization":"upyogkrtaashmti","bangla_pronunciation":"উপযোগকর্তাসহমতি","word_pronunciations":[{"target":"उपयोगकर्तासहमति","bangla_pronunciation":"উপযোগকর্তাসহমতি","separator_after":""}],"meaning_bengali_md":"ব্যবহারকারীর সম্মতি","source_sentence_id":"ch209_s17","source_form":"उपयोगकर्तासहमति","example_target":"डेटापोर्टेबिलिटी तथा उपयोगकर्तासहमति में संतुलन रखें।","example_bangla_pronunciation":"ডেটাপোর্টেবিলিটী তথা উপযোগকর্তাসহমতি মেঁ সংতুলন রখেং।","example_word_pronunciations":[{"target":"डेटापोर्टेबिलिटी","bangla_pronunciation":"ডেটাপোর্টেবিলিটী","separator_after":" "},{"target":"तथा","bangla_pronunciation":"তথা","separator_after":" "},{"target":"उपयोगकर्तासहमति","bangla_pronunciation":"উপযোগকর্তাসহমতি","separator_after":" "},{"target":"में","bangla_pronunciation":"মেঁ","separator_after":" "},{"target":"संतुलन","bangla_pronunciation":"সংতুলন","separator_after":" "},{"target":"रखें।","bangla_pronunciation":"রখেং।","separator_after":""}],"example_meaning_bengali_md":"ডেটা স্থানান্তরযোগ্যতা এবং ব্যবহারকারীর সম্মতি-এর মধ্যে ভারসাম্য রাখুন।","synonyms":[]},{"id":"v06267","target":"अनुरेखण","category":"word","type":"noun","romanization":"anurekhnn","bangla_pronunciation":"অনুরেখণ","word_pronunciations":[{"target":"अनुरेखण","bangla_pronunciation":"অনুরেখণ","separator_after":""}],"meaning_bengali_md":"ট্রেসযোগ্যতা","source_sentence_id":"ch209_s18","source_form":"अनुरेखण","example_target":"अनुरेखण पर ध्यान दें।","example_bangla_pronunciation":"অনুরেখণ পর ধ্যান দেং।","example_word_pronunciations":[{"target":"अनुरेखण","bangla_pronunciation":"অনুরেখণ","separator_after":" "},{"target":"पर","bangla_pronunciation":"পর","separator_after":" "},{"target":"ध्यान","bangla_pronunciation":"ধ্যান","separator_after":" "},{"target":"दें।","bangla_pronunciation":"দেং।","separator_after":""}],"example_meaning_bengali_md":"ট্রেসযোগ্যতা নিয়ে নজর দিন।","synonyms":[]},{"id":"v06268","target":"प्रणालीप्रत्यास्थता","category":"word","type":"noun","romanization":"prnnaaliiprtyaasthtaa","bangla_pronunciation":"প্রণালীপ্রত্যাস্থতা","word_pronunciations":[{"target":"प्रणालीप्रत्यास्थता","bangla_pronunciation":"প্রণালীপ্রত্যাস্থতা","separator_after":""}],"meaning_bengali_md":"সিস্টেমের স্থিতিস্থাপকতা","source_sentence_id":"ch209_s19","source_form":"प्रणालीप्रत्यास्थता","example_target":"प्रणालीप्रत्यास्थता तथा घटनाप्रतिक्रिया में संतुलन रखें।","example_bangla_pronunciation":"প্রণালীপ্রত্যাস্থতা তথা ঘটনাপ্রতিক্রিযা মেঁ সংতুলন রখেং।","example_word_pronunciations":[{"target":"प्रणालीप्रत्यास्थता","bangla_pronunciation":"প্রণালীপ্রত্যাস্থতা","separator_after":" "},{"target":"तथा","bangla_pronunciation":"তথা","separator_after":" "},{"target":"घटनाप्रतिक्रिया","bangla_pronunciation":"ঘটনাপ্রতিক্রিযা","separator_after":" "},{"target":"में","bangla_pronunciation":"মেঁ","separator_after":" "},{"target":"संतुलन","bangla_pronunciation":"সংতুলন","separator_after":" "},{"target":"रखें।","bangla_pronunciation":"রখেং।","separator_after":""}],"example_meaning_bengali_md":"সিস্টেমের স্থিতিস্থাপকতা এবং নিরাপত্তা ঘটনার প্রতিক্রিয়া-এর মধ্যে ভারসাম্য রাখুন।","synonyms":[]},{"id":"v06269","target":"घटनाप्रतिक्रिया","category":"word","type":"noun","romanization":"ghttnaaprtikriyaa","bangla_pronunciation":"ঘটনাপ্রতিক্রিযা","word_pronunciations":[{"target":"घटनाप्रतिक्रिया","bangla_pronunciation":"ঘটনাপ্রতিক্রিযা","separator_after":""}],"meaning_bengali_md":"নিরাপত্তা ঘটনার প্রতিক্রিয়া","source_sentence_id":"ch209_s19","source_form":"घटनाप्रतिक्रिया","example_target":"प्रणालीप्रत्यास्थता तथा घटनाप्रतिक्रिया में संतुलन रखें।","example_bangla_pronunciation":"প্রণালীপ্রত্যাস্থতা তথা ঘটনাপ্রতিক্রিযা মেঁ সংতুলন রখেং।","example_word_pronunciations":[{"target":"प्रणालीप्रत्यास्थता","bangla_pronunciation":"প্রণালীপ্রত্যাস্থতা","separator_after":" "},{"target":"तथा","bangla_pronunciation":"তথা","separator_after":" "},{"target":"घटनाप्रतिक्रिया","bangla_pronunciation":"ঘটনাপ্রতিক্রিযা","separator_after":" "},{"target":"में","bangla_pronunciation":"মেঁ","separator_after":" "},{"target":"संतुलन","bangla_pronunciation":"সংতুলন","separator_after":" "},{"target":"रखें।","bangla_pronunciation":"রখেং।","separator_after":""}],"example_meaning_bengali_md":"সিস্টেমের স্থিতিস্থাপকতা এবং নিরাপত্তা ঘটনার প্রতিক্রিয়া-এর মধ্যে ভারসাম্য রাখুন।","synonyms":[]},{"id":"v06270","target":"सुरक्षा को प्राथमिकता देते हुए","category":"expression","type":"expression","romanization":"surkssaa ko praathmiktaa dete hue","bangla_pronunciation":"সুরক্ষা কো প্রাথমিকতা দেতে হুয়ে","word_pronunciations":[{"target":"सुरक्षा","bangla_pronunciation":"সুরক্ষা","separator_after":" "},{"target":"को","bangla_pronunciation":"কো","separator_after":" "},{"target":"प्राथमिकता","bangla_pronunciation":"প্রাথমিকতা","separator_after":" "},{"target":"देते","bangla_pronunciation":"দেতে","separator_after":" "},{"target":"हुए","bangla_pronunciation":"হুয়ে","separator_after":""}],"meaning_bengali_md":"নিরাপত্তাকে অগ্রাধিকার দিয়ে","source_sentence_id":"ch209_s20","source_form":"सुरक्षा को प्राथमिकता देते हुए","example_target":"सुरक्षा को प्राथमिकता देते हुए आगे बढ़ें।","example_bangla_pronunciation":"সুরক্ষা কো প্রাথমিকতা দেতে হুয়ে আগে বঢ়েং।","example_word_pronunciations":[{"target":"सुरक्षा","bangla_pronunciation":"সুরক্ষা","separator_after":" "},{"target":"को","bangla_pronunciation":"কো","separator_after":" "},{"target":"प्राथमिकता","bangla_pronunciation":"প্রাথমিকতা","separator_after":" "},{"target":"देते","bangla_pronunciation":"দেতে","separator_after":" "},{"target":"हुए","bangla_pronunciation":"হুয়ে","separator_after":" "},{"target":"आगे","bangla_pronunciation":"আগে","separator_after":" "},{"target":"बढ़ें।","bangla_pronunciation":"বঢ়েং।","separator_after":""}],"example_meaning_bengali_md":"নিরাপত্তাকে অগ্রাধিকার দিয়ে এগোন।","synonyms":[]}],"bridge_reading":{"mode":"article","title_bengali":"ডেটা নিরাপত্তা ও গোপনীয়তা: বাস্তব আলোচনার নোট","scene_summary":"একটি প্রযুক্তি দল সংবেদনশীল ডেটার অ্যাক্সেস, ব্যাকআপ ও নিরাপত্তা নীতি পর্যালোচনা করছে।","segments":[{"kind":"bangla","text":"ডেটা নিরাপত্তা ও গোপনীয়তা নিয়ে একটি কর্মদলের আলোচনায় প্রথমে "},{"kind":"target","target":"पहचानसत्यापन","bangla_pronunciation":"পহচানসত্যাপন","word_pronunciations":[{"target":"पहचानसत्यापन","bangla_pronunciation":"পহচানসত্যাপন","separator_after":""}]},{"kind":"bangla","text":" ধারণাটি সামনে আসে। এরপর "},{"kind":"target","target":"पहुँच देने से पहले","bangla_pronunciation":"পহুঁচ দেনে সে পহলে","word_pronunciations":[{"target":"पहुँच","bangla_pronunciation":"পহুঁচ","separator_after":" "},{"target":"देने","bangla_pronunciation":"দেনে","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"पहले","bangla_pronunciation":"পহলে","separator_after":""}]},{"kind":"bangla","text":" নীতি মেনে তারা "},{"kind":"target","target":"अभिलेखलॉग","bangla_pronunciation":"অভিলেখল৉গ","word_pronunciations":[{"target":"अभिलेखलॉग","bangla_pronunciation":"অভিলেখল৉গ","separator_after":""}]},{"kind":"bangla","text":" বিষয়টি পর্যালোচনা করে। সিদ্ধান্তের আগে "},{"kind":"target","target":"संवेदनशील जानकारी के लिए","bangla_pronunciation":"সং঵েদনশীল জানকারী কে লিয়ে","word_pronunciations":[{"target":"संवेदनशील","bangla_pronunciation":"সং঵েদনশীল","separator_after":" "},{"target":"जानकारी","bangla_pronunciation":"জানকারী","separator_after":" "},{"target":"के","bangla_pronunciation":"কে","separator_after":" "},{"target":"लिए","bangla_pronunciation":"লিয়ে","separator_after":""}]},{"kind":"bangla","text":" পদ্ধতি ব্যবহার করে। শেষে "},{"kind":"target","target":"डेटापोर्टेबिलिटी","bangla_pronunciation":"ডেটাপোর্টেবিলিটী","word_pronunciations":[{"target":"डेटापोर्टेबिलिटी","bangla_pronunciation":"ডেটাপোর্টেবিলিটী","separator_after":""}]},{"kind":"bangla","text":" দিকটিও যাচাই করে এবং "},{"kind":"target","target":"सुरक्षा को प्राथमिकता देते हुए","bangla_pronunciation":"সুরক্ষা কো প্রাথমিকতা দেতে হুয়ে","word_pronunciations":[{"target":"सुरक्षा","bangla_pronunciation":"সুরক্ষা","separator_after":" "},{"target":"को","bangla_pronunciation":"কো","separator_after":" "},{"target":"प्राथमिकता","bangla_pronunciation":"প্রাথমিকতা","separator_after":" "},{"target":"देते","bangla_pronunciation":"দেতে","separator_after":" "},{"target":"हुए","bangla_pronunciation":"হুয়ে","separator_after":""}]},{"kind":"bangla","text":" কাজ শেষ করে।"}],"text_md":"ডেটা নিরাপত্তা ও গোপনীয়তা নিয়ে একটি কর্মদলের আলোচনায় প্রথমে **पहचानसत्यापन** (পহচানসত্যাপন) ধারণাটি সামনে আসে। এরপর **पहुँच** (পহুঁচ) **देने** (দেনে) **से** (সে) **पहले** (পহলে) নীতি মেনে তারা **अभिलेखलॉग** (অভিলেখল৉গ) বিষয়টি পর্যালোচনা করে। সিদ্ধান্তের আগে **संवेदनशील** (সং঵েদনশীল) **जानकारी** (জানকারী) **के** (কে) **लिए** (লিয়ে) পদ্ধতি ব্যবহার করে। শেষে **डेटापोर्टेबिलिटी** (ডেটাপোর্টেবিলিটী) দিকটিও যাচাই করে এবং **सुरक्षा** (সুরক্ষা) **को** (কো) **प्राथमिकता** (প্রাথমিকতা) **देते** (দেতে) **हुए** (হুয়ে) কাজ শেষ করে।"},"target_reading":{"mode":"article","title_bengali":"ডেটা নিরাপত্তা ও গোপনীয়তা: সংক্ষিপ্ত হিন্দি পাঠ","scene_summary":"একটি প্রযুক্তি দল সংবেদনশীল ডেটার অ্যাক্সেস, ব্যাকআপ ও নিরাপত্তা নীতি পর্যালোচনা করছে। এখানে একজন অংশগ্রহণকারী পাঁচটি সংক্ষিপ্ত নীতিবাক্যে বিষয়টি গুছিয়ে বলে।","lines":[{"target":"पहचानसत्यापन पहले पूरा करें।","bangla_pronunciation":"পহচানসত্যাপন পহলে পূরা করেং।","word_pronunciations":[{"target":"पहचानसत्यापन","bangla_pronunciation":"পহচানসত্যাপন","separator_after":" "},{"target":"पहले","bangla_pronunciation":"পহলে","separator_after":" "},{"target":"पूरा","bangla_pronunciation":"পূরা","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেং।","separator_after":""}]},{"target":"कूटलेखन डेटा को सुरक्षित रखता है।","bangla_pronunciation":"কূটলেখন ডেটা কো সুরক্ষিত রখতা হ্যায়।","word_pronunciations":[{"target":"कूटलेखन","bangla_pronunciation":"কূটলেখন","separator_after":" "},{"target":"डेटा","bangla_pronunciation":"ডেটা","separator_after":" "},{"target":"को","bangla_pronunciation":"কো","separator_after":" "},{"target":"सुरक्षित","bangla_pronunciation":"সুরক্ষিত","separator_after":" "},{"target":"रखता","bangla_pronunciation":"রখতা","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}]},{"target":"बैकअपनीति नियमित जाँचें।","bangla_pronunciation":"বৈকঅপনীতি নিযমিত জাঁচেং।","word_pronunciations":[{"target":"बैकअपनीति","bangla_pronunciation":"বৈকঅপনীতি","separator_after":" "},{"target":"नियमित","bangla_pronunciation":"নিযমিত","separator_after":" "},{"target":"जाँचें।","bangla_pronunciation":"জাঁচেং।","separator_after":""}]},{"target":"बहुकारकप्रमाणीकरण सुरक्षा बढ़ाता है।","bangla_pronunciation":"বহুকারকপ্রমাণীকরণ সুরক্ষা বঢ়াতা হ্যায়।","word_pronunciations":[{"target":"बहुकारकप्रमाणीकरण","bangla_pronunciation":"বহুকারকপ্রমাণীকরণ","separator_after":" "},{"target":"सुरक्षा","bangla_pronunciation":"সুরক্ষা","separator_after":" "},{"target":"बढ़ाता","bangla_pronunciation":"বঢ়াতা","separator_after":" "},{"target":"है।","bangla_pronunciation":"হ্যায়।","separator_after":""}]},{"target":"पहुँच देने से पहले अनुमति जाँचें।","bangla_pronunciation":"পহুঁচ দেনে সে পহলে অনুমতি জাঁচেং।","word_pronunciations":[{"target":"पहुँच","bangla_pronunciation":"পহুঁচ","separator_after":" "},{"target":"देने","bangla_pronunciation":"দেনে","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"पहले","bangla_pronunciation":"পহলে","separator_after":" "},{"target":"अनुमति","bangla_pronunciation":"অনুমতি","separator_after":" "},{"target":"जाँचें।","bangla_pronunciation":"জাঁচেং।","separator_after":""}]}],"bangla_pronunciation":"পহচানসত্যাপন পহলে পূরা করেং। কূটলেখন ডেটা কো সুরক্ষিত রখতা হ্যায়। বৈকঅপনীতি নিযমিত জাঁচেং। বহুকারকপ্রমাণীকরণ সুরক্ষা বঢ়াতা হ্যায়। পহুঁচ দেনে সে পহলে অনুমতি জাঁচেং।","meaning_bengali_md":"পরিচয় যাচাই আগে সম্পন্ন করুন। এনক্রিপশন ডেটাকে সুরক্ষিত রাখে। ব্যাকআপ নীতি নিয়মিত যাচাই করুন। বহুস্তরীয় যাচাই নিরাপত্তা বাড়ায়। অ্যাক্সেস দেওয়ার আগে অনুমতি যাচাই করুন।"},"script_practice":[{"item_id":"dev_consonant_k","mode":"review","target":"क","bangla_pronunciation":"ক","explanation_bengali_md":"ক-ধ্বনির পরিচিত ব্যঞ্জনচিহ্ন পুনরালোচনা করুন।","practice_bengali_md":"চিহ্নটি দেখে ‘ক’ উচ্চারণ করুন।"},{"item_id":"dev_consonant_g","mode":"review","target":"ग","bangla_pronunciation":"গ","explanation_bengali_md":"গ-ধ্বনির পরিচিত ব্যঞ্জনচিহ্ন পুনরালোচনা করুন।","practice_bengali_md":"চিহ্নটি দেখে ‘গ’ উচ্চারণ করুন।"},{"item_id":"dev_consonant_t","mode":"review","target":"त","bangla_pronunciation":"ত","explanation_bengali_md":"দন্ত্য ত-ধ্বনির পরিচিত চিহ্ন পুনরালোচনা করুন।","practice_bengali_md":"চিহ্নটি দেখে ‘ত’ উচ্চারণ করুন।"},{"item_id":"dev_consonant_p","mode":"review","target":"प","bangla_pronunciation":"প","explanation_bengali_md":"প-ধ্বনির পরিচিত ব্যঞ্জনচিহ্ন পুনরালোচনা করুন।","practice_bengali_md":"চিহ্নটি দেখে ‘প’ উচ্চারণ করুন।"},{"item_id":"dev_consonant_m","mode":"review","target":"म","bangla_pronunciation":"ম","explanation_bengali_md":"ম-ধ্বনির পরিচিত ব্যঞ্জনচিহ্ন পুনরালোচনা করুন।","practice_bengali_md":"চিহ্নটি দেখে ‘ম’ উচ্চারণ করুন।"}],"number_practice":null,"speaking_practice":[{"prompt_bengali_md":"1 নম্বর বাক্যের ভাবটি হিন্দিতে বলুন।","model_target":"पहचानसत्यापन और अभिगमाधिकार जरूरी हैं।","model_bangla_pronunciation":"পহচানসত্যাপন অউর অভিগমাধিকার জরূরী হ্যাঁয়।","model_word_pronunciations":[{"target":"पहचानसत्यापन","bangla_pronunciation":"পহচানসত্যাপন","separator_after":" "},{"target":"और","bangla_pronunciation":"অউর","separator_after":" "},{"target":"अभिगमाधिकार","bangla_pronunciation":"অভিগমাধিকার","separator_after":" "},{"target":"जरूरी","bangla_pronunciation":"জরূরী","separator_after":" "},{"target":"हैं।","bangla_pronunciation":"হ্যাঁয়।","separator_after":""}],"model_meaning_bengali_md":"পরিচয় যাচাই এবং প্রবেশাধিকার—দুটিই জরুরি।"},{"prompt_bengali_md":"4 নম্বর বাক্যের ভাবটি হিন্দিতে বলুন।","model_target":"पहुँच देने से पहले काम करें।","model_bangla_pronunciation":"পহুঁচ দেনে সে পহলে কাম করেং।","model_word_pronunciations":[{"target":"पहुँच","bangla_pronunciation":"পহুঁচ","separator_after":" "},{"target":"देने","bangla_pronunciation":"দেনে","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"पहले","bangla_pronunciation":"পহলে","separator_after":" "},{"target":"काम","bangla_pronunciation":"কাম","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেং।","separator_after":""}],"model_meaning_bengali_md":"অ্যাক্সেস দেওয়ার আগে কাজ করুন।"},{"prompt_bengali_md":"8 নম্বর বাক্যের ভাবটি হিন্দিতে বলুন।","model_target":"कम से कम अधिकार के साथ निर्णय लें।","model_bangla_pronunciation":"কম সে কম অধিকার কে সাথ নির্ণয লেং।","model_word_pronunciations":[{"target":"कम","bangla_pronunciation":"কম","separator_after":" "},{"target":"से","bangla_pronunciation":"সে","separator_after":" "},{"target":"कम","bangla_pronunciation":"কম","separator_after":" "},{"target":"अधिकार","bangla_pronunciation":"অধিকার","separator_after":" "},{"target":"के","bangla_pronunciation":"কে","separator_after":" "},{"target":"साथ","bangla_pronunciation":"সাথ","separator_after":" "},{"target":"निर्णय","bangla_pronunciation":"নির্ণয","separator_after":" "},{"target":"लें।","bangla_pronunciation":"লেং।","separator_after":""}],"model_meaning_bengali_md":"সর্বনিম্ন প্রয়োজনীয় অধিকার দিয়ে সিদ্ধান্ত নিন।"},{"prompt_bengali_md":"12 নম্বর বাক্যের ভাবটি হিন্দিতে বলুন।","model_target":"संवेदनशील जानकारी के लिए स्थिति समझें।","model_bangla_pronunciation":"সং঵েদনশীল জানকারী কে লিয়ে স্থিতি সমঝেং।","model_word_pronunciations":[{"target":"संवेदनशील","bangla_pronunciation":"সং঵েদনশীল","separator_after":" "},{"target":"जानकारी","bangla_pronunciation":"জানকারী","separator_after":" "},{"target":"के","bangla_pronunciation":"কে","separator_after":" "},{"target":"लिए","bangla_pronunciation":"লিয়ে","separator_after":" "},{"target":"स्थिति","bangla_pronunciation":"স্থিতি","separator_after":" "},{"target":"समझें।","bangla_pronunciation":"সমঝেং।","separator_after":""}],"model_meaning_bengali_md":"সংবেদনশীল তথ্যের জন্য পরিস্থিতি বুঝুন।"},{"prompt_bengali_md":"16 নম্বর বাক্যের ভাবটি হিন্দিতে বলুন।","model_target":"जरूरत भर डेटा लेकर अगला कदम तय करें।","model_bangla_pronunciation":"জরূরত ভর ডেটা লেকর অগলা কদম তয করেং।","model_word_pronunciations":[{"target":"जरूरत","bangla_pronunciation":"জরূরত","separator_after":" "},{"target":"भर","bangla_pronunciation":"ভর","separator_after":" "},{"target":"डेटा","bangla_pronunciation":"ডেটা","separator_after":" "},{"target":"लेकर","bangla_pronunciation":"লেকর","separator_after":" "},{"target":"अगला","bangla_pronunciation":"অগলা","separator_after":" "},{"target":"कदम","bangla_pronunciation":"কদম","separator_after":" "},{"target":"तय","bangla_pronunciation":"তয","separator_after":" "},{"target":"करें।","bangla_pronunciation":"করেং।","separator_after":""}],"model_meaning_bengali_md":"প্রয়োজনমতো ডেটা নিয়ে পরবর্তী পদক্ষেপ ঠিক করুন।"},{"prompt_bengali_md":"20 নম্বর বাক্যের ভাবটি হিন্দিতে বলুন।","model_target":"सुरक्षा को प्राथमिकता देते हुए आगे बढ़ें।","model_bangla_pronunciation":"সুরক্ষা কো প্রাথমিকতা দেতে হুয়ে আগে বঢ়েং।","model_word_pronunciations":[{"target":"सुरक्षा","bangla_pronunciation":"সুরক্ষা","separator_after":" "},{"target":"को","bangla_pronunciation":"কো","separator_after":" "},{"target":"प्राथमिकता","bangla_pronunciation":"প্রাথমিকতা","separator_after":" "},{"target":"देते","bangla_pronunciation":"দেতে","separator_after":" "},{"target":"हुए","bangla_pronunciation":"হুয়ে","separator_after":" "},{"target":"आगे","bangla_pronunciation":"আগে","separator_after":" "},{"target":"बढ़ें।","bangla_pronunciation":"বঢ়েং।","separator_after":""}],"model_meaning_bengali_md":"নিরাপত্তাকে অগ্রাধিকার দিয়ে এগোন।"}],"image_prompts":[{"key":"ch209_bridge_reading_01","reading":"bridge_reading","subject":"একটি প্রযুক্তি দল সংবেদনশীল ডেটার অ্যাক্সেস, ব্যাকআপ ও নিরাপত্তা নীতি পর্যালোচনা করছে। কয়েকজন প্রাপ্তবয়স্ক চরিত্র কাজের টেবিলে আলোচনা করছে; একজন নোট দেখাচ্ছে, অন্যরা মনোযোগ দিয়ে শুনছে। Medium-wide editorial framing, warm daylight, realistic South Asian urban context. No readable text, no labels, no signage, no watermark.","style":"Bright warm editorial illustration with natural adult characters, clean modern setting, soft daylight, uncluttered composition, clear focal point."},{"key":"ch209_target_reading_01","reading":"target_reading","subject":"একটি প্রযুক্তি দল সংবেদনশীল ডেটার অ্যাক্সেস, ব্যাকআপ ও নিরাপত্তা নীতি পর্যালোচনা করছে। একই বিষয়ের ভিন্ন মুহূর্ত: একজন ব্যক্তি একা নোট গুছিয়ে পরবর্তী পদক্ষেপ ভাবছে, পাশে প্রয়োজনীয় সাধারণ বস্তু, শান্ত ও পরিষ্কার পটভূমি। Medium close editorial framing, bright natural light. No readable text, no labels, no signage, no watermark.","style":"Bright warm editorial illustration with natural adult characters, clean modern setting, soft daylight, uncluttered composition, clear focal point."}],"additional_practice":[]}
+{
+  "chapter_id": "ch209",
+  "status": "drafted",
+  "title_target": "डेटा सुरक्षा और गोपनीयता",
+  "title_bangla_pronunciation": "ডেটা সুরক্ষা অউর গোপনীযতা",
+  "title_romanization": "detaa surakshaa aura gopaneeyataa",
+  "title_word_pronunciations": [
+    {
+      "target": "डेटा",
+      "bangla_pronunciation": "ডেটা",
+      "romanization": "data",
+      "separator_after": " "
+    },
+    {
+      "target": "सुरक्षा",
+      "bangla_pronunciation": "সুরক্ষা",
+      "romanization": "suraksha",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "romanization": "aur",
+      "separator_after": " "
+    },
+    {
+      "target": "गोपनीयता",
+      "bangla_pronunciation": "গোপনীযতা",
+      "romanization": "gopnīyatā",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "ডেটা নিরাপত্তা ও গোপনীয়তা",
+  "goal_bengali_md": "ডেটা অ্যাক্সেস, পরিচয় যাচাই, এনক্রিপশন, লগ, ব্যাকআপ, গোপনীয়তা ও নিরাপত্তা ঘটনার শব্দভান্ডার অনুশীলন করুন।",
+  "sentences": [
+    {
+      "id": "ch209_s01",
+      "target": "पहचानसत्यापन और अभिगमाधिकार जरूरी हैं।",
+      "romanization": "phcaanstyaapn aur abhigmaadhikaar jruurii haiN.",
+      "bangla_pronunciation": "পহচানসত্যাপন অউর অভিগমাধিকার জরূরী হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "पहचानसत्यापन",
+          "bangla_pronunciation": "পহচানসত্যাপন",
+          "romanization": "pahachaanasatyaapana",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "अभिगमाधिकार",
+          "bangla_pronunciation": "অভিগমাধিকার",
+          "romanization": "abhigmaadhikaar",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিচয় যাচাই এবং প্রবেশাধিকার—দুটিই জরুরি।"
+    },
+    {
+      "id": "ch209_s02",
+      "target": "कूटलेखन महत्वपूर्ण है।",
+      "romanization": "kuuttlekhn mhtvpuurnn hai.",
+      "bangla_pronunciation": "কূটলেখন মহত্঵পূর্ণ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "कूटलेखन",
+          "bangla_pronunciation": "কূটলেখন",
+          "romanization": "kootlekhn",
+          "separator_after": " "
+        },
+        {
+          "target": "महत्वपूर्ण",
+          "bangla_pronunciation": "মহত্঵পূর্ণ",
+          "romanization": "mhtvpuurnn",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এনক্রিপশন গুরুত্বপূর্ণ।"
+    },
+    {
+      "id": "ch209_s03",
+      "target": "डेटासंरक्षण और अखंडताजाँच जरूरी हैं।",
+      "romanization": "ddettaasNrkssnn aur akhNddtaajaaNc jruurii haiN.",
+      "bangla_pronunciation": "ডেটাসংরক্ষণ অউর অখংডতাজাঁচ জরূরী হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "डेटासंरक्षण",
+          "bangla_pronunciation": "ডেটাসংরক্ষণ",
+          "romanization": "ddettaasNrkssnn",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "अखंडताजाँच",
+          "bangla_pronunciation": "অখংডতাজাঁচ",
+          "romanization": "akhNddtaajaaNc",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডেটা সুরক্ষা এবং অখণ্ডতা যাচাই—দুটিই জরুরি।"
+    },
+    {
+      "id": "ch209_s04",
+      "target": "पहुँच देने से पहले काम करें।",
+      "romanization": "phuNc dene se phle kaam kreN.",
+      "bangla_pronunciation": "পহুঁচ দেনে সে পহলে কাম করেং।",
+      "word_pronunciations": [
+        {
+          "target": "पहुँच",
+          "bangla_pronunciation": "পহুঁচ",
+          "romanization": "phunc",
+          "separator_after": " "
+        },
+        {
+          "target": "देने",
+          "bangla_pronunciation": "দেনে",
+          "romanization": "dene",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "romanization": "se",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "romanization": "phle",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অ্যাক্সেস দেওয়ার আগে কাজ করুন।"
+    },
+    {
+      "id": "ch209_s05",
+      "target": "भेद्यतामूल्यांकन तथा सुरक्षापैबंदी जुड़े हुए हैं।",
+      "romanization": "bhedytaamuulyaaNkn tthaa surkssaapaibNdii judd'e hue haiN.",
+      "bangla_pronunciation": "ভেদ্যতামূল্যাংকন তথা সুরক্ষাপৈবংদী জুড়ে হুয়ে হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "भेद्यतामूल्यांकन",
+          "bangla_pronunciation": "ভেদ্যতামূল্যাংকন",
+          "romanization": "bhedytaamuulyaaNkn",
+          "separator_after": " "
+        },
+        {
+          "target": "तथा",
+          "bangla_pronunciation": "তথা",
+          "romanization": "tathaa",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षापैबंदी",
+          "bangla_pronunciation": "সুরক্ষাপৈবংদী",
+          "romanization": "surkssaapaibNdii",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़े",
+          "bangla_pronunciation": "জুড়ে",
+          "romanization": "jure",
+          "separator_after": " "
+        },
+        {
+          "target": "हुए",
+          "bangla_pronunciation": "হুয়ে",
+          "romanization": "hue",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুর্বলতা মূল্যায়ন এবং নিরাপত্তা প্যাচ প্রয়োগ পরস্পরের সঙ্গে যুক্ত।"
+    },
+    {
+      "id": "ch209_s06",
+      "target": "संस्करणनियंत्रण पर चर्चा करें।",
+      "romanization": "sNskrnnniyNtrnn pr crcaa kreN.",
+      "bangla_pronunciation": "সংস্করণনিযংত্রণ পর চর্চা করেং।",
+      "word_pronunciations": [
+        {
+          "target": "संस्करणनियंत्रण",
+          "bangla_pronunciation": "সংস্করণনিযংত্রণ",
+          "romanization": "sNskrnnniyNtrnn",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "romanization": "par",
+          "separator_after": " "
+        },
+        {
+          "target": "चर्चा",
+          "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সংস্করণ নিয়ন্ত্রণ নিয়ে আলোচনা করুন।"
+    },
+    {
+      "id": "ch209_s07",
+      "target": "बैकअपनीति तथा पुनर्स्थापनपरीक्षण जुड़े हुए हैं।",
+      "romanization": "baikapniiti tthaa punrsthaapnpriikssnn judd'e hue haiN.",
+      "bangla_pronunciation": "বৈকঅপনীতি তথা পুনর্স্থাপনপরীক্ষণ জুড়ে হুয়ে হ্যাঁয়।",
+      "word_pronunciations": [
+        {
+          "target": "बैकअपनीति",
+          "bangla_pronunciation": "বৈকঅপনীতি",
+          "romanization": "baikaapaniiti",
+          "separator_after": " "
+        },
+        {
+          "target": "तथा",
+          "bangla_pronunciation": "তথা",
+          "romanization": "tathaa",
+          "separator_after": " "
+        },
+        {
+          "target": "पुनर्स्थापनपरीक्षण",
+          "bangla_pronunciation": "পুনর্স্থাপনপরীক্ষণ",
+          "romanization": "punrsthaapnpriikssnn",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़े",
+          "bangla_pronunciation": "জুড়ে",
+          "romanization": "jure",
+          "separator_after": " "
+        },
+        {
+          "target": "हुए",
+          "bangla_pronunciation": "হুয়ে",
+          "romanization": "hue",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাকআপ নীতি এবং পুনঃস্থাপন পরীক্ষা পরস্পরের সঙ্গে যুক্ত।"
+    },
+    {
+      "id": "ch209_s08",
+      "target": "कम से कम अधिकार के साथ निर्णय लें।",
+      "romanization": "km se km adhikaar ke saath nirnny leN.",
+      "bangla_pronunciation": "কম সে কম অধিকার কে সাথ নির্ণয লেং।",
+      "word_pronunciations": [
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "romanization": "km",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "romanization": "se",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "romanization": "km",
+          "separator_after": " "
+        },
+        {
+          "target": "अधिकार",
+          "bangla_pronunciation": "অধিকার",
+          "romanization": "adhikaar",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "romanization": "ke",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
+          "separator_after": " "
+        },
+        {
+          "target": "निर्णय",
+          "bangla_pronunciation": "নির্ণয",
+          "romanization": "nirnay",
+          "separator_after": " "
+        },
+        {
+          "target": "लें।",
+          "bangla_pronunciation": "লেং।",
+          "romanization": "len.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সর্বনিম্ন প্রয়োজনীয় অধিকার দিয়ে সিদ্ধান্ত নিন।"
+    },
+    {
+      "id": "ch209_s09",
+      "target": "अभिलेखलॉग के साथ सुरक्षानिगरानी भी देखें।",
+      "romanization": "abhilekhloNg ke saath surkssaanigraanii bhii dekheN.",
+      "bangla_pronunciation": "অভিলেখল৉গ কে সাথ সুরক্ষানিগরানী ভী দেখেং।",
+      "word_pronunciations": [
+        {
+          "target": "अभिलेखलॉग",
+          "bangla_pronunciation": "অভিলেখল৉গ",
+          "romanization": "abhilekhloNg",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "romanization": "ke",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षानिगरानी",
+          "bangla_pronunciation": "সুরক্ষানিগরানী",
+          "romanization": "surkssaanigraanii",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
+          "separator_after": " "
+        },
+        {
+          "target": "देखें।",
+          "bangla_pronunciation": "দেখেং।",
+          "romanization": "dekhen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লগ রেকর্ড-এর সঙ্গে নিরাপত্তা নজরদারি-ও দেখুন।"
+    },
+    {
+      "id": "ch209_s10",
+      "target": "बहुकारकप्रमाणीकरण की समीक्षा करें।",
+      "romanization": "bhukaarkprmaanniikrnn kii smiikssaa kreN.",
+      "bangla_pronunciation": "বহুকারকপ্রমাণীকরণ কী সমীক্ষা করেং।",
+      "word_pronunciations": [
+        {
+          "target": "बहुकारकप्रमाणीकरण",
+          "bangla_pronunciation": "বহুকারকপ্রমাণীকরণ",
+          "romanization": "bhukaarkprmaanniikrnn",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "romanization": "smiikssaa",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বহুস্তরীয় যাচাই পর্যালোচনা করুন।"
+    },
+    {
+      "id": "ch209_s11",
+      "target": "अनुमतिनियंत्रण के साथ जोखिमांकन भी देखें।",
+      "romanization": "anumtiniyNtrnn ke saath jokhimaaNkn bhii dekheN.",
+      "bangla_pronunciation": "অনুমতিনিযংত্রণ কে সাথ জোখিমাংকন ভী দেখেং।",
+      "word_pronunciations": [
+        {
+          "target": "अनुमतिनियंत्रण",
+          "bangla_pronunciation": "অনুমতিনিযংত্রণ",
+          "romanization": "anumtiniyNtrnn",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "romanization": "ke",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
+          "separator_after": " "
+        },
+        {
+          "target": "जोखिमांकन",
+          "bangla_pronunciation": "জোখিমাংকন",
+          "romanization": "jokhimaankn",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
+          "separator_after": " "
+        },
+        {
+          "target": "देखें।",
+          "bangla_pronunciation": "দেখেং।",
+          "romanization": "dekhen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনুমতি নিয়ন্ত্রণ-এর সঙ্গে ঝুঁকি মূল্যায়ন-ও দেখুন।"
+    },
+    {
+      "id": "ch209_s12",
+      "target": "संवेदनशील जानकारी के लिए स्थिति समझें।",
+      "romanization": "sNvednshiil jaankaarii ke lie sthiti smjheN.",
+      "bangla_pronunciation": "সং঵েদনশীল জানকারী কে লিয়ে স্থিতি সমঝেং।",
+      "word_pronunciations": [
+        {
+          "target": "संवेदनशील",
+          "bangla_pronunciation": "সং঵েদনশীল",
+          "romanization": "sanvedanashil",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "romanization": "ke",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "romanization": "lie",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थिति",
+          "bangla_pronunciation": "স্থিতি",
+          "romanization": "sthiti",
+          "separator_after": " "
+        },
+        {
+          "target": "समझें।",
+          "bangla_pronunciation": "সমঝেং।",
+          "romanization": "samajhen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সংবেদনশীল তথ্যের জন্য পরিস্থিতি বুঝুন।"
+    },
+    {
+      "id": "ch209_s13",
+      "target": "डेटाउल्लंघन और प्रतिधारणनीति की समीक्षा करें।",
+      "romanization": "ddettaaullNghn aur prtidhaarnnniiti kii smiikssaa kreN.",
+      "bangla_pronunciation": "ডেটাউল্লংঘন অউর প্রতিধারণনীতি কী সমীক্ষা করেং।",
+      "word_pronunciations": [
+        {
+          "target": "डेटाउल्लंघन",
+          "bangla_pronunciation": "ডেটাউল্লংঘন",
+          "romanization": "ddettaaullNghn",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रतिधारणनीति",
+          "bangla_pronunciation": "প্রতিধারণনীতি",
+          "romanization": "prtidhaarnnniiti",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "romanization": "smiikssaa",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডেটা লঙ্ঘন এবং ডেটা ধরে রাখার নীতি পর্যালোচনা করুন।"
+    },
+    {
+      "id": "ch209_s14",
+      "target": "सुरक्षितमिटाव को समझें।",
+      "romanization": "surkssitmittaav ko smjheN.",
+      "bangla_pronunciation": "সুরক্ষিতমিটা঵ কো সমঝেং।",
+      "word_pronunciations": [
+        {
+          "target": "सुरक्षितमिटाव",
+          "bangla_pronunciation": "সুরক্ষিতমিটা঵",
+          "romanization": "surkssitmittaav",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "romanization": "ko",
+          "separator_after": " "
+        },
+        {
+          "target": "समझें।",
+          "bangla_pronunciation": "সমঝেং।",
+          "romanization": "samajhen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপদ মুছে ফেলা বুঝুন।"
+    },
+    {
+      "id": "ch209_s15",
+      "target": "अनामीकरण और नियमपालन की समीक्षा करें।",
+      "romanization": "anaamiikrnn aur niympaaln kii smiikssaa kreN.",
+      "bangla_pronunciation": "অনামীকরণ অউর নিযমপালন কী সমীক্ষা করেং।",
+      "word_pronunciations": [
+        {
+          "target": "अनामीकरण",
+          "bangla_pronunciation": "অনামীকরণ",
+          "romanization": "anaamiikrnn",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमपालन",
+          "bangla_pronunciation": "নিযমপালন",
+          "romanization": "niympaaln",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "romanization": "smiikssaa",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিচয়হীনকরণ এবং নীতিমালা মেনে চলা পর্যালোচনা করুন।"
+    },
+    {
+      "id": "ch209_s16",
+      "target": "जरूरत भर डेटा लेकर अगला कदम तय करें।",
+      "romanization": "jruurt bhr ddettaa lekr aglaa kdm ty kreN.",
+      "bangla_pronunciation": "জরূরত ভর ডেটা লেকর অগলা কদম তয করেং।",
+      "word_pronunciations": [
+        {
+          "target": "जरूरत",
+          "bangla_pronunciation": "জরূরত",
+          "romanization": "jaroorat",
+          "separator_after": " "
+        },
+        {
+          "target": "भर",
+          "bangla_pronunciation": "ভর",
+          "romanization": "bhar",
+          "separator_after": " "
+        },
+        {
+          "target": "डेटा",
+          "bangla_pronunciation": "ডেটা",
+          "romanization": "data",
+          "separator_after": " "
+        },
+        {
+          "target": "लेकर",
+          "bangla_pronunciation": "লেকর",
+          "romanization": "lekar",
+          "separator_after": " "
+        },
+        {
+          "target": "अगला",
+          "bangla_pronunciation": "অগলা",
+          "romanization": "aglaa",
+          "separator_after": " "
+        },
+        {
+          "target": "कदम",
+          "bangla_pronunciation": "কদম",
+          "romanization": "kadam",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয",
+          "romanization": "tay",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রয়োজনমতো ডেটা নিয়ে পরবর্তী পদক্ষেপ ঠিক করুন।"
+    },
+    {
+      "id": "ch209_s17",
+      "target": "डेटापोर्टेबिलिटी तथा उपयोगकर्तासहमति में संतुलन रखें।",
+      "romanization": "ddettaaporttebilittii tthaa upyogkrtaashmti meN sNtuln rkheN.",
+      "bangla_pronunciation": "ডেটাপোর্টেবিলিটী তথা উপযোগকর্তাসহমতি মেঁ সংতুলন রখেং।",
+      "word_pronunciations": [
+        {
+          "target": "डेटापोर्टेबिलिटी",
+          "bangla_pronunciation": "ডেটাপোর্টেবিলিটী",
+          "romanization": "ddettaaporttebilittii",
+          "separator_after": " "
+        },
+        {
+          "target": "तथा",
+          "bangla_pronunciation": "তথা",
+          "romanization": "tathaa",
+          "separator_after": " "
+        },
+        {
+          "target": "उपयोगकर्तासहमति",
+          "bangla_pronunciation": "উপযোগকর্তাসহমতি",
+          "romanization": "upayogakartaasahamati",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "संतुलन",
+          "bangla_pronunciation": "সংতুলন",
+          "romanization": "sntuln",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেং।",
+          "romanization": "rakhen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডেটা স্থানান্তরযোগ্যতা এবং ব্যবহারকারীর সম্মতি-এর মধ্যে ভারসাম্য রাখুন।"
+    },
+    {
+      "id": "ch209_s18",
+      "target": "अनुरेखण पर ध्यान दें।",
+      "romanization": "anurekhnn pr dhyaan deN.",
+      "bangla_pronunciation": "অনুরেখণ পর ধ্যান দেং।",
+      "word_pronunciations": [
+        {
+          "target": "अनुरेखण",
+          "bangla_pronunciation": "অনুরেখণ",
+          "romanization": "anurekhana",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "romanization": "par",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "romanization": "den.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ট্রেসযোগ্যতা নিয়ে নজর দিন।"
+    },
+    {
+      "id": "ch209_s19",
+      "target": "प्रणालीप्रत्यास्थता तथा घटनाप्रतिक्रिया में संतुलन रखें।",
+      "romanization": "prnnaaliiprtyaasthtaa tthaa ghttnaaprtikriyaa meN sNtuln rkheN.",
+      "bangla_pronunciation": "প্রণালীপ্রত্যাস্থতা তথা ঘটনাপ্রতিক্রিযা মেঁ সংতুলন রখেং।",
+      "word_pronunciations": [
+        {
+          "target": "प्रणालीप्रत्यास्थता",
+          "bangla_pronunciation": "প্রণালীপ্রত্যাস্থতা",
+          "romanization": "prnnaaliiprtyaasthtaa",
+          "separator_after": " "
+        },
+        {
+          "target": "तथा",
+          "bangla_pronunciation": "তথা",
+          "romanization": "tathaa",
+          "separator_after": " "
+        },
+        {
+          "target": "घटनाप्रतिक्रिया",
+          "bangla_pronunciation": "ঘটনাপ্রতিক্রিযা",
+          "romanization": "ghatanaapratikriyaa",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "संतुलन",
+          "bangla_pronunciation": "সংতুলন",
+          "romanization": "sntuln",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেং।",
+          "romanization": "rakhen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সিস্টেমের স্থিতিস্থাপকতা এবং নিরাপত্তা ঘটনার প্রতিক্রিয়া-এর মধ্যে ভারসাম্য রাখুন।"
+    },
+    {
+      "id": "ch209_s20",
+      "target": "सुरक्षा को प्राथमिकता देते हुए आगे बढ़ें।",
+      "romanization": "surkssaa ko praathmiktaa dete hue aage bddh'eN.",
+      "bangla_pronunciation": "সুরক্ষা কো প্রাথমিকতা দেতে হুয়ে আগে বঢ়েং।",
+      "word_pronunciations": [
+        {
+          "target": "सुरक्षा",
+          "bangla_pronunciation": "সুরক্ষা",
+          "romanization": "suraksha",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "romanization": "ko",
+          "separator_after": " "
+        },
+        {
+          "target": "प्राथमिकता",
+          "bangla_pronunciation": "প্রাথমিকতা",
+          "romanization": "praathmiktaa",
+          "separator_after": " "
+        },
+        {
+          "target": "देते",
+          "bangla_pronunciation": "দেতে",
+          "romanization": "dete",
+          "separator_after": " "
+        },
+        {
+          "target": "हुए",
+          "bangla_pronunciation": "হুয়ে",
+          "romanization": "hue",
+          "separator_after": " "
+        },
+        {
+          "target": "आगे",
+          "bangla_pronunciation": "আগে",
+          "romanization": "aage",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़ें।",
+          "bangla_pronunciation": "বঢ়েং।",
+          "romanization": "barhen.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপত্তাকে অগ্রাধিকার দিয়ে এগোন।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v06241",
+      "target": "पहचानसत्यापन",
+      "category": "word",
+      "type": "noun",
+      "romanization": "phcaanstyaapn",
+      "bangla_pronunciation": "পহচানসত্যাপন",
+      "word_pronunciations": [
+        {
+          "target": "पहचानसत्यापन",
+          "bangla_pronunciation": "পহচানসত্যাপন",
+          "romanization": "pahachaanasatyaapana",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিচয় যাচাই",
+      "source_sentence_id": "ch209_s01",
+      "source_form": "पहचानसत्यापन",
+      "example_target": "पहचानसत्यापन और अभिगमाधिकार जरूरी हैं।",
+      "example_bangla_pronunciation": "পহচানসত্যাপন অউর অভিগমাধিকার জরূরী হ্যাঁয়।",
+      "example_romanization": "phcaanstyaapn aur abhigmaadhikaar jruurii haiN.",
+      "example_word_pronunciations": [
+        {
+          "target": "पहचानसत्यापन",
+          "bangla_pronunciation": "পহচানসত্যাপন",
+          "romanization": "pahachaanasatyaapana",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "अभिगमाधिकार",
+          "bangla_pronunciation": "অভিগমাধিকার",
+          "romanization": "abhigmaadhikaar",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পরিচয় যাচাই এবং প্রবেশাধিকার—দুটিই জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v06242",
+      "target": "अभिगमाधिकार",
+      "category": "word",
+      "type": "noun",
+      "romanization": "abhigmaadhikaar",
+      "bangla_pronunciation": "অভিগমাধিকার",
+      "word_pronunciations": [
+        {
+          "target": "अभिगमाधिकार",
+          "bangla_pronunciation": "অভিগমাধিকার",
+          "romanization": "abhigmaadhikaar",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রবেশাধিকার",
+      "source_sentence_id": "ch209_s01",
+      "source_form": "अभिगमाधिकार",
+      "example_target": "पहचानसत्यापन और अभिगमाधिकार जरूरी हैं।",
+      "example_bangla_pronunciation": "পহচানসত্যাপন অউর অভিগমাধিকার জরূরী হ্যাঁয়।",
+      "example_romanization": "phcaanstyaapn aur abhigmaadhikaar jruurii haiN.",
+      "example_word_pronunciations": [
+        {
+          "target": "पहचानसत्यापन",
+          "bangla_pronunciation": "পহচানসত্যাপন",
+          "romanization": "pahachaanasatyaapana",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "अभिगमाधिकार",
+          "bangla_pronunciation": "অভিগমাধিকার",
+          "romanization": "abhigmaadhikaar",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পরিচয় যাচাই এবং প্রবেশাধিকার—দুটিই জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v06243",
+      "target": "कूटलेखन",
+      "category": "word",
+      "type": "noun",
+      "romanization": "kuuttlekhn",
+      "bangla_pronunciation": "কূটলেখন",
+      "word_pronunciations": [
+        {
+          "target": "कूटलेखन",
+          "bangla_pronunciation": "কূটলেখন",
+          "romanization": "kootlekhn",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এনক্রিপশন",
+      "source_sentence_id": "ch209_s02",
+      "source_form": "कूटलेखन",
+      "example_target": "कूटलेखन महत्वपूर्ण है।",
+      "example_bangla_pronunciation": "কূটলেখন মহত্঵পূর্ণ হ্যায়।",
+      "example_romanization": "kuuttlekhn mhtvpuurnn hai.",
+      "example_word_pronunciations": [
+        {
+          "target": "कूटलेखन",
+          "bangla_pronunciation": "কূটলেখন",
+          "romanization": "kootlekhn",
+          "separator_after": " "
+        },
+        {
+          "target": "महत्वपूर्ण",
+          "bangla_pronunciation": "মহত্঵পূর্ণ",
+          "romanization": "mhtvpuurnn",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এনক্রিপশন গুরুত্বপূর্ণ।",
+      "synonyms": []
+    },
+    {
+      "id": "v06244",
+      "target": "डेटासंरक्षण",
+      "category": "word",
+      "type": "noun",
+      "romanization": "ddettaasNrkssnn",
+      "bangla_pronunciation": "ডেটাসংরক্ষণ",
+      "word_pronunciations": [
+        {
+          "target": "डेटासंरक्षण",
+          "bangla_pronunciation": "ডেটাসংরক্ষণ",
+          "romanization": "ddettaasNrkssnn",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডেটা সুরক্ষা",
+      "source_sentence_id": "ch209_s03",
+      "source_form": "डेटासंरक्षण",
+      "example_target": "डेटासंरक्षण और अखंडताजाँच जरूरी हैं।",
+      "example_bangla_pronunciation": "ডেটাসংরক্ষণ অউর অখংডতাজাঁচ জরূরী হ্যাঁয়।",
+      "example_romanization": "ddettaasNrkssnn aur akhNddtaajaaNc jruurii haiN.",
+      "example_word_pronunciations": [
+        {
+          "target": "डेटासंरक्षण",
+          "bangla_pronunciation": "ডেটাসংরক্ষণ",
+          "romanization": "ddettaasNrkssnn",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "अखंडताजाँच",
+          "bangla_pronunciation": "অখংডতাজাঁচ",
+          "romanization": "akhNddtaajaaNc",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ডেটা সুরক্ষা এবং অখণ্ডতা যাচাই—দুটিই জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v06245",
+      "target": "अखंडताजाँच",
+      "category": "word",
+      "type": "noun",
+      "romanization": "akhNddtaajaaNc",
+      "bangla_pronunciation": "অখংডতাজাঁচ",
+      "word_pronunciations": [
+        {
+          "target": "अखंडताजाँच",
+          "bangla_pronunciation": "অখংডতাজাঁচ",
+          "romanization": "akhNddtaajaaNc",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অখণ্ডতা যাচাই",
+      "source_sentence_id": "ch209_s03",
+      "source_form": "अखंडताजाँच",
+      "example_target": "डेटासंरक्षण और अखंडताजाँच जरूरी हैं।",
+      "example_bangla_pronunciation": "ডেটাসংরক্ষণ অউর অখংডতাজাঁচ জরূরী হ্যাঁয়।",
+      "example_romanization": "ddettaasNrkssnn aur akhNddtaajaaNc jruurii haiN.",
+      "example_word_pronunciations": [
+        {
+          "target": "डेटासंरक्षण",
+          "bangla_pronunciation": "ডেটাসংরক্ষণ",
+          "romanization": "ddettaasNrkssnn",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "अखंडताजाँच",
+          "bangla_pronunciation": "অখংডতাজাঁচ",
+          "romanization": "akhNddtaajaaNc",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ডেটা সুরক্ষা এবং অখণ্ডতা যাচাই—দুটিই জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v06246",
+      "target": "पहुँच देने से पहले",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "phuNc dene se phle",
+      "bangla_pronunciation": "পহুঁচ দেনে সে পহলে",
+      "word_pronunciations": [
+        {
+          "target": "पहुँच",
+          "bangla_pronunciation": "পহুঁচ",
+          "romanization": "phunc",
+          "separator_after": " "
+        },
+        {
+          "target": "देने",
+          "bangla_pronunciation": "দেনে",
+          "romanization": "dene",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "romanization": "se",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "romanization": "phle",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অ্যাক্সেস দেওয়ার আগে",
+      "source_sentence_id": "ch209_s04",
+      "source_form": "पहुँच देने से पहले",
+      "example_target": "पहुँच देने से पहले काम करें।",
+      "example_bangla_pronunciation": "পহুঁচ দেনে সে পহলে কাম করেং।",
+      "example_romanization": "phuNc dene se phle kaam kreN.",
+      "example_word_pronunciations": [
+        {
+          "target": "पहुँच",
+          "bangla_pronunciation": "পহুঁচ",
+          "romanization": "phunc",
+          "separator_after": " "
+        },
+        {
+          "target": "देने",
+          "bangla_pronunciation": "দেনে",
+          "romanization": "dene",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "romanization": "se",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "romanization": "phle",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "অ্যাক্সেস দেওয়ার আগে কাজ করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06247",
+      "target": "भेद्यतामूल्यांकन",
+      "category": "word",
+      "type": "noun",
+      "romanization": "bhedytaamuulyaaNkn",
+      "bangla_pronunciation": "ভেদ্যতামূল্যাংকন",
+      "word_pronunciations": [
+        {
+          "target": "भेद्यतामूल्यांकन",
+          "bangla_pronunciation": "ভেদ্যতামূল্যাংকন",
+          "romanization": "bhedytaamuulyaaNkn",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুর্বলতা মূল্যায়ন",
+      "source_sentence_id": "ch209_s05",
+      "source_form": "भेद्यतामूल्यांकन",
+      "example_target": "भेद्यतामूल्यांकन तथा सुरक्षापैबंदी जुड़े हुए हैं।",
+      "example_bangla_pronunciation": "ভেদ্যতামূল্যাংকন তথা সুরক্ষাপৈবংদী জুড়ে হুয়ে হ্যাঁয়।",
+      "example_romanization": "bhedytaamuulyaaNkn tthaa surkssaapaibNdii judd'e hue haiN.",
+      "example_word_pronunciations": [
+        {
+          "target": "भेद्यतामूल्यांकन",
+          "bangla_pronunciation": "ভেদ্যতামূল্যাংকন",
+          "romanization": "bhedytaamuulyaaNkn",
+          "separator_after": " "
+        },
+        {
+          "target": "तथा",
+          "bangla_pronunciation": "তথা",
+          "romanization": "tathaa",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षापैबंदी",
+          "bangla_pronunciation": "সুরক্ষাপৈবংদী",
+          "romanization": "surkssaapaibNdii",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़े",
+          "bangla_pronunciation": "জুড়ে",
+          "romanization": "jure",
+          "separator_after": " "
+        },
+        {
+          "target": "हुए",
+          "bangla_pronunciation": "হুয়ে",
+          "romanization": "hue",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দুর্বলতা মূল্যায়ন এবং নিরাপত্তা প্যাচ প্রয়োগ পরস্পরের সঙ্গে যুক্ত।",
+      "synonyms": []
+    },
+    {
+      "id": "v06248",
+      "target": "सुरक्षापैबंदी",
+      "category": "word",
+      "type": "noun",
+      "romanization": "surkssaapaibNdii",
+      "bangla_pronunciation": "সুরক্ষাপৈবংদী",
+      "word_pronunciations": [
+        {
+          "target": "सुरक्षापैबंदी",
+          "bangla_pronunciation": "সুরক্ষাপৈবংদী",
+          "romanization": "surkssaapaibNdii",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপত্তা প্যাচ প্রয়োগ",
+      "source_sentence_id": "ch209_s05",
+      "source_form": "सुरक्षापैबंदी",
+      "example_target": "भेद्यतामूल्यांकन तथा सुरक्षापैबंदी जुड़े हुए हैं।",
+      "example_bangla_pronunciation": "ভেদ্যতামূল্যাংকন তথা সুরক্ষাপৈবংদী জুড়ে হুয়ে হ্যাঁয়।",
+      "example_romanization": "bhedytaamuulyaaNkn tthaa surkssaapaibNdii judd'e hue haiN.",
+      "example_word_pronunciations": [
+        {
+          "target": "भेद्यतामूल्यांकन",
+          "bangla_pronunciation": "ভেদ্যতামূল্যাংকন",
+          "romanization": "bhedytaamuulyaaNkn",
+          "separator_after": " "
+        },
+        {
+          "target": "तथा",
+          "bangla_pronunciation": "তথা",
+          "romanization": "tathaa",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षापैबंदी",
+          "bangla_pronunciation": "সুরক্ষাপৈবংদী",
+          "romanization": "surkssaapaibNdii",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़े",
+          "bangla_pronunciation": "জুড়ে",
+          "romanization": "jure",
+          "separator_after": " "
+        },
+        {
+          "target": "हुए",
+          "bangla_pronunciation": "হুয়ে",
+          "romanization": "hue",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দুর্বলতা মূল্যায়ন এবং নিরাপত্তা প্যাচ প্রয়োগ পরস্পরের সঙ্গে যুক্ত।",
+      "synonyms": []
+    },
+    {
+      "id": "v06249",
+      "target": "संस्करणनियंत्रण",
+      "category": "word",
+      "type": "noun",
+      "romanization": "sNskrnnniyNtrnn",
+      "bangla_pronunciation": "সংস্করণনিযংত্রণ",
+      "word_pronunciations": [
+        {
+          "target": "संस्करणनियंत्रण",
+          "bangla_pronunciation": "সংস্করণনিযংত্রণ",
+          "romanization": "sNskrnnniyNtrnn",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সংস্করণ নিয়ন্ত্রণ",
+      "source_sentence_id": "ch209_s06",
+      "source_form": "संस्करणनियंत्रण",
+      "example_target": "संस्करणनियंत्रण पर चर्चा करें।",
+      "example_bangla_pronunciation": "সংস্করণনিযংত্রণ পর চর্চা করেং।",
+      "example_romanization": "sNskrnnniyNtrnn pr crcaa kreN.",
+      "example_word_pronunciations": [
+        {
+          "target": "संस्करणनियंत्रण",
+          "bangla_pronunciation": "সংস্করণনিযংত্রণ",
+          "romanization": "sNskrnnniyNtrnn",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "romanization": "par",
+          "separator_after": " "
+        },
+        {
+          "target": "चर्चा",
+          "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সংস্করণ নিয়ন্ত্রণ নিয়ে আলোচনা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06250",
+      "target": "बैकअपनीति",
+      "category": "word",
+      "type": "noun",
+      "romanization": "baikapniiti",
+      "bangla_pronunciation": "বৈকঅপনীতি",
+      "word_pronunciations": [
+        {
+          "target": "बैकअपनीति",
+          "bangla_pronunciation": "বৈকঅপনীতি",
+          "romanization": "baikaapaniiti",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাকআপ নীতি",
+      "source_sentence_id": "ch209_s07",
+      "source_form": "बैकअपनीति",
+      "example_target": "बैकअपनीति तथा पुनर्स्थापनपरीक्षण जुड़े हुए हैं।",
+      "example_bangla_pronunciation": "বৈকঅপনীতি তথা পুনর্স্থাপনপরীক্ষণ জুড়ে হুয়ে হ্যাঁয়।",
+      "example_romanization": "baikapniiti tthaa punrsthaapnpriikssnn judd'e hue haiN.",
+      "example_word_pronunciations": [
+        {
+          "target": "बैकअपनीति",
+          "bangla_pronunciation": "বৈকঅপনীতি",
+          "romanization": "baikaapaniiti",
+          "separator_after": " "
+        },
+        {
+          "target": "तथा",
+          "bangla_pronunciation": "তথা",
+          "romanization": "tathaa",
+          "separator_after": " "
+        },
+        {
+          "target": "पुनर्स्थापनपरीक्षण",
+          "bangla_pronunciation": "পুনর্স্থাপনপরীক্ষণ",
+          "romanization": "punrsthaapnpriikssnn",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़े",
+          "bangla_pronunciation": "জুড়ে",
+          "romanization": "jure",
+          "separator_after": " "
+        },
+        {
+          "target": "हुए",
+          "bangla_pronunciation": "হুয়ে",
+          "romanization": "hue",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ব্যাকআপ নীতি এবং পুনঃস্থাপন পরীক্ষা পরস্পরের সঙ্গে যুক্ত।",
+      "synonyms": []
+    },
+    {
+      "id": "v06251",
+      "target": "पुनर्स्थापनपरीक्षण",
+      "category": "word",
+      "type": "noun",
+      "romanization": "punrsthaapnpriikssnn",
+      "bangla_pronunciation": "পুনর্স্থাপনপরীক্ষণ",
+      "word_pronunciations": [
+        {
+          "target": "पुनर्स्थापनपरीक्षण",
+          "bangla_pronunciation": "পুনর্স্থাপনপরীক্ষণ",
+          "romanization": "punrsthaapnpriikssnn",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পুনঃস্থাপন পরীক্ষা",
+      "source_sentence_id": "ch209_s07",
+      "source_form": "पुनर्स्थापनपरीक्षण",
+      "example_target": "बैकअपनीति तथा पुनर्स्थापनपरीक्षण जुड़े हुए हैं।",
+      "example_bangla_pronunciation": "বৈকঅপনীতি তথা পুনর্স্থাপনপরীক্ষণ জুড়ে হুয়ে হ্যাঁয়।",
+      "example_romanization": "baikapniiti tthaa punrsthaapnpriikssnn judd'e hue haiN.",
+      "example_word_pronunciations": [
+        {
+          "target": "बैकअपनीति",
+          "bangla_pronunciation": "বৈকঅপনীতি",
+          "romanization": "baikaapaniiti",
+          "separator_after": " "
+        },
+        {
+          "target": "तथा",
+          "bangla_pronunciation": "তথা",
+          "romanization": "tathaa",
+          "separator_after": " "
+        },
+        {
+          "target": "पुनर्स्थापनपरीक्षण",
+          "bangla_pronunciation": "পুনর্স্থাপনপরীক্ষণ",
+          "romanization": "punrsthaapnpriikssnn",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़े",
+          "bangla_pronunciation": "জুড়ে",
+          "romanization": "jure",
+          "separator_after": " "
+        },
+        {
+          "target": "हुए",
+          "bangla_pronunciation": "হুয়ে",
+          "romanization": "hue",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ব্যাকআপ নীতি এবং পুনঃস্থাপন পরীক্ষা পরস্পরের সঙ্গে যুক্ত।",
+      "synonyms": []
+    },
+    {
+      "id": "v06252",
+      "target": "कम से कम अधिकार के साथ",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "km se km adhikaar ke saath",
+      "bangla_pronunciation": "কম সে কম অধিকার কে সাথ",
+      "word_pronunciations": [
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "romanization": "km",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "romanization": "se",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "romanization": "km",
+          "separator_after": " "
+        },
+        {
+          "target": "अधिकार",
+          "bangla_pronunciation": "অধিকার",
+          "romanization": "adhikaar",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "romanization": "ke",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সর্বনিম্ন প্রয়োজনীয় অধিকার দিয়ে",
+      "source_sentence_id": "ch209_s08",
+      "source_form": "कम से कम अधिकार के साथ",
+      "example_target": "कम से कम अधिकार के साथ निर्णय लें।",
+      "example_bangla_pronunciation": "কম সে কম অধিকার কে সাথ নির্ণয লেং।",
+      "example_romanization": "km se km adhikaar ke saath nirnny leN.",
+      "example_word_pronunciations": [
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "romanization": "km",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "romanization": "se",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "romanization": "km",
+          "separator_after": " "
+        },
+        {
+          "target": "अधिकार",
+          "bangla_pronunciation": "অধিকার",
+          "romanization": "adhikaar",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "romanization": "ke",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
+          "separator_after": " "
+        },
+        {
+          "target": "निर्णय",
+          "bangla_pronunciation": "নির্ণয",
+          "romanization": "nirnay",
+          "separator_after": " "
+        },
+        {
+          "target": "लें।",
+          "bangla_pronunciation": "লেং।",
+          "romanization": "len.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সর্বনিম্ন প্রয়োজনীয় অধিকার দিয়ে সিদ্ধান্ত নিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06253",
+      "target": "अभिलेखलॉग",
+      "category": "word",
+      "type": "noun",
+      "romanization": "abhilekhloNg",
+      "bangla_pronunciation": "অভিলেখল৉গ",
+      "word_pronunciations": [
+        {
+          "target": "अभिलेखलॉग",
+          "bangla_pronunciation": "অভিলেখল৉গ",
+          "romanization": "abhilekhloNg",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লগ রেকর্ড",
+      "source_sentence_id": "ch209_s09",
+      "source_form": "अभिलेखलॉग",
+      "example_target": "अभिलेखलॉग के साथ सुरक्षानिगरानी भी देखें।",
+      "example_bangla_pronunciation": "অভিলেখল৉গ কে সাথ সুরক্ষানিগরানী ভী দেখেং।",
+      "example_romanization": "abhilekhloNg ke saath surkssaanigraanii bhii dekheN.",
+      "example_word_pronunciations": [
+        {
+          "target": "अभिलेखलॉग",
+          "bangla_pronunciation": "অভিলেখল৉গ",
+          "romanization": "abhilekhloNg",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "romanization": "ke",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षानिगरानी",
+          "bangla_pronunciation": "সুরক্ষানিগরানী",
+          "romanization": "surkssaanigraanii",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
+          "separator_after": " "
+        },
+        {
+          "target": "देखें।",
+          "bangla_pronunciation": "দেখেং।",
+          "romanization": "dekhen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "লগ রেকর্ড-এর সঙ্গে নিরাপত্তা নজরদারি-ও দেখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06254",
+      "target": "सुरक्षानिगरानी",
+      "category": "word",
+      "type": "noun",
+      "romanization": "surkssaanigraanii",
+      "bangla_pronunciation": "সুরক্ষানিগরানী",
+      "word_pronunciations": [
+        {
+          "target": "सुरक्षानिगरानी",
+          "bangla_pronunciation": "সুরক্ষানিগরানী",
+          "romanization": "surkssaanigraanii",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপত্তা নজরদারি",
+      "source_sentence_id": "ch209_s09",
+      "source_form": "सुरक्षानिगरानी",
+      "example_target": "अभिलेखलॉग के साथ सुरक्षानिगरानी भी देखें।",
+      "example_bangla_pronunciation": "অভিলেখল৉গ কে সাথ সুরক্ষানিগরানী ভী দেখেং।",
+      "example_romanization": "abhilekhloNg ke saath surkssaanigraanii bhii dekheN.",
+      "example_word_pronunciations": [
+        {
+          "target": "अभिलेखलॉग",
+          "bangla_pronunciation": "অভিলেখল৉গ",
+          "romanization": "abhilekhloNg",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "romanization": "ke",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षानिगरानी",
+          "bangla_pronunciation": "সুরক্ষানিগরানী",
+          "romanization": "surkssaanigraanii",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
+          "separator_after": " "
+        },
+        {
+          "target": "देखें।",
+          "bangla_pronunciation": "দেখেং।",
+          "romanization": "dekhen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "লগ রেকর্ড-এর সঙ্গে নিরাপত্তা নজরদারি-ও দেখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06255",
+      "target": "बहुकारकप्रमाणीकरण",
+      "category": "word",
+      "type": "noun",
+      "romanization": "bhukaarkprmaanniikrnn",
+      "bangla_pronunciation": "বহুকারকপ্রমাণীকরণ",
+      "word_pronunciations": [
+        {
+          "target": "बहुकारकप्रमाणीकरण",
+          "bangla_pronunciation": "বহুকারকপ্রমাণীকরণ",
+          "romanization": "bhukaarkprmaanniikrnn",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বহুস্তরীয় যাচাই",
+      "source_sentence_id": "ch209_s10",
+      "source_form": "बहुकारकप्रमाणीकरण",
+      "example_target": "बहुकारकप्रमाणीकरण की समीक्षा करें।",
+      "example_bangla_pronunciation": "বহুকারকপ্রমাণীকরণ কী সমীক্ষা করেং।",
+      "example_romanization": "bhukaarkprmaanniikrnn kii smiikssaa kreN.",
+      "example_word_pronunciations": [
+        {
+          "target": "बहुकारकप्रमाणीकरण",
+          "bangla_pronunciation": "বহুকারকপ্রমাণীকরণ",
+          "romanization": "bhukaarkprmaanniikrnn",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "romanization": "smiikssaa",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বহুস্তরীয় যাচাই পর্যালোচনা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06256",
+      "target": "अनुमतिनियंत्रण",
+      "category": "word",
+      "type": "noun",
+      "romanization": "anumtiniyNtrnn",
+      "bangla_pronunciation": "অনুমতিনিযংত্রণ",
+      "word_pronunciations": [
+        {
+          "target": "अनुमतिनियंत्रण",
+          "bangla_pronunciation": "অনুমতিনিযংত্রণ",
+          "romanization": "anumtiniyNtrnn",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনুমতি নিয়ন্ত্রণ",
+      "source_sentence_id": "ch209_s11",
+      "source_form": "अनुमतिनियंत्रण",
+      "example_target": "अनुमतिनियंत्रण के साथ जोखिमांकन भी देखें।",
+      "example_bangla_pronunciation": "অনুমতিনিযংত্রণ কে সাথ জোখিমাংকন ভী দেখেং।",
+      "example_romanization": "anumtiniyNtrnn ke saath jokhimaaNkn bhii dekheN.",
+      "example_word_pronunciations": [
+        {
+          "target": "अनुमतिनियंत्रण",
+          "bangla_pronunciation": "অনুমতিনিযংত্রণ",
+          "romanization": "anumtiniyNtrnn",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "romanization": "ke",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
+          "separator_after": " "
+        },
+        {
+          "target": "जोखिमांकन",
+          "bangla_pronunciation": "জোখিমাংকন",
+          "romanization": "jokhimaankn",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
+          "separator_after": " "
+        },
+        {
+          "target": "देखें।",
+          "bangla_pronunciation": "দেখেং।",
+          "romanization": "dekhen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "অনুমতি নিয়ন্ত্রণ-এর সঙ্গে ঝুঁকি মূল্যায়ন-ও দেখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06257",
+      "target": "जोखिमांकन",
+      "category": "word",
+      "type": "noun",
+      "romanization": "jokhimaaNkn",
+      "bangla_pronunciation": "জোখিমাংকন",
+      "word_pronunciations": [
+        {
+          "target": "जोखिमांकन",
+          "bangla_pronunciation": "জোখিমাংকন",
+          "romanization": "jokhimaankn",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঝুঁকি মূল্যায়ন",
+      "source_sentence_id": "ch209_s11",
+      "source_form": "जोखिमांकन",
+      "example_target": "अनुमतिनियंत्रण के साथ जोखिमांकन भी देखें।",
+      "example_bangla_pronunciation": "অনুমতিনিযংত্রণ কে সাথ জোখিমাংকন ভী দেখেং।",
+      "example_romanization": "anumtiniyNtrnn ke saath jokhimaaNkn bhii dekheN.",
+      "example_word_pronunciations": [
+        {
+          "target": "अनुमतिनियंत्रण",
+          "bangla_pronunciation": "অনুমতিনিযংত্রণ",
+          "romanization": "anumtiniyNtrnn",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "romanization": "ke",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
+          "separator_after": " "
+        },
+        {
+          "target": "जोखिमांकन",
+          "bangla_pronunciation": "জোখিমাংকন",
+          "romanization": "jokhimaankn",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
+          "separator_after": " "
+        },
+        {
+          "target": "देखें।",
+          "bangla_pronunciation": "দেখেং।",
+          "romanization": "dekhen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "অনুমতি নিয়ন্ত্রণ-এর সঙ্গে ঝুঁকি মূল্যায়ন-ও দেখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06258",
+      "target": "संवेदनशील जानकारी के लिए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "sNvednshiil jaankaarii ke lie",
+      "bangla_pronunciation": "সং঵েদনশীল জানকারী কে লিয়ে",
+      "word_pronunciations": [
+        {
+          "target": "संवेदनशील",
+          "bangla_pronunciation": "সং঵েদনশীল",
+          "romanization": "sanvedanashil",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "romanization": "ke",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "romanization": "lie",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সংবেদনশীল তথ্যের জন্য",
+      "source_sentence_id": "ch209_s12",
+      "source_form": "संवेदनशील जानकारी के लिए",
+      "example_target": "संवेदनशील जानकारी के लिए स्थिति समझें।",
+      "example_bangla_pronunciation": "সং঵েদনশীল জানকারী কে লিয়ে স্থিতি সমঝেং।",
+      "example_romanization": "sNvednshiil jaankaarii ke lie sthiti smjheN.",
+      "example_word_pronunciations": [
+        {
+          "target": "संवेदनशील",
+          "bangla_pronunciation": "সং঵েদনশীল",
+          "romanization": "sanvedanashil",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "romanization": "ke",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "romanization": "lie",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थिति",
+          "bangla_pronunciation": "স্থিতি",
+          "romanization": "sthiti",
+          "separator_after": " "
+        },
+        {
+          "target": "समझें।",
+          "bangla_pronunciation": "সমঝেং।",
+          "romanization": "samajhen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সংবেদনশীল তথ্যের জন্য পরিস্থিতি বুঝুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06259",
+      "target": "डेटाउल्लंघन",
+      "category": "word",
+      "type": "noun",
+      "romanization": "ddettaaullNghn",
+      "bangla_pronunciation": "ডেটাউল্লংঘন",
+      "word_pronunciations": [
+        {
+          "target": "डेटाउल्लंघन",
+          "bangla_pronunciation": "ডেটাউল্লংঘন",
+          "romanization": "ddettaaullNghn",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডেটা লঙ্ঘন",
+      "source_sentence_id": "ch209_s13",
+      "source_form": "डेटाउल्लंघन",
+      "example_target": "डेटाउल्लंघन और प्रतिधारणनीति की समीक्षा करें।",
+      "example_bangla_pronunciation": "ডেটাউল্লংঘন অউর প্রতিধারণনীতি কী সমীক্ষা করেং।",
+      "example_romanization": "ddettaaullNghn aur prtidhaarnnniiti kii smiikssaa kreN.",
+      "example_word_pronunciations": [
+        {
+          "target": "डेटाउल्लंघन",
+          "bangla_pronunciation": "ডেটাউল্লংঘন",
+          "romanization": "ddettaaullNghn",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रतिधारणनीति",
+          "bangla_pronunciation": "প্রতিধারণনীতি",
+          "romanization": "prtidhaarnnniiti",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "romanization": "smiikssaa",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ডেটা লঙ্ঘন এবং ডেটা ধরে রাখার নীতি পর্যালোচনা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06260",
+      "target": "प्रतिधारणनीति",
+      "category": "word",
+      "type": "noun",
+      "romanization": "prtidhaarnnniiti",
+      "bangla_pronunciation": "প্রতিধারণনীতি",
+      "word_pronunciations": [
+        {
+          "target": "प्रतिधारणनीति",
+          "bangla_pronunciation": "প্রতিধারণনীতি",
+          "romanization": "prtidhaarnnniiti",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডেটা ধরে রাখার নীতি",
+      "source_sentence_id": "ch209_s13",
+      "source_form": "प्रतिधारणनीति",
+      "example_target": "डेटाउल्लंघन और प्रतिधारणनीति की समीक्षा करें।",
+      "example_bangla_pronunciation": "ডেটাউল্লংঘন অউর প্রতিধারণনীতি কী সমীক্ষা করেং।",
+      "example_romanization": "ddettaaullNghn aur prtidhaarnnniiti kii smiikssaa kreN.",
+      "example_word_pronunciations": [
+        {
+          "target": "डेटाउल्लंघन",
+          "bangla_pronunciation": "ডেটাউল্লংঘন",
+          "romanization": "ddettaaullNghn",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रतिधारणनीति",
+          "bangla_pronunciation": "প্রতিধারণনীতি",
+          "romanization": "prtidhaarnnniiti",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "romanization": "smiikssaa",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ডেটা লঙ্ঘন এবং ডেটা ধরে রাখার নীতি পর্যালোচনা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06261",
+      "target": "सुरक्षितमिटाव",
+      "category": "word",
+      "type": "noun",
+      "romanization": "surkssitmittaav",
+      "bangla_pronunciation": "সুরক্ষিতমিটা঵",
+      "word_pronunciations": [
+        {
+          "target": "सुरक्षितमिटाव",
+          "bangla_pronunciation": "সুরক্ষিতমিটা঵",
+          "romanization": "surkssitmittaav",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপদ মুছে ফেলা",
+      "source_sentence_id": "ch209_s14",
+      "source_form": "सुरक्षितमिटाव",
+      "example_target": "सुरक्षितमिटाव को समझें।",
+      "example_bangla_pronunciation": "সুরক্ষিতমিটা঵ কো সমঝেং।",
+      "example_romanization": "surkssitmittaav ko smjheN.",
+      "example_word_pronunciations": [
+        {
+          "target": "सुरक्षितमिटाव",
+          "bangla_pronunciation": "সুরক্ষিতমিটা঵",
+          "romanization": "surkssitmittaav",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "romanization": "ko",
+          "separator_after": " "
+        },
+        {
+          "target": "समझें।",
+          "bangla_pronunciation": "সমঝেং।",
+          "romanization": "samajhen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নিরাপদ মুছে ফেলা বুঝুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06262",
+      "target": "अनामीकरण",
+      "category": "word",
+      "type": "noun",
+      "romanization": "anaamiikrnn",
+      "bangla_pronunciation": "অনামীকরণ",
+      "word_pronunciations": [
+        {
+          "target": "अनामीकरण",
+          "bangla_pronunciation": "অনামীকরণ",
+          "romanization": "anaamiikrnn",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিচয়হীনকরণ",
+      "source_sentence_id": "ch209_s15",
+      "source_form": "अनामीकरण",
+      "example_target": "अनामीकरण और नियमपालन की समीक्षा करें।",
+      "example_bangla_pronunciation": "অনামীকরণ অউর নিযমপালন কী সমীক্ষা করেং।",
+      "example_romanization": "anaamiikrnn aur niympaaln kii smiikssaa kreN.",
+      "example_word_pronunciations": [
+        {
+          "target": "अनामीकरण",
+          "bangla_pronunciation": "অনামীকরণ",
+          "romanization": "anaamiikrnn",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमपालन",
+          "bangla_pronunciation": "নিযমপালন",
+          "romanization": "niympaaln",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "romanization": "smiikssaa",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পরিচয়হীনকরণ এবং নীতিমালা মেনে চলা পর্যালোচনা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06263",
+      "target": "नियमपालन",
+      "category": "word",
+      "type": "noun",
+      "romanization": "niympaaln",
+      "bangla_pronunciation": "নিযমপালন",
+      "word_pronunciations": [
+        {
+          "target": "नियमपालन",
+          "bangla_pronunciation": "নিযমপালন",
+          "romanization": "niympaaln",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নীতিমালা মেনে চলা",
+      "source_sentence_id": "ch209_s15",
+      "source_form": "नियमपालन",
+      "example_target": "अनामीकरण और नियमपालन की समीक्षा करें।",
+      "example_bangla_pronunciation": "অনামীকরণ অউর নিযমপালন কী সমীক্ষা করেং।",
+      "example_romanization": "anaamiikrnn aur niympaaln kii smiikssaa kreN.",
+      "example_word_pronunciations": [
+        {
+          "target": "अनामीकरण",
+          "bangla_pronunciation": "অনামীকরণ",
+          "romanization": "anaamiikrnn",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "नियमपालन",
+          "bangla_pronunciation": "নিযমপালন",
+          "romanization": "niympaaln",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "romanization": "kee",
+          "separator_after": " "
+        },
+        {
+          "target": "समीक्षा",
+          "bangla_pronunciation": "সমীক্ষা",
+          "romanization": "smiikssaa",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পরিচয়হীনকরণ এবং নীতিমালা মেনে চলা পর্যালোচনা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06264",
+      "target": "जरूरत भर डेटा लेकर",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "jruurt bhr ddettaa lekr",
+      "bangla_pronunciation": "জরূরত ভর ডেটা লেকর",
+      "word_pronunciations": [
+        {
+          "target": "जरूरत",
+          "bangla_pronunciation": "জরূরত",
+          "romanization": "jaroorat",
+          "separator_after": " "
+        },
+        {
+          "target": "भर",
+          "bangla_pronunciation": "ভর",
+          "romanization": "bhar",
+          "separator_after": " "
+        },
+        {
+          "target": "डेटा",
+          "bangla_pronunciation": "ডেটা",
+          "romanization": "data",
+          "separator_after": " "
+        },
+        {
+          "target": "लेकर",
+          "bangla_pronunciation": "লেকর",
+          "romanization": "lekar",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রয়োজনমতো ডেটা নিয়ে",
+      "source_sentence_id": "ch209_s16",
+      "source_form": "जरूरत भर डेटा लेकर",
+      "example_target": "जरूरत भर डेटा लेकर अगला कदम तय करें।",
+      "example_bangla_pronunciation": "জরূরত ভর ডেটা লেকর অগলা কদম তয করেং।",
+      "example_romanization": "jruurt bhr ddettaa lekr aglaa kdm ty kreN.",
+      "example_word_pronunciations": [
+        {
+          "target": "जरूरत",
+          "bangla_pronunciation": "জরূরত",
+          "romanization": "jaroorat",
+          "separator_after": " "
+        },
+        {
+          "target": "भर",
+          "bangla_pronunciation": "ভর",
+          "romanization": "bhar",
+          "separator_after": " "
+        },
+        {
+          "target": "डेटा",
+          "bangla_pronunciation": "ডেটা",
+          "romanization": "data",
+          "separator_after": " "
+        },
+        {
+          "target": "लेकर",
+          "bangla_pronunciation": "লেকর",
+          "romanization": "lekar",
+          "separator_after": " "
+        },
+        {
+          "target": "अगला",
+          "bangla_pronunciation": "অগলা",
+          "romanization": "aglaa",
+          "separator_after": " "
+        },
+        {
+          "target": "कदम",
+          "bangla_pronunciation": "কদম",
+          "romanization": "kadam",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয",
+          "romanization": "tay",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্রয়োজনমতো ডেটা নিয়ে পরবর্তী পদক্ষেপ ঠিক করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06265",
+      "target": "डेटापोर्टेबिलिटी",
+      "category": "word",
+      "type": "noun",
+      "romanization": "ddettaaporttebilittii",
+      "bangla_pronunciation": "ডেটাপোর্টেবিলিটী",
+      "word_pronunciations": [
+        {
+          "target": "डेटापोर्टेबिलिटी",
+          "bangla_pronunciation": "ডেটাপোর্টেবিলিটী",
+          "romanization": "ddettaaporttebilittii",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডেটা স্থানান্তরযোগ্যতা",
+      "source_sentence_id": "ch209_s17",
+      "source_form": "डेटापोर्टेबिलिटी",
+      "example_target": "डेटापोर्टेबिलिटी तथा उपयोगकर्तासहमति में संतुलन रखें।",
+      "example_bangla_pronunciation": "ডেটাপোর্টেবিলিটী তথা উপযোগকর্তাসহমতি মেঁ সংতুলন রখেং।",
+      "example_romanization": "ddettaaporttebilittii tthaa upyogkrtaashmti meN sNtuln rkheN.",
+      "example_word_pronunciations": [
+        {
+          "target": "डेटापोर्टेबिलिटी",
+          "bangla_pronunciation": "ডেটাপোর্টেবিলিটী",
+          "romanization": "ddettaaporttebilittii",
+          "separator_after": " "
+        },
+        {
+          "target": "तथा",
+          "bangla_pronunciation": "তথা",
+          "romanization": "tathaa",
+          "separator_after": " "
+        },
+        {
+          "target": "उपयोगकर्तासहमति",
+          "bangla_pronunciation": "উপযোগকর্তাসহমতি",
+          "romanization": "upayogakartaasahamati",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "संतुलन",
+          "bangla_pronunciation": "সংতুলন",
+          "romanization": "sntuln",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেং।",
+          "romanization": "rakhen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ডেটা স্থানান্তরযোগ্যতা এবং ব্যবহারকারীর সম্মতি-এর মধ্যে ভারসাম্য রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06266",
+      "target": "उपयोगकर्तासहमति",
+      "category": "word",
+      "type": "noun",
+      "romanization": "upyogkrtaashmti",
+      "bangla_pronunciation": "উপযোগকর্তাসহমতি",
+      "word_pronunciations": [
+        {
+          "target": "उपयोगकर्तासहमति",
+          "bangla_pronunciation": "উপযোগকর্তাসহমতি",
+          "romanization": "upayogakartaasahamati",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যবহারকারীর সম্মতি",
+      "source_sentence_id": "ch209_s17",
+      "source_form": "उपयोगकर्तासहमति",
+      "example_target": "डेटापोर्टेबिलिटी तथा उपयोगकर्तासहमति में संतुलन रखें।",
+      "example_bangla_pronunciation": "ডেটাপোর্টেবিলিটী তথা উপযোগকর্তাসহমতি মেঁ সংতুলন রখেং।",
+      "example_romanization": "ddettaaporttebilittii tthaa upyogkrtaashmti meN sNtuln rkheN.",
+      "example_word_pronunciations": [
+        {
+          "target": "डेटापोर्टेबिलिटी",
+          "bangla_pronunciation": "ডেটাপোর্টেবিলিটী",
+          "romanization": "ddettaaporttebilittii",
+          "separator_after": " "
+        },
+        {
+          "target": "तथा",
+          "bangla_pronunciation": "তথা",
+          "romanization": "tathaa",
+          "separator_after": " "
+        },
+        {
+          "target": "उपयोगकर्तासहमति",
+          "bangla_pronunciation": "উপযোগকর্তাসহমতি",
+          "romanization": "upayogakartaasahamati",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "संतुलन",
+          "bangla_pronunciation": "সংতুলন",
+          "romanization": "sntuln",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেং।",
+          "romanization": "rakhen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ডেটা স্থানান্তরযোগ্যতা এবং ব্যবহারকারীর সম্মতি-এর মধ্যে ভারসাম্য রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06267",
+      "target": "अनुरेखण",
+      "category": "word",
+      "type": "noun",
+      "romanization": "anurekhnn",
+      "bangla_pronunciation": "অনুরেখণ",
+      "word_pronunciations": [
+        {
+          "target": "अनुरेखण",
+          "bangla_pronunciation": "অনুরেখণ",
+          "romanization": "anurekhana",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ট্রেসযোগ্যতা",
+      "source_sentence_id": "ch209_s18",
+      "source_form": "अनुरेखण",
+      "example_target": "अनुरेखण पर ध्यान दें।",
+      "example_bangla_pronunciation": "অনুরেখণ পর ধ্যান দেং।",
+      "example_romanization": "anurekhnn pr dhyaan deN.",
+      "example_word_pronunciations": [
+        {
+          "target": "अनुरेखण",
+          "bangla_pronunciation": "অনুরেখণ",
+          "romanization": "anurekhana",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "romanization": "par",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "romanization": "den.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ট্রেসযোগ্যতা নিয়ে নজর দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06268",
+      "target": "प्रणालीप्रत्यास्थता",
+      "category": "word",
+      "type": "noun",
+      "romanization": "prnnaaliiprtyaasthtaa",
+      "bangla_pronunciation": "প্রণালীপ্রত্যাস্থতা",
+      "word_pronunciations": [
+        {
+          "target": "प्रणालीप्रत्यास्थता",
+          "bangla_pronunciation": "প্রণালীপ্রত্যাস্থতা",
+          "romanization": "prnnaaliiprtyaasthtaa",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সিস্টেমের স্থিতিস্থাপকতা",
+      "source_sentence_id": "ch209_s19",
+      "source_form": "प्रणालीप्रत्यास्थता",
+      "example_target": "प्रणालीप्रत्यास्थता तथा घटनाप्रतिक्रिया में संतुलन रखें।",
+      "example_bangla_pronunciation": "প্রণালীপ্রত্যাস্থতা তথা ঘটনাপ্রতিক্রিযা মেঁ সংতুলন রখেং।",
+      "example_romanization": "prnnaaliiprtyaasthtaa tthaa ghttnaaprtikriyaa meN sNtuln rkheN.",
+      "example_word_pronunciations": [
+        {
+          "target": "प्रणालीप्रत्यास्थता",
+          "bangla_pronunciation": "প্রণালীপ্রত্যাস্থতা",
+          "romanization": "prnnaaliiprtyaasthtaa",
+          "separator_after": " "
+        },
+        {
+          "target": "तथा",
+          "bangla_pronunciation": "তথা",
+          "romanization": "tathaa",
+          "separator_after": " "
+        },
+        {
+          "target": "घटनाप्रतिक्रिया",
+          "bangla_pronunciation": "ঘটনাপ্রতিক্রিযা",
+          "romanization": "ghatanaapratikriyaa",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "संतुलन",
+          "bangla_pronunciation": "সংতুলন",
+          "romanization": "sntuln",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেং।",
+          "romanization": "rakhen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সিস্টেমের স্থিতিস্থাপকতা এবং নিরাপত্তা ঘটনার প্রতিক্রিয়া-এর মধ্যে ভারসাম্য রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06269",
+      "target": "घटनाप्रतिक्रिया",
+      "category": "word",
+      "type": "noun",
+      "romanization": "ghttnaaprtikriyaa",
+      "bangla_pronunciation": "ঘটনাপ্রতিক্রিযা",
+      "word_pronunciations": [
+        {
+          "target": "घटनाप्रतिक्रिया",
+          "bangla_pronunciation": "ঘটনাপ্রতিক্রিযা",
+          "romanization": "ghatanaapratikriyaa",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপত্তা ঘটনার প্রতিক্রিয়া",
+      "source_sentence_id": "ch209_s19",
+      "source_form": "घटनाप्रतिक्रिया",
+      "example_target": "प्रणालीप्रत्यास्थता तथा घटनाप्रतिक्रिया में संतुलन रखें।",
+      "example_bangla_pronunciation": "প্রণালীপ্রত্যাস্থতা তথা ঘটনাপ্রতিক্রিযা মেঁ সংতুলন রখেং।",
+      "example_romanization": "prnnaaliiprtyaasthtaa tthaa ghttnaaprtikriyaa meN sNtuln rkheN.",
+      "example_word_pronunciations": [
+        {
+          "target": "प्रणालीप्रत्यास्थता",
+          "bangla_pronunciation": "প্রণালীপ্রত্যাস্থতা",
+          "romanization": "prnnaaliiprtyaasthtaa",
+          "separator_after": " "
+        },
+        {
+          "target": "तथा",
+          "bangla_pronunciation": "তথা",
+          "romanization": "tathaa",
+          "separator_after": " "
+        },
+        {
+          "target": "घटनाप्रतिक्रिया",
+          "bangla_pronunciation": "ঘটনাপ্রতিক্রিযা",
+          "romanization": "ghatanaapratikriyaa",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "संतुलन",
+          "bangla_pronunciation": "সংতুলন",
+          "romanization": "sntuln",
+          "separator_after": " "
+        },
+        {
+          "target": "रखें।",
+          "bangla_pronunciation": "রখেং।",
+          "romanization": "rakhen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সিস্টেমের স্থিতিস্থাপকতা এবং নিরাপত্তা ঘটনার প্রতিক্রিয়া-এর মধ্যে ভারসাম্য রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v06270",
+      "target": "सुरक्षा को प्राथमिकता देते हुए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "surkssaa ko praathmiktaa dete hue",
+      "bangla_pronunciation": "সুরক্ষা কো প্রাথমিকতা দেতে হুয়ে",
+      "word_pronunciations": [
+        {
+          "target": "सुरक्षा",
+          "bangla_pronunciation": "সুরক্ষা",
+          "romanization": "suraksha",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "romanization": "ko",
+          "separator_after": " "
+        },
+        {
+          "target": "प्राथमिकता",
+          "bangla_pronunciation": "প্রাথমিকতা",
+          "romanization": "praathmiktaa",
+          "separator_after": " "
+        },
+        {
+          "target": "देते",
+          "bangla_pronunciation": "দেতে",
+          "romanization": "dete",
+          "separator_after": " "
+        },
+        {
+          "target": "हुए",
+          "bangla_pronunciation": "হুয়ে",
+          "romanization": "hue",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপত্তাকে অগ্রাধিকার দিয়ে",
+      "source_sentence_id": "ch209_s20",
+      "source_form": "सुरक्षा को प्राथमिकता देते हुए",
+      "example_target": "सुरक्षा को प्राथमिकता देते हुए आगे बढ़ें।",
+      "example_bangla_pronunciation": "সুরক্ষা কো প্রাথমিকতা দেতে হুয়ে আগে বঢ়েং।",
+      "example_romanization": "surkssaa ko praathmiktaa dete hue aage bddh'eN.",
+      "example_word_pronunciations": [
+        {
+          "target": "सुरक्षा",
+          "bangla_pronunciation": "সুরক্ষা",
+          "romanization": "suraksha",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "romanization": "ko",
+          "separator_after": " "
+        },
+        {
+          "target": "प्राथमिकता",
+          "bangla_pronunciation": "প্রাথমিকতা",
+          "romanization": "praathmiktaa",
+          "separator_after": " "
+        },
+        {
+          "target": "देते",
+          "bangla_pronunciation": "দেতে",
+          "romanization": "dete",
+          "separator_after": " "
+        },
+        {
+          "target": "हुए",
+          "bangla_pronunciation": "হুয়ে",
+          "romanization": "hue",
+          "separator_after": " "
+        },
+        {
+          "target": "आगे",
+          "bangla_pronunciation": "আগে",
+          "romanization": "aage",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़ें।",
+          "bangla_pronunciation": "বঢ়েং।",
+          "romanization": "barhen.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নিরাপত্তাকে অগ্রাধিকার দিয়ে এগোন।",
+      "synonyms": []
+    }
+  ],
+  "bridge_reading": {
+    "mode": "article",
+    "title_bengali": "ডেটা নিরাপত্তা ও গোপনীয়তা: বাস্তব আলোচনার নোট",
+    "scene_summary": "একটি প্রযুক্তি দল সংবেদনশীল ডেটার অ্যাক্সেস, ব্যাকআপ ও নিরাপত্তা নীতি পর্যালোচনা করছে।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "ডেটা নিরাপত্তা ও গোপনীয়তা নিয়ে একটি কর্মদলের আলোচনায় প্রথমে "
+      },
+      {
+        "kind": "target",
+        "target": "पहचानसत्यापन",
+        "bangla_pronunciation": "পহচানসত্যাপন",
+        "romanization": "pahachaanasatyaapana",
+        "word_pronunciations": [
+          {
+            "target": "पहचानसत्यापन",
+            "bangla_pronunciation": "পহচানসত্যাপন",
+            "romanization": "pahachaanasatyaapana",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " ধারণাটি সামনে আসে। এরপর "
+      },
+      {
+        "kind": "target",
+        "target": "पहुँच देने से पहले",
+        "bangla_pronunciation": "পহুঁচ দেনে সে পহলে",
+        "romanization": "phuNc dene se phle",
+        "word_pronunciations": [
+          {
+            "target": "पहुँच",
+            "bangla_pronunciation": "পহুঁচ",
+            "romanization": "phunc",
+            "separator_after": " "
+          },
+          {
+            "target": "देने",
+            "bangla_pronunciation": "দেনে",
+            "romanization": "dene",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "romanization": "se",
+            "separator_after": " "
+          },
+          {
+            "target": "पहले",
+            "bangla_pronunciation": "পহলে",
+            "romanization": "phle",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " নীতি মেনে তারা "
+      },
+      {
+        "kind": "target",
+        "target": "अभिलेखलॉग",
+        "bangla_pronunciation": "অভিলেখল৉গ",
+        "romanization": "abhilekhloNg",
+        "word_pronunciations": [
+          {
+            "target": "अभिलेखलॉग",
+            "bangla_pronunciation": "অভিলেখল৉গ",
+            "romanization": "abhilekhloNg",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " বিষয়টি পর্যালোচনা করে। সিদ্ধান্তের আগে "
+      },
+      {
+        "kind": "target",
+        "target": "संवेदनशील जानकारी के लिए",
+        "bangla_pronunciation": "সং঵েদনশীল জানকারী কে লিয়ে",
+        "romanization": "sNvednshiil jaankaarii ke lie",
+        "word_pronunciations": [
+          {
+            "target": "संवेदनशील",
+            "bangla_pronunciation": "সং঵েদনশীল",
+            "romanization": "sanvedanashil",
+            "separator_after": " "
+          },
+          {
+            "target": "जानकारी",
+            "bangla_pronunciation": "জানকারী",
+            "romanization": "jaanakaarii",
+            "separator_after": " "
+          },
+          {
+            "target": "के",
+            "bangla_pronunciation": "কে",
+            "romanization": "ke",
+            "separator_after": " "
+          },
+          {
+            "target": "लिए",
+            "bangla_pronunciation": "লিয়ে",
+            "romanization": "lie",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " পদ্ধতি ব্যবহার করে। শেষে "
+      },
+      {
+        "kind": "target",
+        "target": "डेटापोर्टेबिलिटी",
+        "bangla_pronunciation": "ডেটাপোর্টেবিলিটী",
+        "romanization": "ddettaaporttebilittii",
+        "word_pronunciations": [
+          {
+            "target": "डेटापोर्टेबिलिटी",
+            "bangla_pronunciation": "ডেটাপোর্টেবিলিটী",
+            "romanization": "ddettaaporttebilittii",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " দিকটিও যাচাই করে এবং "
+      },
+      {
+        "kind": "target",
+        "target": "सुरक्षा को प्राथमिकता देते हुए",
+        "bangla_pronunciation": "সুরক্ষা কো প্রাথমিকতা দেতে হুয়ে",
+        "romanization": "surkssaa ko praathmiktaa dete hue",
+        "word_pronunciations": [
+          {
+            "target": "सुरक्षा",
+            "bangla_pronunciation": "সুরক্ষা",
+            "romanization": "suraksha",
+            "separator_after": " "
+          },
+          {
+            "target": "को",
+            "bangla_pronunciation": "কো",
+            "romanization": "ko",
+            "separator_after": " "
+          },
+          {
+            "target": "प्राथमिकता",
+            "bangla_pronunciation": "প্রাথমিকতা",
+            "romanization": "praathmiktaa",
+            "separator_after": " "
+          },
+          {
+            "target": "देते",
+            "bangla_pronunciation": "দেতে",
+            "romanization": "dete",
+            "separator_after": " "
+          },
+          {
+            "target": "हुए",
+            "bangla_pronunciation": "হুয়ে",
+            "romanization": "hue",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " কাজ শেষ করে।"
+      }
+    ],
+    "text_md": "ডেটা নিরাপত্তা ও গোপনীয়তা নিয়ে একটি কর্মদলের আলোচনায় প্রথমে **पहचानसत्यापन** (পহচানসত্যাপন, pahachaanasatyaapana) ধারণাটি সামনে আসে। এরপর **पहुँच** (পহুঁচ, phunc) **देने** (দেনে, dene) **से** (সে, se) **पहले** (পহলে, phle) নীতি মেনে তারা **अभिलेखलॉग** (অভিলেখল৉গ, abhilekhloNg) বিষয়টি পর্যালোচনা করে। সিদ্ধান্তের আগে **संवेदनशील** (সং঵েদনশীল, sanvedanashil) **जानकारी** (জানকারী, jaanakaarii) **के** (কে, ke) **लिए** (লিয়ে, lie) পদ্ধতি ব্যবহার করে। শেষে **डेटापोर्टेबिलिटी** (ডেটাপোর্টেবিলিটী, ddettaaporttebilittii) দিকটিও যাচাই করে এবং **सुरक्षा** (সুরক্ষা, suraksha) **को** (কো, ko) **प्राथमिकता** (প্রাথমিকতা, praathmiktaa) **देते** (দেতে, dete) **हुए** (হুয়ে, hue) কাজ শেষ করে।"
+  },
+  "target_reading": {
+    "mode": "article",
+    "title_bengali": "ডেটা নিরাপত্তা ও গোপনীয়তা: সংক্ষিপ্ত হিন্দি পাঠ",
+    "scene_summary": "একটি প্রযুক্তি দল সংবেদনশীল ডেটার অ্যাক্সেস, ব্যাকআপ ও নিরাপত্তা নীতি পর্যালোচনা করছে। এখানে একজন অংশগ্রহণকারী পাঁচটি সংক্ষিপ্ত নীতিবাক্যে বিষয়টি গুছিয়ে বলে।",
+    "lines": [
+      {
+        "target": "पहचानसत्यापन पहले पूरा करें।",
+        "bangla_pronunciation": "পহচানসত্যাপন পহলে পূরা করেং।",
+        "romanization": "pahachaanasatyaapana pahale pooraa karen.",
+        "word_pronunciations": [
+          {
+            "target": "पहचानसत्यापन",
+            "bangla_pronunciation": "পহচানসত্যাপন",
+            "romanization": "pahachaanasatyaapana",
+            "separator_after": " "
+          },
+          {
+            "target": "पहले",
+            "bangla_pronunciation": "পহলে",
+            "romanization": "phle",
+            "separator_after": " "
+          },
+          {
+            "target": "पूरा",
+            "bangla_pronunciation": "পূরা",
+            "romanization": "poora",
+            "separator_after": " "
+          },
+          {
+            "target": "करें।",
+            "bangla_pronunciation": "করেং।",
+            "romanization": "karen.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "कूटलेखन डेटा को सुरक्षित रखता है।",
+        "bangla_pronunciation": "কূটলেখন ডেটা কো সুরক্ষিত রখতা হ্যায়।",
+        "romanization": "kootalekhana detaa ko surakshita rakhataa hai.",
+        "word_pronunciations": [
+          {
+            "target": "कूटलेखन",
+            "bangla_pronunciation": "কূটলেখন",
+            "romanization": "kootlekhn",
+            "separator_after": " "
+          },
+          {
+            "target": "डेटा",
+            "bangla_pronunciation": "ডেটা",
+            "romanization": "data",
+            "separator_after": " "
+          },
+          {
+            "target": "को",
+            "bangla_pronunciation": "কো",
+            "romanization": "ko",
+            "separator_after": " "
+          },
+          {
+            "target": "सुरक्षित",
+            "bangla_pronunciation": "সুরক্ষিত",
+            "romanization": "surakshit",
+            "separator_after": " "
+          },
+          {
+            "target": "रखता",
+            "bangla_pronunciation": "রখতা",
+            "romanization": "rakhataa",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "बैकअपनीति नियमित जाँचें।",
+        "bangla_pronunciation": "বৈকঅপনীতি নিযমিত জাঁচেং।",
+        "romanization": "baikaapaneeti niyamita jaanchen.",
+        "word_pronunciations": [
+          {
+            "target": "बैकअपनीति",
+            "bangla_pronunciation": "বৈকঅপনীতি",
+            "romanization": "baikaapaniiti",
+            "separator_after": " "
+          },
+          {
+            "target": "नियमित",
+            "bangla_pronunciation": "নিযমিত",
+            "romanization": "niymit",
+            "separator_after": " "
+          },
+          {
+            "target": "जाँचें।",
+            "bangla_pronunciation": "জাঁচেং।",
+            "romanization": "jaanchen.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "बहुकारकप्रमाणीकरण सुरक्षा बढ़ाता है।",
+        "bangla_pronunciation": "বহুকারকপ্রমাণীকরণ সুরক্ষা বঢ়াতা হ্যায়।",
+        "romanization": "bahukaarakapramaaneekarana surakshaa barhaataa hai.",
+        "word_pronunciations": [
+          {
+            "target": "बहुकारकप्रमाणीकरण",
+            "bangla_pronunciation": "বহুকারকপ্রমাণীকরণ",
+            "romanization": "bhukaarkprmaanniikrnn",
+            "separator_after": " "
+          },
+          {
+            "target": "सुरक्षा",
+            "bangla_pronunciation": "সুরক্ষা",
+            "romanization": "suraksha",
+            "separator_after": " "
+          },
+          {
+            "target": "बढ़ाता",
+            "bangla_pronunciation": "বঢ়াতা",
+            "romanization": "barhaataa",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "पहुँच देने से पहले अनुमति जाँचें।",
+        "bangla_pronunciation": "পহুঁচ দেনে সে পহলে অনুমতি জাঁচেং।",
+        "romanization": "pahuncha dene se pahale anumati jaanchen.",
+        "word_pronunciations": [
+          {
+            "target": "पहुँच",
+            "bangla_pronunciation": "পহুঁচ",
+            "romanization": "phunc",
+            "separator_after": " "
+          },
+          {
+            "target": "देने",
+            "bangla_pronunciation": "দেনে",
+            "romanization": "dene",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "romanization": "se",
+            "separator_after": " "
+          },
+          {
+            "target": "पहले",
+            "bangla_pronunciation": "পহলে",
+            "romanization": "phle",
+            "separator_after": " "
+          },
+          {
+            "target": "अनुमति",
+            "bangla_pronunciation": "অনুমতি",
+            "romanization": "anumti",
+            "separator_after": " "
+          },
+          {
+            "target": "जाँचें।",
+            "bangla_pronunciation": "জাঁচেং।",
+            "romanization": "jaanchen.",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "পহচানসত্যাপন পহলে পূরা করেং। কূটলেখন ডেটা কো সুরক্ষিত রখতা হ্যায়। বৈকঅপনীতি নিযমিত জাঁচেং। বহুকারকপ্রমাণীকরণ সুরক্ষা বঢ়াতা হ্যায়। পহুঁচ দেনে সে পহলে অনুমতি জাঁচেং।",
+    "romanization": "pahachaanasatyaapana pahale pooraa karen. kootalekhana detaa ko surakshita rakhataa hai. baikaapaneeti niyamita jaanchen. bahukaarakapramaaneekarana surakshaa barhaataa hai. pahuncha dene se pahale anumati jaanchen.",
+    "meaning_bengali_md": "পরিচয় যাচাই আগে সম্পন্ন করুন। এনক্রিপশন ডেটাকে সুরক্ষিত রাখে। ব্যাকআপ নীতি নিয়মিত যাচাই করুন। বহুস্তরীয় যাচাই নিরাপত্তা বাড়ায়। অ্যাক্সেস দেওয়ার আগে অনুমতি যাচাই করুন।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_consonant_k",
+      "mode": "review",
+      "target": "क",
+      "bangla_pronunciation": "ক",
+      "romanization": "ka",
+      "explanation_bengali_md": "ক-ধ্বনির পরিচিত ব্যঞ্জনচিহ্ন পুনরালোচনা করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে ‘ক’ উচ্চারণ করুন।"
+    },
+    {
+      "item_id": "dev_consonant_g",
+      "mode": "review",
+      "target": "ग",
+      "bangla_pronunciation": "গ",
+      "romanization": "ga",
+      "explanation_bengali_md": "গ-ধ্বনির পরিচিত ব্যঞ্জনচিহ্ন পুনরালোচনা করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে ‘গ’ উচ্চারণ করুন।"
+    },
+    {
+      "item_id": "dev_consonant_t",
+      "mode": "review",
+      "target": "त",
+      "bangla_pronunciation": "ত",
+      "romanization": "ta",
+      "explanation_bengali_md": "দন্ত্য ত-ধ্বনির পরিচিত চিহ্ন পুনরালোচনা করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে ‘ত’ উচ্চারণ করুন।"
+    },
+    {
+      "item_id": "dev_consonant_p",
+      "mode": "review",
+      "target": "प",
+      "bangla_pronunciation": "প",
+      "romanization": "pa",
+      "explanation_bengali_md": "প-ধ্বনির পরিচিত ব্যঞ্জনচিহ্ন পুনরালোচনা করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে ‘প’ উচ্চারণ করুন।"
+    },
+    {
+      "item_id": "dev_consonant_m",
+      "mode": "review",
+      "target": "म",
+      "bangla_pronunciation": "ম",
+      "romanization": "ma",
+      "explanation_bengali_md": "ম-ধ্বনির পরিচিত ব্যঞ্জনচিহ্ন পুনরালোচনা করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে ‘ম’ উচ্চারণ করুন।"
+    }
+  ],
+  "number_practice": null,
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "1 নম্বর বাক্যের ভাবটি হিন্দিতে বলুন।",
+      "model_target": "पहचानसत्यापन और अभिगमाधिकार जरूरी हैं।",
+      "model_bangla_pronunciation": "পহচানসত্যাপন অউর অভিগমাধিকার জরূরী হ্যাঁয়।",
+      "model_romanization": "phcaanstyaapn aur abhigmaadhikaar jruurii haiN.",
+      "model_word_pronunciations": [
+        {
+          "target": "पहचानसत्यापन",
+          "bangla_pronunciation": "পহচানসত্যাপন",
+          "romanization": "pahachaanasatyaapana",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "अभिगमाधिकार",
+          "bangla_pronunciation": "অভিগমাধিকার",
+          "romanization": "abhigmaadhikaar",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "পরিচয় যাচাই এবং প্রবেশাধিকার—দুটিই জরুরি।"
+    },
+    {
+      "prompt_bengali_md": "4 নম্বর বাক্যের ভাবটি হিন্দিতে বলুন।",
+      "model_target": "पहुँच देने से पहले काम करें।",
+      "model_bangla_pronunciation": "পহুঁচ দেনে সে পহলে কাম করেং।",
+      "model_romanization": "phuNc dene se phle kaam kreN.",
+      "model_word_pronunciations": [
+        {
+          "target": "पहुँच",
+          "bangla_pronunciation": "পহুঁচ",
+          "romanization": "phunc",
+          "separator_after": " "
+        },
+        {
+          "target": "देने",
+          "bangla_pronunciation": "দেনে",
+          "romanization": "dene",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "romanization": "se",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "romanization": "phle",
+          "separator_after": " "
+        },
+        {
+          "target": "काम",
+          "bangla_pronunciation": "কাম",
+          "romanization": "kaam",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "অ্যাক্সেস দেওয়ার আগে কাজ করুন।"
+    },
+    {
+      "prompt_bengali_md": "8 নম্বর বাক্যের ভাবটি হিন্দিতে বলুন।",
+      "model_target": "कम से कम अधिकार के साथ निर्णय लें।",
+      "model_bangla_pronunciation": "কম সে কম অধিকার কে সাথ নির্ণয লেং।",
+      "model_romanization": "km se km adhikaar ke saath nirnny leN.",
+      "model_word_pronunciations": [
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "romanization": "km",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "romanization": "se",
+          "separator_after": " "
+        },
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "romanization": "km",
+          "separator_after": " "
+        },
+        {
+          "target": "अधिकार",
+          "bangla_pronunciation": "অধিকার",
+          "romanization": "adhikaar",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "romanization": "ke",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
+          "separator_after": " "
+        },
+        {
+          "target": "निर्णय",
+          "bangla_pronunciation": "নির্ণয",
+          "romanization": "nirnay",
+          "separator_after": " "
+        },
+        {
+          "target": "लें।",
+          "bangla_pronunciation": "লেং।",
+          "romanization": "len.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "সর্বনিম্ন প্রয়োজনীয় অধিকার দিয়ে সিদ্ধান্ত নিন।"
+    },
+    {
+      "prompt_bengali_md": "12 নম্বর বাক্যের ভাবটি হিন্দিতে বলুন।",
+      "model_target": "संवेदनशील जानकारी के लिए स्थिति समझें।",
+      "model_bangla_pronunciation": "সং঵েদনশীল জানকারী কে লিয়ে স্থিতি সমঝেং।",
+      "model_romanization": "sNvednshiil jaankaarii ke lie sthiti smjheN.",
+      "model_word_pronunciations": [
+        {
+          "target": "संवेदनशील",
+          "bangla_pronunciation": "সং঵েদনশীল",
+          "romanization": "sanvedanashil",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "romanization": "ke",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিয়ে",
+          "romanization": "lie",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थिति",
+          "bangla_pronunciation": "স্থিতি",
+          "romanization": "sthiti",
+          "separator_after": " "
+        },
+        {
+          "target": "समझें।",
+          "bangla_pronunciation": "সমঝেং।",
+          "romanization": "samajhen.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "সংবেদনশীল তথ্যের জন্য পরিস্থিতি বুঝুন।"
+    },
+    {
+      "prompt_bengali_md": "16 নম্বর বাক্যের ভাবটি হিন্দিতে বলুন।",
+      "model_target": "जरूरत भर डेटा लेकर अगला कदम तय करें।",
+      "model_bangla_pronunciation": "জরূরত ভর ডেটা লেকর অগলা কদম তয করেং।",
+      "model_romanization": "jruurt bhr ddettaa lekr aglaa kdm ty kreN.",
+      "model_word_pronunciations": [
+        {
+          "target": "जरूरत",
+          "bangla_pronunciation": "জরূরত",
+          "romanization": "jaroorat",
+          "separator_after": " "
+        },
+        {
+          "target": "भर",
+          "bangla_pronunciation": "ভর",
+          "romanization": "bhar",
+          "separator_after": " "
+        },
+        {
+          "target": "डेटा",
+          "bangla_pronunciation": "ডেটা",
+          "romanization": "data",
+          "separator_after": " "
+        },
+        {
+          "target": "लेकर",
+          "bangla_pronunciation": "লেকর",
+          "romanization": "lekar",
+          "separator_after": " "
+        },
+        {
+          "target": "अगला",
+          "bangla_pronunciation": "অগলা",
+          "romanization": "aglaa",
+          "separator_after": " "
+        },
+        {
+          "target": "कदम",
+          "bangla_pronunciation": "কদম",
+          "romanization": "kadam",
+          "separator_after": " "
+        },
+        {
+          "target": "तय",
+          "bangla_pronunciation": "তয",
+          "romanization": "tay",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "romanization": "karen.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "প্রয়োজনমতো ডেটা নিয়ে পরবর্তী পদক্ষেপ ঠিক করুন।"
+    },
+    {
+      "prompt_bengali_md": "20 নম্বর বাক্যের ভাবটি হিন্দিতে বলুন।",
+      "model_target": "सुरक्षा को प्राथमिकता देते हुए आगे बढ़ें।",
+      "model_bangla_pronunciation": "সুরক্ষা কো প্রাথমিকতা দেতে হুয়ে আগে বঢ়েং।",
+      "model_romanization": "surkssaa ko praathmiktaa dete hue aage bddh'eN.",
+      "model_word_pronunciations": [
+        {
+          "target": "सुरक्षा",
+          "bangla_pronunciation": "সুরক্ষা",
+          "romanization": "suraksha",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "romanization": "ko",
+          "separator_after": " "
+        },
+        {
+          "target": "प्राथमिकता",
+          "bangla_pronunciation": "প্রাথমিকতা",
+          "romanization": "praathmiktaa",
+          "separator_after": " "
+        },
+        {
+          "target": "देते",
+          "bangla_pronunciation": "দেতে",
+          "romanization": "dete",
+          "separator_after": " "
+        },
+        {
+          "target": "हुए",
+          "bangla_pronunciation": "হুয়ে",
+          "romanization": "hue",
+          "separator_after": " "
+        },
+        {
+          "target": "आगे",
+          "bangla_pronunciation": "আগে",
+          "romanization": "aage",
+          "separator_after": " "
+        },
+        {
+          "target": "बढ़ें।",
+          "bangla_pronunciation": "বঢ়েং।",
+          "romanization": "barhen.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "নিরাপত্তাকে অগ্রাধিকার দিয়ে এগোন।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch209_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "একটি প্রযুক্তি দল সংবেদনশীল ডেটার অ্যাক্সেস, ব্যাকআপ ও নিরাপত্তা নীতি পর্যালোচনা করছে। কয়েকজন প্রাপ্তবয়স্ক চরিত্র কাজের টেবিলে আলোচনা করছে; একজন নোট দেখাচ্ছে, অন্যরা মনোযোগ দিয়ে শুনছে। Medium-wide editorial framing, warm daylight, realistic South Asian urban context. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, clean modern setting, soft daylight, uncluttered composition, clear focal point."
+    },
+    {
+      "key": "ch209_target_reading_01",
+      "reading": "target_reading",
+      "subject": "একটি প্রযুক্তি দল সংবেদনশীল ডেটার অ্যাক্সেস, ব্যাকআপ ও নিরাপত্তা নীতি পর্যালোচনা করছে। একই বিষয়ের ভিন্ন মুহূর্ত: একজন ব্যক্তি একা নোট গুছিয়ে পরবর্তী পদক্ষেপ ভাবছে, পাশে প্রয়োজনীয় সাধারণ বস্তু, শান্ত ও পরিষ্কার পটভূমি। Medium close editorial framing, bright natural light. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, clean modern setting, soft daylight, uncluttered composition, clear focal point."
+    }
+  ],
+  "additional_practice": []
+}

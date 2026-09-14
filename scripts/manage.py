@@ -233,7 +233,7 @@ def check_book(path, profile, complete=False):
     need(len(plans) == book['chapter_count'], 'Wrong planned chapter count')
     need([x['chapter_number'] for x in plans] == list(range(1, len(plans)+1)), 'Noncontiguous chapter map')
     need(len({x['chapter_id'] for x in plans}) == len(plans), 'Duplicate planned IDs')
-    need(len(book['expected_output_files']) == (12 if book['kind'] == 'vocabulary' else 8), 'Wrong output contract')
+    need(len(book['expected_output_files']) == 8, 'Wrong output contract')
     declared = {safe(path, x['content_file']) for x in plans}
     need(all(p.resolve() in declared for p in (path / 'chapters').glob('*.json')), 'Unindexed chapter JSON found')
     chapters = []

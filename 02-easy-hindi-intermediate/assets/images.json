@@ -1,4 +1,1104 @@
 {
-  "status": "not_generated",
-  "images": {}
+  "status": "placeholders_synthesized",
+  "images": {
+    "banner": {
+      "key": "banner",
+      "role": "banner",
+      "filename": "banner.png",
+      "path": "assets/images/banner.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch001_bridge_reading_01": {
+      "key": "ch001_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch001_bridge_reading_01.png",
+      "path": "assets/images/ch001_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch001_target_reading_01": {
+      "key": "ch001_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch001_target_reading_01.png",
+      "path": "assets/images/ch001_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch002_bridge_reading_01": {
+      "key": "ch002_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch002_bridge_reading_01.png",
+      "path": "assets/images/ch002_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch002_target_reading_01": {
+      "key": "ch002_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch002_target_reading_01.png",
+      "path": "assets/images/ch002_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch003_bridge_reading_01": {
+      "key": "ch003_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch003_bridge_reading_01.png",
+      "path": "assets/images/ch003_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch003_target_reading_01": {
+      "key": "ch003_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch003_target_reading_01.png",
+      "path": "assets/images/ch003_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch004_bridge_reading_01": {
+      "key": "ch004_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch004_bridge_reading_01.png",
+      "path": "assets/images/ch004_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch004_target_reading_01": {
+      "key": "ch004_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch004_target_reading_01.png",
+      "path": "assets/images/ch004_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch005_bridge_reading_01": {
+      "key": "ch005_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch005_bridge_reading_01.png",
+      "path": "assets/images/ch005_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch005_target_reading_01": {
+      "key": "ch005_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch005_target_reading_01.png",
+      "path": "assets/images/ch005_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch006_bridge_reading_01": {
+      "key": "ch006_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch006_bridge_reading_01.png",
+      "path": "assets/images/ch006_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch006_target_reading_01": {
+      "key": "ch006_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch006_target_reading_01.png",
+      "path": "assets/images/ch006_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch007_bridge_reading_01": {
+      "key": "ch007_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch007_bridge_reading_01.png",
+      "path": "assets/images/ch007_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch007_target_reading_01": {
+      "key": "ch007_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch007_target_reading_01.png",
+      "path": "assets/images/ch007_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch008_bridge_reading_01": {
+      "key": "ch008_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch008_bridge_reading_01.png",
+      "path": "assets/images/ch008_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch008_target_reading_01": {
+      "key": "ch008_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch008_target_reading_01.png",
+      "path": "assets/images/ch008_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch009_bridge_reading_01": {
+      "key": "ch009_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch009_bridge_reading_01.png",
+      "path": "assets/images/ch009_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch009_target_reading_01": {
+      "key": "ch009_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch009_target_reading_01.png",
+      "path": "assets/images/ch009_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch010_bridge_reading_01": {
+      "key": "ch010_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch010_bridge_reading_01.png",
+      "path": "assets/images/ch010_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch010_target_reading_01": {
+      "key": "ch010_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch010_target_reading_01.png",
+      "path": "assets/images/ch010_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch011_bridge_reading_01": {
+      "key": "ch011_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch011_bridge_reading_01.png",
+      "path": "assets/images/ch011_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch011_target_reading_01": {
+      "key": "ch011_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch011_target_reading_01.png",
+      "path": "assets/images/ch011_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch012_bridge_reading_01": {
+      "key": "ch012_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch012_bridge_reading_01.png",
+      "path": "assets/images/ch012_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch012_target_reading_01": {
+      "key": "ch012_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch012_target_reading_01.png",
+      "path": "assets/images/ch012_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch013_bridge_reading_01": {
+      "key": "ch013_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch013_bridge_reading_01.png",
+      "path": "assets/images/ch013_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch013_target_reading_01": {
+      "key": "ch013_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch013_target_reading_01.png",
+      "path": "assets/images/ch013_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch014_bridge_reading_01": {
+      "key": "ch014_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch014_bridge_reading_01.png",
+      "path": "assets/images/ch014_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch014_target_reading_01": {
+      "key": "ch014_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch014_target_reading_01.png",
+      "path": "assets/images/ch014_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch015_bridge_reading_01": {
+      "key": "ch015_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch015_bridge_reading_01.png",
+      "path": "assets/images/ch015_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch015_target_reading_01": {
+      "key": "ch015_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch015_target_reading_01.png",
+      "path": "assets/images/ch015_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch016_bridge_reading_01": {
+      "key": "ch016_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch016_bridge_reading_01.png",
+      "path": "assets/images/ch016_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch016_target_reading_01": {
+      "key": "ch016_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch016_target_reading_01.png",
+      "path": "assets/images/ch016_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch017_bridge_reading_01": {
+      "key": "ch017_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch017_bridge_reading_01.png",
+      "path": "assets/images/ch017_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch017_target_reading_01": {
+      "key": "ch017_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch017_target_reading_01.png",
+      "path": "assets/images/ch017_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch018_bridge_reading_01": {
+      "key": "ch018_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch018_bridge_reading_01.png",
+      "path": "assets/images/ch018_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch018_target_reading_01": {
+      "key": "ch018_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch018_target_reading_01.png",
+      "path": "assets/images/ch018_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch019_bridge_reading_01": {
+      "key": "ch019_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch019_bridge_reading_01.png",
+      "path": "assets/images/ch019_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch019_target_reading_01": {
+      "key": "ch019_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch019_target_reading_01.png",
+      "path": "assets/images/ch019_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch020_bridge_reading_01": {
+      "key": "ch020_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch020_bridge_reading_01.png",
+      "path": "assets/images/ch020_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch020_target_reading_01": {
+      "key": "ch020_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch020_target_reading_01.png",
+      "path": "assets/images/ch020_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch021_bridge_reading_01": {
+      "key": "ch021_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch021_bridge_reading_01.png",
+      "path": "assets/images/ch021_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch021_target_reading_01": {
+      "key": "ch021_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch021_target_reading_01.png",
+      "path": "assets/images/ch021_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch022_bridge_reading_01": {
+      "key": "ch022_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch022_bridge_reading_01.png",
+      "path": "assets/images/ch022_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch022_target_reading_01": {
+      "key": "ch022_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch022_target_reading_01.png",
+      "path": "assets/images/ch022_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch023_bridge_reading_01": {
+      "key": "ch023_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch023_bridge_reading_01.png",
+      "path": "assets/images/ch023_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch023_target_reading_01": {
+      "key": "ch023_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch023_target_reading_01.png",
+      "path": "assets/images/ch023_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch024_bridge_reading_01": {
+      "key": "ch024_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch024_bridge_reading_01.png",
+      "path": "assets/images/ch024_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch024_target_reading_01": {
+      "key": "ch024_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch024_target_reading_01.png",
+      "path": "assets/images/ch024_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch025_bridge_reading_01": {
+      "key": "ch025_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch025_bridge_reading_01.png",
+      "path": "assets/images/ch025_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch025_target_reading_01": {
+      "key": "ch025_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch025_target_reading_01.png",
+      "path": "assets/images/ch025_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch026_bridge_reading_01": {
+      "key": "ch026_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch026_bridge_reading_01.png",
+      "path": "assets/images/ch026_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch026_target_reading_01": {
+      "key": "ch026_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch026_target_reading_01.png",
+      "path": "assets/images/ch026_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch027_bridge_reading_01": {
+      "key": "ch027_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch027_bridge_reading_01.png",
+      "path": "assets/images/ch027_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch027_target_reading_01": {
+      "key": "ch027_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch027_target_reading_01.png",
+      "path": "assets/images/ch027_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch028_bridge_reading_01": {
+      "key": "ch028_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch028_bridge_reading_01.png",
+      "path": "assets/images/ch028_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch028_target_reading_01": {
+      "key": "ch028_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch028_target_reading_01.png",
+      "path": "assets/images/ch028_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch029_bridge_reading_01": {
+      "key": "ch029_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch029_bridge_reading_01.png",
+      "path": "assets/images/ch029_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch029_target_reading_01": {
+      "key": "ch029_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch029_target_reading_01.png",
+      "path": "assets/images/ch029_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch030_bridge_reading_01": {
+      "key": "ch030_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch030_bridge_reading_01.png",
+      "path": "assets/images/ch030_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch030_target_reading_01": {
+      "key": "ch030_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch030_target_reading_01.png",
+      "path": "assets/images/ch030_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch031_bridge_reading_01": {
+      "key": "ch031_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch031_bridge_reading_01.png",
+      "path": "assets/images/ch031_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch031_target_reading_01": {
+      "key": "ch031_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch031_target_reading_01.png",
+      "path": "assets/images/ch031_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch032_bridge_reading_01": {
+      "key": "ch032_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch032_bridge_reading_01.png",
+      "path": "assets/images/ch032_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch032_target_reading_01": {
+      "key": "ch032_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch032_target_reading_01.png",
+      "path": "assets/images/ch032_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch033_bridge_reading_01": {
+      "key": "ch033_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch033_bridge_reading_01.png",
+      "path": "assets/images/ch033_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch033_target_reading_01": {
+      "key": "ch033_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch033_target_reading_01.png",
+      "path": "assets/images/ch033_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch034_bridge_reading_01": {
+      "key": "ch034_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch034_bridge_reading_01.png",
+      "path": "assets/images/ch034_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch034_target_reading_01": {
+      "key": "ch034_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch034_target_reading_01.png",
+      "path": "assets/images/ch034_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch035_bridge_reading_01": {
+      "key": "ch035_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch035_bridge_reading_01.png",
+      "path": "assets/images/ch035_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch035_target_reading_01": {
+      "key": "ch035_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch035_target_reading_01.png",
+      "path": "assets/images/ch035_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch036_bridge_reading_01": {
+      "key": "ch036_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch036_bridge_reading_01.png",
+      "path": "assets/images/ch036_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch036_target_reading_01": {
+      "key": "ch036_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch036_target_reading_01.png",
+      "path": "assets/images/ch036_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch037_bridge_reading_01": {
+      "key": "ch037_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch037_bridge_reading_01.png",
+      "path": "assets/images/ch037_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch037_target_reading_01": {
+      "key": "ch037_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch037_target_reading_01.png",
+      "path": "assets/images/ch037_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch038_bridge_reading_01": {
+      "key": "ch038_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch038_bridge_reading_01.png",
+      "path": "assets/images/ch038_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch038_target_reading_01": {
+      "key": "ch038_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch038_target_reading_01.png",
+      "path": "assets/images/ch038_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch039_bridge_reading_01": {
+      "key": "ch039_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch039_bridge_reading_01.png",
+      "path": "assets/images/ch039_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch039_target_reading_01": {
+      "key": "ch039_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch039_target_reading_01.png",
+      "path": "assets/images/ch039_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch040_bridge_reading_01": {
+      "key": "ch040_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch040_bridge_reading_01.png",
+      "path": "assets/images/ch040_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch040_target_reading_01": {
+      "key": "ch040_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch040_target_reading_01.png",
+      "path": "assets/images/ch040_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch041_bridge_reading_01": {
+      "key": "ch041_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch041_bridge_reading_01.png",
+      "path": "assets/images/ch041_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch041_target_reading_01": {
+      "key": "ch041_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch041_target_reading_01.png",
+      "path": "assets/images/ch041_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch042_bridge_reading_01": {
+      "key": "ch042_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch042_bridge_reading_01.png",
+      "path": "assets/images/ch042_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch042_target_reading_01": {
+      "key": "ch042_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch042_target_reading_01.png",
+      "path": "assets/images/ch042_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch043_bridge_reading_01": {
+      "key": "ch043_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch043_bridge_reading_01.png",
+      "path": "assets/images/ch043_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch043_target_reading_01": {
+      "key": "ch043_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch043_target_reading_01.png",
+      "path": "assets/images/ch043_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch044_bridge_reading_01": {
+      "key": "ch044_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch044_bridge_reading_01.png",
+      "path": "assets/images/ch044_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch044_target_reading_01": {
+      "key": "ch044_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch044_target_reading_01.png",
+      "path": "assets/images/ch044_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch045_bridge_reading_01": {
+      "key": "ch045_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch045_bridge_reading_01.png",
+      "path": "assets/images/ch045_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch045_target_reading_01": {
+      "key": "ch045_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch045_target_reading_01.png",
+      "path": "assets/images/ch045_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch046_bridge_reading_01": {
+      "key": "ch046_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch046_bridge_reading_01.png",
+      "path": "assets/images/ch046_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch046_target_reading_01": {
+      "key": "ch046_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch046_target_reading_01.png",
+      "path": "assets/images/ch046_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch047_bridge_reading_01": {
+      "key": "ch047_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch047_bridge_reading_01.png",
+      "path": "assets/images/ch047_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch047_target_reading_01": {
+      "key": "ch047_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch047_target_reading_01.png",
+      "path": "assets/images/ch047_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch048_bridge_reading_01": {
+      "key": "ch048_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch048_bridge_reading_01.png",
+      "path": "assets/images/ch048_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch048_target_reading_01": {
+      "key": "ch048_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch048_target_reading_01.png",
+      "path": "assets/images/ch048_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch049_bridge_reading_01": {
+      "key": "ch049_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch049_bridge_reading_01.png",
+      "path": "assets/images/ch049_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch049_target_reading_01": {
+      "key": "ch049_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch049_target_reading_01.png",
+      "path": "assets/images/ch049_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch050_bridge_reading_01": {
+      "key": "ch050_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch050_bridge_reading_01.png",
+      "path": "assets/images/ch050_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch050_target_reading_01": {
+      "key": "ch050_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch050_target_reading_01.png",
+      "path": "assets/images/ch050_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch051_bridge_reading_01": {
+      "key": "ch051_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch051_bridge_reading_01.png",
+      "path": "assets/images/ch051_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch051_target_reading_01": {
+      "key": "ch051_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch051_target_reading_01.png",
+      "path": "assets/images/ch051_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch052_bridge_reading_01": {
+      "key": "ch052_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch052_bridge_reading_01.png",
+      "path": "assets/images/ch052_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch052_target_reading_01": {
+      "key": "ch052_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch052_target_reading_01.png",
+      "path": "assets/images/ch052_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch053_bridge_reading_01": {
+      "key": "ch053_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch053_bridge_reading_01.png",
+      "path": "assets/images/ch053_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch053_target_reading_01": {
+      "key": "ch053_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch053_target_reading_01.png",
+      "path": "assets/images/ch053_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch054_bridge_reading_01": {
+      "key": "ch054_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch054_bridge_reading_01.png",
+      "path": "assets/images/ch054_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch054_target_reading_01": {
+      "key": "ch054_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch054_target_reading_01.png",
+      "path": "assets/images/ch054_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch055_bridge_reading_01": {
+      "key": "ch055_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch055_bridge_reading_01.png",
+      "path": "assets/images/ch055_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch055_target_reading_01": {
+      "key": "ch055_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch055_target_reading_01.png",
+      "path": "assets/images/ch055_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch056_bridge_reading_01": {
+      "key": "ch056_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch056_bridge_reading_01.png",
+      "path": "assets/images/ch056_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch056_target_reading_01": {
+      "key": "ch056_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch056_target_reading_01.png",
+      "path": "assets/images/ch056_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch057_bridge_reading_01": {
+      "key": "ch057_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch057_bridge_reading_01.png",
+      "path": "assets/images/ch057_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch057_target_reading_01": {
+      "key": "ch057_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch057_target_reading_01.png",
+      "path": "assets/images/ch057_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch058_bridge_reading_01": {
+      "key": "ch058_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch058_bridge_reading_01.png",
+      "path": "assets/images/ch058_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch058_target_reading_01": {
+      "key": "ch058_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch058_target_reading_01.png",
+      "path": "assets/images/ch058_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch059_bridge_reading_01": {
+      "key": "ch059_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch059_bridge_reading_01.png",
+      "path": "assets/images/ch059_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch059_target_reading_01": {
+      "key": "ch059_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch059_target_reading_01.png",
+      "path": "assets/images/ch059_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch060_bridge_reading_01": {
+      "key": "ch060_bridge_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch060_bridge_reading_01.png",
+      "path": "assets/images/ch060_bridge_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "ch060_target_reading_01": {
+      "key": "ch060_target_reading_01",
+      "role": "lesson-hero",
+      "filename": "ch060_target_reading_01.png",
+      "path": "assets/images/ch060_target_reading_01.png",
+      "size": "1536x1024",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    },
+    "cover": {
+      "key": "cover",
+      "role": "cover",
+      "filename": "cover.png",
+      "path": "assets/images/cover.png",
+      "size": "1024x1536",
+      "quality": "low",
+      "model": "pil-editorial-synthesizer"
+    }
+  },
+  "image_count": 122
 }

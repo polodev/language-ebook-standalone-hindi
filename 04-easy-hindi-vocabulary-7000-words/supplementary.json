@@ -2,9 +2,61 @@
   "copy": {
     "title": "Easy Hindi Vocabulary: 7000+ Words & Phrases",
     "title_bengali": "ইজি হিন্দি ভোকাবুলারি: ৭০০০+ ওয়ার্ডস অ্যান্ড ফ্রেজেস",
-    "publisher": "Published by Englishing.app",
+    "publisher": "Published by Bidyazo.com (An Englishing.app Project)",
     "complete_target_reading": "সম্পূর্ণ পাঠের উচ্চারণ (বাংলা হরফে)",
-    "reading_breakdown": "শব্দে শব্দে পাঠ"
+    "reading_breakdown": "শব্দে শব্দে পাঠ",
+    "edition_note": "সম্পূর্ণ শব্দভাণ্ডার সংস্করণ",
+    "subtitle": "বাংলাভাষীদের জন্য প্রয়োজনীয় ৭০০০+ হিন্দি শব্দ ও বাক্য",
+    "chapter_label": "অধ্যায়",
+    "contents": "সূচিপত্র",
+    "sentences": "দরকারি বাক্য",
+    "vocabulary": "বাক্য থেকে শব্দ শেখা",
+    "bridge_reading": "বাংলা ও হিন্দিতে গল্প",
+    "target_reading": "ছোট হিন্দি পাঠ",
+    "script_and_numbers": "অক্ষর ও সংখ্যা",
+    "speaking_practice": "নিজে বলুন ও অনুশীলন করুন",
+    "additional_practice": "আরও অনুশীলন",
+    "pronunciation": "উচ্চারণ",
+    "meaning": "বাংলা অর্থ",
+    "romanization": "রোমান হরফে",
+    "numbers": "সংখ্যা",
+    "script": "অক্ষর চেনা",
+    "answer": "নমুনা উত্তর",
+    "synonyms": "একই অর্থের শব্দ",
+    "collocations": "একসঙ্গে ব্যবহৃত শব্দ",
+    "example": "উদাহরণ বাক্য",
+    "tracker": "শেখার অগ্রগতি",
+    "tracker_subtitle": "প্রতিটি অধ্যায় পড়ুন, বলুন এবং পুনরায় অনুশীলন করুন।",
+    "tracker_columns": [
+      "অধ্যায়",
+      "বিষয়",
+      "পড়েছি",
+      "বলেছি",
+      "আবার করেছি"
+    ],
+    "reading_pronunciation": "সম্পূর্ণ পাঠের উচ্চারণ",
+    "reading_meaning": "সম্পূর্ণ পাঠের বাংলা অর্থ",
+    "review_note": "এই সংস্করণটি সম্পাদনা ও পাঠযোগ্যতা পর্যালোচনার জন্য।",
+    "base": "শুরু",
+    "expanded": "বিস্তার",
+    "polished": "পরিমার্জিত",
+    "script_modes": {
+      "new": "নতুন অক্ষর",
+      "review": "পুনরায় চর্চা",
+      "application": "ব্যবহার"
+    },
+    "sentence_table_columns": [
+      "নং",
+      "বাংলা অর্থ",
+      "পূর্ণ উচ্চারণ (বাংলা হরফে)",
+      "শব্দে শব্দে হিন্দি ও উচ্চারণ"
+    ],
+    "vocabulary_table_columns": [
+      "বাংলা শব্দ",
+      "হিন্দি",
+      "উদাহরণ বাক্য"
+    ],
+    "word_breakdown": "শব্দে শব্দে হিন্দি ও উচ্চারণ"
   },
   "design": {
     "status": "planned_requires_visual_QA",
@@ -99,8 +151,7 @@
         "vocabulary",
         "bridge_reading",
         "target_reading",
-        "script_and_numbers",
-        "speaking_practice"
+        "script_and_numbers"
       ],
       "target_word_pronunciation": {
         "position": "immediately_after_each_word",
@@ -139,6 +190,22 @@
       },
       "native_script_display": "only_with_adjacent_word_level_bangla_pronunciation",
       "target_reading_pronunciation_labels": false
+    },
+    "ui": {
+      "text": "#243442",
+      "muted": "#526573",
+      "paper": "#FFFFFF",
+      "rule": "#D9E3E9",
+      "cover_ink": "#175B72",
+      "card_radius_mm": 2.5,
+      "desktop_font_pt": 11,
+      "mobile_font_pt": 11,
+      "desktop_margin_mm": 12,
+      "mobile_margin_mm": 9,
+      "image_width_px": 1152,
+      "image_jpeg_quality": 84,
+      "tracker_font_pt": 9,
+      "tracker_cell_padding_mm": 1.2
     }
   },
   "outputs": [
@@ -149,17 +216,16 @@
     "05-easy-hindi-vocabulary-7000-words-bn-desktop.pdf",
     "06-easy-hindi-vocabulary-7000-words-bn-mobile.pdf",
     "07-easy-hindi-vocabulary-7000-words-bn-desktop.epub",
-    "08-easy-hindi-vocabulary-7000-words-bn-mobile.epub",
-    "09-easy-hindi-vocabulary-7000-words-bn-compact-sample-2-lessons-desktop.pdf",
-    "10-easy-hindi-vocabulary-7000-words-bn-compact-sample-2-lessons-mobile.pdf",
-    "11-easy-hindi-vocabulary-7000-words-bn-compact-desktop.pdf",
-    "12-easy-hindi-vocabulary-7000-words-bn-compact-mobile.pdf"
+    "08-easy-hindi-vocabulary-7000-words-bn-mobile.epub"
   ],
-  "compact_fields": [
-    "target",
-    "type",
-    "bangla_pronunciation",
-    "meaning_bengali_md",
-    "synonyms"
-  ]
+  "compact_fields": [],
+  "publication": {
+    "identifier": "urn:bidyazo:easy-hindi-vocabulary-7000-words-bn:review:1",
+    "modified": "2026-09-15T00:00:00Z",
+    "edition_status": "review_build",
+    "publisher_name": "Bidyazo.com",
+    "language": "bn",
+    "target_language": "hi-IN",
+    "parent_brand": "Englishing.app"
+  }
 }

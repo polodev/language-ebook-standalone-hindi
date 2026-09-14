@@ -3,7 +3,7 @@
   "status": "drafted",
   "title_target": "वाक्य निर्माण: जटिल विचारों का संश्लेषण",
   "title_bangla_pronunciation": "বাক্য নির্মাণ: জটিল বিচারোং কা সংশ্লেষণ",
-  "title_romanization": "vaakya nirmaana: jatila vichaaron kaa sanshleshan",
+  "title_romanization": "vaaky nirmaan jtil vichaaron kaa sanshleshan.",
   "title_word_pronunciations": [
     {
       "target": "वाक्य",
@@ -14,7 +14,7 @@
     {
       "target": "निर्माण:",
       "bangla_pronunciation": "নির্মাণ:",
-      "romanization": "nirmaan:",
+      "romanization": "nirmaan",
       "separator_after": " "
     },
     {
@@ -38,29 +38,29 @@
     {
       "target": "संश्लेषण",
       "bangla_pronunciation": "সংশ্লেষণ",
-      "romanization": "snshlessnn",
+      "romanization": "sanshleshan",
       "separator_after": ""
     }
   ],
   "title_bengali": "বাক্য নির্মাণ: জটিল ভাবের সংশ্লেষ",
-  "goal_bengali_md": "বিরোধ, শর্ত, সীমাবদ্ধতা, কারণ ও মূল্যায়নকে একসঙ্গে রেখে স্বাভাবিক, সুসংগঠিত ও সংক্ষিপ্ত হিন্দি বাক্য তৈরি করা।",
+  "goal_bengali_md": "বিরোধ, শর্ত, সীমাবদ্ধতা, কারণ ও মূল্যায়নকে একসঙ্গে রেখে স্বাভাবিক, সুসংগঠিত ও সংক্ষিপ্ত হিন্দি বাক্য তৈরি করা।",
   "sentences": [
     {
       "id": "ch055_s01",
       "target": "हालांकि प्रस्ताव आकर्षक है, उसकी लागत स्पष्ट नहीं है।",
-      "romanization": "haalaanki prstaav aakrssk hai, uskii laagt spsstt nhiin hai /",
-      "bangla_pronunciation": "হালাংকি প্রস্তাব আকর্ষক হ্যায়, উসকী লাগত স্পষ্ট নহীঁ হ্যায়।",
+      "romanization": "haalaanki prastaav aakarshak hai, uskee laagat spasht nahin hai.",
+      "bangla_pronunciation": "হালাংকি প্রস্তাব আকর্ষক হ্যায়, উসকী লাগত স্পষ্ট নহীঁ হ্যায়।",
       "word_pronunciations": [
         {
           "target": "हालांकि",
           "bangla_pronunciation": "হালাংকি",
-          "romanization": "halanki",
+          "romanization": "haalaanki",
           "separator_after": " "
         },
         {
           "target": "प्रस्ताव",
           "bangla_pronunciation": "প্রস্তাব",
-          "romanization": "prstaav",
+          "romanization": "prastaav",
           "separator_after": " "
         },
         {
@@ -71,48 +71,48 @@
         },
         {
           "target": "है,",
-          "bangla_pronunciation": "হ্যায়,",
+          "bangla_pronunciation": "হ্যায়,",
           "romanization": "hai,",
           "separator_after": " "
         },
         {
           "target": "उसकी",
           "bangla_pronunciation": "উসকী",
-          "romanization": "usakee",
+          "romanization": "uskee",
           "separator_after": " "
         },
         {
           "target": "लागत",
           "bangla_pronunciation": "লাগত",
-          "romanization": "laagt",
+          "romanization": "laagat",
           "separator_after": " "
         },
         {
           "target": "स्पष्ट",
           "bangla_pronunciation": "স্পষ্ট",
-          "romanization": "spsstt",
+          "romanization": "spasht",
           "separator_after": " "
         },
         {
           "target": "नहीं",
           "bangla_pronunciation": "নহীঁ",
-          "romanization": "naheen",
+          "romanization": "nahin",
           "separator_after": " "
         },
         {
           "target": "है।",
-          "bangla_pronunciation": "হ্যায়।",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "প্রস্তাবটি আকর্ষণীয় হলেও তার খরচ স্পষ্ট নয়।"
+      "meaning_bengali_md": "প্রস্তাবটি আকর্ষণীয় হলেও তার খরচ স্পষ্ট নয়।"
     },
     {
       "id": "ch055_s02",
       "target": "यदि आंकड़े सही हैं, तो दिशा बदलना उचित होगा।",
-      "romanization": "ydi aankdd'e shii hain, to dishaa bdlnaa ucit hogaa /",
-      "bangla_pronunciation": "যদি আংকড়ে সহী হ্যায়, তো দিশা বদলনা উচিত হোগা।",
+      "romanization": "yadi aankade sahee hain, to dishaa badalnaa uchit hogaa.",
+      "bangla_pronunciation": "যদি আংকড়ে সহী হ্যায়, তো দিশা বদলনা উচিত হোগা।",
       "word_pronunciations": [
         {
           "target": "यदि",
@@ -122,8 +122,8 @@
         },
         {
           "target": "आंकड़े",
-          "bangla_pronunciation": "আংকড়ে",
-          "romanization": "aankare",
+          "bangla_pronunciation": "আংকড়ে",
+          "romanization": "aankade",
           "separator_after": " "
         },
         {
@@ -134,7 +134,7 @@
         },
         {
           "target": "हैं,",
-          "bangla_pronunciation": "হ্যায়,",
+          "bangla_pronunciation": "হ্যায়,",
           "romanization": "hain,",
           "separator_after": " "
         },
@@ -153,7 +153,7 @@
         {
           "target": "बदलना",
           "bangla_pronunciation": "বদলনা",
-          "romanization": "badalana",
+          "romanization": "badalnaa",
           "separator_after": " "
         },
         {
@@ -174,8 +174,8 @@
     {
       "id": "ch055_s03",
       "target": "समस्या जटिल है, फिर भी निर्णय टाला नहीं जा सकता।",
-      "romanization": "smsyaa jttil hai, phir bhii nirnny ttaalaa nhiin jaa sktaa /",
-      "bangla_pronunciation": "সমস্যা জটিল হ্যায়, ফির ভী নির্ণয় টালা নহীঁ জা সকতা।",
+      "romanization": "samasya jtil hai, phir bhee nirnay taalaa nahin jaa saktaa.",
+      "bangla_pronunciation": "সমস্যা জটিল হ্যায়, ফির ভী নির্ণয় টালা নহীঁ জা সকতা।",
       "word_pronunciations": [
         {
           "target": "समस्या",
@@ -191,7 +191,7 @@
         },
         {
           "target": "है,",
-          "bangla_pronunciation": "হ্যায়,",
+          "bangla_pronunciation": "হ্যায়,",
           "romanization": "hai,",
           "separator_after": " "
         },
@@ -209,7 +209,7 @@
         },
         {
           "target": "निर्णय",
-          "bangla_pronunciation": "নির্ণয়",
+          "bangla_pronunciation": "নির্ণয়",
           "romanization": "nirnay",
           "separator_after": " "
         },
@@ -222,7 +222,7 @@
         {
           "target": "नहीं",
           "bangla_pronunciation": "নহীঁ",
-          "romanization": "naheen",
+          "romanization": "nahin",
           "separator_after": " "
         },
         {
@@ -234,17 +234,17 @@
         {
           "target": "सकता।",
           "bangla_pronunciation": "সকতা।",
-          "romanization": "sakataa.",
+          "romanization": "saktaa.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "সমস্যা জটিল, তবু সিদ্ধান্ত পিছিয়ে দেওয়া যায় না।"
+      "meaning_bengali_md": "সমস্যা জটিল, তবু সিদ্ধান্ত পিছিয়ে দেওয়া যায় না।"
     },
     {
       "id": "ch055_s04",
       "target": "लाभ संभव है, बशर्ते जोखिम पहले नियंत्रित हों।",
-      "romanization": "laabh snbhv hai, bshrte jokhim phle niyntrit hon /",
-      "bangla_pronunciation": "লাভ সংভব হ্যায়, বশর্তে জোখিম পহলে নিযংত্রিত হোঁ।",
+      "romanization": "laabh sanbhav hai, basharte jokhim pahle niyantrit hon.",
+      "bangla_pronunciation": "লাভ সংভব হ্যায়, বশর্তে জোখিম পহলে নিযংত্রিত হোঁ।",
       "word_pronunciations": [
         {
           "target": "लाभ",
@@ -260,14 +260,14 @@
         },
         {
           "target": "है,",
-          "bangla_pronunciation": "হ্যায়,",
+          "bangla_pronunciation": "হ্যায়,",
           "romanization": "hai,",
           "separator_after": " "
         },
         {
           "target": "बशर्ते",
           "bangla_pronunciation": "বশর্তে",
-          "romanization": "bshrte",
+          "romanization": "basharte",
           "separator_after": " "
         },
         {
@@ -279,7 +279,7 @@
         {
           "target": "पहले",
           "bangla_pronunciation": "পহলে",
-          "romanization": "phle",
+          "romanization": "pahle",
           "separator_after": " "
         },
         {
@@ -295,17 +295,17 @@
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "ঝুঁকি আগে নিয়ন্ত্রিত হলে সুফল সম্ভব।"
+      "meaning_bengali_md": "ঝুঁকি আগে নিয়ন্ত্রিত হলে সুফল সম্ভব।"
     },
     {
       "id": "ch055_s05",
       "target": "यह विचार उपयोगी है क्योंकि यह दो जरूरतें जोड़ता है।",
-      "romanization": "yh vicaar upyogii hai kyonki yh do jruurten jodd'taa hai /",
-      "bangla_pronunciation": "ইয়হ বিচার উপযোগী হ্যায় ক্যোঁকি ইয়হ দো জরূরতেং জোড়তা হ্যায়।",
+      "romanization": "yah vichaar upayogee hai kyonki yah do zarooratein jodtaa hai.",
+      "bangla_pronunciation": "ইয়হ বিচার উপযোগী হ্যায় ক্যোঁকি ইয়হ দো জরূরতেং জোড়তা হ্যায়।",
       "word_pronunciations": [
         {
           "target": "यह",
-          "bangla_pronunciation": "ইয়হ",
+          "bangla_pronunciation": "ইয়হ",
           "romanization": "yah",
           "separator_after": " "
         },
@@ -318,12 +318,12 @@
         {
           "target": "उपयोगी",
           "bangla_pronunciation": "উপযোগী",
-          "romanization": "upayogii",
+          "romanization": "upayogee",
           "separator_after": " "
         },
         {
           "target": "है",
-          "bangla_pronunciation": "হ্যায়",
+          "bangla_pronunciation": "হ্যায়",
           "romanization": "hai",
           "separator_after": " "
         },
@@ -335,7 +335,7 @@
         },
         {
           "target": "यह",
-          "bangla_pronunciation": "ইয়হ",
+          "bangla_pronunciation": "ইয়হ",
           "romanization": "yah",
           "separator_after": " "
         },
@@ -348,29 +348,29 @@
         {
           "target": "जरूरतें",
           "bangla_pronunciation": "জরূরতেং",
-          "romanization": "jarooraten",
+          "romanization": "zarooratein",
           "separator_after": " "
         },
         {
           "target": "जोड़ता",
-          "bangla_pronunciation": "জোড়তা",
-          "romanization": "jorataa",
+          "bangla_pronunciation": "জোড়তা",
+          "romanization": "jodtaa",
           "separator_after": " "
         },
         {
           "target": "है।",
-          "bangla_pronunciation": "হ্যায়।",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "এই ধারণা উপকারী, কারণ এটি দুইটি প্রয়োজনকে যুক্ত করে।"
+      "meaning_bengali_md": "এই ধারণা উপকারী, কারণ এটি দুইটি প্রয়োজনকে যুক্ত করে।"
     },
     {
       "id": "ch055_s06",
       "target": "नीति अच्छी दिखती है, पर लागू करना कठिन हो सकता है।",
-      "romanization": "niiti acchii dikhtii hai, pr laaguu krnaa ktthin ho sktaa hai /",
-      "bangla_pronunciation": "নীতী অচ্ছী দিখতী হ্যায়, পর লাগূ করনা কঠিন হো সকতা হ্যায়।",
+      "romanization": "neeti achchhee dikhtee hai, par laagoo karnaa kathin ho saktaa hai.",
+      "bangla_pronunciation": "নীতী অচ্ছী দিখতী হ্যায়, পর লাগূ করনা কঠিন হো সকতা হ্যায়।",
       "word_pronunciations": [
         {
           "target": "नीति",
@@ -387,12 +387,12 @@
         {
           "target": "दिखती",
           "bangla_pronunciation": "দিখতী",
-          "romanization": "dikhatee",
+          "romanization": "dikhtee",
           "separator_after": " "
         },
         {
           "target": "है,",
-          "bangla_pronunciation": "হ্যায়,",
+          "bangla_pronunciation": "হ্যায়,",
           "romanization": "hai,",
           "separator_after": " "
         },
@@ -411,7 +411,7 @@
         {
           "target": "करना",
           "bangla_pronunciation": "করনা",
-          "romanization": "karanaa",
+          "romanization": "karnaa",
           "separator_after": " "
         },
         {
@@ -429,23 +429,23 @@
         {
           "target": "सकता",
           "bangla_pronunciation": "সকতা",
-          "romanization": "sakta",
+          "romanization": "saktaa",
           "separator_after": " "
         },
         {
           "target": "है।",
-          "bangla_pronunciation": "হ্যায়।",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "নীতি ভালো দেখায়, কিন্তু বাস্তবায়ন কঠিন হতে পারে।"
+      "meaning_bengali_md": "নীতি ভালো দেখায়, কিন্তু বাস্তবায়ন কঠিন হতে পারে।"
     },
     {
       "id": "ch055_s07",
       "target": "जहां संसाधन सीमित हों, वहां प्राथमिकता स्पष्ट होनी चाहिए।",
-      "romanization": "jhaan snsaadhn siimit hon, vhaan praathmiktaa spsstt honii caahie /",
-      "bangla_pronunciation": "জহাং সংসাধন সীমিত হোঁ, বহাং প্রাথমিকতা স্পষ্ট হোনী চাহিয়ে।",
+      "romanization": "jahaan sansaadhan seemit hon, vahaan praathmiktaa spasht honee chaahiye.",
+      "bangla_pronunciation": "জহাং সংসাধন সীমিত হোঁ, বহাং প্রাথমিকতা স্পষ্ট হোনী চাহিয়ে।",
       "word_pronunciations": [
         {
           "target": "जहां",
@@ -456,13 +456,13 @@
         {
           "target": "संसाधन",
           "bangla_pronunciation": "সংসাধন",
-          "romanization": "snsaadhn",
+          "romanization": "sansaadhan",
           "separator_after": " "
         },
         {
           "target": "सीमित",
           "bangla_pronunciation": "সীমিত",
-          "romanization": "siimit",
+          "romanization": "seemit",
           "separator_after": " "
         },
         {
@@ -486,7 +486,7 @@
         {
           "target": "स्पष्ट",
           "bangla_pronunciation": "স্পষ্ট",
-          "romanization": "spsstt",
+          "romanization": "spasht",
           "separator_after": " "
         },
         {
@@ -497,18 +497,18 @@
         },
         {
           "target": "चाहिए।",
-          "bangla_pronunciation": "চাহিয়ে।",
-          "romanization": "chaahie.",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "romanization": "chaahiye.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "যেখানে সম্পদ সীমিত, সেখানে অগ্রাধিকার স্পষ্ট হওয়া উচিত।"
+      "meaning_bengali_md": "যেখানে সম্পদ সীমিত, সেখানে অগ্রাধিকার স্পষ্ট হওয়া উচিত।"
     },
     {
       "id": "ch055_s08",
       "target": "एक कारण आर्थिक है, जबकि दूसरा सामाजिक है।",
-      "romanization": "ek kaarnn aarthik hai, jbki duusraa saamaajik hai /",
-      "bangla_pronunciation": "এক কারণ আর্থিক হ্যায়, জবকি দূসরা সামাজিক হ্যায়।",
+      "romanization": "ek kaaran aarthik hai, jabki doosraa saamaajik hai.",
+      "bangla_pronunciation": "এক কারণ আর্থিক হ্যায়, জবকি দূসরা সামাজিক হ্যায়।",
       "word_pronunciations": [
         {
           "target": "एक",
@@ -530,20 +530,20 @@
         },
         {
           "target": "है,",
-          "bangla_pronunciation": "হ্যায়,",
+          "bangla_pronunciation": "হ্যায়,",
           "romanization": "hai,",
           "separator_after": " "
         },
         {
           "target": "जबकि",
           "bangla_pronunciation": "জবকি",
-          "romanization": "jabaki",
+          "romanization": "jabki",
           "separator_after": " "
         },
         {
           "target": "दूसरा",
           "bangla_pronunciation": "দূসরা",
-          "romanization": "doosaraa",
+          "romanization": "doosraa",
           "separator_after": " "
         },
         {
@@ -554,7 +554,7 @@
         },
         {
           "target": "है।",
-          "bangla_pronunciation": "হ্যায়।",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hai.",
           "separator_after": ""
         }
@@ -564,24 +564,24 @@
     {
       "id": "ch055_s09",
       "target": "निष्कर्ष मजबूत है, लेकिन साक्ष्य अभी सीमित हैं।",
-      "romanization": "nisskrss mjbuut hai, lekin saakssy abhii siimit hain /",
-      "bangla_pronunciation": "নিষ্কর্ষ মজবূত হ্যায়, লেকিন সাক্ষ্য অভী সীমিত হ্যায়।",
+      "romanization": "nishkarsh majboot hai, lekin saakshya abhee seemit hain.",
+      "bangla_pronunciation": "নিষ্কর্ষ মজবূত হ্যায়, লেকিন সাক্ষ্য অভী সীমিত হ্যায়।",
       "word_pronunciations": [
         {
           "target": "निष्कर्ष",
           "bangla_pronunciation": "নিষ্কর্ষ",
-          "romanization": "nisskrss",
+          "romanization": "nishkarsh",
           "separator_after": " "
         },
         {
           "target": "मजबूत",
           "bangla_pronunciation": "মজবূত",
-          "romanization": "mjbuut",
+          "romanization": "majboot",
           "separator_after": " "
         },
         {
           "target": "है,",
-          "bangla_pronunciation": "হ্যায়,",
+          "bangla_pronunciation": "হ্যায়,",
           "romanization": "hai,",
           "separator_after": " "
         },
@@ -594,24 +594,24 @@
         {
           "target": "साक्ष्य",
           "bangla_pronunciation": "সাক্ষ্য",
-          "romanization": "saakssy",
+          "romanization": "saakshya",
           "separator_after": " "
         },
         {
           "target": "अभी",
           "bangla_pronunciation": "অভী",
-          "romanization": "abhii",
+          "romanization": "abhee",
           "separator_after": " "
         },
         {
           "target": "सीमित",
           "bangla_pronunciation": "সীমিত",
-          "romanization": "siimit",
+          "romanization": "seemit",
           "separator_after": " "
         },
         {
           "target": "हैं।",
-          "bangla_pronunciation": "হ্যায়।",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hain.",
           "separator_after": ""
         }
@@ -621,8 +621,8 @@
     {
       "id": "ch055_s10",
       "target": "हम सहमत हो सकते हैं कि समस्या वास्तविक है।",
-      "romanization": "hm shmt ho skte hain ki smsyaa vaastvik hai /",
-      "bangla_pronunciation": "হম সহমত হো সকতে হ্যায় কি সমস্যা বাস্তবিক হ্যায়।",
+      "romanization": "ham sahmat ho sakte hain ki samasya vaastavik hai.",
+      "bangla_pronunciation": "হম সহমত হো সকতে হ্যায় কি সমস্যা বাস্তবিক হ্যায়।",
       "word_pronunciations": [
         {
           "target": "हम",
@@ -633,7 +633,7 @@
         {
           "target": "सहमत",
           "bangla_pronunciation": "সহমত",
-          "romanization": "shmt",
+          "romanization": "sahmat",
           "separator_after": " "
         },
         {
@@ -645,12 +645,12 @@
         {
           "target": "सकते",
           "bangla_pronunciation": "সকতে",
-          "romanization": "skte",
+          "romanization": "sakte",
           "separator_after": " "
         },
         {
           "target": "हैं",
-          "bangla_pronunciation": "হ্যায়",
+          "bangla_pronunciation": "হ্যায়",
           "romanization": "hain",
           "separator_after": " "
         },
@@ -669,12 +669,12 @@
         {
           "target": "वास्तविक",
           "bangla_pronunciation": "বাস্তবিক",
-          "romanization": "vaastvik",
+          "romanization": "vaastavik",
           "separator_after": " "
         },
         {
           "target": "है।",
-          "bangla_pronunciation": "হ্যায়।",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hai.",
           "separator_after": ""
         }
@@ -684,8 +684,8 @@
     {
       "id": "ch055_s11",
       "target": "फिर भी समाधान पर अलग मत रखना उचित है।",
-      "romanization": "phir bhii smaadhaan pr alg mt rkhnaa ucit hai /",
-      "bangla_pronunciation": "ফির ভী সমাধান পর অলগ মত রখনা উচিত হ্যায়।",
+      "romanization": "phir bhee samaadhaan par alag mat rakhnaa uchit hai.",
+      "bangla_pronunciation": "ফির ভী সমাধান পর অলগ মত রখনা উচিত হ্যায়।",
       "word_pronunciations": [
         {
           "target": "फिर",
@@ -714,7 +714,7 @@
         {
           "target": "अलग",
           "bangla_pronunciation": "অলগ",
-          "romanization": "alg",
+          "romanization": "alag",
           "separator_after": " "
         },
         {
@@ -726,7 +726,7 @@
         {
           "target": "रखना",
           "bangla_pronunciation": "রখনা",
-          "romanization": "rakhanaa",
+          "romanization": "rakhnaa",
           "separator_after": " "
         },
         {
@@ -737,53 +737,53 @@
         },
         {
           "target": "है।",
-          "bangla_pronunciation": "হ্যায়।",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "তবুও সমাধান নিয়ে ভিন্ন মত থাকা যুক্তিযুক্ত।"
+      "meaning_bengali_md": "তবুও সমাধান নিয়ে ভিন্ন মত থাকা যুক্তিযুক্ত।"
     },
     {
       "id": "ch055_s12",
       "target": "पहला विकल्प तेज़ है, जबकि दूसरा अधिक टिकाऊ है।",
-      "romanization": "phlaa viklp tej' hai, jbki duusraa adhik ttikaauu hai /",
-      "bangla_pronunciation": "পহলা বিকল্প তেজ হ্যায়, জবকি দূসরা অধিক টিকাঊ হ্যায়।",
+      "romanization": "pahlaa vikalp tez hai, jabki doosraa adhik tikaaoo hai.",
+      "bangla_pronunciation": "পহলা বিকল্প তেজ হ্যায়, জবকি দূসরা অধিক টিকাঊ হ্যায়।",
       "word_pronunciations": [
         {
           "target": "पहला",
           "bangla_pronunciation": "পহলা",
-          "romanization": "pahalaa",
+          "romanization": "pahlaa",
           "separator_after": " "
         },
         {
           "target": "विकल्प",
           "bangla_pronunciation": "বিকল্প",
-          "romanization": "viklp",
+          "romanization": "vikalp",
           "separator_after": " "
         },
         {
           "target": "तेज़",
           "bangla_pronunciation": "তেজ",
-          "romanization": "tej",
+          "romanization": "tez",
           "separator_after": " "
         },
         {
           "target": "है,",
-          "bangla_pronunciation": "হ্যায়,",
+          "bangla_pronunciation": "হ্যায়,",
           "romanization": "hai,",
           "separator_after": " "
         },
         {
           "target": "जबकि",
           "bangla_pronunciation": "জবকি",
-          "romanization": "jabaki",
+          "romanization": "jabki",
           "separator_after": " "
         },
         {
           "target": "दूसरा",
           "bangla_pronunciation": "দূসরা",
-          "romanization": "doosaraa",
+          "romanization": "doosraa",
           "separator_after": " "
         },
         {
@@ -795,27 +795,27 @@
         {
           "target": "टिकाऊ",
           "bangla_pronunciation": "টিকাঊ",
-          "romanization": "ttikaauu",
+          "romanization": "tikaaoo",
           "separator_after": " "
         },
         {
           "target": "है।",
-          "bangla_pronunciation": "হ্যায়।",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "প্রথম বিকল্প দ্রুত, আর দ্বিতীয়টি বেশি টেকসই।"
+      "meaning_bengali_md": "প্রথম বিকল্প দ্রুত, আর দ্বিতীয়টি বেশি টেকসই।"
     },
     {
       "id": "ch055_s13",
       "target": "निर्णय तभी उचित होगा जब प्रभाव मापा जाए।",
-      "romanization": "nirnny tbhii ucit hogaa jb prbhaav maapaa jaae /",
-      "bangla_pronunciation": "নির্ণয় তভী উচিত হোগা জব প্রভাব মাপা জাএ।",
+      "romanization": "nirnay tabhee uchit hogaa jab prbhaav maapaa jaaye.",
+      "bangla_pronunciation": "নির্ণয় তভী উচিত হোগা জব প্রভাব মাপা জাএ।",
       "word_pronunciations": [
         {
           "target": "निर्णय",
-          "bangla_pronunciation": "নির্ণয়",
+          "bangla_pronunciation": "নির্ণয়",
           "romanization": "nirnay",
           "separator_after": " "
         },
@@ -834,7 +834,7 @@
         {
           "target": "होगा",
           "bangla_pronunciation": "হোগা",
-          "romanization": "hoga",
+          "romanization": "hogaa",
           "separator_after": " "
         },
         {
@@ -858,7 +858,7 @@
         {
           "target": "जाए।",
           "bangla_pronunciation": "জাএ।",
-          "romanization": "jaae.",
+          "romanization": "jaaye.",
           "separator_after": ""
         }
       ],
@@ -867,8 +867,8 @@
     {
       "id": "ch055_s14",
       "target": "किसी दावे को संदर्भ से अलग नहीं पढ़ना चाहिए।",
-      "romanization": "kisii daave ko sndrbh se alg nhiin pddh'naa caahie /",
-      "bangla_pronunciation": "কিসী দাবে কো সংদর্ভ সে অলগ নহীঁ পঢ়না চাহিয়ে।",
+      "romanization": "kisee daave ko sandarbh se alag nahin pddh'naa chaahiye.",
+      "bangla_pronunciation": "কিসী দাবে কো সংদর্ভ সে অলগ নহীঁ পঢ়না চাহিয়ে।",
       "word_pronunciations": [
         {
           "target": "किसी",
@@ -891,7 +891,7 @@
         {
           "target": "संदर्भ",
           "bangla_pronunciation": "সংদর্ভ",
-          "romanization": "sndrbh",
+          "romanization": "sandarbh",
           "separator_after": " "
         },
         {
@@ -903,35 +903,35 @@
         {
           "target": "अलग",
           "bangla_pronunciation": "অলগ",
-          "romanization": "alg",
+          "romanization": "alag",
           "separator_after": " "
         },
         {
           "target": "नहीं",
           "bangla_pronunciation": "নহীঁ",
-          "romanization": "naheen",
+          "romanization": "nahin",
           "separator_after": " "
         },
         {
           "target": "पढ़ना",
-          "bangla_pronunciation": "পঢ়না",
+          "bangla_pronunciation": "পঢ়না",
           "romanization": "pddh'naa",
           "separator_after": " "
         },
         {
           "target": "चाहिए।",
-          "bangla_pronunciation": "চাহিয়ে।",
-          "romanization": "chaahie.",
+          "bangla_pronunciation": "চাহিয়ে।",
+          "romanization": "chaahiye.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "কোনো দাবিকে প্রেক্ষাপট থেকে আলাদা করে পড়া উচিত নয়।"
+      "meaning_bengali_md": "কোনো দাবিকে প্রেক্ষাপট থেকে আলাদা করে পড়া উচিত নয়।"
     },
     {
       "id": "ch055_s15",
       "target": "जो बात संभव है, वह हमेशा वांछनीय नहीं होती।",
-      "romanization": "jo baat snbhv hai, vh hmeshaa vaanchniiy nhiin hotii /",
-      "bangla_pronunciation": "জো বাত সংভব হ্যায়, ওহ হমেশা বাংছনীয নহীঁ হোতী।",
+      "romanization": "jo baat sanbhav hai, vah hameshaa vaanchhaneey nahin hotee.",
+      "bangla_pronunciation": "জো বাত সংভব হ্যায়, ওহ হমেশা বাঞ্ছনীয় নহীঁ হোতী।",
       "word_pronunciations": [
         {
           "target": "जो",
@@ -953,7 +953,7 @@
         },
         {
           "target": "है,",
-          "bangla_pronunciation": "হ্যায়,",
+          "bangla_pronunciation": "হ্যায়,",
           "romanization": "hai,",
           "separator_after": " "
         },
@@ -966,19 +966,19 @@
         {
           "target": "हमेशा",
           "bangla_pronunciation": "হমেশা",
-          "romanization": "hmeshaa",
+          "romanization": "hameshaa",
           "separator_after": " "
         },
         {
           "target": "वांछनीय",
-          "bangla_pronunciation": "বাংছনীয",
-          "romanization": "vaanchniiy",
+          "bangla_pronunciation": "বাঞ্ছনীয়",
+          "romanization": "vaanchhaneey",
           "separator_after": " "
         },
         {
           "target": "नहीं",
           "bangla_pronunciation": "নহীঁ",
-          "romanization": "naheen",
+          "romanization": "nahin",
           "separator_after": " "
         },
         {
@@ -988,18 +988,18 @@
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "যা সম্ভব, তা সবসময় কাম্য নয়।"
+      "meaning_bengali_md": "যা সম্ভব, তা সবসময় কাম্য নয়।"
     },
     {
       "id": "ch055_s16",
       "target": "परिणाम बेहतर हुए, हालांकि अंतर बहुत बड़ा नहीं था।",
-      "romanization": "prinnaam behtr hue, haalaanki antr bhut bdd'aa nhiin thaa /",
-      "bangla_pronunciation": "পরিণাম বেহতর হুয়ে, হালাংকি অংতর বহুত বড়া নহীঁ থা।",
+      "romanization": "parinaam behtar hue, haalaanki antar bahut badaa nahin thaa.",
+      "bangla_pronunciation": "পরিণাম বেহতর হুয়ে, হালাংকি অংতর বহুত বড়া নহীঁ থা।",
       "word_pronunciations": [
         {
           "target": "परिणाम",
           "bangla_pronunciation": "পরিণাম",
-          "romanization": "prinnaam",
+          "romanization": "parinaam",
           "separator_after": " "
         },
         {
@@ -1010,14 +1010,14 @@
         },
         {
           "target": "हुए,",
-          "bangla_pronunciation": "হুয়ে,",
+          "bangla_pronunciation": "হুয়ে,",
           "romanization": "hue,",
           "separator_after": " "
         },
         {
           "target": "हालांकि",
           "bangla_pronunciation": "হালাংকি",
-          "romanization": "halanki",
+          "romanization": "haalaanki",
           "separator_after": " "
         },
         {
@@ -1034,14 +1034,14 @@
         },
         {
           "target": "बड़ा",
-          "bangla_pronunciation": "বড়া",
-          "romanization": "bdd'aa",
+          "bangla_pronunciation": "বড়া",
+          "romanization": "badaa",
           "separator_after": " "
         },
         {
           "target": "नहीं",
           "bangla_pronunciation": "নহীঁ",
-          "romanization": "naheen",
+          "romanization": "nahin",
           "separator_after": " "
         },
         {
@@ -1051,13 +1051,13 @@
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "ফল উন্নত হয়েছে, যদিও পার্থক্য খুব বড় ছিল না।"
+      "meaning_bengali_md": "ফল উন্নত হয়েছে, যদিও পার্থক্য খুব বড় ছিল না।"
     },
     {
       "id": "ch055_s17",
       "target": "योजना बदलनी पड़ी क्योंकि परिस्थिति बदल गई थी।",
-      "romanization": "yojnaa bdlnii pdd'ii kyonki pristhiti bdl gii thii /",
-      "bangla_pronunciation": "যোজনা বদলনী পড়ী ক্যোঁকি পরিস্থিতি বদল গয়ী থী।",
+      "romanization": "yojnaa badalanee padee kyonki paristhiti badal gaee thee.",
+      "bangla_pronunciation": "যোজনা বদলনী পড়ী ক্যোঁকি পরিস্থিতি বদল গয়ী থী।",
       "word_pronunciations": [
         {
           "target": "योजना",
@@ -1073,8 +1073,8 @@
         },
         {
           "target": "पड़ी",
-          "bangla_pronunciation": "পড়ী",
-          "romanization": "paree",
+          "bangla_pronunciation": "পড়ী",
+          "romanization": "padee",
           "separator_after": " "
         },
         {
@@ -1097,7 +1097,7 @@
         },
         {
           "target": "गई",
-          "bangla_pronunciation": "গয়ী",
+          "bangla_pronunciation": "গয়ী",
           "romanization": "gaee",
           "separator_after": " "
         },
@@ -1108,18 +1108,18 @@
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "পরিস্থিতি বদলানোয় পরিকল্পনাও বদলাতে হয়েছে।"
+      "meaning_bengali_md": "পরিস্থিতি বদলানোয় পরিকল্পনাও বদলাতে হয়েছে।"
     },
     {
       "id": "ch055_s18",
       "target": "कम शब्दों में भी जटिल संबंध स्पष्ट किए जा सकते हैं।",
-      "romanization": "km shbdon men bhii jttil snbndh spsstt kie jaa skte hain /",
-      "bangla_pronunciation": "কম শব্দোং মেঁ ভী জটিল সংবংধ স্পষ্ট কিএ জা সকতে হ্যায়।",
+      "romanization": "kam shabdon mein bhee jtil sambandh spasht kiye jaa sakte hain.",
+      "bangla_pronunciation": "কম শব্দোং মেঁ ভী জটিল সংবংধ স্পষ্ট কিএ জা সকতে হ্যায়।",
       "word_pronunciations": [
         {
           "target": "कम",
           "bangla_pronunciation": "কম",
-          "romanization": "km",
+          "romanization": "kam",
           "separator_after": " "
         },
         {
@@ -1131,7 +1131,7 @@
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
-          "romanization": "men",
+          "romanization": "mein",
           "separator_after": " "
         },
         {
@@ -1149,19 +1149,19 @@
         {
           "target": "संबंध",
           "bangla_pronunciation": "সংবংধ",
-          "romanization": "snbndh",
+          "romanization": "sambandh",
           "separator_after": " "
         },
         {
           "target": "स्पष्ट",
           "bangla_pronunciation": "স্পষ্ট",
-          "romanization": "spsstt",
+          "romanization": "spasht",
           "separator_after": " "
         },
         {
           "target": "किए",
           "bangla_pronunciation": "কিএ",
-          "romanization": "kie",
+          "romanization": "kiye",
           "separator_after": " "
         },
         {
@@ -1173,34 +1173,34 @@
         {
           "target": "सकते",
           "bangla_pronunciation": "সকতে",
-          "romanization": "skte",
+          "romanization": "sakte",
           "separator_after": " "
         },
         {
           "target": "हैं।",
-          "bangla_pronunciation": "হ্যায়।",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hain.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "কম শব্দেও জটিল সম্পর্ক স্পষ্ট করা যায়।"
+      "meaning_bengali_md": "কম শব্দেও জটিল সম্পর্ক স্পষ্ট করা যায়।"
     },
     {
       "id": "ch055_s19",
       "target": "सटीक भाषा विचारों के बीच संबंध दिखाती है।",
-      "romanization": "sttiik bhaassaa vicaaron ke biic snbndh dikhaatii hai /",
-      "bangla_pronunciation": "সটীক ভাষা বিচারোং কে বীচ সংবংধ দিখাতী হ্যায়।",
+      "romanization": "sateeq bhaashaa vichaaron ke beech sambandh dikhaatee hai.",
+      "bangla_pronunciation": "সটীক ভাষা বিচারোং কে বীচ সংবংধ দিখাতী হ্যায়।",
       "word_pronunciations": [
         {
           "target": "सटीक",
           "bangla_pronunciation": "সটীক",
-          "romanization": "stiik",
+          "romanization": "sateeq",
           "separator_after": " "
         },
         {
           "target": "भाषा",
           "bangla_pronunciation": "ভাষা",
-          "romanization": "bhaasha",
+          "romanization": "bhaashaa",
           "separator_after": " "
         },
         {
@@ -1224,7 +1224,7 @@
         {
           "target": "संबंध",
           "bangla_pronunciation": "সংবংধ",
-          "romanization": "snbndh",
+          "romanization": "sambandh",
           "separator_after": " "
         },
         {
@@ -1235,18 +1235,18 @@
         },
         {
           "target": "है।",
-          "bangla_pronunciation": "হ্যায়।",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "সুনির্দিষ্ট ভাষা ভাবগুলোর পারস্পরিক সম্পর্ক দেখায়।"
+      "meaning_bengali_md": "সুনির্দিষ্ট ভাষা ভাবগুলোর পারস্পরিক সম্পর্ক দেখায়।"
     },
     {
       "id": "ch055_s20",
       "target": "अच्छा संश्लेषण अलग तथ्यों को एक तर्क में जोड़ता है।",
-      "romanization": "acchaa snshlessnn alg tthyon ko ek trk men jodd'taa hai /",
-      "bangla_pronunciation": "অচ্ছা সংশ্লেষণ অলগ তথ্যোং কো এক তর্ক মেঁ জোড়তা হ্যায়।",
+      "romanization": "achchha sanshleshan alag tathyon ko ek tark mein jodtaa hai.",
+      "bangla_pronunciation": "অচ্ছা সংশ্লেষণ অলগ তথ্যোং কো এক তর্ক মেঁ জোড়তা হ্যায়।",
       "word_pronunciations": [
         {
           "target": "अच्छा",
@@ -1257,13 +1257,13 @@
         {
           "target": "संश्लेषण",
           "bangla_pronunciation": "সংশ্লেষণ",
-          "romanization": "snshlessnn",
+          "romanization": "sanshleshan",
           "separator_after": " "
         },
         {
           "target": "अलग",
           "bangla_pronunciation": "অলগ",
-          "romanization": "alg",
+          "romanization": "alag",
           "separator_after": " "
         },
         {
@@ -1287,24 +1287,24 @@
         {
           "target": "तर्क",
           "bangla_pronunciation": "তর্ক",
-          "romanization": "trk",
+          "romanization": "tark",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
-          "romanization": "men",
+          "romanization": "mein",
           "separator_after": " "
         },
         {
           "target": "जोड़ता",
-          "bangla_pronunciation": "জোড়তা",
-          "romanization": "jorataa",
+          "bangla_pronunciation": "জোড়তা",
+          "romanization": "jodtaa",
           "separator_after": " "
         },
         {
           "target": "है।",
-          "bangla_pronunciation": "হ্যায়।",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hai.",
           "separator_after": ""
         }
@@ -1323,7 +1323,7 @@
         {
           "target": "हालांकि",
           "bangla_pronunciation": "হালাংকি",
-          "romanization": "halanki",
+          "romanization": "haalaanki",
           "separator_after": ""
         }
       ],
@@ -1335,13 +1335,13 @@
       "id": "ch055_v02",
       "target": "बशर्ते",
       "type": "শব্দ",
-      "romanization": "bshrte",
+      "romanization": "basharte",
       "bangla_pronunciation": "বশর্তে",
       "word_pronunciations": [
         {
           "target": "बशर्ते",
           "bangla_pronunciation": "বশর্তে",
-          "romanization": "bshrte",
+          "romanization": "basharte",
           "separator_after": ""
         }
       ],
@@ -1371,13 +1371,13 @@
       "id": "ch055_v04",
       "target": "निष्कर्ष",
       "type": "শব্দ",
-      "romanization": "nisskrss",
+      "romanization": "nishkarsh",
       "bangla_pronunciation": "নিষ্কর্ষ",
       "word_pronunciations": [
         {
           "target": "निष्कर्ष",
           "bangla_pronunciation": "নিষ্কর্ষ",
-          "romanization": "nisskrss",
+          "romanization": "nishkarsh",
           "separator_after": ""
         }
       ],
@@ -1389,13 +1389,13 @@
       "id": "ch055_v05",
       "target": "साक्ष्य",
       "type": "শব্দ",
-      "romanization": "saakssy",
+      "romanization": "saakshya",
       "bangla_pronunciation": "সাক্ষ্য",
       "word_pronunciations": [
         {
           "target": "साक्ष्य",
           "bangla_pronunciation": "সাক্ষ্য",
-          "romanization": "saakssy",
+          "romanization": "saakshya",
           "separator_after": ""
         }
       ],
@@ -1407,13 +1407,13 @@
       "id": "ch055_v06",
       "target": "वांछनीय",
       "type": "শব্দ",
-      "romanization": "vaanchniiy",
-      "bangla_pronunciation": "বাংছনীয",
+      "romanization": "vaanchhaneey",
+      "bangla_pronunciation": "বাঞ্ছনীয়",
       "word_pronunciations": [
         {
           "target": "वांछनीय",
-          "bangla_pronunciation": "বাংছনীয",
-          "romanization": "vaanchniiy",
+          "bangla_pronunciation": "বাঞ্ছনীয়",
+          "romanization": "vaanchhaneey",
           "separator_after": ""
         }
       ],
@@ -1425,13 +1425,13 @@
       "id": "ch055_v07",
       "target": "सटीक",
       "type": "শব্দ",
-      "romanization": "sttiik",
+      "romanization": "sateeq",
       "bangla_pronunciation": "সটীক",
       "word_pronunciations": [
         {
           "target": "सटीक",
           "bangla_pronunciation": "সটীক",
-          "romanization": "stiik",
+          "romanization": "sateeq",
           "separator_after": ""
         }
       ],
@@ -1443,13 +1443,13 @@
       "id": "ch055_v08",
       "target": "संश्लेषण",
       "type": "শব্দ",
-      "romanization": "snshlessnn",
+      "romanization": "sanshleshan",
       "bangla_pronunciation": "সংশ্লেষণ",
       "word_pronunciations": [
         {
           "target": "संश्लेषण",
           "bangla_pronunciation": "সংশ্লেষণ",
-          "romanization": "snshlessnn",
+          "romanization": "sanshleshan",
           "separator_after": ""
         }
       ],
@@ -1461,28 +1461,28 @@
   "bridge_reading": {
     "mode": "story",
     "title_bengali": "বাক্য নির্মাণ: জটিল ভাবের সংশ্লেষ — মিশ্র পাঠ",
-    "scene_summary": "জটিল প্রস্তাবকে শর্ত, ঝুঁকি ও মতভেদের সঙ্গে এক বাক্যে গুছিয়ে বলা।",
+    "scene_summary": "জটিল প্রস্তাবকে শর্ত, ঝুঁকি ও মতভেদের সঙ্গে এক বাক্যে গুছিয়ে বলা।",
     "segments": [
       {
         "kind": "bangla",
-        "text": "একটি বিনিয়োগ প্রস্তাব নিয়ে দুই সহকর্মীর মত ভিন্ন ছিল। একজন বলল, "
+        "text": "একটি বিনিয়োগ প্রস্তাব নিয়ে দুই সহকর্মীর মত ভিন্ন ছিল। একজন বলল, "
       },
       {
         "kind": "target",
         "target": "हालांकि प्रस्ताव आकर्षक है, उसकी लागत स्पष्ट नहीं है।",
-        "bangla_pronunciation": "হালাংকি প্রস্তাব আকর্ষক হ্যায়, উসকী লাগত স্পষ্ট নহীঁ হ্যায়।",
-        "romanization": "haalaanki prstaav aakrssk hai, uskii laagt spsstt nhiin hai /",
+        "bangla_pronunciation": "হালাংকি প্রস্তাব আকর্ষক হ্যায়, উসকী লাগত স্পষ্ট নহীঁ হ্যায়।",
+        "romanization": "haalaanki prastaav aakarshak hai, uskee laagat spasht nahin hai.",
         "word_pronunciations": [
           {
             "target": "हालांकि",
             "bangla_pronunciation": "হালাংকি",
-            "romanization": "halanki",
+            "romanization": "haalaanki",
             "separator_after": " "
           },
           {
             "target": "प्रस्ताव",
             "bangla_pronunciation": "প্রস্তাব",
-            "romanization": "prstaav",
+            "romanization": "prastaav",
             "separator_after": " "
           },
           {
@@ -1493,37 +1493,37 @@
           },
           {
             "target": "है,",
-            "bangla_pronunciation": "হ্যায়,",
+            "bangla_pronunciation": "হ্যায়,",
             "romanization": "hai,",
             "separator_after": " "
           },
           {
             "target": "उसकी",
             "bangla_pronunciation": "উসকী",
-            "romanization": "usakee",
+            "romanization": "uskee",
             "separator_after": " "
           },
           {
             "target": "लागत",
             "bangla_pronunciation": "লাগত",
-            "romanization": "laagt",
+            "romanization": "laagat",
             "separator_after": " "
           },
           {
             "target": "स्पष्ट",
             "bangla_pronunciation": "স্পষ্ট",
-            "romanization": "spsstt",
+            "romanization": "spasht",
             "separator_after": " "
           },
           {
             "target": "नहीं",
             "bangla_pronunciation": "নহীঁ",
-            "romanization": "naheen",
+            "romanization": "nahin",
             "separator_after": " "
           },
           {
             "target": "है।",
-            "bangla_pronunciation": "হ্যায়।",
+            "bangla_pronunciation": "হ্যায়।",
             "romanization": "hai.",
             "separator_after": ""
           }
@@ -1536,8 +1536,8 @@
       {
         "kind": "target",
         "target": "लाभ संभव है, बशर्ते जोखिम पहले नियंत्रित हों।",
-        "bangla_pronunciation": "লাভ সংভব হ্যায়, বশর্তে জোখিম পহলে নিযংত্রিত হোঁ।",
-        "romanization": "laabh snbhv hai, bshrte jokhim phle niyntrit hon /",
+        "bangla_pronunciation": "লাভ সংভব হ্যায়, বশর্তে জোখিম পহলে নিযংত্রিত হোঁ।",
+        "romanization": "laabh sanbhav hai, basharte jokhim pahle niyantrit hon.",
         "word_pronunciations": [
           {
             "target": "लाभ",
@@ -1553,14 +1553,14 @@
           },
           {
             "target": "है,",
-            "bangla_pronunciation": "হ্যায়,",
+            "bangla_pronunciation": "হ্যায়,",
             "romanization": "hai,",
             "separator_after": " "
           },
           {
             "target": "बशर्ते",
             "bangla_pronunciation": "বশর্তে",
-            "romanization": "bshrte",
+            "romanization": "basharte",
             "separator_after": " "
           },
           {
@@ -1572,7 +1572,7 @@
           {
             "target": "पहले",
             "bangla_pronunciation": "পহলে",
-            "romanization": "phle",
+            "romanization": "pahle",
             "separator_after": " "
           },
           {
@@ -1596,8 +1596,8 @@
       {
         "kind": "target",
         "target": "फिर भी समाधान पर अलग मत रखना उचित है।",
-        "bangla_pronunciation": "ফির ভী সমাধান পর অলগ মত রখনা উচিত হ্যায়।",
-        "romanization": "phir bhii smaadhaan pr alg mt rkhnaa ucit hai /",
+        "bangla_pronunciation": "ফির ভী সমাধান পর অলগ মত রখনা উচিত হ্যায়।",
+        "romanization": "phir bhee samaadhaan par alag mat rakhnaa uchit hai.",
         "word_pronunciations": [
           {
             "target": "फिर",
@@ -1626,7 +1626,7 @@
           {
             "target": "अलग",
             "bangla_pronunciation": "অলগ",
-            "romanization": "alg",
+            "romanization": "alag",
             "separator_after": " "
           },
           {
@@ -1638,7 +1638,7 @@
           {
             "target": "रखना",
             "bangla_pronunciation": "রখনা",
-            "romanization": "rakhanaa",
+            "romanization": "rakhnaa",
             "separator_after": " "
           },
           {
@@ -1649,29 +1649,29 @@
           },
           {
             "target": "है।",
-            "bangla_pronunciation": "হ্যায়।",
+            "bangla_pronunciation": "হ্যায়।",
             "romanization": "hai.",
             "separator_after": ""
           }
         ]
       }
     ],
-    "text_md": "একটি বিনিয়োগ প্রস্তাব নিয়ে দুই সহকর্মীর মত ভিন্ন ছিল। একজন বলল, **हालांकि** (হালাংকি, halanki) **प्रस्ताव** (প্রস্তাব, prstaav) **आकर्षक** (আকর্ষক, aakarshak) **है,** (হ্যায়,, hai,) **उसकी** (উসকী, usakee) **लागत** (লাগত, laagt) **स्पष्ट** (স্পষ্ট, spsstt) **नहीं** (নহীঁ, naheen) **है।** (হ্যায়।, hai\\.) অন্যজন সম্ভাব্য লাভ দেখাল, কিন্তু দলটি শর্ত যোগ করল, **लाभ** (লাভ, laabh) **संभव** (সংভব, sanbhav) **है,** (হ্যায়,, hai,) **बशर्ते** (বশর্তে, bshrte) **जोखिम** (জোখিম, jokhim) **पहले** (পহলে, phle) **नियंत्रित** (নিযংত্রিত, niyantrit) **हों।** (হোঁ।, hon\\.) শেষ পর্যন্ত তারা এমন ভাষা বেছে নিল যাতে মতভেদ ও সিদ্ধান্ত দুটোই থাকে: **फिर** (ফির, phir) **भी** (ভী, bhee) **समाधान** (সমাধান, samaadhaan) **पर** (পর, par) **अलग** (অলগ, alg) **मत** (মত, mat) **रखना** (রখনা, rakhanaa) **उचित** (উচিত, uchit) **है।** (হ্যায়।, hai\\.)"
+    "text_md": "একটি বিনিয়োগ প্রস্তাব নিয়ে দুই সহকর্মীর মত ভিন্ন ছিল। একজন বলল, **हालांकि** (হালাংকি, haalaanki) **प्रस्ताव** (প্রস্তাব, prastaav) **आकर्षक** (আকর্ষক, aakarshak) **है,** (হ্যায়,, hai,) **उसकी** (উসকী, uskee) **लागत** (লাগত, laagat) **स्पष्ट** (স্পষ্ট, spasht) **नहीं** (নহীঁ, nahin) **है।** (হ্যায়।, hai\\.) অন্যজন সম্ভাব্য লাভ দেখাল, কিন্তু দলটি শর্ত যোগ করল, **लाभ** (লাভ, laabh) **संभव** (সংভব, sanbhav) **है,** (হ্যায়,, hai,) **बशर्ते** (বশর্তে, basharte) **जोखिम** (জোখিম, jokhim) **पहले** (পহলে, pahle) **नियंत्रित** (নিযংত্রিত, niyantrit) **हों।** (হোঁ।, hon\\.) শেষ পর্যন্ত তারা এমন ভাষা বেছে নিল যাতে মতভেদ ও সিদ্ধান্ত দুটোই থাকে: **फिर** (ফির, phir) **भी** (ভী, bhee) **समाधान** (সমাধান, samaadhaan) **पर** (পর, par) **अलग** (অলগ, alag) **मत** (মত, mat) **रखना** (রখনা, rakhnaa) **उचित** (উচিত, uchit) **है।** (হ্যায়।, hai\\.)"
   },
   "target_reading": {
     "mode": "story",
     "title_bengali": "বাক্য নির্মাণ: জটিল ভাবের সংশ্লেষ — ছোট হিন্দি পাঠ",
-    "scene_summary": "দুটি বিকল্পের খরচ, স্থায়িত্ব ও ঝুঁকি একসঙ্গে বিবেচনা করে সিদ্ধান্ত নেওয়া।",
+    "scene_summary": "দুটি বিকল্পের খরচ, স্থায়িত্ব ও ঝুঁকি একসঙ্গে বিবেচনা করে সিদ্ধান্ত নেওয়া।",
     "lines": [
       {
         "target": "टीम के सामने दो अच्छे विकल्प थे।",
         "bangla_pronunciation": "টীম কে সামনে দো অচ্ছে বিকল্প থে।",
-        "romanization": "teema ke saamane do achchhe vikalpa the.",
+        "romanization": "teem ke saamne do achchhe vikalp the.",
         "word_pronunciations": [
           {
             "target": "टीम",
             "bangla_pronunciation": "টীম",
-            "romanization": "team",
+            "romanization": "teem",
             "separator_after": " "
           },
           {
@@ -1701,7 +1701,7 @@
           {
             "target": "विकल्प",
             "bangla_pronunciation": "বিকল্প",
-            "romanization": "viklp",
+            "romanization": "vikalp",
             "separator_after": " "
           },
           {
@@ -1715,18 +1715,18 @@
       {
         "target": "पहला सस्ता था लेकिन कम टिकाऊ था।",
         "bangla_pronunciation": "পহলা সস্তা থা লেকিন কম টিকাঊ থা।",
-        "romanization": "pahalaa sastaa thaa lekina kama tikaaoo thaa.",
+        "romanization": "pahlaa sastaa thaa lekin kam tikaaoo thaa.",
         "word_pronunciations": [
           {
             "target": "पहला",
             "bangla_pronunciation": "পহলা",
-            "romanization": "pahalaa",
+            "romanization": "pahlaa",
             "separator_after": " "
           },
           {
             "target": "सस्ता",
             "bangla_pronunciation": "সস্তা",
-            "romanization": "sasta",
+            "romanization": "sastaa",
             "separator_after": " "
           },
           {
@@ -1744,13 +1744,13 @@
           {
             "target": "कम",
             "bangla_pronunciation": "কম",
-            "romanization": "km",
+            "romanization": "kam",
             "separator_after": " "
           },
           {
             "target": "टिकाऊ",
             "bangla_pronunciation": "টিকাঊ",
-            "romanization": "ttikaauu",
+            "romanization": "tikaaoo",
             "separator_after": " "
           },
           {
@@ -1764,12 +1764,12 @@
       {
         "target": "दूसरा महंगा था पर जोखिम कम था।",
         "bangla_pronunciation": "দূসরা মহংগা থা পর জোখিম কম থা।",
-        "romanization": "doosaraa mahangaa thaa para jokhima kama thaa.",
+        "romanization": "doosraa mahangaa thaa par jokhim kam thaa.",
         "word_pronunciations": [
           {
             "target": "दूसरा",
             "bangla_pronunciation": "দূসরা",
-            "romanization": "doosaraa",
+            "romanization": "doosraa",
             "separator_after": " "
           },
           {
@@ -1799,7 +1799,7 @@
           {
             "target": "कम",
             "bangla_pronunciation": "কম",
-            "romanization": "km",
+            "romanization": "kam",
             "separator_after": " "
           },
           {
@@ -1811,14 +1811,14 @@
         ]
       },
       {
-        "target": "टीम ने लागत और प्रभाव दोनों जोड़े।",
-        "bangla_pronunciation": "টীম নে লাগত ঔর প্রভাব দোনোং জোড়ে।",
-        "romanization": "teema ne laagata aura prabhaava donon jore.",
+        "target": "टीम ने लागत और प्रभाव दोनों पर विचार किया।",
+        "bangla_pronunciation": "টীম নে লাগত ঔর প্রভাব দোনোং পর বিচার কিয়া।",
+        "romanization": "teem ne laagat aur prabhaav donon par vichaar kiyaa.",
         "word_pronunciations": [
           {
             "target": "टीम",
             "bangla_pronunciation": "টীম",
-            "romanization": "team",
+            "romanization": "teem",
             "separator_after": " "
           },
           {
@@ -1830,7 +1830,7 @@
           {
             "target": "लागत",
             "bangla_pronunciation": "লাগত",
-            "romanization": "laagt",
+            "romanization": "laagat",
             "separator_after": " "
           },
           {
@@ -1842,7 +1842,7 @@
           {
             "target": "प्रभाव",
             "bangla_pronunciation": "প্রভাব",
-            "romanization": "prbhaav",
+            "romanization": "prabhaav",
             "separator_after": " "
           },
           {
@@ -1852,17 +1852,29 @@
             "separator_after": " "
           },
           {
-            "target": "जोड़े।",
-            "bangla_pronunciation": "জোড়ে।",
-            "romanization": "jore.",
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "romanization": "par",
+            "separator_after": " "
+          },
+          {
+            "target": "विचार",
+            "bangla_pronunciation": "বিচার",
+            "romanization": "vichaar",
+            "separator_after": " "
+          },
+          {
+            "target": "किया।",
+            "bangla_pronunciation": "কিয়া।",
+            "romanization": "kiyaa.",
             "separator_after": ""
           }
         ]
       },
       {
         "target": "इस तरह निर्णय अधिक संतुलित बना।",
-        "bangla_pronunciation": "ইস তরহ নির্ণয় অধিক সংতুলিত বনা।",
-        "romanization": "isa taraha nirnaya adhika santulita banaa.",
+        "bangla_pronunciation": "ইস তরহ নির্ণয় অধিক সংতুলিত বনা।",
+        "romanization": "is tarah nirnay adhik santulit banaa.",
         "word_pronunciations": [
           {
             "target": "इस",
@@ -1878,7 +1890,7 @@
           },
           {
             "target": "निर्णय",
-            "bangla_pronunciation": "নির্ণয়",
+            "bangla_pronunciation": "নির্ণয়",
             "romanization": "nirnay",
             "separator_after": " "
           },
@@ -1891,7 +1903,7 @@
           {
             "target": "संतुलित",
             "bangla_pronunciation": "সংতুলিত",
-            "romanization": "sntulit",
+            "romanization": "santulit",
             "separator_after": " "
           },
           {
@@ -1903,9 +1915,9 @@
         ]
       }
     ],
-    "bangla_pronunciation": "টীম কে সামনে দো অচ্ছে বিকল্প থে। পহলা সস্তা থা লেকিন কম টিকাঊ থা। দূসরা মহংগা থা পর জোখিম কম থা। টীম নে লাগত ঔর প্রভাব দোনোং জোড়ে। ইস তরহ নির্ণয় অধিক সংতুলিত বনা।",
-    "romanization": "teema ke saamane do achchhe vikalpa the. pahalaa sastaa thaa lekina kama tikaaoo thaa. doosaraa mahangaa thaa para jokhima kama thaa. teema ne laagata aura prabhaava donon jore. isa taraha nirnaya adhika santulita banaa.",
-    "meaning_bengali_md": "দলের সামনে দুটি ভালো বিকল্প ছিল। প্রথমটি সস্তা ছিল কিন্তু কম টেকসই ছিল। দ্বিতীয়টি ব্যয়বহুল ছিল কিন্তু ঝুঁকি কম ছিল। দল খরচ ও প্রভাব দুটোই বিবেচনায় নিল। এভাবে সিদ্ধান্ত আরও ভারসাম্যপূর্ণ হলো।"
+    "bangla_pronunciation": "টীম কে সামনে দো অচ্ছে বিকল্প থে। পহলা সস্তা থা লেকিন কম টিকাঊ থা। দূসরা মহংগা থা পর জোখিম কম থা। টীম নে লাগত ঔর প্রভাব দোনোং পর বিচার কিয়া। ইস তরহ নির্ণয় অধিক সংতুলিত বনা।",
+    "romanization": "teem ke saamne do achchhe vikalp the. pahlaa sastaa thaa lekin kam tikaaoo thaa. doosraa mahangaa thaa par jokhim kam thaa. teem ne laagat aur prabhaav donon par vichaar kiyaa. is tarah nirnay adhik santulit banaa.",
+    "meaning_bengali_md": "দলের সামনে দুটি ভালো বিকল্প ছিল। প্রথমটি সস্তা ছিল কিন্তু কম টেকসই ছিল। দ্বিতীয়টি ব্যয়বহুল ছিল কিন্তু ঝুঁকি কম ছিল। দল খরচ ও প্রভাব দুটোই বিবেচনায় নিল। এভাবে সিদ্ধান্ত আরও ভারসাম্যপূর্ণ হলো।"
   },
   "script_practice": [
     {
@@ -1914,8 +1926,8 @@
       "target": "ध्य",
       "bangla_pronunciation": "ধ্য",
       "romanization": "dhya",
-      "explanation_bengali_md": "এই যুক্তরূপটি চিনুন; উচ্চারণে `ধ্য`-এর কাছাকাছি শোনা যায়।",
-      "practice_bengali_md": "কার্ডের যুক্তরূপ দেখে `ধ্য` উচ্চারণ করুন এবং অধ্যায়ের শব্দে মিলটি খুঁজুন।"
+      "explanation_bengali_md": "এই যুক্তরূপটি চিনুন; উচ্চারণে `ধ্য`-এর কাছাকাছি শোনা যায়।",
+      "practice_bengali_md": "কার্ডের যুক্তরূপ দেখে `ধ্য` উচ্চারণ করুন এবং অধ্যায়ের শব্দে মিলটি খুঁজুন।"
     },
     {
       "item_id": "dev_tva",
@@ -1923,8 +1935,8 @@
       "target": "त्व",
       "bangla_pronunciation": "ত্ব",
       "romanization": "tva",
-      "explanation_bengali_md": "এই যুক্তরূপটি চিনুন; উচ্চারণে `ত্ব`-এর কাছাকাছি শোনা যায়।",
-      "practice_bengali_md": "কার্ডের যুক্তরূপ দেখে `ত্ব` উচ্চারণ করুন এবং অধ্যায়ের শব্দে মিলটি খুঁজুন।"
+      "explanation_bengali_md": "এই যুক্তরূপটি চিনুন; উচ্চারণে `ত্ব`-এর কাছাকাছি শোনা যায়।",
+      "practice_bengali_md": "কার্ডের যুক্তরূপ দেখে `ত্ব` উচ্চারণ করুন এবং অধ্যায়ের শব্দে মিলটি খুঁজুন।"
     },
     {
       "item_id": "dev_ny",
@@ -1932,8 +1944,8 @@
       "target": "न्य",
       "bangla_pronunciation": "ন্য",
       "romanization": "nya",
-      "explanation_bengali_md": "এই যুক্তরূপটি চিনুন; উচ্চারণে `ন্য`-এর কাছাকাছি শোনা যায়।",
-      "practice_bengali_md": "কার্ডের যুক্তরূপ দেখে `ন্য` উচ্চারণ করুন এবং অধ্যায়ের শব্দে মিলটি খুঁজুন।"
+      "explanation_bengali_md": "এই যুক্তরূপটি চিনুন; উচ্চারণে `ন্য`-এর কাছাকাছি শোনা যায়।",
+      "practice_bengali_md": "কার্ডের যুক্তরূপ দেখে `ন্য` উচ্চারণ করুন এবং অধ্যায়ের শব্দে মিলটি খুঁজুন।"
     },
     {
       "item_id": "dev_vy",
@@ -1941,8 +1953,8 @@
       "target": "व्य",
       "bangla_pronunciation": "ব্য",
       "romanization": "vya",
-      "explanation_bengali_md": "এই যুক্তরূপটি চিনুন; উচ্চারণে `ব্য`-এর কাছাকাছি শোনা যায়।",
-      "practice_bengali_md": "কার্ডের যুক্তরূপ দেখে `ব্য` উচ্চারণ করুন এবং অধ্যায়ের শব্দে মিলটি খুঁজুন।"
+      "explanation_bengali_md": "এই যুক্তরূপটি চিনুন; উচ্চারণে `ব্য`-এর কাছাকাছি শোনা যায়।",
+      "practice_bengali_md": "কার্ডের যুক্তরূপ দেখে `ব্য` উচ্চারণ করুন এবং অধ্যায়ের শব্দে মিলটি খুঁজুন।"
     },
     {
       "item_id": "dev_sv",
@@ -1950,28 +1962,28 @@
       "target": "स्व",
       "bangla_pronunciation": "স্ব",
       "romanization": "sva",
-      "explanation_bengali_md": "এই যুক্তরূপটি চিনুন; উচ্চারণে `স্ব`-এর কাছাকাছি শোনা যায়।",
-      "practice_bengali_md": "কার্ডের যুক্তরূপ দেখে `স্ব` উচ্চারণ করুন এবং অধ্যায়ের শব্দে মিলটি খুঁজুন।"
+      "explanation_bengali_md": "এই যুক্তরূপটি চিনুন; উচ্চারণে `স্ব`-এর কাছাকাছি শোনা যায়।",
+      "practice_bengali_md": "কার্ডের যুক্তরূপ দেখে `স্ব` উচ্চারণ করুন এবং অধ্যায়ের শব্দে মিলটি খুঁজুন।"
     }
   ],
   "number_practice": null,
   "speaking_practice": [
     {
-      "prompt_bengali_md": "‘যদিও’ অর্থের বিরোধ দেখিয়ে একটি বাক্য বলুন।",
+      "prompt_bengali_md": "‘যদিও’ অর্থের বিরোধ দেখিয়ে একটি বাক্য বলুন।",
       "model_target": "हालांकि प्रस्ताव आकर्षक है, उसकी लागत स्पष्ट नहीं है।",
-      "model_bangla_pronunciation": "হালাংকি প্রস্তাব আকর্ষক হ্যায়, উসকী লাগত স্পষ্ট নহীঁ হ্যায়।",
-      "model_romanization": "haalaanki prstaav aakrssk hai, uskii laagt spsstt nhiin hai /",
+      "model_bangla_pronunciation": "হালাংকি প্রস্তাব আকর্ষক হ্যায়, উসকী লাগত স্পষ্ট নহীঁ হ্যায়।",
+      "model_romanization": "haalaanki prastaav aakarshak hai, uskee laagat spasht nahin hai.",
       "model_word_pronunciations": [
         {
           "target": "हालांकि",
           "bangla_pronunciation": "হালাংকি",
-          "romanization": "halanki",
+          "romanization": "haalaanki",
           "separator_after": " "
         },
         {
           "target": "प्रस्ताव",
           "bangla_pronunciation": "প্রস্তাব",
-          "romanization": "prstaav",
+          "romanization": "prastaav",
           "separator_after": " "
         },
         {
@@ -1982,48 +1994,48 @@
         },
         {
           "target": "है,",
-          "bangla_pronunciation": "হ্যায়,",
+          "bangla_pronunciation": "হ্যায়,",
           "romanization": "hai,",
           "separator_after": " "
         },
         {
           "target": "उसकी",
           "bangla_pronunciation": "উসকী",
-          "romanization": "usakee",
+          "romanization": "uskee",
           "separator_after": " "
         },
         {
           "target": "लागत",
           "bangla_pronunciation": "লাগত",
-          "romanization": "laagt",
+          "romanization": "laagat",
           "separator_after": " "
         },
         {
           "target": "स्पष्ट",
           "bangla_pronunciation": "স্পষ্ট",
-          "romanization": "spsstt",
+          "romanization": "spasht",
           "separator_after": " "
         },
         {
           "target": "नहीं",
           "bangla_pronunciation": "নহীঁ",
-          "romanization": "naheen",
+          "romanization": "nahin",
           "separator_after": " "
         },
         {
           "target": "है।",
-          "bangla_pronunciation": "হ্যায়।",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hai.",
           "separator_after": ""
         }
       ],
-      "model_meaning_bengali_md": "প্রস্তাবটি আকর্ষণীয় হলেও তার খরচ স্পষ্ট নয়।"
+      "model_meaning_bengali_md": "প্রস্তাবটি আকর্ষণীয় হলেও তার খরচ স্পষ্ট নয়।"
     },
     {
       "prompt_bengali_md": "শর্তযুক্ত সিদ্ধান্তের একটি বাক্য বলুন।",
       "model_target": "यदि आंकड़े सही हैं, तो दिशा बदलना उचित होगा।",
-      "model_bangla_pronunciation": "যদি আংকড়ে সহী হ্যায়, তো দিশা বদলনা উচিত হোগা।",
-      "model_romanization": "ydi aankdd'e shii hain, to dishaa bdlnaa ucit hogaa /",
+      "model_bangla_pronunciation": "যদি আংকড়ে সহী হ্যায়, তো দিশা বদলনা উচিত হোগা।",
+      "model_romanization": "yadi aankade sahee hain, to dishaa badalnaa uchit hogaa.",
       "model_word_pronunciations": [
         {
           "target": "यदि",
@@ -2033,8 +2045,8 @@
         },
         {
           "target": "आंकड़े",
-          "bangla_pronunciation": "আংকড়ে",
-          "romanization": "aankare",
+          "bangla_pronunciation": "আংকড়ে",
+          "romanization": "aankade",
           "separator_after": " "
         },
         {
@@ -2045,7 +2057,7 @@
         },
         {
           "target": "हैं,",
-          "bangla_pronunciation": "হ্যায়,",
+          "bangla_pronunciation": "হ্যায়,",
           "romanization": "hain,",
           "separator_after": " "
         },
@@ -2064,7 +2076,7 @@
         {
           "target": "बदलना",
           "bangla_pronunciation": "বদলনা",
-          "romanization": "badalana",
+          "romanization": "badalnaa",
           "separator_after": " "
         },
         {
@@ -2085,8 +2097,8 @@
     {
       "prompt_bengali_md": "‘শর্ত থাকে যে’ অর্থে একটি বাক্য বলুন।",
       "model_target": "लाभ संभव है, बशर्ते जोखिम पहले नियंत्रित हों।",
-      "model_bangla_pronunciation": "লাভ সংভব হ্যায়, বশর্তে জোখিম পহলে নিযংত্রিত হোঁ।",
-      "model_romanization": "laabh snbhv hai, bshrte jokhim phle niyntrit hon /",
+      "model_bangla_pronunciation": "লাভ সংভব হ্যায়, বশর্তে জোখিম পহলে নিযংত্রিত হোঁ।",
+      "model_romanization": "laabh sanbhav hai, basharte jokhim pahle niyantrit hon.",
       "model_word_pronunciations": [
         {
           "target": "लाभ",
@@ -2102,14 +2114,14 @@
         },
         {
           "target": "है,",
-          "bangla_pronunciation": "হ্যায়,",
+          "bangla_pronunciation": "হ্যায়,",
           "romanization": "hai,",
           "separator_after": " "
         },
         {
           "target": "बशर्ते",
           "bangla_pronunciation": "বশর্তে",
-          "romanization": "bshrte",
+          "romanization": "basharte",
           "separator_after": " "
         },
         {
@@ -2121,7 +2133,7 @@
         {
           "target": "पहले",
           "bangla_pronunciation": "পহলে",
-          "romanization": "phle",
+          "romanization": "pahle",
           "separator_after": " "
         },
         {
@@ -2137,29 +2149,29 @@
           "separator_after": ""
         }
       ],
-      "model_meaning_bengali_md": "ঝুঁকি আগে নিয়ন্ত্রিত হলে সুফল সম্ভব।"
+      "model_meaning_bengali_md": "ঝুঁকি আগে নিয়ন্ত্রিত হলে সুফল সম্ভব।"
     },
     {
-      "prompt_bengali_md": "প্রমাণের সীমা দেখিয়ে একটি বাক্য বলুন।",
+      "prompt_bengali_md": "প্রমাণের সীমা দেখিয়ে একটি বাক্য বলুন।",
       "model_target": "निष्कर्ष मजबूत है, लेकिन साक्ष्य अभी सीमित हैं।",
-      "model_bangla_pronunciation": "নিষ্কর্ষ মজবূত হ্যায়, লেকিন সাক্ষ্য অভী সীমিত হ্যায়।",
-      "model_romanization": "nisskrss mjbuut hai, lekin saakssy abhii siimit hain /",
+      "model_bangla_pronunciation": "নিষ্কর্ষ মজবূত হ্যায়, লেকিন সাক্ষ্য অভী সীমিত হ্যায়।",
+      "model_romanization": "nishkarsh majboot hai, lekin saakshya abhee seemit hain.",
       "model_word_pronunciations": [
         {
           "target": "निष्कर्ष",
           "bangla_pronunciation": "নিষ্কর্ষ",
-          "romanization": "nisskrss",
+          "romanization": "nishkarsh",
           "separator_after": " "
         },
         {
           "target": "मजबूत",
           "bangla_pronunciation": "মজবূত",
-          "romanization": "mjbuut",
+          "romanization": "majboot",
           "separator_after": " "
         },
         {
           "target": "है,",
-          "bangla_pronunciation": "হ্যায়,",
+          "bangla_pronunciation": "হ্যায়,",
           "romanization": "hai,",
           "separator_after": " "
         },
@@ -2172,24 +2184,24 @@
         {
           "target": "साक्ष्य",
           "bangla_pronunciation": "সাক্ষ্য",
-          "romanization": "saakssy",
+          "romanization": "saakshya",
           "separator_after": " "
         },
         {
           "target": "अभी",
           "bangla_pronunciation": "অভী",
-          "romanization": "abhii",
+          "romanization": "abhee",
           "separator_after": " "
         },
         {
           "target": "सीमित",
           "bangla_pronunciation": "সীমিত",
-          "romanization": "siimit",
+          "romanization": "seemit",
           "separator_after": " "
         },
         {
           "target": "हैं।",
-          "bangla_pronunciation": "হ্যায়।",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hain.",
           "separator_after": ""
         }
@@ -2199,8 +2211,8 @@
     {
       "prompt_bengali_md": "সম্ভব ও কাম্য—এই পার্থক্য বলুন।",
       "model_target": "जो बात संभव है, वह हमेशा वांछनीय नहीं होती।",
-      "model_bangla_pronunciation": "জো বাত সংভব হ্যায়, ওহ হমেশা বাংছনীয নহীঁ হোতী।",
-      "model_romanization": "jo baat snbhv hai, vh hmeshaa vaanchniiy nhiin hotii /",
+      "model_bangla_pronunciation": "জো বাত সংভব হ্যায়, ওহ হমেশা বাঞ্ছনীয় নহীঁ হোতী।",
+      "model_romanization": "jo baat sanbhav hai, vah hameshaa vaanchhaneey nahin hotee.",
       "model_word_pronunciations": [
         {
           "target": "जो",
@@ -2222,7 +2234,7 @@
         },
         {
           "target": "है,",
-          "bangla_pronunciation": "হ্যায়,",
+          "bangla_pronunciation": "হ্যায়,",
           "romanization": "hai,",
           "separator_after": " "
         },
@@ -2235,19 +2247,19 @@
         {
           "target": "हमेशा",
           "bangla_pronunciation": "হমেশা",
-          "romanization": "hmeshaa",
+          "romanization": "hameshaa",
           "separator_after": " "
         },
         {
           "target": "वांछनीय",
-          "bangla_pronunciation": "বাংছনীয",
-          "romanization": "vaanchniiy",
+          "bangla_pronunciation": "বাঞ্ছনীয়",
+          "romanization": "vaanchhaneey",
           "separator_after": " "
         },
         {
           "target": "नहीं",
           "bangla_pronunciation": "নহীঁ",
-          "romanization": "naheen",
+          "romanization": "nahin",
           "separator_after": " "
         },
         {
@@ -2257,13 +2269,13 @@
           "separator_after": ""
         }
       ],
-      "model_meaning_bengali_md": "যা সম্ভব, তা সবসময় কাম্য নয়।"
+      "model_meaning_bengali_md": "যা সম্ভব, তা সবসময় কাম্য নয়।"
     },
     {
       "prompt_bengali_md": "সংশ্লেষের কাজ এক বাক্যে বলুন।",
       "model_target": "अच्छा संश्लेषण अलग तथ्यों को एक तर्क में जोड़ता है।",
-      "model_bangla_pronunciation": "অচ্ছা সংশ্লেষণ অলগ তথ্যোং কো এক তর্ক মেঁ জোড়তা হ্যায়।",
-      "model_romanization": "acchaa snshlessnn alg tthyon ko ek trk men jodd'taa hai /",
+      "model_bangla_pronunciation": "অচ্ছা সংশ্লেষণ অলগ তথ্যোং কো এক তর্ক মেঁ জোড়তা হ্যায়।",
+      "model_romanization": "achchha sanshleshan alag tathyon ko ek tark mein jodtaa hai.",
       "model_word_pronunciations": [
         {
           "target": "अच्छा",
@@ -2274,13 +2286,13 @@
         {
           "target": "संश्लेषण",
           "bangla_pronunciation": "সংশ্লেষণ",
-          "romanization": "snshlessnn",
+          "romanization": "sanshleshan",
           "separator_after": " "
         },
         {
           "target": "अलग",
           "bangla_pronunciation": "অলগ",
-          "romanization": "alg",
+          "romanization": "alag",
           "separator_after": " "
         },
         {
@@ -2304,24 +2316,24 @@
         {
           "target": "तर्क",
           "bangla_pronunciation": "তর্ক",
-          "romanization": "trk",
+          "romanization": "tark",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
-          "romanization": "men",
+          "romanization": "mein",
           "separator_after": " "
         },
         {
           "target": "जोड़ता",
-          "bangla_pronunciation": "জোড়তা",
-          "romanization": "jorataa",
+          "bangla_pronunciation": "জোড়তা",
+          "romanization": "jodtaa",
           "separator_after": " "
         },
         {
           "target": "है।",
-          "bangla_pronunciation": "হ্যায়।",
+          "bangla_pronunciation": "হ্যায়।",
           "romanization": "hai.",
           "separator_after": ""
         }

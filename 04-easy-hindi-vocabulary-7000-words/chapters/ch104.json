@@ -3,30 +3,36 @@
   "status": "drafted",
   "title_target": "चिकित्सालय की मुलाकात और कागज़",
   "title_bangla_pronunciation": "চিকিত্সালয কী মুলাকাত ঔর কাগজ",
+  "title_romanization": "chikitsaalaya kee mulaakaata aura kaagaz.",
   "title_word_pronunciations": [
     {
       "target": "चिकित्सालय",
       "bangla_pronunciation": "চিকিত্সালয",
+      "romanization": "chikitsaalay",
       "separator_after": " "
     },
     {
       "target": "की",
       "bangla_pronunciation": "কী",
+      "romanization": "kee",
       "separator_after": " "
     },
     {
       "target": "मुलाकात",
       "bangla_pronunciation": "মুলাকাত",
+      "romanization": "mulaakaat",
       "separator_after": " "
     },
     {
       "target": "और",
       "bangla_pronunciation": "ঔর",
+      "romanization": "aur",
       "separator_after": " "
     },
     {
       "target": "कागज़",
       "bangla_pronunciation": "কাগজ",
+      "romanization": "kaagaj",
       "separator_after": ""
     }
   ],
@@ -36,57 +42,67 @@
     {
       "id": "ch104_s01",
       "target": "इस विषय में नियुक्ति समय और पंजीकरण काउंटर महत्वपूर्ण हैं।",
-      "romanization": "is vishay men niyukti samay aur pnjiikaran kaauntar mahatvapuurn hain।",
+      "romanization": "is vishay men niyukti samay aur pnjiikaran kaauntar mahatvapuurn hain.",
       "bangla_pronunciation": "ইস ভিষয মেং নিযুক্তি সময ঔর পংজীকরণ কাউংটর মহত্ভপূর্ণ হৈং।",
       "word_pronunciations": [
         {
           "target": "इस",
           "bangla_pronunciation": "ইস",
+          "romanization": "is",
           "separator_after": " "
         },
         {
           "target": "विषय",
           "bangla_pronunciation": "ভিষয",
+          "romanization": "vishay",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেং",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "नियुक्ति",
           "bangla_pronunciation": "নিযুক্তি",
+          "romanization": "niyukti",
           "separator_after": " "
         },
         {
           "target": "समय",
           "bangla_pronunciation": "সময",
+          "romanization": "samay",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "पंजीकरण",
           "bangla_pronunciation": "পংজীকরণ",
+          "romanization": "panjeekaran",
           "separator_after": " "
         },
         {
           "target": "काउंटर",
           "bangla_pronunciation": "কাউংটর",
+          "romanization": "kauntar",
           "separator_after": " "
         },
         {
           "target": "महत्वपूर्ण",
           "bangla_pronunciation": "মহত্ভপূর্ণ",
+          "romanization": "mahatvapoorn",
           "separator_after": " "
         },
         {
           "target": "हैं।",
           "bangla_pronunciation": "হৈং।",
+          "romanization": "hain.",
           "separator_after": ""
         }
       ],
@@ -95,52 +111,61 @@
     {
       "id": "ch104_s02",
       "target": "हमने प्रतीक्षा क्रम और परामर्श शुल्क पर चर्चा की।",
-      "romanization": "hamane pratiikshaa kram aur paraamarsh shulk par charchaa kii।",
+      "romanization": "hamane pratiikshaa kram aur paraamarsh shulk par charchaa kii.",
       "bangla_pronunciation": "হমনে প্রতীক্ষা ক্রম ঔর পরামর্শ শুল্ক পর চর্চা কী।",
       "word_pronunciations": [
         {
           "target": "हमने",
           "bangla_pronunciation": "হমনে",
+          "romanization": "hamane",
           "separator_after": " "
         },
         {
           "target": "प्रतीक्षा",
           "bangla_pronunciation": "প্রতীক্ষা",
+          "romanization": "pratiksha",
           "separator_after": " "
         },
         {
           "target": "क्रम",
           "bangla_pronunciation": "ক্রম",
+          "romanization": "kram",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "परामर्श",
           "bangla_pronunciation": "পরামর্শ",
+          "romanization": "paraamarsh",
           "separator_after": " "
         },
         {
           "target": "शुल्क",
           "bangla_pronunciation": "শুল্ক",
+          "romanization": "shulk",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "की।",
           "bangla_pronunciation": "কী।",
+          "romanization": "kee.",
           "separator_after": ""
         }
       ],
@@ -149,37 +174,43 @@
     {
       "id": "ch104_s03",
       "target": "पहचान पत्र की जाँच जरूरी है।",
-      "romanization": "pahachaan patr kii jaanch jaruurii hai।",
+      "romanization": "pahachaan patr kii jaanch jaruurii hai.",
       "bangla_pronunciation": "পহচান পত্র কী জাঁচ জরূরী হৈ।",
       "word_pronunciations": [
         {
           "target": "पहचान",
           "bangla_pronunciation": "পহচান",
+          "romanization": "phcaan",
           "separator_after": " "
         },
         {
           "target": "पत्र",
           "bangla_pronunciation": "পত্র",
+          "romanization": "patr",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जाँच",
           "bangla_pronunciation": "জাঁচ",
+          "romanization": "jaanch",
           "separator_after": " "
         },
         {
           "target": "जरूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হৈ।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -188,32 +219,37 @@
     {
       "id": "ch104_s04",
       "target": "समय से थोड़ा पहले पहुँचें।",
-      "romanization": "samay se thodaa pahale pahunchen।",
+      "romanization": "samay se thodaa pahale pahunchen.",
       "bangla_pronunciation": "সময সে থোডা পহলে পহুঁচেং।",
       "word_pronunciations": [
         {
           "target": "समय",
           "bangla_pronunciation": "সময",
+          "romanization": "samay",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "थोड़ा",
           "bangla_pronunciation": "থোডা",
+          "romanization": "thoda",
           "separator_after": " "
         },
         {
           "target": "पहले",
           "bangla_pronunciation": "পহলে",
+          "romanization": "pahle",
           "separator_after": " "
         },
         {
           "target": "पहुँचें।",
           "bangla_pronunciation": "পহুঁচেং।",
+          "romanization": "pahunchen.",
           "separator_after": ""
         }
       ],
@@ -222,47 +258,55 @@
     {
       "id": "ch104_s05",
       "target": "चिकित्सालय पता और विभाग का नाम तैयार रखिए।",
-      "romanization": "chikitsaalay pataa aur vibhaag kaa naam taiyaar rakhie।",
+      "romanization": "chikitsaalay pataa aur vibhaag kaa naam taiyaar rakhie.",
       "bangla_pronunciation": "চিকিত্সালয পতা ঔর ভিভাগ কা নাম তৈযার রখিএ।",
       "word_pronunciations": [
         {
           "target": "चिकित्सालय",
           "bangla_pronunciation": "চিকিত্সালয",
+          "romanization": "chikitsaalay",
           "separator_after": " "
         },
         {
           "target": "पता",
           "bangla_pronunciation": "পতা",
+          "romanization": "pata",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "विभाग",
           "bangla_pronunciation": "ভিভাগ",
+          "romanization": "vibhaag",
           "separator_after": " "
         },
         {
           "target": "का",
           "bangla_pronunciation": "কা",
+          "romanization": "kaa",
           "separator_after": " "
         },
         {
           "target": "नाम",
           "bangla_pronunciation": "নাম",
+          "romanization": "naam",
           "separator_after": " "
         },
         {
           "target": "तैयार",
           "bangla_pronunciation": "তৈযার",
+          "romanization": "taiyaar",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিএ।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
@@ -271,120 +315,139 @@
     {
       "id": "ch104_s06",
       "target": "संदर्भ पत्र के साथ जाँच रिपोर्ट भी दर्ज कीजिए।",
-      "romanization": "sndarbh patr ke saath jaanch riport bhii darj kiijie।",
+      "romanization": "sndarbh patr ke saath jaanch riport bhii darj kiijie.",
       "bangla_pronunciation": "সংদর্ভ পত্র কে সাথ জাঁচ রিপোর্ট ভী দর্জ কীজিএ।",
       "word_pronunciations": [
         {
           "target": "संदर्भ",
           "bangla_pronunciation": "সংদর্ভ",
+          "romanization": "sandarbh",
           "separator_after": " "
         },
         {
           "target": "पत्र",
           "bangla_pronunciation": "পত্র",
+          "romanization": "patr",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "जाँच",
           "bangla_pronunciation": "জাঁচ",
+          "romanization": "jaanch",
           "separator_after": " "
         },
         {
           "target": "रिपोर्ट",
           "bangla_pronunciation": "রিপোর্ট",
+          "romanization": "riport",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "दर्ज",
           "bangla_pronunciation": "দর্জ",
+          "romanization": "darj",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিএ।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "রেফারেল পত্র-এর সঙ্গে পরীক্ষার রিপোর্ট-ও নথিভুক্ত করুন।"
+      "meaning_bengali_md": "রেফারেল পত্রের সঙ্গে পরীক্ষার রিপোর্টও নথিভুক্ত করুন।"
     },
     {
       "id": "ch104_s07",
       "target": "पुरानी फाइल पर ध्यान दीजिए।",
-      "romanization": "puraanii phaail par dhyaan diijie।",
+      "romanization": "puraanii phaail par dhyaan diijie.",
       "bangla_pronunciation": "পুরানী ফাইল পর ধ্যান দীজিএ।",
       "word_pronunciations": [
         {
           "target": "पुरानी",
           "bangla_pronunciation": "পুরানী",
+          "romanization": "puraanee",
           "separator_after": " "
         },
         {
           "target": "फाइल",
           "bangla_pronunciation": "ফাইল",
+          "romanization": "phaail",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दीजिए।",
           "bangla_pronunciation": "দীজিএ।",
+          "romanization": "deejie.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "পুরনো ফাইল-এর দিকে মনোযোগ দিন।"
+      "meaning_bengali_md": "পুরনো ফাইলের দিকে মনোযোগ দিন।"
     },
     {
       "id": "ch104_s08",
       "target": "अपनी रिपोर्ट साथ लेकर आएँ।",
-      "romanization": "apanii riport saath lekar aaen।",
+      "romanization": "apanii riport saath lekar aaen.",
       "bangla_pronunciation": "অপনী রিপোর্ট সাথ লেকর আএঁ।",
       "word_pronunciations": [
         {
           "target": "अपनी",
           "bangla_pronunciation": "অপনী",
+          "romanization": "apanee",
           "separator_after": " "
         },
         {
           "target": "रिपोर्ट",
           "bangla_pronunciation": "রিপোর্ট",
+          "romanization": "riport",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "लेकर",
           "bangla_pronunciation": "লেকর",
+          "romanization": "lekar",
           "separator_after": " "
         },
         {
           "target": "आएँ।",
           "bangla_pronunciation": "আএঁ।",
+          "romanization": "aaen.",
           "separator_after": ""
         }
       ],
@@ -393,130 +456,151 @@
     {
       "id": "ch104_s09",
       "target": "दवा सूची और एलर्जी नोट की जानकारी रखिए।",
-      "romanization": "davaa suuchii aur elarjii not kii jaanakaarii rakhie।",
+      "romanization": "davaa suuchii aur elarjii not kii jaankaaree rakhie.",
       "bangla_pronunciation": "দভা সূচী ঔর এলর্জী নোট কী জানকারী রখিএ।",
       "word_pronunciations": [
         {
           "target": "दवा",
           "bangla_pronunciation": "দভা",
+          "romanization": "dvaa",
           "separator_after": " "
         },
         {
           "target": "सूची",
           "bangla_pronunciation": "সূচী",
+          "romanization": "soochee",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "एलर्जी",
           "bangla_pronunciation": "এলর্জী",
+          "romanization": "elrjii",
           "separator_after": " "
         },
         {
           "target": "नोट",
           "bangla_pronunciation": "নোট",
+          "romanization": "not",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaankaaree",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিএ।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "ওষুধের তালিকা ও অ্যালার্জির নোট-এর তথ্য রাখুন।"
+      "meaning_bengali_md": "ওষুধের তালিকা ও অ্যালার্জির নোটের তথ্য রাখুন।"
     },
     {
       "id": "ch104_s10",
       "target": "आपात संपर्क के साथ भुगतान रसीद भी देखिए।",
-      "romanization": "aapaat snpark ke saath bhugataan rasiid bhii dekhie।",
+      "romanization": "aapaat snpark ke saath bhugataan rasiid bhii dekhie.",
       "bangla_pronunciation": "আপাত সংপর্ক কে সাথ ভুগতান রসীদ ভী দেখিএ।",
       "word_pronunciations": [
         {
           "target": "आपात",
           "bangla_pronunciation": "আপাত",
+          "romanization": "aapaat",
           "separator_after": " "
         },
         {
           "target": "संपर्क",
           "bangla_pronunciation": "সংপর্ক",
+          "romanization": "sanpark",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "भुगतान",
           "bangla_pronunciation": "ভুগতান",
+          "romanization": "bhugtaan",
           "separator_after": " "
         },
         {
           "target": "रसीद",
           "bangla_pronunciation": "রসীদ",
+          "romanization": "raseed",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "देखिए।",
           "bangla_pronunciation": "দেখিএ।",
+          "romanization": "dekhie.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "জরুরি যোগাযোগ-এর সঙ্গে পেমেন্ট রসিদ-ও দেখুন।"
+      "meaning_bengali_md": "জরুরি যোগাযোগের সঙ্গে পেমেন্ট রসিদও দেখুন।"
     },
     {
       "id": "ch104_s11",
       "target": "अगली तारीख को साफ़ लिखिए।",
-      "romanization": "agalii taariikh ko saaph likhie।",
+      "romanization": "agalii taareekh ko saaf likhie.",
       "bangla_pronunciation": "অগলী তারীখ কো সাফ লিখিএ।",
       "word_pronunciations": [
         {
           "target": "अगली",
           "bangla_pronunciation": "অগলী",
+          "romanization": "agalee",
           "separator_after": " "
         },
         {
           "target": "तारीख",
           "bangla_pronunciation": "তারীখ",
+          "romanization": "taareekh",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "साफ़",
           "bangla_pronunciation": "সাফ",
+          "romanization": "saaf",
           "separator_after": " "
         },
         {
           "target": "लिखिए।",
           "bangla_pronunciation": "লিখিএ।",
+          "romanization": "likhie.",
           "separator_after": ""
         }
       ],
@@ -525,37 +609,43 @@
     {
       "id": "ch104_s12",
       "target": "समझ न आए तो फिर पूछें।",
-      "romanization": "samajh n aae to phir puuchhen।",
+      "romanization": "samajh n aae to phir puuchhen.",
       "bangla_pronunciation": "সমঝ ন আএ তো ফির পূছেং।",
       "word_pronunciations": [
         {
           "target": "समझ",
           "bangla_pronunciation": "সমঝ",
+          "romanization": "samajh",
           "separator_after": " "
         },
         {
           "target": "न",
           "bangla_pronunciation": "ন",
+          "romanization": "na",
           "separator_after": " "
         },
         {
           "target": "आए",
           "bangla_pronunciation": "আএ",
+          "romanization": "aae",
           "separator_after": " "
         },
         {
           "target": "तो",
           "bangla_pronunciation": "তো",
+          "romanization": "to",
           "separator_after": " "
         },
         {
           "target": "फिर",
           "bangla_pronunciation": "ফির",
+          "romanization": "phir",
           "separator_after": " "
         },
         {
           "target": "पूछें।",
           "bangla_pronunciation": "পূছেং।",
+          "romanization": "poochhen.",
           "separator_after": ""
         }
       ],
@@ -564,96 +654,112 @@
     {
       "id": "ch104_s13",
       "target": "पर्ची संख्या और कक्ष संख्या की स्थिति जाँचिए।",
-      "romanization": "parchii snkhyaa aur kaksh snkhyaa kii sthiti jaanchie।",
+      "romanization": "parchii snkhyaa aur kaksh snkhyaa kii sthiti jaanchie.",
       "bangla_pronunciation": "পর্চী সংখ্যা ঔর কক্ষ সংখ্যা কী স্থিতি জাঁচিএ।",
       "word_pronunciations": [
         {
           "target": "पर्ची",
           "bangla_pronunciation": "পর্চী",
+          "romanization": "parchee",
           "separator_after": " "
         },
         {
           "target": "संख्या",
           "bangla_pronunciation": "সংখ্যা",
+          "romanization": "sankhyaa",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "कक्ष",
           "bangla_pronunciation": "কক্ষ",
+          "romanization": "kaksh",
           "separator_after": " "
         },
         {
           "target": "संख्या",
           "bangla_pronunciation": "সংখ্যা",
+          "romanization": "sankhyaa",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "स्थिति",
           "bangla_pronunciation": "স্থিতি",
+          "romanization": "sthiti",
           "separator_after": " "
         },
         {
           "target": "जाँचिए।",
           "bangla_pronunciation": "জাঁচিএ।",
+          "romanization": "jaanchie.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "স্লিপ নম্বর ও কক্ষ নম্বর-এর অবস্থা যাচাই করুন।"
+      "meaning_bengali_md": "স্লিপ নম্বর ও কক্ষ নম্বরের অবস্থা যাচাই করুন।"
     },
     {
       "id": "ch104_s14",
       "target": "नमूना केंद्र और रिपोर्ट काउंटर को साथ रखिए।",
-      "romanization": "namuunaa kendr aur riport kaauntar ko saath rakhie।",
+      "romanization": "namuunaa kendr aur riport kaauntar ko saath rakhie.",
       "bangla_pronunciation": "নমূনা কেংদ্র ঔর রিপোর্ট কাউংটর কো সাথ রখিএ।",
       "word_pronunciations": [
         {
           "target": "नमूना",
           "bangla_pronunciation": "নমূনা",
+          "romanization": "nmuunaa",
           "separator_after": " "
         },
         {
           "target": "केंद्र",
           "bangla_pronunciation": "কেংদ্র",
+          "romanization": "kendr",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "रिपोर्ट",
           "bangla_pronunciation": "রিপোর্ট",
+          "romanization": "riport",
           "separator_after": " "
         },
         {
           "target": "काउंटर",
           "bangla_pronunciation": "কাউংটর",
+          "romanization": "kauntar",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিএ।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
@@ -662,66 +768,76 @@
     {
       "id": "ch104_s15",
       "target": "छुट्टी पत्र की प्रति रखिए।",
-      "romanization": "chhuttii patr kii prati rakhie।",
+      "romanization": "chhuttii patr kii prati rakhie.",
       "bangla_pronunciation": "ছুট্টী পত্র কী প্রতি রখিএ।",
       "word_pronunciations": [
         {
           "target": "छुट्टी",
           "bangla_pronunciation": "ছুট্টী",
+          "romanization": "chhuttee",
           "separator_after": " "
         },
         {
           "target": "पत्र",
           "bangla_pronunciation": "পত্র",
+          "romanization": "patr",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "प्रति",
           "bangla_pronunciation": "প্রতি",
+          "romanization": "prati",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিএ।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "ডিসচার্জ পত্র-এর একটি কপি রাখুন।"
+      "meaning_bengali_md": "ডিসচার্জ পত্রের একটি কপি রাখুন।"
     },
     {
       "id": "ch104_s16",
       "target": "नाम और तारीख सही जाँचें।",
-      "romanization": "naam aur taariikh sahii jaanchen।",
+      "romanization": "naam aur taareekh sahii jaanchen.",
       "bangla_pronunciation": "নাম ঔর তারীখ সহী জাঁচেং।",
       "word_pronunciations": [
         {
           "target": "नाम",
           "bangla_pronunciation": "নাম",
+          "romanization": "naam",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "तारीख",
           "bangla_pronunciation": "তারীখ",
+          "romanization": "taareekh",
           "separator_after": " "
         },
         {
           "target": "सही",
           "bangla_pronunciation": "সহী",
+          "romanization": "sahee",
           "separator_after": " "
         },
         {
           "target": "जाँचें।",
           "bangla_pronunciation": "জাঁচেং।",
+          "romanization": "jaanchen.",
           "separator_after": ""
         }
       ],
@@ -730,96 +846,112 @@
     {
       "id": "ch104_s17",
       "target": "बीमा विवरण और दावा पत्र का रिकॉर्ड रखिए।",
-      "romanization": "biimaa vivaran aur daavaa patr kaa rikaॉrd rakhie।",
+      "romanization": "biimaa vivaran aur daavaa patr kaa rikaord rakhie.",
       "bangla_pronunciation": "বীমা ভিভরণ ঔর দাভা পত্র কা রিকॉর্ড রখিএ।",
       "word_pronunciations": [
         {
           "target": "बीमा",
           "bangla_pronunciation": "বীমা",
+          "romanization": "beemaa",
           "separator_after": " "
         },
         {
           "target": "विवरण",
           "bangla_pronunciation": "ভিভরণ",
+          "romanization": "vivaran",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "दावा",
           "bangla_pronunciation": "দাভা",
+          "romanization": "daavaa",
           "separator_after": " "
         },
         {
           "target": "पत्र",
           "bangla_pronunciation": "পত্র",
+          "romanization": "patr",
           "separator_after": " "
         },
         {
           "target": "का",
           "bangla_pronunciation": "কা",
+          "romanization": "kaa",
           "separator_after": " "
         },
         {
           "target": "रिकॉर्ड",
           "bangla_pronunciation": "রিকॉর্ড",
+          "romanization": "rikord",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিএ।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
-      "meaning_bengali_md": "বীমার তথ্য ও দাবির ফর্ম-এর রেকর্ড রাখুন।"
+      "meaning_bengali_md": "বীমার তথ্য ও দাবির ফর্মের রেকর্ড রাখুন।"
     },
     {
       "id": "ch104_s18",
       "target": "स्वीकृति रसीद और चिकित्सक समय को फिर देखिए।",
-      "romanization": "sviikriti rasiid aur chikitsak samay ko phir dekhie।",
+      "romanization": "sviikriti rasiid aur chikitsak samay ko phir dekhie.",
       "bangla_pronunciation": "স্ভীকৃতি রসীদ ঔর চিকিত্সক সময কো ফির দেখিএ।",
       "word_pronunciations": [
         {
           "target": "स्वीकृति",
           "bangla_pronunciation": "স্ভীকৃতি",
+          "romanization": "sveekriti",
           "separator_after": " "
         },
         {
           "target": "रसीद",
           "bangla_pronunciation": "রসীদ",
+          "romanization": "raseed",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "चिकित्सक",
           "bangla_pronunciation": "চিকিত্সক",
+          "romanization": "chikitsak",
           "separator_after": " "
         },
         {
           "target": "समय",
           "bangla_pronunciation": "সময",
+          "romanization": "samay",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "फिर",
           "bangla_pronunciation": "ফির",
+          "romanization": "phir",
           "separator_after": " "
         },
         {
           "target": "देखिए।",
           "bangla_pronunciation": "দেখিএ।",
+          "romanization": "dekhie.",
           "separator_after": ""
         }
       ],
@@ -828,32 +960,37 @@
     {
       "id": "ch104_s19",
       "target": "यात्रा अंतराल की पुष्टि कीजिए।",
-      "romanization": "yaatraa antaraal kii pushti kiijie।",
+      "romanization": "yaatraa antaraal kii pushti kiijie.",
       "bangla_pronunciation": "যাত্রা অংতরাল কী পুষ্টি কীজিএ।",
       "word_pronunciations": [
         {
           "target": "यात्रा",
           "bangla_pronunciation": "যাত্রা",
+          "romanization": "yaatra",
           "separator_after": " "
         },
         {
           "target": "अंतराल",
           "bangla_pronunciation": "অংতরাল",
+          "romanization": "antraal",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "पुष्टि",
           "bangla_pronunciation": "পুষ্টি",
+          "romanization": "pushti",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিএ।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -862,27 +999,31 @@
     {
       "id": "ch104_s20",
       "target": "अगली मुलाकात लिखकर रखें।",
-      "romanization": "agalii mulaakaat likhakar rakhen।",
+      "romanization": "agalii mulaakaat likhakar rakhen.",
       "bangla_pronunciation": "অগলী মুলাকাত লিখকর রখেং।",
       "word_pronunciations": [
         {
           "target": "अगली",
           "bangla_pronunciation": "অগলী",
+          "romanization": "agalee",
           "separator_after": " "
         },
         {
           "target": "मुलाकात",
           "bangla_pronunciation": "মুলাকাত",
+          "romanization": "mulaakaat",
           "separator_after": " "
         },
         {
           "target": "लिखकर",
           "bangla_pronunciation": "লিখকর",
+          "romanization": "likhakar",
           "separator_after": " "
         },
         {
           "target": "रखें।",
           "bangla_pronunciation": "রখেং।",
+          "romanization": "rakhen.",
           "separator_after": ""
         }
       ],
@@ -895,17 +1036,19 @@
       "target": "नियुक्ति समय",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "niyukti samay",
+      "romanization": "niyukti samay.",
       "bangla_pronunciation": "নিযুক্তি সময",
       "word_pronunciations": [
         {
           "target": "नियुक्ति",
           "bangla_pronunciation": "নিযুক্তি",
+          "romanization": "niyukti",
           "separator_after": " "
         },
         {
           "target": "समय",
           "bangla_pronunciation": "সময",
+          "romanization": "samay",
           "separator_after": ""
         }
       ],
@@ -914,55 +1057,66 @@
       "source_form": "नियुक्ति समय",
       "example_target": "इस विषय में नियुक्ति समय और पंजीकरण काउंटर महत्वपूर्ण हैं।",
       "example_bangla_pronunciation": "ইস ভিষয মেং নিযুক্তি সময ঔর পংজীকরণ কাউংটর মহত্ভপূর্ণ হৈং।",
+      "example_romanization": "is vishay men niyukti samay aur pnjiikaran kaauntar mahatvapuurn hain.",
       "example_word_pronunciations": [
         {
           "target": "इस",
           "bangla_pronunciation": "ইস",
+          "romanization": "is",
           "separator_after": " "
         },
         {
           "target": "विषय",
           "bangla_pronunciation": "ভিষয",
+          "romanization": "vishay",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেং",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "नियुक्ति",
           "bangla_pronunciation": "নিযুক্তি",
+          "romanization": "niyukti",
           "separator_after": " "
         },
         {
           "target": "समय",
           "bangla_pronunciation": "সময",
+          "romanization": "samay",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "पंजीकरण",
           "bangla_pronunciation": "পংজীকরণ",
+          "romanization": "panjeekaran",
           "separator_after": " "
         },
         {
           "target": "काउंटर",
           "bangla_pronunciation": "কাউংটর",
+          "romanization": "kauntar",
           "separator_after": " "
         },
         {
           "target": "महत्वपूर्ण",
           "bangla_pronunciation": "মহত্ভপূর্ণ",
+          "romanization": "mahatvapoorn",
           "separator_after": " "
         },
         {
           "target": "हैं।",
           "bangla_pronunciation": "হৈং।",
+          "romanization": "hain.",
           "separator_after": ""
         }
       ],
@@ -974,17 +1128,19 @@
       "target": "पंजीकरण काउंटर",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "pnjiikaran kaauntar",
+      "romanization": "pnjiikaran kaauntar.",
       "bangla_pronunciation": "পংজীকরণ কাউংটর",
       "word_pronunciations": [
         {
           "target": "पंजीकरण",
           "bangla_pronunciation": "পংজীকরণ",
+          "romanization": "panjeekaran",
           "separator_after": " "
         },
         {
           "target": "काउंटर",
           "bangla_pronunciation": "কাউংটর",
+          "romanization": "kauntar",
           "separator_after": ""
         }
       ],
@@ -993,55 +1149,66 @@
       "source_form": "पंजीकरण काउंटर",
       "example_target": "इस विषय में नियुक्ति समय और पंजीकरण काउंटर महत्वपूर्ण हैं।",
       "example_bangla_pronunciation": "ইস ভিষয মেং নিযুক্তি সময ঔর পংজীকরণ কাউংটর মহত্ভপূর্ণ হৈং।",
+      "example_romanization": "is vishay men niyukti samay aur pnjiikaran kaauntar mahatvapuurn hain.",
       "example_word_pronunciations": [
         {
           "target": "इस",
           "bangla_pronunciation": "ইস",
+          "romanization": "is",
           "separator_after": " "
         },
         {
           "target": "विषय",
           "bangla_pronunciation": "ভিষয",
+          "romanization": "vishay",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেং",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "नियुक्ति",
           "bangla_pronunciation": "নিযুক্তি",
+          "romanization": "niyukti",
           "separator_after": " "
         },
         {
           "target": "समय",
           "bangla_pronunciation": "সময",
+          "romanization": "samay",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "पंजीकरण",
           "bangla_pronunciation": "পংজীকরণ",
+          "romanization": "panjeekaran",
           "separator_after": " "
         },
         {
           "target": "काउंटर",
           "bangla_pronunciation": "কাউংটর",
+          "romanization": "kauntar",
           "separator_after": " "
         },
         {
           "target": "महत्वपूर्ण",
           "bangla_pronunciation": "মহত্ভপূর্ণ",
+          "romanization": "mahatvapoorn",
           "separator_after": " "
         },
         {
           "target": "हैं।",
           "bangla_pronunciation": "হৈং।",
+          "romanization": "hain.",
           "separator_after": ""
         }
       ],
@@ -1053,17 +1220,19 @@
       "target": "प्रतीक्षा क्रम",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "pratiikshaa kram",
+      "romanization": "pratiikshaa kram.",
       "bangla_pronunciation": "প্রতীক্ষা ক্রম",
       "word_pronunciations": [
         {
           "target": "प्रतीक्षा",
           "bangla_pronunciation": "প্রতীক্ষা",
+          "romanization": "pratiksha",
           "separator_after": " "
         },
         {
           "target": "क्रम",
           "bangla_pronunciation": "ক্রম",
+          "romanization": "kram",
           "separator_after": ""
         }
       ],
@@ -1072,50 +1241,60 @@
       "source_form": "प्रतीक्षा क्रम",
       "example_target": "हमने प्रतीक्षा क्रम और परामर्श शुल्क पर चर्चा की।",
       "example_bangla_pronunciation": "হমনে প্রতীক্ষা ক্রম ঔর পরামর্শ শুল্ক পর চর্চা কী।",
+      "example_romanization": "hamane pratiikshaa kram aur paraamarsh shulk par charchaa kii.",
       "example_word_pronunciations": [
         {
           "target": "हमने",
           "bangla_pronunciation": "হমনে",
+          "romanization": "hamane",
           "separator_after": " "
         },
         {
           "target": "प्रतीक्षा",
           "bangla_pronunciation": "প্রতীক্ষা",
+          "romanization": "pratiksha",
           "separator_after": " "
         },
         {
           "target": "क्रम",
           "bangla_pronunciation": "ক্রম",
+          "romanization": "kram",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "परामर्श",
           "bangla_pronunciation": "পরামর্শ",
+          "romanization": "paraamarsh",
           "separator_after": " "
         },
         {
           "target": "शुल्क",
           "bangla_pronunciation": "শুল্ক",
+          "romanization": "shulk",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "की।",
           "bangla_pronunciation": "কী।",
+          "romanization": "kee.",
           "separator_after": ""
         }
       ],
@@ -1127,17 +1306,19 @@
       "target": "परामर्श शुल्क",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "paraamarsh shulk",
+      "romanization": "paraamarsh shulk.",
       "bangla_pronunciation": "পরামর্শ শুল্ক",
       "word_pronunciations": [
         {
           "target": "परामर्श",
           "bangla_pronunciation": "পরামর্শ",
+          "romanization": "paraamarsh",
           "separator_after": " "
         },
         {
           "target": "शुल्क",
           "bangla_pronunciation": "শুল্ক",
+          "romanization": "shulk",
           "separator_after": ""
         }
       ],
@@ -1146,50 +1327,60 @@
       "source_form": "परामर्श शुल्क",
       "example_target": "हमने प्रतीक्षा क्रम और परामर्श शुल्क पर चर्चा की।",
       "example_bangla_pronunciation": "হমনে প্রতীক্ষা ক্রম ঔর পরামর্শ শুল্ক পর চর্চা কী।",
+      "example_romanization": "hamane pratiikshaa kram aur paraamarsh shulk par charchaa kii.",
       "example_word_pronunciations": [
         {
           "target": "हमने",
           "bangla_pronunciation": "হমনে",
+          "romanization": "hamane",
           "separator_after": " "
         },
         {
           "target": "प्रतीक्षा",
           "bangla_pronunciation": "প্রতীক্ষা",
+          "romanization": "pratiksha",
           "separator_after": " "
         },
         {
           "target": "क्रम",
           "bangla_pronunciation": "ক্রম",
+          "romanization": "kram",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "परामर्श",
           "bangla_pronunciation": "পরামর্শ",
+          "romanization": "paraamarsh",
           "separator_after": " "
         },
         {
           "target": "शुल्क",
           "bangla_pronunciation": "শুল্ক",
+          "romanization": "shulk",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "चर्चा",
           "bangla_pronunciation": "চর্চা",
+          "romanization": "crcaa",
           "separator_after": " "
         },
         {
           "target": "की।",
           "bangla_pronunciation": "কী।",
+          "romanization": "kee.",
           "separator_after": ""
         }
       ],
@@ -1201,17 +1392,19 @@
       "target": "पहचान पत्र",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "pahachaan patr",
+      "romanization": "pahachaan patr.",
       "bangla_pronunciation": "পহচান পত্র",
       "word_pronunciations": [
         {
           "target": "पहचान",
           "bangla_pronunciation": "পহচান",
+          "romanization": "phcaan",
           "separator_after": " "
         },
         {
           "target": "पत्र",
           "bangla_pronunciation": "পত্র",
+          "romanization": "patr",
           "separator_after": ""
         }
       ],
@@ -1220,35 +1413,42 @@
       "source_form": "पहचान पत्र",
       "example_target": "पहचान पत्र की जाँच जरूरी है।",
       "example_bangla_pronunciation": "পহচান পত্র কী জাঁচ জরূরী হৈ।",
+      "example_romanization": "pahachaan patr kii jaanch jaruurii hai.",
       "example_word_pronunciations": [
         {
           "target": "पहचान",
           "bangla_pronunciation": "পহচান",
+          "romanization": "phcaan",
           "separator_after": " "
         },
         {
           "target": "पत्र",
           "bangla_pronunciation": "পত্র",
+          "romanization": "patr",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जाँच",
           "bangla_pronunciation": "জাঁচ",
+          "romanization": "jaanch",
           "separator_after": " "
         },
         {
           "target": "जरूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হৈ।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -1260,32 +1460,37 @@
       "target": "समय से थोड़ा पहले पहुँचें",
       "type": "expression",
       "category": "expression",
-      "romanization": "samay se thodaa pahale pahunchen",
+      "romanization": "samay se thodaa pahale pahunchen.",
       "bangla_pronunciation": "সময সে থোডা পহলে পহুঁচেং",
       "word_pronunciations": [
         {
           "target": "समय",
           "bangla_pronunciation": "সময",
+          "romanization": "samay",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "थोड़ा",
           "bangla_pronunciation": "থোডা",
+          "romanization": "thoda",
           "separator_after": " "
         },
         {
           "target": "पहले",
           "bangla_pronunciation": "পহলে",
+          "romanization": "pahle",
           "separator_after": " "
         },
         {
           "target": "पहुँचें",
           "bangla_pronunciation": "পহুঁচেং",
+          "romanization": "pahunchen",
           "separator_after": ""
         }
       ],
@@ -1294,30 +1499,36 @@
       "source_form": "समय से थोड़ा पहले पहुँचें",
       "example_target": "समय से थोड़ा पहले पहुँचें।",
       "example_bangla_pronunciation": "সময সে থোডা পহলে পহুঁচেং।",
+      "example_romanization": "samay se thodaa pahale pahunchen.",
       "example_word_pronunciations": [
         {
           "target": "समय",
           "bangla_pronunciation": "সময",
+          "romanization": "samay",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "थोड़ा",
           "bangla_pronunciation": "থোডা",
+          "romanization": "thoda",
           "separator_after": " "
         },
         {
           "target": "पहले",
           "bangla_pronunciation": "পহলে",
+          "romanization": "pahle",
           "separator_after": " "
         },
         {
           "target": "पहुँचें।",
           "bangla_pronunciation": "পহুঁচেং।",
+          "romanization": "pahunchen.",
           "separator_after": ""
         }
       ],
@@ -1329,17 +1540,19 @@
       "target": "चिकित्सालय पता",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "chikitsaalay pataa",
+      "romanization": "chikitsaalay pataa.",
       "bangla_pronunciation": "চিকিত্সালয পতা",
       "word_pronunciations": [
         {
           "target": "चिकित्सालय",
           "bangla_pronunciation": "চিকিত্সালয",
+          "romanization": "chikitsaalay",
           "separator_after": " "
         },
         {
           "target": "पता",
           "bangla_pronunciation": "পতা",
+          "romanization": "pata",
           "separator_after": ""
         }
       ],
@@ -1348,45 +1561,54 @@
       "source_form": "चिकित्सालय पता",
       "example_target": "चिकित्सालय पता और विभाग का नाम तैयार रखिए।",
       "example_bangla_pronunciation": "চিকিত্সালয পতা ঔর ভিভাগ কা নাম তৈযার রখিএ।",
+      "example_romanization": "chikitsaalay pataa aur vibhaag kaa naam taiyaar rakhie.",
       "example_word_pronunciations": [
         {
           "target": "चिकित्सालय",
           "bangla_pronunciation": "চিকিত্সালয",
+          "romanization": "chikitsaalay",
           "separator_after": " "
         },
         {
           "target": "पता",
           "bangla_pronunciation": "পতা",
+          "romanization": "pata",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "विभाग",
           "bangla_pronunciation": "ভিভাগ",
+          "romanization": "vibhaag",
           "separator_after": " "
         },
         {
           "target": "का",
           "bangla_pronunciation": "কা",
+          "romanization": "kaa",
           "separator_after": " "
         },
         {
           "target": "नाम",
           "bangla_pronunciation": "নাম",
+          "romanization": "naam",
           "separator_after": " "
         },
         {
           "target": "तैयार",
           "bangla_pronunciation": "তৈযার",
+          "romanization": "taiyaar",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিএ।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
@@ -1398,22 +1620,25 @@
       "target": "विभाग का नाम",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "vibhaag kaa naam",
+      "romanization": "vibhaag kaa naam.",
       "bangla_pronunciation": "ভিভাগ কা নাম",
       "word_pronunciations": [
         {
           "target": "विभाग",
           "bangla_pronunciation": "ভিভাগ",
+          "romanization": "vibhaag",
           "separator_after": " "
         },
         {
           "target": "का",
           "bangla_pronunciation": "কা",
+          "romanization": "kaa",
           "separator_after": " "
         },
         {
           "target": "नाम",
           "bangla_pronunciation": "নাম",
+          "romanization": "naam",
           "separator_after": ""
         }
       ],
@@ -1422,45 +1647,54 @@
       "source_form": "विभाग का नाम",
       "example_target": "चिकित्सालय पता और विभाग का नाम तैयार रखिए।",
       "example_bangla_pronunciation": "চিকিত্সালয পতা ঔর ভিভাগ কা নাম তৈযার রখিএ।",
+      "example_romanization": "chikitsaalay pataa aur vibhaag kaa naam taiyaar rakhie.",
       "example_word_pronunciations": [
         {
           "target": "चिकित्सालय",
           "bangla_pronunciation": "চিকিত্সালয",
+          "romanization": "chikitsaalay",
           "separator_after": " "
         },
         {
           "target": "पता",
           "bangla_pronunciation": "পতা",
+          "romanization": "pata",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "विभाग",
           "bangla_pronunciation": "ভিভাগ",
+          "romanization": "vibhaag",
           "separator_after": " "
         },
         {
           "target": "का",
           "bangla_pronunciation": "কা",
+          "romanization": "kaa",
           "separator_after": " "
         },
         {
           "target": "नाम",
           "bangla_pronunciation": "নাম",
+          "romanization": "naam",
           "separator_after": " "
         },
         {
           "target": "तैयार",
           "bangla_pronunciation": "তৈযার",
+          "romanization": "taiyaar",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিএ।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
@@ -1472,17 +1706,19 @@
       "target": "संदर्भ पत्र",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "sndarbh patr",
+      "romanization": "sndarbh patr.",
       "bangla_pronunciation": "সংদর্ভ পত্র",
       "word_pronunciations": [
         {
           "target": "संदर्भ",
           "bangla_pronunciation": "সংদর্ভ",
+          "romanization": "sandarbh",
           "separator_after": " "
         },
         {
           "target": "पत्र",
           "bangla_pronunciation": "পত্র",
+          "romanization": "patr",
           "separator_after": ""
         }
       ],
@@ -1491,54 +1727,64 @@
       "source_form": "संदर्भ पत्र",
       "example_target": "संदर्भ पत्र के साथ जाँच रिपोर्ट भी दर्ज कीजिए।",
       "example_bangla_pronunciation": "সংদর্ভ পত্র কে সাথ জাঁচ রিপোর্ট ভী দর্জ কীজিএ।",
+      "example_romanization": "sndarbh patr ke saath jaanch riport bhii darj kiijie.",
       "example_word_pronunciations": [
         {
           "target": "संदर्भ",
           "bangla_pronunciation": "সংদর্ভ",
+          "romanization": "sandarbh",
           "separator_after": " "
         },
         {
           "target": "पत्र",
           "bangla_pronunciation": "পত্র",
+          "romanization": "patr",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "जाँच",
           "bangla_pronunciation": "জাঁচ",
+          "romanization": "jaanch",
           "separator_after": " "
         },
         {
           "target": "रिपोर्ट",
           "bangla_pronunciation": "রিপোর্ট",
+          "romanization": "riport",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "दर्ज",
           "bangla_pronunciation": "দর্জ",
+          "romanization": "darj",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিএ।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "রেফারেল পত্র-এর সঙ্গে পরীক্ষার রিপোর্ট-ও নথিভুক্ত করুন।",
+      "example_meaning_bengali_md": "রেফারেল পত্রের সঙ্গে পরীক্ষার রিপোর্টও নথিভুক্ত করুন।",
       "synonyms": []
     },
     {
@@ -1546,17 +1792,19 @@
       "target": "जाँच रिपोर्ट",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "jaanch riport",
+      "romanization": "jaanch riport.",
       "bangla_pronunciation": "জাঁচ রিপোর্ট",
       "word_pronunciations": [
         {
           "target": "जाँच",
           "bangla_pronunciation": "জাঁচ",
+          "romanization": "jaanch",
           "separator_after": " "
         },
         {
           "target": "रिपोर्ट",
           "bangla_pronunciation": "রিপোর্ট",
+          "romanization": "riport",
           "separator_after": ""
         }
       ],
@@ -1565,54 +1813,64 @@
       "source_form": "जाँच रिपोर्ट",
       "example_target": "संदर्भ पत्र के साथ जाँच रिपोर्ट भी दर्ज कीजिए।",
       "example_bangla_pronunciation": "সংদর্ভ পত্র কে সাথ জাঁচ রিপোর্ট ভী দর্জ কীজিএ।",
+      "example_romanization": "sndarbh patr ke saath jaanch riport bhii darj kiijie.",
       "example_word_pronunciations": [
         {
           "target": "संदर्भ",
           "bangla_pronunciation": "সংদর্ভ",
+          "romanization": "sandarbh",
           "separator_after": " "
         },
         {
           "target": "पत्र",
           "bangla_pronunciation": "পত্র",
+          "romanization": "patr",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "जाँच",
           "bangla_pronunciation": "জাঁচ",
+          "romanization": "jaanch",
           "separator_after": " "
         },
         {
           "target": "रिपोर्ट",
           "bangla_pronunciation": "রিপোর্ট",
+          "romanization": "riport",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "दर्ज",
           "bangla_pronunciation": "দর্জ",
+          "romanization": "darj",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিএ।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "রেফারেল পত্র-এর সঙ্গে পরীক্ষার রিপোর্ট-ও নথিভুক্ত করুন।",
+      "example_meaning_bengali_md": "রেফারেল পত্রের সঙ্গে পরীক্ষার রিপোর্টও নথিভুক্ত করুন।",
       "synonyms": []
     },
     {
@@ -1620,17 +1878,19 @@
       "target": "पुरानी फाइल",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "puraanii phaail",
+      "romanization": "puraanii phaail.",
       "bangla_pronunciation": "পুরানী ফাইল",
       "word_pronunciations": [
         {
           "target": "पुरानी",
           "bangla_pronunciation": "পুরানী",
+          "romanization": "puraanee",
           "separator_after": " "
         },
         {
           "target": "फाइल",
           "bangla_pronunciation": "ফাইল",
+          "romanization": "phaail",
           "separator_after": ""
         }
       ],
@@ -1639,34 +1899,40 @@
       "source_form": "पुरानी फाइल",
       "example_target": "पुरानी फाइल पर ध्यान दीजिए।",
       "example_bangla_pronunciation": "পুরানী ফাইল পর ধ্যান দীজিএ।",
+      "example_romanization": "puraanii phaail par dhyaan diijie.",
       "example_word_pronunciations": [
         {
           "target": "पुरानी",
           "bangla_pronunciation": "পুরানী",
+          "romanization": "puraanee",
           "separator_after": " "
         },
         {
           "target": "फाइल",
           "bangla_pronunciation": "ফাইল",
+          "romanization": "phaail",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दीजिए।",
           "bangla_pronunciation": "দীজিএ।",
+          "romanization": "deejie.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "পুরনো ফাইল-এর দিকে মনোযোগ দিন।",
+      "example_meaning_bengali_md": "পুরনো ফাইলের দিকে মনোযোগ দিন।",
       "synonyms": []
     },
     {
@@ -1674,32 +1940,37 @@
       "target": "अपनी रिपोर्ट साथ लेकर आएँ",
       "type": "expression",
       "category": "expression",
-      "romanization": "apanii riport saath lekar aaen",
+      "romanization": "apanii riport saath lekar aaen.",
       "bangla_pronunciation": "অপনী রিপোর্ট সাথ লেকর আএঁ",
       "word_pronunciations": [
         {
           "target": "अपनी",
           "bangla_pronunciation": "অপনী",
+          "romanization": "apanee",
           "separator_after": " "
         },
         {
           "target": "रिपोर्ट",
           "bangla_pronunciation": "রিপোর্ট",
+          "romanization": "riport",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "लेकर",
           "bangla_pronunciation": "লেকর",
+          "romanization": "lekar",
           "separator_after": " "
         },
         {
           "target": "आएँ",
           "bangla_pronunciation": "আএঁ",
+          "romanization": "aaen",
           "separator_after": ""
         }
       ],
@@ -1708,30 +1979,36 @@
       "source_form": "अपनी रिपोर्ट साथ लेकर आएँ",
       "example_target": "अपनी रिपोर्ट साथ लेकर आएँ।",
       "example_bangla_pronunciation": "অপনী রিপোর্ট সাথ লেকর আএঁ।",
+      "example_romanization": "apanii riport saath lekar aaen.",
       "example_word_pronunciations": [
         {
           "target": "अपनी",
           "bangla_pronunciation": "অপনী",
+          "romanization": "apanee",
           "separator_after": " "
         },
         {
           "target": "रिपोर्ट",
           "bangla_pronunciation": "রিপোর্ট",
+          "romanization": "riport",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "लेकर",
           "bangla_pronunciation": "লেকর",
+          "romanization": "lekar",
           "separator_after": " "
         },
         {
           "target": "आएँ।",
           "bangla_pronunciation": "আএঁ।",
+          "romanization": "aaen.",
           "separator_after": ""
         }
       ],
@@ -1743,17 +2020,19 @@
       "target": "दवा सूची",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "davaa suuchii",
+      "romanization": "davaa suuchii.",
       "bangla_pronunciation": "দভা সূচী",
       "word_pronunciations": [
         {
           "target": "दवा",
           "bangla_pronunciation": "দভা",
+          "romanization": "dvaa",
           "separator_after": " "
         },
         {
           "target": "सूची",
           "bangla_pronunciation": "সূচী",
+          "romanization": "soochee",
           "separator_after": ""
         }
       ],
@@ -1762,49 +2041,58 @@
       "source_form": "दवा सूची",
       "example_target": "दवा सूची और एलर्जी नोट की जानकारी रखिए।",
       "example_bangla_pronunciation": "দভা সূচী ঔর এলর্জী নোট কী জানকারী রখিএ।",
+      "example_romanization": "davaa suuchii aur elarjii not kii jaankaaree rakhie.",
       "example_word_pronunciations": [
         {
           "target": "दवा",
           "bangla_pronunciation": "দভা",
+          "romanization": "dvaa",
           "separator_after": " "
         },
         {
           "target": "सूची",
           "bangla_pronunciation": "সূচী",
+          "romanization": "soochee",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "एलर्जी",
           "bangla_pronunciation": "এলর্জী",
+          "romanization": "elrjii",
           "separator_after": " "
         },
         {
           "target": "नोट",
           "bangla_pronunciation": "নোট",
+          "romanization": "not",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaankaaree",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিএ।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "ওষুধের তালিকা ও অ্যালার্জির নোট-এর তথ্য রাখুন।",
+      "example_meaning_bengali_md": "ওষুধের তালিকা ও অ্যালার্জির নোটের তথ্য রাখুন।",
       "synonyms": []
     },
     {
@@ -1812,17 +2100,19 @@
       "target": "एलर्जी नोट",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "elarjii not",
+      "romanization": "elarjii not.",
       "bangla_pronunciation": "এলর্জী নোট",
       "word_pronunciations": [
         {
           "target": "एलर्जी",
           "bangla_pronunciation": "এলর্জী",
+          "romanization": "elrjii",
           "separator_after": " "
         },
         {
           "target": "नोट",
           "bangla_pronunciation": "নোট",
+          "romanization": "not",
           "separator_after": ""
         }
       ],
@@ -1831,49 +2121,58 @@
       "source_form": "एलर्जी नोट",
       "example_target": "दवा सूची और एलर्जी नोट की जानकारी रखिए।",
       "example_bangla_pronunciation": "দভা সূচী ঔর এলর্জী নোট কী জানকারী রখিএ।",
+      "example_romanization": "davaa suuchii aur elarjii not kii jaankaaree rakhie.",
       "example_word_pronunciations": [
         {
           "target": "दवा",
           "bangla_pronunciation": "দভা",
+          "romanization": "dvaa",
           "separator_after": " "
         },
         {
           "target": "सूची",
           "bangla_pronunciation": "সূচী",
+          "romanization": "soochee",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "एलर्जी",
           "bangla_pronunciation": "এলর্জী",
+          "romanization": "elrjii",
           "separator_after": " "
         },
         {
           "target": "नोट",
           "bangla_pronunciation": "নোট",
+          "romanization": "not",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaankaaree",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিএ।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "ওষুধের তালিকা ও অ্যালার্জির নোট-এর তথ্য রাখুন।",
+      "example_meaning_bengali_md": "ওষুধের তালিকা ও অ্যালার্জির নোটের তথ্য রাখুন।",
       "synonyms": []
     },
     {
@@ -1881,17 +2180,19 @@
       "target": "आपात संपर्क",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "aapaat snpark",
+      "romanization": "aapaat snpark.",
       "bangla_pronunciation": "আপাত সংপর্ক",
       "word_pronunciations": [
         {
           "target": "आपात",
           "bangla_pronunciation": "আপাত",
+          "romanization": "aapaat",
           "separator_after": " "
         },
         {
           "target": "संपर्क",
           "bangla_pronunciation": "সংপর্ক",
+          "romanization": "sanpark",
           "separator_after": ""
         }
       ],
@@ -1900,49 +2201,58 @@
       "source_form": "आपात संपर्क",
       "example_target": "आपात संपर्क के साथ भुगतान रसीद भी देखिए।",
       "example_bangla_pronunciation": "আপাত সংপর্ক কে সাথ ভুগতান রসীদ ভী দেখিএ।",
+      "example_romanization": "aapaat snpark ke saath bhugataan rasiid bhii dekhie.",
       "example_word_pronunciations": [
         {
           "target": "आपात",
           "bangla_pronunciation": "আপাত",
+          "romanization": "aapaat",
           "separator_after": " "
         },
         {
           "target": "संपर्क",
           "bangla_pronunciation": "সংপর্ক",
+          "romanization": "sanpark",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "भुगतान",
           "bangla_pronunciation": "ভুগতান",
+          "romanization": "bhugtaan",
           "separator_after": " "
         },
         {
           "target": "रसीद",
           "bangla_pronunciation": "রসীদ",
+          "romanization": "raseed",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "देखिए।",
           "bangla_pronunciation": "দেখিএ।",
+          "romanization": "dekhie.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "জরুরি যোগাযোগ-এর সঙ্গে পেমেন্ট রসিদ-ও দেখুন।",
+      "example_meaning_bengali_md": "জরুরি যোগাযোগের সঙ্গে পেমেন্ট রসিদও দেখুন।",
       "synonyms": []
     },
     {
@@ -1950,17 +2260,19 @@
       "target": "भुगतान रसीद",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "bhugataan rasiid",
+      "romanization": "bhugataan rasiid.",
       "bangla_pronunciation": "ভুগতান রসীদ",
       "word_pronunciations": [
         {
           "target": "भुगतान",
           "bangla_pronunciation": "ভুগতান",
+          "romanization": "bhugtaan",
           "separator_after": " "
         },
         {
           "target": "रसीद",
           "bangla_pronunciation": "রসীদ",
+          "romanization": "raseed",
           "separator_after": ""
         }
       ],
@@ -1969,49 +2281,58 @@
       "source_form": "भुगतान रसीद",
       "example_target": "आपात संपर्क के साथ भुगतान रसीद भी देखिए।",
       "example_bangla_pronunciation": "আপাত সংপর্ক কে সাথ ভুগতান রসীদ ভী দেখিএ।",
+      "example_romanization": "aapaat snpark ke saath bhugataan rasiid bhii dekhie.",
       "example_word_pronunciations": [
         {
           "target": "आपात",
           "bangla_pronunciation": "আপাত",
+          "romanization": "aapaat",
           "separator_after": " "
         },
         {
           "target": "संपर्क",
           "bangla_pronunciation": "সংপর্ক",
+          "romanization": "sanpark",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "भुगतान",
           "bangla_pronunciation": "ভুগতান",
+          "romanization": "bhugtaan",
           "separator_after": " "
         },
         {
           "target": "रसीद",
           "bangla_pronunciation": "রসীদ",
+          "romanization": "raseed",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "देखिए।",
           "bangla_pronunciation": "দেখিএ।",
+          "romanization": "dekhie.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "জরুরি যোগাযোগ-এর সঙ্গে পেমেন্ট রসিদ-ও দেখুন।",
+      "example_meaning_bengali_md": "জরুরি যোগাযোগের সঙ্গে পেমেন্ট রসিদও দেখুন।",
       "synonyms": []
     },
     {
@@ -2019,17 +2340,19 @@
       "target": "अगली तारीख",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "agalii taariikh",
+      "romanization": "agalii taareekh.",
       "bangla_pronunciation": "অগলী তারীখ",
       "word_pronunciations": [
         {
           "target": "अगली",
           "bangla_pronunciation": "অগলী",
+          "romanization": "agalee",
           "separator_after": " "
         },
         {
           "target": "तारीख",
           "bangla_pronunciation": "তারীখ",
+          "romanization": "taareekh",
           "separator_after": ""
         }
       ],
@@ -2038,30 +2361,36 @@
       "source_form": "अगली तारीख",
       "example_target": "अगली तारीख को साफ़ लिखिए।",
       "example_bangla_pronunciation": "অগলী তারীখ কো সাফ লিখিএ।",
+      "example_romanization": "agalii taareekh ko saaf likhie.",
       "example_word_pronunciations": [
         {
           "target": "अगली",
           "bangla_pronunciation": "অগলী",
+          "romanization": "agalee",
           "separator_after": " "
         },
         {
           "target": "तारीख",
           "bangla_pronunciation": "তারীখ",
+          "romanization": "taareekh",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "साफ़",
           "bangla_pronunciation": "সাফ",
+          "romanization": "saaf",
           "separator_after": " "
         },
         {
           "target": "लिखिए।",
           "bangla_pronunciation": "লিখিএ।",
+          "romanization": "likhie.",
           "separator_after": ""
         }
       ],
@@ -2073,37 +2402,43 @@
       "target": "समझ न आए तो फिर पूछें",
       "type": "expression",
       "category": "expression",
-      "romanization": "samajh n aae to phir puuchhen",
+      "romanization": "samajh n aae to phir puuchhen.",
       "bangla_pronunciation": "সমঝ ন আএ তো ফির পূছেং",
       "word_pronunciations": [
         {
           "target": "समझ",
           "bangla_pronunciation": "সমঝ",
+          "romanization": "samajh",
           "separator_after": " "
         },
         {
           "target": "न",
           "bangla_pronunciation": "ন",
+          "romanization": "na",
           "separator_after": " "
         },
         {
           "target": "आए",
           "bangla_pronunciation": "আএ",
+          "romanization": "aae",
           "separator_after": " "
         },
         {
           "target": "तो",
           "bangla_pronunciation": "তো",
+          "romanization": "to",
           "separator_after": " "
         },
         {
           "target": "फिर",
           "bangla_pronunciation": "ফির",
+          "romanization": "phir",
           "separator_after": " "
         },
         {
           "target": "पूछें",
           "bangla_pronunciation": "পূছেং",
+          "romanization": "poochhen",
           "separator_after": ""
         }
       ],
@@ -2112,35 +2447,42 @@
       "source_form": "समझ न आए तो फिर पूछें",
       "example_target": "समझ न आए तो फिर पूछें।",
       "example_bangla_pronunciation": "সমঝ ন আএ তো ফির পূছেং।",
+      "example_romanization": "samajh n aae to phir puuchhen.",
       "example_word_pronunciations": [
         {
           "target": "समझ",
           "bangla_pronunciation": "সমঝ",
+          "romanization": "samajh",
           "separator_after": " "
         },
         {
           "target": "न",
           "bangla_pronunciation": "ন",
+          "romanization": "na",
           "separator_after": " "
         },
         {
           "target": "आए",
           "bangla_pronunciation": "আএ",
+          "romanization": "aae",
           "separator_after": " "
         },
         {
           "target": "तो",
           "bangla_pronunciation": "তো",
+          "romanization": "to",
           "separator_after": " "
         },
         {
           "target": "फिर",
           "bangla_pronunciation": "ফির",
+          "romanization": "phir",
           "separator_after": " "
         },
         {
           "target": "पूछें।",
           "bangla_pronunciation": "পূছেং।",
+          "romanization": "poochhen.",
           "separator_after": ""
         }
       ],
@@ -2152,17 +2494,19 @@
       "target": "पर्ची संख्या",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "parchii snkhyaa",
+      "romanization": "parchii snkhyaa.",
       "bangla_pronunciation": "পর্চী সংখ্যা",
       "word_pronunciations": [
         {
           "target": "पर्ची",
           "bangla_pronunciation": "পর্চী",
+          "romanization": "parchee",
           "separator_after": " "
         },
         {
           "target": "संख्या",
           "bangla_pronunciation": "সংখ্যা",
+          "romanization": "sankhyaa",
           "separator_after": ""
         }
       ],
@@ -2171,49 +2515,58 @@
       "source_form": "पर्ची संख्या",
       "example_target": "पर्ची संख्या और कक्ष संख्या की स्थिति जाँचिए।",
       "example_bangla_pronunciation": "পর্চী সংখ্যা ঔর কক্ষ সংখ্যা কী স্থিতি জাঁচিএ।",
+      "example_romanization": "parchii snkhyaa aur kaksh snkhyaa kii sthiti jaanchie.",
       "example_word_pronunciations": [
         {
           "target": "पर्ची",
           "bangla_pronunciation": "পর্চী",
+          "romanization": "parchee",
           "separator_after": " "
         },
         {
           "target": "संख्या",
           "bangla_pronunciation": "সংখ্যা",
+          "romanization": "sankhyaa",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "कक्ष",
           "bangla_pronunciation": "কক্ষ",
+          "romanization": "kaksh",
           "separator_after": " "
         },
         {
           "target": "संख्या",
           "bangla_pronunciation": "সংখ্যা",
+          "romanization": "sankhyaa",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "स्थिति",
           "bangla_pronunciation": "স্থিতি",
+          "romanization": "sthiti",
           "separator_after": " "
         },
         {
           "target": "जाँचिए।",
           "bangla_pronunciation": "জাঁচিএ।",
+          "romanization": "jaanchie.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "স্লিপ নম্বর ও কক্ষ নম্বর-এর অবস্থা যাচাই করুন।",
+      "example_meaning_bengali_md": "স্লিপ নম্বর ও কক্ষ নম্বরের অবস্থা যাচাই করুন।",
       "synonyms": []
     },
     {
@@ -2221,17 +2574,19 @@
       "target": "कक्ष संख्या",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "kaksh snkhyaa",
+      "romanization": "kaksh snkhyaa.",
       "bangla_pronunciation": "কক্ষ সংখ্যা",
       "word_pronunciations": [
         {
           "target": "कक्ष",
           "bangla_pronunciation": "কক্ষ",
+          "romanization": "kaksh",
           "separator_after": " "
         },
         {
           "target": "संख्या",
           "bangla_pronunciation": "সংখ্যা",
+          "romanization": "sankhyaa",
           "separator_after": ""
         }
       ],
@@ -2240,49 +2595,58 @@
       "source_form": "कक्ष संख्या",
       "example_target": "पर्ची संख्या और कक्ष संख्या की स्थिति जाँचिए।",
       "example_bangla_pronunciation": "পর্চী সংখ্যা ঔর কক্ষ সংখ্যা কী স্থিতি জাঁচিএ।",
+      "example_romanization": "parchii snkhyaa aur kaksh snkhyaa kii sthiti jaanchie.",
       "example_word_pronunciations": [
         {
           "target": "पर्ची",
           "bangla_pronunciation": "পর্চী",
+          "romanization": "parchee",
           "separator_after": " "
         },
         {
           "target": "संख्या",
           "bangla_pronunciation": "সংখ্যা",
+          "romanization": "sankhyaa",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "कक्ष",
           "bangla_pronunciation": "কক্ষ",
+          "romanization": "kaksh",
           "separator_after": " "
         },
         {
           "target": "संख्या",
           "bangla_pronunciation": "সংখ্যা",
+          "romanization": "sankhyaa",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "स्थिति",
           "bangla_pronunciation": "স্থিতি",
+          "romanization": "sthiti",
           "separator_after": " "
         },
         {
           "target": "जाँचिए।",
           "bangla_pronunciation": "জাঁচিএ।",
+          "romanization": "jaanchie.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "স্লিপ নম্বর ও কক্ষ নম্বর-এর অবস্থা যাচাই করুন।",
+      "example_meaning_bengali_md": "স্লিপ নম্বর ও কক্ষ নম্বরের অবস্থা যাচাই করুন।",
       "synonyms": []
     },
     {
@@ -2290,17 +2654,19 @@
       "target": "नमूना केंद्र",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "namuunaa kendr",
+      "romanization": "namuunaa kendr.",
       "bangla_pronunciation": "নমূনা কেংদ্র",
       "word_pronunciations": [
         {
           "target": "नमूना",
           "bangla_pronunciation": "নমূনা",
+          "romanization": "nmuunaa",
           "separator_after": " "
         },
         {
           "target": "केंद्र",
           "bangla_pronunciation": "কেংদ্র",
+          "romanization": "kendr",
           "separator_after": ""
         }
       ],
@@ -2309,45 +2675,54 @@
       "source_form": "नमूना केंद्र",
       "example_target": "नमूना केंद्र और रिपोर्ट काउंटर को साथ रखिए।",
       "example_bangla_pronunciation": "নমূনা কেংদ্র ঔর রিপোর্ট কাউংটর কো সাথ রখিএ।",
+      "example_romanization": "namuunaa kendr aur riport kaauntar ko saath rakhie.",
       "example_word_pronunciations": [
         {
           "target": "नमूना",
           "bangla_pronunciation": "নমূনা",
+          "romanization": "nmuunaa",
           "separator_after": " "
         },
         {
           "target": "केंद्र",
           "bangla_pronunciation": "কেংদ্র",
+          "romanization": "kendr",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "रिपोर्ट",
           "bangla_pronunciation": "রিপোর্ট",
+          "romanization": "riport",
           "separator_after": " "
         },
         {
           "target": "काउंटर",
           "bangla_pronunciation": "কাউংটর",
+          "romanization": "kauntar",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিএ।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
@@ -2359,17 +2734,19 @@
       "target": "रिपोर्ट काउंटर",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "riport kaauntar",
+      "romanization": "riport kaauntar.",
       "bangla_pronunciation": "রিপোর্ট কাউংটর",
       "word_pronunciations": [
         {
           "target": "रिपोर्ट",
           "bangla_pronunciation": "রিপোর্ট",
+          "romanization": "riport",
           "separator_after": " "
         },
         {
           "target": "काउंटर",
           "bangla_pronunciation": "কাউংটর",
+          "romanization": "kauntar",
           "separator_after": ""
         }
       ],
@@ -2378,45 +2755,54 @@
       "source_form": "रिपोर्ट काउंटर",
       "example_target": "नमूना केंद्र और रिपोर्ट काउंटर को साथ रखिए।",
       "example_bangla_pronunciation": "নমূনা কেংদ্র ঔর রিপোর্ট কাউংটর কো সাথ রখিএ।",
+      "example_romanization": "namuunaa kendr aur riport kaauntar ko saath rakhie.",
       "example_word_pronunciations": [
         {
           "target": "नमूना",
           "bangla_pronunciation": "নমূনা",
+          "romanization": "nmuunaa",
           "separator_after": " "
         },
         {
           "target": "केंद्र",
           "bangla_pronunciation": "কেংদ্র",
+          "romanization": "kendr",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "रिपोर्ट",
           "bangla_pronunciation": "রিপোর্ট",
+          "romanization": "riport",
           "separator_after": " "
         },
         {
           "target": "काउंटर",
           "bangla_pronunciation": "কাউংটর",
+          "romanization": "kauntar",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিএ।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
@@ -2428,17 +2814,19 @@
       "target": "छुट्टी पत्र",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "chhuttii patr",
+      "romanization": "chhuttii patr.",
       "bangla_pronunciation": "ছুট্টী পত্র",
       "word_pronunciations": [
         {
           "target": "छुट्टी",
           "bangla_pronunciation": "ছুট্টী",
+          "romanization": "chhuttee",
           "separator_after": " "
         },
         {
           "target": "पत्र",
           "bangla_pronunciation": "পত্র",
+          "romanization": "patr",
           "separator_after": ""
         }
       ],
@@ -2447,34 +2835,40 @@
       "source_form": "छुट्टी पत्र",
       "example_target": "छुट्टी पत्र की प्रति रखिए।",
       "example_bangla_pronunciation": "ছুট্টী পত্র কী প্রতি রখিএ।",
+      "example_romanization": "chhuttii patr kii prati rakhie.",
       "example_word_pronunciations": [
         {
           "target": "छुट्टी",
           "bangla_pronunciation": "ছুট্টী",
+          "romanization": "chhuttee",
           "separator_after": " "
         },
         {
           "target": "पत्र",
           "bangla_pronunciation": "পত্র",
+          "romanization": "patr",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "प्रति",
           "bangla_pronunciation": "প্রতি",
+          "romanization": "prati",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিএ।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "ডিসচার্জ পত্র-এর একটি কপি রাখুন।",
+      "example_meaning_bengali_md": "ডিসচার্জ পত্রের একটি কপি রাখুন।",
       "synonyms": []
     },
     {
@@ -2482,32 +2876,37 @@
       "target": "नाम और तारीख सही जाँचें",
       "type": "expression",
       "category": "expression",
-      "romanization": "naam aur taariikh sahii jaanchen",
+      "romanization": "naam aur taareekh sahii jaanchen.",
       "bangla_pronunciation": "নাম ঔর তারীখ সহী জাঁচেং",
       "word_pronunciations": [
         {
           "target": "नाम",
           "bangla_pronunciation": "নাম",
+          "romanization": "naam",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "तारीख",
           "bangla_pronunciation": "তারীখ",
+          "romanization": "taareekh",
           "separator_after": " "
         },
         {
           "target": "सही",
           "bangla_pronunciation": "সহী",
+          "romanization": "sahee",
           "separator_after": " "
         },
         {
           "target": "जाँचें",
           "bangla_pronunciation": "জাঁচেং",
+          "romanization": "jaanchen",
           "separator_after": ""
         }
       ],
@@ -2516,30 +2915,36 @@
       "source_form": "नाम और तारीख सही जाँचें",
       "example_target": "नाम और तारीख सही जाँचें।",
       "example_bangla_pronunciation": "নাম ঔর তারীখ সহী জাঁচেং।",
+      "example_romanization": "naam aur taareekh sahii jaanchen.",
       "example_word_pronunciations": [
         {
           "target": "नाम",
           "bangla_pronunciation": "নাম",
+          "romanization": "naam",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "तारीख",
           "bangla_pronunciation": "তারীখ",
+          "romanization": "taareekh",
           "separator_after": " "
         },
         {
           "target": "सही",
           "bangla_pronunciation": "সহী",
+          "romanization": "sahee",
           "separator_after": " "
         },
         {
           "target": "जाँचें।",
           "bangla_pronunciation": "জাঁচেং।",
+          "romanization": "jaanchen.",
           "separator_after": ""
         }
       ],
@@ -2551,17 +2956,19 @@
       "target": "बीमा विवरण",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "biimaa vivaran",
+      "romanization": "biimaa vivaran.",
       "bangla_pronunciation": "বীমা ভিভরণ",
       "word_pronunciations": [
         {
           "target": "बीमा",
           "bangla_pronunciation": "বীমা",
+          "romanization": "beemaa",
           "separator_after": " "
         },
         {
           "target": "विवरण",
           "bangla_pronunciation": "ভিভরণ",
+          "romanization": "vivaran",
           "separator_after": ""
         }
       ],
@@ -2570,49 +2977,58 @@
       "source_form": "बीमा विवरण",
       "example_target": "बीमा विवरण और दावा पत्र का रिकॉर्ड रखिए।",
       "example_bangla_pronunciation": "বীমা ভিভরণ ঔর দাভা পত্র কা রিকॉর্ড রখিএ।",
+      "example_romanization": "biimaa vivaran aur daavaa patr kaa rikaord rakhie.",
       "example_word_pronunciations": [
         {
           "target": "बीमा",
           "bangla_pronunciation": "বীমা",
+          "romanization": "beemaa",
           "separator_after": " "
         },
         {
           "target": "विवरण",
           "bangla_pronunciation": "ভিভরণ",
+          "romanization": "vivaran",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "दावा",
           "bangla_pronunciation": "দাভা",
+          "romanization": "daavaa",
           "separator_after": " "
         },
         {
           "target": "पत्र",
           "bangla_pronunciation": "পত্র",
+          "romanization": "patr",
           "separator_after": " "
         },
         {
           "target": "का",
           "bangla_pronunciation": "কা",
+          "romanization": "kaa",
           "separator_after": " "
         },
         {
           "target": "रिकॉर्ड",
           "bangla_pronunciation": "রিকॉর্ড",
+          "romanization": "rikord",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিএ।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "বীমার তথ্য ও দাবির ফর্ম-এর রেকর্ড রাখুন।",
+      "example_meaning_bengali_md": "বীমার তথ্য ও দাবির ফর্মের রেকর্ড রাখুন।",
       "synonyms": []
     },
     {
@@ -2620,17 +3036,19 @@
       "target": "दावा पत्र",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "daavaa patr",
+      "romanization": "daavaa patr.",
       "bangla_pronunciation": "দাভা পত্র",
       "word_pronunciations": [
         {
           "target": "दावा",
           "bangla_pronunciation": "দাভা",
+          "romanization": "daavaa",
           "separator_after": " "
         },
         {
           "target": "पत्र",
           "bangla_pronunciation": "পত্র",
+          "romanization": "patr",
           "separator_after": ""
         }
       ],
@@ -2639,49 +3057,58 @@
       "source_form": "दावा पत्र",
       "example_target": "बीमा विवरण और दावा पत्र का रिकॉर्ड रखिए।",
       "example_bangla_pronunciation": "বীমা ভিভরণ ঔর দাভা পত্র কা রিকॉর্ড রখিএ।",
+      "example_romanization": "biimaa vivaran aur daavaa patr kaa rikaord rakhie.",
       "example_word_pronunciations": [
         {
           "target": "बीमा",
           "bangla_pronunciation": "বীমা",
+          "romanization": "beemaa",
           "separator_after": " "
         },
         {
           "target": "विवरण",
           "bangla_pronunciation": "ভিভরণ",
+          "romanization": "vivaran",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "दावा",
           "bangla_pronunciation": "দাভা",
+          "romanization": "daavaa",
           "separator_after": " "
         },
         {
           "target": "पत्र",
           "bangla_pronunciation": "পত্র",
+          "romanization": "patr",
           "separator_after": " "
         },
         {
           "target": "का",
           "bangla_pronunciation": "কা",
+          "romanization": "kaa",
           "separator_after": " "
         },
         {
           "target": "रिकॉर्ड",
           "bangla_pronunciation": "রিকॉর্ড",
+          "romanization": "rikord",
           "separator_after": " "
         },
         {
           "target": "रखिए।",
           "bangla_pronunciation": "রখিএ।",
+          "romanization": "rakhie.",
           "separator_after": ""
         }
       ],
-      "example_meaning_bengali_md": "বীমার তথ্য ও দাবির ফর্ম-এর রেকর্ড রাখুন।",
+      "example_meaning_bengali_md": "বীমার তথ্য ও দাবির ফর্মের রেকর্ড রাখুন।",
       "synonyms": []
     },
     {
@@ -2689,17 +3116,19 @@
       "target": "स्वीकृति रसीद",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "sviikriti rasiid",
+      "romanization": "sviikriti rasiid.",
       "bangla_pronunciation": "স্ভীকৃতি রসীদ",
       "word_pronunciations": [
         {
           "target": "स्वीकृति",
           "bangla_pronunciation": "স্ভীকৃতি",
+          "romanization": "sveekriti",
           "separator_after": " "
         },
         {
           "target": "रसीद",
           "bangla_pronunciation": "রসীদ",
+          "romanization": "raseed",
           "separator_after": ""
         }
       ],
@@ -2708,45 +3137,54 @@
       "source_form": "स्वीकृति रसीद",
       "example_target": "स्वीकृति रसीद और चिकित्सक समय को फिर देखिए।",
       "example_bangla_pronunciation": "স্ভীকৃতি রসীদ ঔর চিকিত্সক সময কো ফির দেখিএ।",
+      "example_romanization": "sviikriti rasiid aur chikitsak samay ko phir dekhie.",
       "example_word_pronunciations": [
         {
           "target": "स्वीकृति",
           "bangla_pronunciation": "স্ভীকৃতি",
+          "romanization": "sveekriti",
           "separator_after": " "
         },
         {
           "target": "रसीद",
           "bangla_pronunciation": "রসীদ",
+          "romanization": "raseed",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "चिकित्सक",
           "bangla_pronunciation": "চিকিত্সক",
+          "romanization": "chikitsak",
           "separator_after": " "
         },
         {
           "target": "समय",
           "bangla_pronunciation": "সময",
+          "romanization": "samay",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "फिर",
           "bangla_pronunciation": "ফির",
+          "romanization": "phir",
           "separator_after": " "
         },
         {
           "target": "देखिए।",
           "bangla_pronunciation": "দেখিএ।",
+          "romanization": "dekhie.",
           "separator_after": ""
         }
       ],
@@ -2758,17 +3196,19 @@
       "target": "चिकित्सक समय",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "chikitsak samay",
+      "romanization": "chikitsak samay.",
       "bangla_pronunciation": "চিকিত্সক সময",
       "word_pronunciations": [
         {
           "target": "चिकित्सक",
           "bangla_pronunciation": "চিকিত্সক",
+          "romanization": "chikitsak",
           "separator_after": " "
         },
         {
           "target": "समय",
           "bangla_pronunciation": "সময",
+          "romanization": "samay",
           "separator_after": ""
         }
       ],
@@ -2777,45 +3217,54 @@
       "source_form": "चिकित्सक समय",
       "example_target": "स्वीकृति रसीद और चिकित्सक समय को फिर देखिए।",
       "example_bangla_pronunciation": "স্ভীকৃতি রসীদ ঔর চিকিত্সক সময কো ফির দেখিএ।",
+      "example_romanization": "sviikriti rasiid aur chikitsak samay ko phir dekhie.",
       "example_word_pronunciations": [
         {
           "target": "स्वीकृति",
           "bangla_pronunciation": "স্ভীকৃতি",
+          "romanization": "sveekriti",
           "separator_after": " "
         },
         {
           "target": "रसीद",
           "bangla_pronunciation": "রসীদ",
+          "romanization": "raseed",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "ঔর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "चिकित्सक",
           "bangla_pronunciation": "চিকিত্সক",
+          "romanization": "chikitsak",
           "separator_after": " "
         },
         {
           "target": "समय",
           "bangla_pronunciation": "সময",
+          "romanization": "samay",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "फिर",
           "bangla_pronunciation": "ফির",
+          "romanization": "phir",
           "separator_after": " "
         },
         {
           "target": "देखिए।",
           "bangla_pronunciation": "দেখিএ।",
+          "romanization": "dekhie.",
           "separator_after": ""
         }
       ],
@@ -2827,17 +3276,19 @@
       "target": "यात्रा अंतराल",
       "type": "noun phrase",
       "category": "word",
-      "romanization": "yaatraa antaraal",
+      "romanization": "yaatraa antaraal.",
       "bangla_pronunciation": "যাত্রা অংতরাল",
       "word_pronunciations": [
         {
           "target": "यात्रा",
           "bangla_pronunciation": "যাত্রা",
+          "romanization": "yaatra",
           "separator_after": " "
         },
         {
           "target": "अंतराल",
           "bangla_pronunciation": "অংতরাল",
+          "romanization": "antraal",
           "separator_after": ""
         }
       ],
@@ -2846,30 +3297,36 @@
       "source_form": "यात्रा अंतराल",
       "example_target": "यात्रा अंतराल की पुष्टि कीजिए।",
       "example_bangla_pronunciation": "যাত্রা অংতরাল কী পুষ্টি কীজিএ।",
+      "example_romanization": "yaatraa antaraal kii pushti kiijie.",
       "example_word_pronunciations": [
         {
           "target": "यात्रा",
           "bangla_pronunciation": "যাত্রা",
+          "romanization": "yaatra",
           "separator_after": " "
         },
         {
           "target": "अंतराल",
           "bangla_pronunciation": "অংতরাল",
+          "romanization": "antraal",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "पुष्टि",
           "bangla_pronunciation": "পুষ্টি",
+          "romanization": "pushti",
           "separator_after": " "
         },
         {
           "target": "कीजिए।",
           "bangla_pronunciation": "কীজিএ।",
+          "romanization": "keejie.",
           "separator_after": ""
         }
       ],
@@ -2881,27 +3338,31 @@
       "target": "अगली मुलाकात लिखकर रखें",
       "type": "expression",
       "category": "expression",
-      "romanization": "agalii mulaakaat likhakar rakhen",
+      "romanization": "agalii mulaakaat likhakar rakhen.",
       "bangla_pronunciation": "অগলী মুলাকাত লিখকর রখেং",
       "word_pronunciations": [
         {
           "target": "अगली",
           "bangla_pronunciation": "অগলী",
+          "romanization": "agalee",
           "separator_after": " "
         },
         {
           "target": "मुलाकात",
           "bangla_pronunciation": "মুলাকাত",
+          "romanization": "mulaakaat",
           "separator_after": " "
         },
         {
           "target": "लिखकर",
           "bangla_pronunciation": "লিখকর",
+          "romanization": "likhakar",
           "separator_after": " "
         },
         {
           "target": "रखें",
           "bangla_pronunciation": "রখেং",
+          "romanization": "rakhen",
           "separator_after": ""
         }
       ],
@@ -2910,25 +3371,30 @@
       "source_form": "अगली मुलाकात लिखकर रखें",
       "example_target": "अगली मुलाकात लिखकर रखें।",
       "example_bangla_pronunciation": "অগলী মুলাকাত লিখকর রখেং।",
+      "example_romanization": "agalii mulaakaat likhakar rakhen.",
       "example_word_pronunciations": [
         {
           "target": "अगली",
           "bangla_pronunciation": "অগলী",
+          "romanization": "agalee",
           "separator_after": " "
         },
         {
           "target": "मुलाकात",
           "bangla_pronunciation": "মুলাকাত",
+          "romanization": "mulaakaat",
           "separator_after": " "
         },
         {
           "target": "लिखकर",
           "bangla_pronunciation": "লিখকর",
+          "romanization": "likhakar",
           "separator_after": " "
         },
         {
           "target": "रखें।",
           "bangla_pronunciation": "রখেং।",
+          "romanization": "rakhen.",
           "separator_after": ""
         }
       ],
@@ -2939,140 +3405,158 @@
   "bridge_reading": {
     "mode": "article",
     "title_bengali": "ক্লিনিক ভিজিট ও কাগজপত্র",
-    "scene_summary": "ক্লিনিকের অ্যাপয়েন্টমেন্ট ও নথি নিয়ে একটি ছোট ব্যবহারিক নোট।",
+    "scene_summary": "ক্লিনিকে চিকিৎসা সেবা নেওয়া ও প্রেসক্রিপশন সংরক্ষণ নিয়ে দরকারি তথ্য।",
     "segments": [
       {
         "kind": "bangla",
-        "text": "ক্লিনিকের অ্যাপয়েন্টমেন্ট ও নথি নিয়ে কথা বলতে গিয়ে আমরা "
+        "text": "ডাক্তারের চেম্বারে যাওয়ার আগে নির্ধারিত "
       },
       {
         "kind": "target",
         "target": "नियुक्ति समय",
         "bangla_pronunciation": "নিযুক্তি সময",
+        "romanization": "niyukti samay.",
         "word_pronunciations": [
           {
             "target": "नियुक्ति",
             "bangla_pronunciation": "নিযুক্তি",
+            "romanization": "niyukti",
             "separator_after": " "
           },
           {
             "target": "समय",
             "bangla_pronunciation": "সময",
+            "romanization": "samay",
             "separator_after": ""
           }
         ]
       },
       {
         "kind": "bangla",
-        "text": " , "
+        "text": " জেনে নেওয়া দরকার। রেজিস্ট্রেশন কাউন্টারে নিজের "
       },
       {
         "kind": "target",
         "target": "पहचान पत्र",
         "bangla_pronunciation": "পহচান পত্র",
+        "romanization": "pahchaan patr.",
         "word_pronunciations": [
           {
             "target": "पहचान",
             "bangla_pronunciation": "পহচান",
+            "romanization": "pahchaan",
             "separator_after": " "
           },
           {
             "target": "पत्र",
             "bangla_pronunciation": "পত্র",
+            "romanization": "patr",
             "separator_after": ""
           }
         ]
       },
       {
         "kind": "bangla",
-        "text": " , "
+        "text": " দেখাতে হয় এবং সঠিক "
       },
       {
         "kind": "target",
         "target": "चिकित्सालय पता",
-        "bangla_pronunciation": "চিকিত্সালয পতা",
+        "bangla_pronunciation": "চিকিৎসালয় পতা",
+        "romanization": "chikitsaalay pataa.",
         "word_pronunciations": [
           {
             "target": "चिकित्सालय",
-            "bangla_pronunciation": "চিকিত্সালয",
+            "bangla_pronunciation": "চিকিৎসালয়",
+            "romanization": "chikitsaalay",
             "separator_after": " "
           },
           {
             "target": "पता",
             "bangla_pronunciation": "পতা",
+            "romanization": "pataa",
             "separator_after": ""
           }
         ]
       },
       {
         "kind": "bangla",
-        "text": " , "
+        "text": " জেনে রাখা জরুরি। আগের প্রেসক্রিপশন ও "
       },
       {
         "kind": "target",
         "target": "दवा सूची",
-        "bangla_pronunciation": "দভা সূচী",
+        "bangla_pronunciation": "দবা সূচী",
+        "romanization": "davaa soochee.",
         "word_pronunciations": [
           {
             "target": "दवा",
-            "bangla_pronunciation": "দভা",
+            "bangla_pronunciation": "দবা",
+            "romanization": "davaa",
             "separator_after": " "
           },
           {
             "target": "सूची",
             "bangla_pronunciation": "সূচী",
+            "romanization": "soochee",
             "separator_after": ""
           }
         ]
       },
       {
         "kind": "bangla",
-        "text": " , "
+        "text": " সাথে রাখলে চিকিৎসকের সুবিধা হয়। রোগী ডাকার জন্য "
       },
       {
         "kind": "target",
         "target": "पर्ची संख्या",
         "bangla_pronunciation": "পর্চী সংখ্যা",
+        "romanization": "parchee sankhyaa.",
         "word_pronunciations": [
           {
             "target": "पर्ची",
             "bangla_pronunciation": "পর্চী",
+            "romanization": "parchee",
             "separator_after": " "
           },
           {
             "target": "संख्या",
             "bangla_pronunciation": "সংখ্যা",
+            "romanization": "sankhyaa",
             "separator_after": ""
           }
         ]
       },
       {
         "kind": "bangla",
-        "text": " এবং "
+        "text": " ঘোষণা করা হয় এবং খরচের দাবির জন্য "
       },
       {
         "kind": "target",
         "target": "बीमा विवरण",
-        "bangla_pronunciation": "বীমা ভিভরণ",
+        "bangla_pronunciation": "বীমা বিবরণ",
+        "romanization": "beemaa vivaran.",
         "word_pronunciations": [
           {
             "target": "बीमा",
             "bangla_pronunciation": "বীমা",
+            "romanization": "beemaa",
             "separator_after": " "
           },
           {
             "target": "विवरण",
-            "bangla_pronunciation": "ভিভরণ",
+            "bangla_pronunciation": "বিবরণ",
+            "romanization": "vivaran",
             "separator_after": ""
           }
         ]
       },
       {
         "kind": "bangla",
-        "text": "—এই বিষয়গুলো একসঙ্গে দেখে কাজ গুছিয়ে নেওয়া যায়।"
+        "text": " জমা দিতে হয়।"
       }
     ],
-    "text_md": "ক্লিনিকের অ্যাপয়েন্টমেন্ট ও নথি নিয়ে কথা বলতে গিয়ে আমরা **नियुक्ति** (নিযুক্তি) **समय** (সময) , **पहचान** (পহচান) **पत्र** (পত্র) , **चिकित्सालय** (চিকিত্সালয) **पता** (পতা) , **दवा** (দভা) **सूची** (সূচী) , **पर्ची** (পর্চী) **संख्या** (সংখ্যা) এবং **बीमा** (বীমা) **विवरण** (ভিভরণ)—এই বিষয়গুলো একসঙ্গে দেখে কাজ গুছিয়ে নেওয়া যায়।"
+    "text_md": "ডাক্তারের চেম্বারে যাওয়ার আগে নির্ধারিত **नियुक्ति** (নিযুক্তি, niyukti) **समय** (সময, samay) জেনে নেওয়া দরকার। রেজিস্ট্রেশন কাউন্টারে নিজের **पहचान** (পহচান, pahchaan) **पत्र** (পত্র, patr) দেখাতে হয় এবং সঠিক **चिकित्सालय** (চিকিৎসালয়, chikitsaalay) **पता** (পতা, pataa) জেনে রাখা জরুরি। আগের প্রেসক্রিপশন ও **दवा** (দবা, davaa) **सूची** (সূচী, soochee) সাথে রাখলে চিকিৎসকের সুবিধা হয়। রোগী ডাকার জন্য **पर्ची** (পর্চী, parchee) **संख्या** (সংখ্যা, sankhyaa) ঘোষণা করা হয় এবং খরচের দাবির জন্য **बीमा** (বীমা, beemaa) **विवरण** (বিবরণ, vivaran) জমা দিতে হয়।"
   },
   "target_reading": {
     "mode": "article",
@@ -3082,30 +3566,36 @@
       {
         "target": "समय से थोड़ा पहले पहुँचें।",
         "bangla_pronunciation": "সময সে থোডা পহলে পহুঁচেং।",
+        "romanization": "samay se thodaa pahale pahunchen.",
         "word_pronunciations": [
           {
             "target": "समय",
             "bangla_pronunciation": "সময",
+            "romanization": "samay",
             "separator_after": " "
           },
           {
             "target": "से",
             "bangla_pronunciation": "সে",
+            "romanization": "se",
             "separator_after": " "
           },
           {
             "target": "थोड़ा",
             "bangla_pronunciation": "থোডা",
+            "romanization": "thoda",
             "separator_after": " "
           },
           {
             "target": "पहले",
             "bangla_pronunciation": "পহলে",
+            "romanization": "pahle",
             "separator_after": " "
           },
           {
             "target": "पहुँचें।",
             "bangla_pronunciation": "পহুঁচেং।",
+            "romanization": "pahunchen.",
             "separator_after": ""
           }
         ]
@@ -3113,30 +3603,36 @@
       {
         "target": "अपनी रिपोर्ट साथ लेकर आएँ।",
         "bangla_pronunciation": "অপনী রিপোর্ট সাথ লেকর আএঁ।",
+        "romanization": "apanii riport saath lekar aaen.",
         "word_pronunciations": [
           {
             "target": "अपनी",
             "bangla_pronunciation": "অপনী",
+            "romanization": "apanee",
             "separator_after": " "
           },
           {
             "target": "रिपोर्ट",
             "bangla_pronunciation": "রিপোর্ট",
+            "romanization": "riport",
             "separator_after": " "
           },
           {
             "target": "साथ",
             "bangla_pronunciation": "সাথ",
+            "romanization": "saath",
             "separator_after": " "
           },
           {
             "target": "लेकर",
             "bangla_pronunciation": "লেকর",
+            "romanization": "lekar",
             "separator_after": " "
           },
           {
             "target": "आएँ।",
             "bangla_pronunciation": "আএঁ।",
+            "romanization": "aaen.",
             "separator_after": ""
           }
         ]
@@ -3144,35 +3640,42 @@
       {
         "target": "समझ न आए तो फिर पूछें।",
         "bangla_pronunciation": "সমঝ ন আএ তো ফির পূছেং।",
+        "romanization": "samajh n aae to phir puuchhen.",
         "word_pronunciations": [
           {
             "target": "समझ",
             "bangla_pronunciation": "সমঝ",
+            "romanization": "samajh",
             "separator_after": " "
           },
           {
             "target": "न",
             "bangla_pronunciation": "ন",
+            "romanization": "na",
             "separator_after": " "
           },
           {
             "target": "आए",
             "bangla_pronunciation": "আএ",
+            "romanization": "aae",
             "separator_after": " "
           },
           {
             "target": "तो",
             "bangla_pronunciation": "তো",
+            "romanization": "to",
             "separator_after": " "
           },
           {
             "target": "फिर",
             "bangla_pronunciation": "ফির",
+            "romanization": "phir",
             "separator_after": " "
           },
           {
             "target": "पूछें।",
             "bangla_pronunciation": "পূছেং।",
+            "romanization": "poochhen.",
             "separator_after": ""
           }
         ]
@@ -3180,30 +3683,36 @@
       {
         "target": "नाम और तारीख सही जाँचें।",
         "bangla_pronunciation": "নাম ঔর তারীখ সহী জাঁচেং।",
+        "romanization": "naam aur taareekh sahii jaanchen.",
         "word_pronunciations": [
           {
             "target": "नाम",
             "bangla_pronunciation": "নাম",
+            "romanization": "naam",
             "separator_after": " "
           },
           {
             "target": "और",
             "bangla_pronunciation": "ঔর",
+            "romanization": "aur",
             "separator_after": " "
           },
           {
             "target": "तारीख",
             "bangla_pronunciation": "তারীখ",
+            "romanization": "taareekh",
             "separator_after": " "
           },
           {
             "target": "सही",
             "bangla_pronunciation": "সহী",
+            "romanization": "sahee",
             "separator_after": " "
           },
           {
             "target": "जाँचें।",
             "bangla_pronunciation": "জাঁচেং।",
+            "romanization": "jaanchen.",
             "separator_after": ""
           }
         ]
@@ -3211,31 +3720,37 @@
       {
         "target": "अगली मुलाकात लिखकर रखें।",
         "bangla_pronunciation": "অগলী মুলাকাত লিখকর রখেং।",
+        "romanization": "agalii mulaakaat likhakar rakhen.",
         "word_pronunciations": [
           {
             "target": "अगली",
             "bangla_pronunciation": "অগলী",
+            "romanization": "agalee",
             "separator_after": " "
           },
           {
             "target": "मुलाकात",
             "bangla_pronunciation": "মুলাকাত",
+            "romanization": "mulaakaat",
             "separator_after": " "
           },
           {
             "target": "लिखकर",
             "bangla_pronunciation": "লিখকর",
+            "romanization": "likhakar",
             "separator_after": " "
           },
           {
             "target": "रखें।",
             "bangla_pronunciation": "রখেং।",
+            "romanization": "rakhen.",
             "separator_after": ""
           }
         ]
       }
     ],
     "bangla_pronunciation": "সময সে থোডা পহলে পহুঁচেং। অপনী রিপোর্ট সাথ লেকর আএঁ। সমঝ ন আএ তো ফির পূছেং। নাম ঔর তারীখ সহী জাঁচেং। অগলী মুলাকাত লিখকর রখেং।",
+    "romanization": "samay se thodaa pahale pahunchen. apanii riport saath lekar aaen. samajh n aae to phir puuchhen. naam aur taareekh sahii jaanchen. agalii mulaakaat likhakar rakhen.",
     "meaning_bengali_md": "সময়ের একটু আগে পৌঁছান। নিজের রিপোর্ট সঙ্গে আনুন। বোঝা না গেলে আবার জিজ্ঞেস করুন। নাম ও তারিখ ঠিক আছে কি না যাচাই করুন। পরবর্তী সাক্ষাতের সময় লিখে রাখুন।"
   },
   "script_practice": [
@@ -3244,6 +3759,7 @@
       "mode": "review",
       "target": "क्ष",
       "bangla_pronunciation": "ক্ষ",
+      "romanization": "ksha",
       "explanation_bengali_md": "ক্ষ যুক্তধ্বনিটি চিনুন; শব্দে দেখলে আলাদা করে উচ্চারণ-সহ পড়ুন।",
       "practice_bengali_md": "ক্ষ দেখে উচ্চারণটি বলুন।"
     },
@@ -3252,6 +3768,7 @@
       "mode": "review",
       "target": "त्र",
       "bangla_pronunciation": "ত্র",
+      "romanization": "tra",
       "explanation_bengali_md": "ত্র যুক্তধ্বনিটি পরিচিত রাখুন এবং শব্দের মধ্যে চিনুন।",
       "practice_bengali_md": "ত্র দেখে উচ্চারণটি বলুন।"
     },
@@ -3260,6 +3777,7 @@
       "mode": "review",
       "target": "ज्ञ",
       "bangla_pronunciation": "জ্ঞ",
+      "romanization": "jnya",
       "explanation_bengali_md": "জ্ঞ যুক্তরূপটি শব্দভেদে উচ্চারণে বদলাতে পারে; এখানে চেনার অনুশীলন করুন।",
       "practice_bengali_md": "জ্ঞ দেখে রূপটি চিনুন।"
     },
@@ -3268,6 +3786,7 @@
       "mode": "review",
       "target": "श्र",
       "bangla_pronunciation": "শ্র",
+      "romanization": "shra",
       "explanation_bengali_md": "শ্র যুক্তরূপটি পড়ার সময় শ্+র ধ্বনির কাছাকাছি শুনুন।",
       "practice_bengali_md": "শ্র দেখে উচ্চারণটি বলুন।"
     },
@@ -3276,6 +3795,7 @@
       "mode": "review",
       "target": "ं",
       "bangla_pronunciation": "ং",
+      "romanization": "n",
       "explanation_bengali_md": "অনুস্বার নাসিক্য ধ্বনি নির্দেশ করে; পাশের ধ্বনি অনুযায়ী উচ্চারণ বদলাতে পারে।",
       "practice_bengali_md": "ং-ধ্বনির ইঙ্গিতটি চিনুন।"
     }
@@ -3286,35 +3806,42 @@
       "prompt_bengali_md": "একটি গুরুত্বপূর্ণ বিষয় বলুন।",
       "model_target": "पहचान पत्र की जाँच जरूरी है।",
       "model_bangla_pronunciation": "পহচান পত্র কী জাঁচ জরূরী হৈ।",
+      "model_romanization": "pahachaan patr kii jaanch jaruurii hai.",
       "model_word_pronunciations": [
         {
           "target": "पहचान",
           "bangla_pronunciation": "পহচান",
+          "romanization": "phcaan",
           "separator_after": " "
         },
         {
           "target": "पत्र",
           "bangla_pronunciation": "পত্র",
+          "romanization": "patr",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "जाँच",
           "bangla_pronunciation": "জাঁচ",
+          "romanization": "jaanch",
           "separator_after": " "
         },
         {
           "target": "जरूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হৈ।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -3324,30 +3851,36 @@
       "prompt_bengali_md": "একটি সরাসরি নির্দেশ দিন।",
       "model_target": "समय से थोड़ा पहले पहुँचें।",
       "model_bangla_pronunciation": "সময সে থোডা পহলে পহুঁচেং।",
+      "model_romanization": "samay se thodaa pahale pahunchen.",
       "model_word_pronunciations": [
         {
           "target": "समय",
           "bangla_pronunciation": "সময",
+          "romanization": "samay",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "थोड़ा",
           "bangla_pronunciation": "থোডা",
+          "romanization": "thoda",
           "separator_after": " "
         },
         {
           "target": "पहले",
           "bangla_pronunciation": "পহলে",
+          "romanization": "pahle",
           "separator_after": " "
         },
         {
           "target": "पहुँचें।",
           "bangla_pronunciation": "পহুঁচেং।",
+          "romanization": "pahunchen.",
           "separator_after": ""
         }
       ],
@@ -3357,63 +3890,75 @@
       "prompt_bengali_md": "যে তথ্যটি খেয়াল রাখতে হবে সেটি বলুন।",
       "model_target": "पुरानी फाइल पर ध्यान दीजिए।",
       "model_bangla_pronunciation": "পুরানী ফাইল পর ধ্যান দীজিএ।",
+      "model_romanization": "puraanii phaail par dhyaan diijie.",
       "model_word_pronunciations": [
         {
           "target": "पुरानी",
           "bangla_pronunciation": "পুরানী",
+          "romanization": "puraanee",
           "separator_after": " "
         },
         {
           "target": "फाइल",
           "bangla_pronunciation": "ফাইল",
+          "romanization": "phaail",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दीजिए।",
           "bangla_pronunciation": "দীজিএ।",
+          "romanization": "deejie.",
           "separator_after": ""
         }
       ],
-      "model_meaning_bengali_md": "পুরনো ফাইল-এর দিকে মনোযোগ দিন।"
+      "model_meaning_bengali_md": "পুরনো ফাইলের দিকে মনোযোগ দিন।"
     },
     {
       "prompt_bengali_md": "আরেকটি ব্যবহারিক নির্দেশ বলুন।",
       "model_target": "अपनी रिपोर्ट साथ लेकर आएँ।",
       "model_bangla_pronunciation": "অপনী রিপোর্ট সাথ লেকর আএঁ।",
+      "model_romanization": "apanii riport saath lekar aaen.",
       "model_word_pronunciations": [
         {
           "target": "अपनी",
           "bangla_pronunciation": "অপনী",
+          "romanization": "apanee",
           "separator_after": " "
         },
         {
           "target": "रिपोर्ट",
           "bangla_pronunciation": "রিপোর্ট",
+          "romanization": "riport",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "लेकर",
           "bangla_pronunciation": "লেকর",
+          "romanization": "lekar",
           "separator_after": " "
         },
         {
           "target": "आएँ।",
           "bangla_pronunciation": "আএঁ।",
+          "romanization": "aaen.",
           "separator_after": ""
         }
       ],
@@ -3423,30 +3968,36 @@
       "prompt_bengali_md": "কোন বিষয়টি পরিষ্কার করে লিখবেন তা বলুন।",
       "model_target": "अगली तारीख को साफ़ लिखिए।",
       "model_bangla_pronunciation": "অগলী তারীখ কো সাফ লিখিএ।",
+      "model_romanization": "agalii taareekh ko saaf likhie.",
       "model_word_pronunciations": [
         {
           "target": "अगली",
           "bangla_pronunciation": "অগলী",
+          "romanization": "agalee",
           "separator_after": " "
         },
         {
           "target": "तारीख",
           "bangla_pronunciation": "তারীখ",
+          "romanization": "taareekh",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "साफ़",
           "bangla_pronunciation": "সাফ",
+          "romanization": "saaf",
           "separator_after": " "
         },
         {
           "target": "लिखिए।",
           "bangla_pronunciation": "লিখিএ।",
+          "romanization": "likhie.",
           "separator_after": ""
         }
       ],
@@ -3456,35 +4007,42 @@
       "prompt_bengali_md": "শেষে একটি সতর্কতামূলক নির্দেশ বলুন।",
       "model_target": "समझ न आए तो फिर पूछें।",
       "model_bangla_pronunciation": "সমঝ ন আএ তো ফির পূছেং।",
+      "model_romanization": "samajh n aae to phir puuchhen.",
       "model_word_pronunciations": [
         {
           "target": "समझ",
           "bangla_pronunciation": "সমঝ",
+          "romanization": "samajh",
           "separator_after": " "
         },
         {
           "target": "न",
           "bangla_pronunciation": "ন",
+          "romanization": "na",
           "separator_after": " "
         },
         {
           "target": "आए",
           "bangla_pronunciation": "আএ",
+          "romanization": "aae",
           "separator_after": " "
         },
         {
           "target": "तो",
           "bangla_pronunciation": "তো",
+          "romanization": "to",
           "separator_after": " "
         },
         {
           "target": "फिर",
           "bangla_pronunciation": "ফির",
+          "romanization": "phir",
           "separator_after": " "
         },
         {
           "target": "पूछें।",
           "bangla_pronunciation": "পূছেং।",
+          "romanization": "poochhen.",
           "separator_after": ""
         }
       ],

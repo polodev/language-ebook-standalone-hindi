@@ -1,0 +1,2972 @@
+{
+  "chapter_id": "ch022",
+  "status": "reviewed",
+  "title_target": "डाकघर और पार्सल",
+  "title_bangla_pronunciation": "ডাকঘর অউর পার্সেল",
+  "title_romanization": "daakghar aur paarsal",
+  "title_word_pronunciations": [
+    {
+      "target": "डाकघर",
+      "bangla_pronunciation": "ডাকঘর",
+      "romanization": "daakghar",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "অউর",
+      "romanization": "aur",
+      "separator_after": " "
+    },
+    {
+      "target": "पार्सल",
+      "bangla_pronunciation": "পার্সেল",
+      "romanization": "paarsal",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "ডাকঘর ও পার্সেল",
+  "goal_bengali_md": "ডাকঘরে চিঠি ও পার্সেল পাঠানো, ওজন মাপা, ডাকটিকিট লাগানো ও রসিদ নেওয়ার সহজ ভাষা ব্যবহার করা।",
+  "sentences": [
+    {
+      "id": "ch022_s01",
+      "target": "यह बड़ा डाकघर है।",
+      "romanization": "yah baraa daakghar hai.",
+      "bangla_pronunciation": "যহ বড়া ডাকঘর হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "बड़ा",
+          "bangla_pronunciation": "বড়া",
+          "romanization": "baraa",
+          "separator_after": " "
+        },
+        {
+          "target": "डाकघर",
+          "bangla_pronunciation": "ডাকঘর",
+          "romanization": "daakghar",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এটি বড় ডাকঘর।"
+    },
+    {
+      "id": "ch022_s02",
+      "target": "मेरा पत्र यहाँ है।",
+      "romanization": "mera patra yahaan hai.",
+      "bangla_pronunciation": "মেরা পত্র যহাঁ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "romanization": "mera",
+          "separator_after": " "
+        },
+        {
+          "target": "पत्र",
+          "bangla_pronunciation": "পত্র",
+          "romanization": "patra",
+          "separator_after": " "
+        },
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমার চিঠি এখানে।"
+    },
+    {
+      "id": "ch022_s03",
+      "target": "यह पार्सल बहुत भारी है।",
+      "romanization": "yah paarsal bahut bhaarii hai.",
+      "bangla_pronunciation": "যহ পার্সেল বহুত ভারী হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "पार्सल",
+          "bangla_pronunciation": "পার্সেল",
+          "romanization": "paarsal",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "romanization": "bahut",
+          "separator_after": " "
+        },
+        {
+          "target": "भारी",
+          "bangla_pronunciation": "ভারী",
+          "romanization": "bhaarii",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই পার্সেলটি খুব ভারী।"
+    },
+    {
+      "id": "ch022_s04",
+      "target": "डाकिया चिट्ठी लाया है।",
+      "romanization": "daakiyaa chitthii laayaa hai.",
+      "bangla_pronunciation": "ডাকিয়া চিট্ঠী লায়া হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "डाकिया",
+          "bangla_pronunciation": "ডাকিয়া",
+          "romanization": "daakiyaa",
+          "separator_after": " "
+        },
+        {
+          "target": "चिट्ठी",
+          "bangla_pronunciation": "চিট্ঠী",
+          "romanization": "chitthii",
+          "separator_after": " "
+        },
+        {
+          "target": "लाया",
+          "bangla_pronunciation": "লায়া",
+          "romanization": "laayaa",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডাকপিয়ন চিঠি এনেছে।"
+    },
+    {
+      "id": "ch022_s05",
+      "target": "मुझे पार्सल भेजना है।",
+      "romanization": "mujhe paarsal bhejnaa hai.",
+      "bangla_pronunciation": "মুঝে পার্সেল ভেজনা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "पार्सल",
+          "bangla_pronunciation": "পার্সেল",
+          "romanization": "paarsal",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजना",
+          "bangla_pronunciation": "ভেজনা",
+          "romanization": "bhejnaa",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমাকে পার্সেল পাঠাতে হবে।"
+    },
+    {
+      "id": "ch022_s06",
+      "target": "आज सुबह डाक आई।",
+      "romanization": "aaj subah daak aaii.",
+      "bangla_pronunciation": "আজ সুবহ ডাক আই।",
+      "word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
+          "separator_after": " "
+        },
+        {
+          "target": "सुबह",
+          "bangla_pronunciation": "সুবহ",
+          "romanization": "subah",
+          "separator_after": " "
+        },
+        {
+          "target": "डाक",
+          "bangla_pronunciation": "ডাক",
+          "romanization": "daak",
+          "separator_after": " "
+        },
+        {
+          "target": "आई।",
+          "bangla_pronunciation": "আই।",
+          "romanization": "aaii.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আজ সকালে ডাক এসেছে।"
+    },
+    {
+      "id": "ch022_s07",
+      "target": "यहाँ डाक टिकट लगाइए।",
+      "romanization": "yahaan daak tikat lagaaie.",
+      "bangla_pronunciation": "যহাঁ ডাক টিকট লগাইএ।",
+      "word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
+          "separator_after": " "
+        },
+        {
+          "target": "डाक",
+          "bangla_pronunciation": "ডাক",
+          "romanization": "daak",
+          "separator_after": " "
+        },
+        {
+          "target": "टिकट",
+          "bangla_pronunciation": "টিকট",
+          "romanization": "tikat",
+          "separator_after": " "
+        },
+        {
+          "target": "लगाइए।",
+          "bangla_pronunciation": "লগাইএ।",
+          "romanization": "lagaaie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এখানে ডাকটিকিট লাগান।"
+    },
+    {
+      "id": "ch022_s08",
+      "target": "यह लिफ़ाफ़ा साफ़ है।",
+      "romanization": "yah lifaafaa saaf hai.",
+      "bangla_pronunciation": "যহ লিফাফা সাফ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "लिफ़ाफ़ा",
+          "bangla_pronunciation": "লিফাফা",
+          "romanization": "lifaafaa",
+          "separator_after": " "
+        },
+        {
+          "target": "साफ़",
+          "bangla_pronunciation": "সাফ",
+          "romanization": "saaf",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই খামটি পরিষ্কার।"
+    },
+    {
+      "id": "ch022_s09",
+      "target": "नया पता और पिनकोड लिखिए।",
+      "romanization": "nayaa pataa aur pincode likhie.",
+      "bangla_pronunciation": "নয়া পতা অউর পিনকোড লিখিএ।",
+      "word_pronunciations": [
+        {
+          "target": "नया",
+          "bangla_pronunciation": "নয়া",
+          "romanization": "nayaa",
+          "separator_after": " "
+        },
+        {
+          "target": "पता",
+          "bangla_pronunciation": "পতা",
+          "romanization": "pataa",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "पिनकोड",
+          "bangla_pronunciation": "পিনকোড",
+          "romanization": "pincode",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিএ।",
+          "romanization": "likhie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নতুন ঠিকানা ও পিনকোড লিখুন।"
+    },
+    {
+      "id": "ch022_s10",
+      "target": "पार्सल का वजन देखिए।",
+      "romanization": "paarsal kaa vajan dekhie.",
+      "bangla_pronunciation": "পার্সেল কা বজন দেখিএ।",
+      "word_pronunciations": [
+        {
+          "target": "पार्सल",
+          "bangla_pronunciation": "পার্সেল",
+          "romanization": "paarsal",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "romanization": "kaa",
+          "separator_after": " "
+        },
+        {
+          "target": "वजन",
+          "bangla_pronunciation": "বজন",
+          "romanization": "vajan",
+          "separator_after": " "
+        },
+        {
+          "target": "देखिए।",
+          "bangla_pronunciation": "দেখিএ।",
+          "romanization": "dekhie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পার্সেলের ওজন দেখুন।"
+    },
+    {
+      "id": "ch022_s11",
+      "target": "यह बॉक्स तोलना है।",
+      "romanization": "yah box tolnaa hai.",
+      "bangla_pronunciation": "যহ বক্স তোলনা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "बॉक्स",
+          "bangla_pronunciation": "বক্স",
+          "romanization": "box",
+          "separator_after": " "
+        },
+        {
+          "target": "तोलना",
+          "bangla_pronunciation": "তোলনা",
+          "romanization": "tolnaa",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই বাক্সটি ওজন করতে হবে।"
+    },
+    {
+      "id": "ch022_s12",
+      "target": "मुझे रसीद दीजिए।",
+      "romanization": "mujhe raseed deejie.",
+      "bangla_pronunciation": "মুঝে রসীদ দিজিএ।",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসীদ",
+          "romanization": "raseed",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিএ।",
+          "romanization": "deejie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমাকে রসিদ দিন।"
+    },
+    {
+      "id": "ch022_s13",
+      "target": "इस पर मोहर लगाइए।",
+      "romanization": "is par mohar lagaaie.",
+      "bangla_pronunciation": "ইস পর মোহর লগাইএ।",
+      "word_pronunciations": [
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "romanization": "is",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "romanization": "par",
+          "separator_after": " "
+        },
+        {
+          "target": "मोहर",
+          "bangla_pronunciation": "মোহর",
+          "romanization": "mohar",
+          "separator_after": " "
+        },
+        {
+          "target": "लगाइए।",
+          "bangla_pronunciation": "লগাইএ।",
+          "romanization": "lagaaie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এতে সিলমোহর দিন।"
+    },
+    {
+      "id": "ch022_s14",
+      "target": "पत्र डाकपेटी में डालिए।",
+      "romanization": "patra daakpetee men daalie.",
+      "bangla_pronunciation": "পত্র ডাকপেটী মেঁ ডালিএ।",
+      "word_pronunciations": [
+        {
+          "target": "पत्र",
+          "bangla_pronunciation": "পত্র",
+          "romanization": "patra",
+          "separator_after": " "
+        },
+        {
+          "target": "डाकपेटी",
+          "bangla_pronunciation": "ডাকপেটী",
+          "romanization": "daakpetee",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "डालिए।",
+          "bangla_pronunciation": "ডালিএ।",
+          "romanization": "daalie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "চিঠি ডাকবাক্সে ফেলুন।"
+    },
+    {
+      "id": "ch022_s15",
+      "target": "डाक कल पहुँचना है।",
+      "romanization": "daak kal pahunchnaa hai.",
+      "bangla_pronunciation": "ডাক কল পহুঁচনা হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "डाक",
+          "bangla_pronunciation": "ডাক",
+          "romanization": "daak",
+          "separator_after": " "
+        },
+        {
+          "target": "कल",
+          "bangla_pronunciation": "কল",
+          "romanization": "kal",
+          "separator_after": " "
+        },
+        {
+          "target": "पहुँचना",
+          "bangla_pronunciation": "পহুঁচনা",
+          "romanization": "pahunchnaa",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডাক কাল পৌঁছাতে হবে।"
+    },
+    {
+      "id": "ch022_s16",
+      "target": "स्पीड पोस्ट का वितरण चालू है।",
+      "romanization": "speed post kaa vitaran chaaloo hai.",
+      "bangla_pronunciation": "স্পীড পোস্ট কা বিতরণ চালূ হ্যায়।",
+      "word_pronunciations": [
+        {
+          "target": "स्पीड",
+          "bangla_pronunciation": "স্পীড",
+          "romanization": "speed",
+          "separator_after": " "
+        },
+        {
+          "target": "पोस्ट",
+          "bangla_pronunciation": "পোস্ট",
+          "romanization": "post",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "romanization": "kaa",
+          "separator_after": " "
+        },
+        {
+          "target": "वितरण",
+          "bangla_pronunciation": "বিতরণ",
+          "romanization": "vitaran",
+          "separator_after": " "
+        },
+        {
+          "target": "चालू",
+          "bangla_pronunciation": "চালূ",
+          "romanization": "chaaloo",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্পিড পোস্টের বিলি চালু আছে।"
+    },
+    {
+      "id": "ch022_s17",
+      "target": "यहाँ सही पता लिखिए।",
+      "romanization": "yahaan sahii pataa likhie.",
+      "bangla_pronunciation": "যহাঁ সহী পতা লিখিএ।",
+      "word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
+          "separator_after": " "
+        },
+        {
+          "target": "सही",
+          "bangla_pronunciation": "সহী",
+          "romanization": "sahii",
+          "separator_after": " "
+        },
+        {
+          "target": "पता",
+          "bangla_pronunciation": "পতা",
+          "romanization": "pataa",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিএ।",
+          "romanization": "likhie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এখানে সঠিক ঠিকানা লিখুন।"
+    },
+    {
+      "id": "ch022_s18",
+      "target": "प्रेषक और पानेवाला नाम लिखिए।",
+      "romanization": "preshak aur paanewaalaa naam likhie.",
+      "bangla_pronunciation": "প্রেষক অউর পানেবালা নাম লিখিএ।",
+      "word_pronunciations": [
+        {
+          "target": "प्रेषक",
+          "bangla_pronunciation": "প্রেষক",
+          "romanization": "preshak",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "पानेवाला",
+          "bangla_pronunciation": "পানেবালা",
+          "romanization": "paanewaalaa",
+          "separator_after": " "
+        },
+        {
+          "target": "नाम",
+          "bangla_pronunciation": "নাম",
+          "romanization": "naam",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিএ।",
+          "romanization": "likhie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রেরক ও প্রাপকের নাম লিখুন।"
+    },
+    {
+      "id": "ch022_s19",
+      "target": "यहाँ हस्ताक्षर और शुल्क दीजिए।",
+      "romanization": "yahaan hastaakshar aur shulk deejie.",
+      "bangla_pronunciation": "যহাঁ হস্তাক্ষর অউর শুল্ক দিজিএ।",
+      "word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
+          "separator_after": " "
+        },
+        {
+          "target": "हस्ताक्षर",
+          "bangla_pronunciation": "হস্তাক্ষর",
+          "romanization": "hastaakshar",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "शुल्क",
+          "bangla_pronunciation": "শুল্ক",
+          "romanization": "shulk",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিএ।",
+          "romanization": "deejie.",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এখানে স্বাক্ষর ও ফি দিন।"
+    },
+    {
+      "id": "ch022_s20",
+      "target": "यह पार्सल कब पहुँचेगा?",
+      "romanization": "yah paarsal kab pahunchegaa?",
+      "bangla_pronunciation": "যহ পার্সেল কব পহুঁচেগা?",
+      "word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "पार्सल",
+          "bangla_pronunciation": "পার্সেল",
+          "romanization": "paarsal",
+          "separator_after": " "
+        },
+        {
+          "target": "कब",
+          "bangla_pronunciation": "কব",
+          "romanization": "kab",
+          "separator_after": " "
+        },
+        {
+          "target": "पहुँचेगा?",
+          "bangla_pronunciation": "পহুঁচেগা?",
+          "romanization": "pahunchegaa?",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই পার্সেলটি কখন পৌঁছাবে?"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v00631",
+      "target": "डाकघर",
+      "category": "word",
+      "type": "word",
+      "romanization": "daakghar",
+      "bangla_pronunciation": "ডাকঘর",
+      "word_pronunciations": [
+        {
+          "target": "डाकघर",
+          "bangla_pronunciation": "ডাকঘর",
+          "romanization": "daakghar",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডাকঘর",
+      "source_sentence_id": "ch022_s01",
+      "source_form": "डाकघर",
+      "example_target": "यह बड़ा डाकघर है।",
+      "example_bangla_pronunciation": "যহ বড়া ডাকঘর হ্যায়।",
+      "example_romanization": "yah baraa daakghar hai.",
+      "example_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "बड़ा",
+          "bangla_pronunciation": "বড়া",
+          "romanization": "baraa",
+          "separator_after": " "
+        },
+        {
+          "target": "डाकघर",
+          "bangla_pronunciation": "ডাকঘর",
+          "romanization": "daakghar",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এটি বড় ডাকঘর।",
+      "synonyms": []
+    },
+    {
+      "id": "v00632",
+      "target": "पत्र",
+      "category": "word",
+      "type": "word",
+      "romanization": "patra",
+      "bangla_pronunciation": "পত্র",
+      "word_pronunciations": [
+        {
+          "target": "पत्र",
+          "bangla_pronunciation": "পত্র",
+          "romanization": "patra",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "চিঠি / পত্র",
+      "source_sentence_id": "ch022_s02",
+      "source_form": "पत्र",
+      "example_target": "मेरा पत्र यहाँ है।",
+      "example_bangla_pronunciation": "মেরা পত্র যহাঁ হ্যায়।",
+      "example_romanization": "mera patra yahaan hai.",
+      "example_word_pronunciations": [
+        {
+          "target": "मेरा",
+          "bangla_pronunciation": "মেরা",
+          "romanization": "mera",
+          "separator_after": " "
+        },
+        {
+          "target": "पत्र",
+          "bangla_pronunciation": "পত্র",
+          "romanization": "patra",
+          "separator_after": " "
+        },
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমার চিঠি এখানে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00633",
+      "target": "पार्सल",
+      "category": "word",
+      "type": "word",
+      "romanization": "paarsal",
+      "bangla_pronunciation": "পার্সেল",
+      "word_pronunciations": [
+        {
+          "target": "पार्सल",
+          "bangla_pronunciation": "পার্সেল",
+          "romanization": "paarsal",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পার্সেল",
+      "source_sentence_id": "ch022_s03",
+      "source_form": "पार्सल",
+      "example_target": "यह पार्सल बहुत भारी है।",
+      "example_bangla_pronunciation": "যহ পার্সেল বহুত ভারী হ্যায়।",
+      "example_romanization": "yah paarsal bahut bhaarii hai.",
+      "example_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "पार्सल",
+          "bangla_pronunciation": "পার্সেল",
+          "romanization": "paarsal",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "romanization": "bahut",
+          "separator_after": " "
+        },
+        {
+          "target": "भारी",
+          "bangla_pronunciation": "ভারী",
+          "romanization": "bhaarii",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এই পার্সেলটি খুব ভারী।",
+      "synonyms": []
+    },
+    {
+      "id": "v00634",
+      "target": "डाकिया",
+      "category": "word",
+      "type": "word",
+      "romanization": "daakiyaa",
+      "bangla_pronunciation": "ডাকিয়া",
+      "word_pronunciations": [
+        {
+          "target": "डाकिया",
+          "bangla_pronunciation": "ডাকিয়া",
+          "romanization": "daakiyaa",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডাকপিয়ন",
+      "source_sentence_id": "ch022_s04",
+      "source_form": "डाकिया",
+      "example_target": "डाकिया चिट्ठी लाया है।",
+      "example_bangla_pronunciation": "ডাকিয়া চিট্ঠী লায়া হ্যায়।",
+      "example_romanization": "daakiyaa chitthii laayaa hai.",
+      "example_word_pronunciations": [
+        {
+          "target": "डाकिया",
+          "bangla_pronunciation": "ডাকিয়া",
+          "romanization": "daakiyaa",
+          "separator_after": " "
+        },
+        {
+          "target": "चिट्ठी",
+          "bangla_pronunciation": "চিট্ঠী",
+          "romanization": "chitthii",
+          "separator_after": " "
+        },
+        {
+          "target": "लाया",
+          "bangla_pronunciation": "লায়া",
+          "romanization": "laayaa",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ডাকপিয়ন চিঠি এনেছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00635",
+      "target": "चिट्ठी",
+      "category": "word",
+      "type": "word",
+      "romanization": "chitthii",
+      "bangla_pronunciation": "চিট্ঠী",
+      "word_pronunciations": [
+        {
+          "target": "चिट्ठी",
+          "bangla_pronunciation": "চিট্ঠী",
+          "romanization": "chitthii",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "চিঠি",
+      "source_sentence_id": "ch022_s04",
+      "source_form": "चिट्ठी",
+      "example_target": "डाकिया चिट्ठी लाया है।",
+      "example_bangla_pronunciation": "ডাকিয়া চিট্ঠী লায়া হ্যায়।",
+      "example_romanization": "daakiyaa chitthii laayaa hai.",
+      "example_word_pronunciations": [
+        {
+          "target": "डाकिया",
+          "bangla_pronunciation": "ডাকিয়া",
+          "romanization": "daakiyaa",
+          "separator_after": " "
+        },
+        {
+          "target": "चिट्ठी",
+          "bangla_pronunciation": "চিট্ঠী",
+          "romanization": "chitthii",
+          "separator_after": " "
+        },
+        {
+          "target": "लाया",
+          "bangla_pronunciation": "লায়া",
+          "romanization": "laayaa",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ডাকপিয়ন চিঠি এনেছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00636",
+      "target": "मुझे पार्सल भेजना है",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "mujhe paarsal bhejnaa hai",
+      "bangla_pronunciation": "মুঝে পার্সেল ভেজনা হ্যায়",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "पार्सल",
+          "bangla_pronunciation": "পার্সেল",
+          "romanization": "paarsal",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजना",
+          "bangla_pronunciation": "ভেজনা",
+          "romanization": "bhejnaa",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হ্যায়",
+          "romanization": "hai",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমাকে পার্সেল পাঠাতে হবে",
+      "source_sentence_id": "ch022_s05",
+      "source_form": "मुझे पार्सल भेजना है",
+      "example_target": "मुझे पार्सल भेजना है।",
+      "example_bangla_pronunciation": "মুঝে পার্সেল ভেজনা হ্যায়।",
+      "example_romanization": "mujhe paarsal bhejnaa hai.",
+      "example_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "पार्सल",
+          "bangla_pronunciation": "পার্সেল",
+          "romanization": "paarsal",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजना",
+          "bangla_pronunciation": "ভেজনা",
+          "romanization": "bhejnaa",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমাকে পার্সেল পাঠাতে হবে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00637",
+      "target": "डाक",
+      "category": "word",
+      "type": "word",
+      "romanization": "daak",
+      "bangla_pronunciation": "ডাক",
+      "word_pronunciations": [
+        {
+          "target": "डाक",
+          "bangla_pronunciation": "ডাক",
+          "romanization": "daak",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডাক",
+      "source_sentence_id": "ch022_s06",
+      "source_form": "डाक",
+      "example_target": "आज सुबह डाक आई।",
+      "example_bangla_pronunciation": "আজ সুবহ ডাক আই।",
+      "example_romanization": "aaj subah daak aaii.",
+      "example_word_pronunciations": [
+        {
+          "target": "आज",
+          "bangla_pronunciation": "আজ",
+          "romanization": "aaj",
+          "separator_after": " "
+        },
+        {
+          "target": "सुबह",
+          "bangla_pronunciation": "সুবহ",
+          "romanization": "subah",
+          "separator_after": " "
+        },
+        {
+          "target": "डाक",
+          "bangla_pronunciation": "ডাক",
+          "romanization": "daak",
+          "separator_after": " "
+        },
+        {
+          "target": "आई।",
+          "bangla_pronunciation": "আই।",
+          "romanization": "aaii.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আজ সকালে ডাক এসেছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00638",
+      "target": "डाक टिकट",
+      "category": "word",
+      "type": "word",
+      "romanization": "daak tikat",
+      "bangla_pronunciation": "ডাক টিকট",
+      "word_pronunciations": [
+        {
+          "target": "डाक",
+          "bangla_pronunciation": "ডাক",
+          "romanization": "daak",
+          "separator_after": " "
+        },
+        {
+          "target": "टिकट",
+          "bangla_pronunciation": "টিকট",
+          "romanization": "tikat",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডাকটিকিট",
+      "source_sentence_id": "ch022_s07",
+      "source_form": "डाक टिकट",
+      "example_target": "यहाँ डाक टिकट लगाइए।",
+      "example_bangla_pronunciation": "যহাঁ ডাক টিকট লগাইএ।",
+      "example_romanization": "yahaan daak tikat lagaaie.",
+      "example_word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
+          "separator_after": " "
+        },
+        {
+          "target": "डाक",
+          "bangla_pronunciation": "ডাক",
+          "romanization": "daak",
+          "separator_after": " "
+        },
+        {
+          "target": "टिकट",
+          "bangla_pronunciation": "টিকট",
+          "romanization": "tikat",
+          "separator_after": " "
+        },
+        {
+          "target": "लगाइए।",
+          "bangla_pronunciation": "লগাইএ।",
+          "romanization": "lagaaie.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এখানে ডাকটিকিট লাগান।",
+      "synonyms": []
+    },
+    {
+      "id": "v00639",
+      "target": "लिफ़ाफ़ा",
+      "category": "word",
+      "type": "word",
+      "romanization": "lifaafaa",
+      "bangla_pronunciation": "লিফাফা",
+      "word_pronunciations": [
+        {
+          "target": "लिफ़ाफ़ा",
+          "bangla_pronunciation": "লিফাফা",
+          "romanization": "lifaafaa",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খাম",
+      "source_sentence_id": "ch022_s08",
+      "source_form": "लिफ़ाफ़ा",
+      "example_target": "यह लिफ़ाफ़ा साफ़ है।",
+      "example_bangla_pronunciation": "যহ লিফাফা সাফ হ্যায়।",
+      "example_romanization": "yah lifaafaa saaf hai.",
+      "example_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "लिफ़ाफ़ा",
+          "bangla_pronunciation": "লিফাফা",
+          "romanization": "lifaafaa",
+          "separator_after": " "
+        },
+        {
+          "target": "साफ़",
+          "bangla_pronunciation": "সাফ",
+          "romanization": "saaf",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এই খামটি পরিষ্কার।",
+      "synonyms": []
+    },
+    {
+      "id": "v00640",
+      "target": "पता",
+      "category": "word",
+      "type": "word",
+      "romanization": "pataa",
+      "bangla_pronunciation": "পতা",
+      "word_pronunciations": [
+        {
+          "target": "पता",
+          "bangla_pronunciation": "পতা",
+          "romanization": "pataa",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঠিকানা",
+      "source_sentence_id": "ch022_s09",
+      "source_form": "पता",
+      "example_target": "नया पता और पिनकोड लिखिए।",
+      "example_bangla_pronunciation": "নয়া পতা অউর পিনকোড লিখিএ।",
+      "example_romanization": "nayaa pataa aur pincode likhie.",
+      "example_word_pronunciations": [
+        {
+          "target": "नया",
+          "bangla_pronunciation": "নয়া",
+          "romanization": "nayaa",
+          "separator_after": " "
+        },
+        {
+          "target": "पता",
+          "bangla_pronunciation": "পতা",
+          "romanization": "pataa",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "पिनकोड",
+          "bangla_pronunciation": "পিনকোড",
+          "romanization": "pincode",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিএ।",
+          "romanization": "likhie.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নতুন ঠিকানা ও পিনকোড লিখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v00641",
+      "target": "पिनकोड",
+      "category": "word",
+      "type": "word",
+      "romanization": "pincode",
+      "bangla_pronunciation": "পিনকোড",
+      "word_pronunciations": [
+        {
+          "target": "पिनकोड",
+          "bangla_pronunciation": "পিনকোড",
+          "romanization": "pincode",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পিনকোড",
+      "source_sentence_id": "ch022_s09",
+      "source_form": "पिनकोड",
+      "example_target": "नया पता और पिनकोड लिखिए।",
+      "example_bangla_pronunciation": "নয়া পতা অউর পিনকোড লিখিএ।",
+      "example_romanization": "nayaa pataa aur pincode likhie.",
+      "example_word_pronunciations": [
+        {
+          "target": "नया",
+          "bangla_pronunciation": "নয়া",
+          "romanization": "nayaa",
+          "separator_after": " "
+        },
+        {
+          "target": "पता",
+          "bangla_pronunciation": "পতা",
+          "romanization": "pataa",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "पिनकोड",
+          "bangla_pronunciation": "পিনকোড",
+          "romanization": "pincode",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিএ।",
+          "romanization": "likhie.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নতুন ঠিকানা ও পিনকোড লিখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v00642",
+      "target": "डाक टिकट लगाइए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "daak tikat lagaaie",
+      "bangla_pronunciation": "ডাক টিকট লগাইএ",
+      "word_pronunciations": [
+        {
+          "target": "डाक",
+          "bangla_pronunciation": "ডাক",
+          "romanization": "daak",
+          "separator_after": " "
+        },
+        {
+          "target": "टिकट",
+          "bangla_pronunciation": "টিকট",
+          "romanization": "tikat",
+          "separator_after": " "
+        },
+        {
+          "target": "लगाइए",
+          "bangla_pronunciation": "লগাইএ",
+          "romanization": "lagaaie",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডাকটিকিট লাগান",
+      "source_sentence_id": "ch022_s07",
+      "source_form": "डाक टिकट लगाइए",
+      "example_target": "यहाँ डाक टिकट लगाइए।",
+      "example_bangla_pronunciation": "যহাঁ ডাক টিকট লগাইএ।",
+      "example_romanization": "yahaan daak tikat lagaaie.",
+      "example_word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
+          "separator_after": " "
+        },
+        {
+          "target": "डाक",
+          "bangla_pronunciation": "ডাক",
+          "romanization": "daak",
+          "separator_after": " "
+        },
+        {
+          "target": "टिकट",
+          "bangla_pronunciation": "টিকট",
+          "romanization": "tikat",
+          "separator_after": " "
+        },
+        {
+          "target": "लगाइए।",
+          "bangla_pronunciation": "লগাইএ।",
+          "romanization": "lagaaie.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এখানে ডাকটিকিট লাগান।",
+      "synonyms": []
+    },
+    {
+      "id": "v00643",
+      "target": "वजन",
+      "category": "word",
+      "type": "word",
+      "romanization": "vajan",
+      "bangla_pronunciation": "বজন",
+      "word_pronunciations": [
+        {
+          "target": "वजन",
+          "bangla_pronunciation": "বজন",
+          "romanization": "vajan",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ওজন",
+      "source_sentence_id": "ch022_s10",
+      "source_form": "वजन",
+      "example_target": "पार्सल का वजन देखिए।",
+      "example_bangla_pronunciation": "পার্সেল কা বজন দেখিএ।",
+      "example_romanization": "paarsal kaa vajan dekhie.",
+      "example_word_pronunciations": [
+        {
+          "target": "पार्सल",
+          "bangla_pronunciation": "পার্সেল",
+          "romanization": "paarsal",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "romanization": "kaa",
+          "separator_after": " "
+        },
+        {
+          "target": "वजन",
+          "bangla_pronunciation": "বজন",
+          "romanization": "vajan",
+          "separator_after": " "
+        },
+        {
+          "target": "देखिए।",
+          "bangla_pronunciation": "দেখিএ।",
+          "romanization": "dekhie.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পার্সেলের ওজন দেখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v00644",
+      "target": "तोलना",
+      "category": "word",
+      "type": "word",
+      "romanization": "tolnaa",
+      "bangla_pronunciation": "তোলনা",
+      "word_pronunciations": [
+        {
+          "target": "तोलना",
+          "bangla_pronunciation": "তোলনা",
+          "romanization": "tolnaa",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ওজন মাপা",
+      "source_sentence_id": "ch022_s11",
+      "source_form": "तोलना",
+      "example_target": "यह बॉक्स तोलना है।",
+      "example_bangla_pronunciation": "যহ বক্স তোলনা হ্যায়।",
+      "example_romanization": "yah box tolnaa hai.",
+      "example_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "बॉक्स",
+          "bangla_pronunciation": "বক্স",
+          "romanization": "box",
+          "separator_after": " "
+        },
+        {
+          "target": "तोलना",
+          "bangla_pronunciation": "তোলনা",
+          "romanization": "tolnaa",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এই বাক্সটি ওজন করতে হবে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00645",
+      "target": "भारी",
+      "category": "word",
+      "type": "word",
+      "romanization": "bhaarii",
+      "bangla_pronunciation": "ভারী",
+      "word_pronunciations": [
+        {
+          "target": "भारी",
+          "bangla_pronunciation": "ভারী",
+          "romanization": "bhaarii",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ভারী",
+      "source_sentence_id": "ch022_s03",
+      "source_form": "भारी",
+      "example_target": "यह पार्सल बहुत भारी है।",
+      "example_bangla_pronunciation": "যহ পার্সেল বহুত ভারী হ্যায়।",
+      "example_romanization": "yah paarsal bahut bhaarii hai.",
+      "example_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "पार्सल",
+          "bangla_pronunciation": "পার্সেল",
+          "romanization": "paarsal",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "romanization": "bahut",
+          "separator_after": " "
+        },
+        {
+          "target": "भारी",
+          "bangla_pronunciation": "ভারী",
+          "romanization": "bhaarii",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এই পার্সেলটি খুব ভারী।",
+      "synonyms": []
+    },
+    {
+      "id": "v00646",
+      "target": "रसीद",
+      "category": "word",
+      "type": "word",
+      "romanization": "raseed",
+      "bangla_pronunciation": "রসীদ",
+      "word_pronunciations": [
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসীদ",
+          "romanization": "raseed",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "রসিদ",
+      "source_sentence_id": "ch022_s12",
+      "source_form": "रसीद",
+      "example_target": "मुझे रसीद दीजिए।",
+      "example_bangla_pronunciation": "মুঝে রসীদ দিজিএ।",
+      "example_romanization": "mujhe raseed deejie.",
+      "example_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসীদ",
+          "romanization": "raseed",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিএ।",
+          "romanization": "deejie.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমাকে রসিদ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v00647",
+      "target": "मोहर",
+      "category": "word",
+      "type": "word",
+      "romanization": "mohar",
+      "bangla_pronunciation": "মোহর",
+      "word_pronunciations": [
+        {
+          "target": "मोहर",
+          "bangla_pronunciation": "মোহর",
+          "romanization": "mohar",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সিলমোহর",
+      "source_sentence_id": "ch022_s13",
+      "source_form": "मोहर",
+      "example_target": "इस पर मोहर लगाइए।",
+      "example_bangla_pronunciation": "ইস পর মোহর লগাইএ।",
+      "example_romanization": "is par mohar lagaaie.",
+      "example_word_pronunciations": [
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "romanization": "is",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "romanization": "par",
+          "separator_after": " "
+        },
+        {
+          "target": "मोहर",
+          "bangla_pronunciation": "মোহর",
+          "romanization": "mohar",
+          "separator_after": " "
+        },
+        {
+          "target": "लगाइए।",
+          "bangla_pronunciation": "লগাইএ।",
+          "romanization": "lagaaie.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এতে সিলমোহর দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v00648",
+      "target": "मुझे रसीद दीजिए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "mujhe raseed deejie",
+      "bangla_pronunciation": "মুঝে রসীদ দিজিএ",
+      "word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসীদ",
+          "romanization": "raseed",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए",
+          "bangla_pronunciation": "দিজিএ",
+          "romanization": "deejie",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমাকে রসিদ দিন",
+      "source_sentence_id": "ch022_s12",
+      "source_form": "मुझे रसीद दीजिए",
+      "example_target": "मुझे रसीद दीजिए।",
+      "example_bangla_pronunciation": "মুঝে রসীদ দিজিএ।",
+      "example_romanization": "mujhe raseed deejie.",
+      "example_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসীদ",
+          "romanization": "raseed",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিএ।",
+          "romanization": "deejie.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমাকে রসিদ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v00649",
+      "target": "डाकपेटी",
+      "category": "word",
+      "type": "word",
+      "romanization": "daakpetee",
+      "bangla_pronunciation": "ডাকপেটী",
+      "word_pronunciations": [
+        {
+          "target": "डाकपेटी",
+          "bangla_pronunciation": "ডাকপেটী",
+          "romanization": "daakpetee",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডাকবাক্স",
+      "source_sentence_id": "ch022_s14",
+      "source_form": "डाकपेटी",
+      "example_target": "पत्र डाकपेटी में डालिए।",
+      "example_bangla_pronunciation": "পত্র ডাকপেটী মেঁ ডালিএ।",
+      "example_romanization": "patra daakpetee men daalie.",
+      "example_word_pronunciations": [
+        {
+          "target": "पत्र",
+          "bangla_pronunciation": "পত্র",
+          "romanization": "patra",
+          "separator_after": " "
+        },
+        {
+          "target": "डाकपेटी",
+          "bangla_pronunciation": "ডাকপেটী",
+          "romanization": "daakpetee",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
+          "separator_after": " "
+        },
+        {
+          "target": "डालिए।",
+          "bangla_pronunciation": "ডালিএ।",
+          "romanization": "daalie.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "চিঠি ডাকবাক্সে ফেলুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v00650",
+      "target": "भेजना",
+      "category": "word",
+      "type": "word",
+      "romanization": "bhejnaa",
+      "bangla_pronunciation": "ভেজনা",
+      "word_pronunciations": [
+        {
+          "target": "भेजना",
+          "bangla_pronunciation": "ভেজনা",
+          "romanization": "bhejnaa",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পাঠানো",
+      "source_sentence_id": "ch022_s05",
+      "source_form": "भेजना",
+      "example_target": "मुझे पार्सल भेजना है।",
+      "example_bangla_pronunciation": "মুঝে পার্সেল ভেজনা হ্যায়।",
+      "example_romanization": "mujhe paarsal bhejnaa hai.",
+      "example_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "पार्सल",
+          "bangla_pronunciation": "পার্সেল",
+          "romanization": "paarsal",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजना",
+          "bangla_pronunciation": "ভেজনা",
+          "romanization": "bhejnaa",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমাকে পার্সেল পাঠাতে হবে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00651",
+      "target": "पहुँचना",
+      "category": "word",
+      "type": "word",
+      "romanization": "pahunchnaa",
+      "bangla_pronunciation": "পহুঁচনা",
+      "word_pronunciations": [
+        {
+          "target": "पहुँचना",
+          "bangla_pronunciation": "পহুঁচনা",
+          "romanization": "pahunchnaa",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পৌঁছানো",
+      "source_sentence_id": "ch022_s15",
+      "source_form": "पहुँचना",
+      "example_target": "डाक कल पहुँचना है।",
+      "example_bangla_pronunciation": "ডাক কল পহুঁচনা হ্যায়।",
+      "example_romanization": "daak kal pahunchnaa hai.",
+      "example_word_pronunciations": [
+        {
+          "target": "डाक",
+          "bangla_pronunciation": "ডাক",
+          "romanization": "daak",
+          "separator_after": " "
+        },
+        {
+          "target": "कल",
+          "bangla_pronunciation": "কল",
+          "romanization": "kal",
+          "separator_after": " "
+        },
+        {
+          "target": "पहुँचना",
+          "bangla_pronunciation": "পহুঁচনা",
+          "romanization": "pahunchnaa",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ডাক কাল পৌঁছাতে হবে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00652",
+      "target": "वितरण",
+      "category": "word",
+      "type": "word",
+      "romanization": "vitaran",
+      "bangla_pronunciation": "বিতরণ",
+      "word_pronunciations": [
+        {
+          "target": "वितरण",
+          "bangla_pronunciation": "বিতরণ",
+          "romanization": "vitaran",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিলি / বিতরণ",
+      "source_sentence_id": "ch022_s16",
+      "source_form": "वितरण",
+      "example_target": "स्पीड पोस्ट का वितरण चालू है।",
+      "example_bangla_pronunciation": "স্পীড পোস্ট কা বিতরণ চালূ হ্যায়।",
+      "example_romanization": "speed post kaa vitaran chaaloo hai.",
+      "example_word_pronunciations": [
+        {
+          "target": "स्पीड",
+          "bangla_pronunciation": "স্পীড",
+          "romanization": "speed",
+          "separator_after": " "
+        },
+        {
+          "target": "पोस्ट",
+          "bangla_pronunciation": "পোস্ট",
+          "romanization": "post",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "romanization": "kaa",
+          "separator_after": " "
+        },
+        {
+          "target": "वितरण",
+          "bangla_pronunciation": "বিতরণ",
+          "romanization": "vitaran",
+          "separator_after": " "
+        },
+        {
+          "target": "चालू",
+          "bangla_pronunciation": "চালূ",
+          "romanization": "chaaloo",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "স্পিড পোস্টের বিলি চালু আছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00653",
+      "target": "स्पीड पोस्ट",
+      "category": "word",
+      "type": "word",
+      "romanization": "speed post",
+      "bangla_pronunciation": "স্পীড পোস্ট",
+      "word_pronunciations": [
+        {
+          "target": "स्पीड",
+          "bangla_pronunciation": "স্পীড",
+          "romanization": "speed",
+          "separator_after": " "
+        },
+        {
+          "target": "पोस्ट",
+          "bangla_pronunciation": "পোস্ট",
+          "romanization": "post",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্পিড পোস্ট",
+      "source_sentence_id": "ch022_s16",
+      "source_form": "स्पीड पोस्ट",
+      "example_target": "स्पीड पोस्ट का वितरण चालू है।",
+      "example_bangla_pronunciation": "স্পীড পোস্ট কা বিতরণ চালূ হ্যায়।",
+      "example_romanization": "speed post kaa vitaran chaaloo hai.",
+      "example_word_pronunciations": [
+        {
+          "target": "स्पीड",
+          "bangla_pronunciation": "স্পীড",
+          "romanization": "speed",
+          "separator_after": " "
+        },
+        {
+          "target": "पोस्ट",
+          "bangla_pronunciation": "পোস্ট",
+          "romanization": "post",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "romanization": "kaa",
+          "separator_after": " "
+        },
+        {
+          "target": "वितरण",
+          "bangla_pronunciation": "বিতরণ",
+          "romanization": "vitaran",
+          "separator_after": " "
+        },
+        {
+          "target": "चालू",
+          "bangla_pronunciation": "চালূ",
+          "romanization": "chaaloo",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "স্পিড পোস্টের বিলি চালু আছে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00654",
+      "target": "सही पता लिखिए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "sahii pataa likhie",
+      "bangla_pronunciation": "সহী পতা লিখিএ",
+      "word_pronunciations": [
+        {
+          "target": "सही",
+          "bangla_pronunciation": "সহী",
+          "romanization": "sahii",
+          "separator_after": " "
+        },
+        {
+          "target": "पता",
+          "bangla_pronunciation": "পতা",
+          "romanization": "pataa",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए",
+          "bangla_pronunciation": "লিখিএ",
+          "romanization": "likhie",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সঠিক ঠিকানা লিখুন",
+      "source_sentence_id": "ch022_s17",
+      "source_form": "सही पता लिखिए",
+      "example_target": "यहाँ सही पता लिखिए।",
+      "example_bangla_pronunciation": "যহাঁ সহী পতা লিখিএ।",
+      "example_romanization": "yahaan sahii pataa likhie.",
+      "example_word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
+          "separator_after": " "
+        },
+        {
+          "target": "सही",
+          "bangla_pronunciation": "সহী",
+          "romanization": "sahii",
+          "separator_after": " "
+        },
+        {
+          "target": "पता",
+          "bangla_pronunciation": "পতা",
+          "romanization": "pataa",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিএ।",
+          "romanization": "likhie.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এখানে সঠিক ঠিকানা লিখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v00655",
+      "target": "बॉक्स",
+      "category": "word",
+      "type": "word",
+      "romanization": "box",
+      "bangla_pronunciation": "বক্স",
+      "word_pronunciations": [
+        {
+          "target": "बॉक्स",
+          "bangla_pronunciation": "বক্স",
+          "romanization": "box",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বাক্স",
+      "source_sentence_id": "ch022_s11",
+      "source_form": "बॉक्स",
+      "example_target": "यह बॉक्स तोलना है।",
+      "example_bangla_pronunciation": "যহ বক্স তোলনা হ্যায়।",
+      "example_romanization": "yah box tolnaa hai.",
+      "example_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "बॉक्स",
+          "bangla_pronunciation": "বক্স",
+          "romanization": "box",
+          "separator_after": " "
+        },
+        {
+          "target": "तोलना",
+          "bangla_pronunciation": "তোলনা",
+          "romanization": "tolnaa",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এই বাক্সটি ওজন করতে হবে।",
+      "synonyms": []
+    },
+    {
+      "id": "v00656",
+      "target": "प्रेषक",
+      "category": "word",
+      "type": "word",
+      "romanization": "preshak",
+      "bangla_pronunciation": "প্রেষক",
+      "word_pronunciations": [
+        {
+          "target": "प्रेषक",
+          "bangla_pronunciation": "প্রেষক",
+          "romanization": "preshak",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রেরক",
+      "source_sentence_id": "ch022_s18",
+      "source_form": "प्रेषक",
+      "example_target": "प्रेषक और पानेवाला नाम लिखिए।",
+      "example_bangla_pronunciation": "প্রেষক অউর পানেবালা নাম লিখিএ।",
+      "example_romanization": "preshak aur paanewaalaa naam likhie.",
+      "example_word_pronunciations": [
+        {
+          "target": "प्रेषक",
+          "bangla_pronunciation": "প্রেষক",
+          "romanization": "preshak",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "पानेवाला",
+          "bangla_pronunciation": "পানেবালা",
+          "romanization": "paanewaalaa",
+          "separator_after": " "
+        },
+        {
+          "target": "नाम",
+          "bangla_pronunciation": "নাম",
+          "romanization": "naam",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিএ।",
+          "romanization": "likhie.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্রেরক ও প্রাপকের নাম লিখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v00657",
+      "target": "पानेवाला",
+      "category": "word",
+      "type": "word",
+      "romanization": "paanewaalaa",
+      "bangla_pronunciation": "পানেবালা",
+      "word_pronunciations": [
+        {
+          "target": "पानेवाला",
+          "bangla_pronunciation": "পানেবালা",
+          "romanization": "paanewaalaa",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রাপক",
+      "source_sentence_id": "ch022_s18",
+      "source_form": "पानेवाला",
+      "example_target": "प्रेषक और पानेवाला नाम लिखिए।",
+      "example_bangla_pronunciation": "প্রেষক অউর পানেবালা নাম লিখিএ।",
+      "example_romanization": "preshak aur paanewaalaa naam likhie.",
+      "example_word_pronunciations": [
+        {
+          "target": "प्रेषक",
+          "bangla_pronunciation": "প্রেষক",
+          "romanization": "preshak",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "पानेवाला",
+          "bangla_pronunciation": "পানেবালা",
+          "romanization": "paanewaalaa",
+          "separator_after": " "
+        },
+        {
+          "target": "नाम",
+          "bangla_pronunciation": "নাম",
+          "romanization": "naam",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিএ।",
+          "romanization": "likhie.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্রেরক ও প্রাপকের নাম লিখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v00658",
+      "target": "हस्ताक्षर",
+      "category": "word",
+      "type": "word",
+      "romanization": "hastaakshar",
+      "bangla_pronunciation": "হস্তাক্ষর",
+      "word_pronunciations": [
+        {
+          "target": "हस्ताक्षर",
+          "bangla_pronunciation": "হস্তাক্ষর",
+          "romanization": "hastaakshar",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্বাক্ষর",
+      "source_sentence_id": "ch022_s19",
+      "source_form": "हस्ताक्षर",
+      "example_target": "यहाँ हस्ताक्षर और शुल्क दीजिए।",
+      "example_bangla_pronunciation": "যহাঁ হস্তাক্ষর অউর শুল্ক দিজিএ।",
+      "example_romanization": "yahaan hastaakshar aur shulk deejie.",
+      "example_word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
+          "separator_after": " "
+        },
+        {
+          "target": "हस्ताक्षर",
+          "bangla_pronunciation": "হস্তাক্ষর",
+          "romanization": "hastaakshar",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "शुल्क",
+          "bangla_pronunciation": "শুল্ক",
+          "romanization": "shulk",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিএ।",
+          "romanization": "deejie.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এখানে স্বাক্ষর ও ফি দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v00659",
+      "target": "शुल्क",
+      "category": "word",
+      "type": "word",
+      "romanization": "shulk",
+      "bangla_pronunciation": "শুল্ক",
+      "word_pronunciations": [
+        {
+          "target": "शुल्क",
+          "bangla_pronunciation": "শুল্ক",
+          "romanization": "shulk",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডাকমাশুল / ফি",
+      "source_sentence_id": "ch022_s19",
+      "source_form": "शुल्क",
+      "example_target": "यहाँ हस्ताक्षर और शुल्क दीजिए।",
+      "example_bangla_pronunciation": "যহাঁ হস্তাক্ষর অউর শুল্ক দিজিএ।",
+      "example_romanization": "yahaan hastaakshar aur shulk deejie.",
+      "example_word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
+          "separator_after": " "
+        },
+        {
+          "target": "हस्ताक्षर",
+          "bangla_pronunciation": "হস্তাক্ষর",
+          "romanization": "hastaakshar",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "অউর",
+          "romanization": "aur",
+          "separator_after": " "
+        },
+        {
+          "target": "शुल्क",
+          "bangla_pronunciation": "শুল্ক",
+          "romanization": "shulk",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিএ।",
+          "romanization": "deejie.",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এখানে স্বাক্ষর ও ফি দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v00660",
+      "target": "पार्सल कब पहुँचेगा",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "paarsal kab pahunchegaa",
+      "bangla_pronunciation": "পার্সেল কব পহুঁচেগা",
+      "word_pronunciations": [
+        {
+          "target": "पार्सल",
+          "bangla_pronunciation": "পার্সেল",
+          "romanization": "paarsal",
+          "separator_after": " "
+        },
+        {
+          "target": "कब",
+          "bangla_pronunciation": "কব",
+          "romanization": "kab",
+          "separator_after": " "
+        },
+        {
+          "target": "पहुँचेगा",
+          "bangla_pronunciation": "পহুঁচেগা",
+          "romanization": "pahunchegaa",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পার্সেল কখন পৌঁছাবে",
+      "source_sentence_id": "ch022_s20",
+      "source_form": "पार्सल कब पहुँचेगा",
+      "example_target": "यह पार्सल कब पहुँचेगा?",
+      "example_bangla_pronunciation": "যহ পার্সেল কব পহুঁচেগা?",
+      "example_romanization": "yah paarsal kab pahunchegaa?",
+      "example_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "पार्सल",
+          "bangla_pronunciation": "পার্সেল",
+          "romanization": "paarsal",
+          "separator_after": " "
+        },
+        {
+          "target": "कब",
+          "bangla_pronunciation": "কব",
+          "romanization": "kab",
+          "separator_after": " "
+        },
+        {
+          "target": "पहुँचेगा?",
+          "bangla_pronunciation": "পহুঁচেগা?",
+          "romanization": "pahunchegaa?",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এই পার্সেলটি কখন পৌঁছাবে?",
+      "synonyms": []
+    }
+  ],
+  "bridge_reading": {
+    "mode": "story",
+    "title_bengali": "ডাকঘর ও পার্সেল: ছোট দৃশ্য",
+    "scene_summary": "ডাকঘর ও পার্সেল প্রসঙ্গে কয়েকটি ছোট হিন্দি উক্তি ও বাংলা বর্ণনা।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "ডাকঘর ও পার্সেল নিয়ে একটি ছোট বাস্তব দৃশ্য। তাহসিন ডাকঘরে গিয়ে বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "मुझे पार्सल भेजना है।",
+        "bangla_pronunciation": "মুঝে পার্সেল ভেজনা হ্যায়।",
+        "romanization": "mujhe paarsal bhejnaa hai.",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "romanization": "mujhe",
+            "separator_after": " "
+          },
+          {
+            "target": "पार्सल",
+            "bangla_pronunciation": "পার্সেল",
+            "romanization": "paarsal",
+            "separator_after": " "
+          },
+          {
+            "target": "भेजना",
+            "bangla_pronunciation": "ভেজনা",
+            "romanization": "bhejnaa",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " কাউন্টারের কর্মী বললেন, "
+      },
+      {
+        "kind": "target",
+        "target": "यहाँ सही पता लिखिए।",
+        "bangla_pronunciation": "যহাঁ সহী পতা লিখিএ।",
+        "romanization": "yahaan sahii pataa likhie.",
+        "word_pronunciations": [
+          {
+            "target": "यहाँ",
+            "bangla_pronunciation": "যহাঁ",
+            "romanization": "yahaan",
+            "separator_after": " "
+          },
+          {
+            "target": "सही",
+            "bangla_pronunciation": "সহী",
+            "romanization": "sahii",
+            "separator_after": " "
+          },
+          {
+            "target": "पता",
+            "bangla_pronunciation": "পতা",
+            "romanization": "pataa",
+            "separator_after": " "
+          },
+          {
+            "target": "लिखिए।",
+            "bangla_pronunciation": "লিখিএ।",
+            "romanization": "likhie.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " এরপর ওজন দেখে তিনি নির্দেশ দিলেন, "
+      },
+      {
+        "kind": "target",
+        "target": "यहाँ डाक टिकट लगाइए।",
+        "bangla_pronunciation": "যহাঁ ডাক টিকট লগাইএ।",
+        "romanization": "yahaan daak tikat lagaaie.",
+        "word_pronunciations": [
+          {
+            "target": "यहाँ",
+            "bangla_pronunciation": "যহাঁ",
+            "romanization": "yahaan",
+            "separator_after": " "
+          },
+          {
+            "target": "डाक",
+            "bangla_pronunciation": "ডাক",
+            "romanization": "daak",
+            "separator_after": " "
+          },
+          {
+            "target": "टिकट",
+            "bangla_pronunciation": "টিকট",
+            "romanization": "tikat",
+            "separator_after": " "
+          },
+          {
+            "target": "लगाइए।",
+            "bangla_pronunciation": "লগাইএ।",
+            "romanization": "lagaaie.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " পার্সেল জমা দেওয়ার পর তাহসিন বলল, "
+      },
+      {
+        "kind": "target",
+        "target": "मुझे रसीद दीजिए।",
+        "bangla_pronunciation": "মুঝে রসীদ দিজিএ।",
+        "romanization": "mujhe raseed deejie.",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "romanization": "mujhe",
+            "separator_after": " "
+          },
+          {
+            "target": "रसीद",
+            "bangla_pronunciation": "রসীদ",
+            "romanization": "raseed",
+            "separator_after": " "
+          },
+          {
+            "target": "दीजिए।",
+            "bangla_pronunciation": "দিজিএ।",
+            "romanization": "deejie.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " এভাবে ডাকঘরের দৈনন্দিন কাজ সহজে সম্পন্ন করা যায়।"
+      }
+    ],
+    "text_md": "ডাকঘর ও পার্সেল নিয়ে একটি ছোট বাস্তব দৃশ্য। তাহসিন ডাকঘরে গিয়ে বলল, **मुझे** (মুঝে, mujhe) **पार्सल** (পার্সেল, paarsal) **भेजना** (ভেজনা, bhejnaa) **है।** (হ্যায়।, hai\\.) কাউন্টারের কর্মী বললেন, **यहाँ** (যহাঁ, yahaan) **सही** (সহী, sahii) **पता** (পতা, pataa) **लिखिए।** (লিখিএ।, likhie\\.) এরপর ওজন দেখে তিনি নির্দেশ দিলেন, **यहाँ** (যহাঁ, yahaan) **डाक** (ডাক, daak) **टिकट** (টিকট, tikat) **लगाइए।** (লগাইএ।, lagaaie\\.) পার্সেল জমা দেওয়ার পর তাহসিন বলল, **मुझे** (মুঝে, mujhe) **रसीद** (রসীদ, raseed) **दीजिए।** (দিজিএ।, deejie\\.) এভাবে ডাকঘরের দৈনন্দিন কাজ সহজে সম্পন্ন করা যায়।"
+  },
+  "target_reading": {
+    "mode": "story",
+    "title_bengali": "ডাকঘর ও পার্সেল: হিন্দি পাঠ",
+    "scene_summary": "ডাকঘর ও পার্সেল প্রসঙ্গে পাঁচটি ছোট, পরিচিত বাক্য।",
+    "lines": [
+      {
+        "target": "यह बड़ा डाकघर है।",
+        "bangla_pronunciation": "যহ বড়া ডাকঘর হ্যায়।",
+        "romanization": "yah baraa daakghar hai.",
+        "word_pronunciations": [
+          {
+            "target": "यह",
+            "bangla_pronunciation": "যহ",
+            "romanization": "yah",
+            "separator_after": " "
+          },
+          {
+            "target": "बड़ा",
+            "bangla_pronunciation": "বড়া",
+            "romanization": "baraa",
+            "separator_after": " "
+          },
+          {
+            "target": "डाकघर",
+            "bangla_pronunciation": "ডাকঘর",
+            "romanization": "daakghar",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मुझे पार्सल भेजना है।",
+        "bangla_pronunciation": "মুঝে পার্সেল ভেজনা হ্যায়।",
+        "romanization": "mujhe paarsal bhejnaa hai.",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "romanization": "mujhe",
+            "separator_after": " "
+          },
+          {
+            "target": "पार्सल",
+            "bangla_pronunciation": "পার্সেল",
+            "romanization": "paarsal",
+            "separator_after": " "
+          },
+          {
+            "target": "भेजना",
+            "bangla_pronunciation": "ভেজনা",
+            "romanization": "bhejnaa",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "यहाँ डाक टिकट लगाइए।",
+        "bangla_pronunciation": "যহাঁ ডাক টিকট লগাইএ।",
+        "romanization": "yahaan daak tikat lagaaie.",
+        "word_pronunciations": [
+          {
+            "target": "यहाँ",
+            "bangla_pronunciation": "যহাঁ",
+            "romanization": "yahaan",
+            "separator_after": " "
+          },
+          {
+            "target": "डाक",
+            "bangla_pronunciation": "ডাক",
+            "romanization": "daak",
+            "separator_after": " "
+          },
+          {
+            "target": "टिकट",
+            "bangla_pronunciation": "টিকট",
+            "romanization": "tikat",
+            "separator_after": " "
+          },
+          {
+            "target": "लगाइए।",
+            "bangla_pronunciation": "লগাইএ।",
+            "romanization": "lagaaie.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "स्पीड पोस्ट बहुत तेज़ है।",
+        "bangla_pronunciation": "স্পীড পোস্ট বহুত তেজ হ্যায়।",
+        "romanization": "speed post bahut tez hai.",
+        "word_pronunciations": [
+          {
+            "target": "स्पीड",
+            "bangla_pronunciation": "স্পীড",
+            "romanization": "speed",
+            "separator_after": " "
+          },
+          {
+            "target": "पोस्ट",
+            "bangla_pronunciation": "পোস্ট",
+            "romanization": "post",
+            "separator_after": " "
+          },
+          {
+            "target": "बहुत",
+            "bangla_pronunciation": "বহুত",
+            "romanization": "bahut",
+            "separator_after": " "
+          },
+          {
+            "target": "तेज़",
+            "bangla_pronunciation": "তেজ",
+            "romanization": "tez",
+            "separator_after": " "
+          },
+          {
+            "target": "है।",
+            "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "मुझे रसीद दीजिए।",
+        "bangla_pronunciation": "মুঝে রসীদ দিজিএ।",
+        "romanization": "mujhe raseed deejie.",
+        "word_pronunciations": [
+          {
+            "target": "मुझे",
+            "bangla_pronunciation": "মুঝে",
+            "romanization": "mujhe",
+            "separator_after": " "
+          },
+          {
+            "target": "रसीद",
+            "bangla_pronunciation": "রসীদ",
+            "romanization": "raseed",
+            "separator_after": " "
+          },
+          {
+            "target": "दीजिए।",
+            "bangla_pronunciation": "দিজিএ।",
+            "romanization": "deejie.",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "যহ বড়া ডাকঘর হ্যায়। মুঝে পার্সেল ভেজনা হ্যায়। যহাঁ ডাক টিকট লগাইএ। স্পীড পোস্ট বহুত তেজ হ্যায়। মুঝে রসীদ দিজিএ।",
+    "romanization": "yah baraa daakghar hai. mujhe paarsal bhejnaa hai. yahaan daak tikat lagaaie. speed post bahut tez hai. mujhe raseed deejie.",
+    "meaning_bengali_md": "এটি বড় ডাকঘর। আমাকে পার্সেল পাঠাতে হবে। এখানে ডাকটিকিট লাগান। স্পিড পোস্ট খুব দ্রুত। আমাকে রসিদ দিন।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_dda",
+      "mode": "review",
+      "target": "ड",
+      "bangla_pronunciation": "ড",
+      "romanization": "da",
+      "explanation_bengali_md": "হিন্দি লিপির এই বর্ণটি চিনে সংশ্লিষ্ট ধ্বনি আলাদা করে অনুশীলন করুন।",
+      "practice_bengali_md": "বর্ণটি দেখে ধ্বনি বলুন, তারপর খাতায় তিনবার লিখুন।"
+    },
+    {
+      "item_id": "dev_pa",
+      "mode": "review",
+      "target": "प",
+      "bangla_pronunciation": "প",
+      "romanization": "pa",
+      "explanation_bengali_md": "হিন্দি লিপির এই বর্ণটি চিনে সংশ্লিষ্ট ধ্বনি আলাদা করে অনুশীলন করুন।",
+      "practice_bengali_md": "বর্ণটি দেখে ধ্বনি বলুন, তারপর খাতায় তিনবার লিখুন।"
+    },
+    {
+      "item_id": "dev_ta",
+      "mode": "review",
+      "target": "त",
+      "bangla_pronunciation": "ত",
+      "romanization": "ta",
+      "explanation_bengali_md": "হিন্দি লিপির এই বর্ণটি চিনে সংশ্লিষ্ট ধ্বনি আলাদা করে অনুশীলন করুন।",
+      "practice_bengali_md": "বর্ণটি দেখে ধ্বনি বলুন, তারপর খাতায় তিনবার লিখুন।"
+    },
+    {
+      "item_id": "dev_ra",
+      "mode": "review",
+      "target": "र",
+      "bangla_pronunciation": "র",
+      "romanization": "ra",
+      "explanation_bengali_md": "হিন্দি লিপির এই বর্ণটি চিনে সংশ্লিষ্ট ধ্বনি আলাদা করে অনুশীলন করুন।",
+      "practice_bengali_md": "বর্ণটি দেখে ধ্বনি বলুন, তারপর খাতায় তিনবার লিখুন।"
+    },
+    {
+      "item_id": "dev_ka",
+      "mode": "review",
+      "target": "क",
+      "bangla_pronunciation": "ক",
+      "romanization": "ka",
+      "explanation_bengali_md": "হিন্দি লিপির এই বর্ণটি চিনে সংশ্লিষ্ট ধ্বনি আলাদা করে অনুশীলন করুন।",
+      "practice_bengali_md": "বর্ণটি দেখে ধ্বনি বলুন, তারপর খাতায় তিনবার লিখুন।"
+    }
+  ],
+  "number_practice": [
+    {
+      "display": "43 / ४३",
+      "target": "तैंतालीस",
+      "bangla_pronunciation": "তৈংতালীস",
+      "romanization": "taintaalees",
+      "word_pronunciations": [
+        {
+          "target": "तैंतालीस",
+          "bangla_pronunciation": "তৈংতালীস",
+          "romanization": "taintaalees",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "তেতাল্লিশ",
+      "system": "International + Devanagari"
+    },
+    {
+      "display": "44 / ४४",
+      "target": "चवालीस",
+      "bangla_pronunciation": "চবালীস",
+      "romanization": "chavaalees",
+      "word_pronunciations": [
+        {
+          "target": "चवालीस",
+          "bangla_pronunciation": "চবালীস",
+          "romanization": "chavaalees",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "চুয়াল্লিশ",
+      "system": "International + Devanagari"
+    }
+  ],
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "পরিস্থিতিটি কল্পনা করে মডেল বাক্যটি বলুন।",
+      "model_target": "यह बड़ा डाकघर है।",
+      "model_bangla_pronunciation": "যহ বড়া ডাকঘর হ্যায়।",
+      "model_romanization": "yah baraa daakghar hai.",
+      "model_word_pronunciations": [
+        {
+          "target": "यह",
+          "bangla_pronunciation": "যহ",
+          "romanization": "yah",
+          "separator_after": " "
+        },
+        {
+          "target": "बड़ा",
+          "bangla_pronunciation": "বড়া",
+          "romanization": "baraa",
+          "separator_after": " "
+        },
+        {
+          "target": "डाकघर",
+          "bangla_pronunciation": "ডাকঘর",
+          "romanization": "daakghar",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এটি বড় ডাকঘর।"
+    },
+    {
+      "prompt_bengali_md": "সঙ্গীর সঙ্গে প্রশ্ন-উত্তরে এই বাক্যটি ব্যবহার করুন।",
+      "model_target": "मुझे पार्सल भेजना है।",
+      "model_bangla_pronunciation": "মুঝে পার্সেল ভেজনা হ্যায়।",
+      "model_romanization": "mujhe paarsal bhejnaa hai.",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "पार्सल",
+          "bangla_pronunciation": "পার্সেল",
+          "romanization": "paarsal",
+          "separator_after": " "
+        },
+        {
+          "target": "भेजना",
+          "bangla_pronunciation": "ভেজনা",
+          "romanization": "bhejnaa",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমাকে পার্সেল পাঠাতে হবে।"
+    },
+    {
+      "prompt_bengali_md": "শব্দগুলো মনে করে না দেখে বাক্যটি বলুন।",
+      "model_target": "यहाँ डाक टिकट लगाइए।",
+      "model_bangla_pronunciation": "যহাঁ ডাক টিকট লগাইএ।",
+      "model_romanization": "yahaan daak tikat lagaaie.",
+      "model_word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
+          "separator_after": " "
+        },
+        {
+          "target": "डाक",
+          "bangla_pronunciation": "ডাক",
+          "romanization": "daak",
+          "separator_after": " "
+        },
+        {
+          "target": "टिकट",
+          "bangla_pronunciation": "টিকট",
+          "romanization": "tikat",
+          "separator_after": " "
+        },
+        {
+          "target": "लगाइए।",
+          "bangla_pronunciation": "লগাইএ।",
+          "romanization": "lagaaie.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এখানে ডাকটিকিট লাগান।"
+    },
+    {
+      "prompt_bengali_md": "নিজের তথ্য বসিয়ে একই ধরনে বলুন।",
+      "model_target": "स्पीड पोस्ट बहुत तेज़ है।",
+      "model_bangla_pronunciation": "স্পীড পোস্ট বহুত তেজ হ্যায়।",
+      "model_romanization": "speed post bahut tez hai.",
+      "model_word_pronunciations": [
+        {
+          "target": "स्पीड",
+          "bangla_pronunciation": "স্পীড",
+          "romanization": "speed",
+          "separator_after": " "
+        },
+        {
+          "target": "पोस्ट",
+          "bangla_pronunciation": "পোস্ট",
+          "romanization": "post",
+          "separator_after": " "
+        },
+        {
+          "target": "बहुत",
+          "bangla_pronunciation": "বহুত",
+          "romanization": "bahut",
+          "separator_after": " "
+        },
+        {
+          "target": "तेज़",
+          "bangla_pronunciation": "তেজ",
+          "romanization": "tez",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "স্পিড পোস্ট খুব দ্রুত।"
+    },
+    {
+      "prompt_bengali_md": "ধীরে বলুন, তারপর স্বাভাবিক গতিতে বলুন।",
+      "model_target": "यहाँ सही पता लिखिए।",
+      "model_bangla_pronunciation": "যহাঁ সহী পতা লিখিএ।",
+      "model_romanization": "yahaan sahii pataa likhie.",
+      "model_word_pronunciations": [
+        {
+          "target": "यहाँ",
+          "bangla_pronunciation": "যহাঁ",
+          "romanization": "yahaan",
+          "separator_after": " "
+        },
+        {
+          "target": "सही",
+          "bangla_pronunciation": "সহী",
+          "romanization": "sahii",
+          "separator_after": " "
+        },
+        {
+          "target": "पता",
+          "bangla_pronunciation": "পতা",
+          "romanization": "pataa",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিএ।",
+          "romanization": "likhie.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "এখানে সঠিক ঠিকানা লিখুন।"
+    },
+    {
+      "prompt_bengali_md": "বাংলা অর্থ দেখে হিন্দি বাক্যটি বলুন।",
+      "model_target": "मुझे रसीद दीजिए।",
+      "model_bangla_pronunciation": "মুঝে রসীদ দিজিএ।",
+      "model_romanization": "mujhe raseed deejie.",
+      "model_word_pronunciations": [
+        {
+          "target": "मुझे",
+          "bangla_pronunciation": "মুঝে",
+          "romanization": "mujhe",
+          "separator_after": " "
+        },
+        {
+          "target": "रसीद",
+          "bangla_pronunciation": "রসীদ",
+          "romanization": "raseed",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দিজিএ।",
+          "romanization": "deejie.",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "আমাকে রসিদ দিন।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch022_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A bright contemporary South Asian everyday scene illustrating ডাকঘর ও পার্সেল through natural adult interaction at a post office counter, medium-wide framing, clear objects like parcels and envelopes, warm daylight, uncluttered composition, one strong focal action. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    },
+    {
+      "key": "ch022_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A different calm everyday scene for the same ডাকঘর ও পার্সেল topic, one adult sending a parcel and receiving a receipt, wider environmental framing than the first image, soft daylight, simple recognizable objects, clean editorial composition. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes, soft daylight, friendly contemporary South Asian setting, clear focal action."
+    }
+  ],
+  "additional_practice": []
+}

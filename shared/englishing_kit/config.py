@@ -22,9 +22,11 @@ ENV_FILE = REPO_ROOT / ".env"
 load_dotenv(ENV_FILE)
 
 BRAND = {
-    "name": "Englishing.app",
-    "site_url": "https://englishing.app",
-    "ebook_selling_url": "https://englishing.app/ebook/bangladesh",
+    "name": "Bidyazo.com",
+    "parent_brand": "Englishing.app",
+    "site_url": "https://bidyazo.com",
+    "parent_site_url": "https://englishing.app",
+    "ebook_selling_url": "https://bidyazo.com/ebook/bangladesh",
     "tagline": "Learn deeply. Remember longer.",
 }
 

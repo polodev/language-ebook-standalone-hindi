@@ -111,7 +111,7 @@
     {
       "id": "s02",
       "target": "लेखक तीन कारण प्रस्तुत करता है।",
-      "romanization": "lekhk teen kaar prstut krtaa hai",
+      "romanization": "lekhk teen kaaran prstut krtaa hai",
       "bangla_pronunciation": "লেখক তিন কারণ প্রস্তুত করতা হ্যায়।",
       "word_pronunciations": [
         {
@@ -156,7 +156,7 @@
     {
       "id": "s03",
       "target": "पहला कारण आँकड़ों पर आधारित है।",
-      "romanization": "phlaa kaar aankdon pr aadhaarit hai",
+      "romanization": "phlaa kaaran aankdon pr aadhaarit hai",
       "bangla_pronunciation": "পহলা কারণ আঁকড়োঁ পর আধারিত হ্যায়।",
       "word_pronunciations": [
         {
@@ -201,7 +201,7 @@
     {
       "id": "s04",
       "target": "दूसरा कारण व्यक्तिगत अनुभव से आता है।",
-      "romanization": "doosraa kaar vyktigt anubhv se aataa hai",
+      "romanization": "doosraa kaaran vyktigt anubhv se aataa hai",
       "bangla_pronunciation": "দূসরা কারণ ভ্যক্তিগত অনুভভ সে আতা হ্যায়।",
       "word_pronunciations": [
         {
@@ -252,7 +252,7 @@
     {
       "id": "s05",
       "target": "मुझे तीसरे दावे के लिए ज्यादा प्रमाण चाहिए।",
-      "romanization": "mujhe teesre daave ke lie jyaadaa prmaa chaahie",
+      "romanization": "mujhe teesre daave ke lie jyaadaa pramaan chaahie",
       "bangla_pronunciation": "মুঝে তীসরে দাভে কে লিয়ে জ্যাদা প্রমাণ চাহিয়ে।",
       "word_pronunciations": [
         {
@@ -441,7 +441,7 @@
         {
           "target": "चिंता",
           "bangla_pronunciation": "চিংতা",
-          "romanization": "ciNtaa",
+          "romanization": "chintaa",
           "separator_after": " "
         },
         {
@@ -741,7 +741,7 @@
     {
       "id": "s14",
       "target": "लेख में विरोधी दृष्टिकोण भी होना चाहिए था।",
-      "romanization": "lekh men virodhee drishtiko bhee honaa chaahie thaa",
+      "romanization": "lekh men virodhee drishtikon bhee honaa chaahie thaa",
       "bangla_pronunciation": "লেখ মেঁ ভিরোধী দৃষ্টিকোণ ভি হোনা চাহিয়ে থা।",
       "word_pronunciations": [
         {
@@ -1149,7 +1149,7 @@
       "id": "v03",
       "target": "प्रमाण",
       "type": "সঞ্জ্ঞা",
-      "romanization": "prmaa",
+      "romanization": "pramaan",
       "bangla_pronunciation": "প্রমাণ",
       "word_pronunciations": [
         {
@@ -1339,7 +1339,7 @@
         "kind": "target",
         "target": "मुझे तीसरे दावे के लिए ज्यादा प्रमाण चाहिए।",
         "bangla_pronunciation": "মুঝে তীসরে দাভে কে লিয়ে জ্যাদা প্রমাণ চাহিয়ে।",
-        "romanization": "mujhe teesre daave ke lie jyaadaa prmaa chaahie",
+        "romanization": "mujhe teesre daave ke lie jyaadaa pramaan chaahie",
         "word_pronunciations": [
           {
             "target": "मुझे",
@@ -1835,7 +1835,7 @@
       "prompt_bengali_md": "কারণ বা প্রেক্ষাপট বোঝাতে একটি মডেল বাক্য বলুন।",
       "model_target": "दूसरा कारण व्यक्तिगत अनुभव से आता है।",
       "model_bangla_pronunciation": "দূসরা কারণ ভ্যক্তিগত অনুভভ সে আতা হ্যায়।",
-      "model_romanization": "doosraa kaar vyktigt anubhv se aataa hai",
+      "model_romanization": "doosraa kaaran vyktigt anubhv se aataa hai",
       "model_word_pronunciations": [
         {
           "target": "दूसरा",

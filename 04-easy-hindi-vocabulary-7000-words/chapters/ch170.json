@@ -3,30 +3,36 @@
   "status": "drafted",
   "title_target": "नैतिक नेतृत्व और कार्यस्थल भरोसा",
   "title_bangla_pronunciation": "নৈতিক নেতৃত্ভ অউর কার্যস্থল ভরোসা",
+  "title_romanization": "naitika netritva aura kaaryasthala bharosaa",
   "title_word_pronunciations": [
     {
       "target": "नैतिक",
       "bangla_pronunciation": "নৈতিক",
+      "romanization": "naitik",
       "separator_after": " "
     },
     {
       "target": "नेतृत्व",
       "bangla_pronunciation": "নেতৃত্ভ",
+      "romanization": "netritv",
       "separator_after": " "
     },
     {
       "target": "और",
       "bangla_pronunciation": "অউর",
+      "romanization": "aur",
       "separator_after": " "
     },
     {
       "target": "कार्यस्थल",
       "bangla_pronunciation": "কার্যস্থল",
+      "romanization": "kaaryasthala",
       "separator_after": " "
     },
     {
       "target": "भरोसा",
       "bangla_pronunciation": "ভরোসা",
+      "romanization": "bhrosaa",
       "separator_after": ""
     }
   ],
@@ -36,47 +42,55 @@
     {
       "id": "ch170_s01",
       "target": "नैतिक-दुविधा और हित-संघर्ष-प्रकटीकरण इस विषय में महत्वपूर्ण हैं।",
-      "romanization": "naitika-duvidhaa aura hita-sangharsha-prakatiikarana isa vishaya men mahatvapuurna hain।",
+      "romanization": "naitika-duvidhaa aura hita-sangharsha-prakatiikarana isa vishaya men mahatvapuurna hain.",
       "bangla_pronunciation": "নৈতিক-দুভিধা অউর হিত-সংঘর্ষ-প্রকটীকরণ ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
       "word_pronunciations": [
         {
           "target": "नैतिक-दुविधा",
           "bangla_pronunciation": "নৈতিক-দুভিধা",
+          "romanization": "naitika-duvidhaa",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "हित-संघर्ष-प्रकटीकरण",
           "bangla_pronunciation": "হিত-সংঘর্ষ-প্রকটীকরণ",
+          "romanization": "hita-sangharsha-prakatiikarana",
           "separator_after": " "
         },
         {
           "target": "इस",
           "bangla_pronunciation": "ইস",
+          "romanization": "is",
           "separator_after": " "
         },
         {
           "target": "विषय",
           "bangla_pronunciation": "ভিষয়",
+          "romanization": "vishay",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "महत्वपूर्ण",
           "bangla_pronunciation": "মহত্বপূর্ণ",
+          "romanization": "mhtvpuurnn",
           "separator_after": " "
         },
         {
           "target": "हैं।",
           "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
           "separator_after": ""
         }
       ],
@@ -85,52 +99,61 @@
     {
       "id": "ch170_s02",
       "target": "नेतृत्व-जवाबदेही के साथ निर्णय-पारदर्शिता पर भी ध्यान देना चाहिए।",
-      "romanization": "netritva-javaabadehii ke saatha nirnaya-paaradarshitaa para bhii dhyaana denaa chaahie।",
+      "romanization": "netritva-javaabadehii ke saatha nirnaya-paaradarshitaa para bhii dhyaana denaa chaahie.",
       "bangla_pronunciation": "নেতৃত্ভ-জভাবদেহী কে সাথ নির্ণয-পারদর্শিতা পর ভী ধ্যান দেনা চাহিয়ে।",
       "word_pronunciations": [
         {
           "target": "नेतृत्व-जवाबदेही",
           "bangla_pronunciation": "নেতৃত্ভ-জভাবদেহী",
+          "romanization": "netritva-javaabadehii",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "निर्णय-पारदर्शिता",
           "bangla_pronunciation": "নির্ণয-পারদর্শিতা",
+          "romanization": "nirnaya-paaradarshitaa",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "देना",
           "bangla_pronunciation": "দেনা",
+          "romanization": "dena",
           "separator_after": " "
         },
         {
           "target": "चाहिए।",
           "bangla_pronunciation": "চাহিয়ে।",
+          "romanization": "chaahie.",
           "separator_after": ""
         }
       ],
@@ -139,72 +162,85 @@
     {
       "id": "ch170_s03",
       "target": "अगर गोपनीय-सूचना से जुड़ा मामला हो, तो नियम सब पर समान लागू करें।",
-      "romanization": "agara gopaniiya-suuchanaa se judaा maamalaa ho, to niyama saba para samaana laaguu karen।",
+      "romanization": "agara gopaniiya-suuchanaa se judaaa maamalaa ho, to niyama saba para samaana laaguu karen.",
       "bangla_pronunciation": "অগর গোপনীয-সূচনা সে জুডা মামলা হো, তো নিযম সব পর সমান লাগূ করেঁ।",
       "word_pronunciations": [
         {
           "target": "अगर",
           "bangla_pronunciation": "অগর",
+          "romanization": "agar",
           "separator_after": " "
         },
         {
           "target": "गोपनीय-सूचना",
           "bangla_pronunciation": "গোপনীয-সূচনা",
+          "romanization": "gopaniiya-suuchanaa",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "जुड़ा",
           "bangla_pronunciation": "জুডা",
+          "romanization": "juraa",
           "separator_after": " "
         },
         {
           "target": "मामला",
           "bangla_pronunciation": "মামলা",
+          "romanization": "maamlaa",
           "separator_after": " "
         },
         {
           "target": "हो,",
           "bangla_pronunciation": "হো,",
+          "romanization": "ho,",
           "separator_after": " "
         },
         {
           "target": "तो",
           "bangla_pronunciation": "তো",
+          "romanization": "to",
           "separator_after": " "
         },
         {
           "target": "नियम",
           "bangla_pronunciation": "নিযম",
+          "romanization": "niyam",
           "separator_after": " "
         },
         {
           "target": "सब",
           "bangla_pronunciation": "সব",
+          "romanization": "sab",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "समान",
           "bangla_pronunciation": "সমান",
+          "romanization": "samaan",
           "separator_after": " "
         },
         {
           "target": "लागू",
           "bangla_pronunciation": "লাগূ",
+          "romanization": "laagoo",
           "separator_after": " "
         },
         {
           "target": "करें।",
           "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
           "separator_after": ""
         }
       ],
@@ -213,47 +249,55 @@
     {
       "id": "ch170_s04",
       "target": "पक्षपात-जोखिम और प्रदर्शन-प्रतिक्रिया को साथ देखकर निर्णय लें।",
-      "romanization": "pakshapaata-jokhima aura pradarshana-pratikriyaa ko saatha dekhakara nirnaya len।",
+      "romanization": "pakshapaata-jokhima aura pradarshana-pratikriyaa ko saatha dekhakara nirnaya len.",
       "bangla_pronunciation": "পক্ষপাত-জোখিম অউর প্রদর্শন-প্রতিক্রিযা কো সাথ দেখকর নির্ণয় লেং।",
       "word_pronunciations": [
         {
           "target": "पक्षपात-जोखिम",
           "bangla_pronunciation": "পক্ষপাত-জোখিম",
+          "romanization": "pakshapaata-jokhima",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "प्रदर्शन-प्रतिक्रिया",
           "bangla_pronunciation": "প্রদর্শন-প্রতিক্রিযা",
+          "romanization": "pradarshana-pratikriyaa",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "देखकर",
           "bangla_pronunciation": "দেখকর",
+          "romanization": "dekhakar",
           "separator_after": " "
         },
         {
           "target": "निर्णय",
           "bangla_pronunciation": "নির্ণয়",
+          "romanization": "nirnay",
           "separator_after": " "
         },
         {
           "target": "लें।",
           "bangla_pronunciation": "লেং।",
+          "romanization": "len.",
           "separator_after": ""
         }
       ],
@@ -262,47 +306,55 @@
     {
       "id": "ch170_s05",
       "target": "भूमिका-स्पष्टता और अधिकार-प्रत्यायोजन की नियमित जाँच जरूरी है।",
-      "romanization": "bhuumikaa-spashtataa aura adhikaara-pratyaayojana kii niyamita jaancha jaruurii hai।",
+      "romanization": "bhuumikaa-spashtataa aura adhikaara-pratyaayojana kii niyamita jaancha jaruurii hai.",
       "bangla_pronunciation": "ভূমিকা-স্পষ্টতা অউর অধিকার-প্রত্যাযোজন কী নিয়মিত জাঁচ জরূরী হ্যায়।",
       "word_pronunciations": [
         {
           "target": "भूमिका-स्पष्टता",
           "bangla_pronunciation": "ভূমিকা-স্পষ্টতা",
+          "romanization": "bhuumikaa-spashtata",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "अधिकार-प्रत्यायोजन",
           "bangla_pronunciation": "অধিকার-প্রত্যাযোজন",
+          "romanization": "adhikaara-pratyaayojana",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "नियमित",
           "bangla_pronunciation": "নিয়মিত",
+          "romanization": "niymit",
           "separator_after": " "
         },
         {
           "target": "जाँच",
           "bangla_pronunciation": "জাঁচ",
+          "romanization": "jaanch",
           "separator_after": " "
         },
         {
           "target": "जरूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -311,52 +363,61 @@
     {
       "id": "ch170_s06",
       "target": "मनोवैज्ञानिक-सुरक्षा पर ध्यान दें और गलती स्वीकार करके सुधारें।",
-      "romanization": "manovaijnyaanika-surakshaa para dhyaana den aura galatii sviikaara karake sudhaaren।",
+      "romanization": "manovaijnyaanika-surakshaa para dhyaana den aura galatii sviikaara karake sudhaaren.",
       "bangla_pronunciation": "মনোভৈজ্ঞানিক-সুরক্ষা পর ধ্যান দেঁ অউর গলতী স্ভীকার করকে সুধারেং।",
       "word_pronunciations": [
         {
           "target": "मनोवैज्ञानिक-सुरक्षा",
           "bangla_pronunciation": "মনোভৈজ্ঞানিক-সুরক্ষা",
+          "romanization": "manovaijnyaanika-surakshaa",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दें",
           "bangla_pronunciation": "দেঁ",
+          "romanization": "den",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "गलती",
           "bangla_pronunciation": "গলতী",
+          "romanization": "galatee",
           "separator_after": " "
         },
         {
           "target": "स्वीकार",
           "bangla_pronunciation": "স্ভীকার",
+          "romanization": "sveekaar",
           "separator_after": " "
         },
         {
           "target": "करके",
           "bangla_pronunciation": "করকে",
+          "romanization": "karake",
           "separator_after": " "
         },
         {
           "target": "सुधारें।",
           "bangla_pronunciation": "সুধারেং।",
+          "romanization": "sudhaaren.",
           "separator_after": ""
         }
       ],
@@ -365,52 +426,61 @@
     {
       "id": "ch170_s07",
       "target": "प्रतिशोध-रोकथाम और आचार-संहिता को एक साथ समझना उपयोगी है।",
-      "romanization": "pratishodha-rokathaama aura aachaara-sanhitaa ko eka saatha samajhanaa upayogii hai।",
+      "romanization": "pratishodha-rokathaama aura aachaara-sanhitaa ko eka saatha samajhanaa upayogii hai.",
       "bangla_pronunciation": "প্রতিশোধ-রোকথাম অউর আচার-সংহিতা কো এক সাথ সমঝনা উপযোগী হ্যায়।",
       "word_pronunciations": [
         {
           "target": "प्रतिशोध-रोकथाम",
           "bangla_pronunciation": "প্রতিশোধ-রোকথাম",
+          "romanization": "pratishodha-rokathaama",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "आचार-संहिता",
           "bangla_pronunciation": "আচার-সংহিতা",
+          "romanization": "aachaara-sanhitaa",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "एक",
           "bangla_pronunciation": "এক",
+          "romanization": "ek",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "समझना",
           "bangla_pronunciation": "সমঝনা",
+          "romanization": "samajhana",
           "separator_after": " "
         },
         {
           "target": "उपयोगी",
           "bangla_pronunciation": "উপযোগী",
+          "romanization": "upayogii",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -419,47 +489,55 @@
     {
       "id": "ch170_s08",
       "target": "हितधारक-प्रभाव के साथ नैतिक-मापदंड पर भी ध्यान दें।",
-      "romanization": "hitadhaaraka-prabhaava ke saatha naitika-maapadanda para bhii dhyaana den।",
+      "romanization": "hitadhaaraka-prabhaava ke saatha naitika-maapadanda para bhii dhyaana den.",
       "bangla_pronunciation": "হিতধারক-প্রভাভ কে সাথ নৈতিক-মাপদংড পর ভী ধ্যান দেঁ।",
       "word_pronunciations": [
         {
           "target": "हितधारक-प्रभाव",
           "bangla_pronunciation": "হিতধারক-প্রভাভ",
+          "romanization": "hitadhaaraka-prabhaava",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "नैतिक-मापदंड",
           "bangla_pronunciation": "নৈতিক-মাপদংড",
+          "romanization": "naitika-maapadanda",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दें।",
           "bangla_pronunciation": "দেঁ।",
+          "romanization": "den.",
           "separator_after": ""
         }
       ],
@@ -468,57 +546,67 @@
     {
       "id": "ch170_s09",
       "target": "जब रिपोर्टिंग-चैनल जरूरी हो, तो संदेह होने पर सलाह लें।",
-      "romanization": "jaba riportinga-chainala jaruurii ho, to sandeha hone para salaaha len।",
+      "romanization": "jaba riportinga-chainala jaruurii ho, to sandeha hone para salaaha len.",
       "bangla_pronunciation": "জব রিপোর্টিংগ-চৈনল জরূরী হো, তো সংদেহ হোনে পর সলাহ লেং।",
       "word_pronunciations": [
         {
           "target": "जब",
           "bangla_pronunciation": "জব",
+          "romanization": "jab",
           "separator_after": " "
         },
         {
           "target": "रिपोर्टिंग-चैनल",
           "bangla_pronunciation": "রিপোর্টিংগ-চৈনল",
+          "romanization": "riportinga-chainala",
           "separator_after": " "
         },
         {
           "target": "जरूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
           "separator_after": " "
         },
         {
           "target": "हो,",
           "bangla_pronunciation": "হো,",
+          "romanization": "ho,",
           "separator_after": " "
         },
         {
           "target": "तो",
           "bangla_pronunciation": "তো",
+          "romanization": "to",
           "separator_after": " "
         },
         {
           "target": "संदेह",
           "bangla_pronunciation": "সংদেহ",
+          "romanization": "sandeh",
           "separator_after": " "
         },
         {
           "target": "होने",
           "bangla_pronunciation": "হোনে",
+          "romanization": "hone",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "सलाह",
           "bangla_pronunciation": "সলাহ",
+          "romanization": "slaah",
           "separator_after": " "
         },
         {
           "target": "लें।",
           "bangla_pronunciation": "লেং।",
+          "romanization": "len.",
           "separator_after": ""
         }
       ],
@@ -527,47 +615,55 @@
     {
       "id": "ch170_s10",
       "target": "भेदभाव-रोकथाम और निष्पक्ष-मूल्यांकन की प्रक्रिया स्पष्ट होनी चाहिए।",
-      "romanization": "bhedabhaava-rokathaama aura nishpaksha-muulyaankana kii prakriyaa spashta honii chaahie।",
+      "romanization": "bhedabhaava-rokathaama aura nishpaksha-muulyaankana kii prakriyaa spashta honii chaahie.",
       "bangla_pronunciation": "ভেদভাভ-রোকথাম অউর নিষ্পক্ষ-মূল্যাংকন কী প্রক্রিযা স্পষ্ট হোনী চাহিয়ে।",
       "word_pronunciations": [
         {
           "target": "भेदभाव-रोकथाम",
           "bangla_pronunciation": "ভেদভাভ-রোকথাম",
+          "romanization": "bhedabhaava-rokathaama",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "निष्पक्ष-मूल्यांकन",
           "bangla_pronunciation": "নিষ্পক্ষ-মূল্যাংকন",
+          "romanization": "nishpaksha-muulyaankana",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "प्रक्रिया",
           "bangla_pronunciation": "প্রক্রিযা",
+          "romanization": "prkriyaa",
           "separator_after": " "
         },
         {
           "target": "स्पष्ट",
           "bangla_pronunciation": "স্পষ্ট",
+          "romanization": "spasht",
           "separator_after": " "
         },
         {
           "target": "होनी",
           "bangla_pronunciation": "হোনী",
+          "romanization": "honee",
           "separator_after": " "
         },
         {
           "target": "चाहिए।",
           "bangla_pronunciation": "চাহিয়ে।",
+          "romanization": "chaahie.",
           "separator_after": ""
         }
       ],
@@ -576,37 +672,43 @@
     {
       "id": "ch170_s11",
       "target": "शिकायत-गोपनीयता की नियमित समीक्षा जरूरी है।",
-      "romanization": "shikaayata-gopaniiyataa kii niyamita samiikshaa jaruurii hai।",
+      "romanization": "shikaayata-gopaniiyataa kii niyamita samiikshaa jaruurii hai.",
       "bangla_pronunciation": "শিকাযত-গোপনীযতা কী নিয়মিত সমীক্ষা জরূরী হ্যায়।",
       "word_pronunciations": [
         {
           "target": "शिकायत-गोपनीयता",
           "bangla_pronunciation": "শিকাযত-গোপনীযতা",
+          "romanization": "shikaayata-gopaniiyataa",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "नियमित",
           "bangla_pronunciation": "নিয়মিত",
+          "romanization": "niymit",
           "separator_after": " "
         },
         {
           "target": "समीक्षा",
           "bangla_pronunciation": "সমীক্ষা",
+          "romanization": "smiikssaa",
           "separator_after": " "
         },
         {
           "target": "जरूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -615,42 +717,49 @@
     {
       "id": "ch170_s12",
       "target": "अनुशासन-प्रक्रिया को स्पष्ट रूप से दर्ज करें।",
-      "romanization": "anushaasana-prakriyaa ko spashta ruupa se darja karen।",
+      "romanization": "anushaasana-prakriyaa ko spashta ruupa se darja karen.",
       "bangla_pronunciation": "অনুশাসন-প্রক্রিযা কো স্পষ্ট রূপ সে দর্জ করেঁ।",
       "word_pronunciations": [
         {
           "target": "अनुशासन-प्रक्रिया",
           "bangla_pronunciation": "অনুশাসন-প্রক্রিযা",
+          "romanization": "anushaasana-prakriyaa",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "स्पष्ट",
           "bangla_pronunciation": "স্পষ্ট",
+          "romanization": "spasht",
           "separator_after": " "
         },
         {
           "target": "रूप",
           "bangla_pronunciation": "রূপ",
+          "romanization": "roop",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "दर्ज",
           "bangla_pronunciation": "দর্জ",
+          "romanization": "darj",
           "separator_after": " "
         },
         {
           "target": "करें।",
           "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
           "separator_after": ""
         }
       ],
@@ -659,42 +768,49 @@
     {
       "id": "ch170_s13",
       "target": "पारदर्शी-निर्णय का आधार स्पष्ट रूप से समझें।",
-      "romanization": "paaradarshii-nirnaya kaa aadhaara spashta ruupa se samajhen।",
+      "romanization": "paaradarshii-nirnaya kaa aadhaara spashta ruupa se samajhen.",
       "bangla_pronunciation": "পারদর্শী-নির্ণয কা আধার স্পষ্ট রূপ সে সমঝেঁ।",
       "word_pronunciations": [
         {
           "target": "पारदर्शी-निर्णय",
           "bangla_pronunciation": "পারদর্শী-নির্ণয",
+          "romanization": "paaradarshii-nirnaya",
           "separator_after": " "
         },
         {
           "target": "का",
           "bangla_pronunciation": "কা",
+          "romanization": "kaa",
           "separator_after": " "
         },
         {
           "target": "आधार",
           "bangla_pronunciation": "আধার",
+          "romanization": "aadhaar",
           "separator_after": " "
         },
         {
           "target": "स्पष्ट",
           "bangla_pronunciation": "স্পষ্ট",
+          "romanization": "spasht",
           "separator_after": " "
         },
         {
           "target": "रूप",
           "bangla_pronunciation": "রূপ",
+          "romanization": "roop",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "समझें।",
           "bangla_pronunciation": "সমঝেঁ।",
+          "romanization": "samajhen.",
           "separator_after": ""
         }
       ],
@@ -703,27 +819,31 @@
     {
       "id": "ch170_s14",
       "target": "हितों का खुलासा करें।",
-      "romanization": "hiton kaa khulaasaa karen।",
+      "romanization": "hiton kaa khulaasaa karen.",
       "bangla_pronunciation": "হিতোং কা খুলাসা করেঁ।",
       "word_pronunciations": [
         {
           "target": "हितों",
           "bangla_pronunciation": "হিতোং",
+          "romanization": "hiton",
           "separator_after": " "
         },
         {
           "target": "का",
           "bangla_pronunciation": "কা",
+          "romanization": "kaa",
           "separator_after": " "
         },
         {
           "target": "खुलासा",
           "bangla_pronunciation": "খুলাসা",
+          "romanization": "khulaasaa",
           "separator_after": " "
         },
         {
           "target": "करें।",
           "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
           "separator_after": ""
         }
       ],
@@ -732,42 +852,49 @@
     {
       "id": "ch170_s15",
       "target": "जिम्मेदार-नेतृत्व के लिए जिम्मेदारी तय होनी चाहिए।",
-      "romanization": "jimmedaara-netritva ke lie jimmedaarii taya honii chaahie।",
+      "romanization": "jimmedaara-netritva ke lie jimmedaarii taya honii chaahie.",
       "bangla_pronunciation": "জিম্মেদার-নেতৃত্ভ কে লিয়ে জিম্মেদারী তয হোনী চাহিয়ে।",
       "word_pronunciations": [
         {
           "target": "जिम्मेदार-नेतृत्व",
           "bangla_pronunciation": "জিম্মেদার-নেতৃত্ভ",
+          "romanization": "jimmedaara-netritva",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "लिए",
           "bangla_pronunciation": "লিয়ে",
+          "romanization": "lie",
           "separator_after": " "
         },
         {
           "target": "जिम्मेदारी",
           "bangla_pronunciation": "জিম্মেদারী",
+          "romanization": "jimmedaarii",
           "separator_after": " "
         },
         {
           "target": "तय",
           "bangla_pronunciation": "তয",
+          "romanization": "tay",
           "separator_after": " "
         },
         {
           "target": "होनी",
           "bangla_pronunciation": "হোনী",
+          "romanization": "honee",
           "separator_after": " "
         },
         {
           "target": "चाहिए।",
           "bangla_pronunciation": "চাহিয়ে।",
+          "romanization": "chaahie.",
           "separator_after": ""
         }
       ],
@@ -776,47 +903,55 @@
     {
       "id": "ch170_s16",
       "target": "संस्थागत-विश्वास के बारे में स्पष्ट जानकारी होनी चाहिए।",
-      "romanization": "sansthaagata-vishvaasa ke baare men spashta jaanakaarii honii chaahie।",
+      "romanization": "sansthaagata-vishvaasa ke baare men spashta jaanakaarii honii chaahie.",
       "bangla_pronunciation": "সংস্থাগত-ভিশ্ভাস কে বারে মেঁ স্পষ্ট জানকারী হোনী চাহিয়ে।",
       "word_pronunciations": [
         {
           "target": "संस्थागत-विश्वास",
           "bangla_pronunciation": "সংস্থাগত-ভিশ্ভাস",
+          "romanization": "sansthaagata-vishvaasa",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "बारे",
           "bangla_pronunciation": "বারে",
+          "romanization": "baare",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "स्पष्ट",
           "bangla_pronunciation": "স্পষ্ট",
+          "romanization": "spasht",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
           "separator_after": " "
         },
         {
           "target": "होनी",
           "bangla_pronunciation": "হোনী",
+          "romanization": "honee",
           "separator_after": " "
         },
         {
           "target": "चाहिए।",
           "bangla_pronunciation": "চাহিয়ে।",
+          "romanization": "chaahie.",
           "separator_after": ""
         }
       ],
@@ -825,37 +960,43 @@
     {
       "id": "ch170_s17",
       "target": "सुधारात्मक-कार्रवाई पर नियमित निगरानी जरूरी है।",
-      "romanization": "sudhaaraatmaka-kaarravaaii para niyamita nigaraanii jaruurii hai।",
+      "romanization": "sudhaaraatmaka-kaarravaaii para niyamita nigaraanii jaruurii hai.",
       "bangla_pronunciation": "সুধারাত্মক-কার্রভাঈ পর নিয়মিত নিগরানী জরূরী হ্যায়।",
       "word_pronunciations": [
         {
           "target": "सुधारात्मक-कार्रवाई",
           "bangla_pronunciation": "সুধারাত্মক-কার্রভাঈ",
+          "romanization": "sudhaaraatmaka-kaarravaaii",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "नियमित",
           "bangla_pronunciation": "নিয়মিত",
+          "romanization": "niymit",
           "separator_after": " "
         },
         {
           "target": "निगरानी",
           "bangla_pronunciation": "নিগরানী",
+          "romanization": "nigarani",
           "separator_after": " "
         },
         {
           "target": "जरूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -864,37 +1005,43 @@
     {
       "id": "ch170_s18",
       "target": "शक्ति-दुरुपयोग पर समय रहते कार्रवाई करें।",
-      "romanization": "shakti-durupayoga para samaya rahate kaarravaaii karen।",
+      "romanization": "shakti-durupayoga para samaya rahate kaarravaaii karen.",
       "bangla_pronunciation": "শক্তি-দুরুপযোগ পর সময় রহতে কার্রভাঈ করেঁ।",
       "word_pronunciations": [
         {
           "target": "शक्ति-दुरुपयोग",
           "bangla_pronunciation": "শক্তি-দুরুপযোগ",
+          "romanization": "shakti-durupayoga",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "समय",
           "bangla_pronunciation": "সময়",
+          "romanization": "samay",
           "separator_after": " "
         },
         {
           "target": "रहते",
           "bangla_pronunciation": "রহতে",
+          "romanization": "rahate",
           "separator_after": " "
         },
         {
           "target": "कार्रवाई",
           "bangla_pronunciation": "কার্রভাঈ",
+          "romanization": "kaarrvaaee",
           "separator_after": " "
         },
         {
           "target": "करें।",
           "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
           "separator_after": ""
         }
       ],
@@ -903,37 +1050,43 @@
     {
       "id": "ch170_s19",
       "target": "नैतिक-संगति पर ध्यान देना जरूरी है।",
-      "romanization": "naitika-sangati para dhyaana denaa jaruurii hai।",
+      "romanization": "naitika-sangati para dhyaana denaa jaruurii hai.",
       "bangla_pronunciation": "নৈতিক-সংগতি পর ধ্যান দেনা জরূরী হ্যায়।",
       "word_pronunciations": [
         {
           "target": "नैतिक-संगति",
           "bangla_pronunciation": "নৈতিক-সংগতি",
+          "romanization": "naitika-sangati",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "देना",
           "bangla_pronunciation": "দেনা",
+          "romanization": "dena",
           "separator_after": " "
         },
         {
           "target": "जरूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -942,37 +1095,43 @@
     {
       "id": "ch170_s20",
       "target": "दबाव में भी नियम न तोड़ें।",
-      "romanization": "dabaava men bhii niyama na todaेn।",
+      "romanization": "dabaava men bhii niyama na todaen.",
       "bangla_pronunciation": "দবাভ মেঁ ভী নিযম ন তোডেং।",
       "word_pronunciations": [
         {
           "target": "दबाव",
           "bangla_pronunciation": "দবাভ",
+          "romanization": "dabaav",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "नियम",
           "bangla_pronunciation": "নিযম",
+          "romanization": "niyam",
           "separator_after": " "
         },
         {
           "target": "न",
           "bangla_pronunciation": "ন",
+          "romanization": "na",
           "separator_after": " "
         },
         {
           "target": "तोड़ें।",
           "bangla_pronunciation": "তোডেং।",
+          "romanization": "toren.",
           "separator_after": ""
         }
       ],
@@ -991,6 +1150,7 @@
         {
           "target": "नैतिक-दुविधा",
           "bangla_pronunciation": "নৈতিক-দুভিধা",
+          "romanization": "naitika-duvidhaa",
           "separator_after": ""
         }
       ],
@@ -999,45 +1159,54 @@
       "source_form": "नैतिक-दुविधा",
       "example_target": "नैतिक-दुविधा और हित-संघर्ष-प्रकटीकरण इस विषय में महत्वपूर्ण हैं।",
       "example_bangla_pronunciation": "নৈতিক-দুভিধা অউর হিত-সংঘর্ষ-প্রকটীকরণ ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+      "example_romanization": "naitika-duvidhaa aura hita-sangharsha-prakatiikarana isa vishaya men mahatvapuurna hain.",
       "example_word_pronunciations": [
         {
           "target": "नैतिक-दुविधा",
           "bangla_pronunciation": "নৈতিক-দুভিধা",
+          "romanization": "naitika-duvidhaa",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "हित-संघर्ष-प्रकटीकरण",
           "bangla_pronunciation": "হিত-সংঘর্ষ-প্রকটীকরণ",
+          "romanization": "hita-sangharsha-prakatiikarana",
           "separator_after": " "
         },
         {
           "target": "इस",
           "bangla_pronunciation": "ইস",
+          "romanization": "is",
           "separator_after": " "
         },
         {
           "target": "विषय",
           "bangla_pronunciation": "ভিষয়",
+          "romanization": "vishay",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "महत्वपूर्ण",
           "bangla_pronunciation": "মহত্বপূর্ণ",
+          "romanization": "mhtvpuurnn",
           "separator_after": " "
         },
         {
           "target": "हैं।",
           "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
           "separator_after": ""
         }
       ],
@@ -1055,6 +1224,7 @@
         {
           "target": "हित-संघर्ष-प्रकटीकरण",
           "bangla_pronunciation": "হিত-সংঘর্ষ-প্রকটীকরণ",
+          "romanization": "hita-sangharsha-prakatiikarana",
           "separator_after": ""
         }
       ],
@@ -1063,45 +1233,54 @@
       "source_form": "हित-संघर्ष-प्रकटीकरण",
       "example_target": "नैतिक-दुविधा और हित-संघर्ष-प्रकटीकरण इस विषय में महत्वपूर्ण हैं।",
       "example_bangla_pronunciation": "নৈতিক-দুভিধা অউর হিত-সংঘর্ষ-প্রকটীকরণ ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+      "example_romanization": "naitika-duvidhaa aura hita-sangharsha-prakatiikarana isa vishaya men mahatvapuurna hain.",
       "example_word_pronunciations": [
         {
           "target": "नैतिक-दुविधा",
           "bangla_pronunciation": "নৈতিক-দুভিধা",
+          "romanization": "naitika-duvidhaa",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "हित-संघर्ष-प्रकटीकरण",
           "bangla_pronunciation": "হিত-সংঘর্ষ-প্রকটীকরণ",
+          "romanization": "hita-sangharsha-prakatiikarana",
           "separator_after": " "
         },
         {
           "target": "इस",
           "bangla_pronunciation": "ইস",
+          "romanization": "is",
           "separator_after": " "
         },
         {
           "target": "विषय",
           "bangla_pronunciation": "ভিষয়",
+          "romanization": "vishay",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "महत्वपूर्ण",
           "bangla_pronunciation": "মহত্বপূর্ণ",
+          "romanization": "mhtvpuurnn",
           "separator_after": " "
         },
         {
           "target": "हैं।",
           "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
           "separator_after": ""
         }
       ],
@@ -1119,6 +1298,7 @@
         {
           "target": "नेतृत्व-जवाबदेही",
           "bangla_pronunciation": "নেতৃত্ভ-জভাবদেহী",
+          "romanization": "netritva-javaabadehii",
           "separator_after": ""
         }
       ],
@@ -1127,50 +1307,60 @@
       "source_form": "नेतृत्व-जवाबदेही",
       "example_target": "नेतृत्व-जवाबदेही के साथ निर्णय-पारदर्शिता पर भी ध्यान देना चाहिए।",
       "example_bangla_pronunciation": "নেতৃত্ভ-জভাবদেহী কে সাথ নির্ণয-পারদর্শিতা পর ভী ধ্যান দেনা চাহিয়ে।",
+      "example_romanization": "netritva-javaabadehii ke saatha nirnaya-paaradarshitaa para bhii dhyaana denaa chaahie.",
       "example_word_pronunciations": [
         {
           "target": "नेतृत्व-जवाबदेही",
           "bangla_pronunciation": "নেতৃত্ভ-জভাবদেহী",
+          "romanization": "netritva-javaabadehii",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "निर्णय-पारदर्शिता",
           "bangla_pronunciation": "নির্ণয-পারদর্শিতা",
+          "romanization": "nirnaya-paaradarshitaa",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "देना",
           "bangla_pronunciation": "দেনা",
+          "romanization": "dena",
           "separator_after": " "
         },
         {
           "target": "चाहिए।",
           "bangla_pronunciation": "চাহিয়ে।",
+          "romanization": "chaahie.",
           "separator_after": ""
         }
       ],
@@ -1188,6 +1378,7 @@
         {
           "target": "निर्णय-पारदर्शिता",
           "bangla_pronunciation": "নির্ণয-পারদর্শিতা",
+          "romanization": "nirnaya-paaradarshitaa",
           "separator_after": ""
         }
       ],
@@ -1196,50 +1387,60 @@
       "source_form": "निर्णय-पारदर्शिता",
       "example_target": "नेतृत्व-जवाबदेही के साथ निर्णय-पारदर्शिता पर भी ध्यान देना चाहिए।",
       "example_bangla_pronunciation": "নেতৃত্ভ-জভাবদেহী কে সাথ নির্ণয-পারদর্শিতা পর ভী ধ্যান দেনা চাহিয়ে।",
+      "example_romanization": "netritva-javaabadehii ke saatha nirnaya-paaradarshitaa para bhii dhyaana denaa chaahie.",
       "example_word_pronunciations": [
         {
           "target": "नेतृत्व-जवाबदेही",
           "bangla_pronunciation": "নেতৃত্ভ-জভাবদেহী",
+          "romanization": "netritva-javaabadehii",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "निर्णय-पारदर्शिता",
           "bangla_pronunciation": "নির্ণয-পারদর্শিতা",
+          "romanization": "nirnaya-paaradarshitaa",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "देना",
           "bangla_pronunciation": "দেনা",
+          "romanization": "dena",
           "separator_after": " "
         },
         {
           "target": "चाहिए।",
           "bangla_pronunciation": "চাহিয়ে।",
+          "romanization": "chaahie.",
           "separator_after": ""
         }
       ],
@@ -1257,6 +1458,7 @@
         {
           "target": "गोपनीय-सूचना",
           "bangla_pronunciation": "গোপনীয-সূচনা",
+          "romanization": "gopaniiya-suuchanaa",
           "separator_after": ""
         }
       ],
@@ -1265,70 +1467,84 @@
       "source_form": "गोपनीय-सूचना",
       "example_target": "अगर गोपनीय-सूचना से जुड़ा मामला हो, तो नियम सब पर समान लागू करें।",
       "example_bangla_pronunciation": "অগর গোপনীয-সূচনা সে জুডা মামলা হো, তো নিযম সব পর সমান লাগূ করেঁ।",
+      "example_romanization": "agara gopaniiya-suuchanaa se judaaa maamalaa ho, to niyama saba para samaana laaguu karen.",
       "example_word_pronunciations": [
         {
           "target": "अगर",
           "bangla_pronunciation": "অগর",
+          "romanization": "agar",
           "separator_after": " "
         },
         {
           "target": "गोपनीय-सूचना",
           "bangla_pronunciation": "গোপনীয-সূচনা",
+          "romanization": "gopaniiya-suuchanaa",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "जुड़ा",
           "bangla_pronunciation": "জুডা",
+          "romanization": "juraa",
           "separator_after": " "
         },
         {
           "target": "मामला",
           "bangla_pronunciation": "মামলা",
+          "romanization": "maamlaa",
           "separator_after": " "
         },
         {
           "target": "हो,",
           "bangla_pronunciation": "হো,",
+          "romanization": "ho,",
           "separator_after": " "
         },
         {
           "target": "तो",
           "bangla_pronunciation": "তো",
+          "romanization": "to",
           "separator_after": " "
         },
         {
           "target": "नियम",
           "bangla_pronunciation": "নিযম",
+          "romanization": "niyam",
           "separator_after": " "
         },
         {
           "target": "सब",
           "bangla_pronunciation": "সব",
+          "romanization": "sab",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "समान",
           "bangla_pronunciation": "সমান",
+          "romanization": "samaan",
           "separator_after": " "
         },
         {
           "target": "लागू",
           "bangla_pronunciation": "লাগূ",
+          "romanization": "laagoo",
           "separator_after": " "
         },
         {
           "target": "करें।",
           "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
           "separator_after": ""
         }
       ],
@@ -1346,31 +1562,37 @@
         {
           "target": "नियम",
           "bangla_pronunciation": "নিযম",
+          "romanization": "niyam",
           "separator_after": " "
         },
         {
           "target": "सब",
           "bangla_pronunciation": "সব",
+          "romanization": "sab",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "समान",
           "bangla_pronunciation": "সমান",
+          "romanization": "samaan",
           "separator_after": " "
         },
         {
           "target": "लागू",
           "bangla_pronunciation": "লাগূ",
+          "romanization": "laagoo",
           "separator_after": " "
         },
         {
           "target": "करें",
           "bangla_pronunciation": "করেঁ",
+          "romanization": "karen",
           "separator_after": ""
         }
       ],
@@ -1379,70 +1601,84 @@
       "source_form": "नियम सब पर समान लागू करें",
       "example_target": "अगर गोपनीय-सूचना से जुड़ा मामला हो, तो नियम सब पर समान लागू करें।",
       "example_bangla_pronunciation": "অগর গোপনীয-সূচনা সে জুডা মামলা হো, তো নিযম সব পর সমান লাগূ করেঁ।",
+      "example_romanization": "agara gopaniiya-suuchanaa se judaaa maamalaa ho, to niyama saba para samaana laaguu karen.",
       "example_word_pronunciations": [
         {
           "target": "अगर",
           "bangla_pronunciation": "অগর",
+          "romanization": "agar",
           "separator_after": " "
         },
         {
           "target": "गोपनीय-सूचना",
           "bangla_pronunciation": "গোপনীয-সূচনা",
+          "romanization": "gopaniiya-suuchanaa",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "जुड़ा",
           "bangla_pronunciation": "জুডা",
+          "romanization": "juraa",
           "separator_after": " "
         },
         {
           "target": "मामला",
           "bangla_pronunciation": "মামলা",
+          "romanization": "maamlaa",
           "separator_after": " "
         },
         {
           "target": "हो,",
           "bangla_pronunciation": "হো,",
+          "romanization": "ho,",
           "separator_after": " "
         },
         {
           "target": "तो",
           "bangla_pronunciation": "তো",
+          "romanization": "to",
           "separator_after": " "
         },
         {
           "target": "नियम",
           "bangla_pronunciation": "নিযম",
+          "romanization": "niyam",
           "separator_after": " "
         },
         {
           "target": "सब",
           "bangla_pronunciation": "সব",
+          "romanization": "sab",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "समान",
           "bangla_pronunciation": "সমান",
+          "romanization": "samaan",
           "separator_after": " "
         },
         {
           "target": "लागू",
           "bangla_pronunciation": "লাগূ",
+          "romanization": "laagoo",
           "separator_after": " "
         },
         {
           "target": "करें।",
           "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
           "separator_after": ""
         }
       ],
@@ -1460,6 +1696,7 @@
         {
           "target": "पक्षपात-जोखिम",
           "bangla_pronunciation": "পক্ষপাত-জোখিম",
+          "romanization": "pakshapaata-jokhima",
           "separator_after": ""
         }
       ],
@@ -1468,45 +1705,54 @@
       "source_form": "पक्षपात-जोखिम",
       "example_target": "पक्षपात-जोखिम और प्रदर्शन-प्रतिक्रिया को साथ देखकर निर्णय लें।",
       "example_bangla_pronunciation": "পক্ষপাত-জোখিম অউর প্রদর্শন-প্রতিক্রিযা কো সাথ দেখকর নির্ণয় লেং।",
+      "example_romanization": "pakshapaata-jokhima aura pradarshana-pratikriyaa ko saatha dekhakara nirnaya len.",
       "example_word_pronunciations": [
         {
           "target": "पक्षपात-जोखिम",
           "bangla_pronunciation": "পক্ষপাত-জোখিম",
+          "romanization": "pakshapaata-jokhima",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "प्रदर्शन-प्रतिक्रिया",
           "bangla_pronunciation": "প্রদর্শন-প্রতিক্রিযা",
+          "romanization": "pradarshana-pratikriyaa",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "देखकर",
           "bangla_pronunciation": "দেখকর",
+          "romanization": "dekhakar",
           "separator_after": " "
         },
         {
           "target": "निर्णय",
           "bangla_pronunciation": "নির্ণয়",
+          "romanization": "nirnay",
           "separator_after": " "
         },
         {
           "target": "लें।",
           "bangla_pronunciation": "লেং।",
+          "romanization": "len.",
           "separator_after": ""
         }
       ],
@@ -1524,6 +1770,7 @@
         {
           "target": "प्रदर्शन-प्रतिक्रिया",
           "bangla_pronunciation": "প্রদর্শন-প্রতিক্রিযা",
+          "romanization": "pradarshana-pratikriyaa",
           "separator_after": ""
         }
       ],
@@ -1532,45 +1779,54 @@
       "source_form": "प्रदर्शन-प्रतिक्रिया",
       "example_target": "पक्षपात-जोखिम और प्रदर्शन-प्रतिक्रिया को साथ देखकर निर्णय लें।",
       "example_bangla_pronunciation": "পক্ষপাত-জোখিম অউর প্রদর্শন-প্রতিক্রিযা কো সাথ দেখকর নির্ণয় লেং।",
+      "example_romanization": "pakshapaata-jokhima aura pradarshana-pratikriyaa ko saatha dekhakara nirnaya len.",
       "example_word_pronunciations": [
         {
           "target": "पक्षपात-जोखिम",
           "bangla_pronunciation": "পক্ষপাত-জোখিম",
+          "romanization": "pakshapaata-jokhima",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "प्रदर्शन-प्रतिक्रिया",
           "bangla_pronunciation": "প্রদর্শন-প্রতিক্রিযা",
+          "romanization": "pradarshana-pratikriyaa",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "देखकर",
           "bangla_pronunciation": "দেখকর",
+          "romanization": "dekhakar",
           "separator_after": " "
         },
         {
           "target": "निर्णय",
           "bangla_pronunciation": "নির্ণয়",
+          "romanization": "nirnay",
           "separator_after": " "
         },
         {
           "target": "लें।",
           "bangla_pronunciation": "লেং।",
+          "romanization": "len.",
           "separator_after": ""
         }
       ],
@@ -1588,6 +1844,7 @@
         {
           "target": "भूमिका-स्पष्टता",
           "bangla_pronunciation": "ভূমিকা-স্পষ্টতা",
+          "romanization": "bhuumikaa-spashtata",
           "separator_after": ""
         }
       ],
@@ -1596,45 +1853,54 @@
       "source_form": "भूमिका-स्पष्टता",
       "example_target": "भूमिका-स्पष्टता और अधिकार-प्रत्यायोजन की नियमित जाँच जरूरी है।",
       "example_bangla_pronunciation": "ভূমিকা-স্পষ্টতা অউর অধিকার-প্রত্যাযোজন কী নিয়মিত জাঁচ জরূরী হ্যায়।",
+      "example_romanization": "bhuumikaa-spashtataa aura adhikaara-pratyaayojana kii niyamita jaancha jaruurii hai.",
       "example_word_pronunciations": [
         {
           "target": "भूमिका-स्पष्टता",
           "bangla_pronunciation": "ভূমিকা-স্পষ্টতা",
+          "romanization": "bhuumikaa-spashtata",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "अधिकार-प्रत्यायोजन",
           "bangla_pronunciation": "অধিকার-প্রত্যাযোজন",
+          "romanization": "adhikaara-pratyaayojana",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "नियमित",
           "bangla_pronunciation": "নিয়মিত",
+          "romanization": "niymit",
           "separator_after": " "
         },
         {
           "target": "जाँच",
           "bangla_pronunciation": "জাঁচ",
+          "romanization": "jaanch",
           "separator_after": " "
         },
         {
           "target": "जरूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -1652,6 +1918,7 @@
         {
           "target": "अधिकार-प्रत्यायोजन",
           "bangla_pronunciation": "অধিকার-প্রত্যাযোজন",
+          "romanization": "adhikaara-pratyaayojana",
           "separator_after": ""
         }
       ],
@@ -1660,45 +1927,54 @@
       "source_form": "अधिकार-प्रत्यायोजन",
       "example_target": "भूमिका-स्पष्टता और अधिकार-प्रत्यायोजन की नियमित जाँच जरूरी है।",
       "example_bangla_pronunciation": "ভূমিকা-স্পষ্টতা অউর অধিকার-প্রত্যাযোজন কী নিয়মিত জাঁচ জরূরী হ্যায়।",
+      "example_romanization": "bhuumikaa-spashtataa aura adhikaara-pratyaayojana kii niyamita jaancha jaruurii hai.",
       "example_word_pronunciations": [
         {
           "target": "भूमिका-स्पष्टता",
           "bangla_pronunciation": "ভূমিকা-স্পষ্টতা",
+          "romanization": "bhuumikaa-spashtata",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "अधिकार-प्रत्यायोजन",
           "bangla_pronunciation": "অধিকার-প্রত্যাযোজন",
+          "romanization": "adhikaara-pratyaayojana",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "नियमित",
           "bangla_pronunciation": "নিয়মিত",
+          "romanization": "niymit",
           "separator_after": " "
         },
         {
           "target": "जाँच",
           "bangla_pronunciation": "জাঁচ",
+          "romanization": "jaanch",
           "separator_after": " "
         },
         {
           "target": "जरूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -1716,6 +1992,7 @@
         {
           "target": "मनोवैज्ञानिक-सुरक्षा",
           "bangla_pronunciation": "মনোভৈজ্ঞানিক-সুরক্ষা",
+          "romanization": "manovaijnyaanika-surakshaa",
           "separator_after": ""
         }
       ],
@@ -1724,50 +2001,60 @@
       "source_form": "मनोवैज्ञानिक-सुरक्षा",
       "example_target": "मनोवैज्ञानिक-सुरक्षा पर ध्यान दें और गलती स्वीकार करके सुधारें।",
       "example_bangla_pronunciation": "মনোভৈজ্ঞানিক-সুরক্ষা পর ধ্যান দেঁ অউর গলতী স্ভীকার করকে সুধারেং।",
+      "example_romanization": "manovaijnyaanika-surakshaa para dhyaana den aura galatii sviikaara karake sudhaaren.",
       "example_word_pronunciations": [
         {
           "target": "मनोवैज्ञानिक-सुरक्षा",
           "bangla_pronunciation": "মনোভৈজ্ঞানিক-সুরক্ষা",
+          "romanization": "manovaijnyaanika-surakshaa",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दें",
           "bangla_pronunciation": "দেঁ",
+          "romanization": "den",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "गलती",
           "bangla_pronunciation": "গলতী",
+          "romanization": "galatee",
           "separator_after": " "
         },
         {
           "target": "स्वीकार",
           "bangla_pronunciation": "স্ভীকার",
+          "romanization": "sveekaar",
           "separator_after": " "
         },
         {
           "target": "करके",
           "bangla_pronunciation": "করকে",
+          "romanization": "karake",
           "separator_after": " "
         },
         {
           "target": "सुधारें।",
           "bangla_pronunciation": "সুধারেং।",
+          "romanization": "sudhaaren.",
           "separator_after": ""
         }
       ],
@@ -1785,21 +2072,25 @@
         {
           "target": "गलती",
           "bangla_pronunciation": "গলতী",
+          "romanization": "galatee",
           "separator_after": " "
         },
         {
           "target": "स्वीकार",
           "bangla_pronunciation": "স্ভীকার",
+          "romanization": "sveekaar",
           "separator_after": " "
         },
         {
           "target": "करके",
           "bangla_pronunciation": "করকে",
+          "romanization": "karake",
           "separator_after": " "
         },
         {
           "target": "सुधारें",
           "bangla_pronunciation": "সুধারেং",
+          "romanization": "sudhaaren",
           "separator_after": ""
         }
       ],
@@ -1808,50 +2099,60 @@
       "source_form": "गलती स्वीकार करके सुधारें",
       "example_target": "मनोवैज्ञानिक-सुरक्षा पर ध्यान दें और गलती स्वीकार करके सुधारें।",
       "example_bangla_pronunciation": "মনোভৈজ্ঞানিক-সুরক্ষা পর ধ্যান দেঁ অউর গলতী স্ভীকার করকে সুধারেং।",
+      "example_romanization": "manovaijnyaanika-surakshaa para dhyaana den aura galatii sviikaara karake sudhaaren.",
       "example_word_pronunciations": [
         {
           "target": "मनोवैज्ञानिक-सुरक्षा",
           "bangla_pronunciation": "মনোভৈজ্ঞানিক-সুরক্ষা",
+          "romanization": "manovaijnyaanika-surakshaa",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दें",
           "bangla_pronunciation": "দেঁ",
+          "romanization": "den",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "गलती",
           "bangla_pronunciation": "গলতী",
+          "romanization": "galatee",
           "separator_after": " "
         },
         {
           "target": "स्वीकार",
           "bangla_pronunciation": "স্ভীকার",
+          "romanization": "sveekaar",
           "separator_after": " "
         },
         {
           "target": "करके",
           "bangla_pronunciation": "করকে",
+          "romanization": "karake",
           "separator_after": " "
         },
         {
           "target": "सुधारें।",
           "bangla_pronunciation": "সুধারেং।",
+          "romanization": "sudhaaren.",
           "separator_after": ""
         }
       ],
@@ -1869,6 +2170,7 @@
         {
           "target": "प्रतिशोध-रोकथाम",
           "bangla_pronunciation": "প্রতিশোধ-রোকথাম",
+          "romanization": "pratishodha-rokathaama",
           "separator_after": ""
         }
       ],
@@ -1877,50 +2179,60 @@
       "source_form": "प्रतिशोध-रोकथाम",
       "example_target": "प्रतिशोध-रोकथाम और आचार-संहिता को एक साथ समझना उपयोगी है।",
       "example_bangla_pronunciation": "প্রতিশোধ-রোকথাম অউর আচার-সংহিতা কো এক সাথ সমঝনা উপযোগী হ্যায়।",
+      "example_romanization": "pratishodha-rokathaama aura aachaara-sanhitaa ko eka saatha samajhanaa upayogii hai.",
       "example_word_pronunciations": [
         {
           "target": "प्रतिशोध-रोकथाम",
           "bangla_pronunciation": "প্রতিশোধ-রোকথাম",
+          "romanization": "pratishodha-rokathaama",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "आचार-संहिता",
           "bangla_pronunciation": "আচার-সংহিতা",
+          "romanization": "aachaara-sanhitaa",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "एक",
           "bangla_pronunciation": "এক",
+          "romanization": "ek",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "समझना",
           "bangla_pronunciation": "সমঝনা",
+          "romanization": "samajhana",
           "separator_after": " "
         },
         {
           "target": "उपयोगी",
           "bangla_pronunciation": "উপযোগী",
+          "romanization": "upayogii",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -1938,6 +2250,7 @@
         {
           "target": "आचार-संहिता",
           "bangla_pronunciation": "আচার-সংহিতা",
+          "romanization": "aachaara-sanhitaa",
           "separator_after": ""
         }
       ],
@@ -1946,50 +2259,60 @@
       "source_form": "आचार-संहिता",
       "example_target": "प्रतिशोध-रोकथाम और आचार-संहिता को एक साथ समझना उपयोगी है।",
       "example_bangla_pronunciation": "প্রতিশোধ-রোকথাম অউর আচার-সংহিতা কো এক সাথ সমঝনা উপযোগী হ্যায়।",
+      "example_romanization": "pratishodha-rokathaama aura aachaara-sanhitaa ko eka saatha samajhanaa upayogii hai.",
       "example_word_pronunciations": [
         {
           "target": "प्रतिशोध-रोकथाम",
           "bangla_pronunciation": "প্রতিশোধ-রোকথাম",
+          "romanization": "pratishodha-rokathaama",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "आचार-संहिता",
           "bangla_pronunciation": "আচার-সংহিতা",
+          "romanization": "aachaara-sanhitaa",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "एक",
           "bangla_pronunciation": "এক",
+          "romanization": "ek",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "समझना",
           "bangla_pronunciation": "সমঝনা",
+          "romanization": "samajhana",
           "separator_after": " "
         },
         {
           "target": "उपयोगी",
           "bangla_pronunciation": "উপযোগী",
+          "romanization": "upayogii",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -2007,6 +2330,7 @@
         {
           "target": "हितधारक-प्रभाव",
           "bangla_pronunciation": "হিতধারক-প্রভাভ",
+          "romanization": "hitadhaaraka-prabhaava",
           "separator_after": ""
         }
       ],
@@ -2015,45 +2339,54 @@
       "source_form": "हितधारक-प्रभाव",
       "example_target": "हितधारक-प्रभाव के साथ नैतिक-मापदंड पर भी ध्यान दें।",
       "example_bangla_pronunciation": "হিতধারক-প্রভাভ কে সাথ নৈতিক-মাপদংড পর ভী ধ্যান দেঁ।",
+      "example_romanization": "hitadhaaraka-prabhaava ke saatha naitika-maapadanda para bhii dhyaana den.",
       "example_word_pronunciations": [
         {
           "target": "हितधारक-प्रभाव",
           "bangla_pronunciation": "হিতধারক-প্রভাভ",
+          "romanization": "hitadhaaraka-prabhaava",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "नैतिक-मापदंड",
           "bangla_pronunciation": "নৈতিক-মাপদংড",
+          "romanization": "naitika-maapadanda",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दें।",
           "bangla_pronunciation": "দেঁ।",
+          "romanization": "den.",
           "separator_after": ""
         }
       ],
@@ -2071,6 +2404,7 @@
         {
           "target": "नैतिक-मापदंड",
           "bangla_pronunciation": "নৈতিক-মাপদংড",
+          "romanization": "naitika-maapadanda",
           "separator_after": ""
         }
       ],
@@ -2079,45 +2413,54 @@
       "source_form": "नैतिक-मापदंड",
       "example_target": "हितधारक-प्रभाव के साथ नैतिक-मापदंड पर भी ध्यान दें।",
       "example_bangla_pronunciation": "হিতধারক-প্রভাভ কে সাথ নৈতিক-মাপদংড পর ভী ধ্যান দেঁ।",
+      "example_romanization": "hitadhaaraka-prabhaava ke saatha naitika-maapadanda para bhii dhyaana den.",
       "example_word_pronunciations": [
         {
           "target": "हितधारक-प्रभाव",
           "bangla_pronunciation": "হিতধারক-প্রভাভ",
+          "romanization": "hitadhaaraka-prabhaava",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "साथ",
           "bangla_pronunciation": "সাথ",
+          "romanization": "saath",
           "separator_after": " "
         },
         {
           "target": "नैतिक-मापदंड",
           "bangla_pronunciation": "নৈতিক-মাপদংড",
+          "romanization": "naitika-maapadanda",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दें।",
           "bangla_pronunciation": "দেঁ।",
+          "romanization": "den.",
           "separator_after": ""
         }
       ],
@@ -2135,6 +2478,7 @@
         {
           "target": "रिपोर्टिंग-चैनल",
           "bangla_pronunciation": "রিপোর্টিংগ-চৈনল",
+          "romanization": "riportinga-chainala",
           "separator_after": ""
         }
       ],
@@ -2143,55 +2487,66 @@
       "source_form": "रिपोर्टिंग-चैनल",
       "example_target": "जब रिपोर्टिंग-चैनल जरूरी हो, तो संदेह होने पर सलाह लें।",
       "example_bangla_pronunciation": "জব রিপোর্টিংগ-চৈনল জরূরী হো, তো সংদেহ হোনে পর সলাহ লেং।",
+      "example_romanization": "jaba riportinga-chainala jaruurii ho, to sandeha hone para salaaha len.",
       "example_word_pronunciations": [
         {
           "target": "जब",
           "bangla_pronunciation": "জব",
+          "romanization": "jab",
           "separator_after": " "
         },
         {
           "target": "रिपोर्टिंग-चैनल",
           "bangla_pronunciation": "রিপোর্টিংগ-চৈনল",
+          "romanization": "riportinga-chainala",
           "separator_after": " "
         },
         {
           "target": "जरूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
           "separator_after": " "
         },
         {
           "target": "हो,",
           "bangla_pronunciation": "হো,",
+          "romanization": "ho,",
           "separator_after": " "
         },
         {
           "target": "तो",
           "bangla_pronunciation": "তো",
+          "romanization": "to",
           "separator_after": " "
         },
         {
           "target": "संदेह",
           "bangla_pronunciation": "সংদেহ",
+          "romanization": "sandeh",
           "separator_after": " "
         },
         {
           "target": "होने",
           "bangla_pronunciation": "হোনে",
+          "romanization": "hone",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "सलाह",
           "bangla_pronunciation": "সলাহ",
+          "romanization": "slaah",
           "separator_after": " "
         },
         {
           "target": "लें।",
           "bangla_pronunciation": "লেং।",
+          "romanization": "len.",
           "separator_after": ""
         }
       ],
@@ -2209,26 +2564,31 @@
         {
           "target": "संदेह",
           "bangla_pronunciation": "সংদেহ",
+          "romanization": "sandeh",
           "separator_after": " "
         },
         {
           "target": "होने",
           "bangla_pronunciation": "হোনে",
+          "romanization": "hone",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "सलाह",
           "bangla_pronunciation": "সলাহ",
+          "romanization": "slaah",
           "separator_after": " "
         },
         {
           "target": "लें",
           "bangla_pronunciation": "লেং",
+          "romanization": "len",
           "separator_after": ""
         }
       ],
@@ -2237,55 +2597,66 @@
       "source_form": "संदेह होने पर सलाह लें",
       "example_target": "जब रिपोर्टिंग-चैनल जरूरी हो, तो संदेह होने पर सलाह लें।",
       "example_bangla_pronunciation": "জব রিপোর্টিংগ-চৈনল জরূরী হো, তো সংদেহ হোনে পর সলাহ লেং।",
+      "example_romanization": "jaba riportinga-chainala jaruurii ho, to sandeha hone para salaaha len.",
       "example_word_pronunciations": [
         {
           "target": "जब",
           "bangla_pronunciation": "জব",
+          "romanization": "jab",
           "separator_after": " "
         },
         {
           "target": "रिपोर्टिंग-चैनल",
           "bangla_pronunciation": "রিপোর্টিংগ-চৈনল",
+          "romanization": "riportinga-chainala",
           "separator_after": " "
         },
         {
           "target": "जरूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
           "separator_after": " "
         },
         {
           "target": "हो,",
           "bangla_pronunciation": "হো,",
+          "romanization": "ho,",
           "separator_after": " "
         },
         {
           "target": "तो",
           "bangla_pronunciation": "তো",
+          "romanization": "to",
           "separator_after": " "
         },
         {
           "target": "संदेह",
           "bangla_pronunciation": "সংদেহ",
+          "romanization": "sandeh",
           "separator_after": " "
         },
         {
           "target": "होने",
           "bangla_pronunciation": "হোনে",
+          "romanization": "hone",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "सलाह",
           "bangla_pronunciation": "সলাহ",
+          "romanization": "slaah",
           "separator_after": " "
         },
         {
           "target": "लें।",
           "bangla_pronunciation": "লেং।",
+          "romanization": "len.",
           "separator_after": ""
         }
       ],
@@ -2303,6 +2674,7 @@
         {
           "target": "भेदभाव-रोकथाम",
           "bangla_pronunciation": "ভেদভাভ-রোকথাম",
+          "romanization": "bhedabhaava-rokathaama",
           "separator_after": ""
         }
       ],
@@ -2311,45 +2683,54 @@
       "source_form": "भेदभाव-रोकथाम",
       "example_target": "भेदभाव-रोकथाम और निष्पक्ष-मूल्यांकन की प्रक्रिया स्पष्ट होनी चाहिए।",
       "example_bangla_pronunciation": "ভেদভাভ-রোকথাম অউর নিষ্পক্ষ-মূল্যাংকন কী প্রক্রিযা স্পষ্ট হোনী চাহিয়ে।",
+      "example_romanization": "bhedabhaava-rokathaama aura nishpaksha-muulyaankana kii prakriyaa spashta honii chaahie.",
       "example_word_pronunciations": [
         {
           "target": "भेदभाव-रोकथाम",
           "bangla_pronunciation": "ভেদভাভ-রোকথাম",
+          "romanization": "bhedabhaava-rokathaama",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "निष्पक्ष-मूल्यांकन",
           "bangla_pronunciation": "নিষ্পক্ষ-মূল্যাংকন",
+          "romanization": "nishpaksha-muulyaankana",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "प्रक्रिया",
           "bangla_pronunciation": "প্রক্রিযা",
+          "romanization": "prkriyaa",
           "separator_after": " "
         },
         {
           "target": "स्पष्ट",
           "bangla_pronunciation": "স্পষ্ট",
+          "romanization": "spasht",
           "separator_after": " "
         },
         {
           "target": "होनी",
           "bangla_pronunciation": "হোনী",
+          "romanization": "honee",
           "separator_after": " "
         },
         {
           "target": "चाहिए।",
           "bangla_pronunciation": "চাহিয়ে।",
+          "romanization": "chaahie.",
           "separator_after": ""
         }
       ],
@@ -2367,6 +2748,7 @@
         {
           "target": "निष्पक्ष-मूल्यांकन",
           "bangla_pronunciation": "নিষ্পক্ষ-মূল্যাংকন",
+          "romanization": "nishpaksha-muulyaankana",
           "separator_after": ""
         }
       ],
@@ -2375,45 +2757,54 @@
       "source_form": "निष्पक्ष-मूल्यांकन",
       "example_target": "भेदभाव-रोकथाम और निष्पक्ष-मूल्यांकन की प्रक्रिया स्पष्ट होनी चाहिए।",
       "example_bangla_pronunciation": "ভেদভাভ-রোকথাম অউর নিষ্পক্ষ-মূল্যাংকন কী প্রক্রিযা স্পষ্ট হোনী চাহিয়ে।",
+      "example_romanization": "bhedabhaava-rokathaama aura nishpaksha-muulyaankana kii prakriyaa spashta honii chaahie.",
       "example_word_pronunciations": [
         {
           "target": "भेदभाव-रोकथाम",
           "bangla_pronunciation": "ভেদভাভ-রোকথাম",
+          "romanization": "bhedabhaava-rokathaama",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "निष्पक्ष-मूल्यांकन",
           "bangla_pronunciation": "নিষ্পক্ষ-মূল্যাংকন",
+          "romanization": "nishpaksha-muulyaankana",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "प्रक्रिया",
           "bangla_pronunciation": "প্রক্রিযা",
+          "romanization": "prkriyaa",
           "separator_after": " "
         },
         {
           "target": "स्पष्ट",
           "bangla_pronunciation": "স্পষ্ট",
+          "romanization": "spasht",
           "separator_after": " "
         },
         {
           "target": "होनी",
           "bangla_pronunciation": "হোনী",
+          "romanization": "honee",
           "separator_after": " "
         },
         {
           "target": "चाहिए।",
           "bangla_pronunciation": "চাহিয়ে।",
+          "romanization": "chaahie.",
           "separator_after": ""
         }
       ],
@@ -2431,6 +2822,7 @@
         {
           "target": "शिकायत-गोपनीयता",
           "bangla_pronunciation": "শিকাযত-গোপনীযতা",
+          "romanization": "shikaayata-gopaniiyataa",
           "separator_after": ""
         }
       ],
@@ -2439,35 +2831,42 @@
       "source_form": "शिकायत-गोपनीयता",
       "example_target": "शिकायत-गोपनीयता की नियमित समीक्षा जरूरी है।",
       "example_bangla_pronunciation": "শিকাযত-গোপনীযতা কী নিয়মিত সমীক্ষা জরূরী হ্যায়।",
+      "example_romanization": "shikaayata-gopaniiyataa kii niyamita samiikshaa jaruurii hai.",
       "example_word_pronunciations": [
         {
           "target": "शिकायत-गोपनीयता",
           "bangla_pronunciation": "শিকাযত-গোপনীযতা",
+          "romanization": "shikaayata-gopaniiyataa",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "नियमित",
           "bangla_pronunciation": "নিয়মিত",
+          "romanization": "niymit",
           "separator_after": " "
         },
         {
           "target": "समीक्षा",
           "bangla_pronunciation": "সমীক্ষা",
+          "romanization": "smiikssaa",
           "separator_after": " "
         },
         {
           "target": "जरूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -2485,6 +2884,7 @@
         {
           "target": "अनुशासन-प्रक्रिया",
           "bangla_pronunciation": "অনুশাসন-প্রক্রিযা",
+          "romanization": "anushaasana-prakriyaa",
           "separator_after": ""
         }
       ],
@@ -2493,40 +2893,48 @@
       "source_form": "अनुशासन-प्रक्रिया",
       "example_target": "अनुशासन-प्रक्रिया को स्पष्ट रूप से दर्ज करें।",
       "example_bangla_pronunciation": "অনুশাসন-প্রক্রিযা কো স্পষ্ট রূপ সে দর্জ করেঁ।",
+      "example_romanization": "anushaasana-prakriyaa ko spashta ruupa se darja karen.",
       "example_word_pronunciations": [
         {
           "target": "अनुशासन-प्रक्रिया",
           "bangla_pronunciation": "অনুশাসন-প্রক্রিযা",
+          "romanization": "anushaasana-prakriyaa",
           "separator_after": " "
         },
         {
           "target": "को",
           "bangla_pronunciation": "কো",
+          "romanization": "ko",
           "separator_after": " "
         },
         {
           "target": "स्पष्ट",
           "bangla_pronunciation": "স্পষ্ট",
+          "romanization": "spasht",
           "separator_after": " "
         },
         {
           "target": "रूप",
           "bangla_pronunciation": "রূপ",
+          "romanization": "roop",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "दर्ज",
           "bangla_pronunciation": "দর্জ",
+          "romanization": "darj",
           "separator_after": " "
         },
         {
           "target": "करें।",
           "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
           "separator_after": ""
         }
       ],
@@ -2544,6 +2952,7 @@
         {
           "target": "पारदर्शी-निर्णय",
           "bangla_pronunciation": "পারদর্শী-নির্ণয",
+          "romanization": "paaradarshii-nirnaya",
           "separator_after": ""
         }
       ],
@@ -2552,40 +2961,48 @@
       "source_form": "पारदर्शी-निर्णय",
       "example_target": "पारदर्शी-निर्णय का आधार स्पष्ट रूप से समझें।",
       "example_bangla_pronunciation": "পারদর্শী-নির্ণয কা আধার স্পষ্ট রূপ সে সমঝেঁ।",
+      "example_romanization": "paaradarshii-nirnaya kaa aadhaara spashta ruupa se samajhen.",
       "example_word_pronunciations": [
         {
           "target": "पारदर्शी-निर्णय",
           "bangla_pronunciation": "পারদর্শী-নির্ণয",
+          "romanization": "paaradarshii-nirnaya",
           "separator_after": " "
         },
         {
           "target": "का",
           "bangla_pronunciation": "কা",
+          "romanization": "kaa",
           "separator_after": " "
         },
         {
           "target": "आधार",
           "bangla_pronunciation": "আধার",
+          "romanization": "aadhaar",
           "separator_after": " "
         },
         {
           "target": "स्पष्ट",
           "bangla_pronunciation": "স্পষ্ট",
+          "romanization": "spasht",
           "separator_after": " "
         },
         {
           "target": "रूप",
           "bangla_pronunciation": "রূপ",
+          "romanization": "roop",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "समझें।",
           "bangla_pronunciation": "সমঝেঁ।",
+          "romanization": "samajhen.",
           "separator_after": ""
         }
       ],
@@ -2603,21 +3020,25 @@
         {
           "target": "हितों",
           "bangla_pronunciation": "হিতোং",
+          "romanization": "hiton",
           "separator_after": " "
         },
         {
           "target": "का",
           "bangla_pronunciation": "কা",
+          "romanization": "kaa",
           "separator_after": " "
         },
         {
           "target": "खुलासा",
           "bangla_pronunciation": "খুলাসা",
+          "romanization": "khulaasaa",
           "separator_after": " "
         },
         {
           "target": "करें",
           "bangla_pronunciation": "করেঁ",
+          "romanization": "karen",
           "separator_after": ""
         }
       ],
@@ -2626,25 +3047,30 @@
       "source_form": "हितों का खुलासा करें",
       "example_target": "हितों का खुलासा करें।",
       "example_bangla_pronunciation": "হিতোং কা খুলাসা করেঁ।",
+      "example_romanization": "hiton kaa khulaasaa karen.",
       "example_word_pronunciations": [
         {
           "target": "हितों",
           "bangla_pronunciation": "হিতোং",
+          "romanization": "hiton",
           "separator_after": " "
         },
         {
           "target": "का",
           "bangla_pronunciation": "কা",
+          "romanization": "kaa",
           "separator_after": " "
         },
         {
           "target": "खुलासा",
           "bangla_pronunciation": "খুলাসা",
+          "romanization": "khulaasaa",
           "separator_after": " "
         },
         {
           "target": "करें।",
           "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
           "separator_after": ""
         }
       ],
@@ -2662,6 +3088,7 @@
         {
           "target": "जिम्मेदार-नेतृत्व",
           "bangla_pronunciation": "জিম্মেদার-নেতৃত্ভ",
+          "romanization": "jimmedaara-netritva",
           "separator_after": ""
         }
       ],
@@ -2670,40 +3097,48 @@
       "source_form": "जिम्मेदार-नेतृत्व",
       "example_target": "जिम्मेदार-नेतृत्व के लिए जिम्मेदारी तय होनी चाहिए।",
       "example_bangla_pronunciation": "জিম্মেদার-নেতৃত্ভ কে লিয়ে জিম্মেদারী তয হোনী চাহিয়ে।",
+      "example_romanization": "jimmedaara-netritva ke lie jimmedaarii taya honii chaahie.",
       "example_word_pronunciations": [
         {
           "target": "जिम्मेदार-नेतृत्व",
           "bangla_pronunciation": "জিম্মেদার-নেতৃত্ভ",
+          "romanization": "jimmedaara-netritva",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "लिए",
           "bangla_pronunciation": "লিয়ে",
+          "romanization": "lie",
           "separator_after": " "
         },
         {
           "target": "जिम्मेदारी",
           "bangla_pronunciation": "জিম্মেদারী",
+          "romanization": "jimmedaarii",
           "separator_after": " "
         },
         {
           "target": "तय",
           "bangla_pronunciation": "তয",
+          "romanization": "tay",
           "separator_after": " "
         },
         {
           "target": "होनी",
           "bangla_pronunciation": "হোনী",
+          "romanization": "honee",
           "separator_after": " "
         },
         {
           "target": "चाहिए।",
           "bangla_pronunciation": "চাহিয়ে।",
+          "romanization": "chaahie.",
           "separator_after": ""
         }
       ],
@@ -2721,6 +3156,7 @@
         {
           "target": "संस्थागत-विश्वास",
           "bangla_pronunciation": "সংস্থাগত-ভিশ্ভাস",
+          "romanization": "sansthaagata-vishvaasa",
           "separator_after": ""
         }
       ],
@@ -2729,45 +3165,54 @@
       "source_form": "संस्थागत-विश्वास",
       "example_target": "संस्थागत-विश्वास के बारे में स्पष्ट जानकारी होनी चाहिए।",
       "example_bangla_pronunciation": "সংস্থাগত-ভিশ্ভাস কে বারে মেঁ স্পষ্ট জানকারী হোনী চাহিয়ে।",
+      "example_romanization": "sansthaagata-vishvaasa ke baare men spashta jaanakaarii honii chaahie.",
       "example_word_pronunciations": [
         {
           "target": "संस्थागत-विश्वास",
           "bangla_pronunciation": "সংস্থাগত-ভিশ্ভাস",
+          "romanization": "sansthaagata-vishvaasa",
           "separator_after": " "
         },
         {
           "target": "के",
           "bangla_pronunciation": "কে",
+          "romanization": "ke",
           "separator_after": " "
         },
         {
           "target": "बारे",
           "bangla_pronunciation": "বারে",
+          "romanization": "baare",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "स्पष्ट",
           "bangla_pronunciation": "স্পষ্ট",
+          "romanization": "spasht",
           "separator_after": " "
         },
         {
           "target": "जानकारी",
           "bangla_pronunciation": "জানকারী",
+          "romanization": "jaanakaarii",
           "separator_after": " "
         },
         {
           "target": "होनी",
           "bangla_pronunciation": "হোনী",
+          "romanization": "honee",
           "separator_after": " "
         },
         {
           "target": "चाहिए।",
           "bangla_pronunciation": "চাহিয়ে।",
+          "romanization": "chaahie.",
           "separator_after": ""
         }
       ],
@@ -2785,6 +3230,7 @@
         {
           "target": "सुधारात्मक-कार्रवाई",
           "bangla_pronunciation": "সুধারাত্মক-কার্রভাঈ",
+          "romanization": "sudhaaraatmaka-kaarravaaii",
           "separator_after": ""
         }
       ],
@@ -2793,35 +3239,42 @@
       "source_form": "सुधारात्मक-कार्रवाई",
       "example_target": "सुधारात्मक-कार्रवाई पर नियमित निगरानी जरूरी है।",
       "example_bangla_pronunciation": "সুধারাত্মক-কার্রভাঈ পর নিয়মিত নিগরানী জরূরী হ্যায়।",
+      "example_romanization": "sudhaaraatmaka-kaarravaaii para niyamita nigaraanii jaruurii hai.",
       "example_word_pronunciations": [
         {
           "target": "सुधारात्मक-कार्रवाई",
           "bangla_pronunciation": "সুধারাত্মক-কার্রভাঈ",
+          "romanization": "sudhaaraatmaka-kaarravaaii",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "नियमित",
           "bangla_pronunciation": "নিয়মিত",
+          "romanization": "niymit",
           "separator_after": " "
         },
         {
           "target": "निगरानी",
           "bangla_pronunciation": "নিগরানী",
+          "romanization": "nigarani",
           "separator_after": " "
         },
         {
           "target": "जरूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -2839,6 +3292,7 @@
         {
           "target": "शक्ति-दुरुपयोग",
           "bangla_pronunciation": "শক্তি-দুরুপযোগ",
+          "romanization": "shakti-durupayoga",
           "separator_after": ""
         }
       ],
@@ -2847,35 +3301,42 @@
       "source_form": "शक्ति-दुरुपयोग",
       "example_target": "शक्ति-दुरुपयोग पर समय रहते कार्रवाई करें।",
       "example_bangla_pronunciation": "শক্তি-দুরুপযোগ পর সময় রহতে কার্রভাঈ করেঁ।",
+      "example_romanization": "shakti-durupayoga para samaya rahate kaarravaaii karen.",
       "example_word_pronunciations": [
         {
           "target": "शक्ति-दुरुपयोग",
           "bangla_pronunciation": "শক্তি-দুরুপযোগ",
+          "romanization": "shakti-durupayoga",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "समय",
           "bangla_pronunciation": "সময়",
+          "romanization": "samay",
           "separator_after": " "
         },
         {
           "target": "रहते",
           "bangla_pronunciation": "রহতে",
+          "romanization": "rahate",
           "separator_after": " "
         },
         {
           "target": "कार्रवाई",
           "bangla_pronunciation": "কার্রভাঈ",
+          "romanization": "kaarrvaaee",
           "separator_after": " "
         },
         {
           "target": "करें।",
           "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
           "separator_after": ""
         }
       ],
@@ -2893,6 +3354,7 @@
         {
           "target": "नैतिक-संगति",
           "bangla_pronunciation": "নৈতিক-সংগতি",
+          "romanization": "naitika-sangati",
           "separator_after": ""
         }
       ],
@@ -2901,35 +3363,42 @@
       "source_form": "नैतिक-संगति",
       "example_target": "नैतिक-संगति पर ध्यान देना जरूरी है।",
       "example_bangla_pronunciation": "নৈতিক-সংগতি পর ধ্যান দেনা জরূরী হ্যায়।",
+      "example_romanization": "naitika-sangati para dhyaana denaa jaruurii hai.",
       "example_word_pronunciations": [
         {
           "target": "नैतिक-संगति",
           "bangla_pronunciation": "নৈতিক-সংগতি",
+          "romanization": "naitika-sangati",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "देना",
           "bangla_pronunciation": "দেনা",
+          "romanization": "dena",
           "separator_after": " "
         },
         {
           "target": "जरूरी",
           "bangla_pronunciation": "জরূরী",
+          "romanization": "jarooree",
           "separator_after": " "
         },
         {
           "target": "है।",
           "bangla_pronunciation": "হ্যায়।",
+          "romanization": "hai.",
           "separator_after": ""
         }
       ],
@@ -2941,37 +3410,43 @@
       "target": "दबाव में भी नियम न तोड़ें",
       "category": "expression",
       "type": "expression",
-      "romanization": "dabaava men bhii niyama na todaेn",
+      "romanization": "dabaava men bhii niyama na todaen",
       "bangla_pronunciation": "দবাভ মেঁ ভী নিযম ন তোডেং",
       "word_pronunciations": [
         {
           "target": "दबाव",
           "bangla_pronunciation": "দবাভ",
+          "romanization": "dabaav",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "नियम",
           "bangla_pronunciation": "নিযম",
+          "romanization": "niyam",
           "separator_after": " "
         },
         {
           "target": "न",
           "bangla_pronunciation": "ন",
+          "romanization": "na",
           "separator_after": " "
         },
         {
           "target": "तोड़ें",
           "bangla_pronunciation": "তোডেং",
+          "romanization": "toren",
           "separator_after": ""
         }
       ],
@@ -2980,35 +3455,42 @@
       "source_form": "दबाव में भी नियम न तोड़ें",
       "example_target": "दबाव में भी नियम न तोड़ें।",
       "example_bangla_pronunciation": "দবাভ মেঁ ভী নিযম ন তোডেং।",
+      "example_romanization": "dabaava men bhii niyama na todaen.",
       "example_word_pronunciations": [
         {
           "target": "दबाव",
           "bangla_pronunciation": "দবাভ",
+          "romanization": "dabaav",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "नियम",
           "bangla_pronunciation": "নিযম",
+          "romanization": "niyam",
           "separator_after": " "
         },
         {
           "target": "न",
           "bangla_pronunciation": "ন",
+          "romanization": "na",
           "separator_after": " "
         },
         {
           "target": "तोड़ें।",
           "bangla_pronunciation": "তোডেং।",
+          "romanization": "toren.",
           "separator_after": ""
         }
       ],
@@ -3029,45 +3511,54 @@
         "kind": "target",
         "target": "नैतिक-दुविधा और हित-संघर्ष-प्रकटीकरण इस विषय में महत्वपूर्ण हैं।",
         "bangla_pronunciation": "নৈতিক-দুভিধা অউর হিত-সংঘর্ষ-প্রকটীকরণ ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+        "romanization": "naitika-duvidhaa aura hita-sangharsha-prakatiikarana isa vishaya men mahatvapuurna hain.",
         "word_pronunciations": [
           {
             "target": "नैतिक-दुविधा",
             "bangla_pronunciation": "নৈতিক-দুভিধা",
+            "romanization": "naitika-duvidhaa",
             "separator_after": " "
           },
           {
             "target": "और",
             "bangla_pronunciation": "অউর",
+            "romanization": "aur",
             "separator_after": " "
           },
           {
             "target": "हित-संघर्ष-प्रकटीकरण",
             "bangla_pronunciation": "হিত-সংঘর্ষ-প্রকটীকরণ",
+            "romanization": "hita-sangharsha-prakatiikarana",
             "separator_after": " "
           },
           {
             "target": "इस",
             "bangla_pronunciation": "ইস",
+            "romanization": "is",
             "separator_after": " "
           },
           {
             "target": "विषय",
             "bangla_pronunciation": "ভিষয়",
+            "romanization": "vishay",
             "separator_after": " "
           },
           {
             "target": "में",
             "bangla_pronunciation": "মেঁ",
+            "romanization": "men",
             "separator_after": " "
           },
           {
             "target": "महत्वपूर्ण",
             "bangla_pronunciation": "মহত্বপূর্ণ",
+            "romanization": "mhtvpuurnn",
             "separator_after": " "
           },
           {
             "target": "हैं।",
             "bangla_pronunciation": "হ্যাঁয়।",
+            "romanization": "hain.",
             "separator_after": ""
           }
         ]
@@ -3080,50 +3571,60 @@
         "kind": "target",
         "target": "मनोवैज्ञानिक-सुरक्षा पर ध्यान दें और गलती स्वीकार करके सुधारें।",
         "bangla_pronunciation": "মনোভৈজ্ঞানিক-সুরক্ষা পর ধ্যান দেঁ অউর গলতী স্ভীকার করকে সুধারেং।",
+        "romanization": "manovaijnyaanika-surakshaa para dhyaana den aura galatii sviikaara karake sudhaaren.",
         "word_pronunciations": [
           {
             "target": "मनोवैज्ञानिक-सुरक्षा",
             "bangla_pronunciation": "মনোভৈজ্ঞানিক-সুরক্ষা",
+            "romanization": "manovaijnyaanika-surakshaa",
             "separator_after": " "
           },
           {
             "target": "पर",
             "bangla_pronunciation": "পর",
+            "romanization": "par",
             "separator_after": " "
           },
           {
             "target": "ध्यान",
             "bangla_pronunciation": "ধ্যান",
+            "romanization": "dhyaan",
             "separator_after": " "
           },
           {
             "target": "दें",
             "bangla_pronunciation": "দেঁ",
+            "romanization": "den",
             "separator_after": " "
           },
           {
             "target": "और",
             "bangla_pronunciation": "অউর",
+            "romanization": "aur",
             "separator_after": " "
           },
           {
             "target": "गलती",
             "bangla_pronunciation": "গলতী",
+            "romanization": "galatee",
             "separator_after": " "
           },
           {
             "target": "स्वीकार",
             "bangla_pronunciation": "স্ভীকার",
+            "romanization": "sveekaar",
             "separator_after": " "
           },
           {
             "target": "करके",
             "bangla_pronunciation": "করকে",
+            "romanization": "karake",
             "separator_after": " "
           },
           {
             "target": "सुधारें।",
             "bangla_pronunciation": "সুধারেং।",
+            "romanization": "sudhaaren.",
             "separator_after": ""
           }
         ]
@@ -3136,25 +3637,30 @@
         "kind": "target",
         "target": "हितों का खुलासा करें।",
         "bangla_pronunciation": "হিতোং কা খুলাসা করেঁ।",
+        "romanization": "hiton kaa khulaasaa karen.",
         "word_pronunciations": [
           {
             "target": "हितों",
             "bangla_pronunciation": "হিতোং",
+            "romanization": "hiton",
             "separator_after": " "
           },
           {
             "target": "का",
             "bangla_pronunciation": "কা",
+            "romanization": "kaa",
             "separator_after": " "
           },
           {
             "target": "खुलासा",
             "bangla_pronunciation": "খুলাসা",
+            "romanization": "khulaasaa",
             "separator_after": " "
           },
           {
             "target": "करें।",
             "bangla_pronunciation": "করেঁ।",
+            "romanization": "karen.",
             "separator_after": ""
           }
         ]
@@ -3167,41 +3673,48 @@
         "kind": "target",
         "target": "दबाव में भी नियम न तोड़ें।",
         "bangla_pronunciation": "দবাভ মেঁ ভী নিযম ন তোডেং।",
+        "romanization": "dabaava men bhii niyama na todaen.",
         "word_pronunciations": [
           {
             "target": "दबाव",
             "bangla_pronunciation": "দবাভ",
+            "romanization": "dabaav",
             "separator_after": " "
           },
           {
             "target": "में",
             "bangla_pronunciation": "মেঁ",
+            "romanization": "men",
             "separator_after": " "
           },
           {
             "target": "भी",
             "bangla_pronunciation": "ভী",
+            "romanization": "bhee",
             "separator_after": " "
           },
           {
             "target": "नियम",
             "bangla_pronunciation": "নিযম",
+            "romanization": "niyam",
             "separator_after": " "
           },
           {
             "target": "न",
             "bangla_pronunciation": "ন",
+            "romanization": "na",
             "separator_after": " "
           },
           {
             "target": "तोड़ें।",
             "bangla_pronunciation": "তোডেং।",
+            "romanization": "toren.",
             "separator_after": ""
           }
         ]
       }
     ],
-    "text_md": "নৈতিক সিদ্ধান্ত, ন্যায্যতা ও কর্মক্ষেত্রে আস্থা তৈরি নিয়ে একটি ব্যবহারিক আলোচনায় প্রথমে বলা হলো: **नैतिक\\-दुविधा** (নৈতিক\\-দুভিধা) **और** (অউর) **हित\\-संघर्ष\\-प्रकटीकरण** (হিত\\-সংঘর্ষ\\-প্রকটীকরণ) **इस** (ইস) **विषय** (ভিষয়) **में** (মেঁ) **महत्वपूर्ण** (মহত্বপূর্ণ) **हैं।** (হ্যাঁয়।) এরপর আরেকটি গুরুত্বপূর্ণ পদক্ষেপ হিসেবে বলা হলো: **मनोवैज्ञानिक\\-सुरक्षा** (মনোভৈজ্ঞানিক\\-সুরক্ষা) **पर** (পর) **ध्यान** (ধ্যান) **दें** (দেঁ) **और** (অউর) **गलती** (গলতী) **स्वीकार** (স্ভীকার) **करके** (করকে) **सुधारें।** (সুধারেং।) সিদ্ধান্ত নেওয়ার আগে সবাই মনে রাখল: **हितों** (হিতোং) **का** (কা) **खुलासा** (খুলাসা) **करें।** (করেঁ।) শেষে করণীয়টি সংক্ষেপে বলা হলো: **दबाव** (দবাভ) **में** (মেঁ) **भी** (ভী) **नियम** (নিযম) **न** (ন) **तोड़ें।** (তোডেং।)"
+    "text_md": "নৈতিক সিদ্ধান্ত, ন্যায্যতা ও কর্মক্ষেত্রে আস্থা তৈরি নিয়ে একটি ব্যবহারিক আলোচনায় প্রথমে বলা হলো: **नैतिक\\-दुविधा** (নৈতিক\\-দুভিধা, naitika\\-duvidhaa) **और** (অউর, aur) **हित\\-संघर्ष\\-प्रकटीकरण** (হিত\\-সংঘর্ষ\\-প্রকটীকরণ, hita\\-sangharsha\\-prakatiikarana) **इस** (ইস, is) **विषय** (ভিষয়, vishay) **में** (মেঁ, men) **महत्वपूर्ण** (মহত্বপূর্ণ, mhtvpuurnn) **हैं।** (হ্যাঁয়।, hain\\.) এরপর আরেকটি গুরুত্বপূর্ণ পদক্ষেপ হিসেবে বলা হলো: **मनोवैज्ञानिक\\-सुरक्षा** (মনোভৈজ্ঞানিক\\-সুরক্ষা, manovaijnyaanika\\-surakshaa) **पर** (পর, par) **ध्यान** (ধ্যান, dhyaan) **दें** (দেঁ, den) **और** (অউর, aur) **गलती** (গলতী, galatee) **स्वीकार** (স্ভীকার, sveekaar) **करके** (করকে, karake) **सुधारें।** (সুধারেং।, sudhaaren\\.) সিদ্ধান্ত নেওয়ার আগে সবাই মনে রাখল: **हितों** (হিতোং, hiton) **का** (কা, kaa) **खुलासा** (খুলাসা, khulaasaa) **करें।** (করেঁ।, karen\\.) শেষে করণীয়টি সংক্ষেপে বলা হলো: **दबाव** (দবাভ, dabaav) **में** (মেঁ, men) **भी** (ভী, bhee) **नियम** (নিযম, niyam) **न** (ন, na) **तोड़ें।** (তোডেং।, toren\\.)"
   },
   "target_reading": {
     "mode": "story",
@@ -3211,20 +3724,24 @@
       {
         "target": "नैतिक-दुविधा महत्वपूर्ण है।",
         "bangla_pronunciation": "নৈতিক-দুভিধা মহত্বপূর্ণ হ্যায়।",
+        "romanization": "naitika-duvidhaa mahatvapoorna hai.",
         "word_pronunciations": [
           {
             "target": "नैतिक-दुविधा",
             "bangla_pronunciation": "নৈতিক-দুভিধা",
+            "romanization": "naitika-duvidhaa",
             "separator_after": " "
           },
           {
             "target": "महत्वपूर्ण",
             "bangla_pronunciation": "মহত্বপূর্ণ",
+            "romanization": "mhtvpuurnn",
             "separator_after": " "
           },
           {
             "target": "है।",
             "bangla_pronunciation": "হ্যায়।",
+            "romanization": "hai.",
             "separator_after": ""
           }
         ]
@@ -3232,20 +3749,24 @@
       {
         "target": "हित-संघर्ष-प्रकटीकरण स्पष्ट रखें।",
         "bangla_pronunciation": "হিত-সংঘর্ষ-প্রকটীকরণ স্পষ্ট রখেঁ।",
+        "romanization": "hita-sangharsha-prakateekarana spashta rakhen.",
         "word_pronunciations": [
           {
             "target": "हित-संघर्ष-प्रकटीकरण",
             "bangla_pronunciation": "হিত-সংঘর্ষ-প্রকটীকরণ",
+            "romanization": "hita-sangharsha-prakatiikarana",
             "separator_after": " "
           },
           {
             "target": "स्पष्ट",
             "bangla_pronunciation": "স্পষ্ট",
+            "romanization": "spasht",
             "separator_after": " "
           },
           {
             "target": "रखें।",
             "bangla_pronunciation": "রখেঁ।",
+            "romanization": "rakhen.",
             "separator_after": ""
           }
         ]
@@ -3253,25 +3774,30 @@
       {
         "target": "नेतृत्व-जवाबदेही पर ध्यान दें।",
         "bangla_pronunciation": "নেতৃত্ভ-জভাবদেহী পর ধ্যান দেঁ।",
+        "romanization": "netritva-javaabadehee para dhyaana den.",
         "word_pronunciations": [
           {
             "target": "नेतृत्व-जवाबदेही",
             "bangla_pronunciation": "নেতৃত্ভ-জভাবদেহী",
+            "romanization": "netritva-javaabadehii",
             "separator_after": " "
           },
           {
             "target": "पर",
             "bangla_pronunciation": "পর",
+            "romanization": "par",
             "separator_after": " "
           },
           {
             "target": "ध्यान",
             "bangla_pronunciation": "ধ্যান",
+            "romanization": "dhyaan",
             "separator_after": " "
           },
           {
             "target": "दें।",
             "bangla_pronunciation": "দেঁ।",
+            "romanization": "den.",
             "separator_after": ""
           }
         ]
@@ -3279,25 +3805,30 @@
       {
         "target": "निर्णय-पारदर्शिता की जाँच करें।",
         "bangla_pronunciation": "নির্ণয-পারদর্শিতা কী জাঁচ করেঁ।",
+        "romanization": "nirnaya-paaradarshitaa kee jaancha karen.",
         "word_pronunciations": [
           {
             "target": "निर्णय-पारदर्शिता",
             "bangla_pronunciation": "নির্ণয-পারদর্শিতা",
+            "romanization": "nirnaya-paaradarshitaa",
             "separator_after": " "
           },
           {
             "target": "की",
             "bangla_pronunciation": "কী",
+            "romanization": "kee",
             "separator_after": " "
           },
           {
             "target": "जाँच",
             "bangla_pronunciation": "জাঁচ",
+            "romanization": "jaanch",
             "separator_after": " "
           },
           {
             "target": "करें।",
             "bangla_pronunciation": "করেঁ।",
+            "romanization": "karen.",
             "separator_after": ""
           }
         ]
@@ -3305,31 +3836,37 @@
       {
         "target": "गोपनीय-सूचना पर नज़र रखें।",
         "bangla_pronunciation": "গোপনীয-সূচনা পর নজর রখেঁ।",
+        "romanization": "gopaneeya-soochanaa para nazara rakhen.",
         "word_pronunciations": [
           {
             "target": "गोपनीय-सूचना",
             "bangla_pronunciation": "গোপনীয-সূচনা",
+            "romanization": "gopaniiya-suuchanaa",
             "separator_after": " "
           },
           {
             "target": "पर",
             "bangla_pronunciation": "পর",
+            "romanization": "par",
             "separator_after": " "
           },
           {
             "target": "नज़र",
             "bangla_pronunciation": "নজর",
+            "romanization": "nazar",
             "separator_after": " "
           },
           {
             "target": "रखें।",
             "bangla_pronunciation": "রখেঁ।",
+            "romanization": "rakhen.",
             "separator_after": ""
           }
         ]
       }
     ],
     "bangla_pronunciation": "নৈতিক-দুভিধা মহত্বপূর্ণ হ্যায়। হিত-সংঘর্ষ-প্রকটীকরণ স্পষ্ট রখেঁ। নেতৃত্ভ-জভাবদেহী পর ধ্যান দেঁ। নির্ণয-পারদর্শিতা কী জাঁচ করেঁ। গোপনীয-সূচনা পর নজর রখেঁ।",
+    "romanization": "naitika-duvidhaa mahatvapoorna hai. hita-sangharsha-prakateekarana spashta rakhen. netritva-javaabadehee para dhyaana den. nirnaya-paaradarshitaa kee jaancha karen. gopaneeya-soochanaa para nazara rakhen.",
     "meaning_bengali_md": "নৈতিক দ্বিধা গুরুত্বপূর্ণ। স্বার্থের সংঘাত প্রকাশ পরিষ্কার রাখুন। নেতৃত্বের জবাবদিহি-এর দিকে মনোযোগ দিন। সিদ্ধান্তের স্বচ্ছতা যাচাই করুন। গোপনীয় তথ্য-এর দিকে নজর রাখুন।"
   },
   "script_practice": [
@@ -3338,6 +3875,7 @@
       "mode": "review",
       "target": "त्र",
       "bangla_pronunciation": "ত্র",
+      "romanization": "tra",
       "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
       "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
     },
@@ -3346,6 +3884,7 @@
       "mode": "review",
       "target": "ज्ञ",
       "bangla_pronunciation": "জ্ঞ",
+      "romanization": "jnya",
       "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
       "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
     },
@@ -3354,6 +3893,7 @@
       "mode": "review",
       "target": "श्र",
       "bangla_pronunciation": "শ্র",
+      "romanization": "shra",
       "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
       "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
     },
@@ -3362,6 +3902,7 @@
       "mode": "review",
       "target": "स्त",
       "bangla_pronunciation": "স্ত",
+      "romanization": "sta",
       "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
       "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
     },
@@ -3370,6 +3911,7 @@
       "mode": "review",
       "target": "द्व",
       "bangla_pronunciation": "দ্ভ",
+      "romanization": "dva",
       "explanation_bengali_md": "দেবনাগরীর এই অক্ষর বা যুক্তরূপটি শব্দ চিনতে কাজে লাগে; উচ্চারণের সময় আশপাশের স্বরচিহ্নও লক্ষ্য করুন।",
       "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণটি বলুন এবং আজকের শব্দগুলোর মধ্যে এটি খুঁজে দেখুন।"
     }
@@ -3380,45 +3922,54 @@
       "prompt_bengali_md": "বিষয়টি নিয়ে একটি দরকারি বাক্য বলুন।",
       "model_target": "नैतिक-दुविधा और हित-संघर्ष-प्रकटीकरण इस विषय में महत्वपूर्ण हैं।",
       "model_bangla_pronunciation": "নৈতিক-দুভিধা অউর হিত-সংঘর্ষ-প্রকটীকরণ ইস ভিষয় মেঁ মহত্বপূর্ণ হ্যাঁয়।",
+      "model_romanization": "naitika-duvidhaa aura hita-sangharsha-prakatiikarana isa vishaya men mahatvapuurna hain.",
       "model_word_pronunciations": [
         {
           "target": "नैतिक-दुविधा",
           "bangla_pronunciation": "নৈতিক-দুভিধা",
+          "romanization": "naitika-duvidhaa",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "हित-संघर्ष-प्रकटीकरण",
           "bangla_pronunciation": "হিত-সংঘর্ষ-প্রকটীকরণ",
+          "romanization": "hita-sangharsha-prakatiikarana",
           "separator_after": " "
         },
         {
           "target": "इस",
           "bangla_pronunciation": "ইস",
+          "romanization": "is",
           "separator_after": " "
         },
         {
           "target": "विषय",
           "bangla_pronunciation": "ভিষয়",
+          "romanization": "vishay",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "महत्वपूर्ण",
           "bangla_pronunciation": "মহত্বপূর্ণ",
+          "romanization": "mhtvpuurnn",
           "separator_after": " "
         },
         {
           "target": "हैं।",
           "bangla_pronunciation": "হ্যাঁয়।",
+          "romanization": "hain.",
           "separator_after": ""
         }
       ],
@@ -3428,70 +3979,84 @@
       "prompt_bengali_md": "ঝুঁকি বা সমস্যার ক্ষেত্রে কী করবেন, একটি বাক্যে বলুন।",
       "model_target": "अगर गोपनीय-सूचना से जुड़ा मामला हो, तो नियम सब पर समान लागू करें।",
       "model_bangla_pronunciation": "অগর গোপনীয-সূচনা সে জুডা মামলা হো, তো নিযম সব পর সমান লাগূ করেঁ।",
+      "model_romanization": "agara gopaniiya-suuchanaa se judaaa maamalaa ho, to niyama saba para samaana laaguu karen.",
       "model_word_pronunciations": [
         {
           "target": "अगर",
           "bangla_pronunciation": "অগর",
+          "romanization": "agar",
           "separator_after": " "
         },
         {
           "target": "गोपनीय-सूचना",
           "bangla_pronunciation": "গোপনীয-সূচনা",
+          "romanization": "gopaniiya-suuchanaa",
           "separator_after": " "
         },
         {
           "target": "से",
           "bangla_pronunciation": "সে",
+          "romanization": "se",
           "separator_after": " "
         },
         {
           "target": "जुड़ा",
           "bangla_pronunciation": "জুডা",
+          "romanization": "juraa",
           "separator_after": " "
         },
         {
           "target": "मामला",
           "bangla_pronunciation": "মামলা",
+          "romanization": "maamlaa",
           "separator_after": " "
         },
         {
           "target": "हो,",
           "bangla_pronunciation": "হো,",
+          "romanization": "ho,",
           "separator_after": " "
         },
         {
           "target": "तो",
           "bangla_pronunciation": "তো",
+          "romanization": "to",
           "separator_after": " "
         },
         {
           "target": "नियम",
           "bangla_pronunciation": "নিযম",
+          "romanization": "niyam",
           "separator_after": " "
         },
         {
           "target": "सब",
           "bangla_pronunciation": "সব",
+          "romanization": "sab",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "समान",
           "bangla_pronunciation": "সমান",
+          "romanization": "samaan",
           "separator_after": " "
         },
         {
           "target": "लागू",
           "bangla_pronunciation": "লাগূ",
+          "romanization": "laagoo",
           "separator_after": " "
         },
         {
           "target": "करें।",
           "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
           "separator_after": ""
         }
       ],
@@ -3501,50 +4066,60 @@
       "prompt_bengali_md": "একটি নিরাপদ বা দায়িত্বশীল পদক্ষেপ বলুন।",
       "model_target": "मनोवैज्ञानिक-सुरक्षा पर ध्यान दें और गलती स्वीकार करके सुधारें।",
       "model_bangla_pronunciation": "মনোভৈজ্ঞানিক-সুরক্ষা পর ধ্যান দেঁ অউর গলতী স্ভীকার করকে সুধারেং।",
+      "model_romanization": "manovaijnyaanika-surakshaa para dhyaana den aura galatii sviikaara karake sudhaaren.",
       "model_word_pronunciations": [
         {
           "target": "मनोवैज्ञानिक-सुरक्षा",
           "bangla_pronunciation": "মনোভৈজ্ঞানিক-সুরক্ষা",
+          "romanization": "manovaijnyaanika-surakshaa",
           "separator_after": " "
         },
         {
           "target": "पर",
           "bangla_pronunciation": "পর",
+          "romanization": "par",
           "separator_after": " "
         },
         {
           "target": "ध्यान",
           "bangla_pronunciation": "ধ্যান",
+          "romanization": "dhyaan",
           "separator_after": " "
         },
         {
           "target": "दें",
           "bangla_pronunciation": "দেঁ",
+          "romanization": "den",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "गलती",
           "bangla_pronunciation": "গলতী",
+          "romanization": "galatee",
           "separator_after": " "
         },
         {
           "target": "स्वीकार",
           "bangla_pronunciation": "স্ভীকার",
+          "romanization": "sveekaar",
           "separator_after": " "
         },
         {
           "target": "करके",
           "bangla_pronunciation": "করকে",
+          "romanization": "karake",
           "separator_after": " "
         },
         {
           "target": "सुधारें।",
           "bangla_pronunciation": "সুধারেং।",
+          "romanization": "sudhaaren.",
           "separator_after": ""
         }
       ],
@@ -3554,45 +4129,54 @@
       "prompt_bengali_md": "পরবর্তী প্রক্রিয়া সম্পর্কে একটি বাক্য বলুন।",
       "model_target": "भेदभाव-रोकथाम और निष्पक्ष-मूल्यांकन की प्रक्रिया स्पष्ट होनी चाहिए।",
       "model_bangla_pronunciation": "ভেদভাভ-রোকথাম অউর নিষ্পক্ষ-মূল্যাংকন কী প্রক্রিযা স্পষ্ট হোনী চাহিয়ে।",
+      "model_romanization": "bhedabhaava-rokathaama aura nishpaksha-muulyaankana kii prakriyaa spashta honii chaahie.",
       "model_word_pronunciations": [
         {
           "target": "भेदभाव-रोकथाम",
           "bangla_pronunciation": "ভেদভাভ-রোকথাম",
+          "romanization": "bhedabhaava-rokathaama",
           "separator_after": " "
         },
         {
           "target": "और",
           "bangla_pronunciation": "অউর",
+          "romanization": "aur",
           "separator_after": " "
         },
         {
           "target": "निष्पक्ष-मूल्यांकन",
           "bangla_pronunciation": "নিষ্পক্ষ-মূল্যাংকন",
+          "romanization": "nishpaksha-muulyaankana",
           "separator_after": " "
         },
         {
           "target": "की",
           "bangla_pronunciation": "কী",
+          "romanization": "kee",
           "separator_after": " "
         },
         {
           "target": "प्रक्रिया",
           "bangla_pronunciation": "প্রক্রিযা",
+          "romanization": "prkriyaa",
           "separator_after": " "
         },
         {
           "target": "स्पष्ट",
           "bangla_pronunciation": "স্পষ্ট",
+          "romanization": "spasht",
           "separator_after": " "
         },
         {
           "target": "होनी",
           "bangla_pronunciation": "হোনী",
+          "romanization": "honee",
           "separator_after": " "
         },
         {
           "target": "चाहिए।",
           "bangla_pronunciation": "চাহিয়ে।",
+          "romanization": "chaahie.",
           "separator_after": ""
         }
       ],
@@ -3602,25 +4186,30 @@
       "prompt_bengali_md": "একটি নির্দেশ বা করণীয় বলুন।",
       "model_target": "हितों का खुलासा करें।",
       "model_bangla_pronunciation": "হিতোং কা খুলাসা করেঁ।",
+      "model_romanization": "hiton kaa khulaasaa karen.",
       "model_word_pronunciations": [
         {
           "target": "हितों",
           "bangla_pronunciation": "হিতোং",
+          "romanization": "hiton",
           "separator_after": " "
         },
         {
           "target": "का",
           "bangla_pronunciation": "কা",
+          "romanization": "kaa",
           "separator_after": " "
         },
         {
           "target": "खुलासा",
           "bangla_pronunciation": "খুলাসা",
+          "romanization": "khulaasaa",
           "separator_after": " "
         },
         {
           "target": "करें।",
           "bangla_pronunciation": "করেঁ।",
+          "romanization": "karen.",
           "separator_after": ""
         }
       ],
@@ -3630,35 +4219,42 @@
       "prompt_bengali_md": "শেষে মনে রাখার মতো একটি বাক্য বলুন।",
       "model_target": "दबाव में भी नियम न तोड़ें।",
       "model_bangla_pronunciation": "দবাভ মেঁ ভী নিযম ন তোডেং।",
+      "model_romanization": "dabaava men bhii niyama na todaen.",
       "model_word_pronunciations": [
         {
           "target": "दबाव",
           "bangla_pronunciation": "দবাভ",
+          "romanization": "dabaav",
           "separator_after": " "
         },
         {
           "target": "में",
           "bangla_pronunciation": "মেঁ",
+          "romanization": "men",
           "separator_after": " "
         },
         {
           "target": "भी",
           "bangla_pronunciation": "ভী",
+          "romanization": "bhee",
           "separator_after": " "
         },
         {
           "target": "नियम",
           "bangla_pronunciation": "নিযম",
+          "romanization": "niyam",
           "separator_after": " "
         },
         {
           "target": "न",
           "bangla_pronunciation": "ন",
+          "romanization": "na",
           "separator_after": " "
         },
         {
           "target": "तोड़ें।",
           "bangla_pronunciation": "তোডেং।",
+          "romanization": "toren.",
           "separator_after": ""
         }
       ],

@@ -36,7 +36,7 @@
     {
       "id": "s01",
       "target": "इस निर्णय के पीछे मुख्य कारण क्या है?",
-      "romanization": "is niry ke peechhe mukhy kaar kyaa hai",
+      "romanization": "is nirnay ke peechhe mukhy kaaran kyaa hai",
       "bangla_pronunciation": "ইস নির্ণয় কে পিছে মুখ্য কারণ ক্যা হ্যায়?",
       "word_pronunciations": [
         {
@@ -505,7 +505,7 @@
       "id": "s09",
       "target": "इस काम के लिए किसकी जिम्मेदारी तय होगी?",
       "romanization": "is kaam ke lie kiskee jimmedaaree ty hogee",
-      "bangla_pronunciation": "ইস কাম কে লিয়ে কিসকী জিম্মेदारी তয় হোগি?",
+      "bangla_pronunciation": "ইস কাম কে লিয়ে কিসকী জিম্মেদারি তয় হোগি?",
       "word_pronunciations": [
         {
           "target": "इस",
@@ -539,7 +539,7 @@
         },
         {
           "target": "जिम्मेदारी",
-          "bangla_pronunciation": "জিম্মेदारी",
+          "bangla_pronunciation": "জিম্মেদারি",
           "romanization": "jimmedaarii",
           "separator_after": " "
         },
@@ -813,7 +813,7 @@
     {
       "id": "s14",
       "target": "इस सुझाव के पक्ष में सबसे मजबूत प्रमाण क्या है?",
-      "romanization": "is sujhaav ke pksh men sbse mjboot prmaa kyaa hai",
+      "romanization": "is sujhaav ke pksh men sbse mjboot pramaan kyaa hai",
       "bangla_pronunciation": "ইস সুঝাভ কে পক্ষ মেঁ সবসে মজবুত প্রমাণ ক্যা হ্যায়?",
       "word_pronunciations": [
         {
@@ -933,7 +933,7 @@
     {
       "id": "s16",
       "target": "अगले तीन महीनों में कौन-सा परिणाम जरूरी है?",
-      "romanization": "agle teen mheenon men kaun-saa priaam jrooree hai",
+      "romanization": "agle teen maheenon men kaun-saa parinaam jrooree hai",
       "bangla_pronunciation": "অগলে তিন মহীনোং মেঁ কৌন-সা পরিণাম জরুরি হ্যায়?",
       "word_pronunciations": [
         {
@@ -951,7 +951,7 @@
         {
           "target": "महीनों",
           "bangla_pronunciation": "মহীনোং",
-          "romanization": "mhiinoN",
+          "romanization": "maheenon",
           "separator_after": " "
         },
         {
@@ -1110,7 +1110,7 @@
     {
       "id": "s19",
       "target": "निर्णय लेने से पहले हमें किससे बात करनी चाहिए?",
-      "romanization": "niry lene se phle hmen kisse baat krnee chaahie",
+      "romanization": "nirnay lene se phle hmen kisse baat krnee chaahie",
       "bangla_pronunciation": "নির্ণয় লেনে সে পহলে হমেঁ কিসসে বাত করনি চাহিয়ে?",
       "word_pronunciations": [
         {
@@ -1245,7 +1245,7 @@
       "id": "v01",
       "target": "मुख्य कारण",
       "type": "অভিব্যক্তি",
-      "romanization": "mukhy kaar",
+      "romanization": "mukhy kaaran",
       "bangla_pronunciation": "মুখ্য কারণ",
       "word_pronunciations": [
         {
@@ -1359,7 +1359,7 @@
       "id": "v07",
       "target": "प्रमाण",
       "type": "সঞ্জ্ঞা",
-      "romanization": "prmaa",
+      "romanization": "pramaan",
       "bangla_pronunciation": "প্রমাণ",
       "word_pronunciations": [
         {
@@ -1405,7 +1405,7 @@
         "kind": "target",
         "target": "इस निर्णय के पीछे मुख्य कारण क्या है?",
         "bangla_pronunciation": "ইস নির্ণয় কে পিছে মুখ্য কারণ ক্যা হ্যায়?",
-        "romanization": "is niry ke peechhe mukhy kaar kyaa hai",
+        "romanization": "is nirnay ke peechhe mukhy kaaran kyaa hai",
         "word_pronunciations": [
           {
             "target": "इस",
@@ -1531,7 +1531,7 @@
         "kind": "target",
         "target": "इस सुझाव के पक्ष में सबसे मजबूत प्रमाण क्या है?",
         "bangla_pronunciation": "ইস সুঝাভ কে পক্ষ মেঁ সবসে মজবুত প্রমাণ ক্যা হ্যায়?",
-        "romanization": "is sujhaav ke pksh men sbse mjboot prmaa kyaa hai",
+        "romanization": "is sujhaav ke pksh men sbse mjboot pramaan kyaa hai",
         "word_pronunciations": [
           {
             "target": "इस",
@@ -1603,7 +1603,7 @@
         "kind": "target",
         "target": "निर्णय लेने से पहले हमें किससे बात करनी चाहिए?",
         "bangla_pronunciation": "নির্ণয় লেনে সে পহলে হমেঁ কিসসে বাত করনি চাহিয়ে?",
-        "romanization": "niry lene se phle hmen kisse baat krnee chaahie",
+        "romanization": "nirnay lene se phle hmen kisse baat krnee chaahie",
         "word_pronunciations": [
           {
             "target": "निर्णय",
@@ -1898,7 +1898,7 @@
       "prompt_bengali_md": "পাঠের মূল ভাব একটি বাক্যে বলুন।",
       "model_target": "इस निर्णय के पीछे मुख्य कारण क्या है?",
       "model_bangla_pronunciation": "ইস নির্ণয় কে পিছে মুখ্য কারণ ক্যা হ্যায়?",
-      "model_romanization": "is niry ke peechhe mukhy kaar kyaa hai",
+      "model_romanization": "is nirnay ke peechhe mukhy kaaran kyaa hai",
       "model_word_pronunciations": [
         {
           "target": "इस",
@@ -2189,7 +2189,7 @@
       "prompt_bengali_md": "পরবর্তী পদক্ষেপ বোঝাতে একটি বাক্য বলুন।",
       "model_target": "अगले तीन महीनों में कौन-सा परिणाम जरूरी है?",
       "model_bangla_pronunciation": "অগলে তিন মহীনোং মেঁ কৌন-সা পরিণাম জরুরি হ্যায়?",
-      "model_romanization": "agle teen mheenon men kaun-saa priaam jrooree hai",
+      "model_romanization": "agle teen maheenon men kaun-saa parinaam jrooree hai",
       "model_word_pronunciations": [
         {
           "target": "अगले",
@@ -2206,7 +2206,7 @@
         {
           "target": "महीनों",
           "bangla_pronunciation": "মহীনোং",
-          "romanization": "mhiinoN",
+          "romanization": "maheenon",
           "separator_after": " "
         },
         {

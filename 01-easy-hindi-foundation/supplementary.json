@@ -2,7 +2,7 @@
   "copy": {
     "title": "Easy Hindi Foundation",
     "title_bengali": "ইজি হিন্দি ফাউন্ডেশন",
-    "publisher": "Published by Englishing.app",
+    "publisher": "Published by Bidyazo.com (An Englishing.app Project)",
     "edition_note": "পর্যালোচনা সংস্করণ",
     "subtitle": "বাংলাভাষীদের জন্য হিন্দি শেখার প্রথম ধাপ",
     "chapter_label": "অধ্যায়",
@@ -221,11 +221,12 @@
   ],
   "compact_fields": [],
   "publication": {
-    "identifier": "urn:englishing:easy-hindi-foundation-bn:review:1",
+    "identifier": "urn:bidyazo:easy-hindi-foundation-bn:review:1",
     "modified": "2026-09-11T00:00:00Z",
     "edition_status": "review_build",
-    "publisher_name": "Englishing.app",
+    "publisher_name": "Bidyazo.com",
     "language": "bn",
-    "target_language": "hi-IN"
+    "target_language": "hi-IN",
+    "parent_brand": "Englishing.app"
   }
 }
