@@ -17,20 +17,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Recover all requested source files
+      - name: Recover requested source files from separate preserved archives
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -u
           BOOK="04-easy-hindi-vocabulary-7000-words"
-          CHUNKS=(
-            b352facfc048ec9636471ceed4cb414457d61d69
-            d95d628615068fd12d25cc15b72850d331e9f7f3
-            bb7bbe8ef9d3d99ff8d2d0966b28110128bdeaa5
-            8cc082ae7c17a06373d46a8cfb82b60aad33de55
-            94a9fe11733448fb606552c4bf206580f7e3adea
-            9e5e716acc0f1185648d1910f67a596dec12dff8
-          )
+          rm -rf /tmp/recover-vocab && mkdir -p /tmp/recover-vocab
 
           fetch_blob_text() {
             local sha="$1" out="$2"
@@ -42,62 +35,60 @@ jobs:
               > "$out"
           }
 
-          rm -rf /tmp/recover-vocab && mkdir -p /tmp/recover-vocab
-          : > /tmp/recover-vocab/combined.b64
-          : > /tmp/recover-vocab/individual.tgz
+          # First preserved archive: gzip Base64 split across blobs 0-4.
+          GZIP_CHUNKS=(
+            b352facfc048ec9636471ceed4cb414457d61d69
+            d95d628615068fd12d25cc15b72850d331e9f7f3
+            bb7bbe8ef9d3d99ff8d2d0966b28110128bdeaa5
+            8cc082ae7c17a06373d46a8cfb82b60aad33de55
+            94a9fe11733448fb606552c4bf206580f7e3adea
+          )
+          : > /tmp/recover-vocab/gzip.b64
           i=0
-          for sha in "${CHUNKS[@]}"; do
-            raw="/tmp/recover-vocab/chunk-${i}.txt"
+          for sha in "${GZIP_CHUNKS[@]}"; do
+            raw="/tmp/recover-vocab/gzip-${i}.txt"
             fetch_blob_text "$sha" "$raw"
-            printf 'chunk %s bytes=%s first=%s last=%s\n' "$i" "$(wc -c < "$raw")" "$(head -c 12 "$raw")" "$(tail -c 12 "$raw")"
-            cat "$raw" >> /tmp/recover-vocab/combined.b64
-            base64 -d "$raw" >> /tmp/recover-vocab/individual.tgz 2>/dev/null || true
+            cat "$raw" >> /tmp/recover-vocab/gzip.b64
             i=$((i+1))
           done
+          base64 -d /tmp/recover-vocab/gzip.b64 > /tmp/recover-vocab/gzip.tgz 2>/dev/null || true
+          mkdir -p /tmp/recover-vocab/out-gzip
+          gzip -dc /tmp/recover-vocab/gzip.tgz > /tmp/recover-vocab/gzip.tar 2>/dev/null || true
+          tar -xf /tmp/recover-vocab/gzip.tar -C /tmp/recover-vocab/out-gzip --ignore-zeros 2>/dev/null || true
+          echo '--- gzip archive recovered files ---'
+          find /tmp/recover-vocab/out-gzip -type f -printf '%P\n' | sort
 
-          base64 -d /tmp/recover-vocab/combined.b64 > /tmp/recover-vocab/combined.tgz 2>/dev/null || true
-          fetch_blob_text d84f3f3f9586c24903718f25ba05c6e6f962f8ea /tmp/recover-vocab/mono.txt
-          base64 -d /tmp/recover-vocab/mono.txt > /tmp/recover-vocab/mono.tgz 2>/dev/null || true
-          printf 'combined-b64=%s mono-b64=%s individual-gzip=%s combined-gzip=%s mono-gzip=%s\n' \
-            "$(wc -c < /tmp/recover-vocab/combined.b64)" \
-            "$(wc -c < /tmp/recover-vocab/mono.txt)" \
-            "$(wc -c < /tmp/recover-vocab/individual.tgz)" \
-            "$(wc -c < /tmp/recover-vocab/combined.tgz)" \
-            "$(wc -c < /tmp/recover-vocab/mono.tgz)"
+          # Second preserved archive begins independently with an XZ Base64 header.
+          fetch_blob_text 9e5e716acc0f1185648d1910f67a596dec12dff8 /tmp/recover-vocab/xz.b64
+          base64 -d /tmp/recover-vocab/xz.b64 > /tmp/recover-vocab/xz.bin 2>/dev/null || true
+          mkdir -p /tmp/recover-vocab/out-xz
+          xz -dc /tmp/recover-vocab/xz.bin > /tmp/recover-vocab/xz.tar 2>/dev/null || true
+          tar -xf /tmp/recover-vocab/xz.tar -C /tmp/recover-vocab/out-xz --ignore-zeros 2>/dev/null || true
+          echo '--- xz archive recovered files ---'
+          find /tmp/recover-vocab/out-xz -type f -printf '%P\n' | sort
 
-          required_ok() {
-            local root="$1"
-            test -s "$root/authoring-progress.json" || return 1
+          # Merge recovered members from both preserved archives.
+          mkdir -p /tmp/recover-vocab/merged/chapters /tmp/recover-vocab/merged/rosters
+          for root in /tmp/recover-vocab/out-gzip /tmp/recover-vocab/out-xz; do
+            [ -f "$root/authoring-progress.json" ] && cp "$root/authoring-progress.json" /tmp/recover-vocab/merged/authoring-progress.json
             for n in $(seq 151 160); do
-              test -s "$root/chapters/ch${n}.json" || return 1
-              test -s "$root/rosters/ch${n}.json" || return 1
+              [ -f "$root/chapters/ch${n}.json" ] && cp "$root/chapters/ch${n}.json" "/tmp/recover-vocab/merged/chapters/ch${n}.json"
+              [ -f "$root/rosters/ch${n}.json" ] && cp "$root/rosters/ch${n}.json" "/tmp/recover-vocab/merged/rosters/ch${n}.json"
             done
-            return 0
-          }
-
-          winner=""
-          for mode in individual combined mono; do
-            mkdir -p "/tmp/recover-vocab/out-${mode}"
-            gzip -dc "/tmp/recover-vocab/${mode}.tgz" > "/tmp/recover-vocab/${mode}.tar" 2>/dev/null || true
-            tar -xf "/tmp/recover-vocab/${mode}.tar" -C "/tmp/recover-vocab/out-${mode}" --ignore-zeros 2>/dev/null || true
-            echo "--- recovered via ${mode} ---"
-            find "/tmp/recover-vocab/out-${mode}" -type f -printf '%P\n' | sort
-            if required_ok "/tmp/recover-vocab/out-${mode}"; then
-              winner="$mode"
-              break
-            fi
           done
 
-          if [ -z "$winner" ]; then
-            echo "No preserved representation contains all 21 required files." >&2
-            exit 1
-          fi
-
-          echo "Using recovery mode: $winner"
-          cp "/tmp/recover-vocab/out-${winner}/authoring-progress.json" "$BOOK/authoring-progress.json"
+          echo '--- merged required files ---'
+          find /tmp/recover-vocab/merged -type f -printf '%P\n' | sort
+          test -s /tmp/recover-vocab/merged/authoring-progress.json
           for n in $(seq 151 160); do
-            cp "/tmp/recover-vocab/out-${winner}/chapters/ch${n}.json" "$BOOK/chapters/ch${n}.json"
-            cp "/tmp/recover-vocab/out-${winner}/rosters/ch${n}.json" "$BOOK/rosters/ch${n}.json"
+            test -s "/tmp/recover-vocab/merged/chapters/ch${n}.json"
+            test -s "/tmp/recover-vocab/merged/rosters/ch${n}.json"
+          done
+
+          cp /tmp/recover-vocab/merged/authoring-progress.json "$BOOK/authoring-progress.json"
+          for n in $(seq 151 160); do
+            cp "/tmp/recover-vocab/merged/chapters/ch${n}.json" "$BOOK/chapters/ch${n}.json"
+            cp "/tmp/recover-vocab/merged/rosters/ch${n}.json" "$BOOK/rosters/ch${n}.json"
           done
 
       - name: Commit and push completed batch
