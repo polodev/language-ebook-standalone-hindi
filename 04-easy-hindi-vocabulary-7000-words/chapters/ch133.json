@@ -1,0 +1,3357 @@
+{
+  "chapter_id": "ch133",
+  "status": "drafted",
+  "title_target": "डिजिटल सुरक्षा और निजता",
+  "title_bangla_pronunciation": "ডিজিটল সুরক্ষা ঔর নিজতা",
+  "title_word_pronunciations": [
+    {
+      "target": "डिजिटल",
+      "bangla_pronunciation": "ডিজিটল",
+      "separator_after": " "
+    },
+    {
+      "target": "सुरक्षा",
+      "bangla_pronunciation": "সুরক্ষা",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "ঔর",
+      "separator_after": " "
+    },
+    {
+      "target": "निजता",
+      "bangla_pronunciation": "নিজতা",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "ডিজিটাল নিরাপত্তা ও গোপনীয়তা",
+  "goal_bengali_md": "অ্যাকাউন্ট সুরক্ষা, পরিচয় যাচাই, সাইবার ঝুঁকি ও পুনরুদ্ধার নিয়ে B2 স্তরের দরকারি হিন্দি শব্দ ও বাক্যাংশ অনুশীলন।",
+  "sentences": [
+    {
+      "id": "ch133_s01",
+      "target": "प्रमाणीकरण और कूटलेखन पर ध्यान दें।",
+      "romanization": "prmaaneekrn aur kootlekhn pr dhyaan den.",
+      "bangla_pronunciation": "প্রমাণীকরণ ঔর কূটলেখন পর ধ্যান দেং।",
+      "word_pronunciations": [
+        {
+          "target": "प्रमाणीकरण",
+          "bangla_pronunciation": "প্রমাণীকরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "कूटलेखन",
+          "bangla_pronunciation": "কূটলেখন",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রমাণীকরণ ও এনক্রিপশন নিয়ে মনোযোগ দিন।"
+    },
+    {
+      "id": "ch133_s02",
+      "target": "भेद्यता और अभिगमाधिकार पर ध्यान दें।",
+      "romanization": "bhedytaa aur abhigmaadhikaar pr dhyaan den.",
+      "bangla_pronunciation": "ভেদ্যতা ঔর অভিগমাধিকার পর ধ্যান দেং।",
+      "word_pronunciations": [
+        {
+          "target": "भेद्यता",
+          "bangla_pronunciation": "ভেদ্যতা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "अभिगमाधिकार",
+          "bangla_pronunciation": "অভিগমাধিকার",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুর্বলতা ও অ্যাক্সেস অধিকার নিয়ে মনোযোগ দিন।"
+    },
+    {
+      "id": "ch133_s03",
+      "target": "निजता के संदर्भ में पहचान की पुष्टि करें।",
+      "romanization": "nijataa ke sndrbh men phchaan kee pushti kren.",
+      "bangla_pronunciation": "নিজতা কে সংদর্ভ মেং পহচান কী পুষ্টি করেং।",
+      "word_pronunciations": [
+        {
+          "target": "निजता",
+          "bangla_pronunciation": "নিজতা",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "पहचान",
+          "bangla_pronunciation": "পহচান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "पुष्टि",
+          "bangla_pronunciation": "পুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গোপনীয়তা-এর ক্ষেত্রে পরিচয় নিশ্চিত করুন।"
+    },
+    {
+      "id": "ch133_s04",
+      "target": "घुसपैठ और प्रतिलिपि-सुरक्षा पर ध्यान दें।",
+      "romanization": "ghuspaith aur prtilipi-surkshaa pr dhyaan den.",
+      "bangla_pronunciation": "ঘুসপৈঠ ঔর প্রতিলিপি-সুরক্ষা পর ধ্যান দেং।",
+      "word_pronunciations": [
+        {
+          "target": "घुसपैठ",
+          "bangla_pronunciation": "ঘুসপৈঠ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रतिलिपि-सुरक्षा",
+          "bangla_pronunciation": "প্রতিলিপি-সুরক্ষা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনুপ্রবেশ ও ব্যাকআপ সুরক্ষা নিয়ে মনোযোগ দিন।"
+    },
+    {
+      "id": "ch133_s05",
+      "target": "दुर्भावनाकोड और छलसंदेश पर ध्यान दें।",
+      "romanization": "durbhaavnaakod aur chhlsndesh pr dhyaan den.",
+      "bangla_pronunciation": "দুর্ভাভনাকোড ঔর ছলসংদেশ পর ধ্যান দেং।",
+      "word_pronunciations": [
+        {
+          "target": "दुर्भावनाकोड",
+          "bangla_pronunciation": "দুর্ভাভনাকোড",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "छलसंदेश",
+          "bangla_pronunciation": "ছলসংদেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ক্ষতিকর কোড ও ফিশিং বার্তা নিয়ে মনোযোগ দিন।"
+    },
+    {
+      "id": "ch133_s06",
+      "target": "डिजिटल-प्रमाणपत्र के संदर्भ में संदिग्ध कड़ी मत खोलिए।",
+      "romanization": "dijitl-prmaanptr ke sndrbh men sndigdh kdee mt kholie.",
+      "bangla_pronunciation": "ডিজিটল-প্রমাণপত্র কে সংদর্ভ মেং সংদিগ্ধ কডী মত খোলিএ।",
+      "word_pronunciations": [
+        {
+          "target": "डिजिटल-प्रमाणपत्र",
+          "bangla_pronunciation": "ডিজিটল-প্রমাণপত্র",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "संदिग्ध",
+          "bangla_pronunciation": "সংদিগ্ধ",
+          "separator_after": " "
+        },
+        {
+          "target": "कड़ी",
+          "bangla_pronunciation": "কডী",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "separator_after": " "
+        },
+        {
+          "target": "खोलिए।",
+          "bangla_pronunciation": "খোলিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডিজিটাল সনদ-এর ক্ষেত্রে সন্দেহজনক লিংক খুলবেন না।"
+    },
+    {
+      "id": "ch133_s07",
+      "target": "सुरक्षा-अद्यतन और अग्निप्राचीर पर ध्यान दें।",
+      "romanization": "surkshaa-adytn aur agnipraacheer pr dhyaan den.",
+      "bangla_pronunciation": "সুরক্ষা-অদ্যতন ঔর অগ্নিপ্রাচীর পর ধ্যান দেং।",
+      "word_pronunciations": [
+        {
+          "target": "सुरक्षा-अद्यतन",
+          "bangla_pronunciation": "সুরক্ষা-অদ্যতন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "अग्निप्राचीर",
+          "bangla_pronunciation": "অগ্নিপ্রাচীর",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপত্তা আপডেট ও ফায়ারওয়াল নিয়ে মনোযোগ দিন।"
+    },
+    {
+      "id": "ch133_s08",
+      "target": "घटनादर्ज और पुनर्प्राप्ति पर ध्यान दें।",
+      "romanization": "ghtnaadrj aur punrpraapti pr dhyaan den.",
+      "bangla_pronunciation": "ঘটনাদর্জ ঔর পুনর্প্রাপ্তি পর ধ্যান দেং।",
+      "word_pronunciations": [
+        {
+          "target": "घटनादर्ज",
+          "bangla_pronunciation": "ঘটনাদর্জ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "पुनर्प्राप्ति",
+          "bangla_pronunciation": "পুনর্প্রাপ্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঘটনার লগ ও পুনরুদ্ধার নিয়ে মনোযোগ দিন।"
+    },
+    {
+      "id": "ch133_s09",
+      "target": "गुप्तवाक्य के संदर्भ में अलग पासवर्ड रखना बेहतर है।",
+      "romanization": "guptvaaky ke sndrbh men alg paasvrd rkhnaa behtr hai.",
+      "bangla_pronunciation": "গুপ্তভাক্য কে সংদর্ভ মেং অলগ পাসভর্ড রখনা বেহতর হৈ।",
+      "word_pronunciations": [
+        {
+          "target": "गुप्तवाक्य",
+          "bangla_pronunciation": "গুপ্তভাক্য",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "अलग",
+          "bangla_pronunciation": "অলগ",
+          "separator_after": " "
+        },
+        {
+          "target": "पासवर्ड",
+          "bangla_pronunciation": "পাসভর্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "रखना",
+          "bangla_pronunciation": "রখনা",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পাসফ্রেজ-এর ক্ষেত্রে আলাদা পাসওয়ার্ড রাখা ভালো।"
+    },
+    {
+      "id": "ch133_s10",
+      "target": "उल्लंघन और सुरक्षा-चेतावनी पर ध्यान दें।",
+      "romanization": "ullnghn aur surkshaa-chetaavnee pr dhyaan den.",
+      "bangla_pronunciation": "উল্লংঘন ঔর সুরক্ষা-চেতাভনী পর ধ্যান দেং।",
+      "word_pronunciations": [
+        {
+          "target": "उल्लंघन",
+          "bangla_pronunciation": "উল্লংঘন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षा-चेतावनी",
+          "bangla_pronunciation": "সুরক্ষা-চেতাভনী",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লঙ্ঘন ও নিরাপত্তা সতর্কতা নিয়ে মনোযোগ দিন।"
+    },
+    {
+      "id": "ch133_s11",
+      "target": "सत्र-निगरानी और सीमित-पहुँच पर ध्यान दें।",
+      "romanization": "str-nigraanee aur seemit-phunch pr dhyaan den.",
+      "bangla_pronunciation": "সত্র-নিগরানী ঔর সীমিত-পহুঁচ পর ধ্যান দেং।",
+      "word_pronunciations": [
+        {
+          "target": "सत्र-निगरानी",
+          "bangla_pronunciation": "সত্র-নিগরানী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "सीमित-पहुँच",
+          "bangla_pronunciation": "সীমিত-পহুঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সেশন পর্যবেক্ষণ ও সীমিত প্রবেশাধিকার নিয়ে মনোযোগ দিন।"
+    },
+    {
+      "id": "ch133_s12",
+      "target": "सत्रसमाप्ति के संदर्भ में ज़रूरत भर की अनुमति दें।",
+      "romanization": "strsmaapti ke sndrbh men jroort bhr kee anumti den.",
+      "bangla_pronunciation": "সত্রসমাপ্তি কে সংদর্ভ মেং জরূরত ভর কী অনুমতি দেং।",
+      "word_pronunciations": [
+        {
+          "target": "सत्रसमाप्ति",
+          "bangla_pronunciation": "সত্রসমাপ্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "ज़रूरत",
+          "bangla_pronunciation": "জরূরত",
+          "separator_after": " "
+        },
+        {
+          "target": "भर",
+          "bangla_pronunciation": "ভর",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुमति",
+          "bangla_pronunciation": "অনুমতি",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সেশন সমাপ্তি-এর ক্ষেত্রে শুধু প্রয়োজনীয় অনুমতি দিন।"
+    },
+    {
+      "id": "ch133_s13",
+      "target": "सुरक्षाटोकन और प्रतिरूपण पर ध्यान दें।",
+      "romanization": "surkshaatokn aur prtiroopn pr dhyaan den.",
+      "bangla_pronunciation": "সুরক্ষাটোকন ঔর প্রতিরূপণ পর ধ্যান দেং।",
+      "word_pronunciations": [
+        {
+          "target": "सुरक्षाटोकन",
+          "bangla_pronunciation": "সুরক্ষাটোকন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रतिरूपण",
+          "bangla_pronunciation": "প্রতিরূপণ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপত্তা টোকেন ও ছদ্মপরিচয় ধারণ নিয়ে মনোযোগ দিন।"
+    },
+    {
+      "id": "ch133_s14",
+      "target": "उपकरण-पहचान और जालखंड पर ध्यान दें।",
+      "romanization": "upkrn-phchaan aur jaalkhnd pr dhyaan den.",
+      "bangla_pronunciation": "উপকরণ-পহচান ঔর জালখংড পর ধ্যান দেং।",
+      "word_pronunciations": [
+        {
+          "target": "उपकरण-पहचान",
+          "bangla_pronunciation": "উপকরণ-পহচান",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "जालखंड",
+          "bangla_pronunciation": "জালখংড",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডিভাইস পরিচয় ও নেটওয়ার্ক সেগমেন্ট নিয়ে মনোযোগ দিন।"
+    },
+    {
+      "id": "ch133_s15",
+      "target": "द्विस्तरीय-जाँच के संदर्भ में बैकअप की बहाली जाँचें।",
+      "romanization": "dvistreey-jaanch ke sndrbh men baikap kee bhaalee jaanchen.",
+      "bangla_pronunciation": "দ্ভিস্তরীয-জাঁচ কে সংদর্ভ মেং বৈকঅপ কী বহালী জাঁচেং।",
+      "word_pronunciations": [
+        {
+          "target": "द्विस्तरीय-जाँच",
+          "bangla_pronunciation": "দ্ভিস্তরীয-জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "बैकअप",
+          "bangla_pronunciation": "বৈকঅপ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "बहाली",
+          "bangla_pronunciation": "বহালী",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুই স্তরের যাচাই-এর ক্ষেত্রে ব্যাকআপ পুনরুদ্ধার পরীক্ষা করুন।"
+    },
+    {
+      "id": "ch133_s16",
+      "target": "प्रमाणीकरण पर चर्चा कीजिए।",
+      "romanization": "prmaaneekrn pr chrchaa keejie.",
+      "bangla_pronunciation": "প্রমাণীকরণ পর চর্চা কীজিএ।",
+      "word_pronunciations": [
+        {
+          "target": "प्रमाणीकरण",
+          "bangla_pronunciation": "প্রমাণীকরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "चर्चा",
+          "bangla_pronunciation": "চর্চা",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রমাণীকরণ নিয়ে আলোচনা করুন।"
+    },
+    {
+      "id": "ch133_s17",
+      "target": "कूटलेखन को उदाहरण के साथ समझाइए।",
+      "romanization": "kootlekhn ko udaahrn ke saath smjhaaie.",
+      "bangla_pronunciation": "কূটলেখন কো উদাহরণ কে সাথ সমঝাইএ।",
+      "word_pronunciations": [
+        {
+          "target": "कूटलेखन",
+          "bangla_pronunciation": "কূটলেখন",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "उदाहरण",
+          "bangla_pronunciation": "উদাহরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "समझाइए।",
+          "bangla_pronunciation": "সমঝাইএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "উদাহরণসহ এনক্রিপশন ব্যাখ্যা করুন।"
+    },
+    {
+      "id": "ch133_s18",
+      "target": "भेद्यता से जुड़ा जोखिम पहचानिए।",
+      "romanization": "bhedytaa se judaa jokhim phchaanie.",
+      "bangla_pronunciation": "ভেদ্যতা সে জুডা জোখিম পহচানিএ।",
+      "word_pronunciations": [
+        {
+          "target": "भेद्यता",
+          "bangla_pronunciation": "ভেদ্যতা",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "जुड़ा",
+          "bangla_pronunciation": "জুডা",
+          "separator_after": " "
+        },
+        {
+          "target": "जोखिम",
+          "bangla_pronunciation": "জোখিম",
+          "separator_after": " "
+        },
+        {
+          "target": "पहचानिए।",
+          "bangla_pronunciation": "পহচানিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুর্বলতা-এর সঙ্গে যুক্ত ঝুঁকি চিহ্নিত করুন।"
+    },
+    {
+      "id": "ch133_s19",
+      "target": "अभिगमाधिकार के लिए स्पष्ट मानदंड रखिए।",
+      "romanization": "abhigmaadhikaar ke lie spsht maandnd rkhie.",
+      "bangla_pronunciation": "অভিগমাধিকার কে লিএ স্পষ্ট মানদংড রখিএ।",
+      "word_pronunciations": [
+        {
+          "target": "अभिगमाधिकार",
+          "bangla_pronunciation": "অভিগমাধিকার",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "लिए",
+          "bangla_pronunciation": "লিএ",
+          "separator_after": " "
+        },
+        {
+          "target": "स्पष्ट",
+          "bangla_pronunciation": "স্পষ্ট",
+          "separator_after": " "
+        },
+        {
+          "target": "मानदंड",
+          "bangla_pronunciation": "মানদংড",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অ্যাক্সেস অধিকার-এর জন্য স্পষ্ট মানদণ্ড রাখুন।"
+    },
+    {
+      "id": "ch133_s20",
+      "target": "निजता की प्रगति दर्ज कीजिए।",
+      "romanization": "nijataa kee prgti drj keejie.",
+      "bangla_pronunciation": "নিজতা কী প্রগতি দর্জ কীজিএ।",
+      "word_pronunciations": [
+        {
+          "target": "निजता",
+          "bangla_pronunciation": "নিজতা",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रगति",
+          "bangla_pronunciation": "প্রগতি",
+          "separator_after": " "
+        },
+        {
+          "target": "दर्ज",
+          "bangla_pronunciation": "দর্জ",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গোপনীয়তা-এর অগ্রগতি নথিভুক্ত করুন।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v03961",
+      "target": "प्रमाणीकरण",
+      "category": "word",
+      "type": "noun",
+      "romanization": "prmaaneekrn",
+      "bangla_pronunciation": "প্রমাণীকরণ",
+      "word_pronunciations": [
+        {
+          "target": "प्रमाणीकरण",
+          "bangla_pronunciation": "প্রমাণীকরণ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রমাণীকরণ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s01",
+      "source_form": "प्रमाणीकरण",
+      "example_target": "प्रमाणीकरण और कूटलेखन पर ध्यान दें।",
+      "example_bangla_pronunciation": "প্রমাণীকরণ ঔর কূটলেখন পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "प्रमाणीकरण",
+          "bangla_pronunciation": "প্রমাণীকরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "कूटलेखन",
+          "bangla_pronunciation": "কূটলেখন",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্রমাণীকরণ ও এনক্রিপশন নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03962",
+      "target": "कूटलेखन",
+      "category": "word",
+      "type": "noun",
+      "romanization": "kootlekhn",
+      "bangla_pronunciation": "কূটলেখন",
+      "word_pronunciations": [
+        {
+          "target": "कूटलेखन",
+          "bangla_pronunciation": "কূটলেখন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এনক্রিপশন। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s01",
+      "source_form": "कूटलेखन",
+      "example_target": "प्रमाणीकरण और कूटलेखन पर ध्यान दें।",
+      "example_bangla_pronunciation": "প্রমাণীকরণ ঔর কূটলেখন পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "प्रमाणीकरण",
+          "bangla_pronunciation": "প্রমাণীকরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "कूटलेखन",
+          "bangla_pronunciation": "কূটলেখন",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্রমাণীকরণ ও এনক্রিপশন নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03963",
+      "target": "भेद्यता",
+      "category": "word",
+      "type": "noun",
+      "romanization": "bhedytaa",
+      "bangla_pronunciation": "ভেদ্যতা",
+      "word_pronunciations": [
+        {
+          "target": "भेद्यता",
+          "bangla_pronunciation": "ভেদ্যতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুর্বলতা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s02",
+      "source_form": "भेद्यता",
+      "example_target": "भेद्यता और अभिगमाधिकार पर ध्यान दें।",
+      "example_bangla_pronunciation": "ভেদ্যতা ঔর অভিগমাধিকার পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "भेद्यता",
+          "bangla_pronunciation": "ভেদ্যতা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "अभिगमाधिकार",
+          "bangla_pronunciation": "অভিগমাধিকার",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দুর্বলতা ও অ্যাক্সেস অধিকার নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03964",
+      "target": "अभिगमाधिकार",
+      "category": "word",
+      "type": "noun",
+      "romanization": "abhigmaadhikaar",
+      "bangla_pronunciation": "অভিগমাধিকার",
+      "word_pronunciations": [
+        {
+          "target": "अभिगमाधिकार",
+          "bangla_pronunciation": "অভিগমাধিকার",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অ্যাক্সেস অধিকার। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s02",
+      "source_form": "अभिगमाधिकार",
+      "example_target": "भेद्यता और अभिगमाधिकार पर ध्यान दें।",
+      "example_bangla_pronunciation": "ভেদ্যতা ঔর অভিগমাধিকার পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "भेद्यता",
+          "bangla_pronunciation": "ভেদ্যতা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "अभिगमाधिकार",
+          "bangla_pronunciation": "অভিগমাধিকার",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দুর্বলতা ও অ্যাক্সেস অধিকার নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03965",
+      "target": "निजता",
+      "category": "word",
+      "type": "noun",
+      "romanization": "nijataa",
+      "bangla_pronunciation": "নিজতা",
+      "word_pronunciations": [
+        {
+          "target": "निजता",
+          "bangla_pronunciation": "নিজতা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গোপনীয়তা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s03",
+      "source_form": "निजता",
+      "example_target": "निजता के संदर्भ में पहचान की पुष्टि करें।",
+      "example_bangla_pronunciation": "নিজতা কে সংদর্ভ মেং পহচান কী পুষ্টি করেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "निजता",
+          "bangla_pronunciation": "নিজতা",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "पहचान",
+          "bangla_pronunciation": "পহচান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "पुष्टि",
+          "bangla_pronunciation": "পুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "গোপনীয়তা-এর ক্ষেত্রে পরিচয় নিশ্চিত করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03966",
+      "target": "पहचान की पुष्टि करें",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "phchaan kee pushti kren",
+      "bangla_pronunciation": "পহচান কী পুষ্টি করেং",
+      "word_pronunciations": [
+        {
+          "target": "पहचान",
+          "bangla_pronunciation": "পহচান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "पुष्टि",
+          "bangla_pronunciation": "পুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "करें",
+          "bangla_pronunciation": "করেং",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পরিচয় নিশ্চিত করুন। বাস্তব আলোচনায় ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch133_s03",
+      "source_form": "पहचान की पुष्टि करें",
+      "example_target": "निजता के संदर्भ में पहचान की पुष्टि करें।",
+      "example_bangla_pronunciation": "নিজতা কে সংদর্ভ মেং পহচান কী পুষ্টি করেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "निजता",
+          "bangla_pronunciation": "নিজতা",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "पहचान",
+          "bangla_pronunciation": "পহচান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "पुष्टि",
+          "bangla_pronunciation": "পুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "গোপনীয়তা-এর ক্ষেত্রে পরিচয় নিশ্চিত করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03967",
+      "target": "घुसपैठ",
+      "category": "word",
+      "type": "noun",
+      "romanization": "ghuspaith",
+      "bangla_pronunciation": "ঘুসপৈঠ",
+      "word_pronunciations": [
+        {
+          "target": "घुसपैठ",
+          "bangla_pronunciation": "ঘুসপৈঠ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "অনুপ্রবেশ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s04",
+      "source_form": "घुसपैठ",
+      "example_target": "घुसपैठ और प्रतिलिपि-सुरक्षा पर ध्यान दें।",
+      "example_bangla_pronunciation": "ঘুসপৈঠ ঔর প্রতিলিপি-সুরক্ষা পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "घुसपैठ",
+          "bangla_pronunciation": "ঘুসপৈঠ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रतिलिपि-सुरक्षा",
+          "bangla_pronunciation": "প্রতিলিপি-সুরক্ষা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "অনুপ্রবেশ ও ব্যাকআপ সুরক্ষা নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03968",
+      "target": "प्रतिलिपि-सुरक्षा",
+      "category": "word",
+      "type": "noun",
+      "romanization": "prtilipi-surkshaa",
+      "bangla_pronunciation": "প্রতিলিপি-সুরক্ষা",
+      "word_pronunciations": [
+        {
+          "target": "प्रतिलिपि-सुरक्षा",
+          "bangla_pronunciation": "প্রতিলিপি-সুরক্ষা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাকআপ সুরক্ষা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s04",
+      "source_form": "प्रतिलिपि-सुरक्षा",
+      "example_target": "घुसपैठ और प्रतिलिपि-सुरक्षा पर ध्यान दें।",
+      "example_bangla_pronunciation": "ঘুসপৈঠ ঔর প্রতিলিপি-সুরক্ষা পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "घुसपैठ",
+          "bangla_pronunciation": "ঘুসপৈঠ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रतिलिपि-सुरक्षा",
+          "bangla_pronunciation": "প্রতিলিপি-সুরক্ষা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "অনুপ্রবেশ ও ব্যাকআপ সুরক্ষা নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03969",
+      "target": "दुर्भावनाकोड",
+      "category": "word",
+      "type": "noun",
+      "romanization": "durbhaavnaakod",
+      "bangla_pronunciation": "দুর্ভাভনাকোড",
+      "word_pronunciations": [
+        {
+          "target": "दुर्भावनाकोड",
+          "bangla_pronunciation": "দুর্ভাভনাকোড",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ক্ষতিকর কোড। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s05",
+      "source_form": "दुर्भावनाकोड",
+      "example_target": "दुर्भावनाकोड और छलसंदेश पर ध्यान दें।",
+      "example_bangla_pronunciation": "দুর্ভাভনাকোড ঔর ছলসংদেশ পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "दुर्भावनाकोड",
+          "bangla_pronunciation": "দুর্ভাভনাকোড",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "छलसंदेश",
+          "bangla_pronunciation": "ছলসংদেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ক্ষতিকর কোড ও ফিশিং বার্তা নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03970",
+      "target": "छलसंदेश",
+      "category": "word",
+      "type": "noun",
+      "romanization": "chhlsndesh",
+      "bangla_pronunciation": "ছলসংদেশ",
+      "word_pronunciations": [
+        {
+          "target": "छलसंदेश",
+          "bangla_pronunciation": "ছলসংদেশ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফিশিং বার্তা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s05",
+      "source_form": "छलसंदेश",
+      "example_target": "दुर्भावनाकोड और छलसंदेश पर ध्यान दें।",
+      "example_bangla_pronunciation": "দুর্ভাভনাকোড ঔর ছলসংদেশ পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "दुर्भावनाकोड",
+          "bangla_pronunciation": "দুর্ভাভনাকোড",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "छलसंदेश",
+          "bangla_pronunciation": "ছলসংদেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ক্ষতিকর কোড ও ফিশিং বার্তা নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03971",
+      "target": "डिजिटल-प्रमाणपत्र",
+      "category": "word",
+      "type": "noun",
+      "romanization": "dijitl-prmaanptr",
+      "bangla_pronunciation": "ডিজিটল-প্রমাণপত্র",
+      "word_pronunciations": [
+        {
+          "target": "डिजिटल-प्रमाणपत्र",
+          "bangla_pronunciation": "ডিজিটল-প্রমাণপত্র",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডিজিটাল সনদ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s06",
+      "source_form": "डिजिटल-प्रमाणपत्र",
+      "example_target": "डिजिटल-प्रमाणपत्र के संदर्भ में संदिग्ध कड़ी मत खोलिए।",
+      "example_bangla_pronunciation": "ডিজিটল-প্রমাণপত্র কে সংদর্ভ মেং সংদিগ্ধ কডী মত খোলিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "डिजिटल-प्रमाणपत्र",
+          "bangla_pronunciation": "ডিজিটল-প্রমাণপত্র",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "संदिग्ध",
+          "bangla_pronunciation": "সংদিগ্ধ",
+          "separator_after": " "
+        },
+        {
+          "target": "कड़ी",
+          "bangla_pronunciation": "কডী",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "separator_after": " "
+        },
+        {
+          "target": "खोलिए।",
+          "bangla_pronunciation": "খোলিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ডিজিটাল সনদ-এর ক্ষেত্রে সন্দেহজনক লিংক খুলবেন না।",
+      "synonyms": []
+    },
+    {
+      "id": "v03972",
+      "target": "संदिग्ध कड़ी मत खोलिए",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "sndigdh kdee mt kholie",
+      "bangla_pronunciation": "সংদিগ্ধ কডী মত খোলিএ",
+      "word_pronunciations": [
+        {
+          "target": "संदिग्ध",
+          "bangla_pronunciation": "সংদিগ্ধ",
+          "separator_after": " "
+        },
+        {
+          "target": "कड़ी",
+          "bangla_pronunciation": "কডী",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "separator_after": " "
+        },
+        {
+          "target": "खोलिए",
+          "bangla_pronunciation": "খোলিএ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সন্দেহজনক লিংক খুলবেন না। বাস্তব আলোচনায় ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch133_s06",
+      "source_form": "संदिग्ध कड़ी मत खोलिए",
+      "example_target": "डिजिटल-प्रमाणपत्र के संदर्भ में संदिग्ध कड़ी मत खोलिए।",
+      "example_bangla_pronunciation": "ডিজিটল-প্রমাণপত্র কে সংদর্ভ মেং সংদিগ্ধ কডী মত খোলিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "डिजिटल-प्रमाणपत्र",
+          "bangla_pronunciation": "ডিজিটল-প্রমাণপত্র",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "संदिग्ध",
+          "bangla_pronunciation": "সংদিগ্ধ",
+          "separator_after": " "
+        },
+        {
+          "target": "कड़ी",
+          "bangla_pronunciation": "কডী",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "separator_after": " "
+        },
+        {
+          "target": "खोलिए।",
+          "bangla_pronunciation": "খোলিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ডিজিটাল সনদ-এর ক্ষেত্রে সন্দেহজনক লিংক খুলবেন না।",
+      "synonyms": []
+    },
+    {
+      "id": "v03973",
+      "target": "सुरक्षा-अद्यतन",
+      "category": "word",
+      "type": "noun",
+      "romanization": "surkshaa-adytn",
+      "bangla_pronunciation": "সুরক্ষা-অদ্যতন",
+      "word_pronunciations": [
+        {
+          "target": "सुरक्षा-अद्यतन",
+          "bangla_pronunciation": "সুরক্ষা-অদ্যতন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপত্তা আপডেট। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s07",
+      "source_form": "सुरक्षा-अद्यतन",
+      "example_target": "सुरक्षा-अद्यतन और अग्निप्राचीर पर ध्यान दें।",
+      "example_bangla_pronunciation": "সুরক্ষা-অদ্যতন ঔর অগ্নিপ্রাচীর পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "सुरक्षा-अद्यतन",
+          "bangla_pronunciation": "সুরক্ষা-অদ্যতন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "अग्निप्राचीर",
+          "bangla_pronunciation": "অগ্নিপ্রাচীর",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নিরাপত্তা আপডেট ও ফায়ারওয়াল নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03974",
+      "target": "अग्निप्राचीर",
+      "category": "word",
+      "type": "noun",
+      "romanization": "agnipraacheer",
+      "bangla_pronunciation": "অগ্নিপ্রাচীর",
+      "word_pronunciations": [
+        {
+          "target": "अग्निप्राचीर",
+          "bangla_pronunciation": "অগ্নিপ্রাচীর",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফায়ারওয়াল। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s07",
+      "source_form": "अग्निप्राचीर",
+      "example_target": "सुरक्षा-अद्यतन और अग्निप्राचीर पर ध्यान दें।",
+      "example_bangla_pronunciation": "সুরক্ষা-অদ্যতন ঔর অগ্নিপ্রাচীর পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "सुरक्षा-अद्यतन",
+          "bangla_pronunciation": "সুরক্ষা-অদ্যতন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "अग्निप्राचीर",
+          "bangla_pronunciation": "অগ্নিপ্রাচীর",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নিরাপত্তা আপডেট ও ফায়ারওয়াল নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03975",
+      "target": "घटनादर्ज",
+      "category": "word",
+      "type": "noun",
+      "romanization": "ghtnaadrj",
+      "bangla_pronunciation": "ঘটনাদর্জ",
+      "word_pronunciations": [
+        {
+          "target": "घटनादर्ज",
+          "bangla_pronunciation": "ঘটনাদর্জ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঘটনার লগ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s08",
+      "source_form": "घटनादर्ज",
+      "example_target": "घटनादर्ज और पुनर्प्राप्ति पर ध्यान दें।",
+      "example_bangla_pronunciation": "ঘটনাদর্জ ঔর পুনর্প্রাপ্তি পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "घटनादर्ज",
+          "bangla_pronunciation": "ঘটনাদর্জ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "पुनर्प्राप्ति",
+          "bangla_pronunciation": "পুনর্প্রাপ্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ঘটনার লগ ও পুনরুদ্ধার নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03976",
+      "target": "पुनर्प्राप्ति",
+      "category": "word",
+      "type": "noun",
+      "romanization": "punrpraapti",
+      "bangla_pronunciation": "পুনর্প্রাপ্তি",
+      "word_pronunciations": [
+        {
+          "target": "पुनर्प्राप्ति",
+          "bangla_pronunciation": "পুনর্প্রাপ্তি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পুনরুদ্ধার। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s08",
+      "source_form": "पुनर्प्राप्ति",
+      "example_target": "घटनादर्ज और पुनर्प्राप्ति पर ध्यान दें।",
+      "example_bangla_pronunciation": "ঘটনাদর্জ ঔর পুনর্প্রাপ্তি পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "घटनादर्ज",
+          "bangla_pronunciation": "ঘটনাদর্জ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "पुनर्प्राप्ति",
+          "bangla_pronunciation": "পুনর্প্রাপ্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ঘটনার লগ ও পুনরুদ্ধার নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03977",
+      "target": "गुप्तवाक्य",
+      "category": "word",
+      "type": "noun",
+      "romanization": "guptvaaky",
+      "bangla_pronunciation": "গুপ্তভাক্য",
+      "word_pronunciations": [
+        {
+          "target": "गुप्तवाक्य",
+          "bangla_pronunciation": "গুপ্তভাক্য",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পাসফ্রেজ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s09",
+      "source_form": "गुप्तवाक्य",
+      "example_target": "गुप्तवाक्य के संदर्भ में अलग पासवर्ड रखना बेहतर है।",
+      "example_bangla_pronunciation": "গুপ্তভাক্য কে সংদর্ভ মেং অলগ পাসভর্ড রখনা বেহতর হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "गुप्तवाक्य",
+          "bangla_pronunciation": "গুপ্তভাক্য",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "अलग",
+          "bangla_pronunciation": "অলগ",
+          "separator_after": " "
+        },
+        {
+          "target": "पासवर्ड",
+          "bangla_pronunciation": "পাসভর্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "रखना",
+          "bangla_pronunciation": "রখনা",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পাসফ্রেজ-এর ক্ষেত্রে আলাদা পাসওয়ার্ড রাখা ভালো।",
+      "synonyms": []
+    },
+    {
+      "id": "v03978",
+      "target": "अलग पासवर्ड रखना बेहतर है",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "alg paasvrd rkhnaa behtr hai",
+      "bangla_pronunciation": "অলগ পাসভর্ড রখনা বেহতর হৈ",
+      "word_pronunciations": [
+        {
+          "target": "अलग",
+          "bangla_pronunciation": "অলগ",
+          "separator_after": " "
+        },
+        {
+          "target": "पासवर्ड",
+          "bangla_pronunciation": "পাসভর্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "रखना",
+          "bangla_pronunciation": "রখনা",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "separator_after": " "
+        },
+        {
+          "target": "है",
+          "bangla_pronunciation": "হৈ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আলাদা পাসওয়ার্ড রাখা ভালো। বাস্তব আলোচনায় ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch133_s09",
+      "source_form": "अलग पासवर्ड रखना बेहतर है",
+      "example_target": "गुप्तवाक्य के संदर्भ में अलग पासवर्ड रखना बेहतर है।",
+      "example_bangla_pronunciation": "গুপ্তভাক্য কে সংদর্ভ মেং অলগ পাসভর্ড রখনা বেহতর হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "गुप्तवाक्य",
+          "bangla_pronunciation": "গুপ্তভাক্য",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "अलग",
+          "bangla_pronunciation": "অলগ",
+          "separator_after": " "
+        },
+        {
+          "target": "पासवर्ड",
+          "bangla_pronunciation": "পাসভর্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "रखना",
+          "bangla_pronunciation": "রখনা",
+          "separator_after": " "
+        },
+        {
+          "target": "बेहतर",
+          "bangla_pronunciation": "বেহতর",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পাসফ্রেজ-এর ক্ষেত্রে আলাদা পাসওয়ার্ড রাখা ভালো।",
+      "synonyms": []
+    },
+    {
+      "id": "v03979",
+      "target": "उल्लंघन",
+      "category": "word",
+      "type": "noun",
+      "romanization": "ullnghn",
+      "bangla_pronunciation": "উল্লংঘন",
+      "word_pronunciations": [
+        {
+          "target": "उल्लंघन",
+          "bangla_pronunciation": "উল্লংঘন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লঙ্ঘন। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s10",
+      "source_form": "उल्लंघन",
+      "example_target": "उल्लंघन और सुरक्षा-चेतावनी पर ध्यान दें।",
+      "example_bangla_pronunciation": "উল্লংঘন ঔর সুরক্ষা-চেতাভনী পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "उल्लंघन",
+          "bangla_pronunciation": "উল্লংঘন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षा-चेतावनी",
+          "bangla_pronunciation": "সুরক্ষা-চেতাভনী",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "লঙ্ঘন ও নিরাপত্তা সতর্কতা নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03980",
+      "target": "सुरक्षा-चेतावनी",
+      "category": "word",
+      "type": "noun",
+      "romanization": "surkshaa-chetaavnee",
+      "bangla_pronunciation": "সুরক্ষা-চেতাভনী",
+      "word_pronunciations": [
+        {
+          "target": "सुरक्षा-चेतावनी",
+          "bangla_pronunciation": "সুরক্ষা-চেতাভনী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপত্তা সতর্কতা। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s10",
+      "source_form": "सुरक्षा-चेतावनी",
+      "example_target": "उल्लंघन और सुरक्षा-चेतावनी पर ध्यान दें।",
+      "example_bangla_pronunciation": "উল্লংঘন ঔর সুরক্ষা-চেতাভনী পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "उल्लंघन",
+          "bangla_pronunciation": "উল্লংঘন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षा-चेतावनी",
+          "bangla_pronunciation": "সুরক্ষা-চেতাভনী",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "লঙ্ঘন ও নিরাপত্তা সতর্কতা নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03981",
+      "target": "सत्र-निगरानी",
+      "category": "word",
+      "type": "noun",
+      "romanization": "str-nigraanee",
+      "bangla_pronunciation": "সত্র-নিগরানী",
+      "word_pronunciations": [
+        {
+          "target": "सत्र-निगरानी",
+          "bangla_pronunciation": "সত্র-নিগরানী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সেশন পর্যবেক্ষণ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s11",
+      "source_form": "सत्र-निगरानी",
+      "example_target": "सत्र-निगरानी और सीमित-पहुँच पर ध्यान दें।",
+      "example_bangla_pronunciation": "সত্র-নিগরানী ঔর সীমিত-পহুঁচ পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "सत्र-निगरानी",
+          "bangla_pronunciation": "সত্র-নিগরানী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "सीमित-पहुँच",
+          "bangla_pronunciation": "সীমিত-পহুঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সেশন পর্যবেক্ষণ ও সীমিত প্রবেশাধিকার নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03982",
+      "target": "सीमित-पहुँच",
+      "category": "word",
+      "type": "noun",
+      "romanization": "seemit-phunch",
+      "bangla_pronunciation": "সীমিত-পহুঁচ",
+      "word_pronunciations": [
+        {
+          "target": "सीमित-पहुँच",
+          "bangla_pronunciation": "সীমিত-পহুঁচ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সীমিত প্রবেশাধিকার। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s11",
+      "source_form": "सीमित-पहुँच",
+      "example_target": "सत्र-निगरानी और सीमित-पहुँच पर ध्यान दें।",
+      "example_bangla_pronunciation": "সত্র-নিগরানী ঔর সীমিত-পহুঁচ পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "सत्र-निगरानी",
+          "bangla_pronunciation": "সত্র-নিগরানী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "सीमित-पहुँच",
+          "bangla_pronunciation": "সীমিত-পহুঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সেশন পর্যবেক্ষণ ও সীমিত প্রবেশাধিকার নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03983",
+      "target": "सत्रसमाप्ति",
+      "category": "word",
+      "type": "noun",
+      "romanization": "strsmaapti",
+      "bangla_pronunciation": "সত্রসমাপ্তি",
+      "word_pronunciations": [
+        {
+          "target": "सत्रसमाप्ति",
+          "bangla_pronunciation": "সত্রসমাপ্তি",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সেশন সমাপ্তি। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s12",
+      "source_form": "सत्रसमाप्ति",
+      "example_target": "सत्रसमाप्ति के संदर्भ में ज़रूरत भर की अनुमति दें।",
+      "example_bangla_pronunciation": "সত্রসমাপ্তি কে সংদর্ভ মেং জরূরত ভর কী অনুমতি দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "सत्रसमाप्ति",
+          "bangla_pronunciation": "সত্রসমাপ্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "ज़रूरत",
+          "bangla_pronunciation": "জরূরত",
+          "separator_after": " "
+        },
+        {
+          "target": "भर",
+          "bangla_pronunciation": "ভর",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुमति",
+          "bangla_pronunciation": "অনুমতি",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সেশন সমাপ্তি-এর ক্ষেত্রে শুধু প্রয়োজনীয় অনুমতি দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03984",
+      "target": "ज़रूरत भर की अनुमति दें",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "jroort bhr kee anumti den",
+      "bangla_pronunciation": "জরূরত ভর কী অনুমতি দেং",
+      "word_pronunciations": [
+        {
+          "target": "ज़रूरत",
+          "bangla_pronunciation": "জরূরত",
+          "separator_after": " "
+        },
+        {
+          "target": "भर",
+          "bangla_pronunciation": "ভর",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुमति",
+          "bangla_pronunciation": "অনুমতি",
+          "separator_after": " "
+        },
+        {
+          "target": "दें",
+          "bangla_pronunciation": "দেং",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "শুধু প্রয়োজনীয় অনুমতি দিন। বাস্তব আলোচনায় ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch133_s12",
+      "source_form": "ज़रूरत भर की अनुमति दें",
+      "example_target": "सत्रसमाप्ति के संदर्भ में ज़रूरत भर की अनुमति दें।",
+      "example_bangla_pronunciation": "সত্রসমাপ্তি কে সংদর্ভ মেং জরূরত ভর কী অনুমতি দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "सत्रसमाप्ति",
+          "bangla_pronunciation": "সত্রসমাপ্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "ज़रूरत",
+          "bangla_pronunciation": "জরূরত",
+          "separator_after": " "
+        },
+        {
+          "target": "भर",
+          "bangla_pronunciation": "ভর",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुमति",
+          "bangla_pronunciation": "অনুমতি",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সেশন সমাপ্তি-এর ক্ষেত্রে শুধু প্রয়োজনীয় অনুমতি দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03985",
+      "target": "सुरक्षाटोकन",
+      "category": "word",
+      "type": "noun",
+      "romanization": "surkshaatokn",
+      "bangla_pronunciation": "সুরক্ষাটোকন",
+      "word_pronunciations": [
+        {
+          "target": "सुरक्षाटोकन",
+          "bangla_pronunciation": "সুরক্ষাটোকন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নিরাপত্তা টোকেন। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s13",
+      "source_form": "सुरक्षाटोकन",
+      "example_target": "सुरक्षाटोकन और प्रतिरूपण पर ध्यान दें।",
+      "example_bangla_pronunciation": "সুরক্ষাটোকন ঔর প্রতিরূপণ পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "सुरक्षाटोकन",
+          "bangla_pronunciation": "সুরক্ষাটোকন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रतिरूपण",
+          "bangla_pronunciation": "প্রতিরূপণ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নিরাপত্তা টোকেন ও ছদ্মপরিচয় ধারণ নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03986",
+      "target": "प्रतिरूपण",
+      "category": "word",
+      "type": "noun",
+      "romanization": "prtiroopn",
+      "bangla_pronunciation": "প্রতিরূপণ",
+      "word_pronunciations": [
+        {
+          "target": "प्रतिरूपण",
+          "bangla_pronunciation": "প্রতিরূপণ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ছদ্মপরিচয় ধারণ। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s13",
+      "source_form": "प्रतिरूपण",
+      "example_target": "सुरक्षाटोकन और प्रतिरूपण पर ध्यान दें।",
+      "example_bangla_pronunciation": "সুরক্ষাটোকন ঔর প্রতিরূপণ পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "सुरक्षाटोकन",
+          "bangla_pronunciation": "সুরক্ষাটোকন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रतिरूपण",
+          "bangla_pronunciation": "প্রতিরূপণ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নিরাপত্তা টোকেন ও ছদ্মপরিচয় ধারণ নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03987",
+      "target": "उपकरण-पहचान",
+      "category": "word",
+      "type": "noun",
+      "romanization": "upkrn-phchaan",
+      "bangla_pronunciation": "উপকরণ-পহচান",
+      "word_pronunciations": [
+        {
+          "target": "उपकरण-पहचान",
+          "bangla_pronunciation": "উপকরণ-পহচান",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডিভাইস পরিচয়। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s14",
+      "source_form": "उपकरण-पहचान",
+      "example_target": "उपकरण-पहचान और जालखंड पर ध्यान दें।",
+      "example_bangla_pronunciation": "উপকরণ-পহচান ঔর জালখংড পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "उपकरण-पहचान",
+          "bangla_pronunciation": "উপকরণ-পহচান",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "जालखंड",
+          "bangla_pronunciation": "জালখংড",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ডিভাইস পরিচয় ও নেটওয়ার্ক সেগমেন্ট নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03988",
+      "target": "जालखंड",
+      "category": "word",
+      "type": "noun",
+      "romanization": "jaalkhnd",
+      "bangla_pronunciation": "জালখংড",
+      "word_pronunciations": [
+        {
+          "target": "जालखंड",
+          "bangla_pronunciation": "জালখংড",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নেটওয়ার্ক সেগমেন্ট। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s14",
+      "source_form": "जालखंड",
+      "example_target": "उपकरण-पहचान और जालखंड पर ध्यान दें।",
+      "example_bangla_pronunciation": "উপকরণ-পহচান ঔর জালখংড পর ধ্যান দেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "उपकरण-पहचान",
+          "bangla_pronunciation": "উপকরণ-পহচান",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "जालखंड",
+          "bangla_pronunciation": "জালখংড",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ডিভাইস পরিচয় ও নেটওয়ার্ক সেগমেন্ট নিয়ে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03989",
+      "target": "द्विस्तरीय-जाँच",
+      "category": "word",
+      "type": "noun",
+      "romanization": "dvistreey-jaanch",
+      "bangla_pronunciation": "দ্ভিস্তরীয-জাঁচ",
+      "word_pronunciations": [
+        {
+          "target": "द्विस्तरीय-जाँच",
+          "bangla_pronunciation": "দ্ভিস্তরীয-জাঁচ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দুই স্তরের যাচাই। এই অধ্যায়ের বিষয়ভিত্তিক আলোচনায় ব্যবহারযোগ্য একটি গুরুত্বপূর্ণ শব্দ।",
+      "source_sentence_id": "ch133_s15",
+      "source_form": "द्विस्तरीय-जाँच",
+      "example_target": "द्विस्तरीय-जाँच के संदर्भ में बैकअप की बहाली जाँचें।",
+      "example_bangla_pronunciation": "দ্ভিস্তরীয-জাঁচ কে সংদর্ভ মেং বৈকঅপ কী বহালী জাঁচেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "द्विस्तरीय-जाँच",
+          "bangla_pronunciation": "দ্ভিস্তরীয-জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "बैकअप",
+          "bangla_pronunciation": "বৈকঅপ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "बहाली",
+          "bangla_pronunciation": "বহালী",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দুই স্তরের যাচাই-এর ক্ষেত্রে ব্যাকআপ পুনরুদ্ধার পরীক্ষা করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03990",
+      "target": "बैकअप की बहाली जाँचें",
+      "category": "expression",
+      "type": "expression",
+      "romanization": "baikap kee bhaalee jaanchen",
+      "bangla_pronunciation": "বৈকঅপ কী বহালী জাঁচেং",
+      "word_pronunciations": [
+        {
+          "target": "बैकअप",
+          "bangla_pronunciation": "বৈকঅপ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "बहाली",
+          "bangla_pronunciation": "বহালী",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें",
+          "bangla_pronunciation": "জাঁচেং",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাকআপ পুনরুদ্ধার পরীক্ষা করুন। বাস্তব আলোচনায় ব্যবহারযোগ্য একটি সম্পূর্ণ বাক্যাংশ।",
+      "source_sentence_id": "ch133_s15",
+      "source_form": "बैकअप की बहाली जाँचें",
+      "example_target": "द्विस्तरीय-जाँच के संदर्भ में बैकअप की बहाली जाँचें।",
+      "example_bangla_pronunciation": "দ্ভিস্তরীয-জাঁচ কে সংদর্ভ মেং বৈকঅপ কী বহালী জাঁচেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "द्विस्तरीय-जाँच",
+          "bangla_pronunciation": "দ্ভিস্তরীয-জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "बैकअप",
+          "bangla_pronunciation": "বৈকঅপ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "बहाली",
+          "bangla_pronunciation": "বহালী",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দুই স্তরের যাচাই-এর ক্ষেত্রে ব্যাকআপ পুনরুদ্ধার পরীক্ষা করুন।",
+      "synonyms": []
+    }
+  ],
+  "bridge_reading": {
+    "mode": "article",
+    "title_bengali": "ডিজিটাল নিরাপত্তা ও গোপনীয়তা: ছোট পাঠ",
+    "scene_summary": "ডিজিটাল নিরাপত্তা ও গোপনীয়তা নিয়ে চারটি ব্যবহারিক মুহূর্তের সংক্ষিপ্ত পাঠ।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "ডিজিটাল নিরাপত্তা ও গোপনীয়তা নিয়ে একটি বাস্তবধর্মী আলোচনার দৃশ্য। "
+      },
+      {
+        "kind": "bangla",
+        "text": " প্রথমে বলা হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "प्रमाणीकरण और कूटलेखन पर ध्यान दें।",
+        "bangla_pronunciation": "প্রমাণীকরণ ঔর কূটলেখন পর ধ্যান দেং।",
+        "word_pronunciations": [
+          {
+            "target": "प्रमाणीकरण",
+            "bangla_pronunciation": "প্রমাণীকরণ",
+            "separator_after": " "
+          },
+          {
+            "target": "और",
+            "bangla_pronunciation": "ঔর",
+            "separator_after": " "
+          },
+          {
+            "target": "कूटलेखन",
+            "bangla_pronunciation": "কূটলেখন",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "separator_after": " "
+          },
+          {
+            "target": "ध्यान",
+            "bangla_pronunciation": "ধ্যান",
+            "separator_after": " "
+          },
+          {
+            "target": "दें।",
+            "bangla_pronunciation": "দেং।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " এরপর সিদ্ধান্ত নেওয়া হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "डिजिटल-प्रमाणपत्र के संदर्भ में संदिग्ध कड़ी मत खोलिए।",
+        "bangla_pronunciation": "ডিজিটল-প্রমাণপত্র কে সংদর্ভ মেং সংদিগ্ধ কডী মত খোলিএ।",
+        "word_pronunciations": [
+          {
+            "target": "डिजिटल-प्रमाणपत्र",
+            "bangla_pronunciation": "ডিজিটল-প্রমাণপত্র",
+            "separator_after": " "
+          },
+          {
+            "target": "के",
+            "bangla_pronunciation": "কে",
+            "separator_after": " "
+          },
+          {
+            "target": "संदर्भ",
+            "bangla_pronunciation": "সংদর্ভ",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেং",
+            "separator_after": " "
+          },
+          {
+            "target": "संदिग्ध",
+            "bangla_pronunciation": "সংদিগ্ধ",
+            "separator_after": " "
+          },
+          {
+            "target": "कड़ी",
+            "bangla_pronunciation": "কডী",
+            "separator_after": " "
+          },
+          {
+            "target": "मत",
+            "bangla_pronunciation": "মত",
+            "separator_after": " "
+          },
+          {
+            "target": "खोलिए।",
+            "bangla_pronunciation": "খোলিএ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " পরে দলটি মনে করল: "
+      },
+      {
+        "kind": "target",
+        "target": "सत्र-निगरानी और सीमित-पहुँच पर ध्यान दें।",
+        "bangla_pronunciation": "সত্র-নিগরানী ঔর সীমিত-পহুঁচ পর ধ্যান দেং।",
+        "word_pronunciations": [
+          {
+            "target": "सत्र-निगरानी",
+            "bangla_pronunciation": "সত্র-নিগরানী",
+            "separator_after": " "
+          },
+          {
+            "target": "और",
+            "bangla_pronunciation": "ঔর",
+            "separator_after": " "
+          },
+          {
+            "target": "सीमित-पहुँच",
+            "bangla_pronunciation": "সীমিত-পহুঁচ",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "separator_after": " "
+          },
+          {
+            "target": "ध्यान",
+            "bangla_pronunciation": "ধ্যান",
+            "separator_after": " "
+          },
+          {
+            "target": "दें।",
+            "bangla_pronunciation": "দেং।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " শেষে সবাই একমত হলো: "
+      },
+      {
+        "kind": "target",
+        "target": "द्विस्तरीय-जाँच के संदर्भ में बैकअप की बहाली जाँचें।",
+        "bangla_pronunciation": "দ্ভিস্তরীয-জাঁচ কে সংদর্ভ মেং বৈকঅপ কী বহালী জাঁচেং।",
+        "word_pronunciations": [
+          {
+            "target": "द्विस्तरीय-जाँच",
+            "bangla_pronunciation": "দ্ভিস্তরীয-জাঁচ",
+            "separator_after": " "
+          },
+          {
+            "target": "के",
+            "bangla_pronunciation": "কে",
+            "separator_after": " "
+          },
+          {
+            "target": "संदर्भ",
+            "bangla_pronunciation": "সংদর্ভ",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেং",
+            "separator_after": " "
+          },
+          {
+            "target": "बैकअप",
+            "bangla_pronunciation": "বৈকঅপ",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "separator_after": " "
+          },
+          {
+            "target": "बहाली",
+            "bangla_pronunciation": "বহালী",
+            "separator_after": " "
+          },
+          {
+            "target": "जाँचें।",
+            "bangla_pronunciation": "জাঁচেং।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "text_md": "ডিজিটাল নিরাপত্তা ও গোপনীয়তা নিয়ে একটি বাস্তবধর্মী আলোচনার দৃশ্য।  প্রথমে বলা হলো: **प्रमाणीकरण** (প্রমাণীকরণ) **और** (ঔর) **कूटलेखन** (কূটলেখন) **पर** (পর) **ध्यान** (ধ্যান) **दें।** (দেং।) এরপর সিদ্ধান্ত নেওয়া হলো: **डिजिटल\\-प्रमाणपत्र** (ডিজিটল\\-প্রমাণপত্র) **के** (কে) **संदर्भ** (সংদর্ভ) **में** (মেং) **संदिग्ध** (সংদিগ্ধ) **कड़ी** (কডী) **मत** (মত) **खोलिए।** (খোলিএ।) পরে দলটি মনে করল: **सत्र\\-निगरानी** (সত্র\\-নিগরানী) **और** (ঔর) **सीमित\\-पहुँच** (সীমিত\\-পহুঁচ) **पर** (পর) **ध्यान** (ধ্যান) **दें।** (দেং।) শেষে সবাই একমত হলো: **द्विस्तरीय\\-जाँच** (দ্ভিস্তরীয\\-জাঁচ) **के** (কে) **संदर्भ** (সংদর্ভ) **में** (মেং) **बैकअप** (বৈকঅপ) **की** (কী) **बहाली** (বহালী) **जाँचें।** (জাঁচেং।)"
+  },
+  "target_reading": {
+    "mode": "article",
+    "title_bengali": "ডিজিটাল নিরাপত্তা ও গোপনীয়তা: সিদ্ধান্তের পাঁচ ধাপ",
+    "scene_summary": "ডিজিটাল নিরাপত্তা ও গোপনীয়তা নিয়ে একটি পৃথক পর্যালোচনা-পরিস্থিতির পাঁচটি ছোট বাক্য।",
+    "lines": [
+      {
+        "target": "प्रमाणीकरण पर चर्चा कीजिए।",
+        "bangla_pronunciation": "প্রমাণীকরণ পর চর্চা কীজিএ।",
+        "word_pronunciations": [
+          {
+            "target": "प्रमाणीकरण",
+            "bangla_pronunciation": "প্রমাণীকরণ",
+            "separator_after": " "
+          },
+          {
+            "target": "पर",
+            "bangla_pronunciation": "পর",
+            "separator_after": " "
+          },
+          {
+            "target": "चर्चा",
+            "bangla_pronunciation": "চর্চা",
+            "separator_after": " "
+          },
+          {
+            "target": "कीजिए।",
+            "bangla_pronunciation": "কীজিএ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "कूटलेखन को उदाहरण के साथ समझाइए।",
+        "bangla_pronunciation": "কূটলেখন কো উদাহরণ কে সাথ সমঝাইএ।",
+        "word_pronunciations": [
+          {
+            "target": "कूटलेखन",
+            "bangla_pronunciation": "কূটলেখন",
+            "separator_after": " "
+          },
+          {
+            "target": "को",
+            "bangla_pronunciation": "কো",
+            "separator_after": " "
+          },
+          {
+            "target": "उदाहरण",
+            "bangla_pronunciation": "উদাহরণ",
+            "separator_after": " "
+          },
+          {
+            "target": "के",
+            "bangla_pronunciation": "কে",
+            "separator_after": " "
+          },
+          {
+            "target": "साथ",
+            "bangla_pronunciation": "সাথ",
+            "separator_after": " "
+          },
+          {
+            "target": "समझाइए।",
+            "bangla_pronunciation": "সমঝাইএ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "भेद्यता से जुड़ा जोखिम पहचानिए।",
+        "bangla_pronunciation": "ভেদ্যতা সে জুডা জোখিম পহচানিএ।",
+        "word_pronunciations": [
+          {
+            "target": "भेद्यता",
+            "bangla_pronunciation": "ভেদ্যতা",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "separator_after": " "
+          },
+          {
+            "target": "जुड़ा",
+            "bangla_pronunciation": "জুডা",
+            "separator_after": " "
+          },
+          {
+            "target": "जोखिम",
+            "bangla_pronunciation": "জোখিম",
+            "separator_after": " "
+          },
+          {
+            "target": "पहचानिए।",
+            "bangla_pronunciation": "পহচানিএ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "अभिगमाधिकार के लिए स्पष्ट मानदंड रखिए।",
+        "bangla_pronunciation": "অভিগমাধিকার কে লিএ স্পষ্ট মানদংড রখিএ।",
+        "word_pronunciations": [
+          {
+            "target": "अभिगमाधिकार",
+            "bangla_pronunciation": "অভিগমাধিকার",
+            "separator_after": " "
+          },
+          {
+            "target": "के",
+            "bangla_pronunciation": "কে",
+            "separator_after": " "
+          },
+          {
+            "target": "लिए",
+            "bangla_pronunciation": "লিএ",
+            "separator_after": " "
+          },
+          {
+            "target": "स्पष्ट",
+            "bangla_pronunciation": "স্পষ্ট",
+            "separator_after": " "
+          },
+          {
+            "target": "मानदंड",
+            "bangla_pronunciation": "মানদংড",
+            "separator_after": " "
+          },
+          {
+            "target": "रखिए।",
+            "bangla_pronunciation": "রখিএ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "निजता की प्रगति दर्ज कीजिए।",
+        "bangla_pronunciation": "নিজতা কী প্রগতি দর্জ কীজিএ।",
+        "word_pronunciations": [
+          {
+            "target": "निजता",
+            "bangla_pronunciation": "নিজতা",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "separator_after": " "
+          },
+          {
+            "target": "प्रगति",
+            "bangla_pronunciation": "প্রগতি",
+            "separator_after": " "
+          },
+          {
+            "target": "दर्ज",
+            "bangla_pronunciation": "দর্জ",
+            "separator_after": " "
+          },
+          {
+            "target": "कीजिए।",
+            "bangla_pronunciation": "কীজিএ।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "প্রমাণীকরণ পর চর্চা কীজিএ। কূটলেখন কো উদাহরণ কে সাথ সমঝাইএ। ভেদ্যতা সে জুডা জোখিম পহচানিএ। অভিগমাধিকার কে লিএ স্পষ্ট মানদংড রখিএ। নিজতা কী প্রগতি দর্জ কীজিএ।",
+    "meaning_bengali_md": "প্রমাণীকরণ নিয়ে আলোচনা করুন। উদাহরণসহ এনক্রিপশন ব্যাখ্যা করুন। দুর্বলতা-এর সঙ্গে যুক্ত ঝুঁকি চিহ্নিত করুন। অ্যাক্সেস অধিকার-এর জন্য স্পষ্ট মানদণ্ড রাখুন। গোপনীয়তা-এর অগ্রগতি নথিভুক্ত করুন।"
+  },
+  "script_practice": [
+    {
+      "item_id": "devanagari_त",
+      "mode": "review",
+      "target": "त",
+      "bangla_pronunciation": "ত",
+      "explanation_bengali_md": "দেবনাগরীর এই চিহ্নটি পরিচিত শব্দ চিনতে কাজে লাগে; আশপাশের স্বরচিহ্ন ও যুক্তধ্বনিও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দতালিকায় অন্তত একটি উদাহরণ খুঁজুন।"
+    },
+    {
+      "item_id": "devanagari_न",
+      "mode": "review",
+      "target": "न",
+      "bangla_pronunciation": "ন",
+      "explanation_bengali_md": "দেবনাগরীর এই চিহ্নটি পরিচিত শব্দ চিনতে কাজে লাগে; আশপাশের স্বরচিহ্ন ও যুক্তধ্বনিও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দতালিকায় অন্তত একটি উদাহরণ খুঁজুন।"
+    },
+    {
+      "item_id": "devanagari_ब",
+      "mode": "review",
+      "target": "ब",
+      "bangla_pronunciation": "ব",
+      "explanation_bengali_md": "দেবনাগরীর এই চিহ্নটি পরিচিত শব্দ চিনতে কাজে লাগে; আশপাশের স্বরচিহ্ন ও যুক্তধ্বনিও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দতালিকায় অন্তত একটি উদাহরণ খুঁজুন।"
+    },
+    {
+      "item_id": "devanagari_र",
+      "mode": "review",
+      "target": "र",
+      "bangla_pronunciation": "র",
+      "explanation_bengali_md": "দেবনাগরীর এই চিহ্নটি পরিচিত শব্দ চিনতে কাজে লাগে; আশপাশের স্বরচিহ্ন ও যুক্তধ্বনিও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দতালিকায় অন্তত একটি উদাহরণ খুঁজুন।"
+    },
+    {
+      "item_id": "devanagari_श",
+      "mode": "review",
+      "target": "श",
+      "bangla_pronunciation": "শ",
+      "explanation_bengali_md": "দেবনাগরীর এই চিহ্নটি পরিচিত শব্দ চিনতে কাজে লাগে; আশপাশের স্বরচিহ্ন ও যুক্তধ্বনিও লক্ষ্য করুন।",
+      "practice_bengali_md": "চিহ্নটি দেখে উচ্চারণ বলুন এবং আজকের শব্দতালিকায় অন্তত একটি উদাহরণ খুঁজুন।"
+    }
+  ],
+  "number_practice": null,
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "বিষয়টি নিয়ে একটি দরকারি বাক্য বলুন।",
+      "model_target": "प्रमाणीकरण और कूटलेखन पर ध्यान दें।",
+      "model_bangla_pronunciation": "প্রমাণীকরণ ঔর কূটলেখন পর ধ্যান দেং।",
+      "model_word_pronunciations": [
+        {
+          "target": "प्रमाणीकरण",
+          "bangla_pronunciation": "প্রমাণীকরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "कूटलेखन",
+          "bangla_pronunciation": "কূটলেখন",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "প্রমাণীকরণ ও এনক্রিপশন নিয়ে মনোযোগ দিন।"
+    },
+    {
+      "prompt_bengali_md": "দুটি ধারণাকে একসঙ্গে উল্লেখ করতে মডেলটি বলুন।",
+      "model_target": "निजता के संदर्भ में पहचान की पुष्टि करें।",
+      "model_bangla_pronunciation": "নিজতা কে সংদর্ভ মেং পহচান কী পুষ্টি করেং।",
+      "model_word_pronunciations": [
+        {
+          "target": "निजता",
+          "bangla_pronunciation": "নিজতা",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "पहचान",
+          "bangla_pronunciation": "পহচান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "पुष्टि",
+          "bangla_pronunciation": "পুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "करें।",
+          "bangla_pronunciation": "করেং।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "গোপনীয়তা-এর ক্ষেত্রে পরিচয় নিশ্চিত করুন।"
+    },
+    {
+      "prompt_bengali_md": "পরিস্থিতিতে ভদ্রভাবে কী বলবেন, মডেলটি অনুসরণ করুন।",
+      "model_target": "डिजिटल-प्रमाणपत्र के संदर्भ में संदिग्ध कड़ी मत खोलिए।",
+      "model_bangla_pronunciation": "ডিজিটল-প্রমাণপত্র কে সংদর্ভ মেং সংদিগ্ধ কডী মত খোলিএ।",
+      "model_word_pronunciations": [
+        {
+          "target": "डिजिटल-प्रमाणपत्र",
+          "bangla_pronunciation": "ডিজিটল-প্রমাণপত্র",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "संदिग्ध",
+          "bangla_pronunciation": "সংদিগ্ধ",
+          "separator_after": " "
+        },
+        {
+          "target": "कड़ी",
+          "bangla_pronunciation": "কডী",
+          "separator_after": " "
+        },
+        {
+          "target": "मत",
+          "bangla_pronunciation": "মত",
+          "separator_after": " "
+        },
+        {
+          "target": "खोलिए।",
+          "bangla_pronunciation": "খোলিএ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ডিজিটাল সনদ-এর ক্ষেত্রে সন্দেহজনক লিংক খুলবেন না।"
+    },
+    {
+      "prompt_bengali_md": "একটি গুরুত্বপূর্ণ বিষয় চিহ্নিত করতে বাক্যটি বলুন।",
+      "model_target": "उल्लंघन और सुरक्षा-चेतावनी पर ध्यान दें।",
+      "model_bangla_pronunciation": "উল্লংঘন ঔর সুরক্ষা-চেতাভনী পর ধ্যান দেং।",
+      "model_word_pronunciations": [
+        {
+          "target": "उल्लंघन",
+          "bangla_pronunciation": "উল্লংঘন",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "सुरक्षा-चेतावनी",
+          "bangla_pronunciation": "সুরক্ষা-চেতাভনী",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दें।",
+          "bangla_pronunciation": "দেং।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "লঙ্ঘন ও নিরাপত্তা সতর্কতা নিয়ে মনোযোগ দিন।"
+    },
+    {
+      "prompt_bengali_md": "পরবর্তী করণীয় বোঝাতে মডেলটি ব্যবহার করুন।",
+      "model_target": "द्विस्तरीय-जाँच के संदर्भ में बैकअप की बहाली जाँचें।",
+      "model_bangla_pronunciation": "দ্ভিস্তরীয-জাঁচ কে সংদর্ভ মেং বৈকঅপ কী বহালী জাঁচেং।",
+      "model_word_pronunciations": [
+        {
+          "target": "द्विस्तरीय-जाँच",
+          "bangla_pronunciation": "দ্ভিস্তরীয-জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "संदर्भ",
+          "bangla_pronunciation": "সংদর্ভ",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "बैकअप",
+          "bangla_pronunciation": "বৈকঅপ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "बहाली",
+          "bangla_pronunciation": "বহালী",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचें।",
+          "bangla_pronunciation": "জাঁচেং।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "দুই স্তরের যাচাই-এর ক্ষেত্রে ব্যাকআপ পুনরুদ্ধার পরীক্ষা করুন।"
+    },
+    {
+      "prompt_bengali_md": "শেষ অবস্থাটি সংক্ষেপে বলুন।",
+      "model_target": "निजता की प्रगति दर्ज कीजिए।",
+      "model_bangla_pronunciation": "নিজতা কী প্রগতি দর্জ কীজিএ।",
+      "model_word_pronunciations": [
+        {
+          "target": "निजता",
+          "bangla_pronunciation": "নিজতা",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रगति",
+          "bangla_pronunciation": "প্রগতি",
+          "separator_after": " "
+        },
+        {
+          "target": "दर्ज",
+          "bangla_pronunciation": "দর্জ",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিএ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "গোপনীয়তা-এর অগ্রগতি নথিভুক্ত করুন।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch133_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "A practical adult-learning scene about ডিজিটাল নিরাপত্তা ও গোপনীয়তা with two or three Bangladeshi/South Asian adults reviewing evidence, objects or a shared situation, medium-wide composition, bright natural light, calm focused action. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, clear focal point, realistic South Asian context, no stereotypes."
+    },
+    {
+      "key": "ch133_target_reading_01",
+      "reading": "target_reading",
+      "subject": "A distinct close-to-medium scene about ডিজিটাল নিরাপত্তা ও গোপনীয়তা, one adult checking a result or making a considered decision while another observes, tidy realistic environment, warm daylight, single clear focal action. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright warm editorial illustration with natural adult characters, uncluttered composition, soft daylight, clear focal point, realistic South Asian context, no stereotypes."
+    }
+  ],
+  "additional_practice": []
+}

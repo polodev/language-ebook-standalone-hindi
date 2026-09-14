@@ -1,0 +1,3569 @@
+{
+  "chapter_id": "ch109",
+  "status": "drafted",
+  "title_target": "छोटे कारोबार का भंडार और हिसाब",
+  "title_bangla_pronunciation": "ছোটে কারোবার কা ভংডার ঔর হিসাব",
+  "title_word_pronunciations": [
+    {
+      "target": "छोटे",
+      "bangla_pronunciation": "ছোটে",
+      "separator_after": " "
+    },
+    {
+      "target": "कारोबार",
+      "bangla_pronunciation": "কারোবার",
+      "separator_after": " "
+    },
+    {
+      "target": "का",
+      "bangla_pronunciation": "কা",
+      "separator_after": " "
+    },
+    {
+      "target": "भंडार",
+      "bangla_pronunciation": "ভংডার",
+      "separator_after": " "
+    },
+    {
+      "target": "और",
+      "bangla_pronunciation": "ঔর",
+      "separator_after": " "
+    },
+    {
+      "target": "हिसाब",
+      "bangla_pronunciation": "হিসাব",
+      "separator_after": ""
+    }
+  ],
+  "title_bengali": "ছোট ব্যবসার স্টক ও হিসাব",
+  "goal_bengali_md": "স্টক, অর্ডার, সরবরাহকারী, খরচ, বিক্রি ও দৈনিক হিসাব নিয়ে ব্যবহারিক বি১ শব্দভান্ডার।",
+  "sentences": [
+    {
+      "id": "ch109_s01",
+      "target": "इस विषय में माल सूची और भंडार स्तर महत्वपूर्ण हैं।",
+      "romanization": "is vishay men maal suuchii aur bhndaar star mahatvapuurn hain।",
+      "bangla_pronunciation": "ইস ভিষয মেং মাল সূচী ঔর ভংডার স্তর মহত্ভপূর্ণ হৈং।",
+      "word_pronunciations": [
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "विषय",
+          "bangla_pronunciation": "ভিষয",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "माल",
+          "bangla_pronunciation": "মাল",
+          "separator_after": " "
+        },
+        {
+          "target": "सूची",
+          "bangla_pronunciation": "সূচী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "भंडार",
+          "bangla_pronunciation": "ভংডার",
+          "separator_after": " "
+        },
+        {
+          "target": "स्तर",
+          "bangla_pronunciation": "স্তর",
+          "separator_after": " "
+        },
+        {
+          "target": "महत्वपूर्ण",
+          "bangla_pronunciation": "মহত্ভপূর্ণ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হৈং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "এই বিষয়ে পণ্যের তালিকা ও স্টকের পরিমাণ গুরুত্বপূর্ণ।"
+    },
+    {
+      "id": "ch109_s02",
+      "target": "हमने पुनः आदेश स्तर और आपूर्तिकर्ता विवरण पर चर्चा की।",
+      "romanization": "hamane punh aadesh star aur aapuurtikartaa vivaran par charchaa kii।",
+      "bangla_pronunciation": "হমনে পুনঃ আদেশ স্তর ঔর আপূর্তিকর্তা ভিভরণ পর চর্চা কী।",
+      "word_pronunciations": [
+        {
+          "target": "हमने",
+          "bangla_pronunciation": "হমনে",
+          "separator_after": " "
+        },
+        {
+          "target": "पुनः",
+          "bangla_pronunciation": "পুনঃ",
+          "separator_after": " "
+        },
+        {
+          "target": "आदेश",
+          "bangla_pronunciation": "আদেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "स्तर",
+          "bangla_pronunciation": "স্তর",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "आपूर्तिकर्ता",
+          "bangla_pronunciation": "আপূর্তিকর্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "विवरण",
+          "bangla_pronunciation": "ভিভরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "चर्चा",
+          "bangla_pronunciation": "চর্চা",
+          "separator_after": " "
+        },
+        {
+          "target": "की।",
+          "bangla_pronunciation": "কী।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "আমরা পুনরায় অর্ডারের স্তর ও সরবরাহকারীর তথ্য নিয়ে আলোচনা করেছি।"
+    },
+    {
+      "id": "ch109_s03",
+      "target": "खरीद आदेश की जाँच जरूरी है।",
+      "romanization": "khariid aadesh kii jaanch jaruurii hai।",
+      "bangla_pronunciation": "খরীদ আদেশ কী জাঁচ জরূরী হৈ।",
+      "word_pronunciations": [
+        {
+          "target": "खरीद",
+          "bangla_pronunciation": "খরীদ",
+          "separator_after": " "
+        },
+        {
+          "target": "आदेश",
+          "bangla_pronunciation": "আদেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँच",
+          "bangla_pronunciation": "জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ক্রয় আদেশ যাচাই করা জরুরি।"
+    },
+    {
+      "id": "ch109_s04",
+      "target": "कम स्टॉक की सूची बनाएं।",
+      "romanization": "kam staॉk kii suuchii banaaen।",
+      "bangla_pronunciation": "কম স্টॉক কী সূচী বনাএং।",
+      "word_pronunciations": [
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "separator_after": " "
+        },
+        {
+          "target": "स्टॉक",
+          "bangla_pronunciation": "স্টॉক",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "सूची",
+          "bangla_pronunciation": "সূচী",
+          "separator_after": " "
+        },
+        {
+          "target": "बनाएं।",
+          "bangla_pronunciation": "বনাএং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কম স্টকের তালিকা তৈরি করুন।"
+    },
+    {
+      "id": "ch109_s05",
+      "target": "प्राप्त मात्रा और बैच संख्या तैयार रखिए।",
+      "romanization": "praapt maatraa aur baich snkhyaa taiyaar rakhie।",
+      "bangla_pronunciation": "প্রাপ্ত মাত্রা ঔর বৈচ সংখ্যা তৈযার রখিএ।",
+      "word_pronunciations": [
+        {
+          "target": "प्राप्त",
+          "bangla_pronunciation": "প্রাপ্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "मात्रा",
+          "bangla_pronunciation": "মাত্রা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "बैच",
+          "bangla_pronunciation": "বৈচ",
+          "separator_after": " "
+        },
+        {
+          "target": "संख्या",
+          "bangla_pronunciation": "সংখ্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "तैयार",
+          "bangla_pronunciation": "তৈযার",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রাপ্ত পরিমাণ ও ব্যাচ নম্বর প্রস্তুত রাখুন।"
+    },
+    {
+      "id": "ch109_s06",
+      "target": "समाप्ति तारीख के साथ इकाई लागत भी दर्ज कीजिए।",
+      "romanization": "samaapti taariikh ke saath ikaaii laagat bhii darj kiijie।",
+      "bangla_pronunciation": "সমাপ্তি তারীখ কে সাথ ইকাঈ লাগত ভী দর্জ কীজিএ।",
+      "word_pronunciations": [
+        {
+          "target": "समाप्ति",
+          "bangla_pronunciation": "সমাপ্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "तारीख",
+          "bangla_pronunciation": "তারীখ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "इकाई",
+          "bangla_pronunciation": "ইকাঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "लागत",
+          "bangla_pronunciation": "লাগত",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "दर्ज",
+          "bangla_pronunciation": "দর্জ",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মেয়াদ শেষের তারিখ-এর সঙ্গে প্রতি ইউনিট খরচ-ও নথিভুক্ত করুন।"
+    },
+    {
+      "id": "ch109_s07",
+      "target": "बिक्री मात्रा पर ध्यान दीजिए।",
+      "romanization": "bikrii maatraa par dhyaan diijie।",
+      "bangla_pronunciation": "বিক্রী মাত্রা পর ধ্যান দীজিএ।",
+      "word_pronunciations": [
+        {
+          "target": "बिक्री",
+          "bangla_pronunciation": "বিক্রী",
+          "separator_after": " "
+        },
+        {
+          "target": "मात्रा",
+          "bangla_pronunciation": "মাত্রা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিক্রির পরিমাণ-এর দিকে মনোযোগ দিন।"
+    },
+    {
+      "id": "ch109_s08",
+      "target": "हर डिलीवरी गिनकर लें।",
+      "romanization": "har diliivarii ginakar len।",
+      "bangla_pronunciation": "হর ডিলীভরী গিনকর লেং।",
+      "word_pronunciations": [
+        {
+          "target": "हर",
+          "bangla_pronunciation": "হর",
+          "separator_after": " "
+        },
+        {
+          "target": "डिलीवरी",
+          "bangla_pronunciation": "ডিলীভরী",
+          "separator_after": " "
+        },
+        {
+          "target": "गिनकर",
+          "bangla_pronunciation": "গিনকর",
+          "separator_after": " "
+        },
+        {
+          "target": "लें।",
+          "bangla_pronunciation": "লেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রতিটি ডেলিভারি গুনে নিন।"
+    },
+    {
+      "id": "ch109_s09",
+      "target": "भंडारण स्थान और क्षतिग्रस्त माल की जानकारी रखिए।",
+      "romanization": "bhndaaran sthaan aur kshatigrast maal kii jaanakaarii rakhie।",
+      "bangla_pronunciation": "ভংডারণ স্থান ঔর ক্ষতিগ্রস্ত মাল কী জানকারী রখিএ।",
+      "word_pronunciations": [
+        {
+          "target": "भंडारण",
+          "bangla_pronunciation": "ভংডারণ",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थान",
+          "bangla_pronunciation": "স্থান",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "क्षतिग्रस्त",
+          "bangla_pronunciation": "ক্ষতিগ্রস্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "माल",
+          "bangla_pronunciation": "মাল",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সংরক্ষণের স্থান ও ক্ষতিগ্রস্ত পণ্য-এর তথ্য রাখুন।"
+    },
+    {
+      "id": "ch109_s10",
+      "target": "वापसी माल के साथ मांग अनुमान भी देखिए।",
+      "romanization": "vaapasii maal ke saath maang anumaan bhii dekhie।",
+      "bangla_pronunciation": "ভাপসী মাল কে সাথ মাংগ অনুমান ভী দেখিএ।",
+      "word_pronunciations": [
+        {
+          "target": "वापसी",
+          "bangla_pronunciation": "ভাপসী",
+          "separator_after": " "
+        },
+        {
+          "target": "माल",
+          "bangla_pronunciation": "মাল",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "मांग",
+          "bangla_pronunciation": "মাংগ",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुमान",
+          "bangla_pronunciation": "অনুমান",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "देखिए।",
+          "bangla_pronunciation": "দেখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফেরত পণ্য-এর সঙ্গে চাহিদার অনুমান-ও দেখুন।"
+    },
+    {
+      "id": "ch109_s11",
+      "target": "लाभ मार्जिन को साफ़ लिखिए।",
+      "romanization": "laabh maarjin ko saaph likhie।",
+      "bangla_pronunciation": "লাভ মার্জিন কো সাফ লিখিএ।",
+      "word_pronunciations": [
+        {
+          "target": "लाभ",
+          "bangla_pronunciation": "লাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "मार्जिन",
+          "bangla_pronunciation": "মার্জিন",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "साफ़",
+          "bangla_pronunciation": "সাফ",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লাভের মার্জিন স্পষ্ট করে লিখুন।"
+    },
+    {
+      "id": "ch109_s12",
+      "target": "कीमत बदलने से पहले हिसाब देखें।",
+      "romanization": "kiimat badalane se pahale hisaab dekhen।",
+      "bangla_pronunciation": "কীমত বদলনে সে পহলে হিসাব দেখেং।",
+      "word_pronunciations": [
+        {
+          "target": "कीमत",
+          "bangla_pronunciation": "কীমত",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलने",
+          "bangla_pronunciation": "বদলনে",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "हिसाब",
+          "bangla_pronunciation": "হিসাব",
+          "separator_after": " "
+        },
+        {
+          "target": "देखें।",
+          "bangla_pronunciation": "দেখেং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দাম বদলানোর আগে হিসাব দেখুন।"
+    },
+    {
+      "id": "ch109_s13",
+      "target": "नकद प्रवाह और बकाया भुगतान की स्थिति जाँचिए।",
+      "romanization": "nakad pravaah aur bakaayaa bhugataan kii sthiti jaanchie।",
+      "bangla_pronunciation": "নকদ প্রভাহ ঔর বকাযা ভুগতান কী স্থিতি জাঁচিএ।",
+      "word_pronunciations": [
+        {
+          "target": "नकद",
+          "bangla_pronunciation": "নকদ",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रवाह",
+          "bangla_pronunciation": "প্রভাহ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "बकाया",
+          "bangla_pronunciation": "বকাযা",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थिति",
+          "bangla_pronunciation": "স্থিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचिए।",
+          "bangla_pronunciation": "জাঁচিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নগদ প্রবাহ ও বকেয়া পেমেন্ট-এর অবস্থা যাচাই করুন।"
+    },
+    {
+      "id": "ch109_s14",
+      "target": "भुगतान चक्र और खर्च श्रेणी को साथ रखिए।",
+      "romanization": "bhugataan chakr aur kharch shrenii ko saath rakhie।",
+      "bangla_pronunciation": "ভুগতান চক্র ঔর খর্চ শ্রেণী কো সাথ রখিএ।",
+      "word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "चक्र",
+          "bangla_pronunciation": "চক্র",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "खर्च",
+          "bangla_pronunciation": "খর্চ",
+          "separator_after": " "
+        },
+        {
+          "target": "श्रेणी",
+          "bangla_pronunciation": "শ্রেণী",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্ট চক্র ও খরচের বিভাগ একসঙ্গে রাখুন।"
+    },
+    {
+      "id": "ch109_s15",
+      "target": "दैनिक हिसाब की प्रति रखिए।",
+      "romanization": "dainik hisaab kii prati rakhie।",
+      "bangla_pronunciation": "দৈনিক হিসাব কী প্রতি রখিএ।",
+      "word_pronunciations": [
+        {
+          "target": "दैनिक",
+          "bangla_pronunciation": "দৈনিক",
+          "separator_after": " "
+        },
+        {
+          "target": "हिसाब",
+          "bangla_pronunciation": "হিসাব",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रति",
+          "bangla_pronunciation": "প্রতি",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দৈনিক হিসাব-এর একটি কপি রাখুন।"
+    },
+    {
+      "id": "ch109_s16",
+      "target": "दिन के अंत में रिकॉर्ड मिलाएँ।",
+      "romanization": "din ke ant men rikaॉrd milaaen।",
+      "bangla_pronunciation": "দিন কে অংত মেং রিকॉর্ড মিলাএঁ।",
+      "word_pronunciations": [
+        {
+          "target": "दिन",
+          "bangla_pronunciation": "দিন",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "अंत",
+          "bangla_pronunciation": "অংত",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "रिकॉर्ड",
+          "bangla_pronunciation": "রিকॉর্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाएँ।",
+          "bangla_pronunciation": "মিলাএঁ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দিন শেষে রেকর্ড মিলিয়ে নিন।"
+    },
+    {
+      "id": "ch109_s17",
+      "target": "आपूर्ति विलंब और न्यूनतम भंडार का रिकॉर्ड रखिए।",
+      "romanization": "aapuurti vilnb aur nyuunatam bhndaar kaa rikaॉrd rakhie।",
+      "bangla_pronunciation": "আপূর্তি ভিলংব ঔর ন্যূনতম ভংডার কা রিকॉর্ড রখিএ।",
+      "word_pronunciations": [
+        {
+          "target": "आपूर्ति",
+          "bangla_pronunciation": "আপূর্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "विलंब",
+          "bangla_pronunciation": "ভিলংব",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "न्यूनतम",
+          "bangla_pronunciation": "ন্যূনতম",
+          "separator_after": " "
+        },
+        {
+          "target": "भंडार",
+          "bangla_pronunciation": "ভংডার",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "रिकॉर्ड",
+          "bangla_pronunciation": "রিকॉর্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সরবরাহে দেরি ও ন্যূনতম স্টক-এর রেকর্ড রাখুন।"
+    },
+    {
+      "id": "ch109_s18",
+      "target": "पैकिंग सूची और वितरण मार्ग को फिर देखिए।",
+      "romanization": "paiking suuchii aur vitaran maarg ko phir dekhie।",
+      "bangla_pronunciation": "পৈকিংগ সূচী ঔর ভিতরণ মার্গ কো ফির দেখিএ।",
+      "word_pronunciations": [
+        {
+          "target": "पैकिंग",
+          "bangla_pronunciation": "পৈকিংগ",
+          "separator_after": " "
+        },
+        {
+          "target": "सूची",
+          "bangla_pronunciation": "সূচী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "वितरण",
+          "bangla_pronunciation": "ভিতরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "मार्ग",
+          "bangla_pronunciation": "মার্গ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "देखिए।",
+          "bangla_pronunciation": "দেখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্যাকিং তালিকা ও ডেলিভারি রুট আবার দেখুন।"
+    },
+    {
+      "id": "ch109_s19",
+      "target": "ग्राहक आदेश की पुष्टि कीजिए।",
+      "romanization": "graahak aadesh kii pushti kiijie।",
+      "bangla_pronunciation": "গ্রাহক আদেশ কী পুষ্টি কীজিএ।",
+      "word_pronunciations": [
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "आदेश",
+          "bangla_pronunciation": "আদেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "पुष्टि",
+          "bangla_pronunciation": "পুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিএ।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গ্রাহকের অর্ডার নিশ্চিত করুন।"
+    },
+    {
+      "id": "ch109_s20",
+      "target": "कमी हो तो ग्राहक को पहले बताएं।",
+      "romanization": "kamii ho to graahak ko pahale bataaen।",
+      "bangla_pronunciation": "কমী হো তো গ্রাহক কো পহলে বতাএং।",
+      "word_pronunciations": [
+        {
+          "target": "कमी",
+          "bangla_pronunciation": "কমী",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "बताएं।",
+          "bangla_pronunciation": "বতাএং।",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঘাটতি হলে গ্রাহককে আগে জানান।"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v03241",
+      "target": "माल सूची",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "maal suuchii",
+      "bangla_pronunciation": "মাল সূচী",
+      "word_pronunciations": [
+        {
+          "target": "माल",
+          "bangla_pronunciation": "মাল",
+          "separator_after": " "
+        },
+        {
+          "target": "सूची",
+          "bangla_pronunciation": "সূচী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পণ্যের তালিকা",
+      "source_sentence_id": "ch109_s01",
+      "source_form": "माल सूची",
+      "example_target": "इस विषय में माल सूची और भंडार स्तर महत्वपूर्ण हैं।",
+      "example_bangla_pronunciation": "ইস ভিষয মেং মাল সূচী ঔর ভংডার স্তর মহত্ভপূর্ণ হৈং।",
+      "example_word_pronunciations": [
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "विषय",
+          "bangla_pronunciation": "ভিষয",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "माल",
+          "bangla_pronunciation": "মাল",
+          "separator_after": " "
+        },
+        {
+          "target": "सूची",
+          "bangla_pronunciation": "সূচী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "भंडार",
+          "bangla_pronunciation": "ভংডার",
+          "separator_after": " "
+        },
+        {
+          "target": "स्तर",
+          "bangla_pronunciation": "স্তর",
+          "separator_after": " "
+        },
+        {
+          "target": "महत्वपूर्ण",
+          "bangla_pronunciation": "মহত্ভপূর্ণ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হৈং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এই বিষয়ে পণ্যের তালিকা ও স্টকের পরিমাণ গুরুত্বপূর্ণ।",
+      "synonyms": []
+    },
+    {
+      "id": "v03242",
+      "target": "भंडार स्तर",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "bhndaar star",
+      "bangla_pronunciation": "ভংডার স্তর",
+      "word_pronunciations": [
+        {
+          "target": "भंडार",
+          "bangla_pronunciation": "ভংডার",
+          "separator_after": " "
+        },
+        {
+          "target": "स्तर",
+          "bangla_pronunciation": "স্তর",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "স্টকের পরিমাণ",
+      "source_sentence_id": "ch109_s01",
+      "source_form": "भंडार स्तर",
+      "example_target": "इस विषय में माल सूची और भंडार स्तर महत्वपूर्ण हैं।",
+      "example_bangla_pronunciation": "ইস ভিষয মেং মাল সূচী ঔর ভংডার স্তর মহত্ভপূর্ণ হৈং।",
+      "example_word_pronunciations": [
+        {
+          "target": "इस",
+          "bangla_pronunciation": "ইস",
+          "separator_after": " "
+        },
+        {
+          "target": "विषय",
+          "bangla_pronunciation": "ভিষয",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "माल",
+          "bangla_pronunciation": "মাল",
+          "separator_after": " "
+        },
+        {
+          "target": "सूची",
+          "bangla_pronunciation": "সূচী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "भंडार",
+          "bangla_pronunciation": "ভংডার",
+          "separator_after": " "
+        },
+        {
+          "target": "स्तर",
+          "bangla_pronunciation": "স্তর",
+          "separator_after": " "
+        },
+        {
+          "target": "महत्वपूर्ण",
+          "bangla_pronunciation": "মহত্ভপূর্ণ",
+          "separator_after": " "
+        },
+        {
+          "target": "हैं।",
+          "bangla_pronunciation": "হৈং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "এই বিষয়ে পণ্যের তালিকা ও স্টকের পরিমাণ গুরুত্বপূর্ণ।",
+      "synonyms": []
+    },
+    {
+      "id": "v03243",
+      "target": "पुनः आदेश स्तर",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "punh aadesh star",
+      "bangla_pronunciation": "পুনঃ আদেশ স্তর",
+      "word_pronunciations": [
+        {
+          "target": "पुनः",
+          "bangla_pronunciation": "পুনঃ",
+          "separator_after": " "
+        },
+        {
+          "target": "आदेश",
+          "bangla_pronunciation": "আদেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "स्तर",
+          "bangla_pronunciation": "স্তর",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পুনরায় অর্ডারের স্তর",
+      "source_sentence_id": "ch109_s02",
+      "source_form": "पुनः आदेश स्तर",
+      "example_target": "हमने पुनः आदेश स्तर और आपूर्तिकर्ता विवरण पर चर्चा की।",
+      "example_bangla_pronunciation": "হমনে পুনঃ আদেশ স্তর ঔর আপূর্তিকর্তা ভিভরণ পর চর্চা কী।",
+      "example_word_pronunciations": [
+        {
+          "target": "हमने",
+          "bangla_pronunciation": "হমনে",
+          "separator_after": " "
+        },
+        {
+          "target": "पुनः",
+          "bangla_pronunciation": "পুনঃ",
+          "separator_after": " "
+        },
+        {
+          "target": "आदेश",
+          "bangla_pronunciation": "আদেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "स्तर",
+          "bangla_pronunciation": "স্তর",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "आपूर्तिकर्ता",
+          "bangla_pronunciation": "আপূর্তিকর্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "विवरण",
+          "bangla_pronunciation": "ভিভরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "चर्चा",
+          "bangla_pronunciation": "চর্চা",
+          "separator_after": " "
+        },
+        {
+          "target": "की।",
+          "bangla_pronunciation": "কী।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমরা পুনরায় অর্ডারের স্তর ও সরবরাহকারীর তথ্য নিয়ে আলোচনা করেছি।",
+      "synonyms": []
+    },
+    {
+      "id": "v03244",
+      "target": "आपूर्तिकर्ता विवरण",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "aapuurtikartaa vivaran",
+      "bangla_pronunciation": "আপূর্তিকর্তা ভিভরণ",
+      "word_pronunciations": [
+        {
+          "target": "आपूर्तिकर्ता",
+          "bangla_pronunciation": "আপূর্তিকর্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "विवरण",
+          "bangla_pronunciation": "ভিভরণ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সরবরাহকারীর তথ্য",
+      "source_sentence_id": "ch109_s02",
+      "source_form": "आपूर्तिकर्ता विवरण",
+      "example_target": "हमने पुनः आदेश स्तर और आपूर्तिकर्ता विवरण पर चर्चा की।",
+      "example_bangla_pronunciation": "হমনে পুনঃ আদেশ স্তর ঔর আপূর্তিকর্তা ভিভরণ পর চর্চা কী।",
+      "example_word_pronunciations": [
+        {
+          "target": "हमने",
+          "bangla_pronunciation": "হমনে",
+          "separator_after": " "
+        },
+        {
+          "target": "पुनः",
+          "bangla_pronunciation": "পুনঃ",
+          "separator_after": " "
+        },
+        {
+          "target": "आदेश",
+          "bangla_pronunciation": "আদেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "स्तर",
+          "bangla_pronunciation": "স্তর",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "आपूर्तिकर्ता",
+          "bangla_pronunciation": "আপূর্তিকর্তা",
+          "separator_after": " "
+        },
+        {
+          "target": "विवरण",
+          "bangla_pronunciation": "ভিভরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "चर्चा",
+          "bangla_pronunciation": "চর্চা",
+          "separator_after": " "
+        },
+        {
+          "target": "की।",
+          "bangla_pronunciation": "কী।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "আমরা পুনরায় অর্ডারের স্তর ও সরবরাহকারীর তথ্য নিয়ে আলোচনা করেছি।",
+      "synonyms": []
+    },
+    {
+      "id": "v03245",
+      "target": "खरीद आदेश",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "khariid aadesh",
+      "bangla_pronunciation": "খরীদ আদেশ",
+      "word_pronunciations": [
+        {
+          "target": "खरीद",
+          "bangla_pronunciation": "খরীদ",
+          "separator_after": " "
+        },
+        {
+          "target": "आदेश",
+          "bangla_pronunciation": "আদেশ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ক্রয় আদেশ",
+      "source_sentence_id": "ch109_s03",
+      "source_form": "खरीद आदेश",
+      "example_target": "खरीद आदेश की जाँच जरूरी है।",
+      "example_bangla_pronunciation": "খরীদ আদেশ কী জাঁচ জরূরী হৈ।",
+      "example_word_pronunciations": [
+        {
+          "target": "खरीद",
+          "bangla_pronunciation": "খরীদ",
+          "separator_after": " "
+        },
+        {
+          "target": "आदेश",
+          "bangla_pronunciation": "আদেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँच",
+          "bangla_pronunciation": "জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ক্রয় আদেশ যাচাই করা জরুরি।",
+      "synonyms": []
+    },
+    {
+      "id": "v03246",
+      "target": "कम स्टॉक की सूची बनाएं",
+      "type": "expression",
+      "category": "expression",
+      "romanization": "kam staॉk kii suuchii banaaen",
+      "bangla_pronunciation": "কম স্টॉক কী সূচী বনাএং",
+      "word_pronunciations": [
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "separator_after": " "
+        },
+        {
+          "target": "स्टॉक",
+          "bangla_pronunciation": "স্টॉক",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "सूची",
+          "bangla_pronunciation": "সূচী",
+          "separator_after": " "
+        },
+        {
+          "target": "बनाएं",
+          "bangla_pronunciation": "বনাএং",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "কম স্টকের তালিকা তৈরি করুন",
+      "source_sentence_id": "ch109_s04",
+      "source_form": "कम स्टॉक की सूची बनाएं",
+      "example_target": "कम स्टॉक की सूची बनाएं।",
+      "example_bangla_pronunciation": "কম স্টॉক কী সূচী বনাএং।",
+      "example_word_pronunciations": [
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "separator_after": " "
+        },
+        {
+          "target": "स्टॉक",
+          "bangla_pronunciation": "স্টॉক",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "सूची",
+          "bangla_pronunciation": "সূচী",
+          "separator_after": " "
+        },
+        {
+          "target": "बनाएं।",
+          "bangla_pronunciation": "বনাএং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "কম স্টকের তালিকা তৈরি করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03247",
+      "target": "प्राप्त मात्रा",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "praapt maatraa",
+      "bangla_pronunciation": "প্রাপ্ত মাত্রা",
+      "word_pronunciations": [
+        {
+          "target": "प्राप्त",
+          "bangla_pronunciation": "প্রাপ্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "मात्रा",
+          "bangla_pronunciation": "মাত্রা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রাপ্ত পরিমাণ",
+      "source_sentence_id": "ch109_s05",
+      "source_form": "प्राप्त मात्रा",
+      "example_target": "प्राप्त मात्रा और बैच संख्या तैयार रखिए।",
+      "example_bangla_pronunciation": "প্রাপ্ত মাত্রা ঔর বৈচ সংখ্যা তৈযার রখিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "प्राप्त",
+          "bangla_pronunciation": "প্রাপ্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "मात्रा",
+          "bangla_pronunciation": "মাত্রা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "बैच",
+          "bangla_pronunciation": "বৈচ",
+          "separator_after": " "
+        },
+        {
+          "target": "संख्या",
+          "bangla_pronunciation": "সংখ্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "तैयार",
+          "bangla_pronunciation": "তৈযার",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্রাপ্ত পরিমাণ ও ব্যাচ নম্বর প্রস্তুত রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03248",
+      "target": "बैच संख्या",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "baich snkhyaa",
+      "bangla_pronunciation": "বৈচ সংখ্যা",
+      "word_pronunciations": [
+        {
+          "target": "बैच",
+          "bangla_pronunciation": "বৈচ",
+          "separator_after": " "
+        },
+        {
+          "target": "संख्या",
+          "bangla_pronunciation": "সংখ্যা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ব্যাচ নম্বর",
+      "source_sentence_id": "ch109_s05",
+      "source_form": "बैच संख्या",
+      "example_target": "प्राप्त मात्रा और बैच संख्या तैयार रखिए।",
+      "example_bangla_pronunciation": "প্রাপ্ত মাত্রা ঔর বৈচ সংখ্যা তৈযার রখিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "प्राप्त",
+          "bangla_pronunciation": "প্রাপ্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "मात्रा",
+          "bangla_pronunciation": "মাত্রা",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "बैच",
+          "bangla_pronunciation": "বৈচ",
+          "separator_after": " "
+        },
+        {
+          "target": "संख्या",
+          "bangla_pronunciation": "সংখ্যা",
+          "separator_after": " "
+        },
+        {
+          "target": "तैयार",
+          "bangla_pronunciation": "তৈযার",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্রাপ্ত পরিমাণ ও ব্যাচ নম্বর প্রস্তুত রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03249",
+      "target": "समाप्ति तारीख",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "samaapti taariikh",
+      "bangla_pronunciation": "সমাপ্তি তারীখ",
+      "word_pronunciations": [
+        {
+          "target": "समाप्ति",
+          "bangla_pronunciation": "সমাপ্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "तारीख",
+          "bangla_pronunciation": "তারীখ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "মেয়াদ শেষের তারিখ",
+      "source_sentence_id": "ch109_s06",
+      "source_form": "समाप्ति तारीख",
+      "example_target": "समाप्ति तारीख के साथ इकाई लागत भी दर्ज कीजिए।",
+      "example_bangla_pronunciation": "সমাপ্তি তারীখ কে সাথ ইকাঈ লাগত ভী দর্জ কীজিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "समाप्ति",
+          "bangla_pronunciation": "সমাপ্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "तारीख",
+          "bangla_pronunciation": "তারীখ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "इकाई",
+          "bangla_pronunciation": "ইকাঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "लागत",
+          "bangla_pronunciation": "লাগত",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "दर्ज",
+          "bangla_pronunciation": "দর্জ",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "মেয়াদ শেষের তারিখ-এর সঙ্গে প্রতি ইউনিট খরচ-ও নথিভুক্ত করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03250",
+      "target": "इकाई लागत",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "ikaaii laagat",
+      "bangla_pronunciation": "ইকাঈ লাগত",
+      "word_pronunciations": [
+        {
+          "target": "इकाई",
+          "bangla_pronunciation": "ইকাঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "लागत",
+          "bangla_pronunciation": "লাগত",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রতি ইউনিট খরচ",
+      "source_sentence_id": "ch109_s06",
+      "source_form": "इकाई लागत",
+      "example_target": "समाप्ति तारीख के साथ इकाई लागत भी दर्ज कीजिए।",
+      "example_bangla_pronunciation": "সমাপ্তি তারীখ কে সাথ ইকাঈ লাগত ভী দর্জ কীজিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "समाप्ति",
+          "bangla_pronunciation": "সমাপ্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "तारीख",
+          "bangla_pronunciation": "তারীখ",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "इकाई",
+          "bangla_pronunciation": "ইকাঈ",
+          "separator_after": " "
+        },
+        {
+          "target": "लागत",
+          "bangla_pronunciation": "লাগত",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "दर्ज",
+          "bangla_pronunciation": "দর্জ",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "মেয়াদ শেষের তারিখ-এর সঙ্গে প্রতি ইউনিট খরচ-ও নথিভুক্ত করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03251",
+      "target": "बिक्री मात्रा",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "bikrii maatraa",
+      "bangla_pronunciation": "বিক্রী মাত্রা",
+      "word_pronunciations": [
+        {
+          "target": "बिक्री",
+          "bangla_pronunciation": "বিক্রী",
+          "separator_after": " "
+        },
+        {
+          "target": "मात्रा",
+          "bangla_pronunciation": "মাত্রা",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বিক্রির পরিমাণ",
+      "source_sentence_id": "ch109_s07",
+      "source_form": "बिक्री मात्रा",
+      "example_target": "बिक्री मात्रा पर ध्यान दीजिए।",
+      "example_bangla_pronunciation": "বিক্রী মাত্রা পর ধ্যান দীজিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "बिक्री",
+          "bangla_pronunciation": "বিক্রী",
+          "separator_after": " "
+        },
+        {
+          "target": "मात्रा",
+          "bangla_pronunciation": "মাত্রা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "বিক্রির পরিমাণ-এর দিকে মনোযোগ দিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03252",
+      "target": "हर डिलीवरी गिनकर लें",
+      "type": "expression",
+      "category": "expression",
+      "romanization": "har diliivarii ginakar len",
+      "bangla_pronunciation": "হর ডিলীভরী গিনকর লেং",
+      "word_pronunciations": [
+        {
+          "target": "हर",
+          "bangla_pronunciation": "হর",
+          "separator_after": " "
+        },
+        {
+          "target": "डिलीवरी",
+          "bangla_pronunciation": "ডিলীভরী",
+          "separator_after": " "
+        },
+        {
+          "target": "गिनकर",
+          "bangla_pronunciation": "গিনকর",
+          "separator_after": " "
+        },
+        {
+          "target": "लें",
+          "bangla_pronunciation": "লেং",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্রতিটি ডেলিভারি গুনে নিন",
+      "source_sentence_id": "ch109_s08",
+      "source_form": "हर डिलीवरी गिनकर लें",
+      "example_target": "हर डिलीवरी गिनकर लें।",
+      "example_bangla_pronunciation": "হর ডিলীভরী গিনকর লেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "हर",
+          "bangla_pronunciation": "হর",
+          "separator_after": " "
+        },
+        {
+          "target": "डिलीवरी",
+          "bangla_pronunciation": "ডিলীভরী",
+          "separator_after": " "
+        },
+        {
+          "target": "गिनकर",
+          "bangla_pronunciation": "গিনকর",
+          "separator_after": " "
+        },
+        {
+          "target": "लें।",
+          "bangla_pronunciation": "লেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্রতিটি ডেলিভারি গুনে নিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03253",
+      "target": "भंडारण स्थान",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "bhndaaran sthaan",
+      "bangla_pronunciation": "ভংডারণ স্থান",
+      "word_pronunciations": [
+        {
+          "target": "भंडारण",
+          "bangla_pronunciation": "ভংডারণ",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थान",
+          "bangla_pronunciation": "স্থান",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সংরক্ষণের স্থান",
+      "source_sentence_id": "ch109_s09",
+      "source_form": "भंडारण स्थान",
+      "example_target": "भंडारण स्थान और क्षतिग्रस्त माल की जानकारी रखिए।",
+      "example_bangla_pronunciation": "ভংডারণ স্থান ঔর ক্ষতিগ্রস্ত মাল কী জানকারী রখিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "भंडारण",
+          "bangla_pronunciation": "ভংডারণ",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थान",
+          "bangla_pronunciation": "স্থান",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "क्षतिग्रस्त",
+          "bangla_pronunciation": "ক্ষতিগ্রস্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "माल",
+          "bangla_pronunciation": "মাল",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সংরক্ষণের স্থান ও ক্ষতিগ্রস্ত পণ্য-এর তথ্য রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03254",
+      "target": "क्षतिग्रस्त माल",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "kshatigrast maal",
+      "bangla_pronunciation": "ক্ষতিগ্রস্ত মাল",
+      "word_pronunciations": [
+        {
+          "target": "क्षतिग्रस्त",
+          "bangla_pronunciation": "ক্ষতিগ্রস্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "माल",
+          "bangla_pronunciation": "মাল",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ক্ষতিগ্রস্ত পণ্য",
+      "source_sentence_id": "ch109_s09",
+      "source_form": "क्षतिग्रस्त माल",
+      "example_target": "भंडारण स्थान और क्षतिग्रस्त माल की जानकारी रखिए।",
+      "example_bangla_pronunciation": "ভংডারণ স্থান ঔর ক্ষতিগ্রস্ত মাল কী জানকারী রখিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "भंडारण",
+          "bangla_pronunciation": "ভংডারণ",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थान",
+          "bangla_pronunciation": "স্থান",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "क्षतिग्रस्त",
+          "bangla_pronunciation": "ক্ষতিগ্রস্ত",
+          "separator_after": " "
+        },
+        {
+          "target": "माल",
+          "bangla_pronunciation": "মাল",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जानकारी",
+          "bangla_pronunciation": "জানকারী",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সংরক্ষণের স্থান ও ক্ষতিগ্রস্ত পণ্য-এর তথ্য রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03255",
+      "target": "वापसी माल",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "vaapasii maal",
+      "bangla_pronunciation": "ভাপসী মাল",
+      "word_pronunciations": [
+        {
+          "target": "वापसी",
+          "bangla_pronunciation": "ভাপসী",
+          "separator_after": " "
+        },
+        {
+          "target": "माल",
+          "bangla_pronunciation": "মাল",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ফেরত পণ্য",
+      "source_sentence_id": "ch109_s10",
+      "source_form": "वापसी माल",
+      "example_target": "वापसी माल के साथ मांग अनुमान भी देखिए।",
+      "example_bangla_pronunciation": "ভাপসী মাল কে সাথ মাংগ অনুমান ভী দেখিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "वापसी",
+          "bangla_pronunciation": "ভাপসী",
+          "separator_after": " "
+        },
+        {
+          "target": "माल",
+          "bangla_pronunciation": "মাল",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "मांग",
+          "bangla_pronunciation": "মাংগ",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुमान",
+          "bangla_pronunciation": "অনুমান",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "देखिए।",
+          "bangla_pronunciation": "দেখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ফেরত পণ্য-এর সঙ্গে চাহিদার অনুমান-ও দেখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03256",
+      "target": "मांग अनुमान",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "maang anumaan",
+      "bangla_pronunciation": "মাংগ অনুমান",
+      "word_pronunciations": [
+        {
+          "target": "मांग",
+          "bangla_pronunciation": "মাংগ",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुमान",
+          "bangla_pronunciation": "অনুমান",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "চাহিদার অনুমান",
+      "source_sentence_id": "ch109_s10",
+      "source_form": "मांग अनुमान",
+      "example_target": "वापसी माल के साथ मांग अनुमान भी देखिए।",
+      "example_bangla_pronunciation": "ভাপসী মাল কে সাথ মাংগ অনুমান ভী দেখিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "वापसी",
+          "bangla_pronunciation": "ভাপসী",
+          "separator_after": " "
+        },
+        {
+          "target": "माल",
+          "bangla_pronunciation": "মাল",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "मांग",
+          "bangla_pronunciation": "মাংগ",
+          "separator_after": " "
+        },
+        {
+          "target": "अनुमान",
+          "bangla_pronunciation": "অনুমান",
+          "separator_after": " "
+        },
+        {
+          "target": "भी",
+          "bangla_pronunciation": "ভী",
+          "separator_after": " "
+        },
+        {
+          "target": "देखिए।",
+          "bangla_pronunciation": "দেখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ফেরত পণ্য-এর সঙ্গে চাহিদার অনুমান-ও দেখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03257",
+      "target": "लाभ मार्जिन",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "laabh maarjin",
+      "bangla_pronunciation": "লাভ মার্জিন",
+      "word_pronunciations": [
+        {
+          "target": "लाभ",
+          "bangla_pronunciation": "লাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "मार्जिन",
+          "bangla_pronunciation": "মার্জিন",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "লাভের মার্জিন",
+      "source_sentence_id": "ch109_s11",
+      "source_form": "लाभ मार्जिन",
+      "example_target": "लाभ मार्जिन को साफ़ लिखिए।",
+      "example_bangla_pronunciation": "লাভ মার্জিন কো সাফ লিখিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "लाभ",
+          "bangla_pronunciation": "লাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "मार्जिन",
+          "bangla_pronunciation": "মার্জিন",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "साफ़",
+          "bangla_pronunciation": "সাফ",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "লাভের মার্জিন স্পষ্ট করে লিখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03258",
+      "target": "कीमत बदलने से पहले हिसाब देखें",
+      "type": "expression",
+      "category": "expression",
+      "romanization": "kiimat badalane se pahale hisaab dekhen",
+      "bangla_pronunciation": "কীমত বদলনে সে পহলে হিসাব দেখেং",
+      "word_pronunciations": [
+        {
+          "target": "कीमत",
+          "bangla_pronunciation": "কীমত",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलने",
+          "bangla_pronunciation": "বদলনে",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "हिसाब",
+          "bangla_pronunciation": "হিসাব",
+          "separator_after": " "
+        },
+        {
+          "target": "देखें",
+          "bangla_pronunciation": "দেখেং",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দাম বদলানোর আগে হিসাব দেখুন",
+      "source_sentence_id": "ch109_s12",
+      "source_form": "कीमत बदलने से पहले हिसाब देखें",
+      "example_target": "कीमत बदलने से पहले हिसाब देखें।",
+      "example_bangla_pronunciation": "কীমত বদলনে সে পহলে হিসাব দেখেং।",
+      "example_word_pronunciations": [
+        {
+          "target": "कीमत",
+          "bangla_pronunciation": "কীমত",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलने",
+          "bangla_pronunciation": "বদলনে",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "हिसाब",
+          "bangla_pronunciation": "হিসাব",
+          "separator_after": " "
+        },
+        {
+          "target": "देखें।",
+          "bangla_pronunciation": "দেখেং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দাম বদলানোর আগে হিসাব দেখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03259",
+      "target": "नकद प्रवाह",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "nakad pravaah",
+      "bangla_pronunciation": "নকদ প্রভাহ",
+      "word_pronunciations": [
+        {
+          "target": "नकद",
+          "bangla_pronunciation": "নকদ",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रवाह",
+          "bangla_pronunciation": "প্রভাহ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "নগদ প্রবাহ",
+      "source_sentence_id": "ch109_s13",
+      "source_form": "नकद प्रवाह",
+      "example_target": "नकद प्रवाह और बकाया भुगतान की स्थिति जाँचिए।",
+      "example_bangla_pronunciation": "নকদ প্রভাহ ঔর বকাযা ভুগতান কী স্থিতি জাঁচিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "नकद",
+          "bangla_pronunciation": "নকদ",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रवाह",
+          "bangla_pronunciation": "প্রভাহ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "बकाया",
+          "bangla_pronunciation": "বকাযা",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थिति",
+          "bangla_pronunciation": "স্থিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचिए।",
+          "bangla_pronunciation": "জাঁচিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নগদ প্রবাহ ও বকেয়া পেমেন্ট-এর অবস্থা যাচাই করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03260",
+      "target": "बकाया भुगतान",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "bakaayaa bhugataan",
+      "bangla_pronunciation": "বকাযা ভুগতান",
+      "word_pronunciations": [
+        {
+          "target": "बकाया",
+          "bangla_pronunciation": "বকাযা",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "বকেয়া পেমেন্ট",
+      "source_sentence_id": "ch109_s13",
+      "source_form": "बकाया भुगतान",
+      "example_target": "नकद प्रवाह और बकाया भुगतान की स्थिति जाँचिए।",
+      "example_bangla_pronunciation": "নকদ প্রভাহ ঔর বকাযা ভুগতান কী স্থিতি জাঁচিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "नकद",
+          "bangla_pronunciation": "নকদ",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रवाह",
+          "bangla_pronunciation": "প্রভাহ",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "बकाया",
+          "bangla_pronunciation": "বকাযা",
+          "separator_after": " "
+        },
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "स्थिति",
+          "bangla_pronunciation": "স্থিতি",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँचिए।",
+          "bangla_pronunciation": "জাঁচিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "নগদ প্রবাহ ও বকেয়া পেমেন্ট-এর অবস্থা যাচাই করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03261",
+      "target": "भुगतान चक्र",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "bhugataan chakr",
+      "bangla_pronunciation": "ভুগতান চক্র",
+      "word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "चक्र",
+          "bangla_pronunciation": "চক্র",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "পেমেন্ট চক্র",
+      "source_sentence_id": "ch109_s14",
+      "source_form": "भुगतान चक्र",
+      "example_target": "भुगतान चक्र और खर्च श्रेणी को साथ रखिए।",
+      "example_bangla_pronunciation": "ভুগতান চক্র ঔর খর্চ শ্রেণী কো সাথ রখিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "चक्र",
+          "bangla_pronunciation": "চক্র",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "खर्च",
+          "bangla_pronunciation": "খর্চ",
+          "separator_after": " "
+        },
+        {
+          "target": "श्रेणी",
+          "bangla_pronunciation": "শ্রেণী",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পেমেন্ট চক্র ও খরচের বিভাগ একসঙ্গে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03262",
+      "target": "खर्च श्रेणी",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "kharch shrenii",
+      "bangla_pronunciation": "খর্চ শ্রেণী",
+      "word_pronunciations": [
+        {
+          "target": "खर्च",
+          "bangla_pronunciation": "খর্চ",
+          "separator_after": " "
+        },
+        {
+          "target": "श्रेणी",
+          "bangla_pronunciation": "শ্রেণী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "খরচের বিভাগ",
+      "source_sentence_id": "ch109_s14",
+      "source_form": "खर्च श्रेणी",
+      "example_target": "भुगतान चक्र और खर्च श्रेणी को साथ रखिए।",
+      "example_bangla_pronunciation": "ভুগতান চক্র ঔর খর্চ শ্রেণী কো সাথ রখিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "भुगतान",
+          "bangla_pronunciation": "ভুগতান",
+          "separator_after": " "
+        },
+        {
+          "target": "चक्र",
+          "bangla_pronunciation": "চক্র",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "खर्च",
+          "bangla_pronunciation": "খর্চ",
+          "separator_after": " "
+        },
+        {
+          "target": "श्रेणी",
+          "bangla_pronunciation": "শ্রেণী",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "साथ",
+          "bangla_pronunciation": "সাথ",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "পেমেন্ট চক্র ও খরচের বিভাগ একসঙ্গে রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03263",
+      "target": "दैनिक हिसाब",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "dainik hisaab",
+      "bangla_pronunciation": "দৈনিক হিসাব",
+      "word_pronunciations": [
+        {
+          "target": "दैनिक",
+          "bangla_pronunciation": "দৈনিক",
+          "separator_after": " "
+        },
+        {
+          "target": "हिसाब",
+          "bangla_pronunciation": "হিসাব",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দৈনিক হিসাব",
+      "source_sentence_id": "ch109_s15",
+      "source_form": "दैनिक हिसाब",
+      "example_target": "दैनिक हिसाब की प्रति रखिए।",
+      "example_bangla_pronunciation": "দৈনিক হিসাব কী প্রতি রখিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "दैनिक",
+          "bangla_pronunciation": "দৈনিক",
+          "separator_after": " "
+        },
+        {
+          "target": "हिसाब",
+          "bangla_pronunciation": "হিসাব",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "प्रति",
+          "bangla_pronunciation": "প্রতি",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দৈনিক হিসাব-এর একটি কপি রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03264",
+      "target": "दिन के अंत में रिकॉर्ड मिलाएँ",
+      "type": "expression",
+      "category": "expression",
+      "romanization": "din ke ant men rikaॉrd milaaen",
+      "bangla_pronunciation": "দিন কে অংত মেং রিকॉর্ড মিলাএঁ",
+      "word_pronunciations": [
+        {
+          "target": "दिन",
+          "bangla_pronunciation": "দিন",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "अंत",
+          "bangla_pronunciation": "অংত",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "रिकॉर्ड",
+          "bangla_pronunciation": "রিকॉর্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाएँ",
+          "bangla_pronunciation": "মিলাএঁ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "দিন শেষে রেকর্ড মিলিয়ে নিন",
+      "source_sentence_id": "ch109_s16",
+      "source_form": "दिन के अंत में रिकॉर्ड मिलाएँ",
+      "example_target": "दिन के अंत में रिकॉर्ड मिलाएँ।",
+      "example_bangla_pronunciation": "দিন কে অংত মেং রিকॉর্ড মিলাএঁ।",
+      "example_word_pronunciations": [
+        {
+          "target": "दिन",
+          "bangla_pronunciation": "দিন",
+          "separator_after": " "
+        },
+        {
+          "target": "के",
+          "bangla_pronunciation": "কে",
+          "separator_after": " "
+        },
+        {
+          "target": "अंत",
+          "bangla_pronunciation": "অংত",
+          "separator_after": " "
+        },
+        {
+          "target": "में",
+          "bangla_pronunciation": "মেং",
+          "separator_after": " "
+        },
+        {
+          "target": "रिकॉर्ड",
+          "bangla_pronunciation": "রিকॉর্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "मिलाएँ।",
+          "bangla_pronunciation": "মিলাএঁ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "দিন শেষে রেকর্ড মিলিয়ে নিন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03265",
+      "target": "आपूर्ति विलंब",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "aapuurti vilnb",
+      "bangla_pronunciation": "আপূর্তি ভিলংব",
+      "word_pronunciations": [
+        {
+          "target": "आपूर्ति",
+          "bangla_pronunciation": "আপূর্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "विलंब",
+          "bangla_pronunciation": "ভিলংব",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "সরবরাহে দেরি",
+      "source_sentence_id": "ch109_s17",
+      "source_form": "आपूर्ति विलंब",
+      "example_target": "आपूर्ति विलंब और न्यूनतम भंडार का रिकॉर्ड रखिए।",
+      "example_bangla_pronunciation": "আপূর্তি ভিলংব ঔর ন্যূনতম ভংডার কা রিকॉর্ড রখিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "आपूर्ति",
+          "bangla_pronunciation": "আপূর্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "विलंब",
+          "bangla_pronunciation": "ভিলংব",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "न्यूनतम",
+          "bangla_pronunciation": "ন্যূনতম",
+          "separator_after": " "
+        },
+        {
+          "target": "भंडार",
+          "bangla_pronunciation": "ভংডার",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "रिकॉर्ड",
+          "bangla_pronunciation": "রিকॉর্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সরবরাহে দেরি ও ন্যূনতম স্টক-এর রেকর্ড রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03266",
+      "target": "न्यूनतम भंडार",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "nyuunatam bhndaar",
+      "bangla_pronunciation": "ন্যূনতম ভংডার",
+      "word_pronunciations": [
+        {
+          "target": "न्यूनतम",
+          "bangla_pronunciation": "ন্যূনতম",
+          "separator_after": " "
+        },
+        {
+          "target": "भंडार",
+          "bangla_pronunciation": "ভংডার",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ন্যূনতম স্টক",
+      "source_sentence_id": "ch109_s17",
+      "source_form": "न्यूनतम भंडार",
+      "example_target": "आपूर्ति विलंब और न्यूनतम भंडार का रिकॉर्ड रखिए।",
+      "example_bangla_pronunciation": "আপূর্তি ভিলংব ঔর ন্যূনতম ভংডার কা রিকॉর্ড রখিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "आपूर्ति",
+          "bangla_pronunciation": "আপূর্তি",
+          "separator_after": " "
+        },
+        {
+          "target": "विलंब",
+          "bangla_pronunciation": "ভিলংব",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "न्यूनतम",
+          "bangla_pronunciation": "ন্যূনতম",
+          "separator_after": " "
+        },
+        {
+          "target": "भंडार",
+          "bangla_pronunciation": "ভংডার",
+          "separator_after": " "
+        },
+        {
+          "target": "का",
+          "bangla_pronunciation": "কা",
+          "separator_after": " "
+        },
+        {
+          "target": "रिकॉर्ड",
+          "bangla_pronunciation": "রিকॉর্ড",
+          "separator_after": " "
+        },
+        {
+          "target": "रखिए।",
+          "bangla_pronunciation": "রখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "সরবরাহে দেরি ও ন্যূনতম স্টক-এর রেকর্ড রাখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03267",
+      "target": "पैकिंग सूची",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "paiking suuchii",
+      "bangla_pronunciation": "পৈকিংগ সূচী",
+      "word_pronunciations": [
+        {
+          "target": "पैकिंग",
+          "bangla_pronunciation": "পৈকিংগ",
+          "separator_after": " "
+        },
+        {
+          "target": "सूची",
+          "bangla_pronunciation": "সূচী",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "প্যাকিং তালিকা",
+      "source_sentence_id": "ch109_s18",
+      "source_form": "पैकिंग सूची",
+      "example_target": "पैकिंग सूची और वितरण मार्ग को फिर देखिए।",
+      "example_bangla_pronunciation": "পৈকিংগ সূচী ঔর ভিতরণ মার্গ কো ফির দেখিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "पैकिंग",
+          "bangla_pronunciation": "পৈকিংগ",
+          "separator_after": " "
+        },
+        {
+          "target": "सूची",
+          "bangla_pronunciation": "সূচী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "वितरण",
+          "bangla_pronunciation": "ভিতরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "मार्ग",
+          "bangla_pronunciation": "মার্গ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "देखिए।",
+          "bangla_pronunciation": "দেখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্যাকিং তালিকা ও ডেলিভারি রুট আবার দেখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03268",
+      "target": "वितरण मार्ग",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "vitaran maarg",
+      "bangla_pronunciation": "ভিতরণ মার্গ",
+      "word_pronunciations": [
+        {
+          "target": "वितरण",
+          "bangla_pronunciation": "ভিতরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "मार्ग",
+          "bangla_pronunciation": "মার্গ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ডেলিভারি রুট",
+      "source_sentence_id": "ch109_s18",
+      "source_form": "वितरण मार्ग",
+      "example_target": "पैकिंग सूची और वितरण मार्ग को फिर देखिए।",
+      "example_bangla_pronunciation": "পৈকিংগ সূচী ঔর ভিতরণ মার্গ কো ফির দেখিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "पैकिंग",
+          "bangla_pronunciation": "পৈকিংগ",
+          "separator_after": " "
+        },
+        {
+          "target": "सूची",
+          "bangla_pronunciation": "সূচী",
+          "separator_after": " "
+        },
+        {
+          "target": "और",
+          "bangla_pronunciation": "ঔর",
+          "separator_after": " "
+        },
+        {
+          "target": "वितरण",
+          "bangla_pronunciation": "ভিতরণ",
+          "separator_after": " "
+        },
+        {
+          "target": "मार्ग",
+          "bangla_pronunciation": "মার্গ",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "फिर",
+          "bangla_pronunciation": "ফির",
+          "separator_after": " "
+        },
+        {
+          "target": "देखिए।",
+          "bangla_pronunciation": "দেখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "প্যাকিং তালিকা ও ডেলিভারি রুট আবার দেখুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03269",
+      "target": "ग्राहक आदेश",
+      "type": "noun phrase",
+      "category": "word",
+      "romanization": "graahak aadesh",
+      "bangla_pronunciation": "গ্রাহক আদেশ",
+      "word_pronunciations": [
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "आदेश",
+          "bangla_pronunciation": "আদেশ",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "গ্রাহকের অর্ডার",
+      "source_sentence_id": "ch109_s19",
+      "source_form": "ग्राहक आदेश",
+      "example_target": "ग्राहक आदेश की पुष्टि कीजिए।",
+      "example_bangla_pronunciation": "গ্রাহক আদেশ কী পুষ্টি কীজিএ।",
+      "example_word_pronunciations": [
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "आदेश",
+          "bangla_pronunciation": "আদেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "पुष्टि",
+          "bangla_pronunciation": "পুষ্টি",
+          "separator_after": " "
+        },
+        {
+          "target": "कीजिए।",
+          "bangla_pronunciation": "কীজিএ।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "গ্রাহকের অর্ডার নিশ্চিত করুন।",
+      "synonyms": []
+    },
+    {
+      "id": "v03270",
+      "target": "कमी हो तो ग्राहक को पहले बताएं",
+      "type": "expression",
+      "category": "expression",
+      "romanization": "kamii ho to graahak ko pahale bataaen",
+      "bangla_pronunciation": "কমী হো তো গ্রাহক কো পহলে বতাএং",
+      "word_pronunciations": [
+        {
+          "target": "कमी",
+          "bangla_pronunciation": "কমী",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "बताएं",
+          "bangla_pronunciation": "বতাএং",
+          "separator_after": ""
+        }
+      ],
+      "meaning_bengali_md": "ঘাটতি হলে গ্রাহককে আগে জানান",
+      "source_sentence_id": "ch109_s20",
+      "source_form": "कमी हो तो ग्राहक को पहले बताएं",
+      "example_target": "कमी हो तो ग्राहक को पहले बताएं।",
+      "example_bangla_pronunciation": "কমী হো তো গ্রাহক কো পহলে বতাএং।",
+      "example_word_pronunciations": [
+        {
+          "target": "कमी",
+          "bangla_pronunciation": "কমী",
+          "separator_after": " "
+        },
+        {
+          "target": "हो",
+          "bangla_pronunciation": "হো",
+          "separator_after": " "
+        },
+        {
+          "target": "तो",
+          "bangla_pronunciation": "তো",
+          "separator_after": " "
+        },
+        {
+          "target": "ग्राहक",
+          "bangla_pronunciation": "গ্রাহক",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "बताएं।",
+          "bangla_pronunciation": "বতাএং।",
+          "separator_after": ""
+        }
+      ],
+      "example_meaning_bengali_md": "ঘাটতি হলে গ্রাহককে আগে জানান।",
+      "synonyms": []
+    }
+  ],
+  "bridge_reading": {
+    "mode": "article",
+    "title_bengali": "ছোট ব্যবসার স্টক ও হিসাব",
+    "scene_summary": "ছোট ব্যবসার স্টক ও দৈনিক হিসাব নিয়ে একটি ছোট ব্যবহারিক নোট।",
+    "segments": [
+      {
+        "kind": "bangla",
+        "text": "ছোট ব্যবসার স্টক ও দৈনিক হিসাব নিয়ে কথা বলতে গিয়ে আমরা "
+      },
+      {
+        "kind": "target",
+        "target": "माल सूची",
+        "bangla_pronunciation": "মাল সূচী",
+        "word_pronunciations": [
+          {
+            "target": "माल",
+            "bangla_pronunciation": "মাল",
+            "separator_after": " "
+          },
+          {
+            "target": "सूची",
+            "bangla_pronunciation": "সূচী",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " , "
+      },
+      {
+        "kind": "target",
+        "target": "खरीद आदेश",
+        "bangla_pronunciation": "খরীদ আদেশ",
+        "word_pronunciations": [
+          {
+            "target": "खरीद",
+            "bangla_pronunciation": "খরীদ",
+            "separator_after": " "
+          },
+          {
+            "target": "आदेश",
+            "bangla_pronunciation": "আদেশ",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " , "
+      },
+      {
+        "kind": "target",
+        "target": "प्राप्त मात्रा",
+        "bangla_pronunciation": "প্রাপ্ত মাত্রা",
+        "word_pronunciations": [
+          {
+            "target": "प्राप्त",
+            "bangla_pronunciation": "প্রাপ্ত",
+            "separator_after": " "
+          },
+          {
+            "target": "मात्रा",
+            "bangla_pronunciation": "মাত্রা",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " , "
+      },
+      {
+        "kind": "target",
+        "target": "भंडारण स्थान",
+        "bangla_pronunciation": "ভংডারণ স্থান",
+        "word_pronunciations": [
+          {
+            "target": "भंडारण",
+            "bangla_pronunciation": "ভংডারণ",
+            "separator_after": " "
+          },
+          {
+            "target": "स्थान",
+            "bangla_pronunciation": "স্থান",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " , "
+      },
+      {
+        "kind": "target",
+        "target": "नकद प्रवाह",
+        "bangla_pronunciation": "নকদ প্রভাহ",
+        "word_pronunciations": [
+          {
+            "target": "नकद",
+            "bangla_pronunciation": "নকদ",
+            "separator_after": " "
+          },
+          {
+            "target": "प्रवाह",
+            "bangla_pronunciation": "প্রভাহ",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": " এবং "
+      },
+      {
+        "kind": "target",
+        "target": "आपूर्ति विलंब",
+        "bangla_pronunciation": "আপূর্তি ভিলংব",
+        "word_pronunciations": [
+          {
+            "target": "आपूर्ति",
+            "bangla_pronunciation": "আপূর্তি",
+            "separator_after": " "
+          },
+          {
+            "target": "विलंब",
+            "bangla_pronunciation": "ভিলংব",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "kind": "bangla",
+        "text": "—এই বিষয়গুলো একসঙ্গে দেখে কাজ গুছিয়ে নেওয়া যায়।"
+      }
+    ],
+    "text_md": "ছোট ব্যবসার স্টক ও দৈনিক হিসাব নিয়ে কথা বলতে গিয়ে আমরা **माल** (মাল) **सूची** (সূচী) , **खरीद** (খরীদ) **आदेश** (আদেশ) , **प्राप्त** (প্রাপ্ত) **मात्रा** (মাত্রা) , **भंडारण** (ভংডারণ) **स्थान** (স্থান) , **नकद** (নকদ) **प्रवाह** (প্রভাহ) এবং **आपूर्ति** (আপূর্তি) **विलंब** (ভিলংব)—এই বিষয়গুলো একসঙ্গে দেখে কাজ গুছিয়ে নেওয়া যায়।"
+  },
+  "target_reading": {
+    "mode": "article",
+    "title_bengali": "ছোট ব্যবসার স্টক ও হিসাব: ছোট চেকলিস্ট",
+    "scene_summary": "ছোট ব্যবসার স্টক ও দৈনিক হিসাব নিয়ে পাঁচ লাইনের ব্যবহারিক চেকলিস্ট।",
+    "lines": [
+      {
+        "target": "कम स्टॉक की सूची बनाएं।",
+        "bangla_pronunciation": "কম স্টॉক কী সূচী বনাএং।",
+        "word_pronunciations": [
+          {
+            "target": "कम",
+            "bangla_pronunciation": "কম",
+            "separator_after": " "
+          },
+          {
+            "target": "स्टॉक",
+            "bangla_pronunciation": "স্টॉক",
+            "separator_after": " "
+          },
+          {
+            "target": "की",
+            "bangla_pronunciation": "কী",
+            "separator_after": " "
+          },
+          {
+            "target": "सूची",
+            "bangla_pronunciation": "সূচী",
+            "separator_after": " "
+          },
+          {
+            "target": "बनाएं।",
+            "bangla_pronunciation": "বনাএং।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "हर डिलीवरी गिनकर लें।",
+        "bangla_pronunciation": "হর ডিলীভরী গিনকর লেং।",
+        "word_pronunciations": [
+          {
+            "target": "हर",
+            "bangla_pronunciation": "হর",
+            "separator_after": " "
+          },
+          {
+            "target": "डिलीवरी",
+            "bangla_pronunciation": "ডিলীভরী",
+            "separator_after": " "
+          },
+          {
+            "target": "गिनकर",
+            "bangla_pronunciation": "গিনকর",
+            "separator_after": " "
+          },
+          {
+            "target": "लें।",
+            "bangla_pronunciation": "লেং।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "कीमत बदलने से पहले हिसाब देखें।",
+        "bangla_pronunciation": "কীমত বদলনে সে পহলে হিসাব দেখেং।",
+        "word_pronunciations": [
+          {
+            "target": "कीमत",
+            "bangla_pronunciation": "কীমত",
+            "separator_after": " "
+          },
+          {
+            "target": "बदलने",
+            "bangla_pronunciation": "বদলনে",
+            "separator_after": " "
+          },
+          {
+            "target": "से",
+            "bangla_pronunciation": "সে",
+            "separator_after": " "
+          },
+          {
+            "target": "पहले",
+            "bangla_pronunciation": "পহলে",
+            "separator_after": " "
+          },
+          {
+            "target": "हिसाब",
+            "bangla_pronunciation": "হিসাব",
+            "separator_after": " "
+          },
+          {
+            "target": "देखें।",
+            "bangla_pronunciation": "দেখেং।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "दिन के अंत में रिकॉर्ड मिलाएँ।",
+        "bangla_pronunciation": "দিন কে অংত মেং রিকॉর্ড মিলাএঁ।",
+        "word_pronunciations": [
+          {
+            "target": "दिन",
+            "bangla_pronunciation": "দিন",
+            "separator_after": " "
+          },
+          {
+            "target": "के",
+            "bangla_pronunciation": "কে",
+            "separator_after": " "
+          },
+          {
+            "target": "अंत",
+            "bangla_pronunciation": "অংত",
+            "separator_after": " "
+          },
+          {
+            "target": "में",
+            "bangla_pronunciation": "মেং",
+            "separator_after": " "
+          },
+          {
+            "target": "रिकॉर्ड",
+            "bangla_pronunciation": "রিকॉর্ড",
+            "separator_after": " "
+          },
+          {
+            "target": "मिलाएँ।",
+            "bangla_pronunciation": "মিলাএঁ।",
+            "separator_after": ""
+          }
+        ]
+      },
+      {
+        "target": "कमी हो तो ग्राहक को पहले बताएं।",
+        "bangla_pronunciation": "কমী হো তো গ্রাহক কো পহলে বতাএং।",
+        "word_pronunciations": [
+          {
+            "target": "कमी",
+            "bangla_pronunciation": "কমী",
+            "separator_after": " "
+          },
+          {
+            "target": "हो",
+            "bangla_pronunciation": "হো",
+            "separator_after": " "
+          },
+          {
+            "target": "तो",
+            "bangla_pronunciation": "তো",
+            "separator_after": " "
+          },
+          {
+            "target": "ग्राहक",
+            "bangla_pronunciation": "গ্রাহক",
+            "separator_after": " "
+          },
+          {
+            "target": "को",
+            "bangla_pronunciation": "কো",
+            "separator_after": " "
+          },
+          {
+            "target": "पहले",
+            "bangla_pronunciation": "পহলে",
+            "separator_after": " "
+          },
+          {
+            "target": "बताएं।",
+            "bangla_pronunciation": "বতাএং।",
+            "separator_after": ""
+          }
+        ]
+      }
+    ],
+    "bangla_pronunciation": "কম স্টॉক কী সূচী বনাএং। হর ডিলীভরী গিনকর লেং। কীমত বদলনে সে পহলে হিসাব দেখেং। দিন কে অংত মেং রিকॉর্ড মিলাএঁ। কমী হো তো গ্রাহক কো পহলে বতাএং।",
+    "meaning_bengali_md": "কম স্টকের তালিকা তৈরি করুন। প্রতিটি ডেলিভারি গুনে নিন। দাম বদলানোর আগে হিসাব দেখুন। দিন শেষে রেকর্ড মিলিয়ে নিন। ঘাটতি হলে গ্রাহককে আগে জানান।"
+  },
+  "script_practice": [
+    {
+      "item_id": "dev_cluster_ksh",
+      "mode": "review",
+      "target": "क्ष",
+      "bangla_pronunciation": "ক্ষ",
+      "explanation_bengali_md": "ক্ষ যুক্তধ্বনিটি চিনুন; শব্দে দেখলে আলাদা করে উচ্চারণ-সহ পড়ুন।",
+      "practice_bengali_md": "ক্ষ দেখে উচ্চারণটি বলুন।"
+    },
+    {
+      "item_id": "dev_cluster_tr",
+      "mode": "review",
+      "target": "त्र",
+      "bangla_pronunciation": "ত্র",
+      "explanation_bengali_md": "ত্র যুক্তধ্বনিটি পরিচিত রাখুন এবং শব্দের মধ্যে চিনুন।",
+      "practice_bengali_md": "ত্র দেখে উচ্চারণটি বলুন।"
+    },
+    {
+      "item_id": "dev_cluster_gya",
+      "mode": "review",
+      "target": "ज्ञ",
+      "bangla_pronunciation": "জ্ঞ",
+      "explanation_bengali_md": "জ্ঞ যুক্তরূপটি শব্দভেদে উচ্চারণে বদলাতে পারে; এখানে চেনার অনুশীলন করুন।",
+      "practice_bengali_md": "জ্ঞ দেখে রূপটি চিনুন।"
+    },
+    {
+      "item_id": "dev_cluster_shr",
+      "mode": "review",
+      "target": "श्र",
+      "bangla_pronunciation": "শ্র",
+      "explanation_bengali_md": "শ্র যুক্তরূপটি পড়ার সময় শ্+র ধ্বনির কাছাকাছি শুনুন।",
+      "practice_bengali_md": "শ্র দেখে উচ্চারণটি বলুন।"
+    },
+    {
+      "item_id": "dev_sign_anusvara",
+      "mode": "review",
+      "target": "ं",
+      "bangla_pronunciation": "ং",
+      "explanation_bengali_md": "অনুস্বার নাসিক্য ধ্বনি নির্দেশ করে; পাশের ধ্বনি অনুযায়ী উচ্চারণ বদলাতে পারে।",
+      "practice_bengali_md": "ং-ধ্বনির ইঙ্গিতটি চিনুন।"
+    }
+  ],
+  "number_practice": null,
+  "speaking_practice": [
+    {
+      "prompt_bengali_md": "একটি গুরুত্বপূর্ণ বিষয় বলুন।",
+      "model_target": "खरीद आदेश की जाँच जरूरी है।",
+      "model_bangla_pronunciation": "খরীদ আদেশ কী জাঁচ জরূরী হৈ।",
+      "model_word_pronunciations": [
+        {
+          "target": "खरीद",
+          "bangla_pronunciation": "খরীদ",
+          "separator_after": " "
+        },
+        {
+          "target": "आदेश",
+          "bangla_pronunciation": "আদেশ",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "जाँच",
+          "bangla_pronunciation": "জাঁচ",
+          "separator_after": " "
+        },
+        {
+          "target": "जरूरी",
+          "bangla_pronunciation": "জরূরী",
+          "separator_after": " "
+        },
+        {
+          "target": "है।",
+          "bangla_pronunciation": "হৈ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "ক্রয় আদেশ যাচাই করা জরুরি।"
+    },
+    {
+      "prompt_bengali_md": "একটি সরাসরি নির্দেশ দিন।",
+      "model_target": "कम स्टॉक की सूची बनाएं।",
+      "model_bangla_pronunciation": "কম স্টॉক কী সূচী বনাএং।",
+      "model_word_pronunciations": [
+        {
+          "target": "कम",
+          "bangla_pronunciation": "কম",
+          "separator_after": " "
+        },
+        {
+          "target": "स्टॉक",
+          "bangla_pronunciation": "স্টॉক",
+          "separator_after": " "
+        },
+        {
+          "target": "की",
+          "bangla_pronunciation": "কী",
+          "separator_after": " "
+        },
+        {
+          "target": "सूची",
+          "bangla_pronunciation": "সূচী",
+          "separator_after": " "
+        },
+        {
+          "target": "बनाएं।",
+          "bangla_pronunciation": "বনাএং।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "কম স্টকের তালিকা তৈরি করুন।"
+    },
+    {
+      "prompt_bengali_md": "যে তথ্যটি খেয়াল রাখতে হবে সেটি বলুন।",
+      "model_target": "बिक्री मात्रा पर ध्यान दीजिए।",
+      "model_bangla_pronunciation": "বিক্রী মাত্রা পর ধ্যান দীজিএ।",
+      "model_word_pronunciations": [
+        {
+          "target": "बिक्री",
+          "bangla_pronunciation": "বিক্রী",
+          "separator_after": " "
+        },
+        {
+          "target": "मात्रा",
+          "bangla_pronunciation": "মাত্রা",
+          "separator_after": " "
+        },
+        {
+          "target": "पर",
+          "bangla_pronunciation": "পর",
+          "separator_after": " "
+        },
+        {
+          "target": "ध्यान",
+          "bangla_pronunciation": "ধ্যান",
+          "separator_after": " "
+        },
+        {
+          "target": "दीजिए।",
+          "bangla_pronunciation": "দীজিএ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "বিক্রির পরিমাণ-এর দিকে মনোযোগ দিন।"
+    },
+    {
+      "prompt_bengali_md": "আরেকটি ব্যবহারিক নির্দেশ বলুন।",
+      "model_target": "हर डिलीवरी गिनकर लें।",
+      "model_bangla_pronunciation": "হর ডিলীভরী গিনকর লেং।",
+      "model_word_pronunciations": [
+        {
+          "target": "हर",
+          "bangla_pronunciation": "হর",
+          "separator_after": " "
+        },
+        {
+          "target": "डिलीवरी",
+          "bangla_pronunciation": "ডিলীভরী",
+          "separator_after": " "
+        },
+        {
+          "target": "गिनकर",
+          "bangla_pronunciation": "গিনকর",
+          "separator_after": " "
+        },
+        {
+          "target": "लें।",
+          "bangla_pronunciation": "লেং।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "প্রতিটি ডেলিভারি গুনে নিন।"
+    },
+    {
+      "prompt_bengali_md": "কোন বিষয়টি পরিষ্কার করে লিখবেন তা বলুন।",
+      "model_target": "लाभ मार्जिन को साफ़ लिखिए।",
+      "model_bangla_pronunciation": "লাভ মার্জিন কো সাফ লিখিএ।",
+      "model_word_pronunciations": [
+        {
+          "target": "लाभ",
+          "bangla_pronunciation": "লাভ",
+          "separator_after": " "
+        },
+        {
+          "target": "मार्जिन",
+          "bangla_pronunciation": "মার্জিন",
+          "separator_after": " "
+        },
+        {
+          "target": "को",
+          "bangla_pronunciation": "কো",
+          "separator_after": " "
+        },
+        {
+          "target": "साफ़",
+          "bangla_pronunciation": "সাফ",
+          "separator_after": " "
+        },
+        {
+          "target": "लिखिए।",
+          "bangla_pronunciation": "লিখিএ।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "লাভের মার্জিন স্পষ্ট করে লিখুন।"
+    },
+    {
+      "prompt_bengali_md": "শেষে একটি সতর্কতামূলক নির্দেশ বলুন।",
+      "model_target": "कीमत बदलने से पहले हिसाब देखें।",
+      "model_bangla_pronunciation": "কীমত বদলনে সে পহলে হিসাব দেখেং।",
+      "model_word_pronunciations": [
+        {
+          "target": "कीमत",
+          "bangla_pronunciation": "কীমত",
+          "separator_after": " "
+        },
+        {
+          "target": "बदलने",
+          "bangla_pronunciation": "বদলনে",
+          "separator_after": " "
+        },
+        {
+          "target": "से",
+          "bangla_pronunciation": "সে",
+          "separator_after": " "
+        },
+        {
+          "target": "पहले",
+          "bangla_pronunciation": "পহলে",
+          "separator_after": " "
+        },
+        {
+          "target": "हिसाब",
+          "bangla_pronunciation": "হিসাব",
+          "separator_after": " "
+        },
+        {
+          "target": "देखें।",
+          "bangla_pronunciation": "দেখেং।",
+          "separator_after": ""
+        }
+      ],
+      "model_meaning_bengali_md": "দাম বদলানোর আগে হিসাব দেখুন।"
+    }
+  ],
+  "image_prompts": [
+    {
+      "key": "ch109_bridge_reading_01",
+      "reading": "bridge_reading",
+      "subject": "Bright editorial illustration of ছোট ব্যবসার স্টক ও দৈনিক হিসাব, South Asian adult learners calmly organizing relevant objects and documents on a clean table, practical everyday setting, balanced composition, warm daylight, clear focal point. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright modern educational illustration, clean shapes, realistic proportions, uncluttered scene, friendly natural lighting."
+    },
+    {
+      "key": "ch109_target_reading_01",
+      "reading": "target_reading",
+      "subject": "Bright editorial illustration showing a five-step visual checklist for ছোট ব্যবসার স্টক ও দৈনিক হিসাব through actions and objects only, one person completing the final check, airy background, distinct scene from the first image, warm daylight. No readable text, no labels, no signage, no watermark.",
+      "style": "Bright modern educational illustration, clean shapes, realistic proportions, uncluttered scene, friendly natural lighting."
+    }
+  ],
+  "additional_practice": []
+}
