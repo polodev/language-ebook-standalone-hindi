@@ -18,25 +18,7 @@ jobs:
         run: |
           cat .chatgpt-tmp/vocab211-220/gzchunk_00.b64 .chatgpt-tmp/vocab211-220/gzchunk_01.b64 .chatgpt-tmp/vocab211-220/gzchunk_02.b64 .chatgpt-tmp/vocab211-220/gzchunk_03.b64 .chatgpt-tmp/vocab211-220/gzchunk_04.b64 | tr -d '\r\n\t ' | base64 -d | gzip -dc > .chatgpt-tmp/generate_211_220.py
           echo '5cab2ba8418d656adf8dbb8a857705d84028fcaccccfbc9412a1592081551073  .chatgpt-tmp/generate_211_220.py' | sha256sum -c -
-      - name: Generate
-        run: python3 .chatgpt-tmp/generate_211_220.py
-      - name: Show colliding entry contexts
+      - name: Show generator helper definitions
         shell: bash
         run: |
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-          ids={'v06305','v06313','v06315','v06329','v06343','v06515'}
-          root=Path('04-easy-hindi-vocabulary-7000-words')
-          for n in (211,212,218):
-              ch=json.loads((root/'chapters'/f'ch{n:03d}.json').read_text(encoding='utf-8'))
-              bys={s['id']:s for s in ch['sentences']}
-              print('CHAPTER',n,'TITLE',ch['title_target'])
-              for v in ch['vocabulary']:
-                  if v['id'] in ids:
-                      print('ID',v['id'],'TARGET',v['target'],'MEANING',v['meaning_bengali_md'],'PRON',v['bangla_pronunciation'],'SOURCE_ID',v['source_sentence_id'])
-                      s=bys[v['source_sentence_id']]
-                      print('SOURCE_TARGET',s['target'])
-                      print('SOURCE_PRON',s['bangla_pronunciation'])
-                      print('SOURCE_MEANING',s['meaning_bengali_md'])
-          PY
+          grep -n '^def ' .chatgpt-tmp/generate_211_220.py || true
