@@ -53,7 +53,7 @@ jobs:
           'v04111':('नामांकन','নামাঙ্কন','naamaankan')}
           def whole(text,old,new,lo,hi):
               return re.sub(rf'(?<![{lo}-{hi}]){re.escape(old)}(?![{lo}-{hi}])',new,text)
-          def patch(obj,old,new,oldbn,newbn):
+          def patch(obj,old,new,oldbn,newbn,oldrom,newrom):
               if isinstance(obj,dict):
                   for k,v in list(obj.items()):
                       if isinstance(v,str):
@@ -61,20 +61,24 @@ jobs:
                               obj[k]=whole(v,old,new,'\u0900','\u097F')
                           elif 'bangla_pronunciation' in k:
                               obj[k]=whole(v,oldbn,newbn,'\u0980','\u09FF')
-                      else: patch(v,old,new,oldbn,newbn)
+                          elif k=='romanization' and oldrom:
+                              obj[k]=re.sub(rf'(?<![A-Za-z]){re.escape(oldrom)}(?![A-Za-z])',newrom,v)
+                      else: patch(v,old,new,oldbn,newbn,oldrom,newrom)
               elif isinstance(obj,list):
-                  for v in obj: patch(v,old,new,oldbn,newbn)
+                  for v in obj: patch(v,old,new,oldbn,newbn,oldrom,newrom)
           spec=importlib.util.spec_from_file_location('manage','scripts/manage.py')
           manage=importlib.util.module_from_spec(spec); spec.loader.exec_module(manage)
           touched=[]
           for n in range(131,141):
               cp=B/'chapters'/f'ch{n:03d}.json'; rp=B/'rosters'/f'ch{n:03d}.json'
               ch=json.loads(cp.read_text(encoding='utf-8')); ro=json.loads(rp.read_text(encoding='utf-8'))
-              by={x['id']:x for x in ch['vocabulary']}; rb={x['id']:x for x in ro['items']}
+              by={x['id']:x for x in ch['vocabulary']}
               for vid,(new,newbn,newrom) in repl.items():
                   if vid not in by: continue
-                  item=by[vid]; old=item['target']; oldbn=item['bangla_pronunciation']
-                  patch(ch,old,new,oldbn,newbn); rb[vid]['target']=new
+                  item=by[vid]; old=item['target']; oldbn=item['bangla_pronunciation']; oldrom=item.get('romanization','')
+                  patch(ch,old,new,oldbn,newbn,oldrom,newrom)
+                  for ri in ro['items']:
+                      ri['target']=whole(ri['target'],old,new,'\u0900','\u097F')
                   item=next(x for x in ch['vocabulary'] if x['id']==vid)
                   item['target']=new; item['bangla_pronunciation']=newbn; item['romanization']=newrom
                   item['word_pronunciations']=[{'target':new,'bangla_pronunciation':newbn,'separator_after':''}]
@@ -103,7 +107,10 @@ jobs:
           for n in range(131,141):
               cid=f'ch{n:03d}'; ch=manage.read(B/'chapters'/f'{cid}.json'); ro=manage.read(B/'rosters'/f'{cid}.json')
               vocab=manage.validate_chapter(book,plans[cid],ch,{})
-              assert ro['status']=='reviewed'; assert [x['id'] for x in ro['items']]==plans[cid]['reserved_item_ids']; assert [x['target'] for x in vocab]==[x['target'] for x in ro['items']]
+              assert ro['status']=='reviewed', cid+' roster status'
+              assert [x['id'] for x in ro['items']]==plans[cid]['reserved_item_ids'], cid+' roster IDs'
+              assert [x['target'] for x in vocab]==[x['target'] for x in ro['items']], cid+' roster/chapter targets'
+              print('VALIDATED',cid)
           print('BATCH_CHAPTER_VALIDATION PASSED 10/10')
           dest=B/'authoring-progress.json'; prior=json.loads(dest.read_text(encoding='utf-8')) if dest.exists() else None
           incoming=json.loads(Path('.github/transfer/ch131-140-progress.json').read_text(encoding='utf-8'))
@@ -122,7 +129,7 @@ jobs:
           test "$(git diff --cached --diff-filter=A --name-only | wc -l)" -eq 20
           test "$(git diff --cached --diff-filter=M --name-only | wc -l)" -eq 1
           git diff --cached --name-status
-          ts=$(TZ=Asia/Dhaka date '+%a %b, %-I:%M%p')
+          ts=$(TZ=Asia/Dhaka date '+%a %b %-d, %-I:%M%p')
           git commit -m "$ts — 1 file modified, 20 files added"
           sha=$(git rev-parse HEAD)
           git push origin HEAD:content/04-easy-hindi-vocabulary-7000-words/ch131-ch140
