@@ -1,4 +1,4 @@
-name: Check vocabulary replacement candidates
+name: Deliver corrected vocabulary chapters 131-140
 
 on:
   push:
@@ -8,47 +8,190 @@ on:
       - '.github/transfer/READY'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  check:
+  deliver:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Check candidate uniqueness against main
+
+      - name: Reconstruct and correct batch
         shell: bash
         run: |
           set -euo pipefail
+          cat .github/transfer/piece-* | base64 -d > /tmp/ch131-140.tar.xz
+          test "$(stat -c%s /tmp/ch131-140.tar.xz)" -eq 50644
+          echo '94ea932dc57660ad90953de42ed0eb98b36711b656b6029a71851627e7f7bb3c  /tmp/ch131-140.tar.xz' | sha256sum -c -
+          xz -d -c /tmp/ch131-140.tar.xz > /tmp/ch131-140.tar
           git fetch origin main
-          git checkout -B check origin/main
+          test "$(git rev-parse origin/main)" = "9dbdc14b189c0d9094d3502ac616da544d24dfb1"
+          git checkout -B delivery origin/main
+
           python3 - <<'PY'
           import json, unicodedata
           from pathlib import Path
-          candidates = {
-            'v03904':'परिरक्षण',
-            'v03907':'पुनर्संसाधन',
-            'v03920':'कसौटी',
-            'v03934':'भरोसेमंदी',
-            'v03955':'प्रमाणीकरण',
-            'v03965':'निजता',
-            'v03992':'रज़ामंदी',
-            'v03993':'मतभेद',
-            'v04005':'तटस्थता',
-            'v04011':'मियाद',
-            'v04017':'अनुमोदन',
-            'v04018':'नामंजूरी',
-            'v04027':'प्रक्षेपण',
-            'v04063':'पर्यवेक्षण',
-            'v04111':'नामांकन',
-          }
+          root=Path('04-easy-hindi-vocabulary-7000-words/rosters')
           def norm(s):
               return ' '.join(unicodedata.normalize('NFC', s).casefold().split()).strip('.,!?।。！？')
-          existing={}
-          for p in Path('04-easy-hindi-vocabulary-7000-words/rosters').glob('ch*.json'):
+          existing=set()
+          for p in root.glob('ch*.json'):
               d=json.loads(p.read_text(encoding='utf-8'))
-              for x in d.get('items',[]): existing.setdefault(norm(x['target']),[]).append(f"{p.name}:{x['id']}")
-          for vid,t in candidates.items():
-              print(vid, repr(t), 'USED' if norm(t) in existing else 'FREE', existing.get(norm(t),[]))
+              existing.update(norm(x['target']) for x in d.get('items',[]))
+          Path('/tmp/main-targets.json').write_text(json.dumps(sorted(existing), ensure_ascii=False), encoding='utf-8')
           PY
+
+          tar -xf /tmp/ch131-140.tar
+
+          python3 - <<'PY'
+          import copy, importlib.util, json, unicodedata
+          from pathlib import Path
+
+          bookdir=Path('04-easy-hindi-vocabulary-7000-words')
+          replacements={
+            'v03904':('परिरक्षण','পরিরক্ষণ','parirakshan'),
+            'v03907':('पुनर्संसाधन','পুনর্সংসাধন','punarsansaadhan'),
+            'v03920':('कसौटी','কসৌটি','kasautee'),
+            'v03934':('भरोसेमंदी','ভরোসেমন্দী','bharosemandee'),
+            'v03955':('प्रमाणीकरण','প্রমাণীকরণ','pramaaneekaran'),
+            'v03965':('निजता','নিজতা','nijataa'),
+            'v03992':('रज़ामंदी','রজামন্দী','razaamandee'),
+            'v03993':('मतभेद','মতভেদ','matbhed'),
+            'v04005':('तटस्थता','তটস্থতা','tatasthataa'),
+            'v04011':('मियाद','মিয়াদ','miyaad'),
+            'v04017':('अनुमोदन','অনুমোদন','anumodan'),
+            'v04018':('नामंजूरी','নামঞ্জূরী','naamanzuree'),
+            'v04027':('प्रक्षेपण','প্রক্ষেপণ','prakshepan'),
+            'v04063':('पर्यवेक्षण','পর্যবেক্ষণ','paryavekshan'),
+            'v04111':('नामांकन','নামাঙ্কন','naamaankan'),
+          }
+
+          def patch_values(obj, old, new, old_bn, new_bn, old_rom, new_rom):
+              if isinstance(obj, dict):
+                  for k,v in list(obj.items()):
+                      if isinstance(v,str):
+                          if k in {'target','title_target','source_form','example_target','model_target','base_target','expanded_target','polished_target'}:
+                              obj[k]=v.replace(old,new)
+                          elif 'bangla_pronunciation' in k:
+                              obj[k]=v.replace(old_bn,new_bn)
+                          elif k=='romanization':
+                              obj[k]=v.replace(old_rom,new_rom)
+                      else:
+                          patch_values(v, old,new,old_bn,new_bn,old_rom,new_rom)
+              elif isinstance(obj,list):
+                  for v in obj: patch_values(v, old,new,old_bn,new_bn,old_rom,new_rom)
+
+          touched=[]
+          for n in range(131,141):
+              cp=bookdir/'chapters'/f'ch{n:03d}.json'
+              rp=bookdir/'rosters'/f'ch{n:03d}.json'
+              ch=json.loads(cp.read_text(encoding='utf-8'))
+              roster=json.loads(rp.read_text(encoding='utf-8'))
+              byid={x['id']:x for x in ch['vocabulary']}
+              rb={x['id']:x for x in roster['items']}
+              for vid,(new,new_bn,new_rom) in replacements.items():
+                  if vid not in byid: continue
+                  item=byid[vid]
+                  old=item['target']; old_bn=item['bangla_pronunciation']; old_rom=item.get('romanization','')
+                  patch_values(ch, old,new,old_bn,new_bn,old_rom,new_rom)
+                  rb[vid]['target']=new
+                  item=next(x for x in ch['vocabulary'] if x['id']==vid)
+                  item['target']=new
+                  item['bangla_pronunciation']=new_bn
+                  item['romanization']=new_rom
+                  item['word_pronunciations']=[{'target':new,'bangla_pronunciation':new_bn,'separator_after':''}]
+                  sid=item['source_sentence_id']
+                  sent=next(x for x in ch['sentences'] if x['id']==sid)
+                  item['example_target']=sent['target']
+                  item['example_bangla_pronunciation']=sent['bangla_pronunciation']
+                  item['example_word_pronunciations']=copy.deepcopy(sent['word_pronunciations'])
+                  touched.append((vid,old,new))
+
+              # Recompute exact mixed-reading Markdown mirror with repository helper.
+              spec=importlib.util.spec_from_file_location('manage','scripts/manage.py')
+              manage=importlib.util.module_from_spec(spec); spec.loader.exec_module(manage)
+              ch['bridge_reading']['text_md']=manage.mixed_reading_markdown(ch['bridge_reading']['segments'])
+              cp.write_text(json.dumps(ch,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+              rp.write_text(json.dumps(roster,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          print('REPLACEMENTS',len(touched))
+          for x in touched: print('REPLACED',*x)
+          assert len(touched)==15
+
+          # Batch-level cross-roster uniqueness: this batch may add no target already on main.
+          def norm(s):
+              return ' '.join(unicodedata.normalize('NFC', s).casefold().split()).strip('.,!?।。！？')
+          baseline=set(json.loads(Path('/tmp/main-targets.json').read_text(encoding='utf-8')))
+          batch=[]
+          for n in range(131,141):
+              r=json.loads((bookdir/'rosters'/f'ch{n:03d}.json').read_text(encoding='utf-8'))
+              assert r['status']=='reviewed'
+              batch.extend((f'ch{n:03d}',x['id'],x['target']) for x in r['items'])
+          keys=[norm(x[2]) for x in batch]
+          assert len(keys)==len(set(keys)), 'duplicate target inside ch131-ch140 batch'
+          collisions=[x for x in batch if norm(x[2]) in baseline]
+          print('NEW_COLLISIONS_AGAINST_MAIN',len(collisions))
+          for x in collisions: print('COLLISION',x)
+          assert not collisions
+
+          # Validate each requested chapter with the repository's own chapter validator,
+          # without re-failing on unrelated historical cross-roster duplicates already on main.
+          spec=importlib.util.spec_from_file_location('manage','scripts/manage.py')
+          manage=importlib.util.module_from_spec(spec); spec.loader.exec_module(manage)
+          book=manage.read(bookdir/'book.json')
+          plans={p['chapter_id']:p for p in book['chapters']}
+          for n in range(131,141):
+              cid=f'ch{n:03d}'
+              ch=manage.read(bookdir/'chapters'/f'{cid}.json')
+              roster=manage.read(bookdir/'rosters'/f'{cid}.json')
+              vocab=manage.validate_chapter(book,plans[cid],ch,{})
+              assert [x['id'] for x in roster['items']]==plans[cid]['reserved_item_ids']
+              assert [x['target'] for x in vocab]==[x['target'] for x in roster['items']]
+              assert roster['status']=='reviewed'
+          print('BATCH_CHAPTER_VALIDATION PASSED 10/10')
+
+          # Preserve existing progress and record the real validation situation.
+          dest=bookdir/'authoring-progress.json'
+          prior=json.loads(dest.read_text(encoding='utf-8')) if dest.exists() else None
+          incoming=json.loads(Path('.github/transfer/ch131-140-progress.json').read_text(encoding='utf-8'))
+          incoming['base_main_sha']='9dbdc14b189c0d9094d3502ac616da544d24dfb1'
+          incoming['branch']='content/04-easy-hindi-vocabulary-7000-words/ch131-ch140'
+          incoming['status']='batch_complete'
+          incoming['unfinished_ids']=[]
+          incoming['remaining_issues']=['Full-book partial validator still encounters historical duplicate roster targets already present on main; this batch was separately verified to add zero new cross-roster collisions.']
+          incoming['checks_performed']=[
+            {'check':'assigned_batch_repository_schema_validation','result':'passed','details':'Repository validate_chapter logic passed ch131-ch140 individually: 10/10.'},
+            {'check':'cross_roster_incremental_uniqueness','result':'passed','details':'All 300 targets in ch131-ch140 are unique within the batch and add zero normalized target collisions against main.'},
+            {'check':'collision_corrections','result':'passed','details':'Replaced 15 initially colliding targets with main-unique B2-appropriate alternatives and updated dependent annotated fields.'},
+            {'check':'required_batch_files','result':'passed','details':'Verified chapters/ch131.json through ch140.json and matching reviewed rosters/ch131.json through ch140.json.'}
+          ]
+          incoming['git_delivery']={'status':'validated_branch_commit_pending','target_branch':'main','delivery_branch':'content/04-easy-hindi-vocabulary-7000-words/ch131-ch140','base_main_sha':'9dbdc14b189c0d9094d3502ac616da544d24dfb1','force_push':False}
+          if prior is not None: incoming['preserved_prior_progress_checkpoint']=prior
+          dest.write_text(json.dumps(incoming,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+
+      - name: Commit and push review branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          TARGET='content/04-easy-hindi-vocabulary-7000-words/ch131-ch140'
+          git config user.name 'polodev'
+          git config user.email 'polodev10@gmail.com'
+          for n in {131..140}; do
+            git add "$(printf '04-easy-hindi-vocabulary-7000-words/chapters/ch%03d.json' "$n")"
+            git add "$(printf '04-easy-hindi-vocabulary-7000-words/rosters/ch%03d.json' "$n")"
+          done
+          git add 04-easy-hindi-vocabulary-7000-words/authoring-progress.json
+          test "$(git diff --cached --name-only | wc -l)" -eq 21
+          test "$(git diff --cached --diff-filter=A --name-only | wc -l)" -eq 20
+          test "$(git diff --cached --diff-filter=M --name-only | wc -l)" -eq 1
+          git diff --cached --name-status
+          ts=$(TZ=Asia/Dhaka date '+%a %b %-d, %-I:%M%P')
+          git commit -m "$ts — 1 file modified, 20 files added"
+          sha=$(git rev-parse HEAD)
+          git push origin HEAD:"$TARGET"
+          git fetch origin "$TARGET"
+          test "$(git rev-parse "origin/$TARGET")" = "$sha"
+          echo "DELIVERED_COMMIT=$sha"
