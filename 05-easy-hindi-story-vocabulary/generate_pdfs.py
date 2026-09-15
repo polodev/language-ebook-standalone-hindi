@@ -202,10 +202,10 @@ class BookRenderer:
                 row_style = self.palette((number * 50 + i) // self.design.get("palette_rotation_every_items", 5))
                 parts.append(
                     f'<tr style="{row_style}">'
-                    f'<td><span class="item-num">{str(i+1).zfill(2)}.</span> '
+                    f'<td><span class="item-badge">{str(i+1).zfill(2)}</span> '
                     f'<span class="native" lang="{target_lang}">{esc(target_word)}</span> '
                     f'<span class="pron-cue">({pron} - {rom})</span></td>'
-                    f'<td><strong>{meaning}</strong></td></tr>'
+                    f'<td><span class="meaning-text">{meaning}</span></td></tr>'
                 )
             parts.append('</tbody></table>')
         else:
@@ -219,9 +219,9 @@ class BookRenderer:
                 row_style = self.palette((number * 50 + i) // self.design.get("palette_rotation_every_items", 5))
                 parts.append(
                     f'<tr style="{row_style}">'
-                    f'<td><div class="item-num">{str(i+1).zfill(2)}</div>'
-                    f'<div class="native" lang="{target_lang}">{esc(target_word)}</div>'
-                    f'<div class="pron-cue">({pron} - {rom})</div></td>'
+                    f'<td><span class="item-badge">{str(i+1).zfill(2)}</span> '
+                    f'<span class="native" lang="{target_lang}">{esc(target_word)}</span> '
+                    f'<span class="pron-cue">({pron} - {rom})</span></td>'
                     f'<td><div class="meaning-text">{meaning}</div></td></tr>'
                 )
             parts.append('</tbody></table>')
@@ -402,16 +402,25 @@ class BookRenderer:
             word-break: break-word;
         }}
         .vocab-table-mobile tr {{ break-inside: avoid; }}
-        .item-num {{
-            font-family: 'Miriam Libre';
-            font-weight: 700;
-            color: var(--accent);
-            margin-right: 1.5mm;
+        .item-badge, .item-num {{
             display: inline-block;
+            font-family: 'Miriam Libre', sans-serif;
+            font-size: 7.5pt;
+            font-weight: 700;
+            line-height: 1.15;
+            color: var(--accent);
+            background: rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(0, 0, 0, 0.12);
+            border-radius: 3px;
+            padding: 0.5px 3.5px;
+            margin-right: 1.5mm;
+            vertical-align: 0.5px;
+            letter-spacing: 0.02em;
         }}
         .pron-cue {{
             color: {ui['muted']};
-            font-size: 0.9em;
+            font-size: 0.88em;
+            white-space: normal;
         }}
         .meaning-text {{
             font-weight: 600;
@@ -537,6 +546,12 @@ class BookRenderer:
             h2 {{ font-size: 13pt; }}
             .chapter-native {{ font-size: 11pt; }}
             .story-prose {{ font-size: 9.5pt; line-height: 1.8; }}
+            .item-badge, .item-num {{
+                font-size: 6.8pt;
+                padding: 0.4px 3px;
+                margin-right: 1mm;
+                border-radius: 2.5px;
+            }}
             """
         if epub:
             css += """
