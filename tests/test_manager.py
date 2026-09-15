@@ -257,5 +257,32 @@ class ValidationTests(unittest.TestCase):
             packet=manager.read(book/'generated/ch001-authoring-packet.json')
             self.assertEqual(packet['instructions'],{'INSTRUCTIONS.md':'SINGLE AUTHORING SOURCE'})
 
+    def test_valid_story_vocabulary_chapter(self):
+        book = {'kind': 'story_vocabulary', 'chapter_count': 60}
+        plan = {'chapter_id': 'ch001', 'chapter_number': 1}
+        vocab = [{'id': f'v{i:02d}', 'hindi': f'शब्द{i}', 'bangla_pronunciation': f'শব্দ{i}',
+                  'romanization': f'shabd{i}', 'vocabulary': f'शब्द{i} (শব্দ{i} - shabd{i})',
+                  'meaning_bengali': f'অর্থ{i}'} for i in range(10)]
+        story = 'এটি একটি সুন্দর বাংলা গল্প। ' + ' '.join([f'**{v["hindi"]}**' for v in vocab])
+        chapter = {
+            'chapter_id': 'ch001',
+            'chapter_number': 1,
+            'status': 'drafted',
+            'title_target': 'पिरामिड का रहस्य',
+            'title_bangla_pronunciation': 'পিরামিড কা রহস্য',
+            'title_romanization': 'piraamid ka rahasya',
+            'title_bengali': 'পিরামিড রহস্য',
+            'theme': 'ইতিহাস ও প্রাচীন রহস্য',
+            'image_prompt': {
+                'key': 'ch001_story_hero_01',
+                'subject': 'Pyramids at sunset. No readable text.',
+                'style': 'Editorial illustration'
+            },
+            'story_bengali_md': story,
+            'vocabulary_table': vocab
+        }
+        res = manager.validate_story_chapter(book, plan, chapter, {})
+        self.assertEqual(len(res), 10)
+
 
 if __name__ == '__main__': unittest.main()

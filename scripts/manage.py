@@ -225,10 +225,37 @@ def validate_chapter(book, plan, ch, profile):
     return vocab
 
 
+def validate_story_chapter(book, plan, ch, profile):
+    need(ch['chapter_id'] == plan['chapter_id'], 'Chapter ID mismatch')
+    need(ch['status'] in ['drafted', 'reviewed'], 'Chapter must be a complete draft')
+    filled(ch, ['title_target', 'title_bangla_pronunciation', 'title_romanization', 'title_bengali', 'theme', 'story_bengali_md'])
+    need(re.search(r'[\u0900-\u097f]', ch['title_target']), 'title_target requires Devanagari script')
+    need(re.search(r'[\u0980-\u09ff]', ch['title_bengali']), 'title_bengali requires Bangla script')
+    need(re.search(r'[\u0980-\u09ff]', ch['title_bangla_pronunciation']), 'title_bangla_pronunciation requires Bangla script')
+    need(not NON_LATIN_SCRIPT.search(ch['title_romanization']), 'title_romanization must be Latin-letter romanization')
+    for text in walk(ch):
+        need(not re.search(r'<\s*/?\s*[A-Za-z][^>]*>', text), 'Raw HTML is forbidden')
+        need(not re.search(r'\b(TODO|TBD|LOREM IPSUM)\b', text, re.I), 'Placeholder found')
+    prompt = ch['image_prompt']
+    need(prompt['key'] == f'{plan["chapter_id"]}_story_hero_01', 'Image key mismatch')
+    filled(prompt, ['subject', 'style'])
+    need('no readable text' in prompt['subject'].lower(), 'Prompt must forbid readable text')
+    vocab = ch['vocabulary_table']
+    need(isinstance(vocab, list) and len(vocab) >= 10, 'Vocabulary table must contain at least 10 items')
+    story_text = ch['story_bengali_md']
+    need(re.search(r'[\u0980-\u09ff]', story_text), 'Story requires Bangla script')
+    for item in vocab:
+        filled(item, ['id', 'hindi', 'bangla_pronunciation', 'romanization', 'vocabulary', 'meaning_bengali'])
+        need(re.search(r'[\u0900-\u097f]', item['hindi']), 'hindi requires Devanagari script')
+        need(re.search(r'[\u0980-\u09ff]', item['bangla_pronunciation']), 'bangla_pronunciation requires Bangla script')
+        need(re.search(r'[\u0980-\u09ff]', item['meaning_bengali']), 'meaning_bengali requires Bangla script')
+        need(not NON_LATIN_SCRIPT.search(item['romanization']), 'romanization must be Latin-letter romanization')
+        need(item['hindi'] in story_text, f"Target word {item['hindi']} must occur in story text")
+    return vocab
+
+
 def check_book(path, profile, complete=False):
     book = read(path / 'book.json')
-    need(book['sentences_per_chapter'] == 20, 'Every book requires 20 sentences per chapter')
-    need(book['pure_reading_max_units'] == (12 if book['kind'] == 'advanced' else 8), 'Invalid pure-reading word limit')
     plans = book['chapters']
     need(len(plans) == book['chapter_count'], 'Wrong planned chapter count')
     need([x['chapter_number'] for x in plans] == list(range(1, len(plans)+1)), 'Noncontiguous chapter map')
@@ -236,6 +263,24 @@ def check_book(path, profile, complete=False):
     need(len(book['expected_output_files']) == 8, 'Wrong output contract')
     declared = {safe(path, x['content_file']) for x in plans}
     need(all(p.resolve() in declared for p in (path / 'chapters').glob('*.json')), 'Unindexed chapter JSON found')
+
+    if book['kind'] == 'story_vocabulary':
+        chapters = []
+        for plan in plans:
+            source = safe(path, plan['content_file'])
+            if not source.exists():
+                need(not complete, f'Missing authored chapter: {source.relative_to(ROOT)}')
+                continue
+            ch = read(source)
+            try:
+                vocab = validate_story_chapter(book, plan, ch, profile)
+            except (KeyError, TypeError, ValueError) as exc:
+                raise ValueError(f'{source.relative_to(ROOT)}: {exc}') from exc
+            chapters.append(ch)
+        return book, chapters
+
+    need(book['sentences_per_chapter'] == 20, 'Every book requires 20 sentences per chapter')
+    need(book['pure_reading_max_units'] == (12 if book['kind'] == 'advanced' else 8), 'Invalid pure-reading word limit')
     chapters = []
     targets = set()
     roster_targets = set()
@@ -322,7 +367,8 @@ def main():
             for image in images:
                 filled(image, ['subject'])
             for ch in chapters:
-                for image in ch['image_prompts']:
+                prompts = ch.get('image_prompts', [ch['image_prompt']] if 'image_prompt' in ch else [])
+                for image in prompts:
                     images.append({'key': image['key'], 'role': 'lesson-hero', 'subject': image['subject'],
                                    'style': image['style'], 'size': '1536x1024', 'quality': 'low', 'filename': image['key'] + '.png'})
             write(path / 'generated' / 'image-declaration.json', {'default_quality': 'low', 'images': images})
