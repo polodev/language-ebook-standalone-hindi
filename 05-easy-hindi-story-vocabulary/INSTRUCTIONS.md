@@ -106,3 +106,18 @@ Each chapter file is stored at `chapters/chNNN.json`:
 3. **Latin Romanization:** `romanization` must use standard Latin letters only without native script characters.
 4. **Vocabulary Consistency:** The `vocabulary` field in each table item must strictly follow `f"{hindi} ({bangla_pronunciation} - {romanization})"`.
 5. **UTF-8 Formatting:** Save all JSON files with `ensure_ascii=False, indent=2`.
+
+---
+
+## 5. Vocabulary Difficulty & Pedagogical Level (A1–B2 ONLY)
+
+* **Target Hardness:** Strictly **A1 to B2 level** (Beginner to Upper-Intermediate).
+* **Core Priority:** Focus on high-frequency, natural, everyday story vocabulary:
+  * **Common descriptive nouns:** e.g., राजा, रानी, नदी, पहाड़, रास्ता, घर, बाजार, जंगल, दोस्ती, सूरज, समुद्र, तारा
+  * **Vivid sensory adjectives:** e.g., भारी, अनोखा, सुंदर, चमकदार, अंधेरा, मीठा, गहरा, विशाल, सुरक्षित, शांत
+  * **Active narrative verbs & actions:** e.g., खोजना, निर्माण, सुरक्षा, बचाना, चमकना, यात्रा, विश्वास, विचार, कोशिश
+  * **High-utility communicative terms:** Words that adult learners encounter in Hindi movies, travel, everyday conversations, news, and modern fiction.
+* **Strictly Forbidden (No C1–C2 Level):**
+  * **NO obscure archaic Sanskrit loans** that modern Hindi speakers do not use in regular conversation or popular literature.
+  * **NO hyper-academic or bureaucratic jargon** (e.g. avoid obscure administrative terminology).
+  * **Accessibility First:** When choosing between an everyday, widely recognized Hindi word and an obscure, hyper-formal synonym, **always select the natural A1–B2 term**.
