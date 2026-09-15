@@ -485,16 +485,18 @@ class BookRenderer:
             break-after: page;
         }}
         .contents ol {{
+            list-style: none;
             column-count: 2;
             column-gap: 8mm;
             margin: 4mm 0;
-            padding-left: 6mm;
+            padding-left: 0;
             font-size: 9.5pt;
         }}
         .contents li {{
+            list-style: none;
             break-inside: avoid;
             margin-bottom: 2mm;
-            padding-left: 1mm;
+            padding-left: 0;
         }}
         .toc-num {{
             font-family: 'Miriam Libre';
@@ -549,7 +551,8 @@ class BookRenderer:
             """
         if mobile:
             css += f"""
-            .contents ol {{ column-count: 1; }}
+            .contents ol {{ column-count: 1; list-style: none; padding-left: 0; }}
+            .contents li {{ list-style: none; padding-left: 0; }}
             .cover > .reading-image {{ width: 100%; height: 100%; object-fit: cover; }}
             .cover-copy {{ left: 5%; top: 3%; width: 90%; }}
             .cover h1 {{ font-size: 18pt; line-height: 1.15; margin: 2mm 0; }}
@@ -577,7 +580,8 @@ class BookRenderer:
             .cover h1 { font-size: 2em; }
             .cover h2 { font-size: 1.4em; }
             .reading-image { max-height: none; }
-            .contents ol { column-count: 1; }
+            .contents ol { column-count: 1; list-style: none; padding-left: 0; }
+            .contents li { list-style: none; padding-left: 0; }
             .chapter { page-break-before: always; }
             """
         return css
