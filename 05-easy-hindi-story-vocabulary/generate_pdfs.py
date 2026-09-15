@@ -107,9 +107,23 @@ class BookRenderer:
             draw.rounded_rectangle([int(w * 0.28), int(h * 0.62), int(w * 0.72), int(h * 0.82)], radius=14, fill=pal["ink"])
         img.save(dest, "JPEG", quality=self.design["ui"]["image_jpeg_quality"], optimize=True)
 
+    def blend_color(self, c1: str, c2: str, ratio: float) -> str:
+        h1 = c1.lstrip("#")
+        h2 = c2.lstrip("#")
+        rgb1 = tuple(int(h1[i:i+2], 16) for i in (0, 2, 4))
+        rgb2 = tuple(int(h2[i:i+2], 16) for i in (0, 2, 4))
+        blended = tuple(rgb1[j] * (1 - ratio) + rgb2[j] * ratio for j in range(3))
+        return "#" + "".join(f"{max(0, min(255, round(v))):02X}" for v in blended)
+
     def palette(self, number: int) -> str:
         p = self.design["palettes"][number % len(self.design["palettes"])]
         return f'--accent:{p["ink"]};--tint:{p["background"]}'
+
+    def palette_row(self, group: int, is_odd: bool) -> tuple[str, str]:
+        p = self.design["palettes"][group % len(self.design["palettes"])]
+        bg = self.blend_color(p["background"], p["ink"], 0.065) if is_odd else p["background"]
+        style = f'--accent:{p["ink"]};--tint:{bg};background-color:{bg}'
+        return style, bg
 
     def picture(self, key: str, alt: str, epub: bool = False) -> str:
         path = "images/" + self.images[key].name if epub else self.images[key].resolve().as_uri()
@@ -199,13 +213,14 @@ class BookRenderer:
                 pron = esc(item.get("bangla_pronunciation", ""))
                 rom = esc(item.get("romanization", ""))
                 meaning = render_inline(item.get("meaning_bengali", ""))
-                row_style = self.palette((number * 50 + i) // self.design.get("palette_rotation_every_items", 5))
+                group = (number * 50 + i) // self.design.get("palette_rotation_every_items", 5)
+                row_style, bg = self.palette_row(group, is_odd=(i % 2 == 1))
                 parts.append(
                     f'<tr style="{row_style}">'
-                    f'<td><span class="item-badge">{str(i+1).zfill(2)}</span> '
+                    f'<td style="background-color:{bg}"><span class="item-badge">{str(i+1).zfill(2)}</span> '
                     f'<span class="native" lang="{target_lang}">{esc(target_word)}</span> '
                     f'<span class="pron-cue">({pron} - {rom})</span></td>'
-                    f'<td><span class="meaning-text">{meaning}</span></td></tr>'
+                    f'<td style="background-color:{bg}"><span class="meaning-text">{meaning}</span></td></tr>'
                 )
             parts.append('</tbody></table>')
         else:
@@ -216,13 +231,14 @@ class BookRenderer:
                 pron = esc(item.get("bangla_pronunciation", ""))
                 rom = esc(item.get("romanization", ""))
                 meaning = render_inline(item.get("meaning_bengali", ""))
-                row_style = self.palette((number * 50 + i) // self.design.get("palette_rotation_every_items", 5))
+                group = (number * 50 + i) // self.design.get("palette_rotation_every_items", 5)
+                row_style, bg = self.palette_row(group, is_odd=(i % 2 == 1))
                 parts.append(
                     f'<tr style="{row_style}">'
-                    f'<td><span class="item-badge">{str(i+1).zfill(2)}</span> '
+                    f'<td style="background-color:{bg}"><span class="item-badge">{str(i+1).zfill(2)}</span> '
                     f'<span class="native" lang="{target_lang}">{esc(target_word)}</span> '
                     f'<span class="pron-cue">({pron} - {rom})</span></td>'
-                    f'<td><div class="meaning-text">{meaning}</div></td></tr>'
+                    f'<td style="background-color:{bg}"><div class="meaning-text">{meaning}</div></td></tr>'
                 )
             parts.append('</tbody></table>')
 
