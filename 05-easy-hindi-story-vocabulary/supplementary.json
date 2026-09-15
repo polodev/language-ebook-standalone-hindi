@@ -7,10 +7,10 @@
     "subtitle": "গল্পে গল্পে ৩০০০+ হিন্দি শব্দভাণ্ডার ও উচ্চারণ আয়ত্ত করার সহজ উপায়",
     "chapter_label": "গল্প",
     "contents": "সূচিপত্র",
-    "story_heading": "প্রাসঙ্গিক গল্প (Contextual Story)",
-    "vocabulary_heading": "শব্দভাণ্ডার ও অর্থ (Vocabulary Table)",
-    "vocabulary_column": "Vocabulary (শব্দ ও উচ্চারণ)",
-    "meaning_column": "Meaning (বাংলা অর্থ)",
+    "story_heading": "প্রাসঙ্গিক গল্প",
+    "vocabulary_heading": "শব্দভাণ্ডার ও অর্থ",
+    "vocabulary_column": "শব্দ ও উচ্চারণ (Vocabulary & Pronunciation)",
+    "meaning_column": "বাংলা অর্থ (Bengali Meaning)",
     "tracker": "শেখার অগ্রগতি ট্র্যাকার",
     "tracker_subtitle": "প্রতিটি গল্প মনোযোগ দিয়ে পড়ুন এবং শব্দগুলো চর্চা করুন।",
     "tracker_columns": [
@@ -19,6 +19,129 @@
       "পড়েছি",
       "শব্দার্থ মুখস্থ",
       "রিভিশন"
-    ]
+    ],
+    "review_note": "এই সংস্করণটি সম্পাদনা ও পাঠযোগ্যতা পর্যালোচনার জন্য।"
+  },
+  "design": {
+    "status": "planned_requires_visual_QA",
+    "art_style": "Bright warm editorial illustration with natural adult characters and uncluttered scenes",
+    "palette_rotation_every_items": 5,
+    "palettes": [
+      {
+        "ink": "#175B72",
+        "background": "#EAF5FA"
+      },
+      {
+        "ink": "#6A4388",
+        "background": "#F4EEFA"
+      },
+      {
+        "ink": "#277657",
+        "background": "#EDF8F0"
+      },
+      {
+        "ink": "#97552A",
+        "background": "#FFF3E8"
+      },
+      {
+        "ink": "#994868",
+        "background": "#FFF0F5"
+      },
+      {
+        "ink": "#3E5D9B",
+        "background": "#EFF3FF"
+      },
+      {
+        "ink": "#367776",
+        "background": "#EBF9F7"
+      },
+      {
+        "ink": "#75589D",
+        "background": "#F5F0FD"
+      },
+      {
+        "ink": "#8A6521",
+        "background": "#FFF8DF"
+      },
+      {
+        "ink": "#465E42",
+        "background": "#F1F6E9"
+      },
+      {
+        "ink": "#A14F3D",
+        "background": "#FFF0EA"
+      },
+      {
+        "ink": "#5E538D",
+        "background": "#F0EFFB"
+      },
+      {
+        "ink": "#2B6B86",
+        "background": "#E9F7FC"
+      },
+      {
+        "ink": "#915374",
+        "background": "#FCF0F8"
+      },
+      {
+        "ink": "#496F63",
+        "background": "#EDF7F2"
+      }
+    ],
+    "font_stack": [
+      "Miriam Libre",
+      "Noto Serif Bengali",
+      "Noto Sans Devanagari"
+    ],
+    "target_font": "Noto Sans Devanagari",
+    "target_direction": "ltr",
+    "mobile_single_column": true,
+    "desktop_page_mm": [
+      210,
+      297
+    ],
+    "mobile_page_mm": [
+      120,
+      150
+    ],
+    "tracker_page_mm": [
+      210,
+      297
+    ],
+    "ui": {
+      "text": "#243442",
+      "muted": "#526573",
+      "paper": "#FFFFFF",
+      "rule": "#D9E3E9",
+      "cover_ink": "#175B72",
+      "card_radius_mm": 2.5,
+      "desktop_font_pt": 11,
+      "mobile_font_pt": 10,
+      "desktop_margin_mm": 12,
+      "mobile_margin_mm": 8,
+      "image_width_px": 1152,
+      "image_jpeg_quality": 84,
+      "tracker_font_pt": 9,
+      "tracker_cell_padding_mm": 1.2
+    }
+  },
+  "outputs": [
+    "01-easy-hindi-story-vocabulary-bn-day-tracker-a4.pdf",
+    "02-easy-hindi-story-vocabulary-bn-day-tracker-a4-color.pdf",
+    "03-easy-hindi-story-vocabulary-bn-sample-2-lessons-desktop.pdf",
+    "04-easy-hindi-story-vocabulary-bn-sample-2-lessons-mobile.pdf",
+    "05-easy-hindi-story-vocabulary-bn-desktop.pdf",
+    "06-easy-hindi-story-vocabulary-bn-mobile.pdf",
+    "07-easy-hindi-story-vocabulary-bn-desktop.epub",
+    "08-easy-hindi-story-vocabulary-bn-mobile.epub"
+  ],
+  "publication": {
+    "identifier": "urn:bidyazo:easy-hindi-story-vocabulary-bn:review:1",
+    "modified": "2026-09-15T00:00:00Z",
+    "edition_status": "review_build",
+    "publisher_name": "Bidyazo.com",
+    "language": "bn",
+    "target_language": "hi-IN",
+    "parent_brand": "Englishing.app"
   }
 }
